@@ -65,7 +65,3 @@ export async function resolveAccountFromLogin(
     ) ?? null
   );
 }
-
-export function allowedLoginHint(users: AccountRecord[]): string {
-  return users.map((u) => u.displayName).join(" or ");
-}

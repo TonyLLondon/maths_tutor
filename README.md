@@ -30,9 +30,20 @@ Login → Subjects → Maths → topic → **Practice** / Print
 
 ## Vercel (GitHub)
 
-Repo: [TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor). Production: **maths-tutor** on Vercel (deploys from `main` when Git is connected).
+Repo: [TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor). Production: **maths-tutor** → [maths-tutor-eight.vercel.app](https://maths-tutor-eight.vercel.app) (deploys from `main`).
 
-1. Link **Upstash Redis** or Vercel KV to the project so `KV_REST_API_URL` and `KV_REST_API_TOKEN` are set (practice progress and worksheet overrides need this in production).
-2. Optional: `LICHESS_EXPLORER_TOKEN` for chess opening names (see `.env.example`).
+**KV (free Upstash, no marketplace browser flow)** — do **not** run `vercel integration add upstash`; that opens paid Pay-as-you-go provisioning. Instead:
 
-Copy env names from `.env.example`; never commit real tokens.
+1. Create a **Free** database at [console.upstash.com](https://console.upstash.com) (or reuse an existing free REST database).
+2. Set on the Vercel project (Production at minimum):
+
+   ```bash
+   vercel env add KV_REST_API_URL production --value 'https://….upstash.io' --yes --sensitive
+   vercel env add KV_REST_API_TOKEN production --value '…' --yes --sensitive
+   ```
+
+   Or with the Upstash CLI (free tier): `npx @upstash/cli redis create --name maths-tutor --region eu-west-1`, then `upstash redis get --db-id …` for REST URL/token.
+
+3. Redeploy so env is picked up.
+
+Optional: `LICHESS_EXPLORER_TOKEN` for chess opening names (see `.env.example`). Never commit real tokens.

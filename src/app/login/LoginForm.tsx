@@ -5,10 +5,9 @@ import { useState } from "react";
 
 type Props = {
   nextPath?: string;
-  allowedHint: string;
 };
 
-export function LoginForm({ nextPath, allowedHint }: Props) {
+export function LoginForm({ nextPath }: Props) {
   const router = useRouter();
   const [name, setName] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -25,7 +24,7 @@ export function LoginForm({ nextPath, allowedHint }: Props) {
         body: JSON.stringify({ name }),
       });
       if (!res.ok) {
-        setError(`Sorry — only ${allowedHint} can use this app.`);
+        setError("That name didn't work. Try again.");
         return;
       }
       const data = (await res.json()) as { tenant: string };

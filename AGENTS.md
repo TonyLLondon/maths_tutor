@@ -46,6 +46,12 @@ npm run dev:4000
 
 Turbopack hot-reloads `src/` and `content/` changes.
 
+## Deploy / KV (agents)
+
+- **Never** `vercel integration add upstash/upstash-kv` — Vercel marketplace defaults to **paid** Pay-as-you-go and opens a browser checkout.
+- **Do** set `KV_REST_API_URL` + `KV_REST_API_TOKEN` on the Vercel project (`vercel env add … --sensitive`) from a **Free** Upstash database (`npx @upstash/cli redis create …` or console.upstash.com), then redeploy.
+- App keys are prefixed `mt:` so one free Redis can serve multiple family apps if needed.
+
 ## Smoke test with MCPBundles browser (prod hub)
 
 Use the **mcpbundles** CLI with **`--as mcpbundles_prod`**. Discovery workflow is documented in `.skills/mcpbundles-cli/SKILL.md`.
