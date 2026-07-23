@@ -1,7 +1,6 @@
 import { cookies } from "next/headers";
-import crypto from "node:crypto";
 import type { TenantId } from "./tenants";
-import { getTenantPassword, isTenantId } from "./tenants";
+import { nameMatchesTenant } from "./tenants";
 import {
   signSession,
   verifySessionToken,
@@ -29,11 +28,8 @@ export async function requireSession(tenant?: TenantId): Promise<SessionPayload>
   return session;
 }
 
-export function validateLogin(tenant: TenantId, password: string): boolean {
-  const expected = getTenantPassword(tenant);
-  if (!expected) return false;
-  if (expected.length !== password.length) return false;
-  return crypto.timingSafeEqual(Buffer.from(expected), Buffer.from(password));
+export function validateLogin(tenant: TenantId, name: string): boolean {
+  return nameMatchesTenant(tenant, name);
 }
 
 export async function createSession(tenant: TenantId): Promise<void> {

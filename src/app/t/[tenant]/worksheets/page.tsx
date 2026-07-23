@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireSession } from "@/lib/auth";
 import { listWorksheets } from "@/lib/content";
+import { worksheetHref } from "@/lib/paths";
 import { isTenantId, TENANTS } from "@/lib/tenants";
 import { topicByCode } from "@/lib/topics/catalog";
 import { TenantNav } from "@/components/TenantNav";
@@ -23,7 +24,7 @@ export default async function WorksheetsIndexPage({ params }: Props) {
         <p className="mt-2 text-sm text-stone-600">
           Markdown in{" "}
           <code className="rounded bg-stone-100 px-1">
-            content/tenants/{tenant}/worksheets/
+            content/tenants/{tenant}/topics/
           </code>
         </p>
         <ul className="mt-6 divide-y divide-stone-200 rounded-xl border border-stone-200 bg-white">
@@ -34,7 +35,7 @@ export default async function WorksheetsIndexPage({ params }: Props) {
                 <div className="flex flex-wrap items-start justify-between gap-3">
                   <div>
                     <Link
-                      href={`/t/${tenant}/worksheets/${w.slug}`}
+                      href={worksheetHref(tenant, w.slug)}
                       className="text-lg font-medium text-stone-900 hover:underline"
                     >
                       {w.frontmatter.title}
@@ -49,13 +50,13 @@ export default async function WorksheetsIndexPage({ params }: Props) {
                   </div>
                   <div className="flex gap-2">
                     <Link
-                      href={`/t/${tenant}/worksheets/${w.slug}/print`}
+                      href={`${worksheetHref(tenant, w.slug)}/print`}
                       className="rounded-lg border border-stone-300 px-3 py-1.5 text-sm"
                     >
                       Print
                     </Link>
                     <Link
-                      href={`/t/${tenant}/worksheets/${w.slug}/edit`}
+                      href={`${worksheetHref(tenant, w.slug)}/edit`}
                       className="rounded-lg bg-stone-900 px-3 py-1.5 text-sm text-white"
                     >
                       Edit

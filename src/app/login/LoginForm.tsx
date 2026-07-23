@@ -11,7 +11,7 @@ type Props = {
 
 export function LoginForm({ tenantId, nextPath }: Props) {
   const router = useRouter();
-  const [password, setPassword] = useState("");
+  const [name, setName] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
 
@@ -23,10 +23,10 @@ export function LoginForm({ tenantId, nextPath }: Props) {
       const res = await fetch("/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ tenant: tenantId, password }),
+        body: JSON.stringify({ tenant: tenantId, name }),
       });
       if (!res.ok) {
-        setError("Incorrect password.");
+        setError("Type your name exactly: Archer");
         return;
       }
       const dest =
@@ -44,19 +44,20 @@ export function LoginForm({ tenantId, nextPath }: Props) {
     <form onSubmit={onSubmit} className="mt-8 space-y-4">
       <div>
         <label
-          htmlFor="password"
+          htmlFor="name"
           className="block text-sm font-medium text-stone-700"
         >
-          Password
+          Your name
         </label>
         <input
-          id="password"
-          name="password"
-          type="password"
-          autoComplete="current-password"
+          id="name"
+          name="name"
+          type="text"
+          autoComplete="name"
           required
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Archer"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
           className="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 text-stone-900 outline-none ring-stone-400 focus:ring-2"
         />
       </div>
@@ -70,7 +71,7 @@ export function LoginForm({ tenantId, nextPath }: Props) {
         disabled={pending}
         className="w-full rounded-lg bg-stone-900 py-2.5 text-sm font-medium text-white hover:bg-stone-800 disabled:opacity-60"
       >
-        {pending ? "Signing in…" : `Enter ${tenantId === "archer" ? "Archer" : tenantId}`}
+        {pending ? "One moment…" : "Go to worksheets"}
       </button>
     </form>
   );

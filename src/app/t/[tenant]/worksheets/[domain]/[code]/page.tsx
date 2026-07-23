@@ -6,13 +6,16 @@ import { isTenantId, TENANTS } from "@/lib/tenants";
 import { TenantNav } from "@/components/TenantNav";
 import { WorksheetView } from "@/components/WorksheetView";
 
-type Props = { params: Promise<{ tenant: string; slug: string }> };
+type Props = {
+  params: Promise<{ tenant: string; domain: string; code: string }>;
+};
 
-export default async function LegacyWorksheetPage({ params }: Props) {
-  const { tenant, slug } = await params;
+export default async function TopicWorksheetPage({ params }: Props) {
+  const { tenant, domain, code } = await params;
   if (!isTenantId(tenant)) notFound();
   await requireSession(tenant);
 
+  const slug = `${domain}/${code}`;
   const doc = await getWorksheet(tenant, slug);
   if (!doc) notFound();
 

@@ -22,40 +22,72 @@ export type WorksheetDoc = {
 
 const CONTENT_ROOT = path.join(process.cwd(), "content", "tenants");
 
-function tenantDir(tenantId: string): string {
-  return path.join(CONTENT_ROOT, tenantId, "worksheets");
+function tenantRoot(tenantId: string): string {
+  return path.join(CONTENT_ROOT, tenantId);
+}
+
+async function walkMarkdown(
+  dir: string,
+  base: string,
+  slugs: string[],
+): Promise<void> {
+  let entries;
+  try {
+    entries = await fs.readdir(dir, { withFileTypes: true });
+  } catch {
+    return;
+  }
+  for (const entry of entries) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      await walkMarkdown(full, base, slugs);
+      continue;
+    }
+    if (!entry.name.endsWith(".md") || entry.name === "README.md") continue;
+    const rel = path.relative(base, full).replace(/\.md$/, "");
+    slugs.push(rel.split(path.sep).join("/"));
+  }
 }
 
 export async function listWorksheetSlugs(tenantId: string): Promise<string[]> {
-  const dir = tenantDir(tenantId);
-  try {
-    const files = await fs.readdir(dir);
-    return files
-      .filter((f) => f.endsWith(".md"))
-      .map((f) => f.replace(/\.md$/, ""))
-      .sort();
-  } catch {
-    return [];
-  }
+  const slugs: string[] = [];
+  await walkMarkdown(
+    path.join(tenantRoot(tenantId), "topics"),
+    path.join(tenantRoot(tenantId), "topics"),
+    slugs,
+  );
+  await walkMarkdown(
+    path.join(tenantRoot(tenantId), "worksheets"),
+    path.join(tenantRoot(tenantId), "worksheets"),
+    slugs,
+  );
+  return [...new Set(slugs)].sort();
 }
 
 async function readRepoWorksheet(
   tenantId: string,
   slug: string,
 ): Promise<WorksheetDoc | null> {
-  const filePath = path.join(tenantDir(tenantId), `${slug}.md`);
-  try {
-    const raw = await fs.readFile(filePath, "utf8");
-    const { data, content } = matter(raw);
-    return {
-      slug,
-      source: "repo",
-      frontmatter: data as WorksheetFrontmatter,
-      body: content.trim(),
-    };
-  } catch {
-    return null;
+  const normalized = slug.split("/").join(path.sep);
+  const candidates = [
+    path.join(tenantRoot(tenantId), "topics", `${normalized}.md`),
+    path.join(tenantRoot(tenantId), "worksheets", `${normalized}.md`),
+  ];
+  for (const filePath of candidates) {
+    try {
+      const raw = await fs.readFile(filePath, "utf8");
+      const { data, content } = matter(raw);
+      return {
+        slug,
+        source: "repo",
+        frontmatter: data as WorksheetFrontmatter,
+        body: content.trim(),
+      };
+    } catch {
+      continue;
+    }
   }
+  return null;
 }
 
 export async function getWorksheet(
@@ -70,7 +102,13 @@ export async function getWorksheet(
     return {
       slug,
       source: "kv",
-      frontmatter: (data as WorksheetFrontmatter) ?? repo?.frontmatter ?? { title: slug, topic: "", domain: "" },
+      frontmatter:
+        (data as WorksheetFrontmatter) ??
+        repo?.frontmatter ?? {
+          title: slug,
+          topic: "",
+          domain: "",
+        },
       body: content.trim(),
     };
   }

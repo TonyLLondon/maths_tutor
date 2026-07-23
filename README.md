@@ -1,79 +1,41 @@
 # Maths Tutor
 
-Next.js app for **GCSE-aligned maths worksheets** with simple **multi-tenant** auth (tenant **Archer**), **markdown** content in Git, **web edits** stored in **Vercel KV**, and **print-first** layouts.
+Next.js app for **GCSE-aligned printable worksheets** (tenant **Archer**), markdown in Git, optional **Vercel KV** for web edits.
 
 Repository: [github.com/TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor)
 
-## Stack
+## Login
 
-- Next.js (App Router) on Vercel free tier
-- Markdown worksheets in `content/tenants/{tenant}/worksheets/*.md`
-- GCSE topic catalog in `src/lib/topics/catalog.ts`
-- Per-tenant overrides in KV keys `mt:tenant:{tenant}:worksheet:{slug}`
-- Local dev without KV uses `.data/kv-dev.json`
+Open `/login` and type **Archer** (case-insensitive). No password or env secrets required.
+
+Optional: connect **Vercel Redis (Upstash)** only if you use in-browser edits (`KV_REST_API_URL` / `KV_REST_API_TOKEN`).
 
 ## Local development
 
 ```bash
 npm install
-cp .env.example .env.local
 npm run dev
 ```
 
-Open [http://localhost:3000/login](http://localhost:3000/login). Default dev password: `archer-dev` (when `TENANT_ARCHER_PASSWORD` is unset).
+## Content layout
 
-## Content (markdown)
+| Path | URL |
+|------|-----|
+| `content/tenants/archer/topics/number/N4.md` | `/t/archer/worksheets/number/N4` |
+| `content/tenants/archer/worksheets/foo.md` | `/t/archer/worksheets/foo` |
 
-Each worksheet file uses YAML frontmatter:
+Topic catalog: `src/lib/topics/catalog.ts`
 
-```yaml
----
-title: Factors and multiples
-topic: N4
-domain: number
-ao:
-  - AO1
-  - AO2
-week: 1
-printNotes: Name · Date · space for working
----
+## Deploy (Vercel CLI)
 
-## Fluency (AO1)
-
-1. Your question here.
+```bash
+vercel link    # create/link maths_tutor project
+vercel --prod
 ```
 
-Sections like **Fluency / Reasoning / Problem / Stretch** map to GCSE AO1–AO3 style practice.
+Import from GitHub is equivalent. Add Redis integration only for KV edits.
 
-## Deploy on Vercel
+## Workflow
 
-1. Push this repo to GitHub and import in Vercel.
-2. Add **Storage → Redis** (Upstash) from the Vercel marketplace; link to the project (sets `KV_REST_API_URL` and `KV_REST_API_TOKEN`).
-3. Environment variables:
-   - `AUTH_SECRET` — random string
-   - `TENANT_ARCHER_PASSWORD` — Archer login password
-4. Deploy.
-
-## Routes
-
-| Path | Purpose |
-|------|---------|
-| `/login` | Sign in as Archer |
-| `/t/archer` | Dashboard |
-| `/t/archer/topics` | GCSE topic map |
-| `/t/archer/worksheets` | List worksheets |
-| `/t/archer/worksheets/{slug}` | Preview |
-| `/t/archer/worksheets/{slug}/print` | A4 print / Save as PDF |
-| `/t/archer/worksheets/{slug}/edit` | Edit markdown → KV |
-
-## Adding tenants
-
-1. Add an entry in `src/lib/tenants.ts`.
-2. Create `content/tenants/{id}/worksheets/`.
-3. Set `TENANT_{ID}_PASSWORD` in Vercel.
-
-## Workflow: Git vs KV
-
-- **Git markdown** = canonical, versioned, good for bulk authoring in Cursor.
-- **KV save** = quick tweaks from phone/tablet on the deployed app.
-- Copy KV edits back into Git when you want them permanent in the repo.
+- Author markdown in Git → push → deploy.
+- Quick edits on the live site → Save to KV → copy back to Git when happy.

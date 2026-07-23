@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { apiWorksheetPath, worksheetHref } from "@/lib/paths";
 
 type Props = {
   tenant: string;
@@ -15,19 +16,17 @@ export function WorksheetEditor({ tenant, slug, initialMarkdown }: Props) {
   const [markdown, setMarkdown] = useState(initialMarkdown);
   const [status, setStatus] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
+  const preview = worksheetHref(tenant, slug);
 
   async function save() {
     setPending(true);
     setStatus(null);
     try {
-      const res = await fetch(
-        `/api/t/${tenant}/worksheets/${slug}`,
-        {
-          method: "PUT",
-          headers: { "Content-Type": "text/plain; charset=utf-8" },
-          body: markdown,
-        },
-      );
+      const res = await fetch(apiWorksheetPath(tenant, slug), {
+        method: "PUT",
+        headers: { "Content-Type": "text/plain; charset=utf-8" },
+        body: markdown,
+      });
       if (!res.ok) {
         setStatus("Save failed.");
         return;
@@ -42,20 +41,14 @@ export function WorksheetEditor({ tenant, slug, initialMarkdown }: Props) {
   }
 
   async function resetToRepo() {
-    if (
-      !confirm(
-        "Remove KV override and show the Git repo version again?",
-      )
-    ) {
+    if (!confirm("Remove KV override and show the Git repo version again?")) {
       return;
     }
     setPending(true);
     try {
-      await fetch(`/api/t/${tenant}/worksheets/${slug}`, {
-        method: "DELETE",
-      });
+      await fetch(apiWorksheetPath(tenant, slug), { method: "DELETE" });
       router.refresh();
-      const res = await fetch(`/api/t/${tenant}/worksheets/${slug}`);
+      const res = await fetch(apiWorksheetPath(tenant, slug));
       if (res.ok) {
         setMarkdown(await res.text());
         setStatus("Reset to repo default.");
@@ -71,7 +64,7 @@ export function WorksheetEditor({ tenant, slug, initialMarkdown }: Props) {
         value={markdown}
         onChange={(e) => setMarkdown(e.target.value)}
         spellCheck={false}
-        className="min-h-[420px] w-full rounded-xl border border-stone-300 font-mono text-sm leading-relaxed text-stone-900 p-4 outline-none ring-stone-400 focus:ring-2"
+        className="min-h-[420px] w-full rounded-xl border border-stone-300 p-4 font-mono text-sm leading-relaxed text-stone-900 outline-none ring-stone-400 focus:ring-2"
       />
       <div className="flex flex-wrap items-center gap-3">
         <button
@@ -90,15 +83,10 @@ export function WorksheetEditor({ tenant, slug, initialMarkdown }: Props) {
         >
           Reset to repo
         </button>
-        <Link
-          href={`/t/${tenant}/worksheets/${slug}`}
-          className="text-sm text-stone-600 underline"
-        >
+        <Link href={preview} className="text-sm text-stone-600 underline">
           Preview
         </Link>
-        {status ? (
-          <span className="text-sm text-stone-600">{status}</span>
-        ) : null}
+        {status ? <span className="text-sm text-stone-600">{status}</span> : null}
       </div>
     </div>
   );

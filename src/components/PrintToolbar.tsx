@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { worksheetHref } from "@/lib/paths";
 
 export function PrintToolbar({
   tenant,
@@ -9,12 +10,11 @@ export function PrintToolbar({
   tenant: string;
   slug: string;
 }) {
+  const back = worksheetHref(tenant, slug);
+
   return (
     <div className="sticky top-0 z-10 flex flex-wrap items-center justify-between gap-2 border-b border-stone-200 bg-stone-100 px-4 py-2 print:hidden">
-      <Link
-        href={`/t/${tenant}/worksheets/${slug}`}
-        className="text-sm text-stone-600 hover:text-stone-900"
-      >
+      <Link href={back} className="text-sm text-stone-600 hover:text-stone-900">
         ← Back
       </Link>
       <button

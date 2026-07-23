@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireSession } from "@/lib/auth";
 import { isTenantId, TENANTS } from "@/lib/tenants";
@@ -8,6 +9,7 @@ import {
   type GcseDomain,
 } from "@/lib/topics/catalog";
 import { TenantNav } from "@/components/TenantNav";
+import { worksheetHref } from "@/lib/paths";
 
 type Props = { params: Promise<{ tenant: string }> };
 
@@ -59,6 +61,12 @@ export default async function TopicsPage({ params }: Props) {
                     <p className="mt-2 text-sm text-stone-800">
                       <span className="font-medium">Age 9:</span> {t.age9Focus}
                     </p>
+                    <Link
+                      href={worksheetHref(tenant, `${domain}/${t.code}`)}
+                      className="mt-3 inline-block text-sm font-medium text-stone-900 underline"
+                    >
+                      Open worksheet · Print
+                    </Link>
                   </li>
                 ))}
               </ul>

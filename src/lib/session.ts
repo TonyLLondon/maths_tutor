@@ -6,18 +6,14 @@ export type SessionPayload = {
   exp: number;
 };
 
-function secret(): string {
-  const s = process.env.AUTH_SECRET;
-  if (!s && process.env.NODE_ENV === "development") return "dev-auth-secret-change-me";
-  if (!s) throw new Error("AUTH_SECRET is required in production");
-  return s;
-}
+/** Fixed signing material — family app, not a deployed secret. */
+const COOKIE_SIGNING_KEY = "maths-tutor-archer-session-v1";
 
 async function hmacSign(message: string): Promise<string> {
   const enc = new TextEncoder();
   const key = await crypto.subtle.importKey(
     "raw",
-    enc.encode(secret()),
+    enc.encode(COOKIE_SIGNING_KEY),
     { name: "HMAC", hash: "SHA-256" },
     false,
     ["sign"],
@@ -30,7 +26,7 @@ async function hmacVerify(message: string, signature: string): Promise<boolean> 
   const enc = new TextEncoder();
   const key = await crypto.subtle.importKey(
     "raw",
-    enc.encode(secret()),
+    enc.encode(COOKIE_SIGNING_KEY),
     { name: "HMAC", hash: "SHA-256" },
     false,
     ["verify"],

@@ -24,12 +24,12 @@ export default async function LoginPage({ searchParams }: Props) {
           Maths tutor
         </p>
         <h1 className="mt-2 text-2xl font-semibold text-stone-900">
-          Sign in as {tenant.name}
+          Hi, {tenant.name}
         </h1>
         <p className="mt-2 text-sm text-stone-600">{tenant.subtitle}</p>
         <LoginForm tenantId={DEFAULT_TENANT} nextPath={next} />
         <p className="mt-6 text-xs text-stone-400">
-          Content lives in GitHub; edits on Vercel save to KV per tenant.
+          Type your name to open worksheets. No password.
         </p>
       </div>
       <Link

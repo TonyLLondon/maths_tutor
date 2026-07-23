@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { requireSession } from "@/lib/auth";
 import { listWorksheets } from "@/lib/content";
+import { worksheetHref } from "@/lib/paths";
 import { isTenantId, TENANTS } from "@/lib/tenants";
 import { TenantNav } from "@/components/TenantNav";
 
@@ -30,7 +31,7 @@ export default async function TenantHomePage({ params }: Props) {
             {worksheets.map((w) => (
               <li key={w.slug}>
                 <Link
-                  href={`/t/${tenant}/worksheets/${w.slug}`}
+                  href={worksheetHref(tenant, w.slug)}
                   className="flex flex-wrap items-baseline justify-between gap-2 rounded-lg border border-stone-200 bg-white px-4 py-3 hover:border-stone-400"
                 >
                   <span className="font-medium text-stone-900">

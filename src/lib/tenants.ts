@@ -4,7 +4,6 @@ export type TenantConfig = {
   id: TenantId;
   name: string;
   subtitle: string;
-  passwordEnvKey: string;
 };
 
 export const TENANTS: Record<TenantId, TenantConfig> = {
@@ -12,7 +11,6 @@ export const TENANTS: Record<TenantId, TenantConfig> = {
     id: "archer",
     name: "Archer",
     subtitle: "GCSE-aligned maths worksheets",
-    passwordEnvKey: "TENANT_ARCHER_PASSWORD",
   },
 };
 
@@ -22,10 +20,8 @@ export function isTenantId(value: string): value is TenantId {
   return value in TENANTS;
 }
 
-export function getTenantPassword(tenantId: TenantId): string {
+/** Login is the tenant display name (case-insensitive), e.g. "Archer". */
+export function nameMatchesTenant(tenantId: TenantId, name: string): boolean {
   const tenant = TENANTS[tenantId];
-  const fromEnv = process.env[tenant.passwordEnvKey];
-  if (fromEnv) return fromEnv;
-  if (process.env.NODE_ENV === "development") return "archer-dev";
-  return "";
+  return name.trim().toLowerCase() === tenant.name.toLowerCase();
 }
