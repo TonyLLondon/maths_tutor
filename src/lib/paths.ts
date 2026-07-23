@@ -28,7 +28,7 @@ export function worksheetHref(tenant: string, slug: string): string {
     const [domain, code] = slug.split("/");
     return mathsTopicHref(tenant, domain, code);
   }
-  return `/t/${tenant}/worksheets/${encodeURIComponent(slug)}`;
+  return `/t/${tenant}/worksheets/legacy/${encodeURIComponent(slug)}`;
 }
 
 export function apiWorksheetPath(tenant: string, slug: string): string {
@@ -36,7 +36,7 @@ export function apiWorksheetPath(tenant: string, slug: string): string {
     const [domain, code] = slug.split("/");
     return `/api/t/${tenant}/worksheets/${encodeURIComponent(domain)}/${encodeURIComponent(code)}`;
   }
-  return `/api/t/${tenant}/worksheets/${encodeURIComponent(slug)}`;
+  return `/api/t/${tenant}/worksheets/legacy/${encodeURIComponent(slug)}`;
 }
 
 export function apiProgressPath(
