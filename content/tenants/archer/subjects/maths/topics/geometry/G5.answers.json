@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "They are exactly the same shape and size (one can be moved, turned, or flipped onto the other exactly).",
+      "accept": [
+        "same shape and size",
+        "identical"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "2": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "SAS",
+      "accept": [
+        "sas"
+      ],
+      "tier": 1
+    },
+    "4": {
+      "display": "ASA",
+      "accept": [
+        "asa"
+      ],
+      "tier": 1
+    },
+    "5": {
+      "display": "RHS",
+      "accept": [
+        "rhs"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "False \u2014 same angles only proves the triangles are similar, not congruent (one could be bigger).",
+      "accept": [
+        "false"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "7": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 1
+    },
+    "8": {
+      "display": "SAS",
+      "accept": [
+        "sas"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1
+    },
+    "10": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1
+    },
+    "11": {
+      "display": "No \u2014 they have the same angles but different sizes, so they are similar, not congruent.",
+      "accept": [
+        "no"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "12": {
+      "display": "SSA",
+      "accept": [
+        "ssa"
+      ],
+      "tier": 1
+    },
+    "13": {
+      "display": "RHS proves congruence; the missing side is \u221a(10\u00b2 \u2212 6\u00b2) = \u221a64 = 8 cm.",
+      "accept": [
+        "rhs",
+        "8",
+        "8 cm",
+        "8cm"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "14": {
+      "display": "Congruent shapes are identical in shape AND size; similar shapes have the same shape (equal angles, proportional sides) but can be different sizes.",
+      "accept": [
+        "same size",
+        "different size",
+        "proportional"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "15": {
+      "display": "Sometimes \u2014 triangles can share a perimeter with different side lengths (not congruent), or happen to have identical sides (congruent).",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "16": {
+      "display": "ASA (the 7 cm side is included between the 90\u00b0 and 40\u00b0 angles).",
+      "accept": [
+        "asa"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "17": {
+      "display": "No \u2014 with two sides and a non-included angle, two different triangles can often be drawn, so SSA does not reliably prove congruence.",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "18": {
+      "display": "A reflection is a rigid transformation \u2014 it keeps all lengths and angles the same, so the image is always congruent to the original.",
+      "accept": [
+        "rigid",
+        "lengths",
+        "angles the same",
+        "congruent"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "19": {
+      "display": "Example: two equilateral triangles both have angles 60\u00b0, 60\u00b0, 60\u00b0 but can have different side lengths (e.g. 2 cm and 5 cm) \u2014 same shape, different size, so not congruent.",
+      "accept": [
+        "equilateral",
+        "different size",
+        "not congruent"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "20": {
+      "display": "No \u2014 impossible. Equal legs of 5 cm and a base angle of 70\u00b0 fix the whole triangle (SAS), so the base length must also be the same; the two triangles would have to be congruent.",
+      "accept": [
+        "no",
+        "impossible",
+        "congruent"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "21": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 3
+    },
+    "22": {
+      "display": "Missing side = \u221a(13\u00b2 \u2212 5\u00b2) = \u221a144 = 12 m for both; RHS proves they are congruent.",
+      "accept": [
+        "12",
+        "rhs"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "23": {
+      "display": "SAS (AB = DE, AC = DF, and the included angle at A equals the included angle at D) \u2014 yes, the triangles are congruent.",
+      "accept": [
+        "sas",
+        "yes",
+        "congruent"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "24": {
+      "display": "ASA \u2014 two matching angles (55\u00b0, 65\u00b0) with the included side (40 m) proves the two survey triangles are identical.",
+      "accept": [
+        "asa"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "25": {
+      "display": "No \u2014 the third sides differ (10 cm vs 8 cm), so the triangles are not congruent even though two pairs of sides match.",
+      "accept": [
+        "no",
+        "not congruent"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "26": {
+      "display": "50 cm (a 30-40-50 triangle, which is the 3-4-5 Pythagorean triple scaled \u00d710).",
+      "accept": [
+        "50",
+        "50 cm",
+        "50cm"
+      ],
+      "tier": 3
+    },
+    "27": {
+      "display": "In a right-angled triangle, once you know the right angle, hypotenuse, and one other side, the third side is fixed by Pythagoras' theorem \u2014 so matching those three facts is really just matching all three sides (SSS) in disguise.",
+      "accept": [
+        "pythagoras",
+        "third side",
+        "sss"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "28": {
+      "display": "Example: a triangle with base 8 cm and height 3 cm, and another with base 6 cm and height 4 cm \u2014 both have area 12 cm\u00b2 but different shapes, so equal area alone cannot prove congruence.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    },
+    "29": {
+      "display": "Similar",
+      "accept": [
+        "similar"
+      ],
+      "tier": 3
+    },
+    "30": {
+      "display": "Your own pair of triangles with side/angle measurements, correctly naming the congruence rule (SSS, SAS, ASA, RHS) that applies, or explaining that none apply.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    }
+  }
+}

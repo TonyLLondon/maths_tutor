@@ -28,20 +28,20 @@ export function WorksheetEditor({ tenant, slug, initialMarkdown }: Props) {
         body: markdown,
       });
       if (!res.ok) {
-        setStatus("Save failed.");
+        setStatus("Could not save. Try again.");
         return;
       }
-      setStatus("Saved to KV.");
+      setStatus("Saved.");
       router.refresh();
     } catch {
-      setStatus("Save failed.");
+      setStatus("Could not save. Try again.");
     } finally {
       setPending(false);
     }
   }
 
   async function resetToRepo() {
-    if (!confirm("Remove KV override and show the Git repo version again?")) {
+    if (!confirm("Go back to the original worksheet text?")) {
       return;
     }
     setPending(true);
@@ -51,7 +51,7 @@ export function WorksheetEditor({ tenant, slug, initialMarkdown }: Props) {
       const res = await fetch(apiWorksheetPath(tenant, slug));
       if (res.ok) {
         setMarkdown(await res.text());
-        setStatus("Reset to repo default.");
+        setStatus("Restored original.");
       }
     } finally {
       setPending(false);
@@ -64,7 +64,7 @@ export function WorksheetEditor({ tenant, slug, initialMarkdown }: Props) {
         value={markdown}
         onChange={(e) => setMarkdown(e.target.value)}
         spellCheck={false}
-        className="min-h-[420px] w-full rounded-xl border border-stone-300 p-4 font-mono text-sm leading-relaxed text-stone-900 outline-none ring-stone-400 focus:ring-2"
+        className="min-h-105 w-full rounded-xl border border-stone-300 p-4 font-mono text-sm leading-relaxed text-stone-900 outline-none ring-stone-400 focus:ring-2"
       />
       <div className="flex flex-wrap items-center gap-3">
         <button
@@ -73,7 +73,7 @@ export function WorksheetEditor({ tenant, slug, initialMarkdown }: Props) {
           onClick={() => void save()}
           className="rounded-lg bg-stone-900 px-4 py-2 text-sm font-medium text-white disabled:opacity-60"
         >
-          Save to KV
+          Save changes
         </button>
         <button
           type="button"
@@ -81,7 +81,7 @@ export function WorksheetEditor({ tenant, slug, initialMarkdown }: Props) {
           onClick={() => void resetToRepo()}
           className="rounded-lg border border-stone-300 px-4 py-2 text-sm"
         >
-          Reset to repo
+          Reset to original
         </button>
         <Link href={preview} className="text-sm text-stone-600 underline">
           Preview

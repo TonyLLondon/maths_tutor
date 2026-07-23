@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "3\u2076",
+      "accept": [
+        "3^6",
+        "3\u2076",
+        "36"
+      ],
+      "tier": 1
+    },
+    "2": {
+      "display": "5\u2074",
+      "accept": [
+        "5^4",
+        "5\u2074"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1
+    },
+    "4": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "0.5"
+      ],
+      "tier": 1
+    },
+    "5": {
+      "display": "x\u2078",
+      "accept": [
+        "x^8",
+        "x\u2078"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "y\u2074",
+      "accept": [
+        "y^4",
+        "y\u2074"
+      ],
+      "tier": 1
+    },
+    "7": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1
+    },
+    "8": {
+      "display": "1/9",
+      "accept": [
+        "1/9"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "a\u2076",
+      "accept": [
+        "a^6",
+        "a\u2076"
+      ],
+      "tier": 1
+    },
+    "10": {
+      "display": "2\u00b3 (= 8)",
+      "accept": [
+        "2^3",
+        "2\u00b3",
+        "8"
+      ],
+      "tier": 1
+    },
+    "11": {
+      "display": "b\u2078",
+      "accept": [
+        "b^8",
+        "b\u2078"
+      ],
+      "tier": 1
+    },
+    "12": {
+      "display": "1/5",
+      "accept": [
+        "1/5",
+        "0.2"
+      ],
+      "tier": 1
+    },
+    "13": {
+      "display": "x\u2074",
+      "accept": [
+        "x^4",
+        "x\u2074"
+      ],
+      "tier": 1
+    },
+    "14": {
+      "display": "1/8",
+      "accept": [
+        "1/8"
+      ],
+      "tier": 1
+    },
+    "15": {
+      "display": "No \u2014 any non-zero number to the power 0 equals 1, so 2\u2070 = 1.",
+      "accept": [
+        "no",
+        "1",
+        "not correct"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "No \u2014 a negative index means the reciprocal of the power, so 2\u207b\u00b2 = 1/2\u00b2 = 1/4, not \u22124.",
+      "accept": [
+        "no",
+        "1/4",
+        "reciprocal"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "19": {
+      "display": "Yes, both equal 3\u2075 = 243, since the laws of indices give 3\u00b2 \u00d7 3\u00b3 = 3^(2+3) = 3\u2075.",
+      "accept": [
+        "yes",
+        "243",
+        "3^5"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "20": {
+      "display": "2\u2074 = 16",
+      "accept": [
+        "16",
+        "2^4"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "21": {
+      "display": "Wrong \u2014 x\u00b3 \u00d7 x\u00b3 = x^(3+3) = x\u2076, not x\u2079.",
+      "accept": [
+        "x^6",
+        "x\u2076",
+        "wrong"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "22": {
+      "display": "a\u2074",
+      "accept": [
+        "a^4",
+        "a\u2074"
+      ],
+      "tier": 3
+    },
+    "23": {
+      "display": "Between 6 and 7, since 6\u00b2 = 36 and 7\u00b2 = 49, and 36 < 40 < 49.",
+      "accept": [
+        "6",
+        "7"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "24": {
+      "display": "Between 9 and 10, since 9\u00b2 = 81 and 10\u00b2 = 100, and 81 < 90 < 100.",
+      "accept": [
+        "9",
+        "10"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "25": {
+      "display": "32",
+      "accept": [
+        "32"
+      ],
+      "tier": 3
+    },
+    "26": {
+      "display": "1/16",
+      "accept": [
+        "1/16"
+      ],
+      "tier": 3
+    },
+    "27": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 3
+    },
+    "28": {
+      "display": "Yes \u2014 \u221a36 \u00d7 \u221a4 = 6 \u00d7 2 = 12 = \u221a144. It works again with \u221a9 \u00d7 \u221a16 = 3 \u00d7 4 = 12 = \u221a144, so the rule holds for non-negative numbers.",
+      "accept": [
+        "yes",
+        "12"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "29": {
+      "display": "m\u00b3",
+      "accept": [
+        "m^3",
+        "m\u00b3"
+      ],
+      "tier": 2
+    },
+    "30": {
+      "display": "Yes \u2014 2\u207b\u00b9 = 0.5, 2\u2070 = 1, 2\u00b9 = 2, so 0.5 < 1 < 2 is correct.",
+      "accept": [
+        "yes",
+        "0.5",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2
+    }
+  }
+}

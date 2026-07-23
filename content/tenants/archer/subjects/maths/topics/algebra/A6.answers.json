@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "Yes \u2014 2(2) + 1 = 5, which is true.",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "2": {
+      "display": "No \u2014 2(3) + 1 = 7, not 5.",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "3": {
+      "display": "Yes \u2014 both sides equal 8.",
+      "accept": [
+        "yes",
+        "8"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "4": {
+      "display": "Yes \u2014 both sides equal 26.",
+      "accept": [
+        "yes",
+        "26"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "5": {
+      "display": "x = 5",
+      "accept": [
+        "5",
+        "x=5",
+        "x = 5"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "No \u2014 3(x + 1) = 3x + 3, not 3x + 1.",
+      "accept": [
+        "no",
+        "3x+3"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "7": {
+      "display": "Yes \u2014 0^2 = 0.",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "8": {
+      "display": "Yes \u2014 1^2 = 1.",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "9": {
+      "display": "No \u2014 2^2 = 4, not 2.",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "10": {
+      "display": "Yes \u2014 they are always equal (an identity).",
+      "accept": [
+        "yes",
+        "always"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "11": {
+      "display": "x = 4",
+      "accept": [
+        "4",
+        "x=4",
+        "x = 4"
+      ],
+      "tier": 1
+    },
+    "12": {
+      "display": "Only some values (x = 0 and x = 1).",
+      "accept": [
+        "some",
+        "0",
+        "1"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "13": {
+      "display": "Priya is wrong \u2014 an identity must be true for every value of x. 2x + 3 = 7 is only true for x = 2, so it is an equation with a single solution, not an identity.",
+      "accept": [
+        "equation",
+        "one solution",
+        "x = 2"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "14": {
+      "display": "Always \u2014 expanding the left-hand side gives 3x + 6, which matches the right-hand side for every value of x.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "15": {
+      "display": "Sam is wrong \u2014 x + x = 2x is true for every value of x, not just x = 0. It is an identity, not an equation with a single solution.",
+      "accept": [
+        "identity",
+        "every value"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "2x + 4 = 10 is true at x = 3 (its only solution) but false at x = 5 \u2014 it is an equation. 2(x + 2) \u2261 2x + 4 is true at both x = 3 and x = 5 (and every value) \u2014 it is an identity.",
+      "accept": [
+        "equation",
+        "identity"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "True \u2014 an identity holds for every possible value of x (infinitely many), while a linear equation like this usually has exactly one solution.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "Leo is wrong \u2014 x^2 = 4 is not true for every number, e.g. it fails at x = 3. It is an equation with two solutions, x = 2 and x = -2, not an identity.",
+      "accept": [
+        "2",
+        "-2",
+        "equation"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "19": {
+      "display": "4(x + 1) = 4x + 4 is an identity \u2014 expanding the left side always gives 4x + 4. 4(x + 1) = 20 is an equation with one solution, x = 4.",
+      "accept": [
+        "identity",
+        "equation",
+        "x = 4"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "20": {
+      "display": "Since the statement is true for some values (x = 4) and false for others (x = 1), it is an equation with a specific solution, not an identity.",
+      "accept": [
+        "equation",
+        "x = 4",
+        "not an identity"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "21": {
+      "display": "At x = 4: 2(12) = 24 = 6(4). At x = -2: 2(-6) = -12 = 6(-2). Both true, so 2(3x) = 6x is an identity, true for every number.",
+      "accept": [
+        "identity",
+        "24",
+        "-12"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "22": {
+      "display": "Testing a few numbers can only show the formula worked for those cases; there could still be a value where it fails that wasn't tried. Only expanding and simplifying algebraically can prove it holds for every possible value.",
+      "accept": [
+        "cannot prove",
+        "algebraic proof",
+        "counterexample"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "23": {
+      "display": "2s - s \u2261 s. Check with s = 6: 2(6) - 6 = 12 - 6 = 6, which matches s = 6.",
+      "accept": [
+        "2s-s",
+        "s",
+        "6"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "24": {
+      "display": "It is an identity, not an equation \u2014 addition is commutative, so x + 5 equals 5 + x for every value of x; there is no single value to solve for.",
+      "accept": [
+        "identity",
+        "commutative"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "25": {
+      "display": "At x = 2: (x+1)^2 = 9 but x^2 + 1 = 5. They are not equal, so this is not an identity \u2014 it is disproved by this counterexample.",
+      "accept": [
+        "not an identity",
+        "9",
+        "5",
+        "counterexample"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "26": {
+      "display": "(p/2) \u00d7 2 \u2261 p. Check with p = 14: (14/2) \u00d7 2 = 7 \u00d7 2 = 14, which matches p = 14.",
+      "accept": [
+        "14",
+        "p"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "27": {
+      "display": "3(x + 4) - 2x = 3x + 12 - 2x = x + 12, which matches the right-hand side, confirming the identity.",
+      "accept": [
+        "x+12",
+        "x + 12"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "28": {
+      "display": "2(x - 1) + 2(x + 1) = 2x - 2 + 2x + 2 = 4x, which matches the right-hand side, confirming the identity.",
+      "accept": [
+        "4x"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "29": {
+      "display": "Not an identity. At x = 1: (x+2)^2 = 9 but x^2 + 4 = 5. At x = 3: (x+2)^2 = 25 but x^2 + 4 = 13. Both tests disprove the identity.",
+      "accept": [
+        "not an identity",
+        "9",
+        "5",
+        "25",
+        "13"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "30": {
+      "display": "Example identity: 2(x + 3) \u2261 2x + 6 (true for all x). Example equation: 2x + 6 = 10 (true only when x = 2). Any correctly proven pair is acceptable.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    }
+  }
+}

@@ -1,4 +1,3 @@
-import { notFound } from "next/navigation";
 import { WorksheetPrintPage } from "@/components/WorksheetPrintPage";
 
 type Props = { params: Promise<{ tenant: string; slug: string }> };

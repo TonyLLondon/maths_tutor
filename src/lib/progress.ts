@@ -10,41 +10,41 @@ export type QuestionAttempt = {
 export type TopicProgress = Record<string, QuestionAttempt>;
 
 export function progressKey(
-  tenantId: string,
+  userId: string,
   subject: string,
   topicPath: string,
 ): string {
-  return `mt:tenant:${tenantId}:progress:${subject}:${topicPath}`;
+  return `mt:user:${userId}:progress:${subject}:${topicPath}`;
 }
 
 export async function getTopicProgress(
-  tenantId: string,
+  userId: string,
   subject: string,
   topicPath: string,
 ): Promise<TopicProgress> {
   const data = await kvGet<TopicProgress>(
-    progressKey(tenantId, subject, topicPath),
+    progressKey(userId, subject, topicPath),
   );
   return data ?? {};
 }
 
 export async function saveQuestionAttempt(
-  tenantId: string,
+  userId: string,
   subject: string,
   topicPath: string,
   questionId: string,
   attempt: QuestionAttempt,
 ): Promise<void> {
-  const key = progressKey(tenantId, subject, topicPath);
+  const key = progressKey(userId, subject, topicPath);
   const existing = (await kvGet<TopicProgress>(key)) ?? {};
   existing[questionId] = attempt;
   await kvSet(key, existing);
 }
 
 export async function clearTopicProgress(
-  tenantId: string,
+  userId: string,
   subject: string,
   topicPath: string,
 ): Promise<void> {
-  await kvDel(progressKey(tenantId, subject, topicPath));
+  await kvDel(progressKey(userId, subject, topicPath));
 }

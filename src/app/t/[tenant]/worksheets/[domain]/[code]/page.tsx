@@ -1,31 +1,11 @@
-import { notFound } from "next/navigation";
-import { requireSession } from "@/lib/auth";
-import { getWorksheet } from "@/lib/content";
-import { worksheetHref } from "@/lib/paths";
-import { isTenantId, TENANTS } from "@/lib/tenants";
-import { TenantNav } from "@/components/TenantNav";
-import { WorksheetView } from "@/components/WorksheetView";
+import { redirect } from "next/navigation";
+import { mathsTopicHref } from "@/lib/paths";
 
 type Props = {
   params: Promise<{ tenant: string; domain: string; code: string }>;
 };
 
-export default async function TopicWorksheetPage({ params }: Props) {
+export default async function RedirectTopicWorksheet({ params }: Props) {
   const { tenant, domain, code } = await params;
-  if (!isTenantId(tenant)) notFound();
-  await requireSession(tenant);
-
-  const slug = `${domain}/${code}`;
-  const doc = await getWorksheet(tenant, slug);
-  if (!doc) notFound();
-
-  const config = TENANTS[tenant];
-  const href = worksheetHref(tenant, slug);
-
-  return (
-    <>
-      <TenantNav tenantId={tenant} tenantName={config.name} />
-      <WorksheetView tenant={tenant} doc={doc} baseHref={href} />
-    </>
-  );
+  redirect(mathsTopicHref(tenant, domain, code));
 }

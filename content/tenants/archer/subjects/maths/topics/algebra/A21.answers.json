@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "x + 5",
+      "accept": [
+        "x+5",
+        "x + 5"
+      ],
+      "tier": 1
+    },
+    "2": {
+      "display": "y \u2212 3",
+      "accept": [
+        "y-3",
+        "y - 3"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "2n + 4",
+      "accept": [
+        "2n+4",
+        "2n + 4"
+      ],
+      "tier": 1
+    },
+    "4": {
+      "display": "x + 7 = 15",
+      "accept": [
+        "x+7=15"
+      ],
+      "tier": 1
+    },
+    "5": {
+      "display": "3y = 21",
+      "accept": [
+        "3y=21"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "x + 4",
+      "accept": [
+        "x+4",
+        "x + 4"
+      ],
+      "tier": 1
+    },
+    "7": {
+      "display": "5t",
+      "accept": [
+        "5t"
+      ],
+      "tier": 1
+    },
+    "8": {
+      "display": "3 + 2m",
+      "accept": [
+        "3+2m",
+        "2m+3",
+        "2m + 3"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "2x + 3 = 17",
+      "accept": [
+        "2x+3=17"
+      ],
+      "tier": 1
+    },
+    "10": {
+      "display": "4s",
+      "accept": [
+        "4s"
+      ],
+      "tier": 1
+    },
+    "11": {
+      "display": "w + 4",
+      "accept": [
+        "w+4",
+        "w + 4"
+      ],
+      "tier": 1
+    },
+    "12": {
+      "display": "n/2 + 6 = 10",
+      "accept": [
+        "n/2+6=10",
+        "0.5n+6=10"
+      ],
+      "tier": 1
+    },
+    "13": {
+      "display": "Sam's expression is backwards. \"7 less than a number\" means you start with the number and take 7 away: x \u2212 7.",
+      "accept": [
+        "x-7",
+        "x - 7"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "14": {
+      "display": "Always \u2014 addition can be written in either order, so 2x + 3 always equals 3 + 2x.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "15": {
+      "display": "Priya's equation is correctly formed. Solving: 3x = x + 6 \u2192 2x = 6 \u2192 x = 3.",
+      "accept": [
+        "correct",
+        "3"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "Both are correct because addition is commutative \u2014 x + 5 and 5 + x always give the same value.",
+      "accept": [
+        "commutative",
+        "same value",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "True \u2014 \"a number\" is x, \"its double\" is 2x, and their sum is x + 2x = 18.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "Leo's working is correct: 2x + 3 = 11 \u2192 2x = 8 \u2192 x = 4.",
+      "accept": [
+        "correct",
+        "4"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "19": {
+      "display": "n + 4 = 7 and 4n = 12 for n = 3 \u2014 different values. \"4 more than n\" means adding 4 (n + 4); \"4 times n\" means multiplying by 4 (4n).",
+      "accept": [
+        "7",
+        "12",
+        "adding",
+        "multiplying"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "20": {
+      "display": "Mo's equation is correct: length = 2w, so perimeter = 2w + 2(2w) = 20 \u2192 6w = 20 \u2192 w = 10/3 cm.",
+      "accept": [
+        "correct",
+        "10/3"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "21": {
+      "display": "x + 5 = 2x \u2212 3 \u2192 x = 8.",
+      "accept": [
+        "8"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "22": {
+      "display": "2.5 + 1.5m = 11.5 \u2192 1.5m = 9 \u2192 m = 6 miles.",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "23": {
+      "display": "3n \u2212 1 = 8 \u2192 3n = 9 \u2192 n = \u00a33.",
+      "accept": [
+        "3"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "24": {
+      "display": "2w + 2(w + 5) = 34 \u2192 4w + 10 = 34 \u2192 w = 6 cm.",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "25": {
+      "display": "n + (n+1) + (n+2) = 54 \u2192 3n + 3 = 54 \u2192 n = 17, so the numbers are 17, 18, 19.",
+      "accept": [
+        "17",
+        "18",
+        "19"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "26": {
+      "display": "5s + 40 = 115 \u2192 5s = 75 \u2192 s = 15 students.",
+      "accept": [
+        "15"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "27": {
+      "display": "2x \u2212 5 = 0.5x + 10 \u2192 1.5x = 15 \u2192 x = 10.",
+      "accept": [
+        "10"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "28": {
+      "display": "o + y = 26, o + 4 = 2y \u2192 substituting: 3y = 30 \u2192 y = 10, o = 16.",
+      "accept": [
+        "10",
+        "16"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "29": {
+      "display": "w(2w + 3) = 65 \u2192 2w\u00b2 + 3w \u2212 65 = 0 \u2192 w = 5 cm.",
+      "accept": [
+        "5"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "30": {
+      "display": "Example: \"a third of a number plus 4 is 9\" gives n/3 + 4 = 9 \u2192 n/3 = 5 \u2192 n = 15. Any correct equation with a fraction is acceptable.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    }
+  }
+}

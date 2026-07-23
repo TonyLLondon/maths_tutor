@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "4",
+      "accept": [
+        "4",
+        "4 units"
+      ],
+      "tier": 1
+    },
+    "2": {
+      "display": "5",
+      "accept": [
+        "5",
+        "5 units"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "(2, 5)",
+      "accept": [
+        "2,5",
+        "(2,5)",
+        "2 5"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "4": {
+      "display": "(4, 3)",
+      "accept": [
+        "4,3",
+        "(4,3)",
+        "4 3"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "5": {
+      "display": "(3, \u22124)",
+      "accept": [
+        "3,-4",
+        "(3,-4)",
+        "3 -4"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "6": {
+      "display": "(\u22123, 4)",
+      "accept": [
+        "-3,4",
+        "(-3,4)",
+        "-3 4"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "7": {
+      "display": "(0, 4)",
+      "accept": [
+        "0,4",
+        "(0,4)",
+        "0 4"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "8": {
+      "display": "(y\u2081+y\u2082)/2",
+      "accept": [
+        "(y1+y2)/2",
+        "y1+y2 over 2",
+        "y1 plus y2 over 2"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "9": {
+      "display": "4 units to the right",
+      "accept": [
+        "4",
+        "4 right",
+        "right"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "10": {
+      "display": "the y-axis",
+      "accept": [
+        "y-axis",
+        "y axis"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "11": {
+      "display": "the x-axis",
+      "accept": [
+        "x-axis",
+        "x axis"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "12": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1
+    },
+    "13": {
+      "display": "(1, 4)",
+      "accept": [
+        "1,4",
+        "(1,4)",
+        "1 4"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "14": {
+      "display": "Add the x-coordinates and divide by 2 (2+6=8, 8\u00f72=4), then add the y-coordinates and divide by 2 (8+2=10, 10\u00f72=5), giving midpoint (4, 5).",
+      "accept": [
+        "4",
+        "5",
+        "(4,5)"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "15": {
+      "display": "10 units",
+      "accept": [
+        "10",
+        "10 units"
+      ],
+      "tier": 2
+    },
+    "16": {
+      "display": "Always \u2014 reflecting in the x-axis flips the sign of the y-coordinate but leaves x unchanged.",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "17": {
+      "display": "D(2, 3)",
+      "accept": [
+        "2,3",
+        "(2,3)",
+        "2 3"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "18": {
+      "display": "Yes \u2014 (2+8)/2 = 5 and (2+8)/2 = 5, so the midpoint is (5, 5).",
+      "accept": [
+        "yes",
+        "(5,5)"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "19": {
+      "display": "B(6, 10)",
+      "accept": [
+        "6,10",
+        "(6,10)",
+        "6 10"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "20": {
+      "display": "8 units \u2014 both points have the same x-coordinate, so the distance is just the difference in y-coordinates: 6 \u2212 (\u22122) = 8.",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "21": {
+      "display": "(7, 1)",
+      "accept": [
+        "7,1",
+        "(7,1)",
+        "7 1"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "22": {
+      "display": "(5, 5)",
+      "accept": [
+        "5,5",
+        "(5,5)",
+        "5 5"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "23": {
+      "display": "10 m",
+      "accept": [
+        "10",
+        "10 m",
+        "10m"
+      ],
+      "tier": 3
+    },
+    "24": {
+      "display": "(5, 5)",
+      "accept": [
+        "5,5",
+        "(5,5)",
+        "5 5"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "25": {
+      "display": "AC = 8 units; BD = 6 units.",
+      "accept": [
+        "8",
+        "6"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "26": {
+      "display": "(5, 3)",
+      "accept": [
+        "5,3",
+        "(5,3)",
+        "5 3"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "27": {
+      "display": "Midpoint (1, 5); length = \u221a(6\u00b2 + 8\u00b2) = \u221a100 = 10 units.",
+      "accept": [
+        "(1,5)",
+        "10"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "28": {
+      "display": "Move from the known vertex adjacent to the missing one by the same horizontal and vertical steps as the opposite (equal, parallel) side, since opposite sides of a parallelogram are equal in length and direction.",
+      "accept": [
+        "opposite sides",
+        "equal",
+        "parallel"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "29": {
+      "display": "The point ends up at (\u2212a, \u2212b), which is exactly the same as rotating (a, b) by 180\u00b0 about the origin, because reflecting in both axes flips the sign of both coordinates.",
+      "accept": [
+        "-a",
+        "-b",
+        "180"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "30": {
+      "display": "Your own coordinate geometry problem involving a midpoint, distance, or missing vertex, solved correctly.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    }
+  }
+}

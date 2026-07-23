@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "A straight line (linear)",
+      "accept": [
+        "straight line",
+        "linear"
+      ],
+      "tier": 1
+    },
+    "2": {
+      "display": "A U-shape (quadratic / parabola)",
+      "accept": [
+        "u-shape",
+        "quadratic",
+        "parabola"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "An S-shape (cubic)",
+      "accept": [
+        "s-shape",
+        "cubic"
+      ],
+      "tier": 1
+    },
+    "4": {
+      "display": "A reciprocal curve (two branches)",
+      "accept": [
+        "reciprocal",
+        "hyperbola",
+        "two branches",
+        "two curves"
+      ],
+      "tier": 1
+    },
+    "5": {
+      "display": "-8, -1, 0, 1, 8",
+      "accept": [
+        "-8 -1 0 1 8",
+        "-8,-1,0,1,8",
+        "-8, -1, 0, 1, 8"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "6, 3, 2, 1",
+      "accept": [
+        "6 3 2 1",
+        "6,3,2,1",
+        "6, 3, 2, 1"
+      ],
+      "tier": 1
+    },
+    "7": {
+      "display": "Linear",
+      "accept": [
+        "linear"
+      ],
+      "tier": 1
+    },
+    "8": {
+      "display": "Quadratic",
+      "accept": [
+        "quadratic"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "No \u2014 since k is not 0, dividing k by any x never gives exactly 0.",
+      "accept": [
+        "no",
+        "never"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "10": {
+      "display": "Yes \u2014 cubing a negative number gives a negative result.",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "11": {
+      "display": "y = 5x is linear; y = x^2 is quadratic; y = x^3 + 1 is cubic; y = 2/x is reciprocal.",
+      "accept": [
+        "linear",
+        "quadratic",
+        "cubic",
+        "reciprocal"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "12": {
+      "display": "y = x^2 has 1 turning point (a minimum at x = 0). y = x^3 has 0 turning points \u2014 it is always increasing, just flattening momentarily at the origin.",
+      "accept": [
+        "1",
+        "0"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "13": {
+      "display": "y = x^2 is always non-negative and symmetric, forming a U-shape with one minimum turning point. y = x^3 gives negative outputs for negative x and is an S-shape that keeps increasing with no turning point \u2014 the graphs look quite different despite both being powers of x.",
+      "accept": [
+        "u-shape",
+        "s-shape",
+        "different"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "14": {
+      "display": "Sometimes \u2014 a cubic with no constant term, like y = x^3, passes through (0, 0), but a shifted cubic such as y = x^3 + 1 does not.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "15": {
+      "display": "Sam is wrong \u2014 dividing by zero is undefined, so x = 0 cannot be substituted into y = 4/x.",
+      "accept": [
+        "undefined",
+        "divide by zero",
+        "cannot"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "y = -x^2 is a reflection of y = x^2 in the x-axis \u2014 it forms an upside-down (n-shaped) curve with a maximum turning point instead of a minimum.",
+      "accept": [
+        "reflection",
+        "upside-down",
+        "maximum"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "True \u2014 for large x, x^3 becomes much bigger than x^2 (e.g. at x = 10, x^3 = 1000 but x^2 = 100), so the cubic grows far faster.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "Leo is correct \u2014 both have a constant term of 3, so y = 2(0) + 3 = 3 and y = 0^2 + 3 = 3; both graphs cross the y-axis at (0, 3).",
+      "accept": [
+        "correct",
+        "(0,3)",
+        "3"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "19": {
+      "display": "Both equations use the number 3 and the letter x, but y = 3x is a straight line through the origin where y increases in direct proportion to x, while y = 3/x is a curved reciprocal graph in two branches where y decreases as x increases, and it never touches either axis.",
+      "accept": [
+        "linear",
+        "reciprocal",
+        "direct",
+        "inverse"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "20": {
+      "display": "No \u2014 the highest power of x is 3 (from x^3), so y = x^3 + x^2 is a cubic, not a quadratic, even though it contains an x^2 term.",
+      "accept": [
+        "no",
+        "cubic"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "21": {
+      "display": "Cubic",
+      "accept": [
+        "cubic"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "22": {
+      "display": "At x = 10, y = 200/10 = 20. As x gets very large, y gets closer and closer to 0 but never actually reaches it.",
+      "accept": [
+        "20",
+        "0",
+        "closer to 0"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "23": {
+      "display": "It can never touch the x-axis because 10/x is never exactly 0 for any x, and it can never touch the y-axis because x = 0 would mean dividing by zero, which is undefined.",
+      "accept": [
+        "never 0",
+        "undefined",
+        "divide by zero"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "24": {
+      "display": "A linear equation has a constant rate of change (a straight line), but the ball's height rises then falls, which needs a curve with a turning point \u2014 only a quadratic can model that.",
+      "accept": [
+        "constant rate",
+        "turning point",
+        "quadratic"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "25": {
+      "display": "In a cubic graph, the rate of increase itself keeps growing as x increases, so the curve becomes steeper and steeper \u2014 costs rise much faster for large orders than for small ones.",
+      "accept": [
+        "steeper",
+        "rate of increase grows"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "26": {
+      "display": "y = x^3 - 5 keeps increasing without ever turning back, similar to a straight line, even though its graph curves. In contrast, y = x^2 + 2 decreases then increases, so it does turn back on itself at its minimum.",
+      "accept": [
+        "x^3-5",
+        "x^3 - 5",
+        "cubic"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "27": {
+      "display": "At x = -2, -1, 0, 1, 2: x^2 gives 4, 1, 0, 1, 4 (always non-negative, since squaring removes the sign). x^3 gives -8, -1, 0, 1, 8 (keeps the sign of x, since an odd power preserves negativity).",
+      "accept": [
+        "4",
+        "-8",
+        "sign"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "28": {
+      "display": "As x gets close to 0 from the positive side, y = 1/x shoots up towards very large positive values. As x gets very large, y gets closer and closer to 0 but never reaches it.",
+      "accept": [
+        "large",
+        "close to 0"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "29": {
+      "display": "y = x^3 - x equals 0 at x = -1, x = 0, and x = 1 (since (-1)^3 - (-1) = 0, 0^3 - 0 = 0, and 1^3 - 1 = 0). This crosses the x-axis three times, disproving the claim that all cubics cross exactly once.",
+      "accept": [
+        "-1",
+        "0",
+        "1",
+        "three times"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "30": {
+      "display": "Look at the highest power of x: power 1 gives a straight line (linear), power 2 gives a U-shape (quadratic), power 3 gives an S-shape (cubic). If x appears in the denominator (like k/x), the graph is reciprocal, with two curved branches.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    }
+  }
+}

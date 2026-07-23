@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maths Tutor — Archer",
+  title: "Maths Tutor",
   description: "GCSE-aligned printable maths worksheets",
 };
 

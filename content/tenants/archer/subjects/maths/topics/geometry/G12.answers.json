@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "faces",
+      "accept": [
+        "faces",
+        "face"
+      ],
+      "tier": 1
+    },
+    "2": {
+      "display": "edge",
+      "accept": [
+        "edge"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "vertex (vertices)",
+      "accept": [
+        "vertex",
+        "vertices"
+      ],
+      "tier": 1,
+      "contains": true
+    },
+    "4": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1
+    },
+    "5": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1
+    },
+    "7": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1
+    },
+    "8": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "cone",
+      "accept": [
+        "cone"
+      ],
+      "tier": 1
+    },
+    "10": {
+      "display": "cylinder",
+      "accept": [
+        "cylinder"
+      ],
+      "tier": 1
+    },
+    "11": {
+      "display": "sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 1
+    },
+    "12": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1
+    },
+    "13": {
+      "display": "6 + 8 \u2212 12 = 2, which checks out.",
+      "accept": [
+        "2",
+        "checks out",
+        "correct"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "14": {
+      "display": "A prism has two identical end faces and the same cross-section throughout its length; a pyramid has one base and triangular faces that all meet at a single apex point.",
+      "accept": [
+        "same cross-section",
+        "apex",
+        "point"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "15": {
+      "display": "8 + 12 \u2212 18 = 2, which checks out.",
+      "accept": [
+        "2",
+        "checks out"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "16": {
+      "display": "Always \u2014 triangular prism: 3 \u00d7 3 = 9 edges; cuboid: 3 \u00d7 4 = 12 edges; hexagonal prism: 3 \u00d7 6 = 18 edges \u2014 all match.",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "17": {
+      "display": "5 + 5 \u2212 8 = 2, which checks out.",
+      "accept": [
+        "2",
+        "checks out"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "18": {
+      "display": "Yes \u2014 a cylinder has the same circular cross-section all the way along, just like a prism, even though the cross-section is curved rather than made of straight sides.",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "19": {
+      "display": "3 rectangular faces and 2 triangular faces.",
+      "accept": [
+        "3",
+        "2"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "20": {
+      "display": "A cone's sides taper to a single point (an apex), so its cross-section keeps shrinking \u2014 it does not stay the same shape and size all along its length like a true prism's does.",
+      "accept": [
+        "apex",
+        "point",
+        "shrink",
+        "not the same"
+      ],
+      "tier": 2,
+      "contains": true
+    },
+    "21": {
+      "display": "5 faces, 9 edges, 6 vertices.",
+      "accept": [
+        "5",
+        "9",
+        "6"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "22": {
+      "display": "6 faces, 12 edges, 8 vertices; total edge length = 12 \u00d7 5 = 60 cm.",
+      "accept": [
+        "6",
+        "12",
+        "8",
+        "60"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "23": {
+      "display": "9 faces (6 + 5 \u2212 2).",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "24": {
+      "display": "8 + 6 \u2212 12 = 2, which checks out.",
+      "accept": [
+        "2",
+        "checks out"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "25": {
+      "display": "Edges = 15 (3 \u00d7 5); faces = 7 (2 pentagons + 5 rectangles); vertices = 10 (5 on each pentagon).",
+      "accept": [
+        "15",
+        "7",
+        "10"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "26": {
+      "display": "9 faces (6 + 5 \u2212 2).",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "27": {
+      "display": "30 edges (12 + 20 \u2212 2 = 30).",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "28": {
+      "display": "Faces = n + 2; edges = 3n; vertices = 2n.",
+      "accept": [
+        "n+2",
+        "3n",
+        "2n"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "29": {
+      "display": "Faces = 12, edges = 30, vertices = 20; Euler's formula: 12 + 20 \u2212 30 = 2, which checks out.",
+      "accept": [
+        "12",
+        "30",
+        "20",
+        "2"
+      ],
+      "tier": 3,
+      "contains": true
+    },
+    "30": {
+      "display": "Your own solid with a correct face/edge/vertex count that satisfies Euler's formula.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    }
+  }
+}

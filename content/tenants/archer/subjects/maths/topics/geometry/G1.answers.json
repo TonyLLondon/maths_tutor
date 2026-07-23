@@ -3,71 +3,253 @@
   "answers": {
     "1": {
       "display": "parallel",
-      "accept": ["parallel"]
+      "accept": [
+        "parallel"
+      ],
+      "tier": 1
     },
     "2": {
       "display": "perpendicular",
-      "accept": ["perpendicular"]
+      "accept": [
+        "perpendicular"
+      ],
+      "tier": 1
     },
     "3": {
       "display": "3 sides and 3 vertices",
-      "accept": ["3", "3 sides", "3 sides 3 vertices", "3 vertices"]
+      "accept": [
+        "3",
+        "3 sides",
+        "3 sides 3 vertices",
+        "3 vertices"
+      ],
+      "tier": 1
     },
     "4": {
       "display": "square, rectangle, rhombus",
-      "accept": ["square rectangle rhombus", "square, rectangle, rhombus", "rectangle square rhombus"]
+      "accept": [
+        "square rectangle rhombus",
+        "square, rectangle, rhombus",
+        "rectangle square rhombus"
+      ],
+      "tier": 1
     },
     "5": {
-      "display": "90° (or a right angle)",
-      "accept": ["90", "90°", "90 degrees", "right angle"]
+      "display": "90\u00b0 (or a right angle)",
+      "accept": [
+        "90",
+        "90\u00b0",
+        "90 degrees",
+        "right angle"
+      ],
+      "tier": 1
     },
     "6": {
       "display": "scalene",
-      "accept": ["scalene"]
+      "accept": [
+        "scalene"
+      ],
+      "tier": 1
     },
     "7": {
       "display": "isosceles",
-      "accept": ["isosceles"]
+      "accept": [
+        "isosceles"
+      ],
+      "tier": 1
     },
     "8": {
-      "display": "False — a square is always a rectangle, but not every rectangle is a square.",
-      "accept": ["false", "not true"],
-      "contains": true
+      "display": "False \u2014 every square is a rectangle, but not every rectangle is a square.",
+      "accept": [
+        "false",
+        "not true"
+      ],
+      "contains": true,
+      "tier": 1
     },
     "9": {
-      "display": "Sometimes — a square has four right angles but is not called a rectangle in some definitions; often stated as always a rectangle.",
-      "accept": ["sometimes", "always"],
-      "contains": true
+      "display": "equilateral",
+      "accept": [
+        "equilateral"
+      ],
+      "tier": 1
     },
     "10": {
-      "display": "One pair of parallel lines (arrow marks) and one line perpendicular to them, labelled correctly.",
-      "accept": [],
-      "any": true
+      "display": "5 sides and 5 vertices",
+      "accept": [
+        "5",
+        "5 sides",
+        "5 vertices"
+      ],
+      "tier": 1
     },
     "11": {
-      "display": "No — a rhombus can have two pairs of equal sides without all angles being 90°.",
-      "accept": ["no", "incorrect", "rhombus"],
-      "contains": true
+      "display": "6 sides",
+      "accept": [
+        "6",
+        "6 sides"
+      ],
+      "tier": 1
     },
     "12": {
-      "display": "Right-angle corner marked; perpendicular means meeting at 90°.",
-      "accept": ["perpendicular", "90", "right angle"],
-      "contains": true
+      "display": "quadrilateral",
+      "accept": [
+        "quadrilateral"
+      ],
+      "tier": 1
     },
     "13": {
-      "display": "6 sides and 6 vertices; unlike a square it has six sides, not four.",
-      "accept": ["6", "six sides", "six vertices"],
-      "contains": true
+      "display": "Always \u2014 a quadrilateral with four right angles must have opposite sides equal and parallel, so it is always a rectangle (a square counts as a special rectangle).",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
     },
     "14": {
-      "display": "Trapezium (or trapezoid) — one pair of parallel sides.",
+      "display": "A pair of parallel lines marked with arrows, and one line drawn perpendicular (at 90\u00b0) to one of them, correctly labelled.",
       "accept": [],
-      "any": true
+      "kind": "self-check",
+      "tier": 2
     },
     "15": {
-      "display": "Your own always/sometimes/never question with a correct answer.",
+      "display": "No \u2014 e.g. a rhombus or a kite has equal sides but is not a rectangle unless its angles are also right angles.",
+      "accept": [
+        "no",
+        "incorrect",
+        "rhombus",
+        "kite"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "Yes \u2014 a square has all the properties of a rectangle (four right angles, opposite sides equal and parallel) plus all four sides equal, so it is a special rectangle.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "Sometimes \u2014 an isosceles or equilateral triangle has at least two equal sides, but a scalene triangle does not.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "A rhombus has four equal sides but its angles are not usually 90\u00b0. A square has four equal sides AND four right angles (90\u00b0 each).",
+      "accept": [
+        "90",
+        "right angle",
+        "equal sides"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "19": {
+      "display": "False \u2014 a regular polygon must have both equal sides AND equal angles; if the angles differ, the shape is not regular.",
+      "accept": [
+        "false",
+        "equal angles"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "20": {
+      "display": "parallelogram",
+      "accept": [
+        "parallelogram"
+      ],
+      "tier": 2
+    },
+    "21": {
+      "display": "A right-angle corner sketched with a small square marking the angle; perpendicular means two lines meet at a right angle (90\u00b0).",
+      "accept": [
+        "perpendicular",
+        "90",
+        "right angle"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "22": {
+      "display": "6 sides and 6 vertices. A square has only 4 sides and 4 vertices, and its angles (90\u00b0) are different from a hexagon's interior angles.",
+      "accept": [
+        "6",
+        "six sides",
+        "six vertices"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "23": {
+      "display": "8 sides and 8 vertices.",
+      "accept": [
+        "8",
+        "eight sides",
+        "eight vertices"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "24": {
+      "display": "A kite shape with two pairs of adjacent (touching) sides marked as equal.",
       "accept": [],
-      "any": true
+      "kind": "self-check",
+      "tier": 3
+    },
+    "25": {
+      "display": "Right-angled triangles. Yes, the two triangles are the same size and shape (congruent), since the diagonal splits the rectangle exactly in half.",
+      "accept": [
+        "right-angled",
+        "right angled",
+        "congruent",
+        "same"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "26": {
+      "display": "All three sides are equal in length, and all three angles are equal, each measuring 60\u00b0.",
+      "accept": [
+        "equal",
+        "60"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "27": {
+      "display": "Trapezium (or trapezoid) \u2014 one pair of parallel sides.",
+      "accept": [],
+      "kind": "self-check",
+      "tier": 3
+    },
+    "28": {
+      "display": "Your own always/sometimes/never question about triangles or quadrilaterals, with a correct answer.",
+      "accept": [],
+      "kind": "self-check",
+      "tier": 3
+    },
+    "29": {
+      "display": "A hexagon with six sides of different lengths \u2014 it is still a hexagon because it has exactly six straight sides, regardless of whether they are equal.",
+      "accept": [],
+      "kind": "self-check",
+      "tier": 3
+    },
+    "30": {
+      "display": "Always has a right angle: square, rectangle. Does not always have a right angle: rhombus, kite.",
+      "accept": [
+        "square",
+        "rectangle",
+        "rhombus",
+        "kite"
+      ],
+      "contains": true,
+      "tier": 3
     }
   }
 }

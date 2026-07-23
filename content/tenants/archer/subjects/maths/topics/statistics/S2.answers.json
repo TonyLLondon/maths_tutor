@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "90\u00b0",
+      "accept": [
+        "90",
+        "90\u00b0"
+      ],
+      "tier": 1
+    },
+    "2": {
+      "display": "144\u00b0",
+      "accept": [
+        "144",
+        "144\u00b0"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "72\u00b0",
+      "accept": [
+        "72",
+        "72\u00b0"
+      ],
+      "tier": 1
+    },
+    "4": {
+      "display": "54\u00b0 (90+144+72+54 = 360)",
+      "accept": [
+        "54",
+        "360"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "5": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1
+    },
+    "7": {
+      "display": "140 \u2264 h < 150",
+      "accept": [
+        "140",
+        "second interval",
+        "140-150"
+      ],
+      "contains": true,
+      "tier": 1
+    },
+    "8": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "23",
+      "accept": [
+        "23"
+      ],
+      "tier": 1
+    },
+    "10": {
+      "display": "April",
+      "accept": [
+        "april"
+      ],
+      "tier": 1
+    },
+    "11": {
+      "display": "\u00a3100",
+      "accept": [
+        "100",
+        "\u00a3100"
+      ],
+      "tier": 1
+    },
+    "12": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "0.25",
+        "quarter"
+      ],
+      "tier": 1
+    },
+    "13": {
+      "display": "Wrong \u2014 the angle is found by dividing the frequency by the total, then multiplying by 360\u00b0, i.e. $(\\text{frequency}/\\text{total}) \\times 360\u00b0$.",
+      "accept": [
+        "frequency",
+        "total",
+        "360"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "14": {
+      "display": "True \u2014 every row total and every column total in a two-way table must sum to the same overall total (the grand total).",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "15": {
+      "display": "A vertical line chart uses thin lines (not wide bars) to show frequencies for discrete numerical values, while a bar chart typically uses wider bars, often for categorical data.",
+      "accept": [
+        "lines",
+        "discrete"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "Always \u2014 a time series graph is, by definition, used to show how a quantity changes over time.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "True \u2014 grouping data into class intervals means you can no longer see each individual value, only which range it falls into (e.g. you know a height is between 140 and 150 cm, but not the exact value).",
+      "accept": [
+        "true",
+        "exact value lost"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "If intervals overlapped, a value could fit into more than one class, causing confusion or double-counting when building the frequency table.",
+      "accept": [
+        "double count",
+        "ambiguous",
+        "confusion"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "19": {
+      "display": "A bar chart has a numbered vertical axis, so you can read the exact frequency for each bar, whereas a pie chart only shows the proportion of the whole, making exact values harder to read without extra information.",
+      "accept": [
+        "axis",
+        "exact values"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "20": {
+      "display": "Follow the inequality signs exactly \u2014 since the interval is written $140 \\leq h < 150$, a value of exactly 140 is included in that interval (because of the $\\leq$), not the one below it.",
+      "accept": [
+        "140",
+        "inequality"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "21": {
+      "display": "Walk 144\u00b0, car 90\u00b0, bus 108\u00b0, bike 18\u00b0",
+      "accept": [
+        "144",
+        "90",
+        "108",
+        "18"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "22": {
+      "display": "32 play an instrument; 20 girls in total",
+      "accept": [
+        "32",
+        "20"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "23": {
+      "display": "36 pupils in total; modal class 41\u201360",
+      "accept": [
+        "36",
+        "41",
+        "41-60",
+        "41\u201360"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "24": {
+      "display": "An overall increasing trend in sales from \u00a3300 to \u00a3400, with small dips in a couple of months.",
+      "accept": [
+        "increasing",
+        "upward"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "25": {
+      "display": "Sandwiches 45, hot meal 36, salad 27",
+      "accept": [
+        "45",
+        "36",
+        "27"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "26": {
+      "display": "25 pupils in total; mode is 1 sibling",
+      "accept": [
+        "25",
+        "mode 1",
+        "1 sibling"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "27": {
+      "display": "x = 36\u00b0; angles 36\u00b0, 72\u00b0, 108\u00b0, 144\u00b0",
+      "accept": [
+        "36",
+        "72",
+        "108",
+        "144"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "28": {
+      "display": "Tea 40, coffee 56, juice 32, water 16",
+      "accept": [
+        "40",
+        "56",
+        "32",
+        "16"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "29": {
+      "display": "Your own grouped frequency table with 2-second class intervals from 12 seconds, frequencies summing to 40, and the correct modal class identified.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    },
+    "30": {
+      "display": "An overall upward trend in profits, apart from a dip in year 2; a limitation is that 5 data points are not enough to reliably predict future profits, since trends could change due to unseen factors.",
+      "accept": [
+        "upward",
+        "not enough data",
+        "limitation"
+      ],
+      "contains": true,
+      "tier": 3
+    }
+  }
+}

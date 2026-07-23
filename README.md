@@ -1,37 +1,38 @@
 # Maths Tutor
 
-Login → **Subjects** → **Maths** → **Topic** → worksheet / print / **practice**.
+## Local dev (hot reload)
 
-Repository: [github.com/TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor)
+```bash
+npm run dev:4000
+```
 
-## Login
+Next.js **Turbopack** reloads the app when you edit `src/` or `content/` — no manual restart for most changes.
 
-Type **Archer** at `/login` (no password).
+## Sign-in
 
-## Content layout
+Allowed users live in **`content/accounts.json`** (commit to add someone). Only those ids/names can sign in; everyone else gets 401.
 
-| Path | Purpose |
-|------|---------|
-| `content/tenants/archer/subjects/maths/topics/{domain}/{CODE}.md` | Questions (print + practice) |
-| `…/{CODE}.answers.json` | Answer key for practice grading |
-| `content/tenants/archer/worksheets/` | Legacy flat worksheets |
+Optional KV key **`mt:accounts:overrides`** can patch `displayName` per user on production (does not add new users).
 
-## Practice mode
+## KV (production + local)
 
-- `/t/archer/subjects/maths/number/N4/practice` — one question at a time
-- Right/wrong feedback; **correct answer always shown** after each attempt
-- Progress stored in KV: `mt:tenant:archer:progress:maths:number/N4`
+| Key pattern | Purpose |
+|-------------|---------|
+| `mt:user:{id}:progress:maths:{domain}/{code}` | Per-person practice scores |
+| `mt:tenant:archer:worksheet:{slug}` | Worksheet markdown overrides |
+| `mt:accounts:overrides` | Display-name tweaks |
 
 Local dev without Redis uses `.data/kv-dev.json`.
 
-## Is maths “complete”?
+## Flow
 
-The app tracks **17 GCSE seed topics** (age 9 → Foundation), not the full GCSE specification. The Maths subject page shows worksheet ✓ / answers ✓ per topic. Expand `src/lib/topics/catalog.ts` when you add new strands.
+Login → Subjects → Maths → topic → **Practice** / Print
 
-## Deploy
+## Vercel (GitHub)
 
-```bash
-vercel --prod
-```
+Repo: [TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor). Production: **maths-tutor** on Vercel (deploys from `main` when Git is connected).
 
-Optional: Vercel Redis for KV (practice progress + worksheet edits).
+1. Link **Upstash Redis** or Vercel KV to the project so `KV_REST_API_URL` and `KV_REST_API_TOKEN` are set (practice progress and worksheet overrides need this in production).
+2. Optional: `LICHESS_EXPLORER_TOKEN` for chess opening names (see `.env.example`).
+
+Copy env names from `.env.example`; never commit real tokens.

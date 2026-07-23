@@ -3,38 +3,262 @@
   "answers": {
     "1": {
       "display": "42",
-      "accept": ["42"]
+      "accept": [
+        "42"
+      ],
+      "tier": 1
     },
     "2": {
       "display": "15",
-      "accept": ["15"]
+      "accept": [
+        "15"
+      ],
+      "tier": 1
     },
     "3": {
-      "display": "£6",
-      "accept": ["6", "£6", "6.00"]
+      "display": "\u00a36",
+      "accept": [
+        "6",
+        "\u00a36",
+        "6.00"
+      ],
+      "tier": 1
     },
     "4": {
       "display": "73",
-      "accept": ["73"]
+      "accept": [
+        "73"
+      ],
+      "tier": 1
     },
     "5": {
-      "display": "£4 is 10% of £40, not the sale price. Sale price = £40 − £4 = £36.",
-      "accept": ["36", "£36", "10% off", "discount", "mistake"],
-      "contains": true
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1
     },
     "6": {
-      "display": "Always — 25% means one quarter, so divide by 4 (e.g. 25% of 80 = 20).",
-      "accept": ["always", "divide by 4", "quarter"],
-      "contains": true
+      "display": "\u00a320",
+      "accept": [
+        "20",
+        "\u00a320",
+        "20.00"
+      ],
+      "tier": 1
     },
     "7": {
-      "display": "£11 change (total £10, 10% off → £9 paid from £20).",
-      "accept": ["11", "£11", "11.00"]
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1
     },
     "8": {
-      "display": "20% of £45 = £9; 2/5 of £45 = £18. 2/5 is double 20%.",
-      "accept": ["9", "18", "double", "same as 40%"],
-      "contains": true
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1
+    },
+    "10": {
+      "display": "\u00a310",
+      "accept": [
+        "10",
+        "\u00a310",
+        "10.00"
+      ],
+      "tier": 1
+    },
+    "11": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1
+    },
+    "12": {
+      "display": "\u00a36",
+      "accept": [
+        "6",
+        "\u00a36",
+        "6.00"
+      ],
+      "tier": 1
+    },
+    "13": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1
+    },
+    "14": {
+      "display": "72",
+      "accept": [
+        "72"
+      ],
+      "tier": 1
+    },
+    "15": {
+      "display": "\u00a34 is 10% of \u00a340, not the sale price. Sale price = \u00a340 \u2212 \u00a34 = \u00a336.",
+      "accept": [
+        "36",
+        "\u00a336",
+        "10% off",
+        "discount",
+        "mistake"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "Always \u2014 25% means one quarter, so divide by 4 (e.g. 25% of 80 = 20).",
+      "accept": [
+        "always",
+        "divide by 4",
+        "quarter"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "Yes \u2014 1/2 of a positive number is always less than 3/4 of the same number.",
+      "accept": [
+        "yes",
+        "correct",
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "Always \u2014 e.g. 10% of 50 = 50 \u00f7 10 = 5.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "19": {
+      "display": "Yes. 50% of 30 = 15 and 30% of 50 = 15 \u2014 both are equal.",
+      "accept": [
+        "yes",
+        "correct",
+        "15"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "20": {
+      "display": "\u00a311 change (total \u00a310, 10% off \u2192 \u00a39 paid from \u00a320).",
+      "accept": [
+        "11",
+        "\u00a311",
+        "11.00"
+      ],
+      "tier": 3
+    },
+    "21": {
+      "display": "\u00a348",
+      "accept": [
+        "48",
+        "\u00a348",
+        "48.00"
+      ],
+      "tier": 3
+    },
+    "22": {
+      "display": "75%",
+      "accept": [
+        "75",
+        "75%"
+      ],
+      "tier": 3
+    },
+    "23": {
+      "display": "\u00a324",
+      "accept": [
+        "24",
+        "\u00a324",
+        "24.00"
+      ],
+      "tier": 3
+    },
+    "24": {
+      "display": "\u00a3153",
+      "accept": [
+        "153",
+        "\u00a3153",
+        "153.00"
+      ],
+      "tier": 3
+    },
+    "25": {
+      "display": "20% of \u00a345 = \u00a39; 2/5 of \u00a345 = \u00a318. 2/5 is double 20% (since 2/5 = 40%).",
+      "accept": [
+        "9",
+        "18",
+        "double",
+        "same as 40%"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "26": {
+      "display": "\u00a380",
+      "accept": [
+        "80",
+        "\u00a380",
+        "80.00"
+      ],
+      "tier": 3
+    },
+    "27": {
+      "display": "\u00a38",
+      "accept": [
+        "8",
+        "\u00a38",
+        "8.00"
+      ],
+      "tier": 3
+    },
+    "28": {
+      "display": "No \u2014 \u00a3100 decreases to \u00a370, then increases by 30% to \u00a391, which is less than \u00a3100.",
+      "accept": [
+        "no",
+        "91",
+        "\u00a391"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "29": {
+      "display": "3/4 of \u00a3120 = \u00a390; 10% of \u00a3120 = \u00a312. 3/4 is bigger, by \u00a378.",
+      "accept": [
+        "90",
+        "12",
+        "78"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "30": {
+      "display": "Yes \u2014 e.g. increasing 50 by 100% gives 50 + 50 = 100, which is double 50.",
+      "accept": [
+        "yes",
+        "correct",
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
     }
   }
 }

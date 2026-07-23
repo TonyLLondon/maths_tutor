@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "0.5"
+      ],
+      "tier": 1
+    },
+    "2": {
+      "display": "\u221a3/2",
+      "accept": [
+        "sqrt3/2",
+        "\u221a3/2",
+        "root3/2"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1
+    },
+    "4": {
+      "display": "\u221a2/2 (1/\u221a2)",
+      "accept": [
+        "sqrt2/2",
+        "\u221a2/2",
+        "1/sqrt2",
+        "1/\u221a2"
+      ],
+      "tier": 1
+    },
+    "5": {
+      "display": "\u221a2/2 (1/\u221a2)",
+      "accept": [
+        "sqrt2/2",
+        "\u221a2/2",
+        "1/sqrt2",
+        "1/\u221a2"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "\u221a3/2",
+      "accept": [
+        "sqrt3/2",
+        "\u221a3/2"
+      ],
+      "tier": 1
+    },
+    "7": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "0.5"
+      ],
+      "tier": 1
+    },
+    "8": {
+      "display": "\u221a3",
+      "accept": [
+        "sqrt3",
+        "\u221a3",
+        "root3"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "0",
+      "accept": [
+        "0"
+      ],
+      "tier": 1
+    },
+    "10": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1
+    },
+    "11": {
+      "display": "\u221a3/3 (1/\u221a3)",
+      "accept": [
+        "sqrt3/3",
+        "\u221a3/3",
+        "1/sqrt3",
+        "1/\u221a3"
+      ],
+      "tier": 1
+    },
+    "12": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1
+    },
+    "13": {
+      "display": "Because 30\u00b0 and 60\u00b0 add up to 90\u00b0 (they are complementary), and for complementary angles $\\sin\\theta = \\cos(90\u00b0 - \\theta)$.",
+      "accept": [
+        "complementary",
+        "90"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "14": {
+      "display": "True \u2014 both equal $\\frac{\\sqrt2}{2}$, since a 45\u00b0 right-angled triangle is isosceles, making the opposite and adjacent sides equal.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "15": {
+      "display": "Correct \u2014 since $\\tan\\theta = \\text{opposite}/\\text{adjacent}$, a value of 1 means the opposite and adjacent sides are equal in length.",
+      "accept": [
+        "correct",
+        "yes",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "Always \u2014 sin increases steadily from 0 (at 0\u00b0) to 1 (at 90\u00b0) over this range.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "At 90\u00b0 the adjacent side of the triangle shrinks to zero length (the triangle becomes degenerate), so $\\cos 90\u00b0 = 0 \\div \\text{hypotenuse} = 0$ exactly.",
+      "accept": [
+        "zero",
+        "0",
+        "degenerate"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "Since $\\tan\\theta = \\sin\\theta / \\cos\\theta$ and $\\cos 90\u00b0 = 0$, this means dividing by zero, which is undefined.",
+      "accept": [
+        "divide by zero",
+        "undefined"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "19": {
+      "display": "False \u2014 $\\sin 30\u00b0 + \\sin 60\u00b0 = \\frac{1}{2} + \\frac{\\sqrt3}{2} \\approx 1.37$, which is not equal to $\\sin 90\u00b0 = 1$.",
+      "accept": [
+        "false",
+        "1.37",
+        "not equal"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "20": {
+      "display": "Because sin and cos of complementary angles (angles adding to 90\u00b0) are always equal to each other, so swapping between 30\u00b0 and 60\u00b0 (which sum to 90\u00b0) swaps sin and cos.",
+      "accept": [
+        "complementary",
+        "swap"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "21": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm"
+      ],
+      "tier": 3
+    },
+    "22": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm"
+      ],
+      "tier": 3
+    },
+    "23": {
+      "display": "6 cm",
+      "accept": [
+        "6",
+        "6 cm"
+      ],
+      "tier": 3
+    },
+    "24": {
+      "display": "2\u221a3 cm",
+      "accept": [
+        "2sqrt3",
+        "2\u221a3",
+        "2 root 3"
+      ],
+      "tier": 3
+    },
+    "25": {
+      "display": "4\u221a3 m",
+      "accept": [
+        "4sqrt3",
+        "4\u221a3",
+        "4 root 3"
+      ],
+      "tier": 3
+    },
+    "26": {
+      "display": "$(\\sqrt2/2)^2 + (\\sqrt2/2)^2 = 1/2 + 1/2 = 1$, confirming the identity.",
+      "accept": [
+        "1",
+        "1/2"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "27": {
+      "display": "$\\sin 30\u00b0 + \\cos 60\u00b0 = 1/2 + 1/2 = 1$",
+      "accept": [
+        "1"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "28": {
+      "display": "12 cm",
+      "accept": [
+        "12",
+        "12 cm"
+      ],
+      "tier": 3
+    },
+    "29": {
+      "display": "$\\tan 60\u00b0 \\div \\tan 30\u00b0 = \\sqrt3 \\div (1/\\sqrt3) = \\sqrt3 \\times \\sqrt3 = 3$",
+      "accept": [
+        "3"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "30": {
+      "display": "An isosceles right-angled triangle with legs 1, 1 and hypotenuse $\\sqrt2$ gives the 45\u00b0 values; an equilateral triangle of side 2 cut in half gives a right-angled triangle with sides 1, $\\sqrt3$ and 2, giving the 30\u00b0 and 60\u00b0 values.",
+      "accept": [
+        "1 1 sqrt2",
+        "1 sqrt3 2"
+      ],
+      "contains": true,
+      "tier": 3
+    }
+  }
+}

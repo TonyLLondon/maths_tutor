@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1
+    },
+    "4": {
+      "display": "y = 15/x",
+      "accept": [
+        "y=15/x",
+        "y = 15/x"
+      ],
+      "tier": 1
+    },
+    "5": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1
+    },
+    "7": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1
+    },
+    "8": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "36",
+      "accept": [
+        "36"
+      ],
+      "tier": 1
+    },
+    "10": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1
+    },
+    "11": {
+      "display": "x = k/y",
+      "accept": [
+        "x=k/y",
+        "x = k/y"
+      ],
+      "tier": 1
+    },
+    "12": {
+      "display": "Yes \u2014 rearranging y = k/x by multiplying both sides by x gives k = xy.",
+      "accept": [
+        "yes",
+        "correct",
+        "xy"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "13": {
+      "display": "Always \u2014 as x increases, k/x gets smaller and smaller, approaching (but never reaching) 0.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "14": {
+      "display": "True \u2014 since k = xy, any one matching pair of x and y values is enough to calculate k.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "15": {
+      "display": "No \u2014 y = k/x is inverse proportion (y decreases as x increases), while y = kx is direct proportion (both increase together). They are different relationships.",
+      "accept": [
+        "no",
+        "incorrect",
+        "different"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "y gets closer and closer to 0, but never actually reaches 0.",
+      "accept": [
+        "approaches 0",
+        "gets closer to 0",
+        "0"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "Yes \u2014 both are valid rearrangements of the same equation, xy = 18.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "y = 12/x is inverse proportion because x is in the denominator; y = x/12 is direct proportion because it can be written as y = (1/12)x, a constant multiple of x.",
+      "accept": [],
+      "tier": 2,
+      "kind": "self-check"
+    },
+    "19": {
+      "display": "y = 60/x; y = 6",
+      "accept": [
+        "60/x",
+        "6"
+      ],
+      "tier": 3
+    },
+    "20": {
+      "display": "p = 40/q; q = 2",
+      "accept": [
+        "40/q",
+        "2"
+      ],
+      "tier": 3
+    },
+    "21": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3
+    },
+    "22": {
+      "display": "t = 90/s; t = 10",
+      "accept": [
+        "90/s",
+        "10"
+      ],
+      "tier": 3
+    },
+    "23": {
+      "display": "k = xy; k = 21",
+      "accept": [
+        "xy",
+        "21"
+      ],
+      "tier": 3
+    },
+    "24": {
+      "display": "y = 25, y = 4, y = 2",
+      "accept": [
+        "25 4 2",
+        "25, 4, 2"
+      ],
+      "tier": 3
+    },
+    "25": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3
+    },
+    "26": {
+      "display": "y = 60/x; x = 15",
+      "accept": [
+        "60/x",
+        "15"
+      ],
+      "tier": 3
+    },
+    "27": {
+      "display": "x = 12, y = 12",
+      "accept": [
+        "12",
+        "12 12"
+      ],
+      "tier": 3
+    },
+    "28": {
+      "display": "By a factor of 4 (m is quartered)",
+      "accept": [
+        "4",
+        "quartered"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "29": {
+      "display": "Dividing by 0 is undefined, so x = 0 has no meaningful value of y. As x gets closer to 0 (from the positive side), y = k/x gets larger and larger, growing without limit.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    },
+    "30": {
+      "display": "A correctly stated inverse proportion equation used to find a missing y and a missing x.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "8/50 = 4/25 = 0.16",
+      "accept": [
+        "8/50",
+        "4/25",
+        "0.16",
+        "16%"
+      ],
+      "tier": 1
+    },
+    "2": {
+      "display": "22/40 = 11/20 = 0.55",
+      "accept": [
+        "22/40",
+        "11/20",
+        "0.55",
+        "55%"
+      ],
+      "tier": 1
+    },
+    "3": {
+      "display": "5/25 = 1/5 = 0.2",
+      "accept": [
+        "5/25",
+        "1/5",
+        "0.2",
+        "20%"
+      ],
+      "tier": 1
+    },
+    "4": {
+      "display": "0.25 (20/80)",
+      "accept": [
+        "0.25",
+        "1/4",
+        "25%"
+      ],
+      "tier": 1
+    },
+    "5": {
+      "display": "75% (150/200)",
+      "accept": [
+        "75%",
+        "75",
+        "3/4"
+      ],
+      "tier": 1
+    },
+    "6": {
+      "display": "7/30",
+      "accept": [
+        "7/30"
+      ],
+      "tier": 1
+    },
+    "7": {
+      "display": "15/500 = 3/100 = 0.03",
+      "accept": [
+        "15/500",
+        "3/100",
+        "0.03",
+        "3%"
+      ],
+      "tier": 1
+    },
+    "8": {
+      "display": "24/60 = 2/5",
+      "accept": [
+        "24/60",
+        "2/5"
+      ],
+      "tier": 1
+    },
+    "9": {
+      "display": "40/50 = 4/5 = 0.8",
+      "accept": [
+        "40/50",
+        "4/5",
+        "0.8",
+        "80%"
+      ],
+      "tier": 1
+    },
+    "10": {
+      "display": "2/5 or 0.4",
+      "accept": [
+        "2/5",
+        "0.4",
+        "40%",
+        "40/100"
+      ],
+      "tier": 1
+    },
+    "11": {
+      "display": "9/30 = 3/10",
+      "accept": [
+        "9/30",
+        "3/10"
+      ],
+      "tier": 1
+    },
+    "12": {
+      "display": "0.6 (72/120)",
+      "accept": [
+        "0.6",
+        "3/5",
+        "60%"
+      ],
+      "tier": 1
+    },
+    "13": {
+      "display": "10 trials is too small a sample \u2014 random variation means the result can be far from the true probability, which is actually 0.5.",
+      "accept": [
+        "small",
+        "sample",
+        "variation",
+        "not enough trials"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "14": {
+      "display": "Sometimes \u2014 relative frequency can be close to or even equal to the true probability by chance, but it is generally only an estimate, especially with fewer trials.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "15": {
+      "display": "Yes \u2014 with more trials, relative frequency tends to settle closer to the true probability.",
+      "accept": [
+        "yes",
+        "correct",
+        "more reliable"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "16": {
+      "display": "No \u2014 6 rolls is far too small a sample to prove anything about the true probability; it only gives a rough estimate.",
+      "accept": [
+        "no",
+        "incorrect",
+        "too small",
+        "estimate"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "17": {
+      "display": "The student with 500 flips \u2014 larger samples generally give more reliable estimates of the true probability.",
+      "accept": [
+        "500",
+        "larger",
+        "more trials"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "18": {
+      "display": "False \u2014 relative frequency is always between 0 and 1 (or 0% and 100%), since it can never be more occurrences than trials.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "19": {
+      "display": "No \u2014 a fair dice has a theoretical probability of 1/6 (about 0.167) for rolling a 6, so a relative frequency close to 0.3 suggests this dice may be biased.",
+      "accept": [
+        "no",
+        "incorrect",
+        "1/6",
+        "biased"
+      ],
+      "contains": true,
+      "tier": 2
+    },
+    "20": {
+      "display": "160 faulty bulbs (10/250 = 1/25, and 1/25 x 4000 = 160)",
+      "accept": [
+        "160"
+      ],
+      "tier": 3
+    },
+    "21": {
+      "display": "P(scores) = 18/30 = 0.6; predicted scoring matches out of 10 = 6",
+      "accept": [
+        "0.6",
+        "6",
+        "3/5"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "22": {
+      "display": "P(win) estimate = 125/500 = 1/4 = 0.25, which matches the theoretical 1/4 for 4 equal sections, so the spinner appears fair.",
+      "accept": [
+        "1/4",
+        "0.25",
+        "fair"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "23": {
+      "display": "Yes, it appears fair \u2014 every relative frequency (e.g. 48/300, 52/300...) is close to 1/6 (about 0.167), with only small natural variation.",
+      "accept": [
+        "fair",
+        "1/6",
+        "close"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "24": {
+      "display": "60% (27/45 = 3/5)",
+      "accept": [
+        "60%",
+        "60",
+        "3/5"
+      ],
+      "tier": 3
+    },
+    "25": {
+      "display": "50 winning tickets (2000/40)",
+      "accept": [
+        "50"
+      ],
+      "tier": 3
+    },
+    "26": {
+      "display": "Probability = 51/60 = 0.85; predicted germinating seeds out of 500 = 425",
+      "accept": [
+        "0.85",
+        "425",
+        "17/20"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "27": {
+      "display": "For example, flipping a fair coin just twice could easily give two heads (relative frequency 1.0), even though the true probability is 0.5 \u2014 small samples are very sensitive to chance.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    },
+    "28": {
+      "display": "A sensible design using many repeats (e.g. 100 or more trials), stating that a relative frequency far from the expected theoretical probability would suggest bias.",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    },
+    "29": {
+      "display": "Relative frequency = 150/1000 = 0.15, which is close to the claimed 1/5 = 0.2, so the result broadly supports the claim, though it is slightly lower.",
+      "accept": [
+        "0.15",
+        "supports",
+        "close"
+      ],
+      "contains": true,
+      "tier": 3
+    },
+    "30": {
+      "display": "Theoretical probability is calculated from known outcomes without doing an experiment (e.g. P(heads) = 1/2 from reasoning about a fair coin); experimental (relative frequency) probability is estimated by actually repeating a trial and counting results (e.g. testing how often a spinner lands on red).",
+      "accept": [],
+      "tier": 3,
+      "kind": "self-check"
+    }
+  }
+}

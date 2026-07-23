@@ -1,10 +1,11 @@
-import { WorksheetPrintPage } from "@/components/WorksheetPrintPage";
+import { redirect } from "next/navigation";
+import { mathsPrintHref } from "@/lib/paths";
 
 type Props = {
   params: Promise<{ tenant: string; domain: string; code: string }>;
 };
 
-export default async function Page({ params }: Props) {
+export default async function RedirectTopicPrint({ params }: Props) {
   const { tenant, domain, code } = await params;
-  return <WorksheetPrintPage tenant={tenant} slug={`${domain}/${code}`} />;
+  redirect(mathsPrintHref(tenant, domain, code));
 }

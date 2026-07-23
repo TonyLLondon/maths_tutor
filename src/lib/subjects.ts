@@ -1,13 +1,13 @@
 import type { GcseDomain } from "./topics/catalog";
-import { DOMAIN_LABELS, TOPICS } from "./topics/catalog";
+import { TOPICS } from "./topics/catalog";
 
-export type SubjectId = "maths";
+export type SubjectId = "maths" | "chess";
 
 export type SubjectConfig = {
   id: SubjectId;
   name: string;
   description: string;
-  /** GCSE Foundation seed topics for age 9 — not the full exam checklist. */
+  /** Full Edexcel 1MA1 Foundation spine — see `_backlog/state/gcse-foundation-spine.json`. */
   seedTopicCount: number;
 };
 
@@ -15,8 +15,14 @@ export const SUBJECTS: Record<SubjectId, SubjectConfig> = {
   maths: {
     id: "maths",
     name: "Maths",
-    description: "GCSE-aligned topics for age 9 (Foundation seeds)",
+    description: "All Edexcel Foundation topic codes — worksheets fill in over time.",
     seedTopicCount: TOPICS.length,
+  },
+  chess: {
+    id: "chess",
+    name: "Chess",
+    description: "Learn opening moves by playing short games against the computer.",
+    seedTopicCount: 0,
   },
 };
 
