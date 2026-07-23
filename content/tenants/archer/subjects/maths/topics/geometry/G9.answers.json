@@ -7,77 +7,88 @@
         "centre",
         "center"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "radius",
       "accept": [
         "radius"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "diameter",
       "accept": [
         "diameter"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "radius",
       "accept": [
         "radius"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "circumference",
       "accept": [
         "circumference"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "tangent",
       "accept": [
         "tangent"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "chord",
       "accept": [
         "chord"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "arc",
       "accept": [
         "arc"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "sector",
       "accept": [
         "sector"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "segment",
       "accept": [
         "segment"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "True",
       "accept": [
         "true"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "90\u00b0 (a right angle)",
@@ -87,7 +98,8 @@
         "right angle"
       ],
       "tier": 1,
-      "contains": true
+      "contains": true,
+      "rating": 1188
     },
     "13": {
       "display": "12 cm",
@@ -96,7 +108,8 @@
         "12 cm",
         "12cm"
       ],
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "A tangent only touches the circle at one point, and that point is where the circle is momentarily 'flattest' along the tangent direction \u2014 the radius to that point is always exactly perpendicular to the tangent, otherwise the tangent would cross into the circle.",
@@ -106,7 +119,8 @@
         "right angle"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1612
     },
     "15": {
       "display": "The larger region is called the major segment and the smaller region is called the minor segment.",
@@ -116,7 +130,8 @@
         "segment"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1624
     },
     "16": {
       "display": "Always \u2014 the diameter passes through the centre, so it is always at least as long as any other chord, and always longer than any chord that does not pass through the centre.",
@@ -124,7 +139,8 @@
         "always"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1636
     },
     "17": {
       "display": "The two tangent lengths are always equal.",
@@ -133,7 +149,8 @@
         "same length"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1648
     },
     "18": {
       "display": "No \u2014 a radius always starts at the centre and reaches the edge, while a chord joins two points on the circumference and does not have to pass through the centre.",
@@ -143,7 +160,8 @@
         "circumference"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1552
     },
     "19": {
       "display": "\u00bc (a quarter)",
@@ -154,7 +172,8 @@
         "0.25"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1564
     },
     "20": {
       "display": "A sector is bounded by two radii and an arc (a 'pizza slice' from the centre); a segment is bounded by a chord and an arc, and does not include the centre.",
@@ -164,7 +183,8 @@
         "centre"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1576
     },
     "21": {
       "display": "0.7 m",
@@ -174,14 +194,16 @@
         "0.7m",
         "70 cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "circumference",
       "accept": [
         "circumference"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "1.6 m",
@@ -190,7 +212,8 @@
         "1.6 m",
         "1.6m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "60\u00b0",
@@ -198,7 +221,8 @@
         "60",
         "60\u00b0"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "16 cm",
@@ -207,14 +231,16 @@
         "16 cm",
         "16cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "diameter",
       "accept": [
         "diameter"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "Because the radius meets the tangent at exactly 90\u00b0, the radius itself is the shortest possible line from the centre to the tangent line \u2014 any other line from the centre to the tangent would be the hypotenuse of a right-angled triangle and so would be longer than the radius.",
@@ -224,7 +250,8 @@
         "shortest"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 1952
     },
     "28": {
       "display": "8 cm",
@@ -233,7 +260,8 @@
         "8 cm",
         "8cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "16 cm",
@@ -242,13 +270,15 @@
         "16 cm",
         "16cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "Your own labelled circle diagram description using at least three features, correctly related to each other.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

@@ -6,56 +6,64 @@
       "accept": [
         "5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "35",
       "accept": [
         "35"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "32",
       "accept": [
         "32"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "30",
       "accept": [
         "30"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "6",
       "accept": [
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "6",
       "accept": [
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "35",
       "accept": [
         "35"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "2",
       "accept": [
         "2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "y = 3x",
@@ -63,7 +71,8 @@
         "y=3x",
         "y = 3x"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "y = k/x",
@@ -71,7 +80,8 @@
         "y=k/x",
         "y = k/x"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "y = kx",
@@ -79,7 +89,8 @@
         "y=kx",
         "y = kx"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "Yes \u2014 direct proportion means y = kx, so doubling x always doubles y.",
@@ -88,7 +99,8 @@
         "correct"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     },
     "13": {
       "display": "Always \u2014 in y = k/x, doubling x gives k/(2x) = half of k/x, so y always halves.",
@@ -96,7 +108,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "False \u2014 direct proportion must pass through the origin, but y = kx + 2 gives y = 2 when x = 0, not 0.",
@@ -104,7 +117,8 @@
         "false"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Yes \u2014 since y = k/x, multiplying both sides by x gives x \u00d7 y = k, a constant for every pair of values.",
@@ -113,13 +127,15 @@
         "correct"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Direct proportion: as one quantity increases, the other increases at the same rate (e.g. cost of apples and number bought). Inverse proportion: as one quantity increases, the other decreases (e.g. speed and time for a fixed distance).",
       "accept": [],
       "tier": 2,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1636
     },
     "17": {
       "display": "No \u2014 more workers taking less time is inverse proportion, not direct proportion.",
@@ -128,7 +144,8 @@
         "inverse"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Inverse proportion \u2014 x \u00d7 y is constant (1\u00d712 = 2\u00d76 = 3\u00d74 = 12).",
@@ -137,7 +154,8 @@
         "12"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "\u00a34.80",
@@ -146,7 +164,8 @@
         "4.80",
         "\u00a34.80"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "20": {
       "display": "4 hours",
@@ -154,7 +173,8 @@
         "4",
         "4 hours"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "35 kg",
@@ -163,7 +183,8 @@
         "35 kg",
         "35kg"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "2 hours",
@@ -171,7 +192,8 @@
         "2",
         "2 hours"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "12 days",
@@ -179,7 +201,8 @@
         "12",
         "12 days"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "\u00a36",
@@ -187,7 +210,8 @@
         "6",
         "\u00a36"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "15 cm",
@@ -196,14 +220,16 @@
         "15 cm",
         "15cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "2",
       "accept": [
         "2"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "50% increase",
@@ -211,7 +237,8 @@
         "50",
         "50%"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "It halves (decreases by 50%)",
@@ -221,19 +248,22 @@
         "50%"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "Direct proportion: y \u00f7 x is constant for every pair. Inverse proportion: y \u00d7 x is constant for every pair. Neither: neither ratio nor product stays the same.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1976
     },
     "30": {
       "display": "A correctly identified and solved direct or inverse proportion problem.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

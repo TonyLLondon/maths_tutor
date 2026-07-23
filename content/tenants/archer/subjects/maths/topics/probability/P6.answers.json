@@ -7,14 +7,16 @@
         "12 13 21 23 31 32",
         "6 numbers"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "6 (ABC, ACB, BAC, BCA, CAB, CBA)",
       "accept": [
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "soup+pasta, soup+fish, soup+chicken, salad+pasta, salad+fish, salad+chicken (6 outcomes)",
@@ -22,7 +24,8 @@
         "6"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "12, 13, 14, 21, 23, 24, 31, 32, 34, 41, 42, 43 (12 codes)",
@@ -30,7 +33,8 @@
         "12"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "43, 44, 45, 53, 54, 55 (6 numbers)",
@@ -38,21 +42,24 @@
         "43 44 45 53 54 55",
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "6 outfits (3 x 2)",
       "accept": [
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "6 (XYZ, XZY, YXZ, YZX, ZXY, ZYX)",
       "accept": [
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6 (12 outcomes)",
@@ -60,7 +67,8 @@
         "12"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "111, 112, 121, 122, 211, 212, 221, 222 (8 numbers)",
@@ -68,14 +76,16 @@
         "8"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "2 x 4 = 8 sandwiches",
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "AB, AC, AD, BC, BD, CD (6 pairs)",
@@ -83,7 +93,8 @@
         "6"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "56, 57, 58, 65, 67, 68, 75, 76, 78, 85, 86, 87 (12 numbers)",
@@ -91,7 +102,8 @@
         "12"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Archer missed TH \u2014 the full list is HH, HT, TH, TT, giving 4 outcomes, not 3.",
@@ -101,13 +113,15 @@
         "four"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "A systematic order (e.g. listing all outcomes starting with A, then all starting with B, and so on) makes it easy to check every combination has been included exactly once.",
       "accept": [],
       "tier": 2,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1612
     },
     "15": {
       "display": "No, Sloan is incorrect \u2014 when order does not matter, there are only 3 pairs: AB, AC, BC. Six would be the answer if order mattered (AB, BA, AC, CA, BC, CB).",
@@ -117,7 +131,8 @@
         "three"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "True \u2014 for example, flipping a coin (2 outcomes) and rolling a dice (6 outcomes) gives 2 x 6 = 12 combined outcomes.",
@@ -125,7 +140,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "The number 32 is missing \u2014 the full list should be 12, 13, 21, 23, 31, 32 (6 numbers).",
@@ -133,13 +149,15 @@
         "32"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "When order matters, swapping two items creates a different outcome (e.g. arranging letters AB and BA are different); when order does not matter, swapping items gives the same outcome (e.g. choosing a pair {A, B} is the same as {B, A}).",
       "accept": [],
       "tier": 2,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1552
     },
     "19": {
       "display": "No, Priya is incorrect \u2014 the correct method is to multiply the options (one shirt choice for each of 4 trouser choices), giving 3 x 4 = 12 outfits.",
@@ -149,7 +167,8 @@
         "multiply"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Multiply the choices systematically for each course: 3 x 2 x 2 = 12 possible meals.",
@@ -157,14 +176,16 @@
         "12"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "16 PINs (2 x 2 x 2 x 2 = 2^4)",
       "accept": [
         "16"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "6 orders: Archer-Sloan-Priya, Archer-Priya-Sloan, Sloan-Archer-Priya, Sloan-Priya-Archer, Priya-Archer-Sloan, Priya-Sloan-Archer",
@@ -172,14 +193,16 @@
         "6"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "20 codes (5 x 4, since order matters and letters cannot repeat)",
       "accept": [
         "20"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "5 x 6 = 30 combinations, matching a systematic grid/list method for a smaller version (e.g. 2 starters x 3 mains = 6, checked by listing).",
@@ -187,7 +210,8 @@
         "30"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "3 ways: 5 x 10p; 1 x 20p + 3 x 10p; 2 x 20p + 1 x 10p",
@@ -196,7 +220,8 @@
         "three ways"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "RB, RG, RY, BG, BY, GY (6 pairs)",
@@ -204,13 +229,15 @@
         "6"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "A sensible systematic strategy, e.g. first counting outcomes where all three dice match, then outcomes where exactly two match, using smaller grids or grouped counting rather than listing all 216 outcomes.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1952
     },
     "28": {
       "display": "Total meals = s x m x d \u2014 this works because for each of the s starter choices, there are m main choices, and for each starter-main combination there are d dessert choices, systematically multiplying the options at each stage.",
@@ -219,13 +246,15 @@
         "smd"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "A systematic list ensures every possible outcome is counted exactly once \u2014 for example, listing outcomes for two dice without a system might accidentally miss (1,2) or double-count (2,1) and (1,2) as the same, leading to a wrong probability.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1976
     },
     "30": {
       "display": "24 ways (4! = 4 x 3 x 2 x 1)",
@@ -233,7 +262,8 @@
         "24"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

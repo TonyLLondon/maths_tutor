@@ -8,7 +8,8 @@
         "x=7",
         "x = 7"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "x = 12",
@@ -17,7 +18,8 @@
         "x=12",
         "x = 12"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "x = 7",
@@ -26,7 +28,8 @@
         "x=7",
         "x = 7"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "x = 20",
@@ -35,7 +38,8 @@
         "x=20",
         "x = 20"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "x = 4",
@@ -44,7 +48,8 @@
         "x=4",
         "x = 4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "x = 6",
@@ -53,7 +58,8 @@
         "x=6",
         "x = 6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "x = 5",
@@ -62,7 +68,8 @@
         "x=5",
         "x = 5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "x = 15",
@@ -71,7 +78,8 @@
         "x=15",
         "x = 15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "x = 5",
@@ -80,7 +88,8 @@
         "x=5",
         "x = 5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "x = 6",
@@ -89,7 +98,8 @@
         "x=6",
         "x = 6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "x = 4",
@@ -98,7 +108,8 @@
         "x=4",
         "x = 4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "x = 5",
@@ -107,7 +118,8 @@
         "x=5",
         "x = 5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Sam subtracted 4 correctly to get 2x = 8, but then forgot to divide both sides by 2, writing x = 8 instead of x = 4.",
@@ -116,7 +128,8 @@
         "forgot to divide"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Always \u2014 multiplying both sides by the same number keeps the two sides equal.",
@@ -124,7 +137,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Priya is wrong: 3x = x + 8 gives 2x = 8, so x = 4. The equation does have a solution.",
@@ -134,7 +148,8 @@
         "4"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Yes, both give x = 4: 2x + 1 = 9 \u2192 2x = 8 \u2192 x = 4; 3x \u2212 2 = 10 \u2192 3x = 12 \u2192 x = 4.",
@@ -144,7 +159,8 @@
         "same"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "True \u2014 e.g. x + 2 = 5 has solution x = 3; adding 3 to both sides gives x + 5 = 8, which still has solution x = 3.",
@@ -152,7 +168,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Leo's mistake: multiplying 5 into the bracket must apply to both terms, giving 5x \u2212 10, not 5x \u2212 2. Correct: 5x \u2212 10 = 15 \u2192 5x = 25 \u2192 x = 5.",
@@ -162,7 +179,8 @@
         "x = 5"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "x + 6 = 10 gives x = 4. 2x + 6 = 10 gives 2x = 4, so x = 2. The solutions differ because the coefficient of x changes how much x must be to balance the equation.",
@@ -172,7 +190,8 @@
         "coefficient"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Mo is correct for 2x = 8 (x = 4), but wrong for 3x \u2212 2 = 13, since 3x = 15 gives x = 5, not 4.",
@@ -182,7 +201,8 @@
         "wrong"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "x + 5 = 14, so x = 9.",
@@ -190,7 +210,8 @@
         "9"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "3 + 2m = 13, so 2m = 10, m = 5 miles.",
@@ -198,7 +219,8 @@
         "5"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "3x + 7 = 28, so 3x = 21, x = 7.",
@@ -206,7 +228,8 @@
         "7"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "4p + 2 = 10, so 4p = 8, p = \u00a32 per pen.",
@@ -215,7 +238,8 @@
         "\u00a32"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "2(w + w + 3) = 26 \u2192 4w + 6 = 26 \u2192 4w = 20 \u2192 w = 5 cm.",
@@ -223,7 +247,8 @@
         "5"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "15 + 10m = 75, so 10m = 60, m = 6 months.",
@@ -231,7 +256,8 @@
         "6"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "2x + 6 = 3x \u2212 3 \u2192 9 = x, so x = 9.",
@@ -239,7 +265,8 @@
         "9"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "Multiply by 6: 3x + 2x = 30 \u2192 5x = 30 \u2192 x = 6.",
@@ -247,7 +274,8 @@
         "6"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "n + (n+1) + (n+2) = 72 \u2192 3n + 3 = 72 \u2192 n = 23, so the integers are 23, 24, 25.",
@@ -257,13 +285,15 @@
         "25"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "Example: 2x + 3 = 15 (solves to x = 6). Any correct two-step equation with solution x = 6 is acceptable.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

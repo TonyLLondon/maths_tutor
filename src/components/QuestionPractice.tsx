@@ -1,14 +1,18 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { BarChartAnswer } from "@/components/BarChartAnswer";
+import { MarkdownBody } from "@/components/MarkdownBody";
 import { apiProgressPath, mathsTopicHref } from "@/lib/paths";
 import { friendlySectionHeading } from "@/lib/question-display";
+import {
+  formatLevel,
+  pickNextQuestionId,
+} from "@/lib/practice-rating";
 import type {
   ClientAnswerMeta,
   ParsedQuestion,
-  QuestionTier,
 } from "@/lib/questions";
 
 type AttemptState = {
@@ -16,23 +20,6 @@ type AttemptState = {
   attempts: number;
   lastAnswer: string;
 };
-
-const TIER_LABELS: Record<QuestionTier, string> = {
-  1: "Easier",
-  2: "Medium",
-  3: "Harder",
-};
-
-const SESSION_SIZE = 5;
-
-function shuffleIds(ids: string[]): string[] {
-  const a = [...ids];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 type Props = {
   tenant: string;
@@ -52,18 +39,53 @@ export function QuestionPractice({
   answerMeta,
 }: Props) {
   const api = apiProgressPath(tenant, domain, code);
-  const [tier, setTier] = useState<QuestionTier>(1);
-  const [fullSet, setFullSet] = useState(false);
+  const [rating, setRating] = useState(1200);
   const [progress, setProgress] = useState<Record<string, AttemptState>>({});
   const [loaded, setLoaded] = useState(false);
+  const [sessionIds, setSessionIds] = useState<string[]>([]);
+  const [currentId, setCurrentId] = useState<string | null>(null);
+
+  const ratingById = useMemo(() => {
+    const map: Record<string, number> = {};
+    for (const q of questions) {
+      const meta = answerMeta[q.id];
+      if (meta) map[q.id] = meta.rating;
+    }
+    return map;
+  }, [questions, answerMeta]);
+
+  const mastered = useMemo(
+    () =>
+      new Set(
+        Object.entries(progress)
+          .filter(([, p]) => p.correct)
+          .map(([id]) => id),
+      ),
+    [progress],
+  );
+
+  const pickNext = useCallback(
+    (extraSession: string[], userRating: number) => {
+      const ids = questions.map((q) => q.id).filter((id) => answerMeta[id]);
+      return pickNextQuestionId({
+        questionIds: ids,
+        ratingById,
+        userRating,
+        progressCorrect: mastered,
+        sessionIds: extraSession,
+      });
+    },
+    [questions, answerMeta, ratingById, mastered],
+  );
 
   useEffect(() => {
     let cancelled = false;
     void fetch(api)
-      .then((res) => (res.ok ? res.json() : { progress: {} }))
-      .then((data: { progress?: Record<string, AttemptState> }) => {
-        if (cancelled) return;
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (cancelled || !data) return;
         setProgress(data.progress ?? {});
+        setRating(data.rating ?? 1200);
         setLoaded(true);
       });
     return () => {
@@ -71,220 +93,80 @@ export function QuestionPractice({
     };
   }, [api]);
 
+  useEffect(() => {
+    if (!loaded || currentId) return;
+    const first = pickNext([], rating);
+    if (first) setCurrentId(first);
+  }, [loaded, currentId, pickNext, rating]);
+
+  const question = currentId
+    ? questions.find((q) => q.id === currentId)
+    : undefined;
+  const meta = currentId ? answerMeta[currentId] : undefined;
+
+  const sessionCorrect = sessionIds.filter((id) => progress[id]?.correct).length;
+
+  function goToNextQuestion() {
+    const next = pickNext(sessionIds, rating);
+    if (next) {
+      setCurrentId(next);
+    }
+  }
+
   if (!loaded) {
     return <p className="text-sm text-stone-500">One moment…</p>;
   }
 
-  return (
-    <PracticeSession
-      key={`${tier}-${fullSet}`}
-      tenant={tenant}
-      domain={domain}
-      code={code}
-      title={title}
-      questions={questions}
-      answerMeta={answerMeta}
-      tier={tier}
-      fullSet={fullSet}
-      progress={progress}
-      setProgress={setProgress}
-      api={api}
-      onTierChange={setTier}
-      onFullSetChange={setFullSet}
-    />
-  );
-}
-
-type SessionProps = {
-  tenant: string;
-  domain: string;
-  code: string;
-  title: string;
-  questions: ParsedQuestion[];
-  answerMeta: Record<string, ClientAnswerMeta>;
-  tier: QuestionTier;
-  fullSet: boolean;
-  progress: Record<string, AttemptState>;
-  setProgress: React.Dispatch<
-    React.SetStateAction<Record<string, AttemptState>>
-  >;
-  api: string;
-  onTierChange: (tier: QuestionTier) => void;
-  onFullSetChange: (fullSet: boolean) => void;
-};
-
-function PracticeSession({
-  tenant,
-  domain,
-  code,
-  title,
-  questions,
-  answerMeta,
-  tier,
-  fullSet,
-  progress,
-  setProgress,
-  api,
-  onTierChange,
-  onFullSetChange,
-}: SessionProps) {
-  const [index, setIndex] = useState(0);
-
-  const tierQuestions = useMemo(
-    () => questions.filter((q) => q.tier === tier),
-    [questions, tier],
-  );
-
-  const sessionOrder = useMemo(() => {
-    const ids = tierQuestions.map((q) => q.id);
-    if (fullSet || ids.length <= SESSION_SIZE) return ids;
-    return shuffleIds(ids).slice(0, SESSION_SIZE);
-  }, [tierQuestions, fullSet]);
-
-  const sessionQuestions = useMemo(
-    () =>
-      sessionOrder
-        .map((id) => tierQuestions.find((q) => q.id === id))
-        .filter((q): q is ParsedQuestion => Boolean(q)),
-    [sessionOrder, tierQuestions],
-  );
-
-  const question = sessionQuestions[index];
-
-  const score = useMemo(() => {
-    const ids = new Set(sessionQuestions.map((q) => q.id));
-    const correct = Object.entries(progress).filter(
-      ([id, p]) => ids.has(id) && p.correct,
-    ).length;
-    return { correct, total: sessionQuestions.length };
-  }, [progress, sessionQuestions]);
-
-  async function postAttempt(body: Record<string, unknown>) {
-    if (!question) return;
-    const res = await fetch(api, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ questionId: question.id, ...body }),
-    });
-    const data = (await res.json()) as {
-      correct: boolean;
-      display: string;
-      progress: Record<string, AttemptState>;
-    };
-    return data;
-  }
-
-  if (tierQuestions.length === 0) {
-    return (
-      <p className="text-sm text-stone-600">
-        No {TIER_LABELS[tier].toLowerCase()} questions in this topic yet.
-      </p>
-    );
-  }
-
-  if (!question) {
+  if (questions.length === 0 || !question || !meta) {
     return <p className="text-sm text-stone-600">No questions in this topic.</p>;
   }
-
-  const meta = answerMeta[question.id];
-  if (!meta) {
-    return <p className="text-sm text-stone-600">No questions in this topic.</p>;
-  }
-
-  const prevAttempt = progress[question.id];
 
   return (
     <div className="space-y-6">
-      <div
-        className="flex flex-wrap gap-2"
-        role="tablist"
-        aria-label="Question difficulty"
-      >
-        {([1, 2, 3] as QuestionTier[]).map((t) => (
-          <button
-            key={t}
-            type="button"
-            role="tab"
-            aria-selected={tier === t}
-            onClick={() => onTierChange(t)}
-            className={`rounded-lg px-3 py-1.5 text-sm ${
-              tier === t
-                ? "bg-stone-900 text-white"
-                : "border border-stone-300 text-stone-700 hover:bg-stone-50"
-            }`}
-          >
-            {TIER_LABELS[t]}
-          </button>
-        ))}
-      </div>
-
-      <div className="flex flex-wrap items-center gap-2 text-sm">
-        <button
-          type="button"
-          onClick={() => onFullSetChange(false)}
-          className={`rounded-lg px-3 py-1 text-sm ${
-            !fullSet
-              ? "bg-stone-200 text-stone-900"
-              : "text-stone-600 underline"
-          }`}
-        >
-          {SESSION_SIZE} today
-        </button>
-        <button
-          type="button"
-          onClick={() => onFullSetChange(true)}
-          className={`rounded-lg px-3 py-1 text-sm ${
-            fullSet
-              ? "bg-stone-200 text-stone-900"
-              : "text-stone-600 underline"
-          }`}
-        >
-          All in this level
-        </button>
-      </div>
-
-      <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-stone-600">
-        <span>
-          Question {index + 1} of {sessionQuestions.length}
-        </span>
-        <span>
-          {score.correct} of {score.total} right
-        </span>
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <p className="text-sm text-stone-600">
+          Your level:{" "}
+          <span className="font-semibold text-stone-900">{formatLevel(rating)}</span>
+        </p>
+        <p className="text-sm text-stone-600">
+          {sessionCorrect} right this session
+        </p>
       </div>
 
       <QuestionAttempt
         key={question.id}
         question={question}
         meta={meta}
-        prevAttempt={prevAttempt}
-        postAttempt={postAttempt}
-        setProgress={setProgress}
+        prevAttempt={progress[question.id]}
+        onAnswered={(data) => {
+          setProgress(data.progress ?? {});
+          if (data.rating != null) setRating(data.rating);
+          setSessionIds((s) =>
+            s.includes(question.id) ? s : [...s, question.id],
+          );
+        }}
+        postAttempt={async (body) => {
+          const res = await fetch(api, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ questionId: question.id, ...body }),
+          });
+          return (await res.json()) as {
+            correct: boolean;
+            display: string;
+            progress: Record<string, AttemptState>;
+            rating?: number;
+          };
+        }}
+        onNext={goToNextQuestion}
       />
 
-      <div className="flex flex-wrap gap-2 pt-2">
-        <button
-          type="button"
-          disabled={index === 0}
-          onClick={() => setIndex((i) => i - 1)}
-          className="rounded-lg border border-stone-300 px-3 py-1.5 text-sm disabled:opacity-40"
-        >
-          Previous
-        </button>
-        <button
-          type="button"
-          disabled={index >= sessionQuestions.length - 1}
-          onClick={() => setIndex((i) => i + 1)}
-          className="rounded-lg border border-stone-300 px-3 py-1.5 text-sm disabled:opacity-40"
-        >
-          Next
-        </button>
-        <Link
-          href={mathsTopicHref(tenant, domain, code)}
-          className="ml-auto text-sm text-stone-600 underline"
-        >
-          Back to {title}
-        </Link>
-      </div>
+      <Link
+        href={mathsTopicHref(tenant, domain, code)}
+        className="inline-block text-sm text-stone-600 underline"
+      >
+        Back to {title}
+      </Link>
     </div>
   );
 }
@@ -299,10 +181,13 @@ type AttemptProps = {
     correct: boolean;
     display: string;
     progress: Record<string, AttemptState>;
-  } | void>;
-  setProgress: React.Dispatch<
-    React.SetStateAction<Record<string, AttemptState>>
-  >;
+    rating?: number;
+  }>;
+  onAnswered: (data: {
+    progress: Record<string, AttemptState>;
+    rating?: number;
+  }) => void;
+  onNext: () => void;
 };
 
 function QuestionAttempt({
@@ -310,7 +195,8 @@ function QuestionAttempt({
   meta,
   prevAttempt,
   postAttempt,
-  setProgress,
+  onAnswered,
+  onNext,
 }: AttemptProps) {
   const kind = meta.kind ?? "text";
   const [answer, setAnswer] = useState("");
@@ -323,14 +209,14 @@ function QuestionAttempt({
     display: string;
   } | null>(null);
   const [pending, setPending] = useState(false);
+  const answered = feedback !== null;
 
   async function submit(body: Record<string, unknown>) {
     setPending(true);
     try {
       const data = await postAttempt(body);
-      if (!data) return;
       setFeedback({ correct: data.correct, display: data.display });
-      setProgress(data.progress ?? {});
+      onAnswered({ progress: data.progress, rating: data.rating });
     } finally {
       setPending(false);
     }
@@ -346,15 +232,18 @@ function QuestionAttempt({
       <p className="text-xs font-medium uppercase tracking-wide text-stone-500">
         {friendlySectionHeading(question.section)}
       </p>
-      <p className="text-lg text-stone-900">{question.text}</p>
+      <MarkdownBody
+        markdown={question.text}
+        className="worksheet-markdown text-lg text-stone-900"
+      />
 
-      {prevAttempt?.correct ? (
+      {prevAttempt?.correct && !answered ? (
         <p className="text-sm font-medium text-green-800">
-          You already got this one right.
+          You already got this one right before.
         </p>
       ) : null}
 
-      {kind === "self-check" ? (
+      {kind === "self-check" && !answered ? (
         <div className="space-y-3">
           <p className="text-sm text-stone-600">
             Work it out on paper or in your head, then check yourself.
@@ -396,7 +285,7 @@ function QuestionAttempt({
         </div>
       ) : null}
 
-      {kind === "bar-chart" && meta.bars ? (
+      {kind === "bar-chart" && meta.bars && !answered ? (
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -419,12 +308,12 @@ function QuestionAttempt({
             disabled={pending}
             className="rounded-lg bg-stone-900 px-4 py-2 text-sm font-medium text-white"
           >
-            {pending ? "Checking…" : "Check bars"}
+            {pending ? "…" : "Go"}
           </button>
         </form>
       ) : null}
 
-      {kind === "text" ? (
+      {kind === "text" && !answered ? (
         <form onSubmit={(e) => void submitText(e)} className="space-y-3">
           <label className="block text-sm font-medium text-stone-700">
             Your answer
@@ -440,7 +329,7 @@ function QuestionAttempt({
             disabled={pending || !answer.trim()}
             className="rounded-lg bg-stone-900 px-4 py-2 text-sm font-medium text-white disabled:opacity-50"
           >
-            {pending ? "Checking…" : "Check answer"}
+            {pending ? "…" : "Go"}
           </button>
         </form>
       ) : null}
@@ -475,6 +364,16 @@ function QuestionAttempt({
         >
           {feedback.correct ? "Nice — marked as correct." : "Keep trying."}
         </p>
+      ) : null}
+
+      {answered ? (
+        <button
+          type="button"
+          onClick={onNext}
+          className="rounded-lg bg-stone-900 px-5 py-2.5 text-sm font-medium text-white"
+        >
+          Next question
+        </button>
       ) : null}
     </>
   );

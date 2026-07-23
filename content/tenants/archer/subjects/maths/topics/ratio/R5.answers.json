@@ -8,7 +8,8 @@
         "10 km",
         "10km"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "40 m",
@@ -17,7 +18,8 @@
         "40 m",
         "40m"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "4 cm",
@@ -26,7 +28,8 @@
         "4 cm",
         "4cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "2 (double)",
@@ -36,7 +39,8 @@
         "\u00d72",
         "x2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "1 cm : 2 m",
@@ -46,7 +50,8 @@
         "1:200",
         "2 m"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "45 km",
@@ -55,7 +60,8 @@
         "45 km",
         "45km"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "1.6 m (160 cm)",
@@ -65,7 +71,8 @@
         "160",
         "160 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "7 m",
@@ -74,7 +81,8 @@
         "7 m",
         "7m"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "6.5 cm",
@@ -83,7 +91,8 @@
         "6.5 cm",
         "6.5cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "4 (\u00d74)",
@@ -93,7 +102,8 @@
         "x4",
         "times 4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "7 cm",
@@ -102,7 +112,8 @@
         "7 cm",
         "7cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "No. 3 \u00d7 500 m = 1500 m = 1.5 km, not 15 km.",
@@ -113,7 +124,8 @@
         "1500"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     },
     "13": {
       "display": "False \u2014 real distances stay the same; only the drawing size changes.",
@@ -123,7 +135,8 @@
         "same"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "1 is a distance on the map; 25 000 is the same distance on the ground (in cm).",
@@ -134,7 +147,8 @@
         "centimetre"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "No \u2014 1 cm : 1 m means 1 cm represents 1 m, which is a big reduction. True life size would be a scale of 1 : 1 (1 cm represents 1 cm).",
@@ -145,7 +159,8 @@
         "1:1"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Never \u2014 going from 1 cm : 5 m to 1 cm : 10 m means each cm now stands for more real distance, so the map covers more ground but shows less detail, not more.",
@@ -155,7 +170,8 @@
         "not more"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "No. Real dimensions are 80 m by 60 m (20 \u00d7 4 and 15 \u00d7 4), so the real perimeter is 2 \u00d7 (80 + 60) = 280 m, not 35 m.",
@@ -165,7 +181,8 @@
         "280"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Map B \u2014 since each cm represents fewer metres (50 m instead of 100 m), more centimetres are needed to show the same real distance, making the drawing bigger.",
@@ -175,7 +192,8 @@
         "bigger"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "1000 m or 1 km",
@@ -185,7 +203,8 @@
         "1km",
         "1000 m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "20": {
       "display": "7.5 km",
@@ -194,7 +213,8 @@
         "7.5 km",
         "7.5km"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "900 ml",
@@ -203,7 +223,8 @@
         "900 ml",
         "900ml"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "130 km",
@@ -212,7 +233,8 @@
         "130 km",
         "130km"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "8 cm",
@@ -221,7 +243,8 @@
         "8 cm",
         "8cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "25 cm",
@@ -230,7 +253,8 @@
         "25 cm",
         "25cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "875 g",
@@ -239,7 +263,8 @@
         "875 g",
         "875g"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "1 cm : 5 m (45 m \u00f7 9 cm and 30 m \u00f7 6 cm)",
@@ -249,7 +274,8 @@
         "5 m",
         "1:500"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "1 cm : 160 m (real distance 800 m; 800 \u00f7 5 = 160 m per cm on Map B)",
@@ -259,7 +285,8 @@
         "1 cm : 160 m",
         "160 m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "110 cm",
@@ -268,7 +295,8 @@
         "110 cm",
         "110cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "1 cm : 30 m (real length is 240 m; 240 \u00f7 8 = 30 m per cm)",
@@ -278,13 +306,15 @@
         "1 cm : 30 m",
         "30 m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "A sensible scale (e.g. 1 cm : 20 cm) and the real length of one wall using it.",
       "accept": [],
       "kind": "self-check",
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

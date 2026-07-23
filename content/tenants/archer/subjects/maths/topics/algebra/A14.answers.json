@@ -9,7 +9,8 @@
         "stopped"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "A steep line means a faster speed; a gentle line means a slower speed.",
@@ -19,21 +20,24 @@
         "slower"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "8 km",
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "30 km/h",
       "accept": [
         "30"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "The filling has paused \u2014 the depth is staying the same.",
@@ -43,7 +47,8 @@
         "stopped"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "Steeper \u2014 a narrow container's depth rises faster for the same rate of pouring.",
@@ -51,14 +56,16 @@
         "steeper"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "4 cm per minute",
       "accept": [
         "4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "It curves (gets steeper as the cyclist speeds up).",
@@ -67,7 +74,8 @@
         "curves"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "The person or object is moving back towards the starting point.",
@@ -77,7 +85,8 @@
         "towards start"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "3",
@@ -85,21 +94,24 @@
         "3",
         "three"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "15 km/h",
       "accept": [
         "15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "12 litres",
       "accept": [
         "12"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "A flat section means the distance is not changing at all, so the person has stopped moving \u2014 it does not show a slow walk, which would instead appear as a gentle (not flat) slope.",
@@ -109,7 +121,8 @@
         "gentle slope"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Always \u2014 for the same amount of time, a steeper line covers more distance, which means a faster speed.",
@@ -117,7 +130,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Sam is wrong \u2014 because the container's width changes (narrow middle, wide top and bottom), the depth rises at different rates in different sections, so the graph would have different steepnesses (and curve), not stay a single straight line.",
@@ -127,7 +141,8 @@
         "not straight"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "The second graph (reaching 20) shows the faster journey \u2014 it covers more distance (20 vs 10) in the same time (2), so it has a steeper gradient and a greater speed.",
@@ -138,7 +153,8 @@
         "steeper"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "False \u2014 if the person or object moves back towards the starting point, the distance from the start decreases over time, giving a negative gradient.",
@@ -146,7 +162,8 @@
         "false"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Leo has it backwards \u2014 a steep section means the container is narrow there, since a small cross-section fills up in depth quickly for a given amount of liquid poured in, not wide.",
@@ -155,7 +172,8 @@
         "backwards"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Standing still gives a flat (horizontal) line, since distance does not change. Walking at a constant speed gives a straight line sloping upward at a steady angle, since distance increases steadily with time.",
@@ -166,7 +184,8 @@
         "sloping"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "The graph would curve because the cone's cross-sectional area increases with height. For a steady flow of water, the depth rises quickly near the narrow point but more slowly as the container gets wider, so the rate of depth increase changes over time.",
@@ -177,7 +196,8 @@
         "wider"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "Section 1: a straight line sloping upward as distance from home increases steadily on the way to the park. Section 2: a flat section while resting at the park. Section 3: a straight line sloping downward back to zero, steeper than section 1 because the return speed is faster.",
@@ -188,7 +208,8 @@
         "steeper"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "The depth-time graph rises while the bath fills, then falls back down towards zero once the plug is pulled and the water drains out.",
@@ -198,7 +219,8 @@
         "drains"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "180 km",
@@ -206,7 +228,8 @@
         "180"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "Near the narrow bottom, a small amount of water raises the depth a lot, so the graph starts steep. In the wide middle, more water is needed to raise the depth the same amount, so the graph becomes shallower. Near the narrow top, the depth rises quickly again for the same flow, so the graph steepens once more.",
@@ -217,7 +240,8 @@
         "steepens"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "Section 1: a steep upward slope as heart rate rises quickly during the sprint. Section 2: a flat, high section as heart rate stays elevated during steady running. Section 3: a downward slope as heart rate falls during rest.",
@@ -227,7 +251,8 @@
         "downward"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "Average speed = 90 \u00f7 3 = 30 km/h. A curved section would have meant the van's speed was changing (speeding up or slowing down) rather than staying constant.",
@@ -236,7 +261,8 @@
         "changing speed"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "30 km",
@@ -244,7 +270,8 @@
         "30"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "The cylinder gives a straight line, since its cross-sectional area is the same at every height, so depth rises at a constant rate. The cone (wide base, narrowing upward) gives a curved graph, since less volume is needed to raise the depth as the container narrows, so the depth rises faster and faster near the top.",
@@ -255,7 +282,8 @@
         "curve"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "During the first 4 seconds (speed increasing), the distance-time graph curves, becoming steeper and steeper as speed builds up. Once speed is constant, the distance-time graph becomes a straight line with a steady gradient equal to 8 m/s.",
@@ -265,13 +293,15 @@
         "straight line"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "In both cases, the gradient (steepness) shows how quickly one quantity changes with time. For a distance-time graph, the gradient is the speed \u2014 how fast the position changes. For a depth-time graph, the gradient is the rate at which the liquid's depth rises, which depends on the flow rate and how wide the container is at that height.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

@@ -9,7 +9,8 @@
         "5+n",
         "5 + n"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "3x",
@@ -17,7 +18,8 @@
         "3x",
         "3 x"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "y - 4",
@@ -25,14 +27,16 @@
         "y-4",
         "y - 4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "-7",
@@ -40,7 +44,8 @@
         "-7",
         "7"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "3",
@@ -48,21 +53,24 @@
         "3",
         "three"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "Equation",
       "accept": [
         "equation"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "Expression",
       "accept": [
         "expression"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "2t + 3",
@@ -70,7 +78,8 @@
         "2t+3",
         "2t + 3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "4s",
@@ -78,7 +87,8 @@
         "4s",
         "4 s"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "x + 7 = 15",
@@ -86,14 +96,16 @@
         "x+7=15",
         "x + 7 = 15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "3x",
       "accept": [
         "3x"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "2x + 3 has no equals sign, so it cannot be solved to find a specific value of x \u2014 it is an expression, not an equation.",
@@ -102,7 +114,8 @@
         "expression"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Never \u2014 an expression has no equals sign, so it can only be evaluated for a given x, not solved for a single value.",
@@ -110,7 +123,8 @@
         "never"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "The \u2261 symbol means \"is identically equal to\" \u2014 the two sides are equal for every possible value of x, not just one specific value as with =.",
@@ -120,7 +134,8 @@
         "always equal"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Expression: no equals sign, e.g. 3x + 2. Equation: has an equals sign and can be solved for a value, e.g. 3x + 2 = 11. Formula: relates two or more different quantities, e.g. P = 4s.",
@@ -130,7 +145,8 @@
         "formula"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "True \u2014 x + x + x = 3x for every value of x, so it holds as an identity, not just for one solution.",
@@ -138,7 +154,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "P = 4s is a formula because it relates two different quantities (perimeter and side length) so you can use it to calculate one from the other, rather than solving for a single unknown value.",
@@ -148,7 +165,8 @@
         "two quantities"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "From 5x + 2 = 17 you can solve to find the specific value x = 3; from the expression 5x + 2 alone you can only evaluate it for a given x, not find x itself.",
@@ -158,7 +176,8 @@
         "specific value"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "2x + 3 has no equals sign at all, so Mo's reasoning is wrong from the start \u2014 an equation must contain an equals sign, and 2x + 3 does not.",
@@ -167,7 +186,8 @@
         "expression"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "x + 3",
@@ -176,7 +196,8 @@
         "x + 3"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "2w",
@@ -185,7 +206,8 @@
         "2 w"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "3 + 2m",
@@ -194,7 +216,8 @@
         "3 + 2m"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "5p",
@@ -203,7 +226,8 @@
         "5 p"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "2n - 4",
@@ -212,7 +236,8 @@
         "2n - 4"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "x + (x + 2) + (x + 5) simplifies to 3x + 7.",
@@ -221,7 +246,8 @@
         "3x + 7"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "x^2 + 2x",
@@ -231,7 +257,8 @@
         "x2+2x"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "3(x + 2) + 1 = 3x + 6 + 1 = 3x + 7, which matches, so the expressions are equivalent.",
@@ -240,7 +267,8 @@
         "3x + 7"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "T = c + rh",
@@ -250,13 +278,15 @@
         "c+rh"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "Example: 2x + 3 has no equals sign (expression). 2x + 3 = 9 has an equals sign and one solution, x = 3 (equation). 2(x + 3) \u2261 2x + 6 is true for every value of x (identity).",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

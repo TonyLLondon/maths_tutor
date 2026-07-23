@@ -8,7 +8,8 @@
         "2,3,4,5",
         "2, 3, 4, 5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "-1, 2, 5, 8",
@@ -17,7 +18,8 @@
         "-1,2,5,8",
         "-1, 2, 5, 8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "4",
@@ -25,7 +27,8 @@
         "4",
         "y=4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "3",
@@ -33,7 +36,8 @@
         "3",
         "x=3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "(0, 2)",
@@ -42,7 +46,8 @@
         "(0, 2)",
         "0,2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "(3, 0)",
@@ -51,21 +56,24 @@
         "(3, 0)",
         "3,0"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "Horizontal",
       "accept": [
         "horizontal"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "Vertical",
       "accept": [
         "vertical"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "Yes \u2014 at x = 2, y = 2 + 3 = 5, which matches.",
@@ -74,7 +82,8 @@
         "5"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "Yes \u2014 at x = 4, y = 2(4) + 1 = 9, which matches.",
@@ -83,7 +92,8 @@
         "9"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "(3, 4)",
@@ -92,7 +102,8 @@
         "(3, 4)",
         "3,4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "(3, 5)",
@@ -101,7 +112,8 @@
         "(3, 5)",
         "3,5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Yes \u2014 every point on y = 3 has a y-value of 3 no matter what x is, so (7, 3) is on the line.",
@@ -110,7 +122,8 @@
         "correct"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Always \u2014 setting x = 0 in y = x + c gives y = c, so the line always crosses the y-axis at (0, c).",
@@ -118,7 +131,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "At x = 3, y = 3(3) + 1 = 10, which matches the point (3, 10), so it is on the line.",
@@ -128,7 +142,8 @@
         "on the line"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "They cross at (4, 4) \u2014 every point on x = 4 has x-value 4, and every point on y = 4 has y-value 4, so the only point satisfying both is (4, 4).",
@@ -137,7 +152,8 @@
         "(4, 4)"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "True \u2014 for y = 2x, the y-value is always exactly twice the x-value by definition of the equation.",
@@ -145,7 +161,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Leo mixed up the axis crossings \u2014 (0, -5) is where the line crosses the y-axis. The x-axis crossing is where y = 0: 0 = x - 5, so x = 5, giving the point (5, 0).",
@@ -154,7 +171,8 @@
         "(5, 0)"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "No \u2014 y = x + 1 crosses the y-axis at (0, 1), while y = x - 1 crosses at (0, -1). They are 2 units apart.",
@@ -164,7 +182,8 @@
         "no"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "The equation is y = x, since in every point the y-value equals the x-value: 2 = 2, 4 = 4, 6 = 6.",
@@ -173,7 +192,8 @@
         "y = x"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "(2, 2) \u2014 the pattern increases by 0.5 each time, so at time 2, y = 1 + 2(0.5) = 2.",
@@ -182,7 +202,8 @@
         "(2, 2)"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "The delivery charge is a fixed \u00a35 no matter how many items are ordered \u2014 it does not change with x.",
@@ -192,7 +213,8 @@
         "does not change"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "It is vertical because the fee is fixed at x = 2 regardless of the value plotted on the y-axis \u2014 the line has a constant x-value rather than a constant rate of change.",
@@ -201,7 +223,8 @@
         "constant"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "The line crosses the y-axis at (0, 20), meaning the starting cost before any months have passed is \u00a320 (e.g. a fixed joining fee).",
@@ -211,7 +234,8 @@
         "\u00a320"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "Both give x = 3 when y = 9: 2(3) + 3 = 9 and 3(3) = 9.",
@@ -220,7 +244,8 @@
         "x=3"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "Midpoint is (2, 8). Checking y = 2x + 4 at x = 2 gives y = 8, so the midpoint does lie on that line.",
@@ -230,13 +255,15 @@
         "yes"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "Gradient = (8 - 4)/(3 - 1) = 2, so the equation is y = 2x + 2. Example third point: (5, 12), since 2(5) + 2 = 12.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1952
     },
     "28": {
       "display": "y-axis crossing: (0, -8). x-axis crossing: (4, 0).",
@@ -245,7 +272,8 @@
         "(4,0)"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "c = 7, since 10 = 3 + c.",
@@ -255,7 +283,8 @@
         "c = 7"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "At x = 1, y = 2(1) + 1 = 3. At x = 2, y = 2(2) + 1 = 5. At x = 4, y = 2(4) + 1 = 9. All three match, confirming the points lie on the line.",
@@ -265,7 +294,8 @@
         "9"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

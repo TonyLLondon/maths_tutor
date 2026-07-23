@@ -8,7 +8,8 @@
         "8.5"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "35 kg \u2264 mass < 45 kg",
@@ -17,7 +18,8 @@
         "45"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "14.5 min \u2264 time < 15.5 min",
@@ -26,7 +28,8 @@
         "15.5"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "6.15 \u2264 n < 6.25",
@@ -35,7 +38,8 @@
         "6.25"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "115 mm \u2264 length < 125 mm",
@@ -44,7 +48,8 @@
         "125"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "250 \u2264 n < 350",
@@ -53,7 +58,8 @@
         "350"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "7.495 \u2264 n < 7.505",
@@ -62,7 +68,8 @@
         "7.505"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "2.5 km \u2264 distance < 3.5 km",
@@ -71,7 +78,8 @@
         "3.5"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "85 \u2264 n < 95",
@@ -80,7 +88,8 @@
         "95"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "2.45 kg \u2264 mass < 2.55 kg",
@@ -89,7 +98,8 @@
         "2.55"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "42.5 cm \u2264 length < 47.5 cm",
@@ -98,7 +108,8 @@
         "47.5"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "950 \u2264 n < 1050",
@@ -107,7 +118,8 @@
         "1050"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "0.55 \u2264 n < 0.65",
@@ -116,7 +128,8 @@
         "0.65"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "14": {
       "display": "1.5 h \u2264 time < 2.5 h",
@@ -125,7 +138,8 @@
         "2.5"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "15": {
       "display": "No \u2014 it means the actual length could be anywhere from 7.5 cm up to (but not including) 8.5 cm, not exactly 8 cm.",
@@ -135,7 +149,8 @@
         "8.5"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Always",
@@ -143,7 +158,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Mistake: half of 10 is 5, so the bounds should be 145 cm to 155 cm, not the full 10 either way.",
@@ -152,7 +168,8 @@
         "155"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Always",
@@ -160,7 +177,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Nearest 10 gives 25 \u2264 n < 35 (width 10); nearest 1 gives 29.5 \u2264 n < 30.5 (width 1). The nearest-10 interval is wider because rounding to a bigger unit hides more precision.",
@@ -170,7 +188,8 @@
         "10"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "195 m \u2264 length < 205 m",
@@ -179,14 +198,16 @@
         "205"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "1.45 kg",
       "accept": [
         "1.45"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "42.5 min \u2264 time < 47.5 min",
@@ -195,7 +216,8 @@
         "47.5"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "No \u2014 Archer's height is 139.5 to 140.5 cm and Sloan's is 138.5 to 139.5 cm. Sloan's height can get close to but never reach 139.5 cm, which is Archer's minimum, so Sloan cannot actually be taller.",
@@ -205,14 +227,16 @@
         "cannot"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "12.5 cm",
       "accept": [
         "12.5"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "55 \u2264 n < 65",
@@ -221,7 +245,8 @@
         "65"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "4.45 \u2264 x < 4.55",
@@ -230,7 +255,8 @@
         "4.55"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "4500 \u2264 crowd < 5500. No \u2014 4400 is below the lower bound, so it could not have been the actual crowd.",
@@ -240,7 +266,8 @@
         "no"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "Rounding to 1 decimal place means going halfway to the next value, and half of 0.1 is 0.05, so the bounds are 7.95 to 8.05, not the full 0.1 either side.",
@@ -249,7 +276,8 @@
         "half"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "22.5 \u2264 n < 27.5",
@@ -258,7 +286,8 @@
         "27.5"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "30": {
       "display": "Yes \u2014 rounding to the nearest 100 gives a width of 100, while rounding to the nearest 10 gives a width of only 10, so nearest-100 rounding is always less precise.",
@@ -268,7 +297,8 @@
         "10"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     }
   }
 }

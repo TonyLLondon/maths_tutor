@@ -6,14 +6,16 @@
       "accept": [
         "490"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "6.3",
       "accept": [
         "6.3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "800 (40 \u00d7 20)",
@@ -22,7 +24,8 @@
         "40 x 20",
         "40\u00d720"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "50 (500 \u00f7 10) or similar sensible estimate",
@@ -31,21 +34,24 @@
         "500/10",
         "55.8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "2300",
       "accept": [
         "2300"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "8.65",
       "accept": [
         "8.65"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "1800 (60 \u00d7 30)",
@@ -54,14 +60,16 @@
         "60 x 30",
         "60\u00d730"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "0.085",
       "accept": [
         "0.085"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "20 (800 \u00f7 40)",
@@ -70,7 +78,8 @@
         "800/40",
         "800\u00f740"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "4.00",
@@ -78,7 +87,8 @@
         "4.00",
         "4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "20 000",
@@ -86,7 +96,8 @@
         "20000",
         "20 000"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "25 (5 \u00d7 5)",
@@ -95,14 +106,16 @@
         "5 x 5",
         "5\u00d75"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "0.7",
       "accept": [
         "0.7"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "14": {
       "display": "700 (300 + 400)",
@@ -110,7 +123,8 @@
         "700",
         "300+400"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "15": {
       "display": "Yes \u2014 500 is close to 503, so the estimate is sensible.",
@@ -121,7 +135,8 @@
         "close"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Always for rounding both up before multiplying \u2014 e.g. 2 \u00d7 2 = 4 is greater than 1.8 \u00d7 1.9 = 3.42.",
@@ -131,7 +146,8 @@
         "overestimate"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Yes, sensible. Exact answer is 21.76, close to the estimate of 21.",
@@ -142,7 +158,8 @@
         "close"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Sometimes \u2014 e.g. 40 rounds to 40 (the same), but 43 rounds to 40 (different).",
@@ -150,7 +167,8 @@
         "sometimes"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Mistake: she rounded down instead of up when the next digit is 5. Correct answer: 3.7.",
@@ -158,7 +176,8 @@
         "3.7"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "About \u00a31 500 000 (e.g. 30 000 \u00d7 \u00a350).",
@@ -168,7 +187,8 @@
         "30000 x 50",
         "31000 x 50"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "About 6000 kg (300 \u00d7 20).",
@@ -177,7 +197,8 @@
         "300 x 20",
         "300\u00d720"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "Estimate: 190 + 210 = 400. Exact: 401 \u2014 very close.",
@@ -186,7 +207,8 @@
         "401"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "Estimate: 20 \u00d7 30 = 600. Exact: 768. Since both numbers were rounded down, the estimate is too low.",
@@ -196,7 +218,8 @@
         "underestimate"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "Estimate: 6 \u00d7 \u00a33 = \u00a318. Exact: 6 \u00d7 \u00a32.95 = \u00a317.70.",
@@ -205,7 +228,8 @@
         "17.70"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "Exact: 2548. Estimate e.g. 50 \u00d7 50 = 2500 \u2014 close to exact.",
@@ -215,7 +239,8 @@
         "2550"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "Smallest 3.75, largest just under 3.85 (3.75 \u2264 x < 3.85).",
@@ -224,7 +249,8 @@
         "3.85"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "Between 7 and 8, closer to 7 (since 50 is close to 49).",
@@ -233,7 +259,8 @@
         "8"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "Smallest 19 500, largest 20 499 (up to but not including 20 500).",
@@ -243,7 +270,8 @@
         "20500"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "Estimate: 600 \u00f7 30 = 20. Exact: 612 \u00f7 29 \u2248 21.1, so the estimate is smaller than the exact answer.",
@@ -252,7 +280,8 @@
         "smaller"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "30": {
       "display": "No \u2014 rounding does affect accuracy, since it introduces a small error, even though it can make calculations easier.",
@@ -262,7 +291,8 @@
         "incorrect"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     }
   }
 }

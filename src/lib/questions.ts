@@ -1,11 +1,13 @@
+import { effectiveQuestionRating } from "./practice-rating";
+
+export type QuestionTier = 1 | 2 | 3;
+
 export type ParsedQuestion = {
   id: string;
   text: string;
   section: string;
   tier: QuestionTier;
 };
-
-export type QuestionTier = 1 | 2 | 3;
 
 export type AnswerKind = "text" | "self-check" | "bar-chart";
 
@@ -18,7 +20,9 @@ export type AnswerEntry = {
   display: string;
   accept: string[];
   kind?: AnswerKind;
-  /** 1 = easier, 2 = medium, 3 = harder (Practice filter) */
+  /** Chess-style difficulty 900–2200; GCSE hard ≈ 2000 */
+  rating?: number;
+  /** @deprecated use rating; 1 = easier, 2 = medium, 3 = harder */
   tier?: QuestionTier;
   /** Match if normalized user answer includes any accept string */
   contains?: boolean;
@@ -36,6 +40,7 @@ export type ClientAnswerMeta = {
   kind: AnswerKind;
   display: string;
   bars?: BarChartSpec;
+  rating: number;
 };
 
 export function resolveAnswerKind(entry: AnswerEntry): AnswerKind {
@@ -45,11 +50,17 @@ export function resolveAnswerKind(entry: AnswerEntry): AnswerKind {
   return "text";
 }
 
-export function toClientAnswerMeta(entry: AnswerEntry): ClientAnswerMeta {
+export function toClientAnswerMeta(
+  entry: AnswerEntry,
+  questionId: string,
+  sectionTier: QuestionTier,
+): ClientAnswerMeta {
+  const tier = entry.tier ?? sectionTier;
   return {
     kind: resolveAnswerKind(entry),
     display: entry.display,
     bars: entry.bars,
+    rating: effectiveQuestionRating(entry.rating, tier, questionId),
   };
 }
 

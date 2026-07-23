@@ -6,84 +6,96 @@
       "accept": [
         "10"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "10",
       "accept": [
         "10"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "10",
       "accept": [
         "10"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "30 (3/10 of 100)",
       "accept": [
         "30"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "9 (1/5 of 45)",
       "accept": [
         "9"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "60 (half of 120)",
       "accept": [
         "60"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "60 (0.3 x 200)",
       "accept": [
         "60"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "20 (500 / 25)",
       "accept": [
         "20"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "8 (2/8 of 32, for numbers 7 and 8)",
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "6 (0.2 x 30)",
       "accept": [
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "20 (5/20 of 80)",
       "accept": [
         "20"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "10 (multiples of 5 in 1-10 are 5 and 10, so 2/10 of 50)",
       "accept": [
         "10"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Expected outcomes are averages over many trials \u2014 with only 30 rolls, natural random variation means the actual result can differ from the expected number without the dice being unfair.",
@@ -94,7 +106,8 @@
         "average"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "No \u2014 the expected number is an average over many repeats, not a guarantee for any single set of 20 flips.",
@@ -105,7 +118,8 @@
         "not guaranteed"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Sometimes \u2014 e.g. 45 spins x 1/4 = 11.25, which is not a whole number, even though 20 x 1/4 = 5 is.",
@@ -113,7 +127,8 @@
         "sometimes"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Yes \u2014 15/60 simplifies to 1/4, so the relative frequency matches the stated probability.",
@@ -123,7 +138,8 @@
         "1/4"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "With only 10 flips, random variation can easily produce 8 heads even with a fair coin \u2014 many more trials would be needed to test for bias.",
@@ -134,7 +150,8 @@
         "not enough"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "True \u2014 this describes how relative frequency tends to settle closer to the true probability as the number of trials increases.",
@@ -142,7 +159,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Expected number = 1/6 x 600 = 100. The actual result of 90 is fairly close to 100, which is normal for real experiments.",
@@ -151,62 +169,71 @@
         "close"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "120 (480 / 4)",
       "accept": [
         "120"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "60 (3000 x 0.02)",
       "accept": [
         "60"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "120 (green is 3/6 = 1/2 of 240)",
       "accept": [
         "120"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "12 rainy days (31 x 0.4 = 12.4, rounded to 12)",
       "accept": [
         "12"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "30 (180 x 6/36)",
       "accept": [
         "30"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "1 prize (each raffle has expected value 3/60 = 1/20; over 20 raffles, 20 x 1/20 = 1)",
       "accept": [
         "1"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "80 (4000 / 50)",
       "accept": [
         "80"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "For example, an event with probability 1/4 (e.g. a spinner with 1 winning section out of 4), since 1/4 x 100 = 25.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1952
     },
     "28": {
       "display": "p = 0.7 (350 / 500)",
@@ -215,13 +242,15 @@
         "70%",
         "7/10"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "Expected outcomes give a sensible average to plan around (e.g. how much stock or how many prizes to prepare), even though the exact result on any one occasion will vary.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1976
     },
     "30": {
       "display": "0.2 prizes expected (10 x 5/250 = 10/50 = 0.2). This is a decimal because it is an average over many possible outcomes, not a prediction for one specific raffle.",
@@ -230,7 +259,8 @@
         "1/5"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

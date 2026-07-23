@@ -6,14 +6,16 @@
       "accept": [
         "24"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "15",
       "accept": [
         "15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "s = P/4",
@@ -22,7 +24,8 @@
         "s = P/4",
         "s=P\u00f74"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "x = y - 3",
@@ -30,7 +33,8 @@
         "x=y-3",
         "x = y - 3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "x = y + 5",
@@ -38,7 +42,8 @@
         "x=y+5",
         "x = y + 5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "x = y/2",
@@ -46,7 +51,8 @@
         "x=y/2",
         "x = y/2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "l = A/w",
@@ -54,14 +60,16 @@
         "l=a/w",
         "l = A/w"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "22",
       "accept": [
         "22"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "x = (y - 1)/3",
@@ -69,7 +77,8 @@
         "x=(y-1)/3",
         "x = (y - 1)/3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "x = (y + 2)/5",
@@ -77,14 +86,16 @@
         "x=(y+2)/5",
         "x = (y + 2)/5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "21",
       "accept": [
         "21"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "u = v - t",
@@ -92,7 +103,8 @@
         "u=v-t",
         "u = v - t"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Sam should have divided by 4, not subtracted it, since s is multiplied by 4 in the formula. Correctly, s = P/4.",
@@ -101,7 +113,8 @@
         "s = P/4"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Always \u2014 rearranging a formula keeps the same relationship between the letters; it only changes which letter is isolated on its own.",
@@ -109,7 +122,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Priya added 3 instead of subtracting it. Since y = x + 3, subtracting 3 from both sides gives x = y - 3.",
@@ -118,7 +132,8 @@
         "x = y - 3"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "w = A/l is correct: with A = 20 and l = 4, w = 20/4 = 5, which matches lw = 20. The subtraction version gives w = 16, which is wrong since 4 \u00d7 16 \u2260 20.",
@@ -128,7 +143,8 @@
         "correct"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "True \u2014 subtracting 5 gives y - 5 = 2x, then dividing by 2 gives x = (y - 5)/2.",
@@ -136,7 +152,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Sam is correct. Adding 1 to both sides of y = 3x - 1 gives y + 1 = 3x, so x = (y + 1)/3.",
@@ -145,7 +162,8 @@
         "(y+1)/3"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Substituting is used when you know the value of the variables on the right and want to calculate the subject directly. Rearranging is used when you know the subject's value and need to find one of the other variables, especially if you need to do this many times.",
@@ -154,7 +172,8 @@
         "rearrange"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Mo added 5 instead of subtracting it. Since C = 5 + 2n, subtracting 5 first gives C - 5 = 2n, so n = (C - 5)/2.",
@@ -163,7 +182,8 @@
         "n = (C - 5)/2"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "k = m/0.6. When m = 30, k = 30 \u00f7 0.6 = 50 km.",
@@ -171,7 +191,8 @@
         "50"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "m = (C - 3)/2. When C = 17, m = (17 - 3)/2 = 7 miles.",
@@ -179,7 +200,8 @@
         "7"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "l = (P - 2w)/2. When P = 24 and w = 5, l = (24 - 10)/2 = 7.",
@@ -187,7 +209,8 @@
         "7"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "w = (T - 20)/30. When T = 110, w = (110 - 20)/30 = 3 kg.",
@@ -195,7 +218,8 @@
         "3"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "c = (f - 30)/2. When f = 70, c = (70 - 30)/2 = 20.",
@@ -203,7 +227,8 @@
         "20"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "t = (C - 10)/0.05. When C = 15, t = (15 - 10)/0.05 = 100 texts.",
@@ -211,7 +236,8 @@
         "100"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "x = 2y - 8 (from x/2 = y - 4, so x = 2(y - 4)).",
@@ -220,7 +246,8 @@
         "x = 2y - 8"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "h = 2A/b.",
@@ -229,7 +256,8 @@
         "h = 2A/b"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "x = (2y + 6)/3.",
@@ -238,7 +266,8 @@
         "x = (2y + 6)/3"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "h = V/(lw). When V = 60, l = 5, w = 4: h = 60/20 = 3.",
@@ -246,7 +275,8 @@
         "3"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

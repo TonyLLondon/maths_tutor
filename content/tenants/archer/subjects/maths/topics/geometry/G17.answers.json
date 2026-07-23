@@ -6,77 +6,88 @@
       "accept": [
         "31.4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "31.4 cm",
       "accept": [
         "31.4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "50.24 cm\u00b2",
       "accept": [
         "50.24"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "7 cm",
       "accept": [
         "7"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "12 cm",
       "accept": [
         "12"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "62.8 cm",
       "accept": [
         "62.8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "28.26 cm\u00b2",
       "accept": [
         "28.26"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "50.24 cm\u00b2",
       "accept": [
         "50.24"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "10 cm",
       "accept": [
         "10"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "157 cm",
       "accept": [
         "157"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "3.14",
       "accept": [
         "3.14"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "\u03c0r\u00b2",
@@ -87,7 +98,8 @@
         "pi r squared"
       ],
       "tier": 1,
-      "contains": true
+      "contains": true,
+      "rating": 1188
     },
     "13": {
       "display": "For every circle, no matter its size, the circumference is always exactly \u03c0 times as long as the diameter \u2014 \u03c0 is simply the fixed ratio circumference \u00f7 diameter, so circumference = \u03c0 \u00d7 diameter.",
@@ -96,7 +108,8 @@
         "fixed"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1600
     },
     "14": {
       "display": "The circumference also doubles, since C = 2\u03c0r \u2014 circumference is directly proportional to the radius.",
@@ -104,14 +117,16 @@
         "doubles"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1612
     },
     "15": {
       "display": "Never",
       "accept": [
         "never"
       ],
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "The area becomes 4 times as big, since area = \u03c0r\u00b2 and doubling r means squaring 2, giving 2\u00b2 = 4 times the area.",
@@ -121,7 +136,8 @@
         "quadruples"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1636
     },
     "17": {
       "display": "No \u2014 Sam can rearrange the formula to r = circumference \u00f7 (2\u03c0) to find the radius.",
@@ -131,7 +147,8 @@
         "2\u03c0"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1648
     },
     "18": {
       "display": "Circumferences are in the ratio 1 : 2; areas are in the ratio 1 : 4.",
@@ -142,14 +159,16 @@
         "1 4"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1552
     },
     "19": {
       "display": "5 cm",
       "accept": [
         "5"
       ],
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "No \u2014 a semicircle's perimeter is half the circumference PLUS the diameter (the straight edge), not just half the circumference alone.",
@@ -158,21 +177,24 @@
         "plus the diameter"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1576
     },
     "21": {
       "display": "3.77 m",
       "accept": [
         "3.77"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "153.86 m\u00b2",
       "accept": [
         "153.86"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "18.84 m",
@@ -181,7 +203,8 @@
         "1884"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2012
     },
     "24": {
       "display": "707 cm\u00b2",
@@ -190,47 +213,54 @@
         "706.5"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2024
     },
     "25": {
       "display": "63.7 m",
       "accept": [
         "63.7"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "78.5 cm\u00b2",
       "accept": [
         "78.5"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "This ratio (\u03c0) is a mathematical constant \u2014 as a circle gets bigger, both its circumference and diameter grow at exactly the same rate, so their ratio never changes.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1952
     },
     "28": {
       "display": "About 9.4 cm",
       "accept": [
         "9.4"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "About 8.9 cm",
       "accept": [
         "8.9"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "Your own circumference or area problem, solved correctly with \u03c0 \u2248 3.14.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

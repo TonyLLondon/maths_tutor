@@ -6,7 +6,8 @@
       "accept": [
         "36"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "5 outcomes: (2,6),(3,5),(4,4),(5,3),(6,2)",
@@ -14,21 +15,24 @@
         "5"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "1/36",
       "accept": [
         "1/36"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "8 outcomes (2 x 4)",
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "1/4 (2/8, for heads-2 and heads-4)",
@@ -37,14 +41,16 @@
         "2/8",
         "0.25"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "HH, HT, TH, TT",
       "accept": [
         "hh ht th tt"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "1/2 (2/4, for HT and TH)",
@@ -53,14 +59,16 @@
         "2/4",
         "0.5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "9 outcomes (3 x 3)",
       "accept": [
         "9"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "1/3 (3/9)",
@@ -68,7 +76,8 @@
         "1/3",
         "3/9"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "1/6 (6/36)",
@@ -76,7 +85,8 @@
         "1/6",
         "6/36"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "1/2 (18/36)",
@@ -84,14 +94,16 @@
         "1/2",
         "18/36"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "1/12 (1/6 x 1/2)",
       "accept": [
         "1/12"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "He probably counted (1,2) and (2,1) as the same outcome instead of two separate ordered outcomes, missing 15 outcomes.",
@@ -101,13 +113,15 @@
         "not separate"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "A possibility space shows every combined outcome of two events clearly laid out, making it easy to count how many outcomes match a condition and divide by the total.",
       "accept": [],
       "tier": 2,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1612
     },
     "15": {
       "display": "True \u2014 since each dice is fair, every one of the 36 ordered pairs is equally likely.",
@@ -115,7 +129,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "No \u2014 there are 6 ways to make a total of 7, but only 1 way to make a total of 2, so a total of 7 is much more likely.",
@@ -125,13 +140,15 @@
         "1 way"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "There are more pairs of dice scores that add to 7 (e.g. 1+6, 2+5, 3+4, 4+3, 5+2, 6+1) than pairs that add to 12 (only 6+6), because 7 is in the middle of the possible range of totals.",
       "accept": [],
       "tier": 2,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1648
     },
     "18": {
       "display": "No, Priya is incorrect \u2014 the correct total is 2^3 = 8 outcomes, since each of the 3 coins has 2 possible results.",
@@ -140,13 +157,15 @@
         "8"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "A grid organises outcomes by both events at once (rows for one event, columns for the other), making it much easier to see and count combined outcomes than a single unordered list.",
       "accept": [],
       "tier": 2,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1564
     },
     "20": {
       "display": "6 outcomes have a product greater than 20: (4,6),(6,4),(5,5),(5,6),(6,5),(6,6); probability = 6/36 = 1/6",
@@ -155,7 +174,8 @@
         "6/36"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "Possibility space of 10 outcomes (5 x 2); P(odd and heads) = 3/10 (odd numbers 1, 3, 5)",
@@ -163,7 +183,8 @@
         "3/10"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "16 outcomes in total; totals of 6, 7, or 8 give 6 outcomes, so P(at least 6) = 6/16 = 3/8",
@@ -172,14 +193,16 @@
         "6/16"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "6 outcomes (3 x 2); P(B,2) = 1/6",
       "accept": [
         "1/6"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "1/6 (6/36, when both dice show the same number)",
@@ -187,7 +210,8 @@
         "1/6",
         "6/36"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "8 outcomes: HHH, HHT, HTH, HTT, THH, THT, TTH, TTT; P(exactly two heads) = 3/8 (HHT, HTH, THH)",
@@ -195,20 +219,23 @@
         "3/8"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "11/36 (1 - 25/36, since P(no six) = 5/6 x 5/6 = 25/36)",
       "accept": [
         "11/36"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "You could extend the grid to a 3D table or a list of 216 (6 x 6 x 6) ordered triples, but a flat 2D grid can no longer show three dimensions of outcomes, so it becomes much harder to draw and read directly.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1952
     },
     "28": {
       "display": "No \u2014 since the dice is biased, outcomes involving a 6 are more likely than others, so not every cell in the grid would be equally likely, even though there would still be 36 cells.",
@@ -217,19 +244,22 @@
         "not equally likely"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "There is only one way to make the smallest total (2) and the largest total (12), but the number of ways increases towards the middle totals (like 7), then decreases again, giving a triangular (symmetric) shape when plotted.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1976
     },
     "30": {
       "display": "A sensible original possibility space problem with correct working shown for one combined outcome's probability.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

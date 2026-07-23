@@ -7,7 +7,8 @@
         "5",
         "5 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "8 cm",
@@ -15,7 +16,8 @@
         "8",
         "8 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "13 cm",
@@ -23,7 +25,8 @@
         "13",
         "13 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "sin \u03b8 = opposite/hypotenuse; cos \u03b8 = adjacent/hypotenuse; tan \u03b8 = opposite/adjacent",
@@ -33,7 +36,8 @@
         "opposite adjacent"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "4.0 cm",
@@ -42,7 +46,8 @@
         "4.0",
         "4 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "7.8 cm",
@@ -50,7 +55,8 @@
         "7.8",
         "7.83"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "35.5\u00b0",
@@ -58,7 +64,8 @@
         "35.5",
         "35.5\u00b0"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "17 cm",
@@ -66,7 +73,8 @@
         "17",
         "17 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "12 m",
@@ -74,7 +82,8 @@
         "12",
         "12 m"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "5.1 cm",
@@ -82,7 +91,8 @@
         "5.1",
         "5.07"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "36.9\u00b0",
@@ -90,7 +100,8 @@
         "36.9",
         "36.9\u00b0"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "24 cm",
@@ -98,7 +109,8 @@
         "24",
         "24 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Wrong \u2014 Pythagoras' theorem only works for right-angled triangles.",
@@ -107,7 +119,8 @@
         "right angle only"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "True \u2014 the hypotenuse is always the longest side and is always opposite the right angle.",
@@ -115,7 +128,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Wrong \u2014 you cannot add the legs directly; the correct method is $\\sqrt{6^2 + 8^2} = \\sqrt{100} = 10$ cm.",
@@ -124,7 +138,8 @@
         "10 cm"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Always \u2014 the hypotenuse is defined as the side opposite the right angle in a right-angled triangle.",
@@ -132,7 +147,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Wrong \u2014 tan uses opposite/adjacent, not the hypotenuse; Priya should use sin (opposite/hypotenuse) instead, since she has the opposite and hypotenuse sides.",
@@ -141,13 +157,15 @@
         "sine"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "SOH means sin = opposite/hypotenuse, CAH means cos = adjacent/hypotenuse, and TOA means tan = opposite/adjacent \u2014 choose the ratio that matches the two sides (or side and angle) you know and want to find.",
       "accept": [],
       "tier": 2,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1552
     },
     "19": {
       "display": "Yes, this is reasonable \u2014 as the angle approaches 90\u00b0, the opposite side becomes very large compared with the adjacent side, so tan(\u03b8) increases without limit.",
@@ -156,7 +174,8 @@
         "reasonable"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Leo forgot to take the square root; $a^2 = 100 - 36 = 64$, so $a = \\sqrt{64} = 8$, not 64.",
@@ -165,7 +184,8 @@
         "square root"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "25 m",
@@ -173,7 +193,8 @@
         "25",
         "25 m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "14.0 m",
@@ -181,7 +202,8 @@
         "14",
         "14.0"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "50 km",
@@ -189,7 +211,8 @@
         "50",
         "50 km"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "10.6\u00b0",
@@ -197,7 +220,8 @@
         "10.6",
         "10.6\u00b0"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "40 m",
@@ -205,7 +229,8 @@
         "40",
         "40 m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "5.4 m",
@@ -213,7 +238,8 @@
         "5.4",
         "5.44"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "15 cm; smallest angle 28.1\u00b0",
@@ -222,7 +248,8 @@
         "28.1"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "50 km",
@@ -230,7 +257,8 @@
         "50",
         "50 km"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "15 m; angle 53.1\u00b0",
@@ -239,7 +267,8 @@
         "53.1"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "x = 8",
@@ -247,7 +276,8 @@
         "8",
         "x=8"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

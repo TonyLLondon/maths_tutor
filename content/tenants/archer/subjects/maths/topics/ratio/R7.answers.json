@@ -7,21 +7,24 @@
         "yes"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "20",
       "accept": [
         "20"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "400 g",
@@ -30,7 +33,8 @@
         "400 g",
         "400g"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "Yes \u2014 5:8 \u00d7 3 = 15:24.",
@@ -38,21 +42,24 @@
         "yes"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "6",
       "accept": [
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "15 cm",
@@ -61,14 +68,16 @@
         "15 cm",
         "15cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "9",
       "accept": [
         "9"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "Yes \u2014 both simplify to 3:2.",
@@ -76,14 +85,16 @@
         "yes"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "7",
       "accept": [
         "7"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "No \u2014 cross-multiplying gives 3\u00d79=27 and 4\u00d76=24, which are not equal, so 3:4 and 6:9 are not actually equivalent.",
@@ -93,7 +104,8 @@
         "not equivalent"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     },
     "13": {
       "display": "Always \u2014 this cross-multiplication rule holds exactly when a:b = c:d.",
@@ -101,7 +113,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "True \u2014 converting both ratios to the form 1:n and comparing the n values is a valid way to check they are equal.",
@@ -109,7 +122,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Priya multiplied the wrong two numbers. The correct method: x = 21 \u00d7 4 \u00f7 7 = 12.",
@@ -117,7 +131,8 @@
         "12"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Dividing both parts of 8:12 by 4 gives 2:3 \u2014 the same relationship, written with smaller numbers.",
@@ -126,7 +141,8 @@
         "same relationship"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "No \u2014 4:8 simplifies to 1:2 (0.5), while 3:5 is 0.6. Despite smaller numbers, 3:5 actually represents the bigger relationship.",
@@ -135,7 +151,8 @@
         "incorrect"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "No \u2014 scaling 5:2 by 3 gives 15:6, not 15:8, so 15:8 is not the same proportion.",
@@ -145,7 +162,8 @@
         "15:6"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "18 litres",
@@ -153,7 +171,8 @@
         "18",
         "18 litres"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "20": {
       "display": "1.6 km",
@@ -162,7 +181,8 @@
         "1.6 km",
         "1.6km"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "1000 ml (1 litre)",
@@ -172,7 +192,8 @@
         "1 litre",
         "1l"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "Sand 16 kg; gravel 24 kg",
@@ -181,7 +202,8 @@
         "16 and 24",
         "16kg 24kg"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "30 cm",
@@ -190,7 +212,8 @@
         "30 cm",
         "30cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "64 cm",
@@ -199,7 +222,8 @@
         "64 cm",
         "64cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "Lemonade 10 litres; soda 25 litres",
@@ -207,21 +231,24 @@
         "10 25",
         "10 and 25"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "8",
       "accept": [
         "8"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "6",
       "accept": [
         "6"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "2 m",
@@ -230,19 +257,22 @@
         "2 m",
         "2m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "Writing a:b = c:d as fractions a/b = c/d, multiplying both sides by b and d clears the denominators and gives a\u00d7d = b\u00d7c.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1976
     },
     "30": {
       "display": "A correctly solved missing-number ratio problem.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

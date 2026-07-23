@@ -6,84 +6,96 @@
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "8",
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "13",
       "accept": [
         "13"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "9",
       "accept": [
         "9"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "8",
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "4",
       "accept": [
         "4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "15",
       "accept": [
         "15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "16",
       "accept": [
         "16"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "18",
       "accept": [
         "18"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "6",
       "accept": [
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "4",
       "accept": [
         "4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "-15",
       "accept": [
         "-15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Priya made an arithmetic slip. Correctly, 3 \u00d7 2 + 1 = 6 + 1 = 7.",
@@ -91,7 +103,8 @@
         "7"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Always \u2014 every time you substitute x = 0 into 5x + 4, you get 0 + 4 = 4.",
@@ -99,7 +112,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "No \u2014 squaring a negative number gives a positive result: (-1)^2 = 1, not -1.",
@@ -108,7 +122,8 @@
         "1"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Yes \u2014 2(5) + 3 = 13 and 5 + 8 = 13, so both expressions equal 13 at x = 5.",
@@ -117,7 +132,8 @@
         "13"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "True \u2014 7 + 7 = 14 and 2 \u00d7 7 = 14, so both give the same result.",
@@ -126,7 +142,8 @@
         "14"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Leo has the order wrong: indices apply before multiplication, so you square x first (3^2 = 9), then multiply by 4, giving 36 \u2014 not (4 \u00d7 3)^2 = 144.",
@@ -134,7 +151,8 @@
         "36"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "At x = 2, x^2 = 4 and 2x = 4 \u2014 they are equal. At x = 5, x^2 = 25 and 2x = 10 \u2014 x^2 is bigger. x^2 grows faster than 2x as x increases.",
@@ -145,7 +163,8 @@
         "equal"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Mo squared -4 incorrectly, treating it like -(4^2). Squaring a negative gives a positive: (-4)^2 = 16, so the correct value is 16 + 3 = 19.",
@@ -153,7 +172,8 @@
         "19"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "\u00a313",
@@ -162,7 +182,8 @@
         "\u00a313"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "\u00a344",
@@ -171,7 +192,8 @@
         "\u00a344"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "40 cm\u00b2",
@@ -179,7 +201,8 @@
         "40"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "\u00a312",
@@ -188,7 +211,8 @@
         "\u00a312"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "28 cm when s = 7 cm; 56 cm when s = 14 cm \u2014 doubling the side length doubles the perimeter.",
@@ -197,7 +221,8 @@
         "56"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "22 points",
@@ -205,7 +230,8 @@
         "22"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "21",
@@ -213,7 +239,8 @@
         "21"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "9",
@@ -221,7 +248,8 @@
         "9"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "(3 + 2)^2 = 25 but 3^2 + 4 = 13 \u2014 the two expressions give different values, so they are not equivalent.",
@@ -230,7 +258,8 @@
         "13"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "First four terms: 2, 5, 8, 11. 10th term: 3(10) - 1 = 29.",
@@ -242,7 +271,8 @@
         "29"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

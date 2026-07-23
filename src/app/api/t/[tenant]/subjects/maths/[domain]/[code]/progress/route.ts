@@ -1,8 +1,16 @@
 import { NextResponse } from "next/server";
 import { requireSession } from "@/lib/auth";
-import { getAnswerKey } from "@/lib/content";
-import { gradePracticeAttempt } from "@/lib/questions";
-import { getTopicProgress, saveQuestionAttempt } from "@/lib/progress";
+import { getAnswerKey, getWorksheet } from "@/lib/content";
+import {
+  gradePracticeAttempt,
+  parseQuestions,
+  type AnswerEntry,
+} from "@/lib/questions";
+import { nextUserRating, effectiveQuestionRating as ratingForQuestion } from "@/lib/practice-rating";
+import {
+  getTopicProgressState,
+  saveQuestionAttempt,
+} from "@/lib/progress";
 import { isTenantId } from "@/lib/tenants";
 
 type Ctx = {
@@ -11,6 +19,15 @@ type Ctx = {
 
 function topicPath(domain: string, code: string): string {
   return `${domain}/${code}`;
+}
+
+function questionRating(
+  entry: AnswerEntry,
+  questionId: string,
+  sectionTier: 1 | 2 | 3,
+): number {
+  const tier = entry.tier ?? sectionTier;
+  return ratingForQuestion(entry.rating, tier, questionId);
 }
 
 export async function GET(_req: Request, { params }: Ctx) {
@@ -25,12 +42,17 @@ export async function GET(_req: Request, { params }: Ctx) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const progress = await getTopicProgress(
+  const slug = topicPath(domain, code);
+  const state = await getTopicProgressState(
     session.userId,
     "maths",
-    topicPath(domain, code),
+    slug,
   );
-  return NextResponse.json({ progress });
+  return NextResponse.json({
+    progress: state.questions,
+    rating: state.rating,
+    ratingHistory: state.ratingHistory ?? [],
+  });
 }
 
 export async function POST(request: Request, { params }: Ctx) {
@@ -63,14 +85,22 @@ export async function POST(request: Request, { params }: Ctx) {
     );
   }
 
+  const doc = await getWorksheet(tenant, slug);
+  const sectionTier = doc
+    ? (parseQuestions(doc.body).find((q) => q.id === questionId)?.tier ?? 2)
+    : 2;
+
+  const qRating = questionRating(entry, questionId, sectionTier);
+
   const { correct, display } = gradePracticeAttempt(entry, {
     questionId,
     answer: body.answer,
     selfCheckCorrect: body.selfCheckCorrect,
     barHeights: body.barHeights,
   });
-  const existing = await getTopicProgress(session.userId, "maths", slug);
-  const prev = existing[questionId];
+
+  const state = await getTopicProgressState(session.userId, "maths", slug);
+  const prev = state.questions[questionId];
   const lastAnswer =
     body.barHeights != null
       ? body.barHeights.join(",")
@@ -79,14 +109,35 @@ export async function POST(request: Request, { params }: Ctx) {
           ? "got-it"
           : "retry"
         : (body.answer ?? "");
+
+  const mergedCorrect = correct || prev?.correct === true;
   const attempt = {
-    correct: correct || prev?.correct === true,
+    correct: mergedCorrect,
     attempts: (prev?.attempts ?? 0) + 1,
     lastAnswer,
     updatedAt: new Date().toISOString(),
   };
-  await saveQuestionAttempt(session.userId, "maths", slug, questionId, attempt);
-  const progress = await getTopicProgress(session.userId, "maths", slug);
 
-  return NextResponse.json({ correct, display, progress });
+  const ratingAfter = nextUserRating(
+    state.rating,
+    qRating,
+    correct,
+  );
+
+  const updated = await saveQuestionAttempt(
+    session.userId,
+    "maths",
+    slug,
+    questionId,
+    attempt,
+    ratingAfter,
+  );
+
+  return NextResponse.json({
+    correct,
+    display,
+    progress: updated.questions,
+    rating: updated.rating,
+    ratingHistory: updated.ratingHistory ?? [],
+  });
 }

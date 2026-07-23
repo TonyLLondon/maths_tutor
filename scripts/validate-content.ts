@@ -76,8 +76,15 @@ function main() {
     for (const q of questions) {
       const entry = key.answers[q.id];
       if (!entry) continue;
-      if (entry.tier == null) {
-        errors.push(`${t.domain}/${t.code} Q${q.id}: missing tier in answer key`);
+      const rating = entry.rating;
+      if (rating == null || typeof rating !== "number" || !Number.isInteger(rating)) {
+        errors.push(
+          `${t.domain}/${t.code} Q${q.id}: missing or invalid rating in answer key`,
+        );
+      } else if (rating < 900 || rating > 2200) {
+        errors.push(
+          `${t.domain}/${t.code} Q${q.id}: rating ${rating} outside 900–2200`,
+        );
       }
       if (entry.any) {
         errors.push(

@@ -6,14 +6,16 @@
       "accept": [
         "5x"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "3y",
       "accept": [
         "3y"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "6x + 3",
@@ -21,14 +23,16 @@
         "6x+3",
         "6x + 3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "5a",
       "accept": [
         "5a"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "4x + 3y",
@@ -36,7 +40,8 @@
         "4x+3y",
         "4x + 3y"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "3a + 2b",
@@ -44,7 +49,8 @@
         "3a+2b",
         "3a + 2b"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "2x + 6",
@@ -52,7 +58,8 @@
         "2x+6",
         "2x + 6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "3x - 12",
@@ -60,7 +67,8 @@
         "3x-12",
         "3x - 12"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "10x + 5",
@@ -68,7 +76,8 @@
         "10x+5",
         "10x + 5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "12x - 8",
@@ -76,7 +85,8 @@
         "12x-8",
         "12x - 8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "x^2",
@@ -84,14 +94,16 @@
         "x^2",
         "x2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "6x",
       "accept": [
         "6x"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Sam wrongly multiplied the powers of x when adding like terms. Adding 3x and 2x keeps a single x, giving 5x, not 5x^2.",
@@ -99,7 +111,8 @@
         "5x"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Never \u2014 2(x + 5) expands to 2x + 10, which is never equal to 2x + 5 for any value of x.",
@@ -107,7 +120,8 @@
         "never"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Priya forgot to multiply the 3 by both terms inside the bracket. The 4 must multiply both x and -3, giving 4x - 12, not 4x - 3.",
@@ -116,7 +130,8 @@
         "4x - 12"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Yes \u2014 at x = 4, 3(4 + 2) = 3 \u00d7 6 = 18, and 3(4) + 6 = 12 + 6 = 18. Both give 18, so they are equivalent.",
@@ -125,7 +140,8 @@
         "yes"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "True \u2014 3x + 2y + x simplifies to 4x + 2y: the x terms combine into 4x, but the y term is unlike them so it must stay separate.",
@@ -135,7 +151,8 @@
         "4x + 2y"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Leo made a sign error while combining. Working left to right, 5x - 3x = 2x, then 2x + 2x = 4x, not 0x.",
@@ -143,7 +160,8 @@
         "4x"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Simplifying collects existing like terms and reduces the number of terms with no brackets involved. Expanding multiplies a term into a bracket, creating new terms rather than combining existing ones.",
@@ -153,7 +171,8 @@
         "bracket"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Mo forgot to multiply the 2 by the y term as well as the x term. Correctly, 2(x + y) = 2x + 2y.",
@@ -162,7 +181,8 @@
         "2x + 2y"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "4x + 6",
@@ -171,7 +191,8 @@
         "4x + 6"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "35x pence",
@@ -179,7 +200,8 @@
         "35x"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "5x + 6",
@@ -188,7 +210,8 @@
         "5x + 6"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "5x + 10",
@@ -197,7 +220,8 @@
         "5x + 10"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "4x + 6",
@@ -206,7 +230,8 @@
         "4x + 6"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "5(n + 1) = 5n + 5. The 5n is the cost of n stickers at 5p each, and the extra + 5 is a fixed 5p handling charge.",
@@ -215,7 +240,8 @@
         "5n + 5"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "5x + 4",
@@ -224,7 +250,8 @@
         "5x + 4"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "7x - 11",
@@ -233,7 +260,8 @@
         "7x - 11"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "4(x + 3) - 2x = 4x + 12 - 2x = 2x + 12, matching the given expression.",
@@ -242,7 +270,8 @@
         "2x + 12"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "2(x + 4) + 2(x + 4) simplifies to 4(x + 4) = 4x + 16. Since both sides use the same expression (x + 4), this is the perimeter of a square with side length x + 4.",
@@ -252,7 +281,8 @@
         "square"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

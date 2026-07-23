@@ -6,14 +6,16 @@
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "14",
       "accept": [
         "14"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "13",
@@ -22,7 +24,8 @@
         "n=13",
         "n = 13"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "14",
@@ -31,56 +34,64 @@
         "n=14",
         "n = 14"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "17",
       "accept": [
         "17"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "14",
       "accept": [
         "14"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "4",
       "accept": [
         "4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "5",
       "accept": [
         "5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "7",
       "accept": [
         "7"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "24",
       "accept": [
         "24"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "5",
       "accept": [
         "5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "5, 10, 15, 20",
@@ -89,7 +100,8 @@
         "5,10,15,20",
         "5, 10, 15, 20"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Yes \u2014 addition is commutative, so the order of the two numbers does not change the total.",
@@ -100,7 +112,8 @@
         "commutative"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Always \u2014 adding 5 then subtracting 5 returns to the starting value.",
@@ -108,7 +121,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Yes \u2014 any number multiplied by 0 is 0, so the missing number really could be anything.",
@@ -118,7 +132,8 @@
         "any number"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "No \u2014 Machine A: 4 \u00d7 2 = 8, + 3 = 11. Machine B: 4 + 3 = 7, \u00d7 2 = 14. Different outputs.",
@@ -129,7 +144,8 @@
         "different"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Subtraction is the inverse of addition, so subtracting 5 from both sides undoes the + 5, leaving \u25a1 = 12 \u2212 5 = 7.",
@@ -139,7 +155,8 @@
         "7"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Always \u2014 doubling then halving returns the original number, for any number.",
@@ -147,7 +164,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Leo multiplied instead of dividing. The correct output for input 10 is 10 \u00f7 2 = 5.",
@@ -157,13 +175,15 @@
         "mistake"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Example: \u00d7 2 then + 7 (3 \u00d7 2 + 7 = 13).",
       "accept": [],
       "kind": "self-check",
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "\u00a315",
@@ -172,7 +192,8 @@
         "\u00a315",
         "15 pounds"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "5 hours",
@@ -180,7 +201,8 @@
         "5",
         "5 hours"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "18 stickers",
@@ -188,7 +210,8 @@
         "18",
         "18 stickers"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "117 cm",
@@ -197,14 +220,16 @@
         "117 cm",
         "117cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "7",
       "accept": [
         "7"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "4 tickets",
@@ -212,19 +237,22 @@
         "4",
         "4 tickets"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "Example: \u00d7 4 then + 4 turns 4 into 20 (4 \u00d7 4 + 4 = 20). On input 7: 7 \u00d7 4 + 4 = 32.",
       "accept": [],
       "kind": "self-check",
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "Example: \u00d7 3, then + 10, then + 3 turns 2 into 19 (2 \u00d7 3 + 10 + 3 = 19). Test on 5: 5 \u00d7 3 + 10 + 3 = 28.",
       "accept": [],
       "kind": "self-check",
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "0 and 10, 1 and 9, 2 and 8, 3 and 7, 4 and 6 \u2014 five different pairs (using whole numbers 0 to 10).",
@@ -233,7 +261,8 @@
         "five"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "Double x is 2x, plus x again gives 2x + x = 3x, the same as \u00d7 3. Test: 2 \u00d7 5 + 5 = 15, and 3 \u00d7 5 = 15.",
@@ -244,7 +273,8 @@
         "x 3"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

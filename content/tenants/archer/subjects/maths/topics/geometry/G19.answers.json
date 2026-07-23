@@ -8,7 +8,8 @@
         "same"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "Corresponding sides must be in the same ratio (proportional)",
@@ -18,14 +19,16 @@
         "same ratio"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "15 cm",
@@ -33,14 +36,16 @@
         "15",
         "15 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "15 cm",
@@ -48,21 +53,24 @@
         "15",
         "15 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "2.5",
       "accept": [
         "2.5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "2.5",
       "accept": [
         "2.5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "37.5 cm",
@@ -70,7 +78,8 @@
         "37.5",
         "37.5 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "5 cm",
@@ -78,7 +87,8 @@
         "5",
         "5 cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "Yes \u2014 all squares have four right angles and equal sides, so any two squares are always similar",
@@ -86,7 +96,8 @@
         "yes"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "No \u2014 rectangles can have different length-to-width ratios, so not all rectangles are similar",
@@ -94,7 +105,8 @@
         "no"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Wrong \u2014 similarity for general shapes needs both equal corresponding angles AND sides in the same ratio; a rectangle and a square both have right angles but are not similar unless their side ratios also match.",
@@ -104,7 +116,8 @@
         "ratio"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "True \u2014 every circle has exactly the same shape, only differing in size, so all circles are similar.",
@@ -112,7 +125,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Not similar \u2014 the ratios are $6/3 = 2$, $8/4 = 2$, but $11/5 = 2.2$, which is different, so the sides are not all in the same ratio.",
@@ -122,7 +136,8 @@
         "2.2"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Sometimes \u2014 similar shapes are only congruent when the scale factor between them is exactly 1.",
@@ -130,7 +145,8 @@
         "sometimes"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Not necessarily true \u2014 adding the same amount to every side changes the ratios between sides unless they were all equal to start with (e.g. a 2 cm by 4 cm rectangle becomes 5 cm by 7 cm, and $5:7 \\neq 2:4$).",
@@ -139,7 +155,8 @@
         "ratio changes"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Every equilateral triangle has all angles equal to 60\u00b0, so any two are automatically similar; isosceles triangles can have different angle sizes (e.g. a tall thin one vs a short wide one), so they are not always similar.",
@@ -148,7 +165,8 @@
         "different angles"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Wrong \u2014 the scale factor is found by dividing, not subtracting: $12 \\div 4 = 3$, not $12 - 4 = 8$.",
@@ -157,7 +175,8 @@
         "divide"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Incomplete because the scale factor depends on the direction \u2014 from smaller to larger it is $5 \\div 2 = 2.5$, not simply 2.",
@@ -165,7 +184,8 @@
         "2.5"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "2 m",
@@ -173,7 +193,8 @@
         "2",
         "2 m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "3.6 m",
@@ -181,7 +202,8 @@
         "3.6",
         "3.6 m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "Scale factor 1/60; model length 20 cm",
@@ -191,7 +213,8 @@
         "20 cm"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "Scale factor 1.5; matching side 12 cm",
@@ -200,7 +223,8 @@
         "12"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "9 m",
@@ -208,7 +232,8 @@
         "9",
         "9 m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "35 cm",
@@ -216,7 +241,8 @@
         "35",
         "35 cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "18 cm and 21 cm",
@@ -225,7 +251,8 @@
         "21"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "30 cm",
@@ -233,7 +260,8 @@
         "30",
         "30 cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "x = 5",
@@ -241,7 +269,8 @@
         "5",
         "x=5"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "30 m",
@@ -249,7 +278,8 @@
         "30",
         "30 m"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

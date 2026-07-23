@@ -6,49 +6,56 @@
       "accept": [
         "parallelogram"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "Yes",
       "accept": [
         "yes"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "True",
       "accept": [
         "true"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "4",
       "accept": [
         "4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "2",
       "accept": [
         "2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "1",
       "accept": [
         "1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "1 (at least one)",
@@ -56,7 +63,8 @@
         "1",
         "one"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "2",
@@ -64,21 +72,24 @@
         "2",
         "two"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "Yes",
       "accept": [
         "yes"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "Yes",
       "accept": [
         "yes"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "Right-angled isosceles triangle",
@@ -87,7 +98,8 @@
         "right-angled isosceles"
       ],
       "tier": 1,
-      "contains": true
+      "contains": true,
+      "rating": 1188
     },
     "13": {
       "display": "A square has four equal sides (like every rhombus) plus four right angles, but a rhombus does not need right angles, so a rhombus is only a square in the special case where its angles are all 90\u00b0.",
@@ -96,7 +108,8 @@
         "90"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1600
     },
     "14": {
       "display": "110\u00b0, 70\u00b0, 110\u00b0 (opposite angles equal, adjacent angles add to 180\u00b0).",
@@ -105,7 +118,8 @@
         "70"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1612
     },
     "15": {
       "display": "Sometimes \u2014 only when the rectangle is also a square do its diagonals cross at right angles.",
@@ -113,7 +127,8 @@
         "sometimes"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1624
     },
     "16": {
       "display": "No \u2014 a kite has no pairs of parallel sides; instead it has two pairs of equal adjacent sides.",
@@ -121,7 +136,8 @@
         "no"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1636
     },
     "17": {
       "display": "65\u00b0 and 65\u00b0",
@@ -129,7 +145,8 @@
         "65"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1648
     },
     "18": {
       "display": "No, not two pairs \u2014 only the two non-parallel sides (the legs) are equal; the two parallel sides usually have different lengths.",
@@ -139,21 +156,24 @@
         "non-parallel"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1552
     },
     "19": {
       "display": "True",
       "accept": [
         "true"
       ],
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Parallelogram",
       "accept": [
         "parallelogram"
       ],
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "68\u00b0, 112\u00b0, 68\u00b0 (opposite angles equal at 112\u00b0, the other pair equal at 68\u00b0 since co-interior angles add to 180\u00b0).",
@@ -162,7 +182,8 @@
         "112"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 1988
     },
     "22": {
       "display": "70\u00b0 each",
@@ -170,7 +191,8 @@
         "70"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2000
     },
     "23": {
       "display": "No \u2014 a square's diagonals must be equal in length, but here the half-diagonals are different (6 cm and 8 cm), so the full diagonals (12 cm and 16 cm) are unequal; this is a rhombus that is not a square.",
@@ -179,7 +201,8 @@
         "not a square"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2012
     },
     "24": {
       "display": "That description is a parallelogram, not a trapezium. A trapezium only needs exactly one pair of parallel sides (or at least one, depending on definition), not two.",
@@ -188,7 +211,8 @@
         "one pair"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2024
     },
     "25": {
       "display": "90\u00b0",
@@ -196,7 +220,8 @@
         "90",
         "90\u00b0"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "It is a rhombus \u2014 its opposite angles are equal to each other, but they are not usually 90\u00b0.",
@@ -204,7 +229,8 @@
         "rhombus"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2048
     },
     "27": {
       "display": "Every square is a rectangle (has 4 right angles) and also a parallelogram (has opposite sides parallel); every rectangle is a parallelogram, but not every parallelogram is a rectangle, and not every rectangle is a square.",
@@ -214,25 +240,29 @@
         "parallelogram"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 1952
     },
     "28": {
       "display": "A rhombus has a line of symmetry along each diagonal; reflecting across one diagonal swaps the two halves exactly, which is only possible if that diagonal meets the other one at a right angle.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1964
     },
     "29": {
       "display": "An isosceles trapezium is symmetric about a line through the midpoints of its parallel sides; this symmetry makes both diagonals mirror images of each other (so equal in length), but the parallel sides themselves are not mirror images of each other, so they can differ in length.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1976
     },
     "30": {
       "display": "Your own always/sometimes/never statement about a triangle or quadrilateral property, correctly answered.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

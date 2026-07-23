@@ -6,56 +6,64 @@
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "4",
       "accept": [
         "4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "2",
       "accept": [
         "2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "-2",
       "accept": [
         "-2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "5",
       "accept": [
         "5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "y = 4x + 1",
@@ -63,7 +71,8 @@
         "y=4x+1",
         "y = 4x + 1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "y = -2x + 6",
@@ -71,21 +80,24 @@
         "y=-2x+6",
         "y = -2x + 6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "11",
       "accept": [
         "11"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "1",
       "accept": [
         "1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "(7 - 1)/(2 - 0) = 6/2 = 3, confirming Priya's gradient of 3.",
@@ -93,7 +105,8 @@
         "3"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Always \u2014 a positive gradient means y increases as x increases, which is an upward slope moving left to right.",
@@ -101,7 +114,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Sam is wrong \u2014 4 is the y-intercept, not the gradient. Rewriting as y = -3x + 4 shows the gradient is -3.",
@@ -109,7 +123,8 @@
         "-3"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "The lines are parallel \u2014 the same gradient means the same steepness, but different y-intercepts (3 and -1) mean the first line is always 4 units higher than the second.",
@@ -118,7 +133,8 @@
         "4"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "True \u2014 steepness depends on the size (magnitude) of the gradient number, not its sign, so a gradient of -5 is steeper than a gradient of 2.",
@@ -126,7 +142,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "This must be a horizontal line, since y stays at 5 for both points. A horizontal line has a gradient of 0.",
@@ -135,7 +152,8 @@
         "0"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "y = 5x + 1 is steeper \u2014 its gradient of 5 is bigger than the gradient of 1 for y = x + 1.",
@@ -145,7 +163,8 @@
         "5"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Mo is wrong \u2014 the sign is part of the gradient. Since the equation is y = -4x + 2, the gradient is -4, not 4.",
@@ -153,7 +172,8 @@
         "-4"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "y = 2x + 3. For 6 miles: y = 2(6) + 3 = \u00a315.",
@@ -162,7 +182,8 @@
         "\u00a315"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "y = 5x + 20. After 10 months: y = 5(10) + 20 = \u00a370.",
@@ -171,7 +192,8 @@
         "\u00a370"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "d = 15t",
@@ -180,7 +202,8 @@
         "d = 15t"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "C = 15 + 0.1u. For 200 units: C = 15 + 20 = \u00a335.",
@@ -189,7 +212,8 @@
         "\u00a335"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "Gradients are 0.05 and 0.1. The plan y = 5 + 0.1x has the bigger gradient, so its cost rises faster as the number of texts increases.",
@@ -199,7 +223,8 @@
         "5+0.1x"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "Gradient is 25 (\u00a325 charged per extra day), and the y-intercept is 40 (a fixed \u00a340 base charge no matter how many days are hired).",
@@ -208,7 +233,8 @@
         "40"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "2",
@@ -216,7 +242,8 @@
         "2"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "y = 3x + 4",
@@ -225,7 +252,8 @@
         "y = 3x + 4"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "First line: y = 3x + 1. Second line: y = -x + 9.",
@@ -234,7 +262,8 @@
         "y=-x+9"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "m = (20 - 4)/(4 - 0) = 4. Full equation: y = 4x + 4.",
@@ -243,7 +272,8 @@
         "y=4x+4"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

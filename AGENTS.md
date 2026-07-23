@@ -32,9 +32,9 @@ Archer (9) and Sloan use this app to **learn maths**, not to operate infrastruct
 - Answers (for practice grading): sibling `{CODE}.answers.json` (not shown to children on print view)
 - Accounts: `content/accounts.json`
 
-## Practice tiers
+## Practice (adaptive level)
 
-Fixed three tiers (section-based, not adaptive): **Easier** (Fluency / More fluency), **Medium** (Reasoning / Mixed), **Harder** (Problem / Stretch). Answer `kind`: `text` | `self-check` | `bar-chart`. See `_backlog/issues/004-practice-answer-kinds.md`.
+**Adaptive rating** per user per topic (chess-style, stored in KV with attempt history): each question has its own difficulty; practice picks by proximity to the learner’s level and updates after each try. **GCSE Hard** questions anchor at **2000** on the internal scale. **Kid UI** shows **Level** — not “ELO” or rating jargon. Tier tabs (**Easier / Medium / Harder**) are removed from Practice. Answer `kind`: `text` | `self-check` | `bar-chart`. See `_backlog/issues/005-adaptive-practice-rating.md` and `_backlog/issues/004-practice-answer-kinds.md`.
 
 Run `npm run content:validate` after editing worksheets.
 
@@ -64,7 +64,7 @@ mcpbundles call browser-navigate-d4c --server browser --as mcpbundles_prod -- \
   url="http://localhost:4000/login"
 ```
 
-3. Walk the happy path (sign in as Archer or Sloan → Subjects → Maths → a topic → Practice). On Practice, switch **Easier / Medium / Harder**, try **5 today**, and submit one typed answer. Use snapshot/click/type tools on the `browser` server as needed (`mcpbundles tools --server browser --as mcpbundles_prod`).
+3. Walk the happy path (sign in as Archer or Sloan → Subjects → Maths → a topic → Practice). On Practice, confirm **Level** (no tier tabs), try **5 today**, and submit one typed answer. Use snapshot/click/type tools on the `browser` server as needed (`mcpbundles tools --server browser --as mcpbundles_prod`).
 4. For print layout, navigate to a topic’s print URL and optionally `browser` screenshot tools.
 
 Do not tell the user to “verify in the browser themselves” — run this smoke path when changing auth, navigation, or practice flow.

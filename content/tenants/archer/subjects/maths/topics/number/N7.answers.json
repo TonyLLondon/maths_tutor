@@ -8,7 +8,8 @@
         "3\u2076",
         "36"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "5\u2074",
@@ -16,14 +17,16 @@
         "5^4",
         "5\u2074"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "1",
       "accept": [
         "1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "1/2",
@@ -31,7 +34,8 @@
         "1/2",
         "0.5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "x\u2078",
@@ -39,7 +43,8 @@
         "x^8",
         "x\u2078"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "y\u2074",
@@ -47,21 +52,24 @@
         "y^4",
         "y\u2074"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "1",
       "accept": [
         "1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "1/9",
       "accept": [
         "1/9"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "a\u2076",
@@ -69,7 +77,8 @@
         "a^6",
         "a\u2076"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "2\u00b3 (= 8)",
@@ -78,7 +87,8 @@
         "2\u00b3",
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "b\u2078",
@@ -86,7 +96,8 @@
         "b^8",
         "b\u2078"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "1/5",
@@ -94,7 +105,8 @@
         "1/5",
         "0.2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "x\u2074",
@@ -102,14 +114,16 @@
         "x^4",
         "x\u2074"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "14": {
       "display": "1/8",
       "accept": [
         "1/8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "15": {
       "display": "No \u2014 any non-zero number to the power 0 equals 1, so 2\u2070 = 1.",
@@ -119,7 +133,8 @@
         "not correct"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Always",
@@ -127,7 +142,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "No \u2014 a negative index means the reciprocal of the power, so 2\u207b\u00b2 = 1/2\u00b2 = 1/4, not \u22124.",
@@ -137,7 +153,8 @@
         "reciprocal"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Always",
@@ -145,7 +162,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Yes, both equal 3\u2075 = 243, since the laws of indices give 3\u00b2 \u00d7 3\u00b3 = 3^(2+3) = 3\u2075.",
@@ -155,7 +173,8 @@
         "3^5"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "2\u2074 = 16",
@@ -164,7 +183,8 @@
         "2^4"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "Wrong \u2014 x\u00b3 \u00d7 x\u00b3 = x^(3+3) = x\u2076, not x\u2079.",
@@ -174,7 +194,8 @@
         "wrong"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "a\u2074",
@@ -182,7 +203,8 @@
         "a^4",
         "a\u2074"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "Between 6 and 7, since 6\u00b2 = 36 and 7\u00b2 = 49, and 36 < 40 < 49.",
@@ -191,7 +213,8 @@
         "7"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "Between 9 and 10, since 9\u00b2 = 81 and 10\u00b2 = 100, and 81 < 90 < 100.",
@@ -200,28 +223,32 @@
         "10"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "32",
       "accept": [
         "32"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "1/16",
       "accept": [
         "1/16"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "1",
       "accept": [
         "1"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "Yes \u2014 \u221a36 \u00d7 \u221a4 = 6 \u00d7 2 = 12 = \u221a144. It works again with \u221a9 \u00d7 \u221a16 = 3 \u00d7 4 = 12 = \u221a144, so the rule holds for non-negative numbers.",
@@ -230,7 +257,8 @@
         "12"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "m\u00b3",
@@ -238,7 +266,8 @@
         "m^3",
         "m\u00b3"
       ],
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "30": {
       "display": "Yes \u2014 2\u207b\u00b9 = 0.5, 2\u2070 = 1, 2\u00b9 = 2, so 0.5 < 1 < 2 is correct.",
@@ -248,7 +277,8 @@
         "correct"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     }
   }
 }

@@ -9,7 +9,8 @@
         "4 apple",
         "4,3,1,1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "Apple; 4 pupils",
@@ -17,7 +18,8 @@
         "apple",
         "4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "Fish least popular; 5 more chose cats than fish (8 \u2212 3)",
@@ -26,49 +28,56 @@
         "5",
         "five"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "12 pupils",
       "accept": [
         "12"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "4",
       "accept": [
         "4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "7",
       "accept": [
         "7"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "30 pupils",
       "accept": [
         "30"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "10 pupils",
       "accept": [
         "10"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "20",
       "accept": [
         "20"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "Wednesday; 6 mm more than Thursday (8 \u2212 2)",
@@ -77,14 +86,16 @@
         "wed",
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "8 pupils (5 + 3)",
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "Disagree \u2014 the axis can have gaps; the chart can still show the data correctly.",
@@ -95,7 +106,8 @@
         "can work"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     },
     "13": {
       "display": "False \u2014 equal bar heights mean equal frequencies, not that categories differ.",
@@ -105,7 +117,8 @@
         "equal"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Yes \u2014 half of 4 is 2, so Sloan is correct.",
@@ -114,7 +127,8 @@
         "correct"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Never \u2014 a pie chart shows proportions of a circle while a bar chart shows heights against an axis, so they always look different even for the same data.",
@@ -122,7 +136,8 @@
         "never"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Yes \u2014 tally marks are just a counting method that gets turned into the same numbers shown in a frequency table.",
@@ -131,7 +146,8 @@
         "correct"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Yes \u2014 since every pupil is counted exactly once across the categories, the frequencies must add up to the total surveyed.",
@@ -140,7 +156,8 @@
         "correct"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Starting the axis above zero exaggerates the visual differences between bars, making them look more different than the real numbers show.",
@@ -151,7 +168,8 @@
         "look bigger"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Bar chart with car 12, bus 3, bike 4, walk 1; car seen most.",
@@ -171,7 +189,8 @@
           1
         ]
       },
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "20": {
       "display": "PE most popular; 4 more chose PE than Art (10 \u2212 6)",
@@ -179,7 +198,8 @@
         "pe",
         "4"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "74 sales in total; Wednesday had the lowest sales (9)",
@@ -188,14 +208,16 @@
         "wednesday",
         "wed"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "3 friends have no pet (24 \u2212 10 \u2212 6 \u2212 5)",
       "accept": [
         "3"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "Attendance rose, then fell, then rose again; total attendance over 4 weeks is 66.",
@@ -203,7 +225,8 @@
         "66"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "Brown 12, blue 6, green 3; total 21 pupils",
@@ -211,7 +234,8 @@
         "12 6 3 21",
         "21"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "Walk 4, car 3, bike 2, bus 1; total 10 pupils",
@@ -220,7 +244,8 @@
         "walk 4",
         "total 10"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "3 full symbols (15 pupils) plus 2/5 of a symbol (2 pupils) to make 17.",
@@ -231,13 +256,15 @@
         "part-symbol"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "Discrete data can only take separate, countable values (e.g. number of siblings, number of pets); continuous data can take any value in a range (e.g. height, weight, time).",
       "accept": [],
       "kind": "self-check",
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "D = 8 (40 \u2212 12 \u2212 9 \u2212 11); either chart type is acceptable with a valid reason (e.g. bar chart for easy comparison, pie chart for showing proportions of the whole).",
@@ -245,19 +272,22 @@
         "8"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "Three suitable survey questions; one classified as numbers/categories with a sensible display method.",
       "accept": [],
       "kind": "self-check",
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "A sensible survey topic, correct classification of the data, and a suitable chart choice.",
       "accept": [],
       "kind": "self-check",
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

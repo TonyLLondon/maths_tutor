@@ -22,14 +22,19 @@ export default async function PracticePage({ params }: Props) {
   if (!doc) notFound();
 
   const questions = parseQuestions(doc.body);
-  const topicHref = mathsTopicHref(tenant, domain, code);
+  const questionTierById = Object.fromEntries(
+    questions.map((q) => [q.id, q.tier]),
+  );
   const answerKey = await getAnswerKey(tenant, slug);
   const answerMeta: Record<string, ReturnType<typeof toClientAnswerMeta>> = {};
   if (answerKey) {
     for (const [id, entry] of Object.entries(answerKey.answers)) {
-      answerMeta[id] = toClientAnswerMeta(entry);
+      const sectionTier = questionTierById[id] ?? 2;
+      answerMeta[id] = toClientAnswerMeta(entry, id, sectionTier);
     }
   }
+
+  const topicHref = mathsTopicHref(tenant, domain, code);
 
   return (
     <>

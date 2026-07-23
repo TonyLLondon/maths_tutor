@@ -9,7 +9,8 @@
         "3,2",
         "3 2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "(-4, -1)",
@@ -19,7 +20,8 @@
         "-4,-1",
         "-4 -1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "1, 2, 3, 4",
@@ -28,7 +30,8 @@
         "1,2,3,4",
         "1, 2, 3, 4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "0, 2, 4, 6",
@@ -37,7 +40,8 @@
         "0,2,4,6",
         "0, 2, 4, 6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "5",
@@ -46,7 +50,8 @@
         "y=5",
         "y = 5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "10",
@@ -55,7 +60,8 @@
         "y=10",
         "y = 10"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "(3, 0)",
@@ -64,7 +70,8 @@
         "(3, 0)",
         "3,0"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "(0, 5)",
@@ -73,14 +80,16 @@
         "(0, 5)",
         "0,5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "Below",
       "accept": [
         "below"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "11",
@@ -89,7 +98,8 @@
         "y=11",
         "y = 11"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "12",
@@ -98,14 +108,16 @@
         "y=12",
         "y = 12"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Yes \u2014 the line has gradient 3, so when x increases by 1, y increases by 3; from (1, 3) to (2, 6) fits that rule.",
@@ -117,7 +129,8 @@
         "3"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "True \u2014 e.g. when x = 2, y = 3, which is one more than x.",
@@ -126,7 +139,8 @@
         "yes"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Yes \u2014 on y = x, y always equals x, and 3 = 3 is true.",
@@ -136,7 +150,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Line B is steeper \u2014 from (0,0) to (1,4) rises more per unit of x than Line A's rise from (0,0) to (1,2).",
@@ -146,7 +161,8 @@
         "steeper"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Always \u2014 a line through the origin has no constant term, since y = 0 when x = 0.",
@@ -154,7 +170,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Sam forgot to add 3 (or added the wrong number). The correct value is y = 0 + 3 = 3.",
@@ -164,7 +181,8 @@
         "mistake"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Yes \u2014 at x = 5, y = 5 \u2212 2 = 3, which matches the point (5, 3).",
@@ -173,7 +191,8 @@
         "3"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Both lines have the same steepness (gradient 1) so they are parallel, but y = x + 5 is drawn 4 units higher up than y = x + 1.",
@@ -184,7 +203,8 @@
         "4"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "Costs: \u00a33, \u00a35, \u00a37, \u00a39. The graph is a straight line starting at (0, 3) with gradient 2 (cost increases by \u00a32 per mile).",
@@ -195,7 +215,8 @@
         "gradient 2"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "Costs: \u00a31, \u00a31.50, \u00a32, \u00a32.50. The graph is a straight line starting at (0, 1) rising by 50p every 10 minutes.",
@@ -205,7 +226,8 @@
         "straight line"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "Cost = \u00a35 + \u00a30.10 \u00d7 t. For 20 texts: \u00a35 + \u00a32 = \u00a37.",
@@ -214,7 +236,8 @@
         "\u00a37"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "w = 5 + 2m. After 6 minutes: w = 5 + 12 = 17 litres.",
@@ -223,7 +246,8 @@
         "17 litres"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "4 items, costing \u00a38 at both stalls (x + 4 = 2x \u2192 x = 4).",
@@ -233,7 +257,8 @@
         "8"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "5 hours",
@@ -241,13 +266,15 @@
         "5",
         "5 hours"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "Example: (0, 1), (1, 3), (2, 5) \u2014 y increases by 2 each time x increases by 1.",
       "accept": [],
       "kind": "self-check",
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "No, they never cross \u2014 both lines have the same gradient (2), so they are parallel.",
@@ -257,7 +284,8 @@
         "parallel"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "Gradient = (7 \u2212 3) \u00f7 (2 \u2212 0) = 2; equation y = 2x + 3.",
@@ -267,7 +295,8 @@
         "2x+3"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "Gradient = (17 \u2212 5) \u00f7 (2 \u2212 0) = 6; equation y = 6x + 5. At x = 5: y = 35, so 5 pizzas cost \u00a335.",
@@ -277,7 +306,8 @@
         "\u00a335"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

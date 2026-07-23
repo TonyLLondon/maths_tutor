@@ -7,7 +7,8 @@
         "compasses",
         "compass"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "half; 90\u00b0",
@@ -17,7 +18,8 @@
         "half 90 degrees"
       ],
       "tier": 1,
-      "contains": true
+      "contains": true,
+      "rating": 1176
     },
     "3": {
       "display": "4 cm",
@@ -26,28 +28,32 @@
         "4 cm",
         "4cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "equal",
       "accept": [
         "equal"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "True",
       "accept": [
         "true"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "circle",
       "accept": [
         "circle"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "A circle of radius 3 m, centred on the post.",
@@ -57,7 +63,8 @@
         "3 m"
       ],
       "tier": 1,
-      "contains": true
+      "contains": true,
+      "rating": 1236
     },
     "8": {
       "display": "The perpendicular bisector of the line segment AB.",
@@ -65,7 +72,8 @@
         "perpendicular bisector"
       ],
       "tier": 1,
-      "contains": true
+      "contains": true,
+      "rating": 1248
     },
     "9": {
       "display": "The angle bisector(s) of the angles formed where the lines cross.",
@@ -73,7 +81,8 @@
         "angle bisector"
       ],
       "tier": 1,
-      "contains": true
+      "contains": true,
+      "rating": 1152
     },
     "10": {
       "display": "both arms (both lines)",
@@ -83,14 +92,16 @@
         "both"
       ],
       "tier": 1,
-      "contains": true
+      "contains": true,
+      "rating": 1164
     },
     "11": {
       "display": "B",
       "accept": [
         "b"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "5",
@@ -99,7 +110,8 @@
         "5 cm",
         "5cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "A circle centred at P with radius 6 cm.",
@@ -110,7 +122,8 @@
         "radius 6"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1600
     },
     "14": {
       "display": "Every point on the perpendicular bisector is the same distance from A as from B; the only point on AB itself that satisfies this is the midpoint, so the bisector must cross AB there.",
@@ -120,7 +133,8 @@
         "equidistant"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1612
     },
     "15": {
       "display": "Never \u2014 it is always a straight line (the perpendicular bisector), never a curve or other shape.",
@@ -128,7 +142,8 @@
         "never"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1624
     },
     "16": {
       "display": "No \u2014 the locus is a straight line exactly halfway between the two parallel lines, running parallel to both, not a single point.",
@@ -138,7 +153,8 @@
         "not a point"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1636
     },
     "17": {
       "display": "40\u00b0 each",
@@ -149,7 +165,8 @@
         "40 each"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1648
     },
     "18": {
       "display": "It crosses AB at its midpoint (6 cm from each end), at 90\u00b0.",
@@ -159,7 +176,8 @@
         "90"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1552
     },
     "19": {
       "display": "Anywhere along the angle bisector(s) of the angle(s) formed where the two paths cross.",
@@ -167,7 +185,8 @@
         "angle bisector"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1564
     },
     "20": {
       "display": "A straight angle measures 180\u00b0, so bisecting it splits it into two equal angles of 90\u00b0 each, which is a right angle.",
@@ -176,7 +195,8 @@
         "90"
       ],
       "tier": 2,
-      "contains": true
+      "contains": true,
+      "rating": 1576
     },
     "21": {
       "display": "A circle, radius 15 km, centred on the mast.",
@@ -186,7 +206,8 @@
         "15km"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 1988
     },
     "22": {
       "display": "The perpendicular bisector of the line joining A and B.",
@@ -194,7 +215,8 @@
         "perpendicular bisector"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2000
     },
     "23": {
       "display": "About 78.5 m\u00b2 (25\u03c0 m\u00b2)",
@@ -205,7 +227,8 @@
         "25 pi"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2012
     },
     "24": {
       "display": "A straight line running parallel to the coastline, 4 km out to sea.",
@@ -215,7 +238,8 @@
         "4km"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2024
     },
     "25": {
       "display": "45\u00b0 to each wall (along the angle bisector of the right angle).",
@@ -224,7 +248,8 @@
         "45\u00b0"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2036
     },
     "26": {
       "display": "No \u2014 the distance to each corner is \u221a13 \u2248 3.6 m, which is further than the 3 m radius, so the water does not reach the corners.",
@@ -234,13 +259,15 @@
         "\u221a13"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 2048
     },
     "27": {
       "display": "Any point X on the perpendicular bisector forms two right-angled triangles with the midpoint of AB; both triangles have the same two side lengths (half of AB, and the shared perpendicular height), so by matching sides, XA must equal XB.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1952
     },
     "28": {
       "display": "A ring shape (an annulus) between two circles centred on C \u2014 one with radius 5 cm and one with radius 8 cm.",
@@ -251,19 +278,22 @@
         "8"
       ],
       "tier": 3,
-      "contains": true
+      "contains": true,
+      "rating": 1964
     },
     "29": {
       "display": "Draw the perpendicular bisector of AB and keep the side closer to A; draw a circle of radius 20 km around B; the ship's positions are where both regions overlap.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1976
     },
     "30": {
       "display": "Your own locus problem with two fixed points or a point and a line, with a correct description of where the locus lies.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

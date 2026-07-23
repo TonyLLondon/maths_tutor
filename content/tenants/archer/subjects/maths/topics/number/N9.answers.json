@@ -9,7 +9,8 @@
         "4 x 10^3",
         "4\u00d710\u00b3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "3.5 \u00d7 10\u2075",
@@ -19,7 +20,8 @@
         "3.5 x 10^5",
         "3.5\u00d710\u2075"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "6 \u00d7 10\u207b\u00b3",
@@ -29,7 +31,8 @@
         "6 x 10^-3",
         "6\u00d710\u207b\u00b3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "7.2 \u00d7 10\u2074",
@@ -39,7 +42,8 @@
         "7.2 x 10^4",
         "7.2\u00d710\u2074"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "30000",
@@ -47,14 +51,16 @@
         "30000",
         "30,000"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "0.005",
       "accept": [
         "0.005"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "8.1 \u00d7 10\u207b\u2074",
@@ -64,7 +70,8 @@
         "8.1 x 10^-4",
         "8.1\u00d710\u207b\u2074"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "9.1 \u00d7 10\u2077",
@@ -74,7 +81,8 @@
         "9.1 x 10^7",
         "9.1\u00d710\u2077"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "620000",
@@ -82,14 +90,16 @@
         "620000",
         "620,000"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "0.07",
       "accept": [
         "0.07"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "4.5 \u00d7 10\u207b\u2075",
@@ -99,7 +109,8 @@
         "4.5 x 10^-5",
         "4.5\u00d710\u207b\u2075"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "2300000",
@@ -107,7 +118,8 @@
         "2300000",
         "2,300,000"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "8.3 \u00d7 10\u2076",
@@ -117,14 +129,16 @@
         "8.3 x 10^6",
         "8.3\u00d710\u2076"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "14": {
       "display": "0.0009",
       "accept": [
         "0.0009"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "15": {
       "display": "Not standard form because the first number must be between 1 and 10 (45 isn't). Correct: 4.5 \u00d7 10\u2074.",
@@ -133,7 +147,8 @@
         "between 1 and 10"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Always",
@@ -141,7 +156,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "No \u2014 a negative power means the number is small (less than 1), not negative. E.g. 5 \u00d7 10\u207b\u00b3 = 0.005, which is positive.",
@@ -152,7 +168,8 @@
         "less than 1"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Always",
@@ -160,7 +177,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "3 \u00d7 10\u2074 is bigger \u2014 it is 10\u2078 times bigger than 3 \u00d7 10\u207b\u2074.",
@@ -170,7 +188,8 @@
         "10^8"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "2.5 \u00d7 10\u2076",
@@ -179,7 +198,8 @@
         "2.5\u00d710^6",
         "2.5 x 10^6"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "8 \u00d7 10\u207b\u2076",
@@ -188,7 +208,8 @@
         "8\u00d710^-6",
         "8 x 10^-6"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "384000 km",
@@ -196,7 +217,8 @@
         "384000",
         "384,000"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "1200000",
@@ -204,14 +226,16 @@
         "1200000",
         "1,200,000"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "0.00000009",
       "accept": [
         "0.00000009"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "6 \u00d7 10\u2075",
@@ -220,7 +244,8 @@
         "6\u00d710^5",
         "6 x 10^5"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "3 \u00d7 10\u00b3",
@@ -229,7 +254,8 @@
         "3\u00d710^3",
         "3 x 10^3"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "5 \u00d7 10\u00b2, 4 \u00d7 10\u00b3, 3.9 \u00d7 10\u2074, 1 \u00d7 10\u2075",
@@ -237,7 +263,8 @@
         "5 x 10^2, 4 x 10^3, 3.9 x 10^4, 1 x 10^5"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "8 \u00d7 10\u00b9 (= 80)",
@@ -247,7 +274,8 @@
         "8 x 10^1",
         "80"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "6.05 \u00d7 10\u2076",
@@ -256,7 +284,8 @@
         "6.05\u00d710^6",
         "6.05 x 10^6"
       ],
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "30": {
       "display": "Wrong \u2014 she ignored the power of 10. 2 \u00d7 10\u2075 = 200,000, which is much bigger than 8 \u00d7 10\u00b2 = 800.",
@@ -266,7 +295,8 @@
         "wrong"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     }
   }
 }

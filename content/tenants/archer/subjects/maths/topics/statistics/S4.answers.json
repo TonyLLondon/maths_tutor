@@ -7,84 +7,96 @@
         "5",
         "mean 5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "5",
       "accept": [
         "5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "8",
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "8",
       "accept": [
         "8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "5",
       "accept": [
         "5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "6",
       "accept": [
         "6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "15",
       "accept": [
         "15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "20",
       "accept": [
         "20"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "3",
       "accept": [
         "3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "11 (average of the middle two, 10 and 12)",
       "accept": [
         "11"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "55",
       "accept": [
         "55"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "12",
       "accept": [
         "12"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Class B \u2014 a wider spread can include a higher maximum even with the same mean.",
@@ -95,7 +107,8 @@
         "higher highest"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "Sometimes \u2014 e.g. mean of 1, 2, and 4 is 7/3, not a whole number.",
@@ -104,7 +117,8 @@
         "not always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "No \u2014 that describes the median. The mode is the value that appears most often, not the middle value.",
@@ -114,7 +128,8 @@
         "median"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "True \u2014 e.g. 2, 2, 3, 5, 5 has two modes, 2 and 5 (bimodal).",
@@ -124,7 +139,8 @@
         "two modes"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "No \u2014 the range measures spread (the difference between the highest and lowest values), not an average.",
@@ -135,7 +151,8 @@
         "difference"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Correct \u2014 if no value repeats, there is no mode.",
@@ -145,7 +162,8 @@
         "no mode"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Always \u2014 the mean is affected by the size of every value, so a very large number pulls it up a lot, while the median only depends on position and barely changes.",
@@ -153,7 +171,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Mean 22.5 minutes; with Archer included, new mean = 26 minutes.",
@@ -163,7 +182,8 @@
         "22.5 and 26",
         "22.5 26"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "Mean 13, median 12, mode 12, range 9",
@@ -174,7 +194,8 @@
         "mode 12",
         "range 9"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "Mean 134 cm; new mean 136 cm with the fifth friend",
@@ -184,7 +205,8 @@
         "134",
         "136"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "Mode \u00a34; mean \u00a35",
@@ -193,7 +215,8 @@
         "mode 4 mean 5",
         "\u00a34 and \u00a35"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "Mode 21, median 20, range 4",
@@ -203,7 +226,8 @@
         "median 20",
         "range 4"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "Archer is more consistent \u2014 Archer's range is 2 (8 \u2212 6) while Sloan's range is 4 (9 \u2212 5), so Archer's scores are less spread out.",
@@ -213,7 +237,8 @@
         "range 4"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "Mode 4 \u2014 it tells you shoe size 4 is the most common size in this group.",
@@ -221,33 +246,38 @@
         "4",
         "mode 4"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "13",
       "accept": [
         "13"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "One valid set: 6, 6, 6, 6, 16 (mean = 40 \u00f7 5 = 8, mode = 6, range = 16 \u2212 6 = 10).",
       "accept": [],
       "kind": "self-check",
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "The mean uses every score, so it fairly reflects overall performance across exams. The mode ignores the actual numbers and just finds the most common value, which is more useful for something like shoe sizes where you want to know what to stock most of.",
       "accept": [],
       "kind": "self-check",
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "141 cm ((20 \u00d7 140 + 161) \u00f7 21)",
       "accept": [
         "141"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     }
   }
 }

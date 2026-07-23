@@ -8,7 +8,8 @@
         "3 2",
         "3,2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "(-4, 1)",
@@ -17,7 +18,8 @@
         "-4 1",
         "-4,1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "(5, -3)",
@@ -26,7 +28,8 @@
         "5 -3",
         "5,-3"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "(6, 4)",
@@ -34,7 +37,8 @@
         "(6,4)",
         "6,4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "(-3, 5)",
@@ -42,7 +46,8 @@
         "(-3,5)",
         "-3,5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "(4, -6)",
@@ -50,7 +55,8 @@
         "(4,-6)",
         "4,-6"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "(4, 1)",
@@ -58,7 +64,8 @@
         "(4,1)",
         "4,1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "(4, 4)",
@@ -66,7 +73,8 @@
         "(4,4)",
         "4,4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "(0, -5)",
@@ -74,7 +82,8 @@
         "(0,-5)",
         "0,-5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "(4, -2)",
@@ -82,14 +91,16 @@
         "(4,-2)",
         "4,-2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "Translation",
       "accept": [
         "translation"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "It stays exactly where it is (no movement)",
@@ -99,7 +110,8 @@
         "unchanged"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Wrong \u2014 the top number of a column vector is the horizontal (left/right) movement and the bottom number is the vertical (up/down) movement, so $\\binom{2}{3}$ means 2 right and 3 up, not the other way round.",
@@ -109,7 +121,8 @@
         "2 right 3 up"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "True \u2014 translation only slides a shape, keeping its size, shape, and orientation exactly the same, so the image is always congruent.",
@@ -117,7 +130,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Incorrect \u2014 $4 + (-6) = -2$ and $5 + 2 = 7$, so the correct image is $(-2, 7)$, not $(2, 7)$.",
@@ -127,7 +141,8 @@
         "incorrect"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Never \u2014 translation always preserves the size, shape, and orientation of a figure.",
@@ -135,7 +150,8 @@
         "never"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Wrong \u2014 $\\binom{3}{-3}$ means 3 right and 3 down, while $\\binom{-3}{3}$ means 3 left and 3 up; these are opposite movements, not the same.",
@@ -144,7 +160,8 @@
         "different"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Subtract the coordinates of A from B: the vector is $(7-2, 4-1) = \\binom{5}{3}$.",
@@ -154,7 +171,8 @@
         "subtract"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "The shape moves 5 units to the right and stays at the same height, because the vector's bottom (y) value is 0, meaning no vertical movement.",
@@ -164,7 +182,8 @@
         "y stays"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Correct \u2014 translating twice by $\\binom{2}{1}$ gives a total movement of $\\binom{4}{2}$, the same as one translation by that combined vector.",
@@ -173,7 +192,8 @@
         "yes"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "(3, -2), (5, -2), (3, 1)",
@@ -183,7 +203,8 @@
         "3,1"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "(3, 5)",
@@ -191,7 +212,8 @@
         "(3,5)",
         "3,5"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "(6, 3)",
@@ -199,7 +221,8 @@
         "(6,3)",
         "6,3"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "(4, 1)",
@@ -207,7 +230,8 @@
         "(4,1)",
         "4,1"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "(-3, -1), (-1, -1), (-1, 2), (-3, 2) \u2014 the size and angles are unchanged, since translation preserves congruence.",
@@ -219,7 +243,8 @@
         "unchanged"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "(5, 3)",
@@ -227,7 +252,8 @@
         "(5,3)",
         "5,3"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "Vector (-4, 8); reverse vector (4, -8)",
@@ -236,7 +262,8 @@
         "4, -8"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "a = 4, b = 4",
@@ -246,7 +273,8 @@
         "4 4"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "x = 4, y = -3",
@@ -256,13 +284,15 @@
         "4 -3"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "Your own starting point and vector, the correctly translated image point, and the reverse vector that returns it.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

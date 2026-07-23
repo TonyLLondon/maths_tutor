@@ -6,14 +6,16 @@
       "accept": [
         "ruler"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "A protractor",
       "accept": [
         "protractor"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "7 cm",
@@ -22,28 +24,32 @@
         "7 cm",
         "7cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "Acute",
       "accept": [
         "acute"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "Obtuse",
       "accept": [
         "obtuse"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "Reflex",
       "accept": [
         "reflex"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "A right angle",
@@ -51,13 +57,15 @@
         "right angle",
         "right"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "Line up the protractor's centre point with the vertex of the angle, align the baseline (0\u00b0) with one arm, and read where the other arm crosses the scale.",
       "accept": [],
       "tier": 1,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1248
     },
     "9": {
       "display": "2.5 cm",
@@ -66,7 +74,8 @@
         "2.5 cm",
         "2.5cm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "120 mm",
@@ -75,7 +84,8 @@
         "120 mm",
         "120mm"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "2\u00b0",
@@ -84,7 +94,8 @@
         "2\u00b0",
         "2 degrees"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "Measured from North, going clockwise",
@@ -93,7 +104,8 @@
         "clockwise"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Incomplete because there are no units given \u2014 '8' could mean 8 cm, 8 mm, or 8 m, all very different lengths.",
@@ -102,7 +114,8 @@
         "no units"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "True \u2014 obtuse angles are defined as angles greater than 90\u00b0 and less than 180\u00b0.",
@@ -110,7 +123,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Incorrect \u2014 a single angle cannot be more than 360\u00b0 (a full turn), and a standard protractor measurement (without turning it round) only reads up to 180\u00b0, so 370\u00b0 must be a mistake.",
@@ -120,7 +134,8 @@
         "mistake"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Mistake \u2014 the student did not subtract the starting position from the ending position; the correct length is $9 - 1 = 8$ cm.",
@@ -130,7 +145,8 @@
         "subtract"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Always \u2014 by definition, a reflex angle is greater than 180\u00b0, so it is always bigger than a straight-line angle.",
@@ -138,7 +154,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Writing bearings with 3 digits keeps every bearing the same length and avoids confusion (e.g. so 60\u00b0 cannot be mistaken for a different value), since bearings can be anywhere from 000\u00b0 to 360\u00b0.",
@@ -147,7 +164,8 @@
         "consistent"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "An angle of elevation is measured upward from the horizontal at an observer's eye level to an object above; a bearing is measured clockwise from North on a horizontal plane to show direction.",
@@ -157,7 +175,8 @@
         "north"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "Place the protractor's centre exactly where the 3 cm and 4 cm sides meet, line up the baseline with one side, and read the angle where the other side crosses the scale \u2014 it should read 90\u00b0.",
@@ -167,7 +186,8 @@
         "vertex"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "Yes \u2014 5 cm, 12 cm, 13 cm is a well-known right-angled triangle set of lengths, so this measurement is consistent with a right angle.",
@@ -177,7 +197,8 @@
         "right angle"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "North points straight up on the diagram; the bearing of 075\u00b0 is measured by turning 75\u00b0 clockwise from the North line to the direction of travel.",
@@ -187,7 +208,8 @@
         "75"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "The measured angles sum to 185\u00b0, which is not sensible since a triangle's angles must sum to exactly 180\u00b0 \u2014 this shows some measurement error.",
@@ -197,7 +219,8 @@
         "error"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "17 km",
@@ -205,7 +228,8 @@
         "17",
         "17 km"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "A protractor has two scales (reading from each side); Sloan read the wrong one. Since 130\u00b0 is obtuse and 50\u00b0 is acute, the correct reading matching an obtuse angle is 130\u00b0.",
@@ -213,7 +237,8 @@
         "130"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "070\u00b0",
@@ -221,7 +246,8 @@
         "70",
         "070"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "If the centre is not lined up with the vertex, the protractor measures the angle from the wrong point, giving an inaccurate reading that does not match the actual angle between the two rays.",
@@ -230,7 +256,8 @@
         "wrong point"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "9.12 cm",
@@ -238,7 +265,8 @@
         "9.12",
         "9.12 cm"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "120\u00b0",
@@ -246,13 +274,15 @@
         "120",
         "120\u00b0"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "Your own scale and real-life length, with the correctly scaled-down drawing length worked out.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

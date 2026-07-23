@@ -6,14 +6,16 @@
       "accept": [
         "42"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "15",
       "accept": [
         "15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "\u00a36",
@@ -22,21 +24,24 @@
         "\u00a36",
         "6.00"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "73",
       "accept": [
         "73"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "15",
       "accept": [
         "15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "\u00a320",
@@ -45,28 +50,32 @@
         "\u00a320",
         "20.00"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "18",
       "accept": [
         "18"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "30",
       "accept": [
         "30"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "24",
       "accept": [
         "24"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "\u00a310",
@@ -75,14 +84,16 @@
         "\u00a310",
         "10.00"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "30",
       "accept": [
         "30"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "\u00a36",
@@ -91,21 +102,24 @@
         "\u00a36",
         "6.00"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "24",
       "accept": [
         "24"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "14": {
       "display": "72",
       "accept": [
         "72"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "15": {
       "display": "\u00a34 is 10% of \u00a340, not the sale price. Sale price = \u00a340 \u2212 \u00a34 = \u00a336.",
@@ -117,7 +131,8 @@
         "mistake"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Always \u2014 25% means one quarter, so divide by 4 (e.g. 25% of 80 = 20).",
@@ -127,7 +142,8 @@
         "quarter"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "Yes \u2014 1/2 of a positive number is always less than 3/4 of the same number.",
@@ -137,7 +153,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "Always \u2014 e.g. 10% of 50 = 50 \u00f7 10 = 5.",
@@ -145,7 +162,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Yes. 50% of 30 = 15 and 30% of 50 = 15 \u2014 both are equal.",
@@ -155,7 +173,8 @@
         "15"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "\u00a311 change (total \u00a310, 10% off \u2192 \u00a39 paid from \u00a320).",
@@ -164,7 +183,8 @@
         "\u00a311",
         "11.00"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "\u00a348",
@@ -173,7 +193,8 @@
         "\u00a348",
         "48.00"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "75%",
@@ -181,7 +202,8 @@
         "75",
         "75%"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "\u00a324",
@@ -190,7 +212,8 @@
         "\u00a324",
         "24.00"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "\u00a3153",
@@ -199,7 +222,8 @@
         "\u00a3153",
         "153.00"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "20% of \u00a345 = \u00a39; 2/5 of \u00a345 = \u00a318. 2/5 is double 20% (since 2/5 = 40%).",
@@ -210,7 +234,8 @@
         "same as 40%"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "\u00a380",
@@ -219,7 +244,8 @@
         "\u00a380",
         "80.00"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "\u00a38",
@@ -228,7 +254,8 @@
         "\u00a38",
         "8.00"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "No \u2014 \u00a3100 decreases to \u00a370, then increases by 30% to \u00a391, which is less than \u00a3100.",
@@ -238,7 +265,8 @@
         "\u00a391"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "3/4 of \u00a3120 = \u00a390; 10% of \u00a3120 = \u00a312. 3/4 is bigger, by \u00a378.",
@@ -248,7 +276,8 @@
         "78"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "30": {
       "display": "Yes \u2014 e.g. increasing 50 by 100% gives 50 + 50 = 100, which is double 50.",
@@ -258,7 +287,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     }
   }
 }

@@ -7,7 +7,8 @@
         "(3,7)",
         "3,7"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "(1, -1)",
@@ -15,7 +16,8 @@
         "(1,-1)",
         "1,-1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "(8, -2)",
@@ -23,7 +25,8 @@
         "(8,-2)",
         "8,-2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "(-1, 2)",
@@ -31,7 +34,8 @@
         "(-1,2)",
         "-1,2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "(3, 5)",
@@ -39,7 +43,8 @@
         "(3,5)",
         "3,5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "(12, 1)",
@@ -47,7 +52,8 @@
         "(12,1)",
         "12,1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "(-6, 4)",
@@ -55,7 +61,8 @@
         "(-6,4)",
         "-6,4"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "(6, 1)",
@@ -63,7 +70,8 @@
         "(6,1)",
         "6,1"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "(-6, -15)",
@@ -71,7 +79,8 @@
         "(-6,-15)",
         "-6,-15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "(0, 0) \u2014 this means a and b are identical vectors (equal in both size and direction)",
@@ -81,7 +90,8 @@
         "identical"
       ],
       "contains": true,
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "(3, 5)",
@@ -89,7 +99,8 @@
         "(3,5)",
         "3,5"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "(6, 2)",
@@ -97,7 +108,8 @@
         "(6,2)",
         "6,2"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "13": {
       "display": "Correct \u2014 vectors are added component by component: adding the top (horizontal) values together and the bottom (vertical) values together separately.",
@@ -106,7 +118,8 @@
         "component"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "True \u2014 multiplying a vector by a positive scalar keeps the same direction and scales the length by that factor.",
@@ -114,7 +127,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "Correct \u2014 e.g. if $\\mathbf{a} = \\binom{3}{2}$, then $-\\mathbf{a} = \\binom{-3}{-2}$, which has the same length but points in exactly the opposite direction.",
@@ -123,7 +137,8 @@
         "yes"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Always \u2014 a vector added to its negative always cancels out to the zero vector.",
@@ -131,13 +146,15 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1636
     },
     "17": {
       "display": "True \u2014 a scalar multiple only stretches, shrinks, or reverses a vector along the same line, so it always points in the same direction (or exactly opposite), which is the definition of parallel vectors.",
       "accept": [],
       "tier": 2,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1648
     },
     "18": {
       "display": "$\\mathbf{a} - \\mathbf{b} = \\binom{3}{-2}$ and $\\mathbf{b} - \\mathbf{a} = \\binom{-3}{2}$ \u2014 they are negatives of each other, with the same length but opposite direction.",
@@ -147,7 +164,8 @@
         "opposite"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "Wrong \u2014 scalar multiplication multiplies every component, so $3\\mathbf{a} = \\binom{6}{15}$, not adding 3 to each part.",
@@ -157,7 +175,8 @@
         "multiply"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1564
     },
     "20": {
       "display": "$\\overrightarrow{AB} = \\overrightarrow{OB} - \\overrightarrow{OA} = \\mathbf{b} - \\mathbf{a}$, since travelling from A to B is the same as going back to O then forward to B.",
@@ -166,7 +185,8 @@
         "b - a"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1576
     },
     "21": {
       "display": "(4, 3)",
@@ -174,7 +194,8 @@
         "(4,3)",
         "4,3"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "$\\overrightarrow{OM} = \\mathbf{a} + \\frac{1}{2}(\\mathbf{b}-\\mathbf{a}) = \\frac{1}{2}(\\mathbf{a}+\\mathbf{b})$",
@@ -183,7 +204,8 @@
         "half a plus b"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "$\\overrightarrow{OB} = \\mathbf{a} + \\mathbf{c}$, since $AB$ is equal and parallel to $OC$ in the parallelogram, so travelling O\u2192A\u2192B is the same as adding $\\mathbf{a}$ and $\\mathbf{c}$.",
@@ -192,7 +214,8 @@
         "a + c"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "$\\mathbf{a} = 3\\mathbf{b}$, since $(6,3) = 3 \\times (2,1)$, so they are parallel.",
@@ -202,7 +225,8 @@
         "parallel"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "(4, 3)",
@@ -210,7 +234,8 @@
         "(4,3)",
         "4,3"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "$\\overrightarrow{AC} = (3, 3)$ \u2014 because going from A to B then B to C ends at the same place as going directly from A to C, so the vectors add.",
@@ -219,7 +244,8 @@
         "(3,3)"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "$\\overrightarrow{OC} = \\frac{1}{3}\\mathbf{a} + \\frac{2}{3}\\mathbf{b}$",
@@ -229,7 +255,8 @@
         "1/3 a + 2/3 b"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "k = 3",
@@ -237,7 +264,8 @@
         "3",
         "k=3"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "$\\overrightarrow{OM} = \\frac{1}{2}(\\mathbf{a}+\\mathbf{c})$, which is also the midpoint of $OB$ (since $\\overrightarrow{OB} = \\mathbf{a}+\\mathbf{c}$), showing both diagonals share the same midpoint M, so they bisect each other.",
@@ -246,13 +274,15 @@
         "bisect"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "30": {
       "display": "Your own labelled triangle or parallelogram diagram with vectors a and b, and the correctly worked-out unknown vector.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }

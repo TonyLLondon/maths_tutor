@@ -7,7 +7,8 @@
         "210",
         "\u00a3210"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "2": {
       "display": "\u00a39,000",
@@ -16,28 +17,32 @@
         "\u00a39,000",
         "9,000"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "3": {
       "display": "600",
       "accept": [
         "600"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1188
     },
     "4": {
       "display": "1.15",
       "accept": [
         "1.15"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1200
     },
     "5": {
       "display": "0.8",
       "accept": [
         "0.8"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1212
     },
     "6": {
       "display": "\u00a3324",
@@ -45,21 +50,24 @@
         "324",
         "\u00a3324"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1224
     },
     "7": {
       "display": "100",
       "accept": [
         "100"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1236
     },
     "8": {
       "display": "1.04",
       "accept": [
         "1.04"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1248
     },
     "9": {
       "display": "\u00a315",
@@ -67,7 +75,8 @@
         "15",
         "\u00a315"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1152
     },
     "10": {
       "display": "\u00a3100",
@@ -75,7 +84,8 @@
         "100",
         "\u00a3100"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1164
     },
     "11": {
       "display": "\u00a3880",
@@ -83,7 +93,8 @@
         "880",
         "\u00a3880"
       ],
-      "tier": 1
+      "tier": 1,
+      "rating": 1176
     },
     "12": {
       "display": "No \u2014 \u00a3100 grown by 10% twice gives \u00a3100 \u00d7 1.1 \u00d7 1.1 = \u00a3121, not \u00a3120 (which is what a single 20% growth would give).",
@@ -93,7 +104,8 @@
         "121"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1588
     },
     "13": {
       "display": "Always \u2014 each step of growth applies to an already-larger amount, so the total increase is always more than simply adding the percentages.",
@@ -101,7 +113,8 @@
         "always"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1600
     },
     "14": {
       "display": "True \u2014 a multiplier of 1.05 means the new amount is 105% of the original, a 5% increase.",
@@ -109,7 +122,8 @@
         "true"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1612
     },
     "15": {
       "display": "No \u2014 a multiplier of 0.9 represents a 10% decrease (the new value is 90% of the original), not a 90% decrease.",
@@ -119,13 +133,15 @@
         "10%"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1624
     },
     "16": {
       "display": "Simple growth adds the same fixed amount every time; compound growth multiplies by the same factor every time, so the amount added grows larger each step.",
       "accept": [],
       "tier": 2,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1636
     },
     "17": {
       "display": "No \u2014 \u00a3100 decaying by 50% gives \u00a350 after 1 year, then \u00a325 after 2 years, not \u00a30.",
@@ -135,7 +151,8 @@
         "25"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1648
     },
     "18": {
       "display": "No \u2014 decay (decreasing) needs a multiplier between 0 and 1; a multiplier greater than 1 always represents growth.",
@@ -144,7 +161,8 @@
         "incorrect"
       ],
       "contains": true,
-      "tier": 2
+      "tier": 2,
+      "rating": 1552
     },
     "19": {
       "display": "\u00a315,300 after 1 year; \u00a313,005 after 2 years",
@@ -152,14 +170,16 @@
         "15300",
         "13005"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "20": {
       "display": "450",
       "accept": [
         "450"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1976
     },
     "21": {
       "display": "\u00a32,163.20",
@@ -168,7 +188,8 @@
         "2163.20",
         "\u00a32,163.20"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1988
     },
     "22": {
       "display": "\u00a3280,900",
@@ -177,7 +198,8 @@
         "\u00a3280,900",
         "280,900"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2000
     },
     "23": {
       "display": "\u00a3324",
@@ -185,7 +207,8 @@
         "324",
         "\u00a3324"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2012
     },
     "24": {
       "display": "174.96 cm",
@@ -193,14 +216,16 @@
         "174.96",
         "175"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2024
     },
     "25": {
       "display": "392 g",
       "accept": [
         "392"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2036
     },
     "26": {
       "display": "\u00a35,463.64",
@@ -209,7 +234,8 @@
         "\u00a35,463.64",
         "5463.635"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 2048
     },
     "27": {
       "display": "4 years (80%, 64%, 51.2%, 40.96% of original)",
@@ -217,7 +243,8 @@
         "4",
         "4 years"
       ],
-      "tier": 3
+      "tier": 3,
+      "rating": 1952
     },
     "28": {
       "display": "Account A has more: \u00a31,157.63 (compound) vs \u00a31,150 (simple).",
@@ -227,19 +254,22 @@
         "1157.63"
       ],
       "contains": true,
-      "tier": 3
+      "tier": 3,
+      "rating": 1964
     },
     "29": {
       "display": "Each round of compound growth applies to an amount that already includes previous growth, so the extra amount added keeps increasing, eventually overtaking a fixed (linear) amount added each time.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1976
     },
     "30": {
       "display": "A correctly solved growth or decay problem using repeated percentage change.",
       "accept": [],
       "tier": 3,
-      "kind": "self-check"
+      "kind": "self-check",
+      "rating": 1988
     }
   }
 }
