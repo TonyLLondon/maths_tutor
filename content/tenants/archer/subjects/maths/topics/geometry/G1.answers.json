@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "parallel",
+      "accept": ["parallel"]
+    },
+    "2": {
+      "display": "perpendicular",
+      "accept": ["perpendicular"]
+    },
+    "3": {
+      "display": "3 sides and 3 vertices",
+      "accept": ["3", "3 sides", "3 sides 3 vertices", "3 vertices"]
+    },
+    "4": {
+      "display": "square, rectangle, rhombus",
+      "accept": ["square rectangle rhombus", "square, rectangle, rhombus", "rectangle square rhombus"]
+    },
+    "5": {
+      "display": "90° (or a right angle)",
+      "accept": ["90", "90°", "90 degrees", "right angle"]
+    },
+    "6": {
+      "display": "scalene",
+      "accept": ["scalene"]
+    },
+    "7": {
+      "display": "isosceles",
+      "accept": ["isosceles"]
+    },
+    "8": {
+      "display": "False — a square is always a rectangle, but not every rectangle is a square.",
+      "accept": ["false", "not true"],
+      "contains": true
+    },
+    "9": {
+      "display": "Sometimes — a square has four right angles but is not called a rectangle in some definitions; often stated as always a rectangle.",
+      "accept": ["sometimes", "always"],
+      "contains": true
+    },
+    "10": {
+      "display": "One pair of parallel lines (arrow marks) and one line perpendicular to them, labelled correctly.",
+      "accept": [],
+      "any": true
+    },
+    "11": {
+      "display": "No — a rhombus can have two pairs of equal sides without all angles being 90°.",
+      "accept": ["no", "incorrect", "rhombus"],
+      "contains": true
+    },
+    "12": {
+      "display": "Right-angle corner marked; perpendicular means meeting at 90°.",
+      "accept": ["perpendicular", "90", "right angle"],
+      "contains": true
+    },
+    "13": {
+      "display": "6 sides and 6 vertices; unlike a square it has six sides, not four.",
+      "accept": ["6", "six sides", "six vertices"],
+      "contains": true
+    },
+    "14": {
+      "display": "Trapezium (or trapezoid) — one pair of parallel sides.",
+      "accept": [],
+      "any": true
+    },
+    "15": {
+      "display": "Your own always/sometimes/never question with a correct answer.",
+      "accept": [],
+      "any": true
+    }
+  }
+}

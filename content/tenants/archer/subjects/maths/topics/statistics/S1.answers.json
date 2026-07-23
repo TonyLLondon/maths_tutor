@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "Apple 4, banana 3, orange 1, grape 1 (tally marks)",
+      "accept": ["4 3 1 1", "apple 4", "4 apple", "4,3,1,1"]
+    },
+    "2": {
+      "display": "Apple; 4 pupils",
+      "accept": ["apple", "4"]
+    },
+    "3": {
+      "display": "Fish least popular; 5 more chose cats than fish (8 − 3)",
+      "accept": ["fish", "5", "five"]
+    },
+    "4": {
+      "display": "12 pupils",
+      "accept": ["12"]
+    },
+    "5": {
+      "display": "Disagree — the axis can have gaps; the chart can still show the data correctly.",
+      "accept": ["disagree", "no", "not wrong", "can work"],
+      "contains": true
+    },
+    "6": {
+      "display": "False — equal bar heights mean equal frequencies, not that categories differ.",
+      "accept": ["false", "same frequency", "equal"],
+      "contains": true
+    },
+    "7": {
+      "display": "Bar chart with car 12, bus 3, bike 4, walk 1; car seen most.",
+      "accept": [],
+      "any": true
+    },
+    "8": {
+      "display": "Three suitable survey questions; one classified as numbers/categories with a sensible display method.",
+      "accept": [],
+      "any": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "42",
+      "accept": ["42"]
+    },
+    "2": {
+      "display": "15",
+      "accept": ["15"]
+    },
+    "3": {
+      "display": "£6",
+      "accept": ["6", "£6", "6.00"]
+    },
+    "4": {
+      "display": "73",
+      "accept": ["73"]
+    },
+    "5": {
+      "display": "£4 is 10% of £40, not the sale price. Sale price = £40 − £4 = £36.",
+      "accept": ["36", "£36", "10% off", "discount", "mistake"],
+      "contains": true
+    },
+    "6": {
+      "display": "Always — 25% means one quarter, so divide by 4 (e.g. 25% of 80 = 20).",
+      "accept": ["always", "divide by 4", "quarter"],
+      "contains": true
+    },
+    "7": {
+      "display": "£11 change (total £10, 10% off → £9 paid from £20).",
+      "accept": ["11", "£11", "11.00"]
+    },
+    "8": {
+      "display": "20% of £45 = £9; 2/5 of £45 = £18. 2/5 is double 20%.",
+      "accept": ["9", "18", "double", "same as 40%"],
+      "contains": true
+    }
+  }
+}

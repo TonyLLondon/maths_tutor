@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "8",
+      "accept": ["8"]
+    },
+    "2": {
+      "display": "13",
+      "accept": ["13", "n=13", "n = 13"]
+    },
+    "3": {
+      "display": "17",
+      "accept": ["17"]
+    },
+    "4": {
+      "display": "4",
+      "accept": ["4"]
+    },
+    "5": {
+      "display": "Yes. Addition is commutative, so swapping the two numbers does not change the sum.",
+      "accept": ["yes", "correct", "true", "commutative"],
+      "contains": true
+    },
+    "6": {
+      "display": "Always — adding 5 then subtracting 5 returns to the starting value.",
+      "accept": ["always"],
+      "contains": true
+    },
+    "7": {
+      "display": "£15",
+      "accept": ["15", "£15", "15 pounds"]
+    },
+    "8": {
+      "display": "Example: × 4 then + 4 gives 4 → 20; on input 7: 7 × 4 + 4 = 32.",
+      "accept": [],
+      "any": true
+    }
+  }
+}

@@ -10,7 +10,7 @@
       "accept": ["8 16 24 32 40 48", "8,16,24,32,40,48"]
     },
     "3": {
-      "display": "13, 19 and 29 are prime (circled)",
+      "display": "13, 19 and 29 are prime",
       "accept": ["13 19 29", "13,19,29", "13 19 and 29"]
     },
     "4": {
@@ -19,17 +19,17 @@
     },
     "5": {
       "display": "No. 1 is not prime because a prime has exactly two factors; 1 only has one factor.",
-      "accept": ["no", "not correct", "incorrect", "wrong"],
+      "accept": ["no", "not correct", "incorrect", "wrong", "one factor"],
       "contains": true
     },
     "6": {
-      "display": "Always — the LCM is always one of the two numbers (e.g. LCM of 4 and 6 is 12, which is neither; sometimes neither — LCM of 6 and 9 is 18). Actually: Sometimes — e.g. LCM(3,6)=6 which is one of the numbers; LCM(4,6)=12 which is neither.",
+      "display": "Sometimes — e.g. LCM(3, 6) = 6 (one of the numbers); LCM(4, 6) = 12 (neither).",
       "accept": ["sometimes"],
       "contains": true
     },
     "7": {
       "display": "24 packs; 2 bottles and 3 bars in each pack",
-      "accept": ["24", "24 packs", "2 bottles 3 bars", "2 and 3"]
+      "accept": ["24", "24 packs", "2 bottles 3 bars", "2 and 3", "2 bottles", "3 bars"]
     },
     "8": {
       "display": "2 × 2 × 3 × 5 or 2² × 3 × 5",

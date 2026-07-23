@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "0.7",
+      "accept": ["0.7", "0.70", "7/10"]
+    },
+    "2": {
+      "display": "1/4",
+      "accept": ["1/4", "one quarter", "¼"]
+    },
+    "3": {
+      "display": "0.6",
+      "accept": ["0.6", "0.60", "3/5"]
+    },
+    "4": {
+      "display": "35 squares shaded; fraction 7/20 (35/100 simplified).",
+      "accept": ["7/20", "35/100", "35 squares"],
+      "contains": true
+    },
+    "5": {
+      "display": "Yes. 0.8 = 8/10 = 4/5.",
+      "accept": ["yes", "correct", "true", "same"],
+      "contains": true
+    },
+    "6": {
+      "display": "Sometimes — e.g. 0.5 = 5/10, but 0.25 = 1/4 which is not tenths.",
+      "accept": ["sometimes"],
+      "contains": true
+    },
+    "7": {
+      "display": "1.25 km",
+      "accept": ["1.25", "1.25 km", "1.25km", "5/4"]
+    },
+    "8": {
+      "display": "0.2, 1/4, 3/10, 0.75",
+      "accept": ["0.2 1/4 3/10 0.75", "0.2, 1/4, 3/10, 0.75", "0.2 0.25 0.3 0.75"]
+    }
+  }
+}

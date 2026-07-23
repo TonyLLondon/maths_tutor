@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "5",
+      "accept": ["5", "mean 5"]
+    },
+    "2": {
+      "display": "5",
+      "accept": ["5"]
+    },
+    "3": {
+      "display": "8",
+      "accept": ["8"]
+    },
+    "4": {
+      "display": "8",
+      "accept": ["8"]
+    },
+    "5": {
+      "display": "Class B — a wider spread can include a higher maximum even with the same mean.",
+      "accept": ["b", "class b", "spread", "higher highest"],
+      "contains": true
+    },
+    "6": {
+      "display": "Sometimes — e.g. mean of 1, 2, and 4 is 7/3, not a whole number.",
+      "accept": ["sometimes", "not always"],
+      "contains": true
+    },
+    "7": {
+      "display": "Mean 22.5 minutes; with Archer included, new mean = 26 minutes.",
+      "accept": ["22.5", "26", "22.5 and 26", "22.5 26"]
+    },
+    "8": {
+      "display": "13",
+      "accept": ["13"]
+    }
+  }
+}

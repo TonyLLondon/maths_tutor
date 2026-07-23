@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "16, 19, 22",
+      "accept": ["16 19 22", "16,19,22", "16, 19, 22"]
+    },
+    "2": {
+      "display": "5",
+      "accept": ["5"]
+    },
+    "3": {
+      "display": "14",
+      "accept": ["14"]
+    },
+    "4": {
+      "display": "3, 9, 15, 21",
+      "accept": ["3 9 15 21", "3,9,15,21", "3, 9, 15, 21"]
+    },
+    "5": {
+      "display": "The terms are multiplied by 2 each time (double), not add 2. Rule: multiply by 2 (or double).",
+      "accept": ["multiply", "double", "times 2", "×2", "wrong"],
+      "contains": true
+    },
+    "6": {
+      "display": "Sequence B is smaller. After 5 steps: A = 100 − 5×7 = 65; B = 100 − 5×10 = 50.",
+      "accept": ["b", "sequence b", "50"],
+      "contains": true
+    },
+    "7": {
+      "display": "54",
+      "accept": ["54"]
+    },
+    "8": {
+      "display": "Add 3 each time; 10th term = 28.",
+      "accept": ["28", "add 3", "+3"],
+      "contains": true
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "10 km",
+      "accept": ["10", "10 km", "10km"]
+    },
+    "2": {
+      "display": "40 m",
+      "accept": ["40", "40 m", "40m"]
+    },
+    "3": {
+      "display": "4 cm",
+      "accept": ["4", "4 cm", "4cm"]
+    },
+    "4": {
+      "display": "2 (double)",
+      "accept": ["2", "double", "×2", "x2"]
+    },
+    "5": {
+      "display": "1 cm : 2 m",
+      "accept": ["1:2", "1 cm : 2 m", "1:200", "2 m"]
+    },
+    "6": {
+      "display": "No. 3 × 500 m = 1500 m = 1.5 km, not 15 km.",
+      "accept": ["no", "incorrect", "1.5", "1500"],
+      "contains": true
+    },
+    "7": {
+      "display": "False — real distances stay the same; only the drawing size changes.",
+      "accept": ["false", "not true", "same"],
+      "contains": true
+    },
+    "8": {
+      "display": "1 is a distance on the map; 25 000 is the same distance on the ground (in cm).",
+      "accept": ["map", "ground", "real", "centimetre"],
+      "contains": true
+    },
+    "9": {
+      "display": "1000 m or 1 km",
+      "accept": ["1000", "1 km", "1km", "1000 m"]
+    },
+    "10": {
+      "display": "7.5 km",
+      "accept": ["7.5", "7.5 km", "7.5km"]
+    },
+    "11": {
+      "display": "900 ml",
+      "accept": ["900", "900 ml", "900ml"]
+    },
+    "12": {
+      "display": "1 cm : 5 m (45 m ÷ 9 cm and 30 m ÷ 6 cm)",
+      "accept": ["1:5", "1 cm : 5 m", "5 m", "1:500"]
+    },
+    "13": {
+      "display": "1 cm : 160 m (real distance 800 m; 800 ÷ 5 = 160 m per cm on Map B)",
+      "accept": ["160", "1:160", "1 cm : 160 m", "160 m"]
+    }
+  }
+}

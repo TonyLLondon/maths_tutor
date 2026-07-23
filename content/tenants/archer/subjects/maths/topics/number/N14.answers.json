@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "490",
+      "accept": ["490"]
+    },
+    "2": {
+      "display": "6.3",
+      "accept": ["6.3"]
+    },
+    "3": {
+      "display": "800 (40 × 20)",
+      "accept": ["800", "40 x 20", "40×20"]
+    },
+    "4": {
+      "display": "50 (500 ÷ 10) or similar sensible estimate",
+      "accept": ["50", "500/10", "55.8"]
+    },
+    "5": {
+      "display": "Yes — 500 is close to 503, so the estimate is sensible.",
+      "accept": ["yes", "sensible", "reasonable", "close"],
+      "contains": true
+    },
+    "6": {
+      "display": "Always for rounding both up before multiplying — e.g. 2×2 = 4 is greater than 1.8×1.9 = 3.42.",
+      "accept": ["always", "bigger", "overestimate"],
+      "contains": true
+    },
+    "7": {
+      "display": "About £1 500 000 (e.g. 30 000 × £50).",
+      "accept": ["1500000", "1.5 million", "1500000", "30000 x 50", "31000 x 50"]
+    },
+    "8": {
+      "display": "Exact: 2548. Estimate e.g. 50 × 50 = 2500 — close to exact.",
+      "accept": ["2548", "2500", "2550"],
+      "contains": true
+    }
+  }
+}
