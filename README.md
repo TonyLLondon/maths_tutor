@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maths Tutor
 
-## Getting Started
+Next.js app for **GCSE-aligned maths worksheets** with simple **multi-tenant** auth (tenant **Archer**), **markdown** content in Git, **web edits** stored in **Vercel KV**, and **print-first** layouts.
 
-First, run the development server:
+Repository: [github.com/TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor)
+
+## Stack
+
+- Next.js (App Router) on Vercel free tier
+- Markdown worksheets in `content/tenants/{tenant}/worksheets/*.md`
+- GCSE topic catalog in `src/lib/topics/catalog.ts`
+- Per-tenant overrides in KV keys `mt:tenant:{tenant}:worksheet:{slug}`
+- Local dev without KV uses `.data/kv-dev.json`
+
+## Local development
 
 ```bash
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000/login](http://localhost:3000/login). Default dev password: `archer-dev` (when `TENANT_ARCHER_PASSWORD` is unset).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Content (markdown)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Each worksheet file uses YAML frontmatter:
 
-## Learn More
+```yaml
+---
+title: Factors and multiples
+topic: N4
+domain: number
+ao:
+  - AO1
+  - AO2
+week: 1
+printNotes: Name · Date · space for working
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Fluency (AO1)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Your question here.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Sections like **Fluency / Reasoning / Problem / Stretch** map to GCSE AO1–AO3 style practice.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push this repo to GitHub and import in Vercel.
+2. Add **Storage → Redis** (Upstash) from the Vercel marketplace; link to the project (sets `KV_REST_API_URL` and `KV_REST_API_TOKEN`).
+3. Environment variables:
+   - `AUTH_SECRET` — random string
+   - `TENANT_ARCHER_PASSWORD` — Archer login password
+4. Deploy.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Routes
+
+| Path | Purpose |
+|------|---------|
+| `/login` | Sign in as Archer |
+| `/t/archer` | Dashboard |
+| `/t/archer/topics` | GCSE topic map |
+| `/t/archer/worksheets` | List worksheets |
+| `/t/archer/worksheets/{slug}` | Preview |
+| `/t/archer/worksheets/{slug}/print` | A4 print / Save as PDF |
+| `/t/archer/worksheets/{slug}/edit` | Edit markdown → KV |
+
+## Adding tenants
+
+1. Add an entry in `src/lib/tenants.ts`.
+2. Create `content/tenants/{id}/worksheets/`.
+3. Set `TENANT_{ID}_PASSWORD` in Vercel.
+
+## Workflow: Git vs KV
+
+- **Git markdown** = canonical, versioned, good for bulk authoring in Cursor.
+- **KV save** = quick tweaks from phone/tablet on the deployed app.
+- Copy KV edits back into Git when you want them permanent in the repo.
