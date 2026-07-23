@@ -1,11 +1,11 @@
 import { redirect } from "next/navigation";
-import { mathsPrintHref } from "@/lib/paths";
+import { mathsPracticeHref } from "@/lib/paths";
+import { isTenantId } from "@/lib/tenants";
 
-type Props = {
-  params: Promise<{ tenant: string; domain: string; code: string }>;
-};
+type Props = { params: Promise<{ tenant: string; domain: string; code: string }> };
 
 export default async function RedirectTopicPrint({ params }: Props) {
   const { tenant, domain, code } = await params;
-  redirect(mathsPrintHref(tenant, domain, code));
+  if (!isTenantId(tenant)) redirect("/login");
+  redirect(mathsPracticeHref(tenant, domain, code));
 }

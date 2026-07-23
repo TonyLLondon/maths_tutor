@@ -86,11 +86,15 @@ export async function POST(request: Request, { params }: Ctx) {
   }
 
   const doc = await getWorksheet(tenant, slug);
+  const questions = doc ? parseQuestions(doc.body) : [];
   const sectionTier = doc
-    ? (parseQuestions(doc.body).find((q) => q.id === questionId)?.tier ?? 2)
+    ? (questions.find((q) => q.id === questionId)?.tier ?? 2)
     : 2;
 
   const qRating = questionRating(entry, questionId, sectionTier);
+
+  const state = await getTopicProgressState(session.userId, "maths", slug);
+  const ratingBefore = state.rating;
 
   const { correct, display } = gradePracticeAttempt(entry, {
     questionId,
@@ -99,16 +103,11 @@ export async function POST(request: Request, { params }: Ctx) {
     barHeights: body.barHeights,
   });
 
-  const state = await getTopicProgressState(session.userId, "maths", slug);
   const prev = state.questions[questionId];
   const lastAnswer =
     body.barHeights != null
       ? body.barHeights.join(",")
-      : body.selfCheckCorrect != null
-        ? body.selfCheckCorrect
-          ? "got-it"
-          : "retry"
-        : (body.answer ?? "");
+      : (body.answer ?? "");
 
   const mergedCorrect = correct || prev?.correct === true;
   const attempt = {
@@ -138,6 +137,7 @@ export async function POST(request: Request, { params }: Ctx) {
     display,
     progress: updated.questions,
     rating: updated.rating,
+    ratingDelta: updated.rating - ratingBefore,
     ratingHistory: updated.ratingHistory ?? [],
   });
 }

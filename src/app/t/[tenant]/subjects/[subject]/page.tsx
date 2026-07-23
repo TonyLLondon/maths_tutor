@@ -8,11 +8,13 @@ import {
   SUBJECTS,
   topicsByDomain,
 } from "@/lib/subjects";
-import { primaryTopicLabel } from "@/lib/topic-labels";
+import { primaryTopicLabelWithStarter } from "@/lib/topic-labels";
+import { loadStarterTopics } from "@/lib/starter-topics";
 import { isTenantId } from "@/lib/tenants";
-import { ARCHER_PATH } from "@/lib/topics/archer-path";
 import { TenantNav } from "@/components/TenantNav";
 import { mathsHomeTrail } from "@/lib/nav-crumbs";
+import { getTopicProgressState } from "@/lib/progress";
+import { formatLevel } from "@/lib/practice-rating";
 import { mathsTopicHref } from "@/lib/paths";
 
 type Props = { params: Promise<{ tenant: string; subject: string }> };
@@ -21,10 +23,18 @@ type Row = {
   domain: string;
   t: ReturnType<typeof topicsByDomain>[number];
   ws: Awaited<ReturnType<typeof getWorksheet>>;
+  level: number | null;
 };
 
-function TopicRow({ tenant, domain, t, ws }: Row & { tenant: string }) {
-  const label = primaryTopicLabel(t);
+function TopicRow({
+  tenant,
+  domain,
+  t,
+  ws,
+  starter,
+  level,
+}: Row & { tenant: string; starter: Awaited<ReturnType<typeof loadStarterTopics>> }) {
+  const label = primaryTopicLabelWithStarter(starter, t);
   return (
     <li className="flex flex-wrap items-start justify-between gap-3 rounded-lg border border-stone-200 bg-white px-4 py-3">
       <div>
@@ -37,6 +47,14 @@ function TopicRow({ tenant, domain, t, ws }: Row & { tenant: string }) {
         </p>
         {label !== t.title ? (
           <p className="mt-0.5 text-xs text-stone-500">{t.title}</p>
+        ) : null}
+        {ws && level != null ? (
+          <p className="mt-1.5 text-sm text-stone-600">
+            Your level{" "}
+            <span className="font-semibold tabular-nums text-stone-900">
+              {formatLevel(level)}
+            </span>
+          </p>
         ) : null}
       </div>
       {ws ? (
@@ -57,25 +75,32 @@ export default async function MathsSubjectPage({ params }: Props) {
   const session = await requireSession(tenant);
   const meta = SUBJECTS.maths;
 
+  const starter = await loadStarterTopics(tenant);
+
+  async function topicRow(
+    domain: string,
+    t: ReturnType<typeof topicsByDomain>[number],
+  ): Promise<Row> {
+    const slug = `${domain}/${t.code}`;
+    const ws = await getWorksheet(tenant, slug);
+    const level = ws
+      ? (await getTopicProgressState(session.userId, "maths", slug)).rating
+      : null;
+    return { domain, t, ws, level };
+  }
+
   const pathRows = await Promise.all(
-    ARCHER_PATH.map(async (p) => {
+    starter.map(async (p) => {
       const t = topicsByDomain(p.domain).find((x) => x.code === p.code);
       if (!t) return null;
-      const ws = await getWorksheet(tenant, `${p.domain}/${p.code}`);
-      return { domain: p.domain, t, ws };
+      return topicRow(p.domain, t);
     }),
   );
 
   const domainSections = await Promise.all(
     MATHS_DOMAINS.map(async (domain) => {
       const topics = topicsByDomain(domain);
-      const rows = await Promise.all(
-        topics.map(async (t) => {
-          const slug = `${domain}/${t.code}`;
-          const ws = await getWorksheet(tenant, slug);
-          return { domain, t, ws };
-        }),
-      );
+      const rows = await Promise.all(topics.map((t) => topicRow(domain, t)));
       return { domain, rows };
     }),
   );
@@ -93,22 +118,26 @@ export default async function MathsSubjectPage({ params }: Props) {
           Start with the topics below. Parents can open the full list when needed.
         </p>
 
-        <section className="mt-10">
-          <h2 className="border-b border-stone-200 pb-2 text-lg font-medium">
-            Start here
-          </h2>
-          <ul className="mt-4 space-y-3">
-            {pathRows.filter(Boolean).map((row) => (
-              <TopicRow
-                key={`${row!.domain}/${row!.t.code}`}
-                tenant={tenant}
-                domain={row!.domain}
-                t={row!.t}
-                ws={row!.ws}
-              />
-            ))}
-          </ul>
-        </section>
+        {starter.length > 0 ? (
+          <section className="mt-10">
+            <h2 className="border-b border-stone-200 pb-2 text-lg font-medium">
+              Start here
+            </h2>
+            <ul className="mt-4 space-y-3">
+              {pathRows.filter(Boolean).map((row) => (
+                <TopicRow
+                  key={`${row!.domain}/${row!.t.code}`}
+                  tenant={tenant}
+                  domain={row!.domain}
+                  t={row!.t}
+                  ws={row!.ws}
+                  starter={starter}
+                  level={row!.level}
+                />
+              ))}
+            </ul>
+          </section>
+        ) : null}
 
         <details className="mt-12 rounded-xl border border-stone-200 bg-stone-50 px-4 py-3">
           <summary className="cursor-pointer text-sm font-medium text-stone-800">
@@ -124,13 +153,15 @@ export default async function MathsSubjectPage({ params }: Props) {
                   </span>
                 </h3>
                 <ul className="mt-4 space-y-3">
-                  {rows.map(({ t, ws }) => (
+                  {rows.map(({ t, ws, level }) => (
                     <TopicRow
                       key={t.code}
                       tenant={tenant}
                       domain={domain}
                       t={t}
                       ws={ws}
+                      starter={starter}
+                      level={level}
                     />
                   ))}
                 </ul>

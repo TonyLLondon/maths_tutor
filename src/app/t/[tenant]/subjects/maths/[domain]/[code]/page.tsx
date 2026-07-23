@@ -7,7 +7,6 @@ import { getTopicProgressState } from "@/lib/progress";
 import { formatLevel } from "@/lib/practice-rating";
 import {
   mathsPracticeHref,
-  mathsPrintHref,
   mathsTopicHref,
 } from "@/lib/paths";
 import { primaryTopicLabel } from "@/lib/topic-labels";
@@ -37,7 +36,7 @@ export default async function MathsTopicPage({ params }: Props) {
   const baseHref = mathsTopicHref(tenant, domain, code);
   const topicMeta = topicByCode(doc.frontmatter.topic);
   const headline = topicMeta
-    ? primaryTopicLabel(topicMeta)
+    ? await primaryTopicLabel(tenant, topicMeta)
     : doc.frontmatter.title;
 
   return (
@@ -53,39 +52,27 @@ export default async function MathsTopicPage({ params }: Props) {
           <p className="mt-1 text-sm text-stone-500">{doc.frontmatter.title}</p>
         ) : null}
 
-        <p className="mt-4 text-sm text-stone-600">
-          Your level here:{" "}
-          <span className="font-semibold text-stone-900">
+        <p className="mt-4 rounded-lg bg-stone-100 px-4 py-3 text-sm text-stone-700">
+          Your level on this topic{" "}
+          <span className="text-lg font-semibold tabular-nums text-stone-900">
             {formatLevel(state.rating)}
           </span>
           {" · "}
           {correctCount}/{questions.length} mastered
         </p>
 
-        <div className="mt-6 flex flex-wrap gap-2">
+        <div className="mt-6">
           <Link
             href={mathsPracticeHref(tenant, domain, code)}
-            className="rounded-lg bg-stone-900 px-4 py-2 text-sm font-medium text-white"
+            className="rounded-lg bg-stone-900 px-5 py-2.5 text-sm font-medium text-white"
           >
-            Practice
-          </Link>
-          <Link
-            href={`${baseHref}/worksheet`}
-            className="rounded-lg border border-stone-300 px-4 py-2 text-sm"
-          >
-            Full worksheet
-          </Link>
-          <Link
-            href={mathsPrintHref(tenant, domain, code)}
-            className="rounded-lg border border-stone-300 px-4 py-2 text-sm"
-          >
-            Print
+            Go
           </Link>
         </div>
 
         {!answerKey ? (
           <p className="mt-4 text-sm text-amber-800">
-            Practice mode is not ready for this topic yet.
+            Questions are not ready for this topic yet.
           </p>
         ) : null}
       </main>

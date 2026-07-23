@@ -126,16 +126,19 @@ export function recordRoundComplete(
   };
 }
 
+export function formatOpeningCount(count: number): string {
+  if (count <= 0) return "";
+  return count === 1 ? "1 opening played" : `${count} openings played`;
+}
+
 export function formatChessSubjectStats(progress: ChessTrainerProgress): string {
   const parts: string[] = [];
   if (progress.bestScore > 0) {
     parts.push(`Best score ${progress.bestScore}`);
   }
-  const count = progress.openingsDiscovered.length;
-  if (count > 0) {
-    parts.push(
-      count === 1 ? "1 opening found" : `${count} openings found`,
-    );
+  const openingLine = formatOpeningCount(progress.openingsDiscovered.length);
+  if (openingLine) {
+    parts.push(openingLine);
   }
   if (progress.playStreakDays > 1) {
     parts.push(`${progress.playStreakDays}-day streak`);

@@ -2,160 +2,224 @@
   "version": 1,
   "answers": {
     "1": {
-      "display": "8",
+      "display": "3",
       "accept": [
-        "8"
+        "3"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 500
     },
     "2": {
-      "display": "8",
+      "display": "5",
       "accept": [
-        "8"
+        "5"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 540
     },
     "3": {
-      "display": "13",
+      "display": "3",
       "accept": [
-        "13"
+        "3"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 580
     },
     "4": {
-      "display": "9",
-      "accept": [
-        "9"
-      ],
-      "tier": 1,
-      "rating": 1200
-    },
-    "5": {
       "display": "8",
       "accept": [
         "8"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 620
     },
-    "6": {
+    "5": {
       "display": "4",
       "accept": [
         "4"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 660
     },
-    "7": {
-      "display": "15",
-      "accept": [
-        "15"
-      ],
-      "tier": 1,
-      "rating": 1236
-    },
-    "8": {
-      "display": "16",
-      "accept": [
-        "16"
-      ],
-      "tier": 1,
-      "rating": 1248
-    },
-    "9": {
-      "display": "18",
-      "accept": [
-        "18"
-      ],
-      "tier": 1,
-      "rating": 1152
-    },
-    "10": {
+    "6": {
       "display": "6",
       "accept": [
         "6"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 700
+    },
+    "7": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 786
     },
     "11": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
       "display": "4",
       "accept": [
         "4"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 892
     },
-    "12": {
+    "15": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
       "display": "-15",
       "accept": [
         "-15"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "Priya made an arithmetic slip. Correctly, 3 \u00d7 2 + 1 = 6 + 1 = 7.",
+    "23": {
+      "display": "Priya made an arithmetic slip. Correctly, 3 × 2 + 1 = 6 + 1 = 7.",
       "accept": [
         "7"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Always \u2014 every time you substitute x = 0 into 5x + 4, you get 0 + 4 = 4.",
+    "24": {
+      "display": "Always — every time you substitute x = 0 into 5x + 4, you get 0 + 4 = 4.",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "No \u2014 squaring a negative number gives a positive result: (-1)^2 = 1, not -1.",
+    "25": {
+      "display": "No — squaring a negative number gives a positive result: (-1)^2 = 1, not -1.",
       "accept": [
         "no",
         "1"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Yes \u2014 2(5) + 3 = 13 and 5 + 8 = 13, so both expressions equal 13 at x = 5.",
+    "26": {
+      "display": "Yes — 2(5) + 3 = 13 and 5 + 8 = 13, so both expressions equal 13 at x = 5.",
       "accept": [
         "yes",
         "13"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "True \u2014 7 + 7 = 14 and 2 \u00d7 7 = 14, so both give the same result.",
+    "27": {
+      "display": "True — 7 + 7 = 14 and 2 × 7 = 14, so both give the same result.",
       "accept": [
         "true",
         "14"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Leo has the order wrong: indices apply before multiplication, so you square x first (3^2 = 9), then multiply by 4, giving 36 \u2014 not (4 \u00d7 3)^2 = 144.",
+    "28": {
+      "display": "Leo has the order wrong: indices apply before multiplication, so you square x first (3^2 = 9), then multiply by 4, giving 36 — not (4 × 3)^2 = 144.",
       "accept": [
         "36"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "At x = 2, x^2 = 4 and 2x = 4 \u2014 they are equal. At x = 5, x^2 = 25 and 2x = 10 \u2014 x^2 is bigger. x^2 grows faster than 2x as x increases.",
+    "29": {
+      "display": "At x = 2, x^2 = 4 and 2x = 4 — they are equal. At x = 5, x^2 = 25 and 2x = 10 — x^2 is bigger. x^2 grows faster than 2x as x increases.",
       "accept": [
         "4",
         "25",
@@ -164,104 +228,104 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
+    "30": {
       "display": "Mo squared -4 incorrectly, treating it like -(4^2). Squaring a negative gives a positive: (-4)^2 = 16, so the correct value is 16 + 3 = 19.",
       "accept": [
         "19"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
-      "display": "\u00a313",
+    "31": {
+      "display": "£13",
       "accept": [
         "13",
-        "\u00a313"
+        "£13"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "\u00a344",
+    "32": {
+      "display": "£44",
       "accept": [
         "44",
-        "\u00a344"
+        "£44"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
-      "display": "40 cm\u00b2",
+    "33": {
+      "display": "40 cm²",
       "accept": [
         "40"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "\u00a312",
+    "34": {
+      "display": "£12",
       "accept": [
         "12",
-        "\u00a312"
+        "£12"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "28 cm when s = 7 cm; 56 cm when s = 14 cm \u2014 doubling the side length doubles the perimeter.",
+    "35": {
+      "display": "28 cm when s = 7 cm; 56 cm when s = 14 cm — doubling the side length doubles the perimeter.",
       "accept": [
         "28",
         "56"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "36": {
       "display": "22 points",
       "accept": [
         "22"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
+    "37": {
       "display": "21",
       "accept": [
         "21"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "38": {
       "display": "9",
       "accept": [
         "9"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
-      "display": "(3 + 2)^2 = 25 but 3^2 + 4 = 13 \u2014 the two expressions give different values, so they are not equivalent.",
+    "39": {
+      "display": "(3 + 2)^2 = 25 but 3^2 + 4 = 13 — the two expressions give different values, so they are not equivalent.",
       "accept": [
         "25",
         "13"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "First four terms: 2, 5, 8, 11. 10th term: 3(10) - 1 = 29.",
       "accept": [
         "2",
@@ -272,7 +336,41 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "5 and 4",
+      "accept": [
+        "5",
+        "4",
+        "5, 4"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

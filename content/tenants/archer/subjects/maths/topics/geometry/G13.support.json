@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Looking straight down from above — plan or front?",
+      "help": "Looking **down** gives the **plan** (top view).\n\nExample: bird’s-eye view."
+    },
+    "2": {
+      "hint": "Looking straight at the front — which view?",
+      "help": "The **front elevation** (front view).\n\nExample: face-on sketch."
+    },
+    "3": {
+      "hint": "Cube from front — what 2D shape?",
+      "help": "A **square** (if face-on to a square face).\n\nExample: cube front elevation."
+    },
+    "4": {
+      "hint": "Cylinder upright — looking from above sees which shape?",
+      "help": "A **circle** (plan view).\n\nExample: top of a can.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "Ball from any direction — same round outline.",
+      "help": "A **circle** (sphere appears circular from any direction).\n\nExample: ball outline."
+    },
+    "6": {
+      "hint": "Side view of 3-cube tower — how many cubes tall?",
+      "help": "Side view shows **3** cubes high.\n\nExample: stack height in elevation."
+    },
+    "7": {
+      "hint": "Two cubes side by side — top view shows how many squares?",
+      "help": "**2** squares in the plan.\n\nExample: row of cubes from above."
+    },
+    "8": {
+      "hint": "Can top view differ from front view?",
+      "help": "Yes — **true**. Different directions can show different 2D shapes.\n\nExample: cuboid plan vs front."
+    },
+    "9": {
+      "hint": "View from straight above — name it.",
+      "help": "The **plan**.\n\nExample: architect’s top view.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "10": {
+      "hint": "View from the front — name it.",
+      "help": "**Front elevation**.\n\nExample: face-on drawing.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "View from the side — name it.",
+      "help": "**Side elevation**.\n\nExample: left or right view.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "12": {
+      "hint": "Cube face-on to square face — front elevation shape?",
+      "help": "A **square**.\n\nExample: equal width and height.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "Cylinder upright — plan from above?",
+      "help": "A **circle**.\n\nExample: round top view.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "Same cylinder — front elevation (side view)?",
+      "help": "A **rectangle** (width = diameter, height = cylinder height).\n\nExample: tin side view."
+    },
+    "15": {
+      "hint": "4×3 face on table — plan is rectangle which size?",
+      "help": "Plan: **rectangle 4 cm by 3 cm** (footprint).\n\nExample: label long and short."
+    },
+    "16": {
+      "hint": "Front face 4 wide, 2 tall — describe front elevation.",
+      "help": "**Rectangle 4 cm wide by 2 cm tall**.\n\nExample: match orientation to question."
+    },
+    "17": {
+      "hint": "Square pyramid from directly above — plan shape?",
+      "help": "A **square** (base outline).\n\nExample: pyramid plan.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "Triangular prism on rectangular face — plan often a rectangle.",
+      "help": "Plan often shows a **rectangle** (footprint of prism on its side).\n\nExample: depends which face rests."
+    },
+    "19": {
+      "hint": "How many standard views: plan, front, side?",
+      "help": "Usually **three** views.\n\nExample: plan + front + side elevation."
+    },
+    "20": {
+      "hint": "Sphere — any view shows same shape?",
+      "help": "Always a **circle** in outline.\n\nExample: ball from any direction."
+    },
+    "21": {
+      "hint": "View when looking straight down?",
+      "help": "**Plan** (top view).\n\nExample: from above.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "View from the front?",
+      "help": "**Front elevation**.\n\nExample: facing the object.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "23": {
+      "hint": "Cube — plan, front, side all squares same size?",
+      "help": "Mia is **correct** — cube face-on gives **equal squares** in all three orthographic views (when aligned to faces).\n\nExample: sketch three squares."
+    },
+    "24": {
+      "hint": "Cuboid front and side — always identical?",
+      "help": "**False** if length ≠ width — front and side can show **different** rectangle dimensions.\n\nExample: 6×4×2 cuboid."
+    },
+    "25": {
+      "hint": "3 cubes in a row — describe plan vs front along the row.",
+      "help": "Plan: **3 squares in a row**. Front along row: **3 cubes high** if viewed end-on, or **1 high** if viewed along length — explain your viewing direction.\n\nExample: label view direction."
+    },
+    "26": {
+      "hint": "Three rectangular views different sizes — likely cuboid?",
+      "help": "Most likely a **cuboid** — three different rectangle sizes match length, width, height faces.\n\nExample: explain matching dimensions."
+    },
+    "27": {
+      "hint": "Can two different solids share the same plan?",
+      "help": "**Sometimes** — e.g. cylinder and circle disc share circular plan but differ in 3D.\n\nExample: give two solids, same plan."
+    },
+    "28": {
+      "hint": "Why one view is not enough — give two solids, same plan.",
+      "help": "One view loses **depth**. Example: **cylinder** and **disc** both circular in plan but different solids.\n\nExample: explain missing height info."
+    },
+    "29": {
+      "hint": "Cone point-up — plan circle, front elevation triangle?",
+      "help": "Plan: **circle**. Front: **triangle** silhouette — different shapes.\n\nExample: cone side vs top."
+    },
+    "30": {
+      "hint": "Prism on rectangular face — when is front elevation a triangle?",
+      "help": "True when viewed **end-on** to triangular face; **not** when front shows rectangular face.\n\nExample: depends on orientation."
+    },
+    "31": {
+      "hint": "4-cube vertical tower — plan one square, front four squares?",
+      "help": "Plan: **one square**. Front/side elevation: **four squares** stacked.\n\nExample: tower views."
+    },
+    "32": {
+      "hint": "Sketch front of stacked cuboids — label heights and widths.",
+      "help": "Draw **step profile**: bottom 6×2 block, top centred 2×2 block — give approximate **6 wide**, **5 tall** front outline.\n\nExample: L-shaped front elevation."
+    },
+    "33": {
+      "hint": "Staircase side view — steps go up and back.",
+      "help": "Side elevation: **three steps** like stairs, each step 1 cm up and 1 cm back.\n\nExample: zigzag side profile."
+    },
+    "34": {
+      "hint": "Cylinder r=3, h=8 — plan circle diameter 6, front rectangle 6 by 8.",
+      "help": "Plan: **circle radius 3 cm**. Front: **rectangle 6 cm × 8 cm**.\n\nExample: label measurements."
+    },
+    "35": {
+      "hint": "House: cuboid + triangular prism roof — front elevation shapes.",
+      "help": "Front: **rectangle** wall plus **triangle** roof on top (combined outline).\n\nExample: sketch house front."
+    },
+    "36": {
+      "hint": "Plan circle, front and side equal rectangles — name solid.",
+      "help": "**Cylinder** upright — circular plan, rectangular front and side same size.\n\nExample: match three views."
+    },
+    "37": {
+      "hint": "Plan rectangle, front and side triangles — pyramid or wedge?",
+      "help": "Could be **triangular prism** or **pyramid** viewed certain ways — explain best match (e.g. **square-based pyramid** front triangle, plan square?).\n\nExample: justify choice."
+    },
+    "38": {
+      "hint": "Use three views to read length, width, height of cuboid — multiply for volume.",
+      "help": "Read **length, width, height** from plan and elevations, then **volume = l × w × h** without seeing 3D.\n\nExample: 4×3×2 from views → 24 units³."
+    },
+    "39": {
+      "hint": "Cube vs square pyramid — same square plan, front elevations differ?",
+      "help": "Both **square plan**. Cube front **square**; pyramid front **triangle**.\n\nExample: explain height vs apex."
+    },
+    "40": {
+      "hint": "Design a compound cuboid solid — describe plan, front, side.",
+      "help": "Build from cuboids, give **measurements**, describe all **three views** clearly.\n\nExample: L-shaped block views."
+    },
+    "41": {
+      "hint": "L-block from two cubes — plan shows L of two squares.",
+      "help": "Plan: **L-shape** of two unit squares.\n\nExample: sketch top view."
+    },
+    "42": {
+      "hint": "Circular plan, rectangular front — cylinder standing?",
+      "help": "An upright **cylinder** (or similar round solid).\n\nExample: can shape."
+    }
+  }
+}

@@ -2,117 +2,197 @@
   "version": 1,
   "answers": {
     "1": {
-      "display": "20 cm\u00b2",
+      "display": "8",
+      "accept": [
+        "8",
+        "8 squares",
+        "8 square units"
+      ],
+      "tier": 1,
+      "rating": 505
+    },
+    "2": {
+      "display": "15 square units",
+      "accept": [
+        "15",
+        "15 square units"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "3 square units",
+      "accept": [
+        "3",
+        "3 square units"
+      ],
+      "tier": 1,
+      "rating": 570
+    },
+    "4": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 600
+    },
+    "5": {
+      "display": "6",
+      "accept": [
+        "6",
+        "6 cubes",
+        "6 cubic units"
+      ],
+      "tier": 1,
+      "rating": 630
+    },
+    "6": {
+      "display": "8",
+      "accept": [
+        "8",
+        "8 cubes",
+        "8 cm³",
+        "8cm³"
+      ],
+      "tier": 1,
+      "rating": 665
+    },
+    "7": {
+      "display": "cm²",
+      "accept": [
+        "cm²",
+        "cm2",
+        "square centimetres",
+        "square centimeters"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "cm³",
+      "accept": [
+        "cm³",
+        "cm3",
+        "cubic centimetres",
+        "cubic centimeters"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
+      "display": "20 cm²",
       "accept": [
         "20",
         "20 cm2",
-        "20 cm\u00b2"
+        "20 cm²"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
-      "display": "24 cm\u00b2",
+    "10": {
+      "display": "24 cm²",
       "accept": [
         "24",
         "24 cm2",
-        "24 cm\u00b2"
+        "24 cm²"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
-      "display": "30 cm\u00b2",
+    "11": {
+      "display": "30 cm²",
       "accept": [
         "30",
         "30 cm2",
-        "30 cm\u00b2"
+        "30 cm²"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
-      "display": "45 cm\u00b2",
+    "12": {
+      "display": "45 cm²",
       "accept": [
         "45",
         "45 cm2",
-        "45 cm\u00b2"
+        "45 cm²"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
-      "display": "18 cm\u00b2",
+    "13": {
+      "display": "18 cm²",
       "accept": [
         "18",
         "18 cm2",
-        "18 cm\u00b2"
+        "18 cm²"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "14": {
       "display": "12",
       "accept": [
         "12",
         "12 cubes"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
-      "display": "24 cm\u00b3",
+    "15": {
+      "display": "24 cm³",
       "accept": [
         "24",
         "24 cm3",
-        "24 cm\u00b3"
+        "24 cm³"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
-      "display": "20 cm\u00b3",
+    "16": {
+      "display": "20 cm³",
       "accept": [
         "20",
         "20 cm3",
-        "20 cm\u00b3"
+        "20 cm³"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
-      "display": "120 cm\u00b3",
+    "17": {
+      "display": "120 cm³",
       "accept": [
         "120",
         "120 cm3",
-        "120 cm\u00b3"
+        "120 cm³"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
-      "display": "283 cm\u00b3",
+    "18": {
+      "display": "283 cm³",
       "accept": [
         "283",
         "283 cm3",
-        "283 cm\u00b3",
+        "283 cm³",
         "282.6"
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
-      "display": "64 cm\u00b3",
+    "19": {
+      "display": "64 cm³",
       "accept": [
         "64",
         "64 cm3",
-        "64 cm\u00b3"
+        "64 cm³"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "20": {
       "display": "5 cm",
       "accept": [
         "5",
@@ -120,77 +200,77 @@
         "5cm"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "Cutting a right-angled triangle from one end of the parallelogram and sliding it to the other end forms a rectangle with the same base and height, so the parallelogram's area equals base \u00d7 height, just like a rectangle.",
+    "21": {
+      "display": "Cutting a right-angled triangle from one end of the parallelogram and sliding it to the other end forms a rectangle with the same base and height, so the parallelogram's area equals base × height, just like a rectangle.",
       "accept": [
         "rectangle",
         "same area"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Splitting the trapezium into a rectangle (width = the shorter parallel side) and a triangle (base = the difference between the two parallel sides) and adding their areas gives exactly 1/2 \u00d7 (a + b) \u00d7 h.",
+    "22": {
+      "display": "Splitting the trapezium into a rectangle (width = the shorter parallel side) and a triangle (base = the difference between the two parallel sides) and adding their areas gives exactly 1/2 × (a + b) × h.",
       "accept": [
         "rectangle",
         "triangle"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
+    "23": {
       "display": "Always",
       "accept": [
         "always"
       ],
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Their areas are equal, since both are base \u00d7 height, even though a parallelogram can be slanted.",
+    "24": {
+      "display": "Their areas are equal, since both are base × height, even though a parallelogram can be slanted.",
       "accept": [
         "equal",
         "same"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "No \u2014 a prism's volume is its cross-sectional area multiplied by its length; only for a cuboid does the cross-sectional area happen to equal width \u00d7 height.",
+    "25": {
+      "display": "No — a prism's volume is its cross-sectional area multiplied by its length; only for a cuboid does the cross-sectional area happen to equal width × height.",
       "accept": [
         "no",
         "cross-sectional area"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Example: 3 \u00d7 2 \u00d7 2 cm (volume 12 cm\u00b3).",
+    "26": {
+      "display": "Example: 3 × 2 × 2 cm (volume 12 cm³).",
       "accept": [
         "3 2 2",
         "4 3 1"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "Whichever shape has the larger cross-sectional area (the circle's area \u03c0r\u00b2 compared with the rectangle's area) will have the larger volume, since both are multiplied by the same height.",
+    "27": {
+      "display": "Whichever shape has the larger cross-sectional area (the circle's area πr² compared with the rectangle's area) will have the larger volume, since both are multiplied by the same height.",
       "accept": [
         "cross-sectional area"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "No \u2014 it multiplies the area by 4, not 2, since both the base and the height double (2 \u00d7 2 = 4 times the area).",
+    "28": {
+      "display": "No — it multiplies the area by 4, not 2, since both the base and the height double (2 × 2 = 4 times the area).",
       "accept": [
         "no",
         "4",
@@ -198,58 +278,58 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
-      "display": "12 m\u00b2",
+    "29": {
+      "display": "12 m²",
       "accept": [
         "12",
         "12 m2",
-        "12 m\u00b2"
+        "12 m²"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "300 m\u00b2",
+    "30": {
+      "display": "300 m²",
       "accept": [
         "300",
         "300 m2",
-        "300 m\u00b2"
+        "300 m²"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
-      "display": "96 m\u00b2",
+    "31": {
+      "display": "96 m²",
       "accept": [
         "96",
         "96 m2",
-        "96 m\u00b2"
+        "96 m²"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "21 m\u00b3",
+    "32": {
+      "display": "21 m³",
       "accept": [
         "21",
         "21 m3",
-        "21 m\u00b3"
+        "21 m³"
       ],
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "62.8 m\u00b3",
+    "33": {
+      "display": "62.8 m³",
       "accept": [
         "62.8"
       ],
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "30 000 cm\u00b3 = 30 litres",
+    "34": {
+      "display": "30 000 cm³ = 30 litres",
       "accept": [
         "30000",
         "30 litres",
@@ -257,9 +337,69 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
+    "35": {
+      "display": "20 cm²",
+      "accept": [
+        "20",
+        "20cm2",
+        "20 cm²"
+      ],
+      "tier": 2,
+      "rating": 1240
+    },
+    "36": {
+      "display": "60 cm³",
+      "accept": [
+        "60",
+        "60cm3",
+        "60 cm³"
+      ],
+      "tier": 2,
+      "rating": 1316
+    },
+    "37": {
+      "display": "48 cm²",
+      "accept": [
+        "48",
+        "48cm2",
+        "48 cm²"
+      ],
+      "tier": 2,
+      "rating": 1392
+    },
+    "38": {
+      "display": "27 cm³",
+      "accept": [
+        "27",
+        "27cm3",
+        "27 cm³"
+      ],
+      "tier": 2,
+      "rating": 1468
+    },
+    "39": {
+      "display": "40 cm²",
+      "accept": [
+        "40",
+        "40cm2",
+        "40 cm²"
+      ],
+      "tier": 2,
+      "rating": 1544
+    },
+    "40": {
+      "display": "31.4 cm³",
+      "accept": [
+        "31.4",
+        "31.4cm3",
+        "31.4 cm³"
+      ],
+      "tier": 2,
+      "rating": 1620
+    },
+    "41": {
       "display": "10 cm",
       "accept": [
         "10",
@@ -267,19 +407,19 @@
         "10cm"
       ],
       "tier": 3,
-      "rating": 1952
+      "rating": 1875
     },
-    "28": {
-      "display": "52 cm\u00b2",
+    "42": {
+      "display": "52 cm²",
       "accept": [
         "52",
         "52 cm2",
-        "52 cm\u00b2"
+        "52 cm²"
       ],
       "tier": 3,
-      "rating": 1964
+      "rating": 1920
     },
-    "29": {
+    "43": {
       "display": "5 cm",
       "accept": [
         "5",
@@ -287,14 +427,14 @@
         "5cm"
       ],
       "tier": 3,
-      "rating": 1976
+      "rating": 1970
     },
-    "30": {
+    "44": {
       "display": "Stacking identical cross-sections on top of each other (whatever their shape) builds up the solid layer by layer; each layer contributes the same cross-sectional area, so multiplying that area by the number of layers (the length/height) always gives the total volume.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
     }
   }
 }

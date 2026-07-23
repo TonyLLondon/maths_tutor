@@ -2,150 +2,263 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "Red, blue",
+      "accept": [
+        "red blue",
+        "red,blue",
+        "red, blue"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "12, 21",
+      "accept": [
+        "12 21",
+        "12,21",
+        "12, 21"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "3, 4, 5",
+      "accept": [
+        "3 4 5",
+        "3,4,5",
+        "3, 4, 5"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "AA, AB, BA, BB",
+      "accept": [
+        "aa ab ba bb",
+        "aa,ab,ba,bb",
+        "aa, ab, ba, bb"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "tails",
+      "accept": [
+        "tails"
+      ],
+      "tier": 1,
+      "rating": 729
+    },
+    "11": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 755
+    },
+    "12": {
+      "display": "1 and 2",
+      "accept": [
+        "1, 2",
+        "1 and 2",
+        "1 2"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 780
+    },
+    "13": {
       "display": "12, 13, 21, 23, 31, 32",
       "accept": [
         "12,13,21,23,31,32"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "14": {
       "display": "Red+black, red+white, blue+black, blue+white (4 outfits)",
       "accept": [
         "4"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 792
     },
-    "3": {
+    "15": {
       "display": "1, 2, 3, 4, 6, 8, 12, 24",
       "accept": [
         "1,2,3,4,6,8,12,24"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 824
     },
-    "4": {
+    "16": {
       "display": "ABC, ACB, BAC, BCA, CAB, CBA (6 ways)",
       "accept": [
         "6"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1200
+      "rating": 857
     },
-    "5": {
+    "17": {
       "display": "46, 54, 56, 64",
       "accept": [
         "46,54,56,64"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1212
+      "rating": 889
     },
-    "6": {
+    "18": {
       "display": "Tea+milk, tea+no milk, coffee+milk, coffee+no milk (4 orders)",
       "accept": [
         "4"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1224
+      "rating": 921
     },
-    "7": {
+    "19": {
       "display": "1, 2, 3, 4, 6, 9, 12, 18, 36",
       "accept": [
         "1,2,3,4,6,9,12,18,36"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1236
+      "rating": 953
     },
-    "8": {
+    "20": {
       "display": "6 possible orders (e.g. Archer-Sloan-Priya, Archer-Priya-Sloan, and 4 more)",
       "accept": [
         "6"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1248
+      "rating": 986
     },
-    "9": {
+    "21": {
       "display": "6, 12, 18, 24, 30, 36",
       "accept": [
         "6,12,18,24,30,36"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1152
+      "rating": 1018
     },
-    "10": {
+    "22": {
       "display": "H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6 (12 outcomes)",
       "accept": [
         "12"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 1050
     },
-    "11": {
+    "23": {
       "display": "27, 29, 72, 79, 92, 97",
       "accept": [
         "27,29,72,79,92,97"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 760
     },
-    "12": {
-      "display": "6 sandwiches (3 fillings \u00d7 2 breads)",
+    "24": {
+      "display": "6 sandwiches (3 fillings × 2 breads)",
       "accept": [
         "6"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 857
     },
-    "13": {
+    "25": {
       "display": "1, 2, 4, 5, 8, 10, 20, 40",
       "accept": [
         "1,2,4,5,8,10,20,40"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1200
+      "rating": 953
     },
-    "14": {
+    "26": {
       "display": "111, 112, 121, 122, 211, 212, 221, 222 (8 numbers)",
       "accept": [
         "8"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1212
+      "rating": 1050
     },
-    "15": {
-      "display": "Counting only shirts misses that each shirt can be paired with every pair of shorts \u2014 you must multiply the number of shirts by the number of shorts to get the total.",
+    "27": {
+      "display": "Counting only shirts misses that each shirt can be paired with every pair of shorts — you must multiply the number of shirts by the number of shorts to get the total.",
       "accept": [
         "multiply"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1180
     },
-    "16": {
-      "display": "Always (3 \u00d7 4 = 12)",
+    "28": {
+      "display": "Always (3 × 4 = 12)",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1255
     },
-    "17": {
+    "29": {
       "display": "Wrong because each outcome (HH, HT, TH, TT) is equally likely and must be listed separately, not grouped by number of heads. Correct list: HH, HT, TH, TT (4 outcomes).",
       "accept": [
         "hh",
@@ -156,9 +269,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1330
     },
-    "18": {
+    "30": {
       "display": "Start from the smallest two-digit number with digit sum 9 and go up in order: 18, 27, 36, 45, 54, 63, 72, 81, 90.",
       "accept": [
         "18",
@@ -166,107 +279,107 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1405
     },
-    "19": {
+    "31": {
       "display": "Always",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1480
     },
-    "20": {
+    "32": {
       "display": "15",
       "accept": [
         "15"
       ],
       "tier": 3,
-      "rating": 1976
+      "rating": 1620
     },
-    "21": {
+    "33": {
       "display": "12, 13, 14, 21, 23, 24, 31, 32, 34, 41, 42, 43 (12 codes)",
       "accept": [
         "12"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1695
     },
-    "22": {
+    "34": {
       "display": "24",
       "accept": [
         "24"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1770
     },
-    "23": {
+    "35": {
       "display": "11",
       "accept": [
         "11"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1845
     },
-    "24": {
+    "36": {
       "display": "900",
       "accept": [
         "900"
       ],
       "tier": 3,
-      "rating": 2024
+      "rating": 1920
     },
-    "25": {
+    "37": {
       "display": "435",
       "accept": [
         "435"
       ],
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "38": {
       "display": "40",
       "accept": [
         "40"
       ],
       "tier": 3,
-      "rating": 2048
+      "rating": 1907
     },
-    "27": {
+    "39": {
       "display": "120",
       "accept": [
         "120"
       ],
       "tier": 3,
-      "rating": 1952
+      "rating": 1953
     },
-    "28": {
+    "40": {
       "display": "625",
       "accept": [
         "625"
       ],
       "tier": 3,
-      "rating": 1964
+      "rating": 2000
     },
-    "29": {
-      "display": "5 \u00d7 10p; 1 \u00d7 20p + 3 \u00d7 10p; 2 \u00d7 20p + 1 \u00d7 10p (3 ways)",
+    "41": {
+      "display": "5 × 10p; 1 × 20p + 3 × 10p; 2 × 20p + 1 × 10p (3 ways)",
       "accept": [
         "3"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1420
     },
-    "30": {
+    "42": {
       "display": "Always",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1588
+      "rating": 1680
     }
   }
 }

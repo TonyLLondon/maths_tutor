@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Horizontal move in squares — count right.",
+      "help": "**2** squares right.\n\nExample: translation x-component.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "2": {
+      "hint": "Vertical move up — count squares.",
+      "help": "**3** squares up.\n\nExample: y-component.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "Opposite of right?",
+      "help": "**Left**.\n\nExample: negative x direction.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "4": {
+      "hint": "Opposite of up?",
+      "help": "**Down**.\n\nExample: negative y.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "0 + 2 right?",
+      "help": "Finish at **(2, 0)**.\n\nExample: add to x.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "6": {
+      "hint": "2 up from origin.",
+      "help": "**(0, 2)**.\n\nExample: y increases.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "7": {
+      "hint": "(1,1) plus 2 right.",
+      "help": "**(3, 1)**.\n\nExample: x+2.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "8": {
+      "hint": "4 left only — vertical change?",
+      "help": "**0** vertical movement.\n\nExample: y unchanged.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "9": {
+      "hint": "Column vector: top right, bottom up.",
+      "help": "**$\\binom{3}{2}$**.\n\nExample: (x move, y move).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "10": {
+      "hint": "4 left = −4, 1 up = +1.",
+      "help": "**$\\binom{-4}{1}$**.\n\nExample: signs for direction.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "5 right, 3 down.",
+      "help": "**$\\binom{5}{-3}$**.\n\nExample: down negative y.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "12": {
+      "hint": "Add vector (4,1) to (2,3).",
+      "help": "Image **(6, 4)**.\n\nExample: add components.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "Add (−3,5) to (0,0).",
+      "help": "**(−3, 5)**.\n\nExample: from origin.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "(6,−2)+(−2,−4).",
+      "help": "**(4, −6)**.\n\nExample: add x and y separately.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "(−1,−1)+(5,2).",
+      "help": "**(4, 1)**.\n\nExample: translation sum.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "16": {
+      "hint": "Vector = image minus original: (5−1, 6−2).",
+      "help": "**$\\binom{4}{4}$**.\n\nExample: displacement.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "y changes 7→2, x unchanged.",
+      "help": "**$\\binom{0}{-5}$**.\n\nExample: vertical only.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "From (−4,2) to (0,0).",
+      "help": "**$\\binom{4}{-2}$**.\n\nExample: subtract coordinates.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "19": {
+      "hint": "Slide without turn — name?",
+      "help": "**Translation**.\n\nExample: congruent move.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "Zero vector — no movement.",
+      "help": "Shape **stays in same place**.\n\nExample: identity translation."
+    },
+    "21": {
+      "hint": "3 right 2 up as vector.",
+      "help": "**$\\binom{3}{2}$**.\n\nExample: column vector.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "4 left 1 down.",
+      "help": "**$\\binom{-4}{-1}$**.\n\nExample: both negative.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "23": {
+      "hint": "Top number is x (horizontal), not y.",
+      "help": "Mia swapped — **$\\binom{2}{3}$** is **2 right, 3 up**, not 2 up 3 right.\n\nExample: read vector order."
+    },
+    "24": {
+      "hint": "Translation preserves size and shape?",
+      "help": "**True** — images are **congruent**.\n\nExample: slide copy.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "25": {
+      "hint": "(4,5)+(−6,2) check.",
+      "help": "Correct image **(−2, 7)** not (2,7).\n\nExample: 4−6=−2.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "26": {
+      "hint": "Translation changes size or orientation?",
+      "help": "**Never** — only position.\n\nExample: same shape.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "27": {
+      "hint": "(3,−3) vs (−3,3) — different directions.",
+      "help": "Priya **wrong** — opposite signs give **different** moves.\n\nExample: compare components."
+    },
+    "28": {
+      "hint": "Vector from A to B: subtract A from B.",
+      "help": "$\\binom{7-2}{4-1}=\\binom{5}{3}$.\n\nExample: displacement formula."
+    },
+    "29": {
+      "hint": "y-component 0 — only horizontal shift.",
+      "help": "Every point moves **5 right**, **y unchanged**.\n\nExample: x+5."
+    },
+    "30": {
+      "hint": "Add translation vectors component-wise.",
+      "help": "Leo **correct**: $\\binom{2}{1}+\\binom{2}{1}=\\binom{4}{2}$.\n\nExample: combine moves."
+    },
+    "31": {
+      "hint": "Add (2,−3) to each vertex.",
+      "help": "Vertices **(3,−2), (5,−2), (3,1)**.\n\nExample: translate all corners."
+    },
+    "32": {
+      "hint": "(4,2)+(−1,3).",
+      "help": "Combined **$\\binom{3}{5}$**.\n\nExample: sum vectors.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "33": {
+      "hint": "(5,5)+(−2,4)+(3,−6).",
+      "help": "Final **(6, 3)**.\n\nExample: step by step.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "34": {
+      "hint": "Sum three vectors from (0,0).",
+      "help": "Final **(4, 1)** after adding components.\n\nExample: robot path."
+    },
+    "35": {
+      "hint": "Translate all vertices by (−3,−1) — size angles?",
+      "help": "New coords by subtract/add vector; **size and angles unchanged** — congruent.\n\nExample: translation properties."
+    },
+    "36": {
+      "hint": "Q = P + vector, P=(−1,5).",
+      "help": "Q **(5, 3)**.\n\nExample: add vector to P.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "37": {
+      "hint": "B−A vector; reverse is A−B.",
+      "help": "Translation **$\\binom{-4}{8}$**; back **$\\binom{4}{-8}$**.\n\nExample: opposite displacement."
+    },
+    "38": {
+      "hint": "(2,−3)+ (a,b)=(6,1).",
+      "help": "**a=4, b=4**.\n\nExample: solve component equations.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "39": {
+      "hint": "(x,2)+(3,y)=(7,−1).",
+      "help": "**x=4, y=−3**.\n\nExample: match top and bottom.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "40": {
+      "hint": "Pick point and vector; inverse vector negates both parts.",
+      "help": "Translate forward, then use **negative vector** to return.\n\nExample: $\\binom{-a}{-b}$ inverse."
+    },
+    "41": {
+      "hint": "(2,5)+(3,−1).",
+      "help": "Image **(5, 4)**.\n\nExample: add.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "5 left = −5, 3 up = +3.",
+      "help": "**$\\binom{-5}{3}$**.\n\nExample: direction signs.\n\nPicture what is happening, then use the method step by step in your working."
+    }
+  }
+}

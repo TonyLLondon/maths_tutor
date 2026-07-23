@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Which number is bigger—5 or 8?",
+      "help": "You are comparing **how many** children in each group.\n\n**8** is more than **5**, so the group of 8 has more children.\n\nThis is a simple count before you work with averages."
+    },
+    "2": {
+      "hint": "Look for the largest of 3, 7, and 5.",
+      "help": "The **highest** value is **7**.\n\nComparing max and min helps later when you find **range**."
+    },
+    "3": {
+      "hint": "Find the smallest number in the list.",
+      "help": "Among 9, 4, and 6, the **lowest** is **4**.\n\nSmallest and largest together define the range."
+    },
+    "4": {
+      "hint": "Range = highest minus lowest: 8 − 2.",
+      "help": "Spread = $8 - 2 = 6$.\n\nRange only uses the two extreme values, not every number in between."
+    },
+    "5": {
+      "hint": "Compare the two average scores—6 and 9.",
+      "help": "**Average** (here the mean) tells you typical performance.\n\n**9** is higher than **6**, so Class B scored higher on average.\n\nAlways say **on average**—it does not mean every pupil in B beat every pupil in A."
+    },
+    "6": {
+      "hint": "If everyone scored 4, the typical score is 4.",
+      "help": "When all values are the same, every average (mean, median, mode) is that value.\n\n**Typical score = 4**.\n\nThere is no spread when everyone matches."
+    },
+    "7": {
+      "hint": "Three friends are only part of the school—not everyone.",
+      "help": "A few friends cannot represent **every** pupil in the school.\n\nAnswer **no**—you would need a much bigger, fair sample to describe the whole school.\n\nSmall groups are useful for chat, not for “everyone in the school.”"
+    },
+    "8": {
+      "hint": "Which list has numbers farther apart from each other?",
+      "help": "**1, 5, 9** is more **spread out** than **5, 5, 5** (which has range 0).\n\nSpread matters when you compare groups, not just the middle value."
+    },
+    "9": {
+      "hint": "Add 2, 4, and 6, then divide by 3.",
+      "help": "Mean = $(2+4+6)/3 = 4$.\n\nEqual spacing around 4 shows the mean as the balance point."
+    },
+    "10": {
+      "hint": "Order 3, 1, 2—the middle value is the median.",
+      "help": "Sorted: 1, 2, 3. **Median** = **2**.\n\nThree values → pick the middle after ordering."
+    },
+    "11": {
+      "hint": "Which value appears most in 2, 2, 5, 5, 5?",
+      "help": "**5** appears three times; **2** appears twice.\n\nThe **mode** (most common value) is **5**—that is the most frequent score in the list."
+    },
+    "12": {
+      "hint": "20 pupils chosen from 200 is a part of the whole—not everyone.",
+      "help": "The **population** is all 200 pupils. **20** pupils surveyed is a **sample**—a smaller part used to learn about the whole.\n\nSamples must be chosen carefully to be fair."
+    },
+    "13": {
+      "hint": "Compare mean 65 and mean 72.",
+      "help": "Class **B** (mean **72**) scored higher on average than Class A (65).\n\nHigher mean → higher typical score on this test."
+    },
+    "14": {
+      "hint": "Larger range means more spread in the scores.",
+      "help": "Range **20** is bigger than range **8**.\n\nClass **A**’s scores were **more spread out** (wider gap between lowest and highest)."
+    },
+    "15": {
+      "hint": "Which average is pulled up most by one very big number—50?",
+      "help": "The **mean** uses every value, so the **50** pulls it up a lot.\n\n**Mode** stays 3; **median** stays 3. **Mean** is most affected by the outlier **50**."
+    },
+    "16": {
+      "hint": "Order the five values—the middle one is the median.",
+      "help": "Sorted: 3, 3, 3, 3, 50.\n\nMiddle (3rd of 5) → **median 3**.\n\nThe 50 does not change the middle position much here."
+    },
+    "17": {
+      "hint": "Add all five numbers and divide by 5.",
+      "help": "Sum = $3+3+3+3+50 = 62$. Mean = $62 \\div 5 = 12.4$.\n\nThe mean is pulled toward 50 even though most values are 3."
+    },
+    "18": {
+      "hint": "For mostly 3s with one huge value, which average best shows a typical day?",
+      "help": "The **median** (3) describes a **typical** value better than the mean (12.4).\n\nMost of the data sits at 3; the 50 is unusual.\n\nUse median when a big outlier skews the mean."
+    },
+    "19": {
+      "hint": "Same mean but different range—which shop varies more day to day?",
+      "help": "Both means are £400, but Shop B’s range **£300** is much bigger than Shop A’s **£50**.\n\nShop **A** has **more consistent** daily sales (less day-to-day change)."
+    },
+    "20": {
+      "hint": "The sample stands in for all 500 pupils’ heights.",
+      "help": "The **10 pupils** are a **sample**. You use them to **estimate** the average height of the **population** (all 500 pupils).\n\nYou are not claiming those 10 are the only heights—you are inferring about everyone."
+    },
+    "21": {
+      "hint": "Chess club pupils may not match hobbies of the whole school.",
+      "help": "Chess club members might love chess more than others—**biased** sample.\n\n**Unlikely** to represent the whole school fairly for **favourite hobby**.\n\nFair samples include many different kinds of pupils."
+    },
+    "22": {
+      "hint": "Mean 40 is typical age; range 60 shows youngest to oldest spread.",
+      "help": "One sentence combining both: ages **centre around 40** on average, but people span a **60-year** gap from youngest to oldest (e.g. children to elderly in one group).\n\nMean + range describe **centre** and **spread** together."
+    },
+    "23": {
+      "hint": "Same range but different means—the centres of the data differ.",
+      "help": "Same **spread** (range) does not mean the same **typical value**.\n\nDifferent **means** tell you one set is shifted higher or lower overall while extremes are equally far apart.\n\nCompare both mean and range when describing groups."
+    },
+    "24": {
+      "hint": "Why survey everyone when a good sample can estimate the whole?",
+      "help": "Surveys of **everyone** can be slow, costly, or impossible.\n\nA **well-chosen sample** can estimate population facts with less work.\n\nResearchers accept some uncertainty to save time and still learn useful information."
+    },
+    "25": {
+      "hint": "Means tell you the centre—what else describes how spread out values are?",
+      "help": "Mia misses **spread** (like **range**) and sometimes **shape** (outliers).\n\nTwo groups can share a mean but differ in consistency.\n\nAlways compare **average and spread** when describing differences."
+    },
+    "26": {
+      "hint": "More people in a sample usually gives a steadier estimate—true or false?",
+      "help": "**True** in general: **larger samples** tend to give **more reliable** estimates of the population.\n\nSmall samples can be lucky or unlucky; big samples smooth out random noise.\n\nReliable does not mean perfect."
+    },
+    "27": {
+      "hint": "Friends might share the same hobbies—does that match the whole year?",
+      "help": "Ravi’s **friends** may like similar sports—**selection bias**.\n\nThe sample is not random across the year group, so it may **over-count** what Ravi’s circle likes.\n\nBetter: ask pupils from many different friendship groups."
+    },
+    "28": {
+      "hint": "Try two lists with the same mean but different highest and lowest values.",
+      "help": "Same **mean** does **not** force the same **range**.\n\nExample: 8, 9, 10 and 1, 10, 19 both have mean 10, but ranges 2 and 18 differ.\n\nAnswer **Never**—you cannot rely on equal means to tell you spreads match."
+    },
+    "29": {
+      "hint": "Mode ignores outliers—but median uses middle order when one value is huge.",
+      "help": "For data like 2, 3, 3, 3, 100, **mode** is 3 but does not show “typical” well if you want one number near the bulk.\n\n**Median** 3 sits in the middle of the ordered list and ignores how extreme 100 is compared with the mean.\n\nWith a **big outlier**, **median** is often better than mode for “typical.”"
+    },
+    "30": {
+      "hint": "Same mean, different range—give a real example like delivery times or test scores.",
+      "help": "Two delivery companies both **mean 30 minutes**—one **range 2 min** (always 29–31), one **range 25 min** (sometimes 15, sometimes 40).\n\nSame average, very different **reliability**.\n\nSpread changes real meaning even when means match."
+    },
+    "31": {
+      "hint": "Five people is a tiny slice of a big population.",
+      "help": "Sloan is **wrong**. **5 people** might be enough for a tiny club, but not **always** enough for a whole town or country.\n\nSmall samples can miss whole groups and swing easily.\n\nSample size depends on how big and varied the population is."
+    },
+    "32": {
+      "hint": "Use sample results to guess about everyone—like 50 teens for all teenagers.",
+      "help": "**Inference** = using sample evidence to say something about the **wider population**.\n\nSurvey **50 teenagers’** screen time → estimate **average for all teenagers**—not exact, but a reasoned guess with uncertainty.\n\nYou must say it is an **estimate**, not a proof about every person."
+    },
+    "33": {
+      "hint": "Same mean 68—compare range 15 and 40 for similarity and difference.",
+      "help": "**Similarity:** same **mean** (68)—similar average score.\n\n**Difference:** Class **Y** has **larger range** (40)—scores more spread out; Class X (15) is more consistent.\n\nOne similarity + one difference as asked."
+    },
+    "34": {
+      "hint": "Find mean and range for each garden’s five heights, then compare ranges.",
+      "help": "Garden A: mean **150** cm, range $152-148=4$ (or max−min from full list). Garden B: mean **140** cm, range **70** (100 to 170).\n\n**Garden A** is more **consistent**—much smaller range.\n\nShow means and ranges with short working."
+    },
+    "35": {
+      "hint": "One age 90 among many 30s—does the mean sound typical?",
+      "help": "Most ages cluster near **34–37**; **90** is an **outlier** that pulls the **mean** up.\n\nMean is **not fair** for “typical age” here.\n\n**Median** (middle age after sorting) is a better **typical** measure."
+    },
+    "36": {
+      "hint": "Random from many departments mixes job types—one department might all live nearby.",
+      "help": "**Random** picks from **different departments** avoids one commute pattern (e.g. all head office vs all warehouse).\n\nOne department alone could **bias** commute times.\n\nMixed sample → better estimate for **all 1000** employees."
+    },
+    "37": {
+      "hint": "Same mean 12.2—smaller range means more consistent times.",
+      "help": "Runner **A** (range **0.4 s**) is **more consistent** than B (range **2.5 s**).\n\nA coach may prefer A because times are **predictable** even though means match.\n\nConsistency helps planning and reliability."
+    },
+    "38": {
+      "hint": "Early arrivals might walk more—does that match pupils who arrive later?",
+      "help": "Before **8 am** might include more **walkers** and miss bus/car pupils who arrive later.\n\nThat sample **misrepresents** how **all** pupils travel.\n\nFair surveys use times and groups that match the whole school day."
+    },
+    "39": {
+      "hint": "Mean above median—could a few very high scores pull the mean up?",
+      "help": "Mean **60** > median **55** suggests a **long tail** of **high** scores pulling the mean upward.\n\nMost scores may sit below the mean; a few big values lift the average.\n\nThink “skew” toward higher scores without needing that word on the page."
+    },
+    "40": {
+      "hint": "Bigger sample helps—but mistakes or bias can still happen.",
+      "help": "Going from **10** to **200** people usually **reduces random error** and steadies the estimate.\n\nStill **not guaranteed perfect**: wrong questions, biased picking, or luck can leave error.\n\nLarger n = **more reliable**, not **flawless**."
+    },
+    "41": {
+      "hint": "A few huge incomes pull the mean up—median ignores how extreme they are.",
+      "help": "In Town A, **very high earners** lift the **mean** above what most people earn.\n\n**Median** (middle income) matches a **typical** person better when extremes exist.\n\nCompare medians for fairness; mention means can look too high."
+    },
+    "42": {
+      "hint": "Pick two groups, say what you would measure, and compare mean plus range.",
+      "help": "Example: two netball teams—collect **goals per match** over a season.\n\nCompare **mean** goals (attack strength) and **range** (consistency).\n\nConclude cautiously about **wider league**—your teams are a sample of all teams.\n\nUse your own scenario with the same structure."
+    }
+  }
+}

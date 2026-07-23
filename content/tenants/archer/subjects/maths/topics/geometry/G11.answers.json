@@ -2,24 +2,98 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "(3, 0)",
+      "accept": [
+        "3,0",
+        "(3,0)",
+        "(3, 0)"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "(0, 2)",
+      "accept": [
+        "0,2",
+        "(0,2)",
+        "(0, 2)"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "(4, 2)",
+      "accept": [
+        "4,2",
+        "(4,2)",
+        "(4, 2)"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "3",
+      "accept": [
+        "3",
+        "3 squares"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "4",
+      "accept": [
+        "4",
+        "4 squares"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "(2, 0)",
+      "accept": [
+        "2,0",
+        "(2,0)",
+        "(2, 0)"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "4",
       "accept": [
         "4",
         "4 units"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "5",
       "accept": [
         "5",
         "5 units"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "(2, 5)",
       "accept": [
         "2,5",
@@ -28,9 +102,9 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "12": {
       "display": "(4, 3)",
       "accept": [
         "4,3",
@@ -39,10 +113,10 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
-      "display": "(3, \u22124)",
+    "13": {
+      "display": "(3, −4)",
       "accept": [
         "3,-4",
         "(3,-4)",
@@ -50,10 +124,10 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
-      "display": "(\u22123, 4)",
+    "14": {
+      "display": "(−3, 4)",
       "accept": [
         "-3,4",
         "(-3,4)",
@@ -61,9 +135,9 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "(0, 4)",
       "accept": [
         "0,4",
@@ -72,10 +146,10 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
-      "display": "(y\u2081+y\u2082)/2",
+    "16": {
+      "display": "(y₁+y₂)/2",
       "accept": [
         "(y1+y2)/2",
         "y1+y2 over 2",
@@ -83,9 +157,9 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "4 units to the right",
       "accept": [
         "4",
@@ -94,9 +168,9 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "the y-axis",
       "accept": [
         "y-axis",
@@ -104,9 +178,9 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "the x-axis",
       "accept": [
         "x-axis",
@@ -114,17 +188,17 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "20": {
       "display": "True",
       "accept": [
         "true"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
+    "23": {
       "display": "(1, 4)",
       "accept": [
         "1,4",
@@ -133,10 +207,10 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Add the x-coordinates and divide by 2 (2+6=8, 8\u00f72=4), then add the y-coordinates and divide by 2 (8+2=10, 10\u00f72=5), giving midpoint (4, 5).",
+    "24": {
+      "display": "Add the x-coordinates and divide by 2 (2+6=8, 8÷2=4), then add the y-coordinates and divide by 2 (8+2=10, 10÷2=5), giving midpoint (4, 5).",
       "accept": [
         "4",
         "5",
@@ -144,27 +218,27 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
+    "25": {
       "display": "10 units",
       "accept": [
         "10",
         "10 units"
       ],
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Always \u2014 reflecting in the x-axis flips the sign of the y-coordinate but leaves x unchanged.",
+    "26": {
+      "display": "Always — reflecting in the x-axis flips the sign of the y-coordinate but leaves x unchanged.",
       "accept": [
         "always"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
+    "27": {
       "display": "D(2, 3)",
       "accept": [
         "2,3",
@@ -173,19 +247,19 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Yes \u2014 (2+8)/2 = 5 and (2+8)/2 = 5, so the midpoint is (5, 5).",
+    "28": {
+      "display": "Yes — (2+8)/2 = 5 and (2+8)/2 = 5, so the midpoint is (5, 5).",
       "accept": [
         "yes",
         "(5,5)"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
+    "29": {
       "display": "B(6, 10)",
       "accept": [
         "6,10",
@@ -194,18 +268,18 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "8 units \u2014 both points have the same x-coordinate, so the distance is just the difference in y-coordinates: 6 \u2212 (\u22122) = 8.",
+    "30": {
+      "display": "8 units — both points have the same x-coordinate, so the distance is just the difference in y-coordinates: 6 − (−2) = 8.",
       "accept": [
         "8"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "31": {
       "display": "(7, 1)",
       "accept": [
         "7,1",
@@ -214,9 +288,9 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
+    "32": {
       "display": "(5, 5)",
       "accept": [
         "5,5",
@@ -225,9 +299,9 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "33": {
       "display": "10 m",
       "accept": [
         "10",
@@ -235,9 +309,9 @@
         "10m"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
+    "34": {
       "display": "(5, 5)",
       "accept": [
         "5,5",
@@ -246,9 +320,9 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
+    "35": {
       "display": "AC = 8 units; BD = 6 units.",
       "accept": [
         "8",
@@ -256,9 +330,9 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "36": {
       "display": "(5, 3)",
       "accept": [
         "5,3",
@@ -267,19 +341,19 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "Midpoint (1, 5); length = \u221a(6\u00b2 + 8\u00b2) = \u221a100 = 10 units.",
+    "37": {
+      "display": "Midpoint (1, 5); length = √(6² + 8²) = √100 = 10 units.",
       "accept": [
         "(1,5)",
         "10"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "38": {
       "display": "Move from the known vertex adjacent to the missing one by the same horizontal and vertical steps as the opposite (equal, parallel) side, since opposite sides of a parallelogram are equal in length and direction.",
       "accept": [
         "opposite sides",
@@ -288,10 +362,10 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
-      "display": "The point ends up at (\u2212a, \u2212b), which is exactly the same as rotating (a, b) by 180\u00b0 about the origin, because reflecting in both axes flips the sign of both coordinates.",
+    "39": {
+      "display": "The point ends up at (−a, −b), which is exactly the same as rotating (a, b) by 180° about the origin, because reflecting in both axes flips the sign of both coordinates.",
       "accept": [
         "-a",
         "-b",
@@ -299,14 +373,49 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "Your own coordinate geometry problem involving a midpoint, distance, or missing vertex, solved correctly.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "(4, 6)",
+      "accept": [
+        "4,6",
+        "(4,6)",
+        "4, 6"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "(6, 3)",
+      "accept": [
+        "6,3",
+        "(6,3)"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

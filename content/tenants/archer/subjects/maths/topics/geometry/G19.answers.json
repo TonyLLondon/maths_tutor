@@ -2,6 +2,83 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "9 cm",
+      "accept": [
+        "9",
+        "9 cm",
+        "9cm"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm",
+        "5cm"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "40°",
+      "accept": [
+        "40",
+        "40°",
+        "40 degrees"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "Corresponding angles must be equal",
       "accept": [
         "equal",
@@ -9,9 +86,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "Corresponding sides must be in the same ratio (proportional)",
       "accept": [
         "ratio",
@@ -20,96 +97,96 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "3",
       "accept": [
         "3"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "12": {
       "display": "15 cm",
       "accept": [
         "15",
         "15 cm"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "13": {
       "display": "3",
       "accept": [
         "3"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "14": {
       "display": "15 cm",
       "accept": [
         "15",
         "15 cm"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "2.5",
       "accept": [
         "2.5"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "2.5",
       "accept": [
         "2.5"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "37.5 cm",
       "accept": [
         "37.5",
         "37.5 cm"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "5 cm",
       "accept": [
         "5",
         "5 cm"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
-      "display": "Yes \u2014 all squares have four right angles and equal sides, so any two squares are always similar",
+    "19": {
+      "display": "Yes — all squares have four right angles and equal sides, so any two squares are always similar",
       "accept": [
         "yes"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
-      "display": "No \u2014 rectangles can have different length-to-width ratios, so not all rectangles are similar",
+    "20": {
+      "display": "No — rectangles can have different length-to-width ratios, so not all rectangles are similar",
       "accept": [
         "no"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "Wrong \u2014 similarity for general shapes needs both equal corresponding angles AND sides in the same ratio; a rectangle and a square both have right angles but are not similar unless their side ratios also match.",
+    "23": {
+      "display": "Wrong — similarity for general shapes needs both equal corresponding angles AND sides in the same ratio; a rectangle and a square both have right angles but are not similar unless their side ratios also match.",
       "accept": [
         "both",
         "sides",
@@ -117,19 +194,19 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "True \u2014 every circle has exactly the same shape, only differing in size, so all circles are similar.",
+    "24": {
+      "display": "True — every circle has exactly the same shape, only differing in size, so all circles are similar.",
       "accept": [
         "true"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "Not similar \u2014 the ratios are $6/3 = 2$, $8/4 = 2$, but $11/5 = 2.2$, which is different, so the sides are not all in the same ratio.",
+    "25": {
+      "display": "Not similar — the ratios are $6/3 = 2$, $8/4 = 2$, but $11/5 = 2.2$, which is different, so the sides are not all in the same ratio.",
       "accept": [
         "not similar",
         "no",
@@ -137,75 +214,75 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Sometimes \u2014 similar shapes are only congruent when the scale factor between them is exactly 1.",
+    "26": {
+      "display": "Sometimes — similar shapes are only congruent when the scale factor between them is exactly 1.",
       "accept": [
         "sometimes"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "Not necessarily true \u2014 adding the same amount to every side changes the ratios between sides unless they were all equal to start with (e.g. a 2 cm by 4 cm rectangle becomes 5 cm by 7 cm, and $5:7 \\neq 2:4$).",
+    "27": {
+      "display": "Not necessarily true — adding the same amount to every side changes the ratios between sides unless they were all equal to start with (e.g. a 2 cm by 4 cm rectangle becomes 5 cm by 7 cm, and $5:7 \\neq 2:4$).",
       "accept": [
         "not necessarily",
         "ratio changes"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Every equilateral triangle has all angles equal to 60\u00b0, so any two are automatically similar; isosceles triangles can have different angle sizes (e.g. a tall thin one vs a short wide one), so they are not always similar.",
+    "28": {
+      "display": "Every equilateral triangle has all angles equal to 60°, so any two are automatically similar; isosceles triangles can have different angle sizes (e.g. a tall thin one vs a short wide one), so they are not always similar.",
       "accept": [
         "60",
         "different angles"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "Wrong \u2014 the scale factor is found by dividing, not subtracting: $12 \\div 4 = 3$, not $12 - 4 = 8$.",
+    "29": {
+      "display": "Wrong — the scale factor is found by dividing, not subtracting: $12 \\div 4 = 3$, not $12 - 4 = 8$.",
       "accept": [
         "3",
         "divide"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "Incomplete because the scale factor depends on the direction \u2014 from smaller to larger it is $5 \\div 2 = 2.5$, not simply 2.",
+    "30": {
+      "display": "Incomplete because the scale factor depends on the direction — from smaller to larger it is $5 \\div 2 = 2.5$, not simply 2.",
       "accept": [
         "2.5"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "31": {
       "display": "2 m",
       "accept": [
         "2",
         "2 m"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
+    "32": {
       "display": "3.6 m",
       "accept": [
         "3.6",
         "3.6 m"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "33": {
       "display": "Scale factor 1/60; model length 20 cm",
       "accept": [
         "1/60",
@@ -214,9 +291,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
+    "34": {
       "display": "Scale factor 1.5; matching side 12 cm",
       "accept": [
         "1.5",
@@ -224,27 +301,27 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
+    "35": {
       "display": "9 m",
       "accept": [
         "9",
         "9 m"
       ],
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "36": {
       "display": "35 cm",
       "accept": [
         "35",
         "35 cm"
       ],
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
+    "37": {
       "display": "18 cm and 21 cm",
       "accept": [
         "18",
@@ -252,34 +329,71 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "38": {
       "display": "30 cm",
       "accept": [
         "30",
         "30 cm"
       ],
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
+    "39": {
       "display": "x = 5",
       "accept": [
         "5",
         "x=5"
       ],
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "30 m",
       "accept": [
         "30",
         "30 m"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "Multiplied by 3",
+      "accept": [
+        "×3",
+        "times 3",
+        "tripled"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "2.5",
+      "accept": [
+        "2.5"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "12 cm",
+      "accept": [
+        "12",
+        "12 cm"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "6 m",
+      "accept": [
+        "6",
+        "6 m"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

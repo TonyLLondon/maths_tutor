@@ -2,23 +2,90 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "cube",
+      "accept": [
+        "cube"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "cylinder",
+      "accept": [
+        "cylinder"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "square",
+      "accept": [
+        "square"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "faces",
       "accept": [
         "faces",
         "face"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "edge",
       "accept": [
         "edge"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "vertex (vertices)",
       "accept": [
         "vertex",
@@ -26,82 +93,82 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "12": {
       "display": "6",
       "accept": [
         "6"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "13": {
       "display": "12",
       "accept": [
         "12"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "14": {
       "display": "8",
       "accept": [
         "8"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "5",
       "accept": [
         "5"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "5",
       "accept": [
         "5"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "cone",
       "accept": [
         "cone"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "cylinder",
       "accept": [
         "cylinder"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "sphere",
       "accept": [
         "sphere"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "20": {
       "display": "True",
       "accept": [
         "true"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "6 + 8 \u2212 12 = 2, which checks out.",
+    "23": {
+      "display": "6 + 8 − 12 = 2, which checks out.",
       "accept": [
         "2",
         "checks out",
@@ -109,9 +176,9 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
+    "24": {
       "display": "A prism has two identical end faces and the same cross-section throughout its length; a pyramid has one base and triangular faces that all meet at a single apex point.",
       "accept": [
         "same cross-section",
@@ -120,47 +187,47 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "8 + 12 \u2212 18 = 2, which checks out.",
+    "25": {
+      "display": "8 + 12 − 18 = 2, which checks out.",
       "accept": [
         "2",
         "checks out"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Always \u2014 triangular prism: 3 \u00d7 3 = 9 edges; cuboid: 3 \u00d7 4 = 12 edges; hexagonal prism: 3 \u00d7 6 = 18 edges \u2014 all match.",
+    "26": {
+      "display": "Always — triangular prism: 3 × 3 = 9 edges; cuboid: 3 × 4 = 12 edges; hexagonal prism: 3 × 6 = 18 edges — all match.",
       "accept": [
         "always"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "5 + 5 \u2212 8 = 2, which checks out.",
+    "27": {
+      "display": "5 + 5 − 8 = 2, which checks out.",
       "accept": [
         "2",
         "checks out"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Yes \u2014 a cylinder has the same circular cross-section all the way along, just like a prism, even though the cross-section is curved rather than made of straight sides.",
+    "28": {
+      "display": "Yes — a cylinder has the same circular cross-section all the way along, just like a prism, even though the cross-section is curved rather than made of straight sides.",
       "accept": [
         "yes"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
+    "29": {
       "display": "3 rectangular faces and 2 triangular faces.",
       "accept": [
         "3",
@@ -168,10 +235,10 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "A cone's sides taper to a single point (an apex), so its cross-section keeps shrinking \u2014 it does not stay the same shape and size all along its length like a true prism's does.",
+    "30": {
+      "display": "A cone's sides taper to a single point (an apex), so its cross-section keeps shrinking — it does not stay the same shape and size all along its length like a true prism's does.",
       "accept": [
         "apex",
         "point",
@@ -180,9 +247,9 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "31": {
       "display": "5 faces, 9 edges, 6 vertices.",
       "accept": [
         "5",
@@ -191,10 +258,10 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "6 faces, 12 edges, 8 vertices; total edge length = 12 \u00d7 5 = 60 cm.",
+    "32": {
+      "display": "6 faces, 12 edges, 8 vertices; total edge length = 12 × 5 = 60 cm.",
       "accept": [
         "6",
         "12",
@@ -203,29 +270,29 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
-      "display": "9 faces (6 + 5 \u2212 2).",
+    "33": {
+      "display": "9 faces (6 + 5 − 2).",
       "accept": [
         "9"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "8 + 6 \u2212 12 = 2, which checks out.",
+    "34": {
+      "display": "8 + 6 − 12 = 2, which checks out.",
       "accept": [
         "2",
         "checks out"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "Edges = 15 (3 \u00d7 5); faces = 7 (2 pentagons + 5 rectangles); vertices = 10 (5 on each pentagon).",
+    "35": {
+      "display": "Edges = 15 (3 × 5); faces = 7 (2 pentagons + 5 rectangles); vertices = 10 (5 on each pentagon).",
       "accept": [
         "15",
         "7",
@@ -233,27 +300,27 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "9 faces (6 + 5 \u2212 2).",
+    "36": {
+      "display": "9 faces (6 + 5 − 2).",
       "accept": [
         "9"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "30 edges (12 + 20 \u2212 2 = 30).",
+    "37": {
+      "display": "30 edges (12 + 20 − 2 = 30).",
       "accept": [
         "30"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "38": {
       "display": "Faces = n + 2; edges = 3n; vertices = 2n.",
       "accept": [
         "n+2",
@@ -262,10 +329,10 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
-      "display": "Faces = 12, edges = 30, vertices = 20; Euler's formula: 12 + 20 \u2212 30 = 2, which checks out.",
+    "39": {
+      "display": "Faces = 12, edges = 30, vertices = 20; Euler's formula: 12 + 20 − 30 = 2, which checks out.",
       "accept": [
         "12",
         "30",
@@ -274,14 +341,46 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "Your own solid with a correct face/edge/vertex count that satisfies Euler's formula.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "Sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

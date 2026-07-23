@@ -2,38 +2,109 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "flip",
+      "accept": [
+        "flip"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "slide",
+      "accept": [
+        "slide"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "enlargement",
+      "accept": [
+        "enlargement",
+        "enlarge"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "translation",
       "accept": [
         "translation"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "rotation",
       "accept": [
         "rotation"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "reflection",
       "accept": [
         "reflection"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "12": {
       "display": "enlargement",
       "accept": [
         "enlargement"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "13": {
       "display": "translation, rotation, reflection",
       "accept": [
         "translation",
@@ -42,17 +113,17 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "14": {
       "display": "True",
       "accept": [
         "true"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "Move every point 3 units right and 2 units down.",
       "accept": [
         "3 right",
@@ -62,17 +133,17 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "Rotation",
       "accept": [
         "rotation"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "the mirror line (line of reflection)",
       "accept": [
         "mirror line",
@@ -80,34 +151,34 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "Bigger",
       "accept": [
         "bigger",
         "larger"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "Smaller",
       "accept": [
         "smaller"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "20": {
       "display": "opposite",
       "accept": [
         "opposite"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
+    "23": {
       "display": "First the triangle slides 4 right and 1 up (translation); then the result is flipped over the x-axis (reflection).",
       "accept": [
         "translat",
@@ -117,10 +188,10 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Translations, rotations, and reflections only move or flip a shape \u2014 they never change its size, so the image is always congruent. Enlargement changes the size (unless scale factor 1), so the image is only similar.",
+    "24": {
+      "display": "Translations, rotations, and reflections only move or flip a shape — they never change its size, so the image is always congruent. Enlargement changes the size (unless scale factor 1), so the image is only similar.",
       "accept": [
         "size",
         "similar",
@@ -128,9 +199,9 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
+    "25": {
       "display": "6 cm",
       "accept": [
         "6",
@@ -138,29 +209,29 @@
         "6cm"
       ],
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Always \u2014 two reflections in the same mirror line cancel each other out and return the shape to its original position.",
+    "26": {
+      "display": "Always — two reflections in the same mirror line cancel each other out and return the shape to its original position.",
       "accept": [
         "always"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "48 cm\u00b2",
+    "27": {
+      "display": "48 cm²",
       "accept": [
         "48",
         "48 cm2",
-        "48 cm\u00b2"
+        "48 cm²"
       ],
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "No \u2014 a full 360\u00b0 turn brings the shape all the way back round to exactly where it started.",
+    "28": {
+      "display": "No — a full 360° turn brings the shape all the way back round to exactly where it started.",
       "accept": [
         "no",
         "same position",
@@ -168,9 +239,9 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
+    "29": {
       "display": "3 cm",
       "accept": [
         "3",
@@ -178,9 +249,9 @@
         "3cm"
       ],
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
+    "30": {
       "display": "The centre of rotation is the single fixed point the shape turns around; the mirror line is the line the shape is flipped over, with the image the same distance from the line as the original, on the opposite side.",
       "accept": [
         "fixed point",
@@ -189,9 +260,9 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "31": {
       "display": "(5, 3)",
       "accept": [
         "5,3",
@@ -200,9 +271,9 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
+    "32": {
       "display": "20 cm",
       "accept": [
         "20",
@@ -210,9 +281,9 @@
         "20cm"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "33": {
       "display": "25 cm",
       "accept": [
         "25",
@@ -220,20 +291,20 @@
         "25cm"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "128 cm\u00b2",
+    "34": {
+      "display": "128 cm²",
       "accept": [
         "128",
         "128 cm2",
-        "128 cm\u00b2"
+        "128 cm²"
       ],
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "(\u22121, 4)",
+    "35": {
+      "display": "(−1, 4)",
       "accept": [
         "-1,4",
         "(-1,4)",
@@ -241,10 +312,10 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "(5, \u22122)",
+    "36": {
+      "display": "(5, −2)",
       "accept": [
         "5,-2",
         "(5,-2)",
@@ -252,10 +323,10 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "The angles are preserved because enlargement keeps the shape the same, but the side lengths are scaled by 2, so the two shapes are the same shape but different sizes \u2014 similar, not congruent (congruent requires identical size too).",
+    "37": {
+      "display": "The angles are preserved because enlargement keeps the shape the same, but the side lengths are scaled by 2, so the two shapes are the same shape but different sizes — similar, not congruent (congruent requires identical size too).",
       "accept": [
         "same shape",
         "different size",
@@ -263,18 +334,18 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "38": {
       "display": "3",
       "accept": [
         "3",
         "k = 3"
       ],
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
+    "39": {
       "display": "Two reflections in mirror lines that cross at a point have the same overall effect as a single rotation about that point (through twice the angle between the mirror lines).",
       "accept": [
         "two reflections",
@@ -282,14 +353,46 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "Your own two-step transformation puzzle, correctly stating whether the final image is congruent or only similar to the original.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "(3, -1)",
+      "accept": [
+        "3,-1",
+        "(3,-1)",
+        "3, -1"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "Translation 4 units right",
+      "contains": true,
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

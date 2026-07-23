@@ -2,6 +2,126 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "100 cm",
+      "accept": [
+        "100",
+        "100 cm",
+        "100cm"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "1000 g",
+      "accept": [
+        "1000",
+        "1,000",
+        "1000 g",
+        "1000g"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "cm",
+      "accept": [
+        "cm",
+        "centimetres",
+        "centimeters"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "2000 m",
+      "accept": [
+        "2000",
+        "2,000",
+        "2000 m",
+        "2000m"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "30 mph",
+      "accept": [
+        "30",
+        "30 mph",
+        "30mph"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "ml",
+      "accept": [
+        "ml",
+        "millilitres",
+        "milliliters"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "120 minutes",
+      "accept": [
+        "120",
+        "120 minutes",
+        "120 mins"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "5 kg",
+      "accept": [
+        "5",
+        "5 kg",
+        "5kg"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "50 cm",
+      "accept": [
+        "50",
+        "50 cm"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "1 kg",
+      "accept": [
+        "1 kg",
+        "1kg",
+        "kilogram"
+      ],
+      "tier": 1,
+      "rating": 729
+    },
+    "11": {
+      "display": "60",
+      "accept": [
+        "60",
+        "sixty"
+      ],
+      "tier": 1,
+      "rating": 755
+    },
+    "12": {
+      "display": "1.5 kg",
+      "accept": [
+        "1.5",
+        "1.5 kg",
+        "1.5kg"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "13": {
       "display": "3500 m",
       "accept": [
         "3500",
@@ -9,9 +129,9 @@
         "3500 m"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "14": {
       "display": "2.5 m",
       "accept": [
         "2.5",
@@ -19,9 +139,9 @@
         "2.5 m"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 792
     },
-    "3": {
+    "15": {
       "display": "120 minutes",
       "accept": [
         "120",
@@ -29,9 +149,9 @@
         "120 min"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 824
     },
-    "4": {
+    "16": {
       "display": "1.5 kg",
       "accept": [
         "1.5",
@@ -39,9 +159,9 @@
         "1.5 kg"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 857
     },
-    "5": {
+    "17": {
       "display": "60 km/h",
       "accept": [
         "60",
@@ -49,9 +169,9 @@
         "60 km/h"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 889
     },
-    "6": {
+    "18": {
       "display": "4000 ml",
       "accept": [
         "4000",
@@ -59,9 +179,9 @@
         "4000 ml"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 921
     },
-    "7": {
+    "19": {
       "display": "10 mph",
       "accept": [
         "10",
@@ -69,9 +189,9 @@
         "10 mph"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 953
     },
-    "8": {
+    "20": {
       "display": "750 g",
       "accept": [
         "750",
@@ -79,20 +199,20 @@
         "750 g"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 986
     },
-    "9": {
-      "display": "5 g/cm\u00b3",
+    "21": {
+      "display": "5 g/cm³",
       "accept": [
         "5",
         "5g/cm3",
         "5 g/cm3",
-        "5g/cm\u00b3"
+        "5g/cm³"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 1018
     },
-    "10": {
+    "22": {
       "display": "1.5 hours",
       "accept": [
         "1.5",
@@ -100,9 +220,9 @@
         "1.5h"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 1050
     },
-    "11": {
+    "23": {
       "display": "8 m/s",
       "accept": [
         "8",
@@ -110,9 +230,9 @@
         "8 m/s"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 760
     },
-    "12": {
+    "24": {
       "display": "2500 kg",
       "accept": [
         "2500",
@@ -120,9 +240,9 @@
         "2500 kg"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 857
     },
-    "13": {
+    "25": {
       "display": "40 g",
       "accept": [
         "40",
@@ -130,9 +250,9 @@
         "40 g"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 953
     },
-    "14": {
+    "26": {
       "display": "5 km",
       "accept": [
         "5",
@@ -140,9 +260,9 @@
         "5 km"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 1050
     },
-    "15": {
+    "27": {
       "display": "Speed measures how far something travels in a given time, so it needs a distance unit and a time unit together, e.g. m/s or km/h.",
       "accept": [
         "distance",
@@ -152,18 +272,18 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1180
     },
-    "16": {
+    "28": {
       "display": "Always",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1255
     },
-    "17": {
+    "29": {
       "display": "Mistake: 1.5 hours means 1 hour and half an hour, which is 1 hour 30 minutes, not 1 hour 5 minutes.",
       "accept": [
         "30 minutes",
@@ -172,19 +292,19 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1330
     },
-    "18": {
+    "30": {
       "display": "Always",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1405
     },
-    "19": {
-      "display": "60 km/h \u2248 16.7 m/s, so the cyclist at 20 m/s is faster.",
+    "31": {
+      "display": "60 km/h ≈ 16.7 m/s, so the cyclist at 20 m/s is faster.",
       "accept": [
         "cyclist",
         "20",
@@ -192,9 +312,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1480
     },
-    "20": {
+    "32": {
       "display": "120 km/h",
       "accept": [
         "120",
@@ -202,9 +322,9 @@
         "120 km/h"
       ],
       "tier": 3,
-      "rating": 1976
+      "rating": 1620
     },
-    "21": {
+    "33": {
       "display": "4.8 km/h",
       "accept": [
         "4.8",
@@ -212,20 +332,20 @@
         "4.8 km/h"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1695
     },
-    "22": {
-      "display": "9 g/cm\u00b3",
+    "34": {
+      "display": "9 g/cm³",
       "accept": [
         "9",
         "9g/cm3",
         "9 g/cm3",
-        "9g/cm\u00b3"
+        "9g/cm³"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1770
     },
-    "23": {
+    "35": {
       "display": "15 litres",
       "accept": [
         "15",
@@ -233,9 +353,9 @@
         "15l"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1845
     },
-    "24": {
+    "36": {
       "display": "18 km",
       "accept": [
         "18",
@@ -243,9 +363,9 @@
         "18 km"
       ],
       "tier": 3,
-      "rating": 2024
+      "rating": 1920
     },
-    "25": {
+    "37": {
       "display": "225 km",
       "accept": [
         "225",
@@ -253,9 +373,9 @@
         "225 km"
       ],
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "38": {
       "display": "160 g",
       "accept": [
         "160",
@@ -263,10 +383,10 @@
         "160 g"
       ],
       "tier": 3,
-      "rating": 2048
+      "rating": 1907
     },
-    "27": {
-      "display": "Runner A: 100/12 \u2248 8.33 m/s; Runner B: 400/52 \u2248 7.69 m/s. Runner A is faster.",
+    "39": {
+      "display": "Runner A: 100/12 ≈ 8.33 m/s; Runner B: 400/52 ≈ 7.69 m/s. Runner A is faster.",
       "accept": [
         "8.33",
         "7.69",
@@ -274,9 +394,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1953
     },
-    "28": {
+    "40": {
       "display": "5 hours (5 hours 0 minutes)",
       "accept": [
         "5",
@@ -284,9 +404,9 @@
         "5h"
       ],
       "tier": 3,
-      "rating": 1964
+      "rating": 2000
     },
-    "29": {
+    "41": {
       "display": "12.5 m/s",
       "accept": [
         "12.5",
@@ -294,10 +414,10 @@
         "12.5 m/s"
       ],
       "tier": 2,
-      "rating": 1576
+      "rating": 1420
     },
-    "30": {
-      "display": "15 km/h \u2248 4.17 m/s, so 5 m/s is faster \u2014 Sloan is correct.",
+    "42": {
+      "display": "15 km/h ≈ 4.17 m/s, so 5 m/s is faster — Sloan is correct.",
       "accept": [
         "yes",
         "correct",
@@ -305,7 +425,7 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1588
+      "rating": 1680
     }
   }
 }

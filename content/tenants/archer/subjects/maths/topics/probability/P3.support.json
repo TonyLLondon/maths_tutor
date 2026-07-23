@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "The question tells you how many heads were recorded — read that number.",
+      "help": "Relative frequency starts with a **count**: how many times the event happened.\n\nHere the coin showed heads **5** times in 10 flips.\n\nWrite that count — the question asks how many heads were **recorded**."
+    },
+    "2": {
+      "hint": "The format is \"how many out of how many spins\" — how many spins were there?",
+      "help": "When red happened 2 times out of 10 spins, we write **2 out of 10**.\n\nThe second number is the **total number of trials**.\n\nFill in the blank with 10."
+    },
+    "3": {
+      "hint": "Write one roll showing 4 as a fraction of all 6 rolls.",
+      "help": "Fraction = $\\frac{\\text{times it happened}}{\\text{total rolls}}$.\n\nOne 4 in six rolls → $\\frac{1}{6}$.\n\nSimplify only if you can."
+    },
+    "4": {
+      "hint": "7 blue picks out of 10 tries — write as a fraction.",
+      "help": "Relative frequency of blue = $\\frac{7}{10}$.\n\nNumerator = successes; denominator = trials."
+    },
+    "5": {
+      "hint": "4 goals from 5 shots — goals over total shots.",
+      "help": "Scoring fraction = $\\frac{4}{5}$.\n\nThis is the player's relative frequency of scoring in that session."
+    },
+    "6": {
+      "hint": "3 tails out of 6 flips — write tails over total flips.",
+      "help": "Fraction = $\\frac{3}{6}$, which simplifies to $\\frac{1}{2}$.\n\nUse the counts given in the question."
+    },
+    "7": {
+      "hint": "If it never happened in 8 tries, what is 0 ÷ 8?",
+      "help": "Relative frequency = $\\frac{0}{8} = 0$.\n\nZero successes gives relative frequency **0**."
+    },
+    "8": {
+      "hint": "It happened every time in 9 tries — what fraction is that?",
+      "help": "Relative frequency = $\\frac{9}{9} = 1$.\n\nAlways happening gives relative frequency **1**."
+    },
+    "9": {
+      "hint": "Divide the number of heads by the total number of flips.",
+      "help": "Relative frequency of heads = $\\frac{6}{12} = \\frac{1}{2}$.\n\nYou can leave as $\\frac{1}{2}$ or write 0.5."
+    },
+    "10": {
+      "hint": "3 red picks out of 15 tries — write as a fraction in simplest form if you can.",
+      "help": "Relative frequency = $\\frac{3}{15} = \\frac{1}{5}$.\n\nDivide top and bottom by 3 to simplify."
+    },
+    "11": {
+      "hint": "5 successes out of 25 trials — divide 5 by 25.",
+      "help": "Relative frequency = $\\frac{5}{25} = \\frac{1}{5}$.\n\nSame idea as probability estimate from data."
+    },
+    "12": {
+      "hint": "0 out of 10 — what decimal or fraction does that give?",
+      "help": "Relative frequency = $\\frac{0}{10} = 0$.\n\nNo occurrences → 0."
+    },
+    "13": {
+      "hint": "Eight sixes out of fifty rolls — write $\\frac{8}{50}$ and simplify.",
+      "help": "Relative frequency = $\\frac{8}{50} = \\frac{4}{25}$.\n\nOr decimal: $8 \\div 50 = 0.16$."
+    },
+    "14": {
+      "hint": "22 heads out of 40 flips — fraction and decimal.",
+      "help": "Fraction: $\\frac{22}{40} = \\frac{11}{20}$.\n\nDecimal: $22 \\div 40 = 0.55$.\n\nShow both forms as asked."
+    },
+    "15": {
+      "hint": "5 reds out of 25 spins.",
+      "help": "Relative frequency = $\\frac{5}{25} = \\frac{1}{5}$.\n\nDivide numerator and denominator by 5."
+    },
+    "16": {
+      "hint": "20 occurrences out of 80 trials — divide to get a decimal.",
+      "help": "Relative frequency = $\\frac{20}{80} = 0.25$.\n\n$20 \\div 80 = 0.25$."
+    },
+    "17": {
+      "hint": "150 out of 200 prefer tea — turn that fraction into a percentage.",
+      "help": "Relative frequency = $\\frac{150}{200} = 0.75$.\n\nAs a percentage: $0.75 \\times 100 = 75\\%$."
+    },
+    "18": {
+      "hint": "Find how many rolls showed 5 from the table — divide by 30.",
+      "help": "The table says 5 appeared **7** times.\n\nRelative frequency = $\\frac{7}{30}$.\n\nRead the count for face 5 carefully."
+    },
+    "19": {
+      "hint": "15 faulty out of 500 items.",
+      "help": "Relative frequency = $\\frac{15}{500} = 0.03$.\n\nOr simplify fraction: $\\frac{3}{100}$."
+    },
+    "20": {
+      "hint": "24 red out of 60 picks — simplify the fraction.",
+      "help": "$\\frac{24}{60} = \\frac{2}{5}$ after dividing by 12.\n\nRelative frequency in simplest form: $\\frac{2}{5}$."
+    },
+    "21": {
+      "hint": "40 scores out of 50 attempts.",
+      "help": "Relative frequency = $\\frac{40}{50} = \\frac{4}{5}$.\n\nOr decimal 0.8."
+    },
+    "22": {
+      "hint": "Use green's relative frequency from 40 out of 100 as your probability estimate.",
+      "help": "Relative frequency of green = $\\frac{40}{100} = 0.4$.\n\nWe **estimate** P(green) ≈ 0.4 from the experiment."
+    },
+    "23": {
+      "hint": "9 rainy days out of 30 — write as a fraction in simplest form.",
+      "help": "Estimate P(rain) ≈ $\\frac{9}{30} = \\frac{3}{10}$.\n\nSimplify by dividing by 3."
+    },
+    "24": {
+      "hint": "72 wins out of 120 games — divide to get a decimal.",
+      "help": "Relative frequency = $\\frac{72}{120} = 0.6$.\n\n$72 \\div 120 = 0.6$."
+    },
+    "25": {
+      "hint": "Is 10 flips enough for 0.7 to be a good guess for a fair coin?",
+      "help": "A fair coin has true P(heads) = 0.5.\n\n7 heads in 10 is **possible by chance** but not a reliable estimate.\n\nExplain that **too few trials** can give a relative frequency far from 0.5."
+    },
+    "26": {
+      "hint": "Does experimental data always match theory exactly?",
+      "help": "Relative frequency is from **actual** trials; theory is the **true** probability.\n\nThey are **sometimes** equal (e.g. 0 out of 10 for impossible), but usually close only with **many** trials.\n\nAnswer **sometimes** and explain."
+    },
+    "27": {
+      "hint": "What happens to your estimate when you collect more data?",
+      "help": "More trials usually make relative frequency **closer** to the true probability.\n\nSloan is **correct** — larger samples give **more reliable** estimates."
+    },
+    "28": {
+      "hint": "One 3 in six rolls — is that enough to fix P(3) for all time?",
+      "help": "One six-roll experiment can give $\\frac{1}{6}$ by luck even on a biased dice.\n\nPriya is **wrong** — you cannot **prove** exact P(3) from so few rolls.\n\nExplain small sample size."
+    },
+    "29": {
+      "hint": "Which student flipped more times — 20 or 500?",
+      "help": "The student with **500** flips has a more reliable estimate.\n\nMore data → relative frequency usually nearer $\\frac{1}{2}$ for a fair coin.\n\nChoose 500 and explain why."
+    },
+    "30": {
+      "hint": "Can the count ever be bigger than the number of trials?",
+      "help": "Relative frequency = $\\frac{\\text{successes}}{\\text{trials}}$.\n\nSuccesses cannot exceed trials, so the fraction is **at most 1**.\n\nSay **false** — relative frequency is never greater than 1."
+    },
+    "31": {
+      "hint": "What is P(6) on a fair dice? Is 0.3 close to that?",
+      "help": "Fair dice: P(6) = $\\frac{1}{6} \\approx 0.167$.\n\nRelative frequency 0.3 is **not** what a fair dice would give on average.\n\nMia is **wrong** — compare 0.3 to $\\frac{1}{6}$."
+    },
+    "32": {
+      "hint": "Find relative frequency of faulty, then multiply by 4000 bulbs.",
+      "help": "Relative frequency = $\\frac{10}{250} = 0.04$.\n\nEstimate faulty in 4000: $0.04 \\times 4000 = 160$.\n\nScale up from the sample."
+    },
+    "33": {
+      "hint": "Estimate P(score) from 18 out of 30, then multiply by 10 future games.",
+      "help": "P(score) ≈ $\\frac{18}{30} = 0.6$.\n\nPredict scoring matches in 10 games: $0.6 \\times 10 = 6$.\n\nShow estimate and prediction."
+    },
+    "34": {
+      "hint": "125 wins out of 500 — compare to one quarter for a fair four-section spinner.",
+      "help": "Relative frequency = $\\frac{125}{500} = 0.25 = \\frac{1}{4}$.\n\nA fair spinner with 4 equal sections has P(win) = $\\frac{1}{4}$.\n\nCompare 0.25 to $\\frac{1}{4}$ to decide if fair."
+    },
+    "35": {
+      "hint": "Each face should be about one sixth of 300 if fair — check each count.",
+      "help": "Expected per face ≈ 50 if fair ($300 \\div 6$).\n\nAll counts 48–52 are close to 50.\n\nDice **appears fair** — relative frequencies are all near $\\frac{1}{6}$."
+    },
+    "36": {
+      "hint": "27 passes out of 45 — divide and convert to a percentage.",
+      "help": "Relative frequency = $\\frac{27}{45} = 0.6$.\n\nAs percentage: **60%**.\n\n$27 \\div 45 = 0.6$."
+    },
+    "37": {
+      "hint": "Use historical rate 1 in 40, scaled to 2000 tickets.",
+      "help": "Expected winners ≈ $\\frac{1}{40} \\times 2000 = 50$.\n\nOr relative frequency $\\frac{1}{40}$ applied to 2000."
+    },
+    "38": {
+      "hint": "Estimate P(germinate) from 51 out of 60, then scale to 500 seeds.",
+      "help": "P(germinate) ≈ $\\frac{51}{60} = 0.85$.\n\nPredict for 500: $0.85 \\times 500 = 425$.\n\nRound if needed."
+    },
+    "39": {
+      "hint": "Give an example with very few flips where the fraction looks unlike 0.5.",
+      "help": "Example: 3 heads in 4 flips → relative frequency 0.75, but a fair coin is still 0.5 long run.\n\nSmall samples **swing** a lot.\n\nExplain luck vs true probability."
+    },
+    "40": {
+      "hint": "Plan: many trials, record relative frequency, compare to fair expectations.",
+      "help": "Choose **hundreds** of trials so relative frequency is stable.\n\nIf a coin gives 0.9 heads in 500 flips, suspect bias.\n\nState equipment, number of trials, and what result would look unfair."
+    },
+    "41": {
+      "hint": "150 wins out of 1000 — what fraction is that? Compare to one fifth.",
+      "help": "Relative frequency = $\\frac{150}{1000} = 0.15$.\n\nClaimed P = $\\frac{1}{5} = 0.2$.\n\n0.15 < 0.2 — data **contradicts** or is lower than claim (explain carefully)."
+    },
+    "42": {
+      "hint": "Theory uses equal chance; experiments use relative frequency from trials.",
+      "help": "**Theoretical**: dice face $\\frac{1}{6}$ without rolling.\n\n**Experimental**: fraction of rainy days actually recorded.\n\nGive one example of each type in real life."
+    }
+  }
+}

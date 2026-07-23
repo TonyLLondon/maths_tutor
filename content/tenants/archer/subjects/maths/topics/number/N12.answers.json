@@ -2,140 +2,214 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 515
+    },
+    "2": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 535
+    },
+    "3": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 565
+    },
+    "4": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 595
+    },
+    "5": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 625
+    },
+    "6": {
+      "display": "£5",
+      "accept": [
+        "5",
+        "£5",
+        "5 pounds"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "7": {
+      "display": "50%",
+      "accept": [
+        "50%",
+        "50 percent",
+        "fifty percent"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "9": {
       "display": "42",
       "accept": [
         "42"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "15",
       "accept": [
         "15"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 792
     },
-    "3": {
-      "display": "\u00a36",
+    "11": {
+      "display": "£6",
       "accept": [
         "6",
-        "\u00a36",
+        "£6",
         "6.00"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 824
     },
-    "4": {
+    "12": {
       "display": "73",
       "accept": [
         "73"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 857
     },
-    "5": {
+    "13": {
       "display": "15",
       "accept": [
         "15"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 889
     },
-    "6": {
-      "display": "\u00a320",
+    "14": {
+      "display": "£20",
       "accept": [
         "20",
-        "\u00a320",
+        "£20",
         "20.00"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 921
     },
-    "7": {
+    "15": {
       "display": "18",
       "accept": [
         "18"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 953
     },
-    "8": {
+    "16": {
       "display": "30",
       "accept": [
         "30"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 986
     },
-    "9": {
+    "17": {
       "display": "24",
       "accept": [
         "24"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 1018
     },
-    "10": {
-      "display": "\u00a310",
+    "18": {
+      "display": "£10",
       "accept": [
         "10",
-        "\u00a310",
+        "£10",
         "10.00"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 1050
     },
-    "11": {
+    "19": {
       "display": "30",
       "accept": [
         "30"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 760
     },
-    "12": {
-      "display": "\u00a36",
+    "20": {
+      "display": "£6",
       "accept": [
         "6",
-        "\u00a36",
+        "£6",
         "6.00"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 857
     },
-    "13": {
+    "21": {
       "display": "24",
       "accept": [
         "24"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 953
     },
-    "14": {
+    "22": {
       "display": "72",
       "accept": [
         "72"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 1050
     },
-    "15": {
-      "display": "\u00a34 is 10% of \u00a340, not the sale price. Sale price = \u00a340 \u2212 \u00a34 = \u00a336.",
+    "23": {
+      "display": "£4 is 10% of £40, not the sale price. Sale price = £40 − £4 = £36.",
       "accept": [
         "36",
-        "\u00a336",
+        "£36",
         "10% off",
         "discount",
         "mistake"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1180
     },
-    "16": {
-      "display": "Always \u2014 25% means one quarter, so divide by 4 (e.g. 25% of 80 = 20).",
+    "24": {
+      "display": "Always — 25% means one quarter, so divide by 4 (e.g. 25% of 80 = 20).",
       "accept": [
         "always",
         "divide by 4",
@@ -143,10 +217,10 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1255
     },
-    "17": {
-      "display": "Yes \u2014 1/2 of a positive number is always less than 3/4 of the same number.",
+    "25": {
+      "display": "Yes — 1/2 of a positive number is always less than 3/4 of the same number.",
       "accept": [
         "yes",
         "correct",
@@ -154,19 +228,19 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1330
     },
-    "18": {
-      "display": "Always \u2014 e.g. 10% of 50 = 50 \u00f7 10 = 5.",
+    "26": {
+      "display": "Always — e.g. 10% of 50 = 50 ÷ 10 = 5.",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1405
     },
-    "19": {
-      "display": "Yes. 50% of 30 = 15 and 30% of 50 = 15 \u2014 both are equal.",
+    "27": {
+      "display": "Yes. 50% of 30 = 15 and 30% of 50 = 15 — both are equal.",
       "accept": [
         "yes",
         "correct",
@@ -174,59 +248,116 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1480
     },
-    "20": {
-      "display": "\u00a311 change (total \u00a310, 10% off \u2192 \u00a39 paid from \u00a320).",
+    "28": {
+      "display": "£11 change (total £10, 10% off → £9 paid from £20).",
       "accept": [
         "11",
-        "\u00a311",
+        "£11",
         "11.00"
       ],
       "tier": 3,
-      "rating": 1976
+      "rating": 1620
     },
-    "21": {
-      "display": "\u00a348",
+    "29": {
+      "display": "£48",
       "accept": [
         "48",
-        "\u00a348",
+        "£48",
         "48.00"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1695
     },
-    "22": {
+    "30": {
       "display": "75%",
       "accept": [
         "75",
         "75%"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1770
     },
-    "23": {
-      "display": "\u00a324",
+    "31": {
+      "display": "£24",
       "accept": [
         "24",
-        "\u00a324",
+        "£24",
         "24.00"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1845
     },
-    "24": {
-      "display": "\u00a3153",
+    "32": {
+      "display": "£153",
       "accept": [
         "153",
-        "\u00a3153",
+        "£153",
         "153.00"
       ],
       "tier": 3,
-      "rating": 2024
+      "rating": 1920
     },
-    "25": {
-      "display": "20% of \u00a345 = \u00a39; 2/5 of \u00a345 = \u00a318. 2/5 is double 20% (since 2/5 = 40%).",
+    "33": {
+      "display": "40",
+      "accept": [
+        "40",
+        "forty"
+      ],
+      "tier": 2,
+      "rating": 1240
+    },
+    "34": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 2,
+      "rating": 1316
+    },
+    "35": {
+      "display": "50",
+      "accept": [
+        "50",
+        "fifty"
+      ],
+      "tier": 2,
+      "rating": 1392
+    },
+    "36": {
+      "display": "£7",
+      "accept": [
+        "7",
+        "£7",
+        "seven"
+      ],
+      "tier": 2,
+      "rating": 1468
+    },
+    "37": {
+      "display": "£18",
+      "accept": [
+        "18",
+        "£18",
+        "eighteen"
+      ],
+      "tier": 2,
+      "rating": 1544
+    },
+    "38": {
+      "display": "80%",
+      "accept": [
+        "80",
+        "80%",
+        "80 percent"
+      ],
+      "tier": 2,
+      "rating": 1620
+    },
+    "39": {
+      "display": "20% of £45 = £9; 2/5 of £45 = £18. 2/5 is double 20% (since 2/5 = 40%).",
       "accept": [
         "9",
         "18",
@@ -235,41 +366,41 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1885
     },
-    "26": {
-      "display": "\u00a380",
+    "40": {
+      "display": "£80",
       "accept": [
         "80",
-        "\u00a380",
+        "£80",
         "80.00"
       ],
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "\u00a38",
+    "41": {
+      "display": "£8",
       "accept": [
         "8",
-        "\u00a38",
+        "£8",
         "8.00"
       ],
       "tier": 3,
-      "rating": 1952
+      "rating": 1975
     },
-    "28": {
-      "display": "No \u2014 \u00a3100 decreases to \u00a370, then increases by 30% to \u00a391, which is less than \u00a3100.",
+    "42": {
+      "display": "No — £100 decreases to £70, then increases by 30% to £91, which is less than £100.",
       "accept": [
         "no",
         "91",
-        "\u00a391"
+        "£91"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 2000
     },
-    "29": {
-      "display": "3/4 of \u00a3120 = \u00a390; 10% of \u00a3120 = \u00a312. 3/4 is bigger, by \u00a378.",
+    "43": {
+      "display": "3/4 of £120 = £90; 10% of £120 = £12. 3/4 is bigger, by £78.",
       "accept": [
         "90",
         "12",
@@ -277,10 +408,10 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1420
     },
-    "30": {
-      "display": "Yes \u2014 e.g. increasing 50 by 100% gives 50 + 50 = 100, which is double 50.",
+    "44": {
+      "display": "Yes — e.g. increasing 50 by 100% gives 50 + 50 = 100, which is double 50.",
       "accept": [
         "yes",
         "correct",
@@ -288,7 +419,7 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1588
+      "rating": 1680
     }
   }
 }

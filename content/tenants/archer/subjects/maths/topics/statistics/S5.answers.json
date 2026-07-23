@@ -2,66 +2,170 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "The group of 8",
+      "accept": [
+        "8",
+        "group of 8"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
       "display": "Class B",
       "accept": [
         "class b",
         "b"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 602
     },
-    "2": {
+    "6": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "1, 5, 9",
+      "accept": [
+        "1, 5, 9",
+        "second"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 729
+    },
+    "11": {
+      "display": "mode",
+      "accept": [
+        "mode"
+      ],
+      "tier": 1,
+      "rating": 755
+    },
+    "12": {
+      "display": "sample",
+      "accept": [
+        "sample",
+        "a sample"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "13": {
+      "display": "Class B",
+      "accept": [
+        "class b",
+        "b"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
       "display": "Class A",
       "accept": [
         "class a",
         "a"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "15": {
       "display": "The mean",
       "accept": [
         "mean"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "16": {
       "display": "3",
       "accept": [
         "3"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "17": {
       "display": "12.4",
       "accept": [
         "12.4"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
-      "display": "The median \u2014 the mean is pulled up by the outlier (50) and no longer reflects most of the data",
+    "18": {
+      "display": "The median — the mean is pulled up by the outlier (50) and no longer reflects most of the data",
       "accept": [
         "median"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "19": {
       "display": "Shop A",
       "accept": [
         "shop a",
         "a"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "20": {
       "display": "The whole school of 500 pupils (the population)",
       "accept": [
         "whole school",
@@ -70,19 +174,19 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
-      "display": "No \u2014 chess club members may share similar interests, so the sample is unlikely to represent the whole school fairly",
+    "21": {
+      "display": "No — chess club members may share similar interests, so the sample is unlikely to represent the whole school fairly",
       "accept": [
         "no",
         "biased"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "22": {
       "display": "The population's ages are spread quite widely around 40 years old",
       "accept": [
         "spread",
@@ -91,9 +195,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "23": {
       "display": "The data sets have the same spread but different typical (central) values",
       "accept": [
         "same spread",
@@ -102,9 +206,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "24": {
       "display": "It is often cheaper, quicker, and more practical than surveying every member of the population",
       "accept": [
         "cheaper",
@@ -114,64 +218,64 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "She is missing the spread (range) \u2014 two data sets can have the same mean but very different amounts of variation.",
+    "25": {
+      "display": "She is missing the spread (range) — two data sets can have the same mean but very different amounts of variation.",
       "accept": [
         "range",
         "spread"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "True \u2014 larger samples tend to reduce the effect of random variation and give a more reliable estimate of the population.",
+    "26": {
+      "display": "True — larger samples tend to reduce the effect of random variation and give a more reliable estimate of the population.",
       "accept": [
         "true"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "Biased \u2014 friends often share similar interests, so this sample is unlikely to represent the wider range of opinions across the whole year group.",
+    "27": {
+      "display": "Biased — friends often share similar interests, so this sample is unlikely to represent the wider range of opinions across the whole year group.",
       "accept": [
         "biased",
         "not representative"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Sometimes \u2014 having the same mean does not guarantee the same spread, but it is possible by coincidence for two data sets to share both.",
+    "28": {
+      "display": "Sometimes — having the same mean does not guarantee the same spread, but it is possible by coincidence for two data sets to share both.",
       "accept": [
         "sometimes"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
+    "29": {
       "display": "The median is often better than the mode for numerical data with an outlier, since the median ignores extreme values and represents the middle of the data, while the mode may not exist or may not be near the centre at all.",
       "accept": [
         "median"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Example: two delivery services both average 30 minutes, but one always takes close to 30 minutes (small range, reliable) while the other sometimes takes 5 minutes and sometimes 60 minutes (large range, unreliable) \u2014 the same mean can hide very different real experiences.",
+    "30": {
+      "display": "Example: two delivery services both average 30 minutes, but one always takes close to 30 minutes (small range, reliable) while the other sometimes takes 5 minutes and sometimes 60 minutes (large range, unreliable) — the same mean can hide very different real experiences.",
       "accept": [],
       "tier": 2,
       "kind": "self-check",
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "Not necessarily true \u2014 a sample of only 5 people is very small and may not capture the natural variation in a larger population, so it could easily give a misleading estimate.",
+    "31": {
+      "display": "Not necessarily true — a sample of only 5 people is very small and may not capture the natural variation in a larger population, so it could easily give a misleading estimate.",
       "accept": [
         "too small",
         "not enough",
@@ -179,10 +283,10 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "An inference is a conclusion drawn about the whole population based on sample data \u2014 for example, using the average screen time from 50 surveyed teenagers to estimate the average screen time of all teenagers.",
+    "32": {
+      "display": "An inference is a conclusion drawn about the whole population based on sample data — for example, using the average screen time from 50 surveyed teenagers to estimate the average screen time of all teenagers.",
       "accept": [
         "conclusion",
         "estimate",
@@ -190,9 +294,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "33": {
       "display": "Similarity: both classes have the same mean (68); difference: Class Y's scores are much more spread out (range 40 vs 15), so Class Y's performance is less consistent.",
       "accept": [
         "same mean",
@@ -201,10 +305,10 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "Garden A: mean 150 cm, range 4 cm; Garden B: mean 140 cm, range 70 cm \u2014 Garden A's sunflowers are far more consistent in height.",
+    "34": {
+      "display": "Garden A: mean 150 cm, range 4 cm; Garden B: mean 140 cm, range 70 cm — Garden A's sunflowers are far more consistent in height.",
       "accept": [
         "150",
         "4",
@@ -214,9 +318,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "35": {
       "display": "The mean (41.75) is pulled up by the outlier (90), so it does not represent most people's ages well; the median (35) is a better, fairer average here.",
       "accept": [
         "35",
@@ -225,9 +329,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
+    "36": {
       "display": "Sampling across different departments avoids bias, since commute times might vary a lot between departments (e.g. based on office location), giving a fairer cross-section of the whole company.",
       "accept": [
         "bias",
@@ -236,9 +340,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
+    "37": {
       "display": "Runner A is more consistent (smaller range, 0.4 vs 2.5), so a coach would prefer Runner A for having more predictable, reliable race times.",
       "accept": [
         "runner a",
@@ -247,9 +351,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "38": {
       "display": "This only samples pupils who happen to arrive early, which could over-represent walkers or under-represent pupils who arrive later by car or bus, giving a biased, unrepresentative result.",
       "accept": [
         "bias",
@@ -257,9 +361,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
+    "39": {
       "display": "Since the mean (60) is higher than the median (55), the distribution is likely skewed to the right, meaning a few unusually high scores are pulling the mean above the middle value.",
       "accept": [
         "skewed",
@@ -268,9 +372,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "40": {
       "display": "A bigger sample reduces the effect of random variation, so the estimate is more likely to be close to the true population value, but it still cannot guarantee perfect accuracy since it is not the entire population and could still be affected by bias.",
       "accept": [
         "reduces variation",
@@ -279,9 +383,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
+    "41": {
       "display": "The median ignores the effect of the extremely high earners, so it better represents the income of a 'typical' person in each town, whereas the mean would be pulled upward by the high earners in Town A.",
       "accept": [
         "median",
@@ -290,14 +394,14 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "42": {
       "display": "Your own comparison scenario with data collected, averages and spread compared, and a sensible conclusion about the wider population.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
     }
   }
 }

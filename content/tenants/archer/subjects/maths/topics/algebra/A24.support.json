@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Next square after 9 is 4².",
+      "help": "**16**.\n\nSquare numbers 1,4,9,16.\n\n16.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "2": {
+      "hint": "Next odd after 5.",
+      "help": "**7**.\n\nAdd 2.\n\n7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "Next even after 6.",
+      "help": "**8**.\n\n+2 evens.\n\n8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "Double 4.",
+      "help": "**8**.\n\n1,2,4,8.\n\n8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "$2^2$.",
+      "help": "**4**.\n\nSquare.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "$3^2$.",
+      "help": "**9**.\n\nSquare of 3.\n\n9.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "Which equals 3×3?",
+      "help": "**9** is square; 6 is not.\n\nPerfect square.\n\n9.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "8": {
+      "hint": "Add last two Fibonacci terms 3+5.",
+      "help": "Next **8**.\n\n1,1,2,3,5,8.\n\n8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "9": {
+      "hint": "List $1^2$ through $5^2$.",
+      "help": "**1, 4, 9, 16, 25**.\n\nFirst five squares.\n\nList.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "Cubes $1^3$ to $5^3$.",
+      "help": "**1, 8, 27, 64, 125**.\n\nCube sequence.\n\nFive cubes.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "11": {
+      "hint": "Triangular: 1, 1+2, 1+2+3…",
+      "help": "**1, 3, 6, 10, 15**.\n\nDot triangle numbers.\n\nList.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "12": {
+      "hint": "$8^2$.",
+      "help": "**64**.\n\nEighth square.\n\n64.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "$4^3$.",
+      "help": "**64**.\n\nFourth cube.\n\n64.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "14": {
+      "hint": "Sum 1+2+3+4+5+6.",
+      "help": "6th triangular **21**.\n\nAdd 1 through 6.\n\n21.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "15": {
+      "hint": "Each term is sum of previous two.",
+      "help": "**1, 1, 2, 3, 5, 8**.\n\nFibonacci six terms.\n\nList.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "16": {
+      "hint": "Is 49 a perfect square?",
+      "help": "**Yes** — $7^2=49$.\n\nWhole number root.\n\nSquare.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "$3^3=27$.",
+      "help": "**Yes** — 27 is cube of 3.\n\nCube number.\n\nYes.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "18": {
+      "hint": "Start 3, double each time.",
+      "help": "**3, 6, 12, 24, 48**.\n\n×2 from 3.\n\nFive terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "19": {
+      "hint": "$4^2=16$ fills gap.",
+      "help": "Missing **16**.\n\nSquare table.\n\n16.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "Next triangular after 10.",
+      "help": "**15**.\n\n1,3,6,10,15.\n\n15.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "21": {
+      "hint": "Double: 32, 64.",
+      "help": "**32, 64**.\n\nPowers of 2.\n\nTwo terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "Next squares 25, 36.",
+      "help": "**25, 36**.\n\nSquare sequence.\n\nTwo terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "23": {
+      "hint": "$6^2=36$ even — squares can be even.",
+      "help": "Sam wrong — **36** is even square.\n\nEven bases give even squares.\n\nCounterexample."
+    },
+    "24": {
+      "hint": "Try $1^2+2^2=5$.",
+      "help": "**Sometimes** — 5 not square; $3^2+4^2=25=5^2$ sometimes works.\n\nNot always square.\n\nSometimes."
+    },
+    "25": {
+      "hint": "$6+10=16=4^2$.",
+      "help": "Pattern continues — consecutive triangular sum often square.\n\n**16** is $4^2$.\n\nPattern holds."
+    },
+    "26": {
+      "hint": "Compare small squares and cubes lists.",
+      "help": "**64** is $8^2$ and $4^3$ (after 1).\n\nFirst match >1 often 64.\n\nShow both."
+    },
+    "27": {
+      "hint": "Is 8 a square?",
+      "help": "**False** — 8 is cube not square.\n\nNot every cube is square.\n\nFalse."
+    },
+    "28": {
+      "hint": "Fibonacci adds previous two — not double.",
+      "help": "Correct rule: **add last two terms**.\n\nNot ×2.\n\nExplain Fibonacci."
+    },
+    "29": {
+      "hint": "5th square 25 vs 5th triangular 15.",
+      "help": "Square **25** bigger by **10**.\n\nCompare values.\n\n25 vs 15.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "30": {
+      "hint": "List squares 1 to 10² check last digits.",
+      "help": "Mo **correct** for integer squares — endings 0,1,4,5,6,9 only.\n\nTest first ten.\n\nVerified."
+    },
+    "31": {
+      "hint": "7th triangular = 1+2+…+7.",
+      "help": "**28** dots.\n\nSum 1 to 7.\n\n28.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "32": {
+      "hint": "$5×5×5$ unit cubes.",
+      "help": "**125** cubes.\n\nVolume $n^3$.\n\n125.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "33": {
+      "hint": "9th square pattern side 9.",
+      "help": "**81** tiles ($9^2$).\n\nSquare number.\n\n81.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "34": {
+      "hint": "Week 5 amount only: 2×2×2×2×2.",
+      "help": "Week 5 save **£32** that week only (2,4,8,16,32).\n\nDoubling weekly amount.\n\n£32."
+    },
+    "35": {
+      "hint": "Triangular sum 1+2+…+8.",
+      "help": "**36** cans.\n\n8th triangular.\n\n36.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "36": {
+      "hint": "$10^2-9^2=100-81$.",
+      "help": "Difference **19** — consecutive squares differ by odd numbers $2n+1$ pattern.\n\nExplain odd gap.\n\n19."
+    },
+    "37": {
+      "hint": "Check sums 1, 1+3, 1+3+5, 1+3+5+7 vs $n^2$.",
+      "help": "Matches **1,4,9,16** for n=1..4.\n\nOdd sum identity.\n\nShow four checks."
+    },
+    "38": {
+      "hint": "Search square triangular numbers.",
+      "help": "Smallest >1 often **36** (also 1).\n\nBoth square and triangular.\n\n36."
+    },
+    "39": {
+      "hint": "6th term 8, 5th term 5 — ratio 8/5.",
+      "help": "Ratio **1.60** to 2 d.p.\n\n8÷5.\n\n1.60.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "40": {
+      "hint": "Invent rule using squares/cubes/Fibonacci.",
+      "help": "Give five terms + clear rule.\n\nNot plain +k each time.\n\nYour sequence."
+    },
+    "41": {
+      "hint": "Which list is perfect squares?",
+      "help": "**1,4,9,16** — not 3,6,9,12 (+3).\n\nIdentify squares.\n\nSecond list."
+    },
+    "42": {
+      "hint": "Plug $n=5$ into $n(n+1)/2$.",
+      "help": "$5×6/2=**15**$.\n\nTriangular formula.\n\n15.\n\nWrite each step in order so you can use the same method on a similar question later."
+    }
+  }
+}

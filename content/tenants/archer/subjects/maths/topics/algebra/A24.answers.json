@@ -2,6 +2,70 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "1, 4, 9, 16, 25",
       "accept": [
         "1, 4, 9, 16, 25",
@@ -9,9 +73,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "1, 8, 27, 64, 125",
       "accept": [
         "1, 8, 27, 64, 125",
@@ -19,9 +83,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "1, 3, 6, 10, 15",
       "accept": [
         "1, 3, 6, 10, 15",
@@ -29,33 +93,33 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "12": {
       "display": "64",
       "accept": [
         "64"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "13": {
       "display": "64",
       "accept": [
         "64"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "14": {
       "display": "21",
       "accept": [
         "21"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "1, 1, 2, 3, 5, 8",
       "accept": [
         "1, 1, 2, 3, 5, 8",
@@ -63,22 +127,22 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
-      "display": "Yes \u2014 49 = 7 \u00d7 7 (7\u00b2), so it is a square number.",
+    "16": {
+      "display": "Yes — 49 = 7 × 7 (7²), so it is a square number.",
       "accept": [
         "yes",
         "7",
         "7x7",
-        "7\u00d77"
+        "7×7"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
-      "display": "Yes \u2014 27 = 3 \u00d7 3 \u00d7 3 (3\u00b3), so it is a cube number.",
+    "17": {
+      "display": "Yes — 27 = 3 × 3 × 3 (3³), so it is a cube number.",
       "accept": [
         "yes",
         "3",
@@ -86,9 +150,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "3, 6, 12, 24, 48",
       "accept": [
         "3, 6, 12, 24, 48",
@@ -96,26 +160,26 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "16",
       "accept": [
         "16"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "20": {
       "display": "15",
       "accept": [
         "15"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "Sam is wrong \u2014 being even doesn't stop a number being square. 36 = 6 \u00d7 6, so it is a square number (like 4, 16 and 64, which are also even squares).",
+    "23": {
+      "display": "Sam is wrong — being even doesn't stop a number being square. 36 = 6 × 6, so it is a square number (like 4, 16 and 64, which are also even squares).",
       "accept": [
         "6",
         "6x6",
@@ -123,58 +187,58 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Sometimes \u2014 e.g. 9 + 16 = 25, a square number, but 1 + 4 = 5, which is not.",
+    "24": {
+      "display": "Sometimes — e.g. 9 + 16 = 25, a square number, but 1 + 4 = 5, which is not.",
       "accept": [
         "sometimes"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "6 + 10 = 16 = 4\u00b2, so the pattern continues \u2014 adding two consecutive triangular numbers gives a square number.",
+    "25": {
+      "display": "6 + 10 = 16 = 4², so the pattern continues — adding two consecutive triangular numbers gives a square number.",
       "accept": [
         "16",
         "4"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "64 is the first number (after 1) that is both a square number (8\u00b2) and a cube number (4\u00b3).",
+    "26": {
+      "display": "64 is the first number (after 1) that is both a square number (8²) and a cube number (4³).",
       "accept": [
         "64"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "False \u2014 e.g. 8 is a cube number (2\u00b3) but is not a square number.",
+    "27": {
+      "display": "False — e.g. 8 is a cube number (2³) but is not a square number.",
       "accept": [
         "false",
         "8"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Leo's rule is wrong: the Fibonacci sequence isn't formed by doubling \u2014 each term is found by adding the two previous terms.",
+    "28": {
+      "display": "Leo's rule is wrong: the Fibonacci sequence isn't formed by doubling — each term is found by adding the two previous terms.",
       "accept": [
         "add",
         "sum of previous"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "The 5th square number is 25 and the 5th triangular number is 15 \u2014 the square number is bigger, by 10.",
+    "29": {
+      "display": "The 5th square number is 25 and the 5th triangular number is 15 — the square number is bigger, by 10.",
       "accept": [
         "25",
         "15",
@@ -182,76 +246,76 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "Yes, Mo is correct \u2014 the first ten square numbers (1, 4, 9, 16, 25, 36, 49, 64, 81, 100) end in 1, 4, 9, 6, 5, 6, 9, 4, 1 and 0, matching Mo's list.",
+    "30": {
+      "display": "Yes, Mo is correct — the first ten square numbers (1, 4, 9, 16, 25, 36, 49, 64, 81, 100) end in 1, 4, 9, 6, 5, 6, 9, 4, 1 and 0, matching Mo's list.",
       "accept": [
         "yes",
         "correct"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "31": {
       "display": "The 7th triangular number is 28, so 28 dots are needed.",
       "accept": [
         "28"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "5\u00b3 = 125 unit cubes.",
+    "32": {
+      "display": "5³ = 125 unit cubes.",
       "accept": [
         "125"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
-      "display": "9\u00b2 = 81 tiles.",
+    "33": {
+      "display": "9² = 81 tiles.",
       "accept": [
         "81"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "Doubling from \u00a32: 2, 4, 8, 16, 32 \u2014 Sloan saves \u00a332 in week 5.",
+    "34": {
+      "display": "Doubling from £2: 2, 4, 8, 16, 32 — Sloan saves £32 in week 5.",
       "accept": [
         "32",
-        "\u00a332"
+        "£32"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
+    "35": {
       "display": "The 8th triangular number is 36, so 36 cans are needed.",
       "accept": [
         "36"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "10\u00b2 \u2212 9\u00b2 = 100 \u2212 81 = 19. The differences between consecutive square numbers are the consecutive odd numbers (3, 5, 7, 9, \u2026, 19).",
+    "36": {
+      "display": "10² − 9² = 100 − 81 = 19. The differences between consecutive square numbers are the consecutive odd numbers (3, 5, 7, 9, …, 19).",
       "accept": [
         "19",
         "odd"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "1 = 1\u00b2; 1+3 = 4 = 2\u00b2; 1+3+5 = 9 = 3\u00b2; 1+3+5+7 = 16 = 4\u00b2 \u2014 this confirms the sum of the first n odd numbers equals n\u00b2.",
+    "37": {
+      "display": "1 = 1²; 1+3 = 4 = 2²; 1+3+5 = 9 = 3²; 1+3+5+7 = 16 = 4² — this confirms the sum of the first n odd numbers equals n².",
       "accept": [
         "1",
         "4",
@@ -260,33 +324,67 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
-      "display": "36 \u2014 it is the 8th triangular number (36) and also a square number (6\u00b2).",
+    "38": {
+      "display": "36 — it is the 8th triangular number (36) and also a square number (6²).",
       "accept": [
         "36"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
-      "display": "8 \u00f7 5 = 1.60 (to 2 decimal places).",
+    "39": {
+      "display": "8 ÷ 5 = 1.60 (to 2 decimal places).",
       "accept": [
         "1.6",
         "1.60"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "Example: start at 2 and add 1 more each time than the last gap: 2, 3, 5, 8, 12 (adding 1, 2, 3, 4). Any sequence with a clearly explained non-constant rule is acceptable.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "32, 64",
+      "accept": [
+        "32",
+        "64"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "25, 36",
+      "accept": [
+        "25",
+        "36"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "1, 4, 9, 16",
+      "contains": true,
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

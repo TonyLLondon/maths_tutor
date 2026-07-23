@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "The first number in brackets is the x-coordinate — which is it for (2, 1)?",
+      "help": "In **(x, y)**, the **x-coordinate** is the first number: **2**.\n\nExample: (5, 3) has x = 5."
+    },
+    "2": {
+      "hint": "The second number in (2, 1) is the y-coordinate.",
+      "help": "The **y-coordinate** is the second number: **1**.\n\nExample: (5, 3) has y = 3."
+    },
+    "3": {
+      "hint": "From (0, 0), move 3 right — add 3 to x.",
+      "help": "Starting at origin, 3 right → **(3, 0)**.\n\nExample: 2 right from (0,0) → (2, 0)."
+    },
+    "4": {
+      "hint": "From (0, 0), move 2 up — add 2 to y.",
+      "help": "2 up → **(0, 2)**.\n\nExample: 4 up → (0, 4).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "Compare x-coordinates: 1 vs 4 — which is further right?",
+      "help": "Larger **x** is further right. **(4, 2)** is farther right than (1, 2).\n\nExample: (7, 1) is right of (2, 1)."
+    },
+    "6": {
+      "hint": "Same x means vertical line — subtract y values: 4 − 1.",
+      "help": "Vertical distance $|4 - 1| = 3$ squares.\n\nExample: (1, 2) to (1, 7) → 5 apart."
+    },
+    "7": {
+      "hint": "Same y means horizontal line — subtract x values: 6 − 2.",
+      "help": "Horizontal distance $|6 - 2| = 4$ squares.\n\nExample: (2, 3) to (9, 3) → 7 apart."
+    },
+    "8": {
+      "hint": "Halfway on x-axis from 0 to 4 — average the x-coordinates.",
+      "help": "Midpoint of (0, 0) and (4, 0) is **(2, 0)** — average x: $(0+4)/2$.\n\nExample: halfway (0,0) and (6,0) → (3,0)."
+    },
+    "9": {
+      "hint": "Same x — vertical segment. Subtract y: 7 − 3.",
+      "help": "Distance AB $= |7 - 3| = 4$ (vertical line).\n\nExample: (2,1) to (2,8) → 7."
+    },
+    "10": {
+      "hint": "Same y — horizontal segment. Subtract x: 6 − 1.",
+      "help": "Distance CD $= |6 - 1| = 5$.\n\nExample: (1,5) to (8,5) → 7.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "Midpoint: average x and average y — (2+2)/2 and (3+7)/2.",
+      "help": "Midpoint **(2, 5)** — x unchanged at 2, y average $(3+7)/2 = 5$.\n\nExample: (0,0) and (4,6) → (2,3)."
+    },
+    "12": {
+      "hint": "Add coordinates and divide by 2 for each.",
+      "help": "Midpoint $( (0+8)/2, (0+6)/2 ) = **(4, 3)**$.\n\nExample: (2,4) and (6,8) → (4,6)."
+    },
+    "13": {
+      "hint": "Reflect in x-axis: x stays, y becomes negative.",
+      "help": "(3, 4) → **(3, −4)**.\n\nExample: (2, 5) → (2, −5).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "Reflect in y-axis: y stays, x becomes negative.",
+      "help": "(3, 4) → **(−3, 4)**.\n\nExample: (2, 5) → (−2, 5).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "Square missing corner — same x as (0,0) and same y as (4,4).",
+      "help": "Fourth vertex **(0, 4)** completes the square.\n\nExample: three corners of axis-aligned square → find missing by matching x and y."
+    },
+    "16": {
+      "hint": "Midpoint y is (y₁ + y₂) divided by 2.",
+      "help": "Second coordinate is **(y₁ + y₂)/2**.\n\nExample: (2,8) and (6,2) → y-midpoint 5."
+    },
+    "17": {
+      "hint": "x goes 1 to 5 — how many right? y unchanged.",
+      "help": "Moved **4** squares **right** (y stays 2).\n\nExample: (1,2) to (1,6) → 4 up."
+    },
+    "18": {
+      "hint": "x = 0 on both points — which axis is the y-axis?",
+      "help": "Both lie on the **y-axis** (x = 0).\n\nExample: (0, 2) and (0, −5) on y-axis."
+    },
+    "19": {
+      "hint": "y = 0 on both — which axis?",
+      "help": "Both lie on the **x-axis** (y = 0).\n\nExample: (4, 0) and (−6, 0)."
+    },
+    "20": {
+      "hint": "Midpoint definition — exactly halfway?",
+      "help": "The midpoint is **exactly halfway** in both x and y — **true**.\n\nExample: average of endpoints."
+    },
+    "21": {
+      "hint": "Average x: (2+6)/2; average y: (4+8)/2.",
+      "help": "Midpoint **(4, 6)**.\n\nExample: (1,1) and (5,9) → (3,5).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "Horizontal 3, vertical 4 from origin — use 3² + 4².",
+      "help": "Distance $= \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$.\n\nExample: 6-8-10 triangle from axes."
+    },
+    "23": {
+      "hint": "Rectangle: fourth corner shares x with (1,1) and y with (5,4).",
+      "help": "Fourth vertex **(1, 4)**.\n\nExample: plot three corners and complete rectangle."
+    },
+    "24": {
+      "hint": "Add x values, divide by 2; same for y — try (2,8) and (6,2).",
+      "help": "Midpoint $x = (2+6)/2 = 4$, $y = (8+2)/2 = 5$ → **(4, 5)**.\n\nExample: explain averaging both coordinates."
+    },
+    "25": {
+      "hint": "Horizontal change 6, vertical 8 — Pythagoras on 6 and 8.",
+      "help": "Length $= \\sqrt{6^2 + 8^2} = 10$.\n\nExample: right triangle with legs 6 and 8."
+    },
+    "26": {
+      "hint": "x-axis reflection — which coordinate flips sign?",
+      "help": "x unchanged, **y** changes sign — **always** for x-axis reflection.\n\nExample: (3,2) → (3,−2)."
+    },
+    "27": {
+      "hint": "Parallelogram: D = A + C − B (vector from B to C added to A).",
+      "help": "Vertex D **(2, 3)** using $\\overrightarrow{OD} = \\overrightarrow{OA} + \\overrightarrow{OC} - \\overrightarrow{OB}$ or (0+6−4, 0+3−0).\n\nExample: opposite sides equal and parallel."
+    },
+    "28": {
+      "hint": "Check midpoint of (2,2) and (8,8) — average each coordinate.",
+      "help": "Midpoint $( (2+8)/2, (2+8)/2 ) = (5, 5)$ — Sam is **correct**.\n\nExample: verify by averaging."
+    },
+    "29": {
+      "hint": "P is midpoint of A and B — work from A to P and repeat to find B.",
+      "help": "From A(2,2) to P(4,6) is (+2,+4). B = P + same step → **(6, 10)**.\n\nExample: double the step from A to P."
+    },
+    "30": {
+      "hint": "Same x — vertical distance |6 − (−2)|.",
+      "help": "Distance $= |6 - (-2)| = 8$ — subtract y-coordinates on a vertical line.\n\nExample: (3,1) to (3,9) → 8."
+    },
+    "31": {
+      "hint": "Rectangle corners share x or y — missing corner matches (7,?) and (?,1).",
+      "help": "Fourth corner **(7, 1)** — same y as (2,1) and same x as (7,5).\n\nExample: plot on grid."
+    },
+    "32": {
+      "hint": "Midpoint of (1,2) and (9,8) — average x and y.",
+      "help": "Treasure at $( (1+9)/2, (2+8)/2 ) = **(5, 5)**$.\n\nExample: map midpoint treasure."
+    },
+    "33": {
+      "hint": "Legs 6 and 8 from (0,0) to (6,8) — Pythagoras.",
+      "help": "Path length $= \\sqrt{6^2 + 8^2} = 10$ m.\n\nExample: grid diagonal."
+    },
+    "34": {
+      "hint": "Centre of square = midpoint of opposite corners (2,2) and (8,8).",
+      "help": "Centre **(5, 5)** — average of 2 and 8 for both coordinates.\n\nExample: diagonal midpoint."
+    },
+    "35": {
+      "hint": "AC vertical from (0,4) to (0,−4); BD horizontal −3 to 3.",
+      "help": "AC length $= 8$, BD length $= 6$ (distance along axes).\n\nExample: kite diagonals on axes."
+    },
+    "36": {
+      "hint": "Reflect (5, −3) in x-axis — flip sign of y.",
+      "help": "Image **(5, 3)**.\n\nExample: x-axis reflection negates y.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "37": {
+      "hint": "Midpoint first; then horizontal 6, vertical 8 for length.",
+      "help": "Midpoint **(1, 5)**. Length $\\sqrt{6^2 + 8^2} = 10$.\n\nExample: two-step coordinate problem."
+    },
+    "38": {
+      "hint": "In parallelogram, fourth vertex = first + third − second.",
+      "help": "Use **vector addition**: opposite sides equal → $D = A + C - B$ in coordinates.\n\nExample: plot A, B, C and find D so AB parallel DC."
+    },
+    "39": {
+      "hint": "Reflect in x then y — both coordinates change sign.",
+      "help": "(a, b) → (a, −b) → **(−a, −b)**. Same as **180° rotation** about origin.\n\nExample: (2,3) → (2,−3) → (−2,−3)."
+    },
+    "40": {
+      "hint": "Make a problem with midpoint or distance, then solve it.",
+      "help": "Write coordinates and ask for midpoint, distance, or missing vertex. Show **averaging** or **Pythagoras**.\n\nExample: find midpoint of your two points."
+    },
+    "41": {
+      "hint": "Same y — horizontal distance |5 − 1|.",
+      "help": "AB $= |5 - 1| = 4$.\n\nExample: horizontal segment length.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "Midpoint (4,3), A (2,3) — find B by doubling the step from A to midpoint.",
+      "help": "From A to midpoint (+2, 0), continue to B → **(6, 3)**.\n\nExample: reverse midpoint formula."
+    }
+  }
+}

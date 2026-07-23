@@ -46,10 +46,18 @@ function normalizeProgress(data: unknown): TopicProgressState {
     return { rating: DEFAULT_TOPIC_RATING, questions: data };
   }
   const state = data as TopicProgressState;
+  const questions = state.questions ?? {};
+  let rating = state.rating ?? DEFAULT_TOPIC_RATING;
+  if (
+    Object.keys(questions).length === 0 &&
+    rating === 1200
+  ) {
+    rating = DEFAULT_TOPIC_RATING;
+  }
   return {
-    rating: state.rating ?? DEFAULT_TOPIC_RATING,
+    rating,
     ratingHistory: state.ratingHistory,
-    questions: state.questions ?? {},
+    questions,
   };
 }
 
@@ -66,10 +74,21 @@ export async function getTopicProgressState(
   subject: string,
   topicPath: string,
 ): Promise<TopicProgressState> {
-  const data = await kvGet<unknown>(
-    progressKey(userId, subject, topicPath),
-  );
-  return normalizeProgress(data);
+  const key = progressKey(userId, subject, topicPath);
+  const data = await kvGet<unknown>(key);
+  const state = normalizeProgress(data);
+  if (data != null && isLegacyProgress(data)) {
+    await kvSet(key, state);
+  } else if (
+    data != null &&
+    !isLegacyProgress(data) &&
+    Object.keys(state.questions).length === 0 &&
+    (data as TopicProgressState).rating === 1200 &&
+    state.rating === DEFAULT_TOPIC_RATING
+  ) {
+    await kvSet(key, state);
+  }
+  return state;
 }
 
 /** Flat question map (legacy callers). */

@@ -2,119 +2,230 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "9",
+      "accept": [
+        "9",
+        "nine"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "30",
+      "accept": [
+        "30",
+        "thirty",
+        "3 tens"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "15",
+      "accept": [
+        "15",
+        "fifteen"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "37",
+      "accept": [
+        "37",
+        "thirty seven",
+        "thirty-seven"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "28",
+      "accept": [
+        "28",
+        "twenty eight",
+        "twenty-eight"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "9",
+      "accept": [
+        "9",
+        "nine"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 729
+    },
+    "11": {
+      "display": "12",
+      "accept": [
+        "12",
+        "twelve"
+      ],
+      "tier": 1,
+      "rating": 755
+    },
+    "12": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "13": {
       "display": "4245",
       "accept": [
         "4245"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "14": {
       "display": "3147",
       "accept": [
         "3147"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 792
     },
-    "3": {
+    "15": {
       "display": "282",
       "accept": [
         "282"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 824
     },
-    "4": {
+    "16": {
       "display": "39",
       "accept": [
         "39"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 857
     },
-    "5": {
+    "17": {
       "display": "700",
       "accept": [
         "700"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 889
     },
-    "6": {
+    "18": {
       "display": "36",
       "accept": [
         "36"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 921
     },
-    "7": {
+    "19": {
       "display": "4.5",
       "accept": [
         "4.5"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 953
     },
-    "8": {
+    "20": {
       "display": "2580",
       "accept": [
         "2580"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 986
     },
-    "9": {
+    "21": {
       "display": "3",
       "accept": [
         "3"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 1018
     },
-    "10": {
+    "22": {
       "display": "16",
       "accept": [
         "16"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 1050
     },
-    "11": {
+    "23": {
       "display": "918",
       "accept": [
         "918"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 760
     },
-    "12": {
+    "24": {
       "display": "91",
       "accept": [
         "91"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 857
     },
-    "13": {
+    "25": {
       "display": "45",
       "accept": [
         "45"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 953
     },
-    "14": {
-      "display": "\u221215",
+    "26": {
+      "display": "−15",
       "accept": [
         "-15",
-        "\u221215"
+        "−15"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 1050
     },
-    "15": {
+    "27": {
       "display": "Each digit becomes ten times bigger, so it moves one place to the left in the place-value grid.",
       "accept": [
         "ten times bigger",
@@ -123,64 +234,64 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1180
     },
-    "16": {
-      "display": "Always \u2014 e.g. 5 \u2212 (\u22122) = 7, which is bigger than 5, because subtracting a negative is the same as adding.",
+    "28": {
+      "display": "Always — e.g. 5 − (−2) = 7, which is bigger than 5, because subtracting a negative is the same as adding.",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1255
     },
-    "17": {
-      "display": "Sloan is correct. 4.5 \u00d7 10 = 45 (the digits move one place left); 4.50 is just 4.5 written with an extra zero, not multiplied by 10.",
+    "29": {
+      "display": "Sloan is correct. 4.5 × 10 = 45 (the digits move one place left); 4.50 is just 4.5 written with an extra zero, not multiplied by 10.",
       "accept": [
         "sloan"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1330
     },
-    "18": {
+    "30": {
       "display": "Mistake: adding zeros instead of shifting the digits left. Correct answer: 320.",
       "accept": [
         "320"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1405
     },
-    "19": {
+    "31": {
       "display": "Always",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1480
     },
-    "20": {
-      "display": "\u2212\u00a315",
+    "32": {
+      "display": "−£15",
       "accept": [
         "-15",
-        "\u221215",
-        "-\u00a315"
+        "−15",
+        "-£15"
       ],
       "tier": 3,
-      "rating": 1976
+      "rating": 1620
     },
-    "21": {
-      "display": "\u00a3132",
+    "33": {
+      "display": "£132",
       "accept": [
         "132",
-        "\u00a3132"
+        "£132"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1695
     },
-    "22": {
+    "34": {
       "display": "1500 g (1.5 kg)",
       "accept": [
         "1500",
@@ -188,42 +299,42 @@
         "1500g"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1770
     },
-    "23": {
-      "display": "21 \u00b0C",
+    "35": {
+      "display": "21 °C",
       "accept": [
         "21"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1845
     },
-    "24": {
+    "36": {
       "display": "6912",
       "accept": [
         "6912"
       ],
       "tier": 3,
-      "rating": 2024
+      "rating": 1920
     },
-    "25": {
+    "37": {
       "display": "128",
       "accept": [
         "128"
       ],
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "\u2212165 m",
+    "38": {
+      "display": "−165 m",
       "accept": [
         "-165",
-        "\u2212165"
+        "−165"
       ],
       "tier": 3,
-      "rating": 2048
+      "rating": 1907
     },
-    "27": {
+    "39": {
       "display": "6049, then 604900",
       "accept": [
         "6049",
@@ -231,32 +342,32 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1953
     },
-    "28": {
+    "40": {
       "display": "190.4",
       "accept": [
         "190.4"
       ],
       "tier": 3,
-      "rating": 1964
+      "rating": 2000
     },
-    "29": {
+    "41": {
       "display": "2520",
       "accept": [
         "2520"
       ],
       "tier": 2,
-      "rating": 1576
+      "rating": 1420
     },
-    "30": {
+    "42": {
       "display": "Always",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1588
+      "rating": 1680
     }
   }
 }

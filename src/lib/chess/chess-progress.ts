@@ -17,6 +17,7 @@ export {
   recordOpeningDiscovery,
   recordPositionAttempt,
   recordRoundComplete,
+  formatOpeningCount,
   formatChessSubjectStats,
 } from "@/lib/chess/chess-progress-logic";
 

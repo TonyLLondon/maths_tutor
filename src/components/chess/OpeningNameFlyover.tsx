@@ -9,14 +9,13 @@ import {
   type TransitionEvent,
 } from "react";
 
-const OPENING_HERO_MS = 2200;
-const OPENING_HERO_FIRST_MS = 2800;
+const OPENING_HERO_MS = 2400;
 const OPENING_FLY_MS = 900;
 
 type OpeningNameFlyoverProps = {
   name: string;
-  playerName?: string;
-  isFirstDiscovery?: boolean;
+  /** Shown when they have met this opening name before — encourages repetition. */
+  practiceAgain?: boolean;
   boardSlotRef: RefObject<HTMLElement | null>;
   sidebarSlotRef: RefObject<HTMLElement | null>;
   onComplete: () => void;
@@ -31,8 +30,7 @@ function boardCenter(board: DOMRect) {
 
 export function OpeningNameFlyover({
   name,
-  playerName,
-  isFirstDiscovery = true,
+  practiceAgain = false,
   boardSlotRef,
   sidebarSlotRef,
   onComplete,
@@ -66,10 +64,9 @@ export function OpeningNameFlyover({
 
   useLayoutEffect(() => {
     if (phase !== "hero") return;
-    const heroMs = isFirstDiscovery ? OPENING_HERO_FIRST_MS : OPENING_HERO_MS;
-    const timer = window.setTimeout(() => setPhase("fly"), heroMs);
+    const timer = window.setTimeout(() => setPhase("fly"), OPENING_HERO_MS);
     return () => window.clearTimeout(timer);
-  }, [phase, isFirstDiscovery]);
+  }, [phase]);
 
   useLayoutEffect(() => {
     if (phase !== "fly") return;
@@ -120,7 +117,7 @@ export function OpeningNameFlyover({
   return (
     <div
       ref={elRef}
-      className="pointer-events-none fixed left-0 top-0 z-100 max-w-[min(92vw,--spacing(104))] rounded-2xl border-2 border-purple-400 bg-purple-50/98 px-6 py-4 text-center shadow-2xl ring-4 ring-purple-200/80 backdrop-blur-sm"
+      className="pointer-events-none fixed left-0 top-0 z-100 max-w-[min(92vw,26rem)] rounded-2xl border-2 border-purple-400 bg-purple-50/98 px-6 py-4 text-center shadow-2xl ring-4 ring-purple-200/80 backdrop-blur-sm"
       style={{
         transform,
         transition: transitionOn
@@ -129,22 +126,17 @@ export function OpeningNameFlyover({
       }}
       onTransitionEnd={onTransitionEnd}
     >
-      <p className="text-[--spacing(2.5)] font-bold uppercase tracking-[0.25em] text-purple-600">
-        {playerName
-          ? `${playerName}, you reached`
-          : "You reached"}
+      <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-purple-600">
+        Opening
       </p>
       <p className="mt-1 text-2xl font-black leading-snug text-stone-900 sm:text-3xl">
         {name}
       </p>
-      {isFirstDiscovery ? (
+      {practiceAgain ? (
         <p className="mt-2 text-sm font-medium text-purple-800">
-          That&apos;s a famous way to start a game!
+          You&apos;re seeing this one again — keep going!
         </p>
       ) : null}
     </div>
   );
 }
-
-
-

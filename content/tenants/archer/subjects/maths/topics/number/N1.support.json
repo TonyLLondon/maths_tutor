@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Which number sits further left on a number line: 4 or 7?",
+      "help": "When we compare whole numbers, **smaller** means less. Picture a number line: numbers increase as you move right. Compare 4 and 7 by asking which is closer to zero.\n\nExample: between 2 and 9, 2 is smaller because it is left of 9 on the line."
+    },
+    "2": {
+      "hint": "Start with the smallest of 3, 1 and 2 — what comes next?",
+      "help": "To order from **smallest to largest**, find the least number first, then the next, then the greatest.\n\nExample: for 5, 2, 8 write 2, then 5, then 8. Check each number is bigger than the one before it."
+    },
+    "3": {
+      "hint": "On a number line, which is further right: 9 or 6?",
+      "help": "**Larger** means greater value. On a number line, bigger numbers sit to the right.\n\nExample: 11 is larger than 4 because 11 is right of 4."
+    },
+    "4": {
+      "hint": "What number comes one step after 6 in the counting sequence?",
+      "help": "Look at the pattern: each number is one more than the last. After 6 you get 7, then the missing number, then 8.\n\nExample: in 10, 11, ___, 13 the missing number is 12."
+    },
+    "5": {
+      "hint": "Find the biggest number first, then list the rest going down.",
+      "help": "**Largest to smallest** means start with the greatest number and work down.\n\nExample: 9, 3, 6 in order from largest to smallest is 9, 6, 3."
+    },
+    "6": {
+      "hint": "How far is 8 from 10? How far is 4 from 10? Compare those gaps.",
+      "help": "**Closer to 10** means the difference $|10 - n|$ is smaller. Work out $|10-8|$ and $|10-4|$ without giving the final pick away in your head — compare the two distances.\n\nExample: 7 is closer to 10 than 2 is, because 3 is less than 8."
+    },
+    "7": {
+      "hint": "Is 3 less than, greater than, or equal to 6? Pick the matching symbol.",
+      "help": "Use **<** when the left number is smaller, **>** when it is bigger, **=** when they match.\n\nExample: $5 < 8$ because 5 is less than 8."
+    },
+    "8": {
+      "hint": "Are 7 and 7 the same size? That tells you which symbol to use.",
+      "help": "When two numbers are **equal**, use **=**. If they are different, use < or > with the smaller number on the side of the small mouth.\n\nExample: $4 = 4$ and $3 < 5$."
+    },
+    "9": {
+      "hint": "Plot negatives on a number line — which is furthest left?",
+      "help": "Negative numbers are left of zero. Order by position: furthest left is smallest.\n\nExample: $-5, -1, 2$ in order is $-5, -1, 2$."
+    },
+    "10": {
+      "hint": "Compare place value: tenths, hundredths, thousandths — which digit column matters most?",
+      "help": "Line up decimal places. Compare from the **leftmost** digit that differs.\n\nExample: 0.3 vs 0.25 — compare tenths: 3 tenths beats 2 tenths."
+    },
+    "11": {
+      "hint": "Make the denominators the same, or convert both fractions to decimals — which is easier here?",
+      "help": "To compare **2/3** and **5/8**, use a common denominator (24) or decimals. Same-sized pieces make comparison fair.\n\nExample: **1/2** vs **3/8** — use eighths: **4/8** vs **3/8**."
+    },
+    "12": {
+      "hint": "On a number line, is −8 left or right of −3?",
+      "help": "For negatives, **more negative** means smaller. −8 is left of −3, so it is less.\n\nExample: $-5 < -2$ because −5 is colder / further left."
+    },
+    "13": {
+      "hint": "Look at the last digits after the decimal point — are 0.7 and 0.70 the same value?",
+      "help": "Trailing zeros do not change value: **0.70 = 0.7**. Compare place value, not how many digits you see.\n\nExample: $0.5 = 0.50$."
+    },
+    "14": {
+      "hint": "Same numerator means bigger denominator → smaller pieces. Order the fractions.",
+      "help": "With numerator 1, the fraction with the **largest denominator** is smallest (more sharing).\n\nExample: **1/2**, **1/5**, **1/10** from largest to smallest is **1/2**, **1/5**, **1/10**."
+    },
+    "15": {
+      "hint": "Mix negatives and positives — remember negatives are less than any positive.",
+      "help": "Put positives and negatives on a number line. Order from right (largest) to left (smallest) as asked.\n\nExample: $-2, 4, -7$ largest to smallest: 4, −2, −7."
+    },
+    "16": {
+      "hint": "Which is further left on the number line: −2.5 or −2?",
+      "help": "More negative decimals are smaller. Compare the whole-number parts first, then tenths.\n\nExample: $-3.1 < -3.0$."
+    },
+    "17": {
+      "hint": "Compare ones, then tenths, then hundredths, then thousandths.",
+      "help": "Write decimals with the same number of places if it helps. Start comparing from the **left**.\n\nExample: 4.05 vs 4.5 — tenths: 0 vs 5, so 4.05 is smaller."
+    },
+    "18": {
+      "hint": "Convert both to decimals with the same denominator, or use twentieths.",
+      "help": "**3/5 = 6/10** and **7/10** share a denominator. Or think of 0.6 vs 0.7.\n\nExample: **2/5** vs **1/2** → **4/10** vs **5/10**."
+    },
+    "19": {
+      "hint": "Treat colder as smaller on the number line. Order the temperatures.",
+      "help": "Negative °C is below zero. From **coldest to warmest**, go from smallest number to largest.\n\nExample: $-4, 0, 3$ °C coldest to warmest: −4, 0, 3."
+    },
+    "20": {
+      "hint": "Draw thirds and quarters on the same bar — which piece is bigger?",
+      "help": "**1/4**, **1/2**, **3/4** on one whole: halves beat quarters; three quarters is largest.\n\nExample: order **1/3**, **2/3**, **1/6** by size of piece."
+    },
+    "21": {
+      "hint": "Convert **5/8** to a decimal or compare with 0.6 using a common denominator.",
+      "help": "**5/8 = 0.625**. Compare with 0.6 by thinking 0.600 vs 0.625, or use 40ths.\n\nExample: **3/4** vs 0.7 → 0.75 vs 0.7."
+    },
+    "22": {
+      "hint": "Compare ones first, then tenths, hundredths, thousandths.",
+      "help": "**1.001** has only 1 thousandth; **1.11** has 11 hundredths. Line up decimal places.\n\nExample: 2.09 vs 2.1 — compare tenths."
+    },
+    "23": {
+      "hint": "Is −3.5 left or right of −3 on a number line?",
+      "help": "Half steps left of −3 go to **more negative** values. −3.5 is left of −3.\n\nExplain in one sentence using “left/right” or “less than”."
+    },
+    "24": {
+      "hint": "Think: can a negative ever be greater than a positive? What is “always” here?",
+      "help": "Every negative is less than every positive. So the statement is **always** true; you do not need a counterexample for “never”."
+    },
+    "25": {
+      "hint": "Compare 0.5 and 0.45 using tenths and hundredths — not digit count.",
+      "help": "0.5 means **5 tenths**. 0.45 means **4 tenths and 5 hundredths**. Fewer digits does not mean smaller.\n\nExample: 0.6 is bigger than 0.599 even though 0.599 has more digits."
+    },
+    "26": {
+      "hint": "On a number line, which is further left: −10 or −2?",
+      "help": "Bigger **distance from zero** in the negative direction means a **smaller** number. −10 is left of −2.\n\nExplain that “bigger digits” ignores the minus sign."
+    },
+    "27": {
+      "hint": "Keep the top number the same — what happens when the bottom number grows?",
+      "help": "Same numerator: larger denominator → smaller fraction (**1/8 < 1/4**). That makes the statement **always** true when numerators match.\n\nGive **1/3** vs **1/6** as an example."
+    },
+    "28": {
+      "hint": "Track the temperature step by step: up 5 from −2, then down 7 from midday.",
+      "help": "Start at −2 °C. **Rise 5** means add 5. **Fall 7 from midday** means subtract 7 from the midday value.\n\nExample: start 3 °C, rise 2 → 5 °C, fall 4 → 1 °C."
+    },
+    "29": {
+      "hint": "Which fraction of the whole is larger: quarters or tenths? Compare **1/4** and **3/10**.",
+      "help": "Convert to a common denominator (20): **5/20** vs **6/20**, or use decimals 0.25 vs 0.3.\n\nDad ate the rest — you only compare Archer and Sloan."
+    },
+    "30": {
+      "hint": "“Deepest below” means most negative. Order from smallest to largest.",
+      "help": "−1.2 m is deeper below than −0.4 m. Order numbers from **smallest** (most negative) to **largest**.\n\nExample: −2, 0.5, −0.1 → −2, −0.1, 0.5."
+    },
+    "31": {
+      "hint": "Compare pounds and pence — look at pounds first, then pence.",
+      "help": "£12.05 vs £12.50 vs £12.55: same pounds, compare **pence** (05, 50, 55).\n\nExample: £9.99 is cheaper than £10.01."
+    },
+    "32": {
+      "hint": "Put negatives, zero, fractions and decimals on one number line.",
+      "help": "Convert **−1/2** to −0.5 and **3/4** to 0.75. Then order all four.\n\nExample: −0.8, −0.5, 0.3, 0.75 from smallest up."
+    },
+    "33": {
+      "hint": "Which tens digit is bigger: 18 or 15?",
+      "help": "Compare the **tens** first (1 vs 1), then **units** (8 vs 5).\n\nExample: 23 is larger than 19 because 3 > 9 in the units? Wait 23>19 because 2=2 and 3<9 — actually 23>19: tens equal, units 3<9 means 23>19. Good."
+    },
+    "34": {
+      "hint": "Do trailing zeros change the value of 0.5 and 0.50?",
+      "help": "**0.5 = 0.50**. Use **=** when values match.\n\nExample: 1.2 = 1.20."
+    },
+    "35": {
+      "hint": "Put −1 on the number line — it is less than 0 and 2.",
+      "help": "Order: negatives first, then zero, then positives.\n\nExample: −3, 0, 5 → −3, 0, 5 smallest to largest."
+    },
+    "36": {
+      "hint": "Use a common denominator of 15 for **3/5** and **2/3**.",
+      "help": "**3/5 = 9/15**, **2/3 = 10/15**. Compare the numerators after making equal parts.\n\nExample: **4/5** vs **3/4** → 16/20 vs 15/20."
+    },
+    "37": {
+      "hint": "Convert **1/3** to a decimal — is 0.33 exact? Compare with 0.3.",
+      "help": "**1/3 ≈ 0.333…** which is greater than 0.33 and 0.3. Order by converting or using known facts.\n\nExample: 0.25, 0.3, 0.333… from smallest up."
+    },
+    "38": {
+      "hint": "Start at −1 °C and subtract 4 for a fall in temperature.",
+      "help": "**Falls by 4** means subtract 4: $-1 - 4$.\n\nExample: 2 °C falling 3 °C → −1 °C."
+    },
+    "39": {
+      "hint": "Convert 40% and **2/5** to decimals, then compare with **1/2** and 0.45.",
+      "help": "40% = 0.4, **2/5** = 0.4, **1/2** = 0.5. Put all on a 0–1 line.\n\nExample: order 25%, 0.3, **1/4**."
+    },
+    "40": {
+      "hint": "Work out each value: square before minus? Brackets first?",
+      "help": "**−2²** means $-(2^2)$. **(−2)²** is positive. **2²** is 4. Sort the four results.\n\nWrite each number as an ordinary integer before ordering."
+    },
+    "41": {
+      "hint": "Evaluate √16, 3², 2³, √9 as whole numbers first.",
+      "help": "√16 = 4, 3² = 9, 2³ = 8, √9 = 3. Then order the results.\n\nExample: compare 5² and √36 → 25 vs 6."
+    },
+    "42": {
+      "hint": "Which two tenths marks on −1 to 1 surround −0.37?",
+      "help": "Marks every 0.1: … −0.4, −0.3, … −0.37 is between **−0.4** and **−0.3** because it is more negative than −0.3 but less negative than −0.4.\n\nExplain using “between” and comparing to −0.3 and −0.4."
+    },
+    "43": {
+      "hint": "Five numbers including −3 and −3.5 — which negative is smaller?",
+      "help": "−3.5 < −3 < 0 < 2 < 2.5. List from smallest upward.\n\nExample: order −1, 0.5, −2."
+    },
+    "44": {
+      "hint": "Can **1/2** (numerator 1) be bigger than **3/4** (numerator 3)? Give a counterexample.",
+      "help": "Sloan’s rule fails when the “numerator 1” fraction has a **small denominator**. **1/2** is bigger than **3/8** even though 1 < 3.\n\nUse one clear fraction pair in your explanation."
+    }
+  }
+}

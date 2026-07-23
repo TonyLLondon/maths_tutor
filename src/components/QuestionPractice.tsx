@@ -7,9 +7,11 @@ import { MarkdownBody } from "@/components/MarkdownBody";
 import { apiProgressPath, mathsTopicHref } from "@/lib/paths";
 import { friendlySectionHeading } from "@/lib/question-display";
 import {
+  DEFAULT_TOPIC_RATING,
   formatLevel,
   pickNextQuestionId,
 } from "@/lib/practice-rating";
+import type { ClientQuestionSupport } from "@/lib/question-support";
 import type {
   ClientAnswerMeta,
   ParsedQuestion,
@@ -28,6 +30,7 @@ type Props = {
   title: string;
   questions: ParsedQuestion[];
   answerMeta: Record<string, ClientAnswerMeta>;
+  supportMeta: Record<string, ClientQuestionSupport>;
 };
 
 export function QuestionPractice({
@@ -37,9 +40,12 @@ export function QuestionPractice({
   title,
   questions,
   answerMeta,
+  supportMeta,
 }: Props) {
   const api = apiProgressPath(tenant, domain, code);
-  const [rating, setRating] = useState(1200);
+  const topicHref = mathsTopicHref(tenant, domain, code);
+  const [rating, setRating] = useState(DEFAULT_TOPIC_RATING);
+  const [levelDelta, setLevelDelta] = useState<number | null>(null);
   const [progress, setProgress] = useState<Record<string, AttemptState>>({});
   const [loaded, setLoaded] = useState(false);
   const [sessionIds, setSessionIds] = useState<string[]>([]);
@@ -85,7 +91,7 @@ export function QuestionPractice({
       .then((data) => {
         if (cancelled || !data) return;
         setProgress(data.progress ?? {});
-        setRating(data.rating ?? 1200);
+        setRating(data.rating ?? DEFAULT_TOPIC_RATING);
         setLoaded(true);
       });
     return () => {
@@ -103,14 +109,14 @@ export function QuestionPractice({
     ? questions.find((q) => q.id === currentId)
     : undefined;
   const meta = currentId ? answerMeta[currentId] : undefined;
+  const support = currentId ? supportMeta[currentId] : undefined;
 
   const sessionCorrect = sessionIds.filter((id) => progress[id]?.correct).length;
 
   function goToNextQuestion() {
+    setLevelDelta(null);
     const next = pickNext(sessionIds, rating);
-    if (next) {
-      setCurrentId(next);
-    }
+    if (next) setCurrentId(next);
   }
 
   if (!loaded) {
@@ -122,14 +128,37 @@ export function QuestionPractice({
   }
 
   return (
-    <div className="space-y-6">
-      <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <p className="text-sm text-stone-600">
-          Your level:{" "}
-          <span className="font-semibold text-stone-900">{formatLevel(rating)}</span>
-        </p>
+    <div className="mx-auto w-full max-w-xl">
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <Link
+          href={topicHref}
+          className="text-sm font-medium text-stone-600 hover:text-stone-900"
+        >
+          ← {title}
+        </Link>
         <p className="text-sm text-stone-600">
           {sessionCorrect} right this session
+        </p>
+      </div>
+
+      <div className="mb-5 rounded-xl border border-stone-200 bg-stone-100 px-4 py-3">
+        <p className="text-sm text-stone-700">
+          Your level{" "}
+          <span className="text-xl font-semibold tabular-nums text-stone-900">
+            {formatLevel(rating)}
+          </span>
+          {levelDelta != null && levelDelta !== 0 ? (
+            <span
+              className={
+                levelDelta > 0
+                  ? "ml-2 text-sm font-semibold text-green-800"
+                  : "ml-2 text-sm font-semibold text-red-800"
+              }
+            >
+              {levelDelta > 0 ? "+" : ""}
+              {levelDelta.toLocaleString("en-GB")}
+            </span>
+          ) : null}
         </p>
       </div>
 
@@ -137,10 +166,12 @@ export function QuestionPractice({
         key={question.id}
         question={question}
         meta={meta}
+        support={support}
         prevAttempt={progress[question.id]}
         onAnswered={(data) => {
           setProgress(data.progress ?? {});
           if (data.rating != null) setRating(data.rating);
+          if (data.ratingDelta != null) setLevelDelta(data.ratingDelta);
           setSessionIds((s) =>
             s.includes(question.id) ? s : [...s, question.id],
           );
@@ -156,17 +187,11 @@ export function QuestionPractice({
             display: string;
             progress: Record<string, AttemptState>;
             rating?: number;
+            ratingDelta?: number;
           };
         }}
         onNext={goToNextQuestion}
       />
-
-      <Link
-        href={mathsTopicHref(tenant, domain, code)}
-        className="inline-block text-sm text-stone-600 underline"
-      >
-        Back to {title}
-      </Link>
     </div>
   );
 }
@@ -174,6 +199,7 @@ export function QuestionPractice({
 type AttemptProps = {
   question: ParsedQuestion;
   meta: ClientAnswerMeta;
+  support: ClientQuestionSupport | undefined;
   prevAttempt: AttemptState | undefined;
   postAttempt: (
     body: Record<string, unknown>,
@@ -182,10 +208,12 @@ type AttemptProps = {
     display: string;
     progress: Record<string, AttemptState>;
     rating?: number;
+    ratingDelta?: number;
   }>;
   onAnswered: (data: {
     progress: Record<string, AttemptState>;
     rating?: number;
+    ratingDelta?: number;
   }) => void;
   onNext: () => void;
 };
@@ -193,6 +221,7 @@ type AttemptProps = {
 function QuestionAttempt({
   question,
   meta,
+  support,
   prevAttempt,
   postAttempt,
   onAnswered,
@@ -200,181 +229,202 @@ function QuestionAttempt({
 }: AttemptProps) {
   const kind = meta.kind ?? "text";
   const [answer, setAnswer] = useState("");
+  const [showHint, setShowHint] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
   const [barHeights, setBarHeights] = useState<number[]>(() =>
     meta.bars ? meta.bars.heights.map(() => 0) : [],
   );
-  const [showSelfCheckAnswer, setShowSelfCheckAnswer] = useState(false);
   const [feedback, setFeedback] = useState<{
     correct: boolean;
     display: string;
   } | null>(null);
   const [pending, setPending] = useState(false);
-  const answered = feedback !== null;
+  const passed = feedback?.correct === true;
 
   async function submit(body: Record<string, unknown>) {
     setPending(true);
     try {
       const data = await postAttempt(body);
       setFeedback({ correct: data.correct, display: data.display });
-      onAnswered({ progress: data.progress, rating: data.rating });
+      onAnswered({
+        progress: data.progress,
+        rating: data.rating,
+        ratingDelta: data.ratingDelta,
+      });
     } finally {
       setPending(false);
     }
   }
 
-  async function submitText(e: React.FormEvent) {
-    e.preventDefault();
-    await submit({ answer });
-  }
+  const showModelAnswer =
+    feedback &&
+    !feedback.correct &&
+    feedback.display.trim().length > 0 &&
+    feedback.display.trim() !== answer.trim();
 
   return (
-    <>
+    <article className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">
       <p className="text-xs font-medium uppercase tracking-wide text-stone-500">
         {friendlySectionHeading(question.section)}
       </p>
+
       <MarkdownBody
         markdown={question.text}
-        className="worksheet-markdown text-lg text-stone-900"
+        className="worksheet-markdown mt-3 text-lg leading-relaxed text-stone-900"
       />
 
-      {prevAttempt?.correct && !answered ? (
-        <p className="text-sm font-medium text-green-800">
+      {prevAttempt?.correct && !feedback ? (
+        <p className="mt-4 text-sm font-medium text-green-800">
           You already got this one right before.
         </p>
       ) : null}
 
-      {kind === "self-check" && !answered ? (
-        <div className="space-y-3">
-          <p className="text-sm text-stone-600">
-            Work it out on paper or in your head, then check yourself.
-          </p>
-          {!showSelfCheckAnswer ? (
-            <button
-              type="button"
-              disabled={pending}
-              onClick={() => setShowSelfCheckAnswer(true)}
-              className="rounded-lg border border-stone-300 px-4 py-2 text-sm"
-            >
-              Show answer
-            </button>
-          ) : (
-            <>
-              <p className="rounded-lg bg-stone-100 px-3 py-2 text-sm text-stone-800">
-                {meta.display}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  disabled={pending}
-                  onClick={() => void submit({ selfCheckCorrect: true })}
-                  className="rounded-lg bg-stone-900 px-4 py-2 text-sm font-medium text-white"
-                >
-                  I got it right
-                </button>
-                <button
-                  type="button"
-                  disabled={pending}
-                  onClick={() => void submit({ selfCheckCorrect: false })}
-                  className="rounded-lg border border-stone-300 px-4 py-2 text-sm"
-                >
-                  Not yet
-                </button>
-              </div>
-            </>
-          )}
+      {support ? (
+        <div className="mt-4 flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={() => setShowHint((v) => !v)}
+            className="rounded-lg border border-amber-300 bg-amber-50 px-3 py-1.5 text-sm font-medium text-amber-950"
+          >
+            {showHint ? "Hide hint" : "Hint"}
+          </button>
+          <button
+            type="button"
+            onClick={() => setShowHelp((v) => !v)}
+            className="rounded-lg border border-sky-300 bg-sky-50 px-3 py-1.5 text-sm font-medium text-sky-950"
+          >
+            {showHelp ? "Hide help" : "Help"}
+          </button>
         </div>
       ) : null}
 
-      {kind === "bar-chart" && meta.bars && !answered ? (
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            void submit({ barHeights });
-          }}
-          className="space-y-3"
-        >
-          <BarChartAnswer
-            spec={meta.bars}
-            values={
-              barHeights.length === meta.bars.heights.length
-                ? barHeights
-                : meta.bars.heights.map(() => 0)
-            }
-            onChange={setBarHeights}
-            disabled={pending}
-          />
-          <button
-            type="submit"
-            disabled={pending}
-            className="rounded-lg bg-stone-900 px-4 py-2 text-sm font-medium text-white"
-          >
-            {pending ? "…" : "Go"}
-          </button>
-        </form>
-      ) : null}
-
-      {kind === "text" && !answered ? (
-        <form onSubmit={(e) => void submitText(e)} className="space-y-3">
-          <label className="block text-sm font-medium text-stone-700">
-            Your answer
-          </label>
-          <textarea
-            value={answer}
-            onChange={(e) => setAnswer(e.target.value)}
-            rows={3}
-            className="w-full rounded-lg border border-stone-300 px-3 py-2 text-stone-900 outline-none ring-stone-400 focus:ring-2"
-          />
-          <button
-            type="submit"
-            disabled={pending || !answer.trim()}
-            className="rounded-lg bg-stone-900 px-4 py-2 text-sm font-medium text-white disabled:opacity-50"
-          >
-            {pending ? "…" : "Go"}
-          </button>
-        </form>
-      ) : null}
-
-      {feedback && kind !== "self-check" ? (
-        <div
-          className={`rounded-xl border px-4 py-3 ${
-            feedback.correct
-              ? "border-green-300 bg-green-50"
-              : "border-red-300 bg-red-50"
-          }`}
-        >
-          <p
-            className={`font-medium ${
-              feedback.correct ? "text-green-900" : "text-red-900"
-            }`}
-          >
-            {feedback.correct ? "Correct" : "Not quite"}
-          </p>
-          <p className="mt-2 text-sm text-stone-800">
-            <span className="font-medium">Answer: </span>
-            {feedback.display}
-          </p>
-        </div>
-      ) : null}
-
-      {feedback && kind === "self-check" ? (
-        <p
-          className={`text-sm font-medium ${
-            feedback.correct ? "text-green-800" : "text-stone-700"
-          }`}
-        >
-          {feedback.correct ? "Nice — marked as correct." : "Keep trying."}
+      {support && showHint ? (
+        <p className="mt-3 rounded-lg border border-amber-200 bg-amber-50/80 px-4 py-3 text-sm text-amber-950">
+          {support.hint}
         </p>
       ) : null}
 
-      {answered ? (
-        <button
-          type="button"
-          onClick={onNext}
-          className="rounded-lg bg-stone-900 px-5 py-2.5 text-sm font-medium text-white"
-        >
-          Next question
-        </button>
+      {support && showHelp ? (
+        <div className="mt-3 rounded-lg border border-sky-200 bg-sky-50/80 px-4 py-3 text-sm text-stone-800">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-sky-900">
+            Help
+          </p>
+          <MarkdownBody
+            markdown={support.help}
+            className="worksheet-markdown text-sm leading-relaxed"
+          />
+        </div>
       ) : null}
-    </>
+
+      <div className="mt-5 space-y-4">
+        {kind === "text" ? (
+          <div className="space-y-3">
+            <label className="block text-sm font-medium text-stone-700">
+              Your answer
+            </label>
+            <textarea
+              value={answer}
+              onChange={(e) => setAnswer(e.target.value)}
+              readOnly={feedback != null}
+              rows={question.text.length > 120 ? 4 : 2}
+              className={
+                feedback != null
+                  ? "w-full rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-base text-stone-900"
+                  : "w-full rounded-lg border border-stone-300 px-3 py-2 text-base text-stone-900 outline-none ring-stone-400 focus:ring-2"
+              }
+            />
+            {!feedback ? (
+              <button
+                type="button"
+                disabled={pending || !answer.trim()}
+                onClick={() => void submit({ answer })}
+                className="w-full rounded-lg bg-stone-900 px-4 py-3 text-sm font-medium text-white disabled:opacity-50 sm:w-auto"
+              >
+                {pending ? "…" : "Go"}
+              </button>
+            ) : null}
+          </div>
+        ) : null}
+
+        {feedback?.correct ? (
+          <p className="rounded-lg bg-green-50 px-4 py-3 text-base font-semibold text-green-900">
+            Correct — well done!
+          </p>
+        ) : null}
+
+        {showModelAnswer ? (
+          <div className="w-full rounded-lg border border-red-200 bg-red-50 px-4 py-3">
+            <p className="font-medium text-red-900">Not quite</p>
+            <div className="mt-2 text-sm text-stone-800">
+              <p className="font-medium text-stone-700">Answer:</p>
+              <MarkdownBody
+                markdown={feedback!.display}
+                className="worksheet-markdown mt-1"
+              />
+            </div>
+          </div>
+        ) : null}
+
+        {kind === "bar-chart" && meta.bars && !passed ? (
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              void submit({ barHeights });
+            }}
+            className="space-y-4"
+          >
+            <BarChartAnswer
+              spec={meta.bars}
+              values={
+                barHeights.length === meta.bars.heights.length
+                  ? barHeights
+                  : meta.bars.heights.map(() => 0)
+              }
+              onChange={setBarHeights}
+              disabled={pending}
+            />
+            <button
+              type="submit"
+              disabled={pending}
+              className="w-full rounded-lg bg-stone-900 px-4 py-3 text-sm font-medium text-white sm:w-auto"
+            >
+              {pending ? "…" : "Go"}
+            </button>
+          </form>
+        ) : null}
+
+        {passed ? (
+          <button
+            type="button"
+            onClick={onNext}
+            className="w-full rounded-lg bg-stone-900 px-4 py-3 text-sm font-medium text-white sm:w-auto"
+          >
+            Next question
+          </button>
+        ) : null}
+
+        {feedback && !passed ? (
+          <div className="flex flex-col gap-2 sm:flex-row">
+            <button
+              type="button"
+              onClick={() => {
+                setFeedback(null);
+                setAnswer("");
+              }}
+              className="rounded-lg bg-stone-900 px-4 py-3 text-sm font-medium text-white"
+            >
+              Try again
+            </button>
+            <button
+              type="button"
+              onClick={onNext}
+              className="rounded-lg border border-stone-300 px-4 py-3 text-sm font-medium text-stone-800"
+            >
+              Next question
+            </button>
+          </div>
+        ) : null}
+      </div>
+    </article>
   );
 }

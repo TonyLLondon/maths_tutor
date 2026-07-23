@@ -2,57 +2,128 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "top view",
+      "accept": [
+        "top",
+        "top view",
+        "plan"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "front view",
+      "accept": [
+        "front",
+        "front view",
+        "front elevation"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "square",
+      "accept": [
+        "square"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "Plan (view)",
       "accept": [
         "plan",
         "plan view"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "Front elevation",
       "accept": [
         "front elevation",
         "front view"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "Side elevation",
       "accept": [
         "side elevation",
         "side view"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "12": {
       "display": "A square",
       "accept": [
         "square"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "13": {
       "display": "A circle",
       "accept": [
         "circle"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "14": {
       "display": "A rectangle",
       "accept": [
         "rectangle"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "A rectangle, 4 cm by 3 cm",
       "accept": [
         "rectangle",
@@ -61,9 +132,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "A rectangle, 4 cm wide by 2 cm tall",
       "accept": [
         "rectangle",
@@ -72,44 +143,44 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "A square (with diagonals to the apex sometimes shown)",
       "accept": [
         "square"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "A rectangle",
       "accept": [
         "rectangle"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "3",
       "accept": [
         "3",
         "three"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "20": {
       "display": "A circle",
       "accept": [
         "circle"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "Correct \u2014 a cube has identical square faces on every side, so its plan, front elevation, and side elevation are all the same square.",
+    "23": {
+      "display": "Correct — a cube has identical square faces on every side, so its plan, front elevation, and side elevation are all the same square.",
       "accept": [
         "correct",
         "yes",
@@ -117,18 +188,18 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "False \u2014 the front and side elevations of a cuboid are only identical if the cuboid has a square cross-section from those directions; otherwise they show different-sized rectangles.",
+    "24": {
+      "display": "False — the front and side elevations of a cuboid are only identical if the cuboid has a square cross-section from those directions; otherwise they show different-sized rectangles.",
       "accept": [
         "false"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
+    "25": {
       "display": "The plan view would be a row of 3 squares (a long rectangle); the front elevation (viewed along the row) would show just 1 square, since the cubes line up directly behind one another.",
       "accept": [
         "3 squares",
@@ -137,37 +208,37 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "A cuboid \u2014 a solid where the plan, front elevation, and side elevation are all rectangles of different sizes is most likely a cuboid, since each view corresponds to one pair of matching rectangular faces.",
+    "26": {
+      "display": "A cuboid — a solid where the plan, front elevation, and side elevation are all rectangles of different sizes is most likely a cuboid, since each view corresponds to one pair of matching rectangular faces.",
       "accept": [
         "cuboid"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "Always \u2014 many different solids (e.g. a cylinder and a cone standing upright) can share the same circular plan view but look different from the front.",
+    "27": {
+      "display": "Always — many different solids (e.g. a cylinder and a cone standing upright) can share the same circular plan view but look different from the front.",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Example: a cylinder and a cone standing upright both have a circular plan view, but their front elevations are different (a rectangle for the cylinder, a triangle for the cone) \u2014 so the plan alone cannot tell them apart.",
+    "28": {
+      "display": "Example: a cylinder and a cone standing upright both have a circular plan view, but their front elevations are different (a rectangle for the cylinder, a triangle for the cone) — so the plan alone cannot tell them apart.",
       "accept": [
         "cylinder",
         "cone"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
+    "29": {
       "display": "The plan view is a circle (the base, often shown with the apex marked as a dot in the centre); the front elevation is a triangle, because the cone's height and slanted sides are seen from the side.",
       "accept": [
         "circle",
@@ -175,9 +246,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
+    "30": {
       "display": "True when viewed from the triangular end (showing the cross-section); if viewed from the rectangular side, the front elevation would be a rectangle instead.",
       "accept": [
         "triangle",
@@ -186,9 +257,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "31": {
       "display": "Plan: a single square; front elevation: a tall thin rectangle 1 cube wide and 4 cubes high; side elevation: the same tall thin rectangle.",
       "accept": [
         "square",
@@ -197,9 +268,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
+    "32": {
       "display": "A wide rectangle (6 cm by 2 cm) for the large cuboid with a narrower, taller rectangle (2 cm by 3 cm) centred on top of it, giving a stepped outline.",
       "accept": [
         "6",
@@ -209,9 +280,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "33": {
       "display": "A staircase-shaped outline of 3 squares, each one step up and one step back from the last, forming a zig-zag profile.",
       "accept": [
         "staircase",
@@ -220,9 +291,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
+    "34": {
       "display": "Plan: a circle of radius 3 cm; front elevation: a rectangle 6 cm wide (the diameter) by 8 cm tall (the height).",
       "accept": [
         "circle",
@@ -231,9 +302,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
+    "35": {
       "display": "A rectangle (the cuboid part of the house) with a triangle sitting on top of it (the roof).",
       "accept": [
         "rectangle",
@@ -241,29 +312,29 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "A cylinder \u2014 a circular plan with matching rectangular front and side elevations of the same size is the plan/elevation set of a cylinder.",
+    "36": {
+      "display": "A cylinder — a circular plan with matching rectangular front and side elevations of the same size is the plan/elevation set of a cylinder.",
       "accept": [
         "cylinder"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "A triangular prism lying on one of its rectangular faces \u2014 its plan is a rectangle, and both its front and side elevations can be triangles depending on the direction viewed.",
+    "37": {
+      "display": "A triangular prism lying on one of its rectangular faces — its plan is a rectangle, and both its front and side elevations can be triangles depending on the direction viewed.",
       "accept": [
         "triangular prism",
         "prism"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
-      "display": "Use the plan to find the base's length and width, and use the front or side elevation to find the height; multiply length \u00d7 width \u00d7 height to find the volume.",
+    "38": {
+      "display": "Use the plan to find the base's length and width, and use the front or side elevation to find the height; multiply length × width × height to find the volume.",
       "accept": [
         "length",
         "width",
@@ -272,9 +343,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
+    "39": {
       "display": "The cube's front elevation is a square (constant width all the way up), while the pyramid's front elevation is a triangle (the sides slope inward to a point at the top).",
       "accept": [
         "square",
@@ -282,14 +353,47 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "Your own combined-cuboid solid with clearly described plan, front elevation, and side elevation, including measurements.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "Plan",
+      "accept": [
+        "plan"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "Front elevation",
+      "accept": [
+        "front",
+        "front elevation"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "L-shape of two squares from above",
+      "contains": true,
+      "kind": "self-check",
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "Cylinder",
+      "accept": [
+        "cylinder"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

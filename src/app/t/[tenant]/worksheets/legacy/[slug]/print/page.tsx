@@ -1,8 +1,11 @@
-import { WorksheetPrintPage } from "@/components/WorksheetPrintPage";
+import { redirect } from "next/navigation";
+import { worksheetHref } from "@/lib/paths";
+import { isTenantId } from "@/lib/tenants";
 
 type Props = { params: Promise<{ tenant: string; slug: string }> };
 
-export default async function Page({ params }: Props) {
+export default async function LegacyPrintRedirect({ params }: Props) {
   const { tenant, slug } = await params;
-  return <WorksheetPrintPage tenant={tenant} slug={slug} />;
+  if (!isTenantId(tenant)) redirect("/login");
+  redirect(worksheetHref(tenant, slug));
 }

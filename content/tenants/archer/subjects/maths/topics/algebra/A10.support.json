@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "From $(0,0)$ to $(1,1)$, how much does $y$ increase?",
+      "help": "$y$ goes up **1** when $x$ goes 0 to 1.\n\nRise on the line.\n\nIncrease of 1."
+    },
+    "2": {
+      "hint": "Compare $y$ at $x=0$ and $x=1$ for the second line.",
+      "help": "$y$ increases by **2** from 0 to 2.\n\nSteeper line.\n\nUp 2.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "$y=x$ with $x=2$.",
+      "help": "$y=2$.\n\nSame both coordinates.\n\nAnswer 2.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "Double $x=2$ in $y=2x$.",
+      "help": "$y=4$.\n\nMultiply by 2.\n\n$y=4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "Set $x=0$ in $y=x+1$.",
+      "help": "$y=1$.\n\n$y$-intercept when $x=0$.\n\nAnswer 1.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "Plug $x=0$ into $y=x+3$.",
+      "help": "$y=3$.\n\nWhere line crosses $y$-axis.\n\n$y=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "Gradient is rise ÷ run: 2 up for 1 right.",
+      "help": "Gradient **2**.\n\nUp 2 per square right.\n\n$m=2$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "8": {
+      "hint": "Where the line crosses $y$-axis at $x=0$, $y$ is the intercept.",
+      "help": "**4** — starts at $(0,4)$.\n\n$c$ in $y=mx+c$.\n\nIntercept 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "9": {
+      "hint": "Gradient = $(3-0)/(1-0)$.",
+      "help": "Gradient **3**.\n\nChange in $y$ over change in $x$.\n\n$m=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "Use $(0,2)$ and $(1,5)$.",
+      "help": "$(5-2)/(1-0)=**3**$.\n\nSame method as Q9.\n\nGradient 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "11": {
+      "hint": "Run is 2 from $x=0$ to $x=2$.",
+      "help": "$(8-0)/(2-0)=**4**$.\n\nDivide rise by run 2.\n\nGradient 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "12": {
+      "hint": "Points $(1,2)$ and $(3,8)$ — run is 2.",
+      "help": "$(8-2)/(3-1)=**3**$.\n\nRise 6, run 2.\n\nGradient 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "In $y=3x+2$, the number multiplying $x$ is the gradient.",
+      "help": "Gradient **3**.\n\nCoefficient of $x$.\n\n$m=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "14": {
+      "hint": "Constant term at the end is the $y$-intercept.",
+      "help": "**2** — crosses at $(0,2)$.\n\n+$2$ in equation.\n\nIntercept 2."
+    },
+    "15": {
+      "hint": "Rewrite $5-2x$ as $-2x+5$ — gradient is the $x$ coefficient.",
+      "help": "Gradient **−2**.\n\nNegative slope downward.\n\n$m=-2$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "16": {
+      "hint": "The standalone number in $y=5-2x$ is intercept.",
+      "help": "**5** at $(0,5)$.\n\nConstant term 5.\n\n$y$-intercept 5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "Write $y = mx + c$ with $m=4$, $c=1$.",
+      "help": "Equation **$y = 4x + 1$**.\n\nGradient then intercept.\n\n$y=4x+1$."
+    },
+    "18": {
+      "hint": "$m=-2$, $c=6$.",
+      "help": "**$y = -2x + 6$**.\n\nNegative gradient formula.\n\nWrite full equation."
+    },
+    "19": {
+      "hint": "Use $y = 2x + 5$ at $x=3$.",
+      "help": "$y = 2(3)+5 = **11**$.\n\nSubstitute into line equation.\n\n$y=11$."
+    },
+    "20": {
+      "hint": "$y = -x + 4$ at $x=3$.",
+      "help": "$y = -3+4 = **1**$.\n\nGradient −1 means down one per right one.\n\n$y=1$."
+    },
+    "21": {
+      "hint": "Coefficient of $x$ in $y=3x+2$.",
+      "help": "Gradient **3**.\n\nSame as Q13.\n\n$m=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "Constant in $y=-x+5$.",
+      "help": "**5** — intercept.\n\n+$5$ when $x=0$.\n\nIntercept 5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "23": {
+      "hint": "Compute $(7-1)/(2-0)$ and confirm Priya's fraction.",
+      "help": "$\\dfrac{6}{2}=**3**$ — Priya correct.\n\nShow subtraction and division.\n\nGradient 3."
+    },
+    "24": {
+      "hint": "Positive gradient means line goes up left to right.",
+      "help": "**Always** true for positive $m$.\n\nUpward slope.\n\nAnswer: always."
+    },
+    "25": {
+      "hint": "In $y=4-3x$, gradient is the coefficient of $x$, not 4.",
+      "help": "Rewrite $y=-3x+4$. Gradient **−3**, not 4.\n\n4 is intercept.\n\nCorrect $m=-3$."
+    },
+    "26": {
+      "hint": "Same gradient means same steepness — lines parallel.",
+      "help": "**Parallel** — never meet, offset vertically.\n\nSame $m$, different $c$.\n\nExplain parallel."
+    },
+    "27": {
+      "hint": "Compare $|m|$ for steepness — sign is direction.",
+      "help": "Steepness uses **size** of gradient; $-5$ is steeper than $2$ in magnitude.\n\nStatement false if ignoring sign — clarify with examples.\n\nDiscuss positive vs negative."
+    },
+    "28": {
+      "hint": "Same $y$ means zero rise — horizontal line.",
+      "help": "Horizontal line, gradient **0**.\n\nDivision by zero in $\\Delta y/\\Delta x$ because $\\Delta y=0$.\n\nGradient zero."
+    },
+    "29": {
+      "hint": "Compare coefficients of $x$: 5 vs 1.",
+      "help": "**$y=5x+1$** steeper — gradient 5 beats 1.\n\nLarger $|m|$ steeper.\n\n5x line steeper."
+    },
+    "30": {
+      "hint": "Keep the minus sign on 4 in $y=-4x+2$.",
+      "help": "Gradient **−4**, not +4.\n\nMo missed negative.\n\n$m=-4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "31": {
+      "hint": "Write $y=2x+3$, substitute 6 miles.",
+      "help": "Equation **$y=2x+3$**. Fare $2(6)+3=**£15**$.\n\n£2 per mile + £3 fee.\n\n£15 for 6 miles."
+    },
+    "32": {
+      "hint": "$y=5x+20$; find at $x=10$ months.",
+      "help": "Balance $5(10)+20=**£70**$.\n\n£5 per month + £20 start.\n\n£70 after 10 months."
+    },
+    "33": {
+      "hint": "Starts at 0 distance, speed 15 km/h: $d=15t$.",
+      "help": "**$d=15t$** (km after $t$ hours).\n\nThrough origin, gradient 15.\n\nEquation $d=15t$."
+    },
+    "34": {
+      "hint": "$C=15+0.1u$; plug $u=200$.",
+      "help": "Cost $15+20=**£35**$.\n\nStanding charge + per unit.\n\n£35 for 200 units."
+    },
+    "35": {
+      "hint": "Compare 0.05 vs 0.1 — bigger gradient costs more per text.",
+      "help": "Second plan gradient **0.1** > **0.05** — plan 2 gets expensive faster per text.\n\nSteeper cost line.\n\nCompare rates."
+    },
+    "36": {
+      "hint": "$m=25$ is daily rate; $c=40$ is start fee.",
+      "help": "Gradient **25** = £ per day; intercept **40** = initial charge.\n\nCustomer pays £40 then £25 each day.\n\nExplain both."
+    },
+    "37": {
+      "hint": "Gradient $(11-1)/(3-(-2))$.",
+      "help": "$10/5=**2**$.\n\nWatch subtracting negatives.\n\nGradient 2.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "38": {
+      "hint": "Same $m=3$, through $(0,4)$: $y=3x+4$.",
+      "help": "**$y=3x+4$**.\n\nParallel to $y=3x-5$.\n\nWrite equation.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "39": {
+      "hint": "Line through $(2,7)$ with $m=3$ and with $m=-1$.",
+      "help": "$y-7=3(x-2)$ → $y=3x+1$. Other: $y=-x+9$ (examples).\n\nUse point-gradient form.\n\nTwo equations."
+    },
+    "40": {
+      "hint": "Use $(4,20)$ and $(0,4)$ to find $m$.",
+      "help": "$m=(20-4)/4=**4**$. Equation **$y=4x+4$**.\n\nIntercept 4 confirmed.\n\n$m=4$, $y=4x+4$."
+    },
+    "41": {
+      "hint": "$m=2$, $c=3$.",
+      "help": "**$y=2x+3$**.\n\nStandard form.\n\nWrite equation.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "42": {
+      "hint": "Gradient 4, through $(0,1)$.",
+      "help": "**$y=4x+1$**.\n\nIntercept 1.\n\n$y=4x+1$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    }
+  }
+}

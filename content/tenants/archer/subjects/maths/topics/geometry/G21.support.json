@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Right angle in degrees?",
+      "help": "**90°**.\n\nExample: square corner.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "2": {
+      "hint": "Half of 90°?",
+      "help": "**45°**.\n\nExample: split right angle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "One third of 90°?",
+      "help": "**30°**.\n\nExample: 90÷3.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "4": {
+      "hint": "Compare 30 and 60.",
+      "help": "**60°** is larger.\n\nExample: on protractor.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "One half as fraction?",
+      "help": "**2** in denominator: $\\frac12$.\n\nExample: half.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "6": {
+      "hint": "Diagonal splits 90° into two equal angles.",
+      "help": "Each **45°**.\n\nExample: square diagonal.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "7": {
+      "hint": "Quarter of 360° — which listed angle?",
+      "help": "**90°** is a quarter turn (45° is eighth).\n\nExample: 360÷4.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "8": {
+      "hint": "Order 30, 45, 60.",
+      "help": "**30°, 45°, 60°**.\n\nExample: increasing.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "9": {
+      "hint": "Exact sin 30°.",
+      "help": "**$\\frac12$**.\n\nExample: memorised value.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "10": {
+      "hint": "Exact cos 30°.",
+      "help": "**$\\frac{\\sqrt3}{2}$**.\n\nExample: exact trig table.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "Exact tan 45°.",
+      "help": "**1**.\n\nExample: equal legs.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "12": {
+      "hint": "Exact sin 45°.",
+      "help": "**$\\frac{\\sqrt2}{2}$** (or $\\frac1{\\sqrt2}$).\n\nExample: isosceles right triangle."
+    },
+    "13": {
+      "hint": "Exact cos 45°.",
+      "help": "**$\\frac{\\sqrt2}{2}$**.\n\nExample: same as sin 45°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "Exact sin 60°.",
+      "help": "**$\\frac{\\sqrt3}{2}$**.\n\nExample: equilateral half.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "Exact cos 60°.",
+      "help": "**$\\frac12$**.\n\nExample: complement of 30°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "16": {
+      "hint": "Exact tan 60°.",
+      "help": "**$\\sqrt3$**.\n\nExample: 60° triangle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "sin 0° on unit circle.",
+      "help": "**0**.\n\nExample: no opposite rise.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "cos 0°.",
+      "help": "**1**.\n\nExample: full adjacent.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "19": {
+      "hint": "Exact tan 30°.",
+      "help": "**$\\frac1{\\sqrt3}$** (or $\\frac{\\sqrt3}{3}$).\n\nExample: 30-60-90 triangle."
+    },
+    "20": {
+      "hint": "sin 90°.",
+      "help": "**1**.\n\nExample: top of sine range.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "21": {
+      "hint": "sin 30° exact.",
+      "help": "**$\\frac12$**.\n\nExample: same as Q9.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "cos 60° exact.",
+      "help": "**$\\frac12$**.\n\nExample: same as sin 30°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "23": {
+      "hint": "30° and 60° complementary — sin/cos swap.",
+      "help": "Angles **sum 90°** so $\\sin30°=\\cos60°$.\n\nExample: cofunction identity."
+    },
+    "24": {
+      "hint": "45° isosceles right triangle — sin and cos equal?",
+      "help": "**True** — both $\\frac{\\sqrt2}{2}$.\n\nExample: equal legs.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "25": {
+      "hint": "tan45=1 means opp=adj.",
+      "help": "Ravi **correct** — $\\tan=opp/adj=1$ → legs equal.\n\nExample: 45-45-90."
+    },
+    "26": {
+      "hint": "sin increases from 0 to 90°?",
+      "help": "**Always** on 0°–90°.\n\nExample: 0, 30, 45, 60, 90 values rise."
+    },
+    "27": {
+      "hint": "cos 90° = 0 exactly.",
+      "help": "At 90°, adjacent length **0** → $\\cos90°=**0**$ exactly.\n\nExample: unit triangle collapses."
+    },
+    "28": {
+      "hint": "tan = sin/cos — cos90=0.",
+      "help": "Division by **zero** at 90° — **undefined**.\n\nExample: vertical line."
+    },
+    "29": {
+      "hint": "Compute sin30+sin60 vs sin90 numerically.",
+      "help": "$\\frac12+\\frac{\\sqrt3}{2}\\neq1$ — Sloan **false**.\n\nExample: sin is not linear."
+    },
+    "30": {
+      "hint": "Complementary 30 and 60 swap sin/cos.",
+      "help": "$\\sin30°=\\cos60°$ and $\\cos30°=\\sin60°$.\n\nExample: 30+60=90."
+    },
+    "31": {
+      "hint": "opp = hyp×sin30° = 8×½.",
+      "help": "Opposite **4** cm exactly.\n\nExample: half hypotenuse.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "32": {
+      "hint": "adj = hyp×cos60° = 10×½.",
+      "help": "Adjacent **5** cm exactly.\n\nExample: cos 60.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "33": {
+      "hint": "tan45=1 → other leg equals 6 cm.",
+      "help": "Other leg **6** cm.\n\nExample: equal legs at 45°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "34": {
+      "hint": "Equilateral side 4 — height from 60° half-triangle.",
+      "help": "Height **$2\\sqrt3$** cm using sin60°.\n\nExample: split equilateral."
+    },
+    "35": {
+      "hint": "tan30 = height/12.",
+      "help": "Height **$4\\sqrt3$** m (exact).\n\nExample: opp/adj.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "36": {
+      "hint": "Compute sin²45+cos²45 with exact fractions.",
+      "help": "$\\frac12+\\frac12=**1**$ — Pythagoras identity.\n\nExample: $(\\frac{\\sqrt2}{2})^2=\\frac12$."
+    },
+    "37": {
+      "hint": "sin30+cos60 with exact values.",
+      "help": "$\\frac12+\\frac12=**1**$.\n\nExample: add.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "38": {
+      "hint": "sin60=opp/hyp — hyp = opp/sin60.",
+      "help": "Hypotenuse **12** cm ($6\\sqrt3 \\div \\frac{\\sqrt3}{2}$).\n\nExample: rearrange."
+    },
+    "39": {
+      "hint": "tan60÷tan30 with exact surds.",
+      "help": "$\\sqrt3 \\div \\frac1{\\sqrt3} = **3**$.\n\nExample: simplify.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "40": {
+      "hint": "Derive exact values from 45-45-90 and half equilateral.",
+      "help": "Use **isosceles right** legs 1,1, hyp $\\sqrt2$ for 45°; **half equilateral** 1,2, $\\sqrt3$ for 30°/60°.\n\nExample: draw triangles."
+    },
+    "41": {
+      "hint": "sin θ = opp/hyp = 5/10.",
+      "help": "**$\\frac12$**.\n\nExample: simplify ratio.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "Isosceles right legs 1 — hyp Pythagoras.",
+      "help": "Hypotenuse **$\\sqrt2$** cm.\n\nExample: $1^2+1^2$.\n\nPicture what is happening, then use the method step by step in your working."
+    }
+  }
+}

@@ -2,116 +2,191 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "an angle",
+      "accept": [
+        "angle",
+        "an angle"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°",
+        "90 degrees"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "an acute angle",
+      "accept": [
+        "acute",
+        "acute angle"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "an obtuse angle",
+      "accept": [
+        "obtuse",
+        "obtuse angle"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "45°",
+      "accept": [
+        "45",
+        "45°",
+        "45 degrees"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "60°",
+      "accept": [
+        "60",
+        "60°",
+        "60 degrees"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "180",
       "accept": [
         "180"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "360",
       "accept": [
         "360"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "equal",
       "accept": [
         "equal"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
-      "display": "110\u00b0",
+    "12": {
+      "display": "110°",
       "accept": [
         "110",
-        "110\u00b0"
+        "110°"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
-      "display": "110\u00b0",
+    "13": {
+      "display": "110°",
       "accept": [
         "110",
-        "110\u00b0"
+        "110°"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "14": {
       "display": "180",
       "accept": [
         "180"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
-      "display": "70\u00b0",
+    "15": {
+      "display": "70°",
       "accept": [
         "70",
-        "70\u00b0"
+        "70°"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "360",
       "accept": [
         "360"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "corresponding",
       "accept": [
         "corresponding"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "equal",
       "accept": [
         "equal"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "180",
       "accept": [
         "180"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
-      "display": "60\u00b0",
+    "20": {
+      "display": "60°",
       "accept": [
         "60",
-        "60\u00b0"
+        "60°"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "65\u00b0 \u2014 corresponding angles are equal because the two lines are parallel, so the transversal crosses each at the same angle.",
+    "23": {
+      "display": "65° — corresponding angles are equal because the two lines are parallel, so the transversal crosses each at the same angle.",
       "accept": [
         "65"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "A transversal crossing two parallel lines makes a 'Z' shape; because the lines are parallel, the two angles inside the Z are equal \u2014 this is the alternate angle fact.",
+    "24": {
+      "display": "A transversal crossing two parallel lines makes a 'Z' shape; because the lines are parallel, the two angles inside the Z are equal — this is the alternate angle fact.",
       "accept": [
         "parallel",
         "z",
@@ -119,28 +194,28 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "Always \u2014 two straight lines crossing always create equal pairs of vertically opposite angles.",
+    "25": {
+      "display": "Always — two straight lines crossing always create equal pairs of vertically opposite angles.",
       "accept": [
         "always"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "w = 80\u00b0, since 90 + 90 + 100 + w = 360.",
+    "26": {
+      "display": "w = 80°, since 90 + 90 + 100 + w = 360.",
       "accept": [
         "80"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "No \u2014 co-interior angles add up to 180\u00b0, they are not always equal (they are only equal in the special case where both are 90\u00b0).",
+    "27": {
+      "display": "No — co-interior angles add up to 180°, they are not always equal (they are only equal in the special case where both are 90°).",
       "accept": [
         "no",
         "180",
@@ -148,29 +223,29 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "120\u00b0",
+    "28": {
+      "display": "120°",
       "accept": [
         "120",
-        "120\u00b0"
+        "120°"
       ],
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "104\u00b0 and 156\u00b0 (2 parts and 3 parts of the remaining 260\u00b0, so 52\u00b0 per part).",
+    "29": {
+      "display": "104° and 156° (2 parts and 3 parts of the remaining 260°, so 52° per part).",
       "accept": [
         "104",
         "156"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "Leo is correct \u2014 three right angles total 270\u00b0, so the fourth angle must be 360 \u2212 270 = 90\u00b0, which is also a right angle, never obtuse.",
+    "30": {
+      "display": "Leo is correct — three right angles total 270°, so the fourth angle must be 360 − 270 = 90°, which is also a right angle, never obtuse.",
       "accept": [
         "correct",
         "yes",
@@ -178,76 +253,76 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
-      "display": "25\u00b0",
+    "31": {
+      "display": "25°",
       "accept": [
         "25",
-        "25\u00b0"
+        "25°"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "118\u00b0 and 62\u00b0",
+    "32": {
+      "display": "118° and 62°",
       "accept": [
         "118",
         "62"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
-      "display": "36\u00b0",
+    "33": {
+      "display": "36°",
       "accept": [
         "36",
-        "36\u00b0"
+        "36°"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "x = 30, so the angle is 100\u00b0 (3\u00d730+10 = 2\u00d730+40 = 100).",
+    "34": {
+      "display": "x = 30, so the angle is 100° (3×30+10 = 2×30+40 = 100).",
       "accept": [
         "30",
         "100"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "120\u00b0 and 40\u00b0 (the remaining 160\u00b0 split in a 3:1 ratio).",
+    "35": {
+      "display": "120° and 40° (the remaining 160° split in a 3:1 ratio).",
       "accept": [
         "120",
         "40"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "65\u00b0 each",
+    "36": {
+      "display": "65° each",
       "accept": [
         "65",
-        "65\u00b0",
+        "65°",
         "65 each"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "The parallel line through the vertex creates two pairs of alternate angles equal to the triangle's other two angles; together with the angle at the vertex, these three angles sit on a straight line and must sum to 180\u00b0, so the triangle's angles also sum to 180\u00b0.",
+    "37": {
+      "display": "The parallel line through the vertex creates two pairs of alternate angles equal to the triangle's other two angles; together with the angle at the vertex, these three angles sit on a straight line and must sum to 180°, so the triangle's angles also sum to 180°.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
-      "display": "Three triangles each contribute 180\u00b0, so 3 \u00d7 180\u00b0 = 540\u00b0, which matches the total of the pentagon's interior angles (each triangle's angles combine to exactly cover the pentagon's angles with no overlap or gap).",
+    "38": {
+      "display": "Three triangles each contribute 180°, so 3 × 180° = 540°, which matches the total of the pentagon's interior angles (each triangle's angles combine to exactly cover the pentagon's angles with no overlap or gap).",
       "accept": [
         "540",
         "3",
@@ -255,23 +330,57 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
-      "display": "60\u00b0",
+    "39": {
+      "display": "60°",
       "accept": [
         "60",
-        "60\u00b0"
+        "60°"
       ],
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "Your own puzzle combining parallel-line angle facts and the triangle angle sum, correctly solved.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "180",
+      "accept": [
+        "180"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "Equal",
+      "accept": [
+        "equal"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "115",
+      "accept": [
+        "115"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "68°",
+      "accept": [
+        "68",
+        "68°"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

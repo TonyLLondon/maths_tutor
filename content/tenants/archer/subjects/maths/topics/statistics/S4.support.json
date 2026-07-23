@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Which number repeats in the list 2, 2, 3?",
+      "help": "The **mode** is the value that appears **most often**.\n\nIn 2, 2, 3 the number **2** appears twice and 3 appears once.\n\nSo 2 appears most often. This question is warming you up before formal mode questions."
+    },
+    "2": {
+      "hint": "Compare the three numbers and write them from smallest to largest.",
+      "help": "Ordering helps with median and range later.\n\nSmallest to largest: **1, 3, 5**.\n\nAlways check all three numbers before you write your order."
+    },
+    "3": {
+      "hint": "With three numbers in order, the middle one is the median.",
+      "help": "For an **odd** count of values, the **median** is the middle number when sorted.\n\n2, 4, 6 in order—the middle is **4**.\n\nIf you had 2, 4, 6, 8 (four numbers), you would average the two middle values instead."
+    },
+    "4": {
+      "hint": "Compare 3, 8, and 5—which is largest?",
+      "help": "The **maximum** is the biggest value in the list.\n\nHere **8** is highest.\n\nYou will use max and min together when you find the **range**."
+    },
+    "5": {
+      "hint": "Find the smallest of 7, 2, and 9.",
+      "help": "The **minimum** is the smallest value.\n\n**2** is lowest among 7, 2, and 9.\n\nRange uses highest minus lowest."
+    },
+    "6": {
+      "hint": "Range = highest minus lowest. Here that is 5 − 2.",
+      "help": "The **range** measures spread: largest − smallest.\n\nFor 2 and 5, range = $5 - 2 = 3$.\n\nWith more numbers, find max and min first, then subtract."
+    },
+    "7": {
+      "hint": "Add 2 + 3 + 5 to find the total.",
+      "help": "The **sum** is what you add before finding a mean.\n\n$2 + 3 + 5 = 10$.\n\nMean = sum ÷ how many numbers—but this question only asks for the total."
+    },
+    "8": {
+      "hint": "Sharing equally means divide 12 by 3.",
+      "help": "Equal shares are a **mean** idea: total ÷ number of groups.\n\n$12 \\div 3 = 4$ each.\n\nEach child gets the same amount when you share fairly."
+    },
+    "9": {
+      "hint": "Add all four numbers, then divide by 4.",
+      "help": "**Mean** = sum of values ÷ count of values.\n\nSum: $4 + 6 + 8 + 2 = 20$. Mean: $20 \\div 4 = 5$.\n\nShow addition and division clearly in your working."
+    },
+    "10": {
+      "hint": "When every number is the same, the mean equals that number.",
+      "help": "All fives: sum = 20, count = 4, mean = $20 \\div 4 = 5$.\n\nIf every value is identical, the mean **is** that value.\n\nNo need for a long calculation—you can spot it."
+    },
+    "11": {
+      "hint": "Add the five quiz marks, then divide by 5.",
+      "help": "Sum: $7 + 9 + 6 + 8 + 10 = 40$. Mean: $40 \\div 5 = 8$.\n\nThere are **five** scores, so divide by 5, not 4."
+    },
+    "12": {
+      "hint": "If the mean of three numbers is 6, their total is 18. Subtract 3 and 7.",
+      "help": "Mean 6 with three numbers → total = $6 \\times 3 = 18$.\n\nKnown sum: $3 + 7 = 10$. Missing value: $18 - 10 = 8$.\n\nCheck: mean of 3, 7, 8 is $(3+7+8)/3 = 6$."
+    },
+    "13": {
+      "hint": "Count how many times each value appears—the mode is the most frequent.",
+      "help": "5 appears **three** times; 3, 7, and 2 appear once each.\n\n**Mode** = **5**.\n\nThe mode is about frequency, not position in the list."
+    },
+    "14": {
+      "hint": "Put the five numbers in order, then pick the middle one.",
+      "help": "Ordered: 2, 4, 6, 7, 9.\n\nMiddle value (third of five) → **median 6**.\n\nAlways sort before finding the median."
+    },
+    "15": {
+      "hint": "Find the biggest and smallest in the list, then subtract.",
+      "help": "Max = 20, min = 5.\n\nRange = $20 - 5 = 15$.\n\nRange does **not** use every number—only the extremes."
+    },
+    "16": {
+      "hint": "Sum is 60; divide by 3 numbers.",
+      "help": "$10 + 20 + 30 = 60$. Mean = $60 \\div 3 = 20$.\n\nNotice the mean 20 is also the middle value here."
+    },
+    "17": {
+      "hint": "Three appears most often—count the 3s.",
+      "help": "Frequencies: 1 (twice), 2 (once), 3 (**three** times), 4 (once).\n\n**Mode** = **3**.\n\nA list can have one mode even when other numbers repeat once or twice."
+    },
+    "18": {
+      "hint": "Six numbers—average the two middle values after sorting.",
+      "help": "Ordered: 8, 8, 10, 12, 14, 16.\n\nTwo middles are 10 and 12. Median = $(10 + 12) \\div 2 = 11$.\n\nEven count → average of the two central values."
+    },
+    "19": {
+      "hint": "Highest 100, lowest 45—find the difference.",
+      "help": "Range = $100 - 45 = 55$.\n\nScan the whole list for max and min before subtracting."
+    },
+    "20": {
+      "hint": "Mean 10 for four numbers means total 40. What number makes 8+9+11 sum to 40?",
+      "help": "Total needed: $10 \\times 4 = 40$.\n\nSum of three known: $8 + 9 + 11 = 28$.\n\nFourth number: $40 - 28 = 12$."
+    },
+    "21": {
+      "hint": "Same mean but spread out scores—where would you expect a higher top mark?",
+      "help": "Same **mean** does not mean the same **spread**.\n\nClass B’s scores are more spread out, so you expect a **higher highest score** (and probably a lower lowest) than Class A’s tight cluster.\n\nClass A stays near the mean; Class B has more extreme values."
+    },
+    "22": {
+      "hint": "Try a list whose sum is not divisible by how many numbers you have.",
+      "help": "Mean of whole numbers is **sometimes** not a whole number.\n\nExample: mean of 1, 2 → $(1+2)/2 = 1.5$.\n\nExample where it **is** whole: 2, 4, 6 → mean 4.\n\nAnswer: **Sometimes** true."
+    },
+    "23": {
+      "hint": "Mode = most common; median = middle when ordered—they are different ideas.",
+      "help": "Mia is **wrong**. The **mode** is the most frequent value, not the middle.\n\nThe **median** is the middle (or average of two middles) **after sorting**.\n\nExample: 1, 1, 100 — mode 1, median 1; 1, 2, 100 — mode still 1, median 2."
+    },
+    "24": {
+      "hint": "Can two different numbers tie for appearing most often?",
+      "help": "**True.** A list can be **bimodal** (two modes).\n\nExample: 2, 2, 5, 5, 7 — both 2 and 5 appear twice and tie for most.\n\nIf every value appears once, there is no mode."
+    },
+    "25": {
+      "hint": "Range uses only the smallest and largest—not an average of all values.",
+      "help": "Archer is **wrong**. The **range** is **highest − lowest**—a measure of **spread**, not a typical value.\n\nThe **mean** is the average. Range tells you how far apart the extremes are."
+    },
+    "26": {
+      "hint": "If every value appears once, is there a most frequent value?",
+      "help": "Sloan is **correct**. With **no repeats**, every value occurs once—no single “most common” value.\n\nWe say the data has **no mode**.\n\nIf one value repeated twice and others once, there would be a mode."
+    },
+    "27": {
+      "hint": "Try adding a huge number to a small list—does the mean jump more than the median?",
+      "help": "The **mean** uses every value, so one **very large** outlier pulls it up a lot.\n\nThe **median** depends on the middle order—it moves less.\n\nExample: 1, 2, 3, 4, 100 — mean 22, median 3. **Sometimes** the mean increases more; not **always** for every list, but the statement fits the usual outlier case → often answered **Always** in context of “very large number.”"
+    },
+    "28": {
+      "hint": "Find the mean of four reading times, then include 40 minutes as a fifth value.",
+      "help": "First mean: $(20+25+15+30)/4 = 22.5$ minutes.\n\nNew total with Archer: $90 + 40 = 130$ for **5** children. New mean: $130 \\div 5 = 26$ minutes.\n\nAdding a higher value pulls the mean up."
+    },
+    "29": {
+      "hint": "Sort for median; count repeats for mode; mean = sum ÷ 6; range = max − min.",
+      "help": "Scores: 12, 15, 9, 12, 18, 12. Sum = 78, **mean** = 13.\n\nSorted: 9, 12, 12, 12, 15, 18 — middles 12 and 12 → **median** 12.\n\n**Mode** 12 (three times). **Range** $18 - 9 = 9$."
+    },
+    "30": {
+      "hint": "Mean of four heights, then add 144 cm and divide by 5.",
+      "help": "First mean: $(132+140+135+129)/4 = 134$ cm.\n\nNew sum: $536 + 144 = 680$. New mean: $680 \\div 5 = 136$ cm.\n\nThe taller fifth friend increases the average height."
+    },
+    "31": {
+      "hint": "Mode is the amount that appears most; mean is total money ÷ 5 weeks.",
+      "help": "Amounts: £4, £4, £6, £4, £7. **Mode** = **£4** (three weeks).\n\nTotal = £25 over 5 weeks → **mean** = £5.\n\nMode shows the most common pocket money; mean shows average per week."
+    },
+    "32": {
+      "hint": "Order the seven temperatures; find repeated value, middle, and max − min.",
+      "help": "Sorted: 17, 18, 19, 20, 21, 21, 21. **Mode** = 21 (three days).\n\nMiddle (4th of 7) → **median** 20. **Range** $21 - 17 = 4$ °C."
+    },
+    "33": {
+      "hint": "Both means are 7—compare range of Archer’s scores to Sloan’s.",
+      "help": "Archer: 6, 7, 8, 7 — range $8-6=2$. Sloan: 5, 9, 6, 8 — range $9-5=4$.\n\n**Smaller range** means more **consistent** scores → **Archer** is more consistent.\n\nSame mean, different spread."
+    },
+    "34": {
+      "hint": "Which shoe size appears most in the list?",
+      "help": "Sizes: 3, 4, 4, 5, 4, 6 — **4** appears three times.\n\n**Mode** = **4**. It tells you size 4 is the **most common** shoe size in this small group—not everyone’s size, but the typical favourite for stocking or discussion."
+    },
+    "35": {
+      "hint": "Add 4, 6, and 8, then divide by 3.",
+      "help": "Sum = 18. Mean = $18 \\div 3 = 6$.\n\nQuick check: 4, 6, 8 are evenly spaced around 6."
+    },
+    "36": {
+      "hint": "Four numbers—average the two middle values after sorting.",
+      "help": "Ordered: 3, 7, 9, 12. Middles 7 and 9 → median = $(7+9)/2 = 8$.\n\nEven count always needs that extra averaging step."
+    },
+    "37": {
+      "hint": "Look for the number that appears more than once.",
+      "help": "List: 2, 3, 3, 5. The number **3** appears **twice**; 2 and 5 appear once each.\n\nThe **mode** is the value with the highest frequency, so the mode is **3**.\n\nIf every value appeared the same number of times, there would be no single mode."
+    },
+    "38": {
+      "hint": "Max 20, min 8—subtract to get range.",
+      "help": "Range = $20 - 8 = 12$.\n\nInclude every value when hunting for max and min."
+    },
+    "39": {
+      "hint": "If mean is 10 for five numbers, total = 10 × 5.",
+      "help": "Total = **50**.\n\nMean × count = sum. You do not need the individual numbers to find the total."
+    },
+    "40": {
+      "hint": "Mean 7 for four numbers → total 28. Subtract 4, 6, and 10.",
+      "help": "Total = $7 \\times 4 = 28$. Known sum = 20.\n\nFourth number = $28 - 20 = 8$."
+    },
+    "41": {
+      "hint": "Mean 12 for four numbers means total 48. Find the missing number.",
+      "help": "Total = $12 \\times 4 = 48$. Sum of three = $10+14+11=35$.\n\nFourth = $48 - 35 = 13$."
+    },
+    "42": {
+      "hint": "Mean 8 for five numbers means total 40. Mode 6 must appear most; max − min = 10.",
+      "help": "Start from the **total**: $5 \\times 8 = 40$. Use **mode 6** by repeating 6 more than any other value (often three or four 6s).\n\n**Range 10** means largest minus smallest equals 10. Test a list and check all three facts.\n\nOn a similar puzzle (mean 8, mode 5, range 10), **5, 5, 5, 10, 15** works: sum 40, mode 5, range $15-5=10$. Use the same check steps for mode 6."
+    },
+    "43": {
+      "hint": "Mean uses all scores; mode finds the most popular size—different jobs.",
+      "help": "**Mean** for exam scores uses every mark—good for **overall** performance.\n\n**Mode** for shoe sizes finds the **most stocked** size—shops care about the common size, not the average of mixed sizes.\n\nGive one clear reason for each as in the question."
+    },
+    "44": {
+      "hint": "Old total = 20 × 140; add 161; divide by 21 pupils.",
+      "help": "Old sum: $20 \\times 140 = 2800$ cm·pupils.\n\nNew sum: $2800 + 161 = 2961$. New mean: $2961 \\div 21 = 141$ cm (approximately).\n\nOne taller pupil pulls the class mean up slightly."
+    }
+  }
+}

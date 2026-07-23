@@ -29,7 +29,7 @@ export default async function WorksheetsIndexPage({ params }: Props) {
       <main className="mx-auto max-w-4xl px-4 py-8">
         <h1 className="text-2xl font-semibold text-stone-900">Worksheets</h1>
         <p className="mt-2 text-sm text-stone-600">
-          All printable sheets in one list.
+          All topics in one list (parent view).
         </p>
         <ul className="mt-6 divide-y divide-stone-200 rounded-xl border border-stone-200 bg-white">
           {worksheets.map((w) => {
@@ -53,20 +53,12 @@ export default async function WorksheetsIndexPage({ params }: Props) {
                       </p>
                     ) : null}
                   </div>
-                  <div className="flex gap-2">
-                    <Link
-                      href={`${worksheetHref(tenant, w.slug)}/print`}
-                      className="rounded-lg border border-stone-300 px-3 py-1.5 text-sm"
-                    >
-                      Print
-                    </Link>
-                    <Link
+                  <Link
                       href={`${worksheetHref(tenant, w.slug)}/edit`}
                       className="rounded-lg bg-stone-900 px-3 py-1.5 text-sm text-white"
                     >
                       Edit
                     </Link>
-                  </div>
                 </div>
               </li>
             );

@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Square perimeter = 4 × side — side is 2 cm.",
+      "help": "Perimeter $= 4 \\times 2 = 8$ cm.\n\nExample: square side 5 cm → perimeter 20 cm."
+    },
+    "2": {
+      "hint": "Rectangle perimeter = 2 × (length + width).",
+      "help": "$2 \\times (3 + 2) = 10$ cm.\n\nExample: 8 m by 5 m → 26 m.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "Area by counting squares: 3 long, 2 wide.",
+      "help": "$3 \\times 2 = 6$ unit squares cover the rectangle.\n\nExample: grid counting."
+    },
+    "4": {
+      "hint": "Distance **around** — perimeter or area?",
+      "help": "**Perimeter** goes around the outside.\n\nExample: fence length."
+    },
+    "5": {
+      "hint": "Space **inside** — perimeter or area?",
+      "help": "**Area** measures inside space.\n\nExample: paint on a wall.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "6": {
+      "hint": "Square side 4 cm — multiply by 4 for perimeter.",
+      "help": "Perimeter $= 4 \\times 4 = 16$ cm.\n\nExample: four equal sides."
+    },
+    "7": {
+      "hint": "4 rows of 2 squares — multiply rows × columns.",
+      "help": "Area $= 4 \\times 2 = 8$ square units.\n\nExample: array of unit squares."
+    },
+    "8": {
+      "hint": "Area uses squared units — cm or cm²?",
+      "help": "**cm²** for area.\n\nExample: 5 cm² not 5 cm.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "9": {
+      "hint": "Perimeter 8 by 5 rectangle: 2(8+5).",
+      "help": "Perimeter $= 2(8+5) = 26$ cm.\n\nExample: add both dimensions, double."
+    },
+    "10": {
+      "hint": "Area = length × width for rectangle.",
+      "help": "Area $= 8 \\times 5 = 40$ cm².\n\nExample: same rectangle, different measure."
+    },
+    "11": {
+      "hint": "Area formula with length and width letters.",
+      "help": "**Area = length × width** (or $A = lw$).\n\nExample: substitute numbers."
+    },
+    "12": {
+      "hint": "Square: perimeter 4×6; area 6×6.",
+      "help": "Perimeter $= 24$ m, area $= 36$ m².\n\nExample: side 6 m.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "200 cm = ? m; 3 m² = ? cm² using 1 m = 100 cm.",
+      "help": "200 cm $= 2$ m. $3$ m² $= 3 \\times 10000 = 30000$ cm² (each m is 100 cm, area scales by 100²).\n\nExample: 1 m² = 10 000 cm²."
+    },
+    "14": {
+      "hint": "L-shape: add areas of two rectangles (watch overlap).",
+      "help": "Areas $10\\times4=40$ and $6\\times4=24$ → total **64** cm² (shared 4 cm side, no double count if split cleanly).\n\nExample: split L into two rectangles."
+    },
+    "15": {
+      "hint": "Perimeter formula: 2(length + width).",
+      "help": "**Perimeter = 2 × (length + width)**.\n\nExample: plug in 10 and 3."
+    },
+    "16": {
+      "hint": "Square area 49 — side is square root of 49.",
+      "help": "Side $= \\sqrt{49} = 7$ cm.\n\nExample: $s^2=49$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "Area = length × width — find width from 60 and 12.",
+      "help": "Width $= 60 \\div 12 = 5$ cm.\n\nExample: rearrange $A=lw$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "Regular pentagon perimeter = 5 × side.",
+      "help": "$5 \\times 7 = 35$ cm.\n\nExample: five equal sides.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "19": {
+      "hint": "Field perimeter 2(40+25).",
+      "help": "$2(40+25) = 130$ m.\n\nExample: rectangle field walk.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "5 m to cm; 15 000 cm² to m².",
+      "help": "5 m $= 500$ cm. 15 000 cm² $= 1.5$ m².\n\nExample: divide cm² by 10 000."
+    },
+    "21": {
+      "hint": "Work perimeter of 6×4 and 12×2 — both area 24.",
+      "help": "A: $2(6+4)=20$ cm. B: $2(12+2)=28$ cm — **different perimeters**, same area.\n\nExample: compare both."
+    },
+    "22": {
+      "hint": "Double length and width on 3×2 — area becomes 4 times, not 2.",
+      "help": "Original area 6. Doubled dimensions 6×4 → area 24 (**×4**). Statement **never** true as “double area”.\n\nExample: test numbers."
+    },
+    "23": {
+      "hint": "Sam used area formula 7×3 — perimeter needs adding all sides twice.",
+      "help": "Mistake: used **area** formula. Perimeter $= 2(7+3)=20$ cm, not 21.\n\nExample: perimeter vs area."
+    },
+    "24": {
+      "hint": "Square side from perimeter 20; rectangle 8×2 area — compare.",
+      "help": "Square side 5 cm → area **25** cm². Rectangle area **16** cm² — **not equal**.\n\nExample: same perimeter 20."
+    },
+    "25": {
+      "hint": "Give long thin shape vs compact shape — same perimeter, smaller area.",
+      "help": "Example: rectangle **2×8** vs **5×5** — bigger perimeter does **not** force bigger area.\n\nExample: Priya wrong with counterexample."
+    },
+    "26": {
+      "hint": "Double length only — perimeter adds one extra length; area doubles.",
+      "help": "Perimeter increases by one extra length (not doubled). Area **doubles** when width fixed.\n\nExample: 3×2 → 6×2."
+    },
+    "27": {
+      "hint": "Try two rectangles with area 36 — e.g. 6×6 and 9×4.",
+      "help": "6×6 perimeter 24; 9×4 perimeter 26 — **different** perimeters. Leo **wrong**.\n\nExample: two factor pairs of 36."
+    },
+    "28": {
+      "hint": "6×6 square vs 9×4 rectangle — same area 36, compare perimeters.",
+      "help": "Square perimeter **24**; rectangle **26** — square **smaller** perimeter for same area. Statement **true** for this test.\n\nExample: compare 36 cm² shapes."
+    },
+    "29": {
+      "hint": "One poster area 50×70 — multiply by 3 for three posters.",
+      "help": "One area $3500$ cm²; three → **10 500** cm².\n\nExample: $3 \\times 50 \\times 70$."
+    },
+    "30": {
+      "hint": "Whole 9×6 minus grass corner 3×2 for path area.",
+      "help": "Path area $= 54 - 6 = 48$ m².\n\nExample: sketch L, subtract grass."
+    },
+    "31": {
+      "hint": "Perimeter once around 90×45, then ×2 for two laps.",
+      "help": "One lap $2(90+45)=270$ m; twice → **540** m.\n\nExample: double the lap."
+    },
+    "32": {
+      "hint": "Floor area 4×3.5 m², then × £12 per m².",
+      "help": "Area $= 14$ m²; cost $= 14 \\times 12 = £168$.\n\nExample: area then price."
+    },
+    "33": {
+      "hint": "Framed size 34×24 minus picture 30×20 for border area.",
+      "help": "Border area $= 34\\times24 - 30\\times20 = 816 - 600 = 216$ cm².\n\nExample: subtract inner rectangle."
+    },
+    "34": {
+      "hint": "Fence parallel to 8 m side splits 12×8 into two 6×8 plots.",
+      "help": "One plot area $= 6\\times8=48$ m²; fence length **8** m.\n\nExample: half the length."
+    },
+    "35": {
+      "hint": "Rectangle area 5×4.",
+      "help": "Area **20** cm².\n\nExample: $A=lw$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "36": {
+      "hint": "Perimeter 2(6+3).",
+      "help": "**18** cm.\n\nExample: rectangle perimeter.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "37": {
+      "hint": "Square area side² — 7×7.",
+      "help": "**49** cm².\n\nExample: $7^2$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "38": {
+      "hint": "Square perimeter 20 — side = 20÷4.",
+      "help": "Side **5** cm.\n\nExample: four equal sides.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "39": {
+      "hint": "Room floor 4×3 m².",
+      "help": "**12** m².\n\nExample: rectangle area.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "40": {
+      "hint": "Lawn = 6×4 rectangle minus 2×2 patio corner.",
+      "help": "Area $= 24 - 4 = 20$ m².\n\nExample: subtract patio.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "41": {
+      "hint": "Perimeter 30, length 10 — find width then area.",
+      "help": "$2(10+w)=30$ → $w=5$ cm. Area $= 50$ cm².\n\nExample: half perimeter minus length."
+    },
+    "42": {
+      "hint": "Pick two rectangles totalling 48 cm² — show calculation.",
+      "help": "Choose dimensions e.g. **8×4** and **6×8** split compound — show **sum of areas = 48** cm².\n\nExample: your sketch."
+    },
+    "43": {
+      "hint": "Find two factor pairs of 72 — compute each perimeter.",
+      "help": "e.g. **8×9** perimeter 34; **6×12** perimeter 36 — different perimeters.\n\nExample: list factor pairs."
+    },
+    "44": {
+      "hint": "Small square side after cutting 8 cm square into four — half each dimension.",
+      "help": "Small square side **4** cm; perimeter **16** cm.\n\nExample: quarter of big square."
+    }
+  }
+}

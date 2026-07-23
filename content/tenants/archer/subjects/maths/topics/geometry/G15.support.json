@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Short line length — ruler or clock?",
+      "help": "A **ruler** measures length. A clock measures time.\n\nExample: line segment in cm."
+    },
+    "2": {
+      "hint": "Ends at 5 cm when starting at 0 — length is 5 cm.",
+      "help": "Length **5 cm**.\n\nExample: read scale at end point.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "Subtract start from end: 7 − 2.",
+      "help": "Length $= 7 - 2 = 5$ cm.\n\nExample: not starting at zero.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "4": {
+      "hint": "How many mm in one cm?",
+      "help": "**10** millimetres in 1 centimetre.\n\nExample: 1 cm = 10 mm.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "Square corner angle size?",
+      "help": "**90°** right angle.\n\nExample: corner of paper.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "6": {
+      "hint": "Angle size — protractor or compasses?",
+      "help": "A **protractor** measures angles.\n\nExample: measure 40°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "7": {
+      "hint": "30° compared to 90° — smaller angle?",
+      "help": "**Smaller** than a right angle (acute).\n\nExample: 30° < 90°."
+    },
+    "8": {
+      "hint": "120° — between 90 and 180?",
+      "help": "**Obtuse** (greater than 90°, less than 180°).\n\nExample: 120° obtuse."
+    },
+    "9": {
+      "hint": "Equipment for line segment length?",
+      "help": "**Ruler** (or tape measure).\n\nExample: cm/mm scale.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "10": {
+      "hint": "Equipment for angle size?",
+      "help": "**Protractor**.\n\nExample: degrees scale.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "7.4 cm to nearest whole cm — look at tenths.",
+      "help": "Nearest whole cm: **7** cm (7.4 rounds down).\n\nExample: 7.6 → 8 cm."
+    },
+    "12": {
+      "hint": "65° — less than 90?",
+      "help": "**Acute**.\n\nExample: 65° acute.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "120° classification?",
+      "help": "**Obtuse**.\n\nExample: between 90° and 180°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "200° — more than 180?",
+      "help": "**Reflex** (greater than 180°).\n\nExample: 200° reflex.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "Exactly 90° angle name?",
+      "help": "**Right angle**.\n\nExample: square corner.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "16": {
+      "hint": "Line up centre of protractor on vertex, align baseline, read scale.",
+      "help": "Place protractor **centre on corner**, zero line on one arm, read where second arm crosses **degree scale**.\n\nExample: measure carefully."
+    },
+    "17": {
+      "hint": "Difference of lengths 5.7 and 3.2.",
+      "help": "$5.7 - 3.2 = 2.5$ cm difference.\n\nExample: subtract smaller from larger."
+    },
+    "18": {
+      "hint": "12 cm = how many mm?",
+      "help": "$12 \\times 10 = 120$ mm.\n\nExample: cm to mm ×10.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "19": {
+      "hint": "Difference between estimate 45° and reading 47°.",
+      "help": "$47 - 45 = 2°$ difference.\n\nExample: estimate vs measure.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "Bearings measured from North, clockwise or anticlockwise?",
+      "help": "From **North**, measured **clockwise**.\n\nExample: 050° bearing."
+    },
+    "21": {
+      "hint": "mm in 1 cm?",
+      "help": "**10** mm.\n\nExample: 1 cm = 10 mm.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "1 km = 1000 m — multiply 2.5 by 1000.",
+      "help": "**2500** m.\n\nExample: km to m ×1000.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "23": {
+      "hint": "Measurement needs a **unit** — why “about 8” fails?",
+      "help": "Without **units** (cm, m, etc.) the size is unclear — incomplete.\n\nExample: 8 cm vs 8 m."
+    },
+    "24": {
+      "hint": "Between 90° and 180° — obtuse definition?",
+      "help": "**True** — obtuse angles are strictly between 90° and 180°.\n\nExample: 100° obtuse."
+    },
+    "25": {
+      "hint": "Protractor only shows 0–180° at once — 370° impossible in one placement?",
+      "help": "A single standard protractor reading is **0° to 180°**; **370°** is more than one full turn — not one valid single reading.\n\nExample: use angle mod 360."
+    },
+    "26": {
+      "hint": "Ruler started at 1 cm not 0 — subtract 1 from reading.",
+      "help": "Mistake: forgot to subtract start. Correct length $= 9 - 1 = 8$ cm.\n\nExample: always subtract zero offset."
+    },
+    "27": {
+      "hint": "Reflex vs straight angle 180° — which is bigger?",
+      "help": "Reflex **> 180°** — **always** bigger than straight angle.\n\nExample: 270° reflex."
+    },
+    "28": {
+      "hint": "Why three digits on bearings — sort order 060 vs 120?",
+      "help": "**060°** keeps place value clear so **60** is not confused with **600** — always three digits.\n\nExample: 005°, 090°."
+    },
+    "29": {
+      "hint": "Angle of elevation vs bearing from North.",
+      "help": "**Elevation**: angle **up** from horizontal. **Bearing**: clockwise from **North**.\n\nExample: different references."
+    },
+    "30": {
+      "hint": "Check 90° between 3 cm and 4 cm sides with protractor at corner.",
+      "help": "Place protractor at corner of sides — read **90°** if triangle is right-angled.\n\nExample: verify square corner."
+    },
+    "31": {
+      "hint": "5-12-13 triangle — right angle between 5 and 12?",
+      "help": "$5^2+12^2=13^2$ — matches right triangle relationship — **consistent** with right angle.\n\nExample: Pythagoras check."
+    },
+    "32": {
+      "hint": "North up, measure 075° clockwise from North.",
+      "help": "Draw **North** arrow up; measure **75° clockwise** from North to bearing direction.\n\nExample: sketch ray at 075°."
+    },
+    "33": {
+      "hint": "Triangle angles should sum 180° — add 50+65+70.",
+      "help": "Sum $= 185°$ — **not sensible** (should be 180°) — measurement error likely.\n\nExample: check sum."
+    },
+    "34": {
+      "hint": "8.5 cm on map × 2 km per cm.",
+      "help": "Real distance $= 8.5 \\times 2 = 17$ km.\n\nExample: scale multiply."
+    },
+    "35": {
+      "hint": "Obtuse 130° — inner vs outer protractor scale.",
+      "help": "Wrong scale gave 50°; **130°** matches **obtuse** angle.\n\nExample: use outer scale for obtuse."
+    },
+    "36": {
+      "hint": "Back bearing: add or subtract 180° from 250°.",
+      "help": "Boat from lighthouse: $250 - 180 = 070°$ (or $250+180=430→070$).\n\nExample: reverse bearing ±180°."
+    },
+    "37": {
+      "hint": "Protractor centre must sit on vertex — what if off?",
+      "help": "Misaligned centre gives **wrong angle** — always centre on **corner point**.\n\nExample: shift causes error."
+    },
+    "38": {
+      "hint": "45.6 m real ÷ 5 m per cm on drawing.",
+      "help": "Drawing length $= 45.6 \\div 5 = 9.12$ cm.\n\nExample: real ÷ scale factor."
+    },
+    "39": {
+      "hint": "Angle between bearings 040° and 160° — subtract.",
+      "help": "$160 - 40 = 120°$ between directions.\n\nExample: difference of bearings."
+    },
+    "40": {
+      "hint": "Pick scale and real length — find drawing length.",
+      "help": "State scale e.g. 1 cm : 4 m, real 12 m → drawing **3** cm.\n\nExample: divide real by metres per cm."
+    },
+    "41": {
+      "hint": "Record your measured length of 6.4 cm line.",
+      "help": "Use ruler carefully — state measurement near **6.4 cm** to nearest mm.\n\nExample: read mm marks."
+    },
+    "42": {
+      "hint": "135° — between 90 and 180?",
+      "help": "**Obtuse**.\n\nExample: 135° > 90°.\n\nPicture what is happening, then use the method step by step in your working."
+    }
+  }
+}

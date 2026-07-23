@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Count unit squares: 4 by 2 grid.",
+      "help": "$4 \\times 2 = 8$ unit squares.\n\nExample: array area.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "2": {
+      "hint": "3 rows of 5 unit squares.",
+      "help": "Area $= 3 \\times 5 = 15$ square units.\n\nExample: rectangle area."
+    },
+    "3": {
+      "hint": "Triangle is half of 6-square rectangle.",
+      "help": "Half of 6 → area **3** square units.\n\nExample: $A=\\frac12 bh$ idea."
+    },
+    "4": {
+      "hint": "Moving a triangle piece to make rectangle — area change?",
+      "help": "Rearranging without overlap **does not change area** — **no change**.\n\nExample: parallelogram to rectangle."
+    },
+    "5": {
+      "hint": "Volume = 3×2×1 unit cubes.",
+      "help": "$3 \\times 2 \\times 1 = 6$ unit cubes.\n\nExample: cuboid counting."
+    },
+    "6": {
+      "hint": "Cube side 2 — 2×2×2 small cubes.",
+      "help": "$2^3 = 8$ cubes fill it.\n\nExample: 2 cm cube volume 8 cm³.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "7": {
+      "hint": "Flat space — cm² or cm³?",
+      "help": "**cm²** for area.\n\nExample: paper area.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "8": {
+      "hint": "Space inside 3D — cm² or cm³?",
+      "help": "**cm³** for volume.\n\nExample: box fill.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "9": {
+      "hint": "Triangle area ½ × 8 × 5.",
+      "help": "$\\frac12 \\times 8 \\times 5 = 20$ cm².\n\nExample: substitute base and height."
+    },
+    "10": {
+      "hint": "Parallelogram area base × height: 6×4.",
+      "help": "**24** cm².\n\nExample: use perpendicular height.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "½ × 10 × 6 for triangle.",
+      "help": "**30** cm².\n\nExample: triangle formula.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "12": {
+      "hint": "9 × 5 parallelogram area.",
+      "help": "**45** cm².\n\nExample: base times height.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "Trapezium ½(a+b)h with a=4, b=8, h=3.",
+      "help": "$\\frac12(4+8)\\times3=18$ cm².\n\nExample: average parallel sides times height."
+    },
+    "14": {
+      "hint": "One layer 4×3 unit cubes.",
+      "help": "**12** cubes in one layer.\n\nExample: base layer count.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "12 cubes per layer, 2 layers high.",
+      "help": "Volume **24** cm³.\n\nExample: 12×2.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "16": {
+      "hint": "5×2×2 cuboid volume.",
+      "help": "**20** cm³.\n\nExample: $lwh$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "Prism volume cross-section × length: 12×10.",
+      "help": "**120** cm³.\n\nExample: uniform cross-section.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "Cylinder πr²h with r=3, h=10, π≈3.14.",
+      "help": "$3.14\\times9\\times10\\approx283$ cm³ to nearest whole.\n\nExample: round at end."
+    },
+    "19": {
+      "hint": "Cube 4³.",
+      "help": "**64** cm³.\n\nExample: edge cubed.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "Area 30, base 12 — height from ½bh.",
+      "help": "$30=\\frac12\\times12\\times h$ → $h=5$ cm.\n\nExample: rearrange triangle area."
+    },
+    "21": {
+      "hint": "Cut triangle off parallelogram and slide to other side — becomes rectangle.",
+      "help": "Cut-and-move shows **same area** as rectangle **base × height**.\n\nExample: visual proof."
+    },
+    "22": {
+      "hint": "Trapezium split into rectangle + triangles — average parallel sides.",
+      "help": "Split explains **½(a+b)h** — mean of parallel sides times height.\n\nExample: two triangles on rectangle."
+    },
+    "23": {
+      "hint": "Double base, same height — triangle area doubles?",
+      "help": "**Always** — $A=\\frac12 bh$ doubles when $b$ doubles.\n\nExample: b=6→12, h fixed."
+    },
+    "24": {
+      "hint": "Same base and height — parallelogram vs rectangle area.",
+      "help": "**Equal** areas — both $bh$.\n\nExample: same dimensions.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "25": {
+      "hint": "Triangular prism volume not always lwh — use cross-section × length.",
+      "help": "Sam **wrong** for triangular prism — volume $= $ **area of triangle face × length**, not simply $lwh$ unless cuboid.\n\nExample: compare cuboid vs triangular prism."
+    },
+    "26": {
+      "hint": "Another cuboid with volume 12 — factor 12.",
+      "help": "e.g. **3×2×2** or **4×3×1** cm — product 12.\n\nExample: different dimensions, same volume."
+    },
+    "27": {
+      "hint": "Compare cross-section area × height for cylinder vs cuboid.",
+      "help": "Whichever has **larger cross-section area** (for same height) has larger volume.\n\nExample: $\\pi r^2$ vs rectangle area."
+    },
+    "28": {
+      "hint": "Double base AND height — area ×4 not ×2.",
+      "help": "Leo **wrong** — area scales by product; **×4** when both doubled.\n\nExample: ½(2b)(2h)=4×½bh."
+    },
+    "29": {
+      "hint": "Triangle garden ½×6×4.",
+      "help": "**12** m².\n\nExample: area formula.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "30": {
+      "hint": "25×12 parallelogram field.",
+      "help": "**300** m².\n\nExample: base×height.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "31": {
+      "hint": "Trapezium ½(15+9)×8.",
+      "help": "**96** m².\n\nExample: parallel sides 15 and 9.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "32": {
+      "hint": "3.5 m² cross-section × 6 m length.",
+      "help": "**21** m³.\n\nExample: prism volume.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "33": {
+      "hint": "πr²h, r=2, h=5, π≈3.14.",
+      "help": "$3.14\\times4\\times5=62.8$ m³ to 1 d.p.\n\nExample: cylinder tank."
+    },
+    "34": {
+      "hint": "40×30×25 cm³ then ÷1000 for litres.",
+      "help": "Volume $=30000$ cm³ $=30$ litres.\n\nExample: 1000 cm³ per litre."
+    },
+    "35": {
+      "hint": "½×10×4 triangle.",
+      "help": "**20** cm².\n\nExample: quick triangle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "36": {
+      "hint": "3×4×5 cuboid.",
+      "help": "**60** cm³.\n\nExample: multiply three edges.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "37": {
+      "hint": "8×6 rectangle area.",
+      "help": "**48** cm².\n\nExample: lw.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "38": {
+      "hint": "3×3×3 cube.",
+      "help": "**27** cm³.\n\nExample: 3³.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "39": {
+      "hint": "8×5 parallelogram.",
+      "help": "**40** cm².\n\nExample: bh.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "40": {
+      "hint": "π×1²×10 with π≈3.14.",
+      "help": "About **31.4** cm³.\n\nExample: small cylinder.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "41": {
+      "hint": "45=½×b×9 — solve b.",
+      "help": "$b=10$ cm.\n\nExample: area rearrange.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "Rectangle 8×5 plus triangle ½×8×3 on top.",
+      "help": "$40+12=52$ cm² total.\n\nExample: add areas.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "43": {
+      "hint": "785=πr²×10, π≈3.14 — find r.",
+      "help": "$r^2=785/(31.4)=25$ → $r=5$ cm approx.\n\nExample: divide volume by πh."
+    },
+    "44": {
+      "hint": "Stack identical cross-sections — volume = area × length.",
+      "help": "Each slice has same **cross-section area**; stacking gives **area × length** for any prism (triangle, trapezium, circle→cylinder).\n\nExample: layers of same shape."
+    }
+  }
+}

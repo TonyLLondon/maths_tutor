@@ -57,7 +57,7 @@ export async function WorksheetEditScreen({
         <h1 className="text-xl font-semibold text-stone-900">Edit worksheet</h1>
         <p className="mt-2 text-sm text-stone-600">
           For parents: change the text below, then save. Children usually use
-          Practice or Print instead.
+          Go on this topic instead.
         </p>
         <WorksheetEditor tenant={tenant} slug={slug} initialMarkdown={raw} />
       </main>

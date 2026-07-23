@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Which experiment gives you more results to learn from — 2 flips or 20?",
+      "help": "More flips give **more information** about how the coin behaves.\n\nTwo flips can be all heads by luck; twenty flips show a clearer pattern.\n\nChoose **20 times**."
+    },
+    "2": {
+      "hint": "Compare the numbers 5 and 50 — which group is bigger?",
+      "help": "A **sample** is the group you study.\n\n50 children is a **bigger** sample than 5.\n\nBigger sample → usually better information."
+    },
+    "3": {
+      "hint": "One flip is only one result — is that a large or small sample?",
+      "help": "A **large** sample has many trials.\n\nOne flip is a **very small** sample.\n\nAnswer **small**."
+    },
+    "4": {
+      "hint": "Compare 100 spins to 10 spins.",
+      "help": "100 > 10, so 100 spins is a **larger** sample.\n\nMore spins → more reliable picture of the spinner."
+    },
+    "5": {
+      "hint": "Would answers from one child represent the whole class well?",
+      "help": "One child might love a fruit nobody else likes.\n\n**20 children** gives a much better idea of class favourites.\n\nChoose the larger group."
+    },
+    "6": {
+      "hint": "Does repeating an experiment many times usually teach you more?",
+      "help": "More trials → more data → better sense of true probabilities.\n\nAnswer **true**."
+    },
+    "7": {
+      "hint": "3 rolls plus 30 more rolls — does that increase the sample size?",
+      "help": "Adding 30 rolls makes **33** rolls total — a **bigger** sample than 3 alone.\n\nAnswer **yes**."
+    },
+    "8": {
+      "hint": "Which experiment has more flips — 4 or 400?",
+      "help": "400 flips average out luck better than 4.\n\nTrust **400** more for estimating P(heads)."
+    },
+    "9": {
+      "hint": "Which number is larger — 15 or 150?",
+      "help": "**150 trials** is the larger sample.\n\nLarger → usually more reliable estimate."
+    },
+    "10": {
+      "hint": "More trials generally improve estimates — true or false?",
+      "help": "With more data, relative frequency usually gets **closer** to the true probability.\n\nAnswer **true**."
+    },
+    "11": {
+      "hint": "50 rolls gives a steadier fraction than 5 rolls — which do you trust?",
+      "help": "Relative frequency from **50** rolls is usually **more reliable** than from 5.\n\nChoose 50 rolls."
+    },
+    "12": {
+      "hint": "Fair testing needs many spins — 200 or 20?",
+      "help": "**200 spins** give a much better estimate of true section probabilities.\n\nChoose 200."
+    },
+    "13": {
+      "hint": "Which gives relative frequency closer to 0.5 on average — 10 or 1000 flips?",
+      "help": "**1000 flips** — large samples usually estimate P(heads) ≈ 0.5 more reliably.\n\nChoose 1000."
+    },
+    "14": {
+      "hint": "Find P(6) from three sixes in five rolls, then say why five rolls is too few.",
+      "help": "Estimate P(6) = $\\frac{3}{5}$ from data.\n\nBut five rolls is **too small** — luck can make three sixes happen on a fair dice.\n\nWrite estimate and one sentence on sample size."
+    },
+    "15": {
+      "hint": "6 out of 10 prefer football — write the fraction and state sample size 10.",
+      "help": "Estimate = $\\frac{6}{10} = 0.6$.\n\nSample size = **10 pupils**.\n\nShow both."
+    },
+    "16": {
+      "hint": "300 out of 500 — fraction estimate; sample size is 500.",
+      "help": "Estimate = $\\frac{300}{500} = 0.6$.\n\nSample size **500** vs question 15's **10** — much larger here."
+    },
+    "17": {
+      "hint": "Same estimate 0.6, but which survey asked more people?",
+      "help": "**500 pupils** — bigger sample usually means estimate closer to true class preference.\n\nExplain that 500 reduces luck error more than 10."
+    },
+    "18": {
+      "hint": "20 items from 10,000 — is 20 enough to be sure about the whole batch?",
+      "help": "20 is a **tiny** fraction of production.\n\nDefects might be missed — **not** confident from such a small sample.\n\nExplain briefly."
+    },
+    "19": {
+      "hint": "How could the pollster collect answers from more people?",
+      "help": "Ask **more people** (larger sample), or choose people from **different places** so the sample represents everyone better.\n\nOne sensible improvement is enough."
+    },
+    "20": {
+      "hint": "As trials increase, does relative frequency usually move toward theoretical probability?",
+      "help": "Generally **yes** — relative frequency gets **closer** to the true probability as trials grow.\n\nDescribe that trend in your words."
+    },
+    "21": {
+      "hint": "Trust the estimate from 2000 spins or 20 spins?",
+      "help": "**2000 spins** — much larger sample, so estimate of true probability is more trustworthy.\n\nExplain using sample size."
+    },
+    "22": {
+      "hint": "One roll gives relative frequency 1 or 0 for showing 4 — why is that useless as P(4)?",
+      "help": "One roll → either $\\frac{1}{1}$ or $\\frac{0}{1}$ — not a fair estimate of long-run P(4) = $\\frac{1}{6}$.\n\nNeed **many** rolls."
+    },
+    "23": {
+      "hint": "Four heads in four flips can happen on a fair coin — does that prove bias?",
+      "help": "Fair coins sometimes give streaks.\n\nFour flips is **far too small** to prove the coin is biased.\n\nExplain luck and small sample."
+    },
+    "24": {
+      "hint": "All 5 tested work — does that prove all 1000 work?",
+      "help": "Five working batteries is **not** reliable for 1000.\n\nSample too small; faulty ones might not appear in only 5.\n\nAnswer **not reliable**."
+    },
+    "25": {
+      "hint": "Can a big sample ever give the exact true probability as a decimal from data?",
+      "help": "Archer is **wrong**.\n\nEven huge samples give **estimates** (relative frequency), not always the exact true value.\n\nExplain estimate vs exact probability."
+    },
+    "26": {
+      "hint": "2000 flips should land nearer 0.6 than 20 flips on average — which student?",
+      "help": "Student with **2000** flips — larger sample → relative frequency usually closer to true 0.6.\n\nExplain why."
+    },
+    "27": {
+      "hint": "Does bigger sample usually make estimates worse or better?",
+      "help": "Bigger sample → **more accurate** estimates on average.\n\nAnswer **never** less accurate — increasing size helps reliability."
+    },
+    "28": {
+      "hint": "6 wins in 8 spins is $\\frac{3}{4}$ — could a fair spinner still do that?",
+      "help": "Yes, by **luck** in only 8 spins.\n\nTrue P(win) might be lower — estimate **0.75** may be **misleading** because sample is tiny.\n\nExplain."
+    },
+    "29": {
+      "hint": "Can two people represent a whole country?",
+      "help": "Sample of **2** is far too small and not representative.\n\nCannot claim it shows the **whole country**.\n\nExplain bias and size."
+    },
+    "30": {
+      "hint": "Is 100 always enough for every situation in the world?",
+      "help": "Answer **false**.\n\n\"Big enough\" depends on how accurate you need to be and how varied the population is.\n\n100 might be fine for a rough idea but not always for precise claims."
+    },
+    "31": {
+      "hint": "Doubling sample improves reliability but does not magically fix every error — explain gently.",
+      "help": "Accuracy does not **double** when sample doubles, but **more data** usually shrinks how far off you might be.\n\nExplain in plain language."
+    },
+    "32": {
+      "hint": "Which group represents the whole school better — one class of 15 or 300 across school?",
+      "help": "**300 pupils across the school** — wider and larger sample.\n\nOne class might all walk or all take the bus by coincidence.\n\nExplain representativeness and size."
+    },
+    "33": {
+      "hint": "Four sixes in twelve rolls might be luck — what would you do next?",
+      "help": "Relative frequency $\\frac{1}{3}$ does not **prove** bias.\n\n**Roll many more times** and compare to $\\frac{1}{6}$.\n\nDescribe repeating with larger sample."
+    },
+    "34": {
+      "hint": "3200 yes out of 4000 — fraction and why 4000 is a large reliable sample.",
+      "help": "Estimate = $\\frac{3200}{4000} = 0.8$.\n\n4000 players is a **large** sample → estimate likely close to true enjoyment rate.\n\nShow both parts."
+    },
+    "35": {
+      "hint": "30 people vs 3000 — which proportion estimate is usually nearer the truth?",
+      "help": "**Researcher B (3000 people, 52%)** — much larger sample.\n\nA's 60% from 30 can swing wildly by luck.\n\nExplain sample size."
+    },
+    "36": {
+      "hint": "2 faulty in 50 → scale to 50,000; note testing only 50 from 50,000.",
+      "help": "Rate = $\\frac{2}{50} = 0.04$ → estimate $0.04 \\times 50000 = 2000$ faulty.\n\nLimitation: **only 50 tested** — rare defects might be missed."
+    },
+    "37": {
+      "hint": "Why do polls use thousands of voters, not dozens?",
+      "help": "Thousands give **stable** estimates of how the country might vote.\n\nDozens could match one town by accident.\n\nExplain reliability and representation."
+    },
+    "38": {
+      "hint": "750 red out of 3000 — simplify the fraction; large sample makes estimate trustworthy.",
+      "help": "P(red) ≈ $\\frac{750}{3000} = \\frac{1}{4}$.\n\n3000 spins is **large** → good estimate of true probability.\n\nShow fraction and explanation."
+    },
+    "39": {
+      "hint": "Plan many drops, count point-up, divide by total drops.",
+      "help": "Choose **200+ drops** so relative frequency stabilizes.\n\nEstimate = $\\frac{\\text{point up}}{\\text{total drops}}$.\n\nExplain why you picked that sample size."
+    },
+    "40": {
+      "hint": "Use numbers: true P = 0.5 but 4 flips all heads gives estimate 1.0.",
+      "help": "Small sample can give $\\frac{4}{4}=1$ while true probability stays 0.5.\n\nShow how **luck** in tiny samples misleads.\n\nUse your own numeric example."
+    },
+    "41": {
+      "hint": "Needing accuracy within 2% requires many more people than a rough guess.",
+      "help": "Tight accuracy needs **large** samples so random error is small.\n\nRough projects can use smaller samples.\n\nExplain in general terms."
+    },
+    "42": {
+      "hint": "Compare relative frequency of heads after 10, 100, and 10,000 fair coin flips.",
+      "help": "At 10 flips, result might be far from 0.5.\n\nAt 100, usually closer.\n\nAt 10,000, very close to 0.5 on average.\n\nLink **sample size** to **reliability**."
+    }
+  }
+}

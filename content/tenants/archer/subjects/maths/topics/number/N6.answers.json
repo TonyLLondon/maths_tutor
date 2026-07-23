@@ -2,119 +2,231 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "3²",
+      "accept": [
+        "3²",
+        "3^2",
+        "3 squared"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "25",
+      "accept": [
+        "25",
+        "twenty five",
+        "twenty-five"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "9",
+      "accept": [
+        "9",
+        "nine"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "16",
+      "accept": [
+        "16",
+        "sixteen"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "0",
+      "accept": [
+        "0",
+        "zero"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 729
+    },
+    "11": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 755
+    },
+    "12": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three",
+        "2^3",
+        "2³"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "13": {
       "display": "36",
       "accept": [
         "36"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "14": {
       "display": "27",
       "accept": [
         "27"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 792
     },
-    "3": {
+    "15": {
       "display": "7",
       "accept": [
         "7"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 824
     },
-    "4": {
+    "16": {
       "display": "3",
       "accept": [
         "3"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 857
     },
-    "5": {
+    "17": {
       "display": "81",
       "accept": [
         "81"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 889
     },
-    "6": {
+    "18": {
       "display": "8",
       "accept": [
         "8"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 921
     },
-    "7": {
+    "19": {
       "display": "9",
       "accept": [
         "9"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 953
     },
-    "8": {
+    "20": {
       "display": "4",
       "accept": [
         "4"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 986
     },
-    "9": {
+    "21": {
       "display": "144",
       "accept": [
         "144"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 1018
     },
-    "10": {
+    "22": {
       "display": "125",
       "accept": [
         "125"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 1050
     },
-    "11": {
+    "23": {
       "display": "16",
       "accept": [
         "16"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 760
     },
-    "12": {
+    "24": {
       "display": "-8",
       "accept": [
         "-8"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 857
     },
-    "13": {
+    "25": {
       "display": "12",
       "accept": [
         "12"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 953
     },
-    "14": {
+    "26": {
       "display": "5",
       "accept": [
         "5"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 1050
     },
-    "15": {
-      "display": "No \u2014 e.g. (1/2)\u00b2 = 1/4, which is smaller than 1/2. Squaring a fraction between 0 and 1 makes it smaller.",
+    "27": {
+      "display": "No — e.g. (1/2)² = 1/4, which is smaller than 1/2. Squaring a fraction between 0 and 1 makes it smaller.",
       "accept": [
         "no",
         "not correct",
@@ -123,38 +235,38 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1180
     },
-    "16": {
+    "28": {
       "display": "Always",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1255
     },
-    "17": {
-      "display": "The symbol \u221a means the positive square root, so \u221a64 = 8. \u22128 is the other number that squares to 64, but it is written as \u2212\u221a64, not \u221a64.",
+    "29": {
+      "display": "The symbol √ means the positive square root, so √64 = 8. −8 is the other number that squares to 64, but it is written as −√64, not √64.",
       "accept": [
         "8",
         "positive"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1330
     },
-    "18": {
+    "30": {
       "display": "Always",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1405
     },
-    "19": {
-      "display": "3\u00b2 = 9 is bigger than 2\u00b3 = 8. A power shows repeated multiplication: 2\u00b3 = 2\u00d72\u00d72 and 3\u00b2 = 3\u00d73.",
+    "31": {
+      "display": "3² = 9 is bigger than 2³ = 8. A power shows repeated multiplication: 2³ = 2×2×2 and 3² = 3×3.",
       "accept": [
         "9",
         "8",
@@ -163,9 +275,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1480
     },
-    "20": {
+    "32": {
       "display": "11 m",
       "accept": [
         "11",
@@ -173,9 +285,9 @@
         "11 m"
       ],
       "tier": 3,
-      "rating": 1976
+      "rating": 1620
     },
-    "21": {
+    "33": {
       "display": "2 m",
       "accept": [
         "2",
@@ -183,10 +295,10 @@
         "2 m"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1695
     },
-    "22": {
-      "display": "Wrong \u2014 10\u00b2 = 100 and 10\u00b3 = 1000, so 10\u00b3 is 10 times bigger than 10\u00b2, not double.",
+    "34": {
+      "display": "Wrong — 10² = 100 and 10³ = 1000, so 10³ is 10 times bigger than 10², not double.",
       "accept": [
         "100",
         "1000",
@@ -194,66 +306,66 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1770
     },
-    "23": {
-      "display": "49 m\u00b2",
+    "35": {
+      "display": "49 m²",
       "accept": [
         "49",
         "49m2",
         "49 m2",
-        "49 m\u00b2"
+        "49 m²"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1845
     },
-    "24": {
-      "display": "64 cm\u00b3",
+    "36": {
+      "display": "64 cm³",
       "accept": [
         "64",
         "64cm3",
         "64 cm3",
-        "64 cm\u00b3"
+        "64 cm³"
       ],
       "tier": 3,
-      "rating": 2024
+      "rating": 1920
     },
-    "25": {
+    "37": {
       "display": "15",
       "accept": [
         "15"
       ],
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "38": {
       "display": "10",
       "accept": [
         "10"
       ],
       "tier": 3,
-      "rating": 2048
+      "rating": 1907
     },
-    "27": {
-      "display": "Between 8 and 9, since 8\u00b2 = 64 and 9\u00b2 = 81, and 64 < 70 < 81.",
+    "39": {
+      "display": "Between 8 and 9, since 8² = 64 and 9² = 81, and 64 < 70 < 81.",
       "accept": [
         "8",
         "9"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1953
     },
-    "28": {
-      "display": "2\u00b3 \u00d7 2\u00b2 = 8 \u00d7 4 = 32, and 2\u2075 = 32 \u2014 the same answer, because adding the powers (3+2=5) matches multiplying the values.",
+    "40": {
+      "display": "2³ × 2² = 8 × 4 = 32, and 2⁵ = 32 — the same answer, because adding the powers (3+2=5) matches multiplying the values.",
       "accept": [
         "32"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 2000
     },
-    "29": {
+    "41": {
       "display": "16, 25 and 36 are perfect squares",
       "accept": [
         "16 25 36",
@@ -261,10 +373,10 @@
         "16 25 and 36"
       ],
       "tier": 2,
-      "rating": 1576
+      "rating": 1420
     },
-    "30": {
-      "display": "No \u2014 only some cube numbers are also square numbers (1 = 1\u00b2 = 1\u00b3 and 64 = 8\u00b2 = 4\u00b3), but 8 and 27 are not perfect squares.",
+    "42": {
+      "display": "No — only some cube numbers are also square numbers (1 = 1² = 1³ and 64 = 8² = 4³), but 8 and 27 are not perfect squares.",
       "accept": [
         "no",
         "not correct",
@@ -273,7 +385,7 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1588
+      "rating": 1680
     }
   }
 }

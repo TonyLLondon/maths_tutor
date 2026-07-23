@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Count the results one coin can show.",
+      "help": "One coin → **2** outcomes: heads and tails.\n\nThat set is the possibility space."
+    },
+    "2": {
+      "hint": "The missing outcome has tail first, then head.",
+      "help": "Complete list: HH, HT, TH, **TT**.\n\nFour outcomes for two coins."
+    },
+    "3": {
+      "hint": "The spinner lands on red or blue only.",
+      "help": "The **possibility space** is the full list of results that can happen.\n\nThis spinner only shows red or blue, so the space is **{red, blue}** — **2** outcomes."
+    },
+    "4": {
+      "hint": "Multiply: 2 coin outcomes × 2 spinner numbers.",
+      "help": "Combined outcomes = $2 \\times 2 = 4$.\n\nCoin and spinner are independent."
+    },
+    "5": {
+      "hint": "List H1, H2, T1, T2.",
+      "help": "Combine each coin result with each spinner number.\n\nWrite all four outcomes: **H1, H2, T1, T2**.\n\nEach pair is one cell in a 2×2 possibility grid."
+    },
+    "6": {
+      "hint": "Both heads means the outcome HH.",
+      "help": "Outcome **HH** means first coin heads and second coin heads.\n\nAnswer **HH**."
+    },
+    "7": {
+      "hint": "Exactly one head means HT or TH — not HH or TT.",
+      "help": "Outcomes with exactly one head: **HT** and **TH**.\n\nTwo outcomes."
+    },
+    "8": {
+      "hint": "Cells in a 2 by 3 grid — multiply rows by columns.",
+      "help": "Cells = $2 \\times 3 = 6$.\n\nEach cell is one combined outcome in a grid."
+    },
+    "9": {
+      "hint": "A standard dice has six faces.",
+      "help": "One fair dice roll has six equally likely faces.\n\nThe possibility space is {1, 2, 3, 4, 5, 6}, so there are **6** outcomes in total."
+    },
+    "10": {
+      "hint": "Two coins → four ordered outcomes.",
+      "help": "Flip one coin, then the other — order matters.\n\nThe four outcomes **HH, HT, TH, TT** fill the possibility space.\n\nEach has probability $\\frac{1}{4}$ on fair coins."
+    },
+    "11": {
+      "hint": "Same as Q4: coin × spinner with 2 numbers.",
+      "help": "Multiply the number of coin outcomes by spinner numbers: $2 \\times 2 = 4$.\n\nYou can draw a grid with 2 rows and 2 columns — **4** cells in the combined space."
+    },
+    "12": {
+      "hint": "The list needs the outcome with two tails.",
+      "help": "Missing outcome: **HH** if you have TT, TH, HT — complete to four outcomes.\n\nFull list: TT, TH, HT, **HH**."
+    },
+    "13": {
+      "hint": "Two dice give 6×6 cells — each cell is one pair, not one total.",
+      "help": "Sample space for two dice has **36** ordered pairs (1,1) through (6,6).\n\nA diagram can show **totals** in cells, but there are still 36 equally likely pairs."
+    },
+    "14": {
+      "hint": "On a total grid, count cells where dice add to 8.",
+      "help": "Pairs giving 8: (2,6), (3,5), (4,4), (5,3), (6,2) → **5** outcomes out of 36.\n\nCount on your diagram."
+    },
+    "15": {
+      "hint": "Total 12 only from double six.",
+      "help": "Only (6,6) gives total 12 → **1** way.\n\nP(total 12) = $\\frac{1}{36}$."
+    },
+    "16": {
+      "hint": "Draw rows for coin H,T and columns for dice 1–4.",
+      "help": "Possibility space has $2 \\times 4 = 8$ outcomes.\n\nDescribe grid or list H1…H4, T1…T4."
+    },
+    "17": {
+      "hint": "Count cells with heads and an even dice (2 or 4).",
+      "help": "Even on 4-sided dice: 2 and 4.\n\nFavourable: H2, H4 → **2** out of 8.\n\nP = $\\frac{2}{8} = \\frac{1}{4}$."
+    },
+    "18": {
+      "hint": "Write all four two-coin outcomes.",
+      "help": "Two fair coins give four ordered outcomes.\n\nList every one: **HH, HT, TH, TT** — that is the complete possibility space before you find any probability."
+    },
+    "19": {
+      "hint": "Exactly one head is HT or TH — 2 out of 4.",
+      "help": "Exactly one head means **HT** or **TH**, not HH or TT.\n\nTwo favourable outcomes out of four in the space.\n\nP(exactly one head) = $\\frac{2}{4} = \\frac{1}{2}$."
+    },
+    "20": {
+      "hint": "Spinner spun twice: 3 × 3 outcomes.",
+      "help": "First spin has 3 outcomes; second spin has 3 — multiply for combined trials.\n\nPossibility space size = $3 \\times 3 = 9$ ordered pairs like (1,1), (1,2), … (3,3)."
+    },
+    "21": {
+      "hint": "Same number both spins: (1,1), (2,2), (3,3).",
+      "help": "Three matching pairs out of 9.\n\nP = $\\frac{3}{9} = \\frac{1}{3}$."
+    },
+    "22": {
+      "hint": "Doubles on two dice: (1,1) through (6,6) — six pairs.",
+      "help": "Same number on both dice: 6 ways out of 36.\n\nP = $\\frac{6}{36} = \\frac{1}{6}$."
+    },
+    "23": {
+      "hint": "Count pairs with even total on the 36-cell grid.",
+      "help": "Half of totals are even → **18** out of 36.\n\nP(even total) = $\\frac{18}{36} = \\frac{1}{2}$."
+    },
+    "24": {
+      "hint": "Find the cell for 6 on dice and tail on coin.",
+      "help": "One favourable cell out of 12 (6 faces × 2 coin results).\n\nP(6 and tail) = $\\frac{1}{12}$."
+    },
+    "25": {
+      "hint": "Did Archer forget that (2,3) and (3,2) are different outcomes?",
+      "help": "Likely counted **unordered** pairs or totals only → 21 instead of **36**.\n\nExplain ordered pairs (a,b) with both dice."
+    },
+    "26": {
+      "hint": "A grid shows every pair at a glance — good for counting favourites.",
+      "help": "Rows and columns list all combinations; you **count cells** matching your event.\n\nExplain why grids help for two events."
+    },
+    "27": {
+      "hint": "Each of 36 cells is one equally likely ordered pair on fair dice.",
+      "help": "Say **true** — each pair like (3,5) has probability $\\frac{1}{36}$ on fair dice.\n\nExplain equal likelihood."
+    },
+    "28": {
+      "hint": "Count ways for total 7 vs total 2 on the grid.",
+      "help": "Sloan is **wrong**.\n\nTotal 7: **6** ways. Total 2: **1** way.\n\nP(7) > P(2)."
+    },
+    "29": {
+      "hint": "Middle totals have more lines on the diagonal grid than corners.",
+      "help": "7 is near the middle of the total range → **more** pairs add to 7 than to 12.\n\nUse the grid counts."
+    },
+    "30": {
+      "hint": "Three coins: multiply 2×2×2, not 3×2.",
+      "help": "Priya is **wrong**.\n\nCorrect total = $2^3 = 8$ outcomes (HHH, HHT, … TTT).\n\nExplain multiplication."
+    },
+    "31": {
+      "hint": "Grid shows structure; plain list is fine but easier to miss a pair.",
+      "help": "Grid aligns first event on rows, second on columns.\n\nEasier to **see patterns** and count.\n\nCompare to a long list."
+    },
+    "32": {
+      "hint": "Build 6×6 multiplication grid; count products greater than 20.",
+      "help": "List products of scores 1–6; count cells with product **> 20**.\n\nDivide favourable by 36 for probability."
+    },
+    "33": {
+      "hint": "Odd spinner numbers are 1,3,5 — cross with heads row.",
+      "help": "Draw 5×2 grid (spinner × coin).\n\nCount odd+heads cells; divide by 10 total outcomes."
+    },
+    "34": {
+      "hint": "4×4 grid of totals 2–8; count totals ≥ 6.",
+      "help": "List all sums from two 4-sided dice.\n\nCount cells with total at least 6; divide by 16."
+    },
+    "35": {
+      "hint": "Find the single cell (B, 2) in a 3×2 grid.",
+      "help": "Grid 3 letters × 2 numbers = 6 outcomes.\n\nP(B and 2) = $\\frac{1}{6}$."
+    },
+    "36": {
+      "hint": "Difference 0 means doubles — same number on both dice.",
+      "help": "Difference 0 when both show same face: 6 pairs out of 36.\n\nP = $\\frac{6}{36} = \\frac{1}{6}$."
+    },
+    "37": {
+      "hint": "List 8 outcomes for three flips; count with exactly two H.",
+      "help": "Outcomes with exactly 2 heads: HHT, HTH, THH — **3** out of 8.\n\nP = $\\frac{3}{8}$."
+    },
+    "38": {
+      "hint": "Easier to count no six: both dice not six, then complement.",
+      "help": "P(at least one 6) = 1 − P(no six on either).\n\nP(no six) = $\\frac{5}{6} \\times \\frac{5}{6}$ on fair dice.\n\nOr count 11 favourable cells out of 36."
+    },
+    "39": {
+      "hint": "Three dice need a 6×6×6 cube of outcomes — hard to draw flat.",
+      "help": "Extend grid by adding a third dimension or use systematic lists/trees.\n\nExplain why 216 outcomes are hard on one simple 2D grid."
+    },
+    "40": {
+      "hint": "Biased dice makes some cells more likely than others.",
+      "help": "Cells are **not** all equally likely when the dice is biased.\n\nP(6,6) is bigger than P(1,1) if 6 is favoured.\n\nExplain unequal cell probabilities."
+    },
+    "41": {
+      "hint": "Count outcomes per total 2–12 — middle totals have highest counts.",
+      "help": "Counts rise toward 7 then fall — **triangular** pattern.\n\nExplain using counts from the total table."
+    },
+    "42": {
+      "hint": "Pick two spinners, draw grid, pick one cell probability.",
+      "help": "Design spinners with stated sections.\n\nDraw grid, choose one outcome, show P = favourable ÷ total equally likely cells (if fair)."
+    }
+  }
+}

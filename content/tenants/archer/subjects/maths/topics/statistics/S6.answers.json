@@ -2,57 +2,56 @@
   "version": 1,
   "answers": {
     "1": {
-      "display": "Positive correlation",
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "Positive",
       "accept": [
         "positive"
       ],
       "tier": 1,
-      "rating": 1164
-    },
-    "2": {
-      "display": "Negative correlation",
-      "accept": [
-        "negative"
-      ],
-      "tier": 1,
-      "rating": 1176
-    },
-    "3": {
-      "display": "No correlation",
-      "accept": [
-        "no correlation",
-        "none"
-      ],
-      "tier": 1,
-      "rating": 1188
+      "rating": 551
     },
     "4": {
-      "display": "Line of best fit",
+      "display": "Fit",
       "accept": [
+        "fit",
         "line of best fit"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 576
     },
     "5": {
-      "display": "More hours of revision are linked with higher test scores",
+      "display": "Outlier",
       "accept": [
-        "more revision higher score",
-        "higher score"
+        "outlier"
       ],
-      "contains": true,
       "tier": 1,
-      "rating": 1212
+      "rating": 602
     },
     "6": {
-      "display": "Lower temperatures are linked with higher hot chocolate sales",
+      "display": "No",
       "accept": [
-        "lower temperature more sales",
-        "colder more sales"
+        "no",
+        "n"
       ],
-      "contains": true,
       "tier": 1,
-      "rating": 1224
+      "rating": 627
     },
     "7": {
       "display": "2",
@@ -60,35 +59,139 @@
         "2"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 653
     },
     "8": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "negative",
+      "accept": [
+        "negative"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 729
+    },
+    "11": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 755
+    },
+    "12": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 780
+    },
+    "13": {
+      "display": "Positive correlation",
+      "accept": [
+        "positive"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "Negative correlation",
+      "accept": [
+        "negative"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "No correlation",
+      "accept": [
+        "no correlation",
+        "none"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "Line of best fit",
+      "accept": [
+        "line of best fit"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "17": {
+      "display": "More hours of revision are linked with higher test scores",
+      "accept": [
+        "more revision higher score",
+        "higher score"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 865
+    },
+    "18": {
+      "display": "Lower temperatures are linked with higher hot chocolate sales",
+      "accept": [
+        "lower temperature more sales",
+        "colder more sales"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 892
+    },
+    "19": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "20": {
       "display": "20",
       "accept": [
         "20"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "21": {
       "display": "An outlier",
       "accept": [
         "outlier"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
-      "display": "No \u2014 outliers should usually be ignored when drawing the line, since they do not fit the general trend",
+    "22": {
+      "display": "No — outliers should usually be ignored when drawing the line, since they do not fit the general trend",
       "accept": [
         "no",
         "ignore"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "23": {
       "display": "Estimating a value between two known data points, within the range of data collected",
       "accept": [
         "within range",
@@ -96,9 +199,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "24": {
       "display": "Estimating a value beyond the range of data collected, which is less reliable",
       "accept": [
         "beyond range",
@@ -107,9 +210,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
+    "25": {
       "display": "Strong correlation means the points lie very close to the line of best fit, with little scatter around it.",
       "accept": [
         "close to the line",
@@ -117,19 +220,19 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "False \u2014 correlation shows a relationship between two variables, but it does not prove that one causes the other to change.",
+    "26": {
+      "display": "False — correlation shows a relationship between two variables, but it does not prove that one causes the other to change.",
       "accept": [
         "false"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "Not true \u2014 extrapolation assumes the same pattern continues beyond the data collected, but the relationship between the variables could change outside that range, making the estimate less reliable.",
+    "27": {
+      "display": "Not true — extrapolation assumes the same pattern continues beyond the data collected, but the relationship between the variables could change outside that range, making the estimate less reliable.",
       "accept": [
         "pattern could change",
         "less reliable",
@@ -137,18 +240,18 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Never \u2014 if there is no clear correlation, drawing a line of best fit would not represent a meaningful trend in the data.",
+    "28": {
+      "display": "Never — if there is no clear correlation, drawing a line of best fit would not represent a meaningful trend in the data.",
       "accept": [
         "never"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
+    "29": {
       "display": "Flawed because correlation does not mean causation; a third factor, such as hot weather, is likely causing both more ice cream sales and more people swimming (and therefore more drownings).",
       "accept": [
         "hot weather",
@@ -157,9 +260,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
+    "30": {
       "display": "An outlier can distort the line of best fit if included, so it is usually ignored when drawing the line, but it might represent a real, valid (if unusual) result, so it should not be deleted from the data without good reason.",
       "accept": [
         "distort",
@@ -168,19 +271,19 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "Not necessary \u2014 a line of best fit is meant to show the overall trend of all the points, so it usually passes between most points rather than exactly through any of them.",
+    "31": {
+      "display": "Not necessary — a line of best fit is meant to show the overall trend of all the points, so it usually passes between most points rather than exactly through any of them.",
       "accept": [
         "overall trend",
         "between points"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
+    "32": {
       "display": "Positive correlation: as one variable increases, so does the other (e.g. height and shoe size); negative correlation: as one increases, the other decreases (e.g. car age and value); no correlation: no clear relationship (e.g. shoe size and test score).",
       "accept": [
         "positive",
@@ -189,39 +292,39 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
-      "display": "Gradient = -2 \u2014 the car's value decreases by about \u00a32000 for every extra year of age.",
+    "33": {
+      "display": "Gradient = -2 — the car's value decreases by about £2000 for every extra year of age.",
       "accept": [
         "-2",
         "decreases",
-        "\u00a32000"
+        "£2000"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "\u00a312,000",
+    "34": {
+      "display": "£12,000",
       "accept": [
         "12",
         "12000",
-        "\u00a312,000",
-        "\u00a312000"
+        "£12,000",
+        "£12000"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "35": {
       "display": "70",
       "accept": [
         "70"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
+    "36": {
       "display": "Driving at a lower speed (below the threshold) improves fuel efficiency, so drivers wanting to save fuel should slow down.",
       "accept": [
         "slow down",
@@ -229,10 +332,10 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "45\u00b0C is far outside the range of temperatures observed (10\u201330\u00b0C), so the trend might not continue in the same way at such an extreme temperature, making the estimate unreliable.",
+    "37": {
+      "display": "45°C is far outside the range of temperatures observed (10–30°C), so the trend might not continue in the same way at such an extreme temperature, making the estimate unreliable.",
       "accept": [
         "outside the range",
         "unreliable",
@@ -240,28 +343,28 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "Treat it as an outlier \u2014 ignore it when drawing the line of best fit and describing the correlation as strong positive, but mention it separately as an unusual case.",
+    "38": {
+      "display": "Treat it as an outlier — ignore it when drawing the line of best fit and describing the correlation as strong positive, but mention it separately as an unusual case.",
       "accept": [
         "outlier",
         "ignore"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
+    "39": {
       "display": "y = 5x",
       "accept": [
         "y=5x",
         "5x"
       ],
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "40": {
       "display": "30; this is interpolation (x = 6 is within the data range 1 to 9)",
       "accept": [
         "30",
@@ -269,21 +372,21 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
+    "41": {
       "display": "Example: the number of firefighters at a fire and the amount of damage caused both increase because of the size of the fire (a third factor), not because more firefighters cause more damage.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "42": {
       "display": "Your own two positively correlated variables and two negatively correlated variables, with reasoning for each.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
     }
   }
 }

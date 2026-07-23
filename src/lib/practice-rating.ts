@@ -1,10 +1,16 @@
 import type { QuestionTier } from "./questions";
 
 /** GCSE “hard / stretch” anchor on the same scale as chess-style ratings. */
-export const GCSE_HARD_RATING = 2000;
+export const GCSE_HARD = 2000;
 
-/** New topic starting point (below medium GCSE). */
-export const DEFAULT_TOPIC_RATING = 1200;
+/** @deprecated prefer GCSE_HARD */
+export const GCSE_HARD_RATING = GCSE_HARD;
+
+/** Youngest learners (≈ age 7). */
+export const MIN_QUESTION_RATING = 500;
+
+/** New topic starting point (≈ age 7). */
+export const DEFAULT_TOPIC_RATING = MIN_QUESTION_RATING;
 
 /** Max rating change per question (kids). */
 export const ELO_K = 28;
@@ -67,11 +73,11 @@ export function pickNextQuestionId(opts: PickNextOptions): string | null {
   const scored = candidates.map((id) => {
     const qRating = ratingById[id]!;
     const distance = Math.abs(qRating - userRating);
-    const notMastered = progressCorrect.has(id) ? 1 : 0;
+    const mastered = progressCorrect.has(id) ? 1 : 0;
     const repeatPenalty = sessionSet.has(id) ? 120 : 0;
     return {
       id,
-      sortKey: notMastered * 500 + distance + repeatPenalty + Math.random() * 8,
+      sortKey: mastered * 500 + distance + repeatPenalty + Math.random() * 8,
     };
   });
 

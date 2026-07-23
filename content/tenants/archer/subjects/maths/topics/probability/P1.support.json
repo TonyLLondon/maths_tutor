@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "If every counter in the bag is the same colour, what must happen when you pick one?",
+      "help": "**Impossible** means it can never happen. **Possible** means it might happen. **Certain** means it will always happen.\n\nImagine a bag with only green sweets. Picking green is **certain**. Picking purple is **impossible** because there are none.\n\nLook at what is actually in the bag, then choose the word that fits picking red."
+    },
+    "2": {
+      "hint": "There are no red counters in the bag — can you still pick a red one?",
+      "help": "When something is **not in the bag at all**, that outcome cannot happen.\n\nExample: a bag has only white counters. Picking white is **certain**. Picking black is **impossible**.\n\nUse the same idea for a bag that has only blue counters and the colour red."
+    },
+    "3": {
+      "hint": "Count how many different things can happen when the coin lands.",
+      "help": "A **possible outcome** is one way the experiment can finish.\n\nA fair coin has two faces, so when it lands you get either one result or the other — not both at once.\n\nList each different result you can get from one flip, then count them."
+    },
+    "4": {
+      "hint": "What are the two sides of a coin called?",
+      "help": "Each flip gives exactly one result.\n\nOn a standard coin the two results are **heads** and **tails** (some people say head and tail).\n\nYou do not need extra outcomes — just name both sides of the coin."
+    },
+    "5": {
+      "hint": "The spinner has two equal parts — does that mean one colour takes up more space?",
+      "help": "**More likely** means a bigger share of the chance.\n\nIf two colours each take half the spinner, they are **equally likely** — neither is more likely.\n\nCompare the sizes of the red and blue sections. Equal sections mean equal chance."
+    },
+    "6": {
+      "hint": "Look at the numbers printed on a normal dice — is 7 one of them?",
+      "help": "A fair dice numbered 1 to 6 can only show those six numbers.\n\n**Impossible** means the result cannot happen. **Possible** means it could happen.\n\nAsk yourself: can this dice ever show a face with 7 on it?"
+    },
+    "7": {
+      "hint": "Which colour has more counters in the bag?",
+      "help": "When you pick without looking, the colour with **more** counters is picked more often in the long run.\n\nExample: 8 red and 2 blue → red is more likely.\n\nCompare 1 yellow with 5 green. The bigger group is more likely to be picked."
+    },
+    "8": {
+      "hint": "Which word means \"will never happen\", which means \"might happen\", and which means \"will always happen\"?",
+      "help": "Put the words on a line from **least** chance to **most** chance.\n\n- **Impossible** — no chance at all.\n- **Possible** — it might happen, but not for sure.\n- **Certain** — it always happens.\n\nOrder them: impossible first, certain last, with possible in the middle."
+    },
+    "9": {
+      "hint": "Write every whole number you could see on the top face after one roll.",
+      "help": "For one roll of a fair six-sided dice, each face is a separate outcome.\n\nList: 1, 2, 3, 4, 5, and 6. Do not repeat numbers — each is one possible result.\n\nThat complete list is all the **equally likely** outcomes for one roll."
+    },
+    "10": {
+      "hint": "Work out how many outcomes give a 3, and how many give a number greater than 4 — then compare the fractions.",
+      "help": "On a fair dice, probability = $\\frac{\\text{favourable outcomes}}{6}$.\n\n- Getting **3**: one face → $\\frac{1}{6}$.\n- **Greater than 4** means 5 or 6 → two faces → $\\frac{2}{6}$.\n\nCompare the two fractions to see which event is more likely, then circle your choice and write both probabilities."
+    },
+    "11": {
+      "hint": "Four equal sections — what fraction of the spinner is Blue?",
+      "help": "When sections are **equal**, each colour gets the same share of the circle.\n\nWith four colours, each section is $\\frac{1}{4}$ of the whole spinner.\n\nThe probability of landing on Blue is that fraction of the full turn."
+    },
+    "12": {
+      "hint": "How many counters are red, and how many are in the bag altogether?",
+      "help": "Probability = $\\frac{\\text{number of red}}{\\text{total counters}}$.\n\nHere red and blue are equal in number, so half the bag is red.\n\nCount total counters, then write the fraction of red ones."
+    },
+    "13": {
+      "hint": "Add yellow and green to find the total, then write yellow as a fraction of the total.",
+      "help": "First find **total counters**: $3 + 7 = 10$.\n\nProbability of yellow = $\\frac{3}{10}$.\n\nThe numerator is how many yellow; the denominator is every counter you might pick."
+    },
+    "14": {
+      "hint": "A fair coin has two equally likely results — what fraction is heads?",
+      "help": "One flip → two outcomes, equally likely.\n\nProbability of heads = $\\frac{1}{2}$.\n\nYou can also write this as a decimal (0.5) if the question asks, but a fraction is fine here."
+    },
+    "15": {
+      "hint": "Which numbers from 1 to 10 are even? Count them and divide by 10.",
+      "help": "Even numbers end in 0, 2, 4, 6, or 8.\n\nFrom 1 to 10 the evens are 2, 4, 6, 8, 10 — that is **5** numbers out of **10** sections.\n\nProbability = $\\frac{5}{10}$, which simplifies to $\\frac{1}{2}$."
+    },
+    "16": {
+      "hint": "How many green pens are there, and how many pens in total?",
+      "help": "Add all the pens: $4 + 4 + 2 = 10$.\n\nGreen pens are 2 out of 10.\n\nProbability = $\\frac{2}{10} = \\frac{1}{5}$."
+    },
+    "17": {
+      "hint": "What probability means \"cannot happen\"? What means \"must happen\"?",
+      "help": "Probabilities are numbers from **0** to **1**.\n\n- **Impossible** event → probability **0**.\n- **Certain** event → probability **1**.\n\nWrite those two numbers — no fraction needed unless you prefer $\\frac{0}{1}$ and $\\frac{1}{1}$."
+    },
+    "18": {
+      "hint": "Which numbers on an 8-sided dice are less than 3?",
+      "help": "Less than 3 means 1 and 2 only (not 3).\n\nOn dice numbered 1 to 8, that is **2** outcomes out of **8**.\n\nProbability = $\\frac{2}{8}$, then simplify if you can."
+    },
+    "19": {
+      "hint": "If there are no blue counters, how many ways can you pick blue?",
+      "help": "You can only pick what exists in the bag.\n\nAll counters are red, so picking blue has **zero** favourable outcomes.\n\nProbability = **0** — an impossible event."
+    },
+    "20": {
+      "hint": "One ticket wins out of how many tickets in the hat?",
+      "help": "Each ticket is equally likely to be drawn if you mix them well.\n\nProbability of the winning ticket = $\\frac{1}{20}$.\n\nOne winner out of twenty tickets — write that as a fraction."
+    },
+    "21": {
+      "hint": "On a fair dice, is the face showing 6 any harder to land than the face showing 2?",
+      "help": "A **fair** dice means each face has the same chance: $\\frac{1}{6}$.\n\nMia thinks 6 is \"harder\" because it feels special, but the dice does not remember past rolls.\n\nExplain that 6 and 2 are **equally likely** on one fair roll."
+    },
+    "22": {
+      "hint": "Compare how many Win sections there are compared with Lose sections — are they equal?",
+      "help": "A **fair** game means each main outcome has the same probability.\n\nHere Win takes 6 sections and Lose takes 2 — not equal shares.\n\nSay whether Win and Lose are equally likely, and use the section counts in your reason."
+    },
+    "23": {
+      "hint": "Does the coin remember the last five flips when you flip it again?",
+      "help": "Each coin flip is **independent** — past results do not change the next flip.\n\nGetting heads five times does not make tails \"due\". Tails still has probability $\\frac{1}{2}$ on the next flip.\n\nExplain that Sloan is wrong because the coin has no memory."
+    },
+    "24": {
+      "hint": "Can a probability be bigger than 1? What does probability 1 mean in words?",
+      "help": "The biggest probability is **1** — the event is **certain**.\n\nThe smallest is **0** — **impossible**.\n\nSay **true** for \"never more than 1\", then explain that probability 1 means the event will definitely happen."
+    },
+    "25": {
+      "hint": "Count the red sections and the blue sections — are they the same?",
+      "help": "Equal sections on a spinner mean equal probability.\n\nRed: 2 sections. Blue: 2 sections. Green: 1 section.\n\nArcher is correct that red and blue are equally likely — both are $\\frac{2}{5}$ of the spinner."
+    },
+    "26": {
+      "hint": "Find P(red) for each bag: red counters ÷ total counters. Are the fractions the same?",
+      "help": "Bag A: $\\frac{2}{4}$ red. Bag B: $\\frac{2}{10}$ red.\n\nSame number of red counters does **not** mean the same probability if totals differ.\n\nSimplify or compare the fractions — Priya is wrong because $\\frac{2}{4} \\neq \\frac{2}{10}$."
+    },
+    "27": {
+      "hint": "Does 30% mean it will definitely rain, or that rain is one of several possibilities?",
+      "help": "**30% chance** means if you had many similar days, about 30 out of 100 might rain — but **one** day can still be dry.\n\nIt does **not** mean \"it will rain for sure\" or \"it cannot rain\".\n\nExplain that tomorrow might rain or might not, with rain being less likely than not raining."
+    },
+    "28": {
+      "hint": "List pairs of dice scores that add to 7, then remember each dice has 6 outcomes.",
+      "help": "Totals of 7 from two dice: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — **6** ways.\n\nEach dice has 6 outcomes, so two dice give $6 \\times 6 = 36$ equally likely ordered pairs.\n\nList the seven-total pairs, then state 36 as the total number of outcomes."
+    },
+    "29": {
+      "hint": "How many counters are not red or blue? Use total 20 to find green, then write the probability.",
+      "help": "Red + blue = $4 + 6 = 10$. Altogether 20, so green = $20 - 10 = 10$.\n\nP(green) = $\\frac{10}{20} = \\frac{1}{2}$.\n\nFind the missing count first, then divide by 20."
+    },
+    "30": {
+      "hint": "How many boys are in the class, out of 30 pupils?",
+      "help": "Probability a random pupil is a boy = $\\frac{\\text{boys}}{\\text{total pupils}}$.\n\nThere are 12 boys out of 30.\n\nWrite $\\frac{12}{30}$ and simplify if asked."
+    },
+    "31": {
+      "hint": "What fraction of the sections win a prize? Multiply that fraction by 60.",
+      "help": "P(win one spin) = $\\frac{3}{12} = \\frac{1}{4}$.\n\nExpected wins in 60 spins ≈ $\\frac{1}{4} \\times 60 = 15$.\n\nFind the probability of one spin, then scale up to 60 trials."
+    },
+    "32": {
+      "hint": "Sloan has 5 tickets out of 100 — what fraction of the raffle is that?",
+      "help": "Probability Sloan wins = $\\frac{\\text{her tickets}}{\\text{all tickets sold}}$.\n\nThat is $\\frac{5}{100}$, which simplifies to $\\frac{1}{20}$.\n\nOne prize means one winning ticket among all sold."
+    },
+    "33": {
+      "hint": "The ratio 2 : 3 : 5 means 10 parts — how many sweets are lime?",
+      "help": "Total ratio parts: $2 + 3 + 5 = 10$, matching 10 sweets.\n\nLime is 5 parts out of 10 → $\\frac{5}{10} = \\frac{1}{2}$.\n\nUse the ratio to find how many lime sweets, then write probability."
+    },
+    "34": {
+      "hint": "Which numbers from 1 to 25 are multiples of 5? Count them and divide by 25.",
+      "help": "Multiples of 5: 5, 10, 15, 20, 25 — that is **5** numbers.\n\nProbability = $\\frac{5}{25} = \\frac{1}{5}$.\n\nList or count multiples of 5 between 1 and 25 inclusive."
+    },
+    "35": {
+      "hint": "One face shows 6 out of six equally likely faces.",
+      "help": "On a fair dice, each number has probability $\\frac{1}{6}$.\n\nRolling a 6 is one favourable outcome out of six.\n\nWrite $\\frac{1}{6}$."
+    },
+    "36": {
+      "hint": "One section out of four equal sections is red — what is P(red)?",
+      "help": "**P(red)** means the probability of landing on red.\n\nWith 4 equal sections and 1 red: P(red) = $\\frac{1}{4}$.\n\nEqual sections → share the circle equally."
+    },
+    "37": {
+      "hint": "How many blue marbles out of 3 + 2 marbles altogether?",
+      "help": "Total marbles = 5. Blue = 2.\n\nP(blue) = $\\frac{2}{5}$.\n\nFavourable outcomes over total equally likely picks."
+    },
+    "38": {
+      "hint": "Tails is the other equally likely result on a fair coin.",
+      "help": "One flip, two outcomes: P(tails) = $\\frac{1}{2}$.\n\nSame as heads on a fair coin."
+    },
+    "39": {
+      "hint": "If picking green has probability one half, what is the probability of not picking green?",
+      "help": "**Not green** means you pick yellow (only those two colours).\n\nIf P(green) = $\\frac{1}{2}$, then P(not green) = $\\frac{1}{2}$ as well.\n\nYou can also think: not green = yellow, 5 out of 10 → $\\frac{1}{2}$."
+    },
+    "40": {
+      "hint": "List all outcomes for two coins — how many show heads on both?",
+      "help": "Two coins: HH, HT, TH, TT — four equally likely outcomes.\n\nOnly **HH** gives heads on both → $\\frac{1}{4}$.\n\nList the four outcomes, count how many match \"both heads\"."
+    },
+    "41": {
+      "hint": "Fair means each colour's probability must add up to 1 — split the spinner into three equal parts?",
+      "help": "A **fair** three-colour spinner gives each colour the same angle if you want equal chance, or you can choose unequal sections that still **add to a full circle** with probabilities summing to 1.\n\nFor three **equal** colours: each has P = $\\frac{1}{3}$.\n\nSketch three equal sectors, label colours, write $\\frac{1}{3}$ for each if they are equal."
+    },
+    "42": {
+      "hint": "Red, blue, and green are the only colours — what must the three probabilities add to?",
+      "help": "All three colours cover every counter, so P(red) + P(blue) + P(green) = **1**.\n\n$\\frac{1}{2} + \\frac{1}{3} = \\frac{5}{6}$, so P(green) = $1 - \\frac{5}{6} = \\frac{1}{6}$.\n\nSubtract known probabilities from 1."
+    },
+    "43": {
+      "hint": "Without listing all 36 pairs, think: how many ways make total 7 compared with total 2?",
+      "help": "Total **2** only comes from (1,1) — **one** way.\n\nTotal **7** comes from six different pairs (1,6) through (6,1).\n\nMore ways means **higher** probability — so 7 is more likely than 2."
+    },
+    "44": {
+      "hint": "For each total from 2 to 12, count how many dice pairs give that total on a 6×6 grid.",
+      "help": "Build a table: rows and columns are dice 1–6; each cell is one total.\n\nCount cells for each total: the middle totals (like 7) have the most counts.\n\n**7** is most likely with **6** ways out of 36 → P = $\\frac{6}{36} = \\frac{1}{6}$."
+    }
+  }
+}

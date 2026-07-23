@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "How many corners does any triangle have?",
+      "help": "A triangle has **3** angles (one at each vertex).\n\nExample: acute, right, or obtuse triangles all have three angles."
+    },
+    "2": {
+      "hint": "Square corners — each is a right angle. How many?",
+      "help": "A square has **4** right angles.\n\nExample: each corner 90°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "60°, 60°, 60° — are all three the same?",
+      "help": "All three angles are **equal** (each 60°).\n\nExample: equilateral triangle."
+    },
+    "4": {
+      "hint": "Isosceles — how many equal sides?",
+      "help": "An **isosceles** triangle has **two** equal sides.\n\nExample: 5 cm, 5 cm, 7 cm."
+    },
+    "5": {
+      "hint": "Compare 70° and 40° — which number is larger?",
+      "help": "**70°** is greater than **40°**.\n\nExample: 70° is a larger turn."
+    },
+    "6": {
+      "hint": "Subtract 20 from 90.",
+      "help": "$90 - 20 = 70°$.\n\nExample: part of a right angle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "7": {
+      "hint": "Add two 50° angles together.",
+      "help": "$50 + 50 = 100°$.\n\nExample: two equal angles summing.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "8": {
+      "hint": "90°, 45°, 45° — which two match?",
+      "help": "The two **45°** angles are equal.\n\nExample: isosceles right triangle."
+    },
+    "9": {
+      "hint": "Two angles 55° — subtract both from 180°.",
+      "help": "$180 - 55 - 55 = 70°$ third angle.\n\nExample: isosceles with equal base angles."
+    },
+    "10": {
+      "hint": "180° minus 90° minus 35°.",
+      "help": "Third angle $= 180 - 90 - 35 = 55°$.\n\nExample: right triangle missing acute angle."
+    },
+    "11": {
+      "hint": "3x + 2x on a straight line = 180° — find x first.",
+      "help": "$5x = 180$, $x = 36°$. Angles are $108°$ and $72°$.\n\nExample: linear pair in algebra."
+    },
+    "12": {
+      "hint": "Quadrilateral angles sum to 360° — subtract the three given.",
+      "help": "$80 + 95 + 100 = 275$, fourth $= 360 - 275 = 85°$.\n\nExample: four angles in any quadrilateral."
+    },
+    "13": {
+      "hint": "Around a point: 360° minus 145° minus 110°.",
+      "help": "$360 - 145 - 110 = 105°$.\n\nExample: three angles at a point."
+    },
+    "14": {
+      "hint": "Equilateral — all angles equal, sum 180°.",
+      "help": "Each angle is $180 \\div 3 = 60°$.\n\nExample: equal sides → 60° each."
+    },
+    "15": {
+      "hint": "Base 72° twice — apex from 180°.",
+      "help": "Apex $= 180 - 72 - 72 = 36°$.\n\nExample: isosceles apex calculation."
+    },
+    "16": {
+      "hint": "Co-interior angles sum to 180°: 3x + x = 180.",
+      "help": "$4x = 180$, $x = 45°$. Angles $135°$ and $45°$.\n\nExample: parallel lines co-interior."
+    },
+    "17": {
+      "hint": "Right triangle: 90° and 28° — find the third.",
+      "help": "$180 - 90 - 28 = 62°$.\n\nExample: 90° and 35° → 55°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "Vertically opposite: 2x + 10 = 50.",
+      "help": "$2x = 40$, $x = 20$. Check angle $2(20)+10 = 50°$.\n\nExample: opposite angles equal."
+    },
+    "19": {
+      "hint": "Each corner of a square — how many degrees?",
+      "help": "Each interior angle is **90°**.\n\nExample: four equal right angles."
+    },
+    "20": {
+      "hint": "Angles at the base of an isosceles triangle — special name?",
+      "help": "**Base** angles (the two equal angles opposite equal sides).\n\nExample: equal legs → equal base angles."
+    },
+    "21": {
+      "hint": "Longest side sits opposite the biggest angle.",
+      "help": "The **largest** angle is opposite the longest side.\n\nExample: in a triangle, side lengths and opposite angles match order."
+    },
+    "22": {
+      "hint": "Can 2 + 3 reach 7? Shortest sides must beat the longest.",
+      "help": "$2 + 3 = 5 < 7$ — triangle inequality fails. **No**, those lengths cannot make a triangle.\n\nExample: 3, 4, 5 works because 3+4>5."
+    },
+    "23": {
+      "hint": "Ratio 2:3:4 on angles — sum parts to 180°.",
+      "help": "$2+3+4=9$ parts, $180\\div 9=20°$. Angles **40°, 60°, 80°**.\n\nExample: ratio 1:2:3 → 30°, 60°, 90°."
+    },
+    "24": {
+      "hint": "Fold isosceles triangle on symmetry line — base angles match.",
+      "help": "Folding along the symmetry line shows the two **base angles** land on each other → **equal**.\n\nExample: paper fold isosceles triangle."
+    },
+    "25": {
+      "hint": "Kite quadrilateral: 100°, 100°, 45° — sum to 360° for fourth.",
+      "help": "$100+100+45=245$, fourth $=360-245=115°$.\n\nExample: four angles in kite."
+    },
+    "26": {
+      "hint": "Is the angle opposite the longest side always the biggest?",
+      "help": "In any triangle, **yes always** — longest side opposite largest angle.\n\nAnswer: **always**."
+    },
+    "27": {
+      "hint": "x + (x+20) + (x+40) = 180 — solve for x.",
+      "help": "$3x + 60 = 180$, $x = 40°$. Angles **40°, 60°, 80°**.\n\nExample: linear expressions in triangle."
+    },
+    "28": {
+      "hint": "Exterior angle at a vertex — relationship to interior at same vertex?",
+      "help": "Exterior and interior at one vertex lie on a straight line → exterior $= 180° -$ interior. Sam is **correct**.\n\nExample: interior 70° → exterior 110°."
+    },
+    "29": {
+      "hint": "Adjacent angles in parallelogram are co-interior — sum 180°.",
+      "help": "$x + (2x + 30) = 180$, $3x = 150$, $x = 50°$. Angles **50°** and **130°**.\n\nExample: parallelogram adjacent supplementary."
+    },
+    "30": {
+      "hint": "Apex = 3 × base angle — four parts sum to 180°.",
+      "help": "Let base $= b$, apex $= 3b$. $b + b + 3b = 180$, $5b = 180$, $b = 36°$. Angles **36°, 36°, 108°**.\n\nExample: apex triple base."
+    },
+    "31": {
+      "hint": "Isosceles apex 40° — split remaining 140° equally.",
+      "help": "Base angles each $(180 - 40) \\div 2 = 70°$.\n\nExample: roof truss symmetry."
+    },
+    "32": {
+      "hint": "Co-interior along parallelogram: (4x+10) + (2x+20) = 180?",
+      "help": "Set adjacent angles to sum **180°**, solve for $x$, then find both angles.\n\nExample: substitute x back."
+    },
+    "33": {
+      "hint": "Ratio 3:4:5 at a point — total 360°.",
+      "help": "$3+4+5=12$ parts, $360\\div 12=30°$. Angles **90°, 120°, 150°**.\n\nExample: ratio angles at point."
+    },
+    "34": {
+      "hint": "90° and 34° in triangle — third angle, then classify.",
+      "help": "Third $= 180 - 90 - 34 = 56°$. Triangle is **right-angled** (has 90°).\n\nExample: identify right angle."
+    },
+    "35": {
+      "hint": "Kite: two 115° angles, remaining 360-230=130° in ratio 3:2.",
+      "help": "$130\\div 5=26°$. Other angles **78°** and **52°** (3:2).\n\nExample: split remainder by ratio."
+    },
+    "36": {
+      "hint": "Co-interior on one leg of trapezium — add to 180°.",
+      "help": "Along a non-parallel side, co-interior angles between parallels sum to **180°**. Use to find unknown.\n\nExample: trapezium field angles."
+    },
+    "37": {
+      "hint": "Exterior equals sum of two remote interior angles — draw and label.",
+      "help": "Extend one side; the exterior angle equals the sum of the two **non-adjacent** interior angles.\n\nExample: exterior 120° with remote 70° and 50°."
+    },
+    "38": {
+      "hint": "Regular pentagon: 540° total, five equal angles.",
+      "help": "Each interior $= 540 \\div 5 = 108°$.\n\nExample: regular polygon equal angles."
+    },
+    "39": {
+      "hint": "2x + 3x + 4x = 180 in triangle ABC.",
+      "help": "$9x = 180$, $x = 20°$. Angles **40°, 60°, 80°**.\n\nExample: algebra in triangle."
+    },
+    "40": {
+      "hint": "Combine two facts — e.g. parallels plus triangle sum.",
+      "help": "Write a problem using e.g. **alternate angles** and **triangle sum 180°**. Solve step by step.\n\nExample: find two unknowns."
+    },
+    "41": {
+      "hint": "180° minus 40° minus 75°.",
+      "help": "Third angle $= 180 - 40 - 75 = 65°$.\n\nExample: two angles given."
+    },
+    "42": {
+      "hint": "All three sides 5 cm — what triangle name?",
+      "help": "Three equal sides → **equilateral**. Archer is **correct**.\n\nExample: 5-5-5 triangle."
+    }
+  }
+}

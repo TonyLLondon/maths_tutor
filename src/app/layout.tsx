@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Maths Tutor",
-  description: "GCSE-aligned printable maths worksheets",
+  description: "GCSE-aligned maths practice for kids",
 };
 
 export default function RootLayout({

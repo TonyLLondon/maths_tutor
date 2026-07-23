@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "A coin has two sides — name both results.",
+      "help": "One flip: **heads** or **tails**.\n\nList both — the two equally likely outcomes."
+    },
+    "2": {
+      "hint": "Multiply choices: 2 tops × 2 hats.",
+      "help": "Outfits = $2 \\times 2 = 4$.\n\nPair each top with each hat systematically."
+    },
+    "3": {
+      "hint": "One digit chosen from 1, 2, 3 — list each choice.",
+      "help": "Possible numbers: **1**, **2**, **3**.\n\nThree single-digit outcomes."
+    },
+    "4": {
+      "hint": "Two orders: AB and BA.",
+      "help": "With two different letters, order matters: **AB** is not the same as **BA**.\n\nList both arrangements: **AB** and **BA**.\n\nThat is the complete set of orders for A and B."
+    },
+    "5": {
+      "hint": "2 snacks × 2 drinks — count all pairs.",
+      "help": "Choices = $2 \\times 2 = 4$.\n\nExample pairs: apple+water, apple+milk, banana+water, banana+milk."
+    },
+    "6": {
+      "hint": "Pair A with 1 and 2, then B with 1 and 2.",
+      "help": "Fix the letter first, then run through both numbers.\n\nList: **A1**, **A2**, **B1**, **B2**.\n\nYou get four ordered pairs — none missing, none repeated."
+    },
+    "7": {
+      "hint": "Each of 3 shirts goes with the one pair of trousers.",
+      "help": "Outfits = $3 \\times 1 = 3$.\n\nThree shirt choices, same trousers each time."
+    },
+    "8": {
+      "hint": "A clear order helps you see when the list is complete.",
+      "help": "Systematic order stops you **missing** or **duplicating** outcomes.\n\nExplain in one or two sentences why neat listing helps."
+    },
+    "9": {
+      "hint": "Same as question 4 — both orders of A and B.",
+      "help": "Two letters in a row gives two possible orders.\n\nList **AB** and **BA** — the only permutations when both letters are used once.\n\nCount: **2** arrangements."
+    },
+    "10": {
+      "hint": "2 soups × 2 breads.",
+      "help": "Meals = $2 \\times 2 = 4$.\n\nList tomato/white, tomato/brown, vegetable/white, vegetable/brown."
+    },
+    "11": {
+      "hint": "2 digits × 2 letters for the code.",
+      "help": "Each digit pairs with each letter independently.\n\nCodes = $2 \\times 2 = 4$.\n\nWrite them out: **1A**, **1B**, **2A**, **2B** so you see every combination."
+    },
+    "12": {
+      "hint": "2 games × 3 snacks.",
+      "help": "Pick one of 2 games and one of 3 snacks for each choice.\n\nTotal choices = $2 \\times 3 = 6$.\n\nMultiply when the two decisions are independent."
+    },
+    "13": {
+      "hint": "Use each digit once in the tens place, then ones — no repeats.",
+      "help": "Two-digit numbers without repeat from {1,2,3}: 12, 13, 21, 23, 31, 32.\n\n**Six** numbers — check you have all permutations of two digits."
+    },
+    "14": {
+      "hint": "List ABC, ACB, BAC, BCA, CAB, CBA.",
+      "help": "Three letters in a row: **6** arrangements ($3 \\times 2 \\times 1$).\n\nList all six systematically."
+    },
+    "15": {
+      "hint": "Pair each starter with each main — 2 × 3 meals.",
+      "help": "List: soup+pasta, soup+fish, soup+chicken, salad+pasta, salad+fish, salad+chicken.\n\n**Six** combinations."
+    },
+    "16": {
+      "hint": "Two-digit codes from 1–4 without repeat — list like 12, 13, …",
+      "help": "There are $4 \\times 3 = 12$ codes.\n\nStart with 1 in first place: 12,13,14; then 2 first: 21,23,24; continue systematically."
+    },
+    "17": {
+      "hint": "Tens digit at least 4; digits 3,4,5 with repeats allowed.",
+      "help": "Greater than 40: 43,44,45,53,54,55 etc. — work by tens digit 4 or 5.\n\nList every valid two-digit number systematically."
+    },
+    "18": {
+      "hint": "Label shirts S1,S2,S3 and trousers T1,T2 — list every pair.",
+      "help": "Count = $3 \\times 2 = 6$.\n\nList S1T1, S1T2, S2T1, S2T2, S3T1, S3T2."
+    },
+    "19": {
+      "hint": "Six orders of X, Y, Z — same idea as ABC.",
+      "help": "Three different letters in a row can be arranged in every order.\n\nList: **XYZ, XZY, YXZ, YZX, ZXY, ZYX**.\n\nThere are **6** arrangements — same as for A, B, C."
+    },
+    "20": {
+      "hint": "Combine H and T with dice 1 through 6 — H1, H2, … T6.",
+      "help": "Six outcomes for heads plus six for tails: **H1…H6, T1…T6**.\n\nTotal **12** equally likely outcomes."
+    },
+    "21": {
+      "hint": "Three digits, each place 1 or 2 — eight numbers like 111, 112, …",
+      "help": "Each of 3 positions has 2 choices: $2^3 = 8$ numbers.\n\nList 111, 112, 121, 122, 211, 212, 221, 222."
+    },
+    "22": {
+      "hint": "2 breads × 4 fillings — list every sandwich name.",
+      "help": "Total = **8** sandwiches.\n\nList each bread with each filling in order."
+    },
+    "23": {
+      "hint": "Order does not matter — AB is same pair as BA.",
+      "help": "Pairs: **AB**, **AC**, **AD** — only **3** pairs.\n\nDo not list BA if AB is the same choice."
+    },
+    "24": {
+      "hint": "Start with smallest tens digit 5, list all no-repeat numbers, then 6, then 7, then 8.",
+      "help": "From digits 5,6,7,8 without repeat: $4 \\times 3 = 12$ two-digit numbers.\n\nList from 56,57,58, … up through 87 systematically."
+    },
+    "25": {
+      "hint": "Two flips give four outcomes — Archer missed one with two heads.",
+      "help": "Correct list: **HH**, **HT**, **TH**, **TT** — **four** outcomes.\n\nArcher missed **TH** (heads then tails).\n\nExplain and fix the list."
+    },
+    "26": {
+      "hint": "Group by first coin H then all T outcomes — why does that help?",
+      "help": "Fix the first choice, vary the second — you cover all pairs once.\n\nExplain that systematic grouping avoids gaps and repeats."
+    },
+    "27": {
+      "hint": "If order does not matter, how many pairs from A,B,C?",
+      "help": "Pairs: AB, AC, BC — only **3**, not 6.\n\nSloan counted ordered pairs; order **does not matter** here.\n\nList three pairs."
+    },
+    "28": {
+      "hint": "3 shirts and 2 trousers — multiply options; example 2×3=6 meals.",
+      "help": "Independent choices multiply: $3 \\times 2 = 6$ outfits.\n\nExample: 2 drinks × 3 snacks = 6.\n\nSay **true** with example."
+    },
+    "29": {
+      "hint": "Two-digit no-repeat from 1,2,3 should include 32 and 31 among others.",
+      "help": "Missing numbers like **32** (and check full set of six).\n\nComplete list: 12,13,21,23,31,**32**.\n\nExplain what was left out."
+    },
+    "30": {
+      "hint": "Arranging ABC order matters; choosing friends A&B order does not.",
+      "help": "Order matters: **AB** vs **BA** are different arrangements.\n\nOrder does not matter: team {A,B} same as {B,A}.\n\nGive one example of each type."
+    },
+    "31": {
+      "hint": "Each shirt pairs with each trouser — multiply, do not add.",
+      "help": "Priya is **wrong**.\n\nCorrect: $3 \\times 4 = 12$ outfits.\n\nExplain multiplication for independent choices."
+    },
+    "32": {
+      "hint": "Multiply 3 × 2 × 2 for sandwich, drink, dessert.",
+      "help": "Total meals = $3 \\times 2 \\times 2 = 12$.\n\nDescribe nesting loops: pick sandwich, then drink, then dessert."
+    },
+    "33": {
+      "hint": "Each of 4 PIN digits is 1 or 2 with repeat — $2^4$.",
+      "help": "PINs = $2^4 = 16$.\n\nExplain counting digit by digit with two choices each."
+    },
+    "34": {
+      "hint": "Three people in a line — six orders like ABC problem.",
+      "help": "Orders: A-S-P, A-P-S, S-A-P, S-P-A, P-A-S, P-S-A.\n\n**6** permutations."
+    },
+    "35": {
+      "hint": "Order matters: AB ≠ BA — count pairs from 5 letters.",
+      "help": "Codes = $5 \\times 4 = 20$ (pick first letter, then different second).\n\nExplain ordered pairs from 5 letters."
+    },
+    "36": {
+      "hint": "5 × 6 = 30; check with smaller 2 starters × 3 mains = 6 by listing.",
+      "help": "Full menu: $5 \\times 6 = 30$.\n\nSmall check: list 2×3=6 pairs to show systematic listing matches multiply."
+    },
+    "37": {
+      "hint": "Use 20p and 10p coins summing to 50p — list combinations.",
+      "help": "Possibilities: **20+20+10**, **20+10+10+10**, **10×5**.\n\nList all coin combinations that total 50p."
+    },
+    "38": {
+      "hint": "Choose 2 colours from 4 where order does not matter — list pairs.",
+      "help": "Pairs: red-blue, red-green, red-yellow, blue-green, blue-yellow, green-yellow.\n\n**6** pairs ($\\frac{4 \\times 3}{2}$)."
+    },
+    "39": {
+      "hint": "Group by which dice show the same number without listing all 216 triples.",
+      "help": "Strategy: count cases where dice 1 and 2 match, etc., or use complement.\n\nExplain grouping by **which dice are equal** rather than writing every triple."
+    },
+    "40": {
+      "hint": "Each course choice multiplies: s × m × d total meals.",
+      "help": "Total = **s × m × d**.\n\nFor each starter, every main pairs with every dessert — multiplication counts the full list."
+    },
+    "41": {
+      "hint": "Missing one outcome in a probability list changes the fraction.",
+      "help": "Example: two coins listed as HH, HT, TT — P(HH) wrongly $\\frac{1}{3}$ instead of $\\frac{1}{4}$.\n\nSystematic listing prevents missing **TH**."
+    },
+    "42": {
+      "hint": "Four people in a queue — 4×3×2×1 arrangements.",
+      "help": "Method: 4 choices for first place, 3 for second, 2 for third, 1 left.\n\nTotal = **24** arrangements."
+    }
+  }
+}

@@ -24,8 +24,10 @@ export type AnswerEntry = {
   rating?: number;
   /** @deprecated use rating; 1 = easier, 2 = medium, 3 = harder */
   tier?: QuestionTier;
-  /** Match if normalized user answer includes any accept string */
+  /** Match if normalized user answer includes accept strings (see containsMin). */
   contains?: boolean;
+  /** When contains is true, how many accept strings must appear (default: 1, or 2 if several clues). */
+  containsMin?: number;
   /** @deprecated use kind: "self-check" */
   any?: boolean;
   bars?: BarChartSpec;
@@ -57,15 +59,31 @@ export function toClientAnswerMeta(
 ): ClientAnswerMeta {
   const tier = entry.tier ?? sectionTier;
   return {
-    kind: resolveAnswerKind(entry),
+    kind: resolvePracticeInputKind(entry),
     display: entry.display,
     bars: entry.bars,
     rating: effectiveQuestionRating(entry.rating, tier, questionId),
   };
 }
 
+/** Kids always type (or use bar-chart widgets); no self-mark flows. */
+export function resolvePracticeInputKind(entry: AnswerEntry): AnswerKind {
+  if (entry.bars || entry.kind === "bar-chart") return "bar-chart";
+  return "text";
+}
+
+function requiredContainsHits(entry: AnswerEntry): number {
+  if (entry.containsMin != null && entry.containsMin > 0) {
+    return entry.containsMin;
+  }
+  if (!entry.contains) return 1;
+  if (entry.accept.length <= 1) return 1;
+  return Math.min(2, entry.accept.length);
+}
+
 export function tierFromSection(section: string): QuestionTier {
   const s = section.toLowerCase();
+  if (s.includes("getting started")) return 1;
   if (s.includes("fluency") || s.includes("more fluency")) return 1;
   if (s.includes("reasoning") || s.includes("mixed")) return 2;
   return 3;
@@ -109,8 +127,12 @@ export function parseQuestions(markdownBody: string): ParsedQuestion[] {
       };
       continue;
     }
-    if (current && line.trim() && !line.startsWith("|")) {
-      current.text += ` ${line.trim()}`;
+    if (current && line.trim()) {
+      if (line.startsWith("|")) {
+        current.text += `\n${line}`;
+      } else {
+        current.text += ` ${line.trim()}`;
+      }
     }
   }
   flush();
@@ -120,6 +142,7 @@ export function parseQuestions(markdownBody: string): ParsedQuestion[] {
 export function normalizeAnswer(value: string): string {
   return value
     .toLowerCase()
+    .replace(/\u2212/g, "-")
     .replace(/\s+/g, " ")
     .replace(/£|,/g, "")
     .replace(/\*\*/g, "")
@@ -131,22 +154,35 @@ export function gradeAnswer(
   userAnswer: string,
 ): { correct: boolean; display: string } {
   const display = entry.display;
-  const kind = resolveAnswerKind(entry);
-  if (kind !== "text") {
-    return { correct: false, display };
-  }
   const trimmed = userAnswer.trim();
   if (!trimmed) {
     return { correct: false, display };
   }
   const normUser = normalizeAnswer(trimmed);
+
+  if (
+    entry.accept.length === 0 &&
+    (entry.kind === "self-check" || entry.any)
+  ) {
+    const ok = normUser.length >= 12;
+    return { correct: ok, display };
+  }
+
+  if (entry.contains) {
+    const need = requiredContainsHits(entry);
+    let hits = 0;
+    for (const raw of entry.accept) {
+      const normAccept = normalizeAnswer(raw);
+      if (normAccept && normUser.includes(normAccept)) hits += 1;
+    }
+    if (hits >= need) {
+      return { correct: true, display };
+    }
+    return { correct: false, display };
+  }
+
   for (const raw of entry.accept) {
-    const normAccept = normalizeAnswer(raw);
-    if (entry.contains) {
-      if (normUser.includes(normAccept)) {
-        return { correct: true, display };
-      }
-    } else if (normUser === normAccept) {
+    if (normUser === normalizeAnswer(raw)) {
       return { correct: true, display };
     }
   }
@@ -184,11 +220,7 @@ export function gradePracticeAttempt(
   entry: AnswerEntry,
   body: PracticeSubmitBody,
 ): { correct: boolean; display: string } {
-  const kind = resolveAnswerKind(entry);
-  if (kind === "self-check") {
-    return gradeSelfCheck(entry, body.selfCheckCorrect === true);
-  }
-  if (kind === "bar-chart") {
+  if (resolvePracticeInputKind(entry) === "bar-chart") {
     return gradeBarChart(entry, body.barHeights ?? []);
   }
   return gradeAnswer(entry, body.answer ?? "");

@@ -2,7 +2,73 @@
   "version": 1,
   "answers": {
     "1": {
-      "display": "x = 4 or x = \u22124",
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "$x = 2$",
+      "accept": [
+        "2",
+        "x=2",
+        "x = 2"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
+      "display": "x = 4 or x = −4",
       "accept": [
         "4 or -4",
         "4, -4",
@@ -11,10 +77,10 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
-      "display": "x = 7 or x = \u22127",
+    "10": {
+      "display": "x = 7 or x = −7",
       "accept": [
         "7 or -7",
         "7, -7",
@@ -23,10 +89,10 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
-      "display": "x = 3 or x = \u22123",
+    "11": {
+      "display": "x = 3 or x = −3",
       "accept": [
         "3 or -3",
         "3, -3",
@@ -35,63 +101,63 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "12": {
       "display": "(x + 2)(x + 3)",
       "accept": [
         "(x+2)(x+3)"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
-      "display": "(x \u2212 1)(x \u2212 3)",
+    "13": {
+      "display": "(x − 1)(x − 3)",
       "accept": [
         "(x-1)(x-3)"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
-      "display": "x = 2 or x = \u22123",
+    "14": {
+      "display": "x = 2 or x = −3",
       "accept": [
         "2 or -3",
         "2, -3"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
-      "display": "x = \u22125 or x = 1",
+    "15": {
+      "display": "x = −5 or x = 1",
       "accept": [
         "-5 or 1",
         "-5, 1"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "(x + 3)(x + 4)",
       "accept": [
         "(x+3)(x+4)"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
-      "display": "x = \u22122 or x = \u22123",
+    "17": {
+      "display": "x = −2 or x = −3",
       "accept": [
         "-2 or -3",
         "-2, -3"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "x = 1 or x = 3",
       "accept": [
         "1 or 3",
@@ -99,28 +165,28 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
-      "display": "(x \u2212 5)(x + 5)",
+    "19": {
+      "display": "(x − 5)(x + 5)",
       "accept": [
         "(x-5)(x+5)"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
-      "display": "x = 5 or x = \u22125",
+    "20": {
+      "display": "x = 5 or x = −5",
       "accept": [
         "5 or -5",
         "5, -5"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "Sam missed the negative root: x\u00b2 = 16 has two solutions, x = 4 or x = \u22124.",
+    "23": {
+      "display": "Sam missed the negative root: x² = 16 has two solutions, x = 4 or x = −4.",
       "accept": [
         "-4",
         "both",
@@ -128,58 +194,58 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Sometimes \u2014 a quadratic can have two solutions, one repeated solution (e.g. (x \u2212 2)\u00b2 = 0 gives x = 2 only), or no real solutions (e.g. x\u00b2 + 4 = 0).",
+    "24": {
+      "display": "Sometimes — a quadratic can have two solutions, one repeated solution (e.g. (x − 2)² = 0 gives x = 2 only), or no real solutions (e.g. x² + 4 = 0).",
       "accept": [
         "sometimes"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "(x + 2)(x + 3) = x\u00b2 + 5x + 6, which matches, so Priya is correct.",
+    "25": {
+      "display": "(x + 2)(x + 3) = x² + 5x + 6, which matches, so Priya is correct.",
       "accept": [
         "correct",
-        "x\u00b2+5x+6",
+        "x²+5x+6",
         "x^2+5x+6"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Yes \u2014 both rearrange to give x = 3 or x = \u22123.",
+    "26": {
+      "display": "Yes — both rearrange to give x = 3 or x = −3.",
       "accept": [
         "yes",
         "same"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "True \u2014 x\u00b2 \u2212 9 = 0 rearranges to x\u00b2 = 9, so the solutions are the same.",
+    "27": {
+      "display": "True — x² − 9 = 0 rearranges to x² = 9, so the solutions are the same.",
       "accept": [
         "true"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Leo's brackets expand to x\u00b2 + 2x \u2212 3, not x\u00b2 \u2212 4x + 3 \u2014 he has the wrong factor pair. Correct factorisation: (x \u2212 1)(x \u2212 3).",
+    "28": {
+      "display": "Leo's brackets expand to x² + 2x − 3, not x² − 4x + 3 — he has the wrong factor pair. Correct factorisation: (x − 1)(x − 3).",
       "accept": [
         "(x-1)(x-3)"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "(x \u2212 2)(x \u2212 2) = 0 has one repeated solution, x = 2. (x \u2212 2)(x + 2) = 0 has two solutions, x = 2 or x = \u22122.",
+    "29": {
+      "display": "(x − 2)(x − 2) = 0 has one repeated solution, x = 2. (x − 2)(x + 2) = 0 has two solutions, x = 2 or x = −2.",
       "accept": [
         "repeated",
         "2 and -2",
@@ -187,10 +253,10 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "Mo's idea is disproved: x\u00b2 \u2212 4x + 3 factorises to (x \u2212 1)(x \u2212 3), which both have minus signs, even though the equation ends in +3.",
+    "30": {
+      "display": "Mo's idea is disproved: x² − 4x + 3 factorises to (x − 1)(x − 3), which both have minus signs, even though the equation ends in +3.",
       "accept": [
         "disproved",
         "wrong",
@@ -198,27 +264,27 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "31": {
       "display": "x = 9 cm.",
       "accept": [
         "9"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "x\u00b2 + 5x \u2212 24 = 0 \u2192 (x + 8)(x \u2212 3) = 0 \u2192 x = 3.",
+    "32": {
+      "display": "x² + 5x − 24 = 0 → (x + 8)(x − 3) = 0 → x = 3.",
       "accept": [
         "3"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "33": {
       "display": "t = 0 or t = 6 seconds.",
       "accept": [
         "0",
@@ -226,71 +292,106 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "x(x + 4) = 45 \u2192 x\u00b2 + 4x \u2212 45 = 0 \u2192 (x + 9)(x \u2212 5) = 0 \u2192 x = 5.",
+    "34": {
+      "display": "x(x + 4) = 45 → x² + 4x − 45 = 0 → (x + 9)(x − 5) = 0 → x = 5.",
       "accept": [
         "5"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "w(w + 3) = 40 \u2192 w\u00b2 + 3w \u2212 40 = 0 \u2192 (w + 8)(w \u2212 5) = 0 \u2192 w = 5 cm.",
+    "35": {
+      "display": "w(w + 3) = 40 → w² + 3w − 40 = 0 → (w + 8)(w − 5) = 0 → w = 5 cm.",
       "accept": [
         "5"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "x + x\u00b2 = 20 \u2192 x\u00b2 + x \u2212 20 = 0 \u2192 (x + 5)(x \u2212 4) = 0 \u2192 x = 4.",
+    "36": {
+      "display": "x + x² = 20 → x² + x − 20 = 0 → (x + 5)(x − 4) = 0 → x = 4.",
       "accept": [
         "4"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "2x\u00b2 = 8 \u2192 x\u00b2 = 4 \u2192 x = 2 or x = \u22122.",
+    "37": {
+      "display": "2x² = 8 → x² = 4 → x = 2 or x = −2.",
       "accept": [
         "2",
         "-2"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
-      "display": "(x + 5)(x \u2212 3) = 0 \u2192 x = \u22125 or x = 3.",
+    "38": {
+      "display": "(x + 5)(x − 3) = 0 → x = −5 or x = 3.",
       "accept": [
         "-5",
         "3"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
-      "display": "x(x \u2212 4) = 45 \u2192 x\u00b2 \u2212 4x \u2212 45 = 0 \u2192 (x \u2212 9)(x + 5) = 0 \u2192 x = 9, width = 5 cm.",
+    "39": {
+      "display": "x(x − 4) = 45 → x² − 4x − 45 = 0 → (x − 9)(x + 5) = 0 → x = 9, width = 5 cm.",
       "accept": [
         "9",
         "5"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
-      "display": "Example: a square garden of side x has area 36 m\u00b2, giving x\u00b2 = 36 and x = 6. Any correct whole-number quadratic problem is acceptable.",
+    "40": {
+      "display": "Example: a square garden of side x has area 36 m², giving x² = 36 and x = 6. Any correct whole-number quadratic problem is acceptable.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "3",
+      "accept": [
+        "3",
+        "-3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8 cm"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

@@ -2,6 +2,84 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8 cm",
+        "8cm"
+      ],
+      "tier": 1,
+      "rating": 510
+    },
+    "2": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10 cm",
+        "10cm"
+      ],
+      "tier": 1,
+      "rating": 535
+    },
+    "3": {
+      "display": "6",
+      "accept": [
+        "6",
+        "6 squares",
+        "6 cm²",
+        "6cm²"
+      ],
+      "tier": 1,
+      "rating": 570
+    },
+    "4": {
+      "display": "perimeter",
+      "accept": [
+        "perimeter"
+      ],
+      "tier": 1,
+      "rating": 605
+    },
+    "5": {
+      "display": "area",
+      "accept": [
+        "area"
+      ],
+      "tier": 1,
+      "rating": 640
+    },
+    "6": {
+      "display": "16 cm",
+      "accept": [
+        "16",
+        "16 cm",
+        "16cm"
+      ],
+      "tier": 1,
+      "rating": 675
+    },
+    "7": {
+      "display": "8 square units",
+      "accept": [
+        "8",
+        "8 square units",
+        "8 units squared"
+      ],
+      "tier": 1,
+      "rating": 710
+    },
+    "8": {
+      "display": "cm²",
+      "accept": [
+        "cm²",
+        "cm2",
+        "square centimetres",
+        "square centimeters"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "9": {
       "display": "26 cm",
       "accept": [
         "26",
@@ -9,32 +87,32 @@
         "26cm"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
-      "display": "40 cm\u00b2",
+    "10": {
+      "display": "40 cm²",
       "accept": [
         "40",
         "40 cm2",
-        "40 cm\u00b2",
-        "40cm\u00b2"
+        "40 cm²",
+        "40cm²"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
-      "display": "length \u00d7 width (or A = lw)",
+    "11": {
+      "display": "length × width (or A = lw)",
       "accept": [
         "length x width",
-        "length \u00d7 width",
+        "length × width",
         "l x w",
         "lw"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
-      "display": "Perimeter 24 m; area 36 m\u00b2",
+    "12": {
+      "display": "Perimeter 24 m; area 36 m²",
       "accept": [
         "24 36",
         "24 and 36",
@@ -42,42 +120,42 @@
         "perimeter 24 area 36"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
-      "display": "2 m; 30 000 cm\u00b2 (3 m\u00b2)",
+    "13": {
+      "display": "2 m; 30 000 cm² (3 m²)",
       "accept": [
         "2 m",
         "2",
         "30000",
         "30 000 cm2",
-        "30000 cm\u00b2"
+        "30000 cm²"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
-      "display": "64 cm\u00b2 (40 + 24)",
+    "14": {
+      "display": "64 cm² (40 + 24)",
       "accept": [
         "64",
         "64 cm2",
-        "64 cm\u00b2"
+        "64 cm²"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
-      "display": "perimeter = 2 \u00d7 (length + width)",
+    "15": {
+      "display": "perimeter = 2 × (length + width)",
       "accept": [
         "2(l+w)",
         "2 x (length + width)",
-        "2\u00d7(length+width)",
+        "2×(length+width)",
         "2(length+width)"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "7 cm",
       "accept": [
         "7",
@@ -85,9 +163,9 @@
         "7cm"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "5 cm",
       "accept": [
         "5",
@@ -95,9 +173,9 @@
         "5cm"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "35 cm",
       "accept": [
         "35",
@@ -105,9 +183,9 @@
         "35cm"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "130 m",
       "accept": [
         "130",
@@ -115,10 +193,10 @@
         "130m"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
-      "display": "500 cm; 1.5 m\u00b2",
+    "20": {
+      "display": "500 cm; 1.5 m²",
       "accept": [
         "500",
         "1.5",
@@ -126,9 +204,9 @@
         "500cm 1.5m2"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
+    "21": {
       "display": "No. A: perimeter 20 cm; B: perimeter 28 cm.",
       "accept": [
         "no",
@@ -138,10 +216,10 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Never \u2014 doubling length and width makes area 4 times as big (e.g. 3\u00d72=6 \u2192 6\u00d74=24).",
+    "22": {
+      "display": "Never — doubling length and width makes area 4 times as big (e.g. 3×2=6 → 6×4=24).",
       "accept": [
         "never",
         "four times",
@@ -149,10 +227,10 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "Sam found area, not perimeter. Correct perimeter = 2\u00d7(7+3) = 20 cm.",
+    "23": {
+      "display": "Sam found area, not perimeter. Correct perimeter = 2×(7+3) = 20 cm.",
       "accept": [
         "20",
         "perimeter",
@@ -160,10 +238,10 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "No \u2014 the square (5\u00d75) has area 25 cm\u00b2; the rectangle (8\u00d72) has area 16 cm\u00b2. Different areas.",
+    "24": {
+      "display": "No — the square (5×5) has area 25 cm²; the rectangle (8×2) has area 16 cm². Different areas.",
       "accept": [
         "no",
         "25",
@@ -172,27 +250,27 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "Example: a 1 cm \u00d7 20 cm rectangle has perimeter 42 cm and area 20 cm\u00b2; a 5 cm \u00d7 5 cm square has a smaller perimeter (20 cm) but a bigger area (25 cm\u00b2).",
+    "25": {
+      "display": "Example: a 1 cm × 20 cm rectangle has perimeter 42 cm and area 20 cm²; a 5 cm × 5 cm square has a smaller perimeter (20 cm) but a bigger area (25 cm²).",
       "accept": [],
       "kind": "self-check",
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "The perimeter increases (but does not double, since only length changed); the area doubles. E.g. 4\u00d73 (P=14, A=12) \u2192 8\u00d73 (P=22, A=24).",
+    "26": {
+      "display": "The perimeter increases (but does not double, since only length changed); the area doubles. E.g. 4×3 (P=14, A=12) → 8×3 (P=22, A=24).",
       "accept": [
         "doubles",
         "area doubles"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "Example: 6\u00d76 cm (perimeter 24 cm) and 4\u00d79 cm (perimeter 26 cm) \u2014 different perimeters for the same area of 36 cm\u00b2.",
+    "27": {
+      "display": "Example: 6×6 cm (perimeter 24 cm) and 4×9 cm (perimeter 26 cm) — different perimeters for the same area of 36 cm².",
       "accept": [
         "24",
         "26",
@@ -200,10 +278,10 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "True \u2014 the 6\u00d76 square has perimeter 24 cm; the 9\u00d74 rectangle has perimeter 26 cm. The square has the smaller perimeter.",
+    "28": {
+      "display": "True — the 6×6 square has perimeter 24 cm; the 9×4 rectangle has perimeter 26 cm. The square has the smaller perimeter.",
       "accept": [
         "true",
         "24",
@@ -211,29 +289,29 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
-      "display": "10 500 cm\u00b2",
+    "29": {
+      "display": "10 500 cm²",
       "accept": [
         "10500",
         "10 500",
         "10500 cm2"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "48 m\u00b2 (54 \u2212 6 from a 9\u00d76 rectangle minus a 3\u00d72 grass corner)",
+    "30": {
+      "display": "48 m² (54 − 6 from a 9×6 rectangle minus a 3×2 grass corner)",
       "accept": [
         "48",
         "48 m2",
-        "48 m\u00b2"
+        "48 m²"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "31": {
       "display": "540 m",
       "accept": [
         "540",
@@ -241,39 +319,100 @@
         "540m"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "\u00a3168",
+    "32": {
+      "display": "£168",
       "accept": [
         "168",
-        "\u00a3168"
+        "£168"
       ],
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "216 cm\u00b2",
+    "33": {
+      "display": "216 cm²",
       "accept": [
         "216",
         "216 cm2",
-        "216 cm\u00b2"
+        "216 cm²"
       ],
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "Each plot is 6 m \u00d7 8 m = 48 m\u00b2; the dividing fence is 8 m long.",
+    "34": {
+      "display": "Each plot is 6 m × 8 m = 48 m²; the dividing fence is 8 m long.",
       "accept": [
         "48",
         "8"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "Width 5 cm; area 50 cm\u00b2",
+    "35": {
+      "display": "20 cm²",
+      "accept": [
+        "20",
+        "20cm2",
+        "20 cm²",
+        "20cm²"
+      ],
+      "tier": 2,
+      "rating": 1240
+    },
+    "36": {
+      "display": "18 cm",
+      "accept": [
+        "18",
+        "18cm",
+        "18 cm"
+      ],
+      "tier": 2,
+      "rating": 1316
+    },
+    "37": {
+      "display": "49 cm²",
+      "accept": [
+        "49",
+        "49cm2",
+        "49 cm²"
+      ],
+      "tier": 2,
+      "rating": 1392
+    },
+    "38": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5cm",
+        "5 cm"
+      ],
+      "tier": 2,
+      "rating": 1468
+    },
+    "39": {
+      "display": "12 m²",
+      "accept": [
+        "12",
+        "12m2",
+        "12 m²"
+      ],
+      "tier": 2,
+      "rating": 1544
+    },
+    "40": {
+      "display": "20 m²",
+      "accept": [
+        "20",
+        "20m2",
+        "20 m²"
+      ],
+      "tier": 2,
+      "rating": 1620
+    },
+    "41": {
+      "display": "Width 5 cm; area 50 cm²",
       "accept": [
         "5",
         "50",
@@ -281,26 +420,26 @@
         "area 50"
       ],
       "tier": 3,
-      "rating": 1952
+      "rating": 1885
     },
-    "28": {
-      "display": "Example: two rectangles whose areas sum to 48 cm\u00b2, with dimensions and calculation shown.",
+    "42": {
+      "display": "Example: two rectangles whose areas sum to 48 cm², with dimensions and calculation shown.",
       "accept": [],
       "kind": "self-check",
       "tier": 3,
-      "rating": 1964
+      "rating": 1925
     },
-    "29": {
-      "display": "Example: 8\u00d79 (perimeter 34 cm) and 6\u00d712 (perimeter 36 cm) \u2014 different perimeters for the same area of 72 cm\u00b2.",
+    "43": {
+      "display": "Example: 8×9 (perimeter 34 cm) and 6×12 (perimeter 36 cm) — different perimeters for the same area of 72 cm².",
       "accept": [
         "34",
         "36"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1975
     },
-    "30": {
+    "44": {
       "display": "16 cm",
       "accept": [
         "16",
@@ -308,7 +447,7 @@
         "16cm"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 2000
     }
   }
 }

@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { kvGet, worksheetOverrideKey } from "./kv";
 import type { AssessmentObjective } from "./topics/catalog";
 import type { AnswerKey } from "./questions";
+import type { QuestionSupportFile } from "./question-support";
 
 export type WorksheetFrontmatter = {
   title: string;
@@ -149,6 +150,27 @@ export async function getAnswerKey(
     try {
       const raw = await fs.readFile(filePath, "utf8");
       return JSON.parse(raw) as AnswerKey;
+    } catch {
+      continue;
+    }
+  }
+  return null;
+}
+
+export async function getQuestionSupport(
+  tenantId: string,
+  slug: string,
+): Promise<QuestionSupportFile | null> {
+  const normalized = slug.split("/").join(path.sep);
+  const root = tenantRoot(tenantId);
+  const candidates = [
+    path.join(root, "subjects", "maths", "topics", `${normalized}.support.json`),
+    path.join(root, "topics", `${normalized}.support.json`),
+  ];
+  for (const filePath of candidates) {
+    try {
+      const raw = await fs.readFile(filePath, "utf8");
+      return JSON.parse(raw) as QuestionSupportFile;
     } catch {
       continue;
     }

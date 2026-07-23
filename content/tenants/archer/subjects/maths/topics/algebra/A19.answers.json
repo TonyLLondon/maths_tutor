@@ -2,6 +2,82 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "4",
+      "accept": [
+        "4",
+        "y=4",
+        "y = 4"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "3",
+      "accept": [
+        "3",
+        "y=3",
+        "y = 3"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "4",
+      "accept": [
+        "4",
+        "x=4",
+        "x = 4"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "3",
+      "accept": [
+        "3",
+        "x=3",
+        "x = 3"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "4",
+      "accept": [
+        "4",
+        "y=4",
+        "y = 4"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "5",
+      "accept": [
+        "5",
+        "x=5",
+        "x = 5"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "x = 6, y = 3",
       "accept": [
         "6, 3",
@@ -9,9 +85,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "x = 10, y = 5",
       "accept": [
         "10, 5",
@@ -19,9 +95,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "x = 5, y = 3",
       "accept": [
         "5, 3",
@@ -29,9 +105,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "12": {
       "display": "x = 5, y = 2",
       "accept": [
         "5, 2",
@@ -39,9 +115,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "13": {
       "display": "x = 2, y = 4",
       "accept": [
         "2, 4",
@@ -49,9 +125,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "14": {
       "display": "x = 4, y = 3",
       "accept": [
         "4, 3",
@@ -59,9 +135,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "x = 7, y = 3",
       "accept": [
         "7, 3",
@@ -69,9 +145,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "x = 5, y = 10",
       "accept": [
         "5, 10",
@@ -79,9 +155,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "x = 5, y = 3",
       "accept": [
         "5, 3",
@@ -89,9 +165,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "x = 4, y = 5",
       "accept": [
         "4, 5",
@@ -99,9 +175,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "x = 15, y = 5",
       "accept": [
         "15, 5",
@@ -109,9 +185,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "20": {
       "display": "x = 3, y = 7",
       "accept": [
         "3, 7",
@@ -119,9 +195,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
+    "23": {
       "display": "Sam's addition was wrong: (x+y)+(x-y) = 2x = 12, not 8, so x = 6. Then y = 4.",
       "accept": [
         "6",
@@ -129,29 +205,29 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Sometimes \u2014 adding eliminates a variable only when its coefficients in the two equations are equal and opposite in sign; otherwise subtracting (or scaling first) is needed.",
+    "24": {
+      "display": "Sometimes — adding eliminates a variable only when its coefficients in the two equations are equal and opposite in sign; otherwise subtracting (or scaling first) is needed.",
       "accept": [
         "sometimes"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "Subtracting: (x+2y) \u2212 (x+y) = 12 \u2212 7 \u2192 y = 5. Then x + 5 = 7 \u2192 x = 2.",
+    "25": {
+      "display": "Subtracting: (x+2y) − (x+y) = 12 − 7 → y = 5. Then x + 5 = 7 → x = 2.",
       "accept": [
         "2",
         "5"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Pair B's second equation (2x + 2y = 12) is just the first equation doubled, so it gives no new information \u2014 there are infinitely many solutions. Pair A's two equations are genuinely different, giving one unique solution.",
+    "26": {
+      "display": "Pair B's second equation (2x + 2y = 12) is just the first equation doubled, so it gives no new information — there are infinitely many solutions. Pair A's two equations are genuinely different, giving one unique solution.",
       "accept": [
         "doubled",
         "same equation",
@@ -159,18 +235,18 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "True \u2014 the crossing point is the only pair of coordinates that satisfies both equations (both lines) at once.",
+    "27": {
+      "display": "True — the crossing point is the only pair of coordinates that satisfies both equations (both lines) at once.",
       "accept": [
         "true"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
+    "28": {
       "display": "Leo's working is correct: subtracting gives 2y = 10, y = 5, and then x + 5 = 11, so x = 6.",
       "accept": [
         "correct",
@@ -178,9 +254,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
+    "29": {
       "display": "Adding the equations eliminates y (giving 2x = 14, x = 7); subtracting eliminates x (giving 2y = 6, y = 3).",
       "accept": [
         "eliminates y",
@@ -190,27 +266,27 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "Example: x + y = 5 and x + y = 8. Both have the same left-hand side but different totals, so no values of x and y can satisfy both \u2014 no solution.",
+    "30": {
+      "display": "Example: x + y = 5 and x + y = 8. Both have the same left-hand side but different totals, so no values of x and y can satisfy both — no solution.",
       "accept": [],
       "tier": 2,
       "kind": "self-check",
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
-      "display": "x + y = 15, x \u2212 y = 5 \u2192 x = 10, y = 5.",
+    "31": {
+      "display": "x + y = 15, x − y = 5 → x = 10, y = 5.",
       "accept": [
         "10",
         "5"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "2p + r = 3.5, p + r = 2.5 \u2192 subtracting: p = \u00a31, r = \u00a31.50.",
+    "32": {
+      "display": "2p + r = 3.5, p + r = 2.5 → subtracting: p = £1, r = £1.50.",
       "accept": [
         "1",
         "1.5",
@@ -218,49 +294,49 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
-      "display": "3x + 2y = 39, 2x + 2y = 30 \u2192 subtracting: x = 9, then y = 6.",
+    "33": {
+      "display": "3x + 2y = 39, 2x + 2y = 30 → subtracting: x = 9, then y = 6.",
       "accept": [
         "9",
         "6"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "x + y = 20, x = 3y \u2192 4y = 20 \u2192 y = 5, x = 15.",
+    "34": {
+      "display": "x + y = 20, x = 3y → 4y = 20 → y = 5, x = 15.",
       "accept": [
         "15",
         "5"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "2a + f = 25, a + f = 18 \u2192 subtracting: a = \u00a37, f = \u00a311.",
+    "35": {
+      "display": "2a + f = 25, a + f = 18 → subtracting: a = £7, f = £11.",
       "accept": [
         "7",
         "11"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "x + 2y = 16, x \u2212 y = 1 \u2192 subtracting: 3y = 15 \u2192 y = 5, x = 6.",
+    "36": {
+      "display": "x + 2y = 16, x − y = 1 → subtracting: 3y = 15 → y = 5, x = 6.",
       "accept": [
         "6",
         "5"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
+    "37": {
       "display": "Double x+y=6 to get 2x+2y=12. Subtract from 3x+2y=16: x = 4, then y = 2.",
       "accept": [
         "4",
@@ -268,34 +344,72 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
-      "display": "From 3x \u2212 y = 2, y = 3x \u2212 2. Substituting: 2x + 3(3x\u22122) = 16 \u2192 11x = 22 \u2192 x = 2, y = 4.",
+    "38": {
+      "display": "From 3x − y = 2, y = 3x − 2. Substituting: 2x + 3(3x−2) = 16 → 11x = 22 → x = 2, y = 4.",
       "accept": [
         "2",
         "4"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
-      "display": "2x + 2y = 26 \u2192 x + y = 13. Subtracting from x + 3y = 27: 2y = 14 \u2192 y = 7, x = 6.",
+    "39": {
+      "display": "2x + 2y = 26 → x + y = 13. Subtracting from x + 3y = 27: 2y = 14 → y = 7, x = 6.",
       "accept": [
         "6",
         "7"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
-      "display": "Example: two coffees and a cake cost \u00a38.50; one coffee and a cake cost \u00a35.50 \u2014 solve to find each price. Any correct real-world pair of equations with whole-number solutions is acceptable.",
+    "40": {
+      "display": "Example: two coffees and a cake cost £8.50; one coffee and a cake cost £5.50 — solve to find each price. Any correct real-world pair of equations with whole-number solutions is acceptable.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "y = 7",
+      "accept": [
+        "7",
+        "y=7"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "y = 3",
+      "accept": [
+        "3",
+        "y=3"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "6 and 9",
+      "accept": [
+        "6",
+        "9"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "2 adults, 3 children",
+      "accept": [
+        "2 adult",
+        "3 child"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

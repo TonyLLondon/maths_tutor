@@ -2,29 +2,30 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
       "display": "centre",
       "accept": [
         "centre",
         "center"
       ],
       "tier": 1,
-      "rating": 1164
-    },
-    "2": {
-      "display": "radius",
-      "accept": [
-        "radius"
-      ],
-      "tier": 1,
-      "rating": 1176
+      "rating": 540
     },
     "3": {
-      "display": "diameter",
+      "display": "True",
       "accept": [
-        "diameter"
+        "true",
+        "yes"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 580
     },
     "4": {
       "display": "radius",
@@ -32,76 +33,145 @@
         "radius"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 620
     },
     "5": {
+      "display": "diameter",
+      "accept": [
+        "diameter"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "6 cm",
+      "accept": [
+        "6",
+        "6 cm",
+        "6cm"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm",
+        "5cm"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
       "display": "circumference",
       "accept": [
         "circumference"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 780
     },
-    "6": {
+    "9": {
+      "display": "centre",
+      "accept": [
+        "centre",
+        "center"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "radius",
+      "accept": [
+        "radius"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "diameter",
+      "accept": [
+        "diameter"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "radius",
+      "accept": [
+        "radius"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "circumference",
+      "accept": [
+        "circumference"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
       "display": "tangent",
       "accept": [
         "tangent"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "chord",
       "accept": [
         "chord"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "arc",
       "accept": [
         "arc"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "sector",
       "accept": [
         "sector"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "segment",
       "accept": [
         "segment"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "True",
       "accept": [
         "true"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
-      "display": "90\u00b0 (a right angle)",
+    "20": {
+      "display": "90° (a right angle)",
       "accept": [
         "90",
-        "90\u00b0",
+        "90°",
         "right angle"
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
+    "23": {
       "display": "12 cm",
       "accept": [
         "12",
@@ -109,10 +179,10 @@
         "12cm"
       ],
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "A tangent only touches the circle at one point, and that point is where the circle is momentarily 'flattest' along the tangent direction \u2014 the radius to that point is always exactly perpendicular to the tangent, otherwise the tangent would cross into the circle.",
+    "24": {
+      "display": "A tangent only touches the circle at one point, and that point is where the circle is momentarily 'flattest' along the tangent direction — the radius to that point is always exactly perpendicular to the tangent, otherwise the tangent would cross into the circle.",
       "accept": [
         "perpendicular",
         "90",
@@ -120,9 +190,9 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
+    "25": {
       "display": "The larger region is called the major segment and the smaller region is called the minor segment.",
       "accept": [
         "major segment",
@@ -131,18 +201,18 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Always \u2014 the diameter passes through the centre, so it is always at least as long as any other chord, and always longer than any chord that does not pass through the centre.",
+    "26": {
+      "display": "Always — the diameter passes through the centre, so it is always at least as long as any other chord, and always longer than any chord that does not pass through the centre.",
       "accept": [
         "always"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
+    "27": {
       "display": "The two tangent lengths are always equal.",
       "accept": [
         "equal",
@@ -150,10 +220,10 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "No \u2014 a radius always starts at the centre and reaches the edge, while a chord joins two points on the circumference and does not have to pass through the centre.",
+    "28": {
+      "display": "No — a radius always starts at the centre and reaches the edge, while a chord joins two points on the circumference and does not have to pass through the centre.",
       "accept": [
         "no",
         "centre",
@@ -161,21 +231,21 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "\u00bc (a quarter)",
+    "29": {
+      "display": "¼ (a quarter)",
       "accept": [
         "1/4",
-        "\u00bc",
+        "¼",
         "quarter",
         "0.25"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
+    "30": {
       "display": "A sector is bounded by two radii and an arc (a 'pizza slice' from the centre); a segment is bounded by a chord and an arc, and does not include the centre.",
       "accept": [
         "two radii",
@@ -184,9 +254,9 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "31": {
       "display": "0.7 m",
       "accept": [
         "0.7",
@@ -195,17 +265,17 @@
         "70 cm"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
+    "32": {
       "display": "circumference",
       "accept": [
         "circumference"
       ],
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "33": {
       "display": "1.6 m",
       "accept": [
         "1.6",
@@ -213,18 +283,18 @@
         "1.6m"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "60\u00b0",
+    "34": {
+      "display": "60°",
       "accept": [
         "60",
-        "60\u00b0"
+        "60°"
       ],
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
+    "35": {
       "display": "16 cm",
       "accept": [
         "16",
@@ -232,18 +302,18 @@
         "16cm"
       ],
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "36": {
       "display": "diameter",
       "accept": [
         "diameter"
       ],
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "Because the radius meets the tangent at exactly 90\u00b0, the radius itself is the shortest possible line from the centre to the tangent line \u2014 any other line from the centre to the tangent would be the hypotenuse of a right-angled triangle and so would be longer than the radius.",
+    "37": {
+      "display": "Because the radius meets the tangent at exactly 90°, the radius itself is the shortest possible line from the centre to the tangent line — any other line from the centre to the tangent would be the hypotenuse of a right-angled triangle and so would be longer than the radius.",
       "accept": [
         "90",
         "perpendicular",
@@ -251,9 +321,9 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "38": {
       "display": "8 cm",
       "accept": [
         "8",
@@ -261,9 +331,9 @@
         "8cm"
       ],
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
+    "39": {
       "display": "16 cm",
       "accept": [
         "16",
@@ -271,14 +341,45 @@
         "16cm"
       ],
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "Your own labelled circle diagram description using at least three features, correctly related to each other.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "Radius",
+      "accept": [
+        "radius"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "Line joining two points on the circle",
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10 cm"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "Tangent",
+      "accept": [
+        "tangent"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

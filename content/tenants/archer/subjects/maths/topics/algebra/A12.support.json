@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Add 2 and 2.",
+      "help": "2 + 2 = **4**.\n\nWarm-up arithmetic.\n\nAnswer 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "2": {
+      "hint": "$2 \\times 2$.",
+      "help": "$2^2 = 4$.\n\nSquare of 2.\n\nAnswer 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "$2 \\times 2 \\times 2$.",
+      "help": "$2^3 = 8$.\n\nCube of 2.\n\nAnswer 8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "$y=x$ at $x=3$.",
+      "help": "$y=3$.\n\nLinear substitution.\n\nAnswer 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "Square 3 for $y=x^2$.",
+      "help": "$y=9$.\n\nQuadratic value.\n\n$y=9$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "Cube 2 for $y=x^3$.",
+      "help": "$y=8$.\n\nCubic growth.\n\nAnswer 8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "Straight line graphs come from linear rules.",
+      "help": "**Linear** family — $y=mx+c$ graphs as straight lines.\n\nNo powers on $x$ beyond 1.\n\nLinear."
+    },
+    "8": {
+      "hint": "U-shapes come from squaring $x$.",
+      "help": "**Quadratic** — $y=x^2$ parabola.\n\nPower 2 curves.\n\nQuadratic."
+    },
+    "9": {
+      "hint": "$y=2x+1$ is degree 1 — shape?",
+      "help": "**Straight line**.\n\nLinear graph.\n\nLine.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "$x^2$ term → parabola.",
+      "help": "**Parabola** (U-shape).\n\nQuadratic family.\n\nU-shape.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "11": {
+      "hint": "Cubic graphs can bend more than quadratics.",
+      "help": "**Cubic curve** — not a simple U.\n\n$x^3$ family.\n\nCubic.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "12": {
+      "hint": "$y=k/x$ is reciprocal — hyperbola shape.",
+      "help": "**Reciprocal** hyperbola — two branches.\n\nNever touches axes.\n\nReciprocal."
+    },
+    "13": {
+      "hint": "Cube each $x$: $(-2)^3$, $(-1)^3$, …",
+      "help": "Row: **−8, −1, 0, 1, 8**.\n\nCubic preserves sign.\n\nFill table."
+    },
+    "14": {
+      "hint": "Divide 6 by each $x$.",
+      "help": "**6, 3, 2, 1** for $x=1,2,3,6$.\n\nReciprocal table.\n\nComplete row."
+    },
+    "15": {
+      "hint": "Which family is always a straight line?",
+      "help": "**Linear** only.\n\nOthers curve.\n\nLinear.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "16": {
+      "hint": "U-shape family?",
+      "help": "**Quadratic**.\n\n$x^2$ graphs.\n\nQuadratic.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "Can $k/x$ be 0 when $k \\ne 0$?",
+      "help": "**No** — division never gives 0 for nonzero numerator.\n\nGraph never hits $y=0$.\n\nNever zero."
+    },
+    "18": {
+      "hint": "Negative $x$ cubed gives negative $y$.",
+      "help": "**Yes** — e.g. $(-2)^3=-8$.\n\nCubic goes below axis.\n\nNegative $y$ possible."
+    },
+    "19": {
+      "hint": "Match power: $5x$ linear, $x^2$ quad, $x^3+1$ cubic, $2/x$ reciprocal.",
+      "help": "Linear: $y=5x$. Quadratic: $y=x^2$. Cubic: $y=x^3+1$. Reciprocal: $y=2/x$.\n\nHighest power decides.\n\nFour matches."
+    },
+    "20": {
+      "hint": "Turning points: parabola one; cubic can turn once.",
+      "help": "$y=x^2$: **1** turning point. $y=x^3$: **0** classic inflection (direction change once overall).\n\nCompare curvature.\n\nState counts."
+    },
+    "21": {
+      "hint": "$1/x$ form is reciprocal family.",
+      "help": "**Reciprocal**.\n\nInverse proportion shape.\n\nReciprocal.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "$2^x$ is exponential — not on Foundation list here but not linear/quadratic/cubic/reciprocal in simple power form.",
+      "help": "**Exponential** growth — different from polynomial families listed.\n\nNot linear/quadratic/cubic/reciprocal.\n\nExponential family."
+    },
+    "23": {
+      "hint": "Compare $x^2$ U vs $x^3$ S-like through origin.",
+      "help": "Different powers → **different shapes** — quad symmetric U; cubic through origin with inflection.\n\nExplain visually."
+    },
+    "24": {
+      "hint": "Plug $x=0$ into $y=x^3$.",
+      "help": "**Always** passes $(0,0)$ for $y=x^3$.\n\nAnswer: always.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "25": {
+      "hint": "Division by zero at $x=0$ for $4/x$.",
+      "help": "Sam wrong — **undefined** at $x=0$; graph has gap.\n\nCannot plot at 0.\n\nExplain asymptote."
+    },
+    "26": {
+      "hint": "$-x^2$ reflects $x^2$ in $x$-axis.",
+      "help": "Same width, **upside-down** U vs normal U.\n\nSign flip.\n\nInverted parabola."
+    },
+    "27": {
+      "hint": "Compare large $x$: $x^3$ vs $x^2$.",
+      "help": "**True** — cubes grow faster for large $|x|$.\n\nExample $x=10$: 1000 vs 100.\n\nTrue."
+    },
+    "28": {
+      "hint": "Set $x=0$ in each equation.",
+      "help": "Both have $y$-intercept **3** at $(0,3)$.\n\nSame crossing height.\n\nLeo correct on intercept."
+    },
+    "29": {
+      "hint": "$3x$ straight vs $3/x$ curved branches.",
+      "help": "Similar numbers but **totally different graphs** — line through origin vs hyperbola.\n\nSame coefficient, different operation.\n\nContrast shapes."
+    },
+    "30": {
+      "hint": "Highest power is 3 — cubic, not quadratic.",
+      "help": "**Cubic** — $x^3$ dominates; not quadratic despite $x^2$ term.\n\nUse highest power.\n\nCubic family."
+    },
+    "31": {
+      "hint": "Slow then steep rise suggests cubic growth.",
+      "help": "**Cubic** models accelerating increase.\n\nLinear too steady; quadratic middle.\n\nChoose cubic."
+    },
+    "32": {
+      "hint": "$y=200/x$ at $x=10$; large $x$ makes $y$ small.",
+      "help": "At 10: $y=**20**$. As $x$ huge, $y$ → 0.\n\nInverse relationship.\n\nShow both parts."
+    },
+    "33": {
+      "hint": "$y$ never 0; $x$ never 0 for $10/x$.",
+      "help": "Cannot divide to 0; $x=0$ undefined.\n\nAsymptotes to axes.\n\nNever touches axes."
+    },
+    "34": {
+      "hint": "Ball goes up then down — needs curve with peak.",
+      "help": "**Linear** only rises or falls — cannot model full throw.\n\nQuadratic fits arc.\n\nExplain parabola need."
+    },
+    "35": {
+      "hint": "Large $x$ on $y=x^3$ climbs very fast.",
+      "help": "Steep end of cubic — costs **accelerate** for big orders.\n\nSmall $x$ gentler slope.\n\nUse shape explanation."
+    },
+    "36": {
+      "hint": "Cubic $x^3-5$ keeps increasing unlike line turning back.",
+      "help": "**$y=x^3-5$** — cubic keeps trending (with one inflection), not like a line that only slopes one way without curve.\n\nIdentify $4x-1$ as line always increasing.\n\nLinear $y=4x-1$ always increases steadily."
+    },
+    "37": {
+      "hint": "Square negatives vs cube negatives at $x=-2,-1,0,1,2$.",
+      "help": "$x^2$ outputs **non-negative** only; $x^3$ gives **negative and positive**.\n\nSign behaviour differs.\n\nShow table."
+    },
+    "38": {
+      "hint": "Near $x=0^+$ for $1/x$, and large $x$.",
+      "help": "Near 0 from right: $y$ **shoots up**. Large $x$: $y$ **near 0**.\n\nReciprocal behaviour.\n\nDescribe both limits."
+    },
+    "39": {
+      "hint": "Test $x^3-x$ at $-1,0,1$.",
+      "help": "Zeros at **−1, 0, 1** — **three** $x$-axis crossings possible.\n\nStudent claim false.\n\nCounterexample."
+    },
+    "40": {
+      "hint": "Look at highest power or $1/x$ structure.",
+      "help": "Degree 1 → linear; 2 → quadratic; 3 → cubic; $x$ in denominator → reciprocal.\n\nRead equation structure.\n\nClassification rules."
+    },
+    "41": {
+      "hint": "$x^3$ is cubic power.",
+      "help": "**Cubic** — power 3 on $x$.\n\nNot quadratic.\n\nCubic.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "42": {
+      "hint": "Negative $x$: $x^2$ positive, $x^3$ negative.",
+      "help": "For negative $x$, **square positive**, **cube negative**.\n\nSymmetry vs sign.\n\nKey difference."
+    }
+  }
+}

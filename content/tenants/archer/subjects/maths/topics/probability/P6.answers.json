@@ -2,111 +2,222 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "Heads, tails",
+      "accept": [
+        "heads tails",
+        "heads and tails"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "1, 2, 3",
+      "accept": [
+        "1 2 3",
+        "1, 2, 3"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "AB, BA",
+      "accept": [
+        "ab ba",
+        "ab, ba"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "A1, A2, B1, B2",
+      "accept": [
+        "a1 a2 b1 b2",
+        "a1, a2, b1, b2"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "It helps you include every outcome once.",
+      "accept": [
+        "not miss",
+        "every outcome",
+        "all outcomes"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "AB and BA",
+      "accept": [
+        "AB, BA",
+        "AB and BA",
+        "AB BA"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 729
+    },
+    "11": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 755
+    },
+    "12": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "13": {
       "display": "12, 13, 21, 23, 31, 32",
       "accept": [
         "12 13 21 23 31 32",
         "6 numbers"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "14": {
       "display": "6 (ABC, ACB, BAC, BCA, CAB, CBA)",
       "accept": [
         "6"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "15": {
       "display": "soup+pasta, soup+fish, soup+chicken, salad+pasta, salad+fish, salad+chicken (6 outcomes)",
       "accept": [
         "6"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "16": {
       "display": "12, 13, 14, 21, 23, 24, 31, 32, 34, 41, 42, 43 (12 codes)",
       "accept": [
         "12"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "17": {
       "display": "43, 44, 45, 53, 54, 55 (6 numbers)",
       "accept": [
         "43 44 45 53 54 55",
         "6"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "18": {
       "display": "6 outfits (3 x 2)",
       "accept": [
         "6"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "19": {
       "display": "6 (XYZ, XZY, YXZ, YZX, ZXY, ZYX)",
       "accept": [
         "6"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "20": {
       "display": "H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6 (12 outcomes)",
       "accept": [
         "12"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "21": {
       "display": "111, 112, 121, 122, 211, 212, 221, 222 (8 numbers)",
       "accept": [
         "8"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "22": {
       "display": "2 x 4 = 8 sandwiches",
       "accept": [
         "8"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "23": {
       "display": "AB, AC, AD, BC, BD, CD (6 pairs)",
       "accept": [
         "6"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "24": {
       "display": "56, 57, 58, 65, 67, 68, 75, 76, 78, 85, 86, 87 (12 numbers)",
       "accept": [
         "12"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "Archer missed TH \u2014 the full list is HH, HT, TH, TT, giving 4 outcomes, not 3.",
+    "25": {
+      "display": "Archer missed TH — the full list is HH, HT, TH, TT, giving 4 outcomes, not 3.",
       "accept": [
         "th",
         "4",
@@ -114,17 +225,17 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
+    "26": {
       "display": "A systematic order (e.g. listing all outcomes starting with A, then all starting with B, and so on) makes it easy to check every combination has been included exactly once.",
       "accept": [],
       "tier": 2,
       "kind": "self-check",
-      "rating": 1612
+      "rating": 1230
     },
-    "15": {
-      "display": "No, Sloan is incorrect \u2014 when order does not matter, there are only 3 pairs: AB, AC, BC. Six would be the answer if order mattered (AB, BA, AC, CA, BC, CB).",
+    "27": {
+      "display": "No, Sloan is incorrect — when order does not matter, there are only 3 pairs: AB, AC, BC. Six would be the answer if order mattered (AB, BA, AC, CA, BC, CB).",
       "accept": [
         "no",
         "3",
@@ -132,35 +243,35 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1280
     },
-    "16": {
-      "display": "True \u2014 for example, flipping a coin (2 outcomes) and rolling a dice (6 outcomes) gives 2 x 6 = 12 combined outcomes.",
+    "28": {
+      "display": "True — for example, flipping a coin (2 outcomes) and rolling a dice (6 outcomes) gives 2 x 6 = 12 combined outcomes.",
       "accept": [
         "true"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1330
     },
-    "17": {
-      "display": "The number 32 is missing \u2014 the full list should be 12, 13, 21, 23, 31, 32 (6 numbers).",
+    "29": {
+      "display": "The number 32 is missing — the full list should be 12, 13, 21, 23, 31, 32 (6 numbers).",
       "accept": [
         "32"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1380
     },
-    "18": {
+    "30": {
       "display": "When order matters, swapping two items creates a different outcome (e.g. arranging letters AB and BA are different); when order does not matter, swapping items gives the same outcome (e.g. choosing a pair {A, B} is the same as {B, A}).",
       "accept": [],
       "tier": 2,
       "kind": "self-check",
-      "rating": 1552
+      "rating": 1430
     },
-    "19": {
-      "display": "No, Priya is incorrect \u2014 the correct method is to multiply the options (one shirt choice for each of 4 trouser choices), giving 3 x 4 = 12 outfits.",
+    "31": {
+      "display": "No, Priya is incorrect — the correct method is to multiply the options (one shirt choice for each of 4 trouser choices), giving 3 x 4 = 12 outfits.",
       "accept": [
         "no",
         "12",
@@ -168,52 +279,52 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1480
     },
-    "20": {
+    "32": {
       "display": "Multiply the choices systematically for each course: 3 x 2 x 2 = 12 possible meals.",
       "accept": [
         "12"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1620
     },
-    "21": {
+    "33": {
       "display": "16 PINs (2 x 2 x 2 x 2 = 2^4)",
       "accept": [
         "16"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1670
     },
-    "22": {
+    "34": {
       "display": "6 orders: Archer-Sloan-Priya, Archer-Priya-Sloan, Sloan-Archer-Priya, Sloan-Priya-Archer, Priya-Archer-Sloan, Priya-Sloan-Archer",
       "accept": [
         "6"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1720
     },
-    "23": {
+    "35": {
       "display": "20 codes (5 x 4, since order matters and letters cannot repeat)",
       "accept": [
         "20"
       ],
       "tier": 3,
-      "rating": 2012
+      "rating": 1770
     },
-    "24": {
+    "36": {
       "display": "5 x 6 = 30 combinations, matching a systematic grid/list method for a smaller version (e.g. 2 starters x 3 mains = 6, checked by listing).",
       "accept": [
         "30"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1820
     },
-    "25": {
+    "37": {
       "display": "3 ways: 5 x 10p; 1 x 20p + 3 x 10p; 2 x 20p + 1 x 10p",
       "accept": [
         "3",
@@ -221,49 +332,49 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1870
     },
-    "26": {
+    "38": {
       "display": "RB, RG, RY, BG, BY, GY (6 pairs)",
       "accept": [
         "6"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
+    "39": {
       "display": "A sensible systematic strategy, e.g. first counting outcomes where all three dice match, then outcomes where exactly two match, using smaller grids or grouped counting rather than listing all 216 outcomes.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
-      "display": "Total meals = s x m x d \u2014 this works because for each of the s starter choices, there are m main choices, and for each starter-main combination there are d dessert choices, systematically multiplying the options at each stage.",
+    "40": {
+      "display": "Total meals = s x m x d — this works because for each of the s starter choices, there are m main choices, and for each starter-main combination there are d dessert choices, systematically multiplying the options at each stage.",
       "accept": [
         "s x m x d",
         "smd"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
-      "display": "A systematic list ensures every possible outcome is counted exactly once \u2014 for example, listing outcomes for two dice without a system might accidentally miss (1,2) or double-count (2,1) and (1,2) as the same, leading to a wrong probability.",
+    "41": {
+      "display": "A systematic list ensures every possible outcome is counted exactly once — for example, listing outcomes for two dice without a system might accidentally miss (1,2) or double-count (2,1) and (1,2) as the same, leading to a wrong probability.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "42": {
       "display": "24 ways (4! = 4 x 3 x 2 x 1)",
       "accept": [
         "24"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 2000
     }
   }
 }

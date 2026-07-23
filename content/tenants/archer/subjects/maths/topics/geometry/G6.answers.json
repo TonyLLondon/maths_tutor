@@ -2,27 +2,104 @@
   "version": 1,
   "answers": {
     "1": {
-      "display": "70\u00b0",
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two",
+        "at least 2"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "70°",
       "accept": [
         "70",
-        "70\u00b0",
+        "70°"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "70°",
+      "accept": [
+        "70",
+        "70°",
         "70 degrees"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 700
     },
-    "2": {
-      "display": "55\u00b0",
+    "7": {
+      "display": "100°",
+      "accept": [
+        "100",
+        "100°",
+        "100 degrees"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "the two 45° angles",
+      "accept": [
+        "45",
+        "45°",
+        "the 45° angles",
+        "two 45° angles"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
+      "display": "70°",
+      "accept": [
+        "70",
+        "70°",
+        "70 degrees"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "55°",
       "accept": [
         "55",
-        "55\u00b0",
+        "55°",
         "55 degrees"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
-      "display": "x = 36\u00b0; angles 108\u00b0 and 72\u00b0",
+    "11": {
+      "display": "x = 36°; angles 108° and 72°",
       "accept": [
         "36",
         "108",
@@ -30,28 +107,28 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
-      "display": "85\u00b0",
+    "12": {
+      "display": "85°",
       "accept": [
         "85",
-        "85\u00b0"
+        "85°"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
-      "display": "105\u00b0",
+    "13": {
+      "display": "105°",
       "accept": [
         "105",
-        "105\u00b0"
+        "105°"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
-      "display": "60\u00b0, 60\u00b0, 60\u00b0",
+    "14": {
+      "display": "60°, 60°, 60°",
       "accept": [
         "60",
         "60,60,60",
@@ -59,63 +136,63 @@
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
-      "display": "36\u00b0",
+    "15": {
+      "display": "36°",
       "accept": [
         "36",
-        "36\u00b0"
+        "36°"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
-      "display": "x = 45\u00b0; angles 135\u00b0 and 45\u00b0",
+    "16": {
+      "display": "x = 45°; angles 135° and 45°",
       "accept": [
         "45",
         "135"
       ],
       "tier": 1,
       "contains": true,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
-      "display": "62\u00b0",
+    "17": {
+      "display": "62°",
       "accept": [
         "62",
-        "62\u00b0"
+        "62°"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "20",
       "accept": [
         "20"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
-      "display": "90\u00b0",
+    "19": {
+      "display": "90°",
       "accept": [
         "90",
-        "90\u00b0"
+        "90°"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "20": {
       "display": "base",
       "accept": [
         "base"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "40\u00b0, 60\u00b0, 80\u00b0",
+    "23": {
+      "display": "40°, 60°, 80°",
       "accept": [
         "40",
         "60",
@@ -123,9 +200,9 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
+    "24": {
       "display": "Folding the triangle along its line of symmetry maps each base angle exactly onto the other, so they must be equal.",
       "accept": [
         "fold",
@@ -134,28 +211,28 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "115\u00b0",
+    "25": {
+      "display": "115°",
       "accept": [
         "115",
-        "115\u00b0"
+        "115°"
       ],
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Always \u2014 the longest side is always opposite the largest angle in any triangle.",
+    "26": {
+      "display": "Always — the longest side is always opposite the largest angle in any triangle.",
       "accept": [
         "always"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "x = 40\u00b0; angles 40\u00b0, 60\u00b0, 80\u00b0",
+    "27": {
+      "display": "x = 40°; angles 40°, 60°, 80°",
       "accept": [
         "40",
         "60",
@@ -163,48 +240,48 @@
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Yes \u2014 the interior angle and its exterior angle lie on a straight line together, and angles on a straight line add to 180\u00b0.",
+    "28": {
+      "display": "Yes — the interior angle and its exterior angle lie on a straight line together, and angles on a straight line add to 180°.",
       "accept": [
         "yes"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "x = 50\u00b0; angles 50\u00b0 and 130\u00b0",
+    "29": {
+      "display": "x = 50°; angles 50° and 130°",
       "accept": [
         "50",
         "130"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "36\u00b0, 36\u00b0, 108\u00b0",
+    "30": {
+      "display": "36°, 36°, 108°",
       "accept": [
         "36",
         "108"
       ],
       "tier": 2,
       "contains": true,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
-      "display": "70\u00b0",
+    "31": {
+      "display": "70°",
       "accept": [
         "70",
-        "70\u00b0"
+        "70°"
       ],
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "x = 25\u00b0; angles 110\u00b0 and 70\u00b0",
+    "32": {
+      "display": "x = 25°; angles 110° and 70°",
       "accept": [
         "25",
         "110",
@@ -212,10 +289,10 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
-      "display": "90\u00b0, 120\u00b0, 150\u00b0",
+    "33": {
+      "display": "90°, 120°, 150°",
       "accept": [
         "90",
         "120",
@@ -223,39 +300,39 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "Third angle = 56\u00b0; not isosceles, because all three angles (90\u00b0, 34\u00b0, 56\u00b0) are different.",
+    "34": {
+      "display": "Third angle = 56°; not isosceles, because all three angles (90°, 34°, 56°) are different.",
       "accept": [
         "56",
         "not isosceles"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "78\u00b0 and 52\u00b0",
+    "35": {
+      "display": "78° and 52°",
       "accept": [
         "78",
         "52"
       ],
       "tier": 3,
       "contains": true,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "85\u00b0",
+    "36": {
+      "display": "85°",
       "accept": [
         "85",
-        "85\u00b0"
+        "85°"
       ],
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "The exterior angle and the interior angle at that vertex add to 180\u00b0 (straight line); the triangle's three interior angles also add to 180\u00b0, so the exterior angle must equal the sum of the other two interior angles.",
+    "37": {
+      "display": "The exterior angle and the interior angle at that vertex add to 180° (straight line); the triangle's three interior angles also add to 180°, so the exterior angle must equal the sum of the other two interior angles.",
       "accept": [
         "180",
         "straight line",
@@ -263,19 +340,19 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
-      "display": "108\u00b0",
+    "38": {
+      "display": "108°",
       "accept": [
         "108",
-        "108\u00b0"
+        "108°"
       ],
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
-      "display": "x = 20\u00b0; interior angles 40\u00b0, 60\u00b0, 80\u00b0; exterior angle at C = 100\u00b0, which equals 40\u00b0 + 60\u00b0.",
+    "39": {
+      "display": "x = 20°; interior angles 40°, 60°, 80°; exterior angle at C = 100°, which equals 40° + 60°.",
       "accept": [
         "20",
         "40",
@@ -285,14 +362,46 @@
       ],
       "tier": 3,
       "contains": true,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "40": {
       "display": "Your own multi-step angle problem combining two facts, solved correctly.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "Largest",
+      "accept": [
+        "largest",
+        "biggest"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "No — 2 + 3 < 7",
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "65",
+      "accept": [
+        "65"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Add the red counters and the blue counters.",
+      "help": "A table shows how many of each type you have.\n\nTo find the **total**, add every amount: $3 + 5 = 8$ counters.\n\nIf the table had green counters too, you would add all three rows."
+    },
+    "2": {
+      "hint": "The taller bar belongs to the larger frequency.",
+      "help": "On a bar chart, height shows **how many**.\n\nCats 6 and dogs 4 means the cat bar is taller because $6 > 4$.\n\nAlways compare the numbers or the bar heights—they tell the same story."
+    },
+    "3": {
+      "hint": "One circle = one book, so count seven circles as seven books.",
+      "help": "When the pictogram key says **one symbol = one book**, the number of symbols equals the number of books.\n\nSeven circles → **7** books.\n\nIf one circle meant **two** books, you would multiply instead."
+    },
+    "4": {
+      "hint": "Add the two row totals together.",
+      "help": "Row totals sum the entries in each row. The **overall total** is the sum of those row totals.\n\n$4 + 5 = 9$.\n\nIn bigger tables you might also check that column totals give the same overall number."
+    },
+    "5": {
+      "hint": "Compare Monday 2 and Tuesday 6—which is larger?",
+      "help": "More sales means the bigger number.\n\nTuesday with **6** had more sales than Monday with **2**.\n\nYou can answer from the numbers even without seeing the full chart."
+    },
+    "6": {
+      "hint": "Two equal parts of a circle are each half of the whole.",
+      "help": "A pie chart splits a full circle (360°) into sectors.\n\nTwo **equal** parts means each part is **half** the circle: fraction $\\frac{1}{2}$.\n\nEach part would also be 180° if you measure angles."
+    },
+    "7": {
+      "hint": "Add the children in the 0-pets row and the 1-pet row.",
+      "help": "Each row shows how many children have that many pets.\n\nAdd frequencies: $2 + 5 = 7$ children shown in those two rows.\n\nIf more rows existed (2 pets, 3 pets…), you would add **all** rows for the full survey total."
+    },
+    "8": {
+      "hint": "Apple, pear, and orange are names of types—not measurements.",
+      "help": "These words are **categories** (labels for groups), not numbers on a scale.\n\nYou sort data into categories on charts and tables.\n\n**Measurements** would be things like height in cm or weight in kg."
+    },
+    "9": {
+      "hint": "Add 2 apples and 3 bananas.",
+      "help": "Total pieces of fruit = sum of each type.\n\n$2 + 3 = 5$ fruit altogether.\n\nSame method as adding counters or colours in a table."
+    },
+    "10": {
+      "hint": "Which day has the bigger number—Monday 3 or Tuesday 5?",
+      "help": "The taller bar matches the **larger** frequency.\n\nTuesday (5) is taller than Monday (3).\n\nRead the value from the axis if you are looking at a drawn chart."
+    },
+    "11": {
+      "hint": "Each symbol is 2 books—multiply 4 by 2.",
+      "help": "Key: one symbol = **2** books.\n\nFour symbols → $4 \\times 2 = 8$ books.\n\nAlways check the key before multiplying."
+    },
+    "12": {
+      "hint": "180° is half of a full turn (360°). What fraction is half?",
+      "help": "A whole pie chart is 360°.\n\n180° is exactly **half** of 360°, so the sector is $\\frac{1}{2}$ of the circle.\n\n90° would be a quarter ($\\frac{1}{4}$)."
+    },
+    "13": {
+      "hint": "Angle = (frequency ÷ total) × 360°. Total is 20; red is 5.",
+      "help": "For a pie chart, each slice angle is a **fraction of 360°**.\n\nFraction for red = $\\frac{5}{20}$. Multiply by 360: $\\frac{5}{20} \\times 360 = 90°$.\n\nAlways divide by the **total** of all frequencies first."
+    },
+    "14": {
+      "hint": "Use blue’s frequency 8 out of total 20, then × 360°.",
+      "help": "Blue has 8 out of 20 pupils.\n\nAngle = $\\frac{8}{20} \\times 360° = 144°$.\n\nSame formula as red: (part ÷ whole) × 360."
+    },
+    "15": {
+      "hint": "Green is 4 out of 20—find that fraction of 360°.",
+      "help": "Green frequency 4, total 20.\n\n$\\frac{4}{20} \\times 360° = 72°$.\n\nYou can simplify $\\frac{4}{20}$ to $\\frac{1}{5}$ before multiplying if that is easier."
+    },
+    "16": {
+      "hint": "Find yellow’s angle, then add all four angles and check for 360°.",
+      "help": "Yellow: $\\frac{3}{20} \\times 360° = 54°$.\n\nCheck: $90 + 144 + 72 + 54 = 360°$. If they do not add to 360, recheck totals and arithmetic.\n\nEvery full pie chart’s angles must sum to **360°**."
+    },
+    "17": {
+      "hint": "Add boys who like football and boys who do not.",
+      "help": "The two-way table splits boys by whether they like football.\n\nBoys total = $12 + 6 = 18$.\n\nGirls would be found from the girl rows similarly."
+    },
+    "18": {
+      "hint": "Add every pupil who likes football—boys and girls.",
+      "help": "From Q17’s table: boys who like football 12, girls who like football 8.\n\nTotal who like football = $12 + 8 = 20$.\n\nUse the “like football” column, not the “do not” column."
+    },
+    "19": {
+      "hint": "145 is at least 140 and less than 150—match that to the interval notation.",
+      "help": "Interval $140 \\leq h < 150$ means **140 up to but not including 150**.\n\n145 cm fits there because $140 \\leq 145 < 150$.\n\n140 cm exactly goes in the **second** interval ($140 \\leq h < 150$), not the first, because the first ends below 140."
+    },
+    "20": {
+      "hint": "Add the pupils in all three time intervals.",
+      "help": "Grouped table: add every frequency.\n\n$4 + 9 + 7 = 20$ pupils.\n\nEach pupil belongs in exactly one interval."
+    },
+    "21": {
+      "hint": "Add frequencies for 0, 1, 2, and 3 pets.",
+      "help": "Vertical line charts show frequency at each value.\n\nTotal surveyed = $6 + 10 + 5 + 2 = 23$ pupils.\n\nEvery pupil is counted in one of those columns."
+    },
+    "22": {
+      "hint": "Compare Jan, Feb, Mar, and Apr—which month has the biggest sales?",
+      "help": "Read the sales figures: Jan 200, Feb 250, Mar 220, Apr 300.\n\n**Highest** = largest number → April with **300**.\n\nTime series tables show how values change month by month."
+    },
+    "23": {
+      "hint": "Subtract January’s sales from April’s sales.",
+      "help": "Increase from Jan to Apr = Apr − Jan.\n\n$300 - 200 = 100$ (in pounds for this shop).\n\n“Increase” means difference, not ratio."
+    },
+    "24": {
+      "hint": "90° is one quarter of 360°—what fraction is that?",
+      "help": "90° out of 360° is $\\frac{90}{360} = \\frac{1}{4}$.\n\nSo that category is **one quarter** of the total.\n\n180° would be $\\frac{1}{2}$; 360° would be the whole."
+    },
+    "25": {
+      "hint": "You need the fraction of the circle first—frequency divided by total, then × 360°.",
+      "help": "Mia has it **backwards**. You do **not** divide total by frequency.\n\n**Correct method:** (frequency ÷ **total frequency**) × 360°.\n\nExample: 3 out of 12 → $\\frac{3}{12} \\times 360° = 90°$."
+    },
+    "26": {
+      "hint": "Row totals and column totals should both equal the same grand total.",
+      "help": "In a proper two-way table, adding row totals gives the overall number of people.\n\nAdding column totals should give the **same** overall total.\n\n**True** when the table is complete and consistent."
+    },
+    "27": {
+      "hint": "Line charts often use points joined by lines; bar charts use separate bars.",
+      "help": "Both can show **discrete** counts (like pets), but they look different.\n\nVertical **line** charts mark frequencies at each value and often join dots.\n\n**Bar** charts use separate bars. They are similar in meaning but not “exactly the same way” visually."
+    },
+    "28": {
+      "hint": "Time series graphs show data changing over time—does that match their purpose?",
+      "help": "A **time series** tracks something through time (days, months, years).\n\nThat is exactly what they are for.\n\n**Always** true for the standard meaning of time series graphs."
+    },
+    "29": {
+      "hint": "Grouped intervals hide exact values—give an example like heights in a class interval.",
+      "help": "A grouped table might say **140–150 cm: 8 pupils** without listing each pupil’s exact height.\n\nAn ungrouped list keeps every value (142, 147, …).\n\nGrouping makes big data easier to read but you **lose detail** about individual measurements."
+    },
+    "30": {
+      "hint": "If intervals overlapped, one value could fit two rows—why is that a problem?",
+      "help": "Each value must belong to **exactly one** class.\n\nIf $130 \\leq h < 140$ and $135 \\leq h < 145$ overlapped, 137 might count twice.\n\nNon-overlapping rules like $140 \\leq h < 150$ keep counting fair."
+    },
+    "31": {
+      "hint": "Which chart lets you read exact height from a scale more easily?",
+      "help": "**Bar charts** align the top of each bar with a numbered axis—easy to read exact values.\n\n**Pie charts** show proportions; reading exact counts from angles is harder without a table.\n\nSo bar charts are usually better for **exact** values."
+    },
+    "32": {
+      "hint": "140 cm is the start of the second interval—check which interval includes the left end.",
+      "help": "Use the rule on the table: $130 \\leq h < 140$ **does not** include 140 (less than 140 only).\n\n$140 \\leq h < 150$ **includes** 140.\n\nBoundary values go with the interval whose **lower bound** they equal."
+    },
+    "33": {
+      "hint": "Total is 60. Find (each frequency ÷ 60) × 360° for walk, car, bus, and bike.",
+      "help": "Walk: $\\frac{24}{60} \\times 360° = 144°$. Car: $\\frac{15}{60} \\times 360° = 90°$. Bus: $\\frac{18}{60} \\times 360° = 108°$. Bike: $\\frac{3}{60} \\times 360° = 18°$.\n\nCheck angles sum to 360°.\n\nSimplify fractions before multiplying if you can."
+    },
+    "34": {
+      "hint": "Add instrument players from boys and girls; add the two girl rows for total girls.",
+      "help": "Play instrument: $18 + 14 = 32$ pupils.\n\nGirls total: $14 + 6 = 20$ girls.\n\nUse the correct rows/columns—players vs non-players, boys vs girls."
+    },
+    "35": {
+      "hint": "Add all class frequencies; modal class is the interval with the highest count.",
+      "help": "Total pupils = $3 + 7 + 12 + 10 + 4 = 36$.\n\n**Modal class** = interval with biggest frequency → **41–60** with 12 pupils.\n\nMode here means “most common group,” not a single score."
+    },
+    "36": {
+      "hint": "Look at the six monthly values—do they mostly rise, fall, or wobble?",
+      "help": "Sales go 300, 320, 280, 350, 400, 380.\n\nThere is a dip in month 3, but overall values move **upward** from 300 toward 400 with a small drop at the end.\n\nDescribe the **overall trend** in words—not every tiny wiggle unless asked."
+    },
+    "37": {
+      "hint": "Each angle is a fraction of 360°—multiply that fraction by 108 pupils.",
+      "help": "Sandwiches: $\\frac{150}{360} \\times 108 = 45$. Hot meal: $\\frac{120}{360} \\times 108 = 36$. Salad: $\\frac{90}{360} \\times 108 = 27$.\n\nCheck: $45 + 36 + 27 = 108$.\n\nReverse of finding angles from frequencies."
+    },
+    "38": {
+      "hint": "Add all sibling frequencies; the mode is the value with the highest frequency.",
+      "help": "Total = $5 + 10 + 6 + 3 + 1 = 25$ pupils—matches the question.\n\nHighest frequency is **10** at **1 sibling**, so the mode is 1 sibling.\n\nMode = most common value in the data."
+    },
+    "39": {
+      "hint": "The four angles sum to 360°. Solve x + 2x + 3x + 4x = 360.",
+      "help": "$x + 2x + 3x + 4x = 10x = 360$, so $x = 36°$.\n\nAngles: $36°$, $72°$, $108°$, $144°$. Check they add to 360°.\n\nSetting up the equation from “four times a base angle” is the key step."
+    },
+    "40": {
+      "hint": "For each drink, (angle ÷ 360) × 144 people.",
+      "help": "Tea: $\\frac{100}{360} \\times 144 = 40$. Coffee: $\\frac{140}{360} \\times 144 = 56$. Juice: $\\frac{80}{360} \\times 144 = 32$. Water: $\\frac{40}{360} \\times 144 = 16$.\n\nTotal should be 144.\n\nSame method as Q37 with different angles."
+    },
+    "41": {
+      "hint": "Make intervals of width 2 starting at 12 s; frequencies must sum to 40; pick the biggest class.",
+      "help": "Example intervals: 12–14, 14–16, … up to sensible times for 100 m.\n\nChoose frequencies that **add to 40** (e.g. spread pupils across several bins).\n\n**Modal class** = interval with the **largest** frequency you chose. Label intervals clearly and state your counts."
+    },
+    "42": {
+      "hint": "Describe up-and-down profit over five years, and why five points might not predict the future.",
+      "help": "Profits 20, 18, 25, 30, 28 show recovery after a dip, with a peak at year 4 and slight fall in year 5.\n\n**Limitation:** only **five** years is a short pattern—next year could change for reasons the graph does not show (costs, economy).\n\nPredictions from short data are **uncertain**."
+    }
+  }
+}

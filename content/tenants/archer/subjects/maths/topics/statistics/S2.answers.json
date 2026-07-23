@@ -2,60 +2,164 @@
   "version": 1,
   "answers": {
     "1": {
-      "display": "90\u00b0",
+      "display": "8 counters",
       "accept": [
-        "90",
-        "90\u00b0"
+        "8"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 500
     },
     "2": {
-      "display": "144\u00b0",
+      "display": "Cats",
       "accept": [
-        "144",
-        "144\u00b0"
+        "cats",
+        "cat"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 525
     },
     "3": {
-      "display": "72\u00b0",
+      "display": "7 books",
       "accept": [
-        "72",
-        "72\u00b0"
+        "7"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 551
     },
     "4": {
-      "display": "54\u00b0 (90+144+72+54 = 360)",
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "Tuesday",
+      "accept": [
+        "tuesday"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "half"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "7 children",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "Categories",
+      "accept": [
+        "categories",
+        "category"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "Tuesday",
+      "accept": [
+        "Tuesday",
+        "tuesday"
+      ],
+      "tier": 1,
+      "rating": 729
+    },
+    "11": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 755
+    },
+    "12": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "half",
+        "½"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "13": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "144°",
+      "accept": [
+        "144",
+        "144°"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "72°",
+      "accept": [
+        "72",
+        "72°"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "54° (90+144+72+54 = 360)",
       "accept": [
         "54",
         "360"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "17": {
       "display": "18",
       "accept": [
         "18"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "18": {
       "display": "20",
       "accept": [
         "20"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
-      "display": "140 \u2264 h < 150",
+    "19": {
+      "display": "140 ≤ h < 150",
       "accept": [
         "140",
         "second interval",
@@ -63,42 +167,42 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "20": {
       "display": "20",
       "accept": [
         "20"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "21": {
       "display": "23",
       "accept": [
         "23"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "22": {
       "display": "April",
       "accept": [
         "april"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
-      "display": "\u00a3100",
+    "23": {
+      "display": "£100",
       "accept": [
         "100",
-        "\u00a3100"
+        "£100"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "24": {
       "display": "1/4",
       "accept": [
         "1/4",
@@ -106,10 +210,10 @@
         "quarter"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "Wrong \u2014 the angle is found by dividing the frequency by the total, then multiplying by 360\u00b0, i.e. $(\\text{frequency}/\\text{total}) \\times 360\u00b0$.",
+    "25": {
+      "display": "Wrong — the angle is found by dividing the frequency by the total, then multiplying by 360°, i.e. $(\\text{frequency}/\\text{total}) \\times 360°$.",
       "accept": [
         "frequency",
         "total",
@@ -117,18 +221,18 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "True \u2014 every row total and every column total in a two-way table must sum to the same overall total (the grand total).",
+    "26": {
+      "display": "True — every row total and every column total in a two-way table must sum to the same overall total (the grand total).",
       "accept": [
         "true"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
+    "27": {
       "display": "A vertical line chart uses thin lines (not wide bars) to show frequencies for discrete numerical values, while a bar chart typically uses wider bars, often for categorical data.",
       "accept": [
         "lines",
@@ -136,28 +240,28 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Always \u2014 a time series graph is, by definition, used to show how a quantity changes over time.",
+    "28": {
+      "display": "Always — a time series graph is, by definition, used to show how a quantity changes over time.",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "True \u2014 grouping data into class intervals means you can no longer see each individual value, only which range it falls into (e.g. you know a height is between 140 and 150 cm, but not the exact value).",
+    "29": {
+      "display": "True — grouping data into class intervals means you can no longer see each individual value, only which range it falls into (e.g. you know a height is between 140 and 150 cm, but not the exact value).",
       "accept": [
         "true",
         "exact value lost"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
+    "30": {
       "display": "If intervals overlapped, a value could fit into more than one class, causing confusion or double-counting when building the frequency table.",
       "accept": [
         "double count",
@@ -166,9 +270,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
+    "31": {
       "display": "A bar chart has a numbered vertical axis, so you can read the exact frequency for each bar, whereas a pie chart only shows the proportion of the whole, making exact values harder to read without extra information.",
       "accept": [
         "axis",
@@ -176,20 +280,20 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "Follow the inequality signs exactly \u2014 since the interval is written $140 \\leq h < 150$, a value of exactly 140 is included in that interval (because of the $\\leq$), not the one below it.",
+    "32": {
+      "display": "Follow the inequality signs exactly — since the interval is written $140 \\leq h < 150$, a value of exactly 140 is included in that interval (because of the $\\leq$), not the one below it.",
       "accept": [
         "140",
         "inequality"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
-      "display": "Walk 144\u00b0, car 90\u00b0, bus 108\u00b0, bike 18\u00b0",
+    "33": {
+      "display": "Walk 144°, car 90°, bus 108°, bike 18°",
       "accept": [
         "144",
         "90",
@@ -198,9 +302,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
+    "34": {
       "display": "32 play an instrument; 20 girls in total",
       "accept": [
         "32",
@@ -208,31 +312,31 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
-      "display": "36 pupils in total; modal class 41\u201360",
+    "35": {
+      "display": "36 pupils in total; modal class 41–60",
       "accept": [
         "36",
         "41",
         "41-60",
-        "41\u201360"
+        "41–60"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "An overall increasing trend in sales from \u00a3300 to \u00a3400, with small dips in a couple of months.",
+    "36": {
+      "display": "An overall increasing trend in sales from £300 to £400, with small dips in a couple of months.",
       "accept": [
         "increasing",
         "upward"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
+    "37": {
       "display": "Sandwiches 45, hot meal 36, salad 27",
       "accept": [
         "45",
@@ -241,9 +345,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "38": {
       "display": "25 pupils in total; mode is 1 sibling",
       "accept": [
         "25",
@@ -252,10 +356,10 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "x = 36\u00b0; angles 36\u00b0, 72\u00b0, 108\u00b0, 144\u00b0",
+    "39": {
+      "display": "x = 36°; angles 36°, 72°, 108°, 144°",
       "accept": [
         "36",
         "72",
@@ -264,9 +368,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "40": {
       "display": "Tea 40, coffee 56, juice 32, water 16",
       "accept": [
         "40",
@@ -276,16 +380,16 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
+    "41": {
       "display": "Your own grouped frequency table with 2-second class intervals from 12 seconds, frequencies summing to 40, and the correct modal class identified.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
+    "42": {
       "display": "An overall upward trend in profits, apart from a dip in year 2; a limitation is that 5 data points are not enough to reliably predict future profits, since trends could change due to unseen factors.",
       "accept": [
         "upward",
@@ -294,7 +398,7 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 2000
     }
   }
 }

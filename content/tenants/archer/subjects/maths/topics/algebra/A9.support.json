@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "$y = x$ means $y$ equals $x$ — when $x=1$, what is $y$?",
+      "help": "$y = 1$.\n\nOn $y=x$, coordinates match.\n\nAnswer 1.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "2": {
+      "hint": "Substitute $x=3$ into $y=x$.",
+      "help": "$y = 3$.\n\nSame value both axes.\n\n$y=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "Add 1 to $x=2$.",
+      "help": "$y = 3$.\n\nRule $y=x+1$.\n\nAnswer 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "Add 2 to $x=1$.",
+      "help": "$y = 3$.\n\n$y=x+2$ at $x=1$.\n\n$y=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "Double $x=2$.",
+      "help": "$y = 4$.\n\n$y=2x$.\n\nAnswer 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "Triple $x=2$.",
+      "help": "$y = 6$.\n\n$3 \\times 2$.\n\n$y=6$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "On $y=x$, $y$ must equal $x$ — check $(2,2)$ vs $(2,3)$.",
+      "help": "$(2,2)$ has $y=x$. $(2,3)$ does not.\n\nPick **$(2,2)$**.\n\nCoordinates must satisfy equation."
+    },
+    "8": {
+      "hint": "For $y=x+1$ at $x=1$, $y$ should be 2.",
+      "help": "$(1,2)$ works; $(1,1)$ does not.\n\nChoose **$(1,2)$**.\n\nSubstitute $x=1$."
+    },
+    "9": {
+      "hint": "Add 2 to each $x$ in the table.",
+      "help": "Row: **2, 3, 4, 5** for $x=0..3$.\n\n$y=x+2$.\n\nFill table.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "Compute $3x-1$ for $x=0,1,2,3$.",
+      "help": "Values **−1, 2, 5, 8**.\n\nTriple then minus 1.\n\nComplete row."
+    },
+    "11": {
+      "hint": "On $y=4$, $y$ is always 4 no matter what $x$ is.",
+      "help": "$y = **4**$ when $x=10$.\n\nHorizontal line $y=4$.\n\nConstant $y$."
+    },
+    "12": {
+      "hint": "On $x=3$, $x$ stays 3 for every $y$.",
+      "help": "$x = **3**$ when $y=100$.\n\nVertical line $x=3$.\n\n$x$ fixed.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "Set $x=0$ in $y=x+2$ for $y$-axis crossing.",
+      "help": "Crosses at **$(0, 2)$** — $y$-intercept 2.\n\n$x=0$ gives $y=2$.\n\nPoint $(0,2)$."
+    },
+    "14": {
+      "hint": "Set $y=0$ and solve $2x-6=0$.",
+      "help": "$2x=6$, $x=3$. Crosses **$(3, 0)$** on $x$-axis.\n\n$y=0$ for $x$-intercept.\n\n$(3,0)$."
+    },
+    "15": {
+      "hint": "$y=5$ is flat — horizontal or vertical?",
+      "help": "**Horizontal** — same $y$ everywhere.\n\nFlat left-right line.\n\nHorizontal."
+    },
+    "16": {
+      "hint": "$x=-2$ is upright — which type?",
+      "help": "**Vertical** line — fixed $x$.\n\nGoes up/down.\n\nVertical.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "Check if $5 = 2+3$ using $y=x+3$.",
+      "help": "$2+3=5$ — **yes**, on the line.\n\nSubstitute $x=2$, compare to $y=5$.\n\nShow check."
+    },
+    "18": {
+      "hint": "Does $9 = 2(4)+1$?",
+      "help": "$2(4)+1=9$ — **yes**.\n\nSubstitute $x=4$.\n\nPoint lies on line."
+    },
+    "19": {
+      "hint": "Midpoint: average $x$ values and average $y$ values.",
+      "help": "$(\\dfrac{0+6}{2}, \\dfrac{0+8}{2}) = **(3, 4)**$.\n\nHalve each coordinate sum.\n\nMidpoint $(3,4)$."
+    },
+    "20": {
+      "hint": "Average 1 and 5 for $x$; average 1 and 9 for $y$.",
+      "help": "Midpoint **$(3, 5)$**.\n\n$(\\dfrac{1+5}{2}, \\dfrac{1+9}{2})$.\n\n$(3,5)$."
+    },
+    "21": {
+      "hint": "Substitute $x=2$ into $y=x+3$ — is $y=5$?",
+      "help": "$2+3=5$ — **yes**.\n\nSame check as Q17.\n\nOn the line.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "When $x=3$, $y=2\\times3$.",
+      "help": "$y = **6**$.\n\nTable entry for $y=2x$.\n\n$y=6$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "23": {
+      "hint": "Horizontal line $y=3$ means every point has $y=3$, including $x=7$.",
+      "help": "$(7,3)$ has $y=3$ — Priya is **correct**.\n\nAll points on $y=3$ share $y=3$.\n\nExplain horizontal rule."
+    },
+    "24": {
+      "hint": "Plug $x=0$ into $y=x+c$ — where does it cross $y$-axis?",
+      "help": "At $x=0$, $y=c$ — crosses **$(0,c)$** always.\n\n**Always** true for $y=x+c$.\n\nAnswer: always."
+    },
+    "25": {
+      "hint": "Compute $3(3)+1$ and compare to Sam's $y=10$.",
+      "help": "$3(3)+1=10$ — **on** the line.\n\nShow substitution $x=3$.\n\nPoint is on line."
+    },
+    "26": {
+      "hint": "Vertical $x=4$ meets horizontal $y=4$ at one corner.",
+      "help": "Cross at **$(4, 4)$** — $x$ must be 4 and $y$ must be 4.\n\nNo plotting needed.\n\nIntersection $(4,4)$."
+    },
+    "27": {
+      "hint": "On $y=2x$, is $y$ always twice $x$?",
+      "help": "By definition **true** — every point satisfies $y=2x$.\n\nDouble relationship.\n\nTrue."
+    },
+    "28": {
+      "hint": "$x$-axis has $y=0$, not $x=0$. Solve $x-5=0$.",
+      "help": "Leo gave $y$-intercept. $x$-axis crossing: $0=x-5$, $x=**5**$, point **$(5,0)$**.\n\n$y=0$ for $x$-axis.\n\nCorrect $(5,0)$."
+    },
+    "29": {
+      "hint": "Compare $y$-intercepts: $x=0$ in each equation.",
+      "help": "$y=x+1$ → $(0,1)$. $y=x-1$ → $(0,-1)$.\n\n**Different** $y$-axis points.\n\nParallel, shifted."
+    },
+    "30": {
+      "hint": "All points have $y=x$ — what line is that?",
+      "help": "Equation **$y=x$** — each coordinate pair equal.\n\nMo is right they are collinear.\n\nLine $y=x$."
+    },
+    "31": {
+      "hint": "Gradient 0.5 per unit from $(0,1)$ to $(1,1.5)$ — find $(2, ?)$.",
+      "help": "Pattern +0.5 each unit: at 2 units **$(2, 2)$**.\n\nContinue same step.\n\n$(2, 2)$ or equivalent."
+    },
+    "32": {
+      "hint": "$y=5$ flat — delivery does not depend on item count $x$.",
+      "help": "**Fixed £5 delivery** whatever $x$ is.\n\nHorizontal cost line.\n\nConstant charge."
+    },
+    "33": {
+      "hint": "Fee applies at exactly 2 hours — $x$ fixed, not rate per hour.",
+      "help": "**Vertical** at $x=2$ — time locked, not slope per hour.\n\nFixed moment, not proportional.\n\nExplain vertical."
+    },
+    "34": {
+      "hint": "Set $x=0$ in $y=20+5x$.",
+      "help": "Crosses **$(0, 20)$** — starting cost £20 at month 0.\n\n$y$-intercept is initial fee.\n\nContext: £20 base."
+    },
+    "35": {
+      "hint": "Solve $2x+3=9$ and $3x=9$ separately.",
+      "help": "First: $x=3$. Second: $x=3$. Both give $y=9$ at **$x=3$**.\n\nSame $x$ when $y=9$.\n\n$x=3$ each."
+    },
+    "36": {
+      "hint": "Midpoint of $(0,4)$ and $(4,12)$; test in $y=2x+4$.",
+      "help": "Midpoint **$(2,8)$**. Check: $2(2)+4=8$ — **on** line.\n\nAverage coordinates then substitute.\n\nMidpoint on line."
+    },
+    "37": {
+      "hint": "Find gradient from $(1,4)$ to $(3,8)$, pick another $x$.",
+      "help": "Gradient 2. Example third point **$(2,6)$** or $(4,10)$.\n\nContinue +2 in $y$ per +1 in $x$.\n\nShow working."
+    },
+    "38": {
+      "hint": "$y$-axis: $x=0$. $x$-axis: $y=0$.",
+      "help": "$y$-intercept **$(0,-8)$**. $x$-intercept solve $2x-8=0$ → **$(4,0)$**.\n\nBoth axes found.\n\n$(0,-8)$ and $(4,0)$."
+    },
+    "39": {
+      "hint": "Plug $(3,10)$ into $y=x+c$ to find $c$.",
+      "help": "$10=3+c$, $c=**7**$.\n\nUse known point.\n\n$c=7$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "40": {
+      "hint": "Verify $y=2x+1$ for each point by substitution.",
+      "help": "$(1,3)$: $2+1=3$. $(2,5)$, $(4,9)$ work — all on **$y=2x+1$**.\n\nShow three checks.\n\nAll lie on line."
+    },
+    "41": {
+      "hint": "Plot $(0,1)$ and $(3,4)$ and draw straight line through them.",
+      "help": "Both satisfy $y=x+1$ — join with ruler for sketch.\n\nSlope 1, intercept 1.\n\nStraight line through points."
+    },
+    "42": {
+      "hint": "Gradient = change in $y$ ÷ change in $x$ from $(0,-2)$ to $(2,2)$.",
+      "help": "$(2-(-2))/(2-0)=**2**$.\n\nRise 4 over run 2.\n\nGradient 2.\n\nWrite each step in order so you can use the same method on a similar question later."
+    }
+  }
+}

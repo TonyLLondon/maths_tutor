@@ -26,7 +26,7 @@ Local dev without Redis uses `.data/kv-dev.json`.
 
 ## Flow
 
-Login → Subjects → Maths → topic → **Practice** / Print
+Login → Subjects → Maths → topic → **Practice** (optional full worksheet online)
 
 ## Vercel (GitHub)
 

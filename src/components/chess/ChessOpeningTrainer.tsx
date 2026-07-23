@@ -31,6 +31,7 @@ import {
   recordOpeningDiscovery,
   recordPositionAttempt,
   recordRoundComplete,
+  formatOpeningCount,
   type ChessTrainerProgress,
 } from "@/lib/chess/chess-progress-logic";
 import { positionKeyFromFen } from "@/lib/chess/position-key";
@@ -93,7 +94,6 @@ export function ChessOpeningTrainer({
     null,
   );
   const [openingSlotPulse, setOpeningSlotPulse] = useState(false);
-  const [flyIsFirstDiscovery, setFlyIsFirstDiscovery] = useState(true);
   const [savedProgress, setSavedProgress] =
     useState<ChessTrainerProgress>(initialProgress);
   const [roundMessage, setRoundMessage] = useState<string | null>(null);
@@ -106,10 +106,7 @@ export function ChessOpeningTrainer({
     progressRef.current = savedProgress;
   }, [savedProgress]);
 
-  const pendingOpeningRef = useRef<{
-    name: string;
-    isFirstTime: boolean;
-  } | null>(null);
+  const pendingOpeningRef = useRef<string | null>(null);
   const lastProcessedOpeningRef = useRef<string | null>(null);
   const consecutiveFallbackRef = useRef(0);
   const roundSavedRef = useRef(false);
@@ -170,20 +167,11 @@ export function ChessOpeningTrainer({
     [],
   );
 
-  const startOpeningFly = useCallback(
-    (name: string, isFirstDiscovery: boolean) => {
-      if (name === lastAnimatedOpeningRef.current) return;
-      lastAnimatedOpeningRef.current = name;
-      if (!isFirstDiscovery) {
-        setOpeningSlotPulse(true);
-        window.setTimeout(() => setOpeningSlotPulse(false), 700);
-        return;
-      }
-      setFlyIsFirstDiscovery(true);
-      setFlyingOpeningName(name);
-    },
-    [],
-  );
+  const startOpeningFly = useCallback((name: string) => {
+    if (name === lastAnimatedOpeningRef.current) return;
+    lastAnimatedOpeningRef.current = name;
+    setFlyingOpeningName(name);
+  }, []);
 
   const completeOpeningFly = useCallback(() => {
     setFlyingOpeningName(null);
@@ -217,24 +205,24 @@ export function ChessOpeningTrainer({
     const pending = pendingOpeningRef.current;
     if (!pending) return;
     pendingOpeningRef.current = null;
-    startOpeningFly(pending.name, pending.isFirstTime);
+    startOpeningFly(pending);
   }, [state.phase, openingFlyBlocked, startOpeningFly]);
 
   useEffect(() => {
     const name = state.openingName;
     if (!name || name === lastProcessedOpeningRef.current) return;
     lastProcessedOpeningRef.current = name;
-    const { progress: next, isFirstTime } = recordOpeningDiscovery(
+    const { progress: next } = recordOpeningDiscovery(
       progressRef.current,
       name,
     );
     void persistProgress(next);
 
     if (openingFlyBlocked(state.phase)) {
-      pendingOpeningRef.current = { name, isFirstTime };
+      pendingOpeningRef.current = name;
       return;
     }
-    startOpeningFly(name, isFirstTime);
+    startOpeningFly(name);
   }, [
     state.openingName,
     state.phase,
@@ -692,11 +680,6 @@ export function ChessOpeningTrainer({
 
   const fenForPlayerTurn =
     state.fen === "start" ? chessFromFen("start").fen() : state.fen;
-  const familiarPosition =
-    state.phase === "your-turn" &&
-    (savedProgress.positions[positionKeyFromFen(fenForPlayerTurn)]?.wrongCount ??
-      0) > 0;
-
   const playerPosKey = positionKeyFromFen(fenForPlayerTurn);
   const hintUsedHere = hintUsedKeys.has(playerPosKey);
 
@@ -716,22 +699,23 @@ export function ChessOpeningTrainer({
   const statusLine =
     reviewingHistory
       ? "Looking back at earlier moves — press Forward to return to now."
-      : familiarPosition
-        ? "You’ve seen this spot before — take your time."
       : state.phase === "waiting-opponent"
       ? "Computer is thinking…"
       : state.phase === "checking"
         ? "Checking your move…"
         : state.phase === "pick-move"
           ? "Try again — drag one of the yellow arrow moves."
-          : state.phase === "well-done"
-            ? "These three moves are what strong players pick here."
-            : state.phase === "your-turn" &&
+          : state.phase === "your-turn" &&
               chessFromFen(boardFen).turn() !== state.playerColor
             ? "Wait for the computer to move"
             : null;
 
   const boardSize = boardPx > 0 ? boardPx : 400;
+
+  const flyingOpeningPracticeAgain =
+    flyingOpeningName != null &&
+    (savedProgress.openingsDiscovered.find((o) => o.name === flyingOpeningName)
+      ?.timesReached ?? 0) > 1;
 
   if (!sessionColor) {
     return (
@@ -812,12 +796,10 @@ export function ChessOpeningTrainer({
           {state.phase === "well-done" ? (
             <div className="pointer-events-none absolute inset-x-3 top-3 z-30 rounded-lg border border-green-300 bg-green-50/95 px-3 py-2 text-center shadow-md backdrop-blur-sm">
               <p className="text-base font-black text-green-700">Well done!</p>
-              {state.topMoves.length > 0 ? (
+              {state.playedMoveSan ? (
                 <p className="mt-1 text-sm text-green-800">
                   You played{" "}
-                  <span className="font-bold">{state.playedMoveSan}</span>.
-                  Top moves:{" "}
-                  {state.topMoves.map((m) => m.san).join(", ")}.
+                  <span className="font-bold">{state.playedMoveSan}</span>
                 </p>
               ) : null}
             </div>
@@ -834,19 +816,27 @@ export function ChessOpeningTrainer({
           </p>
         ) : null}
 
-        {savedProgress.bestScore > 0 ? (
+        {savedProgress.bestScore > 0 ||
+        savedProgress.openingsDiscovered.length > 0 ? (
           <p className="text-xs font-medium text-stone-600">
-            Your best score: {savedProgress.bestScore}
+            {savedProgress.bestScore > 0
+              ? `Your best score: ${savedProgress.bestScore}`
+              : null}
+            {savedProgress.bestScore > 0 &&
+            savedProgress.openingsDiscovered.length > 0
+              ? " · "
+              : null}
             {savedProgress.openingsDiscovered.length > 0
-              ? ` · ${savedProgress.openingsDiscovered.length} opening${
-                  savedProgress.openingsDiscovered.length === 1 ? "" : "s"
-                } found`
-              : ""}
+              ? formatOpeningCount(savedProgress.openingsDiscovered.length)
+              : null}
           </p>
         ) : null}
 
         {openingStrip.length > 0 ? (
-          <div className="flex flex-wrap gap-1.5" title="Openings you discovered">
+          <div
+            className="flex flex-wrap gap-1.5"
+            title="Opening names from your games"
+          >
             {openingStrip.map((o) => (
               <span
                 key={o.name}
@@ -923,12 +913,6 @@ export function ChessOpeningTrainer({
             <Progress value={progressPct} className="h-2 bg-stone-200" />
           </CardContent>
         </Card>
-
-        {state.phase === "well-done" && state.topMoves.length > 0 ? (
-          <p className="text-xs text-green-800">
-            Green arrows: all three book moves (yours is the brightest square).
-          </p>
-        ) : null}
 
         {state.phase === "pick-move" && state.arrows.length > 0 ? (
           <p className="text-xs font-medium text-amber-800">
@@ -1012,8 +996,7 @@ export function ChessOpeningTrainer({
       <OpeningNameFlyover
         key={flyingOpeningName}
         name={flyingOpeningName}
-        playerName={displayName}
-        isFirstDiscovery={flyIsFirstDiscovery}
+        practiceAgain={flyingOpeningPracticeAgain}
         boardSlotRef={boardSlotRef}
         sidebarSlotRef={openingSidebarRef}
         onComplete={completeOpeningFly}

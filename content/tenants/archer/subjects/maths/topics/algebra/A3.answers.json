@@ -2,6 +2,71 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "x",
+      "accept": [
+        "x"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "2",
+      "accept": [
+        "2",
+        "2 lots"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "n + 5",
       "accept": [
         "n+5",
@@ -10,124 +75,124 @@
         "5 + n"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "3x",
       "accept": [
         "3x",
         "3 x"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "y - 4",
       "accept": [
         "y-4",
         "y - 4"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
+    "12": {
       "display": "3",
       "accept": [
         "3"
       ],
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "13": {
       "display": "-7",
       "accept": [
         "-7",
         "7"
       ],
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
+    "14": {
       "display": "3",
       "accept": [
         "3",
         "three"
       ],
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "Equation",
       "accept": [
         "equation"
       ],
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
+    "16": {
       "display": "Expression",
       "accept": [
         "expression"
       ],
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "2t + 3",
       "accept": [
         "2t+3",
         "2t + 3"
       ],
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
+    "18": {
       "display": "4s",
       "accept": [
         "4s",
         "4 s"
       ],
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
+    "19": {
       "display": "x + 7 = 15",
       "accept": [
         "x+7=15",
         "x + 7 = 15"
       ],
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
+    "20": {
       "display": "3x",
       "accept": [
         "3x"
       ],
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "2x + 3 has no equals sign, so it cannot be solved to find a specific value of x \u2014 it is an expression, not an equation.",
+    "23": {
+      "display": "2x + 3 has no equals sign, so it cannot be solved to find a specific value of x — it is an expression, not an equation.",
       "accept": [
         "no equals sign",
         "expression"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Never \u2014 an expression has no equals sign, so it can only be evaluated for a given x, not solved for a single value.",
+    "24": {
+      "display": "Never — an expression has no equals sign, so it can only be evaluated for a given x, not solved for a single value.",
       "accept": [
         "never"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "The \u2261 symbol means \"is identically equal to\" \u2014 the two sides are equal for every possible value of x, not just one specific value as with =.",
+    "25": {
+      "display": "The ≡ symbol means \"is identically equal to\" — the two sides are equal for every possible value of x, not just one specific value as with =.",
       "accept": [
         "identically equal",
         "every value",
@@ -135,9 +200,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
+    "26": {
       "display": "Expression: no equals sign, e.g. 3x + 2. Equation: has an equals sign and can be solved for a value, e.g. 3x + 2 = 11. Formula: relates two or more different quantities, e.g. P = 4s.",
       "accept": [
         "expression",
@@ -146,18 +211,18 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "True \u2014 x + x + x = 3x for every value of x, so it holds as an identity, not just for one solution.",
+    "27": {
+      "display": "True — x + x + x = 3x for every value of x, so it holds as an identity, not just for one solution.",
       "accept": [
         "true"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
+    "28": {
       "display": "P = 4s is a formula because it relates two different quantities (perimeter and side length) so you can use it to calculate one from the other, rather than solving for a single unknown value.",
       "accept": [
         "formula",
@@ -166,9 +231,9 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
+    "29": {
       "display": "From 5x + 2 = 17 you can solve to find the specific value x = 3; from the expression 5x + 2 alone you can only evaluate it for a given x, not find x itself.",
       "accept": [
         "solve",
@@ -177,19 +242,19 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "2x + 3 has no equals sign at all, so Mo's reasoning is wrong from the start \u2014 an equation must contain an equals sign, and 2x + 3 does not.",
+    "30": {
+      "display": "2x + 3 has no equals sign at all, so Mo's reasoning is wrong from the start — an equation must contain an equals sign, and 2x + 3 does not.",
       "accept": [
         "no equals sign",
         "expression"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
+    "31": {
       "display": "x + 3",
       "accept": [
         "x+3",
@@ -197,9 +262,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
+    "32": {
       "display": "2w",
       "accept": [
         "2w",
@@ -207,9 +272,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
+    "33": {
       "display": "3 + 2m",
       "accept": [
         "3+2m",
@@ -217,9 +282,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
+    "34": {
       "display": "5p",
       "accept": [
         "5p",
@@ -227,9 +292,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
+    "35": {
       "display": "2n - 4",
       "accept": [
         "2n-4",
@@ -237,9 +302,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
+    "36": {
       "display": "x + (x + 2) + (x + 5) simplifies to 3x + 7.",
       "accept": [
         "3x+7",
@@ -247,9 +312,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
+    "37": {
       "display": "x^2 + 2x",
       "accept": [
         "x^2+2x",
@@ -258,9 +323,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
+    "38": {
       "display": "3(x + 2) + 1 = 3x + 6 + 1 = 3x + 7, which matches, so the expressions are equivalent.",
       "accept": [
         "3x+7",
@@ -268,9 +333,9 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
+    "39": {
       "display": "T = c + rh",
       "accept": [
         "t=c+rh",
@@ -279,14 +344,50 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
-      "display": "Example: 2x + 3 has no equals sign (expression). 2x + 3 = 9 has an equals sign and one solution, x = 3 (equation). 2(x + 3) \u2261 2x + 6 is true for every value of x (identity).",
+    "40": {
+      "display": "Example: 2x + 3 has no equals sign (expression). 2x + 3 = 9 has an equals sign and one solution, x = 3 (equation). 2(x + 3) ≡ 2x + 6 is true for every value of x (identity).",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "Expression",
+      "accept": [
+        "expression"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "n + 5",
+      "accept": [
+        "n+5",
+        "n + 5"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "Expression: 2x; equation: x + 3 = 10; formula: P = 2l + 2w",
+      "accept": [
+        "2x",
+        "x + 3 = 10"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "C = 2.5n",
+      "accept": [
+        "2.5n",
+        "C = 2.5n"
+      ],
+      "tier": 2,
+      "rating": 1680
     }
   }
 }

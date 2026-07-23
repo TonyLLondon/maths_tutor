@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Add 1 to input 2.",
+      "help": "Output = 2 + 1 = **3**.\n\nSimple function machine: add 1.\n\nAnswer 3."
+    },
+    "2": {
+      "hint": "Add 2 to input 3.",
+      "help": "3 + 2 = **5**.\n\nRule: add 2.\n\nOutput 5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "Double 4.",
+      "help": "2 × 4 = **8**.\n\nDoubling function.\n\nOutput 8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "Subtract 1 from 5.",
+      "help": "5 − 1 = **4**.\n\nTake away 1 rule.\n\nOutput 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "Replace $x$ with 4 in $x + 1$.",
+      "help": "4 + 1 = **5**.\n\nSame as add-1 machine with letter input.\n\nOutput 5."
+    },
+    "6": {
+      "hint": "Multiply 3 by 2.",
+      "help": "$2x$ with $x=3$ gives **6**.\n\nDouble the input.\n\nOutput 6.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "What plus 3 equals 7?",
+      "help": "Input = 7 − 3 = **4**.\n\nWork backwards from output.\n\nInput 4."
+    },
+    "8": {
+      "hint": "Half of 10 is the input that doubles to 10.",
+      "help": "Input = 10 ÷ 2 = **5**.\n\nInverse of doubling.\n\nInput 5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "9": {
+      "hint": "$f(3)$ means substitute 3 for $x$ in $x + 4$.",
+      "help": "$f(3) = 3 + 4 = **7**.\n\nBracket number replaces $x$.\n\n$f(3) = 7$."
+    },
+    "10": {
+      "hint": "Find $2 \\times 5$ for $f(5)$ when $f(x)=2x$.",
+      "help": "$f(5) = 10$.\n\nMultiply input by 2.\n\nAnswer 10.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "11": {
+      "hint": "Calculate $3 \\times 4 - 1$.",
+      "help": "$f(4) = 12 - 1 = **11**.\n\nTimes 3 first, then minus 1.\n\n$f(4) = 11$."
+    },
+    "12": {
+      "hint": "Square 3 for $f(3)$ when $f(x)=x^2$.",
+      "help": "$f(3) = 9$.\n\n$3 \\times 3$.\n\nAnswer 9.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "Outputs are 4, 5, 6 for inputs 1, 2, 3 — what is added each time?",
+      "help": "Each output is input **+ 3**.\n\nRule: add 3 (or $x + 3$).\n\nMapping: +3."
+    },
+    "14": {
+      "hint": "Outputs 2, 4, 6 from inputs 1, 2, 3 — look for multiply.",
+      "help": "Output = **2 × input**.\n\nRule $2x$ or double.\n\nDoubling rule."
+    },
+    "15": {
+      "hint": "If $x + 4 = 10$, find $x$.",
+      "help": "$x = 10 - 4 = **6**.\n\nReverse the +4.\n\nInput 6.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "16": {
+      "hint": "If $2x = 16$, divide by 2.",
+      "help": "$x = **8**.\n\nHalve the output.\n\nInput 8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "Add 3 to each input 0, 1, 2, 3.",
+      "help": "Outputs: **3, 4, 5, 6**.\n\n$f(x)=x+3$ on each row.\n\nFill table with those."
+    },
+    "18": {
+      "hint": "Use $2x - 1$ for $x = 1, 2, 3, 4$.",
+      "help": "Outputs: **1, 3, 5, 7**.\n\nDouble, then subtract 1.\n\nComplete the row."
+    },
+    "19": {
+      "hint": "Divide output 30 by 5 in $f(x)=5x$.",
+      "help": "Input = 30 ÷ 5 = **6**.\n\nUndo multiply by 5.\n\nInput 6.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "What number squared gives 25?",
+      "help": "$5^2 = 25$ and $(-5)^2 = 25$.\n\nInputs **5** or **-5** (both valid).\n\nSquare roots of 25."
+    },
+    "21": {
+      "hint": "4 plus 3.",
+      "help": "Output = **7**.\n\nAdd 3 rule.\n\nAnswer 7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "Divide output 10 by 2 to find input.",
+      "help": "Input = **5**.\n\nInverse of multiply by 2.\n\nInput 5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "23": {
+      "hint": "$f(3)$ means put 3 into the function, not swap the order of 4 and 3.",
+      "help": "$f(3) = 3 + 4 = **7**, not $4+3$ written backwards as meaning.\n\n$f(3)$ is “function at input 3”.\n\nValue 7."
+    },
+    "24": {
+      "hint": "Compare input and output for $f(x)=x+1$ — is output always bigger?",
+      "help": "Output is always one more than input.\n\n**Always** greater (for all real inputs).\n\nAnswer: always."
+    },
+    "25": {
+      "hint": "Try $f(2)$ and $f(-2)$ for $f(x)=x^2$.",
+      "help": "Both give **4** — different inputs, same output.\n\nSam is **wrong**.\n\nSquares can repeat outputs."
+    },
+    "26": {
+      "hint": "Write double then add 3 as $2x + 3$, then use $x = 6$.",
+      "help": "$f(x) = 2x + 3$. $f(6) = 15$.\n\nMachine as formula.\n\n$f(6) = 15$."
+    },
+    "27": {
+      "hint": "Compute $f(2+3)$ and compare to $f(2)+f(3)$ for $f(x)=3x$.",
+      "help": "$f(5)=15$ but $f(2)+f(3)=6+9=15$ — here they match, but test $a=1,b=1$: $f(2)=6$ vs $f(1)+f(1)=6$ — actually for 3x, $f(a+b)=3a+3b=f(a)+f(b)$ always. Statement is **true** for $3x$.\n\nShow your arithmetic."
+    },
+    "28": {
+      "hint": "Inverse of add 5 is subtract 5, not add again.",
+      "help": "Wrong: add 5 again. Correct inverse: **subtract 5** ($x - 5$ or $f^{-1}(y)=y-5$).\n\nUndoes the original step.\n\nExplain inverse operation."
+    },
+    "29": {
+      "hint": "Find $f(3)$ and $g(3)$, then try $x=10$.",
+      "help": "$f(3)=5$, $g(3)=6$ — $g$ bigger at 3. At 10: $f(10)=12$, $g(10)=20$ — gap grows.\n\n$2x$ eventually beats $x+2$ for large $x$.\n\nCompare both inputs."
+    },
+    "30": {
+      "hint": "Functions give different outputs for different inputs unless the rule is constant.",
+      "help": "$f(3)=8$ for $f(x)=x+5$, not 7.\n\nMo confused “well defined” with “same output always”.\n\nOutputs change when input changes."
+    },
+    "31": {
+      "hint": "Multiply 4 snacks by 80 pence.",
+      "help": "$f(4)=320$ pence (£3.20).\n\n80p each snack.\n\nCost 320p.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "32": {
+      "hint": "Substitute $w=8$ into $15+5w$.",
+      "help": "$f(8)=15+40=**55** pounds.\n\nStart £15 plus £5 per week.\n\n£55 after 8 weeks."
+    },
+    "33": {
+      "hint": "Solve $6t+2=26$ for tickets $t$.",
+      "help": "$6t=24$, $t=**4** tickets.\n\nRemove £2 fee, divide by £6.\n\n4 tickets."
+    },
+    "34": {
+      "hint": "Divide £84 by £12 per hour.",
+      "help": "$h=84/12=**7** hours.\n\nPay rate $12h$.\n\n7 hours.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "35": {
+      "hint": "Solve $2+3m=17$ for minutes $m$.",
+      "help": "$3m=15$, $m=**5** minutes over.\n\nSubtract £2, divide by 3.\n\n$m=5$."
+    },
+    "36": {
+      "hint": "Plug 400 into $20+0.5x$.",
+      "help": "$f(400)=20+200=**220** minutes.\n\nHalf a minute per gram plus 20.\n\n220 minutes baking."
+    },
+    "37": {
+      "hint": "Find $f(4)$ and $f(-4)$ for $x^2-1$.",
+      "help": "Both give **15** — squaring removes sign.\n\n$(-4)^2=16$ same as $4^2$.\n\nExplain symmetric outputs."
+    },
+    "38": {
+      "hint": "Inverse of add 7 is subtract 7. Check starting from $f(3)=10$.",
+      "help": "Inverse $f^{-1}(y)=y-7$. From $f(3)=10$, apply inverse: $10-7=3$ — back to start.\n\nCheck confirms inverse."
+    },
+    "39": {
+      "hint": "Reverse $3x-2$: add 2, divide by 3. Test with $x=5$.",
+      "help": "Inverse $x=\\dfrac{y+2}{3}$. $f(5)=13$, inverse gives $(13+2)/3=5$.\n\nUndo times 3 and minus 2.\n\nCheck passes."
+    },
+    "40": {
+      "hint": "Input 4: add 1 then double. Combine steps into one formula $h(x)$.",
+      "help": "4→5→10. $h(x)=2(x+1)=2x+2$. At 4: **10**.\n\nComposite: apply $f$ then $g$.\n\n$h(x)=2x+2$."
+    },
+    "41": {
+      "hint": "5 → ×2 → +1 in order.",
+      "help": "5→10→**11**.\n\nFollow machine order.\n\nOutput 11.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "42": {
+      "hint": "Work backwards from 15: undo +1, then undo ×2.",
+      "help": "15→14 after undo +1; 14÷2=**7** input.\n\nReverse inverse steps.\n\nInput 7."
+    }
+  }
+}

@@ -14,14 +14,6 @@ export function mathsPracticeHref(
   return `${mathsTopicHref(tenant, domain, code)}/practice`;
 }
 
-export function mathsPrintHref(
-  tenant: string,
-  domain: string,
-  code: string,
-): string {
-  return `${mathsTopicHref(tenant, domain, code)}/print`;
-}
-
 /** Legacy flat worksheets (non-topic path). */
 export function worksheetHref(tenant: string, slug: string): string {
   if (slug.includes("/")) {

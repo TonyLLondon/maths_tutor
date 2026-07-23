@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Same size and shape means they match exactly — is that congruent?",
+      "help": "When shapes **match exactly** in size and shape, they are **congruent**.\n\nExample: two identical puzzle pieces."
+    },
+    "2": {
+      "hint": "Two 4 cm squares — same side length and all angles 90°?",
+      "help": "Both squares have side **4 cm** and the same angles — **true**, they are congruent.\n\nExample: two 4 cm square tiles match."
+    },
+    "3": {
+      "hint": "Compare side lists — 3, 4, 5 on both triangles?",
+      "help": "Matching sides **3 cm, 4 cm, 5 cm** on both → same shape and size → **congruent**.\n\nExample: SSS with identical lists."
+    },
+    "4": {
+      "hint": "Which pair is the same shape: two squares or square and circle?",
+      "help": "Two **5 cm squares** match in shape and size. A square and circle are different shapes.\n\nExample: only the two squares are congruent."
+    },
+    "5": {
+      "hint": "Turning (rotation) — does it stretch the shape?",
+      "help": "**Rotation** only turns the shape — size stays the same. Statement is **false**.\n\nExample: spin a triangle — side lengths unchanged."
+    },
+    "6": {
+      "hint": "Flipping (reflection) — do side lengths change?",
+      "help": "**Reflection** mirrors the shape without changing side lengths. **False**.\n\nExample: mirror image of a 3-4-5 triangle still 3-4-5."
+    },
+    "7": {
+      "hint": "Exact copy — corresponding sides should match.",
+      "help": "A copy without resizing has **equal matching sides** (corresponding sides equal).\n\nExample: trace and cut — same lengths."
+    },
+    "8": {
+      "hint": "Congruent means both matching shape and matching size.",
+      "help": "You need **both** **size** and **shape** to fit exactly.\n\nExample: same angles but different sizes → not congruent."
+    },
+    "9": {
+      "hint": "Congruent — same size and shape, can be placed on top of each other.",
+      "help": "**Congruent** shapes are identical in size and shape — one can be moved (slide/turn/flip) onto the other.\n\nExample: two 5 cm equilateral triangles."
+    },
+    "10": {
+      "hint": "All three sides match — three-letter rule starting with S.",
+      "help": "**SSS** (side-side-side) — all three corresponding sides equal.\n\nExample: 7, 8, 9 cm on both triangles."
+    },
+    "11": {
+      "hint": "Two sides and the angle between them — which rule?",
+      "help": "**SAS** (side-angle-side) — two sides and the **included** angle.\n\nExample: 5 cm, 60°, 8 cm between."
+    },
+    "12": {
+      "hint": "Two angles and a side — which congruence rule?",
+      "help": "**ASA** (angle-side-angle) or **AAS** when two angles and a matching side are known.\n\nExample: 40°, 8 cm, 60°."
+    },
+    "13": {
+      "hint": "Right angle, hypotenuse, and one other side — special rule for right triangles.",
+      "help": "**RHS** (right-angle-hypotenuse-side) for right-angled triangles.\n\nExample: 90°, hypotenuse 10 cm, leg 6 cm."
+    },
+    "14": {
+      "hint": "Same three angles — could one triangle be bigger?",
+      "help": "Same angles means **similar**, not always same size. **False** — AAA does not prove congruence.\n\nExample: 30-60-90 triangles of different sizes."
+    },
+    "15": {
+      "hint": "Identical side lists 3, 4, 5 — which three-letter rule?",
+      "help": "**SSS** proves congruence when all three sides match.\n\nExample: 3-4-5 on both."
+    },
+    "16": {
+      "hint": "50° between 6 cm and 8 cm on both — included angle rule?",
+      "help": "**SAS** — two sides with the **included** 50° angle equal.\n\nExample: 6 cm — 50° — 8 cm on both triangles."
+    },
+    "17": {
+      "hint": "If triangles are congruent, do matching angles match?",
+      "help": "Yes — **corresponding angles** are **equal** in congruent triangles.\n\nExample: angle A matches angle D."
+    },
+    "18": {
+      "hint": "Same size and shape — same area too?",
+      "help": "Congruent triangles have **equal area**.\n\nExample: copy a triangle — area unchanged."
+    },
+    "19": {
+      "hint": "Same angles but different sizes — congruent or not?",
+      "help": "They are **similar** but **not congruent** — B is bigger.\n\nExample: enlarge one triangle — angles same, sides longer."
+    },
+    "20": {
+      "hint": "Which rule is invalid: SSA often fails — spot the bad one.",
+      "help": "**SSA** (two sides and non-included angle) is **not** a valid general congruence rule.\n\nExample: ambiguous case with SSA."
+    },
+    "21": {
+      "hint": "Three matching sides — name the rule.",
+      "help": "**SSS** uses three sides.\n\nExample: 5-12-13 matching.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "Two sides with the angle between them — which rule?",
+      "help": "**SAS** — included angle between the two sides.\n\nExample: 4 cm, 70°, 6 cm."
+    },
+    "23": {
+      "hint": "Right triangles: hypotenuse 10 cm, other side 6 cm — RHS applies.",
+      "help": "Use **RHS**: right angle, equal hypotenuse **10 cm**, equal leg **6 cm** → congruent (third side fixed).\n\nExample: both have third side 8 cm."
+    },
+    "24": {
+      "hint": "Congruent = same size and shape; similar = same shape, maybe different size.",
+      "help": "**Congruent**: identical size and shape. **Similar**: same shape (equal angles), scale factor may differ.\n\nExample: all squares similar; only same-size squares congruent."
+    },
+    "25": {
+      "hint": "Same perimeter — could triangles still have different sides?",
+      "help": "Different triangles can have perimeter 12 cm with different side sets. **Sometimes** same perimeter, not always congruent.\n\nExample: 3-4-5 and 2-5-5."
+    },
+    "26": {
+      "hint": "Shared side 7 cm, 90° at one end, 40° at other — ASA?",
+      "help": "Use **ASA** (or AAS): fixed side with two angles determines the triangle.\n\nExample: draw and check third angle 50°."
+    },
+    "27": {
+      "hint": "SSA vs SAS — is non-included angle enough?",
+      "help": "Sam is **wrong**: **SSA** can give two different triangles; **SAS** with **included** angle is safe.\n\nExample: sketch SSA ambiguous case."
+    },
+    "28": {
+      "hint": "Reflection — same side lengths and angles as original?",
+      "help": "Reflection is a **congruence** transformation — image matches original size and shape.\n\nExample: mirror a triangle — still congruent."
+    },
+    "29": {
+      "hint": "Same angles, different sizes — why not congruent?",
+      "help": "**AAA** only fixes shape, not scale. Enlarge one triangle — angles match, sides do not.\n\nExample: 30°, 60°, 90° at two scales."
+    },
+    "30": {
+      "hint": "Same equal sides 5 cm and base angle 70° — but different base lengths?",
+      "help": "Same apex angle and equal legs can still make **different** base lengths — **not necessarily congruent** without matching base.\n\nExample: compare two isosceles with 70° base angles."
+    },
+    "31": {
+      "hint": "Sides 15, 20, 25 on both brackets — which rule?",
+      "help": "**SSS** — all three sides match.\n\nExample: 15-20-25 triangle unique."
+    },
+    "32": {
+      "hint": "RHS with 13 m and 5 m — find missing side with Pythagoras.",
+      "help": "Third side $\\sqrt{13^2 - 5^2} = \\sqrt{144} = 12$ m. Both triangles match → **RHS** congruent.\n\nExample: 5-12-13 right triangles."
+    },
+    "33": {
+      "hint": "AB=DE, angle A = angle D, AC=DF — two sides and included angle?",
+      "help": "**SAS** — sides AB=DE, AC=DF with included angles A and D equal.\n\nExample: label included angle at A and D."
+    },
+    "34": {
+      "hint": "Same two angles and included side — enough to fix triangle?",
+      "help": "Two angles fix the third; same side between them → **ASA** congruence for the plot.\n\nExample: 55°, 65°, side between measured equal."
+    },
+    "35": {
+      "hint": "Compare 6,6,10 with 6,6,8 — all sides match?",
+      "help": "Third sides **10 cm** vs **8 cm** differ — **not congruent** (SSS fails).\n\nExample: isosceles with different bases."
+    },
+    "36": {
+      "hint": "Two congruent right triangles on hypotenuse — rectangle properties?",
+      "help": "Two congruent right triangles sharing hypotenuse form a **rectangle** (or square) with four right angles.\n\nExample: two 3-4-5 triangles → 5 cm by 5 cm? check legs."
+    },
+    "37": {
+      "hint": "RHS fixes third side in a right triangle — like SSS.",
+      "help": "Right angle + hypotenuse + one leg fixes the other leg (Pythagoras), so all three sides fixed → like **SSS**.\n\nExample: 90°, 10, 6 → third 8."
+    },
+    "38": {
+      "hint": "Same area, different shapes — draw two non-congruent triangles same area.",
+      "help": "Example: triangle base 8 height 3 and triangle base 6 height 4 both area 12 — **same area**, different side lengths → not congruent.\n\nExplain side lists differ."
+    },
+    "39": {
+      "hint": "AAA with different sizes — one word for same shape, different size.",
+      "help": "They are **similar** — equal angles, scale factor not 1.\n\nExample: enlarge by factor 2."
+    },
+    "40": {
+      "hint": "Design two triangles with measurements and name the congruence proof.",
+      "help": "Give side/angle data, then state **SSS**, **SAS**, **ASA**, or **RHS** and why.\n\nExample: 7 cm, 50°, 9 cm → SAS."
+    },
+    "41": {
+      "hint": "Both triangles 5, 7, 9 cm — SSS?",
+      "help": "All three sides match → **congruent** by **SSS**.\n\nExample: identical side sets."
+    },
+    "42": {
+      "hint": "6 cm, 50°, 8 cm on both — included angle 50° between those sides?",
+      "help": "**SAS** — PQ=AB, PR=AC, angle P = angle A = 50° between them → **congruent**.\n\nExample: check order of sides around the angle."
+    }
+  }
+}

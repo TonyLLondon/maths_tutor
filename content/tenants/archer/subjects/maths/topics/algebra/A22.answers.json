@@ -2,6 +2,74 @@
   "version": 1,
   "answers": {
     "1": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "$<$",
+      "accept": [
+        "<",
+        "less than"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "$>$",
+      "accept": [
+        ">",
+        "greater than"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "0, 1, 2",
+      "accept": [
+        "0,1,2",
+        "0, 1, 2"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "8": {
+      "display": "3, 4",
+      "accept": [
+        "3,4",
+        "3, 4"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "9": {
       "display": "x > 5",
       "accept": [
         "x>5",
@@ -9,9 +77,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 760
     },
-    "2": {
+    "10": {
       "display": "x < 8",
       "accept": [
         "x<8",
@@ -19,9 +87,9 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 786
     },
-    "3": {
+    "11": {
       "display": "x > 7",
       "accept": [
         "x>7",
@@ -29,20 +97,20 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 813
     },
-    "4": {
-      "display": "x \u2264 12",
+    "12": {
+      "display": "x ≤ 12",
       "accept": [
         "x<=12",
-        "x \u2264 12",
-        "x\u226412"
+        "x ≤ 12",
+        "x≤12"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1200
+      "rating": 839
     },
-    "5": {
+    "13": {
       "display": "x < 4",
       "accept": [
         "x<4",
@@ -50,20 +118,20 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1212
+      "rating": 865
     },
-    "6": {
-      "display": "x \u2265 4",
+    "14": {
+      "display": "x ≥ 4",
       "accept": [
         "x>=4",
-        "x \u2265 4",
-        "x\u22654"
+        "x ≥ 4",
+        "x≥4"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1224
+      "rating": 892
     },
-    "7": {
+    "15": {
       "display": "x > 3",
       "accept": [
         "x>3",
@@ -71,20 +139,20 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1236
+      "rating": 918
     },
-    "8": {
-      "display": "x \u2264 \u22124",
+    "16": {
+      "display": "x ≤ −4",
       "accept": [
         "x<=-4",
-        "x \u2264 -4",
-        "x\u2264-4"
+        "x ≤ -4",
+        "x≤-4"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1248
+      "rating": 945
     },
-    "9": {
+    "17": {
       "display": "x < 4",
       "accept": [
         "x<4",
@@ -92,42 +160,42 @@
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1152
+      "rating": 971
     },
-    "10": {
-      "display": "x \u2265 8",
+    "18": {
+      "display": "x ≥ 8",
       "accept": [
         "x>=8",
-        "x \u2265 8",
-        "x\u22658"
+        "x ≥ 8",
+        "x≥8"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1164
+      "rating": 997
     },
-    "11": {
-      "display": "\u22121, 0, 1, 2, 3",
+    "19": {
+      "display": "−1, 0, 1, 2, 3",
       "accept": [
         "-1, 0, 1, 2, 3",
         "-1,0,1,2,3"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1176
+      "rating": 1024
     },
-    "12": {
-      "display": "x \u2265 5",
+    "20": {
+      "display": "x ≥ 5",
       "accept": [
         "x>=5",
-        "x \u2265 5",
-        "x\u22655"
+        "x ≥ 5",
+        "x≥5"
       ],
       "contains": true,
       "tier": 1,
-      "rating": 1188
+      "rating": 1050
     },
-    "13": {
-      "display": "Sam forgot to reverse the inequality sign when dividing both sides by a negative number. The correct solution is x < \u22124.",
+    "23": {
+      "display": "Sam forgot to reverse the inequality sign when dividing both sides by a negative number. The correct solution is x < −4.",
       "accept": [
         "reverse",
         "flip",
@@ -135,29 +203,29 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1600
+      "rating": 1180
     },
-    "14": {
-      "display": "Always \u2014 dividing or multiplying by a negative number always reverses the direction of the inequality.",
+    "24": {
+      "display": "Always — dividing or multiplying by a negative number always reverses the direction of the inequality.",
       "accept": [
         "always"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1612
+      "rating": 1223
     },
-    "15": {
-      "display": "Yes, she is correct \u2014 subtracting 3 from both sides of x + 3 < 10 gives exactly x < 7, so the two inequalities have the same solution set.",
+    "25": {
+      "display": "Yes, she is correct — subtracting 3 from both sides of x + 3 < 10 gives exactly x < 7, so the two inequalities have the same solution set.",
       "accept": [
         "yes",
         "correct"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1624
+      "rating": 1266
     },
-    "16": {
-      "display": "Dividing both sides of 2x > 10 by 2 gives x > 5 \u2014 they are the same inequality written in two different (but equivalent) forms.",
+    "26": {
+      "display": "Dividing both sides of 2x > 10 by 2 gives x > 5 — they are the same inequality written in two different (but equivalent) forms.",
       "accept": [
         "divide",
         "equivalent",
@@ -165,19 +233,19 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1636
+      "rating": 1309
     },
-    "17": {
-      "display": "True \u2014 the symbol \u2265 means \"greater than or equal to\", so x = 4 satisfies the inequality.",
+    "27": {
+      "display": "True — the symbol ≥ means \"greater than or equal to\", so x = 4 satisfies the inequality.",
       "accept": [
         "true"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1648
+      "rating": 1351
     },
-    "18": {
-      "display": "Leo forgot to reverse the inequality sign when dividing by a negative number. Dividing \u22123x < 12 by \u22123 correctly gives x > \u22124.",
+    "28": {
+      "display": "Leo forgot to reverse the inequality sign when dividing by a negative number. Dividing −3x < 12 by −3 correctly gives x > −4.",
       "accept": [
         "reverse",
         "flip",
@@ -186,48 +254,48 @@
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1552
+      "rating": 1394
     },
-    "19": {
-      "display": "x > 3 does not include 3 itself, but x \u2265 3 does include 3 \u2014 the key difference is whether the boundary value is part of the solution.",
+    "29": {
+      "display": "x > 3 does not include 3 itself, but x ≥ 3 does include 3 — the key difference is whether the boundary value is part of the solution.",
       "accept": [
         "includes 3",
         "boundary"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1564
+      "rating": 1437
     },
-    "20": {
-      "display": "Mo is correct \u2014 an inequality such as x > 0 is satisfied by every number greater than 0, and there are infinitely many such numbers.",
+    "30": {
+      "display": "Mo is correct — an inequality such as x > 0 is satisfied by every number greater than 0, and there are infinitely many such numbers.",
       "accept": [
         "correct",
         "yes"
       ],
       "contains": true,
       "tier": 2,
-      "rating": 1576
+      "rating": 1480
     },
-    "21": {
-      "display": "3p \u2264 20 \u2192 p \u2264 6\u2154, so Archer can afford at most 6 pens.",
+    "31": {
+      "display": "3p ≤ 20 → p ≤ 6⅔, so Archer can afford at most 6 pens.",
       "accept": [
         "6"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1988
+      "rating": 1620
     },
-    "22": {
-      "display": "4m \u2264 500 \u2192 m \u2264 125 kg.",
+    "32": {
+      "display": "4m ≤ 500 → m ≤ 125 kg.",
       "accept": [
         "125"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2000
+      "rating": 1680
     },
-    "23": {
-      "display": "15 + 3g > 24 \u2192 3g > 9 \u2192 g > 3, so Sloan needs to play at least 4 games.",
+    "33": {
+      "display": "15 + 3g > 24 → 3g > 9 → g > 3, so Sloan needs to play at least 4 games.",
       "accept": [
         "4",
         "g > 3",
@@ -235,51 +303,51 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2012
+      "rating": 1740
     },
-    "24": {
-      "display": "2(x + x + 4) < 40 \u2192 4x + 8 < 40 \u2192 x < 8.",
+    "34": {
+      "display": "2(x + x + 4) < 40 → 4x + 8 < 40 → x < 8.",
       "accept": [
         "x < 8",
         "x<8"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2024
+      "rating": 1800
     },
-    "25": {
-      "display": "h \u2265 120; yes, a rider exactly 120 cm tall is allowed because \u2265 includes the boundary value.",
+    "35": {
+      "display": "h ≥ 120; yes, a rider exactly 120 cm tall is allowed because ≥ includes the boundary value.",
       "accept": [
-        "h \u2265 120",
+        "h ≥ 120",
         "h>=120",
         "yes"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2036
+      "rating": 1860
     },
-    "26": {
-      "display": "2 + 1.5t \u2264 11 \u2192 1.5t \u2264 9 \u2192 t \u2264 6, so Archer can park for at most 6 hours.",
+    "36": {
+      "display": "2 + 1.5t ≤ 11 → 1.5t ≤ 9 → t ≤ 6, so Archer can park for at most 6 hours.",
       "accept": [
         "6"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 2048
+      "rating": 1920
     },
-    "27": {
-      "display": "2x \u2212 3 \u2264 5x + 6 \u2192 \u22129 \u2264 3x \u2192 x \u2265 \u22123.",
+    "37": {
+      "display": "2x − 3 ≤ 5x + 6 → −9 ≤ 3x → x ≥ −3.",
       "accept": [
-        "x \u2265 -3",
+        "x ≥ -3",
         "x>=-3",
-        "x\u2265-3"
+        "x≥-3"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1952
+      "rating": 1860
     },
-    "28": {
-      "display": "\u22124 < 2x + 2 \u2264 10 \u2192 \u22126 < 2x \u2264 8 \u2192 \u22123 < x \u2264 4. Integer solutions: \u22122, \u22121, 0, 1, 2, 3, 4.",
+    "38": {
+      "display": "−4 < 2x + 2 ≤ 10 → −6 < 2x ≤ 8 → −3 < x ≤ 4. Integer solutions: −2, −1, 0, 1, 2, 3, 4.",
       "accept": [
         "-2, -1, 0, 1, 2, 3, 4",
         "-3 < x",
@@ -287,23 +355,59 @@
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1964
+      "rating": 1907
     },
-    "29": {
+    "39": {
       "display": "x + 2 > 3 gives x > 1; 2x < 16 gives x < 8. Integer solutions satisfying both: 2, 3, 4, 5, 6, 7.",
       "accept": [
         "2, 3, 4, 5, 6, 7"
       ],
       "contains": true,
       "tier": 3,
-      "rating": 1976
+      "rating": 1953
     },
-    "30": {
-      "display": "Example: Sloan has \u00a330 and buys books costing \u00a36 each \u2014 6b \u2264 30 gives b \u2264 5. Any correct real-world inequality with solution x \u2264 5 is acceptable.",
+    "40": {
+      "display": "Example: Sloan has £30 and buys books costing £6 each — 6b ≤ 30 gives b ≤ 5. Any correct real-world inequality with solution x ≤ 5 is acceptable.",
       "accept": [],
       "tier": 3,
       "kind": "self-check",
-      "rating": 1988
+      "rating": 2000
+    },
+    "21": {
+      "display": "x is greater than 3",
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "Any x less than 5, e.g. 4",
+      "accept": [
+        "4",
+        "0",
+        "1"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "41": {
+      "display": "x < 4",
+      "accept": [
+        "x<4",
+        "x < 4"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "3b ≤ 10",
+      "accept": [
+        "3b<=10",
+        "b ≤ 3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1680
     }
   }
 }
