@@ -38,7 +38,7 @@ Kids use this app to **learn maths**, not to operate infrastructure.
 
 ## Practice
 
-Adaptive **Level** per user per topic (chess-style rating in KV, attempt history). **Starting level 500** on a new topic. Show **Your level** with the numeric rating on the maths topic list, topic page, and while answering. **Every submitted answer** updates level (K=28 Elo-style); show the change (+/−) after each question. Each answer entry has an integer **rating** (500–2000) used to pick the next question. Kid UI shows **Level** with the number — not the word “ELO”. Kids **always type an answer** (or use bar-chart widgets); no self-mark / “show answer” flows. Multi-clue `contains` answers need **two** keyword hits by default. Answer `kind` in JSON may still say `self-check` for legacy content — graded as typed text. Answer `kind`: `text` | `self-check` | `bar-chart`.
+Adaptive **Level** per user per topic (chess-style rating in KV, attempt history). **Starting level 500** on a new topic. Show **Your level** only — **never** “x / y mastered” or permanent “answered” counts; the same questions can appear again at the same level. **Every submitted answer** updates level (K=28); show the change (+/−) after each question. Each topic should have **200** rated questions (500–2000) for a deep adaptive pool.
 
 ## Local dev
 
@@ -69,6 +69,6 @@ Use snapshot / click / type tools on the `browser` server (`mcpbundles tools --s
 ## When editing
 
 - Match existing worksheet tone and section patterns in peer topics.
-- Keep question ids continuous; answers JSON must match worksheet ids; satisfy whatever `npm run content:validate` enforces.
+- Keep question ids continuous **1…200** per topic; answers and support JSON must match every id; satisfy `npm run content:validate` (**200** questions, ratings 500–2000, hint + help each). Expansion brief: `_backlog/agents/TOPIC-200-EXPANSION-BRIEF.md`.
 - Keep diffs small; no drive-by refactors.
 - Do not add TODO comments — ship complete behaviour.

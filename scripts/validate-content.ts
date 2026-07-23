@@ -10,6 +10,7 @@ import {
   resolveAnswerKind,
   type AnswerEntry,
 } from "../src/lib/questions.ts";
+import { TARGET_QUESTIONS_PER_TOPIC } from "../src/lib/practice-rating.ts";
 
 const ROOT = path.join(import.meta.dirname, "..");
 const CONTENT_TENANT = process.env.CONTENT_TENANT ?? "archer";
@@ -62,9 +63,9 @@ function main() {
     const qSet = new Set(ids);
     const aSet = new Set(Object.keys(key.answers));
 
-    if (questions.length < 10) {
+    if (questions.length < TARGET_QUESTIONS_PER_TOPIC) {
       errors.push(
-        `${t.domain}/${t.code}: need at least 10 questions for practice, got ${questions.length}`,
+        `${t.domain}/${t.code}: need ${TARGET_QUESTIONS_PER_TOPIC} questions for adaptive practice, got ${questions.length}`,
       );
     }
     for (let i = 0; i < ids.length; i++) {

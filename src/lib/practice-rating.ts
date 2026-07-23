@@ -12,6 +12,9 @@ export const MIN_QUESTION_RATING = 500;
 /** New topic starting point (≈ age 7). */
 export const DEFAULT_TOPIC_RATING = MIN_QUESTION_RATING;
 
+/** Target question count per spine topic (adaptive pool at each level). */
+export const TARGET_QUESTIONS_PER_TOPIC = 200;
+
 /** Max rating change per question (kids). */
 export const ELO_K = 28;
 
@@ -56,14 +59,12 @@ export type PickNextOptions = {
   questionIds: string[];
   ratingById: Record<string, number>;
   userRating: number;
-  progressCorrect: Set<string>;
   sessionIds: string[];
 };
 
-/** Pick a question near the learner’s level; prefer not yet mastered. */
+/** Pick a question near the learner’s level; same questions can repeat across sessions. */
 export function pickNextQuestionId(opts: PickNextOptions): string | null {
-  const { questionIds, ratingById, userRating, progressCorrect, sessionIds } =
-    opts;
+  const { questionIds, ratingById, userRating, sessionIds } = opts;
   if (questionIds.length === 0) return null;
 
   const sessionSet = new Set(sessionIds);
@@ -73,11 +74,10 @@ export function pickNextQuestionId(opts: PickNextOptions): string | null {
   const scored = candidates.map((id) => {
     const qRating = ratingById[id]!;
     const distance = Math.abs(qRating - userRating);
-    const mastered = progressCorrect.has(id) ? 1 : 0;
     const repeatPenalty = sessionSet.has(id) ? 120 : 0;
     return {
       id,
-      sortKey: mastered * 500 + distance + repeatPenalty + Math.random() * 8,
+      sortKey: distance + repeatPenalty + Math.random() * 8,
     };
   });
 

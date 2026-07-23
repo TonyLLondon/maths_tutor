@@ -2,7 +2,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireSession } from "@/lib/auth";
 import { getAnswerKey, getWorksheet } from "@/lib/content";
-import { parseQuestions } from "@/lib/questions";
 import { getTopicProgressState } from "@/lib/progress";
 import { formatLevel } from "@/lib/practice-rating";
 import {
@@ -28,11 +27,9 @@ export default async function MathsTopicPage({ params }: Props) {
   const doc = await getWorksheet(tenant, slug);
   if (!doc) notFound();
 
-  const questions = parseQuestions(doc.body);
   const answerKey = await getAnswerKey(tenant, slug);
   const state = await getTopicProgressState(session.userId, "maths", slug);
-  const progress = state.questions;
-  const correctCount = Object.values(progress).filter((p) => p.correct).length;
+
   const baseHref = mathsTopicHref(tenant, domain, code);
   const topicMeta = topicByCode(doc.frontmatter.topic);
   const headline = topicMeta
@@ -57,8 +54,6 @@ export default async function MathsTopicPage({ params }: Props) {
           <span className="text-lg font-semibold tabular-nums text-stone-900">
             {formatLevel(state.rating)}
           </span>
-          {" · "}
-          {correctCount}/{questions.length} mastered
         </p>
 
         <div className="mt-6">

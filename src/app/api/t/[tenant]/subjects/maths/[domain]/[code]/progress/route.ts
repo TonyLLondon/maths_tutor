@@ -109,9 +109,8 @@ export async function POST(request: Request, { params }: Ctx) {
       ? body.barHeights.join(",")
       : (body.answer ?? "");
 
-  const mergedCorrect = correct || prev?.correct === true;
   const attempt = {
-    correct: mergedCorrect,
+    correct,
     attempts: (prev?.attempts ?? 0) + 1,
     lastAnswer,
     updatedAt: new Date().toISOString(),

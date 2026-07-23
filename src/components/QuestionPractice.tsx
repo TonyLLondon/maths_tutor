@@ -60,16 +60,6 @@ export function QuestionPractice({
     return map;
   }, [questions, answerMeta]);
 
-  const mastered = useMemo(
-    () =>
-      new Set(
-        Object.entries(progress)
-          .filter(([, p]) => p.correct)
-          .map(([id]) => id),
-      ),
-    [progress],
-  );
-
   const pickNext = useCallback(
     (extraSession: string[], userRating: number) => {
       const ids = questions.map((q) => q.id).filter((id) => answerMeta[id]);
@@ -77,11 +67,10 @@ export function QuestionPractice({
         questionIds: ids,
         ratingById,
         userRating,
-        progressCorrect: mastered,
         sessionIds: extraSession,
       });
     },
-    [questions, answerMeta, ratingById, mastered],
+    [questions, answerMeta, ratingById],
   );
 
   useEffect(() => {
@@ -167,7 +156,6 @@ export function QuestionPractice({
         question={question}
         meta={meta}
         support={support}
-        prevAttempt={progress[question.id]}
         onAnswered={(data) => {
           setProgress(data.progress ?? {});
           if (data.rating != null) setRating(data.rating);
@@ -200,7 +188,6 @@ type AttemptProps = {
   question: ParsedQuestion;
   meta: ClientAnswerMeta;
   support: ClientQuestionSupport | undefined;
-  prevAttempt: AttemptState | undefined;
   postAttempt: (
     body: Record<string, unknown>,
   ) => Promise<{
@@ -222,7 +209,6 @@ function QuestionAttempt({
   question,
   meta,
   support,
-  prevAttempt,
   postAttempt,
   onAnswered,
   onNext,
@@ -272,12 +258,6 @@ function QuestionAttempt({
         markdown={question.text}
         className="worksheet-markdown mt-3 text-lg leading-relaxed text-stone-900"
       />
-
-      {prevAttempt?.correct && !feedback ? (
-        <p className="mt-4 text-sm font-medium text-green-800">
-          You already got this one right before.
-        </p>
-      ) : null}
 
       {support ? (
         <div className="mt-4 flex flex-wrap gap-2">
