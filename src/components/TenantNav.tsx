@@ -5,9 +5,8 @@ import { usePathname, useRouter } from "next/navigation";
 import type { TenantId } from "@/lib/tenants";
 
 const links = (tenant: TenantId) => [
-  { href: `/t/${tenant}`, label: "Home" },
-  { href: `/t/${tenant}/topics`, label: "Topics" },
-  { href: `/t/${tenant}/worksheets`, label: "Worksheets" },
+  { href: `/t/${tenant}/subjects`, label: "Subjects" },
+  { href: `/t/${tenant}/subjects/maths`, label: "Maths" },
 ];
 
 export function TenantNav({
@@ -33,7 +32,7 @@ export function TenantNav({
           <p className="text-xs font-medium uppercase tracking-wide text-stone-500">
             {tenantName}
           </p>
-          <p className="text-sm text-stone-600">GCSE-aligned worksheets</p>
+          <p className="text-sm text-stone-600">Subjects → topics → practice</p>
         </div>
         <nav className="flex flex-wrap items-center gap-1">
           {links(tenantId).map((l) => (
@@ -41,7 +40,7 @@ export function TenantNav({
               key={l.href}
               href={l.href}
               className={`rounded-lg px-3 py-1.5 text-sm ${
-                pathname === l.href
+                pathname === l.href || pathname.startsWith(`${l.href}/`)
                   ? "bg-stone-900 text-white"
                   : "text-stone-700 hover:bg-stone-100"
               }`}

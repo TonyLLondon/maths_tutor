@@ -3,11 +3,13 @@ import path from "node:path";
 import matter from "gray-matter";
 import { kvGet, worksheetOverrideKey } from "./kv";
 import type { AssessmentObjective } from "./topics/catalog";
+import type { AnswerKey } from "./questions";
 
 export type WorksheetFrontmatter = {
   title: string;
   topic: string;
   domain: string;
+  subject?: string;
   ao?: AssessmentObjective[];
   week?: number;
   printNotes?: string;
@@ -24,6 +26,16 @@ const CONTENT_ROOT = path.join(process.cwd(), "content", "tenants");
 
 function tenantRoot(tenantId: string): string {
   return path.join(CONTENT_ROOT, tenantId);
+}
+
+function repoCandidates(tenantId: string, slug: string): string[] {
+  const normalized = slug.split("/").join(path.sep);
+  const root = tenantRoot(tenantId);
+  return [
+    path.join(root, "subjects", "maths", "topics", `${normalized}.md`),
+    path.join(root, "topics", `${normalized}.md`),
+    path.join(root, "worksheets", `${normalized}.md`),
+  ];
 }
 
 async function walkMarkdown(
@@ -49,31 +61,37 @@ async function walkMarkdown(
   }
 }
 
-export async function listWorksheetSlugs(tenantId: string): Promise<string[]> {
+export async function listMathsTopicSlugs(tenantId: string): Promise<string[]> {
   const slugs: string[] = [];
   await walkMarkdown(
-    path.join(tenantRoot(tenantId), "topics"),
-    path.join(tenantRoot(tenantId), "topics"),
+    path.join(tenantRoot(tenantId), "subjects", "maths", "topics"),
+    path.join(tenantRoot(tenantId), "subjects", "maths", "topics"),
     slugs,
   );
   await walkMarkdown(
-    path.join(tenantRoot(tenantId), "worksheets"),
-    path.join(tenantRoot(tenantId), "worksheets"),
+    path.join(tenantRoot(tenantId), "topics"),
+    path.join(tenantRoot(tenantId), "topics"),
     slugs,
   );
   return [...new Set(slugs)].sort();
+}
+
+export async function listWorksheetSlugs(tenantId: string): Promise<string[]> {
+  const maths = await listMathsTopicSlugs(tenantId);
+  const legacy: string[] = [];
+  await walkMarkdown(
+    path.join(tenantRoot(tenantId), "worksheets"),
+    path.join(tenantRoot(tenantId), "worksheets"),
+    legacy,
+  );
+  return [...new Set([...maths, ...legacy])].sort();
 }
 
 async function readRepoWorksheet(
   tenantId: string,
   slug: string,
 ): Promise<WorksheetDoc | null> {
-  const normalized = slug.split("/").join(path.sep);
-  const candidates = [
-    path.join(tenantRoot(tenantId), "topics", `${normalized}.md`),
-    path.join(tenantRoot(tenantId), "worksheets", `${normalized}.md`),
-  ];
-  for (const filePath of candidates) {
+  for (const filePath of repoCandidates(tenantId, slug)) {
     try {
       const raw = await fs.readFile(filePath, "utf8");
       const { data, content } = matter(raw);
@@ -116,6 +134,28 @@ export async function getWorksheet(
   return repo;
 }
 
+export async function getAnswerKey(
+  tenantId: string,
+  slug: string,
+): Promise<AnswerKey | null> {
+  const normalized = slug.split("/").join(path.sep);
+  const root = tenantRoot(tenantId);
+  const candidates = [
+    path.join(root, "subjects", "maths", "topics", `${normalized}.answers.json`),
+    path.join(root, "topics", `${normalized}.answers.json`),
+    path.join(root, "worksheets", `${normalized}.answers.json`),
+  ];
+  for (const filePath of candidates) {
+    try {
+      const raw = await fs.readFile(filePath, "utf8");
+      return JSON.parse(raw) as AnswerKey;
+    } catch {
+      continue;
+    }
+  }
+  return null;
+}
+
 export async function listWorksheets(tenantId: string): Promise<WorksheetDoc[]> {
   const slugs = await listWorksheetSlugs(tenantId);
   const docs = await Promise.all(slugs.map((s) => getWorksheet(tenantId, s)));
@@ -127,4 +167,24 @@ export function serializeWorksheet(
   body: string,
 ): string {
   return matter.stringify(body, frontmatter);
+}
+
+export async function mathsTopicCoverage(tenantId: string): Promise<{
+  catalogCount: number;
+  withWorksheet: number;
+  withAnswerKey: number;
+  slugs: string[];
+}> {
+  const slugs = await listMathsTopicSlugs(tenantId);
+  let withAnswerKey = 0;
+  for (const slug of slugs) {
+    if (await getAnswerKey(tenantId, slug)) withAnswerKey += 1;
+  }
+  const { TOPICS } = await import("./topics/catalog");
+  return {
+    catalogCount: TOPICS.length,
+    withWorksheet: slugs.length,
+    withAnswerKey,
+    slugs,
+  };
 }

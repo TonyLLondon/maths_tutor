@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "answers": {
+    "1": { "display": "6", "accept": ["6"] },
+    "2": { "display": "6", "accept": ["6"] },
+    "3": { "display": "17", "accept": ["17"] },
+    "4": {
+      "display": "(3 + 4) × 5 = 35",
+      "accept": ["(3+4)*5", "(3 + 4) x 5", "(3+4)×5"]
+    },
+    "5": {
+      "display": "No. 10 − 6 ÷ 2 = 7 but (10 − 6) ÷ 2 = 2",
+      "accept": ["no", "incorrect", "not correct"],
+      "contains": true
+    },
+    "6": {
+      "display": "Always — brackets change order; e.g. 2×(3+4)=14 vs 2×3+4=10. Sometimes same if brackets don’t change order e.g. (2+3)+4 vs 2+3+4.",
+      "accept": ["always", "sometimes"],
+      "contains": true
+    },
+    "7": {
+      "display": "Cost 3 × 8.50 = £25.50; change £30 − £25.50 = £4.50",
+      "accept": ["4.50", "£4.50", "4.5", "450p"]
+    },
+    "8": { "display": "0", "accept": ["0"] }
+  }
+}

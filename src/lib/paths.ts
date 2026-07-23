@@ -1,13 +1,32 @@
-/** Join Next.js catch-all segments into a content slug (e.g. number/N4). */
-export function slugFromParams(segments: string[] | undefined): string {
-  if (!segments?.length) return "";
-  return segments.map(decodeURIComponent).join("/");
+export function mathsTopicHref(
+  tenant: string,
+  domain: string,
+  code: string,
+): string {
+  return `/t/${tenant}/subjects/maths/${encodeURIComponent(domain)}/${encodeURIComponent(code)}`;
 }
 
+export function mathsPracticeHref(
+  tenant: string,
+  domain: string,
+  code: string,
+): string {
+  return `${mathsTopicHref(tenant, domain, code)}/practice`;
+}
+
+export function mathsPrintHref(
+  tenant: string,
+  domain: string,
+  code: string,
+): string {
+  return `${mathsTopicHref(tenant, domain, code)}/print`;
+}
+
+/** Legacy flat worksheets (non-topic path). */
 export function worksheetHref(tenant: string, slug: string): string {
   if (slug.includes("/")) {
     const [domain, code] = slug.split("/");
-    return `/t/${tenant}/worksheets/${encodeURIComponent(domain)}/${encodeURIComponent(code)}`;
+    return mathsTopicHref(tenant, domain, code);
   }
   return `/t/${tenant}/worksheets/${encodeURIComponent(slug)}`;
 }
@@ -18,4 +37,12 @@ export function apiWorksheetPath(tenant: string, slug: string): string {
     return `/api/t/${tenant}/worksheets/${encodeURIComponent(domain)}/${encodeURIComponent(code)}`;
   }
   return `/api/t/${tenant}/worksheets/${encodeURIComponent(slug)}`;
+}
+
+export function apiProgressPath(
+  tenant: string,
+  domain: string,
+  code: string,
+): string {
+  return `/api/t/${tenant}/subjects/maths/${encodeURIComponent(domain)}/${encodeURIComponent(code)}/progress`;
 }

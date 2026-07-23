@@ -1,41 +1,37 @@
 # Maths Tutor
 
-Next.js app for **GCSE-aligned printable worksheets** (tenant **Archer**), markdown in Git, optional **Vercel KV** for web edits.
+Login → **Subjects** → **Maths** → **Topic** → worksheet / print / **practice**.
 
 Repository: [github.com/TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor)
 
 ## Login
 
-Open `/login` and type **Archer** (case-insensitive). No password or env secrets required.
-
-Optional: connect **Vercel Redis (Upstash)** only if you use in-browser edits (`KV_REST_API_URL` / `KV_REST_API_TOKEN`).
-
-## Local development
-
-```bash
-npm install
-npm run dev
-```
+Type **Archer** at `/login` (no password).
 
 ## Content layout
 
-| Path | URL |
-|------|-----|
-| `content/tenants/archer/topics/number/N4.md` | `/t/archer/worksheets/number/N4` |
-| `content/tenants/archer/worksheets/foo.md` | `/t/archer/worksheets/foo` |
+| Path | Purpose |
+|------|---------|
+| `content/tenants/archer/subjects/maths/topics/{domain}/{CODE}.md` | Questions (print + practice) |
+| `…/{CODE}.answers.json` | Answer key for practice grading |
+| `content/tenants/archer/worksheets/` | Legacy flat worksheets |
 
-Topic catalog: `src/lib/topics/catalog.ts`
+## Practice mode
 
-## Deploy (Vercel CLI)
+- `/t/archer/subjects/maths/number/N4/practice` — one question at a time
+- Right/wrong feedback; **correct answer always shown** after each attempt
+- Progress stored in KV: `mt:tenant:archer:progress:maths:number/N4`
+
+Local dev without Redis uses `.data/kv-dev.json`.
+
+## Is maths “complete”?
+
+The app tracks **17 GCSE seed topics** (age 9 → Foundation), not the full GCSE specification. The Maths subject page shows worksheet ✓ / answers ✓ per topic. Expand `src/lib/topics/catalog.ts` when you add new strands.
+
+## Deploy
 
 ```bash
-vercel link    # create/link maths_tutor project
 vercel --prod
 ```
 
-Import from GitHub is equivalent. Add Redis integration only for KV edits.
-
-## Workflow
-
-- Author markdown in Git → push → deploy.
-- Quick edits on the live site → Save to KV → copy back to Git when happy.
+Optional: Vercel Redis for KV (practice progress + worksheet edits).
