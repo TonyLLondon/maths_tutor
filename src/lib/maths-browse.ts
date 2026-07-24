@@ -1,5 +1,5 @@
-import { getWorksheet } from "./content";
-import { getTopicProgressState } from "./progress";
+import { readRepoWorksheet } from "./content";
+import { getTopicRatingsBatch } from "./progress";
 import type { GcseDomain } from "./topics/catalog";
 import { topicsByDomain } from "./topics/catalog";
 import type { MathsTopicListRow } from "@/components/MathsTopicRow";
@@ -11,17 +11,24 @@ export async function loadMathsTopicListRows(
   domain: GcseDomain,
 ): Promise<MathsTopicListRow[]> {
   const topics = topicsByDomain(domain);
+  const slugs = topics.map((t) => `${domain}/${t.code}`);
 
-  return Promise.all(
-    topics.map(async (t) => {
-      const slug = `${domain}/${t.code}`;
-      const ws = await getWorksheet(tenant, slug);
-      const level = ws
-        ? (await getTopicProgressState(userId, "maths", slug)).rating
-        : null;
-      return { domain, t, ws, level, familyInsights: [] as ChildTopicInsight[] };
-    }),
-  );
+  const [worksheets, ratings] = await Promise.all([
+    Promise.all(slugs.map((slug) => readRepoWorksheet(tenant, slug))),
+    getTopicRatingsBatch(userId, "maths", slugs),
+  ]);
+
+  return topics.map((t, i) => {
+    const slug = slugs[i]!;
+    const ws = worksheets[i];
+    return {
+      domain,
+      t,
+      ws,
+      level: ws ? (ratings.get(slug) ?? null) : null,
+      familyInsights: [] as ChildTopicInsight[],
+    };
+  });
 }
 
 export async function countWorksheetsInDomain(
@@ -29,9 +36,9 @@ export async function countWorksheetsInDomain(
   domain: GcseDomain,
 ): Promise<{ ready: number; total: number }> {
   const topics = topicsByDomain(domain);
-  let ready = 0;
-  for (const t of topics) {
-    if (await getWorksheet(tenant, `${domain}/${t.code}`)) ready += 1;
-  }
+  const flags = await Promise.all(
+    topics.map((t) => readRepoWorksheet(tenant, `${domain}/${t.code}`)),
+  );
+  const ready = flags.filter(Boolean).length;
   return { ready, total: topics.length };
 }

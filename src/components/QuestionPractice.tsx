@@ -4,16 +4,15 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { BarChartAnswer } from "@/components/BarChartAnswer";
 import { MarkdownBody } from "@/components/MarkdownBody";
-import { apiProgressPath, mathsTopicHref } from "@/lib/paths";
+import { apiProgressPath, apiQuestionSupportPath, mathsTopicHref } from "@/lib/paths";
 import { friendlySectionHeading } from "@/lib/question-display";
 import {
-  DEFAULT_TOPIC_RATING,
   formatLevel,
   pickNextQuestionId,
 } from "@/lib/practice-rating";
 import type { ClientQuestionSupport } from "@/lib/question-support";
 import type {
-  ClientAnswerMeta,
+  PracticeClientMeta,
   ParsedQuestion,
 } from "@/lib/questions";
 
@@ -29,8 +28,9 @@ type Props = {
   code: string;
   title: string;
   questions: ParsedQuestion[];
-  answerMeta: Record<string, ClientAnswerMeta>;
-  supportMeta: Record<string, ClientQuestionSupport>;
+  answerMeta: Record<string, PracticeClientMeta>;
+  initialRating: number;
+  initialProgress: Record<string, AttemptState>;
 };
 
 export function QuestionPractice({
@@ -40,16 +40,20 @@ export function QuestionPractice({
   title,
   questions,
   answerMeta,
-  supportMeta,
+  initialRating,
+  initialProgress,
 }: Props) {
   const api = apiProgressPath(tenant, domain, code);
   const topicHref = mathsTopicHref(tenant, domain, code);
-  const [rating, setRating] = useState(DEFAULT_TOPIC_RATING);
+  const [rating, setRating] = useState(initialRating);
   const [levelDelta, setLevelDelta] = useState<number | null>(null);
-  const [progress, setProgress] = useState<Record<string, AttemptState>>({});
-  const [loaded, setLoaded] = useState(false);
-  const [sessionIds, setSessionIds] = useState<string[]>([]);
+  const [progress, setProgress] = useState<Record<string, AttemptState>>(
+    initialProgress,
+  );
   const [currentId, setCurrentId] = useState<string | null>(null);
+  const [sessionIds, setSessionIds] = useState<string[]>([]);
+  const [support, setSupport] = useState<ClientQuestionSupport | undefined>();
+  const [supportForId, setSupportForId] = useState<string | null>(null);
 
   const ratingById = useMemo(() => {
     const map: Record<string, number> = {};
@@ -74,31 +78,32 @@ export function QuestionPractice({
   );
 
   useEffect(() => {
+    if (currentId) return;
+    const first = pickNext([], rating);
+    if (first) setCurrentId(first);
+  }, [currentId, pickNext, rating]);
+
+  useEffect(() => {
+    if (!currentId) return;
+    if (supportForId === currentId) return;
     let cancelled = false;
-    void fetch(api)
+    setSupport(undefined);
+    void fetch(apiQuestionSupportPath(tenant, domain, code, currentId))
       .then((res) => (res.ok ? res.json() : null))
-      .then((data) => {
+      .then((data: ClientQuestionSupport | null) => {
         if (cancelled || !data) return;
-        setProgress(data.progress ?? {});
-        setRating(data.rating ?? DEFAULT_TOPIC_RATING);
-        setLoaded(true);
+        setSupport(data);
+        setSupportForId(currentId);
       });
     return () => {
       cancelled = true;
     };
-  }, [api]);
-
-  useEffect(() => {
-    if (!loaded || currentId) return;
-    const first = pickNext([], rating);
-    if (first) setCurrentId(first);
-  }, [loaded, currentId, pickNext, rating]);
+  }, [currentId, tenant, domain, code, supportForId]);
 
   const question = currentId
     ? questions.find((q) => q.id === currentId)
     : undefined;
   const meta = currentId ? answerMeta[currentId] : undefined;
-  const support = currentId ? supportMeta[currentId] : undefined;
 
   const sessionCorrect = sessionIds.filter((id) => progress[id]?.correct).length;
 
@@ -108,11 +113,11 @@ export function QuestionPractice({
     if (next) setCurrentId(next);
   }
 
-  if (!loaded) {
+  if (!currentId || !question || !meta) {
     return <p className="text-sm text-stone-500">One moment…</p>;
   }
 
-  if (questions.length === 0 || !question || !meta) {
+  if (questions.length === 0) {
     return <p className="text-sm text-stone-600">No questions in this topic.</p>;
   }
 
@@ -186,7 +191,7 @@ export function QuestionPractice({
 
 type AttemptProps = {
   question: ParsedQuestion;
-  meta: ClientAnswerMeta;
+  meta: PracticeClientMeta;
   support: ClientQuestionSupport | undefined;
   postAttempt: (
     body: Record<string, unknown>,

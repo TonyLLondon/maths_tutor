@@ -1,5 +1,5 @@
 import { DEFAULT_TOPIC_RATING } from "./practice-rating";
-import { kvDel, kvGet, kvSet } from "./kv";
+import { kvDel, kvGet, kvMGet, kvSet } from "./kv";
 
 export type QuestionAttempt = {
   correct: boolean;
@@ -69,6 +69,22 @@ export function progressKey(
   return `mt:user:${userId}:progress:${subject}:${topicPath}`;
 }
 
+/** Batch-fetch topic levels for maths domain lists (single KV mget). */
+export async function getTopicRatingsBatch(
+  userId: string,
+  subject: string,
+  topicPaths: string[],
+): Promise<Map<string, number>> {
+  if (topicPaths.length === 0) return new Map();
+  const keys = topicPaths.map((p) => progressKey(userId, subject, p));
+  const rows = await kvMGet<unknown>(keys);
+  const out = new Map<string, number>();
+  topicPaths.forEach((path, i) => {
+    out.set(path, normalizeProgress(rows[i]).rating);
+  });
+  return out;
+}
+
 export async function getTopicProgressState(
   userId: string,
   subject: string,
@@ -117,9 +133,11 @@ export async function saveQuestionAttempt(
   questionId: string,
   attempt: QuestionAttempt,
   ratingAfter?: number,
+  priorState?: TopicProgressState,
 ): Promise<TopicProgressState> {
   const key = progressKey(userId, subject, topicPath);
-  const state = normalizeProgress(await kvGet<unknown>(key));
+  const state =
+    priorState ?? normalizeProgress(await kvGet<unknown>(key));
   state.questions[questionId] = attempt;
   if (ratingAfter != null) {
     state.rating = ratingAfter;

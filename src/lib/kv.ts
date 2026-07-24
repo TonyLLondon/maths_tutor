@@ -30,6 +30,17 @@ export async function kvGet<T>(key: string): Promise<T | null> {
   return (store[key] as T) ?? null;
 }
 
+/** One round trip for many keys (e.g. topic levels on a domain page). */
+export async function kvMGet<T>(keys: string[]): Promise<(T | null)[]> {
+  if (keys.length === 0) return [];
+  if (kvConfigured()) {
+    const results = await kv.mget<(T | null)[]>(...keys);
+    return results.map((v) => v ?? null);
+  }
+  const store = await readDevStore();
+  return keys.map((key) => (store[key] as T) ?? null);
+}
+
 export async function kvSet(key: string, value: unknown): Promise<void> {
   if (kvConfigured()) {
     await kv.set(key, value);

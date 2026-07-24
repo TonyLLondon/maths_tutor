@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { cache } from "react";
 import { kvGet } from "./kv";
 import type { TenantId } from "./tenants";
 import { isTenantId } from "./tenants";
@@ -28,7 +29,7 @@ type AccountKvOverrides = {
 const ACCOUNTS_PATH = path.join(process.cwd(), "content", "accounts.json");
 const KV_OVERRIDES_KEY = "mt:accounts:overrides";
 
-export async function loadAccountRegistry(): Promise<AccountRecord[]> {
+export const loadAccountRegistry = cache(async (): Promise<AccountRecord[]> => {
   const raw = await fs.readFile(ACCOUNTS_PATH, "utf8");
   const file = JSON.parse(raw) as AccountsFile;
   const base = file.users.filter(
@@ -43,7 +44,7 @@ export async function loadAccountRegistry(): Promise<AccountRecord[]> {
     if (!patch?.displayName) return user;
     return { ...user, displayName: patch.displayName };
   });
-}
+});
 
 export async function getAccountById(
   id: string,

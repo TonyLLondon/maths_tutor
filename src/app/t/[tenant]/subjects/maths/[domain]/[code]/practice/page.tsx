@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
 import { requireSession } from "@/lib/auth";
-import { getAnswerKey, getQuestionSupport, getWorksheet } from "@/lib/content";
-import type { ClientQuestionSupport } from "@/lib/question-support";
-import { parseQuestions, toClientAnswerMeta } from "@/lib/questions";
+import { getAnswerKey, getWorksheet } from "@/lib/content";
+import { getTopicProgressState } from "@/lib/progress";
+import { parseQuestions, toPracticeClientMeta } from "@/lib/questions";
 import { isGcseDomain } from "@/lib/subjects";
 import { isTenantId } from "@/lib/tenants";
 import { ServerTenantNav } from "@/components/ServerTenantNav";
@@ -20,26 +20,24 @@ export default async function PracticePage({ params }: Props) {
   const session = await requireSession(tenant);
 
   const slug = `${domain}/${code}`;
-  const doc = await getWorksheet(tenant, slug);
+  const [doc, answerKey, progressState] = await Promise.all([
+    getWorksheet(tenant, slug),
+    getAnswerKey(tenant, slug),
+    getTopicProgressState(session.userId, "maths", slug),
+  ]);
   if (!doc) notFound();
 
   const questions = parseQuestions(doc.body);
-  const answerKey = await getAnswerKey(tenant, slug);
-  const supportFile = await getQuestionSupport(tenant, slug);
-  const answerMeta: Record<string, ReturnType<typeof toClientAnswerMeta>> = {};
-  const supportMeta: Record<string, ClientQuestionSupport> = {};
+  const answerMeta: Record<
+    string,
+    ReturnType<typeof toPracticeClientMeta>
+  > = {};
   if (answerKey) {
     for (const q of questions) {
       const entry = answerKey.answers[q.id];
       if (entry) {
-        answerMeta[q.id] = toClientAnswerMeta(entry, q.id, q.tier);
+        answerMeta[q.id] = toPracticeClientMeta(entry, q.id, q.tier);
       }
-    }
-  }
-  if (supportFile) {
-    for (const q of questions) {
-      const entry = supportFile.questions[q.id];
-      if (entry) supportMeta[q.id] = entry;
     }
   }
 
@@ -59,14 +57,15 @@ export default async function PracticePage({ params }: Props) {
       />
       <main className="mx-auto max-w-2xl px-4 py-6 sm:py-8">
         <QuestionPractice
-            tenant={tenant}
-            domain={domain}
-            code={code}
-            title={doc.frontmatter.title}
-            questions={questions}
-            answerMeta={answerMeta}
-            supportMeta={supportMeta}
-          />
+          tenant={tenant}
+          domain={domain}
+          code={code}
+          title={doc.frontmatter.title}
+          questions={questions}
+          answerMeta={answerMeta}
+          initialRating={progressState.rating}
+          initialProgress={progressState.questions}
+        />
       </main>
     </>
   );

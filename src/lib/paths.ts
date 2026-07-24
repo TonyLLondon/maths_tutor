@@ -57,3 +57,13 @@ export function apiProgressPath(
 ): string {
   return `/api/t/${tenant}/subjects/maths/${encodeURIComponent(domain)}/${encodeURIComponent(code)}/progress`;
 }
+
+export function apiQuestionSupportPath(
+  tenant: string,
+  domain: string,
+  code: string,
+  questionId: string,
+): string {
+  const base = `/api/t/${tenant}/subjects/maths/${encodeURIComponent(domain)}/${encodeURIComponent(code)}/support`;
+  return `${base}?questionId=${encodeURIComponent(questionId)}`;
+}

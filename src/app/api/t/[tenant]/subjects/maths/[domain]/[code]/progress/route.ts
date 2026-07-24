@@ -75,7 +75,11 @@ export async function POST(request: Request, { params }: Ctx) {
   };
   const questionId = body.questionId ?? "";
 
-  const key = await getAnswerKey(tenant, slug);
+  const [key, doc, state] = await Promise.all([
+    getAnswerKey(tenant, slug),
+    getWorksheet(tenant, slug),
+    getTopicProgressState(session.userId, "maths", slug),
+  ]);
   const entry = key?.answers[questionId];
   if (!entry) {
     return NextResponse.json(
@@ -84,15 +88,12 @@ export async function POST(request: Request, { params }: Ctx) {
     );
   }
 
-  const doc = await getWorksheet(tenant, slug);
   const questions = doc ? parseQuestions(doc.body) : [];
   const sectionTier = doc
     ? (questions.find((q) => q.id === questionId)?.tier ?? 2)
     : 2;
 
   const qRating = questionRating(entry, questionId, sectionTier);
-
-  const state = await getTopicProgressState(session.userId, "maths", slug);
   const ratingBefore = state.rating;
 
   const { correct, display } = gradePracticeAttempt(entry, {
@@ -114,11 +115,7 @@ export async function POST(request: Request, { params }: Ctx) {
     updatedAt: new Date().toISOString(),
   };
 
-  const ratingAfter = nextUserRating(
-    state.rating,
-    qRating,
-    correct,
-  );
+  const ratingAfter = nextUserRating(state.rating, qRating, correct);
 
   const updated = await saveQuestionAttempt(
     session.userId,
@@ -127,6 +124,7 @@ export async function POST(request: Request, { params }: Ctx) {
     questionId,
     attempt,
     ratingAfter,
+    state,
   );
 
   return NextResponse.json({

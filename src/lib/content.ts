@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import { cache } from "react";
 import { kvGet, worksheetOverrideKey } from "./kv";
 import type { AssessmentObjective } from "./topics/catalog";
 import type { AnswerKey } from "./questions";
@@ -88,7 +89,7 @@ export async function listWorksheetSlugs(tenantId: string): Promise<string[]> {
   return [...new Set([...maths, ...legacy])].sort();
 }
 
-async function readRepoWorksheet(
+async function readRepoWorksheetUncached(
   tenantId: string,
   slug: string,
 ): Promise<WorksheetDoc | null> {
@@ -109,12 +110,17 @@ async function readRepoWorksheet(
   return null;
 }
 
+/** Cached per request — hot path for browse + practice. */
+export const readRepoWorksheet = cache(readRepoWorksheetUncached);
+
 export async function getWorksheet(
   tenantId: string,
   slug: string,
 ): Promise<WorksheetDoc | null> {
-  const override = await kvGet<string>(worksheetOverrideKey(tenantId, slug));
-  const repo = await readRepoWorksheet(tenantId, slug);
+  const [override, repo] = await Promise.all([
+    kvGet<string>(worksheetOverrideKey(tenantId, slug)),
+    readRepoWorksheet(tenantId, slug),
+  ]);
 
   if (override != null) {
     const { data, content } = matter(override);
@@ -135,7 +141,7 @@ export async function getWorksheet(
   return repo;
 }
 
-export async function getAnswerKey(
+async function readAnswerKeyUncached(
   tenantId: string,
   slug: string,
 ): Promise<AnswerKey | null> {
@@ -157,7 +163,9 @@ export async function getAnswerKey(
   return null;
 }
 
-export async function getQuestionSupport(
+export const getAnswerKey = cache(readAnswerKeyUncached);
+
+async function readQuestionSupportUncached(
   tenantId: string,
   slug: string,
 ): Promise<QuestionSupportFile | null> {
@@ -177,6 +185,8 @@ export async function getQuestionSupport(
   }
   return null;
 }
+
+export const getQuestionSupport = cache(readQuestionSupportUncached);
 
 export async function listWorksheets(tenantId: string): Promise<WorksheetDoc[]> {
   const slugs = await listWorksheetSlugs(tenantId);

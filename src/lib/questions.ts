@@ -51,6 +51,25 @@ export function resolveAnswerKind(entry: AnswerEntry): AnswerKind {
   return "text";
 }
 
+export type PracticeClientMeta = {
+  kind: AnswerKind;
+  bars?: BarChartSpec;
+  rating: number;
+};
+
+export function toPracticeClientMeta(
+  entry: AnswerEntry,
+  questionId: string,
+  sectionTier: QuestionTier,
+): PracticeClientMeta {
+  const tier = entry.tier ?? sectionTier;
+  return {
+    kind: resolvePracticeInputKind(entry),
+    bars: entry.bars,
+    rating: effectiveQuestionRating(entry.rating, tier, questionId),
+  };
+}
+
 export function toClientAnswerMeta(
   entry: AnswerEntry,
   questionId: string,
