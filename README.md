@@ -30,7 +30,7 @@ Login → Subjects → Maths → topic → **Practice** (optional full worksheet
 
 ## Vercel (GitHub)
 
-Repo: [TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor). Production: **maths-tutor** → [maths-tutor-eight.vercel.app](https://maths-tutor-eight.vercel.app) (deploys from `main`).
+Repo: [TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor). Production (**Lewis tutor**): [lewis-tutor.vercel.app](https://lewis-tutor.vercel.app) (Vercel project `lewis-tutor`, deploys from `main`).
 
 **KV (free Upstash, no marketplace browser flow)** — do **not** run `vercel integration add upstash`; that opens paid Pay-as-you-go provisioning. Instead:
 
@@ -42,7 +42,7 @@ Repo: [TonyLLondon/maths_tutor](https://github.com/TonyLLondon/maths_tutor). Pro
    vercel env add KV_REST_API_TOKEN production --value '…' --yes --sensitive
    ```
 
-   Or with the Upstash CLI (free tier): `npx @upstash/cli redis create --name maths-tutor --region eu-west-1`, then `upstash redis get --db-id …` for REST URL/token.
+   Or with the Upstash CLI (free tier): `npx @upstash/cli redis create --name lewis-tutor --region eu-west-1`, then `upstash redis get --db-id …` for REST URL/token.
 
 3. Redeploy so env is picked up.
 
