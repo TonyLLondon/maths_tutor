@@ -5,7 +5,9 @@ import Link from "next/link";
 import { BarChartAnswer } from "@/components/BarChartAnswer";
 import { MarkdownBody } from "@/components/MarkdownBody";
 import { apiProgressPath, apiQuestionSupportPath, mathsTopicHref } from "@/lib/paths";
-import { friendlySectionHeading } from "@/lib/question-display";
+import { friendlySectionHeading, formatPracticeTopicLine } from "@/lib/question-display";
+import { inferStemVisual } from "@/lib/question-visual";
+import { QuestionVisual } from "@/components/QuestionVisual";
 import {
   formatLevel,
   pickNextQuestionId,
@@ -27,6 +29,8 @@ type Props = {
   domain: string;
   code: string;
   title: string;
+  domainLabel: string;
+  topicSummary?: string;
   questions: ParsedQuestion[];
   answerMeta: Record<string, PracticeClientMeta>;
   initialRating: number;
@@ -38,6 +42,8 @@ export function QuestionPractice({
   domain,
   code,
   title,
+  domainLabel,
+  topicSummary,
   questions,
   answerMeta,
   initialRating,
@@ -161,6 +167,12 @@ export function QuestionPractice({
         question={question}
         meta={meta}
         support={support}
+        topicLine={formatPracticeTopicLine({
+          domainLabel,
+          topicCode: code,
+          topicTitle: title,
+          topicSummary,
+        })}
         onAnswered={(data) => {
           setProgress(data.progress ?? {});
           if (data.rating != null) setRating(data.rating);
@@ -193,6 +205,7 @@ type AttemptProps = {
   question: ParsedQuestion;
   meta: PracticeClientMeta;
   support: ClientQuestionSupport | undefined;
+  topicLine: string;
   postAttempt: (
     body: Record<string, unknown>,
   ) => Promise<{
@@ -214,11 +227,13 @@ function QuestionAttempt({
   question,
   meta,
   support,
+  topicLine,
   postAttempt,
   onAnswered,
   onNext,
 }: AttemptProps) {
   const kind = meta.kind ?? "text";
+  const stemVisual = inferStemVisual(question.text);
   const [answer, setAnswer] = useState("");
   const [showHint, setShowHint] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
@@ -255,7 +270,8 @@ function QuestionAttempt({
 
   return (
     <article className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">
-      <p className="text-xs font-medium uppercase tracking-wide text-stone-500">
+      <p className="text-xs leading-relaxed text-stone-500">{topicLine}</p>
+      <p className="mt-1 text-xs font-medium uppercase tracking-wide text-stone-500">
         {friendlySectionHeading(question.section)}
       </p>
 
@@ -263,6 +279,8 @@ function QuestionAttempt({
         markdown={question.text}
         className="worksheet-markdown mt-3 text-lg leading-relaxed text-stone-900"
       />
+
+      {stemVisual ? <QuestionVisual visual={stemVisual} /> : null}
 
       {support ? (
         <div className="mt-4 flex flex-wrap gap-2">

@@ -3,7 +3,7 @@ import { requireSession } from "@/lib/auth";
 import { getAnswerKey, getWorksheet } from "@/lib/content";
 import { getTopicProgressState } from "@/lib/progress";
 import { parseQuestions, toPracticeClientMeta } from "@/lib/questions";
-import { isGcseDomain } from "@/lib/subjects";
+import { DOMAIN_LABELS, isGcseDomain, topicByCode } from "@/lib/subjects";
 import { isTenantId } from "@/lib/tenants";
 import { ServerTenantNav } from "@/components/ServerTenantNav";
 import { QuestionPractice } from "@/components/QuestionPractice";
@@ -42,6 +42,7 @@ export default async function PracticePage({ params }: Props) {
   }
 
   const topicHref = mathsTopicHref(tenant, domain, code);
+  const spine = topicByCode(code);
 
   return (
     <>
@@ -61,6 +62,8 @@ export default async function PracticePage({ params }: Props) {
           domain={domain}
           code={code}
           title={doc.frontmatter.title}
+          domainLabel={DOMAIN_LABELS[domain]}
+          topicSummary={spine?.summary}
           questions={questions}
           answerMeta={answerMeta}
           initialRating={progressState.rating}
