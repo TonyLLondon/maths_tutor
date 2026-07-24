@@ -6,6 +6,7 @@ import { kvGet, worksheetOverrideKey } from "./kv";
 import type { AssessmentObjective } from "./topics/catalog";
 import type { AnswerKey } from "./questions";
 import type { QuestionSupportFile } from "./question-support";
+import type { QuestionFiguresFile } from "./figures";
 
 export type WorksheetFrontmatter = {
   title: string;
@@ -187,6 +188,29 @@ async function readQuestionSupportUncached(
 }
 
 export const getQuestionSupport = cache(readQuestionSupportUncached);
+
+async function readQuestionFiguresUncached(
+  tenantId: string,
+  slug: string,
+): Promise<QuestionFiguresFile | null> {
+  const normalized = slug.split("/").join(path.sep);
+  const root = tenantRoot(tenantId);
+  const candidates = [
+    path.join(root, "subjects", "maths", "topics", `${normalized}.figures.json`),
+    path.join(root, "topics", `${normalized}.figures.json`),
+  ];
+  for (const filePath of candidates) {
+    try {
+      const raw = await fs.readFile(filePath, "utf8");
+      return JSON.parse(raw) as QuestionFiguresFile;
+    } catch {
+      continue;
+    }
+  }
+  return null;
+}
+
+export const getQuestionFigures = cache(readQuestionFiguresUncached);
 
 export async function listWorksheets(tenantId: string): Promise<WorksheetDoc[]> {
   const slugs = await listWorksheetSlugs(tenantId);

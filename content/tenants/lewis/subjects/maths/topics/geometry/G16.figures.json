@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "figures": {
+    "42": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "rectangle length (cm)", "value": 8 },
+        { "label": "rectangle width (cm)", "value": 5 },
+        { "label": "triangle base (cm)", "value": 8 },
+        { "label": "triangle height (cm)", "value": 3 }
+      ]
+    },
+    "59": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "base (squares)", "value": 5 },
+        { "label": "height (squares)", "value": 4 }
+      ]
+    },
+    "60": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "base (squares)", "value": 7 },
+        { "label": "height (squares)", "value": 3 }
+      ]
+    },
+    "61": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "rectangle length", "value": 10 },
+        { "label": "rectangle width", "value": 6 },
+        { "label": "triangle base", "value": 10 },
+        { "label": "triangle height", "value": 4 }
+      ]
+    },
+    "62": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "rectangle length", "value": 8 },
+        { "label": "rectangle width", "value": 5 },
+        { "label": "removed triangle base", "value": 8 },
+        { "label": "removed triangle height", "value": 3 }
+      ]
+    },
+    "63": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "outer rectangle length", "value": 8 },
+        { "label": "outer rectangle width", "value": 5 },
+        { "label": "removed corner length", "value": 3 },
+        { "label": "removed corner width", "value": 2 }
+      ]
+    },
+    "153": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "outer frame length", "value": 10 },
+        { "label": "outer frame width", "value": 8 },
+        { "label": "inner opening length", "value": 8 },
+        { "label": "inner opening width", "value": 6 }
+      ]
+    },
+    "199": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "rectangle length", "value": 20 },
+        { "label": "rectangle width", "value": 12 },
+        { "label": "removed triangle base", "value": 20 },
+        { "label": "removed triangle height", "value": 6 }
+      ]
+    }
+  }
+}

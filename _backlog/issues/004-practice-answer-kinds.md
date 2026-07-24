@@ -18,4 +18,4 @@ Legacy `"any": true` migrated to `self-check` via `scripts/migrate-answer-kinds.
 
 ## Next visuals
 
-`grid-points` for A8 coordinate plotting; static SVG in markdown for read-only charts.
+`grid-points` for A8 coordinate plotting. Read-only question figures: `issues/007-read-only-figures-quality.md`. Interactive bar-chart **answers**: `issues/006-interactive-bar-chart-answers.md`.

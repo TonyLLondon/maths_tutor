@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "figures": {
+    "7": {
+      "type": "coordinatePlot",
+      "xMax": 5,
+      "yMax": 5,
+      "points": [
+        { "x": 2, "y": 2 },
+        { "x": 2, "y": 3 }
+      ]
+    },
+    "8": {
+      "type": "coordinatePlot",
+      "xMax": 5,
+      "yMax": 5,
+      "points": [
+        { "x": 1, "y": 1 },
+        { "x": 1, "y": 2 }
+      ]
+    },
+    "9": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 0 },
+        { "label": "2", "value": 0 },
+        { "label": "3", "value": 0 }
+      ]
+    },
+    "10": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 0 },
+        { "label": "2", "value": 0 },
+        { "label": "3", "value": 0 }
+      ]
+    },
+    "22": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 0 },
+        { "label": "2", "value": 0 },
+        { "label": "3", "value": 0 }
+      ]
+    },
+    "31": {
+      "type": "coordinatePlot",
+      "xMax": 4,
+      "yMax": 3,
+      "xLabel": "Time",
+      "yLabel": "Cost (£)",
+      "points": [
+        { "x": 0, "y": 1 },
+        { "x": 1, "y": 1.5 }
+      ]
+    },
+    "48": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "0", "value": 1 },
+        { "label": "1", "value": 3 },
+        { "label": "2", "value": 5 },
+        { "label": "3", "value": 7 },
+        { "label": "4", "value": 0 }
+      ]
+    },
+    "111": {
+      "type": "coordinatePlot",
+      "xMax": 4,
+      "yMax": 16,
+      "xLabel": "Time (h)",
+      "yLabel": "Distance (km)",
+      "points": [
+        { "x": 0, "y": 0 },
+        { "x": 2, "y": 14 }
+      ]
+    },
+    "113": {
+      "type": "coordinatePlot",
+      "xMax": 6,
+      "yMax": 40,
+      "xLabel": "Time (h)",
+      "yLabel": "Temperature (°C)",
+      "points": [
+        { "x": 0, "y": 20 },
+        { "x": 5, "y": 35 }
+      ]
+    }
+  }
+}

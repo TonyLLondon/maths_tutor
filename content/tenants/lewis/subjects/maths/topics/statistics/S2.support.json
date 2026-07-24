@@ -83,11 +83,11 @@
     },
     "21": {
       "hint": "Add frequencies for 0, 1, 2, and 3 pets.",
-      "help": "Vertical line charts show frequency at each value.\n\nTotal surveyed = $6 + 10 + 5 + 2 = 23$ pupils.\n\nEvery pupil is counted in one of those columns."
+      "help": "Vertical line charts show frequency at each value.\n\nTotal surveyed = $6 + 10 + 5 + 2 = 23$ pupils.\n\nEvery pupil is counted in one bar on the chart."
     },
     "22": {
       "hint": "Compare Jan, Feb, Mar, and Apr—which month has the biggest sales?",
-      "help": "Read the sales figures: Jan 200, Feb 250, Mar 220, Apr 300.\n\n**Highest** = largest number → April with **300**.\n\nTime series tables show how values change month by month."
+      "help": "Read the sales figures from the graph: Jan 200, Feb 250, Mar 220, Apr 300.\n\n**Highest** = largest number → April with **300**.\n\nTime series graphs show how values change month by month."
     },
     "23": {
       "hint": "Subtract January’s sales from April’s sales.",
@@ -226,27 +226,27 @@
       "help": "Pie chart angles\n\nUse **angle = (frequency ÷ total) × 360°**.\n\nWork out the fraction of the whole first, then multiply by 360.\n\nCheck all sectors sum to 360° when you draw several."
     },
     "57": {
-      "hint": "Use (part ÷ whole) × 360° for a pie sector.",
-      "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
+      "hint": "Count = (angle ÷ 360°) × total. Rugby is 108° out of 80 pupils.",
+      "help": "You know the **whole** (80 pupils) and the **sector angle** (108°).\n\nFrequency = $\\frac{108}{360} \\times 80 = 24$ pupils chose rugby.\n\nThis is the reverse of finding an angle from a frequency."
     },
     "58": {
-      "hint": "Use (part ÷ whole) × 360° for a pie sector.",
-      "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
+      "hint": "Use (72 ÷ 360) × 100 people for tea.",
+      "help": "Frequency = $\\frac{\\text{angle}}{360} \\times \\text{total}$.\n\n$\\frac{72}{360} \\times 100 = 20$ people chose tea.\n\nCheck: $\\frac{72}{360} = \\frac{1}{5}$ of the whole."
     },
     "59": {
-      "hint": "Use (part ÷ whole) × 360° for a pie sector.",
-      "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
+      "hint": "Football sector 160° with 90 pupils in total.",
+      "help": "Count = $\\frac{160}{360} \\times 90 = 40$ pupils.\n\nSimplify $\\frac{160}{360}$ to $\\frac{4}{9}$ if that helps.\n\nAlways multiply by the **survey total**, not 360 alone."
     },
     "60": {
-      "hint": "Use (part ÷ whole) × 360° for a pie sector.",
-      "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
+      "hint": "36° sector from 50 people—find the fraction of 360° first.",
+      "help": "Cycling: $\\frac{36}{360} \\times 50 = 5$ people.\n\n$\\frac{36}{360} = \\frac{1}{10}$, so one tenth of 50 is 5.\n\nSmall angles give small counts when the total is fixed."
     },
     "61": {
       "hint": "Add the correct cells—check row and column labels first.",
       "help": "Two-way tables\n\nRead the correct **row** and **column** before you add.\n\nRow totals sum entries in a row; column totals sum a column.\n\nEvery cell should fit one category in each direction."
     },
     "62": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "63": {
@@ -254,7 +254,7 @@
       "help": "Two-way tables\n\nRead the correct **row** and **column** before you add.\n\nRow totals sum entries in a row; column totals sum a column.\n\nEvery cell should fit one category in each direction."
     },
     "64": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "65": {
@@ -262,7 +262,7 @@
       "help": "Two-way tables\n\nRead the correct **row** and **column** before you add.\n\nRow totals sum entries in a row; column totals sum a column.\n\nEvery cell should fit one category in each direction."
     },
     "66": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "67": {
@@ -270,7 +270,7 @@
       "help": "Two-way tables\n\nRead the correct **row** and **column** before you add.\n\nRow totals sum entries in a row; column totals sum a column.\n\nEvery cell should fit one category in each direction."
     },
     "68": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "69": {
@@ -278,7 +278,7 @@
       "help": "Two-way tables\n\nRead the correct **row** and **column** before you add.\n\nRow totals sum entries in a row; column totals sum a column.\n\nEvery cell should fit one category in each direction."
     },
     "70": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "71": {
@@ -286,7 +286,7 @@
       "help": "Two-way tables\n\nRead the correct **row** and **column** before you add.\n\nRow totals sum entries in a row; column totals sum a column.\n\nEvery cell should fit one category in each direction."
     },
     "72": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "73": {
@@ -294,7 +294,7 @@
       "help": "Two-way tables\n\nRead the correct **row** and **column** before you add.\n\nRow totals sum entries in a row; column totals sum a column.\n\nEvery cell should fit one category in each direction."
     },
     "74": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "75": {
@@ -318,7 +318,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "80": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "81": {
@@ -362,35 +362,35 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "91": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "92": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "93": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "94": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "95": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "96": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "97": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "98": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "99": {
@@ -450,7 +450,7 @@
       "help": "Reasoning about charts\n\nState **true/false/always/sometimes/never**, then give a **reason** using maths vocabulary.\n\nUse a short example if it helps.\n\nTwo clues in your sentence help the checker recognise your explanation."
     },
     "113": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Reasoning about charts\n\nState **true/false/always/sometimes/never**, then give a **reason** using maths vocabulary.\n\nUse a short example if it helps.\n\nTwo clues in your sentence help the checker recognise your explanation."
     },
     "114": {
@@ -470,7 +470,7 @@
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "118": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "119": {
@@ -494,7 +494,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "124": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "125": {
@@ -502,7 +502,7 @@
       "help": "Pie chart angles\n\nUse **angle = (frequency ÷ total) × 360°**.\n\nWork out the fraction of the whole first, then multiply by 360.\n\nCheck all sectors sum to 360° when you draw several."
     },
     "126": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "127": {
@@ -530,7 +530,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "133": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "134": {
@@ -574,7 +574,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "144": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "145": {
@@ -590,7 +590,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "148": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "149": {
@@ -670,7 +670,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "168": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "169": {
@@ -686,7 +686,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "172": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "173": {
@@ -702,7 +702,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "176": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "177": {
@@ -718,7 +718,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "180": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "181": {
@@ -770,7 +770,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "193": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Time series\n\nCompare values in **time order**.\n\n**Increase** = later value minus earlier value.\n\nDescribe trends in plain words: rising, falling, or levelling off."
     },
     "194": {
@@ -790,7 +790,7 @@
       "help": "Grouped frequency\n\nPick the interval whose **inequalities** match the value.\n\nA value on a **lower boundary** belongs to the interval that **includes** that boundary (≤ side).\n\nModal class = interval with the **largest frequency**."
     },
     "198": {
-      "hint": "Identify the numbers you need from the table or chart description.",
+      "hint": "Read the values from the graph in time order.",
       "help": "Data handling\n\nRead the numbers in the question carefully.\n\nShow the calculation or comparison you used.\n\nCheck units (°, £, cm) match what the question asks for."
     },
     "199": {

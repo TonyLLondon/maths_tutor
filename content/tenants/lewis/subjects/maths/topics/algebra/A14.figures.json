@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "figures": {
+    "6": {
+      "type": "lineChart",
+      "title": "Distance from start",
+      "xLabel": "Time (min)",
+      "yLabel": "Distance (m)",
+      "series": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 2 },
+        { "label": "3", "value": 5 }
+      ]
+    },
+    "7": {
+      "type": "lineChart",
+      "title": "Distance from start",
+      "xLabel": "Time (min)",
+      "yLabel": "Distance (m)",
+      "series": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 2 },
+        { "label": "3", "value": 5 }
+      ]
+    },
+    "26": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Journey", "value": "Distance at 2 h (km)" },
+      "rows": [
+        { "label": "A", "value": 10 },
+        { "label": "B", "value": 20 }
+      ]
+    },
+    "36": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Distance (km)" },
+      "rows": [
+        { "label": "0 hours", "value": 0 },
+        { "label": "3 hours", "value": 90 }
+      ]
+    },
+    "46": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Distance (km)" },
+      "rows": [
+        { "label": "0 hours", "value": 0 },
+        { "label": "4 hours", "value": 12 }
+      ]
+    },
+    "47": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Distance (km)" },
+      "rows": [
+        { "label": "0 h", "value": 0 },
+        { "label": "2 h", "value": 10 },
+        { "label": "5 h", "value": 10 }
+      ]
+    },
+    "49": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Distance (km)" },
+      "rows": [
+        { "label": "0 h", "value": 0 },
+        { "label": "3 h", "value": 18 }
+      ]
+    },
+    "53": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Distance (km)" },
+      "rows": [{ "label": "30 minutes", "value": 2 }]
+    },
+    "56": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Distance (km)" },
+      "rows": [
+        { "label": "0 h", "value": 0 },
+        { "label": "2 h", "value": 8 },
+        { "label": "5 h", "value": 20 }
+      ]
+    },
+    "93": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Depth (cm)" },
+      "rows": [
+        { "label": "0 min", "value": 0 },
+        { "label": "10 min", "value": 25 },
+        { "label": "20 min", "value": 40 }
+      ]
+    },
+    "100": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Journey", "value": "Distance at 1 h (km)" },
+      "rows": [
+        { "label": "A", "value": 10 },
+        { "label": "B", "value": 6 }
+      ]
+    },
+    "186": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Distance (km)" },
+      "rows": [
+        { "label": "0 min", "value": 0 },
+        { "label": "15 min", "value": 3 },
+        { "label": "30 min", "value": 3 }
+      ]
+    }
+  }
+}

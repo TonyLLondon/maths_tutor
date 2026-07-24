@@ -6,8 +6,8 @@ import { BarChartAnswer } from "@/components/BarChartAnswer";
 import { MarkdownBody } from "@/components/MarkdownBody";
 import { apiProgressPath, apiQuestionSupportPath, mathsTopicHref } from "@/lib/paths";
 import { friendlySectionHeading, formatPracticeTopicLine } from "@/lib/question-display";
-import { inferStemVisual } from "@/lib/question-visual";
-import { QuestionVisual } from "@/components/QuestionVisual";
+import type { FigureSpec } from "@/lib/figures";
+import { FigureView } from "@/components/FigureView";
 import {
   formatLevel,
   pickNextQuestionId,
@@ -33,6 +33,7 @@ type Props = {
   topicSummary?: string;
   questions: ParsedQuestion[];
   answerMeta: Record<string, PracticeClientMeta>;
+  figures: Record<string, FigureSpec>;
   initialRating: number;
   initialProgress: Record<string, AttemptState>;
 };
@@ -46,6 +47,7 @@ export function QuestionPractice({
   topicSummary,
   questions,
   answerMeta,
+  figures,
   initialRating,
   initialProgress,
 }: Props) {
@@ -166,6 +168,7 @@ export function QuestionPractice({
         key={question.id}
         question={question}
         meta={meta}
+        figure={figures[question.id]}
         support={support}
         topicLine={formatPracticeTopicLine({
           domainLabel,
@@ -204,6 +207,7 @@ export function QuestionPractice({
 type AttemptProps = {
   question: ParsedQuestion;
   meta: PracticeClientMeta;
+  figure: FigureSpec | undefined;
   support: ClientQuestionSupport | undefined;
   topicLine: string;
   postAttempt: (
@@ -226,6 +230,7 @@ type AttemptProps = {
 function QuestionAttempt({
   question,
   meta,
+  figure,
   support,
   topicLine,
   postAttempt,
@@ -233,7 +238,6 @@ function QuestionAttempt({
   onNext,
 }: AttemptProps) {
   const kind = meta.kind ?? "text";
-  const stemVisual = inferStemVisual(question.text);
   const [answer, setAnswer] = useState("");
   const [showHint, setShowHint] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
@@ -280,7 +284,7 @@ function QuestionAttempt({
         className="worksheet-markdown mt-3 text-lg leading-relaxed text-stone-900"
       />
 
-      {stemVisual ? <QuestionVisual visual={stemVisual} /> : null}
+      {figure ? <FigureView spec={figure} /> : null}
 
       {support ? (
         <div className="mt-4 flex flex-wrap gap-2">

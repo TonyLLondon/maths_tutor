@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "figures": {
+    "31": {
+      "type": "coordinatePlot",
+      "title": "Triangle A",
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 5,
+      "points": [
+        { "x": 1, "y": 1 },
+        { "x": 3, "y": 1 },
+        { "x": 1, "y": 4 }
+      ]
+    },
+    "35": {
+      "type": "coordinatePlot",
+      "title": "Quadrilateral",
+      "xMin": -1,
+      "xMax": 3,
+      "yMin": -1,
+      "yMax": 4,
+      "points": [
+        { "x": 0, "y": 0 },
+        { "x": 2, "y": 0 },
+        { "x": 2, "y": 3 },
+        { "x": 0, "y": 3 }
+      ]
+    },
+    "73": {
+      "type": "coordinatePlot",
+      "title": "Point A and its image B",
+      "xMin": 4,
+      "xMax": 10,
+      "yMin": -2,
+      "yMax": 4,
+      "points": [
+        { "x": 6, "y": -1 },
+        { "x": 9, "y": 2 }
+      ]
+    }
+  }
+}

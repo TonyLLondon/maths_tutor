@@ -12,6 +12,7 @@ import {
   type AnswerEntry,
 } from "../src/lib/questions.ts";
 import { TARGET_QUESTIONS_PER_TOPIC } from "../src/lib/practice-rating.ts";
+import { isFigureSpec } from "../src/lib/figures.ts";
 
 const ROOT = path.join(import.meta.dirname, "..");
 const CONTENT_TENANT = process.env.CONTENT_TENANT ?? "lewis";
@@ -104,6 +105,31 @@ function main() {
     for (const id of Object.keys(support.questions ?? {})) {
       if (!qSet.has(id)) {
         errors.push(`${t.domain}/${t.code}: orphan support id ${id}`);
+      }
+    }
+    const figuresPath = path.join(TOPICS, t.domain, `${t.code}.figures.json`);
+    if (fs.existsSync(figuresPath)) {
+      const figuresRaw = JSON.parse(fs.readFileSync(figuresPath, "utf8")) as {
+        version?: unknown;
+        figures?: unknown;
+      };
+      if (figuresRaw.version !== 1) {
+        errors.push(
+          `${t.domain}/${t.code}.figures.json: version must be 1`,
+        );
+      }
+      const figMap = figuresRaw.figures;
+      if (!figMap || typeof figMap !== "object") {
+        errors.push(`${t.domain}/${t.code}.figures.json: missing figures object`);
+      } else {
+        for (const fid of Object.keys(figMap as Record<string, unknown>)) {
+          if (!qSet.has(fid)) {
+            errors.push(`${t.domain}/${t.code}: orphan figure id ${fid}`);
+          }
+          if (!isFigureSpec((figMap as Record<string, unknown>)[fid])) {
+            errors.push(`${t.domain}/${t.code} Q${fid}: invalid figure spec`);
+          }
+        }
       }
     }
     for (const q of questions) {

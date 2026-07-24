@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "figures": {
+    "1": {
+      "type": "coordinatePlot",
+      "xMax": 5,
+      "yMax": 5,
+      "points": [{ "x": 1, "y": 2 }]
+    },
+    "2": {
+      "type": "coordinatePlot",
+      "xMax": 5,
+      "yMax": 5,
+      "points": [{ "x": 1, "y": 2 }]
+    },
+    "3": {
+      "type": "coordinatePlot",
+      "xMax": 5,
+      "yMax": 5,
+      "points": [
+        { "x": 1, "y": 1 },
+        { "x": 2, "y": 3 },
+        { "x": 4, "y": 2 }
+      ]
+    },
+    "4": {
+      "type": "coordinatePlot",
+      "xMax": 5,
+      "yMax": 5,
+      "points": [{ "x": 0, "y": 0 }]
+    },
+    "5": {
+      "type": "coordinatePlot",
+      "xMax": 5,
+      "yMax": 5,
+      "points": [{ "x": 0, "y": 0 }]
+    },
+    "11": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 0 },
+        { "label": "2", "value": 0 },
+        { "label": "3", "value": 0 }
+      ]
+    },
+    "12": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 0 },
+        { "label": "2", "value": 0 },
+        { "label": "3", "value": 0 }
+      ]
+    },
+    "13": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "0", "value": 1 },
+        { "label": "1", "value": 2 },
+        { "label": "2", "value": 3 }
+      ]
+    },
+    "14": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 2 },
+        { "label": "2", "value": 4 }
+      ]
+    },
+    "29": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Miles", "value": "Cost (£)" },
+      "rows": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 0 },
+        { "label": "2", "value": 0 },
+        { "label": "3", "value": 0 }
+      ]
+    },
+    "36": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "0", "value": 0 },
+        { "label": "1", "value": 0 },
+        { "label": "2", "value": 0 }
+      ]
+    },
+    "44": {
+      "type": "barChart",
+      "title": "Pizza cost (£)",
+      "categories": [
+        { "label": "0 bought", "value": 5 },
+        { "label": "2 bought", "value": 17 }
+      ]
+    },
+    "75": {
+      "type": "coordinatePlot",
+      "xMin": 0,
+      "xMax": 24,
+      "yMin": -5,
+      "yMax": 5,
+      "xLabel": "Hours after midnight",
+      "yLabel": "Temperature (°C)",
+      "points": [{ "x": 12, "y": -2 }]
+    },
+    "116": {
+      "type": "coordinatePlot",
+      "xMin": -2,
+      "xMax": 2,
+      "yMin": -10,
+      "yMax": 2,
+      "yLabel": "Depth",
+      "points": [{ "x": 0, "y": 0 }]
+    },
+    "117": {
+      "type": "coordinatePlot",
+      "xMin": -2,
+      "xMax": 8,
+      "yMin": -10,
+      "yMax": 2,
+      "yLabel": "Depth",
+      "points": [{ "x": 0, "y": -8 }]
+    },
+    "129": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Height (cm)" },
+      "rows": [
+        { "label": "Hour 0", "value": 10 },
+        { "label": "Hour 1", "value": 13 },
+        { "label": "Hour 2", "value": 16 }
+      ]
+    },
+    "145": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "Time", "value": "Height (cm)" },
+      "rows": [
+        { "label": "Minute 1", "value": 2 },
+        { "label": "Minute 2", "value": 4 },
+        { "label": "Minute 3", "value": 6 }
+      ]
+    },
+    "180": {
+      "type": "frequencyTable",
+      "columnLabels": { "category": "x", "value": "y" },
+      "rows": [
+        { "label": "1", "value": 2 },
+        { "label": "2", "value": 4 },
+        { "label": "3", "value": 6 }
+      ]
+    }
+  }
+}

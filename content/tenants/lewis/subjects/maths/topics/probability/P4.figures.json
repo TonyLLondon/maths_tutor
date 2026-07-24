@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "figures": {
+    "35": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Spring", "value": 30 },
+        { "label": "Summer", "value": 42 },
+        { "label": "Autumn", "value": 18 },
+        { "label": "Winter", "value": 30 }
+      ]
+    },
+    "36": {
+      "type": "barChart",
+      "title": "Spinner colour probabilities (%)",
+      "categories": [
+        { "label": "Red", "value": 20 },
+        { "label": "Blue", "value": 20 },
+        { "label": "Green", "value": 30 },
+        { "label": "Yellow", "value": 30 }
+      ]
+    },
+    "81": {
+      "type": "barChart",
+      "title": "Five-colour spinner (probability %)",
+      "categories": [
+        { "label": "Red", "value": 15 },
+        { "label": "Blue", "value": 15 },
+        { "label": "Green", "value": 25 },
+        { "label": "Yellow", "value": 20 },
+        { "label": "Purple", "value": 25 }
+      ]
+    },
+    "87": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Football", "value": 32 },
+        { "label": "Rugby", "value": 18 },
+        { "label": "Hockey", "value": 14 },
+        { "label": "Tennis", "value": 16 }
+      ]
+    },
+    "88": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Red tickets", "value": 45 },
+        { "label": "Blue tickets", "value": 60 },
+        { "label": "Green tickets", "value": 45 }
+      ]
+    },
+    "89": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Pizza", "value": 70 },
+        { "label": "Pasta", "value": 55 },
+        { "label": "Curry", "value": 40 },
+        { "label": "Salad", "value": 35 }
+      ]
+    },
+    "91": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Walk", "value": 12 },
+        { "label": "Bus", "value": 9 },
+        { "label": "Cycle", "value": 9 }
+      ]
+    },
+    "100": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Agreed", "value": 100 },
+        { "label": "Disagreed", "value": 75 },
+        { "label": "Neutral", "value": 45 },
+        { "label": "Skipped", "value": 30 }
+      ]
+    },
+    "121": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "P(red)", "value": 30 },
+        { "label": "P(blue)", "value": 40 },
+        { "label": "P(green)", "value": 25 }
+      ]
+    },
+    "151": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Red", "value": 50 },
+        { "label": "Blue", "value": 65 },
+        { "label": "Green", "value": 55 },
+        { "label": "Yellow", "value": 30 }
+      ]
+    },
+    "157": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Vegan", "value": 40 },
+        { "label": "Vegetarian", "value": 55 },
+        { "label": "Pescatarian", "value": 35 },
+        { "label": "Omnivore", "value": 120 }
+      ]
+    },
+    "169": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Outcome A", "value": 320 },
+        { "label": "Outcome B", "value": 410 },
+        { "label": "Outcome C", "value": 270 }
+      ]
+    },
+    "176": {
+      "type": "barChart",
+      "title": "Chocolate bars by type",
+      "categories": [
+        { "label": "Milk", "value": 104 },
+        { "label": "Dark", "value": 62 },
+        { "label": "White", "value": 34 }
+      ]
+    },
+    "198": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Spring", "value": 90 },
+        { "label": "Summer", "value": 130 },
+        { "label": "Autumn", "value": 80 },
+        { "label": "Winter", "value": 100 }
+      ]
+    }
+  }
+}

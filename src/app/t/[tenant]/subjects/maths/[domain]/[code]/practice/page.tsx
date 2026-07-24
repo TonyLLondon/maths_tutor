@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { requireSession } from "@/lib/auth";
-import { getAnswerKey, getWorksheet } from "@/lib/content";
+import { getAnswerKey, getQuestionFigures, getWorksheet } from "@/lib/content";
 import { getTopicProgressState } from "@/lib/progress";
 import { parseQuestions, toPracticeClientMeta } from "@/lib/questions";
 import { DOMAIN_LABELS, isGcseDomain, topicByCode } from "@/lib/subjects";
@@ -20,10 +20,11 @@ export default async function PracticePage({ params }: Props) {
   const session = await requireSession(tenant);
 
   const slug = `${domain}/${code}`;
-  const [doc, answerKey, progressState] = await Promise.all([
+  const [doc, answerKey, progressState, figuresFile] = await Promise.all([
     getWorksheet(tenant, slug),
     getAnswerKey(tenant, slug),
     getTopicProgressState(session.userId, "maths", slug),
+    getQuestionFigures(tenant, slug),
   ]);
   if (!doc) notFound();
 
@@ -43,6 +44,8 @@ export default async function PracticePage({ params }: Props) {
 
   const topicHref = mathsTopicHref(tenant, domain, code);
   const spine = topicByCode(code);
+
+  const figures = figuresFile?.figures ?? {};
 
   return (
     <>
@@ -66,6 +69,7 @@ export default async function PracticePage({ params }: Props) {
           topicSummary={spine?.summary}
           questions={questions}
           answerMeta={answerMeta}
+          figures={figures}
           initialRating={progressState.rating}
           initialProgress={progressState.questions}
         />

@@ -1,0 +1,415 @@
+{
+  "version": 1,
+  "figures": {
+    "9": {
+      "type": "scatterGraph",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        { "x": 1, "y": 10 },
+        { "x": 2, "y": 8 },
+        { "x": 3, "y": 7 },
+        { "x": 4, "y": 5 },
+        { "x": 5, "y": 4 },
+        { "x": 6, "y": 2 }
+      ]
+    },
+    "13": {
+      "type": "scatterGraph",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        { "x": 1, "y": 2 },
+        { "x": 2, "y": 4 },
+        { "x": 3, "y": 5 },
+        { "x": 4, "y": 7 },
+        { "x": 5, "y": 9 },
+        { "x": 6, "y": 11 }
+      ]
+    },
+    "14": {
+      "type": "scatterGraph",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        { "x": 1, "y": 10 },
+        { "x": 2, "y": 8 },
+        { "x": 3, "y": 7 },
+        { "x": 4, "y": 5 },
+        { "x": 5, "y": 4 },
+        { "x": 6, "y": 2 }
+      ]
+    },
+    "15": {
+      "type": "scatterGraph",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        { "x": 1, "y": 5 },
+        { "x": 2, "y": 8 },
+        { "x": 3, "y": 3 },
+        { "x": 4, "y": 9 },
+        { "x": 5, "y": 4 },
+        { "x": 6, "y": 7 }
+      ]
+    },
+    "17": {
+      "type": "scatterGraph",
+      "title": "Revision vs test score",
+      "xLabel": "Hours of revision",
+      "yLabel": "Test score",
+      "points": [
+        { "x": 1, "y": 42 },
+        { "x": 2, "y": 48 },
+        { "x": 3, "y": 55 },
+        { "x": 4, "y": 60 },
+        { "x": 5, "y": 68 },
+        { "x": 6, "y": 72 }
+      ],
+      "trendLine": { "x1": 1, "y1": 40, "x2": 6, "y2": 75 }
+    },
+    "18": {
+      "type": "scatterGraph",
+      "title": "Temperature vs hot chocolate sales",
+      "xLabel": "Temperature (°C)",
+      "yLabel": "Hot chocolate sales",
+      "points": [
+        { "x": 5, "y": 90 },
+        { "x": 10, "y": 70 },
+        { "x": 15, "y": 55 },
+        { "x": 20, "y": 40 },
+        { "x": 25, "y": 25 }
+      ],
+      "trendLine": { "x1": 5, "y1": 92, "x2": 25, "y2": 22 }
+    },
+    "21": {
+      "type": "scatterGraph",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        { "x": 1, "y": 3 },
+        { "x": 2, "y": 5 },
+        { "x": 3, "y": 6 },
+        { "x": 4, "y": 8 },
+        { "x": 5, "y": 2 },
+        { "x": 6, "y": 10 }
+      ],
+      "outlierIndex": 4
+    },
+    "33": {
+      "type": "scatterGraph",
+      "title": "Car age vs value",
+      "xLabel": "Age (years)",
+      "yLabel": "Value (£1000s)",
+      "points": [
+        { "x": 2, "y": 19 },
+        { "x": 4, "y": 15 },
+        { "x": 6, "y": 11 },
+        { "x": 8, "y": 7 }
+      ],
+      "trendLine": { "x1": 2, "y1": 18, "x2": 8, "y2": 6 }
+    },
+    "34": {
+      "type": "scatterGraph",
+      "title": "Car age vs value",
+      "xLabel": "Age (years)",
+      "yLabel": "Value (£1000s)",
+      "points": [
+        { "x": 2, "y": 19 },
+        { "x": 4, "y": 15 },
+        { "x": 6, "y": 11 },
+        { "x": 8, "y": 7 }
+      ],
+      "trendLine": { "x1": 2, "y1": 18, "x2": 8, "y2": 6 }
+    },
+    "35": {
+      "type": "scatterGraph",
+      "title": "Study time vs exam score",
+      "xLabel": "Hours studied",
+      "yLabel": "Exam score",
+      "points": [
+        { "x": 0, "y": 42 },
+        { "x": 2, "y": 52 },
+        { "x": 4, "y": 62 },
+        { "x": 6, "y": 72 },
+        { "x": 8, "y": 82 },
+        { "x": 10, "y": 88 }
+      ],
+      "trendLine": { "x1": 0, "y1": 40, "x2": 10, "y2": 90 }
+    },
+    "36": {
+      "type": "scatterGraph",
+      "title": "Speed vs fuel efficiency",
+      "xLabel": "Speed",
+      "yLabel": "Miles per gallon",
+      "points": [
+        { "x": 30, "y": 55 },
+        { "x": 40, "y": 50 },
+        { "x": 50, "y": 45 },
+        { "x": 60, "y": 38 },
+        { "x": 70, "y": 30 }
+      ],
+      "trendLine": { "x1": 30, "y1": 56, "x2": 70, "y2": 28 }
+    },
+    "38": {
+      "type": "scatterGraph",
+      "title": "Plant height vs leaves",
+      "xLabel": "Height (cm)",
+      "yLabel": "Number of leaves",
+      "points": [
+        { "x": 10, "y": 8 },
+        { "x": 20, "y": 14 },
+        { "x": 30, "y": 18 },
+        { "x": 40, "y": 22 },
+        { "x": 50, "y": 6 }
+      ],
+      "outlierIndex": 4,
+      "trendLine": { "x1": 10, "y1": 7, "x2": 40, "y2": 23 }
+    },
+    "43": {
+      "type": "scatterGraph",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        { "x": 1, "y": 2 },
+        { "x": 2, "y": 4 },
+        { "x": 3, "y": 5 },
+        { "x": 4, "y": 7 },
+        { "x": 5, "y": 9 },
+        { "x": 6, "y": 11 }
+      ]
+    },
+    "44": {
+      "type": "scatterGraph",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        { "x": 1, "y": 10 },
+        { "x": 2, "y": 8 },
+        { "x": 3, "y": 7 },
+        { "x": 4, "y": 5 },
+        { "x": 5, "y": 4 },
+        { "x": 6, "y": 2 }
+      ]
+    },
+    "45": {
+      "type": "scatterGraph",
+      "title": "Sleep vs alertness",
+      "xLabel": "Hours of sleep",
+      "yLabel": "Alertness rating",
+      "points": [
+        { "x": 5, "y": 3 },
+        { "x": 6, "y": 5 },
+        { "x": 7, "y": 6 },
+        { "x": 8, "y": 8 },
+        { "x": 9, "y": 9 }
+      ]
+    },
+    "46": {
+      "type": "scatterGraph",
+      "title": "Screen time vs steps",
+      "xLabel": "Screen time (hours)",
+      "yLabel": "Steps walked",
+      "points": [
+        { "x": 1, "y": 9000 },
+        { "x": 2, "y": 7500 },
+        { "x": 3, "y": 7000 },
+        { "x": 4, "y": 5500 },
+        { "x": 5, "y": 5000 }
+      ]
+    },
+    "47": {
+      "type": "scatterGraph",
+      "title": "Day vs goals scored",
+      "xLabel": "Day of week",
+      "yLabel": "Goals",
+      "points": [
+        { "x": 1, "y": 2 },
+        { "x": 2, "y": 5 },
+        { "x": 3, "y": 1 },
+        { "x": 4, "y": 4 },
+        { "x": 5, "y": 3 },
+        { "x": 6, "y": 6 },
+        { "x": 7, "y": 2 }
+      ]
+    },
+    "48": {
+      "type": "scatterGraph",
+      "title": "Dog mass vs tail length",
+      "xLabel": "Mass (kg)",
+      "yLabel": "Tail length (cm)",
+      "points": [
+        { "x": 5, "y": 20 },
+        { "x": 10, "y": 28 },
+        { "x": 15, "y": 32 },
+        { "x": 20, "y": 38 }
+      ]
+    },
+    "49": {
+      "type": "scatterGraph",
+      "title": "Revision vs test score",
+      "xLabel": "Revision hours",
+      "yLabel": "Test score",
+      "points": [
+        { "x": 1, "y": 52 },
+        { "x": 2, "y": 58 },
+        { "x": 3, "y": 61 },
+        { "x": 4, "y": 64 },
+        { "x": 5, "y": 68 }
+      ],
+      "trendLine": { "x1": 1, "y1": 50, "x2": 5, "y2": 70 }
+    },
+    "50": {
+      "type": "scatterGraph",
+      "title": "Sport vs resting heart rate",
+      "xLabel": "Hours of sport",
+      "yLabel": "Resting heart rate",
+      "points": [
+        { "x": 1, "y": 78 },
+        { "x": 2, "y": 72 },
+        { "x": 3, "y": 76 },
+        { "x": 4, "y": 68 },
+        { "x": 5, "y": 74 },
+        { "x": 6, "y": 65 }
+      ],
+      "trendLine": { "x1": 1, "y1": 80, "x2": 6, "y2": 62 }
+    },
+    "55": {
+      "type": "scatterGraph",
+      "title": "Month vs heating bill",
+      "xLabel": "Month (Jan = 1)",
+      "yLabel": "Heating bill (£)",
+      "points": [
+        { "x": 1, "y": 180 },
+        { "x": 3, "y": 150 },
+        { "x": 6, "y": 90 },
+        { "x": 9, "y": 60 },
+        { "x": 12, "y": 120 }
+      ],
+      "trendLine": { "x1": 1, "y1": 175, "x2": 12, "y2": 70 }
+    },
+    "79": {
+      "type": "scatterGraph",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        { "x": 1, "y": 5 },
+        { "x": 2, "y": 5.5 },
+        { "x": 3, "y": 4.8 },
+        { "x": 4, "y": 5.2 },
+        { "x": 5, "y": 5.1 },
+        { "x": 6, "y": 4.9 }
+      ],
+      "trendLine": { "x1": 1, "y1": 5, "x2": 6, "y2": 5 }
+    },
+    "113": {
+      "type": "scatterGraph",
+      "title": "Compare correlation strength",
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        { "x": 1, "y": 10 },
+        { "x": 2, "y": 19 },
+        { "x": 3, "y": 31 },
+        { "x": 4, "y": 40 },
+        { "x": 5, "y": 51 }
+      ],
+      "trendLine": { "x1": 1, "y1": 10, "x2": 5, "y2": 51 },
+      "secondary": {
+        "label": "Graph B",
+        "points": [
+          { "x": 1, "y": 8 },
+          { "x": 2, "y": 22 },
+          { "x": 3, "y": 15 },
+          { "x": 4, "y": 38 },
+          { "x": 5, "y": 28 }
+        ],
+        "trendLine": { "x1": 1, "y1": 12, "x2": 5, "y2": 48 }
+      }
+    },
+    "121": {
+      "type": "scatterGraph",
+      "title": "Car age vs value",
+      "xLabel": "Age (years)",
+      "yLabel": "Value (£1000s)",
+      "points": [
+        { "x": 1, "y": 15 },
+        { "x": 3, "y": 13 },
+        { "x": 5, "y": 10 },
+        { "x": 7, "y": 8 }
+      ],
+      "trendLine": { "x1": 1, "y1": 14, "x2": 7, "y2": 8 }
+    },
+    "122": {
+      "type": "scatterGraph",
+      "title": "Car age vs value",
+      "xLabel": "Age (years)",
+      "yLabel": "Value (£1000s)",
+      "points": [
+        { "x": 1, "y": 15 },
+        { "x": 3, "y": 13 },
+        { "x": 5, "y": 10 },
+        { "x": 7, "y": 8 }
+      ],
+      "trendLine": { "x1": 1, "y1": 14, "x2": 7, "y2": 8 }
+    },
+    "127": {
+      "type": "scatterGraph",
+      "title": "Advertising spend vs sales",
+      "xLabel": "Spend (£1000s)",
+      "yLabel": "Sales (£1000s)",
+      "points": [
+        { "x": 0, "y": 52 },
+        { "x": 2, "y": 70 },
+        { "x": 4, "y": 90 },
+        { "x": 6, "y": 110 },
+        { "x": 8, "y": 130 },
+        { "x": 10, "y": 148 }
+      ],
+      "trendLine": { "x1": 0, "y1": 50, "x2": 10, "y2": 150 }
+    },
+    "136": {
+      "type": "scatterGraph",
+      "title": "Value vs age",
+      "xLabel": "Age (years)",
+      "yLabel": "Value",
+      "points": [
+        { "x": 0, "y": 98 },
+        { "x": 2, "y": 88 },
+        { "x": 4, "y": 78 },
+        { "x": 6, "y": 68 },
+        { "x": 8, "y": 58 },
+        { "x": 10, "y": 48 }
+      ],
+      "trendLine": { "x1": 0, "y1": 100, "x2": 10, "y2": 50 }
+    },
+    "141": {
+      "type": "scatterGraph",
+      "title": "Reaction time vs caffeine",
+      "xLabel": "Caffeine drinks",
+      "yLabel": "Reaction time",
+      "points": [
+        { "x": 0, "y": 0.35 },
+        { "x": 1, "y": 0.32 },
+        { "x": 2, "y": 0.3 },
+        { "x": 3, "y": 0.28 },
+        { "x": 4, "y": 0.15 }
+      ],
+      "outlierIndex": 4
+    },
+    "147": {
+      "type": "scatterGraph",
+      "title": "Price vs number sold",
+      "xLabel": "Price",
+      "yLabel": "Number sold",
+      "points": [
+        { "x": 5, "y": 120 },
+        { "x": 8, "y": 90 },
+        { "x": 10, "y": 75 },
+        { "x": 12, "y": 60 },
+        { "x": 15, "y": 45 }
+      ],
+      "trendLine": { "x1": 5, "y1": 118, "x2": 15, "y2": 42 }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "figures": {
+    "38": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Spins", "value": 3000 },
+        { "label": "Red", "value": 750 }
+      ]
+    },
+    "85": {
+      "type": "barChart",
+      "title": "Estimate of P(odd) on a fair dice",
+      "categories": [
+        { "label": "After 20 rolls", "value": 45 },
+        { "label": "After 200 rolls", "value": 51 },
+        { "label": "After 2000 rolls", "value": 50 }
+      ]
+    },
+    "87": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Colour sections", "value": 4 },
+        { "label": "Spins", "value": 12 },
+        { "label": "Blue", "value": 5 }
+      ]
+    },
+    "157": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Class X spins", "value": 24 },
+        { "label": "Class Y spins", "value": 2400 }
+      ]
+    }
+  }
+}

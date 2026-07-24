@@ -1,0 +1,1203 @@
+{
+  "version": 1,
+  "figures": {
+    "1": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "red", "value": 3 },
+        { "label": "blue", "value": 5 }
+      ]
+    },
+    "2": {
+      "type": "barChart",
+      "title": "Pets",
+      "categories": [
+        { "label": "cats", "value": 6 },
+        { "label": "dogs", "value": 4 }
+      ]
+    },
+    "3": {
+      "type": "pictogram",
+      "symbol": "○",
+      "unitLabel": "One circle = one book",
+      "count": 7
+    },
+    "4": {
+      "type": "barChart",
+      "title": "Sales",
+      "categories": [
+        { "label": "Monday", "value": 2 },
+        { "label": "Tuesday", "value": 6 }
+      ]
+    },
+    "5": {
+      "type": "barChart",
+      "title": "Sales",
+      "categories": [
+        { "label": "Monday", "value": 2 },
+        { "label": "Tuesday", "value": 6 }
+      ]
+    },
+    "7": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 pets", "value": 2 },
+        { "label": "1 pet", "value": 5 }
+      ]
+    },
+    "9": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "apples", "value": 2 },
+        { "label": "bananas", "value": 3 }
+      ]
+    },
+    "10": {
+      "type": "barChart",
+      "title": "Sales",
+      "categories": [
+        { "label": "Monday", "value": 3 },
+        { "label": "Tuesday", "value": 5 }
+      ]
+    },
+    "11": {
+      "type": "pictogram",
+      "symbol": "■",
+      "unitLabel": "One symbol = 2 books",
+      "count": 4
+    },
+    "13": {
+      "type": "pieChart",
+      "title": "Colour survey (20 pupils)",
+      "sectors": [
+        { "label": "red", "value": 5 },
+        { "label": "blue", "value": 8 },
+        { "label": "green", "value": 4 },
+        { "label": "yellow", "value": 3 }
+      ]
+    },
+    "14": {
+      "type": "pieChart",
+      "title": "Colour survey (20 pupils)",
+      "sectors": [
+        { "label": "red", "value": 5 },
+        { "label": "blue", "value": 8 },
+        { "label": "green", "value": 4 },
+        { "label": "yellow", "value": 3 }
+      ]
+    },
+    "15": {
+      "type": "pieChart",
+      "title": "Colour survey (20 pupils)",
+      "sectors": [
+        { "label": "red", "value": 5 },
+        { "label": "blue", "value": 8 },
+        { "label": "green", "value": 4 },
+        { "label": "yellow", "value": 3 }
+      ]
+    },
+    "16": {
+      "type": "pieChart",
+      "title": "Colour survey (20 pupils)",
+      "sectors": [
+        { "label": "red", "value": 5 },
+        { "label": "blue", "value": 8 },
+        { "label": "green", "value": 4 },
+        { "label": "yellow", "value": 3 }
+      ]
+    },
+    "17": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Boys · like football", "value": 12 },
+        { "label": "Boys · do not", "value": 6 },
+        { "label": "Girls · like football", "value": 8 },
+        { "label": "Girls · do not", "value": 4 }
+      ]
+    },
+    "18": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Boys · like football", "value": 12 },
+        { "label": "Boys · do not", "value": 6 },
+        { "label": "Girls · like football", "value": 8 },
+        { "label": "Girls · do not", "value": 4 }
+      ]
+    },
+    "19": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "130 ≤ h < 140", "value": 6 },
+        { "label": "140 ≤ h < 150", "value": 10 },
+        { "label": "150 ≤ h < 160", "value": 4 }
+      ]
+    },
+    "20": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ t < 10 min", "value": 4 },
+        { "label": "10 ≤ t < 20 min", "value": 9 },
+        { "label": "20 ≤ t < 30 min", "value": 7 }
+      ]
+    },
+    "21": {
+      "type": "barChart",
+      "title": "Pets owned",
+      "categories": [
+        { "label": "0 pets", "value": 6 },
+        { "label": "1 pet", "value": 10 },
+        { "label": "2 pets", "value": 5 },
+        { "label": "3 pets", "value": 2 }
+      ]
+    },
+    "22": {
+      "type": "lineChart",
+      "title": "Monthly sales",
+      "xLabel": "Month",
+      "yLabel": "Sales",
+      "series": [
+        { "label": "Jan", "value": 200 },
+        { "label": "Feb", "value": 250 },
+        { "label": "Mar", "value": 220 },
+        { "label": "Apr", "value": 300 }
+      ]
+    },
+    "23": {
+      "type": "lineChart",
+      "title": "Monthly sales",
+      "xLabel": "Month",
+      "yLabel": "Sales",
+      "series": [
+        { "label": "Jan", "value": 200 },
+        { "label": "Feb", "value": 250 },
+        { "label": "Mar", "value": 220 },
+        { "label": "Apr", "value": 300 }
+      ]
+    },
+    "33": {
+      "type": "pieChart",
+      "title": "Travel to school (60 pupils)",
+      "sectors": [
+        { "label": "walk", "value": 24 },
+        { "label": "car", "value": 15 },
+        { "label": "bus", "value": 18 },
+        { "label": "bike", "value": 3 }
+      ]
+    },
+    "34": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Boys · play instrument", "value": 18 },
+        { "label": "Boys · do not", "value": 12 },
+        { "label": "Girls · play instrument", "value": 14 },
+        { "label": "Girls · do not", "value": 6 }
+      ]
+    },
+    "35": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0–20", "value": 3 },
+        { "label": "21–40", "value": 7 },
+        { "label": "41–60", "value": 12 },
+        { "label": "61–80", "value": 10 },
+        { "label": "81–100", "value": 4 }
+      ]
+    },
+    "36": {
+      "type": "lineChart",
+      "title": "Monthly sales",
+      "xLabel": "Month",
+      "yLabel": "Sales",
+      "series": [
+        { "label": "M1", "value": 300 },
+        { "label": "M2", "value": 320 },
+        { "label": "M3", "value": 280 },
+        { "label": "M4", "value": 350 },
+        { "label": "M5", "value": 400 },
+        { "label": "M6", "value": 380 }
+      ]
+    },
+    "37": {
+      "type": "pieChart",
+      "title": "Lunch choices (108 pupils)",
+      "sectors": [
+        { "label": "sandwiches", "value": 45 },
+        { "label": "hot meal", "value": 36 },
+        { "label": "salad", "value": 27 }
+      ]
+    },
+    "38": {
+      "type": "barChart",
+      "title": "Siblings",
+      "categories": [
+        { "label": "0", "value": 5 },
+        { "label": "1", "value": 10 },
+        { "label": "2", "value": 6 },
+        { "label": "3", "value": 3 },
+        { "label": "4", "value": 1 }
+      ]
+    },
+    "40": {
+      "type": "pieChart",
+      "title": "Drink survey",
+      "sectors": [
+        { "label": "tea", "value": 40 },
+        { "label": "coffee", "value": 56 },
+        { "label": "juice", "value": 32 },
+        { "label": "water", "value": 16 }
+      ]
+    },
+    "42": {
+      "type": "lineChart",
+      "title": "Profits",
+      "xLabel": "Year",
+      "yLabel": "Profit",
+      "series": [
+        { "label": "Y1", "value": 20 },
+        { "label": "Y2", "value": 18 },
+        { "label": "Y3", "value": 25 },
+        { "label": "Y4", "value": 30 },
+        { "label": "Y5", "value": 28 }
+      ]
+    },
+    "45": {
+      "type": "pieChart",
+      "title": "Cinema genres",
+      "sectors": [
+        { "label": "comedy", "value": 10 },
+        { "label": "action", "value": 16 },
+        { "label": "drama", "value": 8 },
+        { "label": "other", "value": 6 }
+      ]
+    },
+    "46": {
+      "type": "pieChart",
+      "title": "Cinema genres",
+      "sectors": [
+        { "label": "comedy", "value": 10 },
+        { "label": "action", "value": 16 },
+        { "label": "drama", "value": 8 },
+        { "label": "other", "value": 6 }
+      ]
+    },
+    "47": {
+      "type": "pieChart",
+      "title": "Canteen lunch",
+      "sectors": [
+        { "label": "pasta", "value": 12 },
+        { "label": "pizza", "value": 18 },
+        { "label": "salad", "value": 6 },
+        { "label": "soup", "value": 12 }
+      ]
+    },
+    "48": {
+      "type": "pieChart",
+      "title": "Canteen lunch",
+      "sectors": [
+        { "label": "pasta", "value": 12 },
+        { "label": "pizza", "value": 18 },
+        { "label": "salad", "value": 6 },
+        { "label": "soup", "value": 12 }
+      ]
+    },
+    "49": {
+      "type": "pieChart",
+      "title": "After-school clubs",
+      "sectors": [
+        { "label": "chess", "value": 15 },
+        { "label": "drama", "value": 20 },
+        { "label": "sport", "value": 18 },
+        { "label": "art", "value": 7 }
+      ]
+    },
+    "50": {
+      "type": "pieChart",
+      "title": "After-school clubs",
+      "sectors": [
+        { "label": "chess", "value": 15 },
+        { "label": "drama", "value": 20 },
+        { "label": "sport", "value": 18 },
+        { "label": "art", "value": 7 }
+      ]
+    },
+    "51": {
+      "type": "pieChart",
+      "title": "Travel survey",
+      "sectors": [
+        { "label": "walk", "value": 24 },
+        { "label": "bus", "value": 30 },
+        { "label": "car", "value": 12 },
+        { "label": "bike", "value": 6 }
+      ]
+    },
+    "52": {
+      "type": "pieChart",
+      "title": "Travel survey",
+      "sectors": [
+        { "label": "walk", "value": 24 },
+        { "label": "bus", "value": 30 },
+        { "label": "car", "value": 12 },
+        { "label": "bike", "value": 6 }
+      ]
+    },
+    "53": {
+      "type": "pieChart",
+      "title": "Magazine sections",
+      "sectors": [
+        { "label": "sport", "value": 30 },
+        { "label": "music", "value": 25 },
+        { "label": "news", "value": 20 },
+        { "label": "puzzles", "value": 15 }
+      ]
+    },
+    "54": {
+      "type": "pieChart",
+      "title": "Magazine sections",
+      "sectors": [
+        { "label": "sport", "value": 30 },
+        { "label": "music", "value": 25 },
+        { "label": "news", "value": 20 },
+        { "label": "puzzles", "value": 15 }
+      ]
+    },
+    "55": {
+      "type": "pieChart",
+      "title": "Festival stages",
+      "sectors": [
+        { "label": "stage A", "value": 40 },
+        { "label": "stage B", "value": 35 },
+        { "label": "stage C", "value": 25 },
+        { "label": "stage D", "value": 20 }
+      ]
+    },
+    "56": {
+      "type": "pieChart",
+      "title": "Festival stages",
+      "sectors": [
+        { "label": "stage A", "value": 40 },
+        { "label": "stage B", "value": 35 },
+        { "label": "stage C", "value": 25 },
+        { "label": "stage D", "value": 20 }
+      ]
+    },
+    "43": {
+      "type": "pieChart",
+      "title": "Drink survey (24 pupils)",
+      "sectors": [
+        { "label": "tea", "value": 3 },
+        { "label": "other", "value": 21 }
+      ]
+    },
+    "44": {
+      "type": "pieChart",
+      "title": "Drink survey (30 pupils)",
+      "sectors": [
+        { "label": "juice", "value": 4 },
+        { "label": "other", "value": 26 }
+      ]
+    },
+    "61": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Boys · read daily", "value": 11 },
+        { "label": "Boys · do not", "value": 5 },
+        { "label": "Girls · read daily", "value": 9 },
+        { "label": "Girls · do not", "value": 7 }
+      ]
+    },
+    "62": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Boys · read daily", "value": 11 },
+        { "label": "Boys · do not", "value": 5 },
+        { "label": "Girls · read daily", "value": 9 },
+        { "label": "Girls · do not", "value": 7 }
+      ]
+    },
+    "63": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Year 8 · passed", "value": 14 },
+        { "label": "Year 8 · failed", "value": 6 },
+        { "label": "Year 9 · passed", "value": 18 },
+        { "label": "Year 9 · failed", "value": 4 }
+      ]
+    },
+    "64": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Year 8 · passed", "value": 14 },
+        { "label": "Year 8 · failed", "value": 6 },
+        { "label": "Year 9 · passed", "value": 18 },
+        { "label": "Year 9 · failed", "value": 4 }
+      ]
+    },
+    "65": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Cat · also dog", "value": 6 },
+        { "label": "Cat · no dog", "value": 10 },
+        { "label": "No cat · dog", "value": 8 },
+        { "label": "No cat · no dog", "value": 16 }
+      ]
+    },
+    "66": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Cat · also dog", "value": 6 },
+        { "label": "Cat · no dog", "value": 10 },
+        { "label": "No cat · dog", "value": 8 },
+        { "label": "No cat · no dog", "value": 16 }
+      ]
+    },
+    "67": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Left · tennis", "value": 4 },
+        { "label": "Left · not tennis", "value": 2 },
+        { "label": "Right · tennis", "value": 12 },
+        { "label": "Right · not tennis", "value": 22 }
+      ]
+    },
+    "68": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Left · tennis", "value": 4 },
+        { "label": "Left · not tennis", "value": 2 },
+        { "label": "Right · tennis", "value": 12 },
+        { "label": "Right · not tennis", "value": 22 }
+      ]
+    },
+    "69": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Packed · walk", "value": 8 },
+        { "label": "Packed · not walk", "value": 4 },
+        { "label": "Meal · walk", "value": 6 },
+        { "label": "Meal · not walk", "value": 12 }
+      ]
+    },
+    "70": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Packed · walk", "value": 8 },
+        { "label": "Packed · not walk", "value": 4 },
+        { "label": "Meal · walk", "value": 6 },
+        { "label": "Meal · not walk", "value": 12 }
+      ]
+    },
+    "71": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Raincoat · yes", "value": 9 },
+        { "label": "Raincoat · no", "value": 11 },
+        { "label": "Umbrella · yes", "value": 7 },
+        { "label": "Umbrella · no", "value": 13 }
+      ]
+    },
+    "72": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Raincoat · yes", "value": 9 },
+        { "label": "Raincoat · no", "value": 11 },
+        { "label": "Umbrella · yes", "value": 7 },
+        { "label": "Umbrella · no", "value": 13 }
+      ]
+    },
+    "73": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Online hw · yes", "value": 22 },
+        { "label": "Online hw · no", "value": 18 },
+        { "label": "Tablet · yes", "value": 16 },
+        { "label": "Tablet · no", "value": 24 }
+      ]
+    },
+    "74": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Online hw · yes", "value": 22 },
+        { "label": "Online hw · no", "value": 18 },
+        { "label": "Tablet · yes", "value": 16 },
+        { "label": "Tablet · no", "value": 24 }
+      ]
+    },
+    "75": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Cricket · also football", "value": 10 },
+        { "label": "Cricket · not football", "value": 5 },
+        { "label": "Not cricket · football", "value": 8 },
+        { "label": "Not cricket · not football", "value": 7 }
+      ]
+    },
+    "76": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ t < 20", "value": 6 },
+        { "label": "20 ≤ t < 40", "value": 14 },
+        { "label": "40 ≤ t < 60", "value": 8 }
+      ]
+    },
+    "77": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ t < 20", "value": 6 },
+        { "label": "20 ≤ t < 40", "value": 14 },
+        { "label": "40 ≤ t < 60", "value": 8 }
+      ]
+    },
+    "78": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ t < 20", "value": 6 },
+        { "label": "20 ≤ t < 40", "value": 14 },
+        { "label": "40 ≤ t < 60", "value": 8 }
+      ]
+    },
+    "79": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "4 ≤ s < 5", "value": 3 },
+        { "label": "5 ≤ s < 6", "value": 11 },
+        { "label": "6 ≤ s < 7", "value": 9 },
+        { "label": "7 ≤ s < 8", "value": 2 }
+      ]
+    },
+    "80": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "4 ≤ s < 5", "value": 3 },
+        { "label": "5 ≤ s < 6", "value": 11 },
+        { "label": "6 ≤ s < 7", "value": 9 },
+        { "label": "7 ≤ s < 8", "value": 2 }
+      ]
+    },
+    "81": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "30 ≤ m < 40", "value": 5 },
+        { "label": "40 ≤ m < 50", "value": 12 },
+        { "label": "50 ≤ m < 60", "value": 8 }
+      ]
+    },
+    "82": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0.2 ≤ r < 0.4", "value": 4 },
+        { "label": "0.4 ≤ r < 0.6", "value": 10 },
+        { "label": "0.6 ≤ r < 0.8", "value": 6 }
+      ]
+    },
+    "83": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0.2 ≤ r < 0.4", "value": 4 },
+        { "label": "0.4 ≤ r < 0.6", "value": 10 },
+        { "label": "0.6 ≤ r < 0.8", "value": 6 }
+      ]
+    },
+    "84": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ d < 2", "value": 7 },
+        { "label": "2 ≤ d < 4", "value": 13 },
+        { "label": "4 ≤ d < 6", "value": 5 }
+      ]
+    },
+    "85": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "10 ≤ a < 11", "value": 8 },
+        { "label": "11 ≤ a < 12", "value": 15 },
+        { "label": "12 ≤ a < 13", "value": 6 }
+      ]
+    },
+    "86": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ h < 2", "value": 9 },
+        { "label": "2 ≤ h < 4", "value": 12 },
+        { "label": "4 ≤ h < 6", "value": 4 }
+      ]
+    },
+    "87": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ h < 2", "value": 9 },
+        { "label": "2 ≤ h < 4", "value": 12 },
+        { "label": "4 ≤ h < 6", "value": 4 }
+      ]
+    },
+    "88": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "50 ≤ s < 60", "value": 6 },
+        { "label": "60 ≤ s < 70", "value": 11 },
+        { "label": "70 ≤ s < 80", "value": 9 },
+        { "label": "80 ≤ s < 90", "value": 4 }
+      ]
+    },
+    "89": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "50 ≤ s < 60", "value": 6 },
+        { "label": "60 ≤ s < 70", "value": 11 },
+        { "label": "70 ≤ s < 80", "value": 9 },
+        { "label": "80 ≤ s < 90", "value": 4 }
+      ]
+    },
+    "90": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "50 ≤ s < 60", "value": 6 },
+        { "label": "60 ≤ s < 70", "value": 11 },
+        { "label": "70 ≤ s < 80", "value": 9 },
+        { "label": "80 ≤ s < 90", "value": 4 }
+      ]
+    },
+    "91": {
+      "type": "lineChart",
+      "title": "Weekly takings",
+      "xLabel": "Week",
+      "yLabel": "Takings (£)",
+      "series": [
+        { "label": "Wk1", "value": 420 },
+        { "label": "Wk2", "value": 460 },
+        { "label": "Wk3", "value": 410 },
+        { "label": "Wk4", "value": 500 }
+      ]
+    },
+    "92": {
+      "type": "lineChart",
+      "title": "Weekly takings",
+      "xLabel": "Week",
+      "yLabel": "Takings (£)",
+      "series": [
+        { "label": "Wk1", "value": 420 },
+        { "label": "Wk2", "value": 460 },
+        { "label": "Wk3", "value": 410 },
+        { "label": "Wk4", "value": 500 }
+      ]
+    },
+    "93": {
+      "type": "lineChart",
+      "title": "Plant height",
+      "xLabel": "Month",
+      "yLabel": "Height (cm)",
+      "series": [
+        { "label": "Jan", "value": 12 },
+        { "label": "Feb", "value": 15 },
+        { "label": "Mar", "value": 18 },
+        { "label": "Apr", "value": 21 }
+      ]
+    },
+    "94": {
+      "type": "lineChart",
+      "title": "Passenger counts",
+      "xLabel": "Month",
+      "yLabel": "Passengers",
+      "series": [
+        { "label": "Jan", "value": 1200 },
+        { "label": "Feb", "value": 1150 },
+        { "label": "Mar", "value": 1300 },
+        { "label": "Apr", "value": 1280 }
+      ]
+    },
+    "95": {
+      "type": "lineChart",
+      "title": "Ice-cream sales",
+      "xLabel": "Day",
+      "yLabel": "Sales (£)",
+      "series": [
+        { "label": "Mon", "value": 80 },
+        { "label": "Tue", "value": 95 },
+        { "label": "Wed", "value": 70 },
+        { "label": "Thu", "value": 110 }
+      ]
+    },
+    "96": {
+      "type": "lineChart",
+      "title": "Ice-cream sales",
+      "xLabel": "Day",
+      "yLabel": "Sales (£)",
+      "series": [
+        { "label": "Mon", "value": 80 },
+        { "label": "Tue", "value": 95 },
+        { "label": "Wed", "value": 70 },
+        { "label": "Thu", "value": 110 }
+      ]
+    },
+    "97": {
+      "type": "lineChart",
+      "title": "Savings balance",
+      "xLabel": "Quarter",
+      "yLabel": "Balance (£)",
+      "series": [
+        { "label": "Q1", "value": 200 },
+        { "label": "Q2", "value": 260 },
+        { "label": "Q3", "value": 240 },
+        { "label": "Q4", "value": 300 }
+      ]
+    },
+    "98": {
+      "type": "lineChart",
+      "title": "Temperature log",
+      "xLabel": "Day",
+      "yLabel": "Temperature (°C)",
+      "series": [
+        { "label": "Mon", "value": 14 },
+        { "label": "Tue", "value": 16 },
+        { "label": "Wed", "value": 13 },
+        { "label": "Thu", "value": 18 },
+        { "label": "Fri", "value": 17 }
+      ]
+    },
+    "99": {
+      "type": "lineChart",
+      "title": "Website visits",
+      "xLabel": "Day",
+      "yLabel": "Visits",
+      "series": [
+        { "label": "Mon", "value": 400 },
+        { "label": "Tue", "value": 450 },
+        { "label": "Wed", "value": 420 },
+        { "label": "Thu", "value": 480 },
+        { "label": "Fri", "value": 460 }
+      ]
+    },
+    "100": {
+      "type": "lineChart",
+      "title": "Website visits",
+      "xLabel": "Day",
+      "yLabel": "Visits",
+      "series": [
+        { "label": "Mon", "value": 400 },
+        { "label": "Tue", "value": 450 },
+        { "label": "Wed", "value": 420 },
+        { "label": "Thu", "value": 480 },
+        { "label": "Fri", "value": 460 }
+      ]
+    },
+    "57": {
+      "type": "pieChart",
+      "title": "Favourite sport (80 pupils)",
+      "sectors": [
+        { "label": "rugby", "value": 24 },
+        { "label": "other", "value": 56 }
+      ]
+    },
+    "58": {
+      "type": "pieChart",
+      "title": "Drink choice (100 people)",
+      "sectors": [
+        { "label": "tea", "value": 20 },
+        { "label": "other", "value": 80 }
+      ]
+    },
+    "59": {
+      "type": "pieChart",
+      "title": "Favourite sport (90 pupils)",
+      "sectors": [
+        { "label": "football", "value": 40 },
+        { "label": "other", "value": 50 }
+      ]
+    },
+    "60": {
+      "type": "pieChart",
+      "title": "Travel (50 people)",
+      "sectors": [
+        { "label": "cycling", "value": 5 },
+        { "label": "other", "value": 45 }
+      ]
+    },
+    "121": {
+      "type": "pieChart",
+      "title": "Lunch survey",
+      "sectors": [
+        { "label": "sandwich", "value": 28 },
+        { "label": "hot meal", "value": 32 },
+        { "label": "salad", "value": 12 },
+        { "label": "packed lunch", "value": 8 }
+      ]
+    },
+    "122": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Boys · sport yes", "value": 16 },
+        { "label": "Boys · sport no", "value": 10 },
+        { "label": "Girls · sport yes", "value": 14 },
+        { "label": "Girls · sport no", "value": 16 }
+      ]
+    },
+    "123": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "60 ≤ p < 70", "value": 5 },
+        { "label": "70 ≤ p < 80", "value": 18 },
+        { "label": "80 ≤ p < 90", "value": 11 },
+        { "label": "90 ≤ p < 100", "value": 2 }
+      ]
+    },
+    "124": {
+      "type": "lineChart",
+      "title": "Monthly counts",
+      "xLabel": "Month",
+      "yLabel": "Count",
+      "series": [
+        { "label": "Jan", "value": 12 },
+        { "label": "Feb", "value": 15 },
+        { "label": "Mar", "value": 14 },
+        { "label": "Apr", "value": 18 },
+        { "label": "May", "value": 20 },
+        { "label": "Jun", "value": 19 }
+      ]
+    },
+    "125": {
+      "type": "pieChart",
+      "title": "Club choices (96 pupils)",
+      "sectors": [
+        { "label": "club A", "value": 32 },
+        { "label": "club B", "value": 24 },
+        { "label": "club C", "value": 24 },
+        { "label": "club D", "value": 16 }
+      ]
+    },
+    "126": {
+      "type": "barChart",
+      "title": "Dice scores",
+      "categories": [
+        { "label": "1", "value": 4 },
+        { "label": "2", "value": 7 },
+        { "label": "3", "value": 9 },
+        { "label": "4", "value": 11 },
+        { "label": "5", "value": 6 },
+        { "label": "6", "value": 3 }
+      ]
+    },
+    "127": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Vegetarian · boys", "value": 8 },
+        { "label": "Vegetarian · girls", "value": 12 },
+        { "label": "Not veg · boys", "value": 10 },
+        { "label": "Not veg · girls", "value": 15 }
+      ]
+    },
+    "128": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ m < 2", "value": 6 },
+        { "label": "2 ≤ m < 4", "value": 15 },
+        { "label": "4 ≤ m < 6", "value": 9 },
+        { "label": "6 ≤ m < 8", "value": 4 }
+      ]
+    },
+    "129": {
+      "type": "lineChart",
+      "title": "Weekly sales",
+      "xLabel": "Week",
+      "yLabel": "Sales",
+      "series": [
+        { "label": "W1", "value": 540 },
+        { "label": "W2", "value": 520 },
+        { "label": "W3", "value": 580 },
+        { "label": "W4", "value": 610 },
+        { "label": "W5", "value": 590 }
+      ]
+    },
+    "131": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Boys · on time", "value": 14 },
+        { "label": "Boys · late", "value": 6 },
+        { "label": "Girls · on time", "value": 18 },
+        { "label": "Girls · late", "value": 2 }
+      ]
+    },
+    "132": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ t < 5", "value": 3 },
+        { "label": "5 ≤ t < 10", "value": 8 },
+        { "label": "10 ≤ t < 15", "value": 12 },
+        { "label": "15 ≤ t < 20", "value": 7 }
+      ]
+    },
+    "133": {
+      "type": "lineChart",
+      "title": "Daily visitors",
+      "xLabel": "Day",
+      "yLabel": "Visitors",
+      "series": [
+        { "label": "Mon", "value": 3 },
+        { "label": "Tue", "value": 4 },
+        { "label": "Wed", "value": 3 },
+        { "label": "Thu", "value": 5 },
+        { "label": "Fri", "value": 6 },
+        { "label": "Sat", "value": 8 },
+        { "label": "Sun", "value": 7 }
+      ]
+    },
+    "134": {
+      "type": "pieChart",
+      "title": "Transport survey (120 people)",
+      "sectors": [
+        { "label": "car", "value": 54 },
+        { "label": "bus", "value": 36 },
+        { "label": "train", "value": 18 },
+        { "label": "cycle", "value": 12 }
+      ]
+    },
+    "135": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Glasses · boys", "value": 9 },
+        { "label": "Glasses · girls", "value": 15 },
+        { "label": "No glasses · boys", "value": 19 },
+        { "label": "No glasses · girls", "value": 21 }
+      ]
+    },
+    "136": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "150 ≤ h < 160", "value": 4 },
+        { "label": "160 ≤ h < 170", "value": 16 },
+        { "label": "170 ≤ h < 180", "value": 12 }
+      ]
+    },
+    "137": {
+      "type": "lineChart",
+      "title": "Weekly totals",
+      "xLabel": "Week",
+      "yLabel": "Total",
+      "series": [
+        { "label": "Wk1", "value": 11 },
+        { "label": "Wk2", "value": 13 },
+        { "label": "Wk3", "value": 12 },
+        { "label": "Wk4", "value": 15 }
+      ]
+    },
+    "138": {
+      "type": "pieChart",
+      "title": "Survey categories (200 people)",
+      "sectors": [
+        { "label": "A", "value": 44 },
+        { "label": "B", "value": 56 },
+        { "label": "C", "value": 67 },
+        { "label": "D", "value": 33 }
+      ]
+    },
+    "139": {
+      "type": "barChart",
+      "title": "Books read",
+      "categories": [
+        { "label": "0", "value": 6 },
+        { "label": "1", "value": 10 },
+        { "label": "2", "value": 8 },
+        { "label": "3", "value": 4 },
+        { "label": "4", "value": 2 }
+      ]
+    },
+    "140": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Bus · boys", "value": 12 },
+        { "label": "Bus · girls", "value": 8 },
+        { "label": "No bus · boys", "value": 13 },
+        { "label": "No bus · girls", "value": 17 }
+      ]
+    },
+    "141": {
+      "type": "pieChart",
+      "title": "Favourite colours",
+      "sectors": [
+        { "label": "red", "value": 9 },
+        { "label": "blue", "value": 11 },
+        { "label": "green", "value": 6 },
+        { "label": "yellow", "value": 4 }
+      ]
+    },
+    "142": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Left · artist", "value": 5 },
+        { "label": "Left · not artist", "value": 7 },
+        { "label": "Right · artist", "value": 11 },
+        { "label": "Right · not artist", "value": 17 }
+      ]
+    },
+    "143": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "0 ≤ s < 10", "value": 2 },
+        { "label": "10 ≤ s < 20", "value": 8 },
+        { "label": "20 ≤ s < 30", "value": 10 }
+      ]
+    },
+    "144": {
+      "type": "lineChart",
+      "title": "Daily sales",
+      "xLabel": "Day",
+      "yLabel": "Sales (£)",
+      "series": [
+        { "label": "Tue", "value": 340 },
+        { "label": "Wed", "value": 360 },
+        { "label": "Thu", "value": 355 },
+        { "label": "Fri", "value": 390 }
+      ]
+    },
+    "146": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Choir · boys", "value": 10 },
+        { "label": "Choir · girls", "value": 14 },
+        { "label": "Not choir · boys", "value": 8 },
+        { "label": "Not choir · girls", "value": 6 }
+      ]
+    },
+    "147": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "10 ≤ t < 20", "value": 5 },
+        { "label": "20 ≤ t < 30", "value": 9 },
+        { "label": "30 ≤ t < 40", "value": 6 }
+      ]
+    },
+    "168": {
+      "type": "lineChart",
+      "title": "Monthly index",
+      "xLabel": "Month",
+      "yLabel": "Value",
+      "series": [
+        { "label": "M1", "value": 50 },
+        { "label": "M2", "value": 45 },
+        { "label": "M3", "value": 48 },
+        { "label": "M4", "value": 55 },
+        { "label": "M5", "value": 60 },
+        { "label": "M6", "value": 58 }
+      ]
+    },
+    "148": {
+      "type": "lineChart",
+      "title": "Rainfall",
+      "xLabel": "Month",
+      "yLabel": "Rain (mm)",
+      "series": [
+        { "label": "Apr", "value": 40 },
+        { "label": "May", "value": 55 },
+        { "label": "Jun", "value": 48 },
+        { "label": "Jul", "value": 62 }
+      ]
+    },
+    "149": {
+      "type": "pieChart",
+      "title": "Travel survey (84 pupils)",
+      "sectors": [
+        { "label": "walk", "value": 21 },
+        { "label": "bus", "value": 35 },
+        { "label": "car", "value": 14 },
+        { "label": "bike", "value": 14 }
+      ]
+    },
+    "150": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Packed · boys", "value": 16 },
+        { "label": "Packed · girls", "value": 10 },
+        { "label": "Meal · boys", "value": 8 },
+        { "label": "Meal · girls", "value": 14 }
+      ]
+    },
+    "151": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "5 ≤ m < 10", "value": 7 },
+        { "label": "10 ≤ m < 15", "value": 13 },
+        { "label": "15 ≤ m < 20", "value": 5 }
+      ]
+    },
+    "152": {
+      "type": "lineChart",
+      "title": "Website hits",
+      "xLabel": "Day",
+      "yLabel": "Hits",
+      "series": [
+        { "label": "day 1", "value": 1200 },
+        { "label": "day 2", "value": 1350 },
+        { "label": "day 3", "value": 1280 },
+        { "label": "day 4", "value": 1400 }
+      ]
+    },
+    "154": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Cricket · boys", "value": 12 },
+        { "label": "Cricket · girls", "value": 8 },
+        { "label": "Not cricket · boys", "value": 6 },
+        { "label": "Not cricket · girls", "value": 14 }
+      ]
+    },
+    "155": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "13 ≤ a < 14", "value": 10 },
+        { "label": "14 ≤ a < 15", "value": 14 },
+        { "label": "15 ≤ a < 16", "value": 6 }
+      ]
+    },
+    "156": {
+      "type": "lineChart",
+      "title": "Bus passengers",
+      "xLabel": "Day",
+      "yLabel": "Passengers",
+      "series": [
+        { "label": "Mon", "value": 220 },
+        { "label": "Tue", "value": 240 },
+        { "label": "Wed", "value": 235 },
+        { "label": "Thu", "value": 250 },
+        { "label": "Fri", "value": 245 }
+      ]
+    },
+    "158": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Dog · boys yes", "value": 7 },
+        { "label": "Dog · boys no", "value": 13 },
+        { "label": "Dog · girls yes", "value": 9 },
+        { "label": "Dog · girls no", "value": 11 }
+      ]
+    },
+    "174": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Boys · maths", "value": 25 },
+        { "label": "Boys · art", "value": 5 },
+        { "label": "Girls · maths", "value": 10 },
+        { "label": "Girls · art", "value": 20 }
+      ]
+    },
+    "186": {
+      "type": "frequencyTable",
+      "rows": [
+        { "label": "Boys · fiction", "value": 10 },
+        { "label": "Boys · non-fiction", "value": 8 },
+        { "label": "Girls · fiction", "value": 12 },
+        { "label": "Girls · non-fiction", "value": 6 }
+      ]
+    },
+    "180": {
+      "type": "lineChart",
+      "title": "Time series",
+      "xLabel": "Time",
+      "yLabel": "Value",
+      "series": [
+        { "label": "T1", "value": 12 },
+        { "label": "T2", "value": 13 },
+        { "label": "T3", "value": 14 },
+        { "label": "T4", "value": 40 },
+        { "label": "T5", "value": 15 }
+      ]
+    }
+  }
+}
