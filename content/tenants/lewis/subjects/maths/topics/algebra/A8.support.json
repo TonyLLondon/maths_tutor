@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "In $(1, 2)$ the first number is the $x$-coordinate.",
+      "help": "Coordinates are $(x, y)$ — first value is **$x$**.\n\nSo $x = 1$.\n\nFirst number is horizontal."
+    },
+    "2": {
+      "hint": "The second number in a pair is the $y$-coordinate.",
+      "help": "In $(1, 2)$, **$y = 2$**.\n\nSecond value is vertical position.\n\nAnswer: 2."
+    },
+    "3": {
+      "hint": "Write the pair as $(x, y)$ with $x=2$ first.",
+      "help": "Point is **$(2, 3)$**.\n\n$x$ first, $y$ second.\n\nOrder matters in coordinates."
+    },
+    "4": {
+      "hint": "Moving right from $(0,0)$ increases $x$ by 1.",
+      "help": "You reach **$(1, 0)$**.\n\nRight = +1 to $x$, $y$ stays 0.\n\nOne unit right on $x$-axis."
+    },
+    "5": {
+      "hint": "Moving up from the origin increases $y$ by 2.",
+      "help": "Point **$(0, 2)$**.\n\nUp changes $y$ only from $(0,0)$.\n\nOn the $y$-axis."
+    },
+    "6": {
+      "hint": "$y = x$ means $y$ equals $x$ — when $x=1$, what is $y$?",
+      "help": "$y = 1$.\n\nLine $y=x$ — same value both coordinates.\n\nAnswer 1."
+    },
+    "7": {
+      "hint": "Add 1 to $x=1$ in $y = x + 1$.",
+      "help": "$y = 1 + 1 = 2$.\n\nOne more than $x$.\n\n$y = 2$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "8": {
+      "hint": "Double $x=2$ in $y = 2x$.",
+      "help": "$y = 4$.\n\nMultiply $x$ by 2.\n\nAnswer 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "9": {
+      "hint": "3 right and 2 up from $(0,0)$ gives $(3, 2)$.",
+      "help": "Coordinates **$(3, 2)$**.\n\nRight positive $x$, up positive $y$.\n\nWrite $(3, 2)$."
+    },
+    "10": {
+      "hint": "4 left means $x = -4$; 1 down means $y = -1$.",
+      "help": "Point **$(-4, -1)$**.\n\nLeft/down use negative steps.\n\nQuadrant III region."
+    },
+    "11": {
+      "hint": "For each $x$, compute $x + 1$.",
+      "help": "Row: **1, 2, 3, 4** for $x = 0,1,2,3$.\n\nAdd 1 to each $x$.\n\nFill table."
+    },
+    "12": {
+      "hint": "Multiply each $x$ by 2.",
+      "help": "Outputs **0, 2, 4, 6**.\n\n$y = 2x$ table.\n\nDouble each input."
+    },
+    "13": {
+      "hint": "Pattern adds 1 each time $x$ increases by 1 — find $y$ when $x=4$.",
+      "help": "Line $y = x + 1$ style: when $x=4$, $y=**5**$.\n\nContinue +1 pattern from $(2,3)$.\n\n$y = 5$."
+    },
+    "14": {
+      "hint": "$y$ doubles when $x$ goes up 1 — at $x=5$, $y$ is?",
+      "help": "$y = 2x$ gives $y = **10**$ at $x=5$.\n\nFrom $(2,4)$ pattern.\n\nAnswer 10."
+    },
+    "15": {
+      "hint": "On the $x$-axis, $y$ must be 0.",
+      "help": "**$(3, 0)$** has $y=0$.\n\n$x$-axis points look like $(a, 0)$.\n\nPick $(3,0)$."
+    },
+    "16": {
+      "hint": "On the $y$-axis, $x$ is 0.",
+      "help": "**$(0, 5)$** lies on $y$-axis.\n\nForm $(0, b)$.\n\n$x=0$ on vertical axis."
+    },
+    "17": {
+      "hint": "Negative $y$ means below the $x$-axis.",
+      "help": "$(2, -3)$ has $y=-3$ — **below** $x$-axis.\n\nNegative height.\n\nAnswer: below."
+    },
+    "18": {
+      "hint": "Compute $10 + 1$.",
+      "help": "$y = **11**$.\n\nLarge $x$ same rule.\n\n$y = 11$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "19": {
+      "hint": "Triple $x=4$.",
+      "help": "$y = 12$.\n\n$3 \\times 4$.\n\nAnswer 12.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "Compare $y$ at $x=1$ and $x=0$ — difference is rise per step right.",
+      "help": "From $(0,2)$ to $(1,5)$, $y$ increases by **3** when $x$ increases by 1.\n\nGradient / step up is 3.\n\nIncrease of 3."
+    },
+    "21": {
+      "hint": "If slope is 3 per 1 right, at $x=2$ is $y$ double the step from origin?",
+      "help": "From $(0,0)$ to $(1,3)$, at $(2,6)$ $y$ is $2\\times3$ — **yes**, on same line through origin with gradient 3.\n\nSame ratio $\\Delta y/\\Delta x$.\n\nExplain proportional steps."
+    },
+    "22": {
+      "hint": "Use the rule itself: for any input $x$, what is the difference between $y=x+1$ and $x$?",
+      "help": "The equation says that every output is made by adding 1 to its input. Therefore $y-x=1$ for every point on this line.\n\nA test such as $x=4$ giving $y=5$ illustrates the rule, but one example alone cannot prove an always statement.\n\nThe algebraic form $y=x+1$ shows that $y$ is always one more than $x$."
+    },
+    "23": {
+      "hint": "On $y=x$, coordinates must match — is $3=3$ for $(3,3)$?",
+      "help": "$y=x$ needs second coordinate equal first — $(3,3)$ works.\n\nPriya is **correct**.\n\nCheck $y=x$ with coordinates."
+    },
+    "24": {
+      "hint": "Compare rise in $y$ when $x$ goes 0 to 1 for each line.",
+      "help": "Line A: $(0,0)$ to $(1,2)$ rises 2. Line B rises 4.\n\n**B is steeper** — bigger $y$ jump per $x$ step.\n\nSteeper = larger gradient."
+    },
+    "25": {
+      "hint": "Lines through origin have form $y = mx$ with no + constant.",
+      "help": "Through $(0,0)$ means $y=0$ when $x=0$ — equation $y=mx$ works.\n\n**Always** (for straight lines through origin).\n\nAnswer: always."
+    },
+    "26": {
+      "hint": "When $x=0$ in $y=x+3$, $y$ should be 3, not 2.",
+      "help": "$y = 0 + 3 = **3**$ at $x=0$.\n\nSam forgot +3 intercept.\n\nCorrect $y=3$."
+    },
+    "27": {
+      "hint": "Substitute $x=5$, $y=3$ into $y=x-2$ — does it balance?",
+      "help": "Right: $5-2=3$ matches given $y=3$.\n\n**Yes**, point on line.\n\nShow substitution."
+    },
+    "28": {
+      "hint": "Same slope, different starting height — parallel lines.",
+      "help": "Both slope 1; $y=x+1$ crosses $y$-axis at 1, $y=x+5$ at 5.\n\n**Parallel**, second higher.\n\nSame steepness, shifted up."
+    },
+    "29": {
+      "hint": "Cost = 3 + 2×miles for each mile value 0,1,2,3.",
+      "help": "Table: **3, 5, 7, 9** pounds.\n\nStraight line graph — linear, slope 2, intercept 3.\n\nDescribe: straight line, steeper than flat."
+    },
+    "30": {
+      "hint": "£1 unlock plus 50p per 10-minute block — build costs for 0,10,20,30 min.",
+      "help": "Costs: **1, 1.5, 2, 2.5** pounds (example structure).\n\nStraight line when cost vs time is linear.\n\nTable then describe linear graph."
+    },
+    "31": {
+      "hint": "Write $C = 5 + 0.1t$ pounds; substitute $t=20$.",
+      "help": "Equation $C = 5 + 0.1t$. At 20 texts: $5 + 2 = **£7**$.\n\n10p = £0.1 per text.\n\n£7 for 20 texts."
+    },
+    "32": {
+      "hint": "$w = 5 + 2m$; plug $m=6$.",
+      "help": "$w = 5 + 12 = **17** litres.\n\nStart 5 L, +2 per minute.\n\n17 litres after 6 min."
+    },
+    "33": {
+      "hint": "Stall A: $n+4$; Stall B: $2n$. Set them equal.",
+      "help": "$n+4=2n$ → $n=**4** items, cost **£8** each stall.\n\nSolve where expressions match.\n\n4 items, £8."
+    },
+    "34": {
+      "hint": "Solve $3t = 15$ for hours $t$.",
+      "help": "$t = **5** hours.\n\nDivide distance by 3 km/h.\n\n5 hours.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "35": {
+      "hint": "2 right, 3 up from origin.",
+      "help": "Coordinates **$(2, 3)$**.\n\nStandard $(x,y)$ from moves.\n\n$(2,3)$."
+    },
+    "36": {
+      "hint": "Add 2 to each $x$ in the table for $y=x+2$.",
+      "help": "Values **2, 3, 4** for $x=0,1,2$.\n\n+2 rule.\n\nFill row.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "37": {
+      "hint": "Multiply $x=4$ by 2.",
+      "help": "$y = **8**$.\n\n$y=2x$.\n\nAnswer 8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "38": {
+      "hint": "Point with $x=0$ lies on vertical axis.",
+      "help": "**$y$-axis** — form $(0, 5)$.\n\n$x=0$ on vertical axis.\n\n$y$-axis."
+    },
+    "39": {
+      "hint": "Moving right adds 3 to $x$; start $x=1$.",
+      "help": "New $x = 1 + 3 = **4**$.\n\n$y$ unchanged at 2.\n\n$x$-coordinate 4."
+    },
+    "40": {
+      "hint": "Through $(0,0)$ and $(2,4)$ — gradient 2; find $y$ at $x=3$.",
+      "help": "$y = 2x$ gives $y = **6**$ at $x=3$.\n\nDouble $x$ rule.\n\n$y=6$."
+    },
+    "41": {
+      "hint": "Pick three points on a sloped line, e.g. $y=2x+1$, and describe +2 in $y$ per +1 in $x$.",
+      "help": "Example points $(0,1),(1,3),(2,5)$ on $y=2x+1$.\n\nWhen $x$ up 1, $y$ up 2 — **gradient 2**.\n\nDescribe constant change."
+    },
+    "42": {
+      "hint": "Same gradient 2, different intercepts — are lines parallel?",
+      "help": "Both slope 2, different +1 and +5 — **parallel**, never meet.\n\nSame steepness, different heights.\n\nNever cross."
+    },
+    "43": {
+      "hint": "Gradient = change in $y$ ÷ change in $x$ from $(0,3)$ to $(2,7)$.",
+      "help": "Gradient $(7-3)/(2-0)=**2**$. $y=2x+3$.\n\nIntercept 3 at $x=0$.\n\nEquation $y=2x+3$."
+    },
+    "44": {
+      "hint": "Find gradient from $(0,5)$ to $(2,17)$, write $y=mx+c$, predict at 5 pizzas.",
+      "help": "Gradient $(17-5)/2=6$. Equation $y=6x+5$. At 5 pizzas: $6(5)+5=**£35**$.\n\nLinear cost model.\n\nShow gradient and prediction."
+    },
+    "45": {
+      "hint": "Left is negative x; up is positive y.",
+      "help": "From $(0,0)$, three left gives $x=-3$, two up gives $y=2$.\n\nExample move: $(-1,1)$ is one left, one up.\n\nWrite $(-3,2)$."
+    },
+    "46": {
+      "hint": "Right is positive x; down is negative y.",
+      "help": "Four right → $x=4$; three down → $y=-3$.\n\nTry $(2,-1)$ as a smaller example on the same idea.\n\nAnswer $(4,-3)$."
+    },
+    "47": {
+      "hint": "Second quadrant: x negative, y positive.",
+      "help": "$(-2,5)$ has $x<0$ and $y>0$ → **quadrant II**.\n\nExample $(-4,1)$ is also quadrant II.\n\nName: second."
+    },
+    "48": {
+      "hint": "Fourth quadrant: x positive, y negative.",
+      "help": "$(3,-4)$ has $x>0$, $y<0$ → **IV**.\n\nExample $(5,-1)$ fits the same signs.\n\nFourth quadrant."
+    },
+    "49": {
+      "hint": "Third quadrant: both coordinates negative.",
+      "help": "$(-1,-6)$ lies where both numbers are negative.\n\nExample $(-2,-2)$ is also quadrant III.\n\nThird quadrant."
+    },
+    "50": {
+      "hint": "First quadrant: both coordinates positive.",
+      "help": "$(7,2)$ has $x>0$ and $y>0$ → **quadrant I**.\n\nExample $(1,8)$ is also in I.\n\nFirst quadrant."
+    },
+    "51": {
+      "hint": "The first number in $(x,y)$ is $x$.",
+      "help": "In $(-9,1)$ the $x$-coordinate is **-9**.\n\nExample: $(-2,5)$ has $x=-2$.\n\nAnswer -9."
+    },
+    "52": {
+      "hint": "The second number is $y$.",
+      "help": "In $(4,-2)$ the $y$-coordinate is **-2**.\n\nExample: $(0,-5)$ has $y=-5$.\n\nAnswer -2."
+    },
+    "53": {
+      "hint": "On the x-axis, $y=0$.",
+      "help": "Point with $x=-5$ on the axis is **$(-5,0)$**.\n\nExample: $(3,0)$ is three right on the axis.\n\nWrite $(-5,0)$."
+    },
+    "54": {
+      "hint": "On the y-axis, $x=0$.",
+      "help": "If $y=-3$ on the vertical axis, coordinates are **$(0,-3)$**.\n\nExample $(0,4)$ is four up on the axis.\n\n$(0,-3)$."
+    },
+    "55": {
+      "hint": "Left 4 → $x=-4$; down 2 → $y=-2$.",
+      "help": "Moves from origin: **$(-4,-2)$**.\n\nExample: two left, one down → $(-2,-1)$.\n\nWrite $(-4,-2)$."
+    },
+    "56": {
+      "hint": "Left subtracts from $x$; $y$ stays the same.",
+      "help": "$x=3-2=**1**$; $y$ still $-1$.\n\nExample: from $(5,2)$ left 3 → $x=2$.\n\nNew $x$ is 1."
+    },
+    "57": {
+      "hint": "Down subtracts from $y$.",
+      "help": "$y=5-4=**1**$ at $x=-2$.\n\nExample: from $(1,6)$ down 2 → $y=4$.\n\nNew $y$ is 1."
+    },
+    "58": {
+      "hint": "Quadrant III needs both $x$ and $y$ negative.",
+      "help": "**$(-3,-2)$** fits; $(2,-1)$ is IV; $(-2,4)$ is II.\n\nExample quadrant III: $(-1,-1)$.\n\nPick $(-3,-2)$."
+    },
+    "59": {
+      "hint": "Opposite through origin negates both coordinates.",
+      "help": "Opposite of $(4,-2)$ is **$(-4,2)$**.\n\nExample: opposite of $(1,3)$ is $(-1,-3)$.\n\nWrite $(-4,2)$."
+    },
+    "60": {
+      "hint": "On $y=x$, the two coordinates must match.",
+      "help": "$-5=-5$ so **yes**, $(-5,-5)$ lies on $y=x$.\n\nExample: $(2,2)$ works; $(2,3)$ does not.\n\nYes."
+    },
+    "61": {
+      "hint": "Substitute $x=-2$ into $y=x-3$.",
+      "help": "$y=-2-3=**-5**$.\n\nExample: $x=0$ gives $y=-3$ on the same line.\n\n$y=-5$."
+    },
+    "62": {
+      "hint": "Compute $-2\\times 3 + 1$.",
+      "help": "$y=-6+1=**-5**$.\n\nExample: $x=0$ gives $y=1$.\n\nAnswer -5. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "63": {
+      "hint": "Double $-3$ and add 5.",
+      "help": "$y=2(-3)+5=**-1**$.\n\nExample: $x=0$ → $y=5$.\n\n$y=-1$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "64": {
+      "hint": "Plug $x=1$ into $y=-3x+2$ and compare to $-1$.",
+      "help": "$y=-3+2=-1$ matches the point → **yes**.\n\nExample check: $(0,2)$ also works.\n\nYes."
+    },
+    "65": {
+      "hint": "Add 4 to $x=-4$.",
+      "help": "$y=-4+4=**0**$.\n\nExample: $x=0$ → $y=4$ on $y=x+4$.\n\n$y=0$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "66": {
+      "hint": "y-intercept: set $x=0$.",
+      "help": "$y=0-7=**-7**$.\n\nExample: $y=x+2$ crosses at $(0,2)$.\n\n$y=-7$."
+    },
+    "67": {
+      "hint": "Set $y=0$ and solve for $x$.",
+      "help": "$0=2x+8$ → $x=**-4**$.\n\nExample: $y=2x-4$ crosses at $(2,0)$.\n\n$x=-4$."
+    },
+    "68": {
+      "hint": "Horizontal side length is the change in $x$.",
+      "help": "From $x=-2$ to $x=4$ is **6** units.\n\nExample: $(1,0)$ to $(4,0)$ has length 3.\n\n6 units."
+    },
+    "69": {
+      "hint": "Midpoint: average the $x$ values (and $y$).",
+      "help": "$x=(-6+2)/2=**-2**$, $y=0$ → $(-2,0)$.\n\nExample: midpoint of $(0,0)$ and $(4,0)$ is $(2,0)$.\n\n$(-2,0)$."
+    },
+    "70": {
+      "hint": "Average the $y$ values when $x$ is fixed at 0.",
+      "help": "$y=(-4+8)/2=**2**$ → $(0,2)$.\n\nExample: $(0,2)$ and $(0,6)$ → $(0,4)$.\n\n$(0,2)$."
+    },
+    "71": {
+      "hint": "Quadrant II: negative $x$, positive $y$.",
+      "help": "Any pair like **$(-2,5)$** works if both non-zero.\n\nExample $(-1,4)$ is valid.\n\nWrite one example pair."
+    },
+    "72": {
+      "hint": "Quadrant IV: positive $x$, negative $y$.",
+      "help": "Example **$(3,-2)$**.\n\n$(2,-5)$ also works.\n\nGive one coordinate pair."
+    },
+    "73": {
+      "hint": "Compare the first numbers in each pair.",
+      "help": "$2>-1$ so **2** is larger.\n\nExample: compare $-3$ and $1$ → $1$ is larger.\n\nAnswer 2."
+    },
+    "74": {
+      "hint": "East increases $x$; north increases $y$.",
+      "help": "From $(-1,-1)$: $x=-1+3=2$, $y=-1+2=1$ → **$(2,1)$**.\n\nExample: from $(0,0)$ east 2 north 1 → $(2,1)$.\n\n$(2,1)$."
+    },
+    "75": {
+      "hint": "The $y$-value is the temperature reading.",
+      "help": "Point $(12,-2)$ shows **-2°C**.\n\nExample: $(6,3)$ would mean 3°C.\n\n-2."
+    },
+    "76": {
+      "hint": "$y=-x$ means negate $x$.",
+      "help": "$y=-5$ when $x=5$.\n\nExample: $x=2$ → $y=-2$.\n\n$y=-5$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "77": {
+      "hint": "Negate $x=-5$.",
+      "help": "$y=-(-5)=**5**$.\n\nExample: $x=-1$ → $y=1$.\n\n$y=5$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "78": {
+      "hint": "Does $3$ equal $-(-3)$?",
+      "help": "$-(-3)=3$ so **yes**.\n\nExample: $(2,-2)$ lies on $y=-x$.\n\nYes."
+    },
+    "79": {
+      "hint": "Every point on $y=2$ has the same $y$.",
+      "help": "**$y=2$** everywhere on that horizontal line.\n\nExample: $(100,2)$ and $(-5,2)$ share $y=2$.\n\n$y=2$."
+    },
+    "80": {
+      "hint": "Every point on $x=-2$ shares that $x$.",
+      "help": "**$x=-2$** on the whole vertical line.\n\nExample: $(-2,50)$ and $(-2,-1)$ both have $x=-2$.\n\n$x=-2$."
+    },
+    "81": {
+      "hint": "Add 2 to $x=-3$.",
+      "help": "$y=-3+2=**-1**$.\n\nExample: $x=1$ → $y=3$ on $y=x+2$.\n\n-1. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "82": {
+      "hint": "Triple $-2$ and subtract 1.",
+      "help": "$y=3(-2)-1=**-7**$.\n\nExample: $x=1$ → $y=2$.\n\n-7. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "83": {
+      "hint": "Same $y$ means same height; compare $x$ signs.",
+      "help": "Both have $y=2$ but $x=4$ and $x=-4$ are **opposites** across the $y$-axis.\n\nExample: $(1,3)$ and $(-1,3)$ behave similarly.\n\nExplain opposite $x$."
+    },
+    "84": {
+      "hint": "Reflect in $y$-axis: change sign of $x$ only.",
+      "help": "$(3,5)$ → **$(-3,5)$**.\n\nExample: $(2,1)$ → $(-2,1)$.\n\n$(-3,5)$."
+    },
+    "85": {
+      "hint": "Reflect in $x$-axis: change sign of $y$.",
+      "help": "$(-2,4)$ → **$(-2,-4)$**.\n\nExample: $(5,1)$ → $(5,-1)$.\n\n$(-2,-4)$."
+    },
+    "86": {
+      "hint": "Through origin reflection negates both coordinates.",
+      "help": "$(-3,-1)$ → **$(3,1)$**.\n\nExample: $(2,-4)$ → $(-2,4)$.\n\n$(3,1)$."
+    },
+    "87": {
+      "hint": "Gradient = change in $y$ ÷ change in $x$.",
+      "help": "$(3-(-1))/(2-(-2))=4/4=**1**$.\n\nExample: $(0,0)$ to $(2,2)$ also has gradient 1.\n\nGradient 1."
+    },
+    "88": {
+      "hint": "Use $(0,-4)$ and $(2,0)$.",
+      "help": "Rise 4 over run 2 → gradient **2**.\n\nExample: $(0,0)$ to $(1,2)$ has gradient 2.\n\n2."
+    },
+    "89": {
+      "hint": "Start at $(0,-3)$ and go up 2 per step right.",
+      "help": "Equation **$y=2x-3$**.\n\nExample: through $(0,1)$ with gradient 2 → $y=2x+1$.\n\n$y=2x-3$."
+    },
+    "90": {
+      "hint": "Intercept 5 with slope -1.",
+      "help": "**$y=-x+5$**.\n\nExample: gradient $-2$ through $(0,3)$ → $y=-2x+3$.\n\n$y=-x+5$."
+    },
+    "91": {
+      "hint": "Quadrant II sign pattern.",
+      "help": "Second quadrant points have **negative $x$**, **positive $y$** → true.\n\nExample $(-1,2)$ supports this.\n\nTrue with reason."
+    },
+    "92": {
+      "hint": "Points on an axis are not inside a quadrant.",
+      "help": "$(0,-2)$ sits on the **$y$-axis**, not in quadrant IV → **false**.\n\nExample: $(0,3)$ is also on an axis.\n\nFalse."
+    },
+    "93": {
+      "hint": "Both positive → quadrant I.",
+      "help": "That is exactly the definition of quadrant **I** → always.\n\nExample $(2,7)$ fits.\n\nAlways."
+    },
+    "94": {
+      "hint": "Distance to the $x$-axis uses $|y|$.",
+      "help": "Both points are **5 units** from the axis; Milo compared raw numbers wrongly.\n\nExample: $(-2,3)$ and $(-2,-3)$ are equally far.\n\nExplain $|y|$."
+    },
+    "95": {
+      "hint": "Reflection in $y$-axis flips $x$.",
+      "help": "**True** — $y$ unchanged, $x$ changes sign.\n\nExample: $(4,1)$ → $(-4,1)$.\n\nTrue."
+    },
+    "96": {
+      "hint": "Compare their $y$ coordinates.",
+      "help": "Both finish at **$y=4$** (same height).\n\nExample: $(-2,4)$ and $(2,4)$ are symmetric.\n\nSame $y$."
+    },
+    "97": {
+      "hint": "Average of two positives stays positive.",
+      "help": "Midpoint averages $x$ and $y$ — if both inputs positive, outputs stay positive → **always** in I.\n\nExample: $(1,2)$ and $(3,4)$ → $(2,3)$.\n\nAlways."
+    },
+    "98": {
+      "hint": "Try a negative $x$ on $y=-x$.",
+      "help": "If $x=-2$, $y=2>0$ → **true**.\n\nExample: $x=-1$ → $y=1$.\n\nTrue."
+    },
+    "99": {
+      "hint": "Are the two points identical?",
+      "help": "**No** — they are different locations (origin reflection pair).\n\nExample: $(1,2)$ is not $(-1,-2)$ unless special case.\n\nNot the same."
+    },
+    "100": {
+      "hint": "A horizontal line stays at one height.",
+      "help": "Cannot visit all four quadrants unless it is the axis $y=0$ → **false** for $y=2$ style lines.\n\nExample $y=1$ only crosses I and II.\n\nFalse."
+    },
+    "101": {
+      "hint": "Signs of $-a$ and $-b$ when $a,b>0$.",
+      "help": "Both negative → **third quadrant**, always.\n\nExample: $a=2,b=3$ → $(-2,-3)$.\n\nAlways."
+    },
+    "102": {
+      "hint": "Set $y=0$ for $x$-intercept.",
+      "help": "$0=2x-6$ gives $x=**3**$.\n\nExample: $y=4x-8$ crosses at $x=2$.\n\nExplain $x=3$."
+    },
+    "103": {
+      "hint": "Count units along the axis from the origin.",
+      "help": "From 0 to $-6$ on the $x$-axis is **6 units** → true.\n\nExample: $(-4,0)$ is 4 units from origin.\n\nTrue."
+    },
+    "104": {
+      "hint": "Top-left is quadrant II.",
+      "help": "**Yes** — negative $x$, positive $y$.\n\nExample: $(-3,2)$ is quadrant II.\n\nYes."
+    },
+    "105": {
+      "hint": "Can one point lie on both axes?",
+      "help": "Only the **origin** lies on both; $(-1,0)$ is on $x$-axis only → **false**.\n\nExample: $(0,0)$ is on both.\n\nFalse."
+    },
+    "106": {
+      "hint": "Plug in $x=0$ for $y=mx$.",
+      "help": "$y=0$ always → line through origin → **always**.\n\nExample: $y=7x$ passes through $(0,0)$.\n\nAlways."
+    },
+    "107": {
+      "hint": "Same $y$ means flat line.",
+      "help": "Equal $y$ → zero vertical change → **horizontal** → true.\n\nExample through $(1,5)$ and $(8,5)$.\n\nTrue."
+    },
+    "108": {
+      "hint": "Subtract $y$ values; note direction.",
+      "help": "$3-(-1)=4$ units **down**.\n\nExample: $(5,2)$ to $(5,7)$ is 5 up.\n\n4 down."
+    },
+    "109": {
+      "hint": "Check $-5=-5$ on $y=x$.",
+      "help": "**True** — coordinates equal.\n\nExample: $(7,7)$ works.\n\nTrue."
+    },
+    "110": {
+      "hint": "Both reflections send $(x,y)$ to $(-x,-y)$.",
+      "help": "**Always** equivalent to origin reflection.\n\nExample: $(2,-3)$ → $(-2,3)$ either route.\n\nAlways."
+    },
+    "111": {
+      "hint": "Use gradient formula on $(-1,-1)$ and $(1,1)$.",
+      "help": "$(1-(-1))/(1-(-1))=2/2=**1**$ → true.\n\nExample: $(0,0)$ to $(3,3)$ also gradient 1.\n\nTrue."
+    },
+    "112": {
+      "hint": "Negative gradient: $y$ falls as $x$ rises.",
+      "help": "**Always** for straight lines with negative slope.\n\nExample: $y=-3x+2$.\n\nAlways."
+    },
+    "113": {
+      "hint": "Distance to $x$-axis is $|y|$.",
+      "help": "Both have $|y|=2$ → **true**.\n\nExample: $(7,-2)$ and $(7,2)$.\n\nTrue."
+    },
+    "114": {
+      "hint": "$y=0$ puts the point on the $x$-axis.",
+      "help": "Not strictly inside any quadrant — lies on **$x$-axis**.\n\nExample: $(-4,0)$.\n\nAxis, not quadrant."
+    },
+    "115": {
+      "hint": "Try a start point in quadrant I.",
+      "help": "From $(6,4)$ left 5 lands in **quadrant I** → not always II → **false**.\n\nExample showing not always.\n\nFalse."
+    },
+    "116": {
+      "hint": "Depth 8 down from surface at $x=0$.",
+      "help": "**$(0,-8)$**.\n\nExample: depth 3 → $(0,-3)$.\n\n$(0,-8)$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "117": {
+      "hint": "Add 5 to $x$; keep $y$.",
+      "help": "**$(5,-8)$**.\n\nExample: east 2 from $(0,-1)$ → $(2,-1)$.\n\n$(5,-8)$."
+    },
+    "118": {
+      "hint": "Same $y$ — horizontal distance is change in $x$.",
+      "help": "$4-(-2)=**6**$ units.\n\nExample: $(1,3)$ to $(5,3)$ → 4 units.\n\n6."
+    },
+    "119": {
+      "hint": "Count change in $x$ from 1 to $-3$.",
+      "help": "Move of **4** units in $x$.\n\nExample: $2$ to $-1$ is 3 units.\n\n4."
+    },
+    "120": {
+      "hint": "Vertical distance: subtract $y$ values.",
+      "help": "$4-(-1)=**5**$ units.\n\nExample: $(2,1)$ to $(2,6)$ → 5.\n\n5. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "121": {
+      "hint": "Subtract the two $y$ temperatures.",
+      "help": "$3-(-2)=**5**°C difference.\n\nExample: $8°C$ and $2°C$ differ by 6.\n\n5."
+    },
+    "122": {
+      "hint": "Apply east then north moves to coordinates.",
+      "help": "$(-4+6,-1+3)=**$(2,2)$**.\n\nExample: start $(0,0)$, +2 east, +1 north → $(2,1)$.\n\n$(2,2)$."
+    },
+    "123": {
+      "hint": "Substitute $x=2$ into $500+20x$.",
+      "help": "$500+40=**540** pounds.\n\nExample: month 0 → £500.\n\n540. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "124": {
+      "hint": "Both coordinates negative → quadrant III.",
+      "help": "**Third** quadrant.\n\nExample $(-1,-4)$ also III.\n\nThird. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "125": {
+      "hint": "Average $x$ and average $y$ separately.",
+      "help": "Midpoint **$(-1,-3)$**.\n\nExample: $(0,0)$ and $(4,4)$ → $(2,2)$.\n\n$(-1,-3)$."
+    },
+    "126": {
+      "hint": "Right adds to $x$; down subtracts from $y$.",
+      "help": "**$(3,-1)$**.\n\nExample: from $(0,0)$ right 1 down 2 → $(1,-2)$.\n\n$(3,-1)$."
+    },
+    "127": {
+      "hint": "Same $x$ — use difference in $y$.",
+      "help": "$5-(-3)=**8**$ units.\n\nExample: $(2,7)$ and $(2,1)$ → 6 apart.\n\n8."
+    },
+    "128": {
+      "hint": "Reflect in $y$-axis: flip sign of $x$.",
+      "help": "**$(-6,-2)$**.\n\nExample: $(1,-5)$ → $(-1,-5)$.\n\n$(-6,-2)$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "129": {
+      "hint": "Depth rises 3 cm each hour after 10, 13, 16.",
+      "help": "Hour 4 → **22 cm**.\n\nExample: +3 each step.\n\n22. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "130": {
+      "hint": "Line through $(0,3)$ and $(2,5)$ has gradient 1.",
+      "help": "$y=x+3$ at $x=-2$ gives 1, not 7 → **no**.\n\nExample: check substitution.\n\nNo."
+    },
+    "131": {
+      "hint": "East 4 then north 3 from origin.",
+      "help": "**$(4,3)$**.\n\nExample: 2 east, 1 north → $(2,1)$.\n\n$(4,3)$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "132": {
+      "hint": "Vertical segment length is change in $y$.",
+      "help": "From $y=0$ to $y=3$ is **3** units.\n\nExample: $(2,1)$ to $(2,5)$ → 4.\n\n3."
+    },
+    "133": {
+      "hint": "Horizontal distance with same $y$.",
+      "help": "$1-(-3)=**4**$ units.\n\nExample: $(0,2)$ to $(5,2)$ → 5.\n\n4. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "134": {
+      "hint": "£5 plus 20p per MB for 50 MB.",
+      "help": "$5+10=**£15**$.\n\nExample: 10 MB → £7.\n\n£15. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "135": {
+      "hint": "Same $x$ means vertical line.",
+      "help": "**$x=2$**.\n\nExample: $(4,1)$ and $(4,9)$ → $x=4$.\n\n$x=2$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "136": {
+      "hint": "Find midpoint then check signs.",
+      "help": "Midpoint $(1,-1)$ → **fourth** quadrant.\n\nExample: $(0,0)$ and $(2,2)$ → I.\n\nFourth."
+    },
+    "137": {
+      "hint": "Multiply $x=-4$ by 1.5 then subtract 2.",
+      "help": "$y=**-8**$.\n\nExample: $x=0$ → $y=-2$.\n\n-8. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "138": {
+      "hint": "All have $y=0$.",
+      "help": "They lie on the **$x$-axis**.\n\nExample: $(5,0)$.\n\n$x$-axis. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "139": {
+      "hint": "Grid path: 3 east + 4 north.",
+      "help": "**7** units by grid legs.\n\nExample: $(0,0)$ to $(3,4)$ → 7.\n\n7."
+    },
+    "140": {
+      "hint": "Use gradient 3 from $(-1,2)$.",
+      "help": "At $x=2$, $y=**11**$.\n\nExample: $m=2$ through $(0,1)$ at $x=2$ → 5.\n\n11."
+    },
+    "141": {
+      "hint": "Horizontal distance 5 with $k<2$.",
+      "help": "$k=**-3**$.\n\nExample: 2 units from $x=4$ → $x=2$.\n\n-3. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "142": {
+      "hint": "Total change ÷ 3 hours.",
+      "help": "**-2**°C per hour.\n\nExample: 10 to 4 in 2 h → -3/h.\n\n-2. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "143": {
+      "hint": "Midpoint averages coordinates.",
+      "help": "**$(-2,5)$**.\n\nExample: $(0,0)$ and $(4,8)$ → $(2,4)$.\n\n$(-2,5)$."
+    },
+    "144": {
+      "hint": "Two west miles at £3 each.",
+      "help": "**£6**.\n\nExample: 3 west miles → £9.\n\n£6. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "145": {
+      "hint": "Pattern adds 2 cm each minute.",
+      "help": "Minute 5 → **10 cm**.\n\nExample: 2,4,6,8,10.\n\n10. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "146": {
+      "hint": "Show $\\Delta y/\\Delta x$ equals 1.",
+      "help": "$6/6=**1**$.\n\nExample: $(0,-1)$ to $(2,1)$.\n\nGradient 1. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "147": {
+      "hint": "Gradient -1 between the points.",
+      "help": "**$y=-x+3$**.\n\nExample: slope -1 through $(0,2)$.\n\n$y=-x+3$."
+    },
+    "148": {
+      "hint": "Square centred at origin with corner $(3,3)$.",
+      "help": "**$(-3,3)$** or $(3,-3)$ works.\n\nExample: rotate a corner.\n\nAnother corner."
+    },
+    "149": {
+      "hint": "Try swapping coordinates.",
+      "help": "**Sometimes** — signs decide quadrant.\n\nExample: $(2,3)$ vs $(-3,2)$.\n\nSometimes."
+    },
+    "150": {
+      "hint": "Add side lengths 3+4+3+4.",
+      "help": "Perimeter **14**.\n\nExample: $2(3+4)$.\n\n14. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "151": {
+      "hint": "Set $2x+4=2$.",
+      "help": "$x=**-2**$.\n\nExample: on $y=2x$ at $(0,0)$.\n\n-2. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "152": {
+      "hint": "Set $3x+5=-1$.",
+      "help": "$x=**-2**$.\n\nExample: solve linear equation.\n\n-2. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "153": {
+      "hint": "Solve $0=-0.5x+10$.",
+      "help": "$x=**20**$.\n\nExample: $x$-intercept step.\n\n20. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "154": {
+      "hint": "Set $2x-9=-x+3$.",
+      "help": "**$(4,-1)$**.\n\nExample: intersect $y=x$ and $y=-x+4$ at $(2,2)$.\n\n$(4,-1)$."
+    },
+    "155": {
+      "hint": "Same $y$ — horizontal distance.",
+      "help": "**12** units.\n\nExample: $(0,1)$ to $(8,1)$ → 8.\n\n12. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "156": {
+      "hint": "Use a 3-4-5 triangle from origin.",
+      "help": "**$(3,4)$** works.\n\nExample: $(0,5)$ also distance 5.\n\nOne example."
+    },
+    "157": {
+      "hint": "Compare $x^2+y^2$.",
+      "help": "$25>20$ → **false** if claiming $(2,-4)$ farther.\n\nExample: compare squares.\n\nFalse."
+    },
+    "158": {
+      "hint": "Same slope 2, through $(0,-5)$.",
+      "help": "**$y=2x-5$**.\n\nExample: parallel lines share $m$.\n\n$y=2x-5$."
+    },
+    "159": {
+      "hint": "Check $-2$ on $y=-x$.",
+      "help": "**Yes**.\n\nExample: $(5,-5)$.\n\nYes. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "160": {
+      "hint": "Both coordinates negative.",
+      "help": "**Quadrant III** — $x<0$ and $y<0$.\n\nExample: $(-2,-5)$.\n\nDescribe III."
+    },
+    "161": {
+      "hint": "3-4-5 triangle for legs 3 and 4.",
+      "help": "**5 km** hypotenuse.\n\nExample: 6-8-10 triangle.\n\n5 km. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "162": {
+      "hint": "Gradient from $(-5,-2)$ to $(1,4)$.",
+      "help": "$6/6=**1**$.\n\nExample: $(0,0)$ to $(5,5)$.\n\n1. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "163": {
+      "hint": "Plug $(3,8)$ into $y=mx+2$.",
+      "help": "$m=**2**$.\n\nExample: solve for slope.\n\n2. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "164": {
+      "hint": "Slope from axis intercepts.",
+      "help": "**$y=0.5x+2$**.\n\nExample: through $(0,-1)$ and $(2,3)$.\n\n$y=0.5x+2$."
+    },
+    "165": {
+      "hint": "If $x=6$ and $x=2y$.",
+      "help": "$y=**3**$.\n\nExample: $x=2y$ with $x=4$ → $y=2$.\n\n3. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "166": {
+      "hint": "Substitute into $y=-x$.",
+      "help": "**True** for all $a$.\n\nExample: $a=7$ → $(7,-7)$.\n\nTrue. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "167": {
+      "hint": "Midpoint when $p=3$.",
+      "help": "**Yes** — $(3,3)$.\n\nExample: $p=2$ → $(2,2)$.\n\nYes. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "168": {
+      "hint": "Side from $-2$ to $2$.",
+      "help": "Length **4**.\n\nExample: $(0,0)$ to $(5,0)$ → 5.\n\n4. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "169": {
+      "hint": "Compare rises to $(1,4)$ vs $(1,2)$.",
+      "help": "**Steeper** through $(1,4)$.\n\nExample: gradient 4 vs 2.\n\nFirst line."
+    },
+    "170": {
+      "hint": "Set $x+1=10$.",
+      "help": "$x=**9**$.\n\nExample: $y=5$ on $y=x+2$ → $x=3$.\n\n9. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "171": {
+      "hint": "Double 6 and subtract 3.",
+      "help": "$y=**9**$.\n\nExample: $x=0$ → $y=-3$.\n\n9. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "172": {
+      "hint": "Set $x+2=5$.",
+      "help": "$x=**3**$.\n\nExample: point on line.\n\n3. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "173": {
+      "hint": "Plug $x=-1$ into $y=2x+7$.",
+      "help": "$c=**5**$.\n\nExample: find missing coordinate.\n\n5. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "174": {
+      "hint": "Continue gradient 2.",
+      "help": "$y=**13**$ at $x=5$.\n\nExample: +4 when $x$ +2.\n\n13. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "175": {
+      "hint": "$x=5$ meets $y=5$ once.",
+      "help": "**Always** at $(5,5)$.\n\nExample: grid crossing.\n\nAlways. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "176": {
+      "hint": "Use decimal coordinates in quadrant II.",
+      "help": "**$(-0.5,1.2)$** example.\n\nExample shows decimals work.\n\nOne pair."
+    },
+    "177": {
+      "hint": "Swap coordinates for $y=x$ reflection.",
+      "help": "**$(1,4)$**.\n\nExample: $(2,5)$ → $(5,2)$.\n\n$(1,4)$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "178": {
+      "hint": "Check $2=|-2|$.",
+      "help": "**Yes** on $y=|x|$.\n\nExample: $(3,3)$.\n\nYes. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "179": {
+      "hint": "Compare $x$ coefficients.",
+      "help": "Same gradient **5** → yes.\n\nExample: $y=2x$ and $y=2x+9$.\n\nYes."
+    },
+    "180": {
+      "hint": "Pattern $y=2x$.",
+      "help": "**$(4,8)$** next.\n\nExample: doubling sequence.\n\n$(4,8)$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "181": {
+      "hint": "Gradient 2 through $(-3,-1)$.",
+      "help": "**$y=2x+5$**.\n\nExample: through $(0,1)$ → $y=2x+1$.\n\n$y=2x+5$."
+    },
+    "182": {
+      "hint": "Set $2x+5=5$.",
+      "help": "$x=**0**$.\n\nExample: solve on line.\n\n0. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "183": {
+      "hint": "Horizontal length from $-5$ to $3$.",
+      "help": "**8** units.\n\nExample: $-2$ to $4$ → 6.\n\n8. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "184": {
+      "hint": "Negate both coordinates.",
+      "help": "**True** origin pair.\n\nExample: $(1,4)$ and $(-1,-4)$.\n\nTrue."
+    },
+    "185": {
+      "hint": "Average opposite corners.",
+      "help": "Centre **$(3,2.5)$**.\n\nExample: $(0,0)$ to $(4,2)$ → $(2,1)$.\n\n$(3,2.5)$."
+    },
+    "186": {
+      "hint": "Substitute $(-2,4)$ into $y=3x+b$.",
+      "help": "$b=**10**$.\n\nExample: find intercept.\n\n10. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "187": {
+      "hint": "Try $(2,-2)$ in quadrant IV.",
+      "help": "$2=-(-2)$ → **yes**.\n\nExample: $x=-y$ with $x>0$, $y<0$.\n\nYes."
+    },
+    "188": {
+      "hint": "Set $y=0$ in $y=2x+3$.",
+      "help": "$x=**-1.5**$.\n\nExample: $x$-intercept.\n\n-1.5. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "189": {
+      "hint": "Gradient between $(1,2)$ and $(7,8)$.",
+      "help": "**$y=x+1$**, gradient 1.\n\nExample: rise = run.\n\n$y=x+1$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "190": {
+      "hint": "Solve $x=-x+6$.",
+      "help": "**$(3,3)$**.\n\nExample: equal coordinates at meet.\n\n$(3,3)$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "191": {
+      "hint": "Hypotenuse 3-4-5 triangle.",
+      "help": "Length **5**.\n\nExample: legs 3 and 4.\n\n5. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "192": {
+      "hint": "Pick two $x>0$ on $y=3x-2$.",
+      "help": "Examples **$(1,1)$** and **$(2,4)$**.\n\nExample: substitute $x$.\n\nTwo points."
+    },
+    "193": {
+      "hint": "Line $y=x+2$ through $(0,2)$.",
+      "help": "At $x=-4$, $y=**-2**$.\n\nExample: gradient 1.\n\n-2. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "194": {
+      "hint": "Set $y=0$ in $y=2x+8$.",
+      "help": "$x=**-4**$.\n\nExample: $x$-intercept.\n\n-4. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "195": {
+      "hint": "Parallelogram vector add.",
+      "help": "Fourth vertex **$(1,2)$**.\n\nExample: opposite sides equal.\n\n$(1,2)$."
+    },
+    "196": {
+      "hint": "Average $-4$ and $8$.",
+      "help": "Mean $x$ is **2**.\n\nExample: $(0,0)$ and $(6,0)$ → 3.\n\n2. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "197": {
+      "hint": "Horizontal line keeps same $y$.",
+      "help": "**$y=7$**.\n\nExample: through $(0,5)$ → $y=5$.\n\n$y=7$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "198": {
+      "hint": "Vertical line keeps same $x$.",
+      "help": "**$x=5$**.\n\nExample: through $(-2,1)$ → $x=-2$.\n\n$x=5$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "199": {
+      "hint": "Equal coordinates on a line through origin.",
+      "help": "**$y=x$**.\n\nExample: $(5,5)$ fits.\n\n$y=x$. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    },
+    "200": {
+      "hint": "Substitute $x=12$ into $15+5x$.",
+      "help": "$15+60=**£75**$.\n\nExample: $x=0$ → £15.\n\n£75. On the grid, the first number is $x$ (left/right) and the second is $y$ (up/down)."
+    }
+  }
+}

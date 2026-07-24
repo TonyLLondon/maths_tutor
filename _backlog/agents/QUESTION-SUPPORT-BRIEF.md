@@ -2,7 +2,7 @@
 
 Every numbered question in every spine topic needs a sibling support file:
 
-`content/tenants/archer/subjects/maths/topics/{domain}/{CODE}.support.json`
+`content/tenants/lewis/subjects/maths/topics/{domain}/{CODE}.support.json`
 
 ## Schema
 
@@ -25,13 +25,17 @@ Every numbered question in every spine topic needs a sibling support file:
 - **Hint:** max **220** characters. A single guiding question or first step only.
 - **Help:** min **60** characters. Explain *why* and *how*, not just “do the sum”. Bullet lists OK. `$...$` for maths if needed.
 - **Do not** copy the model answer from `{CODE}.answers.json` into the hint.
-- **Do not** use Python/scripts to bulk-generate identical text. Write each question by hand in context of that stem.
+- **Do not** use Python, Node, or shell scripts to bulk-generate or merge support text. Write each entry by hand in context of that stem.
 - After your domain’s files exist, run `npm run content:validate` and fix every error mentioning your codes.
 
 ## Paths
 
-Worksheets: `content/tenants/archer/subjects/maths/topics/{domain}/{CODE}.md`  
+Worksheets: `content/tenants/lewis/subjects/maths/topics/{domain}/{CODE}.md`  
 Answers (reference only): `{CODE}.answers.json`  
 Output: `{CODE}.support.json` in the same folder.
 
 Spine domains: `number`, `algebra`, `ratio`, `geometry`, `probability`, `statistics`.
+
+## Background agent dispatch
+
+When a parent agent runs a **Task** for support (or similar bulk edits): use model **`composer-2.5-fast`** only and include the **Execution (mandatory — do not be lazy)** block from `AGENTS.md`. Finish every listed `{CODE}` in one run.

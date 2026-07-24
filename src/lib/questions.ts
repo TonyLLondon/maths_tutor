@@ -46,9 +46,8 @@ export type ClientAnswerMeta = {
 };
 
 export function resolveAnswerKind(entry: AnswerEntry): AnswerKind {
-  if (entry.kind) return entry.kind;
   if (entry.bars) return "bar-chart";
-  if (entry.any) return "self-check";
+  if (entry.kind === "bar-chart") return "bar-chart";
   return "text";
 }
 
@@ -87,6 +86,26 @@ export function tierFromSection(section: string): QuestionTier {
   if (s.includes("fluency") || s.includes("more fluency")) return 1;
   if (s.includes("reasoning") || s.includes("mixed")) return 2;
   return 3;
+}
+
+/** Expected rating band for a worksheet section (must match stored ratings). */
+export function ratingRangeForSection(section: string): {
+  min: number;
+  max: number;
+} {
+  const s = section.toLowerCase();
+  if (s.includes("getting started")) return { min: 500, max: 720 };
+  if (s.includes("fluency") || s.includes("more fluency"))
+    return { min: 650, max: 1150 };
+  if (s.includes("reasoning") || s.includes("mixed practice"))
+    return { min: 900, max: 1550 };
+  if (s.includes("mixed") && !s.includes("mixed practice"))
+    return { min: 900, max: 1550 };
+  if (s.includes("problem")) return { min: 1100, max: 1750 };
+  if (s.includes("stretch")) return { min: 1400, max: 2000 };
+  if (s.includes("more practice") || s.includes("extended"))
+    return { min: 750, max: 1400 };
+  return { min: 700, max: 1600 };
 }
 
 export function effectiveTier(
@@ -160,12 +179,8 @@ export function gradeAnswer(
   }
   const normUser = normalizeAnswer(trimmed);
 
-  if (
-    entry.accept.length === 0 &&
-    (entry.kind === "self-check" || entry.any)
-  ) {
-    const ok = normUser.length >= 12;
-    return { correct: ok, display };
+  if (!entry.accept || entry.accept.length === 0) {
+    return { correct: false, display };
   }
 
   if (entry.contains) {
@@ -202,17 +217,9 @@ export function gradeBarChart(
   return { correct: ok, display };
 }
 
-export function gradeSelfCheck(
-  entry: AnswerEntry,
-  gotIt: boolean,
-): { correct: boolean; display: string } {
-  return { correct: gotIt, display: entry.display };
-}
-
 export type PracticeSubmitBody = {
   questionId: string;
   answer?: string;
-  selfCheckCorrect?: boolean;
   barHeights?: number[];
 };
 

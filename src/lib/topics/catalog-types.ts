@@ -24,3 +24,13 @@ export const DOMAIN_LABELS: Record<GcseDomain, string> = {
   probability: "Probability",
   statistics: "Statistics",
 };
+
+/** Short blurbs for the domain picker (child-readable). */
+export const DOMAIN_SUMMARIES: Record<GcseDomain, string> = {
+  number: "Whole numbers, fractions, decimals, and negatives.",
+  algebra: "Equations, sequences, and graphs.",
+  ratio: "Sharing, scaling, and speed/density type problems.",
+  geometry: "Shapes, angles, area, volume, and Pythagoras.",
+  probability: "Likelihood, experiments, and expected outcomes.",
+  statistics: "Charts, averages, and comparing data sets.",
+};

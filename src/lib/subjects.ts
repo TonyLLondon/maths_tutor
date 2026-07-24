@@ -39,12 +39,13 @@ export function isSubjectId(value: string): value is SubjectId {
   return value in SUBJECTS;
 }
 
-export function mathsTopicPath(domain: GcseDomain, code: string): string {
-  return `${domain}/${code}`;
+export function isGcseDomain(value: string): value is GcseDomain {
+  return (MATHS_DOMAINS as readonly string[]).includes(value);
 }
 
 export {
   DOMAIN_LABELS,
+  DOMAIN_SUMMARIES,
   TOPICS,
   topicsByDomain,
   topicByCode,

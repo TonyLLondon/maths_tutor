@@ -1,0 +1,1607 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "20 times",
+      "accept": [
+        "20",
+        "20 times"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "50 children",
+      "accept": [
+        "50",
+        "50 children"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "A small sample",
+      "accept": [
+        "small",
+        "small sample"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "Larger",
+      "accept": [
+        "larger",
+        "bigger"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "Asking 20 children",
+      "accept": [
+        "20",
+        "20 children"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "400 coin flips",
+      "accept": [
+        "400",
+        "400 flips"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "150 trials",
+      "accept": [
+        "150",
+        "150 trials"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 708
+    },
+    "11": {
+      "display": "50 rolls",
+      "accept": [
+        "50",
+        "50 rolls",
+        "50 times"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "12": {
+      "display": "200 spins",
+      "accept": [
+        "200",
+        "200 spins"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "1000 flips",
+      "accept": [
+        "1000"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "P(6) estimate = 3/5; too small a sample to trust because 5 rolls is not enough to reduce random variation.",
+      "accept": [
+        "3/5",
+        "0.6",
+        "too small"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "6/10 = 3/5 = 0.6; sample size 10",
+      "accept": [
+        "0.6",
+        "3/5",
+        "10"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "300/500 = 3/5 = 0.6; sample size 500, much larger than 10",
+      "accept": [
+        "0.6",
+        "3/5",
+        "500"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 839
+    },
+    "17": {
+      "display": "The 500-pupil survey — a larger sample generally gives a more reliable estimate.",
+      "accept": [
+        "500"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 865
+    },
+    "18": {
+      "display": "No — 20 out of 10,000 is a very small proportion (0.2%) and unlikely to reliably represent the whole batch.",
+      "accept": [
+        "no",
+        "too small",
+        "0.2%"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 892
+    },
+    "19": {
+      "display": "Survey more people (increase the sample size).",
+      "accept": [
+        "survey more people",
+        "larger sample",
+        "increase the sample size"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 918
+    },
+    "20": {
+      "display": "It tends to get closer to the theoretical probability.",
+      "accept": [
+        "closer",
+        "settles"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 945
+    },
+    "21": {
+      "display": "The 2000-spin result — larger samples give more reliable estimates.",
+      "accept": [
+        "2000"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 971
+    },
+    "22": {
+      "display": "A single roll only tells you what happened once — you need many repeats to estimate how often an outcome occurs on average.",
+      "accept": [
+        "one roll",
+        "single",
+        "many repeats"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 997
+    },
+    "23": {
+      "display": "With only 4 flips, getting 4 heads is easily possible by chance for a fair coin, since the sample is too small to detect bias.",
+      "accept": [
+        "chance",
+        "small",
+        "too few"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1024
+    },
+    "24": {
+      "display": "No — 5 batteries is far too small a sample compared with 1000 to give a reliable estimate.",
+      "accept": [
+        "no",
+        "too small"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "25": {
+      "display": "No — a bigger sample gives a more reliable estimate, but it is still an estimate, not necessarily the exact true probability.",
+      "accept": [
+        "no",
+        "incorrect",
+        "estimate",
+        "not exact"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "26": {
+      "display": "The student with 2000 flips — a much larger sample is likely to give a relative frequency closer to the true probability.",
+      "accept": [
+        "2000"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1230
+    },
+    "27": {
+      "display": "Never — increasing the sample size generally makes an estimate more reliable, not less.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1280
+    },
+    "28": {
+      "display": "8 spins is far too small a sample — the estimate 0.75 could easily be very different from the true probability due to random variation.",
+      "accept": [
+        "too small",
+        "small sample",
+        "variation"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1330
+    },
+    "29": {
+      "display": "A sample of just 2 people is far too small and unlikely to represent the views of the whole country.",
+      "accept": [
+        "too small",
+        "not representative",
+        "2 people"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1380
+    },
+    "30": {
+      "display": "False — how large a sample needs to be depends on the situation (e.g. how much variation there is and how accurate the estimate needs to be), not a fixed number.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1430
+    },
+    "31": {
+      "display": "Accuracy improves gradually rather than in direct proportion to sample size, but larger samples still reduce the effect of random variation and give more trustworthy estimates overall.",
+      "accept": [
+        "larger sample",
+        "random variation",
+        "more trustworthy",
+        "more reliable"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1480
+    },
+    "32": {
+      "display": "300 pupils across the whole school — this is a larger and more representative sample than just one class of 15.",
+      "accept": [
+        "300",
+        "whole school"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "33": {
+      "display": "12 rolls is a small sample, so random variation could easily cause a relative frequency of 1/3 even with a fair dice; rolling the dice many more times (e.g. hundreds of times) would give a more reliable test.",
+      "accept": [
+        "small",
+        "variation",
+        "more rolls"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1670
+    },
+    "34": {
+      "display": "P(enjoy) = 3200/4000 = 0.8; this is likely reliable because 4000 is a large sample size.",
+      "accept": [
+        "0.8",
+        "80%",
+        "large sample"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1720
+    },
+    "35": {
+      "display": "Researcher B's estimate is more likely to be close to the true proportion, since a sample of 3000 is much larger and more reliable than a sample of 30.",
+      "accept": [
+        "b",
+        "researcher b",
+        "3000"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1730
+    },
+    "36": {
+      "display": "Estimated faulty items = 2000 (2/50 x 50,000); limitation: a sample of 50 out of 50,000 is very small, so the estimate may not be accurate.",
+      "accept": [
+        "2000",
+        "small sample"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1737
+    },
+    "37": {
+      "display": "Larger samples give more reliable estimates of how the whole population will vote, reducing the effect of random variation from asking only a few people.",
+      "accept": [
+        "larger sample",
+        "more reliable",
+        "population",
+        "random variation"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1744
+    },
+    "38": {
+      "display": "P(red) = 750/3000 = 1/4; this is likely a good estimate because 3000 is a large sample size.",
+      "accept": [
+        "1/4",
+        "0.25",
+        "large sample"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "39": {
+      "display": "A design using a large number of drops (e.g. 100 or more), calculating the estimated probability as the number of \"point up\" landings divided by the total number of drops.",
+      "accept": [
+        "100",
+        "many drops",
+        "point up",
+        "divided by",
+        "total drops"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1860
+    },
+    "40": {
+      "display": "For example, flipping a fair coin just 3 times could give 3 heads (relative frequency 1.0), far from the true probability of 0.5, purely by chance, because the sample is so small.",
+      "accept": [
+        "small sample",
+        "chance",
+        "3 heads",
+        "1.0",
+        "0.5"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1907
+    },
+    "41": {
+      "display": "A larger sample reduces the effect of random variation, giving an estimate that is more likely to fall within a small margin of the true value; a rough estimate can tolerate more variation, so it can use a smaller sample.",
+      "accept": [
+        "larger sample",
+        "random variation",
+        "small margin",
+        "true value",
+        "smaller sample"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1953
+    },
+    "42": {
+      "display": "With 10 flips, the relative frequency of heads could easily be quite far from 0.5 (e.g. 0.7); with 100 flips, it would likely be closer to 0.5; with 10,000 flips, it would almost certainly be very close to 0.5, showing that reliability improves as sample size increases.",
+      "accept": [
+        "closer to 0.5",
+        "sample size increases",
+        "more reliable",
+        "10 flips",
+        "10000 flips"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "50 trials",
+      "accept": [
+        "50",
+        "50 trials"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "100 trials",
+      "accept": [
+        "100",
+        "100 trials"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "45": {
+      "display": "Sam (45 out of 50) — a much larger sample gives a more reliable shooting rate than 9 out of 10.",
+      "accept": ["sam", "50", "45"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1250
+    },
+    "46": {
+      "display": "No — 6 items from 12,000 is far too small to claim the whole batch is perfect.",
+      "accept": ["no", "too small"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1255
+    },
+    "47": {
+      "display": "Always (usually) — with more fair coin flips, relative frequency of heads generally moves closer to 0.5.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1259
+    },
+    "48": {
+      "display": "Eight rolls is a small sample — random variation can give relative frequency 1/4 even on a fair dice.",
+      "accept": ["small", "variation", "8"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1264
+    },
+    "49": {
+      "display": "No — 3 pupils is far too small to claim 100% of the school walks.",
+      "accept": ["no", "too small", "3"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1268
+    },
+    "50": {
+      "display": "The 500 flips — a much larger sample gives a more stable estimate of P(heads).",
+      "accept": ["500"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1273
+    },
+    "51": {
+      "display": "Only 10 games is a tiny sample — the win rate can change a lot as many more games are recorded.",
+      "accept": ["small", "10", "change"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1277
+    },
+    "52": {
+      "display": "The estimate moved from 0.7 toward 0.5 as the sample grew — larger samples usually give more reliable estimates.",
+      "accept": ["0.5", "larger", "reliable"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1282
+    },
+    "53": {
+      "display": "False — two surveys of the same size can give different estimates because of random variation.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1286
+    },
+    "54": {
+      "display": "Yes — many years of daily data usually give an estimate closer to the long-run chance of rain.",
+      "accept": ["yes", "years", "closer"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1291
+    },
+    "55": {
+      "display": "True — even very large samples give estimates that may still differ slightly from the exact true probability.",
+      "accept": ["true"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1295
+    },
+    "56": {
+      "display": "Lab B (20 in 500) — testing 500 batteries gives a more reliable failure rate than testing 5.",
+      "accept": ["b", "500", "lab b"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1300
+    },
+    "57": {
+      "display": "Sloan (10,000 rolls) — the much larger sample is likely to give a relative frequency closer to 1/6.",
+      "accept": ["sloan", "10000"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1305
+    },
+    "58": {
+      "display": "200 attempts over a season average out luck better than 12 attempts in one afternoon.",
+      "accept": ["200", "season", "more"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "59": {
+      "display": "No — opening only 2 boxes is far too small a sample compared with thousands of boxes.",
+      "accept": ["no", "2", "small"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1314
+    },
+    "60": {
+      "display": "75 heads in 150 flips — relative frequency 0.5 (or 1/2).",
+      "accept": ["0.5", "1/2", "75", "150"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1318
+    },
+    "61": {
+      "display": "Relative frequency usually settles nearer the true probability as trials keep increasing.",
+      "accept": [
+        "relative",
+        "frequency",
+        "trials",
+        "probability"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1323
+    },
+    "62": {
+      "display": "Never — even huge samples give estimates, not guaranteed exact equality with theoretical probability.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1327
+    },
+    "63": {
+      "display": "Not very surprising — 40 flips is still a small sample where 0.55 can happen by luck on a fair coin.",
+      "accept": ["not", "luck", "small"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1332
+    },
+    "64": {
+      "display": "The result after 10,000 flips (0.501) is usually closer to true 0.5 than after only 50 flips.",
+      "accept": ["10000", "10000 flips", "0.501"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1336
+    },
+    "65": {
+      "display": "Not exactly — larger samples reduce luck's effect but estimates still need not match the true probability exactly.",
+      "accept": ["not", "reduce", "estimate"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1341
+    },
+    "66": {
+      "display": "Your friend with 2500 spins — the much larger sample is likely nearer true 0.25.",
+      "accept": ["friend", "2500"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1345
+    },
+    "67": {
+      "display": "Always — a small sample can swing farther from the truth than a large sample from the same experiment.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1350
+    },
+    "68": {
+      "display": "20 users is too small — the percentage could change a lot when many more people watch.",
+      "accept": ["small", "20", "more"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1354
+    },
+    "69": {
+      "display": "The group with 1500 drops — many more trials give a better estimate of P(point up).",
+      "accept": ["1500"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1359
+    },
+    "70": {
+      "display": "Less — 1400 pupils should give a steadier rate with less bouncing around than 14 pupils.",
+      "accept": ["less"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1363
+    },
+    "71": {
+      "display": "600 rolls is a large sample, so random variation is small and relative frequency can be very close to 0.5.",
+      "accept": ["600", "large", "variation"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1368
+    },
+    "72": {
+      "display": "False — relative frequency can still change slightly as more trials are added.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1372
+    },
+    "73": {
+      "display": "Only 4 trials — far too small to estimate P(both heads) as 0.5 for fair coins.",
+      "accept": ["4", "small", "too"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1377
+    },
+    "74": {
+      "display": "The shop testing 800 seeds — a much larger sample gives a more reliable sprouting rate.",
+      "accept": ["800"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1381
+    },
+    "75": {
+      "display": "Thousands of voters spread across areas give a more reliable picture of national voting than 20 people at one station.",
+      "accept": ["thousands", "more"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1386
+    },
+    "76": {
+      "display": "It means the relative frequency stops swinging wildly and stays near the true probability.",
+      "accept": ["near", "true", "stops"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1390
+    },
+    "77": {
+      "display": "Sometimes — 1000 trials usually help but do not guarantee being within 0.01 every time.",
+      "accept": ["sometimes"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1395
+    },
+    "78": {
+      "display": "Your sister's 3000 flips — a huge sample shows long-run fair coin behaviour better than 3 flips.",
+      "accept": ["3000", "sister"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1399
+    },
+    "79": {
+      "display": "2000 chests give a much more stable estimate of the true drop rate than 20 chests.",
+      "accept": ["2000", "stable", "more"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1404
+    },
+    "80": {
+      "display": "40 successes in 80 trials — relative frequency 0.5 (or 1/2).",
+      "accept": ["0.5", "40", "80"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1408
+    },
+    "81": {
+      "display": "40 faulty in 1000 tests — overall fault rate 0.04 (4%).",
+      "accept": ["0.04", "4%", "40"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1413
+    },
+    "82": {
+      "display": "A whole month of buses is a larger sample, giving a more reliable on-time rate than one morning.",
+      "accept": ["month", "larger", "more"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1417
+    },
+    "83": {
+      "display": "False — a larger sample is usually closer but not guaranteed to be closer every time.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1422
+    },
+    "84": {
+      "display": "Class 2 (52 heads in 100 flips) — 100 flips give a more reliable estimate than 9 flips.",
+      "accept": ["class 2", "100"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1426
+    },
+    "85": {
+      "display": "As sample size grows, the estimate usually gets closer to the true probability (e.g. nearer 0.5 for odd on a fair dice).",
+      "accept": ["closer", "grows", "size"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1431
+    },
+    "86": {
+      "display": "One extra trial barely changes a tiny sample — you need many more trials to improve reliability.",
+      "accept": ["many", "more", "tiny"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1435
+    },
+    "87": {
+      "display": "No — 12 spins is too small to call blue the luckiest colour.",
+      "accept": ["no", "12", "small"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1440
+    },
+    "88": {
+      "display": "Always — pooling trials increases total sample size and usually improves the estimate.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1444
+    },
+    "89": {
+      "display": "The national study of 5000 patients — much larger and wider sample.",
+      "accept": ["5000", "national"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1449
+    },
+    "90": {
+      "display": "No — both samples contribute; the larger combined sample refines the estimate rather than making the first useless.",
+      "accept": ["no", "refine", "both"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1453
+    },
+    "91": {
+      "display": "Season-long averages use many more attempts, so they are steadier than one-match stats.",
+      "accept": ["season", "many", "more"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1458
+    },
+    "92": {
+      "display": "Monday's 7 items alone — such a tiny sample is weak for estimating the true defect rate.",
+      "accept": ["monday", "7", "small"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1462
+    },
+    "93": {
+      "display": "Never — two different runs of 500 and 5000 trials will not necessarily give identical relative frequencies.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1467
+    },
+    "94": {
+      "display": "Sample size of one day and treating one trip as the whole story — need many days for a reliable rain estimate.",
+      "accept": ["one", "day", "many"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1471
+    },
+    "95": {
+      "display": "Site Y with 2000 reviews — far larger sample than 5 reviews.",
+      "accept": ["y", "2000", "site y"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1476
+    },
+    "96": {
+      "display": "The estimate from 400 rolls (0.158) — larger sample, closer to true 1/6 than 40 rolls.",
+      "accept": ["400", "0.158"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "97": {
+      "display": "False — bigger samples reduce uncertainty but estimates still need not equal the exact true probability.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1485
+    },
+    "98": {
+      "display": "300 pooled flips — combining many pupils' flips gives a much larger sample than one pupil's 10 flips.",
+      "accept": ["300", "pooled", "larger"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1489
+    },
+    "99": {
+      "display": "600 players: estimate 420/600 = 0.7 — much more reliable than 6/6 = 1 from only 6 friends.",
+      "accept": ["0.7", "600", "420"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1494
+    },
+    "100": {
+      "display": "The estimate stops changing much and stays near the true probability as more results are collected.",
+      "accept": ["stops", "near", "true"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1498
+    },
+    "101": {
+      "display": "Weak — only 2 flips can give 0.5 by luck; far too small to prove fairness.",
+      "accept": ["weak", "2", "small"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1503
+    },
+    "102": {
+      "display": "Less — 2500 adults should give a steadier percentage with less jumping around than 25.",
+      "accept": ["less", "2500"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1507
+    },
+    "103": {
+      "display": "Always — more flips make it easier to spot bias because relative frequency has less room to hide it.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1512
+    },
+    "104": {
+      "display": "Adding 900 flips pulled the overall relative frequency closer to 0.5 (0.499).",
+      "accept": ["closer", "0.499", "900"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1516
+    },
+    "105": {
+      "display": "No — 15 donors is too small to treat 4/15 as exact truth for budgeting.",
+      "accept": ["no", "15", "small"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1521
+    },
+    "106": {
+      "display": "Factory Q from 4000 items — much larger sample than 40 items from Factory P.",
+      "accept": ["q", "4000", "factory q"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1525
+    },
+    "107": {
+      "display": "False — 15 trials can be far from theoretical probability by luck even with fair equipment.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1530
+    },
+    "108": {
+      "display": "Example: deciding a coin is biased from 3 flips — collect many more flips to get a reliable estimate.",
+      "accept": [
+        "3",
+        "more",
+        "flips",
+        "reliable"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1534
+    },
+    "109": {
+      "display": "Group B (0.167 from 360 rolls) — larger sample, likely closer to 1/6 than Group A.",
+      "accept": ["b", "360", "group b"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1539
+    },
+    "110": {
+      "display": "500 heads in 1000 flips — relative frequency 0.5.",
+      "accept": ["0.5", "500", "1000"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1543
+    },
+    "111": {
+      "display": "Doubling trials improves reliability but error does not usually halve exactly.",
+      "accept": [
+        "doubling",
+        "trials",
+        "reliability",
+        "not"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1548
+    },
+    "112": {
+      "display": "Never — even 2000 fair coin flips give an estimate, not guaranteed exact equality with 0.5.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1552
+    },
+    "113": {
+      "display": "20 viewers is tiny — completion rate could shift a lot with thousands of viewers.",
+      "accept": ["20", "small", "more"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1557
+    },
+    "114": {
+      "display": "700 kicks over a year — much larger sample than 7 kicks in practice.",
+      "accept": ["700", "year"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1561
+    },
+    "115": {
+      "display": "Early wiggles come from small samples; flattening shows the estimate stabilising as trials increase.",
+      "accept": ["small", "stabil", "trials"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1566
+    },
+    "116": {
+      "display": "False — random variation means two runs of the same size can give different relative frequencies.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1570
+    },
+    "117": {
+      "display": "Record many more lunch breaks (larger sample) across different weeks.",
+      "accept": ["more", "larger", "many"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1575
+    },
+    "118": {
+      "display": "180 wins in 300 games — same 60% but 300 trials give a more reliable long-run estimate than 30.",
+      "accept": ["300", "180"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1579
+    },
+    "119": {
+      "display": "Long-run experiment (5000 spins) gives estimate 0.199 much nearer true 0.2 than 50 spins.",
+      "accept": ["5000", "0.199", "closer"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1584
+    },
+    "120": {
+      "display": "Always — for a fair experiment, more trials usually move relative frequency toward theoretical probability.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1588
+    },
+    "121": {
+      "display": "Eight people at one rally is far too small — report sample size with any percentage.",
+      "accept": ["8", "small", "sample"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1593
+    },
+    "122": {
+      "display": "The student with only 25 drops should do many more trials — 2500 is already a strong sample.",
+      "accept": ["25", "more", "2500"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1597
+    },
+    "123": {
+      "display": "Estimate 3/100 = 0.03 winners; limitation — only 100 tickets scanned from 50,000.",
+      "accept": ["0.03", "3", "100"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1602
+    },
+    "124": {
+      "display": "False — the next 500 trials can still shift the overall relative frequency, though usually less than early trials.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1606
+    },
+    "125": {
+      "display": "Many repeats average out luck so one odd run is not trusted alone.",
+      "accept": [
+        "repeats",
+        "luck",
+        "average",
+        "not"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1611
+    },
+    "126": {
+      "display": "Seven heads in 10 flips can happen by luck — need many more flips to judge fairness.",
+      "accept": ["luck", "more", "10"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1615
+    },
+    "127": {
+      "display": "20 defective in 400 tests — overall rate 0.05 (5%).",
+      "accept": ["0.05", "5%", "20"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1620
+    },
+    "128": {
+      "display": "Never — samples of 50 and 500 will not necessarily give the same relative frequency.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1624
+    },
+    "129": {
+      "display": "1 million opens is a huge sample — far more trustworthy than 50 test opens.",
+      "accept": ["million", "1000000", "large"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1629
+    },
+    "130": {
+      "display": "Poll 2 with 10,000 people — larger sample more likely near national result.",
+      "accept": ["10000", "poll 2", "10000 people"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1633
+    },
+    "131": {
+      "display": "100 pupils (0.72) — larger sample likely nearer true 0.75 than 10 pupils at 0.9.",
+      "accept": ["100", "0.72"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1638
+    },
+    "132": {
+      "display": "False — a nice-looking fraction from very few trials can still be unreliable.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1642
+    },
+    "133": {
+      "display": "First 30 spins can vary a lot by luck even when true probability is 0.25.",
+      "accept": ["luck", "30", "small"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1647
+    },
+    "134": {
+      "display": "Estimate from 600 trials is data-based; true probability is the long-run value the estimate approaches.",
+      "accept": ["estimate", "true", "600"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1651
+    },
+    "135": {
+      "display": "496 ups in 1000 drops — much larger sample made the estimate more reliable than 4 in 11.",
+      "accept": ["1000", "reliable", "larger"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1656
+    },
+    "136": {
+      "display": "Never — larger samples help a lot but some random variation remains.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1660
+    },
+    "137": {
+      "display": "0.4 from 1000 trials — regulators trust larger samples more than 10 trials.",
+      "accept": ["1000"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1665
+    },
+    "138": {
+      "display": "Too few flips; relative frequency 0.5 can occur by luck — need many trials and it remains an estimate.",
+      "accept": ["few", "luck", "estimate"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1669
+    },
+    "139": {
+      "display": "50 successes in 100 trials — pooled relative frequency 0.5.",
+      "accept": ["0.5", "50", "100"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1674
+    },
+    "140": {
+      "display": "False — two small runs can both be unlucky; one continuous larger experiment is usually better.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1678
+    },
+    "141": {
+      "display": "600 minutes over a month — much larger sample than 6 minutes one rush hour.",
+      "accept": ["600", "month"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1683
+    },
+    "142": {
+      "display": "Early trials swing with luck; after thousands of trials relative frequency is usually nearer the final long-run value.",
+      "accept": ["early", "thousands", "luck"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1687
+    },
+    "143": {
+      "display": "Sometimes — relative frequency 0 in a small sample can happen by luck even if the event is possible long-run.",
+      "accept": ["sometimes"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1692
+    },
+    "144": {
+      "display": "No — 6 plays is too small to disprove a 1 in 3 claim.",
+      "accept": ["no", "6", "small"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1696
+    },
+    "145": {
+      "display": "Coin B (398/800 ≈ 0.4975) looks more like a fair coin than Coin A — larger sample near 0.5.",
+      "accept": ["b", "800", "coin b"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1701
+    },
+    "146": {
+      "display": "1200 passengers (70%) — airline should use large survey, not 7 friends on one train.",
+      "accept": ["1200", "airline", "70%"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1705
+    },
+    "147": {
+      "display": "Always — each new trial can change the relative frequency (though changes shrink as sample grows).",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1710
+    },
+    "148": {
+      "display": "Describe wiggly early results, closer near 100 flips, very steady near 1000 for a fair coin.",
+      "accept": [
+        "100",
+        "1000",
+        "steady",
+        "wiggly"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1714
+    },
+    "149": {
+      "display": "Testing 120 items per hour smooths random jumps seen when only 12 items are tested.",
+      "accept": ["120", "smooth", "more"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1719
+    },
+    "150": {
+      "display": "False — the same estimate from a tiny sample is usually less reliable than from a huge sample.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1723
+    },
+    "151": {
+      "display": "Not always as good — pooling is fine if both use fair methods, but 10 flips in a row under same conditions is similar to 10 total.",
+      "accept": ["not", "fair", "10"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1728
+    },
+    "152": {
+      "display": "Sloan (88 sixes in 540 rolls) — much larger sample gives stronger evidence of possible bias.",
+      "accept": ["sloan", "540"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1732
+    },
+    "153": {
+      "display": "Always — more fair random trials usually move relative frequency toward theoretical probability.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1737
+    },
+    "154": {
+      "display": "Early 55% from 20 visits was unreliable — 51% after 20,000 visits is a much more trustworthy estimate.",
+      "accept": ["20000", "unreliable", "51"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1741
+    },
+    "155": {
+      "display": "Rare events need many more trials to see stable relative frequency than common 50–50 events.",
+      "accept": [
+        "rare",
+        "trials",
+        "stable",
+        "more"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1746
+    },
+    "156": {
+      "display": "False — 'big enough' depends on how rare the event is and how accurate you must be.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "157": {
+      "display": "Class Y learned more — 2400 spins with estimate 0.251 near true 0.25 beats 24 spins at 0.33.",
+      "accept": ["y", "2400", "class y"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1755
+    },
+    "158": {
+      "display": "50 heads in 100 flips — pooled relative frequency 0.5.",
+      "accept": ["0.5", "50", "100"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1759
+    },
+    "159": {
+      "display": "Sometimes — a larger sample is usually closer but can occasionally be farther by bad luck.",
+      "accept": ["sometimes"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1764
+    },
+    "160": {
+      "display": "Flip at least 20–30 times (or more) with everyone watching — still quick but larger than 3 flips.",
+      "accept": ["20", "30", "more"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1768
+    },
+    "161": {
+      "display": "500 match penalties (0.76) — much larger sample than 5 training kicks.",
+      "accept": ["500", "match"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1773
+    },
+    "162": {
+      "display": "False — relative frequency still changes slightly as more trials are added after 1000.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1777
+    },
+    "163": {
+      "display": "Compare both sample sizes and relative frequencies — larger samples usually give more trustworthy estimates.",
+      "accept": ["size", "frequency", "both"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1782
+    },
+    "164": {
+      "display": "Many nets of 1200 fish — repeating large samples estimates the tagged fraction more reliably.",
+      "accept": ["1200", "many", "large"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1786
+    },
+    "165": {
+      "display": "Never — small samples often give estimates that miss the true probability.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1791
+    },
+    "166": {
+      "display": "15 opens is tiny — zero drops can happen by luck even at 10% true rate.",
+      "accept": ["15", "small", "luck"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1795
+    },
+    "167": {
+      "display": "Survey B (900/1000 city-wide) — larger, more representative sample for a city plan.",
+      "accept": ["b", "1000", "survey b"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1800
+    },
+    "168": {
+      "display": "False — all estimates are between 0 and 1 but tiny samples can still be very misleading.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1804
+    },
+    "169": {
+      "display": "Kid-friendly law of large numbers: flip a fair coin many times and heads fraction gets nearer half.",
+      "accept": [
+        "coin",
+        "many",
+        "half",
+        "heads"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1809
+    },
+    "170": {
+      "display": "Stopping from 2/9 failures is overreacting — tiny sample compared with usual 2% from 9000 items.",
+      "accept": ["over", "small", "2"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1813
+    },
+    "171": {
+      "display": "Always — pooling many days increases total trials and usually improves the estimate.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1818
+    },
+    "172": {
+      "display": "1800 flips at 0.502 — huge sample supports 'about half heads' better than 18 flips at 0.61.",
+      "accept": ["1800", "0.502"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1822
+    },
+    "173": {
+      "display": "Counter-example: large sample of dice rolls can give relative frequency 0.166… not a 'round' decimal.",
+      "accept": [
+        "dice",
+        "sample",
+        "0.166",
+        "not"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1827
+    },
+    "174": {
+      "display": "False — two large samples can differ by 0.02 by chance; that does not prove they were too small.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1831
+    },
+    "175": {
+      "display": "Spin at least 200–400 times and divide wins by total spins to estimate P(win).",
+      "accept": [
+        "200",
+        "400",
+        "divide",
+        "spins"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1836
+    },
+    "176": {
+      "display": "8 of 9 patients is a tiny early trial — readers need sample size to judge reliability.",
+      "accept": ["9", "sample", "8"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1840
+    },
+    "177": {
+      "display": "Never — relative frequency keeps updating, though changes get smaller as trials grow.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1845
+    },
+    "178": {
+      "display": "6000 hours of logs — much larger sample than 6 hours for comparing crash rates.",
+      "accept": ["6000", "hours"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1849
+    },
+    "179": {
+      "display": "0.333 from 3 trials is one success only; 0.333 from 300 trials is 100 successes — far more meaningful.",
+      "accept": ["300", "100", "3"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1854
+    },
+    "180": {
+      "display": "False — friends may not represent everyone; random sampling matters as well as sample size.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1858
+    },
+    "181": {
+      "display": "Yes — 198/1200 = 0.165 is close to 1/6 ≈ 0.167, consistent with a fair dice at large sample.",
+      "accept": ["yes", "fair", "165"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1863
+    },
+    "182": {
+      "display": "70 red in 280 spins — pooled relative frequency 0.25 (or 1/4).",
+      "accept": ["0.25", "1/4", "70"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1867
+    },
+    "183": {
+      "display": "Always — combining years pools data into a larger sample for a better estimate.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1872
+    },
+    "184": {
+      "display": "Graph flattening near 0.5 shows the estimate stabilising as sample size grows.",
+      "accept": ["stabil", "0.5", "sample"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1876
+    },
+    "185": {
+      "display": "Check sample size first — 1400 flips is far more reliable than 14 flips even if percentages differ.",
+      "accept": ["size", "1400", "sample"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1881
+    },
+    "186": {
+      "display": "False — zero in 20 trials can happen by luck even if the event is possible.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1885
+    },
+    "187": {
+      "display": "Estimate 3/3 = 100% melted from tiny sample — test many more bars before rejecting 8000.",
+      "accept": ["3", "more", "8000"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1890
+    },
+    "188": {
+      "display": "Always — for fair experiments, more trials usually move relative frequency toward the correct value.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1894
+    },
+    "189": {
+      "display": "Advantage: less random error; limitation: takes more time/cost and still may not hit exact truth.",
+      "accept": [
+        "advantage",
+        "limitation",
+        "error",
+        "time"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1899
+    },
+    "190": {
+      "display": "Early 90% from 10 players was unreliable — 62% after 10,000 shows small samples mislead.",
+      "accept": ["10000", "small", "62"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1903
+    },
+    "191": {
+      "display": "Always — pooling adds all trials to one total; Monday's 6 and Tuesday's 600 both count in the denominator.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1908
+    },
+    "192": {
+      "display": "1600 trials give a much more reliable relative frequency for choosing the spinner.",
+      "accept": ["1600", "reliable"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1912
+    },
+    "193": {
+      "display": "False — large samples get close but need not match theoretical probability to the nearest whole percent every time.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1917
+    },
+    "194": {
+      "display": "Report that 2400 rolls give a more reliable test than 24 rolls when results disagree.",
+      "accept": ["2400", "24", "reliable"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1921
+    },
+    "195": {
+      "display": "Adding flips moved relative frequency from 0.44 toward 0.498, showing long-run fairness with larger samples.",
+      "accept": ["0.498", "closer", "5000"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1926
+    },
+    "196": {
+      "display": "Always — more spins make bias easier to detect than a handful of spins.",
+      "accept": ["always"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1930
+    },
+    "197": {
+      "display": "Census of everyone — largest possible sample, more reliable for the whole country than 40 people.",
+      "accept": ["census", "everyone"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1935
+    },
+    "198": {
+      "display": "False — longer runs help refine estimates even when early results looked fine.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1939
+    },
+    "199": {
+      "display": "Three bullets linking larger samples, relative frequency as estimate, and closeness to true probability.",
+      "accept": [
+        "sample",
+        "relative",
+        "frequency",
+        "probability"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1944
+    },
+    "200": {
+      "display": "900 reports over two years — much larger sample supports a safer decision than 9 in a fortnight.",
+      "accept": ["900", "two years", "larger"],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

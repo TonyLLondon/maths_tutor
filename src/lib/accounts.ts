@@ -7,9 +7,12 @@ import { isTenantId } from "./tenants";
 export type AccountRecord = {
   id: string;
   displayName: string;
+  /** Household worksheet bundle (`content/tenants/{id}/`), not the person’s login id. */
   contentTenant: TenantId;
   /** Shorter rounds for younger players. */
   chessLevel?: "gentle" | "standard";
+  /** Parent accounts: child user ids whose progress they can view. */
+  parentOf?: string[];
 };
 
 type AccountsFile = {
@@ -50,6 +53,25 @@ export async function getAccountById(
 }
 
 /** Match login input to id or displayName (case-insensitive). */
+export function isParentAccount(account: AccountRecord): boolean {
+  return Array.isArray(account.parentOf) && account.parentOf.length > 0;
+}
+
+/** Children this parent may view (same content tenant only). */
+export async function resolveWatchedChildren(
+  parent: AccountRecord,
+): Promise<AccountRecord[]> {
+  if (!parent.parentOf?.length) return [];
+  const registry = await loadAccountRegistry();
+  const byId = new Map(registry.map((u) => [u.id, u]));
+  return parent.parentOf
+    .map((id) => byId.get(id))
+    .filter(
+      (u): u is AccountRecord =>
+        !!u && u.contentTenant === parent.contentTenant,
+    );
+}
+
 export async function resolveAccountFromLogin(
   loginName: string,
 ): Promise<AccountRecord | null> {

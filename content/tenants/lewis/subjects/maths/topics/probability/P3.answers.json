@@ -1,0 +1,1931 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "2 out of 10",
+      "accept": [
+        "2 out of 10",
+        "10"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "1/6",
+      "accept": [
+        "1/6"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "7/10",
+      "accept": [
+        "7/10"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "4/5",
+      "accept": [
+        "4/5"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "3/6 or 1/2",
+      "accept": [
+        "3/6",
+        "1/2"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "0",
+      "accept": [
+        "0",
+        "0/8"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "1",
+      "accept": [
+        "1",
+        "9/9"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "0.5",
+        "6/12"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "1/5",
+      "accept": [
+        "1/5",
+        "0.2",
+        "3/15"
+      ],
+      "tier": 1,
+      "rating": 708
+    },
+    "11": {
+      "display": "1/5",
+      "accept": [
+        "1/5",
+        "0.2",
+        "5/25"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "12": {
+      "display": "0",
+      "accept": [
+        "0",
+        "zero"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "8/50 = 4/25 = 0.16",
+      "accept": [
+        "8/50",
+        "4/25",
+        "0.16",
+        "16%"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "22/40 = 11/20 = 0.55",
+      "accept": [
+        "22/40",
+        "11/20",
+        "0.55",
+        "55%"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "5/25 = 1/5 = 0.2",
+      "accept": [
+        "5/25",
+        "1/5",
+        "0.2",
+        "20%"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "0.25 (20/80)",
+      "accept": [
+        "0.25",
+        "1/4",
+        "25%"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "17": {
+      "display": "75% (150/200)",
+      "accept": [
+        "75%",
+        "75",
+        "3/4"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "18": {
+      "display": "7/30",
+      "accept": [
+        "7/30"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "19": {
+      "display": "15/500 = 3/100 = 0.03",
+      "accept": [
+        "15/500",
+        "3/100",
+        "0.03",
+        "3%"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "20": {
+      "display": "24/60 = 2/5",
+      "accept": [
+        "24/60",
+        "2/5"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "21": {
+      "display": "40/50 = 4/5 = 0.8",
+      "accept": [
+        "40/50",
+        "4/5",
+        "0.8",
+        "80%"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "22": {
+      "display": "2/5 or 0.4",
+      "accept": [
+        "2/5",
+        "0.4",
+        "40%",
+        "40/100"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "23": {
+      "display": "9/30 = 3/10",
+      "accept": [
+        "9/30",
+        "3/10"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "24": {
+      "display": "0.6 (72/120)",
+      "accept": [
+        "0.6",
+        "3/5",
+        "60%"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "25": {
+      "display": "10 trials is too small a sample — random variation means the result can be far from the true probability, which is actually 0.5.",
+      "accept": [
+        "small",
+        "sample",
+        "variation",
+        "not enough trials"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "26": {
+      "display": "Sometimes — relative frequency can be close to or even equal to the true probability by chance, but it is generally only an estimate, especially with fewer trials.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1230
+    },
+    "27": {
+      "display": "Yes — with more trials, relative frequency tends to settle closer to the true probability.",
+      "accept": [
+        "yes",
+        "correct",
+        "more reliable"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1280
+    },
+    "28": {
+      "display": "No — 6 rolls is far too small a sample to prove anything about the true probability; it only gives a rough estimate.",
+      "accept": [
+        "no",
+        "incorrect",
+        "too small",
+        "estimate"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1330
+    },
+    "29": {
+      "display": "The student with 500 flips — larger samples generally give more reliable estimates of the true probability.",
+      "accept": [
+        "500",
+        "larger",
+        "more trials"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1380
+    },
+    "30": {
+      "display": "False — relative frequency is always between 0 and 1 (or 0% and 100%), since it can never be more occurrences than trials.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1430
+    },
+    "31": {
+      "display": "No — a fair dice has a theoretical probability of 1/6 (about 0.167) for rolling a 6, so a relative frequency close to 0.3 suggests this dice may be biased.",
+      "accept": [
+        "no",
+        "incorrect",
+        "1/6",
+        "biased"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "32": {
+      "display": "160 faulty bulbs (10/250 = 1/25, and 1/25 x 4000 = 160)",
+      "accept": [
+        "160"
+      ],
+      "tier": 3,
+      "rating": 1620
+    },
+    "33": {
+      "display": "P(scores) = 18/30 = 0.6; predicted scoring matches out of 10 = 6",
+      "accept": [
+        "0.6",
+        "6",
+        "3/5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1670
+    },
+    "34": {
+      "display": "P(win) estimate = 125/500 = 1/4 = 0.25, which matches the theoretical 1/4 for 4 equal sections, so the spinner appears fair.",
+      "accept": [
+        "1/4",
+        "0.25",
+        "fair"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1720
+    },
+    "35": {
+      "display": "Yes, it appears fair — every relative frequency (e.g. 48/300, 52/300...) is close to 1/6 (about 0.167), with only small natural variation.",
+      "accept": [
+        "fair",
+        "1/6",
+        "close"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1730
+    },
+    "36": {
+      "display": "60% (27/45 = 3/5)",
+      "accept": [
+        "60%",
+        "60",
+        "3/5"
+      ],
+      "tier": 3,
+      "rating": 1737
+    },
+    "37": {
+      "display": "50 winning tickets (2000/40)",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1744
+    },
+    "38": {
+      "display": "Probability = 51/60 = 0.85; predicted germinating seeds out of 500 = 425",
+      "accept": [
+        "0.85",
+        "425",
+        "17/20"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "39": {
+      "display": "For example, flipping a fair coin just twice could easily give two heads (relative frequency 1.0), even though the true probability is 0.5 — small samples are very sensitive to chance.",
+      "accept": [
+        "small sample",
+        "chance",
+        "variation",
+        "two heads",
+        "1.0"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1860
+    },
+    "40": {
+      "display": "A sensible design using many repeats (e.g. 100 or more trials), stating that a relative frequency far from the expected theoretical probability would suggest bias.",
+      "accept": [
+        "many repeats",
+        "100",
+        "relative frequency",
+        "theoretical probability",
+        "bias"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1907
+    },
+    "41": {
+      "display": "Relative frequency = 150/1000 = 0.15, which is close to the claimed 1/5 = 0.2, so the result broadly supports the claim, though it is slightly lower.",
+      "accept": [
+        "0.15",
+        "supports",
+        "close"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1953
+    },
+    "42": {
+      "display": "Theoretical probability is calculated from known outcomes without doing an experiment (e.g. P(heads) = 1/2 from reasoning about a fair coin); experimental (relative frequency) probability is estimated by actually repeating a trial and counting results (e.g. testing how often a spinner lands on red).",
+      "accept": [
+        "known outcomes",
+        "without experiment",
+        "repeating",
+        "counting",
+        "relative frequency"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "0",
+      "accept": [
+        "0",
+        "zero"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "0",
+      "accept": [
+        "0",
+        "zero"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "45": {
+      "display": "0.25",
+      "accept": [
+        "0.25",
+        "1/4",
+        "22/88"
+      ],
+      "tier": 1,
+      "rating": 1250
+    },
+    "46": {
+      "display": "85%",
+      "accept": [
+        "85",
+        "85%"
+      ],
+      "tier": 1,
+      "rating": 1255
+    },
+    "47": {
+      "display": "39/100",
+      "accept": [
+        "39/100"
+      ],
+      "tier": 1,
+      "rating": 1260
+    },
+    "48": {
+      "display": "0.025",
+      "accept": [
+        "0.025",
+        "1/40"
+      ],
+      "tier": 1,
+      "rating": 1265
+    },
+    "49": {
+      "display": "3/4",
+      "accept": [
+        "3/4",
+        "0.75"
+      ],
+      "tier": 1,
+      "rating": 1270
+    },
+    "50": {
+      "display": "0.15",
+      "accept": [
+        "0.15",
+        "3/20"
+      ],
+      "tier": 1,
+      "rating": 1275
+    },
+    "51": {
+      "display": "0.47",
+      "accept": [
+        "0.47",
+        "118/250"
+      ],
+      "tier": 1,
+      "rating": 1280
+    },
+    "52": {
+      "display": "No — about 0.29 vs 1/6 ≈ 0.17",
+      "accept": [
+        "no",
+        "0.29",
+        "1/6"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1285
+    },
+    "53": {
+      "display": "False — relative frequency can go up or down when you collect more data",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1290
+    },
+    "54": {
+      "display": "40%",
+      "accept": [
+        "40",
+        "40%"
+      ],
+      "tier": 1,
+      "rating": 1295
+    },
+    "55": {
+      "display": "Yes — 68/560 ≈ 0.12 is close to 1/8 = 0.125",
+      "accept": [
+        "yes",
+        "support",
+        "0.12"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1300
+    },
+    "56": {
+      "display": "Experimental 0.65; theoretical 0.3 — not close",
+      "accept": [
+        "0.65",
+        "0.3",
+        "not"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1305
+    },
+    "57": {
+      "display": "Class B — 0.65 and 0.62; more trials in B",
+      "accept": [
+        "B",
+        "400",
+        "0.62"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1310
+    },
+    "58": {
+      "display": "Challenges — experimental 0.224 vs claimed 0.2",
+      "accept": [
+        "0.224",
+        "challenge"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1315
+    },
+    "59": {
+      "display": "140",
+      "accept": [
+        "140"
+      ],
+      "tier": 3,
+      "rating": 1320
+    },
+    "60": {
+      "display": "368",
+      "accept": [
+        "368"
+      ],
+      "tier": 3,
+      "rating": 1325
+    },
+    "61": {
+      "display": "97/200",
+      "accept": [
+        "97/200"
+      ],
+      "tier": 1,
+      "rating": 1330
+    },
+    "62": {
+      "display": "0.3",
+      "accept": [
+        "0.3",
+        "3/10"
+      ],
+      "tier": 1,
+      "rating": 1335
+    },
+    "63": {
+      "display": "64%",
+      "accept": [
+        "64",
+        "64%"
+      ],
+      "tier": 1,
+      "rating": 1340
+    },
+    "64": {
+      "display": "13/90",
+      "accept": [
+        "13/90"
+      ],
+      "tier": 1,
+      "rating": 1345
+    },
+    "65": {
+      "display": "No — 19/50 = 0.38 is not close to 0.5",
+      "accept": [
+        "no",
+        "0.38"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1350
+    },
+    "66": {
+      "display": "Sometimes — exact 0.5 is possible but not guaranteed",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1355
+    },
+    "67": {
+      "display": "Sample 0.0275 (11/400); slightly above 2%",
+      "accept": [
+        "0.0275",
+        "11/400",
+        "2%"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1360
+    },
+    "68": {
+      "display": "1/4",
+      "accept": [
+        "1/4"
+      ],
+      "tier": 1,
+      "rating": 1365
+    },
+    "69": {
+      "display": "2040",
+      "accept": [
+        "2040"
+      ],
+      "tier": 3,
+      "rating": 1370
+    },
+    "70": {
+      "display": "28",
+      "accept": [
+        "28"
+      ],
+      "tier": 3,
+      "rating": 1375
+    },
+    "71": {
+      "display": "More trials make relative frequency settle nearer the true probability",
+      "accept": [
+        "trials",
+        "reliable",
+        "more"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1380
+    },
+    "72": {
+      "display": "Theory uses equal chance without testing; experimental uses data from trials",
+      "accept": [
+        "theoretical",
+        "experimental",
+        "data"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1385
+    },
+    "73": {
+      "display": "False — you can use past data or theoretical models in some cases",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1390
+    },
+    "74": {
+      "display": "No — 0.48 is only an estimate; the event can still happen next time",
+      "accept": [
+        "no",
+        "incorrect"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1395
+    },
+    "75": {
+      "display": "Game B — 500 trials is more reliable than 50",
+      "accept": [
+        "B",
+        "500",
+        "more"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1400
+    },
+    "76": {
+      "display": "Yes — 45/100 = 0.45 is close to theoretical 0.4",
+      "accept": [
+        "yes",
+        "close",
+        "0.4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1405
+    },
+    "77": {
+      "display": "Yes — all counts near 40 out of 240 (expected 40 per face)",
+      "accept": [
+        "fair",
+        "yes",
+        "1/6"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1410
+    },
+    "78": {
+      "display": "75",
+      "accept": [
+        "75"
+      ],
+      "tier": 3,
+      "rating": 1415
+    },
+    "79": {
+      "display": "56",
+      "accept": [
+        "56"
+      ],
+      "tier": 3,
+      "rating": 1420
+    },
+    "80": {
+      "display": "0.04 (4%) — close to 5%",
+      "accept": [
+        "0.04",
+        "4%",
+        "close"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1425
+    },
+    "81": {
+      "display": "0.60",
+      "accept": [
+        "0.60",
+        "0.6"
+      ],
+      "tier": 1,
+      "rating": 1430
+    },
+    "82": {
+      "display": "37%",
+      "accept": [
+        "37",
+        "37%"
+      ],
+      "tier": 1,
+      "rating": 1435
+    },
+    "83": {
+      "display": "0.2 (8/40)",
+      "accept": [
+        "0.2",
+        "1/5",
+        "8/40"
+      ],
+      "tier": 1,
+      "rating": 1440
+    },
+    "84": {
+      "display": "False — theoretical uses model counts; relative frequency uses actual results",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1445
+    },
+    "85": {
+      "display": "P ≈ 0.7; predict 84 vegetarian lunches",
+      "accept": [
+        "0.7",
+        "84"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1450
+    },
+    "86": {
+      "display": "P = 0.85; predict 170 successes",
+      "accept": [
+        "0.85",
+        "170"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1455
+    },
+    "87": {
+      "display": "0.51 — close to 0.5 for a fair coin with many flips",
+      "accept": [
+        "0.51",
+        "0.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1460
+    },
+    "88": {
+      "display": "Experimental 0.16; theoretical 0.2 — fairly close",
+      "accept": [
+        "0.16",
+        "0.2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1465
+    },
+    "89": {
+      "display": "Yes — 72/300 = 0.24 is well above 1/6 ≈ 0.17",
+      "accept": [
+        "yes",
+        "bias",
+        "0.24"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1470
+    },
+    "90": {
+      "display": "No — rate gives about 36 days, not 45",
+      "accept": [
+        "no",
+        "36"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1475
+    },
+    "91": {
+      "display": "Random variation means each run can give a different fraction",
+      "accept": [
+        "random",
+        "chance",
+        "variation"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "92": {
+      "display": "Future trials can still fail even after a run of successes",
+      "accept": [
+        "future",
+        "not certain"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1485
+    },
+    "93": {
+      "display": "120",
+      "accept": [
+        "120"
+      ],
+      "tier": 3,
+      "rating": 1490
+    },
+    "94": {
+      "display": "P = 0.4; predict 8 wickets",
+      "accept": [
+        "0.4",
+        "8"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1495
+    },
+    "95": {
+      "display": "Always — it is a proportion so 0% to 100%",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1500
+    },
+    "96": {
+      "display": "Coin Y — 1000 flips gives a more reliable estimate than 12",
+      "accept": [
+        "Y",
+        "1000"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1505
+    },
+    "97": {
+      "display": "Experimental 0.195; theoretical 0.25 — reasonably close",
+      "accept": [
+        "0.195",
+        "0.25"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1510
+    },
+    "98": {
+      "display": "P = 0.7; predict 105 recoveries",
+      "accept": [
+        "0.7",
+        "105"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1515
+    },
+    "99": {
+      "display": "False — 30/100 matches 0.3; data can match theory",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1520
+    },
+    "100": {
+      "display": "2/5 or 0.4",
+      "accept": [
+        "2/5",
+        "0.4",
+        "40%"
+      ],
+      "tier": 1,
+      "rating": 1525
+    },
+    "101": {
+      "display": "68",
+      "accept": [
+        "68"
+      ],
+      "tier": 3,
+      "rating": 1530
+    },
+    "102": {
+      "display": "12/25",
+      "accept": [
+        "12/25"
+      ],
+      "tier": 1,
+      "rating": 1535
+    },
+    "103": {
+      "display": "With more trials, relative frequency usually gets closer to the true probability",
+      "accept": [
+        "more",
+        "trials",
+        "closer"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1540
+    },
+    "104": {
+      "display": "50",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1545
+    },
+    "105": {
+      "display": "10 — expected sixes ≈ 60 × 1/6",
+      "accept": [
+        "10",
+        "1/6"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "106": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1555
+    },
+    "107": {
+      "display": "Yes — 18/100 = 0.18 is close to 0.2",
+      "accept": [
+        "yes",
+        "close",
+        "0.2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1560
+    },
+    "108": {
+      "display": "False — textbook tables still describe results from real experiments",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1565
+    },
+    "109": {
+      "display": "279",
+      "accept": [
+        "279"
+      ],
+      "tier": 3,
+      "rating": 1570
+    },
+    "110": {
+      "display": "0; do not conclude P(heads) = 0 forever",
+      "accept": [
+        "0",
+        "not"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1575
+    },
+    "111": {
+      "display": "600",
+      "accept": [
+        "600"
+      ],
+      "tier": 3,
+      "rating": 1580
+    },
+    "112": {
+      "display": "P = 0.35; predict about 18 wins",
+      "accept": [
+        "0.35",
+        "18"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1585
+    },
+    "113": {
+      "display": "Sometimes — it can match by chance, e.g. 50 heads in 100",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1590
+    },
+    "114": {
+      "display": "Experimental ≈ 0.238; theoretical 0.25 — close",
+      "accept": [
+        "0.238",
+        "0.25"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1595
+    },
+    "115": {
+      "display": "44",
+      "accept": [
+        "44"
+      ],
+      "tier": 3,
+      "rating": 1600
+    },
+    "116": {
+      "display": "One week is too small; many years average out random weather",
+      "accept": [
+        "small",
+        "years",
+        "average"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1605
+    },
+    "117": {
+      "display": "44%; predict 220 correct",
+      "accept": [
+        "44",
+        "220"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1610
+    },
+    "118": {
+      "display": "False — it means it did not happen yet in that experiment, not never again",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1615
+    },
+    "119": {
+      "display": "Yes — 32/2500 = 0.0128 is close to 0.01",
+      "accept": [
+        "yes",
+        "support",
+        "0.0128"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1620
+    },
+    "120": {
+      "display": "P = 0.6; predict 18 days",
+      "accept": [
+        "0.6",
+        "18"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1625
+    },
+    "121": {
+      "display": "Not surprising — 20 rolls can easily differ from 0.5",
+      "accept": [
+        "not",
+        "small",
+        "20"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1630
+    },
+    "122": {
+      "display": "180",
+      "accept": [
+        "180"
+      ],
+      "tier": 3,
+      "rating": 1635
+    },
+    "123": {
+      "display": "0.45; predict about 11 scoring matches",
+      "accept": [
+        "0.45",
+        "11"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1640
+    },
+    "124": {
+      "display": "False — theory comes from the model; data does not change fair-coin theory",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1645
+    },
+    "125": {
+      "display": "210",
+      "accept": [
+        "210"
+      ],
+      "tier": 3,
+      "rating": 1650
+    },
+    "126": {
+      "display": "Sample 2 — 1400 trials is more reliable than 150",
+      "accept": [
+        "2",
+        "1400",
+        "more"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1655
+    },
+    "127": {
+      "display": "0.26 vs 0.2 — a bit high but not extreme",
+      "accept": [
+        "0.26",
+        "0.2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1660
+    },
+    "128": {
+      "display": "55",
+      "accept": [
+        "55"
+      ],
+      "tier": 3,
+      "rating": 1665
+    },
+    "129": {
+      "display": "Rolling a 1 or 2 often gives fractions close to one third over many rolls",
+      "accept": [
+        "third",
+        "1/3",
+        "dice"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1670
+    },
+    "130": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1675
+    },
+    "131": {
+      "display": "Sometimes — more trials usually help but do not guarantee exact match",
+      "accept": [
+        "sometimes",
+        "usually"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1680
+    },
+    "132": {
+      "display": "P(heads) ≈ 0.445; yes, that is reasonably close to 0.5",
+      "accept": [
+        "0.445",
+        "close",
+        "0.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1685
+    },
+    "133": {
+      "display": "225",
+      "accept": [
+        "225"
+      ],
+      "tier": 3,
+      "rating": 1690
+    },
+    "134": {
+      "display": "0.8; predict 368 pages read",
+      "accept": [
+        "0.8",
+        "368"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1695
+    },
+    "135": {
+      "display": "False — relative frequency is an estimate; probability can mean theoretical too",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1700
+    },
+    "136": {
+      "display": "0.18",
+      "accept": [
+        "0.18"
+      ],
+      "tier": 1,
+      "rating": 1705
+    },
+    "137": {
+      "display": "9/260 ≈ 0.035 vs 1/25 = 0.04 — fairly close",
+      "accept": [
+        "0.035",
+        "0.04",
+        "close"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1710
+    },
+    "138": {
+      "display": "No — 36 rolls is too small to prove bias from one high count",
+      "accept": [
+        "no",
+        "small"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1715
+    },
+    "139": {
+      "display": "210",
+      "accept": [
+        "210"
+      ],
+      "tier": 3,
+      "rating": 1720
+    },
+    "140": {
+      "display": "100",
+      "accept": [
+        "100"
+      ],
+      "tier": 3,
+      "rating": 1725
+    },
+    "141": {
+      "display": "Compare many-game relative frequency to 0.1 from the poster",
+      "accept": [
+        "0.1",
+        "trials",
+        "compare"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1730
+    },
+    "142": {
+      "display": "96%; past patients may not match all future cases",
+      "accept": [
+        "96",
+        "past"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1735
+    },
+    "143": {
+      "display": "False — small samples can differ from long-run theory by chance",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1740
+    },
+    "144": {
+      "display": "Yes — 65/100 = 0.65 supports 60% reasonably",
+      "accept": [
+        "yes",
+        "support",
+        "0.65"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1745
+    },
+    "145": {
+      "display": "352",
+      "accept": [
+        "352"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "146": {
+      "display": "P = 0.25; predict 35 wins",
+      "accept": [
+        "0.25",
+        "35"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1755
+    },
+    "147": {
+      "display": "Sometimes — small samples are weaker but can still give a rough idea",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1760
+    },
+    "148": {
+      "display": "Face 4 — 58/300 is furthest above expected 50",
+      "accept": [
+        "4",
+        "58"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1765
+    },
+    "149": {
+      "display": "1150",
+      "accept": [
+        "1150"
+      ],
+      "tier": 3,
+      "rating": 1770
+    },
+    "150": {
+      "display": "19/30 ≈ 0.63 — broadly supports 0.7",
+      "accept": [
+        "0.63",
+        "support",
+        "19/30"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1775
+    },
+    "151": {
+      "display": "It is the fraction of successes in the trials you actually did",
+      "accept": [
+        "fraction",
+        "trials",
+        "successes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1780
+    },
+    "152": {
+      "display": "15/60 = 0.25; predict 50 tagged in 200",
+      "accept": [
+        "0.25",
+        "50"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1785
+    },
+    "153": {
+      "display": "False — 100 flips can vary; 50 is expected long-run, not exact",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1790
+    },
+    "154": {
+      "display": "0.022 — meets target (below 0.03)",
+      "accept": [
+        "0.022",
+        "meet",
+        "below"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1795
+    },
+    "155": {
+      "display": "P(lose) = 0.65; predict 130 loses",
+      "accept": [
+        "0.65",
+        "130"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1800
+    },
+    "156": {
+      "display": "Experiment 2 — 2000 flips is far more reliable",
+      "accept": [
+        "2",
+        "2000"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1805
+    },
+    "157": {
+      "display": "3/20",
+      "accept": [
+        "3/20"
+      ],
+      "tier": 1,
+      "rating": 1810
+    },
+    "158": {
+      "display": "Sometimes — one sample can be above theory by chance",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1815
+    },
+    "159": {
+      "display": "60",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1820
+    },
+    "160": {
+      "display": "188/400 = 0.47 or 47%",
+      "accept": [
+        "0.47",
+        "47%",
+        "188/400"
+      ],
+      "tier": 1,
+      "rating": 1825
+    },
+    "161": {
+      "display": "One day is too small; use many matches for a stable estimate",
+      "accept": [
+        "one",
+        "many",
+        "small"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1830
+    },
+    "162": {
+      "display": "0.97; real populations differ from the study group",
+      "accept": [
+        "0.97",
+        "real"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1835
+    },
+    "163": {
+      "display": "True — we use past relative frequency to guess future chance",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1840
+    },
+    "164": {
+      "display": "40/150 ≈ 0.27 — not close to 1/6; may be biased",
+      "accept": [
+        "0.27",
+        "not",
+        "1/6"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1845
+    },
+    "165": {
+      "display": "90",
+      "accept": [
+        "90"
+      ],
+      "tier": 3,
+      "rating": 1850
+    },
+    "166": {
+      "display": "35",
+      "accept": [
+        "35"
+      ],
+      "tier": 3,
+      "rating": 1855
+    },
+    "167": {
+      "display": "Never — theory comes from the setup, not how many trials you run",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1860
+    },
+    "168": {
+      "display": "0.12 is from one number’s data, not fair single-ticket theory",
+      "accept": [
+        "one",
+        "experimental",
+        "not theoretical"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1865
+    },
+    "169": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1870
+    },
+    "170": {
+      "display": "Yes — 0.48 is close to 0.5 with 250 rolls",
+      "accept": [
+        "yes",
+        "fair",
+        "close"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1875
+    },
+    "171": {
+      "display": "Past sales relative frequency helps guess how much stock to order",
+      "accept": [
+        "past",
+        "sales",
+        "stock"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1880
+    },
+    "172": {
+      "display": "68",
+      "accept": [
+        "68"
+      ],
+      "tier": 3,
+      "rating": 1885
+    },
+    "173": {
+      "display": "False — doubling trials does not double the fraction of successes",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1890
+    },
+    "174": {
+      "display": "Both 0.35 — estimate matches theoretical 7/20",
+      "accept": [
+        "0.35",
+        "match"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1895
+    },
+    "175": {
+      "display": "660",
+      "accept": [
+        "660"
+      ],
+      "tier": 3,
+      "rating": 1900
+    },
+    "176": {
+      "display": "No — 62/100 could happen by chance on a fair coin",
+      "accept": [
+        "no",
+        "chance"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1905
+    },
+    "177": {
+      "display": "Never — surveys, quality checks, and sports use it too",
+      "accept": [
+        "never",
+        "surveys"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1910
+    },
+    "178": {
+      "display": "300",
+      "accept": [
+        "300"
+      ],
+      "tier": 3,
+      "rating": 1915
+    },
+    "179": {
+      "display": "95%",
+      "accept": [
+        "95",
+        "95%"
+      ],
+      "tier": 1,
+      "rating": 1920
+    },
+    "180": {
+      "display": "0.0152 vs 0.02 — slightly low but roughly in line",
+      "accept": [
+        "0.0152",
+        "0.02",
+        "support"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1925
+    },
+    "181": {
+      "display": "Theory uses ideal long-run proportion; one experiment gives one sample fraction",
+      "accept": [
+        "long",
+        "sample",
+        "ideal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1930
+    },
+    "182": {
+      "display": "39",
+      "accept": [
+        "39"
+      ],
+      "tier": 3,
+      "rating": 1935
+    },
+    "183": {
+      "display": "False — it may not have happened yet in that trial only",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1940
+    },
+    "184": {
+      "display": "209",
+      "accept": [
+        "209"
+      ],
+      "tier": 3,
+      "rating": 1945
+    },
+    "185": {
+      "display": "0.217 vs 1/6 ≈ 0.167 — might be biased toward sixes",
+      "accept": [
+        "0.217",
+        "biased",
+        "1/6"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1950
+    },
+    "186": {
+      "display": "210",
+      "accept": [
+        "210"
+      ],
+      "tier": 3,
+      "rating": 1955
+    },
+    "187": {
+      "display": "Never — they get closer but rarely become exactly equal",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1960
+    },
+    "188": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 3,
+      "rating": 1965
+    },
+    "189": {
+      "display": "Theory plans fair models; experiments check what really happens",
+      "accept": [
+        "theory",
+        "experiment",
+        "both"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1970
+    },
+    "190": {
+      "display": "81",
+      "accept": [
+        "81"
+      ],
+      "tier": 3,
+      "rating": 1975
+    },
+    "191": {
+      "display": "Yes — 195/900 = 0.217 is above 1/6 ≈ 0.167",
+      "accept": [
+        "yes",
+        "0.217",
+        "favour"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1980
+    },
+    "192": {
+      "display": "144",
+      "accept": [
+        "144"
+      ],
+      "tier": 3,
+      "rating": 1985
+    },
+    "193": {
+      "display": "False — fractions and percentages are also valid",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1990
+    },
+    "194": {
+      "display": "P = 0.6; predict 360 patients",
+      "accept": [
+        "0.6",
+        "360"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1993
+    },
+    "195": {
+      "display": "Yes — tiny differences after 10000 flips are normal for a fair coin",
+      "accept": [
+        "yes",
+        "normal",
+        "close"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1996
+    },
+    "196": {
+      "display": "280",
+      "accept": [
+        "280"
+      ],
+      "tier": 3,
+      "rating": 1998
+    },
+    "197": {
+      "display": "63",
+      "accept": [
+        "63"
+      ],
+      "tier": 3,
+      "rating": 1999
+    },
+    "198": {
+      "display": "Sometimes — experiments help when theory is unknown or hard",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1997
+    },
+    "199": {
+      "display": "145 wins; club is above average 0.5",
+      "accept": [
+        "145",
+        "above",
+        "0.58"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1998
+    },
+    "200": {
+      "display": "25 faulty; conditions or sample may change in production",
+      "accept": [
+        "25",
+        "change",
+        "sample"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

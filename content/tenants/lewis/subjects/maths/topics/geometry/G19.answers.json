@@ -1,0 +1,1700 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "9 cm",
+      "accept": [
+        "9",
+        "9 cm",
+        "9cm"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm",
+        "5cm"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "40°",
+      "accept": [
+        "40",
+        "40°",
+        "40 degrees"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "Corresponding angles must be equal",
+      "accept": [
+        "equal",
+        "same"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "Corresponding sides must be in the same ratio (proportional)",
+      "accept": [
+        "ratio",
+        "proportional",
+        "same ratio"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "15 cm",
+      "accept": [
+        "15",
+        "15 cm"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "15 cm",
+      "accept": [
+        "15",
+        "15 cm"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "2.5",
+      "accept": [
+        "2.5"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "2.5",
+      "accept": [
+        "2.5"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "37.5 cm",
+      "accept": [
+        "37.5",
+        "37.5 cm"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "Yes — all squares have four right angles and equal sides, so any two squares are always similar",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "No — rectangles can have different length-to-width ratios, so not all rectangles are similar",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "Multiplied by 3",
+      "accept": [
+        "×3",
+        "times 3",
+        "tripled"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "2.5",
+      "accept": [
+        "2.5"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "23": {
+      "display": "Wrong — similarity for general shapes needs both equal corresponding angles AND sides in the same ratio; a rectangle and a square both have right angles but are not similar unless their side ratios also match.",
+      "accept": [
+        "both",
+        "sides",
+        "ratio"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "24": {
+      "display": "True — every circle has exactly the same shape, only differing in size, so all circles are similar.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "25": {
+      "display": "Not similar — the ratios are $6/3 = 2$, $8/4 = 2$, but $11/5 = 2.2$, which is different, so the sides are not all in the same ratio.",
+      "accept": [
+        "not similar",
+        "no",
+        "2.2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "26": {
+      "display": "Sometimes — similar shapes are only congruent when the scale factor between them is exactly 1.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "27": {
+      "display": "Not necessarily true — adding the same amount to every side changes the ratios between sides unless they were all equal to start with (e.g. a 2 cm by 4 cm rectangle becomes 5 cm by 7 cm, and $5:7 \\neq 2:4$).",
+      "accept": [
+        "not necessarily",
+        "ratio changes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "28": {
+      "display": "Every equilateral triangle has all angles equal to 60°, so any two are automatically similar; isosceles triangles can have different angle sizes (e.g. a tall thin one vs a short wide one), so they are not always similar.",
+      "accept": [
+        "60",
+        "different angles"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "29": {
+      "display": "Wrong — the scale factor is found by dividing, not subtracting: $12 \\div 4 = 3$, not $12 - 4 = 8$.",
+      "accept": [
+        "3",
+        "divide"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "30": {
+      "display": "Incomplete because the scale factor depends on the direction — from smaller to larger it is $5 \\div 2 = 2.5$, not simply 2.",
+      "accept": [
+        "2.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "31": {
+      "display": "2 m",
+      "accept": [
+        "2",
+        "2 m"
+      ],
+      "tier": 3,
+      "rating": 1620
+    },
+    "32": {
+      "display": "3.6 m",
+      "accept": [
+        "3.6",
+        "3.6 m"
+      ],
+      "tier": 3,
+      "rating": 1680
+    },
+    "33": {
+      "display": "Scale factor 1/60; model length 20 cm",
+      "accept": [
+        "1/60",
+        "20",
+        "20 cm"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "34": {
+      "display": "Scale factor 1.5; matching side 12 cm",
+      "accept": [
+        "1.5",
+        "12"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1580
+    },
+    "35": {
+      "display": "9 m",
+      "accept": [
+        "9",
+        "9 m"
+      ],
+      "tier": 3,
+      "rating": 1640
+    },
+    "36": {
+      "display": "35 cm",
+      "accept": [
+        "35",
+        "35 cm"
+      ],
+      "tier": 3,
+      "rating": 1720
+    },
+    "37": {
+      "display": "18 cm and 21 cm",
+      "accept": [
+        "18",
+        "21"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1860
+    },
+    "38": {
+      "display": "30 cm",
+      "accept": [
+        "30",
+        "30 cm"
+      ],
+      "tier": 3,
+      "rating": 1907
+    },
+    "39": {
+      "display": "x = 5",
+      "accept": [
+        "5",
+        "x=5"
+      ],
+      "tier": 3,
+      "rating": 1953
+    },
+    "40": {
+      "display": "30 m",
+      "accept": [
+        "30",
+        "30 m"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "12 cm",
+      "accept": [
+        "12",
+        "12 cm"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "6 m",
+      "accept": [
+        "6",
+        "6 m"
+      ],
+      "tier": 2,
+      "rating": 1520
+    },
+    "43": {
+      "display": "6 cm",
+      "accept": [
+        "6",
+        "6 cm"
+      ],
+      "tier": 1,
+      "rating": 817
+    },
+    "44": {
+      "display": "9 cm",
+      "accept": [
+        "9",
+        "9 cm"
+      ],
+      "tier": 1,
+      "rating": 824
+    },
+    "45": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8"
+      ],
+      "tier": 1,
+      "rating": 830
+    },
+    "46": {
+      "display": "12 cm",
+      "accept": [
+        "12",
+        "12"
+      ],
+      "tier": 1,
+      "rating": 837
+    },
+    "47": {
+      "display": "16 cm",
+      "accept": [
+        "16",
+        "16"
+      ],
+      "tier": 1,
+      "rating": 844
+    },
+    "48": {
+      "display": "20 cm",
+      "accept": [
+        "20",
+        "20"
+      ],
+      "tier": 1,
+      "rating": 851
+    },
+    "49": {
+      "display": "24 cm",
+      "accept": [
+        "24",
+        "24"
+      ],
+      "tier": 1,
+      "rating": 858
+    },
+    "50": {
+      "display": "28 cm",
+      "accept": [
+        "28",
+        "28"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "51": {
+      "display": "32 cm",
+      "accept": [
+        "32",
+        "32"
+      ],
+      "tier": 1,
+      "rating": 872
+    },
+    "52": {
+      "display": "36 cm",
+      "accept": [
+        "36",
+        "36"
+      ],
+      "tier": 1,
+      "rating": 879
+    },
+    "53": {
+      "display": "40 cm",
+      "accept": [
+        "40",
+        "40"
+      ],
+      "tier": 1,
+      "rating": 886
+    },
+    "54": {
+      "display": "44 cm",
+      "accept": [
+        "44",
+        "44"
+      ],
+      "tier": 1,
+      "rating": 893
+    },
+    "55": {
+      "display": "48 cm",
+      "accept": [
+        "48",
+        "48"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "56": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 907
+    },
+    "57": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 914
+    },
+    "58": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 921
+    },
+    "59": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 928
+    },
+    "60": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 935
+    },
+    "61": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 941
+    },
+    "62": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 948
+    },
+    "63": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 955
+    },
+    "64": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 962
+    },
+    "65": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 969
+    },
+    "66": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 976
+    },
+    "67": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 983
+    },
+    "68": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 990
+    },
+    "69": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "70": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1004
+    },
+    "71": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1011
+    },
+    "72": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1018
+    },
+    "73": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1025
+    },
+    "74": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1032
+    },
+    "75": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1039
+    },
+    "76": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1046
+    },
+    "77": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1053
+    },
+    "78": {
+      "display": "17.5 cm",
+      "accept": [
+        "17.5"
+      ],
+      "tier": 1,
+      "rating": 1060
+    },
+    "79": {
+      "display": "12 cm",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1067
+    },
+    "80": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1074
+    },
+    "81": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1081
+    },
+    "82": {
+      "display": "17.5 cm",
+      "accept": [
+        "17.5"
+      ],
+      "tier": 1,
+      "rating": 1088
+    },
+    "83": {
+      "display": "12 cm",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1095
+    },
+    "84": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1102
+    },
+    "85": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1109
+    },
+    "86": {
+      "display": "17.5 cm",
+      "accept": [
+        "17.5"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "87": {
+      "display": "12 cm",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1123
+    },
+    "88": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1130
+    },
+    "89": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1137
+    },
+    "90": {
+      "display": "17.5 cm",
+      "accept": [
+        "17.5"
+      ],
+      "tier": 1,
+      "rating": 1144
+    },
+    "91": {
+      "display": "12 cm",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1151
+    },
+    "92": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1157
+    },
+    "93": {
+      "display": "18 cm",
+      "accept": [
+        "18",
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1164
+    },
+    "94": {
+      "display": "28 cm",
+      "accept": [
+        "28",
+        "28"
+      ],
+      "tier": 1,
+      "rating": 1171
+    },
+    "95": {
+      "display": "40 cm",
+      "accept": [
+        "40",
+        "40"
+      ],
+      "tier": 1,
+      "rating": 1178
+    },
+    "96": {
+      "display": "18 cm",
+      "accept": [
+        "18",
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1185
+    },
+    "97": {
+      "display": "30 cm",
+      "accept": [
+        "30",
+        "30"
+      ],
+      "tier": 1,
+      "rating": 1192
+    },
+    "98": {
+      "display": "44 cm",
+      "accept": [
+        "44",
+        "44"
+      ],
+      "tier": 1,
+      "rating": 1199
+    },
+    "99": {
+      "display": "60 cm",
+      "accept": [
+        "60",
+        "60"
+      ],
+      "tier": 1,
+      "rating": 1206
+    },
+    "100": {
+      "display": "26 cm",
+      "accept": [
+        "26",
+        "26"
+      ],
+      "tier": 1,
+      "rating": 1213
+    },
+    "101": {
+      "display": "42 cm",
+      "accept": [
+        "42",
+        "42"
+      ],
+      "tier": 1,
+      "rating": 1220
+    },
+    "102": {
+      "display": "60 cm",
+      "accept": [
+        "60",
+        "60"
+      ],
+      "tier": 1,
+      "rating": 1227
+    },
+    "103": {
+      "display": "80 cm",
+      "accept": [
+        "80",
+        "80"
+      ],
+      "tier": 1,
+      "rating": 1234
+    },
+    "104": {
+      "display": "34 cm",
+      "accept": [
+        "34",
+        "34"
+      ],
+      "tier": 1,
+      "rating": 1241
+    },
+    "105": {
+      "display": "54 cm",
+      "accept": [
+        "54",
+        "54"
+      ],
+      "tier": 1,
+      "rating": 1248
+    },
+    "106": {
+      "display": "76 cm",
+      "accept": [
+        "76",
+        "76"
+      ],
+      "tier": 1,
+      "rating": 1255
+    },
+    "107": {
+      "display": "100 cm",
+      "accept": [
+        "100",
+        "100"
+      ],
+      "tier": 1,
+      "rating": 1262
+    },
+    "108": {
+      "display": "18 cm²",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1269
+    },
+    "109": {
+      "display": "48 cm²",
+      "accept": [
+        "48"
+      ],
+      "tier": 1,
+      "rating": 1276
+    },
+    "110": {
+      "display": "100 cm²",
+      "accept": [
+        "100"
+      ],
+      "tier": 1,
+      "rating": 1283
+    },
+    "111": {
+      "display": "45 cm²",
+      "accept": [
+        "45"
+      ],
+      "tier": 1,
+      "rating": 1290
+    },
+    "112": {
+      "display": "96 cm²",
+      "accept": [
+        "96"
+      ],
+      "tier": 1,
+      "rating": 1297
+    },
+    "113": {
+      "display": "175 cm²",
+      "accept": [
+        "175"
+      ],
+      "tier": 1,
+      "rating": 1304
+    },
+    "114": {
+      "display": "72 cm²",
+      "accept": [
+        "72"
+      ],
+      "tier": 1,
+      "rating": 1311
+    },
+    "115": {
+      "display": "144 cm²",
+      "accept": [
+        "144"
+      ],
+      "tier": 1,
+      "rating": 1318
+    },
+    "116": {
+      "display": "250 cm²",
+      "accept": [
+        "250"
+      ],
+      "tier": 1,
+      "rating": 1325
+    },
+    "117": {
+      "display": "99 cm²",
+      "accept": [
+        "99"
+      ],
+      "tier": 1,
+      "rating": 1332
+    },
+    "118": {
+      "display": "192 cm²",
+      "accept": [
+        "192"
+      ],
+      "tier": 1,
+      "rating": 1339
+    },
+    "119": {
+      "display": "325 cm²",
+      "accept": [
+        "325"
+      ],
+      "tier": 1,
+      "rating": 1346
+    },
+    "120": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1353
+    },
+    "121": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1360
+    },
+    "122": {
+      "display": "Similar shapes have equal angles.",
+      "accept": [
+        "size",
+        "shape"
+      ],
+      "tier": 2,
+      "rating": 1367,
+      "contains": true
+    },
+    "123": {
+      "display": "0.8 cm",
+      "accept": [
+        "0.8",
+        "0.8"
+      ],
+      "tier": 1,
+      "rating": 1373
+    },
+    "124": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1380
+    },
+    "125": {
+      "display": "0.75 cm",
+      "accept": [
+        "0.75",
+        "0.75"
+      ],
+      "tier": 1,
+      "rating": 1387
+    },
+    "126": {
+      "display": "1 : 27",
+      "accept": [
+        "1:27",
+        "27"
+      ],
+      "tier": 2,
+      "rating": 1394,
+      "contains": true
+    },
+    "127": {
+      "display": "Similar shapes have equal angles.",
+      "accept": [
+        "square",
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1100,
+      "contains": true
+    },
+    "128": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1104
+    },
+    "129": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1108
+    },
+    "130": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1112
+    },
+    "131": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "132": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1121
+    },
+    "133": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1125
+    },
+    "134": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1129
+    },
+    "135": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1133
+    },
+    "136": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1137
+    },
+    "137": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1141
+    },
+    "138": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1145
+    },
+    "139": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1149
+    },
+    "140": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1153
+    },
+    "141": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1158
+    },
+    "142": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1162
+    },
+    "143": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1166
+    },
+    "144": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1170
+    },
+    "145": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1174
+    },
+    "146": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1178
+    },
+    "147": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1182
+    },
+    "148": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1186
+    },
+    "149": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1190
+    },
+    "150": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1195
+    },
+    "151": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1199
+    },
+    "152": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1203
+    },
+    "153": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1207
+    },
+    "154": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1211
+    },
+    "155": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1215
+    },
+    "156": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1219
+    },
+    "157": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1223
+    },
+    "158": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1227
+    },
+    "159": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1232
+    },
+    "160": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1236
+    },
+    "161": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1240
+    },
+    "162": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1244
+    },
+    "163": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1248
+    },
+    "164": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1252
+    },
+    "165": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1256
+    },
+    "166": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1260
+    },
+    "167": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1264
+    },
+    "168": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1268
+    },
+    "169": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1273
+    },
+    "170": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1277
+    },
+    "171": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1281
+    },
+    "172": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1285
+    },
+    "173": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1289
+    },
+    "174": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1293
+    },
+    "175": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1297
+    },
+    "176": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1301
+    },
+    "177": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1305
+    },
+    "178": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1310
+    },
+    "179": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1314
+    },
+    "180": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1318
+    },
+    "181": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1322
+    },
+    "182": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1326
+    },
+    "183": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1330
+    },
+    "184": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1334
+    },
+    "185": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1338
+    },
+    "186": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1342
+    },
+    "187": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1347
+    },
+    "188": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1351
+    },
+    "189": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1355
+    },
+    "190": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1359
+    },
+    "191": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1363
+    },
+    "192": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1367
+    },
+    "193": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1371
+    },
+    "194": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1375
+    },
+    "195": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1379
+    },
+    "196": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1384
+    },
+    "197": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1388
+    },
+    "198": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1392
+    },
+    "199": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1396
+    },
+    "200": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1400
+    }
+  }
+}

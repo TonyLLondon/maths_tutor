@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Diameter is twice radius — 2×2.",
+      "help": "Diameter **4** cm.\n\nExample: $d=2r$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "2": {
+      "hint": "Radius is half of diameter 8.",
+      "help": "**4** cm.\n\nExample: $r=d/2$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "Distance **around** — circumference or area?",
+      "help": "**Circumference**.\n\nExample: rim length.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "4": {
+      "hint": "Space **inside** circle?",
+      "help": "**Area**.\n\nExample: grass inside circle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "Diameter = 2×5.",
+      "help": "**10** cm.\n\nExample: r=5.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "6": {
+      "hint": "Bigger circle → longer around?",
+      "help": "**True** — larger radius → longer circumference.\n\nExample: compare wheels."
+    },
+    "7": {
+      "hint": "Circle area units?",
+      "help": "**cm²**.\n\nExample: squared units.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "8": {
+      "hint": "Semicircle fraction of full circle?",
+      "help": "**Half** ($\\frac12$).\n\nExample: 180° of 360°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "9": {
+      "hint": "C = πd with d=10, π≈3.14.",
+      "help": "**31.4** cm.\n\nExample: multiply π and diameter.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "10": {
+      "hint": "C = 2πr, r=5.",
+      "help": "$2\\times3.14\\times5=31.4$ cm.\n\nExample: both formulas match."
+    },
+    "11": {
+      "hint": "A = πr², r=4.",
+      "help": "$3.14\\times16=50.24$ cm².\n\nExample: square radius first.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "12": {
+      "hint": "Half of 14 cm diameter.",
+      "help": "Radius **7** cm.\n\nExample: d÷2.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "Double 6 cm radius.",
+      "help": "Diameter **12** cm.\n\nExample: 2r.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "2πr with r=10.",
+      "help": "About **62.8** cm.\n\nExample: π≈3.14.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "π×3².",
+      "help": "About **28.26** cm².\n\nExample: r=3.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "16": {
+      "hint": "Radius 4 when d=8, then πr².",
+      "help": "$3.14\\times16=50.24$ cm².\n\nExample: find r first.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "C=31.4=πd — divide by π.",
+      "help": "Diameter **10** cm.\n\nExample: d=C/π.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "One turn = circumference π×50.",
+      "help": "About **157** cm.\n\nExample: wheel rollout.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "19": {
+      "hint": "π to 2 decimal places.",
+      "help": "**3.14** (commonly used).\n\nExample: calculator π.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "Area uses r squared — πr² not πd.",
+      "help": "**πr²** for area.\n\nExample: πd is circumference-related.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "21": {
+      "hint": "Circumference formula with r.",
+      "help": "**C = 2πr** (or πd).\n\nExample: write in terms of r.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "Area formula with r.",
+      "help": "**A = πr²**.\n\nExample: standard formula.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "23": {
+      "hint": "π = circumference ÷ diameter — same for every circle.",
+      "help": "Ratio **C/d** is constant **π** for all circles.\n\nExample: measure any circle."
+    },
+    "24": {
+      "hint": "C = 2πr — if r doubles, C doubles?",
+      "help": "Circumference **doubles** when radius doubles — linear in r.\n\nExample: r=3→6 doubles C."
+    },
+    "25": {
+      "hint": "Area uses r² — doubling r multiplies area by 4.",
+      "help": "**Never** doubles area when r doubles — area **×4**. Statement false.\n\nExample: A=π(2r)²=4πr²."
+    },
+    "26": {
+      "hint": "Double radius → area ×4 from πr².",
+      "help": "Area **quadruples** when radius doubles.\n\nExample: (2r)²=4r²."
+    },
+    "27": {
+      "hint": "From C find d=C/π then r=d/2.",
+      "help": "Sam **wrong** — use **d = C/π**, then **r = d/2**.\n\nExample: reverse formulas."
+    },
+    "28": {
+      "hint": "Circumference ratio 1:2 — area ratio 1:4.",
+      "help": "Circumferences **1:2**; areas **1:4** (square the scale).\n\nExample: radii 1 and 2."
+    },
+    "29": {
+      "hint": "78.5=πr² — divide by π then square root.",
+      "help": "r²≈25 → **r=5** cm.\n\nExample: A/π=r².\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "30": {
+      "hint": "Semicircle perimeter includes diameter + half circumference.",
+      "help": "Leo **wrong** — perimeter needs **arc + diameter**, not half C alone.\n\nExample: curved + straight."
+    },
+    "31": {
+      "hint": "π×1.2 for d=1.2 m.",
+      "help": "About **3.77** m (2 d.p.).\n\nExample: C=πd.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "32": {
+      "hint": "π×7².",
+      "help": "About **153.86** m².\n\nExample: garden circle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "33": {
+      "hint": "10 turns × circumference 2π×30 cm, convert to m.",
+      "help": "One turn ≈188.4 cm; ten turns ≈1884 cm ≈ **18.84** m.\n\nExample: multiply then ÷100."
+    },
+    "34": {
+      "hint": "π×15² for radius 15 cm.",
+      "help": "About **707** cm² to nearest whole.\n\nExample: d=30.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "35": {
+      "hint": "400=2πr — solve r.",
+      "help": "r ≈ **63.7** m (1 d.p.).\n\nExample: r=C/(2π).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "36": {
+      "hint": "Quarter circle area ¼×π×10².",
+      "help": "About **78.5** cm² swept in 15 min.\n\nExample: ¼ of full area."
+    },
+    "37": {
+      "hint": "C/d always π — scale independent.",
+      "help": "Every circle has same ratio **C/d = π** — size does not change π.\n\nExample: big vs small circle."
+    },
+    "38": {
+      "hint": "Set πR² − π5² = 200 and solve R.",
+      "help": "Solve for larger radius using area difference **200** cm².\n\nExample: subtract smaller area."
+    },
+    "39": {
+      "hint": "Square area = circle area π×5² — side² equals that.",
+      "help": "Side ≈ **8.9** cm from $\\sqrt{78.5}$.\n\nExample: equate areas."
+    },
+    "40": {
+      "hint": "Use $A=\\pi r^2$: square the radius before multiplying by 3.14.",
+      "help": "The area of a circle is $A=\\pi r^2$. First multiply the radius by itself, then multiply by $\\pi$.\n\nFor example, when $r=5$ cm, $A\\approx3.14\\times25=78.5$ cm²."
+    },
+    "41": {
+      "hint": "2π×7.",
+      "help": "About **43.96** cm.\n\nExample: circumference.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "r=5 from d=10, πr².",
+      "help": "About **78.5** cm².\n\nExample: standard area.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "43": {
+      "hint": "Circumference $= 2\\pi r$.",
+      "help": "$2 \\times 3.14 \\times 2 \\approx 12.6$ cm.\n\nWork step by step and check units."
+    },
+    "44": {
+      "hint": "Area $= \\pi r^2$.",
+      "help": "$3.14 \\times 2^2 \\approx 13$ cm².\n\nWork step by step and check units."
+    },
+    "45": {
+      "hint": "C = π×12 ≈ 3.14×12, 1 dp.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "46": {
+      "hint": "r=12/2, then A=πr² (nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "47": {
+      "hint": "C = 2π×15 with π≈3.14.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "48": {
+      "hint": "A = π×15² with π≈3.14.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "49": {
+      "hint": "A circle has circumference 62.8 cm (...). Find its radius.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "50": {
+      "hint": "A circle has area 154 cm² (...). Find its diameter (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "51": {
+      "hint": "C = 2π×20 with π≈3.14.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "52": {
+      "hint": "A = π×20² with π≈3.14.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "53": {
+      "hint": "C = π×16 ≈ 3.14×16, 1 dp.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "54": {
+      "hint": "r=16/2, then A=πr² (nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "55": {
+      "hint": "A circle has radius 2.5 cm. Find its circumference (..., 2 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "56": {
+      "hint": "A circle has radius 2.5 cm. Find its area (..., 2 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "57": {
+      "hint": "A circle has circumference 157 cm (...). Find its diameter (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "58": {
+      "hint": "A circle has area 314 cm² (...). Find its radius.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "59": {
+      "hint": "Two circles have radii 3 cm and 9 cm. What is the ratio of their circumferences (smaller : larger)?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "60": {
+      "hint": "The same two circles. What is the ratio of their areas (smaller : larger)?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "61": {
+      "hint": "A semicircle has radius 10 cm. Find the length of the curved edge only (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "62": {
+      "hint": "A = π×10² with π≈3.14.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "63": {
+      "hint": "A semicircle has radius 8 cm. Find its full perimeter including the straight edge (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "64": {
+      "hint": "A semicircle has diameter 14 cm. Find the curved length (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "65": {
+      "hint": "r=14/2, then A=πr² (nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "66": {
+      "hint": "Q66: is this true? A semicircle always has half the area of the full circle with the same radius.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "67": {
+      "hint": "Leo repeats his claim from Q30 for a semicircle of radius 5 cm. Find the full perimeter to show what is missing (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "68": {
+      "hint": "A square has side length 10 cm. A circle is drawn inside touching all four sides. Find the circle’s radius.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "69": {
+      "hint": "For the same square and inscribed circle, find the circle’s area (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "70": {
+      "hint": "A circular pond has radius 4 m. A path 1 m wide surrounds it. Find the radius of the outer edge of the path.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "71": {
+      "hint": "A flat ring (washer) has outer radius 5 cm and inner radius 3 cm. Find the area of the ring (..., 2 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "72": {
+      "hint": "A ring has outer diameter 20 cm and inner diameter 12 cm. Find the area of metal in the ring (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "73": {
+      "hint": "A quarter-circle has radius 12 cm. Find the arc length (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "74": {
+      "hint": "A = π×12² with π≈3.14.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "75": {
+      "hint": "A quarter-circle has radius 6 cm. Find its perimeter including the two straight edges (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "76": {
+      "hint": "A bicycle wheel has diameter 70 cm. How far does it travel in 50 full turns (...)? Give your answer in metres (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "77": {
+      "hint": "A wheel has radius 35 cm. How far does it travel in 100 full turns (...)? Give your answer in metres (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "78": {
+      "hint": "A circular rug has radius 1.5 m. Find its area (..., 2 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "79": {
+      "hint": "A circular tablecloth has diameter 1.4 m. Find the length of lace needed to go round the edge (..., 2 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "80": {
+      "hint": "A circular field has radius 20 m. Find its area (..., nearest whole m²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "81": {
+      "hint": "Circle A has radius 4 cm and circle B has radius 12 cm. How many times larger is B’s area than A’s area?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "82": {
+      "hint": "A circle has circumference 18.84 cm (...). Find its radius.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "83": {
+      "hint": "A circle has area 28.26 cm² (...). Find its diameter (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "84": {
+      "hint": "Q84: is this true? If two circles have the same circumference, they must have the same area.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "85": {
+      "hint": "Q85: explain — Explain why the area of a circle with radius 2 cm is ... cm², not 4 cm².",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "86": {
+      "hint": "A circle has radius 7 cm. Write its circumference in terms of ... (leave ... in your answer).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "87": {
+      "hint": "A circle has radius 7 cm. Write its area in terms of ....",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "88": {
+      "hint": "A circle has diameter ... cm. Write its area in terms of ... and ....",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "89": {
+      "hint": "Use .... Find the circumference of a circle with radius 7 cm.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "90": {
+      "hint": "Use .... Find the area of a circle with radius 7 cm.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "91": {
+      "hint": "A piece of wire 31.4 cm long is bent into a circle (...). Find the radius.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "92": {
+      "hint": "A piece of wire 62.8 cm long is bent into a circle (...). Find the area of the circle.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "93": {
+      "hint": "A circular pizza of radius 15 cm is cut into 8 equal slices. Find the area of one slice (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "94": {
+      "hint": "A Ferris wheel has diameter 40 m. How far does a seat travel in one full rotation (..., 1 dp)?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "95": {
+      "hint": "A circular flower bed has circumference 9.42 m (...). Find its radius (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "96": {
+      "hint": "A hose wraps completely around a cylindrical drum of diameter 50 cm exactly 3 times (...). Find the length of hose used (1 dp, in cm).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "97": {
+      "hint": "A circular target has radius 9 cm with a bullseye of radius 3 cm. Find the area of the ring between them (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "98": {
+      "hint": "Two identical coins each have radius 1.2 cm. Find the total area of both faces (..., 2 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "99": {
+      "hint": "A circular mirror has area 785 cm² (...). Find its radius (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "100": {
+      "hint": "Q100: test \"The diameter of a circle is longer than its radius.\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "101": {
+      "hint": "A running track is two straight sections of 100 m joined by two semicircles of diameter 63 m. Find the total distance around the track (..., nearest whole m).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "102": {
+      "hint": "A semicircular window has diameter 1.2 m. Find the area of glass (..., 2 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "103": {
+      "hint": "A goat is tied to a post with a rope 8 m long (the goat can graze in a full circle). Find the area of grass it can reach (..., nearest whole m²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "104": {
+      "hint": "A circular badge has area 50.24 cm² (...). Find its circumference (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "105": {
+      "hint": "Q105: is this true? Doubling the diameter of a circle doubles its area.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "106": {
+      "hint": "A circle has radius ... cm. Write an expression for the area of a semicircle with the same radius.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "107": {
+      "hint": "A circle has radius 11 cm. A sector of angle 180° is removed (a semicircle). What fraction of the full circle’s area remains?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "108": {
+      "hint": "Compare: circle radius 5 cm vs square side 9 cm. Which has the larger area (...)? State both areas (nearest whole unit²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "109": {
+      "hint": "A cylinder’s circular end has diameter 10 cm. Find the area of that circular face (...).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "110": {
+      "hint": "The same circular face has circumference 31.4 cm. Confirm its radius (...).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "111": {
+      "hint": "A lawn sprinkler reaches 6 m from the centre in every direction. Find the area watered (..., nearest whole m²).",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "112": {
+      "hint": "r=26/2, then A=πr² (nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "113": {
+      "hint": "A hoop has inner diameter 40 cm. Find the inner circumference (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "114": {
+      "hint": "A circular stage has area 153.86 cm² (...). Find its diameter (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "115": {
+      "hint": "Q115: test \"The circumference of a circle is greater than its diameter.\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "116": {
+      "hint": "Three circles each have radius 2 cm. Find the total area of all three (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "117": {
+      "hint": "A wire forms a square of side 10 cm. The same wire is reshaped into a circle. Find the circle’s radius (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "118": {
+      "hint": "A circle has radius 6 cm. Find the area of the largest square that fits inside it (..., nearest whole cm²). Hint: the square’s diagonal equals the diameter.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "119": {
+      "hint": "Q119: explain — Explain why increasing the radius from 3 cm to 6 cm multiplies the area by 4, not by 2.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "120": {
+      "hint": "Q120: is this true? ... is the area of a circle with diameter 10 cm.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "121": {
+      "hint": "A semicircular arch has radius 5 m. Find the arch’s curved length (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "122": {
+      "hint": "The same arch: find the area under the curved part only (..., 1 dp).",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "123": {
+      "hint": "A CD has diameter 12 cm. Find the area of the label on one side (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "124": {
+      "hint": "A circular pool has circumference 37.68 m (...). Find its diameter.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "125": {
+      "hint": "Two concentric circles have radii 4 cm and 7 cm. Find the area between them (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "126": {
+      "hint": "A circle’s area is 113.04 cm² (...). Find its circumference (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "127": {
+      "hint": "Q127: test \"A circle with radius 1 cm has area less than its circumference (compare the numbers using ...).\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "128": {
+      "hint": "A quarter-circle of radius 10 cm is cut from a square of side 10 cm. Find the area left in the square (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "129": {
+      "hint": "A logo is a circle of radius 3 cm with a smaller circle of radius 1 cm cut from the centre. Find the area of the logo (..., 2 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "130": {
+      "hint": "A car tyre has diameter 60 cm. How many full rotations to travel 188.4 m (...)?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "131": {
+      "hint": "A circle has radius 13 cm. Find circumference and area (...); which is larger?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "132": {
+      "hint": "Q132: explain — Mia says area = ... for diameter .... Explain her mistake and give the correct formula.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "133": {
+      "hint": "A semicircle sits on a diameter of 12 cm. Find its area (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "134": {
+      "hint": "A garden is a rectangle 20 m by 10 m with a semicircular flower bed on one 10 m side (diameter 10 m). Find the total area of garden plus bed (..., nearest whole m²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "135": {
+      "hint": "Q135: is this true? If you know a circle’s area, you can always find its circumference using ....",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "136": {
+      "hint": "Circle P has diameter 8 cm. Circle Q has radius 8 cm. How many times bigger is Q’s area than P’s?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "137": {
+      "hint": "A circular ring has area 75.36 cm² and outer radius 8 cm (...). Find the inner radius (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "138": {
+      "hint": "Leave answers in terms of ...: circumference of a circle with diameter 18 cm.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "139": {
+      "hint": "A wheel of radius 0.4 m turns 250 times. Distance travelled (..., nearest whole m)?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "140": {
+      "hint": "Q140: test \"The ratio circumference : diameter equals ... for every circle.\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "141": {
+      "hint": "A shape is made of a square of side 6 cm with a semicircle on one side (diameter 6 cm). Find the perimeter of the shape (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "142": {
+      "hint": "The same shape as Q141: find its total area (..., 1 dp).",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "143": {
+      "hint": "A circle has radius 9 cm. Find the length of a semicircular arc on that circle (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "144": {
+      "hint": "Two circles have areas in ratio 1 : 16. What is the ratio of their radii?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "145": {
+      "hint": "A circular table has area 2.01 m² (...). Find its radius in cm (nearest cm).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "146": {
+      "hint": "Q146: explain — Explain how you would estimate the area of a circle of radius 10 cm using the formula, without a cal",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "147": {
+      "hint": "A track consists of a rectangle 60 m by 40 m with a semicircle of diameter 40 m on each short side. Find the perimeter (..., nearest whole m).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "148": {
+      "hint": "Q148: is this true? A circle with radius 0 cm has area 0 cm².",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "149": {
+      "hint": "A sector is half a circle of radius 14 cm. Find the arc length (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "150": {
+      "hint": "The same half-circle: find its area (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "151": {
+      "hint": "A circular pond radius 5 m is filled to a depth not needed — find the surface area of the water (...).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "152": {
+      "hint": "A rope 94.2 cm long wraps once around a tree (...). Find the tree’s diameter (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "153": {
+      "hint": "Q153: test \"A semicircle’s curved length equals ... when the radius is ....\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "154": {
+      "hint": "Circle A circumference 31.4 cm. Circle B area 78.5 cm² (...). Do A and B have the same radius? Show working.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "155": {
+      "hint": "A square has area 144 cm². A circle has the same area. Find the circle’s radius (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "156": {
+      "hint": "A circular lid has radius 8.5 cm. Find circumference for a seal (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "157": {
+      "hint": "Three semicircles of diameter 4 cm are placed along one line. Find the total curved length (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "158": {
+      "hint": "Q158: is this true? The units of circumference and area can both be cm².",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "159": {
+      "hint": "A circle’s diameter is increased by 50% (from 10 cm to 15 cm). By what factor does the area increase?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "160": {
+      "hint": "A dartboard outer circle has radius 22.5 cm and inner scoring circle radius 10.7 cm. Find the area of the outer ring (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "161": {
+      "hint": "Write a word problem about a wheel that uses circumference. Solve your problem with ....",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "162": {
+      "hint": "A circle has circumference .... Write its area in terms of ... and ....",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "163": {
+      "hint": "Q163: test \"A circle with diameter 1 cm has circumference less than 4 cm.\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "164": {
+      "hint": "A semicircular tunnel has radius 3 m. Find the cross-section area (..., 2 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "165": {
+      "hint": "Two circles touch externally; each has radius 5 cm. Find the distance between their centres.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "166": {
+      "hint": "A circular pizza diameter 40 cm is cut into 5 equal slices. Area of one slice (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "167": {
+      "hint": "Q167: is this true? ... gives a length measurement.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "168": {
+      "hint": "A ring has inner circumference 18.84 cm and outer radius 5 cm (...). Find inner radius (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "169": {
+      "hint": "A garden hose is coiled in a circle of diameter 70 cm on the ground. Find the area covered by the coiled hose (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "170": {
+      "hint": "Q170: explain — Explain why ... must appear in both circumference and area formulas for circles.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "171": {
+      "hint": "A circle has radius ... cm. Find its area (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "172": {
+      "hint": "Q172: test \"The perimeter of a semicircle is less than the circumference of the full circle with the same radius.\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "173": {
+      "hint": "A logo combines a square of side 8 cm and four quarter-circles of radius 4 cm at the corners (making a circle of radius 4 cm removed from corners). Find the area of the logo (..., nearest whole cm²). Hint: square minu...",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "174": {
+      "hint": "A wheel radius 28 cm. How many rotations for 1 km (..., nearest whole number)?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "175": {
+      "hint": "A circle’s area is 154 cm² using .... Find its radius.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "176": {
+      "hint": "Q176: is this true? If the radius triples, the circumference triples and the area triples.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "177": {
+      "hint": "A semicircle and a full circle share radius 6 cm. Find the difference in their areas (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "178": {
+      "hint": "A circular track radius 35 m. Find distance run for ... of a lap (..., nearest whole m).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "179": {
+      "hint": "Two circles have radii 5 cm and 12 cm. Find the difference in their areas (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "180": {
+      "hint": "Q180: test \"A circle with radius 10 cm has area exactly 100 cm².\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "181": {
+      "hint": "A cylindrical tin ends are circles of radius 4 cm. Find the total area of both ends (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "182": {
+      "hint": "A wire of length 50 cm is bent into a circle. Find the diameter (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "183": {
+      "hint": "Q183: explain — Explain the steps to find the radius when you know the area.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "184": {
+      "hint": "A shape is a rectangle 12 cm by 5 cm with a semicircle on the 12 cm side (diameter 12 cm). Find the perimeter (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "185": {
+      "hint": "Q185: is this true? The number ... is the same for every circle.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "186": {
+      "hint": "A circle has area 201.06 cm² (...). Find circumference (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "187": {
+      "hint": "A ring: outer radius 10 cm, area 150.72 cm² (...). Find inner radius (1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "188": {
+      "hint": "A quarter-circle radius 8 cm is removed from a square side 8 cm. Find remaining area (..., nearest whole cm²).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "189": {
+      "hint": "Q189: test \"A circle’s area is numerically equal to its circumference when ... and ....\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "190": {
+      "hint": "A circular lake has area 0.785 km² (...). Find its radius in metres (nearest m).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "191": {
+      "hint": "Design a real-life question using area of a circle; solve it with ....",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "192": {
+      "hint": "A semicircle perimeter is 41.1 cm (...). If the curved part is 25.1 cm, find the diameter of the semicircle.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "193": {
+      "hint": "Q193: is this true? Circumference divided by diameter is approximately 3.14 for any circle.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "194": {
+      "hint": "Two circles have circumferences 31.4 cm and 62.8 cm. Find the ratio of their areas.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "195": {
+      "hint": "A circle radius 7 cm. Find area of a sector of 90° (..., 1 dp) — preview of sectors.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "196": {
+      "hint": "Q196: test \"A larger radius always means a larger area.\" — always, sometimes, or never?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "197": {
+      "hint": "A circular flower bed radius 2.5 m has a fence on the circumference only. Fence length (..., 1 dp).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "198": {
+      "hint": "A circle has diameter ... cm. Write circumference and area in terms of ... and ....",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "199": {
+      "hint": "A composite shape: square side 10 cm with four semicircles of diameter 5 cm on each side (bulging outward). Find the perimeter (..., 1 dp). Hint: four semicircles of diameter 5 make two full circles of diameter 5.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "200": {
+      "hint": "A circle has radius 10 cm. Another has area exactly four times as large. Find the larger radius (...).",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    }
+  }
+}

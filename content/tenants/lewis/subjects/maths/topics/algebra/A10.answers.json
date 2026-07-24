@@ -1,0 +1,1984 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "y = 4x + 1",
+      "accept": [
+        "y=4x+1",
+        "y = 4x + 1"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "y = -2x + 6",
+      "accept": [
+        "y=-2x+6",
+        "y = -2x + 6"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "23": {
+      "display": "(7 - 1)/(2 - 0) = 6/2 = 3, confirming Priya's gradient of 3.",
+      "accept": [
+        "3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "24": {
+      "display": "Always — a positive gradient means y increases as x increases, which is an upward slope moving left to right.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "25": {
+      "display": "Sam is wrong — 4 is the y-intercept, not the gradient. Rewriting as y = -3x + 4 shows the gradient is -3.",
+      "accept": [
+        "-3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "26": {
+      "display": "The lines are parallel — the same gradient means the same steepness, but different y-intercepts (3 and -1) mean the first line is always 4 units higher than the second.",
+      "accept": [
+        "parallel",
+        "4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "27": {
+      "display": "True — steepness depends on the size (magnitude) of the gradient number, not its sign, so a gradient of -5 is steeper than a gradient of 2.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "28": {
+      "display": "This must be a horizontal line, since y stays at 5 for both points. A horizontal line has a gradient of 0.",
+      "accept": [
+        "horizontal",
+        "0"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "29": {
+      "display": "y = 5x + 1 is steeper — its gradient of 5 is bigger than the gradient of 1 for y = x + 1.",
+      "accept": [
+        "5x+1",
+        "steeper",
+        "5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "30": {
+      "display": "Mo is wrong — the sign is part of the gradient. Since the equation is y = -4x + 2, the gradient is -4, not 4.",
+      "accept": [
+        "-4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "31": {
+      "display": "y = 2x + 3. For 6 miles: y = 2(6) + 3 = £15.",
+      "accept": [
+        "15",
+        "£15"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "32": {
+      "display": "y = 5x + 20. After 10 months: y = 5(10) + 20 = £70.",
+      "accept": [
+        "70",
+        "£70"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1680
+    },
+    "33": {
+      "display": "d = 15t",
+      "accept": [
+        "d=15t",
+        "d = 15t"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "34": {
+      "display": "C = 15 + 0.1u. For 200 units: C = 15 + 20 = £35.",
+      "accept": [
+        "35",
+        "£35"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1650
+    },
+    "35": {
+      "display": "Gradients are 0.05 and 0.1. The plan y = 5 + 0.1x has the bigger gradient, so its cost rises faster as the number of texts increases.",
+      "accept": [
+        "0.1",
+        "second",
+        "5+0.1x"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1700
+    },
+    "36": {
+      "display": "Gradient is 25 (£25 charged per extra day), and the y-intercept is 40 (a fixed £40 base charge no matter how many days are hired).",
+      "accept": [
+        "25",
+        "40"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1860
+    },
+    "38": {
+      "display": "y = 3x + 4",
+      "accept": [
+        "y=3x+4",
+        "y = 3x + 4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "39": {
+      "display": "First line: y = 3x + 1. Second line: y = -x + 9.",
+      "accept": [
+        "y=3x+1",
+        "y=-x+9"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1953
+    },
+    "40": {
+      "display": "m = (20 - 4)/(4 - 0) = 4. Full equation: y = 4x + 4.",
+      "accept": [
+        "4",
+        "y=4x+4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "y = 2x + 3",
+      "accept": [
+        "y=2x+3",
+        "y = 2x + 3"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "y = 4x + 1",
+      "accept": [
+        "y=4x+1",
+        "y = 4x + 1"
+      ],
+      "tier": 2,
+      "rating": 1500
+    },
+    "43": {
+      "display": "2",
+      "tier": 1,
+      "rating": 817,
+      "accept": [
+        "2"
+      ]
+    },
+    "44": {
+      "display": "5",
+      "tier": 1,
+      "rating": 824,
+      "accept": [
+        "5"
+      ]
+    },
+    "45": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 821,
+      "contains": true
+    },
+    "46": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 831,
+      "contains": true
+    },
+    "47": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 841,
+      "contains": true
+    },
+    "48": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 851,
+      "contains": true
+    },
+    "49": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 861,
+      "contains": true
+    },
+    "50": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 856,
+      "contains": true
+    },
+    "51": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 866,
+      "contains": true
+    },
+    "52": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 876,
+      "contains": true
+    },
+    "53": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 886,
+      "contains": true
+    },
+    "54": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 896,
+      "contains": true
+    },
+    "55": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 891,
+      "contains": true
+    },
+    "56": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 901,
+      "contains": true
+    },
+    "57": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 911,
+      "contains": true
+    },
+    "58": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 921,
+      "contains": true
+    },
+    "59": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 931,
+      "contains": true
+    },
+    "60": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 926,
+      "contains": true
+    },
+    "61": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 936,
+      "contains": true
+    },
+    "62": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 946,
+      "contains": true
+    },
+    "63": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 956,
+      "contains": true
+    },
+    "64": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 966,
+      "contains": true
+    },
+    "65": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 961,
+      "contains": true
+    },
+    "66": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 971,
+      "contains": true
+    },
+    "67": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 981,
+      "contains": true
+    },
+    "68": {
+      "display": "Answer with yes/no and reason",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 991,
+      "contains": true
+    },
+    "69": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1001,
+      "contains": true
+    },
+    "70": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 996,
+      "contains": true
+    },
+    "71": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1006,
+      "contains": true
+    },
+    "72": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1016,
+      "contains": true
+    },
+    "73": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1026,
+      "contains": true
+    },
+    "74": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1036,
+      "contains": true
+    },
+    "75": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1031,
+      "contains": true
+    },
+    "76": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1041,
+      "contains": true
+    },
+    "77": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1051,
+      "contains": true
+    },
+    "78": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1061,
+      "contains": true
+    },
+    "79": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1071,
+      "contains": true
+    },
+    "80": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1066,
+      "contains": true
+    },
+    "81": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1076,
+      "contains": true
+    },
+    "82": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1086,
+      "contains": true
+    },
+    "83": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1096,
+      "contains": true
+    },
+    "84": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1106,
+      "contains": true
+    },
+    "85": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1101,
+      "contains": true
+    },
+    "86": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1111,
+      "contains": true
+    },
+    "87": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1121,
+      "contains": true
+    },
+    "88": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1131,
+      "contains": true
+    },
+    "89": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1141,
+      "contains": true
+    },
+    "90": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1136,
+      "contains": true
+    },
+    "91": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1146,
+      "contains": true
+    },
+    "92": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1156,
+      "contains": true
+    },
+    "93": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1166,
+      "contains": true
+    },
+    "94": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1176,
+      "contains": true
+    },
+    "95": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1171,
+      "contains": true
+    },
+    "96": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1181,
+      "contains": true
+    },
+    "97": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1191,
+      "contains": true
+    },
+    "98": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1201,
+      "contains": true
+    },
+    "99": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1211,
+      "contains": true
+    },
+    "100": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1206,
+      "contains": true
+    },
+    "101": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1100,
+      "contains": true
+    },
+    "102": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1107,
+      "contains": true
+    },
+    "103": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1113,
+      "contains": true
+    },
+    "104": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1120,
+      "contains": true
+    },
+    "105": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1126,
+      "contains": true
+    },
+    "106": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1133,
+      "contains": true
+    },
+    "107": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1139,
+      "contains": true
+    },
+    "108": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1146,
+      "contains": true
+    },
+    "109": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1153,
+      "contains": true
+    },
+    "110": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1159,
+      "contains": true
+    },
+    "111": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1166,
+      "contains": true
+    },
+    "112": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1172,
+      "contains": true
+    },
+    "113": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1179,
+      "contains": true
+    },
+    "114": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1185,
+      "contains": true
+    },
+    "115": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1192,
+      "contains": true
+    },
+    "116": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1198,
+      "contains": true
+    },
+    "117": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1205,
+      "contains": true
+    },
+    "118": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1212,
+      "contains": true
+    },
+    "119": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1218,
+      "contains": true
+    },
+    "120": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1225,
+      "contains": true
+    },
+    "121": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1231,
+      "contains": true
+    },
+    "122": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1238,
+      "contains": true
+    },
+    "123": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1244,
+      "contains": true
+    },
+    "124": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1251,
+      "contains": true
+    },
+    "125": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1258,
+      "contains": true
+    },
+    "126": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1264,
+      "contains": true
+    },
+    "127": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1271,
+      "contains": true
+    },
+    "128": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1277,
+      "contains": true
+    },
+    "129": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1284,
+      "contains": true
+    },
+    "130": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1290,
+      "contains": true
+    },
+    "131": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1297,
+      "contains": true
+    },
+    "132": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1304,
+      "contains": true
+    },
+    "133": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1310,
+      "contains": true
+    },
+    "134": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1317,
+      "contains": true
+    },
+    "135": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1323,
+      "contains": true
+    },
+    "136": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1330,
+      "contains": true
+    },
+    "137": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1336,
+      "contains": true
+    },
+    "138": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1343,
+      "contains": true
+    },
+    "139": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1349,
+      "contains": true
+    },
+    "140": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1356,
+      "contains": true
+    },
+    "141": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1363,
+      "contains": true
+    },
+    "142": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1369,
+      "contains": true
+    },
+    "143": {
+      "display": "Answer with yes/no and reason",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1376,
+      "contains": true
+    },
+    "144": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1382,
+      "contains": true
+    },
+    "145": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1389,
+      "contains": true
+    },
+    "146": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1395,
+      "contains": true
+    },
+    "147": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1402,
+      "contains": true
+    },
+    "148": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1409,
+      "contains": true
+    },
+    "149": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1415,
+      "contains": true
+    },
+    "150": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1422,
+      "contains": true
+    },
+    "151": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1428,
+      "contains": true
+    },
+    "152": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1435,
+      "contains": true
+    },
+    "153": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1441,
+      "contains": true
+    },
+    "154": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1448,
+      "contains": true
+    },
+    "155": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1455,
+      "contains": true
+    },
+    "156": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1461,
+      "contains": true
+    },
+    "157": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1468,
+      "contains": true
+    },
+    "158": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1474,
+      "contains": true
+    },
+    "159": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1481,
+      "contains": true
+    },
+    "160": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1487,
+      "contains": true
+    },
+    "161": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1494,
+      "contains": true
+    },
+    "162": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1501,
+      "contains": true
+    },
+    "163": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1507,
+      "contains": true
+    },
+    "164": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1514,
+      "contains": true
+    },
+    "165": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1520,
+      "contains": true
+    },
+    "166": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1527,
+      "contains": true
+    },
+    "167": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1533,
+      "contains": true
+    },
+    "168": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1540,
+      "contains": true
+    },
+    "169": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1546,
+      "contains": true
+    },
+    "170": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1553,
+      "contains": true
+    },
+    "171": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1560,
+      "contains": true
+    },
+    "172": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1566,
+      "contains": true
+    },
+    "173": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1573,
+      "contains": true
+    },
+    "174": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1579,
+      "contains": true
+    },
+    "175": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1586,
+      "contains": true
+    },
+    "176": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1592,
+      "contains": true
+    },
+    "177": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1599,
+      "contains": true
+    },
+    "178": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1606,
+      "contains": true
+    },
+    "179": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1612,
+      "contains": true
+    },
+    "180": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1619,
+      "contains": true
+    },
+    "181": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1625,
+      "contains": true
+    },
+    "182": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1632,
+      "contains": true
+    },
+    "183": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1638,
+      "contains": true
+    },
+    "184": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1645,
+      "contains": true
+    },
+    "185": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1652,
+      "contains": true
+    },
+    "186": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1658,
+      "contains": true
+    },
+    "187": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1665,
+      "contains": true
+    },
+    "188": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1671,
+      "contains": true
+    },
+    "189": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1678,
+      "contains": true
+    },
+    "190": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1684,
+      "contains": true
+    },
+    "191": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1691,
+      "contains": true
+    },
+    "192": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1697,
+      "contains": true
+    },
+    "193": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1704,
+      "contains": true
+    },
+    "194": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1711,
+      "contains": true
+    },
+    "195": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1717,
+      "contains": true
+    },
+    "196": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1724,
+      "contains": true
+    },
+    "197": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1730,
+      "contains": true
+    },
+    "198": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1737,
+      "contains": true
+    },
+    "199": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1743,
+      "contains": true
+    },
+    "200": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1750,
+      "contains": true
+    }
+  }
+}

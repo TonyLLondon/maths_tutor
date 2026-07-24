@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Count unit squares: 4 by 2 grid.",
+      "help": "$4 \\times 2 = 8$ unit squares.\n\nExample: array area.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "2": {
+      "hint": "3 rows of 5 unit squares.",
+      "help": "Area $= 3 \\times 5 = 15$ square units.\n\nExample: rectangle area."
+    },
+    "3": {
+      "hint": "Triangle is half of 6-square rectangle.",
+      "help": "Half of 6 → area **3** square units.\n\nExample: $A=\\frac12 bh$ idea."
+    },
+    "4": {
+      "hint": "Moving a triangle piece to make rectangle — area change?",
+      "help": "Rearranging without overlap **does not change area** — **no change**.\n\nExample: parallelogram to rectangle."
+    },
+    "5": {
+      "hint": "Volume = 3×2×1 unit cubes.",
+      "help": "$3 \\times 2 \\times 1 = 6$ unit cubes.\n\nExample: cuboid counting."
+    },
+    "6": {
+      "hint": "Cube side 2 — 2×2×2 small cubes.",
+      "help": "$2^3 = 8$ cubes fill it.\n\nExample: 2 cm cube volume 8 cm³.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "7": {
+      "hint": "Flat space — cm² or cm³?",
+      "help": "**cm²** for area.\n\nExample: paper area.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "8": {
+      "hint": "Space inside 3D — cm² or cm³?",
+      "help": "**cm³** for volume.\n\nExample: box fill.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "9": {
+      "hint": "Triangle area ½ × 8 × 5.",
+      "help": "$\\frac12 \\times 8 \\times 5 = 20$ cm².\n\nExample: substitute base and height."
+    },
+    "10": {
+      "hint": "Parallelogram area base × height: 6×4.",
+      "help": "**24** cm².\n\nExample: use perpendicular height.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "½ × 10 × 6 for triangle.",
+      "help": "**30** cm².\n\nExample: triangle formula.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "12": {
+      "hint": "9 × 5 parallelogram area.",
+      "help": "**45** cm².\n\nExample: base times height.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "Trapezium ½(a+b)h with a=4, b=8, h=3.",
+      "help": "$\\frac12(4+8)\\times3=18$ cm².\n\nExample: average parallel sides times height."
+    },
+    "14": {
+      "hint": "One layer 4×3 unit cubes.",
+      "help": "**12** cubes in one layer.\n\nExample: base layer count.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "12 cubes per layer, 2 layers high.",
+      "help": "Volume **24** cm³.\n\nExample: 12×2.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "16": {
+      "hint": "5×2×2 cuboid volume.",
+      "help": "**20** cm³.\n\nExample: $lwh$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "Prism volume cross-section × length: 12×10.",
+      "help": "**120** cm³.\n\nExample: uniform cross-section.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "Cylinder πr²h with r=3, h=10, π≈3.14.",
+      "help": "$3.14\\times9\\times10\\approx283$ cm³ to nearest whole.\n\nExample: round at end."
+    },
+    "19": {
+      "hint": "Cube 4³.",
+      "help": "**64** cm³.\n\nExample: edge cubed.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "Area 30, base 12 — height from ½bh.",
+      "help": "$30=\\frac12\\times12\\times h$ → $h=5$ cm.\n\nExample: rearrange triangle area."
+    },
+    "21": {
+      "hint": "Cut triangle off parallelogram and slide to other side — becomes rectangle.",
+      "help": "Cut-and-move shows **same area** as rectangle **base × height**.\n\nExample: visual proof."
+    },
+    "22": {
+      "hint": "Trapezium split into rectangle + triangles — average parallel sides.",
+      "help": "Split explains **½(a+b)h** — mean of parallel sides times height.\n\nExample: two triangles on rectangle."
+    },
+    "23": {
+      "hint": "Double base, same height — triangle area doubles?",
+      "help": "**Always** — $A=\\frac12 bh$ doubles when $b$ doubles.\n\nExample: b=6→12, h fixed."
+    },
+    "24": {
+      "hint": "Same base and height — parallelogram vs rectangle area.",
+      "help": "**Equal** areas — both $bh$.\n\nExample: same dimensions.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "25": {
+      "hint": "Triangular prism volume not always lwh — use cross-section × length.",
+      "help": "Sam **wrong** for triangular prism — volume $= $ **area of triangle face × length**, not simply $lwh$ unless cuboid.\n\nExample: compare cuboid vs triangular prism."
+    },
+    "26": {
+      "hint": "Another cuboid with volume 12 — factor 12.",
+      "help": "e.g. **3×2×2** or **4×3×1** cm — product 12.\n\nExample: different dimensions, same volume."
+    },
+    "27": {
+      "hint": "Compare cross-section area × height for cylinder vs cuboid.",
+      "help": "Whichever has **larger cross-section area** (for same height) has larger volume.\n\nExample: $\\pi r^2$ vs rectangle area."
+    },
+    "28": {
+      "hint": "Double base AND height — area ×4 not ×2.",
+      "help": "Leo **wrong** — area scales by product; **×4** when both doubled.\n\nExample: ½(2b)(2h)=4×½bh."
+    },
+    "29": {
+      "hint": "Triangle garden ½×6×4.",
+      "help": "**12** m².\n\nExample: area formula.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "30": {
+      "hint": "25×12 parallelogram field.",
+      "help": "**300** m².\n\nExample: base×height.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "31": {
+      "hint": "Trapezium ½(15+9)×8.",
+      "help": "**96** m².\n\nExample: parallel sides 15 and 9.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "32": {
+      "hint": "3.5 m² cross-section × 6 m length.",
+      "help": "**21** m³.\n\nExample: prism volume.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "33": {
+      "hint": "πr²h, r=2, h=5, π≈3.14.",
+      "help": "$3.14\\times4\\times5=62.8$ m³ to 1 d.p.\n\nExample: cylinder tank."
+    },
+    "34": {
+      "hint": "40×30×25 cm³ then ÷1000 for litres.",
+      "help": "Volume $=30000$ cm³ $=30$ litres.\n\nExample: 1000 cm³ per litre."
+    },
+    "35": {
+      "hint": "½×10×4 triangle.",
+      "help": "**20** cm².\n\nExample: quick triangle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "36": {
+      "hint": "3×4×5 cuboid.",
+      "help": "**60** cm³.\n\nExample: multiply three edges.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "37": {
+      "hint": "8×6 rectangle area.",
+      "help": "**48** cm².\n\nExample: lw.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "38": {
+      "hint": "3×3×3 cube.",
+      "help": "**27** cm³.\n\nExample: 3³.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "39": {
+      "hint": "8×5 parallelogram.",
+      "help": "**40** cm².\n\nExample: bh.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "40": {
+      "hint": "π×1²×10 with π≈3.14.",
+      "help": "About **31.4** cm³.\n\nExample: small cylinder.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "41": {
+      "hint": "45=½×b×9 — solve b.",
+      "help": "$b=10$ cm.\n\nExample: area rearrange.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "Rectangle 8×5 plus triangle ½×8×3 on top.",
+      "help": "$40+12=52$ cm² total.\n\nExample: add areas.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "43": {
+      "hint": "785=πr²×10, π≈3.14 — find r.",
+      "help": "$r^2=785/(31.4)=25$ → $r=5$ cm approx.\n\nExample: divide volume by πh."
+    },
+    "44": {
+      "hint": "Stack identical cross-sections — volume = area × length.",
+      "help": "Each slice has same **cross-section area**; stacking gives **area × length** for any prism (triangle, trapezium, circle→cylinder).\n\nExample: layers of same shape."
+    },
+    "45": {
+      "hint": "Triangle area ½×9×6 cm².",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "46": {
+      "hint": "Triangle area ½×14×5 cm².",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "47": {
+      "hint": "Parallelogram 11×7 cm².",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "48": {
+      "hint": "Parallelogram 15×4 cm².",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "49": {
+      "hint": "Trapezium ½(5+9)×4.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "50": {
+      "hint": "Trapezium ½(12+8)×6.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "51": {
+      "hint": "Triangle area 24 cm², base 8 cm. Find height.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "52": {
+      "hint": "Triangle area 30 cm², height 10 cm. Find base.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "53": {
+      "hint": "Parallelogram area 48 cm², base 12 cm. Find height.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "54": {
+      "hint": "Q54: is this true? Triangle area uses half base times height.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "55": {
+      "hint": "A triangle and parallelogram share base 10 cm and height 6 cm. Compare areas.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "56": {
+      "hint": "Q56: test \"Same base and height means triangle area is half parallelogram area.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "57": {
+      "hint": "Square 6 and 8, add, square root for hypotenuse.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "58": {
+      "hint": "Q58: is this true? Any side can be chosen as the base if height is perpendicular to it.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "59": {
+      "hint": "A triangle on a grid has base 5 squares, height 4 squares. Area in square units?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "60": {
+      "hint": "A parallelogram on a grid: base 7, height 3. Area?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "61": {
+      "hint": "Composite shape: rectangle 10×6 with triangle (base 10, height 4) on top. Total area?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "62": {
+      "hint": "Composite: rectangle 8×5 with triangle (base 8, height 3) removed from one side — describe method in words, then find area if cut is 8×3 triangle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "63": {
+      "hint": "L-shape from 8×5 rectangle minus 3×2 corner. Find area.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "64": {
+      "hint": "Q64: test \"Splitting shapes into rectangles and triangles helps find area.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "65": {
+      "hint": "A rhombus can be split into two triangles. If diagonals 10 cm and 12 cm, area using 1/2 d1 d2?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "66": {
+      "hint": "Q66: is this true? Rhombus area equals half product of diagonals.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "67": {
+      "hint": "Trapezium area 42 cm², height 6 cm, one parallel side 8 cm. Find the other parallel side.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "68": {
+      "hint": "Q68: test \"Doubling height doubles triangle area if base fixed.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "69": {
+      "hint": "Triangle base doubled, height halved. What happens to area?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "70": {
+      "hint": "Q70: is this true? Doubling both base and height quadruples triangle area.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "71": {
+      "hint": "Cuboid 6×4×3 cm. Volume?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "72": {
+      "hint": "Cuboid 10×5×2 cm. Volume?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "73": {
+      "hint": "Cube edge 5 cm. Volume?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "74": {
+      "hint": "Prism: cross-section area 12 cm², length 8 cm. Volume?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "75": {
+      "hint": "Cylinder r=2 cm, h=10 cm, π≈3.14. Volume to nearest cm³?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "76": {
+      "hint": "Q76: is this true? Volume uses cubic units.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "77": {
+      "hint": "A box 40×30×25 cm. Volume in litres (1000 cm³=1 l).",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "78": {
+      "hint": "Q78: test \"A taller cuboid (same base) has larger volume.\" — always, sometimes, or never?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "79": {
+      "hint": "Triangle on coordinate grid corners (0,0), (6,0), (0,4). Area?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "80": {
+      "hint": "Q80: is this true? Grid counting works for simple triangles.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "81": {
+      "hint": "Parallelogram base 9 cm, slanted side 5 cm, height 4 cm to base. Area? (Use height, not slant.)",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "82": {
+      "hint": "Q82: test \"Slant height equals perpendicular height in a parallelogram.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "83": {
+      "hint": "Trapezium with parallel sides 7 and 11, height 5. Area?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "84": {
+      "hint": "Q84: is this true? Trapezium formula averages the parallel sides.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "85": {
+      "hint": "A triangular prism: triangle base 6 cm, height 4 cm, prism length 15 cm. Volume?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "86": {
+      "hint": "Q86: test \"Prism volume = cross-section area × length.\" — always, sometimes, or never?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "87": {
+      "hint": "Cylinder r=3 cm, h=7 cm, π≈3.14. Volume 1 dp?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "88": {
+      "hint": "Q88: is this true? Radius must be squared in cylinder volume.",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "89": {
+      "hint": "Compare areas: triangle b=12,h=5 vs parallelogram b=12,h=5.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "90": {
+      "hint": "Q90: test \"Congruent triangles have equal area.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "91": {
+      "hint": "Two triangles same area 20 cm². One base 8 cm. Find its height.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "92": {
+      "hint": "Q92: is this true? Different shapes can have the same area.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "93": {
+      "hint": "A field triangular: base 120 m, height 80 m. Area in m²?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "94": {
+      "hint": "Q94: test \"Hectares measure area (1 ha=10 000 m²).\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "95": {
+      "hint": "A plot 0.5 ha. Area in m²?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "96": {
+      "hint": "Q96: is this true? 1 m² equals 10 000 cm².",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "97": {
+      "hint": "Rectangle 2.5 m×4 m. Area in m² and cm².",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "98": {
+      "hint": "Q98: test \"Area adds when shapes join without overlap.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "99": {
+      "hint": "Two rectangles 3×4 and 2×5 joined. Total area?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "100": {
+      "hint": "Q100: is this true? Overlapping regions should be counted once only.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "101": {
+      "hint": "Triangle area 45 cm², height 9 cm. Base?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "102": {
+      "hint": "Q102: test \"Bigger perimeter means bigger area.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "103": {
+      "hint": "Square perimeter 24 cm. Area?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "104": {
+      "hint": "Q104: is this true? Square area from side s is s².",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "105": {
+      "hint": "Rectangle area 48 cm², width 6 cm. Length?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "106": {
+      "hint": "Q106: test \"Same area rectangles can differ in perimeter.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "107": {
+      "hint": "Paint covers 5 m² per litre. Wall 4 m×3 m. Litres needed?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "108": {
+      "hint": "Q108: is this true? Include units with area answers.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "109": {
+      "hint": "A triangle has sides 5,5,6 cm. Height to base 6 is 4 cm. Area?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "110": {
+      "hint": "Q110: test \"Height must meet base at 90°.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "111": {
+      "hint": "Parallelogram 13 cm side, height to that side 6 cm. Area?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "112": {
+      "hint": "Q112: is this true? Using wrong slant as height over-estimates or under-estimates area incorrectly.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "113": {
+      "hint": "Trapezium area 60, height 5, parallel sides differ by 4. Find the parallel sides if smaller is x.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "114": {
+      "hint": "Q114: test \"Midline of trapezium length equals average of parallel sides.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "115": {
+      "hint": "A roof face is trapezium: parallel edges 8 m and 12 m, height 3 m. Area?",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "116": {
+      "hint": "Q116: is this true? Composite areas need consistent units.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "117": {
+      "hint": "Convert 5000 cm² to m² before comparing with 0.6 m² patch.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "118": {
+      "hint": "Q118: test \"Volume of cube is edge³.\" — always, sometimes, or never?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "119": {
+      "hint": "Cube volume 125 cm³. Edge length?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "120": {
+      "hint": "Q120: is this true? Doubling cube edge multiplies volume by 8.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "121": {
+      "hint": "Cuboid volume 240 cm³, base area 40 cm². Height?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "122": {
+      "hint": "Q122: test \"Cylinder is a circular prism.\" — always, sometimes, or never?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "123": {
+      "hint": "Two cylinders same height, radii 2 and 3. Volume ratio?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "124": {
+      "hint": "Q124: is this true? Volume ratio of similar solids scales as cube of length ratio.",
+      "help": "Matching lengths multiply by the scale factor; areas by factor²; volumes by factor³.\n\n**Different example:** Length ×3 → area ×9.\n\nWork step by step and include units if the question uses them."
+    },
+    "125": {
+      "hint": "Similar triangles scale 1:3. Area ratio?",
+      "help": "Matching lengths multiply by the scale factor; areas by factor²; volumes by factor³.\n\n**Different example:** Length ×3 → area ×9.\n\nWork step by step and include units if the question uses them."
+    },
+    "126": {
+      "hint": "Q126: test \"Area ratio scales as square of length ratio for similar 2D shapes.\" — always, sometimes, or never?",
+      "help": "Matching lengths multiply by the scale factor; areas by factor²; volumes by factor³.\n\n**Different example:** Length ×3 → area ×9.\n\nWork step by step and include units if the question uses them."
+    },
+    "127": {
+      "hint": "Triangle coords (1,1), (5,1), (3,4). Base 4, height 3. Area?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "128": {
+      "hint": "Q128: is this true? Coordinate geometry helps area on grids.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "129": {
+      "hint": "Parallelogram on grid with base 6, height 5. Area 30?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "130": {
+      "hint": "Q130: test \"Shearing parallelogram keeps area when making rectangle.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "131": {
+      "hint": "Trapezium split into rectangle and two triangles — describe idea.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "132": {
+      "hint": "Q132: is this true? Units for volume are cm³, m³, etc.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "133": {
+      "hint": "A pool 25 m×10 m×2 m. Volume m³ and litres.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "134": {
+      "hint": "Q134: test \"1 litre equals 1000 cm³.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "135": {
+      "hint": "Tank 50 cm³ holds how many ml?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "136": {
+      "hint": "Q136: is this true? Capacity can match volume numerically for water in cm³/ml.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "137": {
+      "hint": "Prism cross-section trapezium area 20 cm², length 12 cm. Volume?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "138": {
+      "hint": "Q138: test \"Any prism volume uses cross-section × length.\" — always, sometimes, or never?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "139": {
+      "hint": "Cylinder r=5,h=4 π≈3.14. Volume?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "140": {
+      "hint": "Q140: is this true? πr²h is cylinder volume.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "141": {
+      "hint": "Compare triangle b=10,h=3 area with trapezium parallels 10,10 height 3.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "142": {
+      "hint": "Q142: test \"Trapezium with equal parallel sides acts like a parallelogram.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "143": {
+      "hint": "A triangle area equals rectangle 4×6. Triangle base 8. Height?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "144": {
+      "hint": "Q144: is this true? Area problems often need drawing a height.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "145": {
+      "hint": "Garden triangle base 15 m, height 8 m. Turf cost £4 per m². Total cost?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "146": {
+      "hint": "Q146: test \"Cost = area × price per unit area.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "147": {
+      "hint": "Parallelogram area 72, height 8. Base?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "148": {
+      "hint": "Q148: is this true? Changing which side is base changes area if height adjusts correctly.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "149": {
+      "hint": "Trapezium parallel 6 and 10, height 9. Area?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "150": {
+      "hint": "Q150: test \"Average of parallel sides times height gives trapezium area.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "151": {
+      "hint": "Shape: square 6 with right triangle removed (legs 2,3 from corner). Area?",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "152": {
+      "hint": "Q152: is this true? Subtract areas for cut-out regions.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "153": {
+      "hint": "Frame: outer 10×8, inner 8×6 rectangle. Area of frame material?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "154": {
+      "hint": "Q154: test \"Frame area = outer − inner when aligned.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "155": {
+      "hint": "Cuboid 12×5×4. Volume?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "156": {
+      "hint": "Q156: is this true? Three dimensions multiply for cuboid volume.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "157": {
+      "hint": "Cylinder h=12, r=2.5 π≈3.14. Volume nearest cm³?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "158": {
+      "hint": "Q158: test \"Volume units cube length units.\" — always, sometimes, or never?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "159": {
+      "hint": "A wedge is half a cuboid 6×4×10. Wedge volume?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "160": {
+      "hint": "Q160: is this true? Half a solid volume is half the formula result.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "161": {
+      "hint": "Triangle area 18, base 6. Height?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "162": {
+      "hint": "Q162: test \"Integer dimensions can give non-integer areas.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "163": {
+      "hint": "Parallelogram area 55, base 11. Height?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "164": {
+      "hint": "Q164: is this true? 1/2×b×h works for any triangle with perpendicular height.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "165": {
+      "hint": "Trapezium area 54, height 6, one parallel 8. Find other parallel.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "166": {
+      "hint": "Q166: test \"Units matter in GCSE-style area answers.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "167": {
+      "hint": "Square area 81 cm². Side?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "168": {
+      "hint": "Q168: is this true? Area 0 means degenerate shape.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "169": {
+      "hint": "Two triangles compose a parallelogram area 40. Each triangle area?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "170": {
+      "hint": "Design a composite area problem and solve it.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "171": {
+      "hint": "Q171: test \"Volume of joined cuboids adds if no overlap.\" — always, sometimes, or never?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "172": {
+      "hint": "Cubes edge 3 joined in a row. Total volume?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "173": {
+      "hint": "Q173: is this true? Gap-free stacking adds volumes.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "174": {
+      "hint": "Cylinder radius doubled, height same. Volume factor?",
+      "help": "$C=2\\pi r=\\pi d$ and $A=\\pi r^2$. Use $\\pi\\approx3.14$.\n\n**Different example:** r=5 → C≈31.4 cm, A≈78.5 cm².\n\nWork step by step and include units if the question uses them."
+    },
+    "175": {
+      "hint": "Q175: test \"Height doubled doubles cylinder volume if r fixed.\" — always, sometimes, or never?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "176": {
+      "hint": "Triangle with area 12 on grid — possible base/height pairs?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "177": {
+      "hint": "Q177: is this true? Many base-height pairs give same triangle area.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "178": {
+      "hint": "Parallelogram diagonals 8 and 9. Area 36?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "179": {
+      "hint": "Q179: test \"Rhombus is a parallelogram.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "180": {
+      "hint": "Kite area from diagonals 6 and 10?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "181": {
+      "hint": "Q181: is this true? Kite area uses half product of diagonals like rhombus.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "182": {
+      "hint": "Prism length 20 cm, cross-section right triangle legs 3,4. Cross-section area? Then volume?",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "183": {
+      "hint": "Q183: test \"Right triangle area is half product of legs.\" — always, sometimes, or never?",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "184": {
+      "hint": "Cylinder volume 314 cm³, r=5, π≈3.14. Find h.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "185": {
+      "hint": "Q185: is this true? Rearrange V=πr²h to find h.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "186": {
+      "hint": "A trapezium field: parallel sides 40 m and 60 m, height 25 m. Area?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "187": {
+      "hint": "Q187: test \"Fields can be modelled as trapeziums.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "188": {
+      "hint": "Q188: explain — Triangle area equals parallelogram with half the base same height — explain briefly.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "189": {
+      "hint": "Create a word problem about parallelogram area in a park.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "190": {
+      "hint": "Q190: is this true? Stretched parallelogram (same base/height) keeps area.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "191": {
+      "hint": "Cuboid volume 360 l written as cm³?",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "192": {
+      "hint": "Q192: test \"360 l equals 360 000 cm³.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "193": {
+      "hint": "Compare volumes: cube edge 3 vs cuboid 6×1.5×1.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "194": {
+      "hint": "Q194: is this true? Different dimensions can yield equal volumes.",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    },
+    "195": {
+      "hint": "A triangle area 1/2 × 7 × h = 21. Find h.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "196": {
+      "hint": "Q196: test \"Algebra solves for missing dimension in area formulas.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "197": {
+      "hint": "Trapezium with area 100, height 10, parallels in ratio 2:3. Find parallels.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "198": {
+      "hint": "Q198: is this true? Ratio problems combine with trapezium formula.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "199": {
+      "hint": "Composite: rectangle 20×12 minus triangle base 20 height 6. Area?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "200": {
+      "hint": "Stretch: A cylindrical pipe inner r=3 cm, outer r=5 cm, length 50 cm. Find volume of material (shell) using π≈3.14, in cm³ (subtract volumes).",
+      "help": "Volume: cuboid lwh; cube s³; cylinder $\\pi r^2 h$; prism cross-section×length.\n\n**Different example:** Cuboid 4×3×2 = 24 cm³.\n\nWork step by step and include units if the question uses them."
+    }
+  }
+}

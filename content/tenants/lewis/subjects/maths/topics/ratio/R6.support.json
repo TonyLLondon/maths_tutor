@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Cats first, dogs second — write the counts with a colon.",
+      "help": "**2 : 3**.\n\n**Example:** 4 birds, 1 cat → 4 : 1.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "2": {
+      "hint": "Fraction of the total = red ÷ (red + blue + …).",
+      "help": "2 red out of 5 total → **$\\frac{2}{5}$**.\n\n**Example:** 3 of 12 → $\\frac{1}{4}$."
+    },
+    "3": {
+      "hint": "Twice as many means ×2.",
+      "help": "Multiply by **2**.\n\n**Example:** triple → ×3.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "4": {
+      "hint": "Multiplier = new ÷ old: 8 ÷ 4.",
+      "help": "**2** (doubled).\n\n**Example:** 5 to 20 → ×4.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "5": {
+      "hint": "Original : new for '3 times as many' is 1 : 3.",
+      "help": "**1 : 3**.\n\n**Example:** 4 times as many → 1 : 4.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "6": {
+      "hint": "Second ÷ first in 1 : 4.",
+      "help": "$4 \\div 1 = 4$ times.\n\n**Example:** 2 : 5 → second is 2.5× first."
+    },
+    "7": {
+      "hint": "First ÷ second for ratio as fraction.",
+      "help": "**$\\frac{1}{2}$**.\n\n**Example:** 3 : 4 → $\\frac{3}{4}$.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "8": {
+      "hint": "Apples ÷ total fruit.",
+      "help": "$\\frac{3}{5}$ of the fruit.\n\n**Example:** 2 of 8 → $\\frac{1}{4}$."
+    },
+    "9": {
+      "hint": "4 cats, 1 dog — cats : dogs.",
+      "help": "**4 : 1**.\n\n**Example:** 10 : 2 → 5 : 1.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "10": {
+      "hint": "15 ÷ 5 — what multiplier?",
+      "help": "**3**.\n\n**Example:** 6 to 18 → ×3.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "11": {
+      "hint": "Half as many — new is smaller; ratio new : original.",
+      "help": "**1 : 2** (new : original).\n\n**Example:** one third → 1 : 3."
+    },
+    "12": {
+      "hint": "Apples out of all fruit: 2 ÷ (2+6).",
+      "help": "$\\frac{2}{8} = \\frac{1}{4}$.\n\n**Example:** 5 of 20 → $\\frac{1}{4}$."
+    },
+    "13": {
+      "hint": "Ratio boys : girls, then boys ÷ total pupils.",
+      "help": "Ratio **4 : 6** → 2 : 3. Boys fraction **$\\frac{4}{10} = \\frac{2}{5}$**.\n\n**Example:** 7 boys, 3 girls → $\\frac{7}{10}$."
+    },
+    "14": {
+      "hint": "New price ÷ old price.",
+      "help": "$25 \\div 20 = 1.25$.\n\n**Example:** £30 to £36 → 1.2.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "15": {
+      "hint": "Three times as many → 1 : n with n = 3.",
+      "help": "**1 : 3**.\n\n**Example:** 5 times → 1 : 5.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "16": {
+      "hint": "Original : new when multiplied by 5.",
+      "help": "**1 : 5**.\n\n**Example:** ×2 → 1 : 2.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "17": {
+      "hint": "Apples ÷ (apples + oranges).",
+      "help": "$\\frac{3}{7}$ of total fruit.\n\n**Example:** 2 : 5 parts → apples $\\frac{2}{7}$."
+    },
+    "18": {
+      "hint": "Butter ÷ flour — part-to-part fraction.",
+      "help": "$\\frac{2}{5}$ of flour amount.\n\n**Example:** 1 : 4 → butter is $\\frac{1}{4}$ of flour."
+    },
+    "19": {
+      "hint": "0.75 times old — write as whole-number ratio old : new.",
+      "help": "0.75 = $\\frac{3}{4}$ → **4 : 3** old : new.\n\n**Example:** 0.5 times → 2 : 1 old : new."
+    },
+    "20": {
+      "hint": "18 ÷ 12 — multiplier from first length to second.",
+      "help": "**1.5** (or $\\frac{3}{2}$).\n\n**Example:** 10 to 25 → 2.5.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "21": {
+      "hint": "Second ÷ first in 5 : 8.",
+      "help": "**$\\frac{8}{5}$**.\n\n**Example:** 3 : 10 → $\\frac{10}{3}$.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "22": {
+      "hint": "10 wear glasses, 15 do not — ratio glasses : no glasses.",
+      "help": "**10 : 15** → **2 : 3**.\n\n**Example:** 4 of 20 wear hats → 1 : 4."
+    },
+    "23": {
+      "hint": "Double then double again — overall ×?",
+      "help": "×2 ×2 = ×4 → **1 : 4** original : final.\n\n**Example:** triple twice → ×9."
+    },
+    "24": {
+      "hint": "Try 1 : 2 as ratio and as 'first is half of second' fraction.",
+      "help": "Same idea — **1 : 2** and first is $\\frac{1}{2}$ of second. Mia is **wrong**.\n\n**Example:** 3 : 4 and $\\frac{3}{4}$."
+    },
+    "25": {
+      "hint": "First ÷ second = a/b when ratio is a : b — always true?",
+      "help": "**Always** for positive amounts: first = $\\frac{a}{b}$ × second.\n\n**Example:** 2 : 7 → first is $\\frac{2}{7}$ of second."
+    },
+    "26": {
+      "hint": "Factor of 3 means ×3 on price — compare to adding 300%.",
+      "help": "New : old = **3 : 1** means ×3. 'Increased by 300%' means ×4. They differ.\n\n**Example:** ×2 vs +100%."
+    },
+    "27": {
+      "hint": "2/5 of whole — can you get part : part without knowing total?",
+      "help": "**Sometimes** need total — 2/5 of all → 2 : 3 part-to-part for two groups.\n\n**Example:** 2/5 red of 10 → 4 red, 6 not → 2 : 3."
+    },
+    "28": {
+      "hint": "3/4 of B vs ratio 3 : 4 — same relationship?",
+      "help": "**Same** — A is $\\frac{3}{4}$ of B ↔ **3 : 4** (A : B).\n\n**Example:** 1/2 of B ↔ 1 : 2."
+    },
+    "29": {
+      "hint": "New : old = 5 : 4 — is new price 5/4 of old?",
+      "help": "Yes — new is **$\\frac{5}{4}$** times old. Sam is **correct**.\n\n**Example:** 6 : 5 new : old → ×1.2."
+    },
+    "30": {
+      "hint": "Give ratio Leo : Mo and also Leo as fraction or multiplier of Mo's amount.",
+      "help": "Ratio **2 : 3**; Leo has **$\\frac{2}{3}$** of Mo's money (or 0.67×).\n\n**Example:** £12 vs £18 → 2 : 3."
+    },
+    "31": {
+      "hint": "Strings are 5 parts of 5+3=8 — what fraction of orchestra?",
+      "help": "$\\frac{5}{8}$ play strings.\n\n**Example:** 2 : 6 ratio → first is $\\frac{2}{8}$."
+    },
+    "32": {
+      "hint": "×1.4 on time — write as whole-number ratio original : new.",
+      "help": "1 : 1.4 → **5 : 7** (×5 to clear decimal).\n\n**Example:** ×1.2 → 5 : 6."
+    },
+    "33": {
+      "hint": "9 people vs 6 — multiplier? Then scale 300 g rice.",
+      "help": "Multiplier $= 9 \\div 6 = 1.5$. Rice $= 300 \\times 1.5 = 450$ g.\n\n**Example:** 8 people from 4 → ×2 on ingredients."
+    },
+    "34": {
+      "hint": "Scored 3/5 means lost 2/5 — ratio marks : lost.",
+      "help": "Marks : lost = **3 : 2**.\n\n**Example:** 4/7 scored → 4 : 3 to lost."
+    },
+    "35": {
+      "hint": "Old : new ratio and percentage increase from 40k to 60k.",
+      "help": "Ratio **40 : 60** → 2 : 3. Increase $= \\frac{20}{40}=50$%.\n\n**Example:** 50 to 65 → 30% rise."
+    },
+    "36": {
+      "hint": "If Bus A is 4 parts and takes 24 min, find one part, then Bus B time.",
+      "help": "One part = 6 min → B = 30 min. B is **$\\frac{1}{4}$** longer (6 extra on 24).\n\n**Example:** 3 : 5 times, A=15 min → B=25 min."
+    },
+    "37": {
+      "hint": "3/8 prefer tea — tea : coffee ratio from the rest.",
+      "help": "Tea : coffee = **3 : 5**.\n\n**Example:** 1/4 tea → 1 : 3.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "38": {
+      "hint": "New : old = 7 : 4 — percentage increase = (new−old)/old × 100.",
+      "help": "Increase $\\frac{7-4}{4}=75$%.\n\n**Example:** 5 : 4 new : old → 25%."
+    },
+    "39": {
+      "hint": "Second is 5/3 of first — ratio 5 : 3, then ×21 by 5/3.",
+      "help": "Ratio **5 : 3**; second = $21 \\times \\frac{5}{3} = 35$.\n\n**Example:** 5/2 of 8 → 20."
+    },
+    "40": {
+      "hint": "Original : new = 5 : 3 for value; new = 3/5 × 15000.",
+      "help": "Ratio **5 : 3**; new value **£9,000**.\n\n**Example:** 4/5 of £200 → £160."
+    },
+    "41": {
+      "hint": "'6 times as many' means the ratio cats : dogs has 6 for every 1.",
+      "help": "'6 times as many cats as dogs' means for every **1 dog**, there are **6 cats**.\n\nSo the ratio cats : dogs is **6 : 1**."
+    },
+    "42": {
+      "hint": "k is the gradient — how much y goes up for every 1 across, from the origin.",
+      "help": "Since the line passes through the origin, $y = kx$ where $k = \\frac{y}{x}$.\n\nUsing the point (3, 6): $k = \\frac{6}{3} = 2$, so **y = 2x, k = 2**."
+    },
+    "43": {
+      "hint": "“Times as many” means the first quantity is $a$ parts to 1 part of the second.",
+      "help": "**3 times as many** apples as oranges → **3 : 1** (three apple parts per one orange part).\n\n**Example:** Twice as many pens as pencils → 2 : 1."
+    },
+    "44": {
+      "hint": "Gradient $k = \\dfrac{y}{x}$ when the line passes through the origin.",
+      "help": "Through $(2,8)$ → $k = 4$ → **$y = 4x$** — $y$ is always 4 times $x$.\n\n**Example:** $(3,12)$ gives $k = 4$ too."
+    },
+    "45": {
+      "hint": "Four times as many birds as rabbits — write birds : rabbits.",
+      "help": "**4 : 1** means four bird parts to one rabbit part.\n\n**Example:** 3 times as many cats as dogs → 3 : 1."
+    },
+    "46": {
+      "hint": "Through (2, 14): divide $y$ by $x$ to find $k$.",
+      "help": "$k = 14 \\div 2 = 7$ → **$y = 7x$**.\n\n**Example:** (3, 12) → $y = 4x$."
+    },
+    "47": {
+      "hint": "In 7 : 3, first ÷ second as a fraction.",
+      "help": "First as fraction of second $= 7 \\div 3 = \\frac{7}{3}$.\n\n**Example:** 5 : 2 → $\\frac{5}{2}$."
+    },
+    "48": {
+      "hint": "Multiplier = new mass ÷ old mass.",
+      "help": "Divide the new value by the old: $400 \\div 250 = 1.6$. The mass was multiplied by **1.6**.\n\n**Example:** 50 g to 80 g → multiplier 1.6."
+    },
+    "49": {
+      "hint": "Five times as large — smaller : larger is 1 : 5.",
+      "help": "Compare smaller to larger: **1 : 5**.\n\n**Example:** double → 1 : 2 smaller : larger."
+    },
+    "50": {
+      "hint": "Pens ÷ total stationery (pencils + pens).",
+      "help": "Total $= 42$. Fraction $= 24/42 = 4/7$.\n\n**Example:** 5 of 20 → $\\frac{1}{4}$."
+    },
+    "51": {
+      "hint": "Through (4, 10): divide $y$ by $x$ to find the gradient $k$.",
+      "help": "A line through the origin has form $y = kx$. Here $k = 10 \\div 4 = 2.5$.\n\n**Example:** through (2, 6) → $y = 3x$."
+    },
+    "52": {
+      "hint": "Butter compared with flour only — butter ÷ flour.",
+      "help": "Ratio butter : flour = 3 : 8 means butter is $\\frac{3}{8}$ of the flour amount.\n\n**Example:** 2 : 5 → first is $\\frac{2}{5}$ of second."
+    },
+    "53": {
+      "hint": "1.2 = $\\frac{6}{5}$ — write as a whole-number ratio in simplest form.",
+      "help": "First : second = 1 : 1.2 → multiply by 5 → **6 : 5**.\n\n**Example:** 1.5 times → 3 : 2."
+    },
+    "54": {
+      "hint": "Multiplier = new value ÷ original value.",
+      "help": "$20 \\div 8 = 2.5$. The multiplier is **2.5** (or $\\frac{5}{2}$).\n\n**Example:** 15 ÷ 6 → 2.5."
+    },
+    "55": {
+      "hint": "Planets are 2 parts out of 11 + 2 total parts.",
+      "help": "Total parts = 13. Fraction of planets $= \\frac{2}{13}$.\n\n**Example:** 3 : 7 ratio → second is $\\frac{7}{10}$ of total."
+    },
+    "56": {
+      "hint": "$k = y \\div x$ for a line through the origin.",
+      "help": "$35 \\div 5 = 7$ → **$y = 7x$**.\n\n**Example:** (3, 12) → $k = 4$."
+    },
+    "57": {
+      "hint": "If B is $\\frac{2}{5}$ of A, how many A parts match 2 B parts?",
+      "help": "B : A = 2 : 5, so **A : B = 5 : 2**.\n\n**Example:** C is $\\frac{1}{3}$ of D → D : C = 3 : 1."
+    },
+    "58": {
+      "hint": "Find new ÷ old for the multiplier; then write new : old as whole numbers.",
+      "help": "Multiplier $= 68 \\div 80 = 0.85$. Ratio new : old = 68 : 80 → **17 : 20**.\n\n**Example:** £50 to £40 → 0.8 and 4 : 5."
+    },
+    "59": {
+      "hint": "Seven times as many red as blue → write red : blue.",
+      "help": "**7 : 1** — seven red parts for every one blue part.\n\n**Example:** 4 times as many → 4 : 1."
+    },
+    "60": {
+      "hint": "First amount ÷ second amount, then simplify.",
+      "help": "$\\frac{9}{6} = \\frac{3}{2}$ — the first is $\\frac{3}{2}$ times the second.\n\n**Example:** 8 : 4 → $\\frac{2}{1}$."
+    },
+    "61": {
+      "hint": "Use (6, 15) to find $k$ in $y = kx$.",
+      "help": "$k = 15 \\div 6 = 2.5$ → **$y = 2.5x$**.\n\n**Example:** (4, 10) → $k = 2.5$."
+    },
+    "62": {
+      "hint": "Left-handed pupils ÷ total class size.",
+      "help": "Total = 40 pupils. Fraction $= \\frac{12}{40} = \\frac{3}{10}$.\n\n**Example:** 5 of 25 → $\\frac{1}{5}$."
+    },
+    "63": {
+      "hint": "One third as many — new amount is smaller; ratio new : original.",
+      "help": "**1 : 3** (new : original).\n\n**Example:** half as many → 1 : 2 new : original."
+    },
+    "64": {
+      "hint": "Write slower : faster, then divide faster by slower.",
+      "help": "Ratio **2 : 5**; multiplier $= 50 \\div 20 = 2.5$.\n\n**Example:** 30 km/h and 45 km/h → 2 : 3 and ×1.5."
+    },
+    "65": {
+      "hint": "Sugar parts ÷ total parts (flour + sugar).",
+      "help": "Sugar is 2 parts of 7 total → **$\\frac{2}{7}$**.\n\n**Example:** 3 : 5 mix → first is $\\frac{3}{8}$ of total."
+    },
+    "66": {
+      "hint": "Gradient from (2, 5): $k = 5 \\div 2$.",
+      "help": "**$y = 2.5x$** with $k = 2.5$.\n\n**Example:** (8, 20) → $k = 2.5$."
+    },
+    "67": {
+      "hint": "Diagram is 3 times real — diagram : real.",
+      "help": "**3 : 1** (three diagram units per one real unit).\n\n**Example:** twice as long → 2 : 1."
+    },
+    "68": {
+      "hint": "×0.6 means new is 6 parts when old is 10 — write old : new.",
+      "help": "Old : new = 10 : 6 → **5 : 3** in simplest form.\n\n**Example:** ×0.5 → 2 : 1 old : new."
+    },
+    "69": {
+      "hint": "Cats compared with dogs only — not the total.",
+      "help": "$\\frac{5}{20} = \\frac{1}{4}$ — cats are one quarter of the number of dogs.\n\n**Example:** 3 cats, 9 dogs → $\\frac{1}{3}$."
+    },
+    "70": {
+      "hint": "$k = 28 \\div 8$ for the line through the origin.",
+      "help": "**$y = 3.5x$** ($k = 3.5$ or $\\frac{7}{2}$).\n\n**Example:** (4, 14) → $k = 3.5$."
+    },
+    "71": {
+      "hint": "Write final : initial using 35 and 100, then simplify.",
+      "help": "35 : 100 → divide by 5 → **7 : 20**.\n\n**Example:** 40% left → 2 : 5 final : initial."
+    },
+    "72": {
+      "hint": "Second part ÷ first part in 15 : 10.",
+      "help": "$10 \\div 15 = \\frac{2}{3}$.\n\n**Example:** 8 : 4 → multiplier 0.5."
+    },
+    "73": {
+      "hint": "How many times bigger = second ÷ first.",
+      "help": "$9 \\div 4 = 2.25$ — the second is **2.25** times the first.\n\n**Example:** 6 : 2 → 3 times bigger."
+    },
+    "74": {
+      "hint": "Divide 4.5 by 3 to find $k$.",
+      "help": "**$y = 1.5x$** with $k = 1.5$.\n\n**Example:** (2, 7) → $k = 3.5$."
+    },
+    "75": {
+      "hint": "Multiplier = new number of people ÷ original.",
+      "help": "$10 \\div 4 = 2.5$ — scale the milk the same way.\n\n**Example:** 6 people from 2 → ×3."
+    },
+    "76": {
+      "hint": "Double means ×2 — write A : B when A is twice B.",
+      "help": "**2 : 1** — A is double B. The first number shows how many times larger A is.\n\n**Example:** triple → 3 : 1."
+    },
+    "77": {
+      "hint": "21 yes out of 35 — find no votes, then write yes : no.",
+      "help": "No = 14. Ratio **21 : 14** → **3 : 2**.\n\n**Example:** 12 of 20 yes → 3 : 2."
+    },
+    "78": {
+      "hint": "$k = 21 \\div 7$ for the origin line.",
+      "help": "**$y = 3x$** with $k = 3$. The line through the origin has constant ratio $y : x$.\n\n**Example:** (5, 20) → $k = 4$."
+    },
+    "79": {
+      "hint": "Butter is 2 parts of 2 + 5 + 8 total parts.",
+      "help": "Total 15 parts → butter is **$\\frac{2}{15}$** of the mix.\n\n**Example:** 1 : 4 : 5 → first is $\\frac{1}{10}$."
+    },
+    "80": {
+      "hint": "Original : new before simplifying.",
+      "help": "6 : 15 → divide by 3 → **2 : 5**.\n\n**Example:** 4 cm to 10 cm → 2 : 5."
+    },
+    "81": {
+      "hint": "Can $\\frac{3}{4}$ mean a fraction of a whole as well as a part-to-part ratio?",
+      "help": "$\\frac{3}{4}$ of a class is **part-to-whole**; ratio 3 : 4 compares **two parts**. Not always the same — **false**.\n\n**Example:** $\\frac{2}{5}$ of pupils vs ratio 2 : 5."
+    },
+    "82": {
+      "hint": "8 litres per 100 km — scale down to 1 km.",
+      "help": "Per 1 km: $\\frac{8}{100} = \\frac{2}{25}$ litres → ratio **2 : 25** (litres : km).\n\n**Example:** 5 L per 50 km → 1 : 10."
+    },
+    "83": {
+      "hint": "$k = 25 \\div 10$.",
+      "help": "**$y = 2.5x$** — output is 2.5 times the input on this direct proportion line.\n\n**Example:** (6, 15) → $k = 2.5$."
+    },
+    "84": {
+      "hint": "If $y : x = 13 : 5$, multiplier = $y \\div x$.",
+      "help": "$13 \\div 5 = 2.6$ — the multiplier tells you how many times larger $y$ is than $x$.\n\n**Example:** 8 : 2 → multiplier 4."
+    },
+    "85": {
+      "hint": "Twice as many girls as boys — girls : boys.",
+      "help": "**2 : 1** — two girl parts for every one boy part in the class.\n\n**Example:** 3 times as many → 3 : 1."
+    },
+    "86": {
+      "hint": "+25% means new is 125 for every 100 old.",
+      "help": "New : old = **125 : 100** → **5 : 4**.\n\n**Example:** +50% → 3 : 2."
+    },
+    "87": {
+      "hint": "$k = 6 \\div 4$.",
+      "help": "**$y = 1.5x$** — each step in $x$ gives 1.5 times as much in $y$.\n\n**Example:** (10, 25) → $k = 2.5$."
+    },
+    "88": {
+      "hint": "First is $\\frac{2}{3}$ of second → write first : second.",
+      "help": "**2 : 3** — first quantity is two-thirds of the second.\n\n**Example:** $\\frac{1}{4}$ of second → 1 : 4."
+    },
+    "89": {
+      "hint": "Green compared with yellow only (not total).",
+      "help": "4 green, 1 yellow → green is **4** times the yellow count ($\\frac{4}{1}$).\n\n**Example:** 6 red, 2 blue → 3 times."
+    },
+    "90": {
+      "hint": "Track overall change: ×3 then ×$\\frac{1}{2}$.",
+      "help": "×3 then ×0.5 = ×1.5 overall → original : final = **2 : 3**.\n\n**Example:** double then halve → 1 : 1."
+    },
+    "91": {
+      "hint": "$y$ is smaller than $x$ here — $k = 8 \\div 12$.",
+      "help": "**$y = \\frac{2}{3}x$** with $k = \\frac{2}{3}$.\n\n**Example:** (9, 3) → $k = \\frac{1}{3}$."
+    },
+    "92": {
+      "hint": "10% means 10 parts per 100 — part : whole.",
+      "help": "10 : 100 → **1 : 10** — ten parts out of every hundred.\n\n**Example:** 25% → 1 : 4."
+    },
+    "93": {
+      "hint": "Sandwiches : drinks is already 2 : 5 — simplify if needed.",
+      "help": "**2 : 5** in simplest form — two sandwich parts to five drink parts.\n\n**Example:** 4 : 10 → 2 : 5."
+    },
+    "94": {
+      "hint": "$k = 8 \\div 5$ for (5, 8).",
+      "help": "**$y = 1.6x$** ($k = 1.6$ or $\\frac{8}{5}$).\n\n**Example:** (10, 16) → $k = 1.6$."
+    },
+    "95": {
+      "hint": "Pay ratio 12 : 18, then higher ÷ lower.",
+      "help": "Ratio **2 : 3**; multiplier $= 18 \\div 12 = 1.5$.\n\n**Example:** £10 and £15 → 2 : 3."
+    },
+    "96": {
+      "hint": "Scored 45 of 60 — marks lost = 15.",
+      "help": "Scored : lost = **45 : 15** → **3 : 1**.\n\n**Example:** 28/40 → 7 : 3."
+    },
+    "97": {
+      "hint": "Write 30 : 75 and cancel common factors.",
+      "help": "**2 : 5** original : new.\n\n**Example:** 20 cm to 50 cm → 2 : 5."
+    },
+    "98": {
+      "hint": "Scaling both parts of a ratio by the same number — does the multiplier between parts change?",
+      "help": "The **multiplier stays the same** — e.g. 2 : 3 and 4 : 6 both have second = 1.5× first. Answer: **never** changes.\n\n**Example:** 1 : 4 and 3 : 12."
+    },
+    "99": {
+      "hint": "$k = 12 \\div 9$.",
+      "help": "**$y = \\frac{4}{3}x$**.\n\n**Example:** (6, 8) → $k = \\frac{4}{3}$."
+    },
+    "100": {
+      "hint": "2 cm for every 5 km — write cm : km.",
+      "help": "**2 : 5** already in simplest form.\n\n**Example:** 1 cm : 3 km → 1 : 3."
+    },
+    "101": {
+      "hint": "0.4 times the old value — write new : old as whole numbers.",
+      "help": "New : old = 0.4 : 1 → **2 : 5** after scaling.\n\n**Example:** 0.25 times → 1 : 4 new : old."
+    },
+    "102": {
+      "hint": "Science is 7 parts of 3 + 7 teachers.",
+      "help": "$\\frac{7}{10}$ of teachers teach science.\n\n**Example:** 2 : 8 split → first is $\\frac{2}{10}$."
+    },
+    "103": {
+      "hint": "$k = 11 \\div 2$ for the point (2, 11).",
+      "help": "**$y = 5.5x$** with $k = \\frac{11}{2}$.\n\n**Example:** (4, 22) → $k = 5.5$."
+    },
+    "104": {
+      "hint": "Sale £48 from £60 — write sale : original.",
+      "help": "48 : 60 → **4 : 5** — sale price compared with the original full price.\n\n**Example:** £35 from £50 → 7 : 10."
+    },
+    "105": {
+      "hint": "Same time — speed ratio equals distance ratio.",
+      "help": "Leo : Mo speeds = **3 : 2** (3 km vs 2 km).\n\n**Example:** 5 km vs 4 km → 5 : 4."
+    },
+    "106": {
+      "hint": "A is $\\frac{5}{8}$ of B → write A : B.",
+      "help": "**5 : 8** — A is five-eighths of B, written as a ratio.\n\n**Example:** $\\frac{3}{4}$ of B → 3 : 4."
+    },
+    "107": {
+      "hint": "Smaller part is 2 of 2 + 3 total parts.",
+      "help": "$\\frac{2}{5}$ of the whole.\n\n**Example:** 1 : 4 split → smaller is $\\frac{1}{5}$."
+    },
+    "108": {
+      "hint": "$k = 9 \\div 6$.",
+      "help": "**$y = 1.5x$** — gradient 1.5 means $y$ grows 1.5 times as fast as $x$.\n\n**Example:** (8, 12) → $k = 1.5$."
+    },
+    "109": {
+      "hint": "If $y = 4x$, what is $y : x$?",
+      "help": "When $y$ is always 4 times $x$, ratio **4 : 1** — **true**.\n\n**Example:** $y = 3x$ → 3 : 1."
+    },
+    "110": {
+      "hint": "New population ÷ old population.",
+      "help": "$65\\,000 \\div 50\\,000 = 1.3$.\n\n**Example:** 80 to 100 → multiplier 1.25."
+    },
+    "111": {
+      "hint": "$\\frac{3}{4}$ as many cats as dogs — cats : dogs.",
+      "help": "**3 : 4** — three cat parts for every four dog parts.\n\n**Example:** half as many → 1 : 2."
+    },
+    "112": {
+      "hint": "$k = 4 \\div 7$ — slope less than 1.",
+      "help": "**$y = \\frac{4}{7}x$**.\n\n**Example:** (7, 3) → $k = \\frac{3}{7}$."
+    },
+    "113": {
+      "hint": "240 g for 8 cakes — grams per cake?",
+      "help": "Chocolate : cakes = **30 : 1**; each cake uses **30 g** (ratio 1 cake : 30 g).\n\n**Example:** 100 g for 5 → 20 g each."
+    },
+    "114": {
+      "hint": "Model is $\\frac{1}{50}$ of real — model : real as 1 : n.",
+      "help": "**1 : 50** — one unit on the model equals fifty on the real object.\n\n**Example:** $\\frac{1}{100}$ scale → 1 : 100."
+    },
+    "115": {
+      "hint": "Smaller ÷ larger in ratio 5 : 12.",
+      "help": "$\\frac{5}{12}$ of the larger weight.\n\n**Example:** 3 : 10 → $\\frac{3}{10}$."
+    },
+    "116": {
+      "hint": "$k = 6 \\div 15$.",
+      "help": "**$y = \\frac{2}{5}x$** — for every 5 units of $x$, $y$ increases by 2.\n\n**Example:** (10, 4) → $k = 0.4$."
+    },
+    "117": {
+      "hint": "Compare 18 old marks with 24 new marks only.",
+      "help": "Marks **18 : 24** → **3 : 4**.\n\n**Example:** 12 to 16 → 3 : 4."
+    },
+    "118": {
+      "hint": "Does ratio 1 : 2 mean the same as $\\frac{1}{2}$ of the whole?",
+      "help": "**False** — 1 : 2 compares two parts; $\\frac{1}{2}$ of the whole is part-to-whole.\n\n**Example:** 2 : 3 vs $\\frac{2}{5}$ of class."
+    },
+    "119": {
+      "hint": "$k = 18 \\div 3$.",
+      "help": "**$y = 6x$** — $y$ is always six times $x$ on this through-origin line.\n\n**Example:** (2, 12) → $k = 6$."
+    },
+    "120": {
+      "hint": "Second ÷ first in 7 : 20.",
+      "help": "Multiplier $= \\frac{20}{7}$.\n\n**Example:** 3 : 8 → $\\frac{8}{3}$."
+    },
+    "121": {
+      "hint": "Pop songs ÷ rock songs — part-to-part fraction.",
+      "help": "$\\frac{9}{5}$ — pop is $\\frac{9}{5}$ times rock.\n\n**Example:** 6 pop, 4 rock → $\\frac{3}{2}$."
+    },
+    "122": {
+      "hint": "40% left means 60% drained — remaining : drained.",
+      "help": "**40 : 60** → **2 : 3**.\n\n**Example:** 25% left → 1 : 3 remaining : drained."
+    },
+    "123": {
+      "hint": "$k = 14 \\div 4$.",
+      "help": "**$y = 3.5x$** — multiply $x$ by 3.5 to get the matching $y$ value.\n\n**Example:** (2, 7) → $k = 3.5$."
+    },
+    "124": {
+      "hint": "Increased in ratio 9 : 8 (new : old) — multiplier on old price.",
+      "help": "New = $\\frac{9}{8}$ × old.\n\n**Example:** 5 : 4 new : old → ×1.25."
+    },
+    "125": {
+      "hint": "Boys are 8 parts of 8 + 7 class.",
+      "help": "$\\frac{8}{15}$ are boys.\n\n**Example:** 3 : 7 → first is $\\frac{3}{10}$."
+    },
+    "126": {
+      "hint": "$k = 15 \\div 5$.",
+      "help": "**$y = 3x$** — triple the input to get the output on this line.\n\n**Example:** (4, 12) → $k = 3$."
+    },
+    "127": {
+      "hint": "Shadow 1.5 m, pole 2 m — write shadow : pole.",
+      "help": "1.5 : 2 → **3 : 4**.\n\n**Example:** 2 m shadow, 5 m pole → 2 : 5."
+    },
+    "128": {
+      "hint": "125% of original — new : old.",
+      "help": "125 : 100 → **5 : 4** — new amount is 125% of the original.\n\n**Example:** 150% → 3 : 2."
+    },
+    "129": {
+      "hint": "Does fraction $\\frac{a}{b}$ always match ratio $a : b$?",
+      "help": "**Sometimes** — same numbers can mean part-to-whole (fraction) or part-to-part (ratio). Context matters.\n\n**Example:** $\\frac{2}{5}$ of class vs 2 : 5."
+    },
+    "130": {
+      "hint": "$k = 20 \\div 8$.",
+      "help": "**$y = 2.5x$** — output is 2.5 times the input on this direct proportion line.\n\n**Example:** (6, 15) → $k = 2.5$."
+    },
+    "131": {
+      "hint": "45 large is 5 parts — find small (3 parts) and fraction of total.",
+      "help": "One part = 9 → **27** small. Small fraction $= \\frac{27}{72} = \\frac{3}{8}$.\n\n**Example:** 20 large at 4:1 → 5 small."
+    },
+    "132": {
+      "hint": "Find $k$ from (4, 7), then state $y : x$.",
+      "help": "$k = \\frac{7}{4}$ → **$y : x = 7 : 4$**.\n\n**Example:** (2, 5) → 5 : 2."
+    },
+    "133": {
+      "hint": "Compare $\\frac{24}{40}$ and $\\frac{18}{30}$ — then ratio of marks.",
+      "help": "Both equal $\\frac{3}{5}$. Marks ratio **24 : 18** → **4 : 3**.\n\n**Example:** $\\frac{1}{2}$ vs $\\frac{2}{4}$ — equal."
+    },
+    "134": {
+      "hint": "Speed = distance ÷ time for each car.",
+      "help": "A: 60 km/h, B: 50 km/h → ratio **6 : 5**.\n\n**Example:** 100 km in 2 h vs 150 km in 3 h → same speed."
+    },
+    "135": {
+      "hint": "Link A : B and B : C to get A : C.",
+      "help": "A : B = 2 : 3, B : C = 4 : 5 → match B at 12 → **8 : 15**. **True**.\n\n**Example:** 1:2 and 2:3 → 1:3."
+    },
+    "136": {
+      "hint": "Find $k$, then substitute $x = 10$.",
+      "help": "$k = 3.5$. When $x = 10$, $y = 35$.\n\n**Example:** (2, 6), $x = 5$ → $y = 15$."
+    },
+    "137": {
+      "hint": "Reduced 3 : 4 (new : old) — multiply £56 by $\\frac{3}{4}$.",
+      "help": "New price **£42**.\n\n**Example:** old £80, ratio 4 : 5 new : old → £64."
+    },
+    "138": {
+      "hint": "$\\frac{2}{7}$ tea — coffee is the rest; tea : coffee.",
+      "help": "Tea : coffee = **2 : 5**.\n\n**Example:** $\\frac{1}{4}$ tea → 1 : 3."
+    },
+    "139": {
+      "hint": "Swap map and real from 1 : 25 000.",
+      "help": "Real : map = **25 000 : 1** (or 1 : 25 000 reversed).\n\n**Example:** 1:500 map → real:map = 500:1."
+    },
+    "140": {
+      "hint": "Smaller jar 27 is 3 parts — find larger (5 parts).",
+      "help": "**45** marbles in larger; multiplier $= \\frac{5}{3}$.\n\n**Example:** 12 in smaller at 2:5 → 30 larger."
+    },
+    "141": {
+      "hint": "If $k > 1$ and $x > 0$, is $y < x$ in $y = kx$?",
+      "help": "**Never** — $k > 1$ makes $y$ bigger than $x$ for positive $x$.\n\n**Example:** $y = 2x$, $x = 3$ → $y = 6$."
+    },
+    "142": {
+      "hint": "$k = 6 \\div 9$.",
+      "help": "**$y = \\frac{2}{3}x$**.\n\n**Example:** (12, 8) → $k = \\frac{2}{3}$."
+    },
+    "143": {
+      "hint": "Old : new and percentage increase from £8000 to £9200.",
+      "help": "Ratio **20 : 23**; increase $= \\frac{1200}{8000} = 15$%.\n\n**Example:** 50 to 60 → 25%."
+    },
+    "144": {
+      "hint": "$\\frac{5}{9}$ water — other is $\\frac{4}{9}$; water : other.",
+      "help": "**5 : 4** — water is five-ninths of the mix; the rest is other liquid.\n\n**Example:** $\\frac{1}{3}$ water → 1 : 2."
+    },
+    "145": {
+      "hint": "Year 5 has 7 parts of 7 + 5 total cost.",
+      "help": "$\\frac{7}{12}$ of the £240 trip.\n\n**Example:** 2:3 split → first pays $\\frac{2}{5}$."
+    },
+    "146": {
+      "hint": "$k = 7 \\div 2$.",
+      "help": "**$y = 3.5x$** — the constant multiplier links $x$ and $y$ directly.\n\n**Example:** (4, 14) → $k = 3.5$."
+    },
+    "147": {
+      "hint": "Give an example where $\\frac{3}{5}$ is a fraction of a whole, not ratio 3 : 5.",
+      "help": "$\\frac{3}{5}$ of the class are girls (part-to-whole) differs from ratio 3 : 5 (part-to-part).\n\n**Example:** $\\frac{1}{2}$ of pupils wear glasses."
+    },
+    "148": {
+      "hint": "16 km in 48 min — write km : minutes as 1 : n.",
+      "help": "48 min per 16 km → 3 min per km → **1 : 3** (km : minutes).\n\n**Example:** 10 km in 30 min → 1 : 3."
+    },
+    "149": {
+      "hint": "Circumference $= 2\\pi r$ — compare with radius.",
+      "help": "Ratio **$2\\pi$ : 1**; multiplier $2\\pi$.\n\n**Example:** diameter vs radius → 2 : 1."
+    },
+    "150": {
+      "hint": "132 meals is 11 parts — find snacks (4 parts) and fraction.",
+      "help": "**48** snacks; fraction $= \\frac{48}{180} = \\frac{4}{15}$.\n\n**Example:** 60 meals at 5:2 → 24 snacks."
+    },
+    "151": {
+      "hint": "$k = 20 \\div 12$.",
+      "help": "**$y = \\frac{5}{3}x$**.\n\n**Example:** (9, 15) → $k = \\frac{5}{3}$."
+    },
+    "152": {
+      "hint": "Doubling 2 : 3 to 4 : 6 — does the multiplier between parts change?",
+      "help": "**False** — both give second = 1.5× first.\n\n**Example:** 1:2 and 3:6 — same relationship."
+    },
+    "153": {
+      "hint": "45% used, 55% left — write used : left.",
+      "help": "**45 : 55** → **9 : 11** — used compared with what remains in the tank.\n\n**Example:** 30% used → 3 : 7."
+    },
+    "154": {
+      "hint": "B is 1.5 times A — write A : B as whole numbers.",
+      "help": "A : B = 1 : 1.5 → **2 : 3** when written with whole numbers.\n\n**Example:** double → 1 : 2."
+    },
+    "155": {
+      "hint": "$k = 11 \\div 7$ — leave as a fraction.",
+      "help": "**$k = \\frac{11}{7}$**.\n\n**Example:** (8, 5) → $k = \\frac{5}{8}$."
+    },
+    "156": {
+      "hint": "8 people vs 5 people — multiplier on 350 g pasta.",
+      "help": "$8 \\div 5 = 1.6$ — scale the recipe from 5 people up to 8 people.\n\n**Example:** 6 people from 4 → ×1.5."
+    },
+    "157": {
+      "hint": "Managers £24,000 is 2 parts — find staff (9 parts) and managers' fraction.",
+      "help": "Staff **£108,000**; managers are **$\\frac{2}{11}$** of total.\n\n**Example:** 3:5 split, smaller £30 → larger £50."
+    },
+    "158": {
+      "hint": "If $y/x$ is a whole number $n$, can you write $y : x$ with a 1?",
+      "help": "**Always** — e.g. $y : x = n : 1$.\n\n**Example:** $y = 5x$ → 5 : 1."
+    },
+    "159": {
+      "hint": "$k = 2 \\div 5$.",
+      "help": "**$y = \\frac{2}{5}x$** — for every 5 units of $x$, $y$ increases by 2.\n\n**Example:** (10, 4) → $k = 0.4$."
+    },
+    "160": {
+      "hint": "Are $\\frac{7}{10}$ and $\\frac{14}{20}$ equal? Write each as marks : total.",
+      "help": "Both **$\\frac{7}{10}$**; ratios **7 : 10** and **14 : 20** (same).\n\n**Example:** $\\frac{1}{2}$ = $\\frac{2}{4}$."
+    },
+    "161": {
+      "hint": "Simplify 60 : 40, then faster ÷ slower.",
+      "help": "Ratio **3 : 2**; multiplier **1.5**.\n\n**Example:** 90 : 60 → 3 : 2."
+    },
+    "162": {
+      "hint": "$k = 2.5 \\div 3$.",
+      "help": "**$k = \\frac{5}{6}$**.\n\n**Example:** (6, 5) → $k = \\frac{5}{6}$."
+    },
+    "163": {
+      "hint": "Height : thickness = 20 : 1 with 4 mm stem.",
+      "help": "Height = $4 \\times 20 = 80$ mm.\n\n**Example:** 5:1 ratio, 3 mm thick → 15 mm tall."
+    },
+    "164": {
+      "hint": "Three times as many A as B — is A : B = 3 : 1?",
+      "help": "**True** — three A parts per one B part.\n\n**Example:** twice as many → 2 : 1."
+    },
+    "165": {
+      "hint": "Middle share 8 of 5 + 8 + 10 parts.",
+      "help": "$\\frac{8}{23}$ of total profit.\n\n**Example:** 2:3:5 split → middle is $\\frac{3}{10}$."
+    },
+    "166": {
+      "hint": "Find $k$ from (8, 22), then compare $y$ and $x$ when $x = 5$.",
+      "help": "$k = \\frac{11}{4}$; $y = 13.75 > 5$ when $x = 5$.\n\n**Example:** $k = 2$, $x = 3$ → $y > x$."
+    },
+    "167": {
+      "hint": "+20% then −20% — multiply 1 × 1.2 × 0.8.",
+      "help": "Overall ×0.96 → original : final = **25 : 24**.\n\n**Example:** +10% then −10% → 100:99."
+    },
+    "168": {
+      "hint": "New is $\\frac{5}{6}$ of old — write old : new.",
+      "help": "**6 : 5**.\n\n**Example:** $\\frac{2}{3}$ of old → 3 : 2 old : new."
+    },
+    "169": {
+      "hint": "If $a : b = c : d$, is $a/c = b/d$?",
+      "help": "**Always** for equivalent ratios (cross-multiply).\n\n**Example:** 2:3 = 4:6 → $\\frac{2}{4} = \\frac{3}{6}$."
+    },
+    "170": {
+      "hint": "$k = 7 \\div 11$ as a fraction.",
+      "help": "**$k = \\frac{7}{11}$**.\n\n**Example:** (5, 2) → $k = \\frac{2}{5}$."
+    },
+    "171": {
+      "hint": "3 cm represents 7.5 km — convert km to m, then simplify cm : m.",
+      "help": "7.5 km = 7500 m → 3 : 7500 → **1 : 2500**.\n\n**Example:** 2 cm : 4 km → 1 : 200000 cm."
+    },
+    "172": {
+      "hint": "Wrong : right = 3 : 17 with 12 wrong — find right and fraction correct.",
+      "help": "**68** right; $\\frac{68}{80} = \\frac{17}{20}$ correct.\n\n**Example:** 2 wrong at 1:9 → 18 right."
+    },
+    "173": {
+      "hint": "Larger number is 7 parts of sum 132 — fraction of sum?",
+      "help": "$\\frac{7}{11}$ of the sum.\n\n**Example:** 3:5 with sum 40 → larger is $\\frac{5}{8}$."
+    },
+    "174": {
+      "hint": "$k = 35 \\div 14$.",
+      "help": "**$y = 2.5x$** — each unit of $x$ produces 2.5 units of $y$.\n\n**Example:** (4, 10) → $k = 2.5$."
+    },
+    "175": {
+      "hint": "A is 60% of B — write A : B.",
+      "help": "60% = $\\frac{3}{5}$ → **3 : 5**. **True**.\n\n**Example:** 40% → 2 : 5."
+    },
+    "176": {
+      "hint": "More rotations means fewer teeth — inverse proportion.",
+      "help": "Faster : slower rotations = 8 : 3 → teeth **3 : 8**.\n\n**Example:** 2:5 turns → teeth 5:2."
+    },
+    "177": {
+      "hint": "Find $k$ from (6, 16), then solve $40 = kx$.",
+      "help": "$k = \\frac{8}{3}$; **$x = 15$**.\n\n**Example:** $y = 4x$, $y = 20$ → $x = 5$."
+    },
+    "178": {
+      "hint": "Old : new for £28k to £35k and fractional increase.",
+      "help": "Ratio **4 : 5**; increase $= \\frac{1}{4}$.\n\n**Example:** 80 to 100 → $\\frac{1}{4}$ rise."
+    },
+    "179": {
+      "hint": "From part/whole fraction, can you get part : other part?",
+      "help": "**Always** — if part is $\\frac{a}{a+b}$ of whole, other part ratio is $a : b$.\n\n**Example:** $\\frac{2}{5}$ of total → 2 : 3 part-to-part."
+    },
+    "180": {
+      "hint": "$k = 15 \\div 9$.",
+      "help": "**$y = \\frac{5}{3}x$**.\n\n**Example:** (6, 10) → $k = \\frac{5}{3}$."
+    },
+    "181": {
+      "hint": "Zinc : copper = 2 : 5 — find zinc/copper and zinc/total.",
+      "help": "Zinc is **$\\frac{2}{5}$** of copper and **$\\frac{2}{7}$** of total.\n\n**Example:** 1:3 mix → first is $\\frac{1}{3}$ of second."
+    },
+    "182": {
+      "hint": "$k = 0.35$ £ per unit — cost : units and cost of 20.",
+      "help": "Ratio **7 : 20** (0.35 : 1); 20 units cost **£7**.\n\n**Example:** £2 per kg → 2:1 cost:kg."
+    },
+    "183": {
+      "hint": "Halving both parts of a ratio — same as halving the multiplier?",
+      "help": "**False** — multiplier between parts stays the same; only notation shrinks.\n\n**Example:** 4:6 and 2:3 — same multiplier."
+    },
+    "184": {
+      "hint": "$k = 12 \\div 20$ as a fraction.",
+      "help": "**$k = \\frac{3}{5}$**.\n\n**Example:** (15, 9) → $k = \\frac{3}{5}$."
+    },
+    "185": {
+      "hint": "Marks lost = total − scored; lost ÷ total available.",
+      "help": "Lost 6 of 40 → **$\\frac{6}{40} = \\frac{3}{20}$**.\n\n**Example:** 32/40 → lost $\\frac{8}{40}$."
+    },
+    "186": {
+      "hint": "Work out both amounts after pouring 2 L — is ratio 7 : 9?",
+      "help": "After pour: 16 L and 24 L → **2 : 3**, not 7 : 9. **No**.\n\n**Example:** check new totals before simplifying ratio."
+    },
+    "187": {
+      "hint": "$k = 12 \\div 5$.",
+      "help": "**$y = \\frac{12}{5}x$** — gradient $\\frac{12}{5}$ links $x$ and $y$.\n\n**Example:** (5, 8) → $k = 1.6$."
+    },
+    "188": {
+      "hint": "Integer $k$ in $y = kx$ — simplest ratio $y : x$?",
+      "help": "**Always** has form $n : 1$ for positive integer $k$.\n\n**Example:** $k = 4$ → 4 : 1."
+    },
+    "189": {
+      "hint": "Sugar $\\frac{2}{9}$ of batter — sugar : rest of batter.",
+      "help": "Rest is $\\frac{7}{9}$ → **2 : 7**.\n\n**Example:** $\\frac{1}{4}$ sugar → 1 : 3 sugar : rest."
+    },
+    "190": {
+      "hint": "$k = 3.5 \\div 7$.",
+      "help": "**$y = 0.5x$** ($k = \\frac{1}{2}$).\n\n**Example:** (8, 4) → $k = 0.5$."
+    },
+    "191": {
+      "hint": "400p to 520p — old : new and multiplier.",
+      "help": "Ratio **10 : 13**; multiplier **1.3**.\n\n**Example:** 50 to 65 → 10 : 13."
+    },
+    "192": {
+      "hint": "Is ratio 10 : 15 the same as $\\frac{10}{15}$ of the whole?",
+      "help": "**False** — 10:15 compares parts; $\\frac{10}{15}$ of whole is part-to-whole.\n\n**Example:** 2:3 vs $\\frac{2}{5}$ of total."
+    },
+    "193": {
+      "hint": "$k = 39 \\div 13$ and state $y : x$.",
+      "help": "**$y = 3x$**; ratio **3 : 1**.\n\n**Example:** (5, 20) → 4 : 1."
+    },
+    "194": {
+      "hint": "Adult : child = 4 : 1 on £600 total.",
+      "help": "Adults **$\\frac{4}{5}$** (£480); children **$\\frac{1}{5}$** (£120).\n\n**Example:** 3:2 split of £100 → £60 and £40."
+    },
+    "195": {
+      "hint": "$k = b/a = 5/8$ — pick whole-number $(a, b)$.",
+      "help": "Any pair with $b/a = 5/8$, e.g. **(8, 5)**.\n\n**Example:** $k = 2$ → (3, 6)."
+    },
+    "196": {
+      "hint": "Increased in ratio 7 : 4 (new : old) — percentage increase?",
+      "help": "Multiplier $\\frac{7}{4}$ → increase $= \\frac{3}{4} = 75$%.\n\n**Example:** 5:4 new:old → 25%."
+    },
+    "197": {
+      "hint": "Second is $\\frac{5}{3}$ of first — ratio then find second when first is 21.",
+      "help": "Ratio **3 : 5**; second = **35**.\n\n**Example:** $\\frac{4}{3}$ of 12 → 16."
+    },
+    "198": {
+      "hint": "Value drops to $\\frac{3}{5}$ — original : new and new value of £15,000.",
+      "help": "Ratio **5 : 3**; new value **£9,000**.\n\n**Example:** $\\frac{1}{2}$ of £8000 → £4000."
+    },
+    "199": {
+      "hint": "Explain ratio increase 5:4 (new:old) vs adding $\\frac{5}{4}$ on top.",
+      "help": "Ratio **5 : 4 new : old** means ×$\\frac{5}{4}$. Adding $\\frac{5}{4}$ of the old gives ×$\\frac{9}{4}$ — different.\n\n**Example:** £8 ×5/4 = £10 vs £8 + £10."
+    },
+    "200": {
+      "hint": "Write the two times as a ratio, then divide both by their highest common factor.",
+      "help": "The two times are **15 minutes** and **10 minutes**, so the ratio is $15 : 10$.\n\nDivide both sides by 5: **3 : 2**."
+    }
+  }
+}

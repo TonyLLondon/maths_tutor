@@ -1,0 +1,1991 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "The group of 8",
+      "accept": [
+        "8",
+        "group of 8"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "Class B",
+      "accept": [
+        "class b",
+        "b"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "1, 5, 9",
+      "accept": [
+        "1, 5, 9",
+        "second"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 708
+    },
+    "11": {
+      "display": "mode",
+      "accept": [
+        "mode"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "12": {
+      "display": "sample",
+      "accept": [
+        "sample",
+        "a sample"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "Class B",
+      "accept": [
+        "class b",
+        "b"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "Class A",
+      "accept": [
+        "class a",
+        "a"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "The mean",
+      "accept": [
+        "mean"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "17": {
+      "display": "12.4",
+      "accept": [
+        "12.4"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "18": {
+      "display": "The median — the mean is pulled up by the outlier (50) and no longer reflects most of the data",
+      "accept": [
+        "median"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 892
+    },
+    "19": {
+      "display": "Shop A",
+      "accept": [
+        "shop a",
+        "a"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "20": {
+      "display": "The whole school of 500 pupils (the population)",
+      "accept": [
+        "whole school",
+        "population",
+        "500 pupils"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 945
+    },
+    "21": {
+      "display": "No — chess club members may share similar interests, so the sample is unlikely to represent the whole school fairly",
+      "accept": [
+        "no",
+        "biased"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 971
+    },
+    "22": {
+      "display": "The population's ages are spread quite widely around 40 years old",
+      "accept": [
+        "spread",
+        "wide range",
+        "varied"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 997
+    },
+    "23": {
+      "display": "The data sets have the same spread but different typical (central) values",
+      "accept": [
+        "same spread",
+        "different centre",
+        "different mean"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1024
+    },
+    "24": {
+      "display": "It is often cheaper, quicker, and more practical than surveying every member of the population",
+      "accept": [
+        "cheaper",
+        "quicker",
+        "practical",
+        "time"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "25": {
+      "display": "She is missing the spread (range) — two data sets can have the same mean but very different amounts of variation.",
+      "accept": [
+        "range",
+        "spread"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "26": {
+      "display": "True — larger samples tend to reduce the effect of random variation and give a more reliable estimate of the population.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "27": {
+      "display": "Biased — friends often share similar interests, so this sample is unlikely to represent the wider range of opinions across the whole year group.",
+      "accept": [
+        "biased",
+        "not representative"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "28": {
+      "display": "Sometimes — having the same mean does not guarantee the same spread, but it is possible by coincidence for two data sets to share both.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "29": {
+      "display": "The median is often better than the mode for numerical data with an outlier, since the median ignores extreme values and represents the middle of the data, while the mode may not exist or may not be near the centre at all.",
+      "accept": [
+        "median"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "30": {
+      "display": "Example: two delivery services both average 30 minutes, but one always takes close to 30 minutes (small range, reliable) while the other sometimes takes 5 minutes and sometimes 60 minutes (large range, unreliable) — the same mean can hide very different real experiences.",
+      "accept": [
+        "same mean",
+        "small range",
+        "large range",
+        "reliable",
+        "unreliable"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 2,
+      "rating": 1394
+    },
+    "31": {
+      "display": "Not necessarily true — a sample of only 5 people is very small and may not capture the natural variation in a larger population, so it could easily give a misleading estimate.",
+      "accept": [
+        "too small",
+        "not enough",
+        "unreliable"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "32": {
+      "display": "An inference is a conclusion drawn about the whole population based on sample data — for example, using the average screen time from 50 surveyed teenagers to estimate the average screen time of all teenagers.",
+      "accept": [
+        "conclusion",
+        "estimate",
+        "whole population"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "33": {
+      "display": "Similarity: both classes have the same mean (68); difference: Class Y's scores are much more spread out (range 40 vs 15), so Class Y's performance is less consistent.",
+      "accept": [
+        "same mean",
+        "less consistent",
+        "more spread"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "34": {
+      "display": "Garden A: mean 150 cm, range 4 cm; Garden B: mean 140 cm, range 70 cm — Garden A's sunflowers are far more consistent in height.",
+      "accept": [
+        "150",
+        "4",
+        "140",
+        "70",
+        "garden a"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1680
+    },
+    "35": {
+      "display": "The mean (41.75) is pulled up by the outlier (90), so it does not represent most people's ages well; the median (35) is a better, fairer average here.",
+      "accept": [
+        "35",
+        "median",
+        "41.75"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "36": {
+      "display": "Sampling across different departments avoids bias, since commute times might vary a lot between departments (e.g. based on office location), giving a fairer cross-section of the whole company.",
+      "accept": [
+        "bias",
+        "cross-section",
+        "different departments"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1741
+    },
+    "37": {
+      "display": "Runner A is more consistent (smaller range, 0.4 vs 2.5), so a coach would prefer Runner A for having more predictable, reliable race times.",
+      "accept": [
+        "runner a",
+        "0.4",
+        "consistent"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1744
+    },
+    "38": {
+      "display": "This only samples pupils who happen to arrive early, which could over-represent walkers or under-represent pupils who arrive later by car or bus, giving a biased, unrepresentative result.",
+      "accept": [
+        "bias",
+        "unrepresentative"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "39": {
+      "display": "Since the mean (60) is higher than the median (55), the distribution is likely skewed to the right, meaning a few unusually high scores are pulling the mean above the middle value.",
+      "accept": [
+        "skewed",
+        "high scores",
+        "right"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1860
+    },
+    "40": {
+      "display": "A bigger sample reduces the effect of random variation, so the estimate is more likely to be close to the true population value, but it still cannot guarantee perfect accuracy since it is not the entire population and could still be affected by bias.",
+      "accept": [
+        "reduces variation",
+        "no guarantee",
+        "still a sample"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "41": {
+      "display": "The median ignores the effect of the extremely high earners, so it better represents the income of a 'typical' person in each town, whereas the mean would be pulled upward by the high earners in Town A.",
+      "accept": [
+        "median",
+        "outliers",
+        "typical"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1953
+    },
+    "42": {
+      "display": "Your own comparison scenario with data collected, averages and spread compared, and a sensible conclusion about the wider population.",
+      "accept": [
+        "data",
+        "average",
+        "spread",
+        "compare",
+        "population",
+        "conclusion"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "44": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "45": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "46": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "47": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "48": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "49": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "50": {
+      "display": "0",
+      "accept": [
+        "0"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "51": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "52": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "53": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "54": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "55": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "56": {
+      "display": "17",
+      "accept": [
+        "17"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "57": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "58": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "59": {
+      "display": "1.7999999999999998",
+      "accept": [
+        "1.7999999999999998"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "60": {
+      "display": "Sample",
+      "accept": [
+        "sample",
+        "sample"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "61": {
+      "display": "Population",
+      "accept": [
+        "population"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "62": {
+      "display": "All 500 birds in the colony",
+      "accept": [
+        "500",
+        "colony",
+        "all birds"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1150
+    },
+    "63": {
+      "display": "Sample",
+      "accept": [
+        "sample",
+        "sample"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "64": {
+      "display": "Population",
+      "accept": [
+        "population",
+        "population"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "65": {
+      "display": "Sample",
+      "accept": [
+        "sample",
+        "sample"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "66": {
+      "display": "Population",
+      "accept": [
+        "population"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "67": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "68": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "69": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "70": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "71": {
+      "display": "50",
+      "accept": [
+        "50"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "72": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "73": {
+      "display": "Library B",
+      "accept": [
+        "library b",
+        "b",
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1151
+    },
+    "74": {
+      "display": "Library B",
+      "accept": [
+        "library b",
+        "b",
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1152
+    },
+    "75": {
+      "display": "Café X",
+      "accept": [
+        "café x",
+        "cafe x",
+        "x"
+      ],
+      "tier": 1,
+      "rating": 1153
+    },
+    "76": {
+      "display": "Class 2",
+      "accept": [
+        "class 2",
+        "2",
+        "78"
+      ],
+      "tier": 1,
+      "rating": 1154
+    },
+    "77": {
+      "display": "Swimmers A",
+      "accept": [
+        "swimmers a",
+        "a",
+        "48"
+      ],
+      "tier": 1,
+      "rating": 1155
+    },
+    "78": {
+      "display": "Swimmers A",
+      "accept": [
+        "swimmers a",
+        "a",
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1156
+    },
+    "79": {
+      "display": "Shop Blue",
+      "accept": [
+        "shop blue",
+        "blue",
+        "200"
+      ],
+      "tier": 1,
+      "rating": 1157
+    },
+    "80": {
+      "display": "Brand A",
+      "accept": [
+        "brand a",
+        "a",
+        "500"
+      ],
+      "tier": 1,
+      "rating": 1158
+    },
+    "81": {
+      "display": "Route 1",
+      "accept": [
+        "route 1",
+        "1",
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1159
+    },
+    "82": {
+      "display": "Garden A",
+      "accept": [
+        "garden a",
+        "a",
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1160
+    },
+    "83": {
+      "display": "Team Hawks",
+      "accept": [
+        "hawks",
+        "54"
+      ],
+      "tier": 1,
+      "rating": 1161
+    },
+    "84": {
+      "display": "Team Hawks",
+      "accept": [
+        "hawks",
+        "30"
+      ],
+      "tier": 1,
+      "rating": 1162
+    },
+    "85": {
+      "display": "Delivery B",
+      "accept": [
+        "delivery b",
+        "b",
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1163
+    },
+    "86": {
+      "display": "Delivery A",
+      "accept": [
+        "delivery a",
+        "a",
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1164
+    },
+    "87": {
+      "display": "Year 8",
+      "accept": [
+        "year 8",
+        "8",
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1165
+    },
+    "88": {
+      "display": "Guitar pupils",
+      "accept": [
+        "guitar",
+        "55"
+      ],
+      "tier": 1,
+      "rating": 1166
+    },
+    "89": {
+      "display": "App K",
+      "accept": [
+        "app k",
+        "k",
+        "0.3"
+      ],
+      "tier": 1,
+      "rating": 1167
+    },
+    "90": {
+      "display": "Shift 1",
+      "accept": [
+        "shift 1",
+        "1",
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1168
+    },
+    "91": {
+      "display": "Breed Q",
+      "accept": [
+        "breed q",
+        "q",
+        "50"
+      ],
+      "tier": 1,
+      "rating": 1174
+    },
+    "92": {
+      "display": "Site 2",
+      "accept": [
+        "site 2",
+        "2",
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1181
+    },
+    "93": {
+      "display": "Site 2",
+      "accept": [
+        "site 2",
+        "2",
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1189
+    },
+    "94": {
+      "display": "Town N",
+      "accept": [
+        "town n",
+        "n",
+        "95"
+      ],
+      "tier": 1,
+      "rating": 1196
+    },
+    "95": {
+      "display": "Phone 2",
+      "accept": [
+        "phone 2",
+        "2",
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1204
+    },
+    "96": {
+      "display": "Phone 1",
+      "accept": [
+        "phone 1",
+        "1",
+        "1"
+      ],
+      "tier": 1,
+      "rating": 1212
+    },
+    "97": {
+      "display": "Class D",
+      "accept": [
+        "class d",
+        "d",
+        "22"
+      ],
+      "tier": 1,
+      "rating": 1219
+    },
+    "98": {
+      "display": "Biased — football players may eat differently from pupils who do not play football",
+      "accept": [
+        "biased",
+        "football",
+        "not representative"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1227
+    },
+    "99": {
+      "display": "Biased — forum members may not represent all pupils' views on homework",
+      "accept": [
+        "biased",
+        "forum",
+        "not representative"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1234
+    },
+    "100": {
+      "display": "Biased — basketball players tend to be taller than typical teenagers",
+      "accept": [
+        "biased",
+        "taller",
+        "basketball"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1242
+    },
+    "101": {
+      "display": "Biased — Saturday shoppers may travel differently on weekdays",
+      "accept": [
+        "biased",
+        "saturday",
+        "weekday"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1250
+    },
+    "102": {
+      "display": "Biased — people without landlines are left out",
+      "accept": [
+        "biased",
+        "landline",
+        "left out"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1257
+    },
+    "103": {
+      "display": "Biased — volunteers may care more about clubs than pupils who leave straight away",
+      "accept": [
+        "biased",
+        "volunteer",
+        "after school"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1265
+    },
+    "104": {
+      "display": "Biased — walkers' times may be shorter than drivers' or bus users'",
+      "accept": [
+        "biased",
+        "walk",
+        "commute"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1272
+    },
+    "105": {
+      "display": "True — random selection from the whole list reduces bias",
+      "accept": [
+        "true",
+        "random",
+        "fair"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1280
+    },
+    "106": {
+      "display": "False — bigger samples are usually more reliable but still give estimates, not perfect truth",
+      "accept": [
+        "false",
+        "estimate",
+        "reliable"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1287
+    },
+    "107": {
+      "display": "Never — random samples can still differ slightly from the population by chance",
+      "accept": [
+        "never",
+        "chance",
+        "differ"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1295
+    },
+    "108": {
+      "display": "Biased — cake buyers may prefer sweeter options than other customers",
+      "accept": [
+        "biased",
+        "cake",
+        "dessert"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1303
+    },
+    "109": {
+      "display": "Biased — pupils who rarely visit the library are missing",
+      "accept": [
+        "biased",
+        "library",
+        "missing"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1310
+    },
+    "110": {
+      "display": "Biased — top-set pupils may feel more confident than the whole year group",
+      "accept": [
+        "biased",
+        "top set",
+        "confidence"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1318
+    },
+    "111": {
+      "display": "True — the first 10 may all arrive early and share similar habits",
+      "accept": [
+        "true",
+        "first",
+        "representative"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1325
+    },
+    "112": {
+      "display": "Biased — some species are active mainly later; dawn-only counts miss them",
+      "accept": [
+        "biased",
+        "dawn",
+        "time"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1333
+    },
+    "113": {
+      "display": "Biased — people with strong views are more likely to respond",
+      "accept": [
+        "biased",
+        "self-selected",
+        "strong"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1340
+    },
+    "114": {
+      "display": "Random selection gives each pupil an equal chance and reduces bias",
+      "accept": [
+        "random",
+        "equal",
+        "bias"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1348
+    },
+    "115": {
+      "display": "False — convenience samples often miss groups who are not nearby or available",
+      "accept": [
+        "false",
+        "convenience",
+        "national"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1356
+    },
+    "116": {
+      "display": "Biased — pupils who arrive late or eat at home later may be missed",
+      "accept": [
+        "biased",
+        "late",
+        "breakfast"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1363
+    },
+    "117": {
+      "display": "The highest score ignores typical pupils and spread; mean and range describe the whole group better",
+      "accept": [
+        "mean",
+        "range",
+        "highest",
+        "spread"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1371
+    },
+    "118": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1378
+    },
+    "119": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1386
+    },
+    "120": {
+      "display": "26",
+      "accept": [
+        "26"
+      ],
+      "tier": 1,
+      "rating": 1394
+    },
+    "121": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1401
+    },
+    "122": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1409
+    },
+    "123": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1416
+    },
+    "124": {
+      "display": "100",
+      "accept": [
+        "100"
+      ],
+      "tier": 1,
+      "rating": 1424
+    },
+    "125": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1431
+    },
+    "126": {
+      "display": "3.5",
+      "accept": [
+        "3.5"
+      ],
+      "tier": 1,
+      "rating": 1439
+    },
+    "127": {
+      "display": "0.8999999999999999",
+      "accept": [
+        "0.8999999999999999"
+      ],
+      "tier": 1,
+      "rating": 1447
+    },
+    "128": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1454
+    },
+    "129": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1462
+    },
+    "130": {
+      "display": "8.4",
+      "accept": [
+        "8.4"
+      ],
+      "tier": 1,
+      "rating": 1469
+    },
+    "131": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1477
+    },
+    "132": {
+      "display": "50",
+      "accept": [
+        "50"
+      ],
+      "tier": 1,
+      "rating": 1485
+    },
+    "133": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1492
+    },
+    "134": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1500
+    },
+    "135": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1507
+    },
+    "136": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1515
+    },
+    "137": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1522
+    },
+    "138": {
+      "display": "90",
+      "accept": [
+        "90"
+      ],
+      "tier": 1,
+      "rating": 1530
+    },
+    "139": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1538
+    },
+    "140": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1545
+    },
+    "141": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1553
+    },
+    "142": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 1560
+    },
+    "143": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1568
+    },
+    "144": {
+      "display": "False — the mean is an average; some individuals can still be below the other group's mean",
+      "accept": [
+        "false",
+        "average",
+        "some"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "145": {
+      "display": "Never — spread and centre are different ideas",
+      "accept": [
+        "never",
+        "spread",
+        "mean"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "146": {
+      "display": "True — if all values are the same non-zero number, range is 0 but mean equals that number",
+      "accept": [
+        "true",
+        "zero",
+        "same"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "147": {
+      "display": "He should also compare spread (range) — two classes can have the same median but different variation",
+      "accept": [
+        "range",
+        "spread",
+        "also"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "148": {
+      "display": "False — outliers affect the mean more than the median",
+      "accept": [
+        "false",
+        "mean",
+        "median"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "149": {
+      "display": "Sometimes — it might be OK for a quick guess but is usually too small and may be biased",
+      "accept": [
+        "sometimes",
+        "small",
+        "biased"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "150": {
+      "display": "Range shows cheapest and most expensive — big range means some items cost much more than the average",
+      "accept": [
+        "range",
+        "expensive",
+        "spread"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "151": {
+      "display": "False — range and mean measure different things",
+      "accept": [
+        "false",
+        "different",
+        "spread"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "152": {
+      "display": "Mean shows typical value; range shows how varied the data are",
+      "accept": [
+        "mean",
+        "range",
+        "varied",
+        "both"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "153": {
+      "display": "Always — if truly everyone in the population is measured, selection bias from sampling is removed",
+      "accept": [
+        "always",
+        "everyone",
+        "census"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "154": {
+      "display": "City pupils outside this school are missing; gate pupils may not represent other schools",
+      "accept": [
+        "city",
+        "missing",
+        "not represent"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "155": {
+      "display": "False — skewed data or outliers can pull the mean away from the median",
+      "accept": [
+        "false",
+        "outlier",
+        "skew"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "156": {
+      "display": "Mode fits categories like shoe size or favourite colour where the most common choice matters",
+      "accept": [
+        "mode",
+        "most common",
+        "shoe"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "157": {
+      "display": "False — random samples give estimates that are usually close but not always exact",
+      "accept": [
+        "false",
+        "estimate",
+        "exact"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "158": {
+      "display": "They could have different ranges or different individual values while sharing the same mean",
+      "accept": [
+        "range",
+        "spread",
+        "different values"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "159": {
+      "display": "Always — larger samples usually make estimates more stable",
+      "accept": [
+        "always",
+        "larger",
+        "reliable"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "160": {
+      "display": "One very young or very old guest can pull the mean; median age may describe a typical guest better",
+      "accept": [
+        "median",
+        "outlier",
+        "typical"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "161": {
+      "display": "False — range uses only the minimum and maximum",
+      "accept": [
+        "false",
+        "minimum",
+        "maximum"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "162": {
+      "display": "Wide spread means some people earn much less or more than the median suggests",
+      "accept": [
+        "spread",
+        "wide",
+        "less",
+        "more"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "163": {
+      "display": "True — bias affects who is included; the mean can look fine but not represent the population",
+      "accept": [
+        "true",
+        "biased",
+        "represent"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "164": {
+      "display": "Class P mean 60; Class Q mean 60 — same on average",
+      "accept": [
+        "60",
+        "same",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1727
+    },
+    "165": {
+      "display": "Class P range 10; Class Q range 40 — Class Q more spread out",
+      "accept": [
+        "40",
+        "class q",
+        "q"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1735
+    },
+    "166": {
+      "display": "Mean 8 min — the 20 min wait pulls the mean up",
+      "accept": [
+        "8",
+        "20",
+        "outlier"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1742
+    },
+    "167": {
+      "display": "Plot 1 more consistent (smaller range)",
+      "accept": [
+        "plot 1",
+        "smaller range",
+        "consistent"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "168": {
+      "display": "Includes multiple year groups so results better represent the whole school",
+      "accept": [
+        "year",
+        "whole school",
+        "represent"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "169": {
+      "display": "Firm B faster on average; Firm A more consistent",
+      "accept": [
+        "b",
+        "a",
+        "28",
+        "5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "170": {
+      "display": "Median 34 — the 90-year-old outlier pulls the mean up",
+      "accept": [
+        "34",
+        "median",
+        "outlier"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "171": {
+      "display": "Mean 500 g, range 4 g — fairly consistent",
+      "accept": [
+        "500",
+        "4",
+        "consistent"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "172": {
+      "display": "Home games more consistent (smaller range)",
+      "accept": [
+        "home",
+        "smaller",
+        "consistent"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "173": {
+      "display": "All 10,000 households in the area",
+      "accept": [
+        "10000",
+        "all households",
+        "population"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "174": {
+      "display": "Pupil A more consistent",
+      "accept": [
+        "pupil a",
+        "a",
+        "smaller range"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "175": {
+      "display": "Median 185 g — 300 g is an outlier pulling the mean up",
+      "accept": [
+        "185",
+        "median",
+        "300"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "176": {
+      "display": "Smaller range means daily time stays nearer 2 h; larger range means big day-to-day swings",
+      "accept": [
+        "0.5",
+        "3",
+        "swings",
+        "consistent"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "177": {
+      "display": "Sample is 60 tagged fish; population is all 5,000 fish in the lake",
+      "accept": [
+        "60",
+        "5000",
+        "sample",
+        "population"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "178": {
+      "display": "Mean £289, range £400 — Friday's spike pulls mean up",
+      "accept": [
+        "289",
+        "400",
+        "friday",
+        "outlier"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "179": {
+      "display": "Class R",
+      "accept": [
+        "class r",
+        "r",
+        "72"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "180": {
+      "display": "Concert-goers may not represent non-attendees; music tastes at concerts may differ from everyday preferences",
+      "accept": [
+        "concert",
+        "not represent",
+        "attend"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "181": {
+      "display": "Median 14 cm — 36 cm is an outlier",
+      "accept": [
+        "14",
+        "median",
+        "36"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "182": {
+      "display": "Branch 1 busier; Branch 1 steadier (smaller range)",
+      "accept": [
+        "branch 1",
+        "420",
+        "50"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "183": {
+      "display": "Compare means for typical length and ranges for variation; fair random samples from each population",
+      "accept": [
+        "mean",
+        "range",
+        "random",
+        "compare"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "184": {
+      "display": "Use sample results to estimate opinions of all registered voters",
+      "accept": [
+        "estimate",
+        "all voters",
+        "inference"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1879
+    },
+    "185": {
+      "display": "10.2 years is an estimate of the mean reading age for all 600 pupils",
+      "accept": [
+        "estimate",
+        "600",
+        "population"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1886
+    },
+    "186": {
+      "display": "Town 2 — much wider range suggests bigger gaps between low and high earners",
+      "accept": [
+        "town 2",
+        "40",
+        "inequality",
+        "wide"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1894
+    },
+    "187": {
+      "display": "Population all 300 pupils; random selection from register giving equal chance",
+      "accept": [
+        "300",
+        "random",
+        "register"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1901
+    },
+    "188": {
+      "display": "Example: packet masses varying widely even if mean is correct — some packets far off target",
+      "accept": [
+        "quality",
+        "vary",
+        "mass",
+        "packet"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1909
+    },
+    "189": {
+      "display": "Strongly happy or angry customers respond more; quiet satisfied customers often skip reviews",
+      "accept": [
+        "voluntary",
+        "extreme",
+        "respond"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1917
+    },
+    "190": {
+      "display": "Higher achievers may be over-represented if weaker pupils were absent",
+      "accept": [
+        "absent",
+        "misrepresent",
+        "missing"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1924
+    },
+    "191": {
+      "display": "Sample of 200 — larger samples usually reduce random error",
+      "accept": [
+        "200",
+        "larger",
+        "reliable"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1932
+    },
+    "192": {
+      "display": "False — bias is about who is included; means can match by chance",
+      "accept": [
+        "false",
+        "biased",
+        "chance"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1939
+    },
+    "193": {
+      "display": "Mean shows typical activity level; range shows whether days are steady or swing a lot",
+      "accept": [
+        "mean",
+        "range",
+        "steady",
+        "both"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1947
+    },
+    "194": {
+      "display": "Cannot conclude the whole population gained mass — samples may differ in location, age, or bias",
+      "accept": [
+        "cannot",
+        "sampling",
+        "bias",
+        "method"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1955
+    },
+    "195": {
+      "display": "Describe the 50 readings; infer likely pH for the whole field with uncertainty",
+      "accept": [
+        "describe",
+        "infer",
+        "field",
+        "sample"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1962
+    },
+    "196": {
+      "display": "Company A — smaller range means deliveries arrive nearer the promised time",
+      "accept": [
+        "a",
+        "smaller",
+        "consistent",
+        "hospital"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1970
+    },
+    "197": {
+      "display": "A sample mean is an estimate — the population mean could be slightly different",
+      "accept": [
+        "estimate",
+        "could",
+        "different"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1977
+    },
+    "198": {
+      "display": "Examples: uneven age mix, urban-only sampling, gender imbalance, measuring method differs",
+      "accept": [
+        "age",
+        "urban",
+        "gender",
+        "bias"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1985
+    },
+    "199": {
+      "display": "Example: medicine doses varying wildly while mean dose looks correct",
+      "accept": [
+        "dose",
+        "medicine",
+        "unacceptable",
+        "vary"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1992
+    },
+    "200": {
+      "display": "Random samples from each school; calculate mean and range; compare typical rate and spread",
+      "accept": [
+        "random",
+        "mean",
+        "range",
+        "compare"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

@@ -1,0 +1,2268 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "$b + 2$",
+      "accept": [
+        "b+2",
+        "b + 2"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "$n + 1$",
+      "accept": [
+        "n+1",
+        "n + 1"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "$2x$",
+      "accept": [
+        "2x",
+        "2 x"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "4",
+      "accept": [
+        "4",
+        "a=4",
+        "a = 4"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "4",
+      "accept": [
+        "4",
+        "b=4",
+        "b = 4"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "s = P/4",
+      "accept": [
+        "s=p/4",
+        "s = P/4",
+        "s=P÷4"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "x = y - 3",
+      "accept": [
+        "x=y-3",
+        "x = y - 3"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "x = y + 5",
+      "accept": [
+        "x=y+5",
+        "x = y + 5"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "x = y/2",
+      "accept": [
+        "x=y/2",
+        "x = y/2"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "l = A/w",
+      "accept": [
+        "l=a/w",
+        "l = A/w"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "x = (y - 1)/3",
+      "accept": [
+        "x=(y-1)/3",
+        "x = (y - 1)/3"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "x = (y + 2)/5",
+      "accept": [
+        "x=(y+2)/5",
+        "x = (y + 2)/5"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "u = v - t",
+      "accept": [
+        "u=v-t",
+        "u = v - t"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "A",
+      "accept": [
+        "A"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "v",
+      "accept": [
+        "v"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "23": {
+      "display": "Sam should have divided by 4, not subtracted it, since s is multiplied by 4 in the formula. Correctly, s = P/4.",
+      "accept": [
+        "s=p/4",
+        "s = P/4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "24": {
+      "display": "Always — rearranging a formula keeps the same relationship between the letters; it only changes which letter is isolated on its own.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "25": {
+      "display": "Priya added 3 instead of subtracting it. Since y = x + 3, subtracting 3 from both sides gives x = y - 3.",
+      "accept": [
+        "x=y-3",
+        "x = y - 3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "26": {
+      "display": "w = A/l is correct: with A = 20 and l = 4, w = 20/4 = 5, which matches lw = 20. The subtraction version gives w = 16, which is wrong since 4 × 16 ≠ 20.",
+      "accept": [
+        "a/l",
+        "5",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "27": {
+      "display": "True — subtracting 5 gives y - 5 = 2x, then dividing by 2 gives x = (y - 5)/2.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "28": {
+      "display": "Sam is correct. Adding 1 to both sides of y = 3x - 1 gives y + 1 = 3x, so x = (y + 1)/3.",
+      "accept": [
+        "sam",
+        "(y+1)/3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "29": {
+      "display": "Substituting is used when you know the value of the variables on the right and want to calculate the subject directly. Rearranging is used when you know the subject's value and need to find one of the other variables, especially if you need to do this many times.",
+      "accept": [
+        "substitute",
+        "rearrange"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "30": {
+      "display": "Mo added 5 instead of subtracting it. Since C = 5 + 2n, subtracting 5 first gives C - 5 = 2n, so n = (C - 5)/2.",
+      "accept": [
+        "(c-5)/2",
+        "n = (C - 5)/2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "31": {
+      "display": "k = m/0.6. When m = 30, k = 30 ÷ 0.6 = 50 km.",
+      "accept": [
+        "50"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "32": {
+      "display": "m = (C - 3)/2. When C = 17, m = (17 - 3)/2 = 7 miles.",
+      "accept": [
+        "7"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1680
+    },
+    "33": {
+      "display": "l = (P - 2w)/2. When P = 24 and w = 5, l = (24 - 10)/2 = 7.",
+      "accept": [
+        "7"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "34": {
+      "display": "w = (T - 20)/30. When T = 110, w = (110 - 20)/30 = 3 kg.",
+      "accept": [
+        "3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1650
+    },
+    "35": {
+      "display": "c = (f - 30)/2. When f = 70, c = (70 - 30)/2 = 20.",
+      "accept": [
+        "20"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1700
+    },
+    "36": {
+      "display": "t = (C - 10)/0.05. When C = 15, t = (15 - 10)/0.05 = 100 texts.",
+      "accept": [
+        "100"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "x = 2y - 8 (from x/2 = y - 4, so x = 2(y - 4)).",
+      "accept": [
+        "2y-8",
+        "x = 2y - 8"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1860
+    },
+    "38": {
+      "display": "h = 2A/b.",
+      "accept": [
+        "2a/b",
+        "h = 2A/b"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "39": {
+      "display": "x = (2y + 6)/3.",
+      "accept": [
+        "(2y+6)/3",
+        "x = (2y + 6)/3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1953
+    },
+    "40": {
+      "display": "h = V/(lw). When V = 60, l = 5, w = 4: h = 60/20 = 3.",
+      "accept": [
+        "3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "x = 7",
+      "accept": [
+        "7",
+        "x=7",
+        "x = 7"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "w = P/2 - l",
+      "accept": [
+        "w = (P - 2l)/2",
+        "w = P/2 - l",
+        "(P-2l)/2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1500
+    },
+    "43": {
+      "display": "x = y - 3",
+      "tier": 1,
+      "rating": 817,
+      "accept": [
+        "x=y-3",
+        "x = y - 3"
+      ]
+    },
+    "44": {
+      "display": "x = y - 4",
+      "tier": 1,
+      "rating": 824,
+      "accept": [
+        "x=y-4",
+        "x = y - 4"
+      ]
+    },
+    "45": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 837,
+      "contains": true
+    },
+    "46": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 840,
+      "contains": true
+    },
+    "47": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 854,
+      "contains": true
+    },
+    "48": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 857,
+      "contains": true
+    },
+    "49": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 861,
+      "contains": true
+    },
+    "50": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 875,
+      "contains": true
+    },
+    "51": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 878,
+      "contains": true
+    },
+    "52": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 882,
+      "contains": true
+    },
+    "53": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 896,
+      "contains": true
+    },
+    "54": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 899,
+      "contains": true
+    },
+    "55": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 903,
+      "contains": true
+    },
+    "56": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 917,
+      "contains": true
+    },
+    "57": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 920,
+      "contains": true
+    },
+    "58": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 934,
+      "contains": true
+    },
+    "59": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 938,
+      "contains": true
+    },
+    "60": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 941,
+      "contains": true
+    },
+    "61": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 955,
+      "contains": true
+    },
+    "62": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 959,
+      "contains": true
+    },
+    "63": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 962,
+      "contains": true
+    },
+    "64": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 976,
+      "contains": true
+    },
+    "65": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 980,
+      "contains": true
+    },
+    "66": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 983,
+      "contains": true
+    },
+    "67": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 997,
+      "contains": true
+    },
+    "68": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1000,
+      "contains": true
+    },
+    "69": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1015,
+      "contains": true
+    },
+    "70": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1018,
+      "contains": true
+    },
+    "71": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1021,
+      "contains": true
+    },
+    "72": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1036,
+      "contains": true
+    },
+    "73": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1039,
+      "contains": true
+    },
+    "74": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1042,
+      "contains": true
+    },
+    "75": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1057,
+      "contains": true
+    },
+    "76": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1060,
+      "contains": true
+    },
+    "77": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1063,
+      "contains": true
+    },
+    "78": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1077,
+      "contains": true
+    },
+    "79": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1081,
+      "contains": true
+    },
+    "80": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1095,
+      "contains": true
+    },
+    "81": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1098,
+      "contains": true
+    },
+    "82": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1102,
+      "contains": true
+    },
+    "83": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1116,
+      "contains": true
+    },
+    "84": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1119,
+      "contains": true
+    },
+    "85": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1123,
+      "contains": true
+    },
+    "86": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1137,
+      "contains": true
+    },
+    "87": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1140,
+      "contains": true
+    },
+    "88": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1143,
+      "contains": true
+    },
+    "89": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1158,
+      "contains": true
+    },
+    "90": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1161,
+      "contains": true
+    },
+    "91": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1175,
+      "contains": true
+    },
+    "92": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1179,
+      "contains": true
+    },
+    "93": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1182,
+      "contains": true
+    },
+    "94": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1196,
+      "contains": true
+    },
+    "95": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1200,
+      "contains": true
+    },
+    "96": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1203,
+      "contains": true
+    },
+    "97": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1217,
+      "contains": true
+    },
+    "98": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1220,
+      "contains": true
+    },
+    "99": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1224,
+      "contains": true
+    },
+    "100": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1238,
+      "contains": true
+    },
+    "101": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1241,
+      "contains": true
+    },
+    "102": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1256,
+      "contains": true
+    },
+    "103": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1259,
+      "contains": true
+    },
+    "104": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1262,
+      "contains": true
+    },
+    "105": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1277,
+      "contains": true
+    },
+    "106": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1280,
+      "contains": true
+    },
+    "107": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1283,
+      "contains": true
+    },
+    "108": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1297,
+      "contains": true
+    },
+    "109": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1301,
+      "contains": true
+    },
+    "110": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1304,
+      "contains": true
+    },
+    "111": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1318,
+      "contains": true
+    },
+    "112": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1322,
+      "contains": true
+    },
+    "113": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1336,
+      "contains": true
+    },
+    "114": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1339,
+      "contains": true
+    },
+    "115": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1343,
+      "contains": true
+    },
+    "116": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1357,
+      "contains": true
+    },
+    "117": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1360,
+      "contains": true
+    },
+    "118": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1363,
+      "contains": true
+    },
+    "119": {
+      "display": "m = 7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1378
+    },
+    "120": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1381,
+      "contains": true
+    },
+    "121": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1384,
+      "contains": true
+    },
+    "122": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1399,
+      "contains": true
+    },
+    "123": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1402,
+      "contains": true
+    },
+    "124": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1416,
+      "contains": true
+    },
+    "125": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1420,
+      "contains": true
+    },
+    "126": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1423,
+      "contains": true
+    },
+    "127": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1437,
+      "contains": true
+    },
+    "128": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1440,
+      "contains": true
+    },
+    "129": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1444
+    },
+    "130": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1458,
+      "contains": true
+    },
+    "131": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1461,
+      "contains": true
+    },
+    "132": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1465,
+      "contains": true
+    },
+    "133": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1479,
+      "contains": true
+    },
+    "134": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1482,
+      "contains": true
+    },
+    "135": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1497,
+      "contains": true
+    },
+    "136": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1500,
+      "contains": true
+    },
+    "137": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1503,
+      "contains": true
+    },
+    "138": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1517
+    },
+    "139": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1521,
+      "contains": true
+    },
+    "140": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1524,
+      "contains": true
+    },
+    "141": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1538,
+      "contains": true
+    },
+    "142": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1542,
+      "contains": true
+    },
+    "143": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1545,
+      "contains": true
+    },
+    "144": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1559,
+      "contains": true
+    },
+    "145": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1563,
+      "contains": true
+    },
+    "146": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1577,
+      "contains": true
+    },
+    "147": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1580,
+      "contains": true
+    },
+    "148": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1583,
+      "contains": true
+    },
+    "149": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1598,
+      "contains": true
+    },
+    "150": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1601,
+      "contains": true
+    },
+    "151": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1604,
+      "contains": true
+    },
+    "152": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1619,
+      "contains": true
+    },
+    "153": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1622,
+      "contains": true
+    },
+    "154": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1625,
+      "contains": true
+    },
+    "155": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1640,
+      "contains": true
+    },
+    "156": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1643,
+      "contains": true
+    },
+    "157": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1657,
+      "contains": true
+    },
+    "158": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1660,
+      "contains": true
+    },
+    "159": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1664,
+      "contains": true
+    },
+    "160": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1678,
+      "contains": true
+    },
+    "161": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1681,
+      "contains": true
+    },
+    "162": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1685,
+      "contains": true
+    },
+    "163": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1699,
+      "contains": true
+    },
+    "164": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1702,
+      "contains": true
+    },
+    "165": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1706,
+      "contains": true
+    },
+    "166": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1720,
+      "contains": true
+    },
+    "167": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1723,
+      "contains": true
+    },
+    "168": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1737,
+      "contains": true
+    },
+    "169": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1741,
+      "contains": true
+    },
+    "170": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1744,
+      "contains": true
+    },
+    "171": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1758,
+      "contains": true
+    },
+    "172": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1762,
+      "contains": true
+    },
+    "173": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1765,
+      "contains": true
+    },
+    "174": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1779,
+      "contains": true
+    },
+    "175": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1783,
+      "contains": true
+    },
+    "176": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1786,
+      "contains": true
+    },
+    "177": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1800,
+      "contains": true
+    },
+    "178": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1803,
+      "contains": true
+    },
+    "179": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1818,
+      "contains": true
+    },
+    "180": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1821,
+      "contains": true
+    },
+    "181": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1824,
+      "contains": true
+    },
+    "182": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1839,
+      "contains": true
+    },
+    "183": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1842,
+      "contains": true
+    },
+    "184": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1845,
+      "contains": true
+    },
+    "185": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1860,
+      "contains": true
+    },
+    "186": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1863,
+      "contains": true
+    },
+    "187": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1866,
+      "contains": true
+    },
+    "188": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1880,
+      "contains": true
+    },
+    "189": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1884,
+      "contains": true
+    },
+    "190": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1898,
+      "contains": true
+    },
+    "191": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1901,
+      "contains": true
+    },
+    "192": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1905,
+      "contains": true
+    },
+    "193": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1919,
+      "contains": true
+    },
+    "194": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1922,
+      "contains": true
+    },
+    "195": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1926,
+      "contains": true
+    },
+    "196": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1940,
+      "contains": true
+    },
+    "197": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1943,
+      "contains": true
+    },
+    "198": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1946,
+      "contains": true
+    },
+    "199": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1961,
+      "contains": true
+    },
+    "200": {
+      "display": "Rearranged subject — check inverse operations.",
+      "accept": [
+        "x=",
+        "y=",
+        "subject",
+        "="
+      ],
+      "tier": 2,
+      "rating": 1964,
+      "contains": true
+    }
+  }
+}

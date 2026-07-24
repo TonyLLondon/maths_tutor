@@ -5,7 +5,7 @@ import { listWorksheets } from "@/lib/content";
 import { worksheetHref } from "@/lib/paths";
 import { isTenantId } from "@/lib/tenants";
 import { topicByCode } from "@/lib/topics/catalog";
-import { TenantNav } from "@/components/TenantNav";
+import { ServerTenantNav } from "@/components/ServerTenantNav";
 import { subjectsCrumb } from "@/lib/nav-crumbs";
 
 type Props = { params: Promise<{ tenant: string }> };
@@ -18,13 +18,9 @@ export default async function WorksheetsIndexPage({ params }: Props) {
 
   return (
     <>
-      <TenantNav
+      <ServerTenantNav
         tenantId={tenant}
-        userName={session.displayName}
-        crumbs={[
-          subjectsCrumb(tenant),
-          { label: "Worksheets" },
-        ]}
+        crumbs={[subjectsCrumb(tenant), { label: "Worksheets" }]}
       />
       <main className="mx-auto max-w-4xl px-4 py-8">
         <h1 className="text-2xl font-semibold text-stone-900">Worksheets</h1>

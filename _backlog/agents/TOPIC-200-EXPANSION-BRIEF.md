@@ -10,7 +10,7 @@ Target: **`TARGET_QUESTIONS_PER_TOPIC = 200`** in `src/lib/practice-rating.ts`. 
 | `{CODE}.answers.json` | `version: 1`, `answers` with `display`, `accept`, optional `contains` / `containsMin`, integer **`rating` 500–2000** |
 | `{CODE}.support.json` | `hint` + `help` per id (see `QUESTION-SUPPORT-BRIEF.md`) |
 
-Path: `content/tenants/archer/subjects/maths/topics/{domain}/`
+Path: `content/tenants/lewis/subjects/maths/topics/{domain}/`
 
 ## Worksheet structure
 
@@ -33,7 +33,8 @@ Path: `content/tenants/archer/subjects/maths/topics/{domain}/`
 
 ## Rules
 
-- **Hand-write** every new question, answer, hint, and help — **no Python batch generators**.
+- **Hand-write** every new question, answer, hint, and help in `{CODE}.md`, `{CODE}.answers.json`, and `{CODE}.support.json`.
+- **Forbidden:** any Python/Node/shell script to generate, merge, or bulk-patch content (no merge tools, no draft generators, no chunk JSON to apply later).
 - After your domain’s topics are done, run `npm run content:validate` and fix **all** errors mentioning your `{domain}/{CODE}`.
 - Read `AGENTS.md` and `_backlog/agents/QUESTION-SUPPORT-BRIEF.md`.
 

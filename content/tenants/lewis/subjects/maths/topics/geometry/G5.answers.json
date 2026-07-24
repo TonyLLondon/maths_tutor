@@ -1,0 +1,1793 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "two 5 cm squares",
+      "accept": [
+        "two squares",
+        "5 cm squares",
+        "squares"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "both size and shape",
+      "accept": [
+        "both",
+        "size and shape",
+        "both size and shape"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "They are exactly the same shape and size (one can be moved, turned, or flipped onto the other exactly).",
+      "accept": [
+        "same shape and size",
+        "identical"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 650
+    },
+    "10": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "11": {
+      "display": "SAS",
+      "accept": [
+        "sas"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "12": {
+      "display": "ASA",
+      "accept": [
+        "asa"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "13": {
+      "display": "RHS",
+      "accept": [
+        "rhs"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "14": {
+      "display": "False — same angles only proves the triangles are similar, not congruent (one could be bigger).",
+      "accept": [
+        "false"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 877
+    },
+    "15": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "16": {
+      "display": "SAS",
+      "accept": [
+        "sas"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "17": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "18": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "19": {
+      "display": "No — they have the same angles but different sizes, so they are similar, not congruent.",
+      "accept": [
+        "no"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1105
+    },
+    "20": {
+      "display": "SSA",
+      "accept": [
+        "ssa"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "21": {
+      "display": "SSS",
+      "accept": [
+        "SSS"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "22": {
+      "display": "SAS",
+      "accept": [
+        "SAS"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "RHS proves congruence; the missing side is √(10² − 6²) = √64 = 8 cm.",
+      "accept": [
+        "rhs",
+        "8",
+        "8 cm",
+        "8cm"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 900
+    },
+    "24": {
+      "display": "Congruent shapes are identical in shape AND size; similar shapes have the same shape (equal angles, proportional sides) but can be different sizes.",
+      "accept": [
+        "same size",
+        "different size",
+        "proportional"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 993
+    },
+    "25": {
+      "display": "Sometimes — triangles can share a perimeter with different side lengths (not congruent), or happen to have identical sides (congruent).",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1086
+    },
+    "26": {
+      "display": "ASA (the 7 cm side is included between the 90° and 40° angles).",
+      "accept": [
+        "asa"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1179
+    },
+    "27": {
+      "display": "No — with two sides and a non-included angle, two different triangles can often be drawn, so SSA does not reliably prove congruence.",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1271
+    },
+    "28": {
+      "display": "A reflection is a rigid transformation — it keeps all lengths and angles the same, so the image is always congruent to the original.",
+      "accept": [
+        "rigid",
+        "lengths",
+        "angles the same",
+        "congruent"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1364
+    },
+    "29": {
+      "display": "Example: two equilateral triangles both have angles 60°, 60°, 60° but can have different side lengths (e.g. 2 cm and 5 cm) — same shape, different size, so not congruent.",
+      "accept": [
+        "equilateral",
+        "different size",
+        "not congruent"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1457
+    },
+    "30": {
+      "display": "No — impossible. Equal legs of 5 cm and a base angle of 70° fix the whole triangle (SAS), so the base length must also be the same; the two triangles would have to be congruent.",
+      "accept": [
+        "no",
+        "impossible",
+        "congruent"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1550
+    },
+    "31": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "32": {
+      "display": "Missing side = √(13² − 5²) = √144 = 12 m for both; RHS proves they are congruent.",
+      "accept": [
+        "12",
+        "rhs"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1230
+    },
+    "33": {
+      "display": "SAS (AB = DE, AC = DF, and the included angle at A equals the included angle at D) — yes, the triangles are congruent.",
+      "accept": [
+        "sas",
+        "yes",
+        "congruent"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1360
+    },
+    "34": {
+      "display": "ASA — two matching angles (55°, 65°) with the included side (40 m) proves the two survey triangles are identical.",
+      "accept": [
+        "asa"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1490
+    },
+    "35": {
+      "display": "No — the third sides differ (10 cm vs 8 cm), so the triangles are not congruent even though two pairs of sides match.",
+      "accept": [
+        "no",
+        "not congruent"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1620
+    },
+    "36": {
+      "display": "50 cm (a 30-40-50 triangle, which is the 3-4-5 Pythagorean triple scaled ×10).",
+      "accept": [
+        "50",
+        "50 cm",
+        "50cm"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "In a right-angled triangle, once you know the right angle, hypotenuse, and one other side, the third side is fixed by Pythagoras' theorem — so matching those three facts is really just matching all three sides (SSS) in disguise.",
+      "accept": [
+        "pythagoras",
+        "third side",
+        "sss"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1400
+    },
+    "38": {
+      "display": "Example: a triangle with base 8 cm and height 3 cm, and another with base 6 cm and height 4 cm — both have area 12 cm² but different shapes, so equal area alone cannot prove congruence.",
+      "accept": [
+        "same area",
+        "different shape",
+        "not congruent",
+        "area alone"
+      ],
+      "tier": 3,
+      "contains": true,
+      "containsMin": 2,
+      "rating": 1600
+    },
+    "39": {
+      "display": "Similar",
+      "accept": [
+        "similar"
+      ],
+      "tier": 3,
+      "rating": 1800
+    },
+    "40": {
+      "display": "SAS",
+      "accept": [
+        "sas"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "Yes, by SSS",
+      "accept": [
+        "yes",
+        "SSS"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "Yes, SAS",
+      "accept": [
+        "yes",
+        "SAS"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "43": {
+      "display": "SSS",
+      "accept": [
+        "sss",
+        "SSS"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "SAS",
+      "accept": [
+        "sas",
+        "SAS"
+      ],
+      "tier": 1,
+      "rating": 754
+    },
+    "45": {
+      "display": "No — the third sides differ (6 cm vs 7 cm).",
+      "accept": [
+        "no",
+        "not congruent"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 758
+    },
+    "46": {
+      "display": "Yes, by SSS",
+      "accept": [
+        "yes",
+        "sss"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 762
+    },
+    "47": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 767
+    },
+    "48": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 771
+    },
+    "49": {
+      "display": "Side (each S is a matching side).",
+      "accept": [
+        "side",
+        "sides"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 775
+    },
+    "50": {
+      "display": "Yes — the included angle between the two sides.",
+      "accept": [
+        "yes",
+        "included",
+        "between"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 779
+    },
+    "51": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 1,
+      "rating": 783
+    },
+    "52": {
+      "display": "No — bases 8 cm and 6 cm differ.",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 787
+    },
+    "53": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 791
+    },
+    "54": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 796
+    },
+    "55": {
+      "display": "ASA",
+      "accept": [
+        "asa"
+      ],
+      "tier": 1,
+      "rating": 800
+    },
+    "56": {
+      "display": "SAS",
+      "accept": [
+        "sas"
+      ],
+      "tier": 1,
+      "rating": 804
+    },
+    "57": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 808
+    },
+    "58": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 812
+    },
+    "59": {
+      "display": "SAS",
+      "accept": [
+        "sas"
+      ],
+      "tier": 1,
+      "rating": 816
+    },
+    "60": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "61": {
+      "display": "Side",
+      "accept": [
+        "side"
+      ],
+      "tier": 1,
+      "rating": 825
+    },
+    "62": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 829
+    },
+    "63": {
+      "display": "70°",
+      "accept": [
+        "70"
+      ],
+      "tier": 1,
+      "rating": 833
+    },
+    "64": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 837
+    },
+    "65": {
+      "display": "ASA",
+      "accept": [
+        "asa"
+      ],
+      "tier": 1,
+      "rating": 841
+    },
+    "66": {
+      "display": "SAS",
+      "accept": [
+        "sas"
+      ],
+      "tier": 1,
+      "rating": 845
+    },
+    "67": {
+      "display": "15 cm",
+      "accept": [
+        "15",
+        "15 cm"
+      ],
+      "tier": 1,
+      "rating": 849
+    },
+    "68": {
+      "display": "12 cm; RHS",
+      "accept": [
+        "12",
+        "rhs"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 854
+    },
+    "69": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 858
+    },
+    "70": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 862
+    },
+    "71": {
+      "display": "4 m",
+      "accept": [
+        "4",
+        "4 m"
+      ],
+      "tier": 2,
+      "rating": 866
+    },
+    "72": {
+      "display": "25 cm",
+      "accept": [
+        "25",
+        "25 cm"
+      ],
+      "tier": 2,
+      "rating": 870
+    },
+    "73": {
+      "display": "RHS",
+      "accept": [
+        "rhs"
+      ],
+      "tier": 2,
+      "rating": 874
+    },
+    "74": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 878
+    },
+    "75": {
+      "display": "20 cm",
+      "accept": [
+        "20",
+        "20 cm"
+      ],
+      "tier": 2,
+      "rating": 882
+    },
+    "76": {
+      "display": "48°",
+      "accept": [
+        "48"
+      ],
+      "tier": 2,
+      "rating": 887
+    },
+    "77": {
+      "display": "12 cm",
+      "accept": [
+        "12",
+        "12 cm"
+      ],
+      "tier": 2,
+      "rating": 891
+    },
+    "78": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 895
+    },
+    "79": {
+      "display": "11 cm",
+      "accept": [
+        "11",
+        "11 cm"
+      ],
+      "tier": 2,
+      "rating": 899
+    },
+    "80": {
+      "display": "30 cm",
+      "accept": [
+        "30",
+        "30 cm"
+      ],
+      "tier": 2,
+      "rating": 903
+    },
+    "81": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 907
+    },
+    "82": {
+      "display": "No — third sides 10 cm and 11 cm differ.",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 911
+    },
+    "83": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 916
+    },
+    "84": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 920
+    },
+    "85": {
+      "display": "Yes, by SSS",
+      "accept": [
+        "yes",
+        "sss"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 924
+    },
+    "86": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 2,
+      "rating": 928
+    },
+    "87": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 932
+    },
+    "88": {
+      "display": "ASA",
+      "accept": [
+        "asa"
+      ],
+      "tier": 2,
+      "rating": 936
+    },
+    "89": {
+      "display": "2 m",
+      "accept": [
+        "2",
+        "2 m"
+      ],
+      "tier": 2,
+      "rating": 940
+    },
+    "90": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 945
+    },
+    "91": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 949
+    },
+    "92": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 953
+    },
+    "93": {
+      "display": "Similar only",
+      "accept": [
+        "similar"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 957
+    },
+    "94": {
+      "display": "Similar",
+      "accept": [
+        "similar"
+      ],
+      "tier": 2,
+      "rating": 961
+    },
+    "95": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 965
+    },
+    "96": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 969
+    },
+    "97": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 974
+    },
+    "98": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 978
+    },
+    "99": {
+      "display": "RHS",
+      "accept": [
+        "rhs",
+        "sss"
+      ],
+      "tier": 2,
+      "rating": 982
+    },
+    "100": {
+      "display": "13 cm",
+      "accept": [
+        "13",
+        "13 cm"
+      ],
+      "tier": 2,
+      "rating": 986
+    },
+    "101": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8 cm"
+      ],
+      "tier": 2,
+      "rating": 990
+    },
+    "102": {
+      "display": "9 cm",
+      "accept": [
+        "9",
+        "9 cm"
+      ],
+      "tier": 2,
+      "rating": 994
+    },
+    "103": {
+      "display": "71°",
+      "accept": [
+        "71"
+      ],
+      "tier": 2,
+      "rating": 998
+    },
+    "104": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1003
+    },
+    "105": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1007
+    },
+    "106": {
+      "display": "Translation",
+      "accept": [
+        "translation",
+        "translate"
+      ],
+      "tier": 2,
+      "rating": 1011
+    },
+    "107": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1015
+    },
+    "108": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1019
+    },
+    "109": {
+      "display": "70°; yes",
+      "accept": [
+        "70",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1023
+    },
+    "110": {
+      "display": "RHS",
+      "accept": [
+        "rhs"
+      ],
+      "tier": 2,
+      "rating": 1027
+    },
+    "111": {
+      "display": "Same angles allow different sizes — similar but not necessarily congruent.",
+      "accept": [
+        "similar",
+        "size"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1032
+    },
+    "112": {
+      "display": "SSA can draw two different triangles (ambiguous case).",
+      "accept": [
+        "ssa",
+        "two"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1036
+    },
+    "113": {
+      "display": "Yes, SSS",
+      "accept": [
+        "yes",
+        "sss"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1040
+    },
+    "114": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1044
+    },
+    "115": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1048
+    },
+    "116": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1052
+    },
+    "117": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1056
+    },
+    "118": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1061
+    },
+    "119": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1065
+    },
+    "120": {
+      "display": "No — SSA is not reliable.",
+      "accept": [
+        "no",
+        "ssa"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1069
+    },
+    "121": {
+      "display": "1.5 m",
+      "accept": [
+        "1.5",
+        "1.5 m"
+      ],
+      "tier": 2,
+      "rating": 1073
+    },
+    "122": {
+      "display": "50 cm",
+      "accept": [
+        "50",
+        "50 cm"
+      ],
+      "tier": 2,
+      "rating": 1077
+    },
+    "123": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 2,
+      "rating": 1081
+    },
+    "124": {
+      "display": "ASA",
+      "accept": [
+        "asa"
+      ],
+      "tier": 2,
+      "rating": 1085
+    },
+    "125": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1089
+    },
+    "126": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1094
+    },
+    "127": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1098
+    },
+    "128": {
+      "display": "12 cm",
+      "accept": [
+        "12",
+        "12 cm"
+      ],
+      "tier": 2,
+      "rating": 1102
+    },
+    "129": {
+      "display": "No — 2 + 3 is not greater than 6.",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1106
+    },
+    "130": {
+      "display": "Similar (scale factor 2), not congruent",
+      "accept": [
+        "similar"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1110
+    },
+    "131": {
+      "display": "Matching sides and angles in the two congruent triangles pair up equally.",
+      "accept": [
+        "matching",
+        "corresponding"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1114
+    },
+    "132": {
+      "display": "The side equal to AC (corresponding side).",
+      "accept": [
+        "7",
+        "7 cm",
+        "corresponding"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1118
+    },
+    "133": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1123
+    },
+    "134": {
+      "display": "120°",
+      "accept": [
+        "120"
+      ],
+      "tier": 2,
+      "rating": 1127
+    },
+    "135": {
+      "display": "30 cm",
+      "accept": [
+        "30",
+        "30 cm"
+      ],
+      "tier": 2,
+      "rating": 1131
+    },
+    "136": {
+      "display": "24 cm",
+      "accept": [
+        "24",
+        "24 cm"
+      ],
+      "tier": 2,
+      "rating": 1135
+    },
+    "137": {
+      "display": "AAA",
+      "accept": [
+        "aaa"
+      ],
+      "tier": 2,
+      "rating": 1139
+    },
+    "138": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1143
+    },
+    "139": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1147
+    },
+    "140": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1152
+    },
+    "141": {
+      "display": "70°",
+      "accept": [
+        "70"
+      ],
+      "tier": 2,
+      "rating": 1156
+    },
+    "142": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1160
+    },
+    "143": {
+      "display": "It keeps all lengths and angles unchanged.",
+      "accept": [
+        "lengths",
+        "angles",
+        "rigid"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1164
+    },
+    "144": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1168
+    },
+    "145": {
+      "display": "Yes, SAS",
+      "accept": [
+        "yes",
+        "sas"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1172
+    },
+    "146": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1176
+    },
+    "147": {
+      "display": "36 cm",
+      "accept": [
+        "36",
+        "36 cm"
+      ],
+      "tier": 2,
+      "rating": 1181
+    },
+    "148": {
+      "display": "12 cm and 13 cm",
+      "accept": [
+        "12",
+        "13"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1185
+    },
+    "149": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1189
+    },
+    "150": {
+      "display": "AAS (two angles and a matching side)",
+      "accept": [
+        "aas",
+        "asa"
+      ],
+      "tier": 2,
+      "rating": 1193
+    },
+    "151": {
+      "display": "25 cm",
+      "accept": [
+        "25",
+        "25 cm"
+      ],
+      "tier": 3,
+      "rating": 1197
+    },
+    "152": {
+      "display": "112°",
+      "accept": [
+        "112"
+      ],
+      "tier": 3,
+      "rating": 1201
+    },
+    "153": {
+      "display": "SSS; yes, right-angled",
+      "accept": [
+        "sss",
+        "yes",
+        "right"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1205
+    },
+    "154": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 3,
+      "rating": 1210
+    },
+    "155": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1214
+    },
+    "156": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 3,
+      "rating": 1218
+    },
+    "157": {
+      "display": "Equal angles fix shape but side lengths can scale — similar triangles.",
+      "accept": [
+        "similar",
+        "scale"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1222
+    },
+    "158": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1226
+    },
+    "159": {
+      "display": "RHS",
+      "accept": [
+        "rhs"
+      ],
+      "tier": 3,
+      "rating": 1230
+    },
+    "160": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1234
+    },
+    "161": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 3,
+      "rating": 1239
+    },
+    "162": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1243
+    },
+    "163": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1247
+    },
+    "164": {
+      "display": "90°",
+      "accept": [
+        "90"
+      ],
+      "tier": 3,
+      "rating": 1251
+    },
+    "165": {
+      "display": "40 cm",
+      "accept": [
+        "40",
+        "40 cm"
+      ],
+      "tier": 3,
+      "rating": 1255
+    },
+    "166": {
+      "display": "Yes, SAS",
+      "accept": [
+        "yes",
+        "sas"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1259
+    },
+    "167": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1263
+    },
+    "168": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1268
+    },
+    "169": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1272
+    },
+    "170": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 3,
+      "rating": 1276
+    },
+    "171": {
+      "display": "RHS",
+      "accept": [
+        "rhs"
+      ],
+      "tier": 3,
+      "rating": 1280
+    },
+    "172": {
+      "display": "60°",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1284
+    },
+    "173": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1288
+    },
+    "174": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1292
+    },
+    "175": {
+      "display": "Rotation moves the shape rigidly — side lengths stay the same.",
+      "accept": [
+        "lengths",
+        "rigid",
+        "same"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1296
+    },
+    "176": {
+      "display": "Yes — two angles fix the third, so AAS works.",
+      "accept": [
+        "yes",
+        "aas"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1301
+    },
+    "177": {
+      "display": "17 cm",
+      "accept": [
+        "17",
+        "17 cm"
+      ],
+      "tier": 3,
+      "rating": 1305
+    },
+    "178": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1309
+    },
+    "179": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 3,
+      "rating": 1313
+    },
+    "180": {
+      "display": "SSS",
+      "accept": [
+        "sss"
+      ],
+      "tier": 3,
+      "rating": 1317
+    },
+    "181": {
+      "display": "70°",
+      "accept": [
+        "70"
+      ],
+      "tier": 3,
+      "rating": 1321
+    },
+    "182": {
+      "display": "29 cm",
+      "accept": [
+        "29",
+        "29 cm"
+      ],
+      "tier": 3,
+      "rating": 1325
+    },
+    "183": {
+      "display": "SSA",
+      "accept": [
+        "ssa"
+      ],
+      "tier": 3,
+      "rating": 1330
+    },
+    "184": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1334
+    },
+    "185": {
+      "display": "Sometimes — only if the side lengths match too.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1338
+    },
+    "186": {
+      "display": "Your example: two triangles with angles 30°, 60°, 90° but different hypotenuses — similar, not congruent.",
+      "accept": [
+        "30",
+        "60",
+        "90",
+        "similar",
+        "not congruent"
+      ],
+      "tier": 3,
+      "rating": 1342,
+      "contains": true,
+      "containsMin": 2
+    },
+    "187": {
+      "display": "Your SAS example with two sides and the included angle labelled, showing congruence.",
+      "accept": [
+        "sas",
+        "side",
+        "angle",
+        "congruent"
+      ],
+      "tier": 3,
+      "rating": 1346,
+      "contains": true,
+      "containsMin": 2
+    },
+    "188": {
+      "display": "With SSA, the given angle can allow two different positions for the third vertex.",
+      "accept": [
+        "ssa",
+        "two"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1350
+    },
+    "189": {
+      "display": "Yes, interchangeable by SSS",
+      "accept": [
+        "yes",
+        "sss"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1354
+    },
+    "190": {
+      "display": "24 cm",
+      "accept": [
+        "24",
+        "24 cm"
+      ],
+      "tier": 3,
+      "rating": 1359
+    },
+    "191": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1363
+    },
+    "192": {
+      "display": "Yes, ASA",
+      "accept": [
+        "yes",
+        "asa"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1367
+    },
+    "193": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1371
+    },
+    "194": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1375
+    },
+    "195": {
+      "display": "48 cm",
+      "accept": [
+        "48",
+        "48 cm"
+      ],
+      "tier": 3,
+      "rating": 1379
+    },
+    "196": {
+      "display": "SSS fixes all three sides, so all three matching angles must be equal (CPCTC).",
+      "accept": [
+        "sss",
+        "angles",
+        "cpctc"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1383
+    },
+    "197": {
+      "display": "Same angles → similar; different hypotenuses → not congruent.",
+      "accept": [
+        "similar",
+        "not congruent"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1388
+    },
+    "198": {
+      "display": "Your real-world check naming tiles/brackets and the congruence rule used.",
+      "accept": [
+        "congruent",
+        "tile",
+        "bracket",
+        "sss",
+        "sas"
+      ],
+      "tier": 3,
+      "rating": 1392,
+      "contains": true,
+      "containsMin": 2
+    },
+    "199": {
+      "display": "Rigid moves (slide, turn, flip) keep size; enlargement changes side lengths unless scale factor is 1.",
+      "accept": [
+        "rigid",
+        "enlargement",
+        "scale"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1396
+    },
+    "200": {
+      "display": "SSS, SAS, ASA, and RHS — each with your fresh side/angle example set.",
+      "accept": [
+        "sss",
+        "sas",
+        "asa",
+        "rhs"
+      ],
+      "tier": 3,
+      "rating": 1400,
+      "contains": true,
+      "containsMin": 2
+    }
+  }
+}

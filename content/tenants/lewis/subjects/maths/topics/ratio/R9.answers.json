@@ -1,0 +1,556 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "½"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "0.5",
+      "accept": [
+        "0.5"
+      ],
+      "tier": 1,
+      "rating": 508
+    },
+    "3": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 515
+    },
+    "4": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 523
+    },
+    "5": {
+      "display": "1",
+      "accept": [
+        "1",
+        "1.0"
+      ],
+      "tier": 1,
+      "rating": 530
+    },
+    "6": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "¼"
+      ],
+      "tier": 1,
+      "rating": 538
+    },
+    "7": {
+      "display": "50%",
+      "accept": [
+        "50",
+        "50%"
+      ],
+      "tier": 1,
+      "rating": 545
+    },
+    "8": {
+      "display": "£1",
+      "accept": [
+        "1",
+        "£1"
+      ],
+      "tier": 1,
+      "rating": 553
+    },
+    "9": {
+      "display": "3/4",
+      "accept": [
+        "3/4",
+        "¾"
+      ],
+      "tier": 1,
+      "rating": 560
+    },
+    "10": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 568
+    },
+    "11": {
+      "display": "25%",
+      "accept": [
+        "25",
+        "25%"
+      ],
+      "tier": 1,
+      "rating": 575
+    },
+    "12": {
+      "display": "£10",
+      "accept": [
+        "10",
+        "£10",
+        "10 pounds"
+      ],
+      "tier": 1,
+      "rating": 583
+    },
+    "13": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "14": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "15": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "16": {
+      "display": "75%",
+      "accept": [
+        "75",
+        "75%"
+      ],
+      "tier": 1,
+      "rating": 800
+    },
+    "17": {
+      "display": "60%",
+      "accept": [
+        "60",
+        "60%"
+      ],
+      "tier": 1,
+      "rating": 850
+    },
+    "18": {
+      "display": "0.45",
+      "accept": [
+        "0.45"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "19": {
+      "display": "1/5",
+      "accept": [
+        "1/5"
+      ],
+      "tier": 1,
+      "rating": 950
+    },
+    "20": {
+      "display": "£55",
+      "accept": [
+        "55",
+        "£55"
+      ],
+      "tier": 1,
+      "rating": 1000
+    },
+    "21": {
+      "display": "£60",
+      "accept": [
+        "60",
+        "£60"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "22": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1100
+    },
+    "23": {
+      "display": "45%",
+      "accept": [
+        "45",
+        "45%"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "24": {
+      "display": "Yes — 50% means half, so finding 50% of a number gives exactly the same result as halving it.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "25": {
+      "display": "Always — increasing by 100% adds another full copy of the original amount, giving original + original = 2 × original.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1008
+    },
+    "26": {
+      "display": "True — one tenth of any positive number is always smaller than the whole number.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1117
+    },
+    "27": {
+      "display": "No — £60 × 0.8 = £48, then £48 × 1.2 = £57.60, not £60, because the second change is applied to a smaller starting amount.",
+      "accept": [
+        "no",
+        "incorrect",
+        "57.60",
+        "57.6"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "28": {
+      "display": "Find 10% by dividing by 10, then halve that value to get 5%.",
+      "accept": [
+        "halve",
+        "half of 10%"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1333
+    },
+    "29": {
+      "display": "No — 35 out of 50 is 70%, not 60%.",
+      "accept": [
+        "no",
+        "70",
+        "70%"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1442
+    },
+    "30": {
+      "display": "Yes — a 50% discount means the customer pays half the original price.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "31": {
+      "display": "£5.20",
+      "accept": [
+        "5.2",
+        "5.20",
+        "£5.20"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "32": {
+      "display": "70%",
+      "accept": [
+        "70",
+        "70%"
+      ],
+      "tier": 3,
+      "rating": 1208
+    },
+    "33": {
+      "display": "£27",
+      "accept": [
+        "27",
+        "£27"
+      ],
+      "tier": 3,
+      "rating": 1317
+    },
+    "34": {
+      "display": "25%",
+      "accept": [
+        "25",
+        "25%"
+      ],
+      "tier": 3,
+      "rating": 1425
+    },
+    "35": {
+      "display": "100 pupils",
+      "accept": [
+        "100"
+      ],
+      "tier": 3,
+      "rating": 1533
+    },
+    "36": {
+      "display": "£315",
+      "accept": [
+        "315",
+        "£315"
+      ],
+      "tier": 3,
+      "rating": 1642
+    },
+    "37": {
+      "display": "170 people",
+      "accept": [
+        "170"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "38": {
+      "display": "£120",
+      "accept": [
+        "120",
+        "£120"
+      ],
+      "tier": 3,
+      "rating": 650
+    },
+    "39": {
+      "display": "£25,000",
+      "accept": [
+        "25000",
+        "£25,000",
+        "25,000"
+      ],
+      "tier": 3,
+      "rating": 659
+    },
+    "40": {
+      "display": "100 × 1.25 = 125; 125 × 0.8 = 100 — so yes, it returns to the original value.",
+      "accept": [
+        "100",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 669
+    },
+    "41": {
+      "display": "100 × 0.5 = 50; 50 × 1.5 = 75, not 100 — the 50% increase applies to the smaller reduced value, so it can't fully undo the decrease.",
+      "accept": [
+        "75"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 678
+    },
+    "42": {
+      "display": "6/25",
+      "accept": ["6/25"],
+      "tier": 3,
+      "rating": 687
+    },
+    "43": {
+      "display": "£2",
+      "accept": [
+        "2",
+        "£2",
+        "2"
+      ],
+      "tier": 1,
+      "rating": 696
+    },
+    "44": {
+      "display": "£63.24999999999999",
+      "accept": [
+        "63.24999999999999",
+        "£63.24999999999999"
+      ],
+      "tier": 1,
+      "rating": 706
+    },
+    "45": { "display": "£36", "accept": ["36", "£36"], "tier": 1, "rating": 715 },
+    "46": { "display": "£470.40", "accept": ["470.40", "470.4", "£470.40"], "tier": 1, "rating": 724 },
+    "47": { "display": "4.5%", "accept": ["4.5", "4.5%"], "tier": 1, "rating": 733 },
+    "48": { "display": "87.5%", "accept": ["87.5", "87.5%"], "tier": 1, "rating": 743 },
+    "49": { "display": "£52", "accept": ["52", "£52"], "tier": 1, "rating": 752 },
+    "50": { "display": "£450", "accept": ["450", "£450"], "tier": 1, "rating": 761 },
+    "51": { "display": "£15", "accept": ["15", "£15"], "tier": 1, "rating": 770 },
+    "52": { "display": "1.35", "accept": ["1.35"], "tier": 1, "rating": 780 },
+    "53": { "display": "26,000", "accept": ["26000", "26,000"], "tier": 1, "rating": 789 },
+    "54": { "display": "40%", "accept": ["40", "40%"], "tier": 1, "rating": 798 },
+    "55": { "display": "30%", "accept": ["30", "30%"], "tier": 1, "rating": 807 },
+    "56": { "display": "18.75%", "accept": ["18.75", "18.75%"], "tier": 1, "rating": 817 },
+    "57": { "display": "£14", "accept": ["14", "£14"], "tier": 1, "rating": 826 },
+    "58": { "display": "20%", "accept": ["20", "20%"], "tier": 1, "rating": 835 },
+    "59": { "display": "1", "accept": ["1", "1/1"], "tier": 1, "rating": 844 },
+    "60": { "display": "35 kg", "accept": ["35", "35 kg"], "tier": 1, "rating": 854 },
+    "61": { "display": "£198", "accept": ["198", "£198"], "tier": 1, "rating": 863 },
+    "62": { "display": "0.7%", "accept": ["0.7", "0.7%"], "tier": 1, "rating": 872 },
+    "63": { "display": "37.5%", "accept": ["37.5", "37.5%"], "tier": 1, "rating": 881 },
+    "64": { "display": "£42", "accept": ["42", "£42"], "tier": 1, "rating": 891 },
+    "65": { "display": "5%", "accept": ["5", "5%"], "tier": 1, "rating": 900 },
+    "66": { "display": "83.3%", "accept": ["83.3", "83.3%"], "tier": 1, "rating": 909 },
+    "67": { "display": "£50", "accept": ["50", "£50"], "tier": 1, "rating": 919 },
+    "68": { "display": "£100", "accept": ["100", "£100"], "tier": 1, "rating": 928 },
+    "69": { "display": "90%", "accept": ["90", "90%"], "tier": 1, "rating": 937 },
+    "70": { "display": "£120", "accept": ["120", "£120"], "tier": 1, "rating": 946 },
+    "71": { "display": "240%", "accept": ["240", "240%"], "tier": 1, "rating": 956 },
+    "72": { "display": "£24", "accept": ["24", "£24"], "tier": 1, "rating": 965 },
+    "73": { "display": "£530", "accept": ["530", "£530"], "tier": 1, "rating": 974 },
+    "74": { "display": "7/20", "accept": ["7/20", "0.35"], "tier": 1, "rating": 983 },
+    "75": { "display": "£18", "accept": ["18", "£18"], "tier": 1, "rating": 993 },
+    "76": { "display": "95%", "accept": ["95", "95%"], "tier": 1, "rating": 1002 },
+    "77": { "display": "200 ml", "accept": ["200", "200 ml", "200ml"], "tier": 1, "rating": 1011 },
+    "78": { "display": "30%", "accept": ["30", "30%"], "tier": 1, "rating": 1020 },
+    "79": { "display": "60", "accept": ["60"], "tier": 1, "rating": 1030 },
+    "80": { "display": "55%", "accept": ["55", "55%"], "tier": 1, "rating": 1039 },
+    "81": { "display": "£0.18", "accept": ["0.18", "18p", "£0.18"], "tier": 1, "rating": 1048 },
+    "82": { "display": "£42", "accept": ["42", "£42"], "tier": 1, "rating": 1057 },
+    "83": { "display": "12.5%", "accept": ["12.5", "12.5%"], "tier": 1, "rating": 1067 },
+    "84": { "display": "£100", "accept": ["100", "£100"], "tier": 1, "rating": 1076 },
+    "85": { "display": "£40.50", "accept": ["40.50", "40.5", "£40.50"], "tier": 1, "rating": 1085 },
+    "86": { "display": "2 1/2", "accept": ["2 1/2", "5/2", "2.5"], "tier": 1, "rating": 1094 },
+    "87": { "display": "£28,980", "accept": ["28980", "£28,980", "28980"], "tier": 1, "rating": 1104 },
+    "88": { "display": "£60", "accept": ["60", "£60"], "tier": 1, "rating": 1113 },
+    "89": { "display": "£6", "accept": ["6", "£6"], "tier": 1, "rating": 1122 },
+    "90": { "display": "35%", "accept": ["35", "35%"], "tier": 1, "rating": 1131 },
+    "91": { "display": "17.5%", "accept": ["17.5", "17.5%"], "tier": 1, "rating": 1141 },
+    "92": { "display": "£72", "accept": ["72", "£72"], "tier": 1, "rating": 1150 },
+    "93": { "display": "£45", "accept": ["45", "£45"], "tier": 2, "rating": 900 },
+    "94": { "display": "15%", "accept": ["15", "15%"], "tier": 2, "rating": 924 },
+    "95": { "display": "0.4%", "accept": ["0.4", "0.4%"], "tier": 2, "rating": 948 },
+    "96": { "display": "£24,000", "accept": ["24000", "£24,000"], "tier": 2, "rating": 972 },
+    "97": { "display": "240 cm", "accept": ["240", "240 cm"], "tier": 2, "rating": 996 },
+    "98": { "display": "£40", "accept": ["40", "£40"], "tier": 2, "rating": 1020 },
+    "99": { "display": "36%", "accept": ["36", "36%"], "tier": 2, "rating": 1044 },
+    "100": { "display": "£19.80", "accept": ["19.80", "19.8", "£19.80"], "tier": 2, "rating": 1069 },
+    "101": { "display": "440 litres", "accept": ["440", "440 litres"], "tier": 2, "rating": 1093 },
+    "102": { "display": "£391", "accept": ["391", "£391"], "tier": 2, "rating": 1117 },
+    "103": { "display": "33.3%", "accept": ["33.3", "33.3%"], "tier": 2, "rating": 1141 },
+    "104": { "display": "£20.90", "accept": ["20.90", "20.9", "£20.90"], "tier": 2, "rating": 1165 },
+    "105": { "display": "75%", "accept": ["75", "75%"], "tier": 2, "rating": 1189 },
+    "106": { "display": "£75", "accept": ["75", "£75"], "tier": 2, "rating": 1213 },
+    "107": { "display": "0.6; 60%", "accept": ["0.6", "60", "60%"], "tier": 2, "rating": 1237 },
+    "108": { "display": "£60", "accept": ["60", "£60"], "tier": 2, "rating": 1261 },
+    "109": { "display": "40%", "accept": ["40", "40%"], "tier": 2, "rating": 1285 },
+    "110": { "display": "£240", "accept": ["240", "£240"], "tier": 2, "rating": 1309 },
+    "111": { "display": "£12.60", "accept": ["12.60", "12.6", "£12.60"], "tier": 2, "rating": 1333 },
+    "112": { "display": "15%", "accept": ["15", "15%"], "tier": 2, "rating": 1357 },
+    "113": { "display": "12.5%", "accept": ["12.5", "12.5%"], "tier": 2, "rating": 1381 },
+    "114": { "display": "£80", "accept": ["80", "£80"], "tier": 2, "rating": 1406 },
+    "115": { "display": "£7.50", "accept": ["7.50", "7.5", "£7.50"], "tier": 2, "rating": 1430 },
+    "116": { "display": "£30", "accept": ["30", "£30"], "tier": 2, "rating": 1454 },
+    "117": { "display": "6.25%", "accept": ["6.25", "6.25%"], "tier": 2, "rating": 1478 },
+    "118": { "display": "£49.50", "accept": ["49.50", "49.5", "£49.50"], "tier": 2, "rating": 1502 },
+    "119": { "display": "£35", "accept": ["35", "£35"], "tier": 2, "rating": 1526 },
+    "120": { "display": "80", "accept": ["80"], "tier": 2, "rating": 1550 },
+    "121": { "display": "£41.67", "accept": ["41.67", "£41.67", "125/3"], "tier": 2, "rating": 1100 },
+    "122": { "display": "£80", "accept": ["80", "£80"], "tier": 2, "rating": 1136 },
+    "123": { "display": "69%", "accept": ["69", "69%"], "tier": 2, "rating": 1172 },
+    "124": { "display": "£30", "accept": ["30", "£30"], "tier": 2, "rating": 1208 },
+    "125": { "display": "85%", "accept": ["85", "85%"], "tier": 2, "rating": 1244 },
+    "126": { "display": "£162", "accept": ["162", "£162"], "tier": 2, "rating": 1281 },
+    "127": { "display": "£33", "accept": ["33", "£33"], "tier": 2, "rating": 1317 },
+    "128": { "display": "5%", "accept": ["5", "5%"], "tier": 2, "rating": 1353 },
+    "129": { "display": "£60", "accept": ["60", "£60"], "tier": 2, "rating": 1389 },
+    "130": { "display": "0.2%", "accept": ["0.2", "0.2%"], "tier": 2, "rating": 1425 },
+    "131": { "display": "300 g", "accept": ["300", "300 g", "300g"], "tier": 2, "rating": 1461 },
+    "132": { "display": "108 marks", "accept": ["108", "108 marks"], "tier": 2, "rating": 1497 },
+    "133": { "display": "£50", "accept": ["50", "£50"], "tier": 2, "rating": 1533 },
+    "134": { "display": "0.625; 62.5%", "accept": ["0.625", "62.5", "62.5%"], "tier": 2, "rating": 1569 },
+    "135": { "display": "£30", "accept": ["30", "£30"], "tier": 2, "rating": 1606 },
+    "136": { "display": "£1,200", "accept": ["1200", "£1,200"], "tier": 2, "rating": 1642 },
+    "137": { "display": "£57.60", "accept": ["57.60", "57.6", "£57.60"], "tier": 2, "rating": 1678 },
+    "138": { "display": "£34.20", "accept": ["34.20", "34.2", "£34.20"], "tier": 2, "rating": 1714 },
+    "139": { "display": "£45", "accept": ["45", "£45"], "tier": 2, "rating": 1750 },
+    "140": { "display": "No — £100 becomes £120 then £96, not £100.", "accept": ["no"], "contains": true, "tier": 3, "rating": 1969 },
+    "141": { "display": "£288", "accept": ["288", "£288"], "tier": 3, "rating": 1981 },
+    "142": { "display": "262.5 ml", "accept": ["262.5", "262.5 ml"], "tier": 3, "rating": 1994 },
+    "143": { "display": "58.33%", "accept": ["58.33", "58.33%"], "tier": 3, "rating": 1903 },
+    "144": { "display": "£120", "accept": ["120", "£120"], "tier": 3, "rating": 1911 },
+    "145": { "display": "51 pupils", "accept": ["51", "51 pupils"], "tier": 3, "rating": 1918 },
+    "146": { "display": "£124.50", "accept": ["124.50", "124.5", "£124.50"], "tier": 3, "rating": 1926 },
+    "147": { "display": "800 m", "accept": ["800", "800 m", "800m"], "tier": 3, "rating": 1933 },
+    "148": { "display": "£19.50", "accept": ["19.50", "19.5", "£19.50"], "tier": 3, "rating": 1941 },
+    "149": { "display": "£29,700", "accept": ["29700", "£29,700"], "tier": 3, "rating": 1948 },
+    "150": { "display": "0.035%", "accept": ["0.035", "0.035%"], "tier": 3, "rating": 1956 },
+    "151": { "display": "132 marks", "accept": ["132", "132 marks"], "tier": 3, "rating": 1963 },
+    "152": { "display": "£70", "accept": ["70", "£70"], "tier": 3, "rating": 1971 },
+    "153": { "display": "£36", "accept": ["36", "£36"], "tier": 3, "rating": 1978 },
+    "154": { "display": "70%", "accept": ["70", "70%"], "tier": 3, "rating": 1986 },
+    "155": { "display": "15%", "accept": ["15", "15%"], "tier": 3, "rating": 1993 },
+    "156": { "display": "68.75%", "accept": ["68.75", "68.75%"], "tier": 3, "rating": 2000 },
+    "157": { "display": "67.5%", "accept": ["67.5", "67.5%"], "tier": 3, "rating": 1997 },
+    "158": { "display": "£405", "accept": ["405", "£405"], "tier": 3, "rating": 1990 },
+    "159": { "display": "25%", "accept": ["25", "25%"], "tier": 3, "rating": 1982 },
+    "160": { "display": "£102", "accept": ["102", "£102"], "tier": 3, "rating": 1975 },
+    "161": { "display": "1.134", "accept": ["1.134"], "tier": 3, "rating": 1967 },
+    "162": { "display": "32.5%", "accept": ["32.5", "32.5%"], "tier": 3, "rating": 1960 },
+    "163": { "display": "15%", "accept": ["15", "15%"], "tier": 3, "rating": 1952 },
+    "164": { "display": "£48.30", "accept": ["48.30", "48.3", "£48.30"], "tier": 3, "rating": 1945 },
+    "165": { "display": "£120", "accept": ["120", "£120"], "tier": 3, "rating": 1937 },
+    "166": { "display": "0.85%", "accept": ["0.85", "0.85%"], "tier": 3, "rating": 1930 },
+    "167": { "display": "£75,000", "accept": ["75000", "£75,000"], "tier": 3, "rating": 1922 },
+    "168": { "display": "£48", "accept": ["48", "£48"], "tier": 3, "rating": 1915 },
+    "169": { "display": "25%", "accept": ["25", "25%"], "tier": 3, "rating": 1907 },
+    "170": { "display": "They are equal (£12)", "accept": ["equal", "same", "12"], "tier": 3, "rating": 1900 },
+    "171": { "display": "41.7%", "accept": ["41.7", "41.7%"], "tier": 3, "rating": 1892 },
+    "172": { "display": "64 tickets", "accept": ["64", "64 tickets"], "tier": 3, "rating": 1885 },
+    "173": { "display": "£60", "accept": ["60", "£60"], "tier": 3, "rating": 1877 },
+    "174": { "display": "£200", "accept": ["200", "£200"], "tier": 3, "rating": 1870 },
+    "175": { "display": "37.5%", "accept": ["37.5", "37.5%"], "tier": 3, "rating": 1862 },
+    "176": { "display": "30%", "accept": ["30", "30%"], "tier": 3, "rating": 1855 },
+    "177": { "display": "£121.60", "accept": ["121.60", "121.6", "£121.60"], "tier": 3, "rating": 1847 },
+    "178": { "display": "£859.14", "accept": ["859.14", "£859.14"], "tier": 3, "rating": 1840 },
+    "179": { "display": "79.2%", "accept": ["79.2", "79.2%"], "tier": 3, "rating": 1832 },
+    "180": { "display": "£1,285.71", "accept": ["1285.71", "£1,285.71"], "tier": 3, "rating": 1825 },
+    "181": { "display": "£40", "accept": ["40", "£40"], "tier": 3, "rating": 1817 },
+    "182": { "display": "22", "accept": ["22"], "tier": 3, "rating": 1810 },
+    "183": { "display": "£992.75", "accept": ["992.75", "£992.75"], "tier": 3, "rating": 1802 },
+    "184": { "display": "9.375%", "accept": ["9.375", "9.375%"], "tier": 3, "rating": 1795 },
+    "185": { "display": "£120", "accept": ["120", "£120"], "tier": 3, "rating": 1787 },
+    "186": { "display": "£9", "accept": ["9", "£9"], "tier": 3, "rating": 1780 },
+    "187": { "display": "£136", "accept": ["136", "£136"], "tier": 3, "rating": 1772 },
+    "188": { "display": "0.08%", "accept": ["0.08", "0.08%"], "tier": 3, "rating": 1765 },
+    "189": { "display": "£18,000", "accept": ["18000", "£18,000"], "tier": 3, "rating": 1757 },
+    "190": { "display": "£20 off on £70 saves more (£20 vs £15)", "accept": ["20 off", "£20"], "contains": true, "tier": 3, "rating": 1750 },
+    "191": { "display": "£20.52", "accept": ["20.52", "£20.52"], "tier": 3, "rating": 1742 },
+    "192": { "display": "£3,000", "accept": ["3000", "£3,000"], "tier": 3, "rating": 1735 },
+    "193": { "display": "46.67%", "accept": ["46.67", "46.67%"], "tier": 3, "rating": 1727 },
+    "194": { "display": "£14.40", "accept": ["14.40", "14.4", "£14.40"], "tier": 3, "rating": 1720 },
+    "195": { "display": "£58.56", "accept": ["58.56", "£58.56"], "tier": 3, "rating": 1712 },
+    "196": { "display": "£120", "accept": ["120", "£120"], "tier": 3, "rating": 1988 },
+    "197": { "display": "£25,000", "accept": ["25000", "£25,000"], "tier": 3, "rating": 1995 },
+    "198": { "display": "100 → 125 → 100, so you return to the start.", "accept": ["100", "same"], "contains": true, "tier": 3, "rating": 1998 },
+    "199": { "display": "100 → 50 → 75, which is not 100.", "accept": ["75", "not"], "contains": true, "tier": 3, "rating": 1999 },
+    "200": { "display": "£86.40", "accept": ["86.4", "£86.40", "86.40"], "tier": 3, "rating": 2000 }
+  }
+}

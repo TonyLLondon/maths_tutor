@@ -1,0 +1,1806 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "3²",
+      "accept": [
+        "3²",
+        "3^2",
+        "3 squared"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 520
+    },
+    "3": {
+      "display": "25",
+      "accept": [
+        "25",
+        "twenty five",
+        "twenty-five"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "4": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 560
+    },
+    "5": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "6": {
+      "display": "9",
+      "accept": [
+        "9",
+        "nine"
+      ],
+      "tier": 1,
+      "rating": 600
+    },
+    "7": {
+      "display": "16",
+      "accept": [
+        "16",
+        "sixteen"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "8": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 640
+    },
+    "9": {
+      "display": "0",
+      "accept": [
+        "0",
+        "zero"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "10": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "11": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 680
+    },
+    "12": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three",
+        "2^3",
+        "2³"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "36",
+      "accept": [
+        "36"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "14": {
+      "display": "27",
+      "accept": [
+        "27"
+      ],
+      "tier": 1,
+      "rating": 661
+    },
+    "15": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 673
+    },
+    "16": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 684
+    },
+    "17": {
+      "display": "81",
+      "accept": [
+        "81"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "18": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 707
+    },
+    "19": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 718
+    },
+    "20": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "21": {
+      "display": "144",
+      "accept": [
+        "144"
+      ],
+      "tier": 1,
+      "rating": 798
+    },
+    "22": {
+      "display": "125",
+      "accept": [
+        "125"
+      ],
+      "tier": 1,
+      "rating": 855
+    },
+    "23": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "24": {
+      "display": "-8",
+      "accept": [
+        "-8"
+      ],
+      "tier": 1,
+      "rating": 817
+    },
+    "25": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 983
+    },
+    "26": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "27": {
+      "display": "No — e.g. (1/2)² = 1/4, which is smaller than 1/2. Squaring a fraction between 0 and 1 makes it smaller.",
+      "accept": [
+        "no",
+        "not correct",
+        "smaller",
+        "1/4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "28": {
+      "display": "Sometimes — non-zero numbers have positive squares, but 0² = 0, which is not positive.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 957
+    },
+    "29": {
+      "display": "The symbol √ means the positive square root, so √64 = 8. −8 is the other number that squares to 64, but it is written as −√64, not √64.",
+      "accept": [
+        "8",
+        "positive"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1168
+    },
+    "30": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1378
+    },
+    "31": {
+      "display": "3² = 9 is bigger than 2³ = 8. A power shows repeated multiplication: 2³ = 2×2×2 and 3² = 3×3.",
+      "accept": [
+        "9",
+        "8",
+        "3 squared",
+        "bigger"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "32": {
+      "display": "11 m",
+      "accept": [
+        "11",
+        "11m",
+        "11 m"
+      ],
+      "tier": 3,
+      "rating": 1506
+    },
+    "33": {
+      "display": "2 m",
+      "accept": [
+        "2",
+        "2m",
+        "2 m"
+      ],
+      "tier": 3,
+      "rating": 1709
+    },
+    "34": {
+      "display": "Wrong — 10² = 100 and 10³ = 1000, so 10³ is 10 times bigger than 10², not double.",
+      "accept": [
+        "100",
+        "1000",
+        "10 times"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1608
+    },
+    "35": {
+      "display": "49 m²",
+      "accept": [
+        "49",
+        "49m2",
+        "49 m2",
+        "49 m²"
+      ],
+      "tier": 3,
+      "rating": 1730
+    },
+    "36": {
+      "display": "64 cm³",
+      "accept": [
+        "64",
+        "64cm3",
+        "64 cm3",
+        "64 cm³"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 3,
+      "rating": 1836
+    },
+    "38": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1964
+    },
+    "39": {
+      "display": "Between 8 and 9, since 8² = 64 and 9² = 81, and 64 < 70 < 81.",
+      "accept": [
+        "8",
+        "9"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1982
+    },
+    "40": {
+      "display": "2³ × 2² = 8 × 4 = 32, and 2⁵ = 32 — the same answer, because adding the powers (3+2=5) matches multiplying the values.",
+      "accept": [
+        "32"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "16, 25 and 36 are perfect squares",
+      "accept": [
+        "16 25 36",
+        "16,25,36",
+        "16 25 and 36"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "No — only some cube numbers are also square numbers (1 = 1² = 1³ and 64 = 8² = 4³), but 8 and 27 are not perfect squares.",
+      "accept": [
+        "no",
+        "not correct",
+        "8",
+        "27"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 946
+    },
+    "43": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 781
+    },
+    "45": {
+      "display": "49",
+      "accept": [
+        "49"
+      ],
+      "tier": 1,
+      "rating": 812
+    },
+    "46": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "47": {
+      "display": "1000",
+      "accept": [
+        "1000"
+      ],
+      "tier": 1,
+      "rating": 874
+    },
+    "48": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 905
+    },
+    "49": {
+      "display": "13 cm",
+      "accept": [
+        "13",
+        "13cm",
+        "13 cm"
+      ],
+      "tier": 1,
+      "rating": 936
+    },
+    "50": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "rating": 967
+    },
+    "51": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 998
+    },
+    "52": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 1,
+      "rating": 1029
+    },
+    "53": {
+      "display": "3⁴",
+      "accept": [
+        "3^4",
+        "81",
+        "3⁴"
+      ],
+      "tier": 1,
+      "rating": 1060
+    },
+    "54": {
+      "display": "8 and 27",
+      "accept": [
+        "8 27",
+        "8,27",
+        "8 and 27"
+      ],
+      "tier": 1,
+      "rating": 1090
+    },
+    "55": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1121
+    },
+    "56": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 1152
+    },
+    "57": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5cm",
+        "5 cm"
+      ],
+      "tier": 1,
+      "rating": 1183
+    },
+    "58": {
+      "display": "-27",
+      "accept": [
+        "-27"
+      ],
+      "tier": 1,
+      "rating": 1214
+    },
+    "59": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 1245
+    },
+    "60": {
+      "display": "216",
+      "accept": [
+        "216"
+      ],
+      "tier": 1,
+      "rating": 1276
+    },
+    "61": {
+      "display": "7 and 8",
+      "accept": [
+        "7",
+        "8",
+        "7 and 8"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1307
+    },
+    "62": {
+      "display": "64",
+      "accept": [
+        "64"
+      ],
+      "tier": 1,
+      "rating": 1338
+    },
+    "63": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1369
+    },
+    "64": {
+      "display": "225",
+      "accept": [
+        "225"
+      ],
+      "tier": 1,
+      "rating": 1400
+    },
+    "65": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 730
+    },
+    "66": {
+      "display": "81",
+      "accept": [
+        "81"
+      ],
+      "tier": 1,
+      "rating": 752
+    },
+    "67": {
+      "display": "49",
+      "accept": [
+        "49"
+      ],
+      "tier": 1,
+      "rating": 764
+    },
+    "68": {
+      "display": "100",
+      "accept": [
+        "100"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "69": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "70": {
+      "display": "343",
+      "accept": [
+        "343"
+      ],
+      "tier": 1,
+      "rating": 809
+    },
+    "71": {
+      "display": "81 cm²",
+      "accept": [
+        "81",
+        "81cm2",
+        "81 cm2",
+        "81 cm²"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "72": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "73": {
+      "display": "121",
+      "accept": [
+        "121"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "74": {
+      "display": "2⁶",
+      "accept": [
+        "2^6",
+        "64",
+        "2⁶"
+      ],
+      "tier": 1,
+      "rating": 866
+    },
+    "75": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "76": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 889
+    },
+    "77": {
+      "display": "64",
+      "accept": [
+        "64"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "78": {
+      "display": "625",
+      "accept": [
+        "625"
+      ],
+      "tier": 1,
+      "rating": 911
+    },
+    "79": {
+      "display": "12 and 13",
+      "accept": [
+        "12",
+        "13",
+        "12 and 13"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 923
+    },
+    "80": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 934
+    },
+    "81": {
+      "display": "216 cm³",
+      "accept": [
+        "216",
+        "216cm3",
+        "216 cm3",
+        "216 cm³"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "82": {
+      "display": "36",
+      "accept": [
+        "36"
+      ],
+      "tier": 1,
+      "rating": 957
+    },
+    "83": {
+      "display": "729",
+      "accept": [
+        "729"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "84": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 980
+    },
+    "85": {
+      "display": "81",
+      "accept": [
+        "81"
+      ],
+      "tier": 1,
+      "rating": 991
+    },
+    "86": {
+      "display": "1728",
+      "accept": [
+        "1728"
+      ],
+      "tier": 1,
+      "rating": 1002
+    },
+    "87": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "88": {
+      "display": "64",
+      "accept": [
+        "64"
+      ],
+      "tier": 1,
+      "rating": 1025
+    },
+    "89": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "0.25"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "90": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1048
+    },
+    "91": {
+      "display": "196",
+      "accept": [
+        "196"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "92": {
+      "display": "2¹⁰",
+      "accept": [
+        "2^10",
+        "1024",
+        "2¹⁰"
+      ],
+      "tier": 1,
+      "rating": 1070
+    },
+    "93": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 1082
+    },
+    "94": {
+      "display": "27",
+      "accept": [
+        "27"
+      ],
+      "tier": 1,
+      "rating": 1093
+    },
+    "95": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "96": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "97": {
+      "display": "169",
+      "accept": [
+        "169"
+      ],
+      "tier": 1,
+      "rating": 1127
+    },
+    "98": {
+      "display": "-64",
+      "accept": [
+        "-64"
+      ],
+      "tier": 1,
+      "rating": 1139
+    },
+    "99": {
+      "display": "169 m²",
+      "accept": [
+        "169",
+        "169m2",
+        "169 m2",
+        "169 m²"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "100": {
+      "display": "No — (−3)² = 9, not −9. Brackets mean the negative is squared.",
+      "accept": [
+        "no",
+        "9",
+        "not -9"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 919
+    },
+    "101": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 938
+    },
+    "102": {
+      "display": "No — √81 + √81 = 9 + 9 = 18, but √162 is not 18.",
+      "accept": [
+        "no",
+        "18",
+        "not correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 976
+    },
+    "103": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 996
+    },
+    "104": {
+      "display": "2⁵ = 32 is bigger than 5² = 25",
+      "accept": [
+        "2^5",
+        "32",
+        "2⁵",
+        "25"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1015
+    },
+    "105": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1034
+    },
+    "106": {
+      "display": "0⁰ is not defined in school maths; 0¹ = 0.",
+      "accept": [
+        "0",
+        "not defined",
+        "undefined"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1053
+    },
+    "107": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1072
+    },
+    "108": {
+      "display": "The √ symbol means the principal (non-negative) square root, so √25 = 5 only.",
+      "accept": [
+        "positive",
+        "5",
+        "principal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1091
+    },
+    "109": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1110
+    },
+    "110": {
+      "display": "3⁵ — add indices: 2 + 3 = 5",
+      "accept": [
+        "3^5",
+        "243",
+        "3⁵"
+      ],
+      "tier": 2,
+      "rating": 1129
+    },
+    "111": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1149
+    },
+    "112": {
+      "display": "No — √16 + √25 ≠ √(16+25). You cannot add under one root that way.",
+      "accept": [
+        "no",
+        "not correct",
+        "41"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1187
+    },
+    "113": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1206
+    },
+    "114": {
+      "display": "2⁴ means 2 × 2 × 2 × 2 — multiply 2 by itself four times.",
+      "accept": [
+        "16",
+        "2*2*2*2",
+        "four times"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "115": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1244
+    },
+    "116": {
+      "display": "10³ = 1000. The power 3 means multiply 10 by itself three times.",
+      "accept": [
+        "1000",
+        "three times"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1263
+    },
+    "117": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1282
+    },
+    "118": {
+      "display": "Yes — both equal 16",
+      "accept": [
+        "yes",
+        "16",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1301
+    },
+    "119": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1321
+    },
+    "120": {
+      "display": "√49 × √4 = 7 × 2 = 14 = √196 — multiplying under roots works for non-negative numbers.",
+      "accept": [
+        "14",
+        "196",
+        "7",
+        "2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1340
+    },
+    "121": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1359
+    },
+    "122": {
+      "display": "25 — (−5)² = 25, not −25",
+      "accept": [
+        "25",
+        "not -25"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1397
+    },
+    "123": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1416
+    },
+    "124": {
+      "display": "No — ∛8 × ∛8 = 2 × 2 = 4, but ∛16 is not 4",
+      "accept": [
+        "no",
+        "4",
+        "not correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1435
+    },
+    "125": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1454
+    },
+    "126": {
+      "display": "Not equal — (−3)² = 9 but −3² = −9",
+      "accept": [
+        "no",
+        "9",
+        "-9",
+        "not equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1474
+    },
+    "127": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1493
+    },
+    "128": {
+      "display": "Square numbers end in 0, 1, 4, 5, 6 or 9 only — never 2, 3, 7 or 8.",
+      "accept": [
+        "0",
+        "1",
+        "4",
+        "5",
+        "6",
+        "9",
+        "units"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1512
+    },
+    "129": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1531
+    },
+    "130": {
+      "display": "48 m",
+      "accept": [
+        "48",
+        "48m",
+        "48 m"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "131": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8cm",
+        "8 cm"
+      ],
+      "tier": 3,
+      "rating": 1120
+    },
+    "132": {
+      "display": "64 m²",
+      "accept": [
+        "64",
+        "64m2",
+        "64 m2",
+        "64 m²"
+      ],
+      "tier": 3,
+      "rating": 1141
+    },
+    "133": {
+      "display": "30 cm",
+      "accept": [
+        "30",
+        "30cm",
+        "30 cm"
+      ],
+      "tier": 3,
+      "rating": 1161
+    },
+    "134": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10cm",
+        "10 cm"
+      ],
+      "tier": 3,
+      "rating": 1181
+    },
+    "135": {
+      "display": "121 m²",
+      "accept": [
+        "121",
+        "121m2",
+        "121 m2",
+        "121 m²"
+      ],
+      "tier": 3,
+      "rating": 1202
+    },
+    "136": {
+      "display": "119 cm²",
+      "accept": [
+        "119",
+        "119cm2",
+        "119 cm2",
+        "119 cm²"
+      ],
+      "tier": 3,
+      "rating": 1222
+    },
+    "137": {
+      "display": "343 cm³",
+      "accept": [
+        "343",
+        "343cm3",
+        "343 cm3",
+        "343 cm³"
+      ],
+      "tier": 3,
+      "rating": 1242
+    },
+    "138": {
+      "display": "144 m²",
+      "accept": [
+        "144",
+        "144m2",
+        "144 m2",
+        "144 m²"
+      ],
+      "tier": 3,
+      "rating": 1263
+    },
+    "139": {
+      "display": "27 cm³ — volume is edge³, so 3³ = 27, not 3 × 3 = 9",
+      "accept": [
+        "27",
+        "not 9",
+        "no"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1283
+    },
+    "140": {
+      "display": "14 and 15",
+      "accept": [
+        "14",
+        "15",
+        "14 and 15"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1303
+    },
+    "141": {
+      "display": "28 ft",
+      "accept": [
+        "28",
+        "28ft",
+        "28 ft"
+      ],
+      "tier": 3,
+      "rating": 1323
+    },
+    "142": {
+      "display": "169",
+      "accept": [
+        "169"
+      ],
+      "tier": 3,
+      "rating": 1344
+    },
+    "143": {
+      "display": "17",
+      "accept": [
+        "17"
+      ],
+      "tier": 3,
+      "rating": 1364
+    },
+    "144": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1384
+    },
+    "145": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 3,
+      "rating": 1405
+    },
+    "146": {
+      "display": "49 cm²",
+      "accept": [
+        "49",
+        "49cm2",
+        "49 cm2",
+        "49 cm²"
+      ],
+      "tier": 3,
+      "rating": 1425
+    },
+    "147": {
+      "display": "61",
+      "accept": [
+        "61"
+      ],
+      "tier": 3,
+      "rating": 1445
+    },
+    "148": {
+      "display": "17 and 18",
+      "accept": [
+        "17",
+        "18",
+        "17 and 18"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1466
+    },
+    "149": {
+      "display": "100 cm",
+      "accept": [
+        "100",
+        "100cm",
+        "100 cm"
+      ],
+      "tier": 3,
+      "rating": 1486
+    },
+    "150": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1527
+    },
+    "151": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1547
+    },
+    "152": {
+      "display": "919",
+      "accept": [
+        "919"
+      ],
+      "tier": 3,
+      "rating": 1567
+    },
+    "153": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5cm",
+        "5 cm"
+      ],
+      "tier": 3,
+      "rating": 1588
+    },
+    "154": {
+      "display": "61",
+      "accept": [
+        "61"
+      ],
+      "tier": 3,
+      "rating": 1628
+    },
+    "155": {
+      "display": "0.5 m",
+      "accept": [
+        "0.5",
+        "0.5m",
+        "0.5 m",
+        "1/2"
+      ],
+      "tier": 3,
+      "rating": 1648
+    },
+    "156": {
+      "display": "144",
+      "accept": [
+        "144"
+      ],
+      "tier": 3,
+      "rating": 1669
+    },
+    "157": {
+      "display": "5 m",
+      "accept": [
+        "5",
+        "5m",
+        "5 m"
+      ],
+      "tier": 3,
+      "rating": 1689
+    },
+    "158": {
+      "display": "35",
+      "accept": [
+        "35"
+      ],
+      "tier": 3,
+      "rating": 1400
+    },
+    "159": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 3,
+      "rating": 1418
+    },
+    "160": {
+      "display": "22 and 23",
+      "accept": [
+        "22",
+        "23",
+        "22 and 23"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1436
+    },
+    "161": {
+      "display": "1024",
+      "accept": [
+        "1024"
+      ],
+      "tier": 3,
+      "rating": 1455
+    },
+    "162": {
+      "display": "3⁷",
+      "accept": [
+        "3^7",
+        "2187",
+        "3⁷"
+      ],
+      "tier": 3,
+      "rating": 1473
+    },
+    "163": {
+      "display": "-32",
+      "accept": [
+        "-32"
+      ],
+      "tier": 3,
+      "rating": 1491
+    },
+    "164": {
+      "display": "0.7",
+      "accept": [
+        "0.7"
+      ],
+      "tier": 3,
+      "rating": 1509
+    },
+    "165": {
+      "display": "256",
+      "accept": [
+        "256"
+      ],
+      "tier": 3,
+      "rating": 1527
+    },
+    "166": {
+      "display": "5 and 6",
+      "accept": [
+        "5",
+        "6",
+        "5 and 6"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1545
+    },
+    "167": {
+      "display": "400",
+      "accept": [
+        "400"
+      ],
+      "tier": 3,
+      "rating": 1564
+    },
+    "168": {
+      "display": "9/16",
+      "accept": [
+        "9/16"
+      ],
+      "tier": 3,
+      "rating": 1582
+    },
+    "169": {
+      "display": "32",
+      "accept": [
+        "32"
+      ],
+      "tier": 3,
+      "rating": 1600
+    },
+    "170": {
+      "display": "243",
+      "accept": [
+        "243"
+      ],
+      "tier": 3,
+      "rating": 1618
+    },
+    "171": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1636
+    },
+    "172": {
+      "display": "-3",
+      "accept": [
+        "-3"
+      ],
+      "tier": 3,
+      "rating": 1655
+    },
+    "173": {
+      "display": "256",
+      "accept": [
+        "256"
+      ],
+      "tier": 3,
+      "rating": 1673
+    },
+    "174": {
+      "display": "2⁸",
+      "accept": [
+        "2^8",
+        "256",
+        "2⁸"
+      ],
+      "tier": 3,
+      "rating": 1691
+    },
+    "175": {
+      "display": "29",
+      "accept": [
+        "29"
+      ],
+      "tier": 3,
+      "rating": 1709
+    },
+    "176": {
+      "display": "1296",
+      "accept": [
+        "1296"
+      ],
+      "tier": 3,
+      "rating": 1727
+    },
+    "177": {
+      "display": "31 and 32",
+      "accept": [
+        "31",
+        "32",
+        "31 and 32"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1745
+    },
+    "178": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 3,
+      "rating": 1764
+    },
+    "179": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 3,
+      "rating": 1782
+    },
+    "180": {
+      "display": "900",
+      "accept": [
+        "900"
+      ],
+      "tier": 3,
+      "rating": 1800
+    },
+    "181": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 3,
+      "rating": 1818
+    },
+    "182": {
+      "display": "6561",
+      "accept": [
+        "6561"
+      ],
+      "tier": 3,
+      "rating": 1855
+    },
+    "183": {
+      "display": "-125",
+      "accept": [
+        "-125"
+      ],
+      "tier": 3,
+      "rating": 1873
+    },
+    "184": {
+      "display": "15 and 16",
+      "accept": [
+        "15",
+        "16",
+        "15 and 16"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1891
+    },
+    "185": {
+      "display": "10000",
+      "accept": [
+        "10000",
+        "10,000"
+      ],
+      "tier": 3,
+      "rating": 1909
+    },
+    "186": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1927
+    },
+    "187": {
+      "display": "128",
+      "accept": [
+        "128"
+      ],
+      "tier": 3,
+      "rating": 1945
+    },
+    "188": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 3,
+      "rating": 993
+    },
+    "189": {
+      "display": "2401",
+      "accept": [
+        "2401"
+      ],
+      "tier": 3,
+      "rating": 1039
+    },
+    "190": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 3,
+      "rating": 1086
+    },
+    "191": {
+      "display": "-1",
+      "accept": [
+        "-1"
+      ],
+      "tier": 3,
+      "rating": 1132
+    },
+    "192": {
+      "display": "1331",
+      "accept": [
+        "1331"
+      ],
+      "tier": 3,
+      "rating": 1179
+    },
+    "193": {
+      "display": "27",
+      "accept": [
+        "27"
+      ],
+      "tier": 3,
+      "rating": 1225
+    },
+    "194": {
+      "display": "1, 8 and 27",
+      "accept": [
+        "1 8 27",
+        "1,8,27",
+        "1 8 and 27"
+      ],
+      "tier": 3,
+      "rating": 1271
+    },
+    "195": {
+      "display": "169",
+      "accept": [
+        "169"
+      ],
+      "tier": 3,
+      "rating": 1318
+    },
+    "196": {
+      "display": "36 cm² and 216 cm³",
+      "accept": [
+        "36",
+        "216",
+        "36 cm2",
+        "216 cm3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1364
+    },
+    "197": {
+      "display": "2⁷",
+      "accept": [
+        "2^7",
+        "128",
+        "2⁷"
+      ],
+      "tier": 3,
+      "rating": 1411
+    },
+    "198": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1457
+    },
+    "199": {
+      "display": "0",
+      "accept": [
+        "0",
+        "zero"
+      ],
+      "tier": 3,
+      "rating": 1504
+    },
+    "200": {
+      "display": "3375",
+      "accept": [
+        "3375"
+      ],
+      "tier": 3,
+      "rating": 1550
+    }
+  }
+}

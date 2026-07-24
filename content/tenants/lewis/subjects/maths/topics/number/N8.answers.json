@@ -1,0 +1,1816 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "½",
+        "one half",
+        "a half"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one",
+        "one whole"
+      ],
+      "tier": 1,
+      "rating": 520
+    },
+    "3": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "4": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "½",
+        "one half",
+        "a half"
+      ],
+      "tier": 1,
+      "rating": 560
+    },
+    "5": {
+      "display": "3/4",
+      "accept": [
+        "3/4",
+        "¾",
+        "three quarters"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "6": {
+      "display": "6 cm",
+      "accept": [
+        "6",
+        "6 cm",
+        "6cm"
+      ],
+      "tier": 1,
+      "rating": 600
+    },
+    "7": {
+      "display": "π",
+      "accept": [
+        "π",
+        "pi"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "8": {
+      "display": "3/4",
+      "accept": [
+        "3/4",
+        "¾",
+        "three quarters"
+      ],
+      "tier": 1,
+      "rating": 640
+    },
+    "9": {
+      "display": "2/3",
+      "accept": [
+        "2/3"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "10": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "one quarter"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "11": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 680
+    },
+    "12": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "3/8",
+      "accept": [
+        "3/8"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "14": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "0.5"
+      ],
+      "tier": 1,
+      "rating": 661
+    },
+    "15": {
+      "display": "1/5",
+      "accept": [
+        "1/5"
+      ],
+      "tier": 1,
+      "rating": 673
+    },
+    "16": {
+      "display": "3/2 (1 1/2)",
+      "accept": [
+        "3/2",
+        "1 1/2",
+        "1.5"
+      ],
+      "tier": 1,
+      "rating": 684
+    },
+    "17": {
+      "display": "8π cm",
+      "accept": [
+        "8pi",
+        "8π",
+        "8 pi",
+        "8π cm"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "18": {
+      "display": "25π cm²",
+      "accept": [
+        "25pi",
+        "25π",
+        "25 pi",
+        "25π cm2",
+        "25π cm²"
+      ],
+      "tier": 1,
+      "rating": 707
+    },
+    "19": {
+      "display": "7/10",
+      "accept": [
+        "7/10"
+      ],
+      "tier": 1,
+      "rating": 718
+    },
+    "20": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "0.5"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "21": {
+      "display": "10π cm",
+      "accept": [
+        "10pi",
+        "10π",
+        "10 pi",
+        "10π cm"
+      ],
+      "tier": 1,
+      "rating": 798
+    },
+    "22": {
+      "display": "2/5",
+      "accept": [
+        "2/5"
+      ],
+      "tier": 1,
+      "rating": 855
+    },
+    "23": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "24": {
+      "display": "36π cm²",
+      "accept": [
+        "36pi",
+        "36π",
+        "36 pi",
+        "36π cm2",
+        "36π cm²"
+      ],
+      "tier": 1,
+      "rating": 817
+    },
+    "25": {
+      "display": "5/8",
+      "accept": [
+        "5/8"
+      ],
+      "tier": 1,
+      "rating": 983
+    },
+    "26": {
+      "display": "3/2 (1 1/2)",
+      "accept": [
+        "3/2",
+        "1 1/2",
+        "1.5"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "27": {
+      "display": "π's decimal never ends, so 18.849... is only a rounded approximation, while 6π keeps the answer completely exact with no rounding.",
+      "accept": [
+        "exact",
+        "no rounding",
+        "approximation"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "28": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 957
+    },
+    "29": {
+      "display": "Mistake: she added numerators and denominators separately instead of finding a common denominator. Correct: 1/2 + 1/3 = 3/6 + 2/6 = 5/6.",
+      "accept": [
+        "5/6"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1168
+    },
+    "30": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1378
+    },
+    "31": {
+      "display": "Working exactly with fractions gives exactly 1/2, keeping the answer exact; rounding decimals at intermediate steps risks introducing small errors.",
+      "accept": [
+        "exact",
+        "fractions",
+        "1/2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "32": {
+      "display": "49π m²",
+      "accept": [
+        "49pi",
+        "49π",
+        "49 pi",
+        "49π m2",
+        "49π m²"
+      ],
+      "tier": 3,
+      "rating": 1506
+    },
+    "33": {
+      "display": "5/12",
+      "accept": [
+        "5/12"
+      ],
+      "tier": 3,
+      "rating": 1709
+    },
+    "34": {
+      "display": "2π m",
+      "accept": [
+        "2pi",
+        "2π",
+        "2 pi",
+        "2π m"
+      ],
+      "tier": 3,
+      "rating": 1608
+    },
+    "35": {
+      "display": "1 cup",
+      "accept": [
+        "1",
+        "1 cup"
+      ],
+      "tier": 3,
+      "rating": 1730
+    },
+    "36": {
+      "display": "34π m²",
+      "accept": [
+        "34pi",
+        "34π",
+        "34 pi",
+        "34π m2",
+        "34π m²"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "3 1/2",
+      "accept": [
+        "3 1/2",
+        "7/2",
+        "3.5"
+      ],
+      "tier": 3,
+      "rating": 1836
+    },
+    "38": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5cm",
+        "5 cm"
+      ],
+      "tier": 3,
+      "rating": 1964
+    },
+    "39": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10cm",
+        "10 cm"
+      ],
+      "tier": 3,
+      "rating": 1982
+    },
+    "40": {
+      "display": "5/4 (1 1/4)",
+      "accept": [
+        "5/4",
+        "1 1/4",
+        "1.25"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "3/4",
+      "accept": [
+        "3/4",
+        "0.75"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "Yes — an exact answer like in terms of π has no rounding error, while a decimal approximation is always slightly off because π's decimal expansion never ends.",
+      "accept": [
+        "yes",
+        "correct",
+        "no rounding"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 946
+    },
+    "43": {
+      "display": "3/4",
+      "accept": [
+        "3/4",
+        "3 over 4",
+        "0.75"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "0.5"
+      ],
+      "tier": 1,
+      "rating": 781
+    },
+    "45": {
+      "display": "1/2",
+      "accept": [
+        "1/2"
+      ],
+      "tier": 1,
+      "rating": 812
+    },
+    "46": {
+      "display": "16π cm",
+      "accept": [
+        "16pi",
+        "16π",
+        "16 pi"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "47": {
+      "display": "3/10",
+      "accept": [
+        "3/10"
+      ],
+      "tier": 1,
+      "rating": 874
+    },
+    "48": {
+      "display": "3/8",
+      "accept": [
+        "3/8"
+      ],
+      "tier": 1,
+      "rating": 905
+    },
+    "49": {
+      "display": "36π cm²",
+      "accept": [
+        "36pi",
+        "36π",
+        "36 pi"
+      ],
+      "tier": 1,
+      "rating": 936
+    },
+    "50": {
+      "display": "3 3/4",
+      "accept": [
+        "3 3/4",
+        "15/4",
+        "3.75"
+      ],
+      "tier": 1,
+      "rating": 967
+    },
+    "51": {
+      "display": "2/3",
+      "accept": [
+        "2/3"
+      ],
+      "tier": 1,
+      "rating": 998
+    },
+    "52": {
+      "display": "20π cm",
+      "accept": [
+        "20pi",
+        "20π",
+        "20 pi"
+      ],
+      "tier": 1,
+      "rating": 1029
+    },
+    "53": {
+      "display": "13/12",
+      "accept": [
+        "13/12"
+      ],
+      "tier": 1,
+      "rating": 1060
+    },
+    "54": {
+      "display": "1/6",
+      "accept": [
+        "1/6"
+      ],
+      "tier": 1,
+      "rating": 1090
+    },
+    "55": {
+      "display": "9π cm²",
+      "accept": [
+        "9pi",
+        "9π",
+        "9 pi"
+      ],
+      "tier": 1,
+      "rating": 1121
+    },
+    "56": {
+      "display": "1 1/6",
+      "accept": [
+        "1 1/6",
+        "7/6"
+      ],
+      "tier": 1,
+      "rating": 1152
+    },
+    "57": {
+      "display": "6/5",
+      "accept": [
+        "6/5",
+        "1 1/5"
+      ],
+      "tier": 1,
+      "rating": 1183
+    },
+    "58": {
+      "display": "7π cm",
+      "accept": [
+        "7pi",
+        "7π",
+        "7 pi"
+      ],
+      "tier": 1,
+      "rating": 1214
+    },
+    "59": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 1,
+      "rating": 1245
+    },
+    "60": {
+      "display": "3/10",
+      "accept": [
+        "3/10"
+      ],
+      "tier": 1,
+      "rating": 1276
+    },
+    "61": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10cm"
+      ],
+      "tier": 1,
+      "rating": 1307
+    },
+    "62": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 1,
+      "rating": 1338
+    },
+    "63": {
+      "display": "11/8",
+      "accept": [
+        "11/8",
+        "1 3/8"
+      ],
+      "tier": 1,
+      "rating": 1369
+    },
+    "64": {
+      "display": "7 cm",
+      "accept": [
+        "7",
+        "7cm"
+      ],
+      "tier": 1,
+      "rating": 1400
+    },
+    "65": {
+      "display": "1/4",
+      "accept": [
+        "1/4"
+      ],
+      "tier": 1,
+      "rating": 730
+    },
+    "66": {
+      "display": "36π cm²",
+      "accept": [
+        "36pi",
+        "36π"
+      ],
+      "tier": 1,
+      "rating": 752
+    },
+    "67": {
+      "display": "1/4",
+      "accept": [
+        "1/4"
+      ],
+      "tier": 1,
+      "rating": 764
+    },
+    "68": {
+      "display": "2/3",
+      "accept": [
+        "2/3"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "69": {
+      "display": "20π cm",
+      "accept": [
+        "20pi",
+        "20π"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "70": {
+      "display": "3 19/20",
+      "accept": [
+        "3 19/20",
+        "79/20"
+      ],
+      "tier": 1,
+      "rating": 809
+    },
+    "71": {
+      "display": "1/6",
+      "accept": [
+        "1/6"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "72": {
+      "display": "144π cm²",
+      "accept": [
+        "144pi",
+        "144π"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "73": {
+      "display": "17/12",
+      "accept": [
+        "17/12",
+        "1 5/12"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "74": {
+      "display": "3/2",
+      "accept": [
+        "3/2",
+        "1 1/2"
+      ],
+      "tier": 1,
+      "rating": 866
+    },
+    "75": {
+      "display": "18 cm",
+      "accept": [
+        "18",
+        "18cm"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "76": {
+      "display": "7/10",
+      "accept": [
+        "7/10"
+      ],
+      "tier": 1,
+      "rating": 889
+    },
+    "77": {
+      "display": "2 1/2",
+      "accept": [
+        "2 1/2",
+        "5/2"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "78": {
+      "display": "16 cm",
+      "accept": [
+        "16",
+        "16cm"
+      ],
+      "tier": 1,
+      "rating": 911
+    },
+    "79": {
+      "display": "7/12",
+      "accept": [
+        "7/12"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "80": {
+      "display": "3/2",
+      "accept": [
+        "3/2"
+      ],
+      "tier": 1,
+      "rating": 934
+    },
+    "81": {
+      "display": "30π cm",
+      "accept": [
+        "30pi",
+        "30π"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "82": {
+      "display": "29/24",
+      "accept": [
+        "29/24",
+        "1 5/24"
+      ],
+      "tier": 1,
+      "rating": 957
+    },
+    "83": {
+      "display": "5/6",
+      "accept": [
+        "5/6"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "84": {
+      "display": "11 cm",
+      "accept": [
+        "11",
+        "11cm"
+      ],
+      "tier": 1,
+      "rating": 980
+    },
+    "85": {
+      "display": "1 5/12",
+      "accept": [
+        "1 5/12",
+        "17/12"
+      ],
+      "tier": 1,
+      "rating": 991
+    },
+    "86": {
+      "display": "3/2",
+      "accept": [
+        "3/2"
+      ],
+      "tier": 1,
+      "rating": 1002
+    },
+    "87": {
+      "display": "9π cm",
+      "accept": [
+        "9pi",
+        "9π"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "88": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 1,
+      "rating": 1025
+    },
+    "89": {
+      "display": "2/3",
+      "accept": [
+        "2/3"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "90": {
+      "display": "7π cm",
+      "accept": [
+        "7pi",
+        "7π"
+      ],
+      "tier": 1,
+      "rating": 1048
+    },
+    "91": {
+      "display": "7/15",
+      "accept": [
+        "7/15"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "92": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 1070
+    },
+    "93": {
+      "display": "400π cm²",
+      "accept": [
+        "400pi",
+        "400π"
+      ],
+      "tier": 1,
+      "rating": 1082
+    },
+    "94": {
+      "display": "41/36",
+      "accept": [
+        "41/36",
+        "1 5/36"
+      ],
+      "tier": 1,
+      "rating": 1093
+    },
+    "95": {
+      "display": "4/3",
+      "accept": [
+        "4/3",
+        "1 1/3"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "96": {
+      "display": "15 cm",
+      "accept": [
+        "15",
+        "15cm"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "97": {
+      "display": "4/9",
+      "accept": [
+        "4/9"
+      ],
+      "tier": 1,
+      "rating": 1127
+    },
+    "98": {
+      "display": "4/3",
+      "accept": [
+        "4/3"
+      ],
+      "tier": 1,
+      "rating": 1139
+    },
+    "99": {
+      "display": "52π cm²",
+      "accept": [
+        "52pi",
+        "52π"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "100": {
+      "display": "No — correct answer is 5/6; add numerators only after a common denominator",
+      "accept": [
+        "no",
+        "5/6",
+        "not 2/5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 919
+    },
+    "101": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 938
+    },
+    "102": {
+      "display": "Yes — 2/6 simplifies to 1/6",
+      "accept": [
+        "yes",
+        "1/6",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 976
+    },
+    "103": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 996
+    },
+    "104": {
+      "display": "Dividing by 1/2 is the same as multiplying by 2, so 3/4 × 2 = 3/2",
+      "accept": [
+        "3/2",
+        "multiply by 2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1015
+    },
+    "105": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1034
+    },
+    "106": {
+      "display": "Area is πr² = 25π cm², not 5π cm²",
+      "accept": [
+        "25pi",
+        "25π",
+        "not 5pi"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1053
+    },
+    "107": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1072
+    },
+    "108": {
+      "display": "Simplify 6/12 to 1/2",
+      "accept": [
+        "1/2",
+        "simplify"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1091
+    },
+    "109": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1110
+    },
+    "110": {
+      "display": "Both formulas give the same distance around the circle",
+      "accept": [
+        "same",
+        "equal",
+        "circumference"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1129
+    },
+    "111": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1149
+    },
+    "112": {
+      "display": "Yes — half the circumference 2πr is πr",
+      "accept": [
+        "yes",
+        "correct",
+        "pi r"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1187
+    },
+    "113": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1206
+    },
+    "114": {
+      "display": "Common denominator lets you add the numerators: 3/12 + 2/12 = 5/12",
+      "accept": [
+        "common denominator",
+        "5/12"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "115": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1244
+    },
+    "116": {
+      "display": "Yes — convert mixed numbers to improper fractions before multiplying",
+      "accept": [
+        "yes",
+        "improper",
+        "good"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1263
+    },
+    "117": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1282
+    },
+    "118": {
+      "display": "100π cm² is exact; 314 cm² is rounded",
+      "accept": [
+        "100pi",
+        "100π",
+        "exact"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1301
+    },
+    "119": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1321
+    },
+    "120": {
+      "display": "4/5 ÷ 2/5 = 4/5 × 5/2 = 2",
+      "accept": [
+        "2",
+        "multiply reciprocal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1340
+    },
+    "121": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1359
+    },
+    "122": {
+      "display": "No — 1/8 + 1/8 = 2/8 = 1/4 in simplest form",
+      "accept": [
+        "no",
+        "1/4",
+        "simplest"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1397
+    },
+    "123": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1416
+    },
+    "124": {
+      "display": "Exact π answers keep π; calculator decimals are approximations",
+      "accept": [
+        "exact",
+        "approximation",
+        "pi"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1435
+    },
+    "125": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1454
+    },
+    "126": {
+      "display": "1/2 of 30 means 1/2 × 30 = 15",
+      "accept": [
+        "15",
+        "half",
+        "multiply"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1474
+    },
+    "127": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1493
+    },
+    "128": {
+      "display": "1/4 = 3/12, so add to 7/12 to get common denominator 12",
+      "accept": [
+        "3/12",
+        "12",
+        "common denominator"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1512
+    },
+    "129": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1531
+    },
+    "130": {
+      "display": "49π m² and 14π m",
+      "accept": [
+        "49pi",
+        "14pi",
+        "49π",
+        "14π"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1100
+    },
+    "131": {
+      "display": "5/3 cups",
+      "accept": [
+        "5/3",
+        "1 2/3"
+      ],
+      "tier": 3,
+      "rating": 1120
+    },
+    "132": {
+      "display": "3/8",
+      "accept": [
+        "3/8"
+      ],
+      "tier": 3,
+      "rating": 1141
+    },
+    "133": {
+      "display": "1.2π m",
+      "accept": [
+        "1.2pi",
+        "1.2π",
+        "6pi/5"
+      ],
+      "tier": 3,
+      "rating": 1161
+    },
+    "134": {
+      "display": "16π cm²",
+      "accept": [
+        "16pi",
+        "16π"
+      ],
+      "tier": 3,
+      "rating": 1181
+    },
+    "135": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 3,
+      "rating": 1202
+    },
+    "136": {
+      "display": "70π cm",
+      "accept": [
+        "70pi",
+        "70π"
+      ],
+      "tier": 3,
+      "rating": 1222
+    },
+    "137": {
+      "display": "3 1/2",
+      "accept": [
+        "3 1/2",
+        "7/2",
+        "3.5"
+      ],
+      "tier": 3,
+      "rating": 1242
+    },
+    "138": {
+      "display": "10π cm",
+      "accept": [
+        "10pi",
+        "10π"
+      ],
+      "tier": 3,
+      "rating": 1263
+    },
+    "139": {
+      "display": "72 litres",
+      "accept": [
+        "72",
+        "72 litres"
+      ],
+      "tier": 3,
+      "rating": 1283
+    },
+    "140": {
+      "display": "18π cm",
+      "accept": [
+        "18pi",
+        "18π"
+      ],
+      "tier": 3,
+      "rating": 1303
+    },
+    "141": {
+      "display": "5/4",
+      "accept": [
+        "5/4",
+        "1 1/4"
+      ],
+      "tier": 3,
+      "rating": 1323
+    },
+    "142": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 3,
+      "rating": 1344
+    },
+    "143": {
+      "display": "29π cm²",
+      "accept": [
+        "29pi",
+        "29π"
+      ],
+      "tier": 3,
+      "rating": 1364
+    },
+    "144": {
+      "display": "15/4",
+      "accept": [
+        "15/4",
+        "3 3/4"
+      ],
+      "tier": 3,
+      "rating": 1384
+    },
+    "145": {
+      "display": "12π cm",
+      "accept": [
+        "12pi",
+        "12π"
+      ],
+      "tier": 3,
+      "rating": 1405
+    },
+    "146": {
+      "display": "1 7/24",
+      "accept": [
+        "1 7/24",
+        "31/24"
+      ],
+      "tier": 3,
+      "rating": 1425
+    },
+    "147": {
+      "display": "144π m²",
+      "accept": [
+        "144pi",
+        "144π"
+      ],
+      "tier": 3,
+      "rating": 1445
+    },
+    "148": {
+      "display": "5/6",
+      "accept": [
+        "5/6"
+      ],
+      "tier": 3,
+      "rating": 1466
+    },
+    "149": {
+      "display": "120 minutes",
+      "accept": [
+        "120",
+        "2 hours"
+      ],
+      "tier": 3,
+      "rating": 1486
+    },
+    "150": {
+      "display": "πd²/4",
+      "accept": [
+        "pi d^2/4",
+        "πd²/4",
+        "pi d squared over 4"
+      ],
+      "tier": 3,
+      "rating": 1527
+    },
+    "151": {
+      "display": "7/20",
+      "accept": [
+        "7/20"
+      ],
+      "tier": 3,
+      "rating": 1547
+    },
+    "152": {
+      "display": "7/12",
+      "accept": [
+        "7/12"
+      ],
+      "tier": 3,
+      "rating": 1567
+    },
+    "153": {
+      "display": "50π m",
+      "accept": [
+        "50pi",
+        "50π"
+      ],
+      "tier": 3,
+      "rating": 1588
+    },
+    "154": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 3,
+      "rating": 1628
+    },
+    "155": {
+      "display": "24π cm",
+      "accept": [
+        "24pi",
+        "24π"
+      ],
+      "tier": 3,
+      "rating": 1648
+    },
+    "156": {
+      "display": "3/2",
+      "accept": [
+        "3/2"
+      ],
+      "tier": 3,
+      "rating": 1669
+    },
+    "157": {
+      "display": "26 + 3π cm",
+      "accept": [
+        "26+3pi",
+        "26 + 3π",
+        "26+3π"
+      ],
+      "tier": 3,
+      "rating": 1689
+    },
+    "158": {
+      "display": "4 1/2",
+      "accept": [
+        "4 1/2",
+        "9/2"
+      ],
+      "tier": 3,
+      "rating": 1400
+    },
+    "159": {
+      "display": "10√2 cm",
+      "accept": [
+        "10 root 2",
+        "10√2",
+        "sqrt 200"
+      ],
+      "tier": 3,
+      "rating": 1418
+    },
+    "160": {
+      "display": "3/5",
+      "accept": [
+        "3/5"
+      ],
+      "tier": 3,
+      "rating": 1436
+    },
+    "161": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1455
+    },
+    "162": {
+      "display": "15/16",
+      "accept": [
+        "15/16"
+      ],
+      "tier": 3,
+      "rating": 1473
+    },
+    "163": {
+      "display": "49π cm²",
+      "accept": [
+        "49pi",
+        "49π"
+      ],
+      "tier": 3,
+      "rating": 1491
+    },
+    "164": {
+      "display": "1 19/24",
+      "accept": [
+        "1 19/24",
+        "43/24"
+      ],
+      "tier": 3,
+      "rating": 1509
+    },
+    "165": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 3,
+      "rating": 1527
+    },
+    "166": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1545
+    },
+    "167": {
+      "display": "56.25π m²",
+      "accept": [
+        "56.25pi",
+        "225pi/4",
+        "56.25π"
+      ],
+      "tier": 3,
+      "rating": 1564
+    },
+    "168": {
+      "display": "3/8",
+      "accept": [
+        "3/8"
+      ],
+      "tier": 3,
+      "rating": 1582
+    },
+    "169": {
+      "display": "24π cm²",
+      "accept": [
+        "24pi",
+        "24π"
+      ],
+      "tier": 3,
+      "rating": 1600
+    },
+    "170": {
+      "display": "31/12",
+      "accept": [
+        "31/12",
+        "2 7/12"
+      ],
+      "tier": 3,
+      "rating": 1618
+    },
+    "171": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1636
+    },
+    "172": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 3,
+      "rating": 1655
+    },
+    "173": {
+      "display": "24 + 4π cm",
+      "accept": [
+        "24+4pi",
+        "24 + 4π"
+      ],
+      "tier": 3,
+      "rating": 1673
+    },
+    "174": {
+      "display": "11/40",
+      "accept": [
+        "11/40"
+      ],
+      "tier": 3,
+      "rating": 1691
+    },
+    "175": {
+      "display": "πr/2",
+      "accept": [
+        "pi r/2",
+        "πr/2"
+      ],
+      "tier": 3,
+      "rating": 1709
+    },
+    "176": {
+      "display": "2/7",
+      "accept": [
+        "2/7"
+      ],
+      "tier": 3,
+      "rating": 1727
+    },
+    "177": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1745
+    },
+    "178": {
+      "display": "5 1/4",
+      "accept": [
+        "5 1/4",
+        "21/4"
+      ],
+      "tier": 3,
+      "rating": 1764
+    },
+    "179": {
+      "display": "10π cm",
+      "accept": [
+        "10pi",
+        "10π"
+      ],
+      "tier": 3,
+      "rating": 1782
+    },
+    "180": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 3,
+      "rating": 1800
+    },
+    "181": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1818
+    },
+    "182": {
+      "display": "3/2",
+      "accept": [
+        "3/2"
+      ],
+      "tier": 3,
+      "rating": 1855
+    },
+    "183": {
+      "display": "198π cm",
+      "accept": [
+        "198pi",
+        "198π"
+      ],
+      "tier": 3,
+      "rating": 1873
+    },
+    "184": {
+      "display": "1/2",
+      "accept": [
+        "1/2"
+      ],
+      "tier": 3,
+      "rating": 1891
+    },
+    "185": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1909
+    },
+    "186": {
+      "display": "17/24",
+      "accept": [
+        "17/24"
+      ],
+      "tier": 3,
+      "rating": 1927
+    },
+    "187": {
+      "display": "625π cm²",
+      "accept": [
+        "625pi",
+        "625π"
+      ],
+      "tier": 3,
+      "rating": 1945
+    },
+    "188": {
+      "display": "1/2",
+      "accept": [
+        "1/2"
+      ],
+      "tier": 3,
+      "rating": 993
+    },
+    "189": {
+      "display": "81π cm²",
+      "accept": [
+        "81pi",
+        "81π"
+      ],
+      "tier": 3,
+      "rating": 1039
+    },
+    "190": {
+      "display": "3/8",
+      "accept": [
+        "3/8"
+      ],
+      "tier": 3,
+      "rating": 1086
+    },
+    "191": {
+      "display": "7/10",
+      "accept": [
+        "7/10"
+      ],
+      "tier": 3,
+      "rating": 1132
+    },
+    "192": {
+      "display": "18π cm",
+      "accept": [
+        "18pi",
+        "18π"
+      ],
+      "tier": 3,
+      "rating": 1179
+    },
+    "193": {
+      "display": "3/2",
+      "accept": [
+        "3/2"
+      ],
+      "tier": 3,
+      "rating": 1225
+    },
+    "194": {
+      "display": "3 11/12",
+      "accept": [
+        "3 11/12",
+        "47/12"
+      ],
+      "tier": 3,
+      "rating": 1271
+    },
+    "195": {
+      "display": "26π cm",
+      "accept": [
+        "26pi",
+        "26π"
+      ],
+      "tier": 3,
+      "rating": 1318
+    },
+    "196": {
+      "display": "1/10",
+      "accept": [
+        "1/10"
+      ],
+      "tier": 3,
+      "rating": 1364
+    },
+    "197": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1411
+    },
+    "198": {
+      "display": "1/15",
+      "accept": [
+        "1/15"
+      ],
+      "tier": 3,
+      "rating": 1457
+    },
+    "199": {
+      "display": "12π cm",
+      "accept": [
+        "12pi",
+        "12π"
+      ],
+      "tier": 3,
+      "rating": 1504
+    },
+    "200": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 3,
+      "rating": 1550
+    }
+  }
+}

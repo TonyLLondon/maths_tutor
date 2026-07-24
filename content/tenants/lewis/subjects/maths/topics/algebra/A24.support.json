@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Next square after 9 is 4².",
+      "help": "**16**.\n\nSquare numbers 1,4,9,16.\n\n16.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "2": {
+      "hint": "Next odd after 5.",
+      "help": "**7**.\n\nAdd 2.\n\n7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "Next even after 6.",
+      "help": "**8**.\n\n+2 evens.\n\n8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "Double 4.",
+      "help": "**8**.\n\n1,2,4,8.\n\n8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "$2^2$.",
+      "help": "**4**.\n\nSquare.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "$3^2$.",
+      "help": "**9**.\n\nSquare of 3.\n\n9.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "Which equals 3×3?",
+      "help": "**9** is square; 6 is not.\n\nPerfect square.\n\n9.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "8": {
+      "hint": "Add last two Fibonacci terms 3+5.",
+      "help": "Next **8**.\n\n1,1,2,3,5,8.\n\n8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "9": {
+      "hint": "List $1^2$ through $5^2$.",
+      "help": "**1, 4, 9, 16, 25**.\n\nFirst five squares.\n\nList.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "Cubes $1^3$ to $5^3$.",
+      "help": "**1, 8, 27, 64, 125**.\n\nCube sequence.\n\nFive cubes.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "11": {
+      "hint": "Triangular: 1, 1+2, 1+2+3…",
+      "help": "**1, 3, 6, 10, 15**.\n\nDot triangle numbers.\n\nList.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "12": {
+      "hint": "$8^2$.",
+      "help": "**64**.\n\nEighth square.\n\n64.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "$4^3$.",
+      "help": "**64**.\n\nFourth cube.\n\n64.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "14": {
+      "hint": "Sum 1+2+3+4+5+6.",
+      "help": "6th triangular **21**.\n\nAdd 1 through 6.\n\n21.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "15": {
+      "hint": "Each term is sum of previous two.",
+      "help": "**1, 1, 2, 3, 5, 8**.\n\nFibonacci six terms.\n\nList.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "16": {
+      "hint": "Is 49 a perfect square?",
+      "help": "**Yes** — $7^2=49$.\n\nWhole number root.\n\nSquare.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "$3^3=27$.",
+      "help": "**Yes** — 27 is cube of 3.\n\nCube number.\n\nYes.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "18": {
+      "hint": "Start 3, double each time.",
+      "help": "**3, 6, 12, 24, 48**.\n\n×2 from 3.\n\nFive terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "19": {
+      "hint": "$4^2=16$ fills gap.",
+      "help": "Missing **16**.\n\nSquare table.\n\n16.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "Next triangular after 10.",
+      "help": "**15**.\n\n1,3,6,10,15.\n\n15.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "21": {
+      "hint": "Double: 32, 64.",
+      "help": "**32, 64**.\n\nPowers of 2.\n\nTwo terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "Next squares 25, 36.",
+      "help": "**25, 36**.\n\nSquare sequence.\n\nTwo terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "23": {
+      "hint": "$6^2=36$ even — squares can be even.",
+      "help": "Sam wrong — **36** is even square.\n\nEven bases give even squares.\n\nCounterexample."
+    },
+    "24": {
+      "hint": "Try $1^2+2^2=5$.",
+      "help": "**Sometimes** — 5 not square; $3^2+4^2=25=5^2$ sometimes works.\n\nNot always square.\n\nSometimes."
+    },
+    "25": {
+      "hint": "$6+10=16=4^2$.",
+      "help": "The next consecutive triangular numbers are 6 and 10. Their sum is $6+10=16=4^2$, so the observed pattern continues for this test.\n\nIn general, consecutive triangular numbers satisfy $T_n+T_{n+1}=(n+1)^2$, so their sum is always a square number."
+    },
+    "26": {
+      "hint": "Compare small squares and cubes lists.",
+      "help": "List the small squares and cubes until a value appears in both lists.\n\nThe first shared value greater than 1 is 64 because $8^2=64$ and $4^3=64$.\n\nShowing both powers proves that 64 belongs to both sequences."
+    },
+    "27": {
+      "hint": "Is 8 a square?",
+      "help": "**False** — 8 is cube not square.\n\nNot every cube is square.\n\nFalse."
+    },
+    "28": {
+      "hint": "Fibonacci adds previous two — not double.",
+      "help": "Correct rule: **add last two terms**.\n\nNot ×2.\n\nExplain Fibonacci."
+    },
+    "29": {
+      "hint": "5th square 25 vs 5th triangular 15.",
+      "help": "Square **25** bigger by **10**.\n\nCompare values.\n\n25 vs 15.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "30": {
+      "hint": "List squares 1 to 10² check last digits.",
+      "help": "Mo **correct** for integer squares — endings 0,1,4,5,6,9 only.\n\nTest first ten.\n\nVerified."
+    },
+    "31": {
+      "hint": "7th triangular = 1+2+…+7.",
+      "help": "**28** dots.\n\nSum 1 to 7.\n\n28.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "32": {
+      "hint": "$5×5×5$ unit cubes.",
+      "help": "**125** cubes.\n\nVolume $n^3$.\n\n125.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "33": {
+      "hint": "9th square pattern side 9.",
+      "help": "**81** tiles ($9^2$).\n\nSquare number.\n\n81.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "34": {
+      "hint": "Week 5 amount only: 2×2×2×2×2.",
+      "help": "Week 5 save **£32** that week only (2,4,8,16,32).\n\nDoubling weekly amount.\n\n£32."
+    },
+    "35": {
+      "hint": "Triangular sum 1+2+…+8.",
+      "help": "**36** cans.\n\n8th triangular.\n\n36.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "36": {
+      "hint": "$10^2-9^2=100-81$.",
+      "help": "Difference **19** — consecutive squares differ by odd numbers $2n+1$ pattern.\n\nExplain odd gap.\n\n19."
+    },
+    "37": {
+      "hint": "Check sums 1, 1+3, 1+3+5, 1+3+5+7 vs $n^2$.",
+      "help": "Matches **1,4,9,16** for n=1..4.\n\nOdd sum identity.\n\nShow four checks."
+    },
+    "38": {
+      "hint": "Search square triangular numbers.",
+      "help": "Compare triangular numbers $1,3,6,10,15,21,28,36,\\ldots$ with square numbers $1,4,9,16,25,36,\\ldots$.\n\nAfter 1, the first common value is 36. It is square because $6^2=36$, and triangular because $1+2+\\cdots+8=36$."
+    },
+    "39": {
+      "hint": "6th term 8, 5th term 5 — ratio 8/5.",
+      "help": "Ratio **1.60** to 2 d.p.\n\n8÷5.\n\n1.60.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "40": {
+      "hint": "Invent rule using squares/cubes/Fibonacci.",
+      "help": "Give five terms + clear rule.\n\nNot plain +k each time.\n\nYour sequence."
+    },
+    "41": {
+      "hint": "Which list is perfect squares?",
+      "help": "**1,4,9,16** — not 3,6,9,12 (+3).\n\nIdentify squares.\n\nSecond list."
+    },
+    "42": {
+      "hint": "Plug $n=5$ into $n(n+1)/2$.",
+      "help": "$5×6/2=**15**$.\n\nTriangular formula.\n\n15.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "43": {
+      "hint": "Add the same amount each time.",
+      "help": "The gap between consecutive terms is 1.\n\nKeep adding 1 three times to continue the pattern.\n\nListing terms helps before finding an nth term rule."
+    },
+    "44": {
+      "hint": "Add the same amount each time.",
+      "help": "The gap between consecutive terms is 2.\n\nKeep adding 2 three times to continue the pattern.\n\nListing terms helps before finding an nth term rule."
+    },
+    "45": {
+      "hint": "A24 Q45: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "46": {
+      "hint": "A24 Q46: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "47": {
+      "hint": "A24 Q47: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "48": {
+      "hint": "A24 Q48: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "49": {
+      "hint": "A24 Q49: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "50": {
+      "hint": "A24 Q50: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "51": {
+      "hint": "A24 Q51: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "52": {
+      "hint": "A24 Q52: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "53": {
+      "hint": "A24 Q53: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "54": {
+      "hint": "A24 Q54: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "55": {
+      "hint": "A24 Q55: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "56": {
+      "hint": "A24 Q56: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "57": {
+      "hint": "A24 Q57: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "58": {
+      "hint": "A24 Q58: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "59": {
+      "hint": "A24 Q59: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "60": {
+      "hint": "A24 Q60: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "61": {
+      "hint": "A24 Q61: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "62": {
+      "hint": "A24 Q62: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "63": {
+      "hint": "A24 Q63: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "64": {
+      "hint": "A24 Q64: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "65": {
+      "hint": "A24 Q65: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "66": {
+      "hint": "A24 Q66: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "67": {
+      "hint": "A24 Q67: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "68": {
+      "hint": "A24 Q68: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "69": {
+      "hint": "A24 Q69: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "70": {
+      "hint": "A24 Q70: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "71": {
+      "hint": "A24 Q71: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "72": {
+      "hint": "A24 Q72: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "73": {
+      "hint": "A24 Q73: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "74": {
+      "hint": "A24 Q74: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "75": {
+      "hint": "A24 Q75: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "76": {
+      "hint": "A24 Q76: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "77": {
+      "hint": "A24 Q77: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "78": {
+      "hint": "A24 Q78: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "79": {
+      "hint": "A24 Q79: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "80": {
+      "hint": "A24 Q80: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "81": {
+      "hint": "A24 Q81: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "82": {
+      "hint": "A24 Q82: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "83": {
+      "hint": "A24 Q83: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "84": {
+      "hint": "A24 Q84: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "85": {
+      "hint": "A24 Q85: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "86": {
+      "hint": "A24 Q86: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "87": {
+      "hint": "A24 Q87: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "88": {
+      "hint": "A24 Q88: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "89": {
+      "hint": "A24 Q89: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "90": {
+      "hint": "A24 Q90: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "91": {
+      "hint": "A24 Q91: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "92": {
+      "hint": "A24 Q92: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "93": {
+      "hint": "A24 Q93: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "94": {
+      "hint": "A24 Q94: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "95": {
+      "hint": "A24 Q95: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "96": {
+      "hint": "A24 Q96: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "97": {
+      "hint": "A24 Q97: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "98": {
+      "hint": "A24 Q98: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "99": {
+      "hint": "A24 Q99: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "100": {
+      "hint": "A24 Q100: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "101": {
+      "hint": "A24 Q101: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "102": {
+      "hint": "A24 Q102: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "103": {
+      "hint": "A24 Q103: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "104": {
+      "hint": "A24 Q104: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "105": {
+      "hint": "A24 Q105: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "106": {
+      "hint": "A24 Q106: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "107": {
+      "hint": "A24 Q107: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "108": {
+      "hint": "A24 Q108: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "109": {
+      "hint": "A24 Q109: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "110": {
+      "hint": "A24 Q110: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "111": {
+      "hint": "A24 Q111: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "112": {
+      "hint": "A24 Q112: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "113": {
+      "hint": "A24 Q113: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "114": {
+      "hint": "A24 Q114: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "115": {
+      "hint": "A24 Q115: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "116": {
+      "hint": "A24 Q116: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "117": {
+      "hint": "A24 Q117: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "118": {
+      "hint": "A24 Q118: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "119": {
+      "hint": "A24 Q119: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "120": {
+      "hint": "A24 Q120: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "121": {
+      "hint": "A24 Q121: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "122": {
+      "hint": "A24 Q122: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "123": {
+      "hint": "A24 Q123: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "124": {
+      "hint": "A24 Q124: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "125": {
+      "hint": "A24 Q125: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "126": {
+      "hint": "A24 Q126: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "127": {
+      "hint": "A24 Q127: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "128": {
+      "hint": "A24 Q128: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "129": {
+      "hint": "A24 Q129: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "130": {
+      "hint": "A24 Q130: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "131": {
+      "hint": "A24 Q131: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "132": {
+      "hint": "A24 Q132: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "133": {
+      "hint": "A24 Q133: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "134": {
+      "hint": "A24 Q134: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "135": {
+      "hint": "A24 Q135: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "136": {
+      "hint": "A24 Q136: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "137": {
+      "hint": "A24 Q137: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "138": {
+      "hint": "A24 Q138: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "139": {
+      "hint": "A24 Q139: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "140": {
+      "hint": "A24 Q140: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "141": {
+      "hint": "A24 Q141: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "142": {
+      "hint": "A24 Q142: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "143": {
+      "hint": "A24 Q143: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "144": {
+      "hint": "A24 Q144: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "145": {
+      "hint": "A24 Q145: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "146": {
+      "hint": "A24 Q146: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "147": {
+      "hint": "A24 Q147: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "148": {
+      "hint": "A24 Q148: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "149": {
+      "hint": "A24 Q149: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "150": {
+      "hint": "A24 Q150: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "151": {
+      "hint": "A24 Q151: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "152": {
+      "hint": "A24 Q152: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "153": {
+      "hint": "A24 Q153: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "154": {
+      "hint": "A24 Q154: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "155": {
+      "hint": "A24 Q155: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "156": {
+      "hint": "A24 Q156: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "157": {
+      "hint": "A24 Q157: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "158": {
+      "hint": "A24 Q158: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "159": {
+      "hint": "A24 Q159: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "160": {
+      "hint": "A24 Q160: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "161": {
+      "hint": "A24 Q161: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "162": {
+      "hint": "A24 Q162: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "163": {
+      "hint": "A24 Q163: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "164": {
+      "hint": "A24 Q164: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "165": {
+      "hint": "A24 Q165: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "166": {
+      "hint": "A24 Q166: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "167": {
+      "hint": "A24 Q167: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "168": {
+      "hint": "A24 Q168: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "169": {
+      "hint": "A24 Q169: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "170": {
+      "hint": "A24 Q170: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "171": {
+      "hint": "A24 Q171: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "172": {
+      "hint": "A24 Q172: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "173": {
+      "hint": "A24 Q173: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "174": {
+      "hint": "A24 Q174: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "175": {
+      "hint": "A24 Q175: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "176": {
+      "hint": "A24 Q176: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "177": {
+      "hint": "A24 Q177: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "178": {
+      "hint": "A24 Q178: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "179": {
+      "hint": "A24 Q179: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "180": {
+      "hint": "A24 Q180: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "181": {
+      "hint": "A24 Q181: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "182": {
+      "hint": "A24 Q182: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "183": {
+      "hint": "A24 Q183: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "184": {
+      "hint": "A24 Q184: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "185": {
+      "hint": "A24 Q185: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "186": {
+      "hint": "A24 Q186: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "187": {
+      "hint": "A24 Q187: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "188": {
+      "hint": "A24 Q188: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "189": {
+      "hint": "A24 Q189: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "190": {
+      "hint": "A24 Q190: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "191": {
+      "hint": "A24 Q191: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "192": {
+      "hint": "A24 Q192: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "193": {
+      "hint": "A24 Q193: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "194": {
+      "hint": "A24 Q194: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "195": {
+      "hint": "A24 Q195: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "196": {
+      "hint": "A24 Q196: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "197": {
+      "hint": "A24 Q197: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "198": {
+      "hint": "A24 Q198: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "199": {
+      "hint": "A24 Q199: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "200": {
+      "hint": "A24 Q200: what is the first step on paper?",
+      "help": "Identify whether the pattern is square, triangular, cube, or Fibonacci-style.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    }
+  }
+}

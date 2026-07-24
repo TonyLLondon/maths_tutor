@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Speed = distance ÷ time — include units.",
+      "help": "**10 miles per hour**.\n\n**Example:** 30 km in 2 h → 15 km/h."
+    },
+    "2": {
+      "hint": "Divide 20 metres by 4 seconds.",
+      "help": "**5 m/s**.\n\n**Example:** 100 m in 25 s → 4 m/s.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "3": {
+      "hint": "Speed formula: distance over what?",
+      "help": "**time**.\n\n**Example:** mph = miles ÷ hours.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "4": {
+      "hint": "Distance = speed × time: 3 mph for 2 hours.",
+      "help": "**6 miles**.\n\n**Example:** 60 km/h for 3 h → 180 km.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "5": {
+      "hint": "£4 for 2 kg — divide cost by mass.",
+      "help": "**£2 per kg**.\n\n**Example:** £9 for 3 kg → £3/kg.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "6": {
+      "hint": "Density = mass divided by …?",
+      "help": "**volume**.\n\n**Example:** kg/m³.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "7": {
+      "hint": "6 kg ÷ 2 m³.",
+      "help": "**3 kg/m³**.\n\n**Example:** 10 kg, 5 m³ → 2 kg/m³.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "8": {
+      "hint": "Time = distance ÷ speed.",
+      "help": "$12 \\div 4 = 3$ **hours**.\n\n**Example:** 100 km at 50 km/h → 2 h."
+    },
+    "9": {
+      "hint": "30 miles ÷ 2 hours.",
+      "help": "**15 mph**.\n\n**Example:** 88 km in 4 h → 22 km/h.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "10": {
+      "hint": "5 kg divided by 2 m³.",
+      "help": "**2.5 kg/m³**.\n\n**Example:** 8 kg, 4 m³ → 2.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "11": {
+      "hint": "Distance = 60 × 0.5.",
+      "help": "**30 miles**.\n\n**Example:** 80 km/h × 0.25 h.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "12": {
+      "hint": "Pressure = force ÷ area.",
+      "help": "**area**.\n\n**Example:** N/m².\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "13": {
+      "hint": "120 ÷ 2 mph.",
+      "help": "**60 mph** average.\n\n**Example:** 240 km in 4 h → 60 km/h.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "14": {
+      "hint": "100 m in 20 s — divide.",
+      "help": "**5 m/s**.\n\n**Example:** 400 m in 50 s → 8 m/s.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "15": {
+      "hint": "40 kg ÷ 5 m³.",
+      "help": "**8 kg/m³**.\n\n**Example:** 15 kg, 3 m³ → 5.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "16": {
+      "hint": "15 mph × 4 hours.",
+      "help": "**60 miles**.\n\n**Example:** 8 km/h × 5 h.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "17": {
+      "hint": "90 miles ÷ 3 hours.",
+      "help": "**30 mph**.\n\n**Example:** 150 km in 5 h → 30 km/h.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "18": {
+      "hint": "£6 ÷ 4 kg.",
+      "help": "**£1.50 per kg**.\n\n**Example:** £10 for 2.5 kg → £4/kg.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "19": {
+      "hint": "Multiply m/s by 3.6 to get km/h.",
+      "help": "$20 \\times 3.6 = 72$ **km/h**.\n\n**Example:** 10 m/s → 36 km/h."
+    },
+    "20": {
+      "hint": "Miles per litre = miles ÷ litres.",
+      "help": "$320 \\div 40 = 8$ **miles per litre**.\n\n**Example:** 450 miles, 50 L → 9 mi/L."
+    },
+    "21": {
+      "hint": "250 g ÷ 200 cm³.",
+      "help": "**1.25 g/cm³**.\n\n**Example:** 400 g, 500 cm³ → 0.8.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "22": {
+      "hint": "Time = 150 ÷ 50 hours.",
+      "help": "**3 hours**.\n\n**Example:** 200 km at 80 km/h.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "23": {
+      "hint": "3.5 × £8 per kg.",
+      "help": "**£28**.\n\n**Example:** 2.2 kg at £6/kg.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "24": {
+      "hint": "Does speed = distance ÷ time give 'per' units?",
+      "help": "**Yes** — 'per' means **for each one** unit of time. Mia is correct.\n\n**Example:** km/h, m/s."
+    },
+    "25": {
+      "hint": "Volume = mass ÷ density — can you rearrange?",
+      "help": "**Always** when density ≠ 0.\n\n**Example:** 10 kg, 2 kg/L → 5 L."
+    },
+    "26": {
+      "hint": "Why compare price per kg instead of pack price alone?",
+      "help": "**True** — same unit lets fair compare.\n\n**Example:** 500 g vs 2 kg packs."
+    },
+    "27": {
+      "hint": "60 ÷ 1.5 — is that 40 mph?",
+      "help": "**Yes**, 40 mph. Priya is correct.\n\n**Example:** 90 km in 2 h → 45 km/h."
+    },
+    "28": {
+      "hint": "Two units combined (e.g. miles and hours) in one measure.",
+      "help": "They **combine** two quantities into one rate.\n\n**Example:** £/kg, km/h."
+    },
+    "29": {
+      "hint": "Convert 2.5 kg and 2 L to g and cm³, then mass ÷ volume.",
+      "help": "2500 g ÷ 2000 cm³ = **1.25 g/cm³** — Sam is correct.\n\n**Example:** check units match."
+    },
+    "30": {
+      "hint": "Faster speed does not always mean more fuel per mile.",
+      "help": "**Not necessarily** — efficiency varies.\n\n**Example:** steady motorway vs stop-start."
+    },
+    "31": {
+      "hint": "65 × 2.5 miles.",
+      "help": "**162.5 miles**.\n\n**Example:** 70 mph for 3 h.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "32": {
+      "hint": "1 h 30 min = 1.5 h; 180 km ÷ 1.5.",
+      "help": "**120 km/h**.\n\n**Example:** 90 km in 45 min → 120 km/h.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "33": {
+      "hint": "1.93 kg = 1930 g; divide by 100 cm³.",
+      "help": "**19.3 g/cm³**.\n\n**Example:** convert kg to g first.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "34": {
+      "hint": "Price/kg for each pack — lower per kg is better value.",
+      "help": "500 g: £1.20/kg → **£2.40/kg**; 2 kg: **£2.20/kg** — 2 kg pack better.\n\n**Example:** divide price by kg."
+    },
+    "35": {
+      "hint": "400÷80 m/s, then ×3.6 for km/h.",
+      "help": "**5 m/s** → **18 km/h**.\n\n**Example:** 10 m/s → 36 km/h.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "36": {
+      "hint": "18 kg ÷ 15 litres.",
+      "help": "**1.2 kg per litre**.\n\n**Example:** density in kg/L.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "37": {
+      "hint": "Speed = 2400÷4 mph; time = 3600 ÷ speed.",
+      "help": "**600 mph**; **6 hours** for 3600 miles.\n\n**Example:** same speed, double distance → double time."
+    },
+    "38": {
+      "hint": "Speed $= \\dfrac{\\text{distance}}{\\text{time}}$.",
+      "help": "$60$ miles $\\div\\ 1$ hour = **60 mph**.\n\n**Try another:** Include units: mph or m/s."
+    },
+    "39": {
+      "hint": "Density $= \\dfrac{\\text{mass}}{\\text{volume}}$.",
+      "help": "$3\\text{ kg} \\div 2\\text{ m}^3 =$ **1.5 kg/m³**.\n\n**Try another:** Units are **kg/m³**."
+    },
+    "40": {
+      "hint": "Distance $=$ speed $\\times$ time.",
+      "help": "$50\\text{ mph} \\times 1\\text{ hour} =$ **50 miles**.\n\n**Try another:** Multiply speed by time."
+    },
+    "41": {
+      "hint": "Divide the price by the mass to find £ per kg.",
+      "help": "£12 $\\div$ 6 kg = **£2 per kg**.\n\n**Try another:** Always divide cost by mass."
+    },
+    "42": {
+      "hint": "Pressure $= \\dfrac{\\text{force}}{\\text{area}}$.",
+      "help": "$40\\text{ N} \\div 2\\text{ m}^2 =$ **20 N/m²**.\n\n**Try another:** Units are **N/m²**."
+    },
+    "43": {
+      "hint": "Speed $= \\dfrac{\\text{distance}}{\\text{time}}$.",
+      "help": "$135$ miles $\\div\\ 2$ hours = **67.5 mph**.\n\n**Try another:** Include units: mph or m/s."
+    },
+    "44": {
+      "hint": "Density $= \\dfrac{\\text{mass}}{\\text{volume}}$.",
+      "help": "$2\\text{ kg} \\div 1\\text{ m}^3 =$ **2 kg/m³**.\n\n**Try another:** Units are **kg/m³**."
+    },
+    "45": {
+      "hint": "Multiply 48 mph by 2.5 hours.",
+      "help": "**Distance = speed × time.** Example: 60 mph for 3 h → **180 miles** (not 60×3+ anything else).\n\nKeep time in **hours** when speed is mph."
+    },
+    "46": {
+      "hint": "Divide £7.50 by 2.5 kg.",
+      "help": "**Price per kg** = total cost ÷ kg. Example: £8 for 4 kg → **£2/kg**.\n\nWrite the answer with **£** and **per kg**."
+    },
+    "47": {
+      "hint": "Pressure = 180 ÷ 0.6.",
+      "help": "**Pressure = force ÷ area.** Example: 60 N on 0.2 m² → **300 N/m²**.\n\nUnits are **newtons per square metre**."
+    },
+    "48": {
+      "hint": "Multiply 15 by 3.6.",
+      "help": "**m/s to km/h:** multiply by **3.6**. Example: 10 m/s → **36 km/h**.\n\nDo not divide by 3.6 here."
+    },
+    "49": {
+      "hint": "220 km in 2.5 h — divide distance by time.",
+      "help": "**Average speed** = total distance ÷ total time. Example: 150 km in 2 h → **75 km/h**.\n\n2 h 30 min = **2.5 h**."
+    },
+    "50": {
+      "hint": "480 g ÷ 400 cm³.",
+      "help": "**Density = mass ÷ volume** with matching units. Example: 300 g, 200 cm³ → **1.5 g/cm³**.\n\nBoth in g and cm³ here."
+    },
+    "51": {
+      "hint": "1 h 45 min = 1.75 h; multiply by 42 km/h.",
+      "help": "**Distance = speed × time.** Example: 50 km/h for 2 h → **100 km**.\n\nConvert minutes to **hours** first."
+    },
+    "52": {
+      "hint": "£8.40 ÷ 3 kg.",
+      "help": "Divide cost by mass for **£/kg**. Example: £5.50 for 2 kg → **£2.75/kg**.\n\nRound to **2 d.p.** if needed."
+    },
+    "53": {
+      "hint": "250 ÷ 0.05.",
+      "help": "Small area → **large** pressure if force is fixed. Example: 100 N on 0.01 m² → **10 000 N/m²**.\n\nUse **force ÷ area**."
+    },
+    "54": {
+      "hint": "168 miles in 3.5 hours.",
+      "help": "**mph** = miles ÷ hours. Example: 90 miles in 2 h → **45 mph**.\n\n3 h 30 min = **3.5 h**."
+    },
+    "55": {
+      "hint": "7.2 ÷ 0.9.",
+      "help": "**kg/m³** = kg ÷ m³. Example: 10 kg, 2 m³ → **5 kg/m³**.\n\nVolume is in **cubic metres**."
+    },
+    "56": {
+      "hint": "55 × 2.2.",
+      "help": "Same as distance = speed × time. Example: 40 mph × 1.5 h → **60 miles**.\n\nInclude **miles** in the answer."
+    },
+    "57": {
+      "hint": "1.75 × £6.20.",
+      "help": "**Total cost** = kg × price per kg. Example: 2 kg at £4/kg → **£8**.\n\nMultiply, do not divide."
+    },
+    "58": {
+      "hint": "96 km in 1.5 h.",
+      "help": "Convert 1 h 30 min to **1.5 h**, then divide. Example: 80 km in 2 h → **40 km/h**."
+    },
+    "59": {
+      "hint": "850 ÷ 500.",
+      "help": "Use **grams** and **cm³** together. Example: 600 g, 400 cm³ → **1.5 g/cm³**."
+    },
+    "60": {
+      "hint": "72 ÷ 3.6 for m/s.",
+      "help": "**km/h to m/s:** divide by **3.6**. Example: 36 km/h → **10 m/s**.\n\nOpposite of ×3.6."
+    },
+    "61": {
+      "hint": "350 ÷ 14 miles per litre.",
+      "help": "**Miles per litre** = miles ÷ litres used. Example: 300 miles, 20 L → **15 mi/L**.\n\nHigher means more economical."
+    },
+    "62": {
+      "hint": "1200 ÷ 0.4.",
+      "help": "Large force on small area → high pressure. Example: 800 N, 0.2 m² → **4000 N/m²**."
+    },
+    "63": {
+      "hint": "9 km in 1 h 12 min (= 1.2 h).",
+      "help": "Speed = distance ÷ time. Example: 6 km in 0.5 h → **12 km/h**.\n\n12 min = **0.2 h**."
+    },
+    "64": {
+      "hint": "£13.05 ÷ 4.5.",
+      "help": "Price per kg = £ ÷ kg. Example: £4.80 for 1.6 kg → **£3/kg**."
+    },
+    "65": {
+      "hint": "405 km in 4.5 h.",
+      "help": "Train speed: divide km by hours. Example: 270 km in 3 h → **90 km/h**."
+    },
+    "66": {
+      "hint": "2.4 kg ÷ 3 litres.",
+      "help": "**kg per litre** works like density. Example: 5 kg, 10 L → **0.5 kg/L**."
+    },
+    "67": {
+      "hint": "50 min = 5/6 hour; 36 × 5/6.",
+      "help": "Convert minutes to hours before multiplying. Example: 60 mph for 30 min → **30 miles**."
+    },
+    "68": {
+      "hint": "Find price for 1 kg from 750 g.",
+      "help": "750 g is **0.75 kg** OR scale: £4.50 per 750 g → ×1000/750 for per kg. Example: 500 g for £2 → **£4/kg**."
+    },
+    "69": {
+      "hint": "320 ÷ 8.",
+      "help": "Pressure = force ÷ area. Example: 200 N, 5 m² → **40 N/m²**."
+    },
+    "70": {
+      "hint": "25 × 3.6.",
+      "help": "m/s to km/h: multiply by 3.6. Example: 5 m/s → **18 km/h**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "71": {
+      "hint": "Time = 260 ÷ 52.",
+      "help": "**Time = distance ÷ speed.** Example: 100 miles at 50 mph → **2 hours**."
+    },
+    "72": {
+      "hint": "Mass = density × volume.",
+      "help": "**mass = density × volume.** Example: 1000 kg/m³ × 0.05 m³ → **50 kg**.\n\nUnits: kg/m³ × m³ → kg."
+    },
+    "73": {
+      "hint": "Find £/kg for 2 kg and for 5 kg.",
+      "help": "A: £5÷2 = **£2.50/kg**; B: £11÷5 = **£2.20/kg** → **B** cheaper.\n\nCompare **per kg**, not pack price."
+    },
+    "74": {
+      "hint": "27 km in 1 h 15 min.",
+      "help": "1 h 15 min = **1.25 h**. 27 ÷ 1.25 = **21.6 km/h**.\n\nExample: 10 km in 0.5 h → 20 km/h."
+    },
+    "75": {
+      "hint": "1350 g ÷ 900 cm³.",
+      "help": "Convert 1.35 kg to **1350 g** first. Example: 800 g, 400 cm³ → **2 g/cm³**."
+    },
+    "76": {
+      "hint": "45 min = 0.75 h.",
+      "help": "70 mph × 0.75 h = **52.5 miles**. Example: 80 km/h × 0.25 h → 20 km."
+    },
+    "77": {
+      "hint": "£1.80 for 600 ml — find per litre.",
+      "help": "600 ml = **0.6 L** OR scale to 1 L. Example: £2.40 for 800 ml → **£3/L**."
+    },
+    "78": {
+      "hint": "450 ÷ 0.15.",
+      "help": "Same formula force ÷ area. Example: 90 N, 0.03 m² → **3000 N/m²**."
+    },
+    "79": {
+      "hint": "385 miles in 5 h 30 min.",
+      "help": "5 h 30 min = **5.5 h**. 385 ÷ 5.5 = **70 mph**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "80": {
+      "hint": "540 ÷ 300.",
+      "help": "Density in g/cm³. Example: 250 g, 500 cm³ → **0.5 g/cm³**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "81": {
+      "hint": "10 × 3.6.",
+      "help": "**10 m/s → 36 km/h.** Use ×3.6 from m/s to km/h.\n\nExample: 5 m/s → 18 km/h."
+    },
+    "82": {
+      "hint": "420 ÷ 84 hours.",
+      "help": "Time = distance ÷ speed. Example: 210 km at 70 km/h → **3 h**."
+    },
+    "83": {
+      "hint": "8 × 125.",
+      "help": "**mass = density × volume.** Example: 2 g/cm³ × 50 cm³ → **100 g**."
+    },
+    "84": {
+      "hint": "£14.40 ÷ 1.2 kg.",
+      "help": "Price per kg: divide. Example: £9.60 for 800 g (0.8 kg) → **£12/kg**."
+    },
+    "85": {
+      "hint": "2400 ÷ 0.08.",
+      "help": "Very small area → very high pressure. Check decimal places in area."
+    },
+    "86": {
+      "hint": "156 km in 2 h 36 min.",
+      "help": "2 h 36 min = **2.6 h**. 156 ÷ 2.6 = **60 km/h**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "87": {
+      "hint": "3600 g ÷ 4500 cm³.",
+      "help": "Convert kg to g: 3.6 kg = **3600 g**. Then divide by volume in cm³."
+    },
+    "88": {
+      "hint": "1 h 15 min = 1.25 h.",
+      "help": "52 × 1.25 = **65 miles**. Example: 48 mph for 2 h → 96 miles."
+    },
+    "89": {
+      "hint": "£3.75 ÷ 2.5 L.",
+      "help": "Price per litre = cost ÷ litres. Example: £4 for 2 L → **£2/L**."
+    },
+    "90": {
+      "hint": "450 ÷ 18.",
+      "help": "Miles per litre = miles ÷ litres. Example: 360 mi, 24 L → **15 mi/L**."
+    },
+    "91": {
+      "hint": "90 ÷ 0.006.",
+      "help": "Watch **small** areas in m². Example: 12 N on 0.002 m² → 6000 N/m²."
+    },
+    "92": {
+      "hint": "108 ÷ 3.6.",
+      "help": "**km/h to m/s:** divide by 3.6. Example: 72 km/h → **20 m/s**."
+    },
+    "93": {
+      "hint": "3150 km in 4 h 30 min.",
+      "help": "4.5 h total time. 3150 ÷ 4.5 = **700 km/h**.\n\nExample: 900 km in 2 h → 450 km/h."
+    },
+    "94": {
+      "hint": "Price per litre for each tin.",
+      "help": "2.5 L: £22.50÷2.5 = **£9/L**; 5 L: £40÷5 = **£8/L** → **5 L** tin.\n\nLower **£/L** is better."
+    },
+    "95": {
+      "hint": "750 ÷ 0.25.",
+      "help": "Pressure = force ÷ area. Example: 500 N, 0.5 m² → **1000 N/m²**."
+    },
+    "96": {
+      "hint": "Compare 1 m/s with 3 km/h using 3.6.",
+      "help": "1 m/s = **3.6 km/h**, which is **more** than 3 km/h → statement is **false**."
+    },
+    "97": {
+      "hint": "48 minutes as a fraction of an hour.",
+      "help": "48 min = **0.8 h**. Speed = 10 ÷ 0.8 = **12.5 km/h**.\n\nExample: 5 km in 20 min → 15 km/h."
+    },
+    "98": {
+      "hint": "4500 g ÷ 5000 cm³.",
+      "help": "4.5 kg = **4500 g**. Volume 5000 cm³. Divide for **g/cm³**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "99": {
+      "hint": "2 h 20 min = 2.333… h; 63 × that.",
+      "help": "2 h 20 min = **7/3 h**. 63 × 7/3 = **147 miles**.\n\nOr use decimal hours carefully."
+    },
+    "100": {
+      "hint": "£2.45 for 350 g — scale to 1 kg.",
+      "help": "350 g = 0.35 kg → £2.45÷0.35 = **£7/kg**. Example: 400 g for £3.20 → **£8/kg**."
+    },
+    "101": {
+      "hint": "425 miles on 34 litres.",
+      "help": "**Miles per litre** = 425÷34 = **12.5**. Example: 200 mi, 16 L → 12.5 mi/L."
+    },
+    "102": {
+      "hint": "1800 ÷ 0.012.",
+      "help": "Tiny area → huge pressure. Double-check **0.012 m²** in your division."
+    },
+    "103": {
+      "hint": "5.5 × 3.6.",
+      "help": "m/s to km/h: ×3.6 gives **19.8 km/h**. Example: 8 m/s → 28.8 km/h."
+    },
+    "104": {
+      "hint": "247 miles in 3 h 35 min.",
+      "help": "3 h 35 min = **3.583… h**. Divide 247 by that for **mph**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "105": {
+      "hint": "38.6 g ÷ 2 cm³.",
+      "help": "Gold is very dense — about **19 g/cm³**. Example: 10 g, 5 cm³ → 2 g/cm³."
+    },
+    "106": {
+      "hint": "If force doubles, what happens to force ÷ area?",
+      "help": "**Always** doubles pressure when area stays fixed. Example: 10 N→20 N on 2 m² → 5→10 N/m²."
+    },
+    "107": {
+      "hint": "18 km in 40 minutes.",
+      "help": "40 min = **2/3 h**. 18 ÷ (2/3) = **27 km/h**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "108": {
+      "hint": "900 g for £3.60 — find per kg.",
+      "help": "0.9 kg for £3.60 → **£4/kg**. Example: 250 g for £1 → £4/kg."
+    },
+    "109": {
+      "hint": "1 cm³ of water ≈ 1 g.",
+      "help": "750 cm³ water ≈ **750 g** when density is 1 g/cm³.\n\nExample: 200 cm³ → 200 g."
+    },
+    "110": {
+      "hint": "1 h 50 min = 1.833… h.",
+      "help": "58 × 11/6 ≈ **106.5 miles**. Convert minutes to hours first."
+    },
+    "111": {
+      "hint": "Compare £/kg for 4 kg and 2.5 kg bags.",
+      "help": "4 kg: £9.60÷4 = **£2.40/kg**; 2.5 kg: £6.50÷2.5 = **£2.60/kg** → **4 kg** bag."
+    },
+    "112": {
+      "hint": "560 ÷ 0.007.",
+      "help": "Pressure with small area. Example: 70 N on 0.001 m² → 70 000 N/m²."
+    },
+    "113": {
+      "hint": "Equal distances — use total time, not average of speeds.",
+      "help": "120 km at 60 + 120 km at 80 → times 2 h + 1.5 h → avg **68.6 km/h**.\n\nNot (60+80)÷2."
+    },
+    "114": {
+      "hint": "mass = density × volume.",
+      "help": "0.8 × 250 = **200 g**. Example: 1.2 g/cm³ × 100 cm³ → 120 g."
+    },
+    "115": {
+      "hint": "Multiply km/h by 0.621 for mph.",
+      "help": "90 × 0.621 ≈ **55.9 mph**. Example: 50 km/h ≈ 31 mph.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "116": {
+      "hint": "45 litres in 3 minutes.",
+      "help": "**Rate** = amount ÷ time → 45÷3 = **15 L/min**. Example: 20 L in 4 min → 5 L/min."
+    },
+    "117": {
+      "hint": "3200 ÷ 0.16.",
+      "help": "Force ÷ area again. Example: 640 N, 0.08 m² → 8000 N/m².\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "118": {
+      "hint": "Do £/kg and £/L combine two units?",
+      "help": "**True** — both are **cost per one unit** of mass or volume.\n\nExample: £/litre for drinks."
+    },
+    "119": {
+      "hint": "520 ÷ 13.",
+      "help": "520 km in 13 h → **40 km/h**. Example: 300 km in 6 h → 50 km/h."
+    },
+    "120": {
+      "hint": "£4.05 ÷ 1.5 kg.",
+      "help": "**£2.70/kg**. Example: £5.40 for 2 kg → £2.70/kg.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "121": {
+      "hint": "2700 g ÷ 900 cm³.",
+      "help": "2.7 kg = **2700 g**. Density **3 g/cm³**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "122": {
+      "hint": "2 h 30 min at 47 mph.",
+      "help": "2.5 × 47 = **117.5 miles**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "123": {
+      "hint": "94.5 ÷ 8.4.",
+      "help": "Miles per litre: **11.25**. Example: 63 mi, 7 L → 9 mi/L.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "124": {
+      "hint": "144 ÷ 0.009.",
+      "help": "Watch decimal in area m². Example: 72 N, 0.004 m² → 18 000 N/m²."
+    },
+    "125": {
+      "hint": "12 × 3.6.",
+      "help": "**43.2 km/h**. m/s to km/h always ×3.6.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "126": {
+      "hint": "Half an hour at 80 km/h.",
+      "help": "30 min = 0.5 h → 80×0.5 = **40 km**. Priya is **correct**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "127": {
+      "hint": "6300 g ÷ 7000 cm³.",
+      "help": "6.3 kg = **6300 g**. Answer **0.9 g/cm³**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "128": {
+      "hint": "£4.50 for 750 ml.",
+      "help": "750 ml = 0.75 L → **£6/L**. Example: £3 for 500 ml → £6/L.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "129": {
+      "hint": "22 km/h for 2 h 15 min.",
+      "help": "2 h 15 min = **2.25 h**. 22×2.25 = **49.5 km**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "130": {
+      "hint": "675 ÷ 0.0225.",
+      "help": "Pressure = force ÷ area → **30 000 N/m²** with these numbers."
+    },
+    "131": {
+      "hint": "What does density measure?",
+      "help": "**True** — mass packed into each cm³ (or m³).\n\nExample: lead denser than foam."
+    },
+    "132": {
+      "hint": "315 miles in 5 h 15 min.",
+      "help": "5.25 h driving → 315÷5.25 = **60 mph**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "133": {
+      "hint": "£3.20 for 400 g.",
+      "help": "400 g = 0.4 kg → **£8/kg**. Example: £2 for 250 g → £8/kg.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "134": {
+      "hint": "11 × 45.",
+      "help": "**495 g**. mass = density × volume.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "135": {
+      "hint": "55 min as hours × 66 mph.",
+      "help": "55/60 × 66 = **60.5 miles**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "136": {
+      "hint": "£25.60 ÷ 3.2.",
+      "help": "**£8/kg**. Ham price per kg.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "137": {
+      "hint": "990 ÷ 0.011.",
+      "help": "Large pressure from small area. Check division.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "138": {
+      "hint": "54 ÷ 3.6.",
+      "help": "**15 m/s**. km/h to m/s: divide by 3.6.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "139": {
+      "hint": "176 ÷ 22.",
+      "help": "**8 miles per litre**. Example: 240 mi, 30 L → 8 mi/L.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "140": {
+      "hint": "85 miles in 1 h 42 min.",
+      "help": "1 h 42 min = **1.7 h**. 85÷1.7 = **50 mph**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "141": {
+      "hint": "Convert each to £ per litre.",
+      "help": "500 ml: £3.40÷0.5 = **£6.80/L**; 750 ml: £4.95÷0.75 = **£6.60/L** → **750 ml** bottle."
+    },
+    "142": {
+      "hint": "4500 ÷ 0.025.",
+      "help": "**180 000 N/m²**. Example: 900 N, 0.005 m² → 180 000 N/m².\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "143": {
+      "hint": "400 m in 5 min 20 s.",
+      "help": "5 min 20 s = **320 s**. 400÷320 = **1.25 m/s**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "144": {
+      "hint": "1620 g ÷ 600 cm³.",
+      "help": "1.62 kg = **1620 g** → **2.7 g/cm³**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "145": {
+      "hint": "Total 300 miles — find total time.",
+      "help": "180 mi at 45 mph = 4 h; 120 mi at 60 mph = 2 h → 300 mi in 6 h → **50 mph** avg."
+    },
+    "146": {
+      "hint": "£7.68 ÷ 2.4 kg.",
+      "help": "**£3.20/kg**. Example: £8 for 2.5 kg → £3.20/kg.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "147": {
+      "hint": "2100 ÷ 0.035.",
+      "help": "**60 000 N/m²**. Force ÷ area.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "148": {
+      "hint": "More miles per litre — better or worse economy?",
+      "help": "**Never** the first clause — **more mi/L means less fuel per mile** (better economy)."
+    },
+    "149": {
+      "hint": "558 km in 6 h 12 min.",
+      "help": "6.2 h → 558÷6.2 = **90 km/h**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "150": {
+      "hint": "5.4 ÷ 6.",
+      "help": "**0.9 kg/L**. Same as density in kg per litre.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "151": {
+      "hint": "1 h 5 min at 72 mph.",
+      "help": "65 min = **13/12 h**. 72×13/12 = **78 miles**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "152": {
+      "hint": "£5.70 for 950 g.",
+      "help": "0.95 kg → **£6/kg**. Example: £3 for 500 g → £6/kg.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "153": {
+      "hint": "162.5 ÷ 12.5.",
+      "help": "**13 mi/L**. Miles ÷ litres.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "154": {
+      "hint": "1440 ÷ 0.018.",
+      "help": "**80 000 N/m²**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "155": {
+      "hint": "20 m/s → km/h, then mph.",
+      "help": "20×3.6 = **72 km/h**; ×0.621 ≈ **44.7 mph**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "156": {
+      "hint": "Same volume — denser means more mass?",
+      "help": "**True** for equal volumes. Example: 1 L of honey heavier than 1 L of oil."
+    },
+    "157": {
+      "hint": "14 km in 3 h 30 min.",
+      "help": "3.5 h → **4 km/h**. Slow hike speed.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "158": {
+      "hint": "£4.25 ÷ 5 kg.",
+      "help": "**£0.85/kg**. Cheap potatoes per kg.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "159": {
+      "hint": "375 ÷ 2.5.",
+      "help": "volume = mass ÷ density → **150 cm³**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "160": {
+      "hint": "800 ÷ 0.002.",
+      "help": "**400 000 N/m²** — very small area.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "161": {
+      "hint": "360 miles driving in 6 hours total.",
+      "help": "Ignore the stop — driving time 4+2 = **6 h** for 360 mi → **60 mph**."
+    },
+    "162": {
+      "hint": "£1.15 ÷ 1.25 L.",
+      "help": "**£0.92/L**. Example: £2.30 for 2 L → £1.15/L.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "163": {
+      "hint": "4680 km in 5 h 12 min.",
+      "help": "5.2 h → **900 km/h** jet speed.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "164": {
+      "hint": "468 ÷ 520.",
+      "help": "**0.9 g/cm³** — slightly less dense than water.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "165": {
+      "hint": "2 h 45 min at 49 mph.",
+      "help": "2.75 × 49 = **134.75 miles**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "166": {
+      "hint": "Does pressure use force and area?",
+      "help": "**True** — both matter in **force ÷ area**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "167": {
+      "hint": "364 ÷ 28.",
+      "help": "**13 mi/L** again. Compare with other cars using same rule.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "168": {
+      "hint": "3750 ÷ 0.075.",
+      "help": "**50 000 N/m²**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "169": {
+      "hint": "45 × 3.6.",
+      "help": "**162 km/h**. m/s to km/h.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "170": {
+      "hint": "£3.60÷0.4 and £6.75÷0.75.",
+      "help": "Both **£9/kg** — same value per kg.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "171": {
+      "hint": "8.1 ÷ 0.003.",
+      "help": "**2700 kg/m³** — same as steel order of magnitude.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "172": {
+      "hint": "Two 60-mile legs at 30 and 60 mph.",
+      "help": "Times 2 h + 1 h = 3 h for 120 mi → **40 mph** average.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "173": {
+      "hint": "845 ÷ 0.65.",
+      "help": "volume = mass ÷ density → **1300 cm³**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "174": {
+      "hint": "12000 ÷ 0.004.",
+      "help": "**3 000 000 N/m²**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "175": {
+      "hint": "4 min 30 s per km — how many km in 60 min?",
+      "help": "60÷4.5 = **13.3 km/h** (1 d.p.). Pace is time per km, not km/h directly."
+    },
+    "176": {
+      "hint": "£/kg for 2 kg and 5 kg bags.",
+      "help": "2 kg: **£2.90/kg**; 5 kg: **£2.70/kg** → **20p/kg** cheaper on 5 kg bag."
+    },
+    "177": {
+      "hint": "Compare 195÷15 and 216÷18.",
+      "help": "**13 vs 12 mi/L** — first car better.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "178": {
+      "hint": "m/s to km/h rule.",
+      "help": "**Always** ×3.6 (for this conversion at GCSE).\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "179": {
+      "hint": "1.8 g/cm³ × 0.025 m³ — watch units.",
+      "help": "0.025 m³ = **25 000 cm³** OR convert: **45 kg** total mass.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "180": {
+      "hint": "6400 ÷ 0.032.",
+      "help": "**200 000 N/m²**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "181": {
+      "hint": "2700 km in 3 h 45 min.",
+      "help": "3.75 h → **720 km/h**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "182": {
+      "hint": "Price per litre for can and bottle.",
+      "help": "330 ml can: £0.99÷0.33 = **£3.00/L**; 2 L: £5.50÷2 = **£2.75/L** → **bottle**."
+    },
+    "183": {
+      "hint": "Floats in water — density ≤ 1 g/cm³.",
+      "help": "Minimum volume when density = 1: **450 cm³** for 450 g.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "184": {
+      "hint": "150 miles at 50 mph.",
+      "help": "**3 hours** exactly. time = distance ÷ speed.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "185": {
+      "hint": "2025 ÷ 0.015.",
+      "help": "**135 000 N/m²**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "186": {
+      "hint": "Average of two speeds for equal distance?",
+      "help": "**False** — use **total distance ÷ total time** (harmonic mean for equal legs)."
+    },
+    "187": {
+      "hint": "2340 g ÷ 7.8.",
+      "help": "2.34 kg = **2340 g** → **300 cm³**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "188": {
+      "hint": "2 h 15 min at 88 km/h.",
+      "help": "2.25 × 88 = **198 km**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "189": {
+      "hint": "338 miles on 26 litres.",
+      "help": "**13 mi/L** for this trip.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "190": {
+      "hint": "5600 ÷ 0.007.",
+      "help": "**800 000 N/m²**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "191": {
+      "hint": "16.5 × 3.6.",
+      "help": "**59.4 km/h**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "192": {
+      "hint": "Same mass — compare volumes 800 and 1500.",
+      "help": "**Block A** denser; factor **1500÷800 = 2.5**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "193": {
+      "hint": "£31.50 ÷ 4.5 kg.",
+      "help": "**£7/kg** turkey price.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "194": {
+      "hint": "Two legs — find total distance and total time.",
+      "help": "18 km/h×2/3 h + 24×5/6 h → total 12+20=32 km in 1.5 h → **21.3 km/h**."
+    },
+    "195": {
+      "hint": "9000 ÷ 0.006.",
+      "help": "**1 500 000 N/m²**.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "196": {
+      "hint": "Two equal 60-mile legs — total time?",
+      "help": "2 h + 1 h for 120 mi → **40 mph** average (classic trap: not 45)."
+    },
+    "197": {
+      "hint": "Same mass, volumes 8 and 20 cm³.",
+      "help": "**Block A** denser; **20÷8 = 2.5** times denser than B.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "198": {
+      "hint": "5 minutes per km — km in 60 minutes?",
+      "help": "60÷5 = **12 km/h**. Pace is minutes **per** km.\n\n**Remember:** Include units in your final answer so it matches the question."
+    },
+    "199": {
+      "hint": "What two units does £/kg combine?",
+      "help": "Explain **money and mass** → one rate. Compare three packs by dividing each price by its kg.\n\nPick the **lowest £/kg**."
+    },
+    "200": {
+      "hint": "Pick speed, density, or price — show formula and units.",
+      "help": "Write a short story problem, use **÷** for per-unit rates, answer with **units**.\n\nExample: 5 kg for £12 → £2.40/kg."
+    }
+  }
+}

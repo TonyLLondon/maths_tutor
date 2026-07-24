@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Which positive number multiplied by itself gives 4?",
+      "help": "A square root undoes squaring. Since $2 \\times 2 = 4$, $\\sqrt{4}=2$."
+    },
+    "2": {
+      "hint": "Which positive number multiplied by itself gives 9?",
+      "help": "Find the positive square root: $3 \\times 3=9$, so $\\sqrt{9}=3$."
+    },
+    "3": {
+      "hint": "$10^2$ means two factors of 10.",
+      "help": "Expand the power: $10^2=10 \\times 10=100$. The index 2 tells you to use two factors of 10."
+    },
+    "4": {
+      "hint": "$2^3$ means three factors of 2.",
+      "help": "Expand the power: $2^3=2 \\times 2 \\times 2=8$. The index 3 tells you to use three factors of 2."
+    },
+    "5": {
+      "hint": "The small raised number is called the index.",
+      "help": "In $4^2$, 4 is the base and the raised 2 is the index, so the answer is 2."
+    },
+    "6": {
+      "hint": "Count how many factors of 5 are multiplied.",
+      "help": "$5 \\times 5$ has two factors of 5, so index notation is $5^2$."
+    },
+    "7": {
+      "hint": "Work out both squares before comparing them.",
+      "help": "$3^2=9$ and $2^2=4$. Since $9>4$, $3^2$ is larger. Comparing the calculated values avoids comparing only the bases."
+    },
+    "8": {
+      "hint": "Undo the square root by squaring 5.",
+      "help": "If $\\sqrt{□}=5$, then $□=5^2=25$. Squaring undoes the square root, and $\\sqrt{25}=5$ confirms the value."
+    },
+    "9": {
+      "hint": "$4^2$ means $4 \\times 4$.",
+      "help": "Square 4 by multiplying it by itself: $4^2=4 \\times 4=16$. Do not multiply 4 by the index 2."
+    },
+    "10": {
+      "hint": "Count the factors of 3; that count is the index.",
+      "help": "$3 \\times 3=3^2$, so the missing index is 2. The index counts the two equal factors of 3."
+    },
+    "11": {
+      "hint": "Which positive whole number squares to 36?",
+      "help": "Since $6 \\times 6=36$, the positive square root is $\\sqrt{36}=6$."
+    },
+    "12": {
+      "hint": "A power of 1 leaves the base unchanged.",
+      "help": "$10^1$ contains one factor of 10, so $10^1=10$. Any number raised to the power 1 stays unchanged."
+    },
+    "13": {
+      "hint": "The base is 3 in both powers, so add the indices 2 and 4.",
+      "help": "When multiplying powers with the same base, add indices: $3^2 \\times 3^4=3^{2+4}=3^6$."
+    },
+    "14": {
+      "hint": "The base is 5 in both powers, so subtract the indices 6 and 2.",
+      "help": "When dividing powers with the same base, subtract indices: $5^6 \\div 5^2=5^{6-2}=5^4$."
+    },
+    "15": {
+      "hint": "Any non-zero number to the power 0 equals 1.",
+      "help": "Use the zero-index rule: $a^0=1$ for $a\\ne0$. Therefore $4^0=1$."
+    },
+    "16": {
+      "hint": "A power of −1 means take the reciprocal.",
+      "help": "Use $a^{-1}=1/a$: $2^{-1}=1/2$. A negative index means reciprocal; it does not make the value negative."
+    },
+    "17": {
+      "hint": "Add 3 and 5 because both powers have base $x$.",
+      "help": "$x^3 \\times x^5=x^{3+5}=x^8$. Keep the common base $x$ and add only the two indices."
+    },
+    "18": {
+      "hint": "Subtract 3 from 7 because both powers have base $y$.",
+      "help": "$y^7 \\div y^3=y^{7-3}=y^4$. Keep the common base $y$ and subtract the denominator's index."
+    },
+    "19": {
+      "hint": "Use the zero-index rule for the non-zero base 10.",
+      "help": "Every non-zero base to power 0 is 1, so $10^0=1$. This follows because $10^1\\div10^1=10^0=1$."
+    },
+    "20": {
+      "hint": "Rewrite the negative power as the reciprocal of $3^2$.",
+      "help": "$3^{-2}=1/3^2=1/9$. Make the index positive in the denominator, then evaluate $3^2$."
+    },
+    "21": {
+      "hint": "For a power of a power, multiply the indices 2 and 3.",
+      "help": "$(a^2)^3=a^{2\\times3}=a^6$. A power of a power multiplies the inside and outside indices."
+    },
+    "22": {
+      "hint": "Add the indices carefully: $5+(-2)$.",
+      "help": "$2^5 \\times 2^{-2}=2^{5+(-2)}=2^3$. Multiplication with the same base means add the signed indices."
+    },
+    "23": {
+      "hint": "Multiply the index 4 by the outside power 2.",
+      "help": "$(b^4)^2=b^{4\\times2}=b^8$. Multiply the indices for a power of a power; do not add them."
+    },
+    "24": {
+      "hint": "A power of −1 means reciprocal.",
+      "help": "$5^{-1}=1/5$. The negative index means take the reciprocal of the matching positive power."
+    },
+    "25": {
+      "hint": "Subtract the denominator's index from the numerator's index.",
+      "help": "$x^6/x^2=x^{6-2}=x^4$. Division with the same non-zero base means subtract the indices."
+    },
+    "26": {
+      "hint": "Rewrite as one over $2^3$.",
+      "help": "$2^{-3}=1/2^3=1/8$. Move the positive power to the denominator, then evaluate three factors of 2."
+    },
+    "27": {
+      "hint": "Use the zero-index rule, then state whether Archer is correct.",
+      "help": "Archer is not correct. Any non-zero number to power 0 equals 1, so $2^0=1$; include “no” or “1” in your explanation."
+    },
+    "28": {
+      "hint": "Recall the multiplication law for powers with the same base.",
+      "help": "This is **always** true: multiplying $a^m$ by $a^n$ joins $m+n$ factors of $a$."
+    },
+    "29": {
+      "hint": "A negative index creates a reciprocal, not a negative value.",
+      "help": "Sloan is not correct: $2^{-2}=1/2^2=1/4$. Include “no”, “1/4”, or “reciprocal” in your explanation."
+    },
+    "30": {
+      "hint": "Use $a^m \\div a^n=a^{m-n}$ for a non-zero base.",
+      "help": "This is **always** true for a non-zero common base: division cancels $n$ factors, leaving index $m-n$."
+    },
+    "31": {
+      "hint": "Add the indices on the left, then compare the resulting power.",
+      "help": "Yes: $3^2 \\times 3^3=3^{2+3}=3^5=243$. Include “yes”, “$3^5$”, or “243”."
+    },
+    "32": {
+      "hint": "Four factors of 2 are written as $2^4$.",
+      "help": "$2^4=2 \\times 2 \\times 2 \\times 2=16$. Give the power or its value."
+    },
+    "33": {
+      "hint": "When multiplying equal bases, add 3 and 3; do not multiply them.",
+      "help": "Archer is wrong because $x^3 \\times x^3=x^{3+3}=x^6$, not $x^9$. Include “wrong” or “$x^6$”."
+    },
+    "34": {
+      "hint": "Add the numerator indices, then subtract the denominator index.",
+      "help": "$(a^5 \\times a^2)/a^3=a^{5+2-3}=a^4$. Add for multiplication, then subtract for division."
+    },
+    "35": {
+      "hint": "Find the consecutive square numbers on either side of 40.",
+      "help": "$6^2=36<40<49=7^2$, so $\\sqrt{40}$ lies between 6 and 7. Include both bounds."
+    },
+    "36": {
+      "hint": "Find the consecutive square numbers on either side of 90.",
+      "help": "$9^2=81<90<100=10^2$, so $\\sqrt{90}$ lies between 9 and 10. The square root keeps the same order."
+    },
+    "37": {
+      "hint": "Combine the indices as $7-4+2$, then evaluate the power.",
+      "help": "$(2^7/2^4)\\times2^2=2^{7-4+2}=2^5=32$. The question asks for the numerical value, not only the power."
+    },
+    "38": {
+      "hint": "A negative index means one over the matching positive power.",
+      "help": "$4^{-2}=1/4^2=1/16$. A negative index produces a reciprocal, so the result remains positive."
+    },
+    "39": {
+      "hint": "Treat $x^3$ as the non-zero base raised to power 0.",
+      "help": "For $x\\ne0$, $(x^3)^0=1$ by the zero-index rule. The whole expression inside the brackets is the base."
+    },
+    "40": {
+      "hint": "Evaluate both sides first, then test the root-product rule with non-negative numbers.",
+      "help": "$\\sqrt{36}\\times\\sqrt4=6\\times2=12=\\sqrt{144}$. The rule holds for non-negative $a,b$; include “yes” or “12”."
+    },
+    "41": {
+      "hint": "Add the indices $4+(-1)$.",
+      "help": "$m^4 \\times m^{-1}=m^{4+(-1)}=m^3$. Keep the common base and add the signed indices."
+    },
+    "42": {
+      "hint": "Evaluate the three powers separately before comparing.",
+      "help": "$2^{-1}=0.5$, $2^0=1$, and $2^1=2$, so $0.5<1<2$. Sloan is correct; include “yes” or “0.5”."
+    },
+    "43": {
+      "hint": "Same base 10 — subtract the indices when dividing: $10^4 \\div 10^2$ means $4 - 2$ on the powers.",
+      "help": "**Divide (same base):** subtract indices.\n\n$10^4 \\div 10^2 = 10^{4-2} = 10^2 = 100$.\n\n**Different example:** $3^6 \\div 3^2 = 3^4 = 81$."
+    },
+    "44": {
+      "hint": "Build 8 from twos: $2 \\times 2 \\times 2$. Count how many factors of 2 — that number is the index in $2^n$.",
+      "help": "$2^3 = 2 \\times 2 \\times 2 = 8$, so **8 = $2^3$**.\n\n**Different example:** $16 = 2^4$ and $81 = 3^4$."
+    },
+    "45": {
+      "hint": "Same base 2 — add indices 4 + 3 when multiplying powers. Write the sum before you simplify to a single power of 2 on your paper.",
+      "help": "**Multiply (same base):** add indices. $2^4 \\times 2^3 = 2^7 = 128$.\n\n**Different example:** $10^2 \\times 10^3 = 10^5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "46": {
+      "hint": "Same base 5 — subtract indices 8 − 3 when dividing. The base stays 5; only the index changes. — for Q46, write the first step on paper before you type.",
+      "help": "**Divide (same base):** subtract indices. $5^8 \\div 5^3 = 5^5$.\n\n**Different example:** $3^6 \\div 3^2 = 3^4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "47": {
+      "hint": "Any non-zero number to power 0 equals 1. The base 7 does not change the rule. — for Q47, write the first step on paper before you type.",
+      "help": "$7^0 = 1$. Also $a^0 = 1$ for $a \\neq 0$.\n\n**Different example:** $(-5)^0 = 1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "48": {
+      "hint": "Negative index means reciprocal: $4^{-1} = \\frac{1}{4}$. Write the fraction before you type the answer. — for Q48, write the first step on paper before you type.",
+      "help": "$4^{-1} = \\dfrac{1}{4}$.\n\n**Different example:** $10^{-1} = \\dfrac{1}{10}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "49": {
+      "hint": "Same letter base — add indices 4 + 2 on $x$. Algebra follows the same index laws as numbers. — for Q49, write the first step on paper before you type.",
+      "help": "$x^4 \\times x^2 = x^6$.\n\n**Different example:** $a^3 \\times a^4 = a^7$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "50": {
+      "hint": "Divide powers of $y$ by subtracting indices: 9 − 4. Keep the base $y$. — for Q50, write the first step on paper before you type.",
+      "help": "$y^9 \\div y^4 = y^5$.\n\n**Different example:** $m^{10} \\div m^2 = m^8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "51": {
+      "hint": "Power of a power — multiply indices 2 × 3 on base 3. — for Q51, write the first step on paper before you type. — for Q51, write the first step on paper before you type.",
+      "help": "$(3^2)^3 = 3^6 = 729$.\n\n**Different example:** $(2^5)^2 = 2^{10}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "52": {
+      "hint": "Write $10^{-2}$ as $\\frac{1}{10^2}$ then simplify the denominator. — for Q52, write the first step on paper before you type.",
+      "help": "$10^{-2} = \\dfrac{1}{100}$.\n\n**Different example:** $10^{-3} = \\dfrac{1}{1000}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "53": {
+      "hint": "Add indices 5 + (−2) on base $a$. — for Q53, write the first step on paper before you type. — for Q53, write the first step on paper before you type.",
+      "help": "$a^5 \\times a^{-2} = a^3$.\n\n**Different example:** $x^6 \\times x^{-4} = x^2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "54": {
+      "hint": "Which decimal squared gives 0.49? Try 0.7 × 0.7. — for Q54, write the first step on paper before you type. — for Q54, write the first step on paper before you type.",
+      "help": "$\\sqrt{0.49} = 0.7$.\n\n**Different example:** $\\sqrt{0.81} = 0.9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "55": {
+      "hint": "Count decimal places after the point for 0.0001 — four places means $10^{-4}$. — for Q55, write the first step on paper before you type.",
+      "help": "$0.0001 = 10^{-4}$.\n\n**Different example:** $0.001 = 10^{-3}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "56": {
+      "hint": "Index $\\frac{1}{2}$ means square root of 81. — for Q56, write the first step on paper before you type. — for Q56, write the first step on paper before you type.",
+      "help": "$81^{1/2} = 9$.\n\n**Different example:** $25^{1/2} = 5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "57": {
+      "hint": "Index $\\frac{1}{3}$ means cube root of 27. — for Q57, write the first step on paper before you type. — for Q57, write the first step on paper before you type.",
+      "help": "$27^{1/3} = 3$.\n\n**Different example:** $64^{1/3} = 4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "58": {
+      "hint": "Keep halving 32 by 2 until you get 1 — count how many twos. — for Q58, write the first step on paper before you type. — for Q58, write the first step on paper before you type.",
+      "help": "$32 = 2^5$.\n\n**Different example:** $16 = 2^4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "59": {
+      "hint": "Multiply indices 3 × 2 for $(m^3)^2$. — for Q59, write the first step on paper before you type. — for Q59, write the first step on paper before you type.",
+      "help": "$(m^3)^2 = m^6$.\n\n**Different example:** $(k^4)^2 = k^8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "60": {
+      "hint": "Negative index on 6: write $\\frac{1}{6}$. — for Q60, write the first step on paper before you type. — for Q60, write the first step on paper before you type.",
+      "help": "$6^{-1} = \\dfrac{1}{6}$.\n\n**Different example:** $12^{-1} = \\dfrac{1}{12}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "61": {
+      "hint": "Subtract indices 7 − 2 when dividing $p^7$ by $p^2$. — for Q61, write the first step on paper before you type. — for Q61, write the first step on paper before you type.",
+      "help": "$\\dfrac{p^7}{p^2} = p^5$.\n\n**Different example:** $\\dfrac{x^9}{x^4} = x^5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "62": {
+      "hint": "Add indices 3 + (−1) on base 10. — for Q62, write the first step on paper before you type. — for Q62, write the first step on paper before you type.",
+      "help": "$10^3 \\times 10^{-1} = 10^2 = 100$.\n\n**Different example:** $10^5 \\times 10^{-2} = 10^3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "63": {
+      "hint": "Fourth root of 16 — try $2^4$. — for Q63, write the first step on paper before you type. — for Q63, write the first step on paper before you type.",
+      "help": "$16^{1/4} = 2$.\n\n**Different example:** $625^{1/4} = 5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "64": {
+      "hint": "Add 2 + 3 + (−1) on base $k$. — for Q64, write the first step on paper before you type. — for Q64, write the first step on paper before you type.",
+      "help": "$k^2 \\times k^3 \\times k^{-1} = k^4$.\n\n**Different example:** $a^2 \\times a^1 \\times a^{-2} = a^1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "65": {
+      "hint": "Subtract 10 − 6 on base 2. — for Q65, write the first step on paper before you type. — for Q65, write the first step on paper before you type.",
+      "help": "$2^{10} \\div 2^6 = 2^4 = 16$.\n\n**Different example:** $2^9 \\div 2^2 = 2^7$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "66": {
+      "hint": "Write $9^{-1}$ as one ninth. — for Q66, write the first step on paper before you type. — for Q66, write the first step on paper before you type.",
+      "help": "$9^{-1} = \\dfrac{1}{9}$.\n\n**Different example:** $4^{-1} = \\dfrac{1}{4}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "67": {
+      "hint": "Add 4 + (−3) on base $t$. — for Q67, write the first step on paper before you type. — for Q67, write the first step on paper before you type.",
+      "help": "$t^4 \\times t^{-3} = t$.\n\n**Different example:** $n^2 \\times n^{-2} = 1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "68": {
+      "hint": "Multiply indices 2 × 2 for $(5^2)^2$. — for Q68, write the first step on paper before you type. — for Q68, write the first step on paper before you type.",
+      "help": "$(5^2)^2 = 5^4 = 625$.\n\n**Different example:** $(3^3)^2 = 3^6$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "69": {
+      "hint": "Square root of 1.44 — test 1.2. — for Q69, write the first step on paper before you type. — for Q69, write the first step on paper before you type.",
+      "help": "$\\sqrt{1.44} = 1.2$.\n\n**Different example:** $\\sqrt{0.64} = 0.8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "70": {
+      "hint": "Two decimal places → $10^{-2}$. — for Q70, write the first step on paper before you type. — for Q70, write the first step on paper before you type.",
+      "help": "$0.01 = 10^{-2}$.\n\n**Different example:** $0.1 = 10^{-1}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "71": {
+      "hint": "Cube root of 125. — for Q71, write the first step on paper before you type. — for Q71, write the first step on paper before you type.",
+      "help": "$125^{1/3} = 5$.\n\n**Different example:** $216^{1/3} = 6$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "72": {
+      "hint": "How many times can you divide 64 by 2? — for Q72, write the first step on paper before you type. — for Q72, write the first step on paper before you type.",
+      "help": "$64 = 2^6$.\n\n**Different example:** $32 = 2^5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "73": {
+      "hint": "Subtracting −2 adds: 8 − (−2) = 10. — for Q73, write the first step on paper before you type. — for Q73, write the first step on paper before you type.",
+      "help": "$b^8 \\div b^{-2} = b^{10}$.\n\n**Different example:** $x^5 \\div x^{-3} = x^8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "74": {
+      "hint": "One over $2^4$. — for Q74, write the first step on paper before you type. — for Q74, write the first step on paper before you type.",
+      "help": "$2^{-4} = \\dfrac{1}{16}$.\n\n**Different example:** $5^{-3} = \\dfrac{1}{125}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "75": {
+      "hint": "Multiply indices 2 × 4. — for Q75, write the first step on paper before you type. — for Q75, write the first step on paper before you type.",
+      "help": "$(c^2)^4 = c^8$.\n\n**Different example:** $(d^3)^3 = d^9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "76": {
+      "hint": "Square root of 100. — for Q76, write the first step on paper before you type. — for Q76, write the first step on paper before you type.",
+      "help": "$100^{1/2} = 10$.\n\n**Different example:** $144^{1/2} = 12$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "77": {
+      "hint": "Add 6 + 2 on base $n$. — for Q77, write the first step on paper before you type. — for Q77, write the first step on paper before you type.",
+      "help": "$n^6 \\times n^2 = n^8$.\n\n**Different example:** $p^2 \\times p^5 = p^7$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "78": {
+      "hint": "Negative index −3 on 10 → move decimal three places. — for Q78, write the first step on paper before you type. — for Q78, write the first step on paper before you type.",
+      "help": "$10^{-3} = 0.001$.\n\n**Different example:** $10^{-4} = 0.0001$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "79": {
+      "hint": "128 = seven factors of 2. — for Q79, write the first step on paper before you type. — for Q79, write the first step on paper before you type.",
+      "help": "$128 = 2^7$.\n\n**Different example:** $512 = 2^9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "80": {
+      "hint": "Numerator adds 5+2; denominator subtracts 3. — for Q80, write the first step on paper before you type. — for Q80, write the first step on paper before you type.",
+      "help": "$\\dfrac{q^5 \\times q^2}{q^3} = q^4$.\n\n**Different example:** $\\dfrac{a^6}{a^2} = a^4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "81": {
+      "hint": "Index one-half means square root of 4. — for Q81, write the first step on paper before you type. — for Q81, write the first step on paper before you type.",
+      "help": "$4^{1/2} = 2$.\n\n**Different example:** $36^{1/2} = 6$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "82": {
+      "hint": "Add −3 and 5 on base $d$. — for Q82, write the first step on paper before you type. — for Q82, write the first step on paper before you type.",
+      "help": "$d^{-3} \\times d^5 = d^2$.\n\n**Different example:** $x^{-1} \\times x^4 = x^3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "83": {
+      "hint": "Double the index: $(2^4)^2 = 2^8$. — for Q83, write the first step on paper before you type. — for Q83, write the first step on paper before you type.",
+      "help": "$(2^4)^2 = 256$.\n\n**Different example:** $(2^3)^3 = 2^9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "84": {
+      "hint": "Five zeros after the decimal → $10^{-5}$. — for Q84, write the first step on paper before you type. — for Q84, write the first step on paper before you type.",
+      "help": "$0.00001 = 10^{-5}$.\n\n**Different example:** $0.000001 = 10^{-6}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "85": {
+      "hint": "Which number squared is 2.25? — for Q85, write the first step on paper before you type. — for Q85, write the first step on paper before you type.",
+      "help": "$\\sqrt{2.25} = 1.5$.\n\n**Different example:** $\\sqrt{3.24} = 1.8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "86": {
+      "hint": "$r^0 = 1$, then multiply by $r^4$. — for Q86, write the first step on paper before you type. — for Q86, write the first step on paper before you type.",
+      "help": "$r^0 \\times r^4 = r^4$.\n\n**Different example:** $m^0 \\times m^2 = m^2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "87": {
+      "hint": "One over $5^2$. — for Q87, write the first step on paper before you type. — for Q87, write the first step on paper before you type.",
+      "help": "$5^{-2} = \\dfrac{1}{25}$.\n\n**Different example:** $3^{-2} = \\dfrac{1}{9}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "88": {
+      "hint": "256 is eight twos multiplied. — for Q88, write the first step on paper before you type. — for Q88, write the first step on paper before you type.",
+      "help": "$256 = 2^8$.\n\n**Different example:** $1024 = 2^{10}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "89": {
+      "hint": "Add 3 + 3 on base $s$. — for Q89, write the first step on paper before you type. — for Q89, write the first step on paper before you type.",
+      "help": "$s^3 \\times s^3 = s^6$.\n\n**Different example:** $t^4 \\times t^4 = t^8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "90": {
+      "hint": "Square root of 36. — for Q90, write the first step on paper before you type. — for Q90, write the first step on paper before you type.",
+      "help": "$36^{1/2} = 6$.\n\n**Different example:** $49^{1/2} = 7$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "91": {
+      "hint": "Square 2 and square $x^3$ — multiply index 2 into 3. — for Q91, write the first step on paper before you type. — for Q91, write the first step on paper before you type.",
+      "help": "$(2x^3)^2 = 4x^6$.\n\n**Different example:** $(5x^2)^2 = 25x^4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "92": {
+      "hint": "Subtract 5 − 8 on base 10. — for Q92, write the first step on paper before you type. — for Q92, write the first step on paper before you type.",
+      "help": "$10^5 \\div 10^8 = 10^{-3} = \\dfrac{1}{1000}$.\n\n**Different example:** $10^1 \\div 10^4 = 10^{-3}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "93": {
+      "hint": "Cube root of 8. — for Q93, write the first step on paper before you type. — for Q93, write the first step on paper before you type.",
+      "help": "$8^{1/3} = 2$.\n\n**Different example:** $125^{1/3} = 5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "94": {
+      "hint": "Same power divided by itself equals 1. — for Q94, write the first step on paper before you type. — for Q94, write the first step on paper before you type.",
+      "help": "$u^7 \\div u^7 = 1$.\n\n**Different example:** $5^4 \\div 5^4 = 1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "95": {
+      "hint": "Cube root of 1000. — for Q95, write the first step on paper before you type. — for Q95, write the first step on paper before you type.",
+      "help": "$1000^{1/3} = 10$.\n\n**Different example:** $512^{1/3} = 8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "96": {
+      "hint": "One tenth as a power of 10. — for Q96, write the first step on paper before you type. — for Q96, write the first step on paper before you type.",
+      "help": "$0.1 = 10^{-1}$.\n\n**Different example:** $0.01 = 10^{-2}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "97": {
+      "hint": "Multiply indices 4 × 3. — for Q97, write the first step on paper before you type. — for Q97, write the first step on paper before you type.",
+      "help": "$(v^4)^3 = v^{12}$.\n\n**Different example:** $(a^2)^5 = a^{10}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "98": {
+      "hint": "One over $2^5$. — for Q98, write the first step on paper before you type. — for Q98, write the first step on paper before you type.",
+      "help": "$2^{-5} = \\dfrac{1}{32}$.\n\n**Different example:** $2^{-6} = \\dfrac{1}{64}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "99": {
+      "hint": "Square root of 49. — for Q99, write the first step on paper before you type. — for Q99, write the first step on paper before you type.",
+      "help": "$49^{1/2} = 7$.\n\n**Different example:** $121^{1/2} = 11$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "100": {
+      "hint": "Negative index ≠ negative value. Rewrite as a fraction. — for Q100, write the first step on paper before you type. — for Q100, write the first step on paper before you type.",
+      "help": "$10^{-2} = \\dfrac{1}{100}$, not $-100$.\n\n**Different example:** $3^{-2} = \\dfrac{1}{9}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "101": {
+      "hint": "Test $5^0$ and $(-2)^0$ — both equal 1. — for Q101, write the first step on paper before you type. — for Q101, write the first step on paper before you type.",
+      "help": "For non-zero $a$, $a^0 = 1$ always.\n\n**Different example:** $100^0 = 1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "102": {
+      "hint": "Multiply indices, do not add: 3 × 2. — for Q102, write the first step on paper before you type. — for Q102, write the first step on paper before you type.",
+      "help": "$(2^3)^2 = 2^6$, not $2^5$.\n\n**Different example:** $(4^2)^3 = 4^6$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "103": {
+      "hint": "Multiply $\\sqrt{a}$ by itself. — for Q103, write the first step on paper before you type. — for Q103, write the first step on paper before you type.",
+      "help": "$\\sqrt{a} \\times \\sqrt{a} = a$ for $a \\geq 0$.\n\n**Different example:** $\\sqrt{25} \\times \\sqrt{25} = 25$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "104": {
+      "hint": "Negative index = reciprocal of positive power. — for Q104, write the first step on paper before you type. — for Q104, write the first step on paper before you type.",
+      "help": "$2^{-3} = \\dfrac{1}{2^3} = \\dfrac{1}{8}$.\n\n**Different example:** $10^{-1} = \\dfrac{1}{10}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "105": {
+      "hint": "Try $2^{-1}$ — is it negative? — for Q105, write the first step on paper before you type. — for Q105, write the first step on paper before you type.",
+      "help": "Negative index gives a **reciprocal**, not a negative number. **Never**.\n\n**Different example:** $5^{-2} = 0.04$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "106": {
+      "hint": "Add 2 + (−4) on base 10. — for Q106, write the first step on paper before you type. — for Q106, write the first step on paper before you type.",
+      "help": "Both equal $10^{-2}$ — **yes**, equal.\n\n**Different example:** $10^5 \\times 10^{-5} = 10^0$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "107": {
+      "hint": "Division law: subtract indices on same base. — for Q107, write the first step on paper before you type. — for Q107, write the first step on paper before you type.",
+      "help": "$x^a \\div x^b = x^{a-b}$ — **always** (for $x \\neq 0$).\n\n**Different example:** $2^8 \\div 2^3 = 2^5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "108": {
+      "hint": "Can you divide by zero? — for Q108, write the first step on paper before you type. — for Q108, write the first step on paper before you type.",
+      "help": "$0^{-1}$ is undefined — Archer is **wrong**.\n\n**Different example:** $0^0$ is avoided in school.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "109": {
+      "hint": "Multiply indices 2 × 3, not add. — for Q109, write the first step on paper before you type. — for Q109, write the first step on paper before you type.",
+      "help": "$(x^2)^3 = x^6$, not $x^5$ — **never**.\n\n**Different example:** $(y^4)^2 = y^8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "110": {
+      "hint": "Write as one tenth. — for Q110, write the first step on paper before you type. — for Q110, write the first step on paper before you type.",
+      "help": "$10^{-1} = \\dfrac{1}{10}$.\n\n**Different example:** $10^{-2} = \\dfrac{1}{100}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "111": {
+      "hint": "Expand: $2^2 \\times 3^2 = 4 \\times 9$ and compare with $6^2$. — for Q111, write the first step on paper before you type.",
+      "help": "$2^2 \\times 3^2 = 36 = 6^2$ — **always** for matching indices.\n\n**Different example:** $2^3 \\times 5^3 = 10^3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "112": {
+      "hint": "Fractional index $\\frac{1}{2}$ equals square root. — for Q112, write the first step on paper before you type. — for Q112, write the first step on paper before you type.",
+      "help": "Sloan is **correct**: $\\sqrt{0.25} = 0.25^{1/2} = 0.5$.\n\n**Different example:** $\\sqrt{4} = 4^{1/2}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "113": {
+      "hint": "Dividing by $10^n$ moves the index sign. — for Q113, write the first step on paper before you type. — for Q113, write the first step on paper before you type.",
+      "help": "$\\div 10^n = \\times 10^{-n}$ — **always**.\n\n**Different example:** $5 \\div 10^2 = 5 \\times 10^{-2}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "114": {
+      "hint": "Cube root undoes cubing. — for Q114, write the first step on paper before you type. — for Q114, write the first step on paper before you type.",
+      "help": "$8 = 2^3$ so $\\sqrt[3]{8} = 2$.\n\n**Different example:** $27 = 3^3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "115": {
+      "hint": "Try $2^{-2}$ — positive or negative? — for Q115, write the first step on paper before you type. — for Q115, write the first step on paper before you type.",
+      "help": "$a^{-2} = \\dfrac{1}{a^2} > 0$ — **never** equals $-a^2$.\n\n**Different example:** $3^{-2} = \\dfrac{1}{9}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "116": {
+      "hint": "Compare $4^{1/2}$ and $4^{-1/2}$ numerically. — for Q116, write the first step on paper before you type. — for Q116, write the first step on paper before you type.",
+      "help": "$4^{1/2} = 2$ and $4^{-1/2} = \\dfrac{1}{2}$ — reciprocals.\n\n**Different example:** $9^{1/2} = 3$, $9^{-1/2} = \\dfrac{1}{3}$."
+    },
+    "117": {
+      "hint": "Square each factor separately. — for Q117, write the first step on paper before you type. — for Q117, write the first step on paper before you type.",
+      "help": "$(ab)^2 = a^2 b^2$ — **always**.\n\n**Different example:** $(2 \\times 5)^2 = 4 \\times 25$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "118": {
+      "hint": "Subtract 3 − 5, do not subtract the bigger from smaller wrongly. — for Q118, write the first step on paper before you type.",
+      "help": "Correct: $x^3 \\div x^5 = x^{-2}$, not $x^2$.\n\n**Different example:** $a^2 \\div a^6 = a^{-4}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "119": {
+      "hint": "Do you multiply or add indices on the same base? — for Q119, write the first step on paper before you type. — for Q119, write the first step on paper before you type.",
+      "help": "Same base **adds** indices: $10^x \\times 10^y = 10^{x+y}$ — **never** $10^{xy}$.\n\n**Different example:** $2^3 \\times 2^4 = 2^7$."
+    },
+    "120": {
+      "hint": "Square root of 25. — for Q120, write the first step on paper before you type. — for Q120, write the first step on paper before you type.",
+      "help": "$25^{1/2} = \\sqrt{25} = 5$.\n\n**Different example:** $16^{1/2} = 4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "121": {
+      "hint": "Try $n = 2$: compare $2^{2 \\times 2}$ and $(2^2)^2$. — for Q121, write the first step on paper before you type. — for Q121, write the first step on paper before you type.",
+      "help": "$2^{2n} = (2^2)^n$ — **always**.\n\n**Different example:** $3^{2n} = (3^2)^n$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "122": {
+      "hint": "Flip the negative index: $1 \\div 3^{-2}$. — for Q122, write the first step on paper before you type. — for Q122, write the first step on paper before you type.",
+      "help": "$\\dfrac{1}{3^{-2}} = 3^2 = 9$ — Sloan is **correct**.\n\n**Different example:** $\\dfrac{1}{2^{-3}} = 8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "123": {
+      "hint": "Can you divide by $0$ in a negative power? — for Q123, write the first step on paper before you type. — for Q123, write the first step on paper before you type.",
+      "help": "Zero to a negative power is undefined — **never** in school maths.\n\n**Different example:** $0^{-1}$ is not used.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "124": {
+      "hint": "Compare repeated multiplication vs root. — for Q124, write the first step on paper before you type. — for Q124, write the first step on paper before you type.",
+      "help": "$2^3 = 8$ (multiply); $2^{1/3}$ is the cube **root** of 2.\n\n**Different example:** $8^{1/3} = 2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "125": {
+      "hint": "Reciprocal notation. — for Q125, write the first step on paper before you type. — for Q125, write the first step on paper before you type.",
+      "help": "$x^{-1} = \\dfrac{1}{x}$ for $x \\neq 0$ — **always**.\n\n**Different example:** $5^{-1} = \\dfrac{1}{5}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "126": {
+      "hint": "Use $10^3 \\div 10^3 = 10^0$. — for Q126, write the first step on paper before you type. — for Q126, write the first step on paper before you type.",
+      "help": "$10^0 = 1$, not 10.\n\n**Different example:** $a^5 \\div a^5 = 1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "127": {
+      "hint": "Compute $(-2)^{-2}$ as a positive fraction. — for Q127, write the first step on paper before you type. — for Q127, write the first step on paper before you type.",
+      "help": "$(-2)^{-2} = \\dfrac{1}{4}$ — **never** negative.\n\n**Different example:** $(-3)^{-2} = \\dfrac{1}{9}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "128": {
+      "hint": "Square root and power $\\frac{1}{2}$ match. — for Q128, write the first step on paper before you type. — for Q128, write the first step on paper before you type.",
+      "help": "$\\sqrt{100} = 10 = 100^{1/2}$.\n\n**Different example:** $\\sqrt{49} = 7 = 49^{1/2}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "129": {
+      "hint": "Add indices when multiplying: 2 + 3. — for Q129, write the first step on paper before you type. — for Q129, write the first step on paper before you type.",
+      "help": "$m^2 \\times m^3 = m^5$, not $m^6$ — **never**.\n\n**Different example:** $x^4 \\times x^2 = x^6$ only if you add wrong!\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "130": {
+      "hint": "Start $2^3$, then five more doublings — add indices. — for Q130, write the first step on paper before you type. — for Q130, write the first step on paper before you type.",
+      "help": "$2^3 \\times 2^5 = 2^8$ cells.\n\n**Different example:** $2^2$ then 3 hours → $2^5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "131": {
+      "hint": "Add 4 + (−1) on base 3. — for Q131, write the first step on paper before you type. — for Q131, write the first step on paper before you type.",
+      "help": "$3^4 \\times 3^{-1} = 3^3 = 27$.\n\n**Different example:** $5^3 \\times 5^{-2} = 5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "132": {
+      "hint": "Three decimal places → $10^{-3}$ with coefficient 2. — for Q132, write the first step on paper before you type. — for Q132, write the first step on paper before you type.",
+      "help": "$0.002 = 2 \\times 10^{-3}$.\n\n**Different example:** $0.005 = 5 \\times 10^{-3}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "133": {
+      "hint": "Side is square root of area 0.81. — for Q133, write the first step on paper before you type. — for Q133, write the first step on paper before you type.",
+      "help": "$\\sqrt{0.81} = 0.9$ m.\n\n**Different example:** area 1.44 m² → side 1.2 m.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "134": {
+      "hint": "Add 9 + (−3) then subtract 2 on base 2. — for Q134, write the first step on paper before you type. — for Q134, write the first step on paper before you type.",
+      "help": "$\\dfrac{2^9 \\times 2^{-3}}{2^2} = 2^{9-3-2} = 2^4$.\n\n**Different example:** $\\dfrac{2^6}{2^2} = 2^4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "135": {
+      "hint": "Negative index on $(10^2)^{-1}$. — for Q135, write the first step on paper before you type. — for Q135, write the first step on paper before you type.",
+      "help": "$(10^2)^{-1} = 10^{-2} = 0.01$.\n\n**Different example:** $(10^3)^{-1} = 10^{-3}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "136": {
+      "hint": "Cube root of 0.008. — for Q136, write the first step on paper before you type. — for Q136, write the first step on paper before you type.",
+      "help": "$\\sqrt[3]{0.008} = 0.2$ m.\n\n**Different example:** $\\sqrt[3]{0.027} = 0.3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "137": {
+      "hint": "512 is nine factors of 2. — for Q137, write the first step on paper before you type. — for Q137, write the first step on paper before you type.",
+      "help": "$512 = 2^9$.\n\n**Different example:** $256 = 2^8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "138": {
+      "hint": "Add 2 + (−3) + 4 on base 5. — for Q138, write the first step on paper before you type. — for Q138, write the first step on paper before you type.",
+      "help": "$5^2 \\times 5^{-3} \\times 5^4 = 5^3$.\n\n**Different example:** $2^1 \\times 2^{-2} \\times 2^3 = 2^2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "139": {
+      "hint": "0.0625 = 1/16 = $2^{-4}$. — for Q139, write the first step on paper before you type. — for Q139, write the first step on paper before you type.",
+      "help": "$0.0625 = 2^{-4}$.\n\n**Different example:** $0.125 = 2^{-3}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "140": {
+      "hint": "Subtract 4 − 7 on base 10. — for Q140, write the first step on paper before you type. — for Q140, write the first step on paper before you type.",
+      "help": "$\\dfrac{10^4}{10^7} = 10^{-3} = 0.001$.\n\n**Different example:** $\\dfrac{10^2}{10^5} = 0.001$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "141": {
+      "hint": "Cube 2 and cube $a^2$. — for Q141, write the first step on paper before you type. — for Q141, write the first step on paper before you type.",
+      "help": "$(2a^2)^3 = 8a^6$.\n\n**Different example:** $(3a^3)^2 = 9a^6$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "142": {
+      "hint": "Write fraction and decimal forms. — for Q142, write the first step on paper before you type. — for Q142, write the first step on paper before you type.",
+      "help": "$10^{-2} = \\dfrac{1}{100} = 0.01$.\n\n**Different example:** $10^{-1} = 0.1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "143": {
+      "hint": "Cube root of 0.125 = cube root of 1/8. — for Q143, write the first step on paper before you type. — for Q143, write the first step on paper before you type.",
+      "help": "$\\sqrt[3]{0.125} = 0.5$.\n\n**Different example:** $\\sqrt[3]{0.008} = 0.2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "144": {
+      "hint": "Add 8 + (−2) − 3 on base $x$. — for Q144, write the first step on paper before you type. — for Q144, write the first step on paper before you type.",
+      "help": "$\\dfrac{x^8 \\times x^{-2}}{x^3} = x^3$.\n\n**Different example:** $\\dfrac{a^5}{a^2} = a^3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "145": {
+      "hint": "2048 is eleven twos. — for Q145, write the first step on paper before you type. — for Q145, write the first step on paper before you type.",
+      "help": "$2048 = 2^{11}$.\n\n**Different example:** $1024 = 2^{10}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "146": {
+      "hint": "Square root of 4 first, then cube. — for Q146, write the first step on paper before you type. — for Q146, write the first step on paper before you type.",
+      "help": "$(4^{1/2})^3 = 2^3 = 8$.\n\n**Different example:** $(9^{1/2})^2 = 3^2 = 9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "147": {
+      "hint": "Subtract 4 − 6 on base 3. — for Q147, write the first step on paper before you type. — for Q147, write the first step on paper before you type.",
+      "help": "$3^4 \\div 3^6 = 3^{-2} = \\dfrac{1}{9}$.\n\n**Different example:** $2^3 \\div 2^5 = 2^{-2}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "148": {
+      "hint": "Side $10^{-1}$ m — square it for area. — for Q148, write the first step on paper before you type. — for Q148, write the first step on paper before you type.",
+      "help": "Area $= (10^{-1})^2 = 10^{-2} = 0.01$ m².\n\n**Different example:** side 0.2 m → area 0.04 m².\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "149": {
+      "hint": "Negative fractional index: reciprocal square root. — for Q149, write the first step on paper before you type. — for Q149, write the first step on paper before you type.",
+      "help": "$16^{-1/2} = \\dfrac{1}{4}$.\n\n**Different example:** $25^{-1/2} = \\dfrac{1}{5}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "150": {
+      "hint": "Multiply indices 3 × 2 then subtract 4. — for Q150, write the first step on paper before you type. — for Q150, write the first step on paper before you type.",
+      "help": "$(y^3)^2 \\div y^4 = y^{6-4} = y^2$.\n\n**Different example:** $(a^2)^3 \\div a^3 = a^3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "151": {
+      "hint": "Five decimal places with 2.5. — for Q151, write the first step on paper before you type. — for Q151, write the first step on paper before you type.",
+      "help": "$0.000025 = 2.5 \\times 10^{-5}$.\n\n**Different example:** $0.00004 = 4 \\times 10^{-5}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "152": {
+      "hint": "Add $\\frac{1}{2}$ and $-\\frac{1}{2}$ on base 100. — for Q152, write the first step on paper before you type. — for Q152, write the first step on paper before you type.",
+      "help": "$100^{1/2} \\times 100^{-1/2} = 100^0 = 1$.\n\n**Different example:** $10^3 \\times 10^{-3} = 1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "153": {
+      "hint": "Add 7 + (−7) on base 2. — for Q153, write the first step on paper before you type. — for Q153, write the first step on paper before you type.",
+      "help": "$2^7 \\times 2^{-7} = 1$.\n\n**Different example:** $5^4 \\times 5^{-4} = 1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "154": {
+      "hint": "Rewrite $8^{2/3}$ as $(8^{1/3})^2$. — for Q154, write the first step on paper before you type. — for Q154, write the first step on paper before you type.",
+      "help": "$8^{2/3} = 2^2 = 4$.\n\n**Different example:** $27^{2/3} = 9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "155": {
+      "hint": "Subtract indices 6 − 4 on base $b$. — for Q155, write the first step on paper before you type. — for Q155, write the first step on paper before you type.",
+      "help": "$\\dfrac{(b^2)^3}{b^4} = \\dfrac{b^6}{b^4} = b^2$.\n\n**Different example:** $\\dfrac{c^8}{c^3} = c^5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "156": {
+      "hint": "Reciprocal square root of 25. — for Q156, write the first step on paper before you type. — for Q156, write the first step on paper before you type.",
+      "help": "$25^{-1/2} = \\dfrac{1}{5}$.\n\n**Different example:** $100^{-1/2} = \\dfrac{1}{10}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "157": {
+      "hint": "Evaluate $5^0$, $5^1$, and $5^{-1}$ separately then add. — for Q157, write the first step on paper before you type. — for Q157, write the first step on paper before you type.",
+      "help": "$5^0 + 5^1 + 5^{-1} = 1 + 5 + 0.2 = 6.2$.\n\n**Different example:** $2^0 + 2^{-1} = 1.5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "158": {
+      "hint": "Factor $2^3 \\times 3^3 = (2 \\times 3)^3$ before the cube root. — for Q158, write the first step on paper before you type.",
+      "help": "$(2^3 \\times 3^3)^{1/3} = (6^3)^{1/3} = 6$.\n\n**Different example:** $(2^2 \\times 2^2)^{1/2} = 2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "159": {
+      "hint": "Write 32 as $2^5$ first. — for Q159, write the first step on paper before you type. — for Q159, write the first step on paper before you type.",
+      "help": "$32^{3/5} = (2^5)^{3/5} = 2^3 = 8$.\n\n**Different example:** $16^{3/4} = 8$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "160": {
+      "hint": "Simplify denominator $2^4 \\times 2^3 = 2^7$ first. — for Q160, write the first step on paper before you type. — for Q160, write the first step on paper before you type.",
+      "help": "$\\dfrac{2^{11}}{2^7} = 2^4$.\n\n**Different example:** $\\dfrac{3^8}{3^5} = 3^3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "161": {
+      "hint": "Multiply indices: $(10^{-2})^3 = 10^{-6}$. — for Q161, write the first step on paper before you type. — for Q161, write the first step on paper before you type.",
+      "help": "$(10^{-2})^3 = 10^{-6} = 0.000001$.\n\n**Different example:** $(10^{-1})^2 = 10^{-2}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "162": {
+      "hint": "Square each factor in $(x^2 y^3)^2$. — for Q162, write the first step on paper before you type. — for Q162, write the first step on paper before you type.",
+      "help": "$(x^2 y^3)^2 = x^4 y^6$.\n\n**Different example:** $(a^3 b^2)^2 = a^6 b^4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "163": {
+      "hint": "Add $\\frac{1}{2} + \\frac{1}{2}$ on same base $a$. — for Q163, write the first step on paper before you type. — for Q163, write the first step on paper before you type.",
+      "help": "$a^{1/2} \\times a^{1/2} = a^1 = a$ — **always**.\n\n**Different example:** $4^{1/2} \\times 4^{1/2} = 4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "164": {
+      "hint": "Cube root of 0.027. — for Q164, write the first step on paper before you type. — for Q164, write the first step on paper before you type.",
+      "help": "$\\sqrt[3]{0.027} = 0.3$.\n\n**Different example:** $\\sqrt[3]{0.008} = 0.2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "165": {
+      "hint": "Write $4^{-3}$ as $2^{-6}$. — for Q165, write the first step on paper before you type. — for Q165, write the first step on paper before you type.",
+      "help": "$2^8 \\times 4^{-3} = 2^8 \\times 2^{-6} = 2^2 = 4$.\n\n**Different example:** $2^5 \\times 4^{-2} = 2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "166": {
+      "hint": "Negative index on a fraction flips it. — for Q166, write the first step on paper before you type. — for Q166, write the first step on paper before you type.",
+      "help": "$(\\frac{1}{2})^{-3} = 2^3 = 8$.\n\n**Different example:** $(\\frac{1}{3})^{-2} = 9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "167": {
+      "hint": "Add 6 + (−2) − 3 on base 10. — for Q167, write the first step on paper before you type. — for Q167, write the first step on paper before you type.",
+      "help": "$\\dfrac{10^6 \\times 10^{-2}}{10^3} = 10^{6-2-3} = 10^1$.\n\n**Different example:** $\\dfrac{10^5}{10^2} = 10^3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "168": {
+      "hint": "Reciprocal square root of 81. — for Q168, write the first step on paper before you type. — for Q168, write the first step on paper before you type.",
+      "help": "$81^{-1/2} = \\dfrac{1}{9}$.\n\n**Different example:** $49^{-1/2} = \\dfrac{1}{7}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "169": {
+      "hint": "Expand $(3m^4)^2$ then divide by $m^3$. — for Q169, write the first step on paper before you type. — for Q169, write the first step on paper before you type.",
+      "help": "$(3m^4)^2 \\div m^3 = 9m^8 \\div m^3 = 9m^5$.\n\n**Different example:** $(2m^2)^2 \\div m = 4m^3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "170": {
+      "hint": "Write $\\frac{1}{\\sqrt{100}}$ using $100^{-1/2}$. — for Q170, write the first step on paper before you type. — for Q170, write the first step on paper before you type.",
+      "help": "$\\dfrac{1}{\\sqrt{100}} = 100^{-1/2} = 10^{-1}$.\n\n**Different example:** $\\dfrac{1}{\\sqrt{25}} = 5^{-1}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "171": {
+      "hint": "Add $\\frac{1}{2} + \\frac{1}{2}$ on base 2. — for Q171, write the first step on paper before you type. — for Q171, write the first step on paper before you type.",
+      "help": "$2^{1/2} \\times 2^{1/2} = 2^1 = 2$.\n\n**Different example:** $3^{1/2} \\times 3^{1/2} = 3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "172": {
+      "hint": "Anything to power 0 is 1. — for Q172, write the first step on paper before you type. — for Q172, write the first step on paper before you type.",
+      "help": "$(p^5)^0 \\times p^2 = 1 \\times p^2 = p^2$.\n\n**Different example:** $(x^9)^0 = 1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "173": {
+      "hint": "Add −4 + 6 on base 10. — for Q173, write the first step on paper before you type. — for Q173, write the first step on paper before you type.",
+      "help": "$10^{-4} \\times 10^6 = 10^2 = 100$.\n\n**Different example:** $10^{-3} \\times 10^5 = 10^2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "174": {
+      "hint": "Numerator $(2^4)^2 = 2^8$; divide by $2^5$. — for Q174, write the first step on paper before you type. — for Q174, write the first step on paper before you type.",
+      "help": "$\\dfrac{(2^4)^2}{2^5} = 2^{8-5} = 2^3$.\n\n**Different example:** $\\dfrac{(3^2)^3}{3^4} = 3^2$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "175": {
+      "hint": "Rewrite as $(64^{1/3})^2$. — for Q175, write the first step on paper before you type. — for Q175, write the first step on paper before you type.",
+      "help": "$64^{2/3} = 4^2 = 16$.\n\n**Different example:** $27^{2/3} = 9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "176": {
+      "hint": "Compute $(-3)^{-2}$ as a fraction. — for Q176, write the first step on paper before you type. — for Q176, write the first step on paper before you type.",
+      "help": "$(-3)^{-2} = \\dfrac{1}{9} > 0$ — **never** negative.\n\n**Different example:** $(-2)^{-4} = \\dfrac{1}{16}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "177": {
+      "hint": "Add 3 + (−5) on base 5. — for Q177, write the first step on paper before you type. — for Q177, write the first step on paper before you type.",
+      "help": "$5^3 \\times 5^{-5} = 5^{-2} = \\dfrac{1}{25}$.\n\n**Different example:** $2^4 \\times 2^{-6} = 2^{-2}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "178": {
+      "hint": "Negative index on 0.1. — for Q178, write the first step on paper before you type. — for Q178, write the first step on paper before you type.",
+      "help": "$(0.1)^{-2} = 10^2 = 100$.\n\n**Different example:** $(0.2)^{-1} = 5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "179": {
+      "hint": "Simplify inside brackets first: $x^3 \\times x^{-1} = x^2$. — for Q179, write the first step on paper before you type. — for Q179, write the first step on paper before you type.",
+      "help": "$(x^3 \\times x^{-1})^2 = (x^2)^2 = x^4$.\n\n**Different example:** $(a^2 \\times a^3)^2 = a^{10}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "180": {
+      "hint": "Rewrite as $(16^{1/4})^3$. — for Q180, write the first step on paper before you type. — for Q180, write the first step on paper before you type.",
+      "help": "$16^{3/4} = 2^3 = 8$.\n\n**Different example:** $81^{3/4} = 27$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "181": {
+      "hint": "Subtract indices on $a$ and on $b$ separately. — for Q181, write the first step on paper before you type. — for Q181, write the first step on paper before you type.",
+      "help": "$\\dfrac{a^6 b^4}{a^2 b^6} = a^4 b^{-2}$.\n\n**Different example:** $\\dfrac{x^5 y^3}{x y^5} = x^4 y^{-2}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "182": {
+      "hint": "Subtracting −3 adds: 2 − (−3). — for Q182, write the first step on paper before you type. — for Q182, write the first step on paper before you type.",
+      "help": "$10^2 \\div 10^{-3} = 10^{2+3} = 10^5$.\n\n**Different example:** $10^4 \\div 10^{-2} = 10^6$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "183": {
+      "hint": "Simplify inside to $2^3$, then square. — for Q183, write the first step on paper before you type. — for Q183, write the first step on paper before you type.",
+      "help": "$(2^5 \\times 2^{-2})^2 = (2^3)^2 = 2^6$.\n\n**Different example:** $(3^4 \\times 3^{-1})^2 = 3^6$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "184": {
+      "hint": "Rewrite $125^{-2/3}$ as $(125^{1/3})^{-2}$. — for Q184, write the first step on paper before you type. — for Q184, write the first step on paper before you type.",
+      "help": "$125^{-2/3} = 5^{-2} = \\dfrac{1}{25}$.\n\n**Different example:** $8^{-2/3} = \\dfrac{1}{4}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "185": {
+      "hint": "Try $x = 2$, $a = 1$, $b = 1$. — for Q185, write the first step on paper before you type. — for Q185, write the first step on paper before you type.",
+      "help": "$x^{a+b} = x^2$ but $x^a + x^b = 2x$ — **never** equal in general.\n\n**Different example:** $2^{1+1} = 4$ but $2^1 + 2^1 = 4$ only by coincidence!"
+    },
+    "186": {
+      "hint": "Add 8 + (−5) on base 3; $3^0 = 1$. — for Q186, write the first step on paper before you type. — for Q186, write the first step on paper before you type.",
+      "help": "$\\dfrac{3^8 \\times 3^{-5}}{3^0} = 3^3 = 27$.\n\n**Different example:** $\\dfrac{2^6 \\times 2^{-2}}{2^0} = 2^4$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "187": {
+      "hint": "Square root of the fraction $\\frac{4}{9}$. — for Q187, write the first step on paper before you type. — for Q187, write the first step on paper before you type.",
+      "help": "$(\\frac{4}{9})^{1/2} = \\dfrac{2}{3}$.\n\n**Different example:** $(\\frac{25}{16})^{1/2} = \\frac{5}{4}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "188": {
+      "hint": "1024 is ten factors of 2. — for Q188, write the first step on paper before you type. — for Q188, write the first step on paper before you type.",
+      "help": "$1024 = 2^{10}$.\n\n**Different example:** $512 = 2^9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "189": {
+      "hint": "Add 4 + (−4) on base $k$. — for Q189, write the first step on paper before you type. — for Q189, write the first step on paper before you type.",
+      "help": "$k^4 \\times k^{-4} = k^0 = 1$.\n\n**Different example:** $a^5 \\times a^{-5} = 1$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "190": {
+      "hint": "Add 0.1 + 0.01. — for Q190, write the first step on paper before you type. — for Q190, write the first step on paper before you type.",
+      "help": "$10^{-1} + 10^{-2} = 0.1 + 0.01 = 0.11$.\n\n**Different example:** $10^{-2} + 10^{-3} = 0.011$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "191": {
+      "hint": "Multiply indices 2 × 5. — for Q191, write the first step on paper before you type. — for Q191, write the first step on paper before you type.",
+      "help": "$(t^2)^5 = t^{10}$.\n\n**Different example:** $(m^3)^4 = m^{12}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "192": {
+      "hint": "Square root of 0.16. — for Q192, write the first step on paper before you type. — for Q192, write the first step on paper before you type.",
+      "help": "$\\sqrt{0.16} = 0.4$.\n\n**Different example:** $\\sqrt{0.09} = 0.3$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "193": {
+      "hint": "Subtract 6 − (−2) on base 2. — for Q193, write the first step on paper before you type. — for Q193, write the first step on paper before you type.",
+      "help": "$\\dfrac{2^6}{2^{-2}} = 2^{6+2} = 2^8$.\n\n**Different example:** $\\dfrac{3^4}{3^{-1}} = 3^5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "194": {
+      "hint": "0.5 is one half. — for Q194, write the first step on paper before you type. — for Q194, write the first step on paper before you type.",
+      "help": "$0.5 = 2^{-1}$.\n\n**Different example:** $0.25 = 2^{-2}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "195": {
+      "hint": "Reciprocal square root of 49. — for Q195, write the first step on paper before you type. — for Q195, write the first step on paper before you type.",
+      "help": "$49^{-1/2} = \\dfrac{1}{7}$.\n\n**Different example:** $36^{-1/2} = \\dfrac{1}{6}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "196": {
+      "hint": "Add 2 + 3 + (−4) on base 3. — for Q196, write the first step on paper before you type. — for Q196, write the first step on paper before you type.",
+      "help": "$3^2 \\times 3^3 \\times 3^{-4} = 3^1 = 3$.\n\n**Different example:** $2^1 \\times 2^2 \\times 2^{-3} = 2^0$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "197": {
+      "hint": "Multiply indices 3 × (−2). — for Q197, write the first step on paper before you type. — for Q197, write the first step on paper before you type.",
+      "help": "$(10^3)^{-2} = 10^{-6}$.\n\n**Different example:** $(10^2)^{-3} = 10^{-6}$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "198": {
+      "hint": "Power of 1 stays 1; multiply index. — for Q198, write the first step on paper before you type. — for Q198, write the first step on paper before you type.",
+      "help": "$(w^1)^8 = w^8$.\n\n**Different example:** $(x^1)^5 = x^5$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "199": {
+      "hint": "Same as $8^{2/3}$. — for Q199, write the first step on paper before you type. — for Q199, write the first step on paper before you type.",
+      "help": "$8^{2/3} = 4$.\n\n**Different example:** $27^{2/3} = 9$.\n\n**Check:** Match the form the question asks for — single power, fraction, or decimal."
+    },
+    "200": {
+      "hint": "Denominator adds 3 + 2; subtract from 10 on base $x$. — for Q200, write the first step on paper before you type. — for Q200, write the first step on paper before you type.",
+      "help": "$\\dfrac{x^{10}}{x^3 \\times x^2} = \\dfrac{x^{10}}{x^5} = x^5$.\n\n**Different example:** $\\dfrac{a^7}{a^2 \\times a^1} = a^4$."
+    }
+  }
+}

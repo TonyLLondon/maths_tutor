@@ -1,0 +1,585 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "0",
+      "accept": [
+        "0",
+        "zero"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "Blue",
+      "accept": [
+        "blue"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "Heads and tails",
+      "accept": [
+        "heads and tails",
+        "heads tails"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "0.7",
+      "accept": [
+        "0.7",
+        "7/10"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 1,
+      "rating": 708
+    },
+    "11": {
+      "display": "0.3",
+      "accept": [
+        "0.3",
+        "3/10"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "12": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "0.7",
+      "accept": [
+        "0.7",
+        "70%"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "0.3",
+      "accept": [
+        "0.3",
+        "30%"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "0.65",
+      "accept": [
+        "0.65",
+        "65%"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "5/12 (1 - 1/4 - 1/3)",
+      "accept": [
+        "5/12"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "17": {
+      "display": "Yes — on one roll you can only get one number, and it cannot be both even and odd.",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 865
+    },
+    "18": {
+      "display": "Heads, tails",
+      "accept": [
+        "heads tails",
+        "heads and tails",
+        "head tail"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "19": {
+      "display": "0.4",
+      "accept": [
+        "0.4",
+        "40%"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "20": {
+      "display": "No — 6 is itself an even number, so both events can happen at the same time (when you roll a 6).",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 945
+    },
+    "21": {
+      "display": "0.3",
+      "accept": [
+        "0.3",
+        "30%"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "22": {
+      "display": "3/10",
+      "accept": [
+        "3/10"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "23": {
+      "display": "5/8",
+      "accept": [
+        "5/8"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "24": {
+      "display": "No — the King of Hearts is both a King and a Heart, so the events can happen at the same time.",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "25": {
+      "display": "No, Archer is incorrect — for example, rolling an odd number and rolling an even number on a dice are both mutually exclusive (cannot happen together) and exhaustive (together cover every outcome).",
+      "accept": [
+        "no",
+        "incorrect",
+        "odd",
+        "even"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "26": {
+      "display": "True — mutually exclusive means the events cannot both happen at once, so the probability of both happening together is 0.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1230
+    },
+    "27": {
+      "display": "Not quite — \"greater than 3\" is {4, 5, 6} and \"less than 5\" is {1, 2, 3, 4}. They overlap at 4, so they are not mutually exclusive, although together they do cover every outcome (exhaustive).",
+      "accept": [
+        "overlap",
+        "4",
+        "not mutually exclusive"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1280
+    },
+    "28": {
+      "display": "The probabilities add up to 1.05, which is more than 1 — for mutually exclusive, exhaustive events, the probabilities must add up to exactly 1.",
+      "accept": [
+        "1.05",
+        "more than 1",
+        "add up to 1"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1330
+    },
+    "29": {
+      "display": "Mutually exclusive events cannot happen at the same time (e.g. rolling a 2 and rolling a 5 on one dice roll); exhaustive events cover every possible outcome between them (e.g. rolling an even number or an odd number covers all six outcomes).",
+      "accept": [
+        "cannot happen at the same time",
+        "cover every outcome",
+        "mutually exclusive",
+        "exhaustive"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1380
+    },
+    "30": {
+      "display": "No, Mia is incorrect — 6 is both even and a multiple of 3, so the two events can happen together and are not mutually exclusive.",
+      "accept": [
+        "no",
+        "incorrect",
+        "6"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1430
+    },
+    "31": {
+      "display": "Always — if two events cannot happen together, their combined probability P(A or B) = P(A) + P(B) can be at most 1, since no probability can exceed 1.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "32": {
+      "display": "P(white) = 0.25; number of white chocolates = 15 (0.25 x 60)",
+      "accept": [
+        "0.25",
+        "15"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "33": {
+      "display": "3/10 (1 - 2/5 - 3/10)",
+      "accept": [
+        "3/10"
+      ],
+      "tier": 3,
+      "rating": 1670
+    },
+    "34": {
+      "display": "0.6",
+      "accept": [
+        "0.6",
+        "60%"
+      ],
+      "tier": 3,
+      "rating": 1720
+    },
+    "35": {
+      "display": "30 chose winter (120 - 30 - 42 - 18); P(winter) = 30/120 = 1/4",
+      "accept": [
+        "30",
+        "1/4",
+        "0.25"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1730
+    },
+    "36": {
+      "display": "P(yellow) = 0.3; P(red or yellow) = 0.5",
+      "accept": [
+        "0.3",
+        "0.5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1737
+    },
+    "37": {
+      "display": "P(Fail) = 0.1; P(C or better) = 0.7",
+      "accept": [
+        "0.1",
+        "0.7"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1744
+    },
+    "38": {
+      "display": "P(none) = 4/5 (0.8); expected tickets winning nothing out of 500 = 400",
+      "accept": [
+        "4/5",
+        "0.8",
+        "400"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "39": {
+      "display": "P(A) and P(not A) are mutually exclusive (A cannot happen at the same time as not A) and exhaustive (together they cover every possibility), so their probabilities must add to 1 — e.g. P(rain) + P(no rain) = 1.",
+      "accept": [
+        "mutually exclusive",
+        "exhaustive",
+        "cannot happen together",
+        "cover every possibility",
+        "add to 1"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1860
+    },
+    "40": {
+      "display": "P(red) = 0.45 (0.7 - 0.25); P(green) = 0.3 (1 - 0.7)",
+      "accept": [
+        "0.45",
+        "0.3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "41": {
+      "display": "For example, a spinner with four sections of probability 0.1, 0.2, 0.3, and 0.4 — these add to exactly 1.",
+      "accept": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "add to 1"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 3,
+      "rating": 1953
+    },
+    "42": {
+      "display": "In real life, weather can be a mixture (e.g. sunny with light rain, or partly cloudy), so the two categories are not always clearly separate — in maths problems we simplify to make the events mutually exclusive for calculation.",
+      "accept": [
+        "mixture",
+        "not separate",
+        "overlap",
+        "simplify",
+        "mutually exclusive"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "0.9",
+      "accept": [
+        "0.9",
+        "9/10"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "0.8",
+      "accept": [
+        "0.8",
+        "4/5"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "45": {"display": "0.24", "accept": ["0.24", "24%"], "tier": 2, "rating": 1250},
+    "46": {"display": "0.59", "accept": ["0.59", "59%"], "tier": 2, "rating": 1255},
+    "47": {"display": "4/7", "accept": ["4/7"], "tier": 2, "rating": 1260},
+    "48": {"display": "0.35", "accept": ["0.35", "35%"], "tier": 2, "rating": 1265},
+    "49": {"display": "0.92", "accept": ["0.92", "92%"], "tier": 2, "rating": 1270},
+    "50": {"display": "7/12", "accept": ["7/12"], "tier": 2, "rating": 1275},
+    "51": {"display": "0.12", "accept": ["0.12", "12%"], "tier": 2, "rating": 1280},
+    "52": {"display": "0.07", "accept": ["0.07", "7%"], "tier": 2, "rating": 1285},
+    "53": {"display": "0.78", "accept": ["0.78", "78%"], "tier": 2, "rating": 1290},
+    "54": {"display": "0.6", "accept": ["0.6", "60%"], "tier": 2, "rating": 1295},
+    "55": {"display": "7/8", "accept": ["7/8"], "tier": 2, "rating": 1300},
+    "56": {"display": "0.45", "accept": ["0.45", "45%"], "tier": 2, "rating": 1305},
+    "57": {"display": "0.88", "accept": ["0.88", "88%"], "tier": 2, "rating": 1310},
+    "58": {"display": "7/9", "accept": ["7/9"], "tier": 2, "rating": 1315},
+    "59": {"display": "0.58", "accept": ["0.58", "58%"], "tier": 2, "rating": 1320},
+    "60": {"display": "1/3", "accept": ["1/3"], "tier": 2, "rating": 1325},
+    "61": {"display": "0.82", "accept": ["0.82", "82%"], "tier": 2, "rating": 1330},
+    "62": {"display": "3/5", "accept": ["3/5"], "tier": 2, "rating": 1335},
+    "63": {"display": "0.77", "accept": ["0.77", "77%"], "tier": 2, "rating": 1340},
+    "64": {"display": "0.37", "accept": ["0.37", "37%"], "tier": 2, "rating": 1345},
+    "65": {"display": "1", "accept": ["1", "one"], "tier": 2, "rating": 1350},
+    "66": {"display": "1", "accept": ["1", "one"], "tier": 2, "rating": 1355},
+    "67": {"display": "0.6", "accept": ["0.6", "60%"], "tier": 2, "rating": 1360},
+    "68": {"display": "1", "accept": ["1", "one"], "tier": 2, "rating": 1365},
+    "69": {"display": "0.15", "accept": ["0.15", "15%"], "tier": 2, "rating": 1370},
+    "70": {"display": "7/10", "accept": ["7/10", "0.7"], "tier": 2, "rating": 1375},
+    "71": {"display": "0.16", "accept": ["0.16", "16%"], "tier": 2, "rating": 1380},
+    "72": {"display": "1", "accept": ["1", "one"], "tier": 2, "rating": 1385},
+    "73": {"display": "0.25", "accept": ["0.25", "25%"], "tier": 2, "rating": 1390},
+    "74": {"display": "0.38", "accept": ["0.38", "38%"], "tier": 2, "rating": 1395},
+    "75": {"display": "5/12", "accept": ["5/12"], "tier": 2, "rating": 1400},
+    "76": {"display": "0.24", "accept": ["0.24", "24%"], "tier": 2, "rating": 1405},
+    "77": {"display": "0.24", "accept": ["0.24", "24%"], "tier": 2, "rating": 1410},
+    "78": {"display": "0.25", "accept": ["0.25", "25%"], "tier": 2, "rating": 1415},
+    "79": {"display": "0.17", "accept": ["0.17", "17%"], "tier": 2, "rating": 1420},
+    "80": {"display": "0.9", "accept": ["0.9", "90%"], "tier": 2, "rating": 1425},
+    "81": {"display": "0.25", "accept": ["0.25", "25%"], "tier": 2, "rating": 1430},
+    "82": {"display": "2/7", "accept": ["2/7"], "tier": 2, "rating": 1435},
+    "83": {"display": "0.2", "accept": ["0.2", "20%"], "tier": 2, "rating": 1440},
+    "84": {"display": "0.27", "accept": ["0.27", "27%"], "tier": 2, "rating": 1445},
+    "85": {"display": "0.1", "accept": ["0.1", "10%"], "tier": 2, "rating": 1450},
+    "86": {"display": "0.3", "accept": ["0.3", "30%"], "tier": 2, "rating": 1455},
+    "87": {"display": "16 tennis; P(tennis) = 16/80 = 1/5", "accept": ["16", "1/5", "0.2"], "contains": true, "tier": 2, "rating": 1460},
+    "88": {"display": "45 green; P(green) = 45/150 = 0.3", "accept": ["45", "0.3", "3/10"], "contains": true, "tier": 2, "rating": 1465},
+    "89": {"display": "35 salad; P(salad) = 35/200 = 0.175", "accept": ["35", "0.175", "7/40"], "contains": true, "tier": 2, "rating": 1470},
+    "90": {"display": "16 white; P(white) = 16/96 = 1/6", "accept": ["16", "1/6"], "contains": true, "tier": 2, "rating": 1475},
+    "91": {"display": "0.3 (9/30)", "accept": ["0.3", "9/30", "3/10"], "tier": 2, "rating": 1480},
+    "92": {"display": "3/16 (45/240)", "accept": ["3/16", "45/240", "0.1875"], "tier": 2, "rating": 1485},
+    "93": {"display": "0.1 (5/50)", "accept": ["0.1", "1/10", "5/50"], "tier": 2, "rating": 1490},
+    "94": {"display": "1/4 (30/120)", "accept": ["1/4", "0.25", "30/120"], "tier": 2, "rating": 1495},
+    "95": {"display": "8 PE; P(PE) = 8/64 = 1/8", "accept": ["8", "1/8"], "contains": true, "tier": 2, "rating": 1500},
+    "96": {"display": "0.1 (18/180)", "accept": ["0.1", "18/180", "1/10"], "tier": 2, "rating": 1505},
+    "97": {"display": "1/5 (15/75)", "accept": ["1/5", "0.2", "15/75"], "tier": 2, "rating": 1510},
+    "98": {"display": "3/22 (15/110)", "accept": ["3/22", "15/110"], "tier": 2, "rating": 1515},
+    "99": {"display": "3/40 (30/400)", "accept": ["3/40", "0.075", "30/400"], "tier": 2, "rating": 1520},
+    "100": {"display": "3/25 (30/250)", "accept": ["3/25", "0.12", "30/250"], "tier": 2, "rating": 1525},
+    "101": {"display": "No — six pupils play both sports, so both events can happen together.", "accept": ["no", "both", "6"], "contains": true, "tier": 2, "rating": 1530},
+    "102": {"display": "Yes — a pupil cannot be in the maths-only region and the science-only region at the same time.", "accept": ["yes"], "contains": true, "tier": 2, "rating": 1535},
+    "103": {"display": "No — rolling a 2 is rolling a prime, so both can happen on the same roll.", "accept": ["no", "2", "prime"], "contains": true, "tier": 2, "rating": 1540},
+    "104": {"display": "11 study both; not mutually exclusive because overlap is not zero.", "accept": ["11", "both", "not mutually exclusive"], "contains": true, "tier": 2, "rating": 1545},
+    "105": {"display": "False — e.g. rolling greater than 2 and rolling less than 5 on a dice cover all outcomes but overlap at 3 and 4.", "accept": ["false", "overlap", "not mutually exclusive"], "contains": true, "tier": 2, "rating": 1550},
+    "106": {"display": "No — mutually exclusive means no overlap, so the overlap region must be empty.", "accept": ["no", "overlap", "empty"], "contains": true, "tier": 2, "rating": 1555},
+    "107": {"display": "No — red face cards such as the King of Hearts belong to both events.", "accept": ["no", "overlap", "heart"], "contains": true, "tier": 2, "rating": 1560},
+    "108": {"display": "0.6 (60/100)", "accept": ["0.6", "60/100", "60%"], "tier": 2, "rating": 1565},
+    "109": {"display": "0.45 (45/100)", "accept": ["0.45", "45/100", "45%"], "tier": 2, "rating": 1570},
+    "110": {"display": "33/45 (11/15)", "accept": ["33/45", "11/15", "0.733"], "tier": 2, "rating": 1575},
+    "111": {"display": "12/45 (4/15)", "accept": ["12/45", "4/15"], "tier": 2, "rating": 1580},
+    "112": {"display": "No — someone can wear a hat and glasses at the same time.", "accept": ["no", "both"], "contains": true, "tier": 2, "rating": 1585},
+    "113": {"display": "No — shared area means both labels could happen on one spin.", "accept": ["no", "overlap", "share"], "contains": true, "tier": 2, "rating": 1590},
+    "114": {"display": "Yes — one chip has one colour and the counts cover all 80 chips.", "accept": ["yes"], "contains": true, "tier": 2, "rating": 1595},
+    "115": {"display": "With overlap, outcomes in both A and B would be counted twice if you just add P(A) and P(B).", "accept": ["overlap", "twice", "add", "both"], "contains": true, "tier": 2, "rating": 1600},
+    "116": {"display": "0.7", "accept": ["0.7", "70%"], "tier": 2, "rating": 1605},
+    "117": {"display": "1", "accept": ["1", "one"], "tier": 2, "rating": 1610},
+    "118": {"display": "Yes — 0.2 + 0.35 + 0.45 = 1, so they cover all possibilities.", "accept": ["yes", "1"], "contains": true, "tier": 2, "rating": 1615},
+    "119": {"display": "No — 0.6 + 0.5 > 1, so they cannot both be mutually exclusive.", "accept": ["no", "greater than 1", ">1"], "contains": true, "tier": 2, "rating": 1620},
+    "120": {"display": "No — 0.4 + 0.35 = 0.75 < 1, so something else must be possible.", "accept": ["no", "0.75", "less than 1"], "contains": true, "tier": 2, "rating": 1625},
+    "121": {"display": "Probabilities sum to 0.95, not 1 — exhaustive mutually exclusive outcomes must add to exactly 1.", "accept": ["0.95", "not 1", "add up to 1"], "contains": true, "tier": 2, "rating": 1630},
+    "122": {"display": "Probabilities sum to 1.15, which is more than 1.", "accept": ["1.15", "more than 1"], "contains": true, "tier": 2, "rating": 1635},
+    "123": {"display": "Probabilities sum to 1.15, which is impossible for one exhaustive weather label.", "accept": ["1.15", "more than 1"], "contains": true, "tier": 2, "rating": 1640},
+    "124": {"display": "Probabilities sum to 1.2, which is more than 1.", "accept": ["1.2", "more than 1"], "contains": true, "tier": 2, "rating": 1645},
+    "125": {"display": "4 × 0.26 = 1.04, which is more than 1.", "accept": ["1.04", "more than 1"], "contains": true, "tier": 2, "rating": 1650},
+    "126": {"display": "Complements must sum to 1, but 0.33 + 0.66 = 0.99.", "accept": ["0.99", "not 1"], "contains": true, "tier": 2, "rating": 1655},
+    "127": {"display": "7/10 + 1/4 = 9/10, which is less than 1 — missing outcomes.", "accept": ["9/10", "less than 1", "0.9"], "contains": true, "tier": 2, "rating": 1660},
+    "128": {"display": "Six outcomes each with probability 0.2 sum to 1.2, not 1.", "accept": ["1.2", "more than 1"], "contains": true, "tier": 2, "rating": 1665},
+    "129": {"display": "P(walk) = 0.23; 46 walk (0.23 × 200)", "accept": ["0.23", "46"], "contains": true, "tier": 3, "rating": 1670},
+    "130": {"display": "P(history or geography) = 5/8; P(other) = 3/8", "accept": ["5/8", "3/8"], "contains": true, "tier": 3, "rating": 1675},
+    "131": {"display": "0.37", "accept": ["0.37", "37%"], "tier": 3, "rating": 1680},
+    "132": {"display": "0.33", "accept": ["0.33", "33%"], "tier": 3, "rating": 1685},
+    "133": {"display": "0.42", "accept": ["0.42", "42%"], "tier": 3, "rating": 1690},
+    "134": {"display": "0.25", "accept": ["0.25", "25%"], "tier": 3, "rating": 1695},
+    "135": {"display": "53/90", "accept": ["53/90"], "tier": 3, "rating": 1700},
+    "136": {"display": "0.63", "accept": ["0.63", "63%"], "tier": 3, "rating": 1705},
+    "137": {"display": "7/9", "accept": ["7/9"], "tier": 3, "rating": 1710},
+    "138": {"display": "0.78", "accept": ["0.78", "78%"], "tier": 3, "rating": 1715},
+    "139": {"display": "0.65", "accept": ["0.65", "65%"], "tier": 3, "rating": 1720},
+    "140": {"display": "30 juice; P(juice) = 30/120 = 1/4", "accept": ["30", "1/4", "0.25"], "contains": true, "tier": 3, "rating": 1725},
+    "141": {"display": "No — adding works for P(A or B) only when A and B are mutually exclusive.", "accept": ["no", "mutually exclusive"], "contains": true, "tier": 3, "rating": 1730},
+    "142": {"display": "Always — every outcome is listed exactly once, so probabilities must total 1.", "accept": ["always"], "contains": true, "tier": 3, "rating": 1735},
+    "143": {"display": "440 (0.88 × 500)", "accept": ["440"], "tier": 3, "rating": 1740},
+    "144": {"display": "0.6", "accept": ["0.6", "60%"], "tier": 3, "rating": 1745},
+    "145": {"display": "0.75", "accept": ["0.75", "75%"], "tier": 3, "rating": 1750},
+    "146": {"display": "0.73", "accept": ["0.73", "73%"], "tier": 3, "rating": 1755},
+    "147": {"display": "Yes in this simplified model — each pupil is exactly one of the two and the counts add to 36.", "accept": ["yes"], "contains": true, "tier": 3, "rating": 1760},
+    "148": {"display": "Yes — 0.25 + 0.35 + 0.40 = 1 and each probability is between 0 and 1.", "accept": ["yes", "valid"], "contains": true, "tier": 3, "rating": 1765},
+    "149": {"display": "0.33", "accept": ["0.33", "33%"], "tier": 3, "rating": 1770},
+    "150": {"display": "0.75", "accept": ["0.75", "75%"], "tier": 3, "rating": 1775},
+    "151": {"display": "0.15 (30/200)", "accept": ["0.15", "30/200", "15%"], "tier": 3, "rating": 1780},
+    "152": {"display": "1/2", "accept": ["1/2", "0.5"], "tier": 3, "rating": 1785},
+    "153": {"display": "10", "accept": ["10", "ten"], "tier": 3, "rating": 1790},
+    "154": {"display": "A and not A are complementary — mutually exclusive and exhaustive opposites.", "accept": ["complementary", "mutually", "exclusive", "opposite"], "contains": true, "tier": 3, "rating": 1795},
+    "155": {"display": "True — overlap is counted once in P(A or B) but twice if you add P(A) + P(B).", "accept": ["true"], "contains": true, "tier": 3, "rating": 1800},
+    "156": {"display": "3/8", "accept": ["3/8"], "tier": 3, "rating": 1805},
+    "157": {"display": "12/25 (120/250)", "accept": ["12/25", "0.48", "120/250"], "tier": 3, "rating": 1810},
+    "158": {"display": "3/5", "accept": ["3/5", "0.6"], "tier": 3, "rating": 1815},
+    "159": {"display": "Example: on one dice roll, \"greater than 2\" and \"less than 5\" cover 1–6 but both include 3 and 4.", "accept": ["3", "4", "overlap", "both"], "contains": true, "tier": 3, "rating": 1820},
+    "160": {"display": "0.25", "accept": ["0.25", "25%"], "tier": 3, "rating": 1825},
+    "161": {"display": "15", "accept": ["15", "fifteen"], "tier": 3, "rating": 1830},
+    "162": {"display": "0.7", "accept": ["0.7", "70%"], "tier": 3, "rating": 1835},
+    "163": {"display": "0.22", "accept": ["0.22", "22%"], "tier": 3, "rating": 1840},
+    "164": {"display": "Probabilities sum to 0.99, not 1 — one journey mode is missing probability.", "accept": ["0.99", "not 1"], "contains": true, "tier": 3, "rating": 1845},
+    "165": {"display": "5/24 (10/48)", "accept": ["5/24", "10/48"], "tier": 3, "rating": 1850},
+    "166": {"display": "0.3", "accept": ["0.3", "30%"], "tier": 3, "rating": 1855},
+    "167": {"display": "Yes — P(C) = 1 − 0.35 − 0.42 = 0.23 and 0.23 × 200 = 46.", "accept": ["yes", "46", "0.23"], "contains": true, "tier": 3, "rating": 1860},
+    "168": {"display": "Never — two probabilities above 0.5 would sum to more than 1.", "accept": ["never"], "contains": true, "tier": 3, "rating": 1865},
+    "169": {"display": "P(A) = 0.32, P(B) = 0.41, P(C) = 0.27", "accept": ["0.32", "0.41", "0.27"], "contains": true, "tier": 3, "rating": 1870},
+    "170": {"display": "0.3", "accept": ["0.3", "30%"], "tier": 3, "rating": 1875},
+    "171": {"display": "1/4 (18/72)", "accept": ["1/4", "18/72", "0.25"], "tier": 3, "rating": 1880},
+    "172": {"display": "0.35", "accept": ["0.35", "35%"], "tier": 3, "rating": 1885},
+    "173": {"display": "3/4", "accept": ["3/4", "0.75"], "tier": 3, "rating": 1890},
+    "174": {"display": "0.1 (30/300)", "accept": ["0.1", "30/300", "1/10"], "tier": 3, "rating": 1895},
+    "175": {"display": "No — 1 is neither odd nor prime in the usual definition, and 4 is even but not prime.", "accept": ["no", "1", "4"], "contains": true, "tier": 3, "rating": 1900},
+    "176": {"display": "34 white bars (0.17 × 200)", "accept": ["34"], "tier": 3, "rating": 1905},
+    "177": {"display": "0.17", "accept": ["0.17", "17%"], "tier": 3, "rating": 1910},
+    "178": {"display": "39/55", "accept": ["39/55"], "tier": 3, "rating": 1915},
+    "179": {"display": "0.25", "accept": ["0.25", "25%"], "tier": 3, "rating": 1920},
+    "180": {"display": "True — 0.08 + 0.12 + 0.25 + 0.55 = 1 exactly.", "accept": ["true", "yes"], "contains": true, "tier": 3, "rating": 1925},
+    "181": {"display": "0.07 (28/400)", "accept": ["0.07", "28/400", "7/100"], "tier": 3, "rating": 1930},
+    "182": {"display": "1/2", "accept": ["1/2", "0.5"], "tier": 3, "rating": 1935},
+    "183": {"display": "0.1 (9/90)", "accept": ["0.1", "9/90", "1/10"], "tier": 3, "rating": 1940},
+    "184": {"display": "0.09", "accept": ["0.09", "9%"], "tier": 3, "rating": 1945},
+    "185": {"display": "0.5 (125/250)", "accept": ["0.5", "125/250", "1/2"], "tier": 3, "rating": 1950},
+    "186": {"display": "Yes — 0.26 + 0.74 = 1, so they are complementary exhaustive events.", "accept": ["yes"], "contains": true, "tier": 3, "rating": 1955},
+    "187": {"display": "0.73", "accept": ["0.73", "73%"], "tier": 3, "rating": 1960},
+    "188": {"display": "Counts sum to 180; P(both) = 20/180 = 1/9", "accept": ["180", "1/9", "20/180"], "contains": true, "tier": 3, "rating": 1965},
+    "189": {"display": "0.12", "accept": ["0.12", "12%"], "tier": 3, "rating": 1970},
+    "190": {"display": "False — complements add to 1; their product is not generally zero.", "accept": ["false"], "contains": true, "tier": 3, "rating": 1975},
+    "191": {"display": "13/16 (260/320)", "accept": ["13/16", "260/320"], "tier": 3, "rating": 1980},
+    "192": {"display": "0.25", "accept": ["0.25", "25%"], "tier": 3, "rating": 1985},
+    "193": {"display": "0.2 (100/500)", "accept": ["0.2", "100/500", "1/5"], "tier": 3, "rating": 1990},
+    "194": {"display": "0.37", "accept": ["0.37", "37%"], "tier": 3, "rating": 1995},
+    "195": {"display": "One ticket has exactly one result — win and lose cannot both happen and together cover all possibilities.", "accept": ["one", "mutually", "cannot", "both"], "contains": true, "tier": 3, "rating": 1990},
+    "196": {"display": "11/16 (44/64)", "accept": ["11/16", "44/64"], "tier": 3, "rating": 1993},
+    "197": {"display": "0.2", "accept": ["0.2", "20%"], "tier": 3, "rating": 1996},
+    "198": {"display": "0.25 (100/400)", "accept": ["0.25", "100/400", "1/4"], "tier": 3, "rating": 1998},
+    "199": {"display": "0.53", "accept": ["0.53", "53%"], "tier": 3, "rating": 1999},
+    "200": {"display": "P(minibus) = 0.21; one pupil takes exactly one transport, so the three options are mutually exclusive and exhaustive.", "accept": ["0.21", "mutually exclusive", "exhaustive"], "contains": true, "tier": 3, "rating": 2000}
+  }
+}

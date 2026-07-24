@@ -7,13 +7,14 @@ import path from "node:path";
 import matter from "gray-matter";
 import {
   parseQuestions,
+  ratingRangeForSection,
   resolveAnswerKind,
   type AnswerEntry,
 } from "../src/lib/questions.ts";
 import { TARGET_QUESTIONS_PER_TOPIC } from "../src/lib/practice-rating.ts";
 
 const ROOT = path.join(import.meta.dirname, "..");
-const CONTENT_TENANT = process.env.CONTENT_TENANT ?? "archer";
+const CONTENT_TENANT = process.env.CONTENT_TENANT ?? "lewis";
 const TOPICS = path.join(
   ROOT,
   "content/tenants",
@@ -117,15 +118,37 @@ function main() {
         errors.push(
           `${t.domain}/${t.code} Q${q.id}: rating ${rating} outside 500–2000`,
         );
+      } else {
+        const band = ratingRangeForSection(q.section);
+        if (rating < band.min || rating > band.max) {
+          errors.push(
+            `${t.domain}/${t.code} Q${q.id}: rating ${rating} outside section band ${band.min}–${band.max} (${q.section})`,
+          );
+        }
       }
       if (entry.any) {
         errors.push(
           `${t.domain}/${t.code} Q${q.id}: legacy any:true — run migrate-answer-kinds.py`,
         );
       }
+      if (entry.kind === "self-check") {
+        errors.push(
+          `${t.domain}/${t.code} Q${q.id}: self-check removed — use typed accept or contains grading`,
+        );
+      }
       const kind = resolveAnswerKind(entry);
       if (kind === "bar-chart" && !entry.bars) {
         errors.push(`${t.domain}/${t.code} Q${q.id}: bar-chart missing bars`);
+      }
+      if (kind !== "bar-chart" && (!entry.accept || entry.accept.length === 0)) {
+        errors.push(
+          `${t.domain}/${t.code} Q${q.id}: empty accept — add accept strings or contains keywords`,
+        );
+      }
+      if (entry.contains && (!entry.accept || entry.accept.length === 0)) {
+        errors.push(
+          `${t.domain}/${t.code} Q${q.id}: contains grading needs accept keywords`,
+        );
       }
     }
     const topicRatings = ids

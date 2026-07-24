@@ -1,0 +1,1800 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "$x = 2$",
+      "accept": [
+        "2",
+        "x=2",
+        "x = 2"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "$x = 4$",
+      "accept": [
+        "4",
+        "x=4",
+        "x = 4"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "$x = 6$",
+      "accept": [
+        "6",
+        "x=6",
+        "x = 6"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "$x = 4$",
+      "accept": [
+        "4",
+        "x=4",
+        "x = 4"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "x = 7",
+      "accept": [
+        "7",
+        "x=7",
+        "x = 7"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "x = 12",
+      "accept": [
+        "12",
+        "x=12",
+        "x = 12"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "x = 7",
+      "accept": [
+        "7",
+        "x=7",
+        "x = 7"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "x = 20",
+      "accept": [
+        "20",
+        "x=20",
+        "x = 20"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "x = 4",
+      "accept": [
+        "4",
+        "x=4",
+        "x = 4"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "x = 6",
+      "accept": [
+        "6",
+        "x=6",
+        "x = 6"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "x = 5",
+      "accept": [
+        "5",
+        "x=5",
+        "x = 5"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "x = 15",
+      "accept": [
+        "15",
+        "x=15",
+        "x = 15"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "x = 5",
+      "accept": [
+        "5",
+        "x=5",
+        "x = 5"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "x = 6",
+      "accept": [
+        "6",
+        "x=6",
+        "x = 6"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "x = 4",
+      "accept": [
+        "4",
+        "x=4",
+        "x = 4"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "x = 5",
+      "accept": [
+        "5",
+        "x=5",
+        "x = 5"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "x = 7",
+      "accept": [
+        "7",
+        "x=7",
+        "x = 7"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "x = 5",
+      "accept": [
+        "5",
+        "x=5",
+        "x = 5"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "23": {
+      "display": "Sam subtracted 4 correctly to get 2x = 8, but then forgot to divide both sides by 2, writing x = 8 instead of x = 4.",
+      "accept": [
+        "4",
+        "forgot to divide"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "24": {
+      "display": "Always — multiplying both sides by the same number keeps the two sides equal.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "25": {
+      "display": "Priya is wrong: 3x = x + 8 gives 2x = 8, so x = 4. The equation does have a solution.",
+      "accept": [
+        "wrong",
+        "incorrect",
+        "4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "26": {
+      "display": "Yes, both give x = 4: 2x + 1 = 9 → 2x = 8 → x = 4; 3x − 2 = 10 → 3x = 12 → x = 4.",
+      "accept": [
+        "yes",
+        "4",
+        "same"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "27": {
+      "display": "True — e.g. x + 2 = 5 has solution x = 3; adding 3 to both sides gives x + 5 = 8, which still has solution x = 3.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "28": {
+      "display": "Leo's mistake: multiplying 5 into the bracket must apply to both terms, giving 5x − 10, not 5x − 2. Correct: 5x − 10 = 15 → 5x = 25 → x = 5.",
+      "accept": [
+        "5",
+        "x=5",
+        "x = 5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "29": {
+      "display": "x + 6 = 10 gives x = 4. 2x + 6 = 10 gives 2x = 4, so x = 2. The solutions differ because the coefficient of x changes how much x must be to balance the equation.",
+      "accept": [
+        "4",
+        "2",
+        "coefficient"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "30": {
+      "display": "Mo is correct for 2x = 8 (x = 4), but wrong for 3x − 2 = 13, since 3x = 15 gives x = 5, not 4.",
+      "accept": [
+        "5",
+        "not correct",
+        "wrong"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "31": {
+      "display": "x + 5 = 14, so x = 9.",
+      "accept": [
+        "9"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "32": {
+      "display": "3 + 2m = 13, so 2m = 10, m = 5 miles.",
+      "accept": [
+        "5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1680
+    },
+    "33": {
+      "display": "3x + 7 = 28, so 3x = 21, x = 7.",
+      "accept": [
+        "7"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "34": {
+      "display": "4p + 2 = 10, so 4p = 8, p = £2 per pen.",
+      "accept": [
+        "2",
+        "£2"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1650
+    },
+    "35": {
+      "display": "2(w + w + 3) = 26 → 4w + 6 = 26 → 4w = 20 → w = 5 cm.",
+      "accept": [
+        "5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1700
+    },
+    "36": {
+      "display": "15 + 10m = 75, so 10m = 60, m = 6 months.",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "2x + 6 = 3x − 3 → 9 = x, so x = 9.",
+      "accept": [
+        "9"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1860
+    },
+    "38": {
+      "display": "Multiply by 6: 3x + 2x = 30 → 5x = 30 → x = 6.",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "39": {
+      "display": "n + (n+1) + (n+2) = 72 → 3n + 3 = 72 → n = 23, so the integers are 23, 24, 25.",
+      "accept": [
+        "23",
+        "24",
+        "25"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1953
+    },
+    "40": {
+      "display": "Example: 2x + 3 = 15 (solves to x = 6). Any correct two-step equation with solution x = 6 is acceptable.",
+      "accept": [
+        "2x + 3 = 15",
+        "x = 6"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "x = 4",
+      "accept": [
+        "4",
+        "x=4",
+        "x = 4"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "x + 8 = 20, x = 12",
+      "accept": [
+        "12",
+        "x=12"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1500
+    },
+    "43": {
+      "display": "3",
+      "tier": 1,
+      "rating": 817,
+      "accept": [
+        "3",
+        "x = 3"
+      ]
+    },
+    "44": {
+      "display": "3",
+      "tier": 1,
+      "rating": 824,
+      "accept": [
+        "3",
+        "x = 3"
+      ]
+    },
+    "45": {
+      "display": "x = 5",
+      "accept": [
+        "5",
+        "x=5",
+        "x = 5"
+      ],
+      "tier": 3,
+      "rating": 835
+    },
+    "46": {
+      "display": "x = 4",
+      "accept": [
+        "4",
+        "x=4"
+      ],
+      "tier": 3,
+      "rating": 842
+    },
+    "47": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 849
+    },
+    "48": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 856
+    },
+    "49": {
+      "display": "x = 20",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 863
+    },
+    "50": {
+      "display": "x = 18",
+      "accept": [
+        "18"
+      ],
+      "tier": 3,
+      "rating": 870
+    },
+    "51": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 877
+    },
+    "52": {
+      "display": "x = 9",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 884
+    },
+    "53": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 891
+    },
+    "54": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 898
+    },
+    "55": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 905
+    },
+    "56": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 912
+    },
+    "57": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 919
+    },
+    "58": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 926
+    },
+    "59": {
+      "display": "x = 7",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 933
+    },
+    "60": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 940
+    },
+    "61": {
+      "display": "x = 7",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 947
+    },
+    "62": {
+      "display": "x = 10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 954
+    },
+    "63": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 961
+    },
+    "64": {
+      "display": "x = 20",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 968
+    },
+    "65": {
+      "display": "x = 10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 975
+    },
+    "66": {
+      "display": "x = 10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 982
+    },
+    "67": {
+      "display": "x = 3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 989
+    },
+    "68": {
+      "display": "x = 3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 996
+    },
+    "69": {
+      "display": "x = 11",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1003
+    },
+    "70": {
+      "display": "x = 11",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1010
+    },
+    "71": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1017
+    },
+    "72": {
+      "display": "x = 12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1024
+    },
+    "73": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1031
+    },
+    "74": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1038
+    },
+    "75": {
+      "display": "x = 11",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1045
+    },
+    "76": {
+      "display": "x = 2.5",
+      "accept": [
+        "2.5",
+        "2.5",
+        "5/2"
+      ],
+      "tier": 3,
+      "rating": 1052
+    },
+    "77": {
+      "display": "x = 12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1059
+    },
+    "78": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1066
+    },
+    "79": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1073
+    },
+    "80": {
+      "display": "x = 1",
+      "accept": [
+        "1"
+      ],
+      "tier": 3,
+      "rating": 1080
+    },
+    "81": {
+      "display": "x = 3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1087
+    },
+    "82": {
+      "display": "x = 18",
+      "accept": [
+        "18"
+      ],
+      "tier": 3,
+      "rating": 1094
+    },
+    "83": {
+      "display": "x = 3.5",
+      "accept": [
+        "3.5",
+        "7/2"
+      ],
+      "tier": 3,
+      "rating": 1101
+    },
+    "84": {
+      "display": "x = 3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1108
+    },
+    "85": {
+      "display": "x = 6.5",
+      "accept": [
+        "6.5",
+        "13/2"
+      ],
+      "tier": 3,
+      "rating": 1115
+    },
+    "86": {
+      "display": "x = (y − 5)/2",
+      "accept": [
+        "(y-5)/2",
+        "(y - 5)/2",
+        "y/2 - 5/2"
+      ],
+      "tier": 3,
+      "rating": 1122,
+      "contains": true
+    },
+    "87": {
+      "display": "x = (y + 4)/3",
+      "accept": [
+        "(y+4)/3",
+        "(y + 4)/3"
+      ],
+      "tier": 3,
+      "rating": 1129,
+      "contains": true
+    },
+    "88": {
+      "display": "x = (A − 10)/5",
+      "accept": [
+        "(A-10)/5",
+        "(A - 10)/5"
+      ],
+      "tier": 3,
+      "rating": 1136,
+      "contains": true
+    },
+    "89": {
+      "display": "x = (P − 2y)/2",
+      "accept": [
+        "(P-2y)/2",
+        "(P - 2y)/2"
+      ],
+      "tier": 3,
+      "rating": 1143,
+      "contains": true
+    },
+    "90": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1150
+    },
+    "91": {
+      "display": "Jess added 2 to 18 instead of subtracting 2 from 18 first; correct x = 4.",
+      "accept": [
+        "4",
+        "x=4"
+      ],
+      "tier": 3,
+      "rating": 1157,
+      "contains": true
+    },
+    "92": {
+      "display": "Always — subtract b, divide by a gives one solution when a ≠ 0.",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1164,
+      "contains": true
+    },
+    "93": {
+      "display": "Aisha is wrong: both sides equal 2x + 4, so every x works (identity).",
+      "accept": [
+        "wrong",
+        "identity",
+        "every"
+      ],
+      "tier": 3,
+      "rating": 1171,
+      "contains": true
+    },
+    "94": {
+      "display": "Yes — both methods give x = 3.",
+      "accept": [
+        "yes",
+        "3",
+        "same"
+      ],
+      "tier": 3,
+      "rating": 1178,
+      "contains": true
+    },
+    "95": {
+      "display": "True — both equations simplify to x = 4.",
+      "accept": [
+        "true",
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1185,
+      "contains": true
+    },
+    "96": {
+      "display": "Ben should expand to 3x + 12 = 12, not 3x + 4 = 12.",
+      "accept": [
+        "3x+12",
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1192,
+      "contains": true
+    },
+    "97": {
+      "display": "x + 5 = 9 is one step; 5x + 5 = 9 needs divide by 5 as well.",
+      "accept": [
+        "5x",
+        "divide",
+        "two"
+      ],
+      "tier": 3,
+      "rating": 1199,
+      "contains": true
+    },
+    "98": {
+      "display": "Never — subtracting the same value from both sides keeps the same solution.",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1206,
+      "contains": true
+    },
+    "99": {
+      "display": "Cara's x = 7 is correct; show 2x − x = 7.",
+      "accept": [
+        "7",
+        "correct"
+      ],
+      "tier": 3,
+      "rating": 1213,
+      "contains": true
+    },
+    "100": {
+      "display": "Dev is right: 4x + 1 = 4x + 5 gives 1 = 5, impossible.",
+      "accept": [
+        "no solution",
+        "impossible",
+        "none"
+      ],
+      "tier": 3,
+      "rating": 1220,
+      "contains": true
+    },
+    "101": {
+      "display": "True — both sides simplify to 2x + 6 for all x.",
+      "accept": [
+        "true",
+        "identity"
+      ],
+      "tier": 3,
+      "rating": 1227,
+      "contains": true
+    },
+    "102": {
+      "display": "Substitute x = 3 into both sides: 2(3)+1 = 7 and RHS 7.",
+      "accept": [
+        "both sides",
+        "7"
+      ],
+      "tier": 3,
+      "rating": 1234,
+      "contains": true
+    },
+    "103": {
+      "display": "Sometimes — dividing by x loses the solution x = 0 if it existed.",
+      "accept": [
+        "sometimes",
+        "0"
+      ],
+      "tier": 3,
+      "rating": 1241,
+      "contains": true
+    },
+    "104": {
+      "display": "Finn must multiply both sides by 2, giving x = 8.",
+      "accept": [
+        "8",
+        "both"
+      ],
+      "tier": 3,
+      "rating": 1248,
+      "contains": true
+    },
+    "105": {
+      "display": "True — scaling both sides by 3 gives 3x + 6 = 15 with solution x = 3.",
+      "accept": [
+        "true"
+      ],
+      "tier": 3,
+      "rating": 1255,
+      "contains": true
+    },
+    "106": {
+      "display": "Example: x + 0 = 0 has solution x = 0.",
+      "accept": [
+        "0",
+        "x=0"
+      ],
+      "tier": 3,
+      "rating": 1262,
+      "contains": true
+    },
+    "107": {
+      "display": "Yes — both give x = 4.",
+      "accept": [
+        "yes",
+        "4",
+        "same"
+      ],
+      "tier": 3,
+      "rating": 1269,
+      "contains": true
+    },
+    "108": {
+      "display": "Sometimes — you could substitute or graph instead.",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 3,
+      "rating": 1276,
+      "contains": true
+    },
+    "109": {
+      "display": "Valid: x = 5 − 2 = 3.",
+      "accept": [
+        "3",
+        "x=3"
+      ],
+      "tier": 3,
+      "rating": 1283,
+      "contains": true
+    },
+    "110": {
+      "display": "False — adding 0 does not change the solution set.",
+      "accept": [
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1290,
+      "contains": true
+    },
+    "111": {
+      "display": "25 + 8m = 57 → m = 4 months.",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1297,
+      "contains": true
+    },
+    "112": {
+      "display": "L/5 = 14 → L = 70 cm.",
+      "accept": [
+        "70"
+      ],
+      "tier": 3,
+      "rating": 1304,
+      "contains": true
+    },
+    "113": {
+      "display": "n + (n+2) = 46 → n = 22 (smaller even number).",
+      "accept": [
+        "22"
+      ],
+      "tier": 3,
+      "rating": 1311,
+      "contains": true
+    },
+    "114": {
+      "display": "2(2.50) + 3(1.80) = 10.40 confirms 2 cakes; equation 2c + 5.40 = 10.40 gives c = 2.",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1318,
+      "contains": true
+    },
+    "115": {
+      "display": "3n − 11 = 34 → n = 15.",
+      "accept": [
+        "15"
+      ],
+      "tier": 3,
+      "rating": 1325,
+      "contains": true
+    },
+    "116": {
+      "display": "2w + 2(2w+1) = 32 → w = 5 cm.",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1332,
+      "contains": true
+    },
+    "117": {
+      "display": "d = 12 × 1.5 = 18 km.",
+      "accept": [
+        "18"
+      ],
+      "tier": 3,
+      "rating": 1339,
+      "contains": true
+    },
+    "118": {
+      "display": "a + (2a + 3) = 24 → a = 7.",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 1346,
+      "contains": true
+    },
+    "119": {
+      "display": "14 + 0.5s = 22 → s = 16 stops.",
+      "accept": [
+        "16"
+      ],
+      "tier": 3,
+      "rating": 1353,
+      "contains": true
+    },
+    "120": {
+      "display": "y + (y+5) + (y+10) = 45 → y = 10.",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1360,
+      "contains": true
+    },
+    "121": {
+      "display": "0.40n = 3.20 → n = 8 coins.",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1367,
+      "contains": true
+    },
+    "122": {
+      "display": "60b + 60 = 450 → b = 6 bushes.",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1374,
+      "contains": true
+    },
+    "123": {
+      "display": "x − 8 = 15 or 8 − x = 15 → x = 23 or x = −7; positive distance 23.",
+      "accept": [
+        "23"
+      ],
+      "tier": 3,
+      "rating": 1381,
+      "contains": true
+    },
+    "124": {
+      "display": "31 + s ≤ 43 → s ≤ 12 students (5 seats left).",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1388,
+      "contains": true
+    },
+    "125": {
+      "display": "600/4 = m/7 → m = 1050 ml.",
+      "accept": [
+        "1050"
+      ],
+      "tier": 3,
+      "rating": 1395,
+      "contains": true
+    },
+    "126": {
+      "display": "(3x+10) + (2x+20) = 180 → x = 30.",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1402,
+      "contains": true
+    },
+    "127": {
+      "display": "40 − x = 28 → x = 12 reduction.",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1409,
+      "contains": true
+    },
+    "128": {
+      "display": "500 − 3L = 425 → L = 25 litres/hour.",
+      "accept": [
+        "25"
+      ],
+      "tier": 3,
+      "rating": 1416,
+      "contains": true
+    },
+    "129": {
+      "display": "k + k + 5 = 12 → k = 3.5 km (each walk before rest).",
+      "accept": [
+        "3.5",
+        "7/2"
+      ],
+      "tier": 3,
+      "rating": 1423,
+      "contains": true
+    },
+    "130": {
+      "display": "120 − 60t = 30 → t = 1.5 hours.",
+      "accept": [
+        "1.5",
+        "3/2"
+      ],
+      "tier": 3,
+      "rating": 1430,
+      "contains": true
+    },
+    "131": {
+      "display": "2(x+4) = 26 → x = 9 input.",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1437,
+      "contains": true
+    },
+    "132": {
+      "display": "x + 4 + 3 + 2 = 18 → x = 9 m.",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1444,
+      "contains": true
+    },
+    "133": {
+      "display": "8a + 5(120−a) = 840 → a = 80 adults.",
+      "accept": [
+        "80"
+      ],
+      "tier": 3,
+      "rating": 1451,
+      "contains": true
+    },
+    "134": {
+      "display": "6t − 2t = 120 → t = 30 minutes.",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1458,
+      "contains": true
+    },
+    "135": {
+      "display": "(68+70+75+s)/4 = 72 → s = 75.",
+      "accept": [
+        "75"
+      ],
+      "tier": 3,
+      "rating": 1465,
+      "contains": true
+    },
+    "136": {
+      "display": "50t + 80 = 290 → t = 4.2 hours.",
+      "accept": [
+        "4.2",
+        "21/5"
+      ],
+      "tier": 3,
+      "rating": 1472,
+      "contains": true
+    },
+    "137": {
+      "display": "2w + 2(w+2) = 48 → w = 11 cm.",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1479,
+      "contains": true
+    },
+    "138": {
+      "display": "0.3n = 4.5 → n = 15 notebooks.",
+      "accept": [
+        "15"
+      ],
+      "tier": 3,
+      "rating": 1486,
+      "contains": true
+    },
+    "139": {
+      "display": "2x − 9 = x + 3 → x = 12.",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1493,
+      "contains": true
+    },
+    "140": {
+      "display": "T − 12 = −3 → T = 9°C.",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1500,
+      "contains": true
+    },
+    "141": {
+      "display": "x = 11",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1507
+    },
+    "142": {
+      "display": "x = 22",
+      "accept": [
+        "22"
+      ],
+      "tier": 3,
+      "rating": 1514
+    },
+    "143": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1521
+    },
+    "144": {
+      "display": "x = 2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1528
+    },
+    "145": {
+      "display": "x = 7",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 1535
+    },
+    "146": {
+      "display": "x = 3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1542
+    },
+    "147": {
+      "display": "x = 12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1549
+    },
+    "148": {
+      "display": "x = 10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1556
+    },
+    "149": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1563
+    },
+    "150": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1570
+    },
+    "151": {
+      "display": "n + (n+2) + (n+4) = 117 → 23, 25, 27.",
+      "accept": [
+        "23",
+        "25",
+        "27"
+      ],
+      "tier": 3,
+      "rating": 1577,
+      "contains": true
+    },
+    "152": {
+      "display": "s + 28 + 8 = 2s → s = 36 years.",
+      "accept": [
+        "36"
+      ],
+      "tier": 3,
+      "rating": 1584,
+      "contains": true
+    },
+    "153": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1591
+    },
+    "154": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1598
+    },
+    "155": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1605
+    },
+    "156": {
+      "display": "x = vt",
+      "accept": [
+        "vt",
+        "v*t",
+        "v t"
+      ],
+      "tier": 3,
+      "rating": 1612,
+      "contains": true
+    },
+    "157": {
+      "display": "x = 2A − y",
+      "accept": [
+        "2A-y",
+        "2A - y"
+      ],
+      "tier": 3,
+      "rating": 1619,
+      "contains": true
+    },
+    "158": {
+      "display": "x = 2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1626
+    },
+    "159": {
+      "display": "x = 2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1633
+    },
+    "160": {
+      "display": "2w + 2(2w) = 54 → w = 9 cm.",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1640,
+      "contains": true
+    },
+    "161": {
+      "display": "x = 7",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 1647
+    },
+    "162": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1654
+    },
+    "163": {
+      "display": "x = 2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1661
+    },
+    "164": {
+      "display": "Infinitely many solutions — both sides simplify to 4x + 5.",
+      "accept": [
+        "infinite",
+        "infinitely",
+        "identity"
+      ],
+      "tier": 3,
+      "rating": 1668,
+      "contains": true
+    },
+    "165": {
+      "display": "No solution — simplifies to 15 = 16.",
+      "accept": [
+        "no",
+        "none"
+      ],
+      "tier": 3,
+      "rating": 1675,
+      "contains": true
+    },
+    "166": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1682
+    },
+    "167": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1689
+    },
+    "168": {
+      "display": "x = 7",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 1696
+    },
+    "169": {
+      "display": "5n − 12 = 3n → n = 6.",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1703,
+      "contains": true
+    },
+    "170": {
+      "display": "x = 7",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 1710
+    },
+    "171": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 900
+    },
+    "172": {
+      "display": "x = 9",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 922
+    },
+    "173": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 945
+    },
+    "174": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 967
+    },
+    "175": {
+      "display": "x = 7",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 990
+    },
+    "176": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1012
+    },
+    "177": {
+      "display": "x = 21",
+      "accept": [
+        "21"
+      ],
+      "tier": 3,
+      "rating": 1034
+    },
+    "178": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1057
+    },
+    "179": {
+      "display": "x + 6 = 19 → x = 13.",
+      "accept": [
+        "13"
+      ],
+      "tier": 3,
+      "rating": 1079,
+      "contains": true
+    },
+    "180": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1102
+    },
+    "181": {
+      "display": "x = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1124
+    },
+    "182": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1147
+    },
+    "183": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1169
+    },
+    "184": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1191
+    },
+    "185": {
+      "display": "x = 10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1214
+    },
+    "186": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1236
+    },
+    "187": {
+      "display": "x = 12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1259
+    },
+    "188": {
+      "display": "x = 4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1281
+    },
+    "189": {
+      "display": "x = −2",
+      "accept": [
+        "-2",
+        "−2",
+        "x=-2"
+      ],
+      "tier": 3,
+      "rating": 1303
+    },
+    "190": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1326
+    },
+    "191": {
+      "display": "False — e.g. 4x + 1 = 4x + 5 has no solution.",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 3,
+      "rating": 1348,
+      "contains": true
+    },
+    "192": {
+      "display": "Infinitely many solutions — both sides are 6x + 6.",
+      "accept": [
+        "infinite",
+        "identity",
+        "every"
+      ],
+      "tier": 3,
+      "rating": 1371,
+      "contains": true
+    },
+    "193": {
+      "display": "300 − 5t = 275 → t = 5 minutes.",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1393,
+      "contains": true
+    },
+    "194": {
+      "display": "x = 2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1416
+    },
+    "195": {
+      "display": "x = 5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1438
+    },
+    "196": {
+      "display": "x = 10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1460
+    },
+    "197": {
+      "display": "x = 3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1483
+    },
+    "198": {
+      "display": "x = 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1505
+    },
+    "199": {
+      "display": "n + (n+1) + (n+2) + (n+3) = 98 → n = 23.",
+      "accept": [
+        "23"
+      ],
+      "tier": 3,
+      "rating": 1528,
+      "contains": true
+    },
+    "200": {
+      "display": "Example: 2x + 4 = −4 → x = −4",
+      "accept": [
+        "=",
+        "x",
+        "-4"
+      ],
+      "tier": 3,
+      "rating": 1550,
+      "contains": true,
+      "containsMin": 2
+    }
+  }
+}

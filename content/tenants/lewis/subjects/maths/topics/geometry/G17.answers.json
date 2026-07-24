@@ -1,0 +1,1712 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "circumference",
+      "accept": [
+        "circumference"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "area",
+      "accept": [
+        "area"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10 cm",
+        "10cm"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "cm²",
+      "accept": [
+        "cm²",
+        "cm2",
+        "square centimetres",
+        "square centimeters"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "one half",
+      "accept": [
+        "half",
+        "one half",
+        "1/2",
+        "½"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "31.4 cm",
+      "accept": [
+        "31.4"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "31.4 cm",
+      "accept": [
+        "31.4"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "50.24 cm²",
+      "accept": [
+        "50.24"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "7 cm",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "12 cm",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "62.8 cm",
+      "accept": [
+        "62.8"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "28.26 cm²",
+      "accept": [
+        "28.26"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "50.24 cm²",
+      "accept": [
+        "50.24"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "157 cm",
+      "accept": [
+        "157"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "3.14",
+      "accept": [
+        "3.14"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "πr²",
+      "accept": [
+        "pi r2",
+        "πr2",
+        "πr²",
+        "pi r squared"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1050
+    },
+    "21": {
+      "display": "C = 2πr",
+      "accept": [
+        "2πr",
+        "2 pi r"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "A = πr²",
+      "accept": [
+        "πr^2",
+        "pi r squared"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "23": {
+      "display": "For every circle, no matter its size, the circumference is always exactly π times as long as the diameter — π is simply the fixed ratio circumference ÷ diameter, so circumference = π × diameter.",
+      "accept": [
+        "ratio",
+        "fixed"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1180
+    },
+    "24": {
+      "display": "The circumference also doubles, since C = 2πr — circumference is directly proportional to the radius.",
+      "accept": [
+        "doubles"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1223
+    },
+    "25": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1266
+    },
+    "26": {
+      "display": "The area becomes 4 times as big, since area = πr² and doubling r means squaring 2, giving 2² = 4 times the area.",
+      "accept": [
+        "4",
+        "four times",
+        "quadruples"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1309
+    },
+    "27": {
+      "display": "No — Sam can rearrange the formula to r = circumference ÷ (2π) to find the radius.",
+      "accept": [
+        "no",
+        "divide",
+        "2π"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1351
+    },
+    "28": {
+      "display": "Circumferences are in the ratio 1 : 2; areas are in the ratio 1 : 4.",
+      "accept": [
+        "1:2",
+        "1:4",
+        "1 2",
+        "1 4"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1394
+    },
+    "29": {
+      "display": "5 cm",
+      "accept": [
+        "5"
+      ],
+      "tier": 2,
+      "rating": 1437
+    },
+    "30": {
+      "display": "No — a semicircle's perimeter is half the circumference PLUS the diameter (the straight edge), not just half the circumference alone.",
+      "accept": [
+        "no",
+        "plus the diameter"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1480
+    },
+    "31": {
+      "display": "3.77 m",
+      "accept": [
+        "3.77"
+      ],
+      "tier": 3,
+      "rating": 1620
+    },
+    "32": {
+      "display": "153.86 m²",
+      "accept": [
+        "153.86"
+      ],
+      "tier": 3,
+      "rating": 1680
+    },
+    "33": {
+      "display": "18.84 m",
+      "accept": [
+        "18.84",
+        "1884"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1740
+    },
+    "34": {
+      "display": "707 cm²",
+      "accept": [
+        "707",
+        "706.5"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1580
+    },
+    "35": {
+      "display": "63.7 m",
+      "accept": [
+        "63.7"
+      ],
+      "tier": 3,
+      "rating": 1640
+    },
+    "36": {
+      "display": "78.5 cm²",
+      "accept": [
+        "78.5"
+      ],
+      "tier": 3,
+      "rating": 1720
+    },
+    "37": {
+      "display": "This ratio (π) is a mathematical constant — as a circle gets bigger, both its circumference and diameter grow at exactly the same rate, so their ratio never changes.",
+      "accept": [
+        "constant",
+        "same rate",
+        "ratio",
+        "pi",
+        "π"
+      ],
+      "tier": 3,
+      "contains": true,
+      "containsMin": 2,
+      "rating": 1860
+    },
+    "38": {
+      "display": "About 9.4 cm",
+      "accept": [
+        "9.4"
+      ],
+      "tier": 3,
+      "rating": 1907
+    },
+    "39": {
+      "display": "About 8.9 cm",
+      "accept": [
+        "8.9"
+      ],
+      "tier": 3,
+      "rating": 1953
+    },
+    "40": {
+      "display": "113.04 cm²",
+      "accept": [
+        "113.04",
+        "113.0",
+        "113"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "43.96 cm",
+      "accept": [
+        "44",
+        "43.96"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "78.5 cm²",
+      "accept": [
+        "78.5",
+        "78.54"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1520
+    },
+    "43": {
+      "display": "12.6 cm",
+      "accept": [
+        "12.6",
+        "12.6 cm"
+      ],
+      "tier": 1,
+      "rating": 817
+    },
+    "44": {
+      "display": "13 cm²",
+      "accept": [
+        "13",
+        "13 cm²"
+      ],
+      "tier": 1,
+      "rating": 824
+    },
+    "45": {
+      "tier": 1,
+      "rating": 831,
+      "display": "37.7 cm",
+      "accept": [
+        "37.7"
+      ]
+    },
+    "46": {
+      "tier": 1,
+      "rating": 838,
+      "display": "113 cm²",
+      "accept": [
+        "113"
+      ]
+    },
+    "47": {
+      "tier": 1,
+      "rating": 845,
+      "display": "94.2 cm",
+      "accept": [
+        "94.2"
+      ]
+    },
+    "48": {
+      "tier": 1,
+      "rating": 852,
+      "display": "707 cm²",
+      "accept": [
+        "707"
+      ]
+    },
+    "49": {
+      "tier": 1,
+      "rating": 859,
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ]
+    },
+    "50": {
+      "tier": 1,
+      "rating": 866,
+      "display": "14.0 cm",
+      "accept": [
+        "14",
+        "14.0"
+      ]
+    },
+    "51": {
+      "tier": 1,
+      "rating": 873,
+      "display": "125.6 cm",
+      "accept": [
+        "125.6"
+      ]
+    },
+    "52": {
+      "tier": 1,
+      "rating": 880,
+      "display": "1257 cm²",
+      "accept": [
+        "1257"
+      ]
+    },
+    "53": {
+      "tier": 1,
+      "rating": 887,
+      "display": "50.2 cm",
+      "accept": [
+        "50.2",
+        "50.3"
+      ]
+    },
+    "54": {
+      "tier": 1,
+      "rating": 894,
+      "display": "201 cm²",
+      "accept": [
+        "201"
+      ]
+    },
+    "55": {
+      "tier": 1,
+      "rating": 901,
+      "display": "15.70 cm",
+      "accept": [
+        "15.7",
+        "15.70"
+      ]
+    },
+    "56": {
+      "tier": 1,
+      "rating": 908,
+      "display": "19.63 cm²",
+      "accept": [
+        "19.63"
+      ]
+    },
+    "57": {
+      "tier": 1,
+      "rating": 915,
+      "display": "50.0 cm",
+      "accept": [
+        "50"
+      ]
+    },
+    "58": {
+      "tier": 1,
+      "rating": 922,
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ]
+    },
+    "59": {
+      "tier": 1,
+      "rating": 929,
+      "display": "1 : 3",
+      "accept": [
+        "1:3",
+        "1 3"
+      ],
+      "contains": true
+    },
+    "60": {
+      "tier": 1,
+      "rating": 936,
+      "display": "1 : 9",
+      "accept": [
+        "1:9",
+        "1 9"
+      ],
+      "contains": true
+    },
+    "61": {
+      "tier": 1,
+      "rating": 943,
+      "display": "31.4 cm",
+      "accept": [
+        "31.4"
+      ]
+    },
+    "62": {
+      "tier": 1,
+      "rating": 950,
+      "display": "157.0 cm²",
+      "accept": [
+        "157"
+      ]
+    },
+    "63": {
+      "tier": 1,
+      "rating": 957,
+      "display": "41.1 cm",
+      "accept": [
+        "41.1"
+      ]
+    },
+    "64": {
+      "tier": 1,
+      "rating": 964,
+      "display": "22.0 cm",
+      "accept": [
+        "22",
+        "22.0"
+      ]
+    },
+    "65": {
+      "tier": 1,
+      "rating": 971,
+      "display": "77 cm²",
+      "accept": [
+        "77"
+      ]
+    },
+    "66": {
+      "tier": 1,
+      "rating": 978,
+      "display": "True",
+      "accept": [
+        "true"
+      ]
+    },
+    "67": {
+      "tier": 1,
+      "rating": 985,
+      "display": "25.7 cm",
+      "accept": [
+        "25.7"
+      ]
+    },
+    "68": {
+      "tier": 1,
+      "rating": 992,
+      "display": "5 cm",
+      "accept": [
+        "5"
+      ]
+    },
+    "69": {
+      "tier": 1,
+      "rating": 999,
+      "display": "78.5 cm²",
+      "accept": [
+        "78.5"
+      ]
+    },
+    "70": {
+      "tier": 1,
+      "rating": 1006,
+      "display": "5 m",
+      "accept": [
+        "5"
+      ]
+    },
+    "71": {
+      "tier": 1,
+      "rating": 1013,
+      "display": "50.24 cm²",
+      "accept": [
+        "50.24"
+      ]
+    },
+    "72": {
+      "tier": 1,
+      "rating": 1020,
+      "display": "201 cm²",
+      "accept": [
+        "201"
+      ]
+    },
+    "73": {
+      "tier": 1,
+      "rating": 1027,
+      "display": "18.8 cm",
+      "accept": [
+        "18.8"
+      ]
+    },
+    "74": {
+      "tier": 1,
+      "rating": 1034,
+      "display": "113.0 cm²",
+      "accept": [
+        "113"
+      ]
+    },
+    "75": {
+      "tier": 1,
+      "rating": 1041,
+      "display": "21.4 cm",
+      "accept": [
+        "21.4"
+      ]
+    },
+    "76": {
+      "tier": 1,
+      "rating": 1048,
+      "display": "109.9 m",
+      "accept": [
+        "109.9"
+      ]
+    },
+    "77": {
+      "tier": 1,
+      "rating": 1055,
+      "display": "219.8 m",
+      "accept": [
+        "219.8"
+      ]
+    },
+    "78": {
+      "tier": 1,
+      "rating": 1062,
+      "display": "7.07 m²",
+      "accept": [
+        "7.07"
+      ]
+    },
+    "79": {
+      "tier": 1,
+      "rating": 1069,
+      "display": "4.40 m",
+      "accept": [
+        "4.4",
+        "4.40"
+      ]
+    },
+    "80": {
+      "tier": 1,
+      "rating": 1076,
+      "display": "1257 m²",
+      "accept": [
+        "1257"
+      ]
+    },
+    "81": {
+      "tier": 1,
+      "rating": 1083,
+      "display": "9 times",
+      "accept": [
+        "9"
+      ],
+      "contains": true
+    },
+    "82": {
+      "tier": 1,
+      "rating": 1090,
+      "display": "3 cm",
+      "accept": [
+        "3"
+      ]
+    },
+    "83": {
+      "tier": 1,
+      "rating": 1097,
+      "display": "6.0 cm",
+      "accept": [
+        "6"
+      ]
+    },
+    "84": {
+      "tier": 1,
+      "rating": 1104,
+      "display": "True",
+      "accept": [
+        "true"
+      ]
+    },
+    "85": {
+      "tier": 2,
+      "rating": 1111,
+      "display": "Area uses r², so radius 2 cm gives π×2² = 4π cm², not 4 cm².",
+      "accept": [
+        "r squared",
+        "r²",
+        "4π"
+      ],
+      "contains": true
+    },
+    "86": {
+      "tier": 1,
+      "rating": 1118,
+      "display": "14π cm",
+      "accept": [
+        "14π",
+        "14 pi"
+      ],
+      "contains": true
+    },
+    "87": {
+      "tier": 1,
+      "rating": 1125,
+      "display": "49π cm²",
+      "accept": [
+        "49π",
+        "49 pi"
+      ],
+      "contains": true
+    },
+    "88": {
+      "tier": 1,
+      "rating": 1132,
+      "display": "πd²/4",
+      "accept": [
+        "πd",
+        "pi d"
+      ],
+      "contains": true
+    },
+    "89": {
+      "tier": 1,
+      "rating": 1139,
+      "display": "44 cm",
+      "accept": [
+        "44"
+      ]
+    },
+    "90": {
+      "tier": 1,
+      "rating": 1146,
+      "display": "154 cm²",
+      "accept": [
+        "154"
+      ]
+    },
+    "91": {
+      "tier": 1,
+      "rating": 1153,
+      "display": "5 cm",
+      "accept": [
+        "5"
+      ]
+    },
+    "92": {
+      "tier": 1,
+      "rating": 1160,
+      "display": "314 cm²",
+      "accept": [
+        "314"
+      ]
+    },
+    "93": {
+      "tier": 1,
+      "rating": 1167,
+      "display": "88 cm²",
+      "accept": [
+        "88"
+      ]
+    },
+    "94": {
+      "tier": 1,
+      "rating": 1174,
+      "display": "125.6 m",
+      "accept": [
+        "125.6"
+      ]
+    },
+    "95": {
+      "tier": 1,
+      "rating": 1181,
+      "display": "1.5 m",
+      "accept": [
+        "1.5"
+      ]
+    },
+    "96": {
+      "tier": 1,
+      "rating": 1188,
+      "display": "471.0 cm",
+      "accept": [
+        "471"
+      ]
+    },
+    "97": {
+      "tier": 1,
+      "rating": 1195,
+      "display": "226 cm²",
+      "accept": [
+        "226"
+      ]
+    },
+    "98": {
+      "tier": 1,
+      "rating": 1202,
+      "display": "9.04 cm²",
+      "accept": [
+        "9.04"
+      ]
+    },
+    "99": {
+      "tier": 1,
+      "rating": 1209,
+      "display": "15.8 cm",
+      "accept": [
+        "15.8"
+      ]
+    },
+    "100": {
+      "tier": 1,
+      "rating": 1216,
+      "display": "Always",
+      "accept": [
+        "always"
+      ]
+    },
+    "101": {
+      "tier": 1,
+      "rating": 1223,
+      "display": "398 m",
+      "accept": [
+        "398"
+      ]
+    },
+    "102": {
+      "tier": 1,
+      "rating": 1230,
+      "display": "0.57 m²",
+      "accept": [
+        "0.57"
+      ]
+    },
+    "103": {
+      "tier": 1,
+      "rating": 1237,
+      "display": "201 m²",
+      "accept": [
+        "201"
+      ]
+    },
+    "104": {
+      "tier": 1,
+      "rating": 1244,
+      "display": "25.1 cm",
+      "accept": [
+        "25.1"
+      ]
+    },
+    "105": {
+      "tier": 1,
+      "rating": 1251,
+      "display": "False",
+      "accept": [
+        "false"
+      ]
+    },
+    "106": {
+      "tier": 1,
+      "rating": 1258,
+      "display": "πr²/2",
+      "accept": [
+        "pi r",
+        "half"
+      ],
+      "contains": true
+    },
+    "107": {
+      "tier": 1,
+      "rating": 1265,
+      "display": "one half",
+      "accept": [
+        "half",
+        "1/2"
+      ]
+    },
+    "108": {
+      "tier": 2,
+      "rating": 1272,
+      "display": "Square is larger (81 cm² vs about 79 cm²)",
+      "accept": [
+        "square",
+        "81"
+      ],
+      "contains": true
+    },
+    "109": {
+      "tier": 1,
+      "rating": 1279,
+      "display": "78.5 cm²",
+      "accept": [
+        "78.5"
+      ]
+    },
+    "110": {
+      "tier": 1,
+      "rating": 1286,
+      "display": "5 cm",
+      "accept": [
+        "5"
+      ]
+    },
+    "111": {
+      "tier": 1,
+      "rating": 1293,
+      "display": "113 m²",
+      "accept": [
+        "113"
+      ]
+    },
+    "112": {
+      "tier": 1,
+      "rating": 1300,
+      "display": "531 cm²",
+      "accept": [
+        "531"
+      ]
+    },
+    "113": {
+      "tier": 1,
+      "rating": 1307,
+      "display": "125.6 cm",
+      "accept": [
+        "125.6"
+      ]
+    },
+    "114": {
+      "tier": 1,
+      "rating": 1314,
+      "display": "14.0 cm",
+      "accept": [
+        "14"
+      ]
+    },
+    "115": {
+      "tier": 1,
+      "rating": 1321,
+      "display": "Always",
+      "accept": [
+        "always"
+      ]
+    },
+    "116": {
+      "tier": 1,
+      "rating": 1328,
+      "display": "37.7 cm²",
+      "accept": [
+        "37.7"
+      ]
+    },
+    "117": {
+      "tier": 1,
+      "rating": 1335,
+      "display": "6.4 cm",
+      "accept": [
+        "6.4",
+        "6.37"
+      ]
+    },
+    "118": {
+      "tier": 1,
+      "rating": 1342,
+      "display": "72 cm²",
+      "accept": [
+        "72"
+      ]
+    },
+    "119": {
+      "tier": 2,
+      "rating": 1349,
+      "display": "Area uses r², so doubling r multiplies area by 2² = 4.",
+      "accept": [
+        "4",
+        "square"
+      ],
+      "contains": true
+    },
+    "120": {
+      "tier": 1,
+      "rating": 1356,
+      "display": "False",
+      "accept": [
+        "false"
+      ]
+    },
+    "121": {
+      "tier": 1,
+      "rating": 1363,
+      "display": "15.7 m",
+      "accept": [
+        "15.7"
+      ]
+    },
+    "122": {
+      "tier": 1,
+      "rating": 1370,
+      "display": "39.3 m²",
+      "accept": [
+        "39.3"
+      ]
+    },
+    "123": {
+      "tier": 1,
+      "rating": 1377,
+      "display": "113 cm²",
+      "accept": [
+        "113"
+      ]
+    },
+    "124": {
+      "tier": 1,
+      "rating": 1384,
+      "display": "12 m",
+      "accept": [
+        "12"
+      ]
+    },
+    "125": {
+      "tier": 1,
+      "rating": 1391,
+      "display": "103.6 cm²",
+      "accept": [
+        "103.6"
+      ]
+    },
+    "126": {
+      "tier": 1,
+      "rating": 1398,
+      "display": "37.7 cm",
+      "accept": [
+        "37.7"
+      ]
+    },
+    "127": {
+      "tier": 1,
+      "rating": 1100,
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ]
+    },
+    "128": {
+      "tier": 1,
+      "rating": 1104,
+      "display": "22 cm²",
+      "accept": [
+        "22"
+      ]
+    },
+    "129": {
+      "tier": 1,
+      "rating": 1108,
+      "display": "25.12 cm²",
+      "accept": [
+        "25.12"
+      ]
+    },
+    "130": {
+      "tier": 1,
+      "rating": 1112,
+      "display": "100",
+      "accept": [
+        "100"
+      ]
+    },
+    "131": {
+      "tier": 1,
+      "rating": 1116,
+      "display": "Area is larger",
+      "accept": [
+        "area"
+      ],
+      "contains": true
+    },
+    "132": {
+      "tier": 2,
+      "rating": 1121,
+      "display": "Area needs πr², not π×d alone.",
+      "accept": [
+        "πr",
+        "r squared"
+      ],
+      "contains": true
+    },
+    "133": {
+      "tier": 1,
+      "rating": 1125,
+      "display": "56.5 cm²",
+      "accept": [
+        "56.5"
+      ]
+    },
+    "134": {
+      "tier": 1,
+      "rating": 1129,
+      "display": "239 m²",
+      "accept": [
+        "239"
+      ]
+    },
+    "135": {
+      "tier": 1,
+      "rating": 1133,
+      "display": "True",
+      "accept": [
+        "true"
+      ]
+    },
+    "136": {
+      "tier": 1,
+      "rating": 1137,
+      "display": "4 times",
+      "accept": [
+        "4"
+      ],
+      "contains": true
+    },
+    "137": {
+      "tier": 1,
+      "rating": 1141,
+      "display": "6.9 cm",
+      "accept": [
+        "6.9",
+        "7.2"
+      ]
+    },
+    "138": {
+      "tier": 1,
+      "rating": 1145,
+      "display": "18π cm",
+      "accept": [
+        "18π"
+      ],
+      "contains": true
+    },
+    "139": {
+      "tier": 1,
+      "rating": 1149,
+      "display": "628 m",
+      "accept": [
+        "628"
+      ]
+    },
+    "140": {
+      "tier": 1,
+      "rating": 1153,
+      "display": "Always",
+      "accept": [
+        "always"
+      ]
+    },
+    "141": {
+      "tier": 1,
+      "rating": 1158,
+      "display": "21.4 cm",
+      "accept": [
+        "21.4"
+      ]
+    },
+    "142": {
+      "tier": 1,
+      "rating": 1162,
+      "display": "50.1 cm²",
+      "accept": [
+        "50.1"
+      ]
+    },
+    "143": {
+      "tier": 1,
+      "rating": 1166,
+      "display": "28.3 cm",
+      "accept": [
+        "28.3"
+      ]
+    },
+    "144": {
+      "tier": 1,
+      "rating": 1170,
+      "display": "1 : 4",
+      "accept": [
+        "1:4"
+      ],
+      "contains": true
+    },
+    "145": {
+      "tier": 1,
+      "rating": 1174,
+      "display": "80 cm",
+      "accept": [
+        "80"
+      ]
+    },
+    "146": {
+      "tier": 2,
+      "rating": 1178,
+      "display": "Estimate 3×10² = 300 cm² (using π≈3).",
+      "accept": [
+        "300",
+        "estimate"
+      ],
+      "contains": true
+    },
+    "147": {
+      "tier": 1,
+      "rating": 1182,
+      "display": "286 m",
+      "accept": [
+        "286"
+      ]
+    },
+    "148": {
+      "tier": 1,
+      "rating": 1186,
+      "display": "True",
+      "accept": [
+        "true"
+      ]
+    },
+    "149": {
+      "tier": 1,
+      "rating": 1190,
+      "display": "44.0 cm",
+      "accept": [
+        "44"
+      ]
+    },
+    "150": {
+      "tier": 1,
+      "rating": 1195,
+      "display": "308 cm²",
+      "accept": [
+        "308"
+      ]
+    },
+    "151": {
+      "tier": 1,
+      "rating": 1199,
+      "display": "78.5 m²",
+      "accept": [
+        "78.5"
+      ]
+    },
+    "152": {
+      "tier": 1,
+      "rating": 1203,
+      "display": "30.0 cm",
+      "accept": [
+        "30"
+      ]
+    },
+    "153": {
+      "tier": 1,
+      "rating": 1207,
+      "display": "Always",
+      "accept": [
+        "always"
+      ]
+    },
+    "154": {
+      "tier": 1,
+      "rating": 1211,
+      "display": "Yes — both have radius 5 cm",
+      "accept": [
+        "yes",
+        "5"
+      ],
+      "contains": true
+    },
+    "155": {
+      "tier": 1,
+      "rating": 1215,
+      "display": "6.8 cm",
+      "accept": [
+        "6.8"
+      ]
+    },
+    "156": {
+      "tier": 1,
+      "rating": 1219,
+      "display": "53.4 cm",
+      "accept": [
+        "53.4"
+      ]
+    },
+    "157": {
+      "tier": 1,
+      "rating": 1223,
+      "display": "18.8 cm",
+      "accept": [
+        "18.8"
+      ]
+    },
+    "158": {
+      "tier": 1,
+      "rating": 1227,
+      "display": "False",
+      "accept": [
+        "false"
+      ]
+    },
+    "159": {
+      "tier": 1,
+      "rating": 1232,
+      "display": "2.25",
+      "accept": [
+        "2.25"
+      ]
+    },
+    "160": {
+      "tier": 1,
+      "rating": 1236,
+      "display": "392 cm²",
+      "accept": [
+        "392"
+      ]
+    },
+    "161": {
+      "tier": 3,
+      "rating": 1240,
+      "display": "Your own wheel/circle word problem solved with π≈3.14.",
+      "accept": [
+        "circumference",
+        "3.14"
+      ],
+      "contains": true
+    },
+    "162": {
+      "tier": 3,
+      "rating": 1244,
+      "display": "C²/(4π)",
+      "accept": [
+        "C squared",
+        "4π"
+      ],
+      "contains": true
+    },
+    "163": {
+      "tier": 1,
+      "rating": 1248,
+      "display": "Always",
+      "accept": [
+        "always"
+      ]
+    },
+    "164": {
+      "tier": 1,
+      "rating": 1252,
+      "display": "14.14 m²",
+      "accept": [
+        "14.14"
+      ]
+    },
+    "165": {
+      "tier": 1,
+      "rating": 1256,
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ]
+    },
+    "166": {
+      "tier": 1,
+      "rating": 1260,
+      "display": "251 cm²",
+      "accept": [
+        "251"
+      ]
+    },
+    "167": {
+      "tier": 1,
+      "rating": 1264,
+      "display": "False",
+      "accept": [
+        "false"
+      ]
+    },
+    "168": {
+      "tier": 1,
+      "rating": 1268,
+      "display": "3.0 cm",
+      "accept": [
+        "3"
+      ]
+    },
+    "169": {
+      "tier": 1,
+      "rating": 1273,
+      "display": "3848 cm²",
+      "accept": [
+        "3848"
+      ]
+    },
+    "170": {
+      "tier": 2,
+      "rating": 1277,
+      "display": "Circumference is linear in r; area is quadratic in r — both involve π.",
+      "accept": [
+        "π",
+        "radius"
+      ],
+      "contains": true
+    },
+    "171": {
+      "tier": 1,
+      "rating": 1281,
+      "display": "157 cm²",
+      "accept": [
+        "157"
+      ]
+    },
+    "172": {
+      "tier": 1,
+      "rating": 1285,
+      "display": "Always",
+      "accept": [
+        "always"
+      ]
+    },
+    "173": {
+      "tier": 1,
+      "rating": 1289,
+      "display": "14 cm²",
+      "accept": [
+        "14"
+      ]
+    },
+    "174": {
+      "tier": 1,
+      "rating": 1293,
+      "display": "568",
+      "accept": [
+        "568"
+      ]
+    },
+    "175": {
+      "tier": 1,
+      "rating": 1297,
+      "display": "7 cm",
+      "accept": [
+        "7"
+      ]
+    },
+    "176": {
+      "tier": 1,
+      "rating": 1301,
+      "display": "False",
+      "accept": [
+        "false"
+      ]
+    },
+    "177": {
+      "tier": 1,
+      "rating": 1305,
+      "display": "56.5 cm²",
+      "accept": [
+        "56.5"
+      ]
+    },
+    "178": {
+      "tier": 1,
+      "rating": 1310,
+      "display": "165 m",
+      "accept": [
+        "165"
+      ]
+    },
+    "179": {
+      "tier": 1,
+      "rating": 1314,
+      "display": "364 cm²",
+      "accept": [
+        "364"
+      ]
+    },
+    "180": {
+      "tier": 1,
+      "rating": 1318,
+      "display": "Never",
+      "accept": [
+        "never"
+      ]
+    },
+    "181": {
+      "tier": 1,
+      "rating": 1322,
+      "display": "100.5 cm²",
+      "accept": [
+        "100.5"
+      ]
+    },
+    "182": {
+      "tier": 1,
+      "rating": 1326,
+      "display": "15.9 cm",
+      "accept": [
+        "15.9"
+      ]
+    },
+    "183": {
+      "tier": 2,
+      "rating": 1330,
+      "display": "Divide area by π, then square-root to get r.",
+      "accept": [
+        "square root",
+        "divide"
+      ],
+      "contains": true
+    },
+    "184": {
+      "tier": 1,
+      "rating": 1334,
+      "display": "40.8 cm",
+      "accept": [
+        "40.8"
+      ]
+    },
+    "185": {
+      "tier": 1,
+      "rating": 1338,
+      "display": "True",
+      "accept": [
+        "true"
+      ]
+    },
+    "186": {
+      "tier": 1,
+      "rating": 1342,
+      "display": "50.3 cm",
+      "accept": [
+        "50.3"
+      ]
+    },
+    "187": {
+      "tier": 1,
+      "rating": 1347,
+      "display": "6.9 cm",
+      "accept": [
+        "6.9"
+      ]
+    },
+    "188": {
+      "tier": 1,
+      "rating": 1351,
+      "display": "14 cm²",
+      "accept": [
+        "14"
+      ]
+    },
+    "189": {
+      "tier": 1,
+      "rating": 1355,
+      "display": "Always (both equal 4π when r = 2 cm)",
+      "accept": [
+        "always",
+        "4π"
+      ],
+      "contains": true
+    },
+    "190": {
+      "tier": 1,
+      "rating": 1359,
+      "display": "500 m",
+      "accept": [
+        "500"
+      ]
+    },
+    "191": {
+      "tier": 3,
+      "rating": 1363,
+      "display": "Your own area-of-circle word problem, solved correctly.",
+      "accept": [
+        "area",
+        "3.14"
+      ],
+      "contains": true
+    },
+    "192": {
+      "tier": 1,
+      "rating": 1367,
+      "display": "16 cm",
+      "accept": [
+        "16"
+      ]
+    },
+    "193": {
+      "tier": 1,
+      "rating": 1371,
+      "display": "True",
+      "accept": [
+        "true"
+      ]
+    },
+    "194": {
+      "tier": 1,
+      "rating": 1375,
+      "display": "1 : 4",
+      "accept": [
+        "1:4"
+      ],
+      "contains": true
+    },
+    "195": {
+      "tier": 1,
+      "rating": 1379,
+      "display": "38.5 cm²",
+      "accept": [
+        "38.5"
+      ]
+    },
+    "196": {
+      "tier": 1,
+      "rating": 1384,
+      "display": "Always",
+      "accept": [
+        "always"
+      ]
+    },
+    "197": {
+      "tier": 1,
+      "rating": 1388,
+      "display": "15.7 m",
+      "accept": [
+        "15.7"
+      ]
+    },
+    "198": {
+      "tier": 3,
+      "rating": 1392,
+      "display": "C = 2πk cm, A = πk² cm²",
+      "accept": [
+        "2πk",
+        "πk"
+      ],
+      "contains": true
+    },
+    "199": {
+      "tier": 1,
+      "rating": 1396,
+      "display": "71.4 cm",
+      "accept": [
+        "71.4"
+      ]
+    },
+    "200": {
+      "tier": 1,
+      "rating": 1400,
+      "display": "20 cm",
+      "accept": [
+        "20"
+      ]
+    }
+  }
+}

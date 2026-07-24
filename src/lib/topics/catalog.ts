@@ -2,7 +2,7 @@ import type { GcseDomain } from "./catalog-types";
 import spineData from "./spine.json";
 
 export type { GcseDomain, AssessmentObjective, Topic } from "./catalog-types";
-export { DOMAIN_LABELS } from "./catalog-types";
+export { DOMAIN_LABELS, DOMAIN_SUMMARIES } from "./catalog-types";
 
 const AGE9_FOCUS: Partial<Record<string, string>> = {
   N1: "Order FDP; negatives on a number line",

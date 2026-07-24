@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import { requireSession } from "@/lib/auth";
 import { getWorksheet, serializeWorksheet } from "@/lib/content";
+import { isGcseDomain } from "@/lib/subjects";
 import { isTenantId } from "@/lib/tenants";
-import { TenantNav } from "@/components/TenantNav";
+import { ServerTenantNav } from "@/components/ServerTenantNav";
 import { WorksheetEditor } from "@/components/WorksheetEditor";
 import {
   mathsTopicTrail,
@@ -19,7 +20,7 @@ export async function WorksheetEditScreen({
   slug: string;
 }) {
   if (!isTenantId(tenant)) notFound();
-  const session = await requireSession(tenant);
+  await requireSession(tenant);
 
   const doc = await getWorksheet(tenant, slug);
   if (!doc) notFound();
@@ -31,8 +32,10 @@ export async function WorksheetEditScreen({
   if (slash > 0) {
     const domain = slug.slice(0, slash);
     const code = slug.slice(slash + 1);
+    if (!isGcseDomain(domain)) notFound();
     crumbs = mathsTopicTrail(
       tenant,
+      domain,
       doc.frontmatter.title,
       mathsTopicHref(tenant, domain, code),
       "Edit",
@@ -48,11 +51,7 @@ export async function WorksheetEditScreen({
 
   return (
     <>
-      <TenantNav
-        tenantId={tenant}
-        userName={session.displayName}
-        crumbs={crumbs}
-      />
+      <ServerTenantNav tenantId={tenant} crumbs={crumbs} />
       <main className="mx-auto max-w-4xl px-4 py-8">
         <h1 className="text-xl font-semibold text-stone-900">Edit worksheet</h1>
         <p className="mt-2 text-sm text-stone-600">

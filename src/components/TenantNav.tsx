@@ -2,20 +2,26 @@
 
 import Link from "next/link";
 import { Fragment } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import type { NavCrumb } from "@/lib/nav-crumbs";
+import { familyHubHref } from "@/lib/paths";
 import type { TenantId } from "@/lib/tenants";
 
 export function TenantNav({
-  tenantId: _tenantId,
+  tenantId,
   userName,
   crumbs,
+  isParent,
 }: {
   tenantId: TenantId;
   userName: string;
   crumbs: NavCrumb[];
+  isParent?: boolean;
 }) {
   const router = useRouter();
+  const pathname = usePathname();
+  const familyHref = familyHubHref(tenantId);
+  const onFamilyPage = pathname.startsWith(`/t/${tenantId}/family`);
 
   async function logout() {
     await fetch("/api/auth/logout", { method: "POST" });
@@ -52,13 +58,28 @@ export function TenantNav({
             ))}
           </nav>
         </div>
-        <button
-          type="button"
-          onClick={() => void logout()}
-          className="shrink-0 rounded-lg px-3 py-1.5 text-sm text-stone-500 hover:bg-stone-100 hover:text-stone-800"
-        >
-          Sign out
-        </button>
+        <div className="flex shrink-0 items-center gap-1">
+          {isParent ? (
+            <Link
+              href={familyHref}
+              aria-current={onFamilyPage ? "page" : undefined}
+              className={
+                onFamilyPage
+                  ? "rounded-lg bg-sky-100 px-3 py-1.5 text-sm font-medium text-sky-950"
+                  : "rounded-lg px-3 py-1.5 text-sm font-medium text-sky-800 hover:bg-sky-50"
+              }
+            >
+              Family progress
+            </Link>
+          ) : null}
+          <button
+            type="button"
+            onClick={() => void logout()}
+            className="rounded-lg px-3 py-1.5 text-sm text-stone-500 hover:bg-stone-100 hover:text-stone-800"
+          >
+            Sign out
+          </button>
+        </div>
       </div>
     </header>
   );

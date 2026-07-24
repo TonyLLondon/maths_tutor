@@ -1,0 +1,1879 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "40",
+      "accept": [
+        "40",
+        "forty"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "50",
+      "accept": [
+        "50",
+        "fifty"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "40",
+      "accept": [
+        "40",
+        "forty"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "7",
+      "accept": [
+        "7",
+        "seven"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "60",
+      "accept": [
+        "60",
+        "sixty"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "50",
+      "accept": [
+        "50",
+        "fifty"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "£6",
+      "accept": [
+        "6",
+        "£6",
+        "6 pounds"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "490",
+      "accept": [
+        "490"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "6.3",
+      "accept": [
+        "6.3"
+      ],
+      "tier": 1,
+      "rating": 661
+    },
+    "11": {
+      "display": "800 (40 × 20)",
+      "accept": [
+        "800",
+        "40 x 20",
+        "40×20"
+      ],
+      "tier": 1,
+      "rating": 673
+    },
+    "12": {
+      "display": "50 (500 ÷ 10) or similar sensible estimate",
+      "accept": [
+        "50",
+        "500/10",
+        "55.8"
+      ],
+      "tier": 1,
+      "rating": 684
+    },
+    "13": {
+      "display": "2300",
+      "accept": [
+        "2300"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "14": {
+      "display": "8.65",
+      "accept": [
+        "8.65"
+      ],
+      "tier": 1,
+      "rating": 707
+    },
+    "15": {
+      "display": "1800 (60 × 30)",
+      "accept": [
+        "1800",
+        "60 x 30",
+        "60×30"
+      ],
+      "tier": 1,
+      "rating": 718
+    },
+    "16": {
+      "display": "0.085",
+      "accept": [
+        "0.085"
+      ],
+      "tier": 1,
+      "rating": 764
+    },
+    "17": {
+      "display": "20 (800 ÷ 40)",
+      "accept": [
+        "20",
+        "800/40",
+        "800÷40"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "18": {
+      "display": "4.00",
+      "accept": [
+        "4.00",
+        "4"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "19": {
+      "display": "20 000",
+      "accept": [
+        "20000",
+        "20 000"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "20": {
+      "display": "25 (5 × 5)",
+      "accept": [
+        "25",
+        "5 x 5",
+        "5×5"
+      ],
+      "tier": 1,
+      "rating": 817
+    },
+    "21": {
+      "display": "0.7",
+      "accept": [
+        "0.7"
+      ],
+      "tier": 1,
+      "rating": 983
+    },
+    "22": {
+      "display": "700 (300 + 400)",
+      "accept": [
+        "700",
+        "300+400"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "Yes — 500 is close to 503, so the estimate is sensible.",
+      "accept": [
+        "yes",
+        "sensible",
+        "reasonable",
+        "close"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "24": {
+      "display": "Always for rounding both up before multiplying — e.g. 2 × 2 = 4 is greater than 1.8 × 1.9 = 3.42.",
+      "accept": [
+        "always",
+        "bigger",
+        "overestimate"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 976
+    },
+    "25": {
+      "display": "Yes, sensible. Exact answer is 21.76, close to the estimate of 21.",
+      "accept": [
+        "yes",
+        "21.76",
+        "sensible",
+        "close"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1187
+    },
+    "26": {
+      "display": "Sometimes — e.g. 40 rounds to 40 (the same), but 43 rounds to 40 (different).",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1397
+    },
+    "27": {
+      "display": "Mistake: she rounded down instead of up when the next digit is 5. Correct answer: 3.7.",
+      "accept": [
+        "3.7"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "28": {
+      "display": "About £1 500 000 (e.g. 30 000 × £50).",
+      "accept": [
+        "1500000",
+        "1.5 million",
+        "30000 x 50",
+        "31000 x 50"
+      ],
+      "tier": 3,
+      "rating": 1501
+    },
+    "29": {
+      "display": "About 6000 kg (300 × 20).",
+      "accept": [
+        "6000",
+        "300 x 20",
+        "300×20"
+      ],
+      "tier": 3,
+      "rating": 1712
+    },
+    "30": {
+      "display": "Estimate: 190 + 210 = 400. Exact: 401 — very close.",
+      "accept": [
+        "400",
+        "401"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1597
+    },
+    "31": {
+      "display": "Estimate: 20 × 30 = 600. Exact: 768. Since both numbers were rounded down, the estimate is too low.",
+      "accept": [
+        "600",
+        "too low",
+        "underestimate"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1731
+    },
+    "32": {
+      "display": "Estimate: 6 × £3 = £18. Exact: 6 × £2.95 = £17.70.",
+      "accept": [
+        "18",
+        "17.70"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "33": {
+      "display": "50",
+      "accept": [
+        "50",
+        "fifty"
+      ],
+      "tier": 2,
+      "rating": 1270
+    },
+    "34": {
+      "display": "3.5",
+      "accept": [
+        "3.5"
+      ],
+      "tier": 2,
+      "rating": 1322
+    },
+    "35": {
+      "display": "400 (20 × 20)",
+      "accept": [
+        "400",
+        "20 x 20",
+        "20×20"
+      ],
+      "tier": 2,
+      "rating": 1374,
+      "contains": true
+    },
+    "36": {
+      "display": "200",
+      "accept": [
+        "200",
+        "two hundred"
+      ],
+      "tier": 2,
+      "rating": 1296
+    },
+    "37": {
+      "display": "300 (100 + 200)",
+      "accept": [
+        "300",
+        "100+200"
+      ],
+      "tier": 2,
+      "rating": 1348,
+      "contains": true
+    },
+    "38": {
+      "display": "3 m",
+      "accept": [
+        "3",
+        "3m",
+        "3 m",
+        "three"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "39": {
+      "display": "Exact: 2548. Estimate e.g. 50 × 50 = 2500 — close to exact.",
+      "accept": [
+        "2548",
+        "2500",
+        "2550"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1836
+    },
+    "40": {
+      "display": "Smallest 3.75, largest just under 3.85 (3.75 ≤ x < 3.85).",
+      "accept": [
+        "3.75",
+        "3.85"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1964
+    },
+    "41": {
+      "display": "Between 7 and 8, closer to 7 (since 50 is close to 49).",
+      "accept": [
+        "7",
+        "8"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1982
+    },
+    "42": {
+      "display": "Smallest 19 500, largest 20 499 (up to but not including 20 500).",
+      "accept": [
+        "19500",
+        "20499",
+        "20500"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "Estimate: 600 ÷ 30 = 20. Exact: 612 ÷ 29 ≈ 21.1, so the estimate is smaller than the exact answer.",
+      "accept": [
+        "20",
+        "smaller"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "44": {
+      "display": "No — rounding does affect accuracy, since it introduces a small error, even though it can make calculations easier.",
+      "accept": [
+        "no",
+        "not correct",
+        "incorrect"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 954
+    },
+    "45": {
+      "display": "70",
+      "accept": [
+        "70",
+        "seventy"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "46": {
+      "display": "5.8",
+      "accept": [
+        "5.8"
+      ],
+      "tier": 1,
+      "rating": 776
+    },
+    "47": {
+      "display": "100 (30 + 70)",
+      "accept": [
+        "100",
+        "30+70"
+      ],
+      "tier": 1,
+      "rating": 802
+    },
+    "48": {
+      "display": "900",
+      "accept": [
+        "900"
+      ],
+      "tier": 1,
+      "rating": 828
+    },
+    "49": {
+      "display": "1000 (50 × 20)",
+      "accept": [
+        "1000",
+        "50 x 20",
+        "50×20",
+        "1200"
+      ],
+      "tier": 1,
+      "rating": 854
+    },
+    "50": {
+      "display": "56",
+      "accept": [
+        "56"
+      ],
+      "tier": 1,
+      "rating": 880
+    },
+    "51": {
+      "display": "0.038",
+      "accept": [
+        "0.038",
+        "0.037"
+      ],
+      "tier": 1,
+      "rating": 906
+    },
+    "52": {
+      "display": "200 (400 − 200)",
+      "accept": [
+        "200",
+        "300"
+      ],
+      "tier": 1,
+      "rating": 932
+    },
+    "53": {
+      "display": "15.00",
+      "accept": [
+        "15.00",
+        "15",
+        "15.0"
+      ],
+      "tier": 1,
+      "rating": 958
+    },
+    "54": {
+      "display": "32 (8 × 4)",
+      "accept": [
+        "32",
+        "8 x 4",
+        "8×4"
+      ],
+      "tier": 1,
+      "rating": 984
+    },
+    "55": {
+      "display": "£10",
+      "accept": [
+        "10",
+        "£10"
+      ],
+      "tier": 1,
+      "rating": 1010
+    },
+    "56": {
+      "display": "5000",
+      "accept": [
+        "5000",
+        "5 000"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "57": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 1062
+    },
+    "58": {
+      "display": "300",
+      "accept": [
+        "300"
+      ],
+      "tier": 1,
+      "rating": 1088
+    },
+    "59": {
+      "display": "400 (200 + 200)",
+      "accept": [
+        "400",
+        "500"
+      ],
+      "tier": 1,
+      "rating": 1114
+    },
+    "60": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 1140
+    },
+    "61": {
+      "display": "10.0",
+      "accept": [
+        "10.0",
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1166
+    },
+    "62": {
+      "display": "2500 (50 × 50)",
+      "accept": [
+        "2500",
+        "50 x 50",
+        "50×50"
+      ],
+      "tier": 1,
+      "rating": 1192
+    },
+    "63": {
+      "display": "7",
+      "accept": [
+        "7",
+        "seven"
+      ],
+      "tier": 1,
+      "rating": 1218
+    },
+    "64": {
+      "display": "0.0046",
+      "accept": [
+        "0.0046",
+        "0.0045"
+      ],
+      "tier": 1,
+      "rating": 1244
+    },
+    "65": {
+      "display": "1230",
+      "accept": [
+        "1230"
+      ],
+      "tier": 1,
+      "rating": 730
+    },
+    "66": {
+      "display": "7.05",
+      "accept": [
+        "7.05"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "67": {
+      "display": "2100 (70 × 30)",
+      "accept": [
+        "2100",
+        "1800",
+        "70 x 30"
+      ],
+      "tier": 1,
+      "rating": 752
+    },
+    "68": {
+      "display": "3500",
+      "accept": [
+        "3500"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "69": {
+      "display": "20 (800 ÷ 40)",
+      "accept": [
+        "20",
+        "800/40"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "70": {
+      "display": "0.0505",
+      "accept": [
+        "0.0505",
+        "0.051"
+      ],
+      "tier": 1,
+      "rating": 798
+    },
+    "71": {
+      "display": "9 (5 + 4)",
+      "accept": [
+        "9",
+        "5+4"
+      ],
+      "tier": 1,
+      "rating": 809
+    },
+    "72": {
+      "display": "19 000",
+      "accept": [
+        "19000",
+        "19 000"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "73": {
+      "display": "1200 (30 × 40)",
+      "accept": [
+        "1200",
+        "30 x 40"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "74": {
+      "display": "6.28",
+      "accept": [
+        "6.28"
+      ],
+      "tier": 1,
+      "rating": 855
+    },
+    "75": {
+      "display": "1000 (500 + 500)",
+      "accept": [
+        "1000",
+        "500+500"
+      ],
+      "tier": 1,
+      "rating": 866
+    },
+    "76": {
+      "display": "780",
+      "accept": [
+        "780"
+      ],
+      "tier": 1,
+      "rating": 889
+    },
+    "77": {
+      "display": "30 (900 ÷ 30)",
+      "accept": [
+        "30",
+        "900/30"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "78": {
+      "display": "3.142",
+      "accept": [
+        "3.142"
+      ],
+      "tier": 1,
+      "rating": 911
+    },
+    "79": {
+      "display": "1000 (20 × 50)",
+      "accept": [
+        "1000",
+        "20 x 50"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "80": {
+      "display": "0.0099",
+      "accept": [
+        "0.0099",
+        "0.01"
+      ],
+      "tier": 1,
+      "rating": 934
+    },
+    "81": {
+      "display": "200 (300 − 100)",
+      "accept": [
+        "200",
+        "300-100"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "82": {
+      "display": "55.6",
+      "accept": [
+        "55.6"
+      ],
+      "tier": 1,
+      "rating": 957
+    },
+    "83": {
+      "display": "30 (6 × 5)",
+      "accept": [
+        "30",
+        "6 x 5"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "84": {
+      "display": "12 300",
+      "accept": [
+        "12300",
+        "12 300"
+      ],
+      "tier": 1,
+      "rating": 980
+    },
+    "85": {
+      "display": "20 (450 ÷ 20)",
+      "accept": [
+        "20",
+        "22",
+        "450/20"
+      ],
+      "tier": 1,
+      "rating": 991
+    },
+    "86": {
+      "display": "0.2",
+      "accept": [
+        "0.2"
+      ],
+      "tier": 1,
+      "rating": 1002
+    },
+    "87": {
+      "display": "190 (70 + 30 + 90)",
+      "accept": [
+        "190",
+        "200"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "88": {
+      "display": "6000",
+      "accept": [
+        "6000"
+      ],
+      "tier": 1,
+      "rating": 1025
+    },
+    "89": {
+      "display": "2400 (40 × 60)",
+      "accept": [
+        "2400",
+        "40 x 60"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "90": {
+      "display": "8.00",
+      "accept": [
+        "8.00",
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1048
+    },
+    "91": {
+      "display": "600 (1200 − 600)",
+      "accept": [
+        "600",
+        "700"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "92": {
+      "display": "40 000",
+      "accept": [
+        "40000",
+        "40 000"
+      ],
+      "tier": 1,
+      "rating": 1070
+    },
+    "93": {
+      "display": "15 (5 × 3)",
+      "accept": [
+        "15",
+        "5 x 3"
+      ],
+      "tier": 1,
+      "rating": 1082
+    },
+    "94": {
+      "display": "0.67",
+      "accept": [
+        "0.67"
+      ],
+      "tier": 1,
+      "rating": 1093
+    },
+    "95": {
+      "display": "20 (860 ÷ 40)",
+      "accept": [
+        "20",
+        "860/40"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "96": {
+      "display": "1000",
+      "accept": [
+        "1000"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "97": {
+      "display": "2500 (40 × 60)",
+      "accept": [
+        "2500",
+        "40 x 60",
+        "2464"
+      ],
+      "tier": 1,
+      "rating": 1127
+    },
+    "98": {
+      "display": "2.4",
+      "accept": [
+        "2.4"
+      ],
+      "tier": 1,
+      "rating": 1139
+    },
+    "99": {
+      "display": "60 000 (200 × 300)",
+      "accept": [
+        "60000",
+        "60 000",
+        "200 x 300"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "100": {
+      "display": "Sometimes — e.g. 52 − 11 = 41 but 60 − 20 = 40 (smaller than exact).",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 919
+    },
+    "101": {
+      "display": "Mistake: 4.85 rounds up to 4.9 (the 5 in hundredths rounds the 8 up). Correct: 4.9.",
+      "accept": [
+        "4.9"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 938
+    },
+    "102": {
+      "display": "Sometimes — e.g. 40 stays 40, but 43 becomes 40.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 957
+    },
+    "103": {
+      "display": "Yes — exact answer 405, very close to 400.",
+      "accept": [
+        "yes",
+        "405",
+        "sensible"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 996
+    },
+    "104": {
+      "display": "One factor rounded up and one down can cancel some error, giving a closer product.",
+      "accept": [
+        "cancel",
+        "closer",
+        "one up",
+        "one down"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1015
+    },
+    "105": {
+      "display": "Always — subtract the smaller addend from the sum to check addition.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1034
+    },
+    "106": {
+      "display": "45",
+      "accept": [
+        "45"
+      ],
+      "tier": 2,
+      "rating": 1053
+    },
+    "107": {
+      "display": "Sometimes — e.g. 1.99 to one decimal is 2.0, which is bigger than 1.99.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1072
+    },
+    "108": {
+      "display": "49 × 51 = (50 − 1)(50 + 1) = 50² − 1, so it is one less than 50².",
+      "accept": [
+        "50",
+        "2499",
+        "one less"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1091
+    },
+    "109": {
+      "display": "Never — rounding can over-estimate as well as under-estimate.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1110
+    },
+    "110": {
+      "display": "No — 0.5 rounds to 1 to the nearest whole number.",
+      "accept": [
+        "no",
+        "1"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1129
+    },
+    "111": {
+      "display": "Sometimes — e.g. 45 is 50 to the nearest 10 but 0 to the nearest 100.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1149
+    },
+    "112": {
+      "display": "84",
+      "accept": [
+        "84"
+      ],
+      "tier": 2,
+      "rating": 1168
+    },
+    "113": {
+      "display": "Sometimes — rounding before adding can differ from adding exact values then rounding.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1206
+    },
+    "114": {
+      "display": "Estimate: shopping total roughly; exact: bank balance or medicine dose.",
+      "accept": [
+        "estimate",
+        "exact"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "115": {
+      "display": "Always — 502 + 498 = 1000 exactly, so 500 is very sensible.",
+      "accept": [
+        "always",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1244
+    },
+    "116": {
+      "display": "160 (closest to 156).",
+      "accept": [
+        "160"
+      ],
+      "tier": 2,
+      "rating": 1263
+    },
+    "117": {
+      "display": "Always — any non-zero number has at least one significant figure.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1282
+    },
+    "118": {
+      "display": "The digit in the next place is 5, so you round the 9 up and carry (9.95 → 10.0).",
+      "accept": [
+        "5",
+        "carry",
+        "10"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1301
+    },
+    "119": {
+      "display": "Always — if the inverse check gives the original numbers, the calculation is correct.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1321
+    },
+    "120": {
+      "display": "2000 (exact product 1976).",
+      "accept": [
+        "2000",
+        "40 x 50"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1340
+    },
+    "121": {
+      "display": "Never — 999 rounds to 1000 to the nearest 100.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1359
+    },
+    "122": {
+      "display": "6.5 cm (longest value before 6.5 cm, which is not included).",
+      "accept": [
+        "6.5",
+        "6.4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1378
+    },
+    "123": {
+      "display": "Always — rounding both factors down makes each factor smaller, so the product is smaller.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1416
+    },
+    "124": {
+      "display": "100 × 100 is easy to calculate and both factors are very close to 100.",
+      "accept": [
+        "100",
+        "easy",
+        "close"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1435
+    },
+    "125": {
+      "display": "Never — the exact answer could still be correct even if an estimate was poor.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1454
+    },
+    "126": {
+      "display": "Not always — rounding up is safer for budgets but can be too high; sensible rounding is often enough.",
+      "accept": [
+        "no",
+        "not always",
+        "disagree"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1474
+    },
+    "127": {
+      "display": "Always — 0.049 rounds to 0.0 to one decimal place.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1493
+    },
+    "128": {
+      "display": "3.15",
+      "accept": [
+        "3.15"
+      ],
+      "tier": 2,
+      "rating": 1512
+    },
+    "129": {
+      "display": "Sometimes — it depends how far the divisor is from 10.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1531
+    },
+    "130": {
+      "display": "About £7800 (e.g. £25 × 312 or £25 × 300).",
+      "accept": [
+        "7800",
+        "7500",
+        "8000"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "131": {
+      "display": "About 560 tonnes (28 × 20).",
+      "accept": [
+        "560",
+        "28 x 20"
+      ],
+      "tier": 3,
+      "rating": 1119
+    },
+    "132": {
+      "display": "About 60% (90% − 30%).",
+      "accept": [
+        "60",
+        "60%"
+      ],
+      "tier": 3,
+      "rating": 1138
+    },
+    "133": {
+      "display": "About 1500 m² (50 m × 30 m).",
+      "accept": [
+        "1500",
+        "50 x 30"
+      ],
+      "tier": 3,
+      "rating": 1157
+    },
+    "134": {
+      "display": "About £96 000 (40 × 2400).",
+      "accept": [
+        "96000",
+        "96 000"
+      ],
+      "tier": 3,
+      "rating": 1176
+    },
+    "135": {
+      "display": "About 900 g (roughly 80–90 g per person × 11).",
+      "accept": [
+        "900",
+        "800",
+        "890"
+      ],
+      "tier": 3,
+      "rating": 1196
+    },
+    "136": {
+      "display": "About 280 miles (130 + 90 + 60).",
+      "accept": [
+        "280",
+        "270",
+        "290"
+      ],
+      "tier": 3,
+      "rating": 1215
+    },
+    "137": {
+      "display": "About 3000 boxes (50 × 60).",
+      "accept": [
+        "3000",
+        "50 x 60"
+      ],
+      "tier": 3,
+      "rating": 1234
+    },
+    "138": {
+      "display": "About £56 (e.g. 140p × 40 litres).",
+      "accept": [
+        "56",
+        "55",
+        "57"
+      ],
+      "tier": 3,
+      "rating": 1253
+    },
+    "139": {
+      "display": "About 48 seconds (400 ÷ 8).",
+      "accept": [
+        "48",
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1272
+    },
+    "140": {
+      "display": "About £20",
+      "accept": [
+        "20",
+        "£20"
+      ],
+      "tier": 3,
+      "rating": 1291
+    },
+    "141": {
+      "display": "About 14 km (13875 m ≈ 14 km).",
+      "accept": [
+        "14",
+        "13",
+        "14 km"
+      ],
+      "tier": 3,
+      "rating": 1310
+    },
+    "142": {
+      "display": "About 40 pages (480 ÷ 12).",
+      "accept": [
+        "40"
+      ],
+      "tier": 3,
+      "rating": 1329
+    },
+    "143": {
+      "display": "Smallest 23 500, largest 24 499.",
+      "accept": [
+        "23500",
+        "24499"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1349
+    },
+    "144": {
+      "display": "Between 8 and 9 ( √80 ≈ 8.9).",
+      "accept": [
+        "8",
+        "9"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1368
+    },
+    "145": {
+      "display": "About 3 hours (2 h 47 min ≈ 2.8 h).",
+      "accept": [
+        "3",
+        "2.8"
+      ],
+      "tier": 3,
+      "rating": 1387
+    },
+    "146": {
+      "display": "About 42.5 kg → estimate 40 kg or 43 kg.",
+      "accept": [
+        "40",
+        "42",
+        "43"
+      ],
+      "tier": 3,
+      "rating": 1406
+    },
+    "147": {
+      "display": "About 950 kg (14 × 70).",
+      "accept": [
+        "950",
+        "980"
+      ],
+      "tier": 3,
+      "rating": 1425
+    },
+    "148": {
+      "display": "About £31.50 (45 × 0.7).",
+      "accept": [
+        "31.50",
+        "31.5",
+        "32"
+      ],
+      "tier": 3,
+      "rating": 1444
+    },
+    "149": {
+      "display": "About 20 minutes (55 ÷ 2.8).",
+      "accept": [
+        "20",
+        "19"
+      ],
+      "tier": 3,
+      "rating": 1463
+    },
+    "150": {
+      "display": "Smallest 345, largest 354.",
+      "accept": [
+        "345",
+        "354"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1482
+    },
+    "151": {
+      "display": "About 400 (2 × 98 + 2 × 102 ≈ 196 + 204).",
+      "accept": [
+        "400",
+        "396",
+        "404"
+      ],
+      "tier": 3,
+      "rating": 1521
+    },
+    "152": {
+      "display": "About 66 km (22 × 3).",
+      "accept": [
+        "66",
+        "70"
+      ],
+      "tier": 3,
+      "rating": 1540
+    },
+    "153": {
+      "display": "About 200 boxes (950 ÷ 5).",
+      "accept": [
+        "200",
+        "190"
+      ],
+      "tier": 3,
+      "rating": 1559
+    },
+    "154": {
+      "display": "About £240 (£20 × 12).",
+      "accept": [
+        "240",
+        "£240"
+      ],
+      "tier": 3,
+      "rating": 1578
+    },
+    "155": {
+      "display": "25 (600 ÷ 24).",
+      "accept": [
+        "25"
+      ],
+      "tier": 3,
+      "rating": 1616
+    },
+    "156": {
+      "display": "About 10 panels (50 ÷ 5).",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1635
+    },
+    "157": {
+      "display": "About 58 questions (80 × 0.73).",
+      "accept": [
+        "58",
+        "59"
+      ],
+      "tier": 3,
+      "rating": 1654
+    },
+    "158": {
+      "display": "About 28 tanks (200 ÷ 7).",
+      "accept": [
+        "28",
+        "27"
+      ],
+      "tier": 3,
+      "rating": 1674
+    },
+    "159": {
+      "display": "About 7 °C (5 − (−2) = 7).",
+      "accept": [
+        "7",
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1693
+    },
+    "160": {
+      "display": "Exact 999 991; estimate 1 000 000 — difference 9.",
+      "accept": [
+        "999991",
+        "1000000",
+        "9"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1400
+    },
+    "161": {
+      "display": "4.5 cm ≤ length < 6.5 cm",
+      "accept": [
+        "4.5",
+        "6.5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1418
+    },
+    "162": {
+      "display": "About 500 (e.g. 500 × 500 ÷ 500).",
+      "accept": [
+        "500"
+      ],
+      "tier": 3,
+      "rating": 1436
+    },
+    "163": {
+      "display": "No — 0.00500 (three sf) and 0.0050 (two sf).",
+      "accept": [
+        "no",
+        "0.0050",
+        "0.00500"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1455
+    },
+    "164": {
+      "display": "31² = 961 and 30 × 32 = 960 — differ by 1.",
+      "accept": [
+        "961",
+        "960",
+        "1"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1473
+    },
+    "165": {
+      "display": "Smallest 7.495, largest 7.505 (not including 7.505).",
+      "accept": [
+        "7.495",
+        "7.505"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1491
+    },
+    "166": {
+      "display": "About 10 — slightly too high ( √98 ≈ 9.90).",
+      "accept": [
+        "10",
+        "high",
+        "9.9"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1509
+    },
+    "167": {
+      "display": "Always — both rounded factors are ≥ the true factors, so the product is ≥ the true product.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1527
+    },
+    "168": {
+      "display": "51² = 50² + 2×50×1 + 1² = 2500 + 100 + 1 = 2601.",
+      "accept": [
+        "2601",
+        "2500",
+        "100"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1545
+    },
+    "169": {
+      "display": "Smallest 24 450, largest 24 549.",
+      "accept": [
+        "24450",
+        "24549"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1564
+    },
+    "170": {
+      "display": "About 40 (20 × 20 ÷ 10).",
+      "accept": [
+        "40",
+        "38"
+      ],
+      "tier": 3,
+      "rating": 1582
+    },
+    "171": {
+      "display": "700 ÷ 20 = 35 but 700 ÷ 25 = 28 — different divisors change the estimate.",
+      "accept": [
+        "35",
+        "28",
+        "different"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1600
+    },
+    "172": {
+      "display": "About 25.65 m² (5.25 cm × 5.25 cm using upper bounds).",
+      "accept": [
+        "25.65",
+        "25.6"
+      ],
+      "tier": 3,
+      "rating": 1618
+    },
+    "173": {
+      "display": "Exact 2499.75; 50² = 2500 — very close.",
+      "accept": [
+        "2499.75",
+        "2500"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1636
+    },
+    "174": {
+      "display": "Always — all values in that range round to 5.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1655
+    },
+    "175": {
+      "display": "About 2 (1 ÷ 0.5 = 2).",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1673
+    },
+    "176": {
+      "display": "Rounded till: £2.40 + £3.50 = £5.90; exact £5.90 — same here, but rounding can differ in other cases.",
+      "accept": [
+        "5.90",
+        "5.9",
+        "590"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1691
+    },
+    "177": {
+      "display": "4900 (exact 4896).",
+      "accept": [
+        "4900",
+        "5000"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1709
+    },
+    "178": {
+      "display": "e.g. 0.04001 or any value in 0.03995… to 0.04005…",
+      "accept": [
+        "0.04",
+        "0.0400"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1727
+    },
+    "179": {
+      "display": "About 100 (300 × 200 ÷ 600).",
+      "accept": [
+        "100",
+        "99"
+      ],
+      "tier": 3,
+      "rating": 1745
+    },
+    "180": {
+      "display": "Sometimes — rounding each factor separately can differ from one final rounding.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1764
+    },
+    "181": {
+      "display": "Smallest 48 250, largest 48 749.",
+      "accept": [
+        "48250",
+        "48749"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1782
+    },
+    "182": {
+      "display": "9801 (100² − 2×100 + 1).",
+      "accept": [
+        "9801"
+      ],
+      "tier": 3,
+      "rating": 1800
+    },
+    "183": {
+      "display": "24.45 m/s to 24.55 m/s (24.55 not included).",
+      "accept": [
+        "24.45",
+        "24.55"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1818
+    },
+    "184": {
+      "display": "12.2 (√144 = 12, √169 = 13).",
+      "accept": [
+        "12.2",
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1855
+    },
+    "185": {
+      "display": "900 ÷ 30 = 30 is closer (exact ≈ 30.6).",
+      "accept": [
+        "30",
+        "900/30"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1873
+    },
+    "186": {
+      "display": "Smallest 24.5 mm, largest 25.4 mm (25.5 not included).",
+      "accept": [
+        "24.5",
+        "25.4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1891
+    },
+    "187": {
+      "display": "Sometimes — errors can be larger than 10% depending on the numbers.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1909
+    },
+    "188": {
+      "display": "203 × 197 = 39 991 = 40 000 − 9 = 200² − 9.",
+      "accept": [
+        "39991",
+        "40000",
+        "200"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1927
+    },
+    "189": {
+      "display": "About 2300 (5 × 10³ ÷ 2 × 10² ≈ 2.5 × 10³).",
+      "accept": [
+        "2300",
+        "2500",
+        "2.3"
+      ],
+      "tier": 3,
+      "rating": 1945
+    },
+    "190": {
+      "display": "About 13 900 (13 000 + 900).",
+      "accept": [
+        "13900",
+        "13 900"
+      ],
+      "tier": 3,
+      "rating": 1008
+    },
+    "191": {
+      "display": "No — 125 ÷ 5 = 25, not 23.",
+      "accept": [
+        "no",
+        "25"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1063
+    },
+    "192": {
+      "display": "224 (56 × 44 ÷ 11).",
+      "accept": [
+        "224"
+      ],
+      "tier": 3,
+      "rating": 1117
+    },
+    "193": {
+      "display": "Sometimes — e.g. 12 400 to nearest 100 is also to nearest 1000, but 12 600 is not.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1171
+    },
+    "194": {
+      "display": "About £51 — likely slightly low (exact £50.95).",
+      "accept": [
+        "51",
+        "50",
+        "low"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1225
+    },
+    "195": {
+      "display": "0.00804 for both two and three significant figures.",
+      "accept": [
+        "0.00804"
+      ],
+      "tier": 3,
+      "rating": 1279
+    },
+    "196": {
+      "display": "Smallest 32 350, largest 32 449.",
+      "accept": [
+        "32350",
+        "32449"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1333
+    },
+    "197": {
+      "display": "Smaller — 700 × 300 = 210 000 but exact 203 775.",
+      "accept": [
+        "smaller",
+        "210000"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1388
+    },
+    "198": {
+      "display": "45 − 17 = 28 checks with 28 + 17 = 45.",
+      "accept": [
+        "45",
+        "28"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1442
+    },
+    "199": {
+      "display": "Sometimes — 2.45 to one dp is 2.5 but to one sf is 2.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1496
+    },
+    "200": {
+      "display": "Smallest £2 350 000, largest £2 450 000.",
+      "accept": [
+        "2350000",
+        "2450000",
+        "2.35",
+        "2.45"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1550
+    }
+  }
+}

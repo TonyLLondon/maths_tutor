@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Count on from 6, or use your fingers — what is 6 + 3?",
+      "help": "Adding means putting groups together. Start at 6 and count forward 3 more to find the total.\n\nExample: $4 + 5 = 9$ because four and five make nine."
+    },
+    "2": {
+      "hint": "Start at 10 and count back 4 — what is left?",
+      "help": "Subtraction is taking away. From 10 remove 4 by counting backwards or thinking what adds to 4 to make 10.\n\nExample: $15 - 7 = 8$."
+    },
+    "3": {
+      "hint": "In 34, the 3 is in the tens column — what is it worth?",
+      "help": "Place value: the **3** in 34 means **3 tens**, which is 30. The 4 is 4 ones.\n\nExample: in 52 the 5 is worth 50.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "4": {
+      "hint": "Three fives added — is that repeated addition or multiplication?",
+      "help": "$5 + 5 + 5$ is three groups of 5, the same as $3 \\times 5$.\n\nExample: $2+2+2 = 6$ which equals $3 \\times 2$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "5": {
+      "hint": "Divide 12 by 2 — how many in each equal group?",
+      "help": "Sharing equally: split 12 into 2 equal groups. That is $12 \\div 2$ counters per child.\n\nExample: 8 shared by 4 gives 2 each."
+    },
+    "6": {
+      "hint": "4 groups of 2 — use multiplication.",
+      "help": "$4 \\times 2$ means 4 lots of 2 added together.\n\nExample: $3 \\times 5 = 15$ for three fives.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "7": {
+      "hint": "27 plus 10 moves the tens digit up by one.",
+      "help": "**10 more** than 27 is $27 + 10 = 37$. Only the tens digit changes when adding 10.\n\nExample: 10 more than 45 is 55.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "8": {
+      "hint": "Add the tens and units: 20 + 8.",
+      "help": "Combine 20 and 8 to make one number. There is no carrying needed here.\n\nExample: $30 + 6 = 36$ and $20 + 8 = 28$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "9": {
+      "hint": "Simple addition: 8 + 1.",
+      "help": "One more than 8 gives the next counting number.\n\nExample: $9 + 1 = 10$ on the number line.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "10": {
+      "hint": "Half of 10 is the same as 10 − 5.",
+      "help": "Subtract 5 from 10. This links halving and subtracting half.\n\nExample: $12 - 4 = 8$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "11": {
+      "hint": "Double means multiply by 2.",
+      "help": "Doubling 6 means $6 \\times 2$.\n\nExample: double 9 is 18 because $9 \\times 2 = 18$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "12": {
+      "hint": "How many 2s in 20?",
+      "help": "Division asks how many equal groups: $20 \\div 2$.\n\nExample: $16 \\div 2 = 8$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "13": {
+      "hint": "Line up units, tens, hundreds — add column by column, carrying if needed.",
+      "help": "Column addition: add ones, then tens, then hundreds. Carry when a column totals 10 or more.\n\nExample: $234 + 156$ — add ones first, carry if needed."
+    },
+    "14": {
+      "hint": "Use column subtraction; borrow from the next column when the top digit is smaller.",
+      "help": "Subtract ones, then tens, then hundreds. **Exchange** (borrow) when the top digit is too small.\n\nExample: $503 - 287$ needs borrowing in the ones column."
+    },
+    "15": {
+      "hint": "Use short multiplication: $47 \\times 6$.",
+      "help": "Multiply 6 by 7 ones, then 6 by 4 tens. Add any carries.\n\nExample: $23 \\times 4 = 92$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "16": {
+      "hint": "How many 4s fit in 156? Use bus stop division.",
+      "help": "$156 \\div 4$: see how many times 4 goes into each part of 156.\n\nExample: $84 \\div 4 = 21$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "17": {
+      "hint": "Where is the 7 in 4732 — thousands, hundreds, tens or units?",
+      "help": "The **7** is in the **hundreds** place, so its value is 700.\n\nExample: in 9156 the 1 is worth 1000.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "18": {
+      "hint": "Multiplying by 10 moves the decimal point one place right.",
+      "help": "$3.6 \\times 10 = 36$. Each digit becomes ten times bigger.\n\nExample: $2.5 \\times 10 = 25$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "19": {
+      "hint": "Dividing by 100 moves digits two places — the number gets 100 times smaller.",
+      "help": "$450 \\div 100 = 4.5$. Think of shifting the decimal point left two places.\n\nExample: $3200 \\div 100 = 32$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "20": {
+      "hint": "Each digit moves one place left in value when you multiply by 10.",
+      "help": "$258 \\times 10 = 2580$. A zero may appear in the units column.\n\nExample: $41 \\times 10 = 410$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "21": {
+      "hint": "Start at −5 on a number line and move 8 steps right.",
+      "help": "$-5 + 8$: adding a positive moves right on the number line.\n\nExample: $-3 + 5 = 2$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "22": {
+      "hint": "Subtracting (−4) means adding 4.",
+      "help": "$12 - (-4) = 12 + 4$. Minus a minus becomes plus.\n\nExample: $5 - (-2) = 7$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "23": {
+      "hint": "Use grid or column method for $34 \\times 27$.",
+      "help": "Split into $34 \\times 20$ plus $34 \\times 7$, or use standard long multiplication.\n\nExample: $12 \\times 15 = 180$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "24": {
+      "hint": "How many 8s in 728?",
+      "help": "Use bus stop division: $728 \\div 8$.\n\nExample: $576 \\div 8 = 72$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "25": {
+      "hint": "$0.45 \\times 100$ moves the point two places right.",
+      "help": "Multiplying by 100 makes the number 100 times bigger: $0.45 \\times 100 = 45$.\n\nExample: $0.08 \\times 100 = 8$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "26": {
+      "hint": "$-6 - 9$ means start at −6 and go 9 more steps left.",
+      "help": "Subtracting 9 from −6 gives a more negative answer: $-6 - 9 = -15$.\n\nExample: $-2 - 5 = -7$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "27": {
+      "hint": "What happens to the digit 3 in the units column when you multiply by 10?",
+      "help": "Each digit shifts to the **next place left** (units→tens→hundreds). Empty places fill with zeros.\n\nExplain using one digit moving one column."
+    },
+    "28": {
+      "hint": "Try $5 - (-3)$ — is the answer bigger than 5?",
+      "help": "Subtracting a negative **adds**: $5 - (-3) = 8$, which is bigger than 5. The statement is **always** true.\n\nGive your own numeric example."
+    },
+    "29": {
+      "hint": "Where does the decimal point go when 4.5 is multiplied by 10?",
+      "help": "$4.5 \\times 10 = 45$. **Sloan** is correct: digits shift left in place value, not “4.50” as a wrong answer.\n\nExplain using the tens column."
+    },
+    "30": {
+      "hint": "$3.2 \\times 100$ should move the point — not stay as 3.200 wrongly.",
+      "help": "The mistake is padding without multiplying. Correct answer **320**.\n\nExample: $1.5 \\times 100 = 150$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "31": {
+      "hint": "Dividing a positive by 10 makes it one tenth as big — always?",
+      "help": "For any positive number, dividing by 10 makes it ten times smaller: **always** true.\n\nExample: $8 \\div 10 = 0.8$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "32": {
+      "hint": "Balance starts at £45; spending £60 means subtract 60.",
+      "help": "$45 - 60$ goes below zero: overdraft balance.\n\nExample: £10 balance, spend £15 → −£5.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "33": {
+      "hint": "Divide the total cost £2376 equally by 18 pupils.",
+      "help": "$2376 \\div 18$ using long division — each pupil pays the same share.\n\nExample: £120 shared by 8 is £15 each.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "34": {
+      "hint": "Find flour for 4 people, then scale up — how many times is 24 compared with 4?",
+      "help": "$24 \\div 4 = 6$ batches. Multiply 250 g by 6 for the larger recipe.\n\nExample: 100 g for 2 people → 500 g for 10 people.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "35": {
+      "hint": "Difference between temperatures — subtract and watch negative signs.",
+      "help": "London 3 °C and Moscow −18 °C: difference is $3 - (-18) = 21$ °C (or think distance on a line).\n\nExample: 5 °C and −2 °C differ by 7 °C."
+    },
+    "36": {
+      "hint": "Multiply number of boxes by pencils in each box.",
+      "help": "$48 \\times 144$ — use written multiplication.\n\nExample: 12 boxes of 30 pencils = 360 pencils.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "37": {
+      "hint": "Long division: 3072 ÷ 24 — show your bus stop or chunking.",
+      "help": "Divide step by step: how many 24s in 307, then handle the remainder.\n\nRecord each step in your working.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "38": {
+      "hint": "Start −250 m, add 180 (rise), then subtract 95 (dive).",
+      "help": "Combine: $-250 + 180 - 95$. Rising adds, diving subtracts.\n\nExample: −100 m, rise 40, dive 20 → −80 m.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "39": {
+      "hint": "Build the number from place values, then multiply by 100.",
+      "help": "6 thousands, 0 hundreds, 4 tens, 9 units → 6049. Then $6049 \\times 100$ shifts digits.\n\nExample: 3021 × 10 = 30210.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "40": {
+      "hint": "Multiply 5.6 by 34 — treat as $56 \\times 34$ then fix the decimal.",
+      "help": "One decimal place in 5.6, so one decimal place in the final product.\n\nExample: $2.3 \\times 4 = 9.2$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "41": {
+      "hint": "Biscuits per box × number of good boxes (not damaged ones).",
+      "help": "Find $2880 \\div 24$ per box, then multiply by $24 - 3$ sellable boxes.\n\nExample: 100 per box, 1 damaged box of 5 → $20 \\times 4$."
+    },
+    "42": {
+      "hint": "Multiply two negatives — what sign is the result?",
+      "help": "Negative × negative = **positive**. That is **always** true for two negative factors.\n\nExample: $(-4)(-5)=20$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "43": {
+      "hint": "Add the ones, then the tens if needed.",
+      "help": "**Addition** combines amounts. Column addition helps with carrying.\n\nExample: 24 + 15 = 39.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "44": {
+      "hint": "Subtract 6 from 21.",
+      "help": "**Subtraction** finds the difference. Borrow if a digit would go negative.\n\nExample: 52 − 18 = 34.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "45": {
+      "hint": "Three packs — multiply 24 by 3.",
+      "help": "Each pack has the same count, so use **multiplication**: $3 × 24$. You can split $24 × 3$ as $20 × 3 + 4 × 3$ if that helps.\n\nExample: 5 bags of 12 apples → $5 × 12 = 60$ apples."
+    },
+    "46": {
+      "hint": "1000 less means subtract 1000 from 8050.",
+      "help": "**Subtract 1000** from a number: only the thousands digit drops by one when no borrowing is needed.\n\nExample: 1000 less than 9200 is $9200 − 1000 = 8200$."
+    },
+    "47": {
+      "hint": "Add the three amounts — look for pairs that make 100 first.",
+      "help": "When adding several numbers, **group friendly pairs**: $125 + 75 = 200$, then add 50.\n\nExample: $40 + 60 + 25 = 125$ by pairing 40 and 60."
+    },
+    "48": {
+      "hint": "Muffins per tray × number of trays.",
+      "help": "Equal groups on each tray → multiply $6 × 15$. Use $6 × 10 + 6 × 5$ if you partition.\n\nExample: 8 chairs per row, 12 rows → $8 × 12$ seats."
+    },
+    "49": {
+      "hint": "Find the 8 in 28 451 — which column is it in?",
+      "help": "Read place value from the **right**: units, tens, hundreds, thousands… The 8 here is in the **thousands** column, so its value is 8000.\n\nExample: in 51 203 the 1 is worth 1000."
+    },
+    "50": {
+      "hint": "×100 moves the decimal point two places right.",
+      "help": "$0.7 × 100 = 70$. Multiplying by 100 makes the number one hundred times bigger.\n\nExample: $0.09 × 100 = 9$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "51": {
+      "hint": "Both numbers are negative — add their sizes, keep the sign.",
+      "help": "Adding two negatives: move further left on the number line. $(−4) + (−9) = −13$.\n\nExample: $(−2) + (−5) = −7$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "52": {
+      "hint": "Half means divide by 2.",
+      "help": "**Half of 350** is $350 ÷ 2 = 175$. You can halve 300 and 50 separately.\n\nExample: half of 80 is 40.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "53": {
+      "hint": "How many 30s in 900?",
+      "help": "Division: $900 ÷ 30$. Cancel a zero from each → $90 ÷ 3 = 30$.\n\nExample: $600 ÷ 20 = 30$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "54": {
+      "hint": "100 more than 468 — add 100 to the hundreds digit.",
+      "help": "$468 + 100 = 568$. Adding 100 increases the hundreds digit by one when there is no carry beyond thousands.\n\nExample: 100 more than 235 is 335."
+    },
+    "55": {
+      "hint": "Use $18 × 5$ or $18 × 10 ÷ 2$.",
+      "help": "Multiplying by 5 is the same as **half of ×10**: $18 × 10 = 180$, half is 90.\n\nExample: $24 × 5 = 120$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "56": {
+      "hint": "£84 shared by 7 — divide 84 by 7.",
+      "help": "Equal sharing: $84 ÷ 7 = 12$ pounds each. Check: $7 × 12 = 84$.\n\nExample: £45 ÷ 9 = £5 each.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "57": {
+      "hint": "Multiplying by 10 moves digits one place left in value.",
+      "help": "$3.25 × 10 = 32.5$. The decimal point shifts one place to the right.\n\nExample: $0.8 × 10 = 8$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "58": {
+      "hint": "Column subtraction — borrow if needed.",
+      "help": "Line up thousands, hundreds, tens, units. Subtract column by column; **exchange** when the top digit is too small.\n\nExample: $2500 − 1634$ needs borrowing in the units and tens columns."
+    },
+    "59": {
+      "hint": "How many 25p coins in £5 (500p)?",
+      "help": "Convert pounds to pence: £5 = 500p. Then $500 ÷ 25 = 20$ coins.\n\nExample: how many 50p in £3? → 300 ÷ 50 = 6.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "60": {
+      "hint": "Start at −12, move 19 steps right on the number line.",
+      "help": "$−12 + 19 = 7$. Cross zero when the positive part is larger.\n\nExample: $−5 + 8 = 3$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "61": {
+      "hint": "Total length ÷ length of each piece.",
+      "help": "$480 ÷ 40$: cancel a zero → $48 ÷ 4 = 12$ pieces.\n\nExample: 200 cm into 25 cm pieces → 8 pieces.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "62": {
+      "hint": "Double means multiply by 2.",
+      "help": "$145 × 2 = 290$. Double the hundreds, then the tens and units, or use column doubling.\n\nExample: double 36 is 72.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "63": {
+      "hint": "How many 8s in 560?",
+      "help": "$560 ÷ 8 = 70$. Think $56 ÷ 8 = 7$ and restore the zero.\n\nExample: $720 ÷ 8 = 90$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "64": {
+      "hint": "9 hundreds and 6 tens make 960; then add 40.",
+      "help": "Build the number: **900 + 60 = 960**. Then $960 + 40 = 1000$. Adding 40 completes another hundred.\n\nExample: 3 tens + 2 hundreds = 230."
+    },
+    "65": {
+      "hint": "Column add 3847 and 2956 — carry when a column reaches 10 or more.",
+      "help": "Line up **units, tens, hundreds, thousands**. Add each column; carry to the next column when needed. $3847 + 2956 = 6803$.\n\nExample: $456 + 278$ — add ones, carry to tens, then hundreds."
+    },
+    "66": {
+      "hint": "Column subtract 2789 from 6005 — exchange from the next column.",
+      "help": "When a top digit is smaller than the bottom digit, **borrow** one from the next column (exchange 1 ten for 10 ones, etc.).\n\nExample: $6005 − 2789$ needs borrowing in units and tens."
+    },
+    "67": {
+      "hint": "Long multiplication: $56 × 34$ or split into $56 × 30 + 56 × 4$.",
+      "help": "Multiply by the units digit, then by the tens digit (shift one place), then add the partial products.\n\nExample: $23 × 45 = 23 × 40 + 23 × 5$."
+    },
+    "68": {
+      "hint": "Bus stop division: how many 12s in 936?",
+      "help": "See how many times 12 fits into 93, bring down the next digit, repeat. $936 ÷ 12 = 78$.\n\nExample: $144 ÷ 12 = 12$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "69": {
+      "hint": "Locate the 2 in 52 308 — count columns from the units.",
+      "help": "The **2** is in the **thousands** place (5 is ten-thousands), so its value is **2000**.\n\nExample: in 41 205 the 1 is worth 1000."
+    },
+    "70": {
+      "hint": "×100 on 4.08 — shift the decimal two places right.",
+      "help": "$4.08 × 100 = 408$. Each digit becomes one hundred times bigger in value.\n\nExample: $1.25 × 100 = 125$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "71": {
+      "hint": "÷100 on 7500 — remove two zeros or shift decimal left.",
+      "help": "$7500 ÷ 100 = 75$. Dividing by 100 makes the number one hundred times smaller.\n\nExample: $320 ÷ 100 = 3.2$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "72": {
+      "hint": "Multiplying by 100 appends two zeros when there is no decimal.",
+      "help": "$38 × 100 = 3800$. Think: each digit moves two places left in the place-value grid.\n\nExample: $19 × 100 = 1900$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "73": {
+      "hint": "From −15, move 6 steps right — you stay negative.",
+      "help": "$−15 + 6 = −9$. On a number line, adding a positive moves right but may not reach zero.\n\nExample: $−8 + 3 = −5$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "74": {
+      "hint": "Subtracting −11 means add 11.",
+      "help": "$4 − (−11) = 4 + 11 = 15$. **Minus a minus becomes plus.**\n\nExample: $7 − (−2) = 9$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "75": {
+      "hint": "$125 × 16$ — try $125 × 8 × 2$ or column method.",
+      "help": "$125 × 8 = 1000$, then double → **2000**. Spotting friendly factors speeds mental work.\n\nExample: $25 × 16 = 25 × 4 × 4 = 400$."
+    },
+    "76": {
+      "hint": "Divide 1155 by 11 — use short division.",
+      "help": "How many 11s in 115? Then bring down the 5. $1155 ÷ 11 = 105$.\n\nExample: $121 ÷ 11 = 11$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "77": {
+      "hint": "×1000 moves the decimal three places right on 0.06.",
+      "help": "$0.06 × 1000 = 60$. Each jump of ×10 moves the point one place.\n\nExample: $0.007 × 1000 = 7$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "78": {
+      "hint": "Start at −20, go 13 more steps left.",
+      "help": "$−20 − 13 = −33$. Subtracting a positive moves left on the number line.\n\nExample: $−5 − 4 = −9$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "79": {
+      "hint": "10 times as large as 0.45 — multiply by 10.",
+      "help": "$0.45 × 10 = 4.5$. **Ten times as large** means multiply by 10, not add 10.\n\nExample: 10 times 0.8 is 8.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "80": {
+      "hint": "Short multiplication: $309 × 7$.",
+      "help": "Multiply 7 by 9 ones, then 7 by 0 tens, then 7 by 3 hundreds; add carries.\n\nExample: $204 × 3 = 612$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "81": {
+      "hint": "Long division: 2040 ÷ 15.",
+      "help": "Estimate: 15 × 100 = 1500. Continue bus stop until remainder zero → **136**.\n\nExample: $840 ÷ 15 = 56$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "82": {
+      "hint": "55 miles × 14 days — use $55 × 10 + 55 × 4$.",
+      "help": "Partition: $55 × 14 = 550 + 220 = 770$ miles total.\n\nExample: 30 km/day for 12 days → $30 × 12$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "83": {
+      "hint": "100 − (−25) is the same as 100 + 25.",
+      "help": "Subtracting a negative **adds**: $100 − (−25) = 125$.\n\nExample: $50 − (−10) = 60$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "84": {
+      "hint": "The 5 in 156 020 — which column from the units?",
+      "help": "Count from the right: the **5** is in the **ten-thousands** place → value **50 000**.\n\nExample: in 302 010 the 3 is worth 300 000."
+    },
+    "85": {
+      "hint": "×1000 on 3.4 — shift decimal three places right.",
+      "help": "$3.4 × 1000 = 3400$. Three jumps of ×10.\n\nExample: $0.25 × 1000 = 250$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "86": {
+      "hint": "Negative × positive — signs are different, so answer is negative.",
+      "help": "$(−8) × 6 = −48$. One negative factor makes a negative product.\n\nExample: $(−5) × 9 = −45$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "87": {
+      "hint": "$7.5 × 8$ — think $75 × 8$ then fix the decimal.",
+      "help": "$75 × 8 = 600$, one decimal place → **60**. Or $7 × 8 + 0.5 × 8$.\n\nExample: $3.2 × 5 = 16$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "88": {
+      "hint": "Product means multiply 25 and 48.",
+      "help": "$25 × 48 = 25 × 50 − 25 × 2 = 1200$. Adjusting from a nearby easy product helps.\n\nExample: $99 × 6 = 100 × 6 − 6$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "89": {
+      "hint": "1440 ÷ 18 — cancel or use bus stop.",
+      "help": "Divide both by 2: $720 ÷ 9 = 80$. Always check: $18 × 80 = 1440$.\n\nExample: $360 ÷ 18 = 20$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "90": {
+      "hint": "10 times smaller means divide by 10.",
+      "help": "$630 ÷ 10 = 63$. **Smaller** by a factor of 10 is division, not subtraction of 10.\n\nExample: 10 times smaller than 450 is 45."
+    },
+    "91": {
+      "hint": "−3 − (−10) — subtracting a negative adds.",
+      "help": "$−3 − (−10) = −3 + 10 = 7$. Two minuses become a plus.\n\nExample: $−1 − (−6) = 5$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "92": {
+      "hint": "36 shelves × 28 boxes — use long multiplication.",
+      "help": "$36 × 28 = 36 × 20 + 36 × 8 = 720 + 288 = 1008$ boxes.\n\nExample: 15 rows of 24 seats → $15 × 24$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "93": {
+      "hint": "5024 ÷ 32 — estimate with 32 × 150.",
+      "help": "Long division: $32 × 157 = 5024$. Check by multiplying back.\n\nExample: use an estimate like $30 × 160 = 4800$ to guide your start."
+    },
+    "94": {
+      "hint": "1.25 × 100 — shift point two places.",
+      "help": "$1.25 × 100 = 125$. Hundredths become units when ×100.\n\nExample: $2.50 × 100 = 250$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "95": {
+      "hint": "Two negative factors — product is positive.",
+      "help": "$(−7) × (−9) = 63$. Same signs → positive product.\n\nExample: $(−4) × (−6) = 24$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "96": {
+      "hint": "$2.5 × 2.5$ — multiply 25 × 25 and adjust decimals.",
+      "help": "$25 × 25 = 625$; two decimal places → **6.25**.\n\nExample: $1.2 × 1.2 = 1.44$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "97": {
+      "hint": "0.008 × 1000 — move decimal three places right.",
+      "help": "$0.008 × 1000 = 8$. Thousandths become units.\n\nExample: $0.004 × 1000 = 4$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "98": {
+      "hint": "8888 ÷ 8 — split digits or use bus stop.",
+      "help": "Each digit divided by 8 works here: $8888 ÷ 8 = 1111$.\n\nExample: $640 ÷ 8 = 80$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "99": {
+      "hint": "1250 − (−350) adds 350 to 1250.",
+      "help": "$1250 − (−350) = 1250 + 350 = 1600$. Subtracting a negative increases the result.\n\nExample: $400 − (−50) = 450$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "100": {
+      "hint": "×100 repeats the number 100 times; +100 adds once.",
+      "help": "$340 × 100 = 34\\,000$ but $340 + 100 = 440$. Multiplication scales the whole number; addition only adds one amount.\n\nSay clearly that ×100 is not the same as +100."
+    },
+    "101": {
+      "hint": "Try a number like 80 ÷ 10 and 80 × 0.1.",
+      "help": "Dividing by 10 and multiplying by 0.1 give the **same result** for positive numbers — **always**. Example: $50 ÷ 10 = 5$ and $50 × 0.1 = 5$."
+    },
+    "102": {
+      "hint": "10³ means 10 × 10 × 10, not 100.",
+      "help": "Priya treated the power as two zeros only. $5 × 10^3 = 5 × 1000 = 5000$. Powers count how many times to multiply the base.\n\nExample: $3 × 10^2 = 300$."
+    },
+    "103": {
+      "hint": "Does order matter for 7 × 4 and 4 × 7?",
+      "help": "Whole-number multiplication is **commutative**: $A × B = B × A$. **Always** true for whole numbers.\n\nExample: $6 × 9 = 9 × 6 = 54$."
+    },
+    "104": {
+      "hint": "450 ÷ 10 is ten times smaller than 450.",
+      "help": "Sloan confused a **trailing zero in decimals** with place value. $450 ÷ 10 = 45$, not 450. The answer is one tenth of the start.\n\nExplain that ÷10 moves digits, it does not keep the same size."
+    },
+    "105": {
+      "hint": "Split 48 × 25 using 48 × 100 ÷ 4.",
+      "help": "Because $25 = 100 ÷ 4$, you can compute $48 × 25 = 48 × 100 ÷ 4 = 4800 ÷ 4 = 1200$. Show a split that avoids long multiplication.\n\nAny correct method reaching 1200 is fine."
+    },
+    "106": {
+      "hint": "Can you share 12 items among 0 people?",
+      "help": "Division by **zero is not defined** — **never** gives a sensible zero answer. You cannot split into zero equal groups.\n\nExample: $5 ÷ 0$ is undefined, not 0."
+    },
+    "107": {
+      "hint": "Track the 5 in 0.5 as it moves columns.",
+      "help": "×10 moves the digit one place left in value (0.5 → 5). ×100 moves **two** places (0.5 → 50). Use the place-value grid to show two jumps for ×100.\n\nLink each ×10 to one column shift."
+    },
+    "108": {
+      "hint": "Try 6 × 0.5 — is the answer less than 6?",
+      "help": "For a **positive** number, multiplying by a number between 0 and 1 makes a **smaller** product — **always**. Example: $8 × 0.25 = 2$, which is less than 8."
+    },
+    "109": {
+      "hint": "1000 − 999.9 should leave one tenth.",
+      "help": "Archer likely lined up columns wrong. $1000 − 999.9 = 0.1$ (one tenth), not 0.01. Align **decimal points** when subtracting decimals.\n\nName the error as treating hundredths as tenths."
+    },
+    "110": {
+      "hint": "If both pans get +3 g, do they still match?",
+      "help": "Adding the **same amount** to both sides keeps a balance equal — **always**. This is the idea behind solving equations on a balance.\n\nExample: 5 = 5, add 2 to both → 7 = 7."
+    },
+    "111": {
+      "hint": "Different signs vs same signs for ×.",
+      "help": "Opposite signs → negative product: $(−3) × 4 = −12$. Same signs → positive: $(−3) × (−4) = 12$. State that rule in one sentence.\n\nExample: $(−2) × 5 = −10$ but $(−2) × (−5) = 10$."
+    },
+    "112": {
+      "hint": "What is 0 ÷ 7? What about 0 ÷ 0?",
+      "help": "$0 ÷ 7 = 0$ for any non-zero 7 — **always**. Zero shared into 7 equal groups gives 0 each. (0 ÷ 0 is still undefined.)\n\nExample: $0 ÷ 12 = 0$."
+    },
+    "113": {
+      "hint": "×10 should make 6.02 bigger, not smaller.",
+      "help": "The pupil moved the decimal the **wrong way**. $6.02 × 10 = 60.2$. Multiplying by 10 shifts digits left in value, point moves right.\n\nCorrect answer **60.2**."
+    },
+    "114": {
+      "hint": "Try 18 × 2 ÷ 2.",
+      "help": "Doubling then halving returns the start — **always** (when halving is exact). Example: $18 × 2 = 36$, $36 ÷ 2 = 18$.\n\nWorks for any number you can halve cleanly."
+    },
+    "115": {
+      "hint": "÷100 makes each digit worth 1/100 of before.",
+      "help": "Dividing by 100 makes the number **one hundred times smaller**: digits shift **two** places right in the decimal view (or two places down in value).\n\nExample: $800 ÷ 100 = 8$."
+    },
+    "116": {
+      "hint": "Combine the negatives first — e.g. (−2) + (−3).",
+      "help": "$(−a) + (−b) = −(a + b)$ — **always**. Example: $(−2) + (−3) = −5$ and $−(2 + 3) = −5$.\n\nBoth routes match.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "117": {
+      "hint": "Compare 15 × 99 with 15 × 100 − 15.",
+      "help": "Kim’s method is correct: $15 × 99 = 15 × 100 − 15 = 1500 − 15 = 1485$. Using an easy nearby product then adjusting is efficient.\n\nShow 1485."
+    },
+    "118": {
+      "hint": "What is the value of 0 in 305 or 5020?",
+      "help": "Zero marks an **empty column** — its value is always **0** wherever it sits. It holds place for other digits.\n\nExample: in 5020 the 0 in the hundreds place has value 0."
+    },
+    "119": {
+      "hint": "×10 on 2.40 — trailing zero does not block shifting.",
+      "help": "$2.40 × 10 = 24$. The extra 0 in 2.40 is just notation; multiplying shifts to **24**, not 2.400 as a wrong unchanged size.\n\nExplain shift to the tens column."
+    },
+    "120": {
+      "hint": "10 + 10 + 10 vs one jump of 30.",
+      "help": "Subtracting 10 three times totals **−30**, same as subtracting 30 once — **always**. Repeated equal steps add up.\n\nExample: $100 − 10 − 10 − 10 = 100 − 30$."
+    },
+    "121": {
+      "hint": "After thousands come even bigger columns.",
+      "help": "To the left of **thousands** come **ten thousands**, then **hundred thousands**. Each step is ×10 from the previous column.\n\nExample: in 350 000 the 5 is in the ten-thousands place."
+    },
+    "122": {
+      "hint": "Try a ÷ 1 for a few numbers.",
+      "help": "Dividing by 1 leaves any number unchanged — **always**: $a ÷ 1 = a$. Example: $17 ÷ 1 = 17$.\n\n(Exclude division by zero discussions here.)"
+    },
+    "123": {
+      "hint": "99 × 41 is close to 100 × 41.",
+      "help": "$99 × 41$ is just under $100 × 41 = 4100$, so nearer **4000** than 400. Actual product 4059.\n\nUse rounding to 100 × 41 to justify."
+    },
+    "124": {
+      "hint": "Odd + odd — try 3 + 5 and 7 + 9.",
+      "help": "Two odd numbers always sum to an **even** — **always**. Example: $3 + 5 = 8$, $7 + 9 = 16$.\n\nOdd means not divisible by 2; even pairs of ones make tens."
+    },
+    "125": {
+      "hint": "Where are the brackets in −5²?",
+      "help": "$−5^2$ means $−(5^2) = −25$. $(−5)^2$ means $(−5) × (−5) = 25$. Brackets decide whether the negative is squared.\n\nState both values clearly."
+    },
+    "126": {
+      "hint": "Pick a number — ×10 then ÷10.",
+      "help": "×10 then ÷10 returns the original — **always** (for non-zero steps). Example: $6.2 × 10 = 62$, $62 ÷ 10 = 6.2$.\n\nInverse operations undo each other."
+    },
+    "127": {
+      "hint": "6997 is close to 7000 — borrow carefully.",
+      "help": "Correct subtraction uses **borrowing**: $7030 − 6997 = 33$. Treating 6997 as much smaller without borrowing can produce 1033 by mistake.\n\nMention exchange between columns."
+    },
+    "128": {
+      "hint": "If x × 5 = 0, what must x be?",
+      "help": "The only number that gives zero when multiplied by 5 is **0** — **always**. So $x × 5 = 0$ forces $x = 0$.\n\nExample: $0 × 5 = 0$."
+    },
+    "129": {
+      "hint": "Work backwards — divide 47.6 by 100.",
+      "help": "If ×100 gives 47.6, the start was $47.6 ÷ 100 = 0.476$. Undo the shift by dividing by 100.\n\nExample: ×100 turns 0.476 into 47.6."
+    },
+    "130": {
+      "hint": "£3240 ÷ 27 runners — equal shares.",
+      "help": "Divide the total equally: $3240 ÷ 27 = 120$ pounds per runner. Use long division or partition 27 as $30 − 3$ to check.\n\nExample: £540 ÷ 18 = £30 each."
+    },
+    "131": {
+      "hint": "Find litres in, then subtract the leak.",
+      "help": "Filled: $450 × 18 = 8100$ litres. Leak removes 920 → $8100 − 920 = 7180$ litres left.\n\nDo multiplication before subtraction."
+    },
+    "132": {
+      "hint": "32 × £14.50, then subtract from £500.",
+      "help": "Ticket total: $32 × 14.50 = 464$. Change: $500 − 464 = 36$ pounds.\n\nLine up decimals when multiplying money.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "133": {
+      "hint": "How many full boxes? Only sell those.",
+      "help": "$156 ÷ 12 = 13$ full boxes. Income: $13 × 4.50 = 58.50$ pounds. Leftover eggs do not form a full box.\n\nDivide first, then multiply price by full boxes."
+    },
+    "134": {
+      "hint": "−4, then +11, then −6 — track on a number line.",
+      "help": "$−4 + 11 = 7$, then $7 − 6 = 1$ °C at midnight. Combine step by step.\n\nExample: −2 + 5 − 3 = 0.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "135": {
+      "hint": "2.5 ml × 240 pages.",
+      "help": "$2.5 × 240 = 600$ ml total ink. Think $2.5 × 24 × 10$ if helpful.\n\nExample: 3 ml × 50 pages = 150 ml.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "136": {
+      "hint": "530 ÷ 48 — round up to whole buses.",
+      "help": "$530 ÷ 48 = 11$ remainder 2, so **12** buses needed to seat everyone. You cannot use part of a bus.\n\nUse ceiling: need enough full buses."
+    },
+    "137": {
+      "hint": "Weekly save × 24, then subtract £180.",
+      "help": "Saved: $12.50 × 24 = 300$. Left: $300 − 180 = 120$ pounds.\n\nMultiply before subtracting the spend.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "138": {
+      "hint": "Convert 7.2 m to cm, then ÷ 8.",
+      "help": "$7.2$ m = 720 cm. Each piece: $720 ÷ 8 = 90$ cm.\n\nConvert to one unit before dividing.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "139": {
+      "hint": "1840 ÷ 65 — quotient and remainder.",
+      "help": "$1840 ÷ 65 = 28$ full crates (1820 items) with **20** left over. State both full crates and remainder.\n\nCheck: $28 × 65 = 1820$."
+    },
+    "140": {
+      "hint": "£18 fixed plus 150 × 12p texts.",
+      "help": "Texts: $150 × 0.12 = 18$ pounds. Bill: $18 + 18 = 36$ pounds.\n\nConvert 12p to £0.12 before multiplying.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "141": {
+      "hint": "Add rises, subtract drops from floor 0.",
+      "help": "$0 + 18 − 25 + 9 = 2$. Finish on **floor 2**.\n\nTrack signed moves: up positive, down negative.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "142": {
+      "hint": "Flour per cookie × 40 cookies.",
+      "help": "Per cookie: $375 ÷ 15 = 25$ g. For 40: $25 × 40 = 1000$ g.\n\nScale up from the unit rate.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "143": {
+      "hint": "Let the smaller be x; the other is 3x.",
+      "help": "$x + 3x = 250$ → $4x = 250$ → smaller number **62.5**. The larger is 187.5.\n\nUse algebra or guess-and-check with triples."
+    },
+    "144": {
+      "hint": "Discount ÷ original × 100.",
+      "help": "$24 ÷ 160 = 0.15$ → **15%** discount. Percent means out of 100.\n\nExample: £10 off £40 is 25%.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "145": {
+      "hint": "35% used — 65% remains of 5000.",
+      "help": "Remaining: $5000 × 0.65 = 3250$ litres. Or subtract $5000 × 0.35$ from 5000.\n\nPick multiply-remainder or subtract-used.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "146": {
+      "hint": "Two products: adults and children, then add.",
+      "help": "$127 × 6 = 762$ and $84 × 4 = 336$. Total **1098** pounds.\n\nAdd partial incomes.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "147": {
+      "hint": "Area = length × width for a rectangle.",
+      "help": "$125 × 84 = 10\\,500$ m². Use long multiplication.\n\nExample: 10 m by 6 m → 60 m².\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "148": {
+      "hint": "Convert 3.5 km to metres first.",
+      "help": "$3.5$ km = 3500 m. Total: $3500 + 2750 = 6250$ m.\n\nAlways use the same unit before adding.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "149": {
+      "hint": "Start −£45, +£120, −£83.",
+      "help": "$−45 + 120 = 75$, then $75 − 83 = −8$ pounds balance.\n\nTreat deposits as + and withdrawals as −.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "150": {
+      "hint": "Rate per hour × 11 hours.",
+      "help": "Rate: $920 ÷ 4 = 230$ parts/hour. In 11 h: $230 × 11 = 2530$ parts.\n\nFind unit rate, then scale.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "151": {
+      "hint": "Long division 8745 ÷ 35 — show bus stop steps.",
+      "help": "Work systematically: how many 35s in 87, bring digits down. Answer **249**. Show each subtraction in the bus stop.\n\nChecking: $249 × 35 = 8745$."
+    },
+    "152": {
+      "hint": "36 × 24 with two decimal places in the answer.",
+      "help": "Compute $36 × 24 = 864$; two decimal places → **8.64**. Count decimal places in both factors.\n\nExample: $1.2 × 0.3 = 0.36$."
+    },
+    "153": {
+      "hint": "Work left to right: multiply, then divide.",
+      "help": "$(−15) × 12 = −180$. Then $−180 ÷ (−9) = 20$. Division by negative flips sign.\n\nExample: $(−6) × 4 ÷ (−3) = 8$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "154": {
+      "hint": "Evaluate powers first: 2⁴ and 5².",
+      "help": "$2^4 = 16$ and $5^2 = 25$. Product **400**. Powers before multiplication.\n\nExample: $3^2 × 2^3 = 9 × 8 = 72$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "155": {
+      "hint": "Use 1000 × 37 − 37.",
+      "help": "$999 × 37 = (1000 − 1) × 37 = 37\\,000 − 37 = 36\\,963$. Compensation avoids long multiplication.\n\nShow the subtraction step."
+    },
+    "156": {
+      "hint": "Combine −320 + 145 − 210 + 85.",
+      "help": "Stepwise: $−320 + 145 = −175$; $−175 − 210 = −385$; $−385 + 85 = −300$ m.\n\nRise adds, dive subtracts.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "157": {
+      "hint": "125 × 32 style — 12.5 × 3.2.",
+      "help": "$12.5 × 3.2 = 40$ (think $125 × 32 = 4000$ with three decimal places). Friendly factors help.\n\nExample: $2.5 × 4 = 10$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "158": {
+      "hint": "4096 ÷ 16 — halve repeatedly or bus stop.",
+      "help": "$4096 ÷ 16 = 256$. Notice $16 = 2^4$; halving four times also works.\n\nExample: $800 ÷ 16 = 50$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "159": {
+      "hint": "0.375 is three eighths — use 240 ÷ 8 × 3.",
+      "help": "$0.375 × 240 = 90$. Or $240 ÷ 8 = 30$, $30 × 3 = 90$.\n\nLink fraction and decimal methods.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "160": {
+      "hint": "Evaluate (−2)⁴ and (−2)³ separately.",
+      "help": "$(−2)^4 = 16$ (even power positive). $(−2)^3 = −8$. $16 − (−8) = 24$.\n\nWatch brackets on negative bases.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "161": {
+      "hint": "7.05 × 60 — multiply then place decimal.",
+      "help": "$705 × 60 = 42\\,300$; adjust two decimal places → **423**. Or $7 × 60 + 0.05 × 60$.\n\nPartition decimals if easier.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "162": {
+      "hint": "1001 × 21 — split 1001 as 1000 + 1.",
+      "help": "$1001 × 21 = 1000 × 21 + 1 × 21 = 21\\,000 + 21 = 21\\,021$. Distributive law speeds this.\n\nExample: $99 × 6 = 100 × 6 − 6$."
+    },
+    "163": {
+      "hint": "864 ÷ 0.8 — multiply both by 10 to clear decimal.",
+      "help": "$864 ÷ 0.8 = 8640 ÷ 8 = 1080$. Scaling numerator and denominator removes the decimal divisor.\n\nExample: $6 ÷ 0.2 = 30$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "164": {
+      "hint": "15.6 ÷ 0.12 — scale to whole-number division.",
+      "help": "Multiply both by 100: $1560 ÷ 12 = 130$. Same technique as clearing decimals in division.\n\nCheck: $130 × 0.12 = 15.6$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "165": {
+      "hint": "3025 ÷ 55 — try 55 × 50 as an estimate.",
+      "help": "$3025 ÷ 55 = 55$. Notice $55 × 55 = 3025$ from square numbers.\n\nUse known squares when they fit.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "166": {
+      "hint": "4.8 × 10⁴ — shift the 4.8 four places right.",
+      "help": "$4.8 × 10^4 = 48\\,000$. Each ×10 adds one zero (or moves the decimal one place).\n\nExample: $3.2 × 10^3 = 3200$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "167": {
+      "hint": "Square −18, then add (−18) ÷ 6.",
+      "help": "$(−18)^2 = 324$. $(−18) ÷ 6 = −3$. Sum **321**. Even powers of negatives are positive.\n\nDo power before division.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "168": {
+      "hint": "Try halving 88 and doubling 125.",
+      "help": "$125 × 88 = 125 × 44 × 2$ or $125 × 8 × 11 = 11\\,000$. **Doubling and halving** keeps the product.\n\nExample: $25 × 16 = 50 × 8$."
+    },
+    "169": {
+      "hint": "0.004 × 2500 — shift decimals to simplify.",
+      "help": "$0.004 × 2500 = 4 × 2.5 = 10$. Move decimals so one factor becomes a whole number.\n\nExample: $0.05 × 60 = 3$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "170": {
+      "hint": "Do division before subtraction — BIDMAS.",
+      "help": "$9876 ÷ 12 = 823$. Then $9876 − 823 = 9053$. Division binds tighter than subtraction.\n\nWrite the division result first.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "171": {
+      "hint": "Total cost ÷ 144 bottles, in pence.",
+      "help": "24 packs at £2.40 → $24 × 2.40 = 57.60$ pounds for 144 bottles → **40p** each ($0.40$).\n\nConvert to pence: 57.60 ÷ 144 = 0.40."
+    },
+    "172": {
+      "hint": "Multiply before add in 8 + 2 × 3.",
+      "help": "**Never** equals 30 — correct value is $8 + 6 = 14$. Multiplication comes before addition (BIDMAS).\n\nState **never** and show 14."
+    },
+    "173": {
+      "hint": "Line up decimal points and add columns.",
+      "help": "$5.06 + 12.9 + 0.4 = 18.36$. Pad with zeros mentally so tenths and hundredths align.\n\nExample: $1.2 + 0.05 = 1.25$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "174": {
+      "hint": "Total needed for mean 75 over 4 tests.",
+      "help": "Target sum: $75 × 4 = 300$. Current sum 221 → fourth score **79**.\n\nMean × count gives required total.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "175": {
+      "hint": "3600 seconds in an hour — divide 10 800 by 3600.",
+      "help": "$10\\,800 ÷ 3600 = 3$ hours. Or $10\\,800 ÷ 60 = 180$ minutes, then ÷ 60.\n\nConvert stepwise.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "176": {
+      "hint": "Quarter of 960 — divide by 4.",
+      "help": "**1/4** of 960 is $960 ÷ 4 = 240$. One quarter means split into four equal parts.\n\nExample: 1/4 of 200 is 50.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "177": {
+      "hint": "3 × £8.99, subtract from £30.",
+      "help": "Cost: $3 × 8.99 = 26.97$. Change: $30 − 26.97 = 3.03$ pounds.\n\nLine up decimals in money.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "178": {
+      "hint": "Try small integers for a, b, c.",
+      "help": "$(a − b) − c = a − b − c$ and $a − (b + c) = a − b − c$ — **always** the same for integers.\n\nExample: $(10 − 3) − 2 = 5$ and $10 − 5 = 5$."
+    },
+    "179": {
+      "hint": "Net rate 12 − 5 litres per minute.",
+      "help": "Net **7** litres/min for 45 min → $7 × 45 = 315$ litres. Combine in/out rates before multiplying time.\n\nExample: +10 −3 per min for 20 min → 7 × 20."
+    },
+    "180": {
+      "hint": "Find 20% of 450 and 15% of 200, then add.",
+      "help": "$0.20 × 450 = 90$ and $0.15 × 200 = 30$. Total **120**. Percent means divide by 100 then multiply.\n\nExample: 10% of 50 is 5."
+    },
+    "181": {
+      "hint": "Perimeter = 2 × (length + width).",
+      "help": "$2 × (12.5 + 7.6) = 2 × 20.1 = 40.2$ cm. Add both sides, then double for a rectangle.\n\nExample: 5 cm by 3 cm → perimeter 16 cm."
+    },
+    "182": {
+      "hint": "£2412 ÷ 18 — long division.",
+      "help": "$2412 ÷ 18 = 134$ pounds each. Check with $134 × 18$.\n\nEqual shares → divide total by people.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "183": {
+      "hint": "Left to right: −24 ÷ 6, then × 3.",
+      "help": "$−24 ÷ 6 = −4$, then $−4 × 3 = −12$. As written, ÷ before × from left.\n\nFollow the order shown in the question.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "184": {
+      "hint": "Right side is 10 × 9 — what times 15 gives that?",
+      "help": "$10 × 9 = 90$. Missing number: $90 ÷ 15 = 6$. Use inverse of multiplication.\n\nExample: □ × 4 = 20 → □ = 5.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "185": {
+      "hint": "Compute 3² + 4² and compare to ladder 5 m.",
+      "help": "$3^2 + 4^2 = 9 + 16 = 25 = 5^2$, so the ladder **5 m** fits the right triangle (Pythagoras).\n\nShow 25 and link to length 5."
+    },
+    "186": {
+      "hint": "Align decimals — add thousandths, hundredths, tenths.",
+      "help": "$1.2 + 1.02 + 1.002 = 3.222$. Line up decimal points column by column.\n\nExample: $0.1 + 0.01 = 0.11$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "187": {
+      "hint": "Add the four temperature changes.",
+      "help": "$−6 + 9 − 12 + 5 = −4$ °C net change. Combine positives and negatives separately if helpful.\n\nExample: +3 − 5 = −2 overall."
+    },
+    "188": {
+      "hint": "Part-whole — splitting does not change total.",
+      "help": "Breaking a number into parts and adding them returns the same total — **always** (associative addition).\n\nExample: $47 = 40 + 7$."
+    },
+    "189": {
+      "hint": "Follow order: +12, triple, −15.",
+      "help": "Start 0 → +12 = 12 → triple → 36 → lose 15 → **21**. Do operations in the story order.\n\nWrite each intermediate score.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "190": {
+      "hint": "72 × 125 — use 72 × 100 + 72 × 25.",
+      "help": "$72 × 125 = 9000$ (also $72 × 1000 ÷ 8$). Partition or friendly factors.\n\nExample: $16 × 25 = 400$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "191": {
+      "hint": "Flour per loaf × 38 loaves.",
+      "help": "Rate: $2 ÷ 5 = 0.4$ kg per loaf. $0.4 × 38 = 15.2$ kg.\n\nScale from the 5-loaf batch.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "192": {
+      "hint": "8064 ÷ 48 — cancel by 2 or bus stop.",
+      "help": "$8064 ÷ 48 = 168$. Halving both: $4032 ÷ 24$, repeat if useful.\n\nCheck with multiplication.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "193": {
+      "hint": "Expand 10³ as three tens multiplied.",
+      "help": "$10^3 = 10 × 10 × 10 = 1000$ — **always** matches three factors of 10.\n\nExample: $10^2 = 10 × 10$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "194": {
+      "hint": "Mean 12 → total 60 for five numbers.",
+      "help": "Sum of five numbers: $12 × 5 = 60$. Known sum 47 → fifth **13**.\n\nMean × count gives total.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "195": {
+      "hint": "3.14 × 2 × 10 as suggested.",
+      "help": "$3.14 × 2 = 6.28$, then $× 10 = 62.8$. Splitting ×20 this way reduces errors.\n\nExample: $1.5 × 20 = 1.5 × 2 × 10$.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "196": {
+      "hint": "−80 + 250 − 197.50.",
+      "help": "$−80 + 250 = 170$; $170 − 197.50 = −27.50$ pounds. Deposits +, debits −.\n\nLine up pence in the debit.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "197": {
+      "hint": "Locate the 1 in 5 031 072.",
+      "help": "The **1** is in the **thousands** place → value **1000**. Count columns from the units.\n\nExample: in 4 002 010 the 2 is worth 2000."
+    },
+    "198": {
+      "hint": "√144 first, then × 5, then add 6².",
+      "help": "$\\sqrt{144} = 12$. $12 × 5 = 60$. $6^2 = 36$. Total **96**. Roots and powers before multiply/add.\n\nFollow BIDMAS.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "199": {
+      "hint": "6.5 litres per 100 km — scale to 380 km.",
+      "help": "$380 ÷ 100 = 3.8$ batches of 100 km. Fuel: $6.5 × 3.8 = 24.7$ litres.\n\nUnit rate × number of units.\n\nBefore you finish, sense-check: does your answer have the right **size** (units, tens, hundreds, or sign) for this question?"
+    },
+    "200": {
+      "hint": "Brackets first: (12 − 8) and (5 + 7).",
+      "help": "$480 ÷ 4 × 12 = 120 × 12 = 1440$. Brackets before divide/multiply left to right.\n\nShow 4 and 12 from the brackets first."
+    }
+  }
+}

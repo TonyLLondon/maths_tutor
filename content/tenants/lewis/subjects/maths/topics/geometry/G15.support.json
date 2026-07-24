@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Short line length — ruler or clock?",
+      "help": "A **ruler** measures length. A clock measures time.\n\nExample: line segment in cm."
+    },
+    "2": {
+      "hint": "Ends at 5 cm when starting at 0 — length is 5 cm.",
+      "help": "Length **5 cm**.\n\nExample: read scale at end point.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "Subtract start from end: 7 − 2.",
+      "help": "Length $= 7 - 2 = 5$ cm.\n\nExample: not starting at zero.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "4": {
+      "hint": "How many mm in one cm?",
+      "help": "**10** millimetres in 1 centimetre.\n\nExample: 1 cm = 10 mm.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "Square corner angle size?",
+      "help": "**90°** right angle.\n\nExample: corner of paper.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "6": {
+      "hint": "Angle size — protractor or compasses?",
+      "help": "A **protractor** measures angles.\n\nExample: measure 40°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "7": {
+      "hint": "30° compared to 90° — smaller angle?",
+      "help": "**Smaller** than a right angle (acute).\n\nExample: 30° < 90°."
+    },
+    "8": {
+      "hint": "120° — between 90 and 180?",
+      "help": "**Obtuse** (greater than 90°, less than 180°).\n\nExample: 120° obtuse."
+    },
+    "9": {
+      "hint": "Equipment for line segment length?",
+      "help": "**Ruler** (or tape measure).\n\nExample: cm/mm scale.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "10": {
+      "hint": "Equipment for angle size?",
+      "help": "**Protractor**.\n\nExample: degrees scale.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "7.4 cm to nearest whole cm — look at tenths.",
+      "help": "Nearest whole cm: **7** cm (7.4 rounds down).\n\nExample: 7.6 → 8 cm."
+    },
+    "12": {
+      "hint": "65° — less than 90?",
+      "help": "**Acute**.\n\nExample: 65° acute.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "120° classification?",
+      "help": "**Obtuse**.\n\nExample: between 90° and 180°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "200° — more than 180?",
+      "help": "**Reflex** (greater than 180°).\n\nExample: 200° reflex.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "Exactly 90° angle name?",
+      "help": "**Right angle**.\n\nExample: square corner.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "16": {
+      "hint": "Line up centre of protractor on vertex, align baseline, read scale.",
+      "help": "Place protractor **centre on corner**, zero line on one arm, read where second arm crosses **degree scale**.\n\nExample: measure carefully."
+    },
+    "17": {
+      "hint": "Difference of lengths 5.7 and 3.2.",
+      "help": "$5.7 - 3.2 = 2.5$ cm difference.\n\nExample: subtract smaller from larger."
+    },
+    "18": {
+      "hint": "12 cm = how many mm?",
+      "help": "$12 \\times 10 = 120$ mm.\n\nExample: cm to mm ×10.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "19": {
+      "hint": "Difference between estimate 45° and reading 47°.",
+      "help": "$47 - 45 = 2°$ difference.\n\nExample: estimate vs measure.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "Bearings measured from North, clockwise or anticlockwise?",
+      "help": "From **North**, measured **clockwise**.\n\nExample: 050° bearing."
+    },
+    "21": {
+      "hint": "mm in 1 cm?",
+      "help": "**10** mm.\n\nExample: 1 cm = 10 mm.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "1 km = 1000 m — multiply 2.5 by 1000.",
+      "help": "**2500** m.\n\nExample: km to m ×1000.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "23": {
+      "hint": "Measurement needs a **unit** — why “about 8” fails?",
+      "help": "Without **units** (cm, m, etc.) the size is unclear — incomplete.\n\nExample: 8 cm vs 8 m."
+    },
+    "24": {
+      "hint": "Between 90° and 180° — obtuse definition?",
+      "help": "**True** — obtuse angles are strictly between 90° and 180°.\n\nExample: 100° obtuse."
+    },
+    "25": {
+      "hint": "Protractor only shows 0–180° at once — 370° impossible in one placement?",
+      "help": "A single standard protractor reading is **0° to 180°**; **370°** is more than one full turn — not one valid single reading.\n\nExample: use angle mod 360."
+    },
+    "26": {
+      "hint": "Ruler started at 1 cm not 0 — subtract 1 from reading.",
+      "help": "Mistake: forgot to subtract start. Correct length $= 9 - 1 = 8$ cm.\n\nExample: always subtract zero offset."
+    },
+    "27": {
+      "hint": "Reflex vs straight angle 180° — which is bigger?",
+      "help": "Reflex **> 180°** — **always** bigger than straight angle.\n\nExample: 270° reflex."
+    },
+    "28": {
+      "hint": "Why three digits on bearings — sort order 060 vs 120?",
+      "help": "**060°** keeps place value clear so **60** is not confused with **600** — always three digits.\n\nExample: 005°, 090°."
+    },
+    "29": {
+      "hint": "Angle of elevation vs bearing from North.",
+      "help": "**Elevation**: angle **up** from horizontal. **Bearing**: clockwise from **North**.\n\nExample: different references."
+    },
+    "30": {
+      "hint": "Check 90° between 3 cm and 4 cm sides with protractor at corner.",
+      "help": "Place protractor at corner of sides — read **90°** if triangle is right-angled.\n\nExample: verify square corner."
+    },
+    "31": {
+      "hint": "5-12-13 triangle — right angle between 5 and 12?",
+      "help": "$5^2+12^2=13^2$ — matches right triangle relationship — **consistent** with right angle.\n\nExample: Pythagoras check."
+    },
+    "32": {
+      "hint": "North up, measure 075° clockwise from North.",
+      "help": "Draw **North** arrow up; measure **75° clockwise** from North to bearing direction.\n\nExample: sketch ray at 075°."
+    },
+    "33": {
+      "hint": "Triangle angles should sum 180° — add 50+65+70.",
+      "help": "Sum $= 185°$ — **not sensible** (should be 180°) — measurement error likely.\n\nExample: check sum."
+    },
+    "34": {
+      "hint": "8.5 cm on map × 2 km per cm.",
+      "help": "Real distance $= 8.5 \\times 2 = 17$ km.\n\nExample: scale multiply."
+    },
+    "35": {
+      "hint": "Obtuse 130° — inner vs outer protractor scale.",
+      "help": "Wrong scale gave 50°; **130°** matches **obtuse** angle.\n\nExample: use outer scale for obtuse."
+    },
+    "36": {
+      "hint": "Back bearing: add or subtract 180° from 250°.",
+      "help": "Boat from lighthouse: $250 - 180 = 070°$ (or $250+180=430→070$).\n\nExample: reverse bearing ±180°."
+    },
+    "37": {
+      "hint": "Protractor centre must sit on vertex — what if off?",
+      "help": "Misaligned centre gives **wrong angle** — always centre on **corner point**.\n\nExample: shift causes error."
+    },
+    "38": {
+      "hint": "45.6 m real ÷ 5 m per cm on drawing.",
+      "help": "Drawing length $= 45.6 \\div 5 = 9.12$ cm.\n\nExample: real ÷ scale factor."
+    },
+    "39": {
+      "hint": "Angle between bearings 040° and 160° — subtract.",
+      "help": "$160 - 40 = 120°$ between directions.\n\nExample: difference of bearings."
+    },
+    "40": {
+      "hint": "Divide the real length by the number of metres represented by 1 cm.",
+      "help": "A scale of 1 cm to 4 m means every 4 m becomes 1 cm on paper. Divide the real length by 4.\n\nFor example, 20 m would be drawn as $20 ÷ 4 = 5$ cm."
+    },
+    "41": {
+      "hint": "Record your measured length of 6.4 cm line.",
+      "help": "Use ruler carefully — state measurement near **6.4 cm** to nearest mm.\n\nExample: read mm marks."
+    },
+    "42": {
+      "hint": "135° — between 90 and 180?",
+      "help": "**Obtuse**.\n\nExample: 135° > 90°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "43": {
+      "hint": "Compare 15° with 90°.",
+      "help": "15° is **acute** compared with a right angle.\n\nWork step by step and check units."
+    },
+    "44": {
+      "hint": "Compare 30° with 90°.",
+      "help": "30° is **acute** compared with a right angle.\n\nWork step by step and check units."
+    },
+    "45": {
+      "hint": "45° — acute, right, obtuse, or reflex?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "46": {
+      "hint": "90° — name this angle type.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "47": {
+      "hint": "120° lies between 90° and 180° — classify it.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "48": {
+      "hint": "An angle measures 180°. What type of angle is this?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "49": {
+      "hint": "An angle measures 270°. Is it reflex?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "50": {
+      "hint": "Nearest 8 cm: true length from 8.5−0.5 cm to 8.5+0.5 cm (watch endpoints).",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "51": {
+      "hint": "Nearest 15 cm: true length from 15.5−0.5 cm to 15.5+0.5 cm (watch endpoints).",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "52": {
+      "hint": "Straight line 180° — missing angle = 180−65.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "53": {
+      "hint": "Two angles at a point on a straight line: 110° and y°. Find y.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "54": {
+      "hint": "Add given angles; subtract from 360°.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "55": {
+      "hint": "Q55: is this true? A protractor can measure up to 360° in one go without repositioning.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "56": {
+      "hint": "Estimate an angle of 55° — acute or obtuse?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "57": {
+      "hint": "Estimate an angle of 140° — acute or obtuse?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "58": {
+      "hint": "Third angle = 180−50−60 degrees.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "59": {
+      "hint": "Third angle = 180−70−80 degrees.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "60": {
+      "hint": "Q60: test \"The sum of angles in a triangle is 180°.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "61": {
+      "hint": "A quadrilateral has angles 90°, 90°, 110°, and w°. Find w.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "62": {
+      "hint": "A regular pentagon has equal angles. Find each interior angle (use (n−2)×180/n).",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "63": {
+      "hint": "A regular hexagon: find each interior angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "64": {
+      "hint": "Q64: is this true? Each angle in a square is 90°.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "65": {
+      "hint": "A clock shows 3 o'clock. What angle between the hands?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "66": {
+      "hint": "A clock shows 6 o'clock. What angle between the hands?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "67": {
+      "hint": "A bearing of 045° means turn how many degrees clockwise from North?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "68": {
+      "hint": "Write the bearing 120° as a three-digit bearing.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "69": {
+      "hint": "Q69: test \"Bearings are measured clockwise from North.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "70": {
+      "hint": "Q70: explain — Explain how to measure a 40° angle with a protractor in one sentence.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "71": {
+      "hint": "A map scale 1 cm : 500 m. A path is 3 cm on the map. Real length?",
+      "help": "Matching lengths multiply by the scale factor; areas by factor²; volumes by factor³.\n\n**Different example:** Length ×3 → area ×9.\n\nWork step by step and include units if the question uses them."
+    },
+    "72": {
+      "hint": "Real distance = map cm × 25 000 — then convert cm to km.",
+      "help": "Matching lengths multiply by the scale factor; areas by factor²; volumes by factor³.\n\n**Different example:** Length ×3 → area ×9.\n\nWork step by step and include units if the question uses them."
+    },
+    "73": {
+      "hint": "Q73: is this true? Scale drawings enlarge every length by the same factor.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "74": {
+      "hint": "A model is 1/50 of real size. Real tower 150 m. Model height?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "75": {
+      "hint": "Q75: test \"Angles on a map scale drawing match real angles.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "76": {
+      "hint": "An isosceles triangle has apex angle 40°. Find each base angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "77": {
+      "hint": "An isosceles triangle has base angles 65° each. Find the apex angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "78": {
+      "hint": "Q78: is this true? Vertically opposite angles are equal.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "79": {
+      "hint": "Two lines cross making angles 130° and p°. Find p if they are vertically opposite.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "80": {
+      "hint": "Q80: test \"Supplementary angles sum to 180°.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "81": {
+      "hint": "Angles 35° and q° are supplementary. Find q.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "82": {
+      "hint": "Angles 48° and r° are complementary. Find r.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "83": {
+      "hint": "Q83: is this true? Complementary angles sum to 90°.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "84": {
+      "hint": "A right triangle has one angle 35°. Find the third angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "85": {
+      "hint": "Q85: test \"A triangle can have two obtuse angles.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "86": {
+      "hint": "Q86: explain — Explain why a triangle cannot have two 100° angles.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "87": {
+      "hint": "A protractor reading on the wrong scale gives 35° instead of 145°. Which is obtuse?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "88": {
+      "hint": "Q88: is this true? Reflex angles are between 180° and 360°.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "89": {
+      "hint": "An angle is 3 times another; together they are 120°. Find both.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "90": {
+      "hint": "Q90: test \"Larger angles have longer arms on a diagram.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "91": {
+      "hint": "Measure scenario: a door opens 80° from closed. Classify the opening angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "92": {
+      "hint": "A slice of pizza is 45°. Classify the angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "93": {
+      "hint": "Q93: is this true? A full turn is 360°.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "94": {
+      "hint": "How many 30° angles fit in a full turn?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "95": {
+      "hint": "Q95: test \"Half a turn is 180°.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "96": {
+      "hint": "A compass bearing South is 180°. East bearing?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "97": {
+      "hint": "Q97: is this true? West is bearing 270°.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "98": {
+      "hint": "From A to B bearing is 060°. Back bearing from B to A?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "99": {
+      "hint": "Q99: test \"Back bearing differs by 180°.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "100": {
+      "hint": "A ship sails on bearing 315°. Which compass direction is closest?",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "101": {
+      "hint": "An angle at the centre of a regular octagon subtends one vertex step. Find 360/8.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "102": {
+      "hint": "Q102: is this true? Perpendicular lines meet at 90°.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "103": {
+      "hint": "Two angles form a linear pair: 72° and s°. Find s.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "104": {
+      "hint": "Q104: test \"Adjacent angles on a straight line are supplementary.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "105": {
+      "hint": "A ruler marked mm measures 4.7 cm. Write in mm.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "106": {
+      "hint": "Q106: is this true? 4.7 cm equals 47 mm.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "107": {
+      "hint": "A line from 1.2 cm to 5.8 cm on a ruler. Length?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "108": {
+      "hint": "Q108: test \"Starting at zero on a ruler avoids a common error.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "109": {
+      "hint": "A student measures 9 cm but started at 1 cm on the ruler. Correct length?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "110": {
+      "hint": "Q110: is this true? Angles should be labelled with °.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "111": {
+      "hint": "Convert 1.5 right angles to degrees.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "112": {
+      "hint": "Q112: test \"1 right angle equals 90°.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "113": {
+      "hint": "A turn of 2/3 of 360° is how many degrees?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "114": {
+      "hint": "Q114: is this true? 0° and 360° show the same direction on a bearing circle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "115": {
+      "hint": "An angle increases from 20° to 50°. By how many degrees?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "116": {
+      "hint": "Q116: test \"Subtracting angles gives the angle between them when they share a ray.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "117": {
+      "hint": "Q117: is this true? Two parallel lines cut by a transversal: corresponding angles are equal — ",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "118": {
+      "hint": "If corresponding angles are 65°, find the co-interior angle on the same side.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "119": {
+      "hint": "Q119: test \"Alternate angles are equal when lines are parallel.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "120": {
+      "hint": "An exterior angle of a triangle is 110°. Opposite interior angles are 50° and t°. Find t.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "121": {
+      "hint": "Q121: is this true? Exterior angle equals sum of remote interior angles.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "122": {
+      "hint": "A regular polygon exterior angle is 30°. How many sides?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "123": {
+      "hint": "Q123: test \"Exterior angles of any polygon sum to 360°.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "124": {
+      "hint": "A pentagon, not regular, has exterior angles 70°, 80°, 60°, 90°, and e°. Find e.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "125": {
+      "hint": "Q125: is this true? Larger polygons have smaller exterior angles if regular.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "126": {
+      "hint": "Using a protractor, describe how to draw a 120° angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "127": {
+      "hint": "Q127: test \"A 180° angle looks like a straight line.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "128": {
+      "hint": "A angle bisector splits 80° into two equal parts. Size of each part?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "129": {
+      "hint": "Q129: is this true? Bisecting means cutting in half.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "130": {
+      "hint": "An angle is 20° larger than another; sum 100°. Find both.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "131": {
+      "hint": "Q131: test \"Measuring to the nearest degree means true angle is within ±0.5°.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "132": {
+      "hint": "A line 12 cm to nearest cm: min/max length?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "133": {
+      "hint": "Q133: is this true? 11.5 cm rounds to 12 cm to nearest cm.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "134": {
+      "hint": "A triangle angles are in ratio 1:2:3. Find the largest angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "135": {
+      "hint": "Q135: test \"Ratio angles in a triangle must sum to 180°.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "136": {
+      "hint": "A surveyor turns 40° left from bearing 050°. New bearing?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "137": {
+      "hint": "Q137: is this true? Left turn decreases bearing in the UK convention if you treat angles carefully (explain in words).",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "138": {
+      "hint": "An angle of elevation to the top of a tree is 35°. Is this acute?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "139": {
+      "hint": "Q139: test \"Angle of depression equals angle of elevation when viewed horizontally.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "140": {
+      "hint": "From a boat, lighthouse angle of elevation 12°. Classify the angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "141": {
+      "hint": "Q141: is this true? Parallel lines never meet.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "142": {
+      "hint": "Perpendicular to a line makes what angle?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "143": {
+      "hint": "Q143: test \"Two angles that add to 90° are complementary.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "144": {
+      "hint": "A rectangle corner is 90°. Sum of four corners?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "145": {
+      "hint": "Q145: is this true? Diagonals of a rectangle bisect each other but need not be perpendicular.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "146": {
+      "hint": "A rhombus has equal sides; one angle 60°. Find adjacent angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "147": {
+      "hint": "Q147: test \"Opposite angles in a parallelogram are equal.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "148": {
+      "hint": "Parallelogram angles 70° and u°. Find u.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "149": {
+      "hint": "Q149: is this true? Sum of angles in a quadrilateral is 360°.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "150": {
+      "hint": "A kite has one angle 100° at top, two equal 80° at sides. Find bottom angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "151": {
+      "hint": "Q151: test \"A protractor base line must align with one ray of the angle.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "152": {
+      "hint": "Q152: explain — Explain a common mistake when reading the inner vs outer scale.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "153": {
+      "hint": "Q153: is this true? Drawing a sketch helps before measuring bearings.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "154": {
+      "hint": "A walker goes North then turns 90° clockwise. New direction?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "155": {
+      "hint": "Q155: test \"Three right angles can exist in one triangle.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "156": {
+      "hint": "A sector has angle 60° of a circle. What fraction of a full turn?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "157": {
+      "hint": "Q157: is this true? 45° is half a right angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "158": {
+      "hint": "An angle is 10° less than its supplement. Find the angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "159": {
+      "hint": "Q159: test \"Supplement of an acute angle is obtuse.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "160": {
+      "hint": "An angle is twice its complement. Find the angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "161": {
+      "hint": "Q161: is this true? Complement of 35° is 55°.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "162": {
+      "hint": "A map: 2 cm represents 1 km. Scale as 1 : n in metres (find n).",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "163": {
+      "hint": "Q163: test \"Real distances shrink on scale drawings.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "164": {
+      "hint": "A room plan width 4 cm, scale 1:50. Real width in m?",
+      "help": "Matching lengths multiply by the scale factor; areas by factor²; volumes by factor³.\n\n**Different example:** Length ×3 → area ×9.\n\nWork step by step and include units if the question uses them."
+    },
+    "165": {
+      "hint": "Q165: is this true? Angles are unchanged under scale enlargement.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "166": {
+      "hint": "Q166: is this true? A triangle drawn with wrong scale still has angles summing to 180° — ",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "167": {
+      "hint": "Q167: test \"Measuring in mm is more precise than cm for the same ruler.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "168": {
+      "hint": "3.25 cm equals how many mm?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "169": {
+      "hint": "Q169: is this true? 0.5 cm equals 5 mm.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "170": {
+      "hint": "Design a bearing problem starting at North and turning 130° clockwise. State final bearing.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "171": {
+      "hint": "Q171: test \"Two lines perpendicular to the same line are parallel.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "172": {
+      "hint": "A transversal makes alternate angles 48°. Find corresponding angle.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "173": {
+      "hint": "Q173: is this true? Co-interior angles sum to 180° for parallel lines.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "174": {
+      "hint": "One co-interior angle is 115°. Find the other.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "175": {
+      "hint": "Q175: test \"An equilateral triangle has 60° angles.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "176": {
+      "hint": "Each angle in a regular n-gon is 150°. Find n using formula.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "177": {
+      "hint": "Q177: is this true? More sides means larger interior angle in a regular polygon.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "178": {
+      "hint": "A reflex angle is 210°. Its non-reflex counterpart around the point?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "179": {
+      "hint": "Q179: test \"Non-reflex angle + reflex angle = 360° about a point.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "180": {
+      "hint": "Angles on a straight line: 3x and 2x. Find x.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "181": {
+      "hint": "Q181: is this true? Algebra helps solve angle problems.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "182": {
+      "hint": "A triangle has angles x, 2x, 3x. Find x.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "183": {
+      "hint": "Q183: test \"The smallest angle in a triangle can be 89°.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "184": {
+      "hint": "An isosceles triangle apex 100°. Base angles?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "185": {
+      "hint": "Q185: is this true? Base angles in an isosceles triangle are equal.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "186": {
+      "hint": "Q186: explain — A protractor centre must sit on the vertex — explain why in one sentence.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "187": {
+      "hint": "Q187: test \"Measuring twice improves reliability.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "188": {
+      "hint": "A line 0.8 m long. Write in cm and mm.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "189": {
+      "hint": "Create your own angle problem using supplementary angles and solve it.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "190": {
+      "hint": "Q190: is this true? Bearings use three digits to avoid confusion like 60 vs 060.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "191": {
+      "hint": "Turn from bearing 200° to bearing 290°. How many degrees clockwise?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "192": {
+      "hint": "Q192: test \"A 360° protractor can measure reflex angles directly if drawn correctly.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "193": {
+      "hint": "A regular polygon has interior angles 160°. Find number of sides.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "194": {
+      "hint": "Q194: is this true? Sum of exterior angles is independent of n.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "195": {
+      "hint": "Q195: explain — A student says a triangle has angles 90°, 60°, 50°. Explain the error.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "196": {
+      "hint": "Q196: test \"An angle bisector creates two equal angles.\" — always, sometimes, or never?",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "197": {
+      "hint": "Split 124° into two equal angles.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    },
+    "198": {
+      "hint": "Q198: is this true? 1° is small compared with a full turn.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "199": {
+      "hint": "How many degrees in 1.5 turns?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "200": {
+      "hint": "Stretch: A regular polygon has interior angles 177°. Find n, then find each exterior angle, and check interior + exterior = 180° at each vertex.",
+      "help": "Use angle facts: line 180°, point 360°, triangle 180°.\n\n**Different example:** Missing angle on a line with 65° → 115°.\n\nWork step by step and include units if the question uses them."
+    }
+  }
+}

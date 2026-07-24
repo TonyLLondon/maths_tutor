@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Horizontal move in squares — count right.",
+      "help": "**2** squares right.\n\nExample: translation x-component.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "2": {
+      "hint": "Vertical move up — count squares.",
+      "help": "**3** squares up.\n\nExample: y-component.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "Opposite of right?",
+      "help": "**Left**.\n\nExample: negative x direction.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "4": {
+      "hint": "Opposite of up?",
+      "help": "**Down**.\n\nExample: negative y.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "0 + 2 right?",
+      "help": "Finish at **(2, 0)**.\n\nExample: add to x.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "6": {
+      "hint": "2 up from origin.",
+      "help": "**(0, 2)**.\n\nExample: y increases.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "7": {
+      "hint": "(1,1) plus 2 right.",
+      "help": "**(3, 1)**.\n\nExample: x+2.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "8": {
+      "hint": "4 left only — vertical change?",
+      "help": "**0** vertical movement.\n\nExample: y unchanged.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "9": {
+      "hint": "Column vector: top right, bottom up.",
+      "help": "**$\\binom{3}{2}$**.\n\nExample: (x move, y move).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "10": {
+      "hint": "4 left = −4, 1 up = +1.",
+      "help": "**$\\binom{-4}{1}$**.\n\nExample: signs for direction.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "5 right, 3 down.",
+      "help": "**$\\binom{5}{-3}$**.\n\nExample: down negative y.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "12": {
+      "hint": "Add vector (4,1) to (2,3).",
+      "help": "Image **(6, 4)**.\n\nExample: add components.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "Add (−3,5) to (0,0).",
+      "help": "**(−3, 5)**.\n\nExample: from origin.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "(6,−2)+(−2,−4).",
+      "help": "**(4, −6)**.\n\nExample: add x and y separately.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "(−1,−1)+(5,2).",
+      "help": "**(4, 1)**.\n\nExample: translation sum.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "16": {
+      "hint": "Vector = image minus original: (5−1, 6−2).",
+      "help": "**$\\binom{4}{4}$**.\n\nExample: displacement.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "y changes 7→2, x unchanged.",
+      "help": "**$\\binom{0}{-5}$**.\n\nExample: vertical only.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "From (−4,2) to (0,0).",
+      "help": "**$\\binom{4}{-2}$**.\n\nExample: subtract coordinates.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "19": {
+      "hint": "Slide without turn — name?",
+      "help": "**Translation**.\n\nExample: congruent move.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "Zero vector — no movement.",
+      "help": "Shape **stays in same place**.\n\nExample: identity translation."
+    },
+    "21": {
+      "hint": "3 right 2 up as vector.",
+      "help": "**$\\binom{3}{2}$**.\n\nExample: column vector.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "4 left 1 down.",
+      "help": "**$\\binom{-4}{-1}$**.\n\nExample: both negative.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "23": {
+      "hint": "Top number is x (horizontal), not y.",
+      "help": "Mia swapped — **$\\binom{2}{3}$** is **2 right, 3 up**, not 2 up 3 right.\n\nExample: read vector order."
+    },
+    "24": {
+      "hint": "Translation preserves size and shape?",
+      "help": "**True** — images are **congruent**.\n\nExample: slide copy.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "25": {
+      "hint": "(4,5)+(−6,2) check.",
+      "help": "Correct image **(−2, 7)** not (2,7).\n\nExample: 4−6=−2.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "26": {
+      "hint": "Translation changes size or orientation?",
+      "help": "**Never** — only position.\n\nExample: same shape.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "27": {
+      "hint": "(3,−3) vs (−3,3) — different directions.",
+      "help": "Priya **wrong** — opposite signs give **different** moves.\n\nExample: compare components."
+    },
+    "28": {
+      "hint": "Vector from A to B: subtract A from B.",
+      "help": "$\\binom{7-2}{4-1}=\\binom{5}{3}$.\n\nExample: displacement formula."
+    },
+    "29": {
+      "hint": "y-component 0 — only horizontal shift.",
+      "help": "Every point moves **5 right**, **y unchanged**.\n\nExample: x+5."
+    },
+    "30": {
+      "hint": "Add translation vectors component-wise.",
+      "help": "Leo **correct**: $\\binom{2}{1}+\\binom{2}{1}=\\binom{4}{2}$.\n\nExample: combine moves."
+    },
+    "31": {
+      "hint": "Add (2,−3) to each vertex.",
+      "help": "Vertices **(3,−2), (5,−2), (3,1)**.\n\nExample: translate all corners."
+    },
+    "32": {
+      "hint": "(4,2)+(−1,3).",
+      "help": "Combined **$\\binom{3}{5}$**.\n\nExample: sum vectors.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "33": {
+      "hint": "(5,5)+(−2,4)+(3,−6).",
+      "help": "Final **(6, 3)**.\n\nExample: step by step.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "34": {
+      "hint": "Sum three vectors from (0,0).",
+      "help": "Final **(4, 1)** after adding components.\n\nExample: robot path."
+    },
+    "35": {
+      "hint": "Translate all vertices by (−3,−1) — size angles?",
+      "help": "New coords by subtract/add vector; **size and angles unchanged** — congruent.\n\nExample: translation properties."
+    },
+    "36": {
+      "hint": "Q = P + vector, P=(−1,5).",
+      "help": "Q **(5, 3)**.\n\nExample: add vector to P.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "37": {
+      "hint": "B−A vector; reverse is A−B.",
+      "help": "Translation **$\\binom{-4}{8}$**; back **$\\binom{4}{-8}$**.\n\nExample: opposite displacement."
+    },
+    "38": {
+      "hint": "(2,−3)+ (a,b)=(6,1).",
+      "help": "**a=4, b=4**.\n\nExample: solve component equations.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "39": {
+      "hint": "(x,2)+(3,y)=(7,−1).",
+      "help": "**x=4, y=−3**.\n\nExample: match top and bottom.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "40": {
+      "hint": "Add the vector components to the point; negate both components for the return vector.",
+      "help": "For translation $\\binom{a}{b}$, add $a$ to the x-coordinate and $b$ to the y-coordinate. The reverse vector is $\\binom{-a}{-b}$.\n\nFor example, $(1,2)+\\binom{3}{-1}=(4,1)$."
+    },
+    "41": {
+      "hint": "(2,5)+(3,−1).",
+      "help": "Image **(5, 4)**.\n\nExample: add.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "5 left = −5, 3 up = +3.",
+      "help": "**$\\binom{-5}{3}$**.\n\nExample: direction signs.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "43": {
+      "hint": "Right 5, down 3 — write as a column vector.",
+      "help": "Translation vector $\\begin{pmatrix}-5\\\\-3\\end{pmatrix}$.\n\nWork step by step and check units."
+    },
+    "44": {
+      "hint": "Right 5, down 2 — write as a column vector.",
+      "help": "Translation vector $\\begin{pmatrix}-5\\\\-2\\end{pmatrix}$.\n\nWork step by step and check units."
+    },
+    "45": {
+      "hint": "Add vector $\\binom{2}{3}$ to point (1, 2) — add x to x, y to y.",
+      "help": "**(1, 2) + (2, 3) = (3, 5)**. Add **top numbers** for $x$, **bottom** for $y$.\n\nExample: $(0,0)+\\binom{1}{2}=(1,2)$."
+    },
+    "46": {
+      "hint": "Translate (3, 4) by $\\binom{-1}{4}$.",
+      "help": "$x$: **3 + (−1) = 2**. $y$: **4 + 4 = 8**. Image **(2, 8)**.\n\nExample: negative top moves left."
+    },
+    "47": {
+      "hint": "Origin (0, 0) plus $\\binom{5}{-2}$.",
+      "help": "**(0 + 5, 0 + (−2)) = (5, −2)**.\n\nExample: from the origin, the image is just the vector coordinates."
+    },
+    "48": {
+      "hint": "Point (−2, 5) translated by $\\binom{-3}{-3}$.",
+      "help": "**−2 + (−3) = −5**, **5 + (−3) = 2** → **(−5, 2)**.\n\nExample: subtract on both parts when vector is negative."
+    },
+    "49": {
+      "hint": "(6, −1) plus $\\binom{0}{6}$ — only y changes.",
+      "help": "$x$ stays **6**; **−1 + 6 = 5** → **(6, 5)**.\n\nExample: a zero on top means no horizontal shift."
+    },
+    "50": {
+      "hint": "(−4, −3) plus $\\binom{4}{0}$ — horizontal shift only.",
+      "help": "**−4 + 4 = 0**, $y$ stays **−3** → **(0, −3)**.\n\nExample: zero on bottom means no vertical shift."
+    },
+    "51": {
+      "hint": "Same as Q45: (1, 2) plus $\\binom{2}{3}$.",
+      "help": "Add components: **(1+2, 2+3) = (3, 5)**.\n\nExample: repeat the same vector addition steps."
+    },
+    "52": {
+      "hint": "Same as Q46: (3, 4) plus $\\binom{-1}{4}$.",
+      "help": "**(3−1, 4+4) = (2, 8)**.\n\nExample: check signs on each part of the vector."
+    },
+    "53": {
+      "hint": "Same as Q47: (0, 0) plus $\\binom{5}{-2}$.",
+      "help": "Image **(5, −2)**.\n\nExample: translating the origin gives the vector’s coordinates."
+    },
+    "54": {
+      "hint": "Same as Q48: (−2, 5) plus $\\binom{-3}{-3}$.",
+      "help": "**(−5, 2)** after adding each component.\n\nExample: draw a grid and count squares."
+    },
+    "55": {
+      "hint": "Same as Q49: (6, −1) plus $\\binom{0}{6}$.",
+      "help": "**(6, 5)** — move **6 up**, no sideways change.\n\nExample: vertical vector changes $y$ only."
+    },
+    "56": {
+      "hint": "Same as Q50: (−4, −3) plus $\\binom{4}{0}$.",
+      "help": "**(0, −3)** — move **4 right**.\n\nExample: horizontal vector changes $x$ only."
+    },
+    "57": {
+      "hint": "(1, 2) plus $\\binom{2}{3}$ again — practice addition.",
+      "help": "Image **(3, 5)**.\n\nExample: $x$ adds to $x$, $y$ adds to $y$."
+    },
+    "58": {
+      "hint": "(3, 4) plus $\\binom{-1}{4}$.",
+      "help": "Add the vector: **3 + (−1) = 2** and **4 + 4 = 8**, so the image is **(2, 8)**.\n\nExample: left 1 and up 4 from (3, 4)."
+    },
+    "59": {
+      "hint": "(0, 0) plus $\\binom{5}{-2}$.",
+      "help": "From the origin: **(0 + 5, 0 + (−2)) = (5, −2)** — five units right and two down.\n\nExample: negative $y$ moves down."
+    },
+    "60": {
+      "hint": "(−2, 5) plus $\\binom{-3}{-3}$.",
+      "help": "Image **(−5, 2)**.\n\nExample: both negative parts shift left and down."
+    },
+    "61": {
+      "hint": "(6, −1) plus $\\binom{0}{6}$.",
+      "help": "No horizontal change (**0** on top), so **x** stays **6**. **−1 + 6 = 5** → image **(6, 5)**.\n\nExample: pure vertical translation."
+    },
+    "62": {
+      "hint": "(−4, −3) plus $\\binom{4}{0}$.",
+      "help": "**−4 + 4 = 0** and **y** stays **−3** (zero on bottom) → image **(0, −3)**.\n\nExample: pure horizontal translation."
+    },
+    "63": {
+      "hint": "(1, 2) plus $\\binom{2}{3}$ — image coordinates?",
+      "help": "**(3, 5)**.\n\nExample: use column vector addition on coordinates."
+    },
+    "64": {
+      "hint": "(3, 4) plus $\\binom{-1}{4}$.",
+      "help": "Add components: **(3 + (−1), 4 + 4) = (2, 8)**. Check each coordinate separately.\n\nExample: add vector to point position."
+    },
+    "65": {
+      "hint": "(0, 0) plus $\\binom{5}{-2}$.",
+      "help": "**(5, −2)**.\n\nExample: translation as addition of displacements."
+    },
+    "66": {
+      "hint": "(−2, 5) plus $\\binom{-3}{-3}$.",
+      "help": "**−2 + (−3) = −5** and **5 + (−3) = 2** → image **(−5, 2)**.\n\nExample: sketch the shift on squared paper."
+    },
+    "67": {
+      "hint": "(6, −1) plus $\\binom{0}{6}$.",
+      "help": "**x** stays **6** (zero on top). **−1 + 6 = 5** → image **(6, 5)**.\n\nExample: zero horizontal component."
+    },
+    "68": {
+      "hint": "(−4, −3) plus $\\binom{4}{0}$.",
+      "help": "**−4 + 4 = 0**, **y** unchanged at **−3** → image **(0, −3)**.\n\nExample: zero vertical component."
+    },
+    "69": {
+      "hint": "Translation (1,2)→(4,4): vector (3, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "70": {
+      "hint": "Translation (3,4)→(7,7): vector (4, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "71": {
+      "hint": "Translation (0,0)→(5,4): vector (5, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "72": {
+      "hint": "Translation (-2,5)→(4,7): vector (6, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "73": {
+      "hint": "Translation (6,-1)→(9,2): vector (3, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "74": {
+      "hint": "Translation (-4,-3)→(0,1): vector (4, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "75": {
+      "hint": "Translation (1,2)→(6,4): vector (5, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "76": {
+      "hint": "Translation (3,4)→(9,7): vector (6, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "77": {
+      "hint": "Translation (0,0)→(3,4): vector (3, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "78": {
+      "hint": "Translation (-2,5)→(2,7): vector (4, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "79": {
+      "hint": "Translation (6,-1)→(11,2): vector (5, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "80": {
+      "hint": "Translation (-4,-3)→(2,1): vector (6, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "81": {
+      "hint": "Translation (1,2)→(4,4): vector (3, 2). (Q81)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "82": {
+      "hint": "Translation (3,4)→(7,7): vector (4, 3). (Q82)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "83": {
+      "hint": "Translation (0,0)→(5,4): vector (5, 4). (Q83)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "84": {
+      "hint": "Translation (-2,5)→(4,7): vector (6, 2). (Q84)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "85": {
+      "hint": "Translation (6,-1)→(9,2): vector (3, 3). (Q85)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "86": {
+      "hint": "Translation (-4,-3)→(0,1): vector (4, 4). (Q86)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "87": {
+      "hint": "Translation (1,2)→(6,4): vector (5, 2). (Q87)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "88": {
+      "hint": "Translation (3,4)→(9,7): vector (6, 3). (Q88)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "89": {
+      "hint": "Add the two vectors: (2+-1, -1+3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "90": {
+      "hint": "Add the two vectors: (3+-1, 0+4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "91": {
+      "hint": "Add the two vectors: (4+-1, -1+3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "92": {
+      "hint": "Add the two vectors: (2+-1, 0+4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "93": {
+      "hint": "Add the two vectors: (3+-1, -1+3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "94": {
+      "hint": "Add the two vectors: (4+-1, 0+4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "95": {
+      "hint": "Add the two vectors: (2+-1, -1+3). (Q95)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "96": {
+      "hint": "Add the two vectors: (3+-1, 0+4). (Q96)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "97": {
+      "hint": "Add the two vectors: (4+-1, -1+3). (Q97)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "98": {
+      "hint": "Add the two vectors: (2+-1, 0+4). (Q98)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "99": {
+      "hint": "Add the two vectors: (3+-1, -1+3). (Q99)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "100": {
+      "hint": "Add the two vectors: (4+-1, 0+4). (Q100)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "101": {
+      "hint": "Add the two vectors: (2+-1, -1+3). (Q101)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "102": {
+      "hint": "Add the two vectors: (3+-1, 0+4). (Q102)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "103": {
+      "hint": "Add the two vectors: (4+-1, -1+3). (Q103)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "104": {
+      "hint": "Add the two vectors: (2+-1, 0+4). (Q104)",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "105": {
+      "hint": "6 right, 2 down → vector (6, −2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "106": {
+      "hint": "3 left, 4 up → vector (−3, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "107": {
+      "hint": "5 up only → vector (0, 5).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "108": {
+      "hint": "7 left only → vector (−7, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "109": {
+      "hint": "Q109: is this true? Translation changes the size of a shape.",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "110": {
+      "hint": "Q110: test \"Translation vectors add top number first (horizontal).\" — always, sometimes, or never?",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "111": {
+      "hint": "Q111: explain — Explain how to undo a translation.",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "112": {
+      "hint": "From (0,0) to (-4,4) — the vector is (-4, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "113": {
+      "hint": "From (0,0) to (-3,-3) — the vector is (-3, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "114": {
+      "hint": "From (0,0) to (-2,-1) — the vector is (-2, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "115": {
+      "hint": "From (0,0) to (-1,1) — the vector is (-1, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "116": {
+      "hint": "From (0,0) to (0,3) — the vector is (0, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "117": {
+      "hint": "From (0,0) to (1,-4) — the vector is (1, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "118": {
+      "hint": "From (0,0) to (2,-2) — the vector is (2, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "119": {
+      "hint": "From (0,0) to (3,0) — the vector is (3, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "120": {
+      "hint": "From (0,0) to (4,2) — the vector is (4, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "121": {
+      "hint": "From (0,0) to (5,4) — the vector is (5, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "122": {
+      "hint": "From (0,0) to (-5,-3) — the vector is (-5, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "123": {
+      "hint": "From (0,0) to (-4,-1) — the vector is (-4, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "124": {
+      "hint": "From (0,0) to (-3,1) — the vector is (-3, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "125": {
+      "hint": "From (0,0) to (-2,3) — the vector is (-2, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "126": {
+      "hint": "From (0,0) to (-1,-4) — the vector is (-1, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "127": {
+      "hint": "From (0,0) to (0,-2) — the vector is (0, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "128": {
+      "hint": "From (0,0) to (1,0) — the vector is (1, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "129": {
+      "hint": "From (0,0) to (2,2) — the vector is (2, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "130": {
+      "hint": "From (0,0) to (3,4) — the vector is (3, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "131": {
+      "hint": "From (0,0) to (4,-3) — the vector is (4, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "132": {
+      "hint": "From (0,0) to (5,-1) — the vector is (5, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "133": {
+      "hint": "From (0,0) to (-5,1) — the vector is (-5, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "134": {
+      "hint": "From (0,0) to (-4,3) — the vector is (-4, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "135": {
+      "hint": "From (0,0) to (-3,-4) — the vector is (-3, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "136": {
+      "hint": "From (0,0) to (-2,-2) — the vector is (-2, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "137": {
+      "hint": "From (0,0) to (-1,0) — the vector is (-1, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "138": {
+      "hint": "From (0,0) to (0,2) — the vector is (0, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "139": {
+      "hint": "From (0,0) to (1,4) — the vector is (1, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "140": {
+      "hint": "From (0,0) to (2,-3) — the vector is (2, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "141": {
+      "hint": "From (0,0) to (3,-1) — the vector is (3, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "142": {
+      "hint": "From (0,0) to (4,1) — the vector is (4, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "143": {
+      "hint": "From (0,0) to (5,3) — the vector is (5, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "144": {
+      "hint": "From (0,0) to (-5,-4) — the vector is (-5, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "145": {
+      "hint": "From (0,0) to (-4,-2) — the vector is (-4, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "146": {
+      "hint": "From (0,0) to (-3,0) — the vector is (-3, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "147": {
+      "hint": "From (0,0) to (-2,2) — the vector is (-2, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "148": {
+      "hint": "From (0,0) to (-1,4) — the vector is (-1, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "149": {
+      "hint": "From (0,0) to (0,-3) — the vector is (0, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "150": {
+      "hint": "From (0,0) to (1,-1) — the vector is (1, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "151": {
+      "hint": "From (0,0) to (2,1) — the vector is (2, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "152": {
+      "hint": "From (0,0) to (3,3) — the vector is (3, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "153": {
+      "hint": "From (0,0) to (4,-4) — the vector is (4, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "154": {
+      "hint": "From (0,0) to (5,-2) — the vector is (5, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "155": {
+      "hint": "From (0,0) to (-5,0) — the vector is (-5, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "156": {
+      "hint": "From (0,0) to (-4,2) — the vector is (-4, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "157": {
+      "hint": "From (0,0) to (-3,4) — the vector is (-3, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "158": {
+      "hint": "From (0,0) to (-2,-3) — the vector is (-2, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "159": {
+      "hint": "From (0,0) to (-1,-1) — the vector is (-1, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "160": {
+      "hint": "From (0,0) to (0,1) — the vector is (0, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "161": {
+      "hint": "From (0,0) to (1,3) — the vector is (1, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "162": {
+      "hint": "From (0,0) to (2,-4) — the vector is (2, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "163": {
+      "hint": "From (0,0) to (3,-2) — the vector is (3, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "164": {
+      "hint": "From (0,0) to (4,0) — the vector is (4, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "165": {
+      "hint": "From (0,0) to (5,2) — the vector is (5, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "166": {
+      "hint": "From (0,0) to (-5,4) — the vector is (-5, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "167": {
+      "hint": "From (0,0) to (-4,-3) — the vector is (-4, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "168": {
+      "hint": "From (0,0) to (-3,-1) — the vector is (-3, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "169": {
+      "hint": "From (0,0) to (-2,1) — the vector is (-2, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "170": {
+      "hint": "From (0,0) to (-1,3) — the vector is (-1, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "171": {
+      "hint": "From (0,0) to (0,-4) — the vector is (0, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "172": {
+      "hint": "From (0,0) to (1,-2) — the vector is (1, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "173": {
+      "hint": "From (0,0) to (2,0) — the vector is (2, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "174": {
+      "hint": "From (0,0) to (3,2) — the vector is (3, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "175": {
+      "hint": "From (0,0) to (4,4) — the vector is (4, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "176": {
+      "hint": "From (0,0) to (5,-3) — the vector is (5, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "177": {
+      "hint": "From (0,0) to (-5,-1) — the vector is (-5, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "178": {
+      "hint": "From (0,0) to (-4,1) — the vector is (-4, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "179": {
+      "hint": "From (0,0) to (-3,3) — the vector is (-3, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "180": {
+      "hint": "From (0,0) to (-2,-4) — the vector is (-2, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "181": {
+      "hint": "From (0,0) to (-1,-2) — the vector is (-1, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "182": {
+      "hint": "From (0,0) to (0,0) — the vector is (0, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "183": {
+      "hint": "From (0,0) to (1,2) — the vector is (1, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "184": {
+      "hint": "From (0,0) to (2,4) — the vector is (2, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "185": {
+      "hint": "From (0,0) to (3,-3) — the vector is (3, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "186": {
+      "hint": "From (0,0) to (4,-1) — the vector is (4, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "187": {
+      "hint": "From (0,0) to (5,1) — the vector is (5, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "188": {
+      "hint": "From (0,0) to (-5,3) — the vector is (-5, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "189": {
+      "hint": "From (0,0) to (-4,-4) — the vector is (-4, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "190": {
+      "hint": "From (0,0) to (-3,-2) — the vector is (-3, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "191": {
+      "hint": "From (0,0) to (-2,0) — the vector is (-2, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "192": {
+      "hint": "From (0,0) to (-1,2) — the vector is (-1, 2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "193": {
+      "hint": "From (0,0) to (0,4) — the vector is (0, 4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "194": {
+      "hint": "From (0,0) to (1,-3) — the vector is (1, -3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "195": {
+      "hint": "From (0,0) to (2,-1) — the vector is (2, -1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "196": {
+      "hint": "From (0,0) to (3,1) — the vector is (3, 1).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "197": {
+      "hint": "From (0,0) to (4,3) — the vector is (4, 3).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "198": {
+      "hint": "From (0,0) to (5,-4) — the vector is (5, -4).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "199": {
+      "hint": "From (0,0) to (-5,-2) — the vector is (-5, -2).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    },
+    "200": {
+      "hint": "From (0,0) to (-4,0) — the vector is (-4, 0).",
+      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+    }
+  }
+}

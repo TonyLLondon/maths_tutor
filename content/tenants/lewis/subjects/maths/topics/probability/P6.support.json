@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "A coin has two sides — name both results.",
+      "help": "One flip: **heads** or **tails**.\n\nList both — the two equally likely outcomes."
+    },
+    "2": {
+      "hint": "Multiply choices: 2 tops × 2 hats.",
+      "help": "Outfits = $2 \\times 2 = 4$.\n\nPair each top with each hat systematically."
+    },
+    "3": {
+      "hint": "One digit chosen from 1, 2, 3 — list each choice.",
+      "help": "Possible numbers: **1**, **2**, **3**.\n\nThree single-digit outcomes."
+    },
+    "4": {
+      "hint": "Two orders: AB and BA.",
+      "help": "With two different letters, order matters: **AB** is not the same as **BA**.\n\nList both arrangements: **AB** and **BA**.\n\nThat is the complete set of orders for A and B."
+    },
+    "5": {
+      "hint": "2 snacks × 2 drinks — count all pairs.",
+      "help": "Choices = $2 \\times 2 = 4$.\n\nExample pairs: apple+water, apple+milk, banana+water, banana+milk."
+    },
+    "6": {
+      "hint": "Pair A with 1 and 2, then B with 1 and 2.",
+      "help": "Fix the letter first, then run through both numbers.\n\nList: **A1**, **A2**, **B1**, **B2**.\n\nYou get four ordered pairs — none missing, none repeated."
+    },
+    "7": {
+      "hint": "Each of 3 shirts goes with the one pair of trousers.",
+      "help": "Outfits = $3 \\times 1 = 3$.\n\nThree shirt choices, same trousers each time."
+    },
+    "8": {
+      "hint": "A clear order helps you see when the list is complete.",
+      "help": "Systematic order stops you **missing** or **duplicating** outcomes.\n\nExplain in one or two sentences why neat listing helps."
+    },
+    "9": {
+      "hint": "Same as question 4 — both orders of A and B.",
+      "help": "Two letters in a row gives two possible orders.\n\nList **AB** and **BA** — the only permutations when both letters are used once.\n\nCount: **2** arrangements."
+    },
+    "10": {
+      "hint": "2 soups × 2 breads.",
+      "help": "Meals = $2 \\times 2 = 4$.\n\nList tomato/white, tomato/brown, vegetable/white, vegetable/brown."
+    },
+    "11": {
+      "hint": "2 digits × 2 letters for the code.",
+      "help": "Each digit pairs with each letter independently.\n\nCodes = $2 \\times 2 = 4$.\n\nWrite them out: **1A**, **1B**, **2A**, **2B** so you see every combination."
+    },
+    "12": {
+      "hint": "2 games × 3 snacks.",
+      "help": "Pick one of 2 games and one of 3 snacks for each choice.\n\nTotal choices = $2 \\times 3 = 6$.\n\nMultiply when the two decisions are independent."
+    },
+    "13": {
+      "hint": "Use each digit once in the tens place, then ones — no repeats.",
+      "help": "Two-digit numbers without repeat from {1,2,3}: 12, 13, 21, 23, 31, 32.\n\n**Six** numbers — check you have all permutations of two digits."
+    },
+    "14": {
+      "hint": "List ABC, ACB, BAC, BCA, CAB, CBA.",
+      "help": "Three letters in a row: **6** arrangements ($3 \\times 2 \\times 1$).\n\nList all six systematically."
+    },
+    "15": {
+      "hint": "Pair each starter with each main — 2 × 3 meals.",
+      "help": "List: soup+pasta, soup+fish, soup+chicken, salad+pasta, salad+fish, salad+chicken.\n\n**Six** combinations."
+    },
+    "16": {
+      "hint": "Two-digit codes from 1–4 without repeat — list like 12, 13, …",
+      "help": "There are $4 \\times 3 = 12$ codes.\n\nStart with 1 in first place: 12,13,14; then 2 first: 21,23,24; continue systematically."
+    },
+    "17": {
+      "hint": "Tens digit at least 4; digits 3,4,5 with repeats allowed.",
+      "help": "Greater than 40: 43,44,45,53,54,55 etc. — work by tens digit 4 or 5.\n\nList every valid two-digit number systematically."
+    },
+    "18": {
+      "hint": "Label shirts S1,S2,S3 and trousers T1,T2 — list every pair.",
+      "help": "Count = $3 \\times 2 = 6$.\n\nList S1T1, S1T2, S2T1, S2T2, S3T1, S3T2."
+    },
+    "19": {
+      "hint": "Six orders of X, Y, Z — same idea as ABC.",
+      "help": "Three different letters in a row can be arranged in every order.\n\nList: **XYZ, XZY, YXZ, YZX, ZXY, ZYX**.\n\nThere are **6** arrangements — same as for A, B, C."
+    },
+    "20": {
+      "hint": "Combine H and T with dice 1 through 6 — H1, H2, … T6.",
+      "help": "Six outcomes for heads plus six for tails: **H1…H6, T1…T6**.\n\nTotal **12** equally likely outcomes."
+    },
+    "21": {
+      "hint": "Three digits, each place 1 or 2 — eight numbers like 111, 112, …",
+      "help": "Each of 3 positions has 2 choices: $2^3 = 8$ numbers.\n\nList 111, 112, 121, 122, 211, 212, 221, 222."
+    },
+    "22": {
+      "hint": "2 breads × 4 fillings — list every sandwich name.",
+      "help": "Total = **8** sandwiches.\n\nList each bread with each filling in order."
+    },
+    "23": {
+      "hint": "Order does not matter — AB is same pair as BA.",
+      "help": "Pairs: **AB**, **AC**, **AD** — only **3** pairs.\n\nDo not list BA if AB is the same choice."
+    },
+    "24": {
+      "hint": "Start with smallest tens digit 5, list all no-repeat numbers, then 6, then 7, then 8.",
+      "help": "From digits 5,6,7,8 without repeat: $4 \\times 3 = 12$ two-digit numbers.\n\nList from 56,57,58, … up through 87 systematically."
+    },
+    "25": {
+      "hint": "Two flips give four outcomes — Archer missed one with two heads.",
+      "help": "Correct list: **HH**, **HT**, **TH**, **TT** — **four** outcomes.\n\nArcher missed **TH** (heads then tails).\n\nExplain and fix the list."
+    },
+    "26": {
+      "hint": "Group by first coin H then all T outcomes — why does that help?",
+      "help": "Fix the first choice, vary the second — you cover all pairs once.\n\nExplain that systematic grouping avoids gaps and repeats."
+    },
+    "27": {
+      "hint": "If order does not matter, how many pairs from A,B,C?",
+      "help": "Pairs: AB, AC, BC — only **3**, not 6.\n\nSloan counted ordered pairs; order **does not matter** here.\n\nList three pairs."
+    },
+    "28": {
+      "hint": "3 shirts and 2 trousers — multiply options; example 2×3=6 meals.",
+      "help": "Independent choices multiply: $3 \\times 2 = 6$ outfits.\n\nExample: 2 drinks × 3 snacks = 6.\n\nSay **true** with example."
+    },
+    "29": {
+      "hint": "Two-digit no-repeat from 1,2,3 should include 32 and 31 among others.",
+      "help": "Missing numbers like **32** (and check full set of six).\n\nComplete list: 12,13,21,23,31,**32**.\n\nExplain what was left out."
+    },
+    "30": {
+      "hint": "Arranging ABC order matters; choosing friends A&B order does not.",
+      "help": "Order matters: **AB** vs **BA** are different arrangements.\n\nOrder does not matter: team {A,B} same as {B,A}.\n\nGive one example of each type."
+    },
+    "31": {
+      "hint": "Each shirt pairs with each trouser — multiply, do not add.",
+      "help": "Priya is **wrong**.\n\nCorrect: $3 \\times 4 = 12$ outfits.\n\nExplain multiplication for independent choices."
+    },
+    "32": {
+      "hint": "Multiply 3 × 2 × 2 for sandwich, drink, dessert.",
+      "help": "Total meals = $3 \\times 2 \\times 2 = 12$.\n\nDescribe nesting loops: pick sandwich, then drink, then dessert."
+    },
+    "33": {
+      "hint": "Each of 4 PIN digits is 1 or 2 with repeat — $2^4$.",
+      "help": "PINs = $2^4 = 16$.\n\nExplain counting digit by digit with two choices each."
+    },
+    "34": {
+      "hint": "Three people in a line — six orders like ABC problem.",
+      "help": "Orders: A-S-P, A-P-S, S-A-P, S-P-A, P-A-S, P-S-A.\n\n**6** permutations."
+    },
+    "35": {
+      "hint": "Order matters: AB ≠ BA — count pairs from 5 letters.",
+      "help": "Codes = $5 \\times 4 = 20$ (pick first letter, then different second).\n\nExplain ordered pairs from 5 letters."
+    },
+    "36": {
+      "hint": "5 × 6 = 30; check with smaller 2 starters × 3 mains = 6 by listing.",
+      "help": "Full menu: $5 \\times 6 = 30$.\n\nSmall check: list 2×3=6 pairs to show systematic listing matches multiply."
+    },
+    "37": {
+      "hint": "Use 20p and 10p coins summing to 50p — list combinations.",
+      "help": "Possibilities: **20+20+10**, **20+10+10+10**, **10×5**.\n\nList all coin combinations that total 50p."
+    },
+    "38": {
+      "hint": "Choose 2 colours from 4 where order does not matter — list pairs.",
+      "help": "Pairs: red-blue, red-green, red-yellow, blue-green, blue-yellow, green-yellow.\n\n**6** pairs ($\\frac{4 \\times 3}{2}$)."
+    },
+    "39": {
+      "hint": "Group by which dice show the same number without listing all 216 triples.",
+      "help": "Strategy: count cases where dice 1 and 2 match, etc., or use complement.\n\nExplain grouping by **which dice are equal** rather than writing every triple."
+    },
+    "40": {
+      "hint": "Each course choice multiplies: s × m × d total meals.",
+      "help": "Total = **s × m × d**.\n\nFor each starter, every main pairs with every dessert — multiplication counts the full list."
+    },
+    "41": {
+      "hint": "Missing one outcome in a probability list changes the fraction.",
+      "help": "Example: two coins listed as HH, HT, TT — P(HH) wrongly $\\frac{1}{3}$ instead of $\\frac{1}{4}$.\n\nSystematic listing prevents missing **TH**."
+    },
+    "42": {
+      "hint": "Four people in a queue — 4×3×2×1 arrangements.",
+      "help": "Method: 4 choices for first place, 3 for second, 2 for third, 1 left.\n\nTotal = **24** arrangements."
+    },
+    "43": {
+      "hint": "Two shirts and one pair of trousers — count each shirt once.",
+      "help": "Each shirt pairs with the only trousers.\n\n2 shirts × 1 trouser = **2** outfits.\n\nList shirt 1 + trousers, shirt 2 + trousers."
+    },
+    "44": {
+      "hint": "Pair each of 2 shirts with each of 2 trousers.",
+      "help": "Multiply shirt choices by trouser choices.\n\n2 × 2 = **4** outfits.\n\nList systematically: first shirt with both trousers, then second shirt with both."
+    },
+    "45": {
+      "hint": "Fix the side first; pair each side with every main.",
+      "help": "Pick one side and pair it with **every** main before moving to the next side.\n\n3 sides × 3 mains → **9** meals. A table with sides as rows stops gaps."
+    },
+    "46": {
+      "hint": "List 1A, 1B, then 2A, 2B, then 3A, 3B.",
+      "help": "Use digit then letter. For digit 1 write **1A, 1B**; repeat for 2 and 3.\n\n3 × 2 = **6** codes."
+    },
+    "47": {
+      "hint": "Write all H outcomes, then all T outcomes.",
+      "help": "List **HH, HT, TH, TT** — four equally likely outcomes.\n\nOrder matters: **HT** is not the same as **TH**."
+    },
+    "48": {
+      "hint": "Group by colour: all Red pairs, then Green, then Blue.",
+      "help": "For each colour, list **(colour, H)** and **(colour, T)**.\n\n3 × 2 = **6** outcomes."
+    },
+    "49": {
+      "hint": "List Home→School→… then Home→Library→…",
+      "help": "Middle stop is School or Library; each links to bus or walk.\n\n2 × 2 = **4** full journeys."
+    },
+    "50": {
+      "hint": "Two letters in two slots — list like a tiny alphabet.",
+      "help": "Two slots, each M or N with repeats: **MM, MN, NM, NN**.\n\n$2 \\times 2 = 4$ strings."
+    },
+    "51": {
+      "hint": "Hold the fruit fixed; run through each yogurt.",
+      "help": "Fix apple: three yogurts; fix banana: three yogurts.\n\n2 × 3 = **6** trays."
+    },
+    "52": {
+      "hint": "Write all 1/2 triples in order, then drop 111.",
+      "help": "There are $2^3=8$ triples of 1/2; remove **111**.\n\n**7** valid codes remain."
+    },
+    "53": {
+      "hint": "Split routes by first stop B or C.",
+      "help": "From **A**, go via **B** (then D or E) or via **C** (then D or F).\n\nFour two-step routes."
+    },
+    "54": {
+      "hint": "Tens digit 4 then 5; ones can repeat.",
+      "help": "Tens digit 4: **44, 45**; tens digit 5: **54, 55**.\n\n**4** numbers when repeats are allowed."
+    },
+    "55": {
+      "hint": "Tomato with each roll, then vegetable with each roll.",
+      "help": "Tomato with each roll (3), then vegetable with each roll (3).\n\n2 × 3 = **6** deals."
+    },
+    "56": {
+      "hint": "X codes first, then Y codes with digits 1–3.",
+      "help": "**X1, X2, X3**, then **Y1, Y2, Y3**.\n\n2 × 3 = **6** passwords."
+    },
+    "57": {
+      "hint": "Fix the first die; list second die 1 then 2.",
+      "help": "Ordered pairs: **(1,1), (1,2), (2,1), (2,2)**.\n\n$2 \\times 2 = 4$ outcomes."
+    },
+    "58": {
+      "hint": "Circle with gold/silver, then square, then triangle.",
+      "help": "Each shape with gold and silver: circle G/S, square G/S, triangle G/S.\n\n3 × 2 = **6** badges."
+    },
+    "59": {
+      "hint": "Three letters R or U — how many 2×2×2 patterns?",
+      "help": "Each step doubles paths: $2^3 = 8$ strings like **RRR, RRU, …, UUU**."
+    },
+    "60": {
+      "hint": "Salt small/large, then cheese small/large.",
+      "help": "Salt small/large; cheese small/large.\n\n2 × 2 = **4** orders."
+    },
+    "61": {
+      "hint": "Pen with each tool, then pencil with each tool.",
+      "help": "Pen with ruler, rubber, sharpener; repeat for pencil.\n\n2 × 3 = **6** kits."
+    },
+    "62": {
+      "hint": "Heads Win/Lose, then tails Win/Lose.",
+      "help": "List **(H, Win), (H, Lose), (T, Win), (T, Lose)**.\n\n2 × 2 = **4** outcomes."
+    },
+    "63": {
+      "hint": "Fix P first and list Q/R orders, then Q, then R.",
+      "help": "Fix **P** first: **PQR, PRQ**; then **Q** first, then **R** first.\n\n3 × 2 = **6** arrangements."
+    },
+    "64": {
+      "hint": "Cola with each snack, then juice, then water.",
+      "help": "Each drink with popcorn and nachos.\n\n3 × 2 = **6** combos.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "65": {
+      "hint": "First digit 0,1,2 — second must differ.",
+      "help": "Pick first digit from {0,1,2}; second must differ → 3 × 2 = **6** extensions."
+    },
+    "66": {
+      "hint": "Rows for first roll 1, then 2, then 3.",
+      "help": "Group by first roll 1 (three pairs), then 2, then 3.\n\n3 × 3 = **9** ordered outcomes."
+    },
+    "67": {
+      "hint": "Only two middle places from Start.",
+      "help": "Only **Start–North–Finish** and **Start–East–Finish** exist.\n\n**2** routes."
+    },
+    "68": {
+      "hint": "All A codes, then B, C, D with 1 and 2.",
+      "help": "List **A1, A2, B1, B2, C1, C2, D1, D2**.\n\n4 × 2 = **8** codes."
+    },
+    "69": {
+      "hint": "Denim with every scarf–hat, then fleece the same.",
+      "help": "Fix denim jacket: 3 scarves × 2 hats = 6 outfits; same for fleece.\n\n2 × 3 × 2 = **12** total."
+    },
+    "70": {
+      "hint": "What T outcome is not written yet?",
+      "help": "Full sample space is **H1, H2, T1, T2**.\n\n**T2** was missing from the partial list."
+    },
+    "71": {
+      "hint": "Depot→Annex→City and Depot→Bay→City.",
+      "help": "**Depot–Annex–City** and **Depot–Bay–City**.\n\n**2** routes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "72": {
+      "hint": "The second spinner value can also be 2.",
+      "help": "Spinner pairs are **(1,1), (1,2), (2,1), (2,2)**.\n\n**(2,2)** was missing."
+    },
+    "73": {
+      "hint": "No repeated letter — list alphabetically.",
+      "help": "No repeat: list **EF, EG, FE, FG, GE, GF** alphabetically.\n\n**6** codes."
+    },
+    "74": {
+      "hint": "Burger with each side, then wrap with each side.",
+      "help": "Burger with fries, salad, soup; then wrap with each side.\n\n2 × 3 = **6** trays."
+    },
+    "75": {
+      "hint": "Smallest tens digit 2, list no-repeat pairs.",
+      "help": "No repeat from {2,3,4}: **23, 24, 32, 34, 42, 43**.\n\n**6** codes."
+    },
+    "76": {
+      "hint": "Vowel first, then each consonant.",
+      "help": "**A** with B,C,D then **E** with B,C,D → **6** codes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "77": {
+      "hint": "Each digit 1–5 with M and with N.",
+      "help": "Digits 1–5 each with **M** and **N** → 5 × 2 = **10** labels."
+    },
+    "78": {
+      "hint": "Same as two coin flips in order.",
+      "help": "Length-two sequences on {H,T} match two coin flips: **4** sequences."
+    },
+    "79": {
+      "hint": "Even tens {2,4} with each odd ones digit.",
+      "help": "Even first {2,4} × odd second {1,3,5} → 2 × 3 = **6** PINs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "80": {
+      "hint": "Each size with red, blue, yellow.",
+      "help": "Each size with three colours → 2 × 3 = **6** stickers.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "81": {
+      "hint": "Table with first die 1,2,3 down the rows.",
+      "help": "Build a 3×3 table for two dice numbered 1–3.\n\n**9** ordered pairs."
+    },
+    "82": {
+      "hint": "Three slots A/B — list like counting to 8 in binary.",
+      "help": "Three slots A/B with repeats → **8** strings from AAA to BBB."
+    },
+    "83": {
+      "hint": "First digit four choices, second three different.",
+      "help": "First digit four choices; second digit three remaining → 4 × 3 = **12** codes."
+    },
+    "84": {
+      "hint": "Which starter–main pair is not on the list?",
+      "help": "Full menu 2×2 has four pairs; the list had three — **(vegetable, fish)** is missing."
+    },
+    "85": {
+      "hint": "Count from 000 up to 111 in binary.",
+      "help": "Binary codes **000** through **111** — **8** codes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "86": {
+      "hint": "Who crosses the line first?",
+      "help": "Order matters: **Ana–Bo** and **Bo–Ana** are different.\n\n**2** orders."
+    },
+    "87": {
+      "hint": "List pairs alphabetically without repeats.",
+      "help": "Four toppings, choose 2 unordered: **6** pairs listed alphabetically."
+    },
+    "88": {
+      "hint": "Exactly one U in three letters — where can it sit?",
+      "help": "Three steps with one **U**: **URR, RUR, RRU**.\n\n**3** paths."
+    },
+    "89": {
+      "hint": "Heads with 1–4, then tails with 1–4.",
+      "help": "Systematic list: **H1–H4**, then **T1–T4** → 2 × 4 = **8** outcomes."
+    },
+    "90": {
+      "hint": "First spinner row 1,2,3 each with B=1,2.",
+      "help": "Table: rows 1–3 (spinner A), columns 1–2 (spinner B).\n\n3 × 2 = **6** pairs."
+    },
+    "91": {
+      "hint": "M then 1–4, then N then 1–4.",
+      "help": "**M1–M4** then **N1–N4** → 2 × 4 = **8** codes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "92": {
+      "hint": "Which mixed outcome is absent?",
+      "help": "Four outcomes need **HT** as well as **TH**.\n\nMissing **HT**."
+    },
+    "93": {
+      "hint": "Double from one flip to the next: H then HH, HT…",
+      "help": "One coin → 2; two coins → 4; three coins → **8** (double each time)."
+    },
+    "94": {
+      "hint": "Sum 3 means 1+2 or 2+1 on dice 1–2.",
+      "help": "Sum 3 on dice {1,2}: **(1,2)** and **(2,1)** only.\n\n**2** pairs."
+    },
+    "95": {
+      "hint": "Coat first, then each gloves with each boots colour.",
+      "help": "Coat (2) × gloves (2) × boots (2) = **8** — list coat by coat."
+    },
+    "96": {
+      "hint": "Starter 1 with all mains, then starter 2.",
+      "help": "Starter 1 with 4 mains, starter 2 with 4 mains → 2 × 4 = **8** meals."
+    },
+    "97": {
+      "hint": "Pick first digit; second cannot match.",
+      "help": "First digit three choices; second two others → 3 × 2 = **6** codes."
+    },
+    "98": {
+      "hint": "Middle visit B and C once before returning to A.",
+      "help": "Visit **B** and **C** once: **A→B→C→A** and **A→C→B→A**.\n\n**2** loops."
+    },
+    "99": {
+      "hint": "Same six permutations idea as ABC.",
+      "help": "Six permutations of three distinct letters — same method as **ABC**."
+    },
+    "100": {
+      "hint": "Red/black then number 1, 2, 3.",
+      "help": "Colour then number: 2 × 3 = **6** outcomes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "101": {
+      "hint": "You should have four digit–letter codes.",
+      "help": "Complete set **1A, 1B, 2A, 2B** — missing **2B**.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "102": {
+      "hint": "Sandwich loop inside drink–dessert loop.",
+      "help": "Outer loop sandwich, inner loops drink and dessert → $2^3 = 8$ meals."
+    },
+    "103": {
+      "hint": "Would BA be a different friendship pair?",
+      "help": "For a pair of friends, **AB** and **BA** are the same choice.\n\nSay **true** and explain."
+    },
+    "104": {
+      "hint": "Only two hubs between Station and Town.",
+      "help": "Two hubs only → **Station–North–Town** and **Station–South–Town**."
+    },
+    "105": {
+      "hint": "Two steps R/U — four possibilities total.",
+      "help": "Two-step R/U: **RR, RU, UR, UU** — missing **UR**.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "106": {
+      "hint": "Start tens digit 6, then 7, then 8.",
+      "help": "From digits 6,7,8 pick two different → **6** numbers starting 67, 68, …"
+    },
+    "107": {
+      "hint": "Fix first spin; three second spins each time.",
+      "help": "Fix first spin **A** (three second spins), repeat for **B** and **C**.\n\n3 × 3 = **9**."
+    },
+    "108": {
+      "hint": "How many T outcomes should there be?",
+      "help": "Need **H1–H6** and **T1–T6** — list shown only **T1–T5**.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "109": {
+      "hint": "One starter fixed gives a 3×3 main–dessert block.",
+      "help": "Each starter has 3×3 = 9 main–dessert pairs; three starters → **27** meals."
+    },
+    "110": {
+      "hint": "Stripes/dots with each colour.",
+      "help": "Pattern × colour: 2 × 3 = **6** wristbands.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "111": {
+      "hint": "x=1 with y=1..3, then x=2 with y=1..3.",
+      "help": "Grid 2×3 for (x,y) with x∈{1,2}, y∈{1,2,3}.\n\n**6** pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "112": {
+      "hint": "Tails then heads is its own outcome.",
+      "help": "Two flips must include **TH** — tails then heads.\n\nExplain in a sentence."
+    },
+    "113": {
+      "hint": "Two different letters from three — six orders.",
+      "help": "Three letters, no repeat: **6** two-letter codes alphabetically."
+    },
+    "114": {
+      "hint": "Monday/Tuesday each with morning/afternoon.",
+      "help": "2 days × 2 times = **4** ticket choices.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "115": {
+      "hint": "Put the single U in each slot of RRR.",
+      "help": "One **U** among three moves → **3** strings.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "116": {
+      "hint": "Triple nested loop: sandwich, drink, fruit.",
+      "help": "Sandwich × drink × fruit: 2 × 2 × 2 = **8** lunches.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "117": {
+      "hint": "Four slots: 4×3×2×1 placements.",
+      "help": "Four books in a row: 4 × 3 × 2 × 1 = **24** orders.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "118": {
+      "hint": "Group codes by first digit 1,2,3,4.",
+      "help": "First digit 1: three second digits; repeat for 2,3,4 → 4 × 3 = **12**."
+    },
+    "119": {
+      "hint": "Camp→Lake→Base and Camp→Peak→Base.",
+      "help": "**Camp–Lake–Base** and **Camp–Peak–Base**.\n\n**2** routes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "120": {
+      "hint": "List pairs in alphabetical order without repeats.",
+      "help": "Five flavours, pairs unordered → $\\binom{5}{2} = 10$ pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "121": {
+      "hint": "Coin splits the list into two equal halves.",
+      "help": "Coin splits outcomes: 2 × 3 × 2 = **12** combined results.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "122": {
+      "hint": "2×4 grid of pairs.",
+      "help": "2 × 4 grid → **8** ordered pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "123": {
+      "hint": "Why list (1,2) and (2,1) separately in a table?",
+      "help": "When order matters in a table, **(1,2)** and **(2,1)** are separate cells."
+    },
+    "124": {
+      "hint": "First letter three choices, second two different.",
+      "help": "3 × 2 = **6** two-letter codes without repeat from {A,B,C}.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "125": {
+      "hint": "Each starter owns a 2×2 main–dessert block.",
+      "help": "Each of 3 starters owns 2×2 = 4 meals → 3 × 4 = **12**.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "126": {
+      "hint": "Four yes/no choices multiply.",
+      "help": "Four independent binary choices → $2^4 = 16$ sequences.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "127": {
+      "hint": "Fix Ana first and permute the other two.",
+      "help": "Fix first person; permute others → 3 × 2 = **6** photo lines."
+    },
+    "128": {
+      "hint": "Five choices for first letter, four for second.",
+      "help": "5 × 4 = **20** ordered letter pairs without repeat.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "129": {
+      "hint": "Start with most 10p coins, then swap a 20p.",
+      "help": "40p: **4×10p**, **2×20p**, **20p+2×10p** → **3** combinations."
+    },
+    "130": {
+      "hint": "Shape, then colour, then border nested.",
+      "help": "2 × 2 × 2 nested loops → **8** badge designs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "131": {
+      "hint": "Two flips give four rows; each with six dice.",
+      "help": "Two flips (4 outcomes) each with a dice (6) → 4 × 6 = **24**."
+    },
+    "132": {
+      "hint": "Which pairs add to four on 1–3 dice?",
+      "help": "Sum 4 on 1–3 dice: **(1,3), (2,2), (3,1)** — **3** pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "133": {
+      "hint": "Six starter–main pairs — which is absent?",
+      "help": "6 starter–main pairs expected; identify the absent one (e.g. **salad–pie**)."
+    },
+    "134": {
+      "hint": "Digit {1,2} then digit {0,1,2,3}.",
+      "help": "2 × 4 = **8** product codes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "135": {
+      "hint": "Four slots, choose two positions for U.",
+      "help": "Choose two **U** positions in four slots → $\\binom{4}{2} = 6$ paths."
+    },
+    "136": {
+      "hint": "Multiply choices at each course.",
+      "help": "3 × 2 × 4 = **24** dinners.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "137": {
+      "hint": "List 0000 through 1111 in binary order.",
+      "help": "Four binary digits → **16** strings **0000…1111**.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "138": {
+      "hint": "Each region with standard and first.",
+      "help": "3 regions × 2 classes = **6** tickets.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "139": {
+      "hint": "First letter four ways, second three different.",
+      "help": "4 × 3 = **12** ordered two-letter codes from PQRS.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "140": {
+      "hint": "HT and TH are not the same outcome.",
+      "help": "Sample space size **4**, not 3 — include **TH**.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "141": {
+      "hint": "Path to Hut (2) × path to Summit (2).",
+      "help": "2 paths to Hut × 2 paths to Summit = **4** trails.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "142": {
+      "hint": "Eight triples minus AAA only.",
+      "help": "Eight A/B triples minus forbidden **AAA** → **7** words.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "143": {
+      "hint": "Host (2) × challenge (5) × prize (2).",
+      "help": "2 × 5 × 2 = **20** show segments.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "144": {
+      "hint": "Three unordered day pairs.",
+      "help": "Three unordered day pairs from Mon,Tue,Wed.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "145": {
+      "hint": "Four spinner outcomes with H, four with T.",
+      "help": "Spinner 4 × coin 2 = **8** — group by H/T.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "146": {
+      "hint": "First digit 1 list, then 2 — what's missing?",
+      "help": "Listing by first digit reveals missing **31, 32, 34**.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "147": {
+      "hint": "Eight bays, each with shelves 1–5.",
+      "help": "8 bays × 10 bins = **80** locations.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "148": {
+      "hint": "Three switches → eight U/D strings.",
+      "help": "Three switches → **8** U/D patterns.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "149": {
+      "hint": "Five colours — list pairs alphabetically.",
+      "help": "$\\binom{5}{2} = 10$ colour pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "150": {
+      "hint": "Train/bus to Hub, then walk/taxi to School.",
+      "help": "2 × 2 = **4** City→Hub→School journeys.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "151": {
+      "hint": "Four slots, each A or B.",
+      "help": "Four slots A/B → $2^4 = 16$ passwords.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "152": {
+      "hint": "Four letters — 4×3×2×1 permutations.",
+      "help": "4! = **24** arrangements of LOVE.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "153": {
+      "hint": "Fix a main; list side×sauce grid.",
+      "help": "4 × 3 × 2 = **24** meal plans.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "154": {
+      "hint": "Even digit then any of six letters.",
+      "help": "Even digits {0,2,4} × six letters → 3 × 5 = **15** codes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "155": {
+      "hint": "Gate splits into three one-step routes.",
+      "help": "Three one-step branches from Gate → **3** routes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "156": {
+      "hint": "Six rows for first die, six entries each.",
+      "help": "6×6 table lists **36** dice outcomes once each.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "157": {
+      "hint": "Each animal with night, day, dawn.",
+      "help": "3 × 3 = **9** animal–background badges.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "158": {
+      "hint": "Only right moves — one pattern.",
+      "help": "Five Right moves only → **1** path **RRRRR**.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "159": {
+      "hint": "Permutations of 1,2,3 for three slots.",
+      "help": "Permutations of 1,2,3 → **6** three-digit codes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "160": {
+      "hint": "Fill five slots one book at a time.",
+      "help": "5 × 4 × 3 × 2 × 1 = **120** — true for five distinct books.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "161": {
+      "hint": "Home team four choices, away three others.",
+      "help": "4 home teams × 3 away opponents = **12** ordered fixtures.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "162": {
+      "hint": "Multiply four independent lunch choices.",
+      "help": "2 × 3 × 2 × 3 = **36** lunch boxes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "163": {
+      "hint": "Only digits 1 and 2; greater than 210.",
+      "help": "Greater than 210 using only 1/2: **211, 212, 221, 222** → **4** numbers."
+    },
+    "164": {
+      "hint": "Two steps: ++, +-, -+, --.",
+      "help": "Move sequences **++, +-, -+, --** → **4** two-step paths.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "165": {
+      "hint": "Choose three toppings from five — order ignored.",
+      "help": "$\\binom{5}{3} = 10$ topping triples.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "166": {
+      "hint": "Heads group: 6×6 dice pairs; same for tails.",
+      "help": "2 × 6 × 6 = **72** outcomes (group by coin).\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "167": {
+      "hint": "Start→A→Finish or Start→B→Finish.",
+      "help": "**Start–A–Finish** and **Start–B–Finish** only.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "168": {
+      "hint": "Four distinct items → 4! arrangements.",
+      "help": "4! = **24** permutations of four distinct symbols.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "169": {
+      "hint": "First letter four ways; second three others.",
+      "help": "4 × 3 = **12** passwords without repeated letter.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "170": {
+      "hint": "Three nested loops: transport, weather, mood.",
+      "help": "3 × 2 × 3 = **18** survey records.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "171": {
+      "hint": "Section × row × ticket type.",
+      "help": "4 × 6 × 2 = **48** ticket types.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "172": {
+      "hint": "Four steps, exactly two U — choose U positions.",
+      "help": "$\\binom{4}{2} = 6$ paths with two **U** in four steps.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "173": {
+      "hint": "5×4×3 for three distinct digits.",
+      "help": "5 × 4 × 3 = **60** three-digit codes without repeat.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "174": {
+      "hint": "Sort by number of heads: 0,1,2,3.",
+      "help": "Head counts 0–3 on three coins sum to **8** outcomes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "175": {
+      "hint": "5×5 grid of starter–main pairs.",
+      "help": "5 × 5 grid → **25** two-course meals.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "176": {
+      "hint": "Tree with two branches, depth four.",
+      "help": "Four flip positions → $2^4 = 16$ sequences.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "177": {
+      "hint": "Pick captain (6), secretary from remaining 5.",
+      "help": "6 × 5 = **30** captain–secretary pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "178": {
+      "hint": "Try 3×20p first, then fewer 20p coins.",
+      "help": "60p with 10p/20p: **4** combinations (including all 10p).\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "179": {
+      "hint": "Frame loop, inside font, inside colour.",
+      "help": "2 × 3 × 4 = **24** certificate styles.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "180": {
+      "hint": "Four rows (spinner 1) × three columns.",
+      "help": "4 × 3 = **12** spinner pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "181": {
+      "hint": "Five binary slots → 2⁵.",
+      "help": "Five binary digits → **32** PINs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "182": {
+      "hint": "Two As identical — only three patterns.",
+      "help": "Identical As: **AAB, ABA, BAA** — **3** arrangements.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "183": {
+      "hint": "Four zones, each with four durations.",
+      "help": "4 × 4 = **16** zone–duration passes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "184": {
+      "hint": "First letter six ways, second five others.",
+      "help": "6 × 5 = **30** ordered letter pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "185": {
+      "hint": "Four suits each with two sizes.",
+      "help": "4 × 2 = **8** suit–size outcomes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "186": {
+      "hint": "All eight triples minus TTT only.",
+      "help": "Eight minus **TTT** → **7** with at least one head.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "187": {
+      "hint": "Ten bins per bay — eight bays.",
+      "help": "8 × 10 = **80** bay–bin locations.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "188": {
+      "hint": "One starter gone → 3×3×2 meals.",
+      "help": "Remove one starter: 3 × 3 × 2 = **18** meals left.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "189": {
+      "hint": "Six steps, three U — choose positions for U.",
+      "help": "$\\binom{6}{3} = 20$ paths with three **U** in six steps.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "190": {
+      "hint": "Letter then three distinct digits: 5×10×9×8.",
+      "help": "5 × 10 × 9 × 8 = **3600** locker codes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "191": {
+      "hint": "Six-by-six table for two dice.",
+      "help": "Fix first die row — six entries per row → **36** cells.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "192": {
+      "hint": "Drop 000 and 111 from eight triples.",
+      "help": "Eight triples minus **000** and **111** → **6** codes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "193": {
+      "hint": "Three single-intermediate village routes.",
+      "help": "Three village intermediates → **3** Town–village–City routes."
+    },
+    "194": {
+      "hint": "Hundreds digit 1,2, or 3 — count each layer.",
+      "help": "Each digit 1/2/3 → $3^3 = 27$ three-digit numbers.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "195": {
+      "hint": "Multiply four kit choices.",
+      "help": "3 × 2 × 4 × 2 = **48** sports kits.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "196": {
+      "hint": "With replacement: 3×3 ordered pairs.",
+      "help": "With replacement 3 × 3 = **9** ordered colour pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "197": {
+      "hint": "List pairs alphabetically from six items.",
+      "help": "$\\binom{6}{2} = 15$ unordered pairs.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "198": {
+      "hint": "Day × area × upgrade yes/no.",
+      "help": "3 × 4 × 2 = **24** festival passes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "199": {
+      "hint": "Each coin flip doubles the previous count.",
+      "help": "Six coin flips → $2^6 = 64$ outcomes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    },
+    "200": {
+      "hint": "Project × version × language.",
+      "help": "2 × 5 × 3 = **30** file codes.\n\nWork in a fixed order so you can tick off each outcome once and spot anything missing."
+    }
+  }
+}

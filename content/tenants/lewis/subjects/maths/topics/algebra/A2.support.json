@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Replace $a$ with 2 everywhere you see it, then add 1.",
+      "help": "**Substitution** means swap the letter for its number value.\n\nWhen $a = 2$, the expression $a + 1$ becomes $2 + 1$.\n\nCalculate that sum to get the value of the expression."
+    },
+    "2": {
+      "hint": "Put 3 in place of $b$, then add 2.",
+      "help": "If $b = 3$, then $b + 2$ means $3 + 2$.\n\nWrite the number in brackets mentally if it helps: $(3) + 2$.\n\nThe result is the value of the whole expression."
+    },
+    "3": {
+      "hint": "Use $c = 4$ and subtract 1.",
+      "help": "Replace $c$ with 4: $4 - 1$.\n\nSubtraction comes after substitution.\n\nAnswer is 3."
+    },
+    "4": {
+      "hint": "Substitute $d = 5$ into $d + 3$.",
+      "help": "When $d = 5$, you compute $5 + 3$.\n\nLetters stand for fixed values in these questions.\n\nThe expression evaluates to 8."
+    },
+    "5": {
+      "hint": "$2x$ means 2 times $x$. With $x = 2$, multiply 2 by 2.",
+      "help": "The number in front of $x$ is the multiplier.\n\n$2x$ with $x = 2$ is $2 \\times 2 = 4$.\n\nDo not add 2 and 2 unless the expression says $x + x$."
+    },
+    "6": {
+      "hint": "Replace $y$ with 3 in $2y$.",
+      "help": "$2y$ means two lots of $y$.\n\nWith $y = 3$, calculate $2 \\times 3$.\n\nResult is 6."
+    },
+    "7": {
+      "hint": "$n + n$ means add the same number to itself. What is $4 + 4$?",
+      "help": "When $n = 4$, $n + n$ is $4 + 4$.\n\nThat is the same as $2n$ when $n = 4$.\n\nBoth give 8."
+    },
+    "8": {
+      "hint": "Substitute $p = 5$ and take away 2.",
+      "help": "Replace $p$ with 5: $5 - 2$.\n\nWork the subtraction carefully.\n\nThe value is 3."
+    },
+    "9": {
+      "hint": "Swap $x$ for 3 in $x + 5$.",
+      "help": "Substitution step: $x + 5$ becomes $3 + 5$ when $x = 3$.\n\nAdd to finish.\n\nAnswer is 8."
+    },
+    "10": {
+      "hint": "With $x = 4$, work out $2 \\times 4$.",
+      "help": "$2x$ at $x = 4$ is $2 \\times 4 = 8$.\n\nMultiply before you write the final answer.\n\nNo addition is needed here."
+    },
+    "11": {
+      "hint": "First find $3 \\times 5$, then subtract 2 from that product.",
+      "help": "Order: multiply $3 \\times 5 = 15$, then $15 - 2 = 13$.\n\nIn $3x - 2$, the times part happens before the minus 2.\n\nCheck each step on paper."
+    },
+    "12": {
+      "hint": "Multiply 4 by 2, then add 1.",
+      "help": "$4x + 1$ with $x = 2$: $4 \\times 2 = 8$, then $8 + 1 = 9$.\n\nCoefficient 4 multiplies the substituted value.\n\nFinal value is 9."
+    },
+    "13": {
+      "hint": "Replace both $a$ and $b$ with their numbers, then add.",
+      "help": "When $a = 6$ and $b = 2$, $a + b$ is $6 + 2$.\n\nSubstitute **every** letter before you calculate.\n\nSum is 8."
+    },
+    "14": {
+      "hint": "Use $a = 6$ and $b = 2$ in $a - b$.",
+      "help": "Substitute: $6 - 2$.\n\nSubtraction order matters — start with $a$, take away $b$.\n\nResult is 4."
+    },
+    "15": {
+      "hint": "$ab$ means $a \\times b$, so replace both letters with their given values and multiply them.",
+      "help": "When two letters sit together, $ab$ means $a\\times b$; it does not mean add the values or join their digits.\n\nSubstitute $a=3$ and $b=5$ before carrying out the multiplication. Keep negative values in brackets when they occur.\n\nFor a different example, if $p=4$ and $q=6$, then $pq=4\\times6=24$."
+    },
+    "16": {
+      "hint": "$x^2$ means $x \\times x$. What is $4 \\times 4$?",
+      "help": "Square the substituted value.\n\n$x = 4$ gives $4^2 = 4 \\times 4 = 16$.\n\nSquaring is not the same as doubling."
+    },
+    "17": {
+      "hint": "Square 3 first, then multiply that square by 2.",
+      "help": "Steps: $3^2 = 9$, then $2 \\times 9 = 18$.\n\nPowers before the coefficient multiply in $2x^2$.\n\nAnswer is 18."
+    },
+    "18": {
+      "hint": "Divide $y$ by 2 first, then add 1. Use $y = 10$.",
+      "help": "$\\dfrac{y}{2} + 1$ with $y = 10$: $10 \\div 2 = 5$, then $5 + 1 = 6$.\n\nDivision is part of the expression before the +1.\n\nResult is 6."
+    },
+    "19": {
+      "hint": "Put $-2$ in for $x$: what is $-2 + 6$?",
+      "help": "Negative numbers substitute like positive ones.\n\n$-2 + 6 = 4$.\n\nCount on a number line if needed."
+    },
+    "20": {
+      "hint": "Multiply 5 by $-3$ carefully — signs matter.",
+      "help": "$5x$ with $x = -3$ is $5 \\times (-3) = -15$.\n\nPositive times negative gives negative.\n\nCheck with a number line."
+    },
+    "21": {
+      "hint": "Replace $k$ with 5 and add 4.",
+      "help": "$k + 4$ when $k = 5$ is $5 + 4 = 9$.\n\nStraight substitution and addition.\n\nAnswer is 9."
+    },
+    "22": {
+      "hint": "Find $2 \\times 6$ first, then subtract 1.",
+      "help": "$2t - 1$ with $t = 6$: $2 \\times 6 = 12$, $12 - 1 = 11$.\n\nMultiply before subtracting.\n\nValue is 11."
+    },
+    "23": {
+      "hint": "Priya may have added 3 and 1 before multiplying. Do $3 \\times 2$ first, then add 1.",
+      "help": "Correct order for $3x + 1$ at $x = 2$: $3 \\times 2 = 6$, then $6 + 1 = 7$, not 9.\n\nIf Priya got 9, she might have done $(3+1) \\times 2$ or similar.\n\nExplain the mistake and give 7 as the correct value."
+    },
+    "24": {
+      "hint": "Plug in $x = 0$: what is $5 \\times 0 + 4$?",
+      "help": "$5x + 4$ at $x = 0$: $5 \\times 0 = 0$, so $0 + 4 = 4$.\n\nThis works every time you use $x = 0$.\n\nSo the statement is **always** true."
+    },
+    "25": {
+      "hint": "Squaring $-1$ means $(-1) \\times (-1)$, not $-1 \\times 1$ only.",
+      "help": "$(-1)^2 = (-1) \\times (-1) = 1$, not $-1$.\n\nSam treated squaring as just making the number negative.\n\nCorrect value of $x^2$ when $x = -1$ is 1."
+    },
+    "26": {
+      "hint": "Substitute $x = 5$ into each expression separately and compare the two results.",
+      "help": "$2x + 3$ at 5: $2 \\times 5 + 3 = 13$.\n\n$x + 8$ at 5: $5 + 8 = 13$.\n\nThey match here — show both calculations."
+    },
+    "27": {
+      "hint": "Try $x = 7$ in both $x + x$ and $2x$. Do you get the same number?",
+      "help": "$x + x$ at 7 is $7 + 7 = 14$.\n\n$2x$ at 7 is $2 \\times 7 = 14$.\n\nThey always match — the statement is **true**."
+    },
+    "28": {
+      "hint": "In $4x^2$, square $x$ first, then multiply by 4 — not $(4x)^2$ unless brackets say so.",
+      "help": "Correct at $x = 3$: $3^2 = 9$, then $4 \\times 9 = 36$.\n\nLeo's method $(4 \\times 3)^2 = 144$ squares too early.\n\nExplain order: power on $x$ before the 4 multiplies."
+    },
+    "29": {
+      "hint": "Evaluate $x^2$ and $2x$ at $x = 2$, then again at $x = 5$. Which is bigger each time?",
+      "help": "At $x = 2$: $x^2 = 4$, $2x = 4$ — equal.\n\nAt $x = 5$: $x^2 = 25$, $2x = 10$ — square is bigger.\n\nSquares grow faster than doubling for larger $x$."
+    },
+    "30": {
+      "hint": "Square $-4$ to get a positive 16, then add 3.",
+      "help": "$(-4)^2 = 16$, then $16 + 3 = 19$.\n\nMo likely did $-4^2$ as $-(4^2)$ or added wrongly.\n\nCorrect value is 19."
+    },
+    "31": {
+      "hint": "Replace $m$ with 5 in $C = 3 + 2m$.",
+      "help": "$C = 3 + 2 \\times 5 = 3 + 10 = 13$ pounds.\n\nThe 2 multiplies miles first, then add the £3 start fee.\n\nTotal cost is £13."
+    },
+    "32": {
+      "hint": "Substitute $w = 6$ into $S = 20 + 4w$.",
+      "help": "$S = 20 + 4 \\times 6 = 20 + 24 = 44$.\n\nStarting savings plus 4 pounds per week.\n\nAfter 6 weeks he has £44."
+    },
+    "33": {
+      "hint": "Multiply length 8 by width 5 in $A = lw$.",
+      "help": "$A = 8 \\times 5 = 40$ cm².\n\nBoth dimensions are in cm, so area is in square cm.\n\nAnswer is 40 cm²."
+    },
+    "34": {
+      "hint": "Put $t = 40$ into $P = 10 + 0.05t$.",
+      "help": "$0.05 \\times 40 = 2$, so $P = 10 + 2 = 12$ pounds.\n\nFixed £10 plus 5p per text.\n\nMonthly cost is £12."
+    },
+    "35": {
+      "hint": "Find $4s$ for $s = 7$, then again for $s = 14$.",
+      "help": "When $s = 7$: $P = 4 \\times 7 = 28$ cm.\n\nWhen $s = 14$: $P = 4 \\times 14 = 56$ cm.\n\nDoubling the side doubles the perimeter."
+    },
+    "36": {
+      "hint": "Substitute $w = 6$ and $d = 4$ into $3w + d$.",
+      "help": "$Pts = 3 \\times 6 + 4 = 18 + 4 = 22$ points.\n\nThree points per win plus one per draw.\n\nTotal is 22."
+    },
+    "37": {
+      "hint": "At $x = 4$, find $2x^2$, then $3x$, then combine with +1 and −3.",
+      "help": "$2(4^2) = 2 \\times 16 = 32$. $3x = 12$. So $32 - 12 + 1 = 21$.\n\nWork powers and products before adding/subtracting terms.\n\nValue is 21."
+    },
+    "38": {
+      "hint": "Square $a$, add $b$, then divide the sum by 2.",
+      "help": "$a = 4$, $b = 2$: $a^2 = 16$, $16 + 2 = 18$, $18 \\div 2 = 9$.\n\nFollow the fraction bar as divide last.\n\nAnswer is 9."
+    },
+    "39": {
+      "hint": "Calculate $(x+2)^2$ and $x^2 + 4$ separately at $x = 3$.",
+      "help": "$(3+2)^2 = 5^2 = 25$. $3^2 + 4 = 9 + 4 = 13$.\n\nThey are **different** — expanding $(x+2)^2$ needs the middle term $4x$.\n\nShow both numbers to prove they differ."
+    },
+    "40": {
+      "hint": "Plug $n = 1,2,3,4$ into $3n - 1$ to list terms, then use the pattern for $n = 10$.",
+      "help": "Terms: $3(1)-1=2$, $3(2)-1=5$, $3(3)-1=8$, $3(4)-1=11$.\n\nPattern adds 3 each time.\n\n10th term: $3(10)-1 = 29$."
+    },
+    "41": {
+      "hint": "Use $x = 3$ and $y = 2$ in each expression.",
+      "help": "$x + y = 3 + 2 = 5$.\n\n$2x - y = 2 \\times 3 - 2 = 6 - 2 = 4$.\n\nSubstitute both letters in each part."
+    },
+    "42": {
+      "hint": "Replace $n$ with 4 in $C = 5 + 2n$.",
+      "help": "$C = 5 + 2 \\times 4 = 5 + 8 = 13$ pounds.\n\n£5 base plus £2 per gigabyte.\n\nTotal is £13."
+    },
+    "43": {
+      "hint": "Replace $x$ with -3, then multiply and add.",
+      "help": "Substitute means **replace** the letter with the given number.\n\n$3x + 2$ with $x = -3$ becomes $3(-3) + 2$.\n\nMultiply first: $3 \\times -3 = -9$, then add 2."
+    },
+    "44": {
+      "hint": "Replace $x$ with -2, then multiply and add.",
+      "help": "Substitute means **replace** the letter with the given number.\n\n$3x + 3$ with $x = -2$ becomes $3(-2) + 3$.\n\nMultiply first: $3 \\times -2 = -6$, then add 3."
+    },
+    "45": {
+      "hint": "Replace $x$ with 5 in $4x - 7$, then multiply and subtract.",
+      "help": "$4x - 7$ with $x = 5$: $4 \\times 5 = 20$, then $20 - 7 = 13$.\n\n**Different example:** $3x - 4$ at $x = 2$ gives $6 - 4 = 2$.\n\nMultiply by the coefficient before subtracting the constant."
+    },
+    "46": {
+      "hint": "Replace $x$ with $-4$ in $x + 11$.",
+      "help": "Substitute: $-4 + 11 = 7$.\n\n**Different example:** if $x = 2$ in $x + 11$, get 13.\n\nWrite the negative value in brackets if it helps."
+    },
+    "47": {
+      "hint": "Put $a = 3$ and $b = 7$ into $2a + b$.",
+      "help": "$2(3) + 7 = 6 + 7 = 13$.\n\n**Different example:** $2(1) + 4 = 6$.\n\nMultiply before adding."
+    },
+    "48": {
+      "hint": "Square 6 first, then subtract 5 in $x^2 - 5$.",
+      "help": "$6^2 = 36$; $36 - 5 = 31$.\n\n**Different example:** $x = 4$ → $16 - 5 = 11$.\n\nPowers before subtraction."
+    },
+    "49": {
+      "hint": "Divide $y = 12$ by 3, then subtract 2.",
+      "help": "$12 ÷ 3 = 4$; $4 - 2 = 2$.\n\n**Different example:** $y = 9$ → $3 - 2 = 1$.\n\nDivision before subtraction here."
+    },
+    "50": {
+      "hint": "In $5 - 2x$, double $x = -1$ first, then subtract from 5.",
+      "help": "$2(-1) = -2$; $5 - (-2) = 7$.\n\n**Different example:** $5 - 2(2) = 1$.\n\nMind the minus sign in front of $2x$."
+    },
+    "51": {
+      "hint": "Find $p^2$ and $p$ when $p = 4$, then add.",
+      "help": "$4^2 + 4 = 16 + 4 = 20$.\n\n**Different example:** $p = 3$ → $9 + 3 = 12$.\n\nSquare the letter value, then add $p$."
+    },
+    "52": {
+      "hint": "$8x$ is zero when $x = 0$. What is $0 + 9$?",
+      "help": "$8(0) + 9 = 9$.\n\n**Different example:** $5x + 2$ at $x = 0$ → 2.\n\nAnything times 0 is 0."
+    },
+    "53": {
+      "hint": "Calculate $m - 2n$ with $m = 10$, $n = 3$.",
+      "help": "$10 - 2(3) = 10 - 6 = 4$.\n\n**Different example:** $8 - 2(2) = 4$.\n\nDouble $n$ before subtracting."
+    },
+    "54": {
+      "hint": "Triple $-5$ in $3x + 15$, then add 15.",
+      "help": "$3(-5) + 15 = -15 + 15 = 0$.\n\n**Different example:** $3(-2) + 15 = 9$.\n\nNegative × positive needs care."
+    },
+    "55": {
+      "hint": "Add 1 inside the bracket first: $2(t + 1)$ with $t = 7$.",
+      "help": "$7 + 1 = 8$; $2 × 8 = 16$.\n\n**Different example:** $2(3 + 1) = 8$.\n\nBracket before multiply."
+    },
+    "56": {
+      "hint": "$(3x)^2$ means square $3x$. Find $3x$ when $x = 2$, then square.",
+      "help": "$3(2) = 6$; $6^2 = 36$.\n\n**Different example:** $(2x)^2$ at $x = 3$ → $6^2 = 36$.\n\nSquare the whole $3x$, not just $x$."
+    },
+    "57": {
+      "hint": "Work out $2x + 4$ when $x = 8$, then divide by 4.",
+      "help": "$2(8) + 4 = 20$; $20 ÷ 4 = 5$.\n\n**Different example:** $(2x + 2)/2$ at $x = 5$ → 6.\n\nTop first, then divide."
+    },
+    "58": {
+      "hint": "Square $a = -2$, then add $b = 5$.",
+      "help": "$(-2)^2 + 5 = 4 + 5 = 9$.\n\n**Different example:** $a = -3$, $b = 1$ → $9 + 1 = 10$.\n\nSquaring removes the negative sign."
+    },
+    "59": {
+      "hint": "Multiply $1.5$ by 4 in $4x$.",
+      "help": "$4 × 1.5 = 6$.\n\n**Different example:** $4 × 0.5 = 2$.\n\nDecimals substitute like whole numbers."
+    },
+    "60": {
+      "hint": "Find $k/3$ when $k = 9$, then add $k$ again.",
+      "help": "$9/3 + 9 = 3 + 9 = 12$.\n\n**Different example:** $k = 6$ → $2 + 6 = 8$.\n\nDo the fraction part first."
+    },
+    "61": {
+      "hint": "Substitute $x = -3$ into $x^2 + 2x$.",
+      "help": "$(-3)^2 + 2(-3) = 9 - 6 = 3$.\n\n**Different example:** $x = -2$ → $4 - 4 = 0$.\n\nSquare first, then multiply $2x$."
+    },
+    "62": {
+      "hint": "$5x - 3x$ means subtract the $x$ terms before substituting $x = 4$.",
+      "help": "$5x - 3x = 2x$; $2(4) = 8$.\n\n**Different example:** $7x - 2x$ at $x = 3$ → 15.\n\nCollect like terms, then substitute."
+    },
+    "63": {
+      "hint": "Replace $r$ with 6 in $r(r - 1)$.",
+      "help": "$6(6 - 1) = 6 × 5 = 30$.\n\n**Different example:** $r = 4$ → $4 × 3 = 12$.\n\nBracket means multiply the two factors."
+    },
+    "64": {
+      "hint": "Find $x/2$ and $x/5$ when $x = 10$, then add.",
+      "help": "$10/2 + 10/5 = 5 + 2 = 7$.\n\n**Different example:** $x = 20$ → $10 + 4 = 14$.\n\nBoth fractions use the same $x$."
+    },
+    "65": {
+      "hint": "Calculate $3x$ and $2y$ separately with $x = 2$, $y = 5$, then add.",
+      "help": "$3(2) + 2(5) = 6 + 10 = 16$.\n\n**Different example:** $2x + y$ at $x = 1$, $y = 4$ → 6.\n\nEach letter has its own value."
+    },
+    "66": {
+      "hint": "Multiply $x$ and $y$ first in $xy + 4$.",
+      "help": "$(-2)(3) + 4 = -6 + 4 = -2$.\n\n**Different example:** $xy + 1$ at $x = 2$, $y = 3$ → 7.\n\nProduct $xy$ can be negative."
+    },
+    "67": {
+      "hint": "Triple $b$ in $a - 3b$ before subtracting from $a = 4$.",
+      "help": "$4 - 3(-1) = 4 + 3 = 7$.\n\n**Different example:** $a = 5$, $b = 2$ → $5 - 6 = -1$.\n\n$3b$ includes the sign of $b$."
+    },
+    "68": {
+      "hint": "Find $2x^2$ then subtract $x$ when $x = 3$.",
+      "help": "$2(9) - 3 = 18 - 3 = 15$.\n\n**Different example:** $x = 2$ → $8 - 2 = 6$.\n\nSquare $x$ before doubling."
+    },
+    "69": {
+      "hint": "Expand $(n + 2)^2 - n^2$ with $n = 5$ or expand step by step.",
+      "help": "$(5 + 2)^2 - 25 = 49 - 25 = 24$.\n\n**Different example:** $n = 3$ → $25 - 9 = 16$.\n\nSquare each part carefully."
+    },
+    "70": {
+      "hint": "Add $x$ and $x^2$ when $x = 6$.",
+      "help": "$6 + 36 = 42$.\n\n**Different example:** $x = 4$ → $4 + 16 = 20$.\n\nDo $x^2$ and $x$ separately."
+    },
+    "71": {
+      "hint": "Divide $p$ by $q$, then add $q$.",
+      "help": "$8/2 + 2 = 4 + 2 = 6$.\n\n**Different example:** $p = 6$, $q = 3$ → $2 + 3 = 5$.\n\nDivision before the final + $q$."
+    },
+    "72": {
+      "hint": "$|{-4}| = 4$. Then add 3.",
+      "help": "$|-4| + 3 = 4 + 3 = 7$.\n\n**Different example:** $|{-7}| + 1 = 8$.\n\nAbsolute value makes the distance positive."
+    },
+    "73": {
+      "hint": "Work out $3(x - 2)$ when $x = 7$, then add 4.",
+      "help": "$3(5) + 4 = 15 + 4 = 19$.\n\n**Different example:** $3(x - 1) + 2$ at $x = 4$ → 11.\n\nBracket first, then + 4."
+    },
+    "74": {
+      "hint": "Square $x$ and $y$ separately, then add.",
+      "help": "$1^2 + 4^2 = 1 + 16 = 17$.\n\n**Different example:** $x = 3$, $y = 4$ → $9 + 16 = 25$.\n\nTwo squares, one sum."
+    },
+    "75": {
+      "hint": "Multiply $0.5$ by 6, then add 1.",
+      "help": "$6(0.5) + 1 = 3 + 1 = 4$.\n\n**Different example:** $6(0.25) + 1 = 2.5$.\n\nHalf of 6 is 3."
+    },
+    "76": {
+      "hint": "Divide $-6$ by $-2$, then add 1.",
+      "help": "$-6 ÷ -2 = 3$; $3 + 1 = 4$.\n\n**Different example:** $-8/-4 + 1 = 3$.\n\nNegative ÷ negative gives positive."
+    },
+    "77": {
+      "hint": "Add the three values $a$, $b$, and $c$.",
+      "help": "$2 + 3 + 4 = 9$.\n\n**Different example:** $1 + 1 + 1 = 3$.\n\nThree substitutions, one sum."
+    },
+    "78": {
+      "hint": "Double $x$ when $x = 5$, then subtract from 10.",
+      "help": "$10 - 2(5) = 10 - 10 = 0$.\n\n**Different example:** $10 - 2(3) = 4$.\n\n$2x$ before the subtraction."
+    },
+    "79": {
+      "hint": "Use difference of squares: $(3 + 1)(3 - 1)$.",
+      "help": "$4 × 2 = 8$.\n\n**Different example:** $(5 + 1)(5 - 1) = 24$.\n\nMultiply the bracket pair."
+    },
+    "80": {
+      "hint": "Subtract 4 from $t = 12$, then divide by 2.",
+      "help": "$(12 - 4)/2 = 8/2 = 4$.\n\n**Different example:** $(8 - 2)/2 = 3$.\n\nBracket top, then ÷ 2."
+    },
+    "81": {
+      "hint": "Square $-1$ in $4x^2$, then subtract 1.",
+      "help": "$4(1) - 1 = 3$.\n\n**Different example:** $x = -2$ → $16 - 1 = 15$.\n\n$(-1)^2 = 1$."
+    },
+    "82": {
+      "hint": "$\\sqrt{9} = 3$. Add 2.",
+      "help": "$\\sqrt{9} + 2 = 5$.\n\n**Different example:** $\\sqrt{16} + 1 = 5$.\n\nSquare root before adding."
+    },
+    "83": {
+      "hint": "Subtracting a negative: $x - y$ with $x = 2$, $y = -3$.",
+      "help": "$2 - (-3) = 2 + 3 = 5$.\n\n**Different example:** $5 - (-1) = 6$.\n\nMinus a negative becomes plus."
+    },
+    "84": {
+      "hint": "Work out $3n$ and $(n + 2)$ when $n = 7$, then subtract.",
+      "help": "$3(7) - (7 + 2) = 21 - 9 = 12$.\n\n**Different example:** $n = 4$ → $12 - 6 = 6$.\n\nBracket on the subtracted part."
+    },
+    "85": {
+      "hint": "Find $5x/2$ when $x = 4$, then subtract 3.",
+      "help": "$5(4)/2 - 3 = 10 - 3 = 7$.\n\n**Different example:** $x = 6$ → $15 - 3 = 12$.\n\nMultiply and divide before − 3."
+    },
+    "86": {
+      "hint": "Add 4 to $x = -2$, then square the result.",
+      "help": "$(-2 + 4)^2 = 2^2 = 4$.\n\n**Different example:** $(1 + 4)^2 = 25$.\n\nBracket before squaring."
+    },
+    "87": {
+      "hint": "Square $x = 6$ to get 36, divide by 9, then add 1.",
+      "help": "$36/9 + 1 = 4 + 1 = 5$.\n\n**Different example:** $x = 3$ → $9/9 + 1 = 2$.\n\n$x^2$ first, then ÷ 9."
+    },
+    "88": {
+      "hint": "Use $a^2 - b^2$ with $a = 5$, $b = 2$.",
+      "help": "$25 - 4 = 21$.\n\n**Different example:** $10^2 - 3^2 = 91$.\n\nSquare each, then subtract."
+    },
+    "89": {
+      "hint": "$2^3 = 8$. Replace $x$ with 3 in $2^x$.",
+      "help": "$2^3 = 8$.\n\n**Different example:** $2^4 = 16$.\n\nIndex means repeated multiplication."
+    },
+    "90": {
+      "hint": "Expand $7x - 3(x + 2)$ with $x = 1$ or substitute carefully.",
+      "help": "$7(1) - 3(3) = 7 - 9 = -2$.\n\n**Different example:** $x = 0$ → $0 - 6 = -6$.\n\nBracket on $(x + 2)$ first."
+    },
+    "91": {
+      "hint": "Find $(-5)^2$ and $3(-5)$ for $x^2 - 3x$.",
+      "help": "$25 - (-15) = 40$.\n\n**Different example:** $x = -1$ → $1 + 3 = 4$.\n\nSquare is positive; $-3x$ changes sign."
+    },
+    "92": {
+      "hint": "Substitute $h = 4$ into $3h^2 - 2h + 1$ step by step.",
+      "help": "$3(16) - 8 + 1 = 48 - 8 + 1 = 41$.\n\n**Different example:** $h = 2$ → $12 - 4 + 1 = 9$.\n\nSquare term, linear term, constant."
+    },
+    "93": {
+      "hint": "Evaluate $2x$ and $x + x$ both at $x = 1$.",
+      "help": "Both give 2 at $x = 1$ → **true** for that test; they match for every $x$.\n\n**Different example:** $x = 5$ → 10 and 10.\n\nSame meaning, different notation."
+    },
+    "94": {
+      "hint": "Square a negative integer like $-3$. Is the result positive?",
+      "help": "$(-3)^2 = 9 > 0$ → **always** positive for negative integer $x$.\n\n**Different example:** $(-1)^2 = 1$.\n\nSquaring removes the minus sign."
+    },
+    "95": {
+      "hint": "Leo got 36 for $2x^2$ at $x = 3$. Should he square $x$ before × 2?",
+      "help": "Correct: $2(3^2) = 2(9) = 18$, not 36.\n\n**Different example:** $3x^2$ at $x = 2$ → $3(4) = 12$.\n\nSquare $x$ before multiplying by 2."
+    },
+    "96": {
+      "hint": "Put $x = 0$ into $5x^2 + 1$.",
+      "help": "$5(0) + 1 = 1$ → **true**.\n\n**Different example:** $x = 2$ → 21.\n\nZero squared is still zero."
+    },
+    "97": {
+      "hint": "If $x$ is whole, is $2x$ even? What happens when you add 1?",
+      "help": "$2x$ is even; + 1 makes **odd** → **always** for whole $x$.\n\n**Different example:** $x = 4$ → 9.\n\nEven plus 1 is odd."
+    },
+    "98": {
+      "hint": "Expand $(x + 1)^2$ when $x = 2$ and compare to $x^2 + 1$.",
+      "help": "$(2 + 1)^2 = 9$ but $4 + 1 = 5$ → Nina is **wrong**.\n\n**Different example:** $x = 1$ → 4 vs 2.\n\nMiddle term $2x$ is missing in Nina’s version."
+    },
+    "99": {
+      "hint": "Substitute $x = \\frac{1}{2}$ into $4x$.",
+      "help": "$4 × \\frac{1}{2} = 2$ — a whole number → **true** that fractions can work.\n\n**Different example:** $6 × \\frac{1}{3} = 2$.\n\nFractions are allowed inputs."
+    },
+    "100": {
+      "hint": "Compare $x^2$ and $x$ when $x = 2$ and when $x = 0.5$.",
+      "help": "At $x = 2$, $4 > 2$; at $0.5$, $0.25 < 0.5$ → not always, but **always** when $x > 1$.\n\n**Different example:** $x = 3$ → $9 > 3$.\n\nRead the “when $x > 1$” condition."
+    },
+    "101": {
+      "hint": "Omar wrote 23 for $ab$ with $a = 2$, $b = 3$. Should it be multiply?",
+      "help": "$ab = 2 × 3 = 6$, not 23.\n\n**Different example:** $cd$ with $c = 5$, $d = 2$ → 10.\n\nLetters side by side mean multiply."
+    },
+    "102": {
+      "hint": "In $3x^2$, square $x = 4$ first, then multiply by 3.",
+      "help": "$3(16) = 48$ → square before × 3 → **true**.\n\n**Different example:** $2x^2$ at $x = 5$ → $2(25)$.\n\nPower applies to $x$ only."
+    },
+    "103": {
+      "hint": "Try $x = 1$, $y = 2$: is $1 + 2$ the same as $2 + 1$?",
+      "help": "Order does not matter for + → **always**.\n\n**Different example:** $4 + 7 = 7 + 4$.\n\nAddition is commutative."
+    },
+    "104": {
+      "hint": "Test $x = 0.5$: compare $x^2$ and $x$.",
+      "help": "$0.25 < 0.5$ → Priya is **wrong** (counter-example).\n\n**Different example:** $x = 0.1$ → $0.01 < 0.1$.\n\nSmall positive $x$ can have smaller square."
+    },
+    "105": {
+      "hint": "Compare $|{-3}|$ and $-3$.",
+      "help": "$|-3| = 3 ≠ -3$ → **true** they can differ.\n\n**Different example:** $|5| = 5$ equals 5.\n\nAbsolute value drops negative sign."
+    },
+    "106": {
+      "hint": "If $2x + 1 = 11$, does $x = 5$ make both sides equal?",
+      "help": "$2(5) + 1 = 11$ → substitution **checks** the solution → **always** valid for checking.\n\n**Different example:** test $x = 3$ in $x + 2 = 5$.\n\nPlug the value into both sides."
+    },
+    "107": {
+      "hint": "Sam did $7/2 = 3$ with remainder. What is $7 ÷ 2$ exactly?",
+      "help": "$7/2 = 3.5$, not 3.\n\n**Different example:** $9/2 = 4.5$.\n\nDivision must be exact."
+    },
+    "108": {
+      "hint": "Expand $2(x + 3)$ and $2x + 3$ at $x = 4$.",
+      "help": "$2(7) = 14$ but $8 + 3 = 11$ → **false**.\n\n**Different example:** $x = 0$ → 6 vs 3.\n\nBracket distributes the 2 to both terms."
+    },
+    "109": {
+      "hint": "Square $-4$ and square $4$. Are they equal?",
+      "help": "$(-4)^2 = 16 = 4^2$ → **always** for integers.\n\n**Different example:** $(-7)^2 = 49$.\n\nSquaring removes the sign."
+    },
+    "110": {
+      "hint": "Substitute $x = -2$ into $x^2 - 5x$ carefully.",
+      "help": "$(-2)^2 - 5(-2) = 4 + 10 = 14$, not $-14$.\n\n**Different example:** $x = -1$ → $1 + 5 = 6$.\n\n$-5x$ becomes positive when $x$ is negative."
+    },
+    "111": {
+      "hint": "Try $x = 0$ in $x + 5$ and in $-x + 5$.",
+      "help": "Both give 5 at $x = 0$ → **false** that it always changes.\n\n**Different example:** $x = 1$ → 6 vs 4 (different).\n\nZero is a special case."
+    },
+    "112": {
+      "hint": "Can you simplify $3x - 2x$ before substituting?",
+      "help": "$3x - 2x = x$ → **always** you may simplify like terms first.\n\n**Different example:** $5x - x = 4x$.\n\nCollect $x$ terms, then substitute."
+    },
+    "113": {
+      "hint": "If $x^2 = 16$, what are the possible values of $x$?",
+      "help": "$x = 4$ or $x = -4$ both work → **true** that $-4$ also satisfies $x^2 = 16$.\n\n**Different example:** $x^2 = 9$ → ±3.\n\nTwo square roots."
+    },
+    "114": {
+      "hint": "What is $5^0$? Leo says it is 0.",
+      "help": "$5^0 = 1$, not 0 → Leo is **wrong**.\n\n**Different example:** $10^0 = 1$.\n\nAny non-zero number to power 0 is 1."
+    },
+    "115": {
+      "hint": "If $x$ increases, does $2x + 10$ increase too?",
+      "help": "Bigger $x$ → bigger $2x + 10$ → **always**.\n\n**Different example:** $x = 1$ vs $x = 5$ → 12 vs 20.\n\nLinear expression grows with $x$."
+    },
+    "116": {
+      "hint": "Evaluate $2x/x$ when $x = 7$. What about $x = 0$?",
+      "help": "$2(7)/7 = 2$ when $x = 7$; undefined at $x = 0$ → **true**.\n\n**Different example:** $3x/x = 3$ for $x ≠ 0$.\n\nNever divide by zero."
+    },
+    "117": {
+      "hint": "Expand $(x + 2)^2$ and compare to $x^2 + 4x + 4$.",
+      "help": "They match for all $x$ → **always** (identity).\n\n**Different example:** $x = 0$ → both 4.\n\nMiddle term $4x$ comes from $2 × x × 2$."
+    },
+    "118": {
+      "hint": "Is substituting into a formula the same skill as into $3x + 1$?",
+      "help": "Same process — replace letters with numbers → **true**.\n\n**Different example:** $C = 2\\pi r$ vs $2x + 1$.\n\nContext changes; skill does not."
+    },
+    "119": {
+      "hint": "Substitute $d = 6$ into $C = 2.50d + 3$.",
+      "help": "$2.50(6) + 3 = 15 + 3 = 18$ pounds.\n\n**Different example:** $d = 4$ → $13$.\n\nMiles × rate, then add flat fee."
+    },
+    "120": {
+      "hint": "Put $C = 10$ into $F = \\frac{9C}{5} + 32$.",
+      "help": "$F = 18 + 32 = 50$°F.\n\n**Different example:** $C = 0$ → 32°F.\n\nFraction and + 32 in order."
+    },
+    "121": {
+      "hint": "Substitute $m = 250$ into $B = 12 + 0.04m$.",
+      "help": "$12 + 0.04(250) = 12 + 10 = 22$.\n\n**Different example:** $m = 100$ → $16$.\n\nRate times minutes, then fixed charge."
+    },
+    "122": {
+      "hint": "Use $b = 10$, $h = 6$ in $A = \\frac{1}{2}bh$.",
+      "help": "$A = \\frac{1}{2}(10)(6) = 30$ cm².\n\n**Different example:** $b = 8$, $h = 5$ → 20.\n\nHalf × base × height."
+    },
+    "123": {
+      "hint": "Replace $w = 12$ in $S = 50 + 8w$.",
+      "help": "$50 + 8(12) = 50 + 96 = 146$.\n\n**Different example:** $w = 5$ → 90.\n\nWeekly amount × weeks, plus start."
+    },
+    "124": {
+      "hint": "Put $n = 5$ into $F = 200 + 50n$.",
+      "help": "$200 + 50(5) = 450$ g.\n\n**Different example:** $n = 3$ → 350 g.\n\nFixed flour plus per-person amount."
+    },
+    "125": {
+      "hint": "Substitute $n = 8$ tickets into $T = 7.50n + 2$.",
+      "help": "$7.50(8) + 2 = 60 + 2 = 62$.\n\n**Different example:** $n = 2$ → 17.\n\nTicket price × count, plus booking fee."
+    },
+    "126": {
+      "hint": "Replace $t = 2.5$ in $D = 15t$.",
+      "help": "$15(2.5) = 37.5$ km.\n\n**Different example:** $t = 4$ → 60 km.\n\nSpeed × time."
+    },
+    "127": {
+      "hint": "Use $c = 5$ coupons in $P = 40 - 3c$.",
+      "help": "$40 - 3(5) = 25$.\n\n**Different example:** $c = 2$ → 34.\n\nStart price minus discount per coupon."
+    },
+    "128": {
+      "hint": "Substitute $n = 9$ into $T_n = 4n + 1$.",
+      "help": "$4(9) + 1 = 37$.\n\n**Different example:** $n = 1$ → 5.\n\nMultiply position by 4, add 1."
+    },
+    "129": {
+      "hint": "Put $h = 6$ into $V = 120 + 25h$.",
+      "help": "$120 + 25(6) = 270$ litres.\n\n**Different example:** $h = 2$ → 170.\n\nStart volume plus rate × hours."
+    },
+    "130": {
+      "hint": "Use $p = 7$, $q = 3$ in $G = 5p - 2q$.",
+      "help": "$5(7) - 2(3) = 35 - 6 = 29$.\n\n**Different example:** $p = 4$, $q = 1$ → 18.\n\nGoals minus misses."
+    },
+    "131": {
+      "hint": "Substitute $w = 4$ into $L = 2w + 1$.",
+      "help": "$2(4) + 1 = 9$ m.\n\n**Different example:** $w = 6$ → 13 m.\n\nDouble width, add 1."
+    },
+    "132": {
+      "hint": "Replace $s = 25$ pupils in $H = 80 + 12s$.",
+      "help": "$80 + 12(25) = 380$.\n\n**Different example:** $s = 10$ → 200.\n\nPer-student charge × students, plus base."
+    },
+    "133": {
+      "hint": "Substitute $m = 2$, $c = 3$ into $E = mc^2$.",
+      "help": "$E = 2(9) = 18$ (simplified units).\n\n**Different example:** $m = 1$, $c = 2$ → 4.\n\nSquare $c$ before multiplying."
+    },
+    "134": {
+      "hint": "Put $h = 4$ hours into $F = 1.20h + 0.50$.",
+      "help": "$1.20(4) + 0.50 = 5.30$.\n\n**Different example:** $h = 1$ → 1.70.\n\nHourly rate plus fixed amount."
+    },
+    "135": {
+      "hint": "Substitute $m = 8$ into $B = 1000 - 75m$.",
+      "help": "$1000 - 75(8) = 400$.\n\n**Different example:** $m = 4$ → 700.\n\nSubtract monthly payment each month."
+    },
+    "136": {
+      "hint": "Use $h = 500$ in $T = 20 - 0.01h$.",
+      "help": "$20 - 0.01(500) = 15$°C.\n\n**Different example:** $h = 200$ → 18.\n\nLose 0.01° per metre climbed."
+    },
+    "137": {
+      "hint": "Substitute $m = 10$ into $C = 3 + 2.2m$.",
+      "help": "$3 + 2.2(10) = 25$.\n\n**Different example:** $m = 5$ → 14.\n\nPer-mile charge × miles, plus base."
+    },
+    "138": {
+      "hint": "Put $t = 500$ into $P = 15 + 0.02t$.",
+      "help": "$15 + 0.02(500) = 25$.\n\n**Different example:** $t = 100$ → 17.\n\nSmall rate × texts, plus monthly fee."
+    },
+    "139": {
+      "hint": "Replace $a = 5$ in $T = 60 - 2a$.",
+      "help": "$60 - 2(5) = 50$ seconds.\n\n**Different example:** $a = 10$ → 40.\n\nTraining improves time by 2s per month."
+    },
+    "140": {
+      "hint": "Substitute $n = 6$ into $R = 5n + 20$.",
+      "help": "$5(6) + 20 = 50$ points.\n\n**Different example:** $n = 3$ → 35.\n\nPoints per purchase × count, plus bonus."
+    },
+    "141": {
+      "hint": "Multiply $l × w × h$ with 3, 4, and 5.",
+      "help": "$V = 3 × 4 × 5 = 60$.\n\n**Different example:** $2 × 2 × 2 = 8$.\n\nThree dimensions multiplied."
+    },
+    "142": {
+      "hint": "Use $d = 2$ dogs, $h = 3$ humans in $L = 4d + 2h$.",
+      "help": "$4(2) + 2(3) = 8 + 6 = 14$ legs.\n\n**Different example:** $d = 1$, $h = 4$ → 12.\n\nDogs × 4 legs, humans × 2."
+    },
+    "143": {
+      "hint": "Substitute $p = 45$ into $S = 0.8p$.",
+      "help": "$0.8(45) = 36$.\n\n**Different example:** $p = 50$ → 40.\n\nMultiply original price by 0.8."
+    },
+    "144": {
+      "hint": "Use $v = 12$, $t = 3$ in $d = vt$.",
+      "help": "$d = 12 × 3 = 36$ m.\n\n**Different example:** $v = 5$, $t = 4$ → 20.\n\nSpeed × time."
+    },
+    "145": {
+      "hint": "Substitute $q = 7$ into $M = 40 + 6q$.",
+      "help": "$40 + 6(7) = 82$ marks.\n\n**Different example:** $q = 5$ → 70.\n\nBase marks plus 6 per correct hard question."
+    },
+    "146": {
+      "hint": "Put $d = 14$ days into $C = 2 + 0.5d$.",
+      "help": "$2 + 0.5(14) = 9$.\n\n**Different example:** $d = 6$ → 5.\n\nStart level plus daily increase."
+    },
+    "147": {
+      "hint": "Substitute $n = 12$ km into $S = 1.5 + 0.25n$.",
+      "help": "$1.5 + 0.25(12) = 4.50$.\n\n**Different example:** $n = 8$ → 3.50.\n\nPer-km surcharge at night."
+    },
+    "148": {
+      "hint": "Replace $w = 10$ in $H = 5 + 3w$.",
+      "help": "$5 + 3(10) = 35$ cm.\n\n**Different example:** $w = 4$ → 17 cm.\n\nStart height plus 3 cm per week."
+    },
+    "149": {
+      "hint": "Multiply euros $P = 20$ by 1.15 in $E = 1.15P$.",
+      "help": "$1.15(20) = 23$ pounds.\n\n**Different example:** $P = 10$ → 11.50.\n\nExchange rate multiplies euros."
+    },
+    "150": {
+      "hint": "Use $a = 4$, $b = 5$ in $Z = 2a + 3b$.",
+      "help": "$2(4) + 3(5) = 8 + 15 = 22$.\n\n**Different example:** $a = 1$, $b = 2$ → 8.\n\nTwo different coefficients."
+    },
+    "151": {
+      "hint": "Substitute $n = 11$ into $L = 3n + 7$.",
+      "help": "$3(11) + 7 = 40$.\n\n**Different example:** $n = 5$ → 22.\n\nTriple the count, add constant."
+    },
+    "152": {
+      "hint": "Put $k = 8$ uses into $P = 100 - 5k$.",
+      "help": "$100 - 5(8) = 60$.\n\n**Different example:** $k = 5$ → 75.\n\nSubtract 5 per use from 100."
+    },
+    "153": {
+      "hint": "Replace $d = 20$ days in $B = 30 + 2.5d$.",
+      "help": "$30 + 2.5(20) = 80$.\n\n**Different example:** $d = 10$ → 55.\n\nDaily rate × days, plus pass fee."
+    },
+    "154": {
+      "hint": "Divide $F = 20$ by $A = 4$ in $P = F/A$.",
+      "help": "$P = 20/4 = 5$.\n\n**Different example:** $F = 15$, $A = 3$ → 5.\n\nForce ÷ area."
+    },
+    "155": {
+      "hint": "Substitute $n = 6$ into $S = n^2 + 2n$.",
+      "help": "$36 + 12 = 48$.\n\n**Different example:** $n = 3$ → 15.\n\nSquare $n$, then add $2n$."
+    },
+    "156": {
+      "hint": "Put $t = 15$ into $V = 500 - 12t$.",
+      "help": "$500 - 12(15) = 320$.\n\n**Different example:** $t = 10$ → 380.\n\nLeak rate × time subtracted."
+    },
+    "157": {
+      "hint": "Substitute $h = 3$ into $R = 45 + 18h$.",
+      "help": "$45 + 18(3) = 99$.\n\n**Different example:** $h = 2$ → 81.\n\nHourly hire × hours, plus base."
+    },
+    "158": {
+      "hint": "Use $s = 5000$ steps in $C = 0.04s + 300$.",
+      "help": "$0.04(5000) + 300 = 500$.\n\n**Different example:** $s = 1000$ → 340.\n\nSmall rate × steps, plus base calories."
+    },
+    "159": {
+      "hint": "Replace $x = 4$ in $y = 3x + 2$.",
+      "help": "$y = 3(4) + 2 = 14$.\n\n**Different example:** $x = 0$ → 2.\n\nGradient × $x$, plus intercept."
+    },
+    "160": {
+      "hint": "Substitute $c = 25$ into $M = 1.2c + 5$.",
+      "help": "$1.2(25) + 5 = 35$.\n\n**Different example:** $c = 10$ → 17.\n\nMarkup × cost, plus fixed £5."
+    },
+    "161": {
+      "hint": "Calculate $1.01^2$ then multiply 1000 (calculator).",
+      "help": "$1000 × 1.01^2 ≈ 1020$ to nearest whole.\n\n**Different example:** $1.01^1 = 1.01$.\n\nRepeated growth factor."
+    },
+    "162": {
+      "hint": "Use $r = 3$, $h = 4$, $\\pi = 3.14$ in $V = \\frac{1}{3}\\pi r^2 h$.",
+      "help": "$V ≈ \\frac{1}{3}(3.14)(9)(4) ≈ 37.7$ (1 d.p.).\n\n**Different example:** $r = 2$, $h = 6$ with same $\\pi$.\n\nOne-third × $\\pi r^2$ × $h$."
+    },
+    "163": {
+      "hint": "Substitute $a = 14$ into $H = 180 - 0.5a$.",
+      "help": "$180 - 0.5(14) = 173$.\n\n**Different example:** $a = 20$ → 170.\n\nMax heart rate minus age factor."
+    },
+    "164": {
+      "hint": "Use $x = 50$, $y = 30$ in $M = 0.6x + 0.4y$.",
+      "help": "$0.6(50) + 0.4(30) = 30 + 12 = 42$.\n\n**Different example:** $x = 40$, $y = 40$ → 40.\n\nWeighted mix of two parts."
+    },
+    "165": {
+      "hint": "Substitute $x = -2$ into $2x^3 - x^2 + 4$ step by step.",
+      "help": "$2(-8) - 4 + 4 = -16$.\n\n**Different example:** $x = 1$ → $2 - 1 + 4 = 5$.\n\nCube carefully with negatives."
+    },
+    "166": {
+      "hint": "Use $x = 3$, $y = -1$ in $x^2 - y^2$.",
+      "help": "$9 - 1 = 8$.\n\n**Different example:** $x = 5$, $y = 2$ → 21.\n\nSquare each, then subtract."
+    },
+    "167": {
+      "hint": "Substitute $x = 4$ into $\\frac{3x - 2}{x + 1}$.",
+      "help": "$(12 - 2)/5 = 10/5 = 2$.\n\n**Different example:** $x = 2$ → $4/3$.\n\nTop and bottom separately."
+    },
+    "168": {
+      "hint": "Compute $(a + 3)^2 - a^2$ with $a = 2$ without full expansion if you spot the pattern.",
+      "help": "$(5)^2 - 4 = 25 - 4 = 21$.\n\n**Different example:** $a = 1$ → $16 - 1 = 15$.\n\nOr expand to $6a + 9$."
+    },
+    "169": {
+      "hint": "Substitute $x = 5$ into $5 - 2(x - 3)^2$.",
+      "help": "$5 - 2(4) = 5 - 8 = -3$.\n\n**Different example:** $x = 3$ → $5 - 0 = 5$.\n\nBracket squared before × 2."
+    },
+    "170": {
+      "hint": "Evaluate $(x + y)^2$ and $x^2 + y^2$ at $x = 1$, $y = 2$.",
+      "help": "$(3)^2 = 9$ but $1 + 4 = 5$ → **false**.\n\n**Different example:** missing middle term $2xy$.\n\nExpand $(x + y)^2$ fully."
+    },
+    "171": {
+      "hint": "Substitute $x = 4$, $y = 3$ into $x^2 + 2xy + y^2$.",
+      "help": "$16 + 24 + 9 = 49$.\n\n**Different example:** $x = 1$, $y = 1$ → 3.\n\nThree terms from the expansion."
+    },
+    "172": {
+      "hint": "If $x = -3$, find $f = 2x + 1$, then use that value as $x$ again.",
+      "help": "$f = -5$; $2(-5) + 1 = -9$.\n\n**Different example:** start $x = 2$ → 5 → 11.\n\nSubstitute twice in order."
+    },
+    "173": {
+      "hint": "Factor $x^2 - 1$ as $(x - 1)(x + 1)$, then put $x = 5$.",
+      "help": "$4 × 6 = 24$.\n\n**Different example:** $x = 3$ → $2 × 4 = 8$.\n\nDifference of squares helps."
+    },
+    "174": {
+      "hint": "Replace $x = 0.25$ in $\\frac{1}{x} + 4$.",
+      "help": "$1/0.25 + 4 = 4 + 4 = 8$ (or 2.5 + 4 = 6.5 if using $\\frac{1}{0.25}=4$).\n\n**Different example:** $x = 0.5$ → $2 + 4 = 6$.\n\nReciprocal means 1 ÷ $x$."
+    },
+    "175": {
+      "hint": "Find $3^2$ and $2^2$ when $x = 2$ in $3^x + 2^x$.",
+      "help": "$9 + 4 = 13$.\n\n**Different example:** $x = 1$ → $3 + 2 = 5$.\n\nTwo different bases."
+    },
+    "176": {
+      "hint": "Test $x = -2$: compare $(-x)^3$ and $-(x^3)$.",
+      "help": "Both give $-(-8) = 8$ and $-(-8) = 8$ → **always** for integers.\n\n**Different example:** $x = 3$.\n\nOdd power preserves sign pattern."
+    },
+    "177": {
+      "hint": "Substitute $a = 1$, $b = 2$ into $2(a + b)^2 - 3ab$.",
+      "help": "$2(9) - 6 = 12$.\n\n**Different example:** $a = 2$, $b = 1$ → $2(9) - 6 = 12$.\n\nSquare the bracket first."
+    },
+    "178": {
+      "hint": "Replace $x = \\frac{1}{3}$ in $9x^2 + 6x + 1$.",
+      "help": "$9(1/9) + 2 + 1 = 4$.\n\n**Different example:** spot $(3x + 1)^2$ form.\n\nFractions need careful squaring."
+    },
+    "179": {
+      "hint": "Find $\\sqrt{9 + 16}$ then subtract $x = 9$.",
+      "help": "$\\sqrt{25} - 9 = 5 - 9 = -4$.\n\n**Different example:** $\\sqrt{4 + 5} - 2 = 1$.\n\nRoot first, then subtract."
+    },
+    "180": {
+      "hint": "Compare $|7 - 2|$ and $|2 - 7|$.",
+      "help": "Both equal 5 → **true** $|a - b| = |b - a|$.\n\n**Different example:** $|4 - 9| = |9 - 4|$.\n\nDistance does not depend on order."
+    },
+    "181": {
+      "hint": "Substitute $x = 2$ into $x + \\frac{1}{x}$.",
+      "help": "$2 + 0.5 = 2.5$ or $\\frac{5}{2}$.\n\n**Different example:** $x = 4$ → $4.25$.\n\nAdd the number and its reciprocal."
+    },
+    "182": {
+      "hint": "Find $x^2 - 10x$ when $x = -3$, then take absolute value.",
+      "help": "$9 + 30 = 39$; $|39| = 39$.\n\n**Different example:** $x = 2$ → $|4 - 20| = 16$.\n\nAbsolute value at the end."
+    },
+    "183": {
+      "hint": "Multiply $4 × 5 × 6$ for $x(x + 1)(x + 2)$ at $x = 4$.",
+      "help": "$4 × 5 × 6 = 120$.\n\n**Different example:** $x = 2$ → $2 × 3 × 4 = 24$.\n\nThree consecutive factors."
+    },
+    "184": {
+      "hint": "Expand both sides of $x^2 + y^2 = (x + y)^2 - 2xy$ with $x = 2$, $y = 3$.",
+      "help": "Both sides give 13 → **always** (identity).\n\n**Different example:** $x = 1$, $y = 1$ → both 2.\n\nMiddle term $2xy$ adjusts the square."
+    },
+    "185": {
+      "hint": "Substitute $x = 5$ into $\\frac{2x + 6}{x + 3}$.",
+      "help": "$(10 + 6)/8 = 16/8 = 2$.\n\n**Different example:** $x = 1$ → $8/4 = 2$.\n\nFactor numerator as $2(x + 3)$."
+    },
+    "186": {
+      "hint": "Expand $10 × 11 × 12$ then subtract $10^3$ for $n = 10$.",
+      "help": "$1320 - 1000 = 320$.\n\n**Different example:** $n = 3$ → $3 × 4 × 5 - 27 = 33$.\n\nProduct minus cube."
+    },
+    "187": {
+      "hint": "Replace $x = 3$ in $2^{x + 1}$.",
+      "help": "$2^4 = 16$.\n\n**Different example:** $x = 2$ → $2^3 = 8$.\n\nAdd 1 to the index first."
+    },
+    "188": {
+      "hint": "Compare $\\sqrt{(-4)^2}$ and $-4$.",
+      "help": "$\\sqrt{16} = 4 ≠ -4$ → **false**.\n\n**Different example:** $\\sqrt{x^2} = |x|$.\n\nSquare root gives non-negative result."
+    },
+    "189": {
+      "hint": "Substitute $x = -2$ into $5x - 3(2x - 1)$.",
+      "help": "$5(-2) - 3(-5) = -10 + 15 = 5$.\n\n**Different example:** $x = 1$ → $5 - 3 = 2$.\n\nExpand bracket or substitute carefully."
+    },
+    "190": {
+      "hint": "Find $10 × (1.2)^2 - 5$.",
+      "help": "$10(1.44) - 5 = 9.4$.\n\n**Different example:** $x = 2$ in $10x^2 - 5$ → 35.\n\nDecimal substitution."
+    },
+    "191": {
+      "hint": "Factor numerator $(x + 2)(x + 3)$, cancel $(x + 2)$, then use $x = 4$.",
+      "help": "After cancel, $x + 3 = 7$.\n\n**Different example:** $x = 5$ → 8.\n\nFactor before dividing."
+    },
+    "192": {
+      "hint": "Is $2^3$ even? Try $x = 3$ in $2^x$.",
+      "help": "$2^3 = 8$ (even) → **always** even for positive integer $x$.\n\n**Different example:** $2^1 = 2$.\n\nPowers of 2 are even when $x ≥ 1$."
+    },
+    "193": {
+      "hint": "Calculate $3^4 - 1^4$.",
+      "help": "$81 - 1 = 80$.\n\n**Different example:** $x = 2$, $y = 1$ → $16 - 1 = 15$.\n\nFourth powers, then subtract."
+    },
+    "194": {
+      "hint": "Expand $(2x - 1)(x + 3) - 2x^2$ with $x = 5$.",
+      "help": "Work stepwise: product minus $2x^2$.\n\n**Different example:** $x = 2$ → simplify before big numbers.\n\nExpand brackets first."
+    },
+    "195": {
+      "hint": "Substitute $x = 8$, $y = 2$ into $\\frac{x + y}{x - y}$.",
+      "help": "$(8 + 2)/(8 - 2) = 10/6 = \\frac{5}{3}$.\n\n**Different example:** $x = 5$, $y = 1$ → $6/4$.\n\nTop and bottom separately."
+    },
+    "196": {
+      "hint": "Does $x = 2$ make $x^2 - 4$ zero? What does that mean for the equation?",
+      "help": "$2^2 - 4 = 0$ → **true** that $x = 2$ solves $x^2 - 4 = 0$.\n\n**Different example:** $x = 3$ in $x - 3 = 0$.\n\nSolution makes expression 0."
+    },
+    "197": {
+      "hint": "Spot $3x^2 - 12x + 12$ as $3(x - 2)^2$ when $x = 2$.",
+      "help": "$3(0)^2 = 0$ at $x = 2$.\n\n**Different example:** complete square form helps.\n\nPerfect square when $x = 2$."
+    },
+    "198": {
+      "hint": "Expand $(a - b)^2$ with $a = -1$, $b = 4$.",
+      "help": "$(-1 - 4)^2 = (-5)^2 = 25$; also $1 + 16 - 2(-4) = 25$.\n\n**Different example:** $a = 2$, $b = 3$ → 1.\n\nSigns matter in $(a - b)^2$."
+    },
+    "199": {
+      "hint": "Simplify $\\frac{(x + 3)^2 - 9}{x}$ before or after substituting $x = 6$.",
+      "help": "Numerator $= x^2 + 6x$; divide by $x$ → $x + 6 = 12$ at $x = 6$.\n\n**Different example:** $x = 3$ → 9.\n\nExpand and cancel carefully."
+    },
+    "200": {
+      "hint": "Find $T$ at $x = 4$ and at $x = 1$ using $T = x^2 - 3x + 2$.",
+      "help": "$T(4) = 16 - 12 + 2 = 6$; $T(1) = 1 - 3 + 2 = 0$ → smaller at $x = 1$.\n\n**Different example:** compare two inputs in any quadratic.\n\nSubstitute each $x$ separately."
+    }
+  }
+}

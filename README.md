@@ -19,7 +19,7 @@ Optional KV key **`mt:accounts:overrides`** can patch `displayName` per user on 
 | Key pattern | Purpose |
 |-------------|---------|
 | `mt:user:{id}:progress:maths:{domain}/{code}` | Per-person practice scores |
-| `mt:tenant:archer:worksheet:{slug}` | Worksheet markdown overrides |
+| `mt:tenant:lewis:worksheet:{slug}` | Worksheet markdown overrides |
 | `mt:accounts:overrides` | Display-name tweaks |
 
 Local dev without Redis uses `.data/kv-dev.json`.

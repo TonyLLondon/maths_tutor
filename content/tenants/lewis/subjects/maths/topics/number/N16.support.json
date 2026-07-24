@@ -1,0 +1,806 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "More decimal places usually means more accuracy.",
+      "help": "**8.3 cm** is more exact than 8 cm.\n\n**Different example:** 5.2 kg is more exact than 5 kg."
+    },
+    "2": {
+      "hint": "Nearest cm: values from 4.5 up to 5.5 round to 5.",
+      "help": "**Yes** — 5.2 cm rounds to 5 cm to the nearest cm.\n\n**Different example:** 4.6 cm also rounds to 5 cm."
+    },
+    "3": {
+      "hint": "6 cm is more than 0.5 cm above 5 cm.",
+      "help": "**No** — 6 cm rounds to 6 cm, not 5 cm.\n\n**Different example:** 5.4 cm rounds to 5 cm."
+    },
+    "4": {
+      "hint": "Centimetres are smaller units than metres.",
+      "help": "**Nearest centimetre** is more accurate (smaller rounding step).\n\n**Different example:** mm is more accurate than cm."
+    },
+    "5": {
+      "hint": "Half a centimetre below 7 cm.",
+      "help": "$7 - 0.5 = 6.5$ cm.\n\n**Different example:** 10 cm minus 0.5 cm is 9.5 cm."
+    },
+    "6": {
+      "hint": "Half a centimetre above 7 cm.",
+      "help": "$7 + 0.5 = 7.5$ cm.\n\n**Different example:** 5 cm plus 0.5 cm is 5.5 cm."
+    },
+    "7": {
+      "hint": "Nearest gram: interval width 1 g around 20 g.",
+      "help": "**Yes** — 20.4 g is between 19.5 g and 20.5 g, so it rounds to 20 g.\n\n**Different example:** 20.6 g rounds to 21 g."
+    },
+    "8": {
+      "hint": "Which rounding step is smaller — 10 cm or 1 cm?",
+      "help": "**Nearest 1 cm** allows only ±0.5 cm error; nearest 10 cm allows ±5 cm.\n\n**Different example:** nearest mm beats nearest cm."
+    },
+    "9": {
+      "hint": "Could 10.3 cm round to 10 cm?",
+      "help": "**Yes** — 10.3 cm lies from 9.5 cm up to (but not including) 10.5 cm, so it rounds to 10 cm.\n\n**Different example:** 10.4 cm also rounds to 10 cm."
+    },
+    "10": {
+      "hint": "11 cm is outside the interval for 10 cm to nearest cm.",
+      "help": "**No** — 11 cm is outside 9.5–10.5, so it rounds to **11 cm**, not 10 cm.\n\n**Different example:** 10.6 cm rounds to 11 cm."
+    },
+    "11": {
+      "hint": "4.6 kg is within half a kg of 5 kg.",
+      "help": "**Yes** — 4.6 kg is between 4.5 kg and 5.5 kg, so it rounds to 5 kg to the nearest kg.\n\n**Different example:** 4.4 kg rounds to 4 kg."
+    },
+    "12": {
+      "hint": "Compare nearest cm with nearest m.",
+      "help": "**Yes** — nearest **cm** is more accurate than nearest **metre**."
+    },
+    "13": {
+      "hint": "Whole number 12: ±0.5 error interval.",
+      "help": "Whole number 12 means **11.5 ≤ a < 12.5** for the actual value.\n\n**Different example:** 8 whole gives 7.5 ≤ a < 8.5."
+    },
+    "14": {
+      "hint": "Whole number 5 for b.",
+      "help": "Whole number 5 means **4.5 ≤ b < 5.5** for the actual value.\n\n**Different example:** 3 whole gives 2.5 ≤ b < 3.5."
+    },
+    "15": {
+      "hint": "Maximum a + b uses upper bounds.",
+      "help": "Max $a + b = 12.5 + 5.5 = 18$.\n\n**Different example:** 10 and 4 whole numbers give max sum 14.5 + 4.5 = 19."
+    },
+    "16": {
+      "hint": "Minimum a + b uses lower bounds.",
+      "help": "Min $a + b = 11.5 + 4.5 = 16$.\n\n**Different example:** lower bounds always add for minimum sum."
+    },
+    "17": {
+      "hint": "Max $a - b$: largest a, smallest b.",
+      "help": "Max $a - b = 12.5 - 4.5 = 8$.\n\n**Different example:** max 10 − 3 uses 10.5 − 2.5."
+    },
+    "18": {
+      "hint": "Min $a - b$: smallest a, largest b.",
+      "help": "Min $a - b = 11.5 - 5.5 = 6$.\n\n**Different example:** min 10 − 3 uses 9.5 − 3.5."
+    },
+    "19": {
+      "hint": "Max product: use upper bounds of both.",
+      "help": "Max $x y = 20.5 \\times 4.5 = 92.25$ cm².\n\n**Different example:** 10 × 3 whole numbers → 10.5 × 3.5."
+    },
+    "20": {
+      "hint": "Min product: lower bounds of both.",
+      "help": "Min $x y = 19.5 \\times 3.5 = 68.25$ cm².\n\n**Different example:** min product uses both lower bounds."
+    },
+    "21": {
+      "hint": "Max $x \\div y$: upper x, lower y.",
+      "help": "Max $x/y = 20.5/3.5 \\approx 5.86$.\n\n**Different example:** max division uses upper ÷ lower."
+    },
+    "22": {
+      "hint": "Min $x \\div y$: lower x, upper y.",
+      "help": "Min $x/y = 19.5/4.5 \\approx 4.33$.\n\n**Different example:** min division uses lower ÷ upper."
+    },
+    "23": {
+      "hint": "1 d.p. on 8.0 and 3.0 — upper bound of sum.",
+      "help": "Upper $p + q = 8.05 + 3.05 = 11.10$.\n\n**Different example:** 5.0 + 2.0 to 1 d.p. → 7.10 upper."
+    },
+    "24": {
+      "hint": "Lower bound of $p - q$.",
+      "help": "Lower $p - q = 7.95 - 3.05 = 4.90$.\n\n**Different example:** subtract upper q from lower p for min difference."
+    },
+    "25": {
+      "hint": "m nearest 10; n whole number — max $m \\div n$.",
+      "help": "Max $m/n = 55/5.5 = 10$ (upper m, lower n).\n\n**Different example:** 50 nearest 10 and 4 whole → 54/3.5."
+    },
+    "26": {
+      "hint": "Min $m \\div n$: lower m, upper n.",
+      "help": "Min $m/n = 45/6.5 \\approx 6.92$.\n\n**Different example:** min uses lower ÷ upper."
+    },
+    "27": {
+      "hint": "To make $a - b$ as large as possible, subtract the **smallest** b.",
+      "help": "Archer is **wrong**. Max $a - b$ uses **max a** and **min b**. Mention **minimum** of $b$."
+    },
+    "28": {
+      "hint": "Largest quotient: big numerator, small denominator.",
+      "help": "**Always** — max $a \\div b$ uses the **upper** bound of $a$ and the **lower** bound of $b$.\n\n**Different example:** max $10 \\div 3$ uses 10.5 and 2.5."
+    },
+    "29": {
+      "hint": "Minimum sum needs both lower bounds.",
+      "help": "Sloan is **wrong**. Min $a + b$ uses **lower** $a$ and **lower** $b$, not mixed bounds."
+    },
+    "30": {
+      "hint": "Largest product uses both upper bounds.",
+      "help": "**Always** true for positive measurements: max product uses **both upper bounds**.\n\n**Different example:** 10 and 4 whole → $10.5 \\times 4.5$."
+    },
+    "31": {
+      "hint": "Min $a \\div b$ vs min $a \\times b$ — which bounds?",
+      "help": "Min **÷**: lower $a$, upper $b$. Min **×**: lower $a$, lower $b$. Explain both rules."
+    },
+    "32": {
+      "hint": "Max area: longest × widest from upper bounds.",
+      "help": "Max area $= 15.5 \\times 8.5 = 131.75$ cm².\n\n**Different example:** 10 cm × 5 cm whole numbers → 10.5 × 5.5."
+    },
+    "33": {
+      "hint": "Min area: shortest × narrowest from lower bounds.",
+      "help": "Min area $= 14.5 \\times 7.5 = 108.75$ cm².\n\n**Different example:** min uses both lower bounds."
+    },
+    "34": {
+      "hint": "Max speed: max distance, min time.",
+      "help": "Max speed $= 100.5/1.5 = 67$ mph (approx).\n\n**Different example:** max speed uses upper distance ÷ lower time."
+    },
+    "35": {
+      "hint": "Min difference: lower bound of larger minus upper of smaller.",
+      "help": "Min $|25 - 10| = 24.5 - 10.5 = 14$ kg.\n\n**Different example:** min gap uses closest bounds."
+    },
+    "36": {
+      "hint": "Max ribbon left: max ribbon minus min stick cut.",
+      "help": "Max left $= 205 - 29.5 = 175.5$ cm.\n\n**Different example:** max remainder uses upper minuend − lower subtrahend."
+    },
+    "37": {
+      "hint": "Max volume: multiply three upper bounds.",
+      "help": "Max $= 4.5 \\times 5.5 \\times 10.5 = 259.875$ cm³.\n\n**Different example:** cuboid max volume uses all upper bounds."
+    },
+    "38": {
+      "hint": "Min volume: three lower bounds.",
+      "help": "Min $= 3.5 \\times 4.5 \\times 9.5 = 149.625$ cm³.\n\n**Different example:** min volume uses all lower bounds."
+    },
+    "39": {
+      "hint": "Max speed = upper distance ÷ lower time.",
+      "help": "Max $= 95/11.5 \\approx 8.26$ m/s.\n\n**Different example:** 90 m nearest 10 → 95 upper; 12 s → 11.5 lower."
+    },
+    "40": {
+      "hint": "Min speed = lower distance ÷ upper time.",
+      "help": "Min $= 85/12.5 = 6.80$ m/s to 2 d.p.\n\n**Different example:** min speed uses lower ÷ upper."
+    },
+    "41": {
+      "hint": "Add error intervals for 18 cm and 7 cm.",
+      "help": "Sum from **24 cm** up to (not including) **26 cm**: **24 cm ≤ sum < 26 cm**."
+    },
+    "42": {
+      "hint": "Smallest product of two positives?",
+      "help": "**Yes** — to make a product as small as possible, multiply the **lower bounds** of both measurements.\n\n**Different example:** 10 cm and 4 cm to nearest cm → min area uses 9.5 × 3.5."
+    },
+    "43": {
+      "hint": "Maximum length to nearest cm on 15 cm.",
+      "help": "Greatest possible just below **15.5 cm** — answer **15.5 cm** as upper limit."
+    },
+    "44": {
+      "hint": "Minimum mass for 2.4 kg to 1 d.p.",
+      "help": "Lower bound **2.35 kg**.\n\n**Different example:** 3.0 kg to 1 d.p. has min 2.95 kg."
+    }
+,
+    "45": {
+      "hint": "Nearest cm: go half a cm below the recorded 9 cm.",
+      "help": "**Lower bound:** subtract half the rounding unit (0.5 cm).\n\n**Different example:** 12 cm to nearest cm → minimum 11.5 cm."
+    },
+    "46": {
+      "hint": "1 d.p. means add 0.05 kg for the upper bound.",
+      "help": "**Upper bound:** add half of 0.1 kg.\n\n**Different example:** 5.0 kg → maximum 5.05 kg."
+    },
+    "47": {
+      "hint": "Write 5.5 ≤ length < 6.5 cm.",
+      "help": "**Error interval:** half a cm below and above 6 cm; the top value is not included.\n\n**Different example:** 10 cm → 9.5 ≤ x < 10.5 cm."
+    },
+    "48": {
+      "hint": "Use 11.5 cm and 5.5 cm before multiplying.",
+      "help": "**Minimum area:** lower bounds on length and width, then multiply.\n\n**Different example:** 10 cm × 2 cm → min 9.5 × 1.5 = 14.25 cm²."
+    },
+    "49": {
+      "hint": "Nearest 10 m: add 5 m to 40 m.",
+      "help": "**Upper bound:** half of 10 is 5, so 40 + 5 = 45 m.\n\n**Different example:** 100 m → up to 105 m."
+    },
+    "50": {
+      "hint": "Take 0.05 kg off 7.0 kg.",
+      "help": "**Lower bound:** 7.0 − 0.05 = 6.95 kg.\n\n**Different example:** 3.0 kg → min 2.95 kg."
+    },
+    "51": {
+      "hint": "Maximum sum uses both upper bounds.",
+      "help": "**Max a + b:** 9.5 + 4.5.\n\n**Different example:** 8 and 3 nearest whole → max 8.5 + 3.5 = 12."
+    },
+    "52": {
+      "hint": "Minimum difference: smallest c minus largest d.",
+      "help": "**Min c − d:** lower bound of c minus upper bound of d.\n\n**Different example:** 10 − 4 → min 9.5 − 4.5 = 5."
+    },
+    "53": {
+      "hint": "Upper bounds on both numbers, then multiply.",
+      "help": "**Max product:** 6.05 × 2.05 for 1 d.p. values.\n\n**Different example:** 4.0 × 2.0 → max 4.05 × 2.05."
+    },
+    "54": {
+      "hint": "Can the true value sit below what was written?",
+      "help": "The recorded number is the middle of the interval — the lower bound is always below it.\n\n**Different example:** 5 cm nearest cm → min 4.5 cm < 5 cm."
+    },
+    "55": {
+      "hint": "500 ml nearest 100 ml — what is the upper limit?",
+      "help": "Values from 450 up to (but not including) 550 ml round to 500 ml, so 540 ml is possible.\n\n**Different example:** 400 ml nearest 100 → could be 430 ml."
+    },
+    "56": {
+      "hint": "Nearest 10: add 5 to 100.",
+      "help": "**Upper bound** of 100 to nearest 10 is 105.\n\n**Different example:** 50 → up to 55."
+    },
+    "57": {
+      "hint": "Half × upper base × upper height.",
+      "help": "Use 10.5 cm and 6.5 cm in area = ½ × base × height.\n\n**Different example:** base 8 cm, height 5 cm → max ½ × 8.5 × 5.5."
+    },
+    "58": {
+      "hint": "Half of 10 mph is 5 mph each side of 50.",
+      "help": "Interval: 45 ≤ speed < 55 mph.\n\n**Different example:** 30 mph nearest 10 → 25 to 35."
+    },
+    "59": {
+      "hint": "Largest m minus smallest n.",
+      "help": "**Max m − n:** upper m (105) minus lower n (7.5).\n\n**Different example:** 50 − 2 nearest whole → 52.5 − 1.5."
+    },
+    "60": {
+      "hint": "Smallest m divided by largest n.",
+      "help": "**Lower bound of m ÷ n:** 95 ÷ 8.5.\n\n**Different example:** 20 ÷ 4 → min 19.5 ÷ 4.5."
+    },
+    "61": {
+      "hint": "Would a bigger a and smaller b give a bigger product?",
+      "help": "Maximum product needs **both** upper bounds — Sloan mixes min and max.\n\n**Different example:** 2 × 5 → max 2.5 × 5.5, not 2.5 × 4.5."
+    },
+    "62": {
+      "hint": "Nearest 0.1 m means ±0.05 m.",
+      "help": "2.5 m → 2.45 ≤ l < 2.55 m.\n\n**Different example:** 1.0 m → 0.95 to 1.05 m."
+    },
+    "63": {
+      "hint": "Add half a cm to 13 cm.",
+      "help": "Upper bound 13.5 cm.\n\n**Different example:** 6 cm → 6.5 cm max."
+    },
+    "64": {
+      "hint": "Subtract 0.05 kg from 4.8 kg.",
+      "help": "Lower bound 4.75 kg.\n\n**Different example:** 2.0 kg → 1.95 kg min."
+    },
+    "65": {
+      "hint": "3.5 × 10.5 for maximum product.",
+      "help": "Use upper bounds on both whole-number measurements.\n\n**Different example:** 4 × 7 → max 4.5 × 7.5."
+    },
+    "66": {
+      "hint": "2.5 × 9.5 for minimum product.",
+      "help": "Use lower bounds on both.\n\n**Different example:** 5 × 2 → min 4.5 × 1.5."
+    },
+    "67": {
+      "hint": "Add the upper bounds 7.05 and 2.05.",
+      "help": "**Upper r + s** for 1 d.p. numbers.\n\n**Different example:** 5.0 + 1.0 → max 5.05 + 1.05."
+    },
+    "68": {
+      "hint": "Smallest r minus largest s.",
+      "help": "**Lower r − s:** 6.95 − 2.05.\n\n**Different example:** 9.0 − 3.0 → min 8.95 − 3.05."
+    },
+    "69": {
+      "hint": "125 m × 85 m for maximum field area.",
+      "help": "Upper bounds on both dimensions (nearest 10 m).\n\n**Different example:** 60 × 40 → max 65 × 45."
+    },
+    "70": {
+      "hint": "115 m × 75 m for minimum area.",
+      "help": "Lower bounds on both dimensions.\n\n**Different example:** 60 × 40 → min 55 × 35."
+    },
+    "71": {
+      "hint": "Furthest distance in the shortest time.",
+      "help": "**Max speed:** upper distance ÷ lower time (65 ÷ 2.5).\n\n**Different example:** 100 km in 2 h → max 100.5 ÷ 1.5."
+    },
+    "72": {
+      "hint": "Shortest distance over longest time.",
+      "help": "**Min speed:** lower distance ÷ upper time.\n\n**Different example:** 100 km in 2 h → min 95 ÷ 2.5."
+    },
+    "73": {
+      "hint": "Add the two upper bounds in grams.",
+      "help": "40.5 g + 15.5 g.\n\n**Different example:** 10 g + 5 g → max 10.5 + 5.5."
+    },
+    "74": {
+      "hint": "Smallest gap: min larger minus max smaller.",
+      "help": "39.5 g − 15.5 g for 40 g and 15 g masses.\n\n**Different example:** 12 g and 8 g → min 11.5 − 8.5."
+    },
+    "75": {
+      "hint": "Does dividing by a bigger b make the answer smaller?",
+      "help": "Yes — **always** use lower a and upper b to minimise a ÷ b (positive numbers).\n\n**Different example:** 10 ÷ 2 → min 9.5 ÷ 2.5."
+    },
+    "76": {
+      "hint": "Half of 10 is 5 each side of 350.",
+      "help": "345 ≤ x < 355.\n\n**Different example:** 400 nearest 10 → 395 to 405."
+    },
+    "77": {
+      "hint": "Add 0.05 s to 0.8 s.",
+      "help": "Upper bound 0.85 s.\n\n**Different example:** 1.0 s → max 1.05 s."
+    },
+    "78": {
+      "hint": "Upper t times upper u.",
+      "help": "250 × 5.5 for nearest 100 and nearest whole.\n\n**Different example:** 100 × 3 → max 150 × 3.5."
+    },
+    "79": {
+      "hint": "2 d.p. means subtract 0.005 m.",
+      "help": "Lower bound 0.445 m.\n\n**Different example:** 1.00 m → min 0.995 m."
+    },
+    "80": {
+      "hint": "Is the rounding always symmetric?",
+      "help": "Standard rounding gives equal distance to lower and upper limits — **always**.\n\n**Different example:** nearest cm on 8 → 7.5 and 8.5 are both 0.5 away."
+    },
+    "81": {
+      "hint": "Multiply 3.5 × 4.5 × 5.5.",
+      "help": "Upper bound on each edge for max volume.\n\n**Different example:** 2×2×2 cm cube → max 2.5³."
+    },
+    "82": {
+      "hint": "Multiply 2.5 × 3.5 × 4.5.",
+      "help": "Lower bounds on each edge.\n\n**Different example:** 2×2×2 cm → min 1.5³."
+    },
+    "83": {
+      "hint": "15.5 ÷ 3.5 for maximum.",
+      "help": "**Max v ÷ w:** upper ÷ lower.\n\n**Different example:** 8 ÷ 2 → max 8.5 ÷ 1.5."
+    },
+    "84": {
+      "hint": "14.5 ÷ 4.5 for minimum.",
+      "help": "**Min v ÷ w:** lower ÷ upper.\n\n**Different example:** 8 ÷ 2 → min 7.5 ÷ 2.5."
+    },
+    "85": {
+      "hint": "Half a cm below and above 22.",
+      "help": "21.5 ≤ l < 22.5 cm.\n\n**Different example:** 5 cm → 4.5 to 5.5."
+    },
+    "86": {
+      "hint": "Add 0.005 litres to 5.00.",
+      "help": "Max volume 5.005 l.\n\n**Different example:** 2.00 l → max 2.005 l."
+    },
+    "87": {
+      "hint": "245 miles ÷ 3.5 hours.",
+      "help": "Max speed uses upper distance and lower time.\n\n**Different example:** 100 mi in 2 h → 100.5 ÷ 1.5."
+    },
+    "88": {
+      "hint": "235 miles ÷ 4.5 hours.",
+      "help": "Min speed uses lower distance and upper time.\n\n**Different example:** 100 mi in 2 h → 99.5 ÷ 2.5."
+    },
+    "89": {
+      "hint": "Add the smallest and largest possible lengths.",
+      "help": "Each 9 cm → sum from 8.5+8.5 to 9.5+9.5.\n\n**Different example:** 5 cm + 3 cm → 4.5+2.5 to 5.5+3.5."
+    },
+    "90": {
+      "hint": "Nearest 1000: subtract 500 from 8000.",
+      "help": "Minimum population 7500.\n\n**Different example:** 5000 nearest 1000 → min 4500."
+    },
+    "91": {
+      "hint": "12.05 ÷ 3.95 for maximum.",
+      "help": "Upper a, lower b for max division.\n\n**Different example:** 10.0 ÷ 2.0 → max 10.05 ÷ 1.95."
+    },
+    "92": {
+      "hint": "11.95 ÷ 4.05 for minimum.",
+      "help": "Lower a, upper b.\n\n**Different example:** 10.0 ÷ 2.0 → min 9.95 ÷ 2.05."
+    },
+    "93": {
+      "hint": "Is the recorded value in the middle of the interval?",
+      "help": "For normal rounding the recorded value is centred — **always**.\n\n**Different example:** 6 cm nearest cm → middle of 5.5 and 6.5."
+    },
+    "94": {
+      "hint": "Subtract 0.05 m from 1.8 m.",
+      "help": "Lower bound 1.75 m.\n\n**Different example:** 2.0 m → min 1.95 m."
+    },
+    "95": {
+      "hint": "Nearest 5 cm: add 2.5 cm to 45.",
+      "help": "Upper bound 47.5 cm.\n\n**Different example:** 40 cm nearest 5 → max 42.5 cm."
+    },
+    "96": {
+      "hint": "30.4 is between 29.5 and 30.5?",
+      "help": "Nearest litre to 30 includes 30.4 — answer yes.\n\n**Different example:** 10 litres → 10.3 is possible."
+    },
+    "97": {
+      "hint": "6.5 − 1.5 for maximum x − y.",
+      "help": "Upper x minus lower y.\n\n**Different example:** 8 − 3 → max 8.5 − 2.5."
+    },
+    "98": {
+      "hint": "5.5 + 1.5 for minimum x + y.",
+      "help": "Both lower bounds.\n\n**Different example:** 8 + 3 → min 7.5 + 2.5."
+    },
+    "99": {
+      "hint": "Perimeter = 2 × (length + width) with upper bounds.",
+      "help": "2 × (20.5 + 10.5) cm.\n\n**Different example:** 6×4 cm → max 2×(6.5+4.5)."
+    },
+    "100": {
+      "hint": "Use lower bounds inside the bracket first.",
+      "help": "2 × (19.5 + 9.5) cm minimum.\n\n**Different example:** 6×4 → min 2×(5.5+3.5)."
+    },
+    "101": {
+      "hint": "Subtracting a bigger b makes a − b smaller.",
+      "help": "Min a − b needs **min a and max b**, not both min.\n\n**Different example:** 10 − 2 → min 9.5 − 2.5 = 7."
+    },
+    "102": {
+      "hint": "Does max sum come from max parts?",
+      "help": "Yes — **always** add upper bounds for maximum a + b.\n\n**Different example:** 3+4 → max 3.5+4.5."
+    },
+    "103": {
+      "hint": "9.4 cm rounds to 9 cm, not 10 cm.",
+      "help": "So if the length was recorded as 10 cm, the exact value cannot be 9.4 cm.\n\n**Different example:** 5.4 cm nearest cm → rounds to 5, not 6."
+    },
+    "104": {
+      "hint": "10.6 cm rounds to 11 cm, not 10.",
+      "help": "So the exact length cannot be 10.6 cm if 10 cm was recorded.\n\n**Different example:** 5.6 cm nearest cm → rounds to 6."
+    },
+    "105": {
+      "hint": "2 s.f. on 60: next digit would be 70.",
+      "help": "Upper bound 65 km/h.\n\n**Different example:** 300 km/h → up to 350."
+    },
+    "106": {
+      "hint": "Lower 2 s.f. bound is 55 km/h.",
+      "help": "55 ≤ speed < 65 for 60 to 2 s.f.\n\n**Different example:** 300 → lower 250."
+    },
+    "107": {
+      "hint": "350 + 15 for minimum k + l.",
+      "help": "Lower k (350) + lower l (15).\n\n**Different example:** 200+10 nearest 100/10 → min 150+5."
+    },
+    "108": {
+      "hint": "450 − 15 for maximum k − l.",
+      "help": "Upper k minus lower l.\n\n**Different example:** 500−20 → max 550−15."
+    },
+    "109": {
+      "hint": "39.5² for minimum square area.",
+      "help": "Lower side squared.\n\n**Different example:** 10 cm side → min 9.5²."
+    },
+    "110": {
+      "hint": "12 × 40.5² for maximum total.",
+      "help": "Max area one slab times 12.\n\n**Different example:** 10 slabs 5 cm → 10×5.5²."
+    },
+    "111": {
+      "hint": "Can the true value equal the lower limit?",
+      "help": "Yes — lower end uses ≤, upper uses <.\n\n**Different example:** 4 cm → 3.5 is allowed."
+    },
+    "112": {
+      "hint": "Do bounds often have extra decimals?",
+      "help": "Yes — **always** possible when multiplying bounds.\n\n**Different example:** 2.0×3.0 → max 2.05×3.05 has more decimals."
+    },
+    "113": {
+      "hint": "95 g ÷ 25.5 cm³ for minimum density.",
+      "help": "Lower mass, upper volume.\n\n**Different example:** 50 g, 10 cm³ → min 45/10.5."
+    },
+    "114": {
+      "hint": "105 g ÷ 24.5 cm³ for maximum density.",
+      "help": "Upper mass, lower volume.\n\n**Different example:** 50 g, 10 cm³ → max 55/9.5."
+    },
+    "115": {
+      "hint": "145 km ÷ 12.5 litres.",
+      "help": "Min efficiency: lower distance, upper fuel.\n\n**Different example:** 100 km, 10 l → min 95/10.5."
+    },
+    "116": {
+      "hint": "155 km ÷ 11.5 litres.",
+      "help": "Max km/l: upper distance, lower fuel.\n\n**Different example:** 100 km, 10 l → max 105/9.5."
+    },
+    "117": {
+      "hint": "Division gets smaller when the denominator grows.",
+      "help": "Use **upper a and lower b** for max a ÷ b.\n\n**Different example:** 20÷4 → max 20.5÷3.5."
+    },
+    "118": {
+      "hint": "Is upper always above lower?",
+      "help": "For positive measurements, yes — **always**.\n\n**Different example:** any interval 4.5 to 5.5."
+    },
+    "119": {
+      "hint": "±0.005 m around 1.25 m.",
+      "help": "1.245 ≤ x < 1.255 m.\n\n**Different example:** 2.00 m → 1.995 to 2.005."
+    },
+    "120": {
+      "hint": "Add 500 m to 45 000 m.",
+      "help": "Upper bound 45 500 m.\n\n**Different example:** 10 000 nearest 1000 → max 10 500."
+    },
+    "121": {
+      "hint": "Minimum sum uses both lower bounds.",
+      "help": "**Always** for a + b: lower + lower.\n\n**Different example:** 2+3 → min 1.5+2.5."
+    },
+    "122": {
+      "hint": "49.4 kg rounds to 49 kg, not 50 kg.",
+      "help": "So the exact mass cannot be 49.4 kg if 50 kg was recorded.\n\n**Different example:** 10.4 kg nearest kg → rounds to 10."
+    },
+    "123": {
+      "hint": "50.6 rounds to 51 kg, not 50.",
+      "help": "Exact mass cannot be 50.6 kg if recorded as 50 kg.\n\n**Different example:** 10.6 kg → rounds to 11."
+    },
+    "124": {
+      "hint": "× uses both upper; ÷ uses upper and lower.",
+      "help": "Compare the bound rules side by side in a table.\n\n**Different example:** max 12÷3 → 12.5÷2.5."
+    },
+    "125": {
+      "hint": "Lower bound is 5.5 cm, not 5 cm.",
+      "help": "Half a cm below 6 is 5.5.\n\n**Different example:** 10 cm → starts at 9.5."
+    },
+    "126": {
+      "hint": "If you round the final answer, can it still be a guaranteed bound?",
+      "help": "Rounding can break the guarantee — **sometimes** still ok, sometimes not; accept **sometimes**.\n\n**Different example:** upper 4.333 rounded to 4.3 may be too low."
+    },
+    "127": {
+      "hint": "Try 10.5 − 2.5 versus 10.5 − 3.5.",
+      "help": "Max a−b is 8, not 7 from subtracting both upper bounds.\n\n**Different example:** 8−2 → max 8.5−1.5=7."
+    },
+    "128": {
+      "hint": "Double the upper bound of 7 cm.",
+      "help": "Upper of 7 cm is 7.5; double length 14 cm has upper 14.5, not 15.\n\n**Different example:** scaling needs bounds on the new measurement."
+    },
+    "129": {
+      "hint": "Width equals one rounding unit.",
+      "help": "From lower to upper is exactly one unit — **always**.\n\n**Different example:** nearest 5 → width 5."
+    },
+    "130": {
+      "hint": "Compare the size of the rounding unit.",
+      "help": "1 d.p. in cm uses 0.05 cm; nearest cm uses 0.5 cm — 5.0 cm is more accurate.\n\n**Different example:** 3.0 vs 3 to nearest 1."
+    },
+    "131": {
+      "hint": "25.5 m × 18.5 m.",
+      "help": "Max garden area with upper bounds.\n\n**Different example:** 10×8 m → max 10.5×8.5."
+    },
+    "132": {
+      "hint": "24.5 m × 17.5 m.",
+      "help": "Min area with lower bounds.\n\n**Different example:** 10×8 → min 9.5×7.5."
+    },
+    "133": {
+      "hint": "405 m ÷ 47.5 s.",
+      "help": "Max speed from run.\n\n**Different example:** 100 m in 10 s → 100.5/9.5."
+    },
+    "134": {
+      "hint": "395 m ÷ 52.5 s.",
+      "help": "Min speed.\n\n**Different example:** 100 m in 10 s → 99.5/10.5."
+    },
+    "135": {
+      "hint": "14.5 + 9.5 cm.",
+      "help": "Max total length.\n\n**Different example:** 5+3 cm → max 5.5+3.5."
+    },
+    "136": {
+      "hint": "13.5 − 9.5 cm minimum gap.",
+      "help": "Min difference between rods.\n\n**Different example:** 10 and 4 → min 9.5−4.5."
+    },
+    "137": {
+      "hint": "Multiply three upper bounds.",
+      "help": "Find each bound first, then multiply all three upper edges for maximum volume.\n\n12.5×8.5×6.5 cm³.\n\n**Different example:** 2×2×2 → 2.5³."
+    },
+    "138": {
+      "hint": "Multiply three lower bounds.",
+      "help": "Find each bound first, then multiply all three lower edges for minimum volume.\n\n11.5×7.5×5.5 cm³.\n\n**Different example:** 2×2×2 → 1.5³."
+    },
+    "139": {
+      "hint": "325 km ÷ 3.75 h.",
+      "help": "Max average speed.\n\n**Different example:** 200 km in 4 h → 205/3.5."
+    },
+    "140": {
+      "hint": "315 km ÷ 4.25 h.",
+      "help": "Min speed to 1 d.p.\n\n**Different example:** 200 km in 4 h → 195/4.5."
+    },
+    "141": {
+      "hint": "Max wire 2.55 m, halve for equal pieces.",
+      "help": "Longest equal piece is half of upper wire length.\n\n**Different example:** 4.0 m wire → max piece 2.025 m."
+    },
+    "142": {
+      "hint": "Shortest plank minus longest notch.",
+      "help": "175 cm − 25.5 cm minimum left.\n\n**Different example:** cut 24.5 from 185 → min left."
+    },
+    "143": {
+      "hint": "15.5 × 10.5 cm².",
+      "help": "Use upper bounds on length and width, then multiply for maximum area.\n\n15.5 × 10.5 cm².\n\n**Different example:** 8×6 → max 8.5×6.5."
+    },
+    "144": {
+      "hint": "2 × (14.5 + 9.5) min perimeter.",
+      "help": "Lower bounds on both sides.\n\n**Different example:** 8×5 → min 2×(7.5+4.5)."
+    },
+    "145": {
+      "hint": "2.55 × 6.5 litres.",
+      "help": "Upper flow × upper time.\n\n**Different example:** 1.0 l/min for 5 min."
+    },
+    "146": {
+      "hint": "2.45 × 5.5 litres.",
+      "help": "Lower flow × lower time.\n\n**Different example:** 1.0 l/min for 5 min → min."
+    },
+    "147": {
+      "hint": "3.25 + 1.85 kg.",
+      "help": "Add upper bounds.\n\n**Different example:** 2.0+1.0 kg → max 2.05+1.05."
+    },
+    "148": {
+      "hint": "3.15 − 1.85 kg smallest gap.",
+      "help": "Min difference between masses.\n\n**Different example:** 4.0−2.0 → min 3.95−2.05."
+    },
+    "149": {
+      "hint": "27.5 ÷ 1.45 km/h.",
+      "help": "Upper distance divided by lower time gives the fastest average speed possible.\n\n27.5 ÷ 1.45 km/h.\n\n**Different example:** 20 km in 1.0 h."
+    },
+    "150": {
+      "hint": "26.5 ÷ 1.55 km/h.",
+      "help": "Lower distance divided by upper time gives the slowest average speed possible.\n\n26.5 ÷ 1.55 km/h.\n\n**Different example:** 20 km in 1.0 h → min."
+    },
+    "151": {
+      "hint": "4.05 × 3.05 m².",
+      "help": "Multiply upper bounds on each dimension of the room for maximum floor area.\n\n4.05 × 3.05 m².\n\n**Different example:** 5.0×4.0 room."
+    },
+    "152": {
+      "hint": "3.95 × 2.95 m².",
+      "help": "Multiply lower bounds on each dimension for the smallest possible floor area.\n\n3.95 × 2.95 m².\n\n**Different example:** 5.0×4.0 room → min."
+    },
+    "153": {
+      "hint": "8.5 l/s × 47.5 s.",
+      "help": "Max volume from hose.\n\n**Different example:** 5 l/s for 40 s."
+    },
+    "154": {
+      "hint": "7.5 l/s × 42.5 s.",
+      "help": "Multiply lower flow rate by lower time for the smallest volume delivered.\n\n7.5 l/s × 42.5 s.\n\n**Different example:** 5 l/s for 40 s → min."
+    },
+    "155": {
+      "hint": "Add lower and upper sums of distances.",
+      "help": "195 m ≤ sum < 215 m.\n\n**Different example:** 50+30 m nearest 10."
+    },
+    "156": {
+      "hint": "455 g ÷ 29.5 cm.",
+      "help": "Divide upper mass by lower length for the greatest mass per centimetre.\n\n455 g ÷ 29.5 cm.\n\n**Different example:** 100 g, 20 cm bar."
+    },
+    "157": {
+      "hint": "445 g ÷ 30.5 cm.",
+      "help": "Min mass per cm.\n\n**Different example:** 100 g, 20 cm → min."
+    },
+    "158": {
+      "hint": "Pythagoras with longest ladder, shortest base.",
+      "help": "√(5.05² − 1.15²) m.\n\n**Different example:** ladder 3.0 m, base 1.0 m."
+    },
+    "159": {
+      "hint": "3 × upper mass 2.55 kg.",
+      "help": "Max postage £7.65.\n\n**Different example:** £2 per kg on 1.0 kg max 1.05."
+    },
+    "160": {
+      "hint": "3 × lower mass 2.45 kg.",
+      "help": "Min postage £7.35.\n\n**Different example:** £2 per kg min 1.95."
+    },
+    "161": {
+      "hint": "Divide max hall length by min chair width; round down.",
+      "help": "32.5 ÷ 0.45 → 72 whole chairs.\n\n**Different example:** 10 m room, 0.6 m desks."
+    },
+    "162": {
+      "hint": "80% of upper capacity 50.5 l.",
+      "help": "0.8 × 50.5 litres.\n\n**Different example:** 80% of 100 l tank max."
+    },
+    "163": {
+      "hint": "80% of lower capacity 49.5 l.",
+      "help": "0.8 × 49.5 litres.\n\n**Different example:** 80% of 100 l min."
+    },
+    "164": {
+      "hint": "2.45 m × 18.5 m path.",
+      "help": "Use upper width and upper length for the largest possible rectangular path area.\n\n2.45 m × 18.5 m path.\n\n**Different example:** 3 m × 10 m path."
+    },
+    "165": {
+      "hint": "2.35 m × 17.5 m path.",
+      "help": "Use lower width and lower length for the smallest possible path area.\n\n2.35 m × 17.5 m path.\n\n**Different example:** 3 m × 10 m → min."
+    },
+    "166": {
+      "hint": "0.85 ÷ 0.25 for max.",
+      "help": "Upper ÷ lower on 1 d.p. numbers.\n\n**Different example:** 0.6÷0.2."
+    },
+    "167": {
+      "hint": "0.75 ÷ 0.35 for min.",
+      "help": "For minimum division, use the lower numerator and the upper denominator.\n\n0.75 ÷ 0.35 for min.\n\n**Different example:** 0.6÷0.2 → min."
+    },
+    "168": {
+      "hint": "Use r = 5.05 cm in 4/3 π r³.",
+      "help": "π = 3.14, round to nearest cm³.\n\n**Different example:** r = 3.0 cm sphere."
+    },
+    "169": {
+      "hint": "Use r = 4.95 cm.",
+      "help": "Minimum volume with π = 3.14.\n\n**Different example:** r = 3.0 → min 2.95."
+    },
+    "170": {
+      "hint": "Convert km to m; max distance ÷ min time.",
+      "help": "0.455 km in 22.5 s → m/s.\n\n**Different example:** 0.5 km in 20 s."
+    },
+    "171": {
+      "hint": "Min distance ÷ max time.",
+      "help": "Convert to metres, then use minimum distance over maximum time for slowest speed.\n\n0.445 km in 27.5 s.\n\n**Different example:** 0.5 km in 25 s."
+    },
+    "172": {
+      "hint": "Add upper bounds on all three sides.",
+      "help": "6.5+7.5+8.5 cm perimeter.\n\n**Different example:** 3,4,5 cm triangle."
+    },
+    "173": {
+      "hint": "Add lower bounds on all three sides.",
+      "help": "Add the lower bound of each side length to get the smallest possible perimeter.\n\n5.5+6.5+7.5 cm.\n\n**Different example:** 3,4,5 → min."
+    },
+    "174": {
+      "hint": "305 × 25.",
+      "help": "2 s.f. and 1 s.f. upper bounds.\n\n**Different example:** 40×6 s.f."
+    },
+    "175": {
+      "hint": "295 ÷ 25.",
+      "help": "Min P÷Q with lower P, upper Q.\n\n**Different example:** 40÷6."
+    },
+    "176": {
+      "hint": "1/3 × 3.14 × 4.5² × 9.5.",
+      "help": "Substitute upper radius and upper height into the cone volume formula with π = 3.14.\n\n1/3 × 3.14 × 4.5² × 9.5.\n\n**Different example:** r=2,h=5 cone."
+    },
+    "177": {
+      "hint": "1/3 × 3.14 × 3.5² × 8.5.",
+      "help": "Substitute lower radius and lower height into the cone volume formula with π = 3.14.\n\n1/3 × 3.14 × 3.5² × 8.5.\n\n**Different example:** r=2,h=5 → min."
+    },
+    "178": {
+      "hint": "Add intervals: 3.45+1.5 to 3.55+2.5.",
+      "help": "4.95 ≤ a+b < 6.05.\n\n**Different example:** 1.0+2 nearest whole."
+    },
+    "179": {
+      "hint": "Use smallest start and largest finish.",
+      "help": "Percent increase = (920−800)/800 with bounds.\n\n**Different example:** 50 to 60 increase bounds."
+    },
+    "180": {
+      "hint": "Use largest start and smallest finish.",
+      "help": "Minimum % increase from bound values.\n\n**Different example:** 50 to 60 → min %."
+    },
+    "181": {
+      "hint": "Shortest wire ÷ 3 equal parts.",
+      "help": "Divide the shortest possible wire length by three for equal pieces.\n\n0.995 m ÷ 3.\n\n**Different example:** 2.00 m into 4 pieces."
+    },
+    "182": {
+      "hint": "Expand to a² − b² with max a, min b.",
+      "help": "6.05² − 3.95².\n\n**Different example:** 5.0 and 2.0 → max difference of squares."
+    },
+    "183": {
+      "hint": "Max rise ÷ min run.",
+      "help": "1.25 ÷ 4.95 gradient.\n\n**Different example:** slope 2 m over 10 m."
+    },
+    "184": {
+      "hint": "Min rise ÷ max run.",
+      "help": "1.15 ÷ 5.05.\n\n**Different example:** slope 2 m over 10 m → min."
+    },
+    "185": {
+      "hint": "3% of upper production 12 500.",
+      "help": "Round down to whole faulty items.\n\n**Different example:** 3% of 1000 max."
+    },
+    "186": {
+      "hint": "9.5 kg minus 0.05 kg.",
+      "help": "One decimal place means subtract half of 0.1 kg from the recorded mass.\n\nLower bound 9.45 kg.\n\n**Different example:** 4.0 kg → 3.95."
+    },
+    "187": {
+      "hint": "Half a cm above 7 cm.",
+      "help": "Nearest centimetre: add half a centimetre to the recorded length for the upper bound.\n\nUpper bound 7.5 cm.\n\n**Different example:** 12 cm → 12.5."
+    },
+    "188": {
+      "hint": "11.5 × 2.5.",
+      "help": "Maximum product uses the upper bound of each whole-number measurement.\n\n11.5 × 2.5.\n\n**Different example:** 9×3 whole numbers."
+    },
+    "189": {
+      "hint": "Can the true value be above the recording?",
+      "help": "Upper bound is above the recorded value — **always** (standard rounding).\n\n**Different example:** 4 cm → up to 4.5."
+    },
+    "190": {
+      "hint": "11.5 × 4.5 cm².",
+      "help": "Multiply upper bounds on length and width before finding the maximum area.\n\n11.5 × 4.5 cm².\n\n**Different example:** 6×3 cm."
+    },
+    "191": {
+      "hint": "95 m ÷ 14.5 s.",
+      "help": "Maximum speed uses the longest distance divided by the shortest time.\n\n95 m ÷ 14.5 s.\n\n**Different example:** 50 m in 5 s."
+    },
+    "192": {
+      "hint": "5.95 + 3.95 g.",
+      "help": "Minimum total mass adds the lower bound of each measurement.\n\n5.95 + 3.95 g.\n\n**Different example:** 4.0+2.0 g."
+    },
+    "193": {
+      "hint": "When do you want the biggest result from a fraction?",
+      "help": "Maximum a÷b → upper numerator, lower denominator.\n\n**Different example:** 10÷2."
+    },
+    "194": {
+      "hint": "±500 around 2500.",
+      "help": "Nearest 100 means the true value lies 50 below and 50 above the recorded value.\n\n2450 ≤ x < 2550.\n\n**Different example:** 4000 nearest 1000."
+    },
+    "195": {
+      "hint": "8.05 − 1.95.",
+      "help": "Upper bound of a difference uses the upper minuend and lower subtrahend.\n\n8.05 − 1.95.\n\n**Different example:** 5.0−2.0."
+    },
+    "196": {
+      "hint": "2.5×3.5×4.5 cm³.",
+      "help": "Multiply the upper bound of each edge for the largest cuboid volume.\n\n2.5×3.5×4.5 cm³.\n\n**Different example:** 1×2×3 cm."
+    },
+    "197": {
+      "hint": "Smallest times smallest?",
+      "help": "Min product **always** uses both lower bounds.\n\n**Different example:** 7×4 → min 6.5×3.5."
+    },
+    "198": {
+      "hint": "145 mi ÷ 2.55 h.",
+      "help": "Minimum average speed uses the shortest distance divided by the longest time.\n\n145 mi ÷ 2.55 h.\n\n**Different example:** 100 mi in 2.0 h."
+    },
+    "199": {
+      "hint": "±0.005 cm on 5.00 cm.",
+      "help": "4.995 ≤ x < 5.005 cm.\n\n**Different example:** 2.00 cm width."
+    },
+    "200": {
+      "hint": "Upper bound 3.55 km, then × 1000.",
+      "help": "3.55 km = 3550 m maximum.\n\n**Different example:** 2.1 km → max 2150 m."
+    }
+  }
+}

@@ -1,3 +1,22 @@
+import type { SubjectId } from "./subjects";
+
+export function familyHubHref(tenant: string): string {
+  return `/t/${tenant}/family`;
+}
+
+export function familySubjectHref(tenant: string, subject: SubjectId): string {
+  return `/t/${tenant}/family/${subject}`;
+}
+
+/** @deprecated use {@link familySubjectHref}(tenant, "maths") */
+export function mathsFamilyHref(tenant: string): string {
+  return familySubjectHref(tenant, "maths");
+}
+
+export function mathsDomainHref(tenant: string, domain: string): string {
+  return `/t/${tenant}/subjects/maths/${encodeURIComponent(domain)}`;
+}
+
 export function mathsTopicHref(
   tenant: string,
   domain: string,

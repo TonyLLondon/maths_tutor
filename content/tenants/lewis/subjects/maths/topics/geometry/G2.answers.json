@@ -1,0 +1,2004 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "ruler",
+      "accept": [
+        "ruler"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "3 cm",
+      "accept": [
+        "3",
+        "3 cm",
+        "3cm"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "midpoint",
+      "accept": [
+        "midpoint",
+        "middle"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm",
+        "5cm"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "compasses",
+      "accept": [
+        "compasses",
+        "compass"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "a right angle",
+      "accept": [
+        "right angle",
+        "90",
+        "90°"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "compasses",
+      "accept": [
+        "compasses",
+        "compass"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "half; 90°",
+      "accept": [
+        "half 90",
+        "half, 90",
+        "half 90 degrees"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 695
+    },
+    "11": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "12": {
+      "display": "equal",
+      "accept": [
+        "equal"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "13": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "14": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "15": {
+      "display": "A circle of radius 3 m, centred on the post.",
+      "accept": [
+        "circle",
+        "3m",
+        "3 m"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 923
+    },
+    "16": {
+      "display": "The perpendicular bisector of the line segment AB.",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 968
+    },
+    "17": {
+      "display": "The angle bisector(s) of the angles formed where the lines cross.",
+      "accept": [
+        "angle bisector"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1014
+    },
+    "18": {
+      "display": "both arms (both lines)",
+      "accept": [
+        "both arms",
+        "both lines",
+        "both"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1059
+    },
+    "19": {
+      "display": "B",
+      "accept": [
+        "b"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "20": {
+      "display": "5",
+      "accept": [
+        "5",
+        "5 cm",
+        "5cm"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "21": {
+      "display": "Compass",
+      "accept": [
+        "compass"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "22": {
+      "display": "Circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "A circle centred at P with radius 6 cm.",
+      "accept": [
+        "circle",
+        "6 cm",
+        "6cm",
+        "radius 6"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 900
+    },
+    "24": {
+      "display": "Every point on the perpendicular bisector is the same distance from A as from B; the only point on AB itself that satisfies this is the midpoint, so the bisector must cross AB there.",
+      "accept": [
+        "midpoint",
+        "same distance",
+        "equidistant"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 993
+    },
+    "25": {
+      "display": "Always — the locus is the straight perpendicular bisector of the segment joining the points.",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1086
+    },
+    "26": {
+      "display": "No — the locus is a straight line exactly halfway between the two parallel lines, running parallel to both, not a single point.",
+      "accept": [
+        "no",
+        "line",
+        "not a point"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1179
+    },
+    "27": {
+      "display": "40° each",
+      "accept": [
+        "40",
+        "40°",
+        "40 degrees",
+        "40 each"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1271
+    },
+    "28": {
+      "display": "It crosses AB at its midpoint (6 cm from each end), at 90°.",
+      "accept": [
+        "midpoint",
+        "6 cm",
+        "90"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1364
+    },
+    "29": {
+      "display": "Anywhere along the angle bisector(s) of the angle(s) formed where the two paths cross.",
+      "accept": [
+        "angle bisector"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1457
+    },
+    "30": {
+      "display": "A straight angle measures 180°, so bisecting it splits it into two equal angles of 90° each, which is a right angle.",
+      "accept": [
+        "180",
+        "90"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1550
+    },
+    "31": {
+      "display": "A circle, radius 15 km, centred on the mast.",
+      "accept": [
+        "circle",
+        "15 km",
+        "15km"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1100
+    },
+    "32": {
+      "display": "The perpendicular bisector of the line joining A and B.",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1230
+    },
+    "33": {
+      "display": "About 78.5 m² (25π m²)",
+      "accept": [
+        "78.5",
+        "78.54",
+        "25π",
+        "25 pi"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1360
+    },
+    "34": {
+      "display": "A straight line running parallel to the coastline, 4 km out to sea.",
+      "accept": [
+        "parallel",
+        "4 km",
+        "4km"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1490
+    },
+    "35": {
+      "display": "45° to each wall (along the angle bisector of the right angle).",
+      "accept": [
+        "45",
+        "45°"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1620
+    },
+    "36": {
+      "display": "No — the distance to each corner is √13 ≈ 3.6 m, which is further than the 3 m radius, so the water does not reach the corners.",
+      "accept": [
+        "no",
+        "3.6",
+        "√13"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1750
+    },
+    "37": {
+      "display": "Any point X on the perpendicular bisector forms two right-angled triangles with the midpoint of AB; both triangles have the same two side lengths (half of AB, and the shared perpendicular height), so by matching sides, XA must equal XB.",
+      "accept": [
+        "equal",
+        "same distance",
+        "right-angled triangles",
+        "congruent"
+      ],
+      "tier": 3,
+      "contains": true,
+      "containsMin": 2,
+      "rating": 1400
+    },
+    "38": {
+      "display": "A ring shape (an annulus) between two circles centred on C — one with radius 5 cm and one with radius 8 cm.",
+      "accept": [
+        "ring",
+        "annulus",
+        "5",
+        "8"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1600
+    },
+    "39": {
+      "display": "Draw the perpendicular bisector of AB and keep the side closer to A; draw a circle of radius 20 km around B; the ship's positions are where both regions overlap.",
+      "accept": [
+        "perpendicular bisector",
+        "closer to a",
+        "circle",
+        "20"
+      ],
+      "tier": 3,
+      "contains": true,
+      "containsMin": 3,
+      "rating": 1800
+    },
+    "40": {
+      "display": "The perpendicular bisector of AB.",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "perpendicular bisector",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "Two parallel lines 3 cm from the line on each side",
+      "accept": [
+        "parallel",
+        "3"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1550
+    },
+    "43": {
+      "display": "3 cm",
+      "accept": [
+        "3",
+        "3 cm",
+        "3cm"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 754
+    },
+    "45": {
+      "display": "7 cm",
+      "accept": [
+        "7",
+        "7 cm",
+        "7cm"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "46": {
+      "display": "11 cm",
+      "accept": [
+        "11",
+        "11 cm",
+        "11cm"
+      ],
+      "tier": 1,
+      "rating": 762
+    },
+    "47": {
+      "display": "perpendicular",
+      "accept": [
+        "perpendicular"
+      ],
+      "tier": 1,
+      "rating": 767
+    },
+    "48": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 771
+    },
+    "49": {
+      "display": "22° each",
+      "accept": [
+        "22",
+        "22°",
+        "22 degrees"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 775
+    },
+    "50": {
+      "display": "43° each",
+      "accept": [
+        "43",
+        "43°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 779
+    },
+    "51": {
+      "display": "68° each",
+      "accept": [
+        "68",
+        "68°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 783
+    },
+    "52": {
+      "display": "90",
+      "accept": [
+        "90",
+        "90°"
+      ],
+      "tier": 1,
+      "rating": 787
+    },
+    "53": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm",
+        "5cm",
+        "radius 5"
+      ],
+      "tier": 1,
+      "rating": 791
+    },
+    "54": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 796
+    },
+    "55": {
+      "display": "The perpendicular bisector of the line joining the trees",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 800
+    },
+    "56": {
+      "display": "Angle bisector",
+      "accept": [
+        "angle bisector",
+        "bisector"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 804
+    },
+    "57": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 808
+    },
+    "58": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 812
+    },
+    "59": {
+      "display": "compasses",
+      "accept": [
+        "compasses",
+        "compass"
+      ],
+      "tier": 1,
+      "rating": 816
+    },
+    "60": {
+      "display": "9 cm",
+      "accept": [
+        "9",
+        "9 cm",
+        "9cm"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "61": {
+      "display": "At the midpoint",
+      "accept": [
+        "midpoint",
+        "middle",
+        "8 cm"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 825
+    },
+    "62": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 829
+    },
+    "63": {
+      "display": "A line parallel to the river, 5 m from the bank on the field side",
+      "accept": [
+        "parallel",
+        "5 m",
+        "5m"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 833
+    },
+    "64": {
+      "display": "The perpendicular bisector of the line joining the masts",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 837
+    },
+    "65": {
+      "display": "28° each",
+      "accept": [
+        "28",
+        "28°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 841
+    },
+    "66": {
+      "display": "59° each",
+      "accept": [
+        "59",
+        "59°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 845
+    },
+    "67": {
+      "display": "arms",
+      "accept": [
+        "arms",
+        "sides",
+        "both arms"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 849
+    },
+    "68": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°",
+        "right angle"
+      ],
+      "tier": 1,
+      "rating": 854
+    },
+    "69": {
+      "display": "Inside the circle of radius 4 cm centred at P",
+      "accept": [
+        "inside",
+        "within"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 858
+    },
+    "70": {
+      "display": "8 m",
+      "accept": [
+        "8",
+        "8 m",
+        "8m"
+      ],
+      "tier": 1,
+      "rating": 862
+    },
+    "71": {
+      "display": "50.3 m²",
+      "accept": [
+        "50.3",
+        "16π",
+        "16 pi",
+        "50.27"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 866
+    },
+    "72": {
+      "display": "314 m²",
+      "accept": [
+        "314",
+        "100π",
+        "100 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 870
+    },
+    "73": {
+      "display": "45°",
+      "accept": [
+        "45",
+        "45°"
+      ],
+      "tier": 2,
+      "rating": 874
+    },
+    "74": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 878
+    },
+    "75": {
+      "display": "The perpendicular bisector of AC",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 882
+    },
+    "76": {
+      "display": "Angle bisector lines through the crossing point",
+      "accept": [
+        "angle bisector"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 887
+    },
+    "77": {
+      "display": "A circle of radius 3 km centred on H",
+      "accept": [
+        "circle",
+        "3 km",
+        "3km",
+        "radius 3"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 891
+    },
+    "78": {
+      "display": "An annulus (ring) between circles of radius 2 cm and 5 cm centred at O",
+      "accept": [
+        "annulus",
+        "ring",
+        "2",
+        "5"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 895
+    },
+    "79": {
+      "display": "15 cm",
+      "accept": [
+        "15",
+        "15 cm",
+        "15cm"
+      ],
+      "tier": 1,
+      "rating": 899
+    },
+    "80": {
+      "display": "locus",
+      "accept": [
+        "locus"
+      ],
+      "tier": 1,
+      "rating": 903
+    },
+    "81": {
+      "display": "compasses",
+      "accept": [
+        "compasses",
+        "compass"
+      ],
+      "tier": 1,
+      "rating": 907
+    },
+    "82": {
+      "display": "9 m",
+      "accept": [
+        "9",
+        "9 m",
+        "9m"
+      ],
+      "tier": 1,
+      "rating": 911
+    },
+    "83": {
+      "display": "The midpoint is on AB and equidistant from A and B; the perpendicular bisector is the set of all such points, so it must pass through that midpoint.",
+      "accept": [
+        "midpoint",
+        "equidistant",
+        "same distance"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 916
+    },
+    "84": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 920
+    },
+    "85": {
+      "display": "The perpendicular bisector of AB",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 924
+    },
+    "86": {
+      "display": "Two parallel lines, each 1 cm from the line on opposite sides",
+      "accept": [
+        "two",
+        "parallel",
+        "1 cm"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 928
+    },
+    "87": {
+      "display": "25 km",
+      "accept": [
+        "25",
+        "25 km",
+        "25km"
+      ],
+      "tier": 1,
+      "rating": 932
+    },
+    "88": {
+      "display": "The perpendicular bisector of the line joining the buoys",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 936
+    },
+    "89": {
+      "display": "75° each",
+      "accept": [
+        "75",
+        "75°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 940
+    },
+    "90": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 945
+    },
+    "91": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 949
+    },
+    "92": {
+      "display": "3 m",
+      "accept": [
+        "3",
+        "3 m",
+        "3m"
+      ],
+      "tier": 1,
+      "rating": 953
+    },
+    "93": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 957
+    },
+    "94": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°"
+      ],
+      "tier": 1,
+      "rating": 961
+    },
+    "95": {
+      "display": "Angle bisector",
+      "accept": [
+        "angle bisector",
+        "bisector"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 965
+    },
+    "96": {
+      "display": "29° each",
+      "accept": [
+        "29",
+        "29°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 969
+    },
+    "97": {
+      "display": "153.9 m²",
+      "accept": [
+        "153.9",
+        "49π",
+        "49 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 974
+    },
+    "98": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 978
+    },
+    "99": {
+      "display": "The side of the perpendicular bisector that contains P",
+      "accept": [
+        "p",
+        "side with p",
+        "p side"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 982
+    },
+    "100": {
+      "display": "straight line",
+      "accept": [
+        "line",
+        "ruler",
+        "straight"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 986
+    },
+    "101": {
+      "display": "centre",
+      "accept": [
+        "centre",
+        "center"
+      ],
+      "tier": 1,
+      "rating": 990
+    },
+    "102": {
+      "display": "greater than half",
+      "accept": [
+        "greater than half",
+        "more than half"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 994
+    },
+    "103": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 998
+    },
+    "104": {
+      "display": "17° each",
+      "accept": [
+        "17",
+        "17°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1003
+    },
+    "105": {
+      "display": "90° each",
+      "accept": [
+        "90",
+        "90°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1007
+    },
+    "106": {
+      "display": "22.5° each",
+      "accept": [
+        "22.5",
+        "22.5°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1011
+    },
+    "107": {
+      "display": "7 cm",
+      "accept": [
+        "7",
+        "7 cm",
+        "7cm"
+      ],
+      "tier": 1,
+      "rating": 1015
+    },
+    "108": {
+      "display": "Two parallel lines, each 6 cm from L on opposite sides",
+      "accept": [
+        "two",
+        "parallel",
+        "6 cm"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1019
+    },
+    "109": {
+      "display": "2.5 m",
+      "accept": [
+        "2.5",
+        "2.5 m",
+        "2.5m"
+      ],
+      "tier": 1,
+      "rating": 1023
+    },
+    "110": {
+      "display": "28.3 m²",
+      "accept": [
+        "28.3",
+        "9π",
+        "9 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1027
+    },
+    "111": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1032
+    },
+    "112": {
+      "display": "45°",
+      "accept": [
+        "45",
+        "45°"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "113": {
+      "display": "compasses",
+      "accept": [
+        "compasses",
+        "compass"
+      ],
+      "tier": 1,
+      "rating": 1040
+    },
+    "114": {
+      "display": "2.5 cm",
+      "accept": [
+        "2.5",
+        "2.5 cm",
+        "2.5cm"
+      ],
+      "tier": 1,
+      "rating": 1044
+    },
+    "115": {
+      "display": "12 cm",
+      "accept": [
+        "12",
+        "12 cm",
+        "12cm"
+      ],
+      "tier": 1,
+      "rating": 1048
+    },
+    "116": {
+      "display": "The bisector makes 45° with each wall because 90° ÷ 2 = 45°.",
+      "accept": [
+        "45",
+        "90",
+        "half"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1052
+    },
+    "117": {
+      "display": "An annulus between circles of radius 3 cm and 7 cm",
+      "accept": [
+        "annulus",
+        "ring",
+        "3",
+        "7"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1056
+    },
+    "118": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1061
+    },
+    "119": {
+      "display": "Your own sentence defining locus as all points that satisfy one rule.",
+      "accept": [
+        "locus",
+        "points",
+        "rule"
+      ],
+      "tier": 3,
+      "rating": 1065,
+      "contains": true,
+      "containsMin": 2
+    },
+    "120": {
+      "display": "105° each",
+      "accept": [
+        "105",
+        "105°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1069
+    },
+    "121": {
+      "display": "3.5 cm",
+      "accept": [
+        "3.5",
+        "3.5 cm",
+        "3.5cm"
+      ],
+      "tier": 1,
+      "rating": 1073
+    },
+    "122": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10 cm",
+        "10cm"
+      ],
+      "tier": 1,
+      "rating": 1077
+    },
+    "123": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1081
+    },
+    "124": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 2,
+      "rating": 1085
+    },
+    "125": {
+      "display": "31.4 m",
+      "accept": [
+        "31.4",
+        "10π",
+        "10 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1089
+    },
+    "126": {
+      "display": "bisector",
+      "accept": [
+        "bisector",
+        "angle bisector"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1094
+    },
+    "127": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 1098
+    },
+    "128": {
+      "display": "The same side as A (not the side containing B)",
+      "accept": [
+        "a",
+        "side with a",
+        "same side as a"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1102
+    },
+    "129": {
+      "display": "Points 2 cm from a line lie on both sides of the line, giving two parallel lines 4 cm apart.",
+      "accept": [
+        "two",
+        "parallel",
+        "both sides"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1106
+    },
+    "130": {
+      "display": "452 m²",
+      "accept": [
+        "452",
+        "144π",
+        "144 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1110
+    },
+    "131": {
+      "display": "66° each",
+      "accept": [
+        "66",
+        "66°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1114
+    },
+    "132": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 1118
+    },
+    "133": {
+      "display": "19.6 m²",
+      "accept": [
+        "19.6",
+        "6.25π",
+        "6.25 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1123
+    },
+    "134": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1127
+    },
+    "135": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1131
+    },
+    "136": {
+      "display": "A line parallel to the motorway, 3 km away on the safe side",
+      "accept": [
+        "parallel",
+        "3 km",
+        "3km"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1135
+    },
+    "137": {
+      "display": "38° each",
+      "accept": [
+        "38",
+        "38°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1139
+    },
+    "138": {
+      "display": "A line parallel to both, midway between them",
+      "accept": [
+        "parallel",
+        "midway",
+        "halfway"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1143
+    },
+    "139": {
+      "display": "equal",
+      "accept": [
+        "equal",
+        "equal angles"
+      ],
+      "tier": 1,
+      "rating": 1147
+    },
+    "140": {
+      "display": "12 cm",
+      "accept": [
+        "12",
+        "12 cm",
+        "12cm"
+      ],
+      "tier": 1,
+      "rating": 1152
+    },
+    "141": {
+      "display": "The distance to each fire station is the same",
+      "accept": [
+        "same",
+        "equal distance"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1156
+    },
+    "142": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°",
+        "right angle"
+      ],
+      "tier": 1,
+      "rating": 1160
+    },
+    "143": {
+      "display": "3 cm",
+      "accept": [
+        "3",
+        "3 cm",
+        "3cm"
+      ],
+      "tier": 2,
+      "rating": 1164
+    },
+    "144": {
+      "display": "20 cm",
+      "accept": [
+        "20",
+        "20 cm",
+        "20cm"
+      ],
+      "tier": 1,
+      "rating": 1168
+    },
+    "145": {
+      "display": "Along the angle bisector of the corner",
+      "accept": [
+        "angle bisector",
+        "bisector"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1172
+    },
+    "146": {
+      "display": "31° each",
+      "accept": [
+        "31",
+        "31°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1176
+    },
+    "147": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10 cm",
+        "10cm"
+      ],
+      "tier": 2,
+      "rating": 1181
+    },
+    "148": {
+      "display": "254 m²",
+      "accept": [
+        "254",
+        "81π",
+        "81 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1185
+    },
+    "149": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1189
+    },
+    "150": {
+      "display": "4.5 cm",
+      "accept": [
+        "4.5",
+        "4.5 cm",
+        "4.5cm"
+      ],
+      "tier": 1,
+      "rating": 1193
+    },
+    "151": {
+      "display": "11 cm",
+      "accept": [
+        "11",
+        "11 cm",
+        "11cm"
+      ],
+      "tier": 1,
+      "rating": 1197
+    },
+    "152": {
+      "display": "A circle is all points the same fixed distance from one centre — a classic locus.",
+      "accept": [
+        "circle",
+        "locus",
+        "distance",
+        "centre"
+      ],
+      "tier": 3,
+      "rating": 1201,
+      "contains": true,
+      "containsMin": 2
+    },
+    "153": {
+      "display": "45°",
+      "accept": [
+        "45",
+        "45°"
+      ],
+      "tier": 2,
+      "rating": 1205
+    },
+    "154": {
+      "display": "113.1 m²",
+      "accept": [
+        "113.1",
+        "36π",
+        "36 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1210
+    },
+    "155": {
+      "display": "81° each",
+      "accept": [
+        "81",
+        "81°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1214
+    },
+    "156": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 1218
+    },
+    "157": {
+      "display": "Use the perpendicular bisector of AB and a circle of radius 10 km about B; allowed spots are closer to A and inside the circle.",
+      "accept": [
+        "perpendicular",
+        "bisector",
+        "circle",
+        "radius"
+      ],
+      "tier": 3,
+      "rating": 1222,
+      "contains": true,
+      "containsMin": 2
+    },
+    "158": {
+      "display": "14° each",
+      "accept": [
+        "14",
+        "14°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1226
+    },
+    "159": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 1230
+    },
+    "160": {
+      "display": "706.9 m²",
+      "accept": [
+        "706.9",
+        "225π",
+        "225 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1234
+    },
+    "161": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 1239
+    },
+    "162": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1243
+    },
+    "163": {
+      "display": "100° each",
+      "accept": [
+        "100",
+        "100°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1247
+    },
+    "164": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1251
+    },
+    "165": {
+      "display": "compasses",
+      "accept": [
+        "compasses",
+        "compass"
+      ],
+      "tier": 1,
+      "rating": 1255
+    },
+    "166": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1259
+    },
+    "167": {
+      "display": "27° each",
+      "accept": [
+        "27",
+        "27°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1263
+    },
+    "168": {
+      "display": "254 m²",
+      "accept": [
+        "254",
+        "81π",
+        "81 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1268
+    },
+    "169": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8 cm",
+        "8cm"
+      ],
+      "tier": 2,
+      "rating": 1272
+    },
+    "170": {
+      "display": "3 m",
+      "accept": [
+        "3",
+        "3 m",
+        "3m"
+      ],
+      "tier": 1,
+      "rating": 1276
+    },
+    "171": {
+      "display": "44° each",
+      "accept": [
+        "44",
+        "44°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1280
+    },
+    "172": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm",
+        "5cm"
+      ],
+      "tier": 1,
+      "rating": 1284
+    },
+    "173": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1288
+    },
+    "174": {
+      "display": "20.5° each",
+      "accept": [
+        "20.5",
+        "20.5°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1292
+    },
+    "175": {
+      "display": "7.5 cm",
+      "accept": [
+        "7.5",
+        "7.5 cm",
+        "7.5cm"
+      ],
+      "tier": 1,
+      "rating": 1296
+    },
+    "176": {
+      "display": "A line parallel to the coast, 2 km out to sea",
+      "accept": [
+        "parallel",
+        "2 km",
+        "2km"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1301
+    },
+    "177": {
+      "display": "74° each",
+      "accept": [
+        "74",
+        "74°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1305
+    },
+    "178": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 2,
+      "rating": 1309
+    },
+    "179": {
+      "display": "1 (the midpoint only)",
+      "accept": [
+        "1",
+        "one",
+        "midpoint"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1313
+    },
+    "180": {
+      "display": "47.5° each",
+      "accept": [
+        "47.5",
+        "47.5°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1317
+    },
+    "181": {
+      "display": "452.4 m²",
+      "accept": [
+        "452.4",
+        "144π",
+        "144 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1321
+    },
+    "182": {
+      "display": "All points inside or on a circle of radius 5 km centred at T",
+      "accept": [
+        "circle",
+        "5 km",
+        "5km",
+        "inside"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1325
+    },
+    "183": {
+      "display": "30° each",
+      "accept": [
+        "30",
+        "30°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1330
+    },
+    "184": {
+      "display": "1.5 m",
+      "accept": [
+        "1.5",
+        "1.5 m",
+        "1.5m"
+      ],
+      "tier": 1,
+      "rating": 1334
+    },
+    "185": {
+      "display": "67.5° each",
+      "accept": [
+        "67.5",
+        "67.5°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1338
+    },
+    "186": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1342
+    },
+    "187": {
+      "display": "36° each",
+      "accept": [
+        "36",
+        "36°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1346
+    },
+    "188": {
+      "display": "153.9 m²",
+      "accept": [
+        "153.9",
+        "49π",
+        "49 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1350
+    },
+    "189": {
+      "display": "The perpendicular bisector of the segment joining the two points",
+      "accept": [
+        "perpendicular bisector"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1354
+    },
+    "190": {
+      "display": "51.5° each",
+      "accept": [
+        "51.5",
+        "51.5°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1359
+    },
+    "191": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1363
+    },
+    "192": {
+      "display": "9.5° each",
+      "accept": [
+        "9.5",
+        "9.5°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1367
+    },
+    "193": {
+      "display": "38.5 m²",
+      "accept": [
+        "38.5",
+        "12.25π",
+        "12.25 pi"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1371
+    },
+    "194": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1375
+    },
+    "195": {
+      "display": "83° each",
+      "accept": [
+        "83",
+        "83°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1379
+    },
+    "196": {
+      "display": "Describe using a perpendicular bisector and/or equal-radius circles from each friend to find fair meeting points.",
+      "accept": [
+        "perpendicular",
+        "bisector",
+        "circle",
+        "equidistant"
+      ],
+      "tier": 3,
+      "rating": 1383,
+      "contains": true,
+      "containsMin": 2
+    },
+    "197": {
+      "display": "Your story with a circle (disc) of radius 5 m around the post as the grazing locus.",
+      "accept": [
+        "circle",
+        "radius",
+        "locus",
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1388,
+      "contains": true,
+      "containsMin": 2
+    },
+    "198": {
+      "display": "On an angle bisector through the crossing — anywhere along that line equidistant from both paths.",
+      "accept": [
+        "angle bisector",
+        "equidistant"
+      ],
+      "tier": 3,
+      "rating": 1392,
+      "contains": true
+    },
+    "199": {
+      "display": "On the pitch side of a line parallel to the fence, at least 1 m away",
+      "accept": [
+        "parallel",
+        "1 m",
+        "1m"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1396
+    },
+    "200": {
+      "display": "Draw the segment; arcs from each end with radius greater than half the length; join the arc intersections with a ruler line through the midpoint at 90°.",
+      "accept": [
+        "arc",
+        "perpendicular",
+        "midpoint",
+        "ruler"
+      ],
+      "tier": 3,
+      "rating": 1400,
+      "contains": true,
+      "containsMin": 2
+    }
+  }
+}

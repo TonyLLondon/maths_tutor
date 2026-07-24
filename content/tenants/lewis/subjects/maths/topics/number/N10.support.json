@@ -1,0 +1,806 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Two equal parts mean the denominator is 2.",
+      "help": "One of two equal parts is $\\frac{1}{2}$ of the whole.\n\n**Different example:** One of five equal parts is $\\frac{1}{5}$."
+    },
+    "2": {
+      "hint": "Halves as decimals sit at 0.5 on a number line.",
+      "help": "$\\frac{1}{2} = 1 \\div 2 = 0.5$.\n\n**Different example:** $\\frac{1}{4} = 0.25$."
+    },
+    "3": {
+      "hint": "Quarters come from dividing 1 by 4.",
+      "help": "$\\frac{1}{4} = 1 \\div 4 = 0.25$.\n\n**Different example:** $\\frac{3}{4} = 0.75$."
+    },
+    "4": {
+      "hint": "Compare the tenths digit first.",
+      "help": "$0.7$ has seven tenths; $0.4$ has four tenths, so **0.7** is larger.\n\n**Different example:** $0.9 > 0.6$."
+    },
+    "5": {
+      "hint": "How many tenths fit into one whole?",
+      "help": "One whole = $\\frac{10}{10}$, so **10** tenths make 1.\n\n**Different example:** 100 hundredths make 1."
+    },
+    "6": {
+      "hint": "Tenths mean divide the numerator by 10.",
+      "help": "$\\frac{3}{10} = 3 \\div 10 = 0.3$.\n\n**Different example:** $\\frac{7}{10} = 0.7$."
+    },
+    "7": {
+      "hint": "Which fraction equals one half?",
+      "help": "$\\frac{1}{2} = 0.5$. $\\frac{1}{4} = 0.25$, so choose **$\\frac{1}{2}$**.\n\n**Different example:** $\\frac{2}{4}$ also equals 0.5."
+    },
+    "8": {
+      "hint": "Line up decimal places and add.",
+      "help": "$0.2 + 0.3 = 0.5$.\n\n**Different example:** $0.4 + 0.5 = 0.9$."
+    },
+    "9": {
+      "hint": "Seven tenths as a decimal keeps one decimal place.",
+      "help": "$\\frac{7}{10} = 0.7$.\n\n**Different example:** $\\frac{9}{10} = 0.9$."
+    },
+    "10": {
+      "hint": "0.25 is twenty-five hundredths — simplify $\\frac{25}{100}$.",
+      "help": "$0.25 = \\frac{25}{100} = \\frac{1}{4}$ in simplest form.\n\n**Different example:** $0.5 = \\frac{1}{2}$."
+    },
+    "11": {
+      "hint": "Divide 3 by 5, or scale to tenths.",
+      "help": "$\\frac{3}{5} = 3 \\div 5 = 0.6$.\n\n**Different example:** $\\frac{2}{5} = 0.4$."
+    },
+    "12": {
+      "hint": "0.35 means 35 out of 100 squares shaded.",
+      "help": "Shade **35** squares. $\\frac{35}{100} = \\frac{7}{20}$ in simplest form. Mention **35** and **$\\frac{7}{20}$** (or 35/100)."
+    },
+    "13": {
+      "hint": "0.8 is eight tenths — write as a fraction and cancel.",
+      "help": "$0.8 = \\frac{8}{10} = \\frac{4}{5}$.\n\n**Different example:** $0.6 = \\frac{3}{5}$."
+    },
+    "14": {
+      "hint": "Divide 9 by 20.",
+      "help": "$\\frac{9}{20} = 9 \\div 20 = 0.45$.\n\n**Different example:** $\\frac{11}{20} = 0.55$."
+    },
+    "15": {
+      "hint": "Eighths: divide 1 by 8.",
+      "help": "$\\frac{1}{8} = 1 \\div 8 = 0.125$.\n\n**Different example:** $\\frac{3}{8} = 0.375$."
+    },
+    "16": {
+      "hint": "0.12 is twelve hundredths.",
+      "help": "$0.12 = \\frac{12}{100} = \\frac{3}{25}$.\n\n**Different example:** $0.08 = \\frac{2}{25}$."
+    },
+    "17": {
+      "hint": "Divide 11 by 25.",
+      "help": "$\\frac{11}{25} = 11 \\div 25 = 0.44$.\n\n**Different example:** $\\frac{13}{25} = 0.52$."
+    },
+    "18": {
+      "hint": "Six hundredths — cancel common factors.",
+      "help": "$0.06 = \\frac{6}{100} = \\frac{3}{50}$.\n\n**Different example:** $0.04 = \\frac{1}{25}$."
+    },
+    "19": {
+      "hint": "Divide 7 by 8.",
+      "help": "$\\frac{7}{8} = 7 \\div 8 = 0.875$.\n\n**Different example:** $\\frac{5}{8} = 0.625$."
+    },
+    "20": {
+      "hint": "0.375 is three eighths as a decimal — reverse it.",
+      "help": "$0.375 = \\frac{375}{1000} = \\frac{3}{8}$.\n\n**Different example:** $0.125 = \\frac{1}{8}$."
+    },
+    "21": {
+      "hint": "Three quarters of 100 percent.",
+      "help": "$\\frac{3}{4} = 0.75 = 75\\%$.\n\n**Different example:** $\\frac{1}{2} = 50\\%$."
+    },
+    "22": {
+      "hint": "0.6 means 60 out of 100.",
+      "help": "$0.6 = \\frac{60}{100} = 60\\%$.\n\n**Different example:** $0.35 = 35\\%$."
+    },
+    "23": {
+      "hint": "Convert $\\frac{4}{5}$ to a decimal and compare with 0.8.",
+      "help": "$0.8 = \\frac{8}{10} = \\frac{4}{5}$, so Mo is **correct**. Show **yes** and **$\\frac{4}{5}$** or equivalent working."
+    },
+    "24": {
+      "hint": "Try 0.5 and 0.25 — are both exactly tenths?",
+      "help": "One decimal place can mean tenths, but values like $0.25 = \\frac{1}{4}$ are not tenths. Answer **sometimes** with an example."
+    },
+    "25": {
+      "hint": "Divide 1 by 3 on a calculator — is it exactly 0.3?",
+      "help": "$\\frac{1}{3} = 0.333\\ldots$, not 0.3. Archer is **not** correct; mention **recurring** or **0.333**."
+    },
+    "26": {
+      "hint": "Multiply 0.45 by 10 — where do digits move?",
+      "help": "×10 shifts every digit one place left: $0.45 \\times 10 = 4.5$. This is **always** true for base-10 decimals."
+    },
+    "27": {
+      "hint": "Compare $\\frac{2}{5}$ with 0.35 by converting to decimals.",
+      "help": "Adding 2 and 5 does not compare sizes. $\\frac{2}{5} = 0.4 > 0.35$. Explain the wrong reasoning; **$\\frac{2}{5}$** is bigger."
+    },
+    "28": {
+      "hint": "Add $\\frac{3}{4}$ and $\\frac{1}{2}$ — use a common denominator.",
+      "help": "$\\frac{3}{4} + \\frac{1}{2} = \\frac{3}{4} + \\frac{2}{4} = \\frac{5}{4} = 1.25$ km.\n\n**Different example:** $\\frac{1}{2} + \\frac{1}{4} = 0.75$ km."
+    },
+    "29": {
+      "hint": "Is 0.6 kg the same as $\\frac{3}{5}$ kg?",
+      "help": "$\\frac{3}{5} = 0.6$ kg exactly, so she has **enough**. Say **yes** and that the amounts match."
+    },
+    "30": {
+      "hint": "Convert $\\frac{4}{5}$ m to a decimal and compare with 0.7 m.",
+      "help": "$\\frac{4}{5} = 0.8$ m; Sloan has 0.7 m. **Archer** buys more, by **0.1** m."
+    },
+    "31": {
+      "hint": "Subtract $\\frac{3}{4}$ from 1.5 litres.",
+      "help": "$1.5 - 0.75 = 0.75$ litres left.\n\n**Different example:** $2.0 - 0.5 = 1.5$ litres."
+    },
+    "32": {
+      "hint": "0.375 of 8 slices — multiply or use $\\frac{3}{8}$.",
+      "help": "$0.375 = \\frac{3}{8}$, so **3** slices out of 8.\n\n**Different example:** $0.25$ of 8 slices = 2 slices."
+    },
+    "33": {
+      "hint": "One half as a decimal.",
+      "help": "$\\frac{1}{2} = 0.5$.\n\n**Different example:** $\\frac{1}{5} = 0.2$."
+    },
+    "34": {
+      "hint": "0.75 is seventy-five hundredths.",
+      "help": "$0.75 = \\frac{75}{100} = \\frac{3}{4}$.\n\n**Different example:** $0.50 = \\frac{1}{2}$."
+    },
+    "35": {
+      "hint": "Three quarters as a decimal.",
+      "help": "$\\frac{3}{4} = 0.75$.\n\n**Different example:** $\\frac{1}{4} = 0.25$."
+    },
+    "36": {
+      "hint": "Write $\\frac{4}{5}$ as a decimal.",
+      "help": "$\\frac{4}{5} = 0.8$, same as 0.8 — they are **equal**. Convert $\\frac{4}{5}$ by dividing 4 by 5 if you are unsure.\n\n**Different example:** $\\frac{3}{5}$ and 0.6 are also equal."
+    },
+    "37": {
+      "hint": "Percent means divide by 100.",
+      "help": "$40\\% = 40 \\div 100 = 0.4$.\n\n**Different example:** $25\\% = 0.25$."
+    },
+    "38": {
+      "hint": "One fifth of the bar as a decimal.",
+      "help": "$\\frac{1}{5} = 1 \\div 5 = 0.2$.\n\n**Different example:** $\\frac{1}{10} = 0.1$."
+    },
+    "39": {
+      "hint": "Convert every value to decimals, then order.",
+      "help": "$\\frac{1}{4} = 0.25$, $\\frac{3}{10} = 0.3$. Order: **0.2**, **$\\frac{1}{4}$**, **$\\frac{3}{10}$**, **0.75**."
+    },
+    "40": {
+      "hint": "Divide 5 by 6, then round to 2 decimal places.",
+      "help": "$5 \\div 6 = 0.8333\\ldots \\approx 0.83$ to 2 d.p.\n\n**Different example:** $1 \\div 3 \\approx 0.33$ to 2 d.p."
+    },
+    "41": {
+      "hint": "Divide 7 by 9 and compare with 0.78.",
+      "help": "$7 \\div 9 = 0.777\\ldots < 0.78$, so **0.78** is bigger. Show division or both decimals."
+    },
+    "42": {
+      "hint": "Let $x = 0.333\\ldots$ — multiply by 10 and subtract.",
+      "help": "If $x = 0.333\\ldots$, then $10x - x = 3$, so $x = \\frac{1}{3}$. Answer **$\\frac{1}{3}$** in simplest form."
+    },
+    "43": {
+      "hint": "Write $\\frac{2}{5}$ and $\\frac{9}{20}$ as decimals.",
+      "help": "$\\frac{2}{5} = 0.4$, $\\frac{9}{20} = 0.45$. Order: **0.4** (= $\\frac{2}{5}$), **$\\frac{9}{20}$**, **0.5**."
+    },
+    "44": {
+      "hint": "Compare tenths: 0.09 has zero tenths; 0.1 has one tenth.",
+      "help": "0.1 = 0.10, which is bigger than 0.09. Sloan treated decimals like whole numbers. **0.1** is bigger."
+    }
+,
+    "45": {
+      "hint": "One fifth means divide 1 by 5.",
+      "help": "**What to do:** Write **1/5** as a decimal.\n\nDivide the numerator by the denominator: $1 \\div 5 = 0.2$.\n\n**Different example:** **3/5 = 0.6** because $3 \\div 5 = 0.6$."
+    },
+    "46": {
+      "hint": "Nine hundredths — write over 100, then cancel.",
+      "help": "**What to do:** Write 0.09 as a fraction in simplest form.\n\n$0.09 = 9/100$ and 9 and 100 share no common factor except 1.\n\n**Different example:** $0.25 = 25/100 = 1/4$ after cancelling."
+    },
+    "47": {
+      "hint": "**Of** means multiply: **3/4 × 48**.",
+      "help": "**What to do:** Work out **3/4** of 48.\n\nFind a quarter first: $48 \\div 4 = 12$, then $3 \\times 12 = 36$.\n\n**Different example:** **1/3** of 21 is 7 because $21 \\div 3 = 7$."
+    },
+    "48": {
+      "hint": "Convert **3/5** to a decimal, then compare with 0.58.",
+      "help": "**What to do:** Which is larger: **3/5** or 0.58?\n\n$3 \\div 5 = 0.6$, and $0.6 > 0.58$, so **3/5** is larger.\n\n**Different example:** Compare **1/2** and 0.48 using $0.5$."
+    },
+    "49": {
+      "hint": "Turn **1/5** into a decimal before adding.",
+      "help": "**What to do:** Work out 0.3 + **1/5**.\n\n$1/5 = 0.2$, so $0.3 + 0.2 = 0.5$.\n\n**Different example:** $0.1 + 1/4 = 0.1 + 0.25 = 0.35$."
+    },
+    "50": {
+      "hint": "If **2/5** is full, the rest of the whole is empty.",
+      "help": "**What to do:** A bottle is **2/5** full. What fraction is empty?\n\nThe whole is 1, so empty is $1 - 2/5 = 3/5$.\n\n**Different example:** **3/4** full leaves **1/4** empty."
+    },
+    "51": {
+      "hint": "35% means 35 out of 100 — simplify.",
+      "help": "**What to do:** Write 35% as a fraction in simplest form.\n\n$35\\% = 35/100 = 7/20$ after dividing top and bottom by 5.\n\n**Different example:** $50\\% = 1/2$."
+    },
+    "52": {
+      "hint": "Divide 5 by 8 for the decimal.",
+      "help": "**What to do:** Write **5/8** as a decimal.\n\n$5 \\div 8 = 0.625$.\n\n**Different example:** **1/8 = 0.125** because $1 \\div 8 = 0.125$."
+    },
+    "53": {
+      "hint": "0.125 is a well-known eighth — or use 125/1000.",
+      "help": "**What to do:** Write 0.125 as a fraction in simplest form.\n\n$0.125 = 125/1000 = 1/8$.\n\n**Different example:** $0.5 = 1/2$."
+    },
+    "54": {
+      "hint": "Quarter of 36: divide by 4.",
+      "help": "**What to do:** Work out **1/4** of 36.\n\n$36 \\div 4 = 9$.\n\n**Different example:** **1/4** of 20 is 5."
+    },
+    "55": {
+      "hint": "Write **4/5** as 0.8, then compare with 0.82.",
+      "help": "**What to do:** Which is larger: 0.82 or **4/5**?\n\n$4/5 = 0.8$, and $0.82 > 0.8$, so **0.82** is larger.\n\n**Different example:** Compare 0.9 and **4/5** using $0.8$."
+    },
+    "56": {
+      "hint": "**1/10** is 0.1 — add to 0.45.",
+      "help": "**What to do:** Work out **1/10** + 0.45.\n\n$1/10 = 0.1$, so $0.1 + 0.45 = 0.55$.\n\n**Different example:** $0.2 + 1/5 = 0.2 + 0.2 = 0.4$."
+    },
+    "57": {
+      "hint": "Subtract **7/10** from 1 for the empty part.",
+      "help": "**What to do:** A glass is **7/10** full. What fraction is empty?\n\n$1 - 7/10 = 3/10$ empty.\n\n**Different example:** **1/2** full leaves **1/2** empty."
+    },
+    "58": {
+      "hint": "8% → 8/100, then simplify.",
+      "help": "**What to do:** Write 8% as a fraction in simplest form.\n\n$8\\% = 8/100 = 2/25$.\n\n**Different example:** $20\\% = 1/5$."
+    },
+    "59": {
+      "hint": "Divide 2 by 25.",
+      "help": "**What to do:** Write **2/25** as a decimal.\n\n$2 \\div 25 = 0.08$.\n\n**Different example:** **1/25 = 0.04**."
+    },
+    "60": {
+      "hint": "55 hundredths — write 55/100 and cancel.",
+      "help": "**What to do:** Write 0.55 as a fraction in simplest form.\n\n$0.55 = 55/100 = 11/20$.\n\n**Different example:** $0.10 = 1/10$."
+    },
+    "61": {
+      "hint": "Find **1/8** of 64 first, then ×3.",
+      "help": "**What to do:** Work out **3/8** of 64.\n\n$64 \\div 8 = 8$, then $3 \\times 8 = 24$.\n\n**Different example:** **1/8** of 40 is 5."
+    },
+    "62": {
+      "hint": "Compare **1/3** (≈0.333…) with 0.34.",
+      "help": "**What to do:** Fill in < , > , or = between **1/3** and 0.34.\n\n$1/3 \\approx 0.333…$, which is less than 0.34, so use **<**.\n\n**Different example:** **1/2** = 0.5."
+    },
+    "63": {
+      "hint": "Write **1/4** as 0.25, then subtract from 0.6.",
+      "help": "**What to do:** Work out 0.6 − **1/4**.\n\n$1/4 = 0.25$, so $0.6 - 0.25 = 0.35$.\n\n**Different example:** $1 - 3/4 = 0.25$."
+    },
+    "64": {
+      "hint": "Convert each fraction to a decimal to order them.",
+      "help": "**What to do:** Order **1/8**, **2/15**, 0.15, 0.2 from smallest to largest.\n\n$1/8 = 0.125$, $2/15 \\approx 0.133$, then 0.15, then 0.2.\n\n**Different example:** Order 0.3, **1/4**, 0.2 by converting **1/4** to 0.25."
+    },
+    "65": {
+      "hint": "Divide 13 by 20.",
+      "help": "**What to do:** Write **13/20** as a decimal.\n\n$13 \\div 20 = 0.65$.\n\n**Different example:** **9/20 = 0.45**."
+    },
+    "66": {
+      "hint": "Four hundredths — write 4/100 and simplify.",
+      "help": "**What to do:** Write 0.04 as a fraction in simplest form.\n\n$0.04 = 4/100 = 1/25$.\n\n**Different example:** $0.02 = 1/50$."
+    },
+    "67": {
+      "hint": "**2/3** of 90: divide by 3, then ×2.",
+      "help": "**What to do:** Work out **2/3** of 90.\n\n$90 \\div 3 = 30$, then $2 \\times 30 = 60$.\n\n**Different example:** **1/3** of 90 is 30."
+    },
+    "68": {
+      "hint": "Compare **5/6** as a decimal with 0.84.",
+      "help": "**What to do:** Which is larger: **5/6** or 0.84?\n\n$5 \\div 6 \\approx 0.833…$, which is less than 0.84, so **0.84** wins.\n\n**Different example:** **3/4 = 0.75**."
+    },
+    "69": {
+      "hint": "72% means 72 hundredths as a decimal.",
+      "help": "**What to do:** Write 72% as a decimal.\n\n$72\\% = 72/100 = 0.72$.\n\n**Different example:** $40\\% = 0.4$."
+    },
+    "70": {
+      "hint": "Divide 1 by 12 and round to 2 d.p.",
+      "help": "**What to do:** Write **1/12** as a decimal to 2 d.p.\n\n$1 \\div 12 = 0.0833…$, which rounds to **0.08**.\n\n**Different example:** **1/8 = 0.125** exactly."
+    },
+    "71": {
+      "hint": "0.875 is seven eighths — or simplify 875/1000.",
+      "help": "**What to do:** Write 0.875 as a fraction in simplest form.\n\n$0.875 = 875/1000 = 7/8$.\n\n**Different example:** $0.5 = 1/2$."
+    },
+    "72": {
+      "hint": "Three fifths of £45: find one fifth, then ×3.",
+      "help": "**What to do:** Work out **3/5** of £45.\n\n$45 \\div 5 = 9$, then $3 \\times 9 = 27$ pounds.\n\n**Different example:** **2/5** of 50 is 20."
+    },
+    "73": {
+      "hint": "**7/10 = 0.7** — compare with 0.69.",
+      "help": "**What to do:** Compare **7/10** and 0.69.\n\n$0.7 > 0.69$, so the symbol is **>**.\n\n**Different example:** **1/2** > 0.49."
+    },
+    "74": {
+      "hint": "Add **1/8** (0.125) to 0.75.",
+      "help": "**What to do:** Work out **1/8** + 0.75.\n\n$1/8 = 0.125$, so $0.125 + 0.75 = 0.875$.\n\n**Different example:** $1/4 + 0.5 = 0.75$."
+    },
+    "75": {
+      "hint": "150% is one and a half wholes as a decimal.",
+      "help": "**What to do:** Write 150% as a decimal.\n\n$150\\% = 150/100 = 1.5$.\n\n**Different example:** $100\\% = 1$."
+    },
+    "76": {
+      "hint": "Divide 4 by 9; round to 3 decimal places.",
+      "help": "**What to do:** Write **4/9** as a decimal to 3 d.p.\n\n$4 \\div 9 = 0.4444…$, which rounds to **0.444**.\n\n**Different example:** **1/3** rounds to 0.333 to 3 d.p."
+    },
+    "77": {
+      "hint": "Eight thousandths — write 8/1000 and cancel.",
+      "help": "**What to do:** Write 0.008 as a fraction in simplest form.\n\n$0.008 = 8/1000 = 1/125$.\n\n**Different example:** $0.001 = 1/1000$."
+    },
+    "78": {
+      "hint": "**5/12** of 60: divide 60 by 12, then ×5.",
+      "help": "**What to do:** Work out **5/12** of 60.\n\n$60 \\div 12 = 5$, then $5 \\times 5 = 25$.\n\n**Different example:** **1/12** of 60 is 5."
+    },
+    "79": {
+      "hint": "Turn **11/15** into a decimal to compare with 0.73.",
+      "help": "**What to do:** Which is larger: **11/15** or 0.73?\n\n$11 \\div 15 \\approx 0.733… > 0.73$, so **11/15** is larger.\n\n**Different example:** Compare **2/3** and 0.66 using 0.666…"
+    },
+    "80": {
+      "hint": "5% → divide by 100.",
+      "help": "**What to do:** Write 5% as a decimal.\n\n$5\\% = 0.05$.\n\n**Different example:** $10\\% = 0.1$."
+    },
+    "81": {
+      "hint": "Divide 17 by 40.",
+      "help": "**What to do:** Convert **17/40** to a decimal.\n\n$17 \\div 40 = 0.425$.\n\n**Different example:** **9/40 = 0.225**."
+    },
+    "82": {
+      "hint": "0.375 is three eighths — think percentage of a whole.",
+      "help": "**What to do:** Write 0.375 as a percentage.\n\n$0.375 = 3/8 = 37.5\\%$.\n\n**Different example:** $0.5 = 50\\%$."
+    },
+    "83": {
+      "hint": "One sixth of 42: divide by 6.",
+      "help": "**What to do:** Work out **1/6** of 42.\n\n$42 \\div 6 = 7$.\n\n**Different example:** **1/6** of 24 is 4."
+    },
+    "84": {
+      "hint": "**2/3** and 0.666… are the same value.",
+      "help": "**What to do:** Compare 0.666… and **2/3**.\n\nThey are equal, so use **=**.\n\n**Different example:** **1/2** = 0.5."
+    },
+    "85": {
+      "hint": "Write **3/8** as 0.375, subtract from 1.",
+      "help": "**What to do:** Work out $1 - 3/8$ as a decimal.\n\n$3/8 = 0.375$, so $1 - 0.375 = 0.625$.\n\n**Different example:** $1 - 1/4 = 0.75$."
+    },
+    "86": {
+      "hint": "Divide 7 by 16.",
+      "help": "**What to do:** Write **7/16** as a decimal.\n\n$7 \\div 16 = 0.4375$.\n\n**Different example:** **3/16 = 0.1875**."
+    },
+    "87": {
+      "hint": "Seven hundredths — 7/100 is already simplest.",
+      "help": "**What to do:** Write 0.07 as a fraction in simplest form.\n\n$0.07 = 7/100$.\n\n**Different example:** $0.03 = 3/100$."
+    },
+    "88": {
+      "hint": "**4/7** of 35: divide 35 by 7, then ×4.",
+      "help": "**What to do:** Work out **4/7** of 35.\n\n$35 \\div 7 = 5$, then $4 \\times 5 = 20$.\n\n**Different example:** **1/7** of 35 is 5."
+    },
+    "89": {
+      "hint": "Write **8/9** as a decimal before comparing with 0.99.",
+      "help": "**What to do:** Which is smaller: 0.99 or **8/9**?\n\n$8 \\div 9 \\approx 0.889…$, so **8/9** is smaller than 0.99.\n\n**Different example:** **1/2** is smaller than 0.6."
+    },
+    "90": {
+      "hint": "**3/20** out of a whole — multiply by 100 for %.",
+      "help": "**What to do:** Write **3/20** as a percentage.\n\n$3/20 = 15/100 = 15\\%$.\n\n**Different example:** **1/5 = 20\\%**."
+    },
+    "91": {
+      "hint": "Multiply decimals: 0.5 × **3/5**.",
+      "help": "**What to do:** Work out $0.5 \\times 3/5$.\n\n$3/5 = 0.6$, and $0.5 \\times 0.6 = 0.3$.\n\n**Different example:** $0.2 \\times 1/4 = 0.05$."
+    },
+    "92": {
+      "hint": "1.25 means 1 and a quarter — write as top-heavy fraction.",
+      "help": "**What to do:** Write 1.25 as an improper fraction in simplest form.\n\n$1.25 = 125/100 = 5/4$.\n\n**Different example:** $1.5 = 3/2$."
+    },
+    "93": {
+      "hint": "**3/8 = 0.375** — compare with 0.38.",
+      "help": "**What to do:** Compare **3/8** and 0.38.\n\n$0.375 < 0.38$, so use **<**.\n\n**Different example:** **1/2** < 0.51."
+    },
+    "94": {
+      "hint": "Same denominator: fifths minus thirds → convert to sixths.",
+      "help": "**What to do:** Work out **5/6 − 1/3**.\n\n$1/3 = 2/6$, so $5/6 - 2/6 = 3/6 = 1/2$.\n\n**Different example:** **3/4 − 1/2 = 1/4**."
+    },
+    "95": {
+      "hint": "Divide 9 by 16.",
+      "help": "**What to do:** Write **9/16** as a decimal.\n\n$9 \\div 16 = 0.5625$.\n\n**Different example:** **1/16 = 0.0625**."
+    },
+    "96": {
+      "hint": "Two thousandths — simplify 2/1000.",
+      "help": "**What to do:** Write 0.002 as a fraction in simplest form.\n\n$0.002 = 2/1000 = 1/500$.\n\n**Different example:** $0.004 = 1/250$."
+    },
+    "97": {
+      "hint": "**7/9** of 81: divide 81 by 9, then ×7.",
+      "help": "**What to do:** Work out **7/9** of 81.\n\n$81 \\div 9 = 9$, then $7 \\times 9 = 63$.\n\n**Different example:** **2/9** of 81 is 18."
+    },
+    "98": {
+      "hint": "**5/8 = 0.625** — compare with 0.62.",
+      "help": "**What to do:** Which is larger: **5/8** or 0.62?\n\n$0.625 > 0.62$, so **5/8** is larger.\n\n**Different example:** **3/4** > 0.7."
+    },
+    "99": {
+      "hint": "Move the decimal point two places for percent.",
+      "help": "**What to do:** Write 0.45 as a percentage.\n\n$0.45 = 45/100 = 45\\%$.\n\n**Different example:** $0.08 = 8\\%$."
+    },
+    "100": {
+      "hint": "Compare 0.25 with **1/5** — are they the same?",
+      "help": "**What to do:** Mo says **0.25** equals **1/5**. Decide yes or no.\n\n$0.25 = 1/4$, not $1/5 = 0.2$, so Mo is wrong.\n\n**Different example:** $0.5 = 1/2$, not $1/5$."
+    },
+    "101": {
+      "hint": "Try a decimal that stops and one that needs another denominator.",
+      "help": "**What to do:** Always, sometimes, or never? A terminating decimal equals a fraction over 10.\n\n$0.5 = 5/10$ works, but $0.25 = 1/4$ does not — answer **sometimes**.\n\n**Different example:** $0.1 = 1/10$ is sometimes true only."
+    },
+    "102": {
+      "hint": "Check what **1/8** is as a decimal.",
+      "help": "**What to do:** Sloan wrote **1/8** as 0.8. Spot the error.\n\n$1 \\div 8 = 0.125$, not 0.8 — she likely swapped digits or divided the wrong way.\n\n**Different example:** **1/4** is 0.25, not 0.4."
+    },
+    "103": {
+      "hint": "Multiply a decimal by 100 and watch digit order.",
+      "help": "**What to do:** Always, sometimes, or never? ×100 keeps digit order.\n\n$0.45 \\times 100 = 45.0$ — order stays; answer **always** with normal decimals.\n\n**Different example:** $0.07 \\times 100 = 7$."
+    },
+    "104": {
+      "hint": "Pick a positive number and compare **3/4** and **1/2** of it.",
+      "help": "**What to do:** Is **3/4** of a number always bigger than **1/2** of the same number?\n\nYes for positive amounts — three quarters is more than half.\n\n**Different example:** Of 20, **3/4** is 15 and **1/2** is 10."
+    },
+    "105": {
+      "hint": "Divide 1 by 3 exactly.",
+      "help": "**What to do:** Is 0.333… exactly **1/3**?\n\nYes — the recurring decimal equals the fraction.\n\n**Different example:** $0.5 = 1/2$ exactly."
+    },
+    "106": {
+      "hint": "Simplest form changes appearance, not value.",
+      "help": "**What to do:** Always, sometimes, or never? Simplest form changes the decimal.\n\n**Never** — $2/4$ and $1/2$ both equal 0.5.\n\n**Different example:** $3/6$ simplifies to $1/2$ with the same decimal."
+    },
+    "107": {
+      "hint": "0.5% is half a percent, not half a whole.",
+      "help": "**What to do:** Priya says 0.5% equals **1/2**. Explain.\n\n$0.5\\% = 0.005$, which is far less than **1/2** — she is wrong.\n\n**Different example:** $50\\% = 1/2$."
+    },
+    "108": {
+      "hint": "Try **1/100** and **3/100** as decimals.",
+      "help": "**What to do:** Always, sometimes, or never? Denominator 100 means two decimal places.\n\n**Sometimes** — $1/100 = 0.01$ but $3/100 = 0.03$ still has two places.\n\n**Different example:** $50/100 = 0.50$."
+    },
+    "109": {
+      "hint": "Write **2/5** as tenths or as a decimal.",
+      "help": "**What to do:** Explain why **2/5** and 0.4 match.\n\n$2/5 = 4/10 = 0.4$ — same portion of a whole.\n\n**Different example:** $1/2 = 0.5$ for the same reason."
+    },
+    "110": {
+      "hint": "Add **1/4** and 0.25 numerically.",
+      "help": "**What to do:** Always, sometimes, or never? **1/4 + 0.25** > 0.5.\n\nBoth are 0.25, sum is 0.5 — **never** greater than 0.5.\n\n**Different example:** $0.25 + 0.25 = 0.5$ exactly."
+    },
+    "111": {
+      "hint": "Count decimal places for **1/1000**.",
+      "help": "**What to do:** Kim says **1/1000** is 0.1. Correct?\n\n$1/1000 = 0.001$, not 0.1 — Kim is wrong.\n\n**Different example:** **1/100 = 0.01**."
+    },
+    "112": {
+      "hint": "Think of **1/3** as a decimal.",
+      "help": "**What to do:** Always, sometimes, or never? Every fraction terminates as a decimal.\n\n**Never** — **1/3** repeats forever.\n\n**Different example:** **1/7** also repeats."
+    },
+    "113": {
+      "hint": "Compare fractions with common denominators or cross-multiply.",
+      "help": "**What to do:** Mo adds tops and bottoms of **3/7** and **4/9**. Why fail?\n\nFraction size is not found by adding numerators and denominators.\n\n**Different example:** Compare **1/2** and **2/3** using sixths."
+    },
+    "114": {
+      "hint": "Divide 1 by 8.",
+      "help": "**What to do:** Is **0.125** exactly **1/8**?\n\nYes — $1 \\div 8 = 0.125$ with no remainder.\n\n**Different example:** **0.5 = 1/2** exactly."
+    },
+    "115": {
+      "hint": "Try **1/4** and **1/8** — what happens when the denominator doubles?",
+      "help": "**What to do:** Always, sometimes, or never? Doubling the denominator doubles the fraction.\n\n**Never** — it halves the fraction (**1/8** is half of **1/4**).\n\n**Different example:** Same numerator, bigger denominator → smaller fraction."
+    },
+    "116": {
+      "hint": "25% and **1/4** mean the same slice of 80.",
+      "help": "**What to do:** Sloan says 25% of 80 equals **1/4** of 80.\n\nBoth are 20 — she is correct.\n\n**Different example:** $50\\%$ of 10 is **1/2** of 10."
+    },
+    "117": {
+      "hint": "Measure distance from 0.7 to **2/3** and to **3/4**.",
+      "help": "**What to do:** Always, sometimes, or never? 0.7 closer to **2/3** than **3/4**.\n\nFor 0.7 itself, **always** — $2/3 \\approx 0.667$ is nearer than 0.75.\n\n**Different example:** 0.74 is closer to **3/4**."
+    },
+    "118": {
+      "hint": "Cancel factors in **2/10**.",
+      "help": "**What to do:** Why is **2/10** not simplest for 0.20?\n\nDivide top and bottom by 2 to get **1/5**.\n\n**Different example:** $0.50 = 1/2$, not **5/10** in final form."
+    },
+    "119": {
+      "hint": "If the fraction is less than 1, compare a and b.",
+      "help": "**What to do:** Always, sometimes, or never? If $a/b < 1$ then $a < b$.\n\n**Always** for positive whole numbers.\n\n**Different example:** **3/8 < 1** so $3 < 8$."
+    },
+    "120": {
+      "hint": "Recurring nines often equal the next whole.",
+      "help": "**What to do:** Archer says 0.999… = 1. Agree?\n\nYes — the infinite 9s add up to exactly 1.\n\n**Different example:** $0.333… = 1/3$."
+    },
+    "121": {
+      "hint": "Divide 3 by 5.",
+      "help": "**What to do:** Always, sometimes, or never? **3/5** converts to 0.6.\n\n**Always** — $3 \\div 5 = 0.6$ exactly.\n\n**Different example:** **1/5 = 0.2** always."
+    },
+    "122": {
+      "hint": "Match place value: hundredths vs tenths.",
+      "help": "**What to do:** Why is 0.08 not **8/10**?\n\n0.08 is eight **hundredths**; **8/10** is eight **tenths** (0.8).\n\n**Different example:** $0.5 = 5/10 = 1/2$."
+    },
+    "123": {
+      "hint": "Try 150% as a decimal.",
+      "help": "**What to do:** Always, sometimes, or never? Percent > 100% means decimal > 1.\n\n**Always** — $150\\% = 1.5 > 1$.\n\n**Different example:** $200\\% = 2$."
+    },
+    "124": {
+      "hint": "Compare **5/8** and **3/4** with a common denominator.",
+      "help": "**What to do:** Mo says **5/8** > **3/4** because 5 > 3.\n\nNumerators alone mislead — **3/4** is larger.\n\n**Different example:** **1/8** is not bigger than **1/2**."
+    },
+    "125": {
+      "hint": "Divide 3 by 5.",
+      "help": "**What to do:** Is **0.6** exactly **3/5**?\n\nYes — $3 \\div 5 = 0.6$.\n\n**Different example:** **0.25 = 1/4** exactly."
+    },
+    "126": {
+      "hint": "Reciprocal flips the fraction.",
+      "help": "**What to do:** Always, sometimes, or never? Reciprocal of **2/5** is **5/2**.\n\n**Always** — swap numerator and denominator.\n\n**Different example:** Reciprocal of **3/4** is **4/3**."
+    },
+    "127": {
+      "hint": "0.05 is in the hundredths column.",
+      "help": "**What to do:** Sloan says 0.05 is **5/10**. Explain.\n\n0.05 is **5/100**, not five tenths.\n\n**Different example:** $0.5 = 5/10$."
+    },
+    "128": {
+      "hint": "Adding 0.1 adds one tenth.",
+      "help": "**What to do:** Always, sometimes, or never? +0.1 increases by **1/10**.\n\n**Always** — $0.1 = 1/10$ of the unit you are counting.\n\n**Different example:** $2 + 0.1 = 2.1$."
+    },
+    "129": {
+      "hint": "Two halves of the same whole make one whole.",
+      "help": "**What to do:** Why is **1/2 + 1/2** written as 1, not **2/4**?\n\nYou add two half-wholes to get one whole; **2/4** is half, not the sum.\n\n**Different example:** **1/4 + 1/4 = 1/2** of the same pizza."
+    },
+    "130": {
+      "hint": "Add 0.35 kg and **3/8** kg in the same units.",
+      "help": "**What to do:** Total dry ingredients: 0.35 kg sugar + **3/8** kg flour.\n\n$3/8 = 0.375$, so $0.35 + 0.375 = 0.725$ kg.\n\n**Different example:** $0.2 + 1/4 = 0.45$ kg."
+    },
+    "131": {
+      "hint": "Spending is the part not saved: **3/5** of £50.",
+      "help": "**What to do:** Archer saves **2/5** of £50; find what he spends.\n\nSpends **3/5**: $50 \\times 3/5 = 30$ pounds.\n\n**Different example:** Save **1/4** of 40 → spend 30."
+    },
+    "132": {
+      "hint": "Write each fill amount as a decimal to compare.",
+      "help": "**What to do:** Which carton is fullest: **1/2**, 0.45, **5/12**?\n\n$1/2 = 0.5$ is largest; **5/12** ≈ 0.417.\n\n**Different example:** Compare 0.6 and **3/5** — both 0.6."
+    },
+    "133": {
+      "hint": "Convert **3/8** km to a decimal, add 0.2.",
+      "help": "**What to do:** Total run: **3/8** km + 0.2 km.\n\n$3/8 = 0.375$, total $0.575$ km.\n\n**Different example:** **1/4** km + 0.1 km = 0.35 km."
+    },
+    "134": {
+      "hint": "**1/4** off £24 — find the discount, then subtract.",
+      "help": "**What to do:** Sale price after **1/4** off £24.\n\nDiscount is £6, sale price £18.\n\n**Different example:** **1/2** off £10 → £5."
+    },
+    "135": {
+      "hint": "Multiply **7/8** by 2 litres.",
+      "help": "**What to do:** Water in a 2 L bottle filled **7/8**.\n\n$2 \\times 7/8 = 14/8 = 1.75$ litres.\n\n**Different example:** **1/2** of 2 L is 1 L."
+    },
+    "136": {
+      "hint": "Add fractions eaten, subtract from 1.",
+      "help": "**What to do:** Pizza left after **1/6** and **1/4** eaten.\n\nEaten $2/12 + 3/12 = 5/12$; left **7/12**.\n\n**Different example:** Eat **1/2** → half left."
+    },
+    "137": {
+      "hint": "Find **5/8** of 80p.",
+      "help": "**What to do:** Cost of **5/8** m at 80p per m.\n\n$80 \\times 5/8 = 50$ pence.\n\n**Different example:** **1/2** m at 80p is 40p."
+    },
+    "138": {
+      "hint": "**3/10** used means **7/10** remains of 400 L.",
+      "help": "**What to do:** 400 L tank, **3/10** used — how much left?\n\n$400 \\times 7/10 = 280$ litres remain.\n\n**Different example:** Half of 400 L is 200 L."
+    },
+    "139": {
+      "hint": "Divide **2/3** kg by 1.5 kg per bag.",
+      "help": "**What to do:** What fraction of a 1.5 kg bag is **2/3** kg?\n\n$(2/3) \\div 1.5 = 4/9$ of a bag.\n\n**Different example:** **1/2** kg from 1 kg bag is **1/2**."
+    },
+    "140": {
+      "hint": "Subtract **3/4** from 8 °C.",
+      "help": "**What to do:** Cool 8 °C by **3/4** °C.\n\n$8 - 0.75 = 7.25$ °C.\n\n**Different example:** $5 - 1/2 = 4.5$ °C."
+    },
+    "141": {
+      "hint": "**1/5** km is 0.2 km — add to 0.8.",
+      "help": "**What to do:** Total walk 0.8 km + **1/5** km.\n\n$0.8 + 0.2 = 1$ km.\n\n**Different example:** $0.5 + 1/4$ km = 0.75 km."
+    },
+    "142": {
+      "hint": "If **2/5** failed = 28, find the whole class.",
+      "help": "**What to do:** 28 pupils is **2/5** of the class.\n\nOne fifth is 14, whole class $5 \\times 14 = 70$.\n\n**Different example:** **1/4** of class = 8 → class size 32."
+    },
+    "143": {
+      "hint": "0.42 as a decimal → multiply by 100 for percent.",
+      "help": "**What to do:** Battery charge 0.42 as a percentage.\n\n$0.42 = 42\\%$.\n\n**Different example:** $0.5 = 50\\%$ charge."
+    },
+    "144": {
+      "hint": "Add **1/3** L and 0.4 L.",
+      "help": "**What to do:** Smoothie total: **1/3** L + 0.4 L.\n\n$1/3 \\approx 0.333$, sum ≈ **0.733** L (or **11/15** L).\n\n**Different example:** **1/2** + 0.1 = 0.6 L."
+    },
+    "145": {
+      "hint": "20% off — pay 80% of £35.",
+      "help": "**What to do:** 20% off a £35 jacket.\n\n$35 \\times 0.8 = 28$ pounds sale price.\n\n**Different example:** 10% off £20 → £18."
+    },
+    "146": {
+      "hint": "Convert **3/4** m to 0.75 m, subtract 0.2.",
+      "help": "**What to do:** String left: **3/4** m − 0.2 m.\n\n$0.75 - 0.2 = 0.55$ m.\n\n**Different example:** $1 - 0.3$ m = 0.7 m."
+    },
+    "147": {
+      "hint": "**2/5** of 30 pupils.",
+      "help": "**What to do:** How many of 30 walk if **2/5** walk home?\n\n$30 \\times 2/5 = 12$ pupils.\n\n**Different example:** **1/3** of 30 is 10."
+    },
+    "148": {
+      "hint": "**5/6** of 60 minutes.",
+      "help": "**What to do:** Minutes in **5/6** of an hour.\n\n$60 \\times 5/6 = 50$ minutes.\n\n**Different example:** **1/2** hour = 30 minutes."
+    },
+    "149": {
+      "hint": "12 × **1/8** tsp sugar.",
+      "help": "**What to do:** Sugar for 12 cups at **1/8** tsp each.\n\n$12 \\times 1/8 = 12/8 = 3/2 = 1.5$ tsp.\n\n**Different example:** 8 × **1/4** tsp = 2 tsp."
+    },
+    "150": {
+      "hint": "Start **4/5** full, subtract **1/10** poured out.",
+      "help": "**What to do:** Bottle **4/5** full, pour out **1/10** of bottle.\n\n$4/5 - 1/10 = 8/10 - 1/10 = 7/10$ full.\n\n**Different example:** **1/2** minus **1/4** leaves **1/4**."
+    },
+    "151": {
+      "hint": "Divide 1 by 7; round to 3 d.p.",
+      "help": "**What to do:** **1/7** as a decimal to 3 d.p.\n\n$1 \\div 7 = 0.142857…$ → **0.143**.\n\n**Different example:** **1/3** → 0.333 to 3 d.p."
+    },
+    "152": {
+      "hint": "Compare **12/17** with 0.71 using division.",
+      "help": "**What to do:** Which is larger: **12/17** or 0.71?\n\n$12 \\div 17 \\approx 0.706$, so **0.71** is slightly larger.\n\n**Different example:** **2/3** vs 0.67."
+    },
+    "153": {
+      "hint": "Divide fractions: multiply by the reciprocal.",
+      "help": "**What to do:** **2/3 ÷ 4/5** as a decimal.\n\n$2/3 \\times 5/4 = 10/12 = 5/6 \\approx 0.833$.\n\n**Different example:** **1/2 ÷ 1/4 = 2**."
+    },
+    "154": {
+      "hint": "Divide 1 by 9; round to 3 d.p.",
+      "help": "**What to do:** **1/9** to 3 decimal places.\n\n$1 \\div 9 = 0.1111…$ → **0.111**.\n\n**Different example:** **2/9** → 0.222 to 3 d.p."
+    },
+    "155": {
+      "hint": "**√(1/4) = 1/2** — order all as decimals.",
+      "help": "**What to do:** Order **√(1/4)**, 0.505, 0.55, **3/5**.\n\nValues: 0.5, 0.505, 0.55, 0.6 in that order.\n\n**Different example:** Order 0.25, **1/4**, 0.3 — tie at 0.25."
+    },
+    "156": {
+      "hint": "Proper fractions are less than one whole.",
+      "help": "**What to do:** Always, sometimes, or never? Fraction between 0 and 1 → decimal < 1.\n\n**Always** for standard proper fractions.\n\n**Different example:** **3/4 = 0.75 < 1**."
+    },
+    "157": {
+      "hint": "Multiply 0.125 by **2/5**.",
+      "help": "**What to do:** $0.125 \\times 2/5$.\n\n$0.125 \\times 0.4 = 0.05$.\n\n**Different example:** $0.5 \\times 1/5 = 0.1$."
+    },
+    "158": {
+      "hint": "Find distance from 1 for **7/8** and for 0.88.",
+      "help": "**What to do:** Closer to 1: **7/8** or 0.88?\n\n$7/8 = 0.875$ is 0.125 from 1; 0.88 is 0.12 from 1 — **0.88** wins.\n\n**Different example:** 0.9 vs **9/10** — same distance."
+    },
+    "159": {
+      "hint": "Divide 5 by 12, then ×100 for %.",
+      "help": "**What to do:** **5/12** as a percentage to 1 d.p.\n\n$5/12 \\times 100 \\approx 41.666…\\%$ → **41.7%**.\n\n**Different example:** **1/4 = 25%**."
+    },
+    "160": {
+      "hint": "Compare **49/100** and **49/99** as decimals.",
+      "help": "**What to do:** Archer claims 0.49 equals **49/100** and **49/99**.\n\n**49/100 = 0.49** but **49/99** is slightly more — he is not fully correct.\n\n**Different example:** **1/2** ≠ **1/3** even with same numerator."
+    },
+    "161": {
+      "hint": "Do × before + : **1/2 × 3/4**, then add **1/8**.",
+      "help": "**What to do:** **1/2 × 3/4 + 1/8** as a decimal.\n\n$0.5 \\times 0.75 = 0.375$; $+ 0.125 = 0.5$.\n\n**Different example:** **1/2 × 1/2 = 1/4**."
+    },
+    "162": {
+      "hint": "Compare **13/20**, **2/3**, and 0.67 as decimals.",
+      "help": "**What to do:** Order **13/20**, **2/3**, 0.67 smallest first.\n\n$0.65$, then $0.666…$, then $0.67$.\n\n**Different example:** Order **1/4**, 0.3, 0.25."
+    },
+    "163": {
+      "hint": "Square 0.5 and compare to **1/4**.",
+      "help": "**What to do:** Always, sometimes, or never? $0.5^2 = 1/4$.\n\n**Always** — $0.25 = 1/4$.\n\n**Different example:** $0.2^2 = 0.04$."
+    },
+    "164": {
+      "hint": "Divide 11 by 12; round to 3 d.p.",
+      "help": "**What to do:** **11/12** to 3 decimal places.\n\n$11 \\div 12 = 0.91666…$ → **0.917**.\n\n**Different example:** **5/12** → 0.417 to 3 d.p."
+    },
+    "165": {
+      "hint": "Convert **1/6** to a decimal, subtract from **3/4**.",
+      "help": "**What to do:** **3/4 − 1/6** as a decimal to 3 d.p.\n\n$0.75 - 0.166… = 0.583$ (to 3 d.p.).\n\n**Different example:** **1/2 − 1/4 = 0.25**."
+    },
+    "166": {
+      "hint": "Find **1/3** of 90 cm.",
+      "help": "**What to do:** **1/3** of 90 cm.\n\n$90 \\div 3 = 30$ cm.\n\n**Different example:** **2/3** of 90 cm is 60 cm."
+    },
+    "167": {
+      "hint": "Cross-multiply **5/7** and **3/4**.",
+      "help": "**What to do:** Which is greater: **5/7** or **3/4**?\n\n$5 \\times 4 = 20$, $7 \\times 3 = 21$ → **3/4** is larger.\n\n**Different example:** Compare **2/5** and **1/3** similarly."
+    },
+    "168": {
+      "hint": "Five ten-thousandths — simplify.",
+      "help": "**What to do:** 0.0005 as a fraction in simplest form.\n\n$0.0005 = 5/10000 = 1/2000$.\n\n**Different example:** $0.0002 = 1/5000$."
+    },
+    "169": {
+      "hint": "120% of 50 — find 100% then add 20%.",
+      "help": "**What to do:** Work out 120% of 50.\n\n$50 \\times 1.2 = 60$.\n\n**Different example:** $150\\%$ of 20 is 30."
+    },
+    "170": {
+      "hint": "Try two decimals like 0.4 and 0.3.",
+      "help": "**What to do:** Always, sometimes, or never? Sum of two decimals < 1 is < 2.\n\n**Always** — even 0.99 + 0.99 < 2.\n\n**Different example:** $0.1 + 0.1 = 0.2 < 2$."
+    },
+    "171": {
+      "hint": "Convert **1/12 + 1/4** to twelfths first.",
+      "help": "**What to do:** **1/12 + 1/4** as a decimal.\n\n$1/12 + 3/12 = 4/12 = 1/3 = 0.333…$.\n\n**Different example:** **1/8 + 1/8 = 1/4 = 0.25**."
+    },
+    "172": {
+      "hint": "175 thousandths — write over 1000 and cancel.",
+      "help": "**What to do:** 0.175 as a fraction in simplest form.\n\n$0.175 = 175/1000 = 7/40$.\n\n**Different example:** $0.125 = 1/8$."
+    },
+    "173": {
+      "hint": "Use twelfths or cross-multiply **5/9** and **7/12**.",
+      "help": "**What to do:** Which is larger: **5/9** or **7/12**?\n\n$5/9 = 20/36$, $7/12 = 21/36$ → **7/12**.\n\n**Different example:** **1/2** vs **3/8** using eighths."
+    },
+    "174": {
+      "hint": "Work **3/8** of 100, then **4/5** of that.",
+      "help": "**What to do:** **4/5** of **3/8** of 100.\n\n$100 \\times 3/8 = 37.5$; $37.5 \\times 4/5 = 30$.\n\n**Different example:** **1/2** of **1/2** of 80 is 20."
+    },
+    "175": {
+      "hint": "Percent ÷ 100 gives the decimal.",
+      "help": "**What to do:** Always, sometimes, or never? Write percent as decimal by ÷100.\n\n**Always** — $35\\% = 0.35$.\n\n**Different example:** $8\\% = 0.08$."
+    },
+    "176": {
+      "hint": "Divide 19 by 24; round to 3 d.p.",
+      "help": "**What to do:** **19/24** to 3 decimal places.\n\n$19 \\div 24 = 0.79166…$ → **0.792**.\n\n**Different example:** **7/8 = 0.875** exactly."
+    },
+    "177": {
+      "hint": "Compare 0.999… with **9/10**.",
+      "help": "**What to do:** Is **0.999…** equal to **9/10**?\n\nNo — recurring nines equal 1, which is bigger than 0.9.\n\n**Different example:** $0.9 = 9/10$ exactly."
+    },
+    "178": {
+      "hint": "2.5 × **1/5** — or find a fifth of 2.5.",
+      "help": "**What to do:** $2.5 \\times 1/5$.\n\n$2.5 \\div 5 = 0.5$.\n\n**Different example:** $10 \\times 1/5 = 2$."
+    },
+    "179": {
+      "hint": "Order negative numbers: more negative is smaller.",
+      "help": "**What to do:** Order **−1/2**, −0.45, −0.4, **−3/8** from smallest.\n\n$−0.5$, $−0.45$, $−0.4$, $−0.375$.\n\n**Different example:** Order −0.2 and −0.25."
+    },
+    "180": {
+      "hint": "Divide 7 by 15, ×100, round to 1 d.p.",
+      "help": "**What to do:** **7/15** as a percentage to 1 d.p.\n\n$7/15 \\times 100 = 46.666…\\%$ → **46.7%**.\n\n**Different example:** **2/3 ≈ 66.7%**."
+    },
+    "181": {
+      "hint": "Price ÷ weight: £4.50 for **3/5** kg.",
+      "help": "**What to do:** Price per kg if **3/5** kg costs £4.50.\n\n$4.50 \\div 0.6 = 7.50$ pounds per kg.\n\n**Different example:** £2 for **1/2** kg → £4 per kg."
+    },
+    "182": {
+      "hint": "**3/8 = 0.375** — compare with 0.37.",
+      "help": "**What to do:** Compare **3/8** and 0.37.\n\n$0.375 > 0.37$, so use **>**.\n\n**Different example:** **1/4** vs 0.24."
+    },
+    "183": {
+      "hint": "**3/10** is 0.3 — add to 0.4.",
+      "help": "**What to do:** $0.4 + 3/10$.\n\n$0.4 + 0.3 = 0.7$.\n\n**Different example:** $0.2 + 1/5 = 0.4$."
+    },
+    "184": {
+      "hint": "Spend **1/3**, then **1/4** of what is left.",
+      "help": "**What to do:** Start £24; spend **1/3**, then **1/4** of remainder.\n\nAfter **1/3**: £16 left; **1/4** of 16 is £4 spent → **£12** left.\n\n**Different example:** Half then half again leaves a quarter."
+    },
+    "185": {
+      "hint": "54 thousandths — simplify 54/1000.",
+      "help": "**What to do:** 0.054 as a fraction in simplest form.\n\n$0.054 = 54/1000 = 27/500$.\n\n**Different example:** $0.036 = 9/250$."
+    },
+    "186": {
+      "hint": "Half of **1/2** is **1/4**.",
+      "help": "**What to do:** Always, sometimes, or never? Half of a half is a quarter.\n\n**Always** — $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$.\n\n**Different example:** Half of **1/3** is **1/6**."
+    },
+    "187": {
+      "hint": "Convert **2/5** L to millilitres, add 350 ml.",
+      "help": "**What to do:** **2/5** L milk + 350 ml water in ml.\n\n$2/5$ L = 400 ml; $400 + 350 = 750$ ml.\n\n**Different example:** **1/2** L = 500 ml."
+    },
+    "188": {
+      "hint": "Write **14/15** as a decimal to compare with 0.93.",
+      "help": "**What to do:** Which is larger: **14/15** or 0.93?\n\n$14 \\div 15 \\approx 0.933…$, so **14/15** is larger.\n\n**Different example:** **11/12** vs 0.9."
+    },
+    "189": {
+      "hint": "Work **2/3** of 36, then take **1/2** of that.",
+      "help": "**What to do:** **1/2** of **2/3** of 36.\n\n$36 \\times 2/3 = 24$; half of 24 is **12**.\n\n**Different example:** **1/2** of **1/2** of 40 is 10."
+    },
+    "190": {
+      "hint": "Divide 5 by 16.",
+      "help": "**What to do:** Write **5/16** as a decimal.\n\n$5 \\div 16 = 0.3125$.\n\n**Different example:** **3/16 = 0.1875**."
+    },
+    "191": {
+      "hint": "Divide 2 by 11; round to 3 d.p.",
+      "help": "**What to do:** **2/11** to 3 decimal places.\n\n$2 \\div 11 = 0.181818…$ → **0.182**.\n\n**Different example:** **1/11** → 0.091 to 3 d.p."
+    },
+    "192": {
+      "hint": "If **3/8** of the goal is £45, scale up to the whole.",
+      "help": "**What to do:** £45 saved is **3/8** of the goal.\n\nOne eighth is £15; full goal $8 \\times 15 = 120$ pounds.\n\n**Different example:** **1/4** of goal = £10 → goal £40."
+    },
+    "193": {
+      "hint": "0.333… and **1/3** are equal.",
+      "help": "**What to do:** Compare 0.333… and **1/3**.\n\nThey are the same value — use **=**.\n\n**Different example:** $0.5 = 1/2$."
+    },
+    "194": {
+      "hint": "Convert all to decimals: 0.7, 0.25, 0.05.",
+      "help": "**What to do:** **7/10 − 1/4 + 0.05**.\n\n$0.7 - 0.25 + 0.05 = 0.5$.\n\n**Different example:** $0.6 - 1/5 = 0.4$."
+    },
+    "195": {
+      "hint": "Try 0.999 and 1.234 as counterexamples.",
+      "help": "**What to do:** Always, sometimes, or never? Three decimal places means value < 1.\n\n**Sometimes** — 0.500 < 1 but 1.234 has three places and is > 1.\n\n**Different example:** 2.000 has three decimal places."
+    },
+    "196": {
+      "hint": "Add **2/9** and **1/6** eaten; subtract from 1.",
+      "help": "**What to do:** Cake left after **2/9** and **1/6** eaten.\n\n$4/18 + 3/18 = 7/18$ eaten; **11/18** left.\n\n**Different example:** **1/4 + 1/4** eaten → **1/2** left."
+    },
+    "197": {
+      "hint": "0.008 × 100 for percent.",
+      "help": "**What to do:** 0.008 as a percentage.\n\n$0.008 = 0.8\\%$.\n\n**Different example:** $0.05 = 5\\%$."
+    },
+    "198": {
+      "hint": "If **1/12** fills per minute, how many for a full bath?",
+      "help": "**What to do:** Tap fills **1/12** per minute — time for full bath.\n\n12 × **1/12** = 1 whole → **12 minutes**.\n\n**Different example:** **1/5** per minute → 5 minutes."
+    },
+    "199": {
+      "hint": "Distance from **1/2** (0.5) for each decimal.",
+      "help": "**What to do:** Closer to **1/2**: 0.49 or 0.51?\n\nBoth are 0.01 from 0.5; either is equally close — we take **0.49** as the answer below half.\n\n**Different example:** 0.48 is closer to **1/2** than 0.52 is."
+    },
+    "200": {
+      "hint": "Convert **2/5** and **7/20** to decimals to order.",
+      "help": "**What to do:** Order **2/5**, 0.39, **7/20**, 0.41 smallest first.\n\n$7/20 = 0.35$, then 0.39, **2/5 = 0.4**, then 0.41.\n\n**Different example:** Order 0.5, **1/2**, 0.49 — watch for ties."
+    }
+  }
+}

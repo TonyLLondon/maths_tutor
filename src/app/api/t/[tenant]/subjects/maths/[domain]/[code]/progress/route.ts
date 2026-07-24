@@ -71,7 +71,6 @@ export async function POST(request: Request, { params }: Ctx) {
   const body = (await request.json()) as {
     questionId?: string;
     answer?: string;
-    selfCheckCorrect?: boolean;
     barHeights?: number[];
   };
   const questionId = body.questionId ?? "";
@@ -99,7 +98,6 @@ export async function POST(request: Request, { params }: Ctx) {
   const { correct, display } = gradePracticeAttempt(entry, {
     questionId,
     answer: body.answer,
-    selfCheckCorrect: body.selfCheckCorrect,
     barHeights: body.barHeights,
   });
 

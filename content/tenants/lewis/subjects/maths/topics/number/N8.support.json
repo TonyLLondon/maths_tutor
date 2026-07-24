@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "The denominator counts equal pieces; the numerator counts the piece chosen.",
+      "help": "Two equal pieces make one whole. One chosen piece is $\\frac{1}{2}$ of the whole.\n\n**Different example:** One of 5 equal pieces is $\\frac{1}{5}$."
+    },
+    "2": {
+      "hint": "The denominators already match, so add the numerators.",
+      "help": "$\\frac12+\\frac12=\\frac22=1$. Two halves fit together to make one whole.\n\n**Different example:** $\\frac14+\\frac14=\\frac24=\\frac12$."
+    },
+    "3": {
+      "hint": "To find one quarter, divide the amount by 4.",
+      "help": "Finding $\\frac14$ of 8 means splitting 8 into 4 equal groups: $8\\div4=2$.\n\n**Different example:** $\\frac14$ of 20 is $20\\div4=5$."
+    },
+    "4": {
+      "hint": "For unit fractions, fewer equal pieces means each piece is larger.",
+      "help": "A half is one of 2 equal pieces; a quarter is one of 4. Therefore $\\frac12>\\frac14$.\n\n**Different example:** $\\frac13>\\frac16$."
+    },
+    "5": {
+      "hint": "Start with 4 slices and subtract the 1 slice eaten.",
+      "help": "There are $4-1=3$ slices left out of 4 equal slices, so $\\frac34$ remains.\n\n**Different example:** Eat 2 of 5 slices and $\\frac35$ remains."
+    },
+    "6": {
+      "hint": "The diameter is twice the radius.",
+      "help": "Use $d=2r$. With radius 3 cm, $d=2\\times3=6$ cm.\n\n**Different example:** Radius 5 cm gives diameter 10 cm."
+    },
+    "7": {
+      "hint": "It is the Greek letter used in circle formulae.",
+      "help": "The symbol is $\\pi$ (pi). Leaving $\\pi$ in an answer keeps a circle calculation exact.\n\n**Different example:** An exact circumference can be written $8\\pi$ cm."
+    },
+    "8": {
+      "hint": "The denominators match, so keep 4 and add the numerators.",
+      "help": "$\\frac24+\\frac14=\\frac34$. Equal-sized quarters can be counted by adding their numerators.\n\n**Different example:** $\\frac15+\\frac25=\\frac35$."
+    },
+    "9": {
+      "hint": "Add the numerators because both fractions are thirds.",
+      "help": "$\\frac13+\\frac13=\\frac23$. Keep denominator 3 because the pieces stay thirds.\n\n**Different example:** $\\frac17+\\frac17=\\frac27$."
+    },
+    "10": {
+      "hint": "Use taken pieces over total equal pieces.",
+      "help": "One piece was taken from 4 equal pieces, so the fraction taken is $\\frac14$.\n\n**Different example:** Three pieces from 8 is $\\frac38$."
+    },
+    "11": {
+      "hint": "One half of an amount means divide it by 2.",
+      "help": "$\\frac12$ of 10 is $10\\div2=5$.\n\n**Different example:** $\\frac12$ of 18 is 9 because $18\\div2=9$."
+    },
+    "12": {
+      "hint": "Double the radius to get the diameter.",
+      "help": "$d=2r$, so a radius of 2 cm gives $d=2\\times2=4$ cm.\n\n**Different example:** Radius 7 cm gives diameter 14 cm."
+    },
+    "13": {
+      "hint": "Rewrite the quarter as eighths before adding.",
+      "help": "$\\frac14=\\frac28$, so $\\frac28+\\frac18=\\frac38$. The result is already simplest.\n\n**Different example:** $\\frac13+\\frac16=\\frac36=\\frac12$."
+    },
+    "14": {
+      "hint": "Convert two thirds to sixths, then subtract.",
+      "help": "$\\frac23=\\frac46$, so $\\frac46-\\frac16=\\frac36=\\frac12$.\n\n**Different example:** $\\frac34-\\frac14=\\frac24=\\frac12$."
+    },
+    "15": {
+      "hint": "Multiply tops and bottoms, then cancel common factors.",
+      "help": "$\\frac12\\times\\frac25=\\frac2{10}=\\frac15$. You can also cancel the two 2s first.\n\n**Different example:** $\\frac23\\times\\frac34=\\frac12$."
+    },
+    "16": {
+      "hint": "Divide by a fraction by multiplying by its reciprocal.",
+      "help": "$\\frac34\\div\\frac12=\\frac34\\times\\frac21=\\frac64=\\frac32$.\n\n**Different example:** $\\frac25\\div\\frac13=\\frac65$."
+    },
+    "17": {
+      "hint": "Use $C=2\\pi r$ and leave $\\pi$ in the result.",
+      "help": "$C=2\\pi\\times4=8\\pi$ cm. Do not replace $\\pi$ with a rounded decimal.\n\n**Different example:** Radius 3 cm gives $6\\pi$ cm."
+    },
+    "18": {
+      "hint": "Use $A=\\pi r^2$; square 5 before attaching $\\pi$.",
+      "help": "$A=\\pi\\times5^2=25\\pi$ cm². The squared unit is needed because this is area.\n\n**Different example:** Radius 4 cm gives $16\\pi$ cm²."
+    },
+    "19": {
+      "hint": "Rewrite two fifths as tenths.",
+      "help": "$\\frac25=\\frac4{10}$, so $\\frac4{10}+\\frac3{10}=\\frac7{10}$.\n\n**Different example:** $\\frac12+\\frac3{10}=\\frac8{10}=\\frac45$."
+    },
+    "20": {
+      "hint": "Write one third as two sixths.",
+      "help": "$\\frac56-\\frac13=\\frac56-\\frac26=\\frac36=\\frac12$.\n\n**Different example:** $\\frac78-\\frac14=\\frac58$."
+    },
+    "21": {
+      "hint": "When diameter is given, use $C=\\pi d$.",
+      "help": "$C=\\pi\\times10=10\\pi$ cm. Keeping $\\pi$ makes the circumference exact.\n\n**Different example:** Diameter 7 cm gives $7\\pi$ cm."
+    },
+    "22": {
+      "hint": "Cancel the common factor 3 before multiplying.",
+      "help": "$\\frac35\\times\\frac23=\\frac6{15}=\\frac25$. Cancelling first gives the same exact result.\n\n**Different example:** $\\frac47\\times\\frac12=\\frac27$."
+    },
+    "23": {
+      "hint": "The fractional parts make four quarters.",
+      "help": "$1\\frac14+\\frac34=1+\\frac44=2$. Combine the quarters before adding the whole.\n\n**Different example:** $2\\frac15+\\frac45=3$."
+    },
+    "24": {
+      "hint": "Square the radius in $A=\\pi r^2$.",
+      "help": "$A=\\pi\\times6^2=36\\pi$ cm². Leave $\\pi$ unchanged for an exact answer.\n\n**Different example:** Radius 2 cm gives $4\\pi$ cm²."
+    },
+    "25": {
+      "hint": "Convert the quarter to two eighths.",
+      "help": "$\\frac78-\\frac14=\\frac78-\\frac28=\\frac58$.\n\n**Different example:** $\\frac56-\\frac13=\\frac36=\\frac12$."
+    },
+    "26": {
+      "hint": "Flip $\\frac49$ to $\\frac94$, then multiply.",
+      "help": "$\\frac23\\div\\frac49=\\frac23\\times\\frac94=\\frac{18}{12}=\\frac32$.\n\n**Different example:** $\\frac35\\div\\frac25=\\frac32$."
+    },
+    "27": {
+      "hint": "Decide which answer keeps the full value of $\\pi$ rather than a rounded decimal.",
+      "help": "$6\\pi$ cm is exact because $\\pi$ has not been rounded. The decimal 18.849... is an approximation if it is cut off.\n\n**Different example:** $4\\pi$ is exact; 12.57 is rounded."
+    },
+    "28": {
+      "hint": "Ask whether unlike-sized fraction pieces can be added directly.",
+      "help": "**Always.** To add fractions with different denominators, rename them as equal-sized pieces using a common denominator.\n\n**Different example:** $\\frac12+\\frac14=\\frac24+\\frac14$."
+    },
+    "29": {
+      "hint": "Use sixths so both fractions describe equal-sized pieces.",
+      "help": "Denominators are not added. $\\frac12=\\frac36$ and $\\frac13=\\frac26$, so the sum is $\\frac56$.\n\n**Different example:** $\\frac13+\\frac14=\\frac7{12}$."
+    },
+    "30": {
+      "hint": "Compare retaining $\\pi$ with replacing it by finitely many decimal digits.",
+      "help": "**Always**, when the decimal is rounded. A term such as $4\\pi$ keeps every digit of $\\pi$; 12.57 does not.\n\n**Different example:** $9\\pi$ is exact while 28.27 is approximate."
+    },
+    "31": {
+      "hint": "Calculate with fractions first, then identify whether any rounding was introduced.",
+      "help": "$\\frac34\\times\\frac23=\\frac6{12}=\\frac12$ exactly. Keeping fractions avoids intermediate rounding; rounded decimals can carry error.\n\n**Different example:** $\\frac13\\times3=1$ exactly."
+    },
+    "32": {
+      "hint": "Substitute 7 into $A=\\pi r^2$.",
+      "help": "$A=\\pi\\times7^2=49\\pi$ m². Keep $\\pi$ and use square metres for area.\n\n**Different example:** Radius 10 m gives $100\\pi$ m²."
+    },
+    "33": {
+      "hint": "Add the eaten fractions using twelfths, then subtract from 1.",
+      "help": "Eaten: $\\frac13+\\frac14=\\frac4{12}+\\frac3{12}=\\frac7{12}$. Left: $1-\\frac7{12}=\\frac5{12}$.\n\n**Different example:** Eat $\\frac12+\\frac18$ and $\\frac38$ remains."
+    },
+    "34": {
+      "hint": "Use the diameter form $C=\\pi d$.",
+      "help": "$C=\\pi\\times2=2\\pi$ m. This is the exact length around the table edge.\n\n**Different example:** Diameter 6 m gives circumference $6\\pi$ m."
+    },
+    "35": {
+      "hint": "Multiply flour per batch by $1\\frac12=\\frac32$.",
+      "help": "$\\frac23\\times\\frac32=1$, so exactly 1 cup is needed. The 2 and 3 factors cancel.\n\n**Different example:** $\\frac34$ cup for 2 batches needs $\\frac32$ cups."
+    },
+    "36": {
+      "hint": "Find each $\\pi r^2$ area, then add the coefficients of $\\pi$.",
+      "help": "Areas are $9\\pi$ and $25\\pi$ m². Total $=(9+25)\\pi=34\\pi$ m².\n\n**Different example:** Radii 2 and 4 give $4\\pi+16\\pi=20\\pi$."
+    },
+    "37": {
+      "hint": "Convert both mixed numbers to improper fractions before multiplying.",
+      "help": "$2\\frac13=\\frac73$ and $1\\frac12=\\frac32$. Product $\\frac73\\times\\frac32=\\frac72=3\\frac12$.\n\n**Different example:** $1\\frac12\\times2=3$."
+    },
+    "38": {
+      "hint": "Compare $25\\pi$ with $\\pi r^2$ and solve for $r$.",
+      "help": "$\\pi r^2=25\\pi$, so $r^2=25$. A radius is positive, hence $r=5$ cm.\n\n**Different example:** Area $64\\pi$ cm² gives radius 8 cm."
+    },
+    "39": {
+      "hint": "Match the circumference to $C=\\pi d$.",
+      "help": "$10\\pi=\\pi d$. Divide by $\\pi$ to get $d=10$ cm.\n\n**Different example:** Circumference $6\\pi$ cm gives diameter 6 cm."
+    },
+    "40": {
+      "hint": "Use denominator 12 for all three fractions.",
+      "help": "$\\frac34+\\frac23-\\frac16=\\frac9{12}+\\frac8{12}-\\frac2{12}=\\frac{15}{12}=\\frac54$.\n\n**Different example:** $\\frac12+\\frac13-\\frac16=\\frac23$."
+    },
+    "41": {
+      "hint": "Multiply by the reciprocal $\\frac65$ and cancel the 5s.",
+      "help": "$\\frac58\\div\\frac56=\\frac58\\times\\frac65=\\frac68=\\frac34$.\n\n**Different example:** $\\frac27\\div\\frac47=\\frac12$."
+    },
+    "42": {
+      "hint": "Separate mathematical exactness from whether a form is convenient in a context.",
+      "help": "Sloan is right that a $\\pi$ form has no rounding error. But “nicer” depends on the task: a decimal can be more useful for measuring, though approximate.\n\n**Different example:** $25\\pi$ cm² is exact; 78.54 cm² is practical but rounded."
+    },
+    "43": {
+      "hint": "Rewrite $\\frac{1}{2}$ with denominator 4 before adding to $\\frac{1}{4}$ — both fractions need the same denominator.",
+      "help": "**Common denominator:** $\\dfrac{1}{2} = \\dfrac{2}{4}$, then $\\dfrac{2}{4} + \\dfrac{1}{4} = \\dfrac{3}{4}$.\n\n**Different example:** $\\dfrac{1}{3} + \\dfrac{1}{6} = \\dfrac{2}{6} + \\dfrac{1}{6} = \\dfrac{1}{2}$."
+    },
+    "44": {
+      "hint": "Multiply $\\frac{2}{3}$ by $\\frac{3}{4}$ — multiply numerators and denominators, then cancel any common factors.",
+      "help": "$\\dfrac{2}{3} \\times \\dfrac{3}{4} = \\dfrac{6}{12} = \\dfrac{1}{2}$ after cancelling.\n\n**Different example:** $\\dfrac{1}{2} \\times \\dfrac{2}{5} = \\dfrac{1}{5}$."
+    },
+    "45": {
+      "hint": "Find a common denominator for thirds and sixths before adding numerators. Sixths work well here — convert both fractions first.",
+      "help": "$\\dfrac{1}{3} + \\dfrac{1}{6} = \\dfrac{2}{6} + \\dfrac{1}{6} = \\dfrac{3}{6} = \\dfrac{1}{2}$.\n\n**Different example:** $\\dfrac{1}{4} + \\dfrac{1}{8} = \\dfrac{3}{8}$."
+    },
+    "46": {
+      "hint": "Circumference uses $2\\pi r$ with $r = 8$ cm. Multiply 2 × 8 before attaching $\\pi$. — for Q46, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Exact circumference $= 2 \\times 8 \\times \\pi = 16\\pi$ cm.\n\n**Different example:** $r = 5$ cm → $10\\pi$ cm.\n\n**Check (Q46):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "47": {
+      "hint": "Multiply numerators and denominators separately, then cancel common factors. — for Q47, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{2}{5} \\times \\dfrac{3}{4} = \\dfrac{6}{20} = \\dfrac{3}{10}$.\n\n**Different example:** $\\dfrac{1}{2} \\times \\dfrac{2}{3} = \\dfrac{1}{3}$."
+    },
+    "48": {
+      "hint": "Rewrite $\\frac{1}{2}$ with denominator 8 before subtracting from $\\frac{7}{8}$. — for Q48, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{7}{8} - \\dfrac{1}{2} = \\dfrac{7}{8} - \\dfrac{4}{8} = \\dfrac{3}{8}$.\n\n**Different example:** $\\dfrac{5}{6} - \\dfrac{1}{3} = \\dfrac{1}{2}$."
+    },
+    "49": {
+      "hint": "Radius is half the diameter. Area is $\\pi r^2$ — leave $\\pi$ in the answer. — for Q49, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Diameter 12 cm → radius 6 cm. Area $= \\pi \\times 6^2 = 36\\pi$ cm².\n\n**Different example:** diameter 10 cm → $25\\pi$ cm²."
+    },
+    "50": {
+      "hint": "Convert mixed numbers to improper fractions, add, then simplify back if needed. — for Q50, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$1\\dfrac{1}{2} + 2\\dfrac{1}{4} = \\dfrac{3}{2} + \\dfrac{9}{4} = \\dfrac{6}{4} + \\dfrac{9}{4} = \\dfrac{15}{4} = 3\\dfrac{3}{4}$.\n\n**Different example:** $1\\dfrac{1}{3} + 1\\dfrac{1}{3} = 2\\dfrac{2}{3}$."
+    },
+    "51": {
+      "hint": "Dividing by a fraction — multiply by its reciprocal $\\frac{3}{2}$. — for Q51, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{4}{9} \\div \\dfrac{2}{3} = \\dfrac{4}{9} \\times \\dfrac{3}{2} = \\dfrac{12}{18} = \\dfrac{2}{3}$.\n\n**Different example:** $\\dfrac{2}{5} \\div \\dfrac{1}{2} = \\dfrac{4}{5}$."
+    },
+    "52": {
+      "hint": "Use $C = 2\\pi r$ with $r = 10$ cm. Leave the answer in terms of $\\pi$. — for Q52, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Circumference $= 2 \\times 10 \\times \\pi = 20\\pi$ cm.\n\n**Different example:** $r = 7$ cm → $14\\pi$ cm.\n\n**Check (Q52):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "53": {
+      "hint": "Common denominator 12 for sixths and quarters. — for Q53, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{5}{6} + \\dfrac{1}{4} = \\dfrac{10}{12} + \\dfrac{3}{12} = \\dfrac{13}{12}$.\n\n**Different example:** $\\dfrac{1}{3} + \\dfrac{1}{4} = \\dfrac{7}{12}$."
+    },
+    "54": {
+      "hint": "Cancel before multiplying: 3 with 9, 8 with 4. — for Q54, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{3}{8} \\times \\dfrac{4}{9} = \\dfrac{12}{72} = \\dfrac{1}{6}$.\n\n**Different example:** $\\dfrac{2}{3} \\times \\dfrac{3}{5} = \\dfrac{2}{5}$."
+    },
+    "55": {
+      "hint": "Area $= \\pi r^2$ with $r = 3$ cm. — for Q55, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area $= \\pi \\times 3^2 = 9\\pi$ cm².\n\n**Different example:** $r = 4$ cm → $16\\pi$ cm².\n\n**Check (Q55):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "56": {
+      "hint": "Convert both mixed numbers to improper fractions before subtracting. — for Q56, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$2\\dfrac{2}{3} - 1\\dfrac{1}{2} = \\dfrac{8}{3} - \\dfrac{3}{2} = \\dfrac{16}{6} - \\dfrac{9}{6} = \\dfrac{7}{6} = 1\\dfrac{1}{6}$.\n\n**Different example:** $2 - 1\\dfrac{1}{2} = \\dfrac{1}{2}$."
+    },
+    "57": {
+      "hint": "Multiply by reciprocal of $\\frac{1}{2}$, which is 2. — for Q57, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{3}{5} \\div \\dfrac{1}{2} = \\dfrac{3}{5} \\times 2 = \\dfrac{6}{5}$.\n\n**Different example:** $\\dfrac{4}{7} \\div \\dfrac{2}{7} = 2$."
+    },
+    "58": {
+      "hint": "Semicircle curved length is half the full circumference $\\pi d$. — for Q58, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Diameter 14 cm → full circumference $14\\pi$ cm. Half is $7\\pi$ cm.\n\n**Different example:** diameter 10 cm → curved length $5\\pi$ cm."
+    },
+    "59": {
+      "hint": "Use denominator 6 for all three fractions. — for Q59, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{6} = \\dfrac{3}{6} + \\dfrac{2}{6} + \\dfrac{1}{6} = 1$.\n\n**Different example:** $\\dfrac{1}{4} + \\dfrac{1}{4} + \\dfrac{1}{2} = 1$."
+    },
+    "60": {
+      "hint": "Write $\\frac{2}{5}$ as $\\frac{4}{10}$. — for Q60, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{7}{10} - \\dfrac{2}{5} = \\dfrac{7}{10} - \\dfrac{4}{10} = \\dfrac{3}{10}$.\n\n**Different example:** $\\dfrac{9}{10} - \\dfrac{1}{5} = \\dfrac{7}{10}$."
+    },
+    "61": {
+      "hint": "From $C = 2\\pi r$, divide $20\\pi$ by $2\\pi$. — for Q61, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$20\\pi = 2\\pi r$ so $r = 10$ cm.\n\n**Different example:** $C = 14\\pi$ → $r = 7$ cm.\n\n**Check (Q61):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "62": {
+      "hint": "Convert $1\\frac{1}{3}$ to $\\frac{4}{3}$ before multiplying. — for Q62, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$1\\dfrac{1}{3} \\times \\dfrac{3}{4} = \\dfrac{4}{3} \\times \\dfrac{3}{4} = 1$.\n\n**Different example:** $1\\dfrac{1}{2} \\times \\dfrac{2}{3} = 1$."
+    },
+    "63": {
+      "hint": "Write $\\frac{3}{4}$ as $\\frac{6}{8}$. — for Q63, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{5}{8} + \\dfrac{3}{4} = \\dfrac{5}{8} + \\dfrac{6}{8} = \\dfrac{11}{8}$.\n\n**Different example:** $\\dfrac{1}{8} + \\dfrac{1}{2} = \\dfrac{5}{8}$."
+    },
+    "64": {
+      "hint": "Use $A = \\pi r^2$. If area is $49\\pi$, what is $r$? — for Q64, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\pi r^2 = 49\\pi$ so $r^2 = 49$ and $r = 7$ cm.\n\n**Different example:** area $25\\pi$ → $r = 5$ cm.\n\n**Check (Q64):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "65": {
+      "hint": "Common denominator 12 for thirds and twelfths. — for Q65, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{2}{3} - \\dfrac{5}{12} = \\dfrac{8}{12} - \\dfrac{5}{12} = \\dfrac{3}{12} = \\dfrac{1}{4}$.\n\n**Different example:** $\\dfrac{3}{4} - \\dfrac{1}{8} = \\dfrac{5}{8}$."
+    },
+    "66": {
+      "hint": "Area with $r = 6$ cm. — for Q66, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area $= 36\\pi$ cm².\n\n**Different example:** $r = 5$ cm → $25\\pi$ cm².\n\n**Check (Q66):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "67": {
+      "hint": "Cancel 5 with 10 and 6 with 3 before multiplying. — for Q67, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{5}{6} \\times \\dfrac{3}{10} = \\dfrac{15}{60} = \\dfrac{1}{4}$.\n\n**Different example:** $\\dfrac{4}{9} \\times \\dfrac{3}{8} = \\dfrac{1}{6}$."
+    },
+    "68": {
+      "hint": "Convert $\\frac{1}{4}$ to twelfths. — for Q68, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{11}{12} - \\dfrac{1}{4} = \\dfrac{11}{12} - \\dfrac{3}{12} = \\dfrac{8}{12} = \\dfrac{2}{3}$.\n\n**Different example:** $\\dfrac{7}{12} - \\dfrac{1}{6} = \\dfrac{5}{12}$."
+    },
+    "69": {
+      "hint": "Circumference from diameter: $C = \\pi d$. — for Q69, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$C = 20\\pi$ cm.\n\n**Different example:** $d = 14$ cm → $14\\pi$ cm.\n\n**Check (Q69):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "70": {
+      "hint": "Add mixed numbers via improper fractions. — for Q70, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$2\\dfrac{1}{5} + 1\\dfrac{3}{4} = \\dfrac{11}{5} + \\dfrac{7}{4} = \\dfrac{44}{20} + \\dfrac{35}{20} = \\dfrac{79}{20} = 3\\dfrac{19}{20}$.\n\n**Different example:** $1\\dfrac{1}{2} + 2\\dfrac{1}{2} = 4$."
+    },
+    "71": {
+      "hint": "Multiply by reciprocal $\\frac{3}{14}$. — for Q71, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{7}{9} \\div \\dfrac{14}{3} = \\dfrac{7}{9} \\times \\dfrac{3}{14} = \\dfrac{21}{126} = \\dfrac{1}{6}$.\n\n**Different example:** $\\dfrac{2}{3} \\div \\dfrac{4}{5} = \\dfrac{5}{6}$."
+    },
+    "72": {
+      "hint": "Square the radius 12 cm, then attach $\\pi$. — for Q72, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area $= 144\\pi$ cm².\n\n**Different example:** $r = 8$ cm → $64\\pi$ cm².\n\n**Check (Q72):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "73": {
+      "hint": "Denominator 12 for quarters and sixths. — for Q73, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{3}{4} + \\dfrac{5}{6} = \\dfrac{9}{12} + \\dfrac{10}{12} = \\dfrac{19}{12}$.\n\n**Different example:** $\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{5}{6}$."
+    },
+    "74": {
+      "hint": "Cancel 4 with 8 and 21 with 7. — for Q74, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{4}{7} \\times \\dfrac{21}{8} = \\dfrac{84}{56} = \\dfrac{3}{2}$.\n\n**Different example:** $\\dfrac{3}{5} \\times \\dfrac{10}{9} = \\dfrac{2}{3}$."
+    },
+    "75": {
+      "hint": "From $C = \\pi d$, set $18\\pi = \\pi d$. — for Q75, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Diameter $= 18$ cm.\n\n**Different example:** $C = 10\\pi$ → $d = 10$ cm.\n\n**Check (Q75):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "76": {
+      "hint": "Write $\\frac{1}{5}$ as $\\frac{2}{10}$. — for Q76, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{9}{10} - \\dfrac{1}{5} = \\dfrac{9}{10} - \\dfrac{2}{10} = \\dfrac{7}{10}$.\n\n**Different example:** $\\dfrac{4}{5} - \\dfrac{1}{10} = \\dfrac{7}{10}$."
+    },
+    "77": {
+      "hint": "Convert both mixed numbers to improper fractions before multiplying. — for Q77, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$1\\dfrac{2}{3} \\times 1\\dfrac{1}{2} = \\dfrac{5}{3} \\times \\dfrac{3}{2} = \\dfrac{15}{6} = \\dfrac{5}{2} = 2\\dfrac{1}{2}$.\n\n**Different example:** $2 \\times 1\\dfrac{1}{2} = 3$."
+    },
+    "78": {
+      "hint": "If $A = 64\\pi$, then $r = 8$ cm and diameter is twice that. — for Q78, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Diameter $= 16$ cm.\n\n**Different example:** area $9\\pi$ → diameter 6 cm.\n\n**Check (Q78):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "79": {
+      "hint": "Write $\\frac{1}{6}$ as $\\frac{2}{12}$. — for Q79, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{5}{12} + \\dfrac{1}{6} = \\dfrac{5}{12} + \\dfrac{2}{12} = \\dfrac{7}{12}$.\n\n**Different example:** $\\dfrac{1}{12} + \\dfrac{1}{4} = \\dfrac{1}{3}$."
+    },
+    "80": {
+      "hint": "Multiply by reciprocal $\\frac{9}{4}$. — for Q80, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{2}{3} \\div \\dfrac{4}{9} = \\dfrac{2}{3} \\times \\dfrac{9}{4} = \\dfrac{18}{12} = \\dfrac{3}{2}$.\n\n**Different example:** $\\dfrac{5}{6} \\div \\dfrac{1}{3} = \\dfrac{5}{2}$."
+    },
+    "81": {
+      "hint": "Circumference with $r = 15$ cm. — for Q81, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$C = 30\\pi$ cm.\n\n**Different example:** $r = 20$ cm → $40\\pi$ cm.\n\n**Check (Q81):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "82": {
+      "hint": "Common denominator 24 for eighths and thirds. — for Q82, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{7}{8} + \\dfrac{1}{3} = \\dfrac{21}{24} + \\dfrac{8}{24} = \\dfrac{29}{24}$.\n\n**Different example:** $\\dfrac{5}{6} + \\dfrac{1}{8} = \\dfrac{23}{24}$."
+    },
+    "83": {
+      "hint": "Cancel 15 with 9 and 16 with 8. — for Q83, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{15}{16} \\times \\dfrac{8}{9} = \\dfrac{120}{144} = \\dfrac{5}{6}$.\n\n**Different example:** $\\dfrac{3}{4} \\times \\dfrac{8}{15} = \\dfrac{2}{5}$."
+    },
+    "84": {
+      "hint": "If $A = 121\\pi$, then $r = 11$ cm. — for Q84, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Radius $= 11$ cm.\n\n**Different example:** area $64\\pi$ → $r = 8$ cm.\n\n**Check (Q84):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "85": {
+      "hint": "Subtract mixed numbers using improper fractions. — for Q85, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$3\\dfrac{1}{4} - 1\\dfrac{5}{6} = \\dfrac{13}{4} - \\dfrac{11}{6} = \\dfrac{39}{12} - \\dfrac{22}{12} = \\dfrac{17}{12} = 1\\dfrac{5}{12}$.\n\n**Different example:** $2 - 1\\dfrac{1}{3} = \\dfrac{2}{3}$."
+    },
+    "86": {
+      "hint": "Multiply by reciprocal $\\frac{21}{10}$. — for Q86, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{5}{7} \\div \\dfrac{10}{21} = \\dfrac{5}{7} \\times \\dfrac{21}{10} = \\dfrac{105}{70} = \\dfrac{3}{2}$.\n\n**Different example:** $\\dfrac{3}{8} \\div \\dfrac{3}{4} = \\dfrac{1}{2}$."
+    },
+    "87": {
+      "hint": "Half the circumference of a full circle with $r = 9$ cm. — for Q87, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Curved length $= \\dfrac{1}{2} \\times 2\\pi \\times 9 = 9\\pi$ cm.\n\n**Different example:** $r = 6$ cm → $6\\pi$ cm.\n\n**Check (Q87):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "88": {
+      "hint": "Use denominator 12 for all three fractions. — for Q88, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{1}{4} + \\dfrac{2}{3} + \\dfrac{1}{12} = \\dfrac{3}{12} + \\dfrac{8}{12} + \\dfrac{1}{12} = 1$.\n\n**Different example:** $\\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{6} = 1$."
+    },
+    "89": {
+      "hint": "Cancel 3 with 9 and 5 with 10. — for Q89, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{3}{5} \\times \\dfrac{10}{9} = \\dfrac{30}{45} = \\dfrac{2}{3}$.\n\n**Different example:** $\\dfrac{4}{5} \\times \\dfrac{5}{8} = \\dfrac{1}{2}$."
+    },
+    "90": {
+      "hint": "Circumference from diameter 7 cm. — for Q90, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$C = 7\\pi$ cm.\n\n**Different example:** $d = 12$ cm → $12\\pi$ cm.\n\n**Check (Q90):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "91": {
+      "hint": "Write $\\frac{2}{5}$ as $\\frac{6}{15}$. — for Q91, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{13}{15} - \\dfrac{2}{5} = \\dfrac{13}{15} - \\dfrac{6}{15} = \\dfrac{7}{15}$.\n\n**Different example:** $\\dfrac{11}{12} - \\dfrac{1}{4} = \\dfrac{2}{3}$."
+    },
+    "92": {
+      "hint": "Convert mixed numbers to improper fractions, then divide. — for Q92, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$2\\dfrac{2}{5} \\div 1\\dfrac{1}{5} = \\dfrac{12}{5} \\div \\dfrac{6}{5} = 2$.\n\n**Different example:** $3 \\div 1\\dfrac{1}{2} = 2$."
+    },
+    "93": {
+      "hint": "Area with $r = 20$ cm. — for Q93, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area $= 400\\pi$ cm².\n\n**Different example:** $r = 10$ cm → $100\\pi$ cm².\n\n**Check (Q93):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "94": {
+      "hint": "Common denominator 36 for ninths and twelfths. — for Q94, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{5}{9} + \\dfrac{7}{12} = \\dfrac{20}{36} + \\dfrac{21}{36} = \\dfrac{41}{36}$.\n\n**Different example:** $\\dfrac{1}{6} + \\dfrac{1}{4} = \\dfrac{5}{12}$."
+    },
+    "95": {
+      "hint": "Cancel 6 with 9 and 14 with 7. — for Q95, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{6}{7} \\times \\dfrac{14}{9} = \\dfrac{84}{63} = \\dfrac{4}{3}$.\n\n**Different example:** $\\dfrac{8}{9} \\times \\dfrac{3}{4} = \\dfrac{2}{3}$."
+    },
+    "96": {
+      "hint": "Use $C = 2\\pi r$ with $C = 30\\pi$. — for Q96, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Radius $= 15$ cm.\n\n**Different example:** $C = 8\\pi$ → $r = 4$ cm.\n\n**Check (Q96):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "97": {
+      "hint": "Write $\\frac{1}{6}$ as $\\frac{3}{18}$. — for Q97, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{11}{18} - \\dfrac{1}{6} = \\dfrac{11}{18} - \\dfrac{3}{18} = \\dfrac{8}{18} = \\dfrac{4}{9}$.\n\n**Different example:** $\\dfrac{5}{6} - \\dfrac{1}{3} = \\dfrac{1}{2}$."
+    },
+    "98": {
+      "hint": "Multiply by reciprocal $\\frac{16}{9}$. — for Q98, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{3}{4} \\div \\dfrac{9}{16} = \\dfrac{3}{4} \\times \\dfrac{16}{9} = \\dfrac{48}{36} = \\dfrac{4}{3}$.\n\n**Different example:** $\\dfrac{2}{5} \\div \\dfrac{4}{15} = \\dfrac{3}{2}$."
+    },
+    "99": {
+      "hint": "Add $16\\pi + 36\\pi$ for radii 4 cm and 6 cm. — for Q99, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Total area $= 16\\pi + 36\\pi = 52\\pi$ cm².\n\n**Different example:** radii 3 and 5 → $(9+25)\\pi = 34\\pi$ cm².\n\n**Check (Q99):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "100": {
+      "hint": "Archer added numerators and denominators — find a common denominator first. — for Q100, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Correct: $\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{3}{6} + \\dfrac{2}{6} = \\dfrac{5}{6}$, not $\\dfrac{2}{5}$.\n\n**Different example:** $\\dfrac{1}{4} + \\dfrac{1}{2} = \\dfrac{3}{4}$."
+    },
+    "101": {
+      "hint": "Recall the circumference formula — does it use radius or diameter? — for Q101, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$C = 2\\pi r$ for any circle — **always**.\n\n**Different example:** $r = 3$ m → $C = 6\\pi$ m.\n\n**Check (Q101):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "102": {
+      "hint": "Check whether $\\frac{2}{6}$ is fully simplified. — for Q102, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Working $\\frac{1}{2} \\times \\frac{1}{3} = \\frac{2}{6}$ is correct, but simplest form is **$\\frac{1}{6}$**.\n\n**Different example:** $\\frac{4}{8} = \\frac{1}{2}$."
+    },
+    "103": {
+      "hint": "Exact answers keep $\\pi$ as a symbol. — for Q103, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Answers like $5\\pi$ cm are **exact**; decimals round $\\pi$. **Always** true for exact work.\n\n**Different example:** area $7\\pi$ m²."
+    },
+    "104": {
+      "hint": "Division by $\\frac{1}{2}$ doubles the value. — for Q104, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{3}{4} \\div \\dfrac{1}{2} = \\dfrac{3}{4} \\times 2 = \\dfrac{3}{2}$.\n\n**Different example:** $\\dfrac{2}{3} \\div \\dfrac{1}{3} = 2$."
+    },
+    "105": {
+      "hint": "Diameter is twice the radius — test with numbers. — for Q105, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "For every circle, $d = 2r$ — **always**.\n\n**Different example:** $r = 5$ cm → $d = 10$ cm.\n\n**Check (Q105):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "106": {
+      "hint": "Area uses $r^2$, not $r$ alone. — for Q106, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Correct area $= \\pi \\times 5^2 = 25\\pi$ cm², not $5\\pi$ cm².\n\n**Different example:** $r = 3$ → $9\\pi$ cm².\n\n**Check (Q106):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "107": {
+      "hint": "Try $\\frac{1}{2} + \\frac{1}{3}$ — do you add tops and bottoms? — for Q107, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "You need a **common denominator** — **never** add denominators directly.\n\n**Different example:** $\\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2}$."
+    },
+    "108": {
+      "hint": "Simplify $\\frac{6}{12}$ to lowest terms. — for Q108, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Sloan’s product is correct but not simplest — cancel to **$\\frac{1}{2}$**.\n\n**Different example:** $\\frac{10}{15} = \\frac{2}{3}$."
+    },
+    "109": {
+      "hint": "Try $\\frac{1}{2} \\times \\frac{1}{2}$ compared with each factor. — for Q109, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Proper fractions between 0 and 1 give a product **smaller** than both — **always**.\n\n**Different example:** $\\frac{2}{3} \\times \\frac{3}{4} = \\frac{1}{2}$."
+    },
+    "110": {
+      "hint": "Substitute $r = \\frac{d}{2}$ into $2\\pi r$. — for Q110, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$2\\pi r = 2\\pi \\times \\frac{d}{2} = \\pi d$ — same circumference.\n\n**Different example:** $d = 10$ → both give $10\\pi$.\n\n**Check (Q110):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "111": {
+      "hint": "Compute $\\frac{1}{2} \\div \\frac{1}{4}$ as multiply by 4. — for Q111, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{1}{2} \\div \\dfrac{1}{4} = 2$, not $\\dfrac{1}{8}$ — **never**.\n\n**Different example:** $\\frac{3}{4} \\div \\frac{1}{2} = \\frac{3}{2}$."
+    },
+    "112": {
+      "hint": "Full circle circumference is $2\\pi r$; take half. — for Q112, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Semicircle arc $= \\pi r$ when radius is $r$ — Archer is **correct**.\n\n**Different example:** $r = 4$ cm → arc $4\\pi$ cm."
+    },
+    "113": {
+      "hint": "Subtract fractions on the same denominator. — for Q113, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{3}{5} - \\dfrac{1}{5} = \\dfrac{2}{5}$, not $\\dfrac{2}{0}$ — **never**.\n\n**Different example:** $\\frac{7}{8} - \\frac{3}{8} = \\frac{1}{2}$."
+    },
+    "114": {
+      "hint": "Convert to twelfths for quarters and sixths. — for Q114, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Common denominator lets you add numerators: $\\frac{3}{12} + \\frac{2}{12} = \\frac{5}{12}$.\n\n**Different example:** $\\frac{1}{3} + \\frac{1}{6} = \\frac{1}{2}$."
+    },
+    "115": {
+      "hint": "Compare $2\\pi r$ with $\\pi r^2$. — for Q115, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area is $\\pi r^2$; $2\\pi r$ is circumference — **always** different formulas.\n\n**Different example:** $r = 2$ → area $4\\pi$, circumference $4\\pi$ only by coincidence at $r=2$."
+    },
+    "116": {
+      "hint": "Improper fractions make multiplication easier. — for Q116, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Converting mixed numbers first is a **good strategy** — **yes**.\n\n**Different example:** $1\\frac{1}{2} = \\frac{3}{2}$.\n\n**Check (Q116):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "117": {
+      "hint": "Flip the second fraction and multiply. — for Q117, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$a \\div \\frac{b}{c} = a \\times \\frac{c}{b}$ — **always**.\n\n**Different example:** $\\frac{2}{3} \\div \\frac{4}{5} = \\frac{10}{12}$."
+    },
+    "118": {
+      "hint": "314 is a rounded decimal; $100\\pi$ stays exact. — for Q118, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$100\\pi$ cm² is **exact**; 314 cm² rounds $\\pi$.\n\n**Different example:** $6\\pi$ vs 18.85…\n\n**Check (Q118):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "119": {
+      "hint": "Add same fractions: $\\frac{2}{3} + \\frac{2}{3}$. — for Q119, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{2}{3} + \\frac{2}{3} = \\frac{4}{3}$, not $\\frac{4}{6}$ — **never** add denominators.\n\n**Different example:** $\\frac{1}{5} + \\frac{1}{5} = \\frac{2}{5}$."
+    },
+    "120": {
+      "hint": "Multiply by reciprocal $\\frac{5}{2}$. — for Q120, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\dfrac{4}{5} \\div \\dfrac{2}{5} = \\dfrac{4}{5} \\times \\dfrac{5}{2} = 2$.\n\n**Different example:** $\\frac{3}{7} \\div \\frac{3}{14} = 2$."
+    },
+    "121": {
+      "hint": "If area is $0\\pi$ when $r = 0$, the formula still holds. — for Q121, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area $= \\pi \\times 0^2 = 0\\pi$ — **always** true.\n\n**Different example:** $r = 1$ → area $\\pi$.\n\n**Check (Q121):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "122": {
+      "hint": "Simplify $\\frac{2}{16}$. — for Q122, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{1}{8} + \\frac{1}{8} = \\frac{2}{8} = \\frac{1}{4}$ in simplest form — Sloan should simplify.\n\n**Different example:** $\\frac{3}{6} = \\frac{1}{2}$."
+    },
+    "123": {
+      "hint": "Mixed × fraction is easier with improper fractions. — for Q123, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Converting first is **always** recommended — **always** good strategy.\n\n**Different example:** $2\\frac{1}{2} \\times \\frac{2}{5} = \\frac{5}{2} \\times \\frac{2}{5}$."
+    },
+    "124": {
+      "hint": "Exact $\\pi$ avoids rounding; decimals approximate. — for Q124, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Leaving $\\pi$ in the answer keeps it **exact**; calculator decimals round.\n\n**Different example:** $10\\pi$ vs 31.415…\n\n**Check (Q124):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "125": {
+      "hint": "Cancel before multiplying $\\frac{3}{4} \\times \\frac{8}{3}$. — for Q125, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{3}{4} \\times \\frac{8}{3} = 2$ — **always** when factors cancel neatly.\n\n**Different example:** $\\frac{2}{5} \\times \\frac{5}{2} = 1$."
+    },
+    "126": {
+      "hint": "Half of 30 links to $\\frac{1}{2} \\times 30$. — for Q126, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Finding $\\frac{1}{2}$ of a number equals multiplying by $\\frac{1}{2}$.\n\n**Different example:** $\\frac{1}{3}$ of 12 = 4.\n\n**Check (Q126):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "127": {
+      "hint": "Solve $2\\pi r = 10\\pi$. — for Q127, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Radius $= 5$ cm — **always** from $C = 2\\pi r$.\n\n**Different example:** $C = 6\\pi$ → $r = 3$ cm.\n\n**Check (Q127):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "128": {
+      "hint": "Convert $\\frac{1}{4}$ to twelfths. — for Q128, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{1}{4} = \\frac{3}{12}$, then add to $\\frac{7}{12}$.\n\n**Different example:** $\\frac{5}{12} + \\frac{1}{6} = \\frac{7}{12}$."
+    },
+    "129": {
+      "hint": "Any fraction divided by itself equals 1. — for Q129, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{5}{6} \\div \\frac{5}{6} = 1$ — **always**.\n\n**Different example:** $\\frac{3}{7} \\div \\frac{3}{7} = 1$.\n\n**Check (Q129):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "130": {
+      "hint": "Area $= \\pi r^2$ and circumference $= 2\\pi r$ with $r = 7$ m. — for Q130, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area $= 49\\pi$ m²; circumference $= 14\\pi$ m.\n\n**Different example:** $r = 5$ → $25\\pi$ m² and $10\\pi$ m.\n\n**Check (Q130):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "131": {
+      "hint": "Multiply $\\frac{2}{3}$ by $2\\frac{1}{2}$ batches. — for Q131, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{2}{3} \\times \\frac{5}{2} = \\frac{10}{6} = \\frac{5}{3}$ cups.\n\n**Different example:** 1 batch → $\\frac{2}{3}$ cup."
+    },
+    "132": {
+      "hint": "Add $\\frac{3}{8} + \\frac{1}{4}$ eaten, subtract from 1. — for Q132, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Eaten $\\frac{3}{8} + \\frac{2}{8} = \\frac{5}{8}$; left $\\frac{3}{8}$.\n\n**Different example:** half eaten → $\\frac{1}{2}$ left."
+    },
+    "133": {
+      "hint": "Circumference $= \\pi d$ with $d = 1.2$ m. — for Q133, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$C = 1.2\\pi$ m (or $\\frac{6\\pi}{5}$ m).\n\n**Different example:** $d = 2$ m → $2\\pi$ m.\n\n**Check (Q133):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "134": {
+      "hint": "Subtract areas: $\\pi \\times 5^2 - \\pi \\times 3^2$. — for Q134, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$25\\pi - 9\\pi = 16\\pi$ cm².\n\n**Different example:** radii 4 and 2 → $(16-4)\\pi = 12\\pi$ cm².\n\n**Check (Q134):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "135": {
+      "hint": "Divide $1\\frac{1}{2}$ by $\\frac{1}{4}$. — for Q135, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{3}{2} \\div \\frac{1}{4} = 6$ cups.\n\n**Different example:** 2 L ÷ $\\frac{1}{2}$ L = 4.\n\n**Check (Q135):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "136": {
+      "hint": "One turn = circumference $\\pi d$. — for Q136, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Distance $= \\pi \\times 70 = 70\\pi$ cm.\n\n**Different example:** $d = 50$ cm → $50\\pi$ cm.\n\n**Check (Q136):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "137": {
+      "hint": "Convert all to twelfths. — for Q137, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{14}{12} + \\frac{33}{12} - \\frac{5}{12} = \\frac{42}{12} = 3\\frac{1}{2}$.\n\n**Different example:** $1 + 1 - \\frac{1}{2} = 1\\frac{1}{2}$."
+    },
+    "138": {
+      "hint": "Two semicircles on diameter 10 cm = one full circle circumference. — for Q138, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Total curved $= \\pi \\times 10 = 10\\pi$ cm.\n\n**Different example:** one semicircle → $5\\pi$ cm.\n\n**Check (Q138):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "139": {
+      "hint": "Half full with 36 L means full capacity is double. — for Q139, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Full capacity $= 2 \\times 36 = 72$ litres.\n\n**Different example:** half of 50 L is 25 L.\n\n**Check (Q139):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "140": {
+      "hint": "Find $r$ from $81\\pi = \\pi r^2$, then $C = 2\\pi r$. — for Q140, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$r = 9$ cm; circumference $= 18\\pi$ cm.\n\n**Different example:** area $25\\pi$ → $C = 10\\pi$ cm.\n\n**Check (Q140):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "141": {
+      "hint": "Multiply three fractions and cancel. — for Q141, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{3}{4} \\times \\frac{2}{3} \\times \\frac{5}{2} = \\frac{30}{24} = \\frac{5}{4}$.\n\n**Different example:** $\\frac{1}{2} \\times \\frac{2}{3} \\times \\frac{3}{4} = \\frac{1}{4}$."
+    },
+    "142": {
+      "hint": "Divide $2.25$ m by $\\frac{3}{8}$ m. — for Q142, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$2.25 \\div 0.375 = 6$ whole pieces.\n\n**Different example:** 3 m ÷ 1 m = 3 pieces.\n\n**Check (Q142):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "143": {
+      "hint": "Add $4\\pi + 9\\pi + 16\\pi$. — for Q143, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Total $= 29\\pi$ cm².\n\n**Different example:** radii 1, 2, 3 → $(1+4+9)\\pi$.\n\n**Check (Q143):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "144": {
+      "hint": "Multiply by reciprocal $\\frac{9}{2}$. — for Q144, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{5}{6} \\times \\frac{9}{2} = \\frac{45}{12} = \\frac{15}{4}$.\n\n**Different example:** $\\frac{2}{3} \\div \\frac{1}{3} = 2$."
+    },
+    "145": {
+      "hint": "Half circumference of circle radius 12 cm. — for Q145, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Curved $= \\frac{1}{2} \\times 2\\pi \\times 12 = 12\\pi$ cm.\n\n**Different example:** half of $10\\pi$ is $5\\pi$.\n\n**Check (Q145):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "146": {
+      "hint": "Use denominator 24. — for Q146, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{80}{24} - \\frac{45}{24} = \\frac{35}{24} = 1\\frac{11}{24}$.\n\n**Different example:** $2 - 1\\frac{1}{2} = \\frac{1}{2}$."
+    },
+    "147": {
+      "hint": "From $24\\pi = 2\\pi r$, find $r$ then area. — for Q147, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$r = 12$ m; area $= 144\\pi$ m².\n\n**Different example:** $C = 10\\pi$ → area $25\\pi$ if $r = 5$.\n\n**Check (Q147):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "148": {
+      "hint": "Denominator 30 for tenths and fifteenths. — for Q148, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{21}{30} + \\frac{4}{30} = \\frac{25}{30} = \\frac{5}{6}$.\n\n**Different example:** $\\frac{1}{2} + \\frac{1}{5} = \\frac{7}{10}$."
+    },
+    "149": {
+      "hint": "If $\\frac{1}{6}$ takes 20 min, full pool is six times longer. — for Q149, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Full time $= 6 \\times 20 = 120$ minutes.\n\n**Different example:** $\\frac{1}{4}$ in 10 min → 40 min full.\n\n**Check (Q149):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "150": {
+      "hint": "Replace $r$ with $\\frac{d}{2}$ in $\\pi r^2$. — for Q150, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area $= \\pi \\left(\\frac{d}{2}\\right)^2 = \\frac{\\pi d^2}{4}$.\n\n**Different example:** $d = 10$ → $25\\pi$.\n\n**Check (Q150):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "151": {
+      "hint": "Denominator 20. — for Q151, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{18}{20} - \\frac{15}{20} + \\frac{4}{20} = \\frac{7}{20}$.\n\n**Different example:** $\\frac{1}{2} - \\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2}$."
+    },
+    "152": {
+      "hint": "Add $\\frac{1}{3} + \\frac{1}{4}$ of the same cake. — for Q152, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Total eaten $\\frac{4}{12} + \\frac{3}{12} = \\frac{7}{12}$.\n\n**Different example:** $\\frac{1}{2} + \\frac{1}{8} = \\frac{5}{8}$."
+    },
+    "153": {
+      "hint": "Half lap = half circumference. — for Q153, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Half distance $= \\frac{1}{2} \\times 2\\pi \\times 50 = 50\\pi$ m.\n\n**Different example:** full lap → $100\\pi$ m.\n\n**Check (Q153):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "154": {
+      "hint": "Convert $1\\frac{1}{2}$ to $\\frac{3}{2}$. — for Q154, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{3}{2} \\times \\frac{4}{9} \\times \\frac{3}{2} = \\frac{36}{36} = 1$.\n\n**Different example:** $2 \\times \\frac{1}{2} \\times 1 = 1$."
+    },
+    "155": {
+      "hint": "From $144\\pi = \\pi r^2$, find $r$ then $C$. — for Q155, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$r = 12$ cm; circumference $= 24\\pi$ cm.\n\n**Different example:** area $9\\pi$ → $C = 6\\pi$ cm.\n\n**Check (Q155):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "156": {
+      "hint": "Multiply by reciprocal $\\frac{18}{5}$. — for Q156, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{5}{12} \\times \\frac{18}{5} = \\frac{90}{60} = \\frac{3}{2}$.\n\n**Different example:** $\\frac{2}{3} \\div \\frac{4}{9} = \\frac{3}{2}$."
+    },
+    "157": {
+      "hint": "Perimeter = three straight sides + semicircle arc $\\pi r$ with $r = 3$ cm. — for Q157, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$10 + 10 + 6 + \\pi \\times 3 = 26 + 3\\pi$ cm.\n\n**Different example:** square side 4 + semicircle $r = 2$ → $12 + 2\\pi$.\n\n**Check (Q157):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "158": {
+      "hint": "Convert to improper fractions and multiply. — for Q158, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{11}{4} \\times \\frac{12}{7} = \\frac{132}{28} = \\frac{33}{7} = 4\\frac{5}{7}$.\n\n**Different example:** $1\\frac{1}{2} \\times 1\\frac{1}{3} = 2$."
+    },
+    "159": {
+      "hint": "Set $\\pi r^2 = 200\\pi$. — for Q159, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$r^2 = 200$, so $r = \\sqrt{200} = 10\\sqrt{2}$ cm.\n\n**Different example:** area $100\\pi$ → $r = 10$ cm.\n\n**Check (Q159):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "160": {
+      "hint": "Denominator 10. — for Q160, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{6}{10} + \\frac{7}{10} - \\frac{5}{10} = \\frac{8}{10} = \\frac{4}{5}$.\n\n**Different example:** $\\frac{1}{2} + \\frac{1}{5} - \\frac{1}{10} = \\frac{3}{5}$."
+    },
+    "161": {
+      "hint": "Double radius → area multiplied by 4. — for Q161, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area scales with $r^2$ — **never** just doubles.\n\n**Different example:** $r = 2$ → area $4\\pi$; $r = 4$ → $16\\pi$.\n\n**Check (Q161):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "162": {
+      "hint": "Multiply by reciprocal $\\frac{15}{14}$. — for Q162, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{7}{8} \\times \\frac{15}{14} = \\frac{105}{112} = \\frac{15}{16}$.\n\n**Different example:** $\\frac{3}{4} \\div \\frac{3}{8} = 2$."
+    },
+    "163": {
+      "hint": "From $14\\pi = 2\\pi r$, find area. — for Q163, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$r = 7$ cm; area $= 49\\pi$ cm².\n\n**Different example:** $C = 8\\pi$ → area $16\\pi$ cm².\n\n**Check (Q163):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "164": {
+      "hint": "Denominator 24. — for Q164, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{100}{24} - \\frac{63}{24} = \\frac{37}{24} = 1\\frac{13}{24}$.\n\n**Different example:** $3 - 2\\frac{1}{2} = \\frac{1}{2}$."
+    },
+    "165": {
+      "hint": "Cancel across three fractions. — for Q165, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{5}{6} \\times \\frac{9}{10} \\times \\frac{4}{3} = 1$.\n\n**Different example:** $\\frac{1}{2} \\times \\frac{2}{3} \\times 3 = 1$."
+    },
+    "166": {
+      "hint": "Two halves make a whole. — for Q166, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{1}{2} + \\frac{1}{2} = 1$ — **always**.\n\n**Different example:** $\\frac{1}{3} + \\frac{2}{3} = 1$.\n\n**Check (Q166):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "167": {
+      "hint": "Use $7.5^2$ for area. — for Q167, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area $= 56.25\\pi$ m² (or $\\frac{225\\pi}{4}$ m²).\n\n**Different example:** $r = 5$ → $25\\pi$ m².\n\n**Check (Q167):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "168": {
+      "hint": "Multiply by reciprocal $\\frac{9}{22}$. — for Q168, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{11}{12} \\times \\frac{9}{22} = \\frac{99}{264} = \\frac{3}{8}$.\n\n**Different example:** $\\frac{2}{3} \\div \\frac{4}{3} = \\frac{1}{2}$."
+    },
+    "169": {
+      "hint": "Subtract $\\pi \\times 5^2$ from $\\pi \\times 7^2$. — for Q169, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$49\\pi - 25\\pi = 24\\pi$ cm².\n\n**Different example:** diameters 6 and 4 → $(9-4)\\pi$.\n\n**Check (Q169):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "170": {
+      "hint": "Denominator 12. — for Q170, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{8}{12} + \\frac{9}{12} + \\frac{10}{12} = \\frac{27}{12} = \\frac{9}{4}$.\n\n**Different example:** $\\frac{1}{4} + \\frac{1}{3} + \\frac{1}{6} = \\frac{3}{4}$."
+    },
+    "171": {
+      "hint": "If radius doubles, circumference doubles. — for Q171, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$C = 2\\pi r$ is proportional to $r$ — **always**.\n\n**Different example:** $r = 3$ → $C = 6\\pi$.\n\n**Check (Q171):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "172": {
+      "hint": "Convert to improper fractions and divide. — for Q172, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{16}{3} \\div \\frac{8}{3} = 2$.\n\n**Different example:** $4 \\div 2 = 2$.\n\n**Check (Q172):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "173": {
+      "hint": "Square has three sides exposed plus semicircle on diameter 8. — for Q173, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Perimeter $= 8 + 8 + 8 + \\frac{\\pi \\times 8}{2} = 24 + 4\\pi$ cm.\n\n**Different example:** side 6 → $18 + 3\\pi$.\n\n**Check (Q173):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "174": {
+      "hint": "Denominator 40. — for Q174, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{26}{40} - \\frac{15}{40} = \\frac{11}{40}$.\n\n**Different example:** $\\frac{3}{4} - \\frac{1}{8} = \\frac{5}{8}$.\n\n**Check (Q174):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "175": {
+      "hint": "Quarter of $2\\pi r$. — for Q175, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Length $= \\frac{1}{4} \\times 2\\pi r = \\frac{\\pi r}{2}$.\n\n**Different example:** $r = 4$ → $\\pi$ cm.\n\n**Check (Q175):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "176": {
+      "hint": "Cancel 7 with 49 and 18 with 9. — for Q176, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{7}{9} \\times \\frac{18}{49} = \\frac{126}{441} = \\frac{2}{7}$.\n\n**Different example:** $\\frac{3}{5} \\times \\frac{10}{9} = \\frac{2}{3}$."
+    },
+    "177": {
+      "hint": "Multiply $\\frac{a}{b} \\times \\frac{b}{a}$. — for Q177, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Always equals 1 when $a, b \\neq 0$.\n\n**Different example:** $\\frac{4}{7} \\times \\frac{7}{4} = 1$.\n\n**Check (Q177):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "178": {
+      "hint": "Denominator 12. — for Q178, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{45}{12} + \\frac{55}{12} - \\frac{16}{12} = \\frac{84}{12} = 7$.\n\n**Different example:** $1 + 1 + 1 = 3$.\n\n**Check (Q178):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "179": {
+      "hint": "From $25\\pi = \\pi r^2$, find circumference. — for Q179, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$r = 5$ cm; $C = 10\\pi$ cm.\n\n**Different example:** area $9\\pi$ → $C = 6\\pi$ cm.\n\n**Check (Q179):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "180": {
+      "hint": "Work left to right: multiply first two, then divide. — for Q180, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{5}{7} \\times \\frac{14}{15} = \\frac{2}{3}$; $\\frac{2}{3} \\div \\frac{2}{3} = 1$.\n\n**Different example:** $\\frac{1}{2} \\times 4 \\div 2 = 1$."
+    },
+    "181": {
+      "hint": "Mixing $\\pi$ with rounded decimals loses exactness. — for Q181, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Keep one form — **never** mix exact $\\pi$ and decimals in one exact answer.\n\n**Different example:** write $10\\pi$, not $10 \\times 3.14$."
+    },
+    "182": {
+      "hint": "Multiply by reciprocal $\\frac{8}{3}$. — for Q182, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{9}{16} \\times \\frac{8}{3} = \\frac{72}{48} = \\frac{3}{2}$.\n\n**Different example:** $\\frac{1}{2} \\div \\frac{1}{4} = 2$."
+    },
+    "183": {
+      "hint": "Three turns = $3 \\times \\pi d$. — for Q183, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Distance $= 3 \\times 66\\pi = 198\\pi$ cm.\n\n**Different example:** one turn → $66\\pi$ cm.\n\n**Check (Q183):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "184": {
+      "hint": "Convert $1\\frac{7}{8}$ to $\\frac{15}{8}$. — for Q184, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{15}{8} \\times \\frac{4}{15} = \\frac{60}{120} = \\frac{1}{2}$.\n\n**Different example:** $2 \\times \\frac{1}{4} = \\frac{1}{2}$."
+    },
+    "185": {
+      "hint": "Rounded $\\pi$ introduces error. — for Q185, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Exact $\\pi$ form is exact; 3.14 is approximate — **always**.\n\n**Different example:** $7\\pi$ vs 21.99…\n\n**Check (Q185):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "186": {
+      "hint": "Denominator 24. — for Q186, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{20}{24} + \\frac{21}{24} - \\frac{18}{24} = \\frac{23}{24}$.\n\n**Different example:** $\\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} = \\frac{7}{12}$."
+    },
+    "187": {
+      "hint": "From $50\\pi = 2\\pi r$, find area. — for Q187, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$r = 25$ cm; area $= 625\\pi$ cm².\n\n**Different example:** $C = 12\\pi$ → area $36\\pi$ cm².\n\n**Check (Q187):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "188": {
+      "hint": "Write $\\frac{2}{5}$ as $\\frac{4}{10}$. — for Q188, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{4}{5} - \\frac{3}{10} = \\frac{8}{10} - \\frac{3}{10} = \\frac{1}{2}$.\n\n**Different example:** $\\frac{3}{4} - \\frac{1}{4} = \\frac{1}{2}$."
+    },
+    "189": {
+      "hint": "Area with $r = 9$ cm. — for Q189, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Area $= 81\\pi$ cm².\n\n**Different example:** $r = 6$ cm → $36\\pi$ cm².\n\n**Check (Q189):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "190": {
+      "hint": "Cancel 2 with 16 and 21 with 7. — for Q190, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{2}{7} \\times \\frac{21}{16} = \\frac{42}{112} = \\frac{3}{8}$.\n\n**Different example:** $\\frac{3}{4} \\times \\frac{8}{9} = \\frac{2}{3}$."
+    },
+    "191": {
+      "hint": "Denominator 10. — for Q191, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{6}{10} + \\frac{1}{10} = \\frac{7}{10}$.\n\n**Different example:** $\\frac{1}{5} + \\frac{1}{10} = \\frac{3}{10}$.\n\n**Check (Q191):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "192": {
+      "hint": "Circumference from diameter 18 cm. — for Q192, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$C = 18\\pi$ cm.\n\n**Different example:** $d = 6$ cm → $6\\pi$ cm.\n\n**Check (Q192):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "193": {
+      "hint": "Multiply by reciprocal $\\frac{27}{10}$. — for Q193, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{5}{9} \\times \\frac{27}{10} = \\frac{135}{90} = \\frac{3}{2}$.\n\n**Different example:** $\\frac{2}{5} \\div \\frac{4}{15} = \\frac{3}{2}$."
+    },
+    "194": {
+      "hint": "Denominator 12 for quarters and thirds. — for Q194, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{9}{12} + \\frac{8}{12} = \\frac{17}{12} = 1\\frac{5}{12}$.\n\n**Different example:** $1\\frac{1}{2} + 1 = 2\\frac{1}{2}$."
+    },
+    "195": {
+      "hint": "From area $169\\pi$, radius is 13 cm. — for Q195, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Circumference $= 2\\pi \\times 13 = 26\\pi$ cm.\n\n**Different example:** area $49\\pi$ → $C = 14\\pi$ cm.\n\n**Check (Q195):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "196": {
+      "hint": "Cancel 7 with 35 and 12 with 6. — for Q196, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{7}{12} \\times \\frac{6}{35} = \\frac{42}{420} = \\frac{1}{10}$.\n\n**Different example:** $\\frac{4}{9} \\times \\frac{3}{8} = \\frac{1}{6}$."
+    },
+    "197": {
+      "hint": "Half of a number equals divide by 2. — for Q197, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{1}{2}$ of $n$ is $\\frac{n}{2}$ — **always** the same as $n \\div 2$.\n\n**Different example:** $\\frac{1}{2}$ of 20 = 10."
+    },
+    "198": {
+      "hint": "Write $\\frac{2}{3}$ as $\\frac{10}{15}$. — for Q198, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{11}{15} - \\frac{10}{15} = \\frac{1}{15}$.\n\n**Different example:** $\\frac{4}{5} - \\frac{1}{5} = \\frac{3}{5}$.\n\n**Check (Q198):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "199": {
+      "hint": "Two semicircles on diameter 12 cm = one full circle $12\\pi$. — for Q199, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "Total curved $= \\pi \\times 12 = 12\\pi$ cm.\n\n**Different example:** one semicircle → $6\\pi$ cm.\n\n**Check (Q199):** Match the units and form the question asks for (fraction, power of 10, or terms of π)."
+    },
+    "200": {
+      "hint": "Denominator 12 for all three fractions. — for Q200, write the first step on paper before you type your final answer — show one line of working on paper first.",
+      "help": "$\\frac{9}{12} + \\frac{10}{12} - \\frac{7}{12} = \\frac{12}{12} = 1$.\n\n**Different example:** $\\frac{1}{2} + \\frac{1}{3} - \\frac{1}{6} = \\frac{2}{3}$."
+    }
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Add the fixed 2 red counters to the blue counters written as $b$.",
+      "help": "Total counters = red + blue = $2 + b$.\n\nYou can also write $b + 2$.\n\nThis is a simple formula linking total to $b$."
+    },
+    "2": {
+      "hint": "One more bird means add 1 to $n$.",
+      "help": "New total is $n + 1$.\n\n$n$ is the starting count; +1 is the new arrival.\n\nExpression: $n + 1$."
+    },
+    "3": {
+      "hint": "Two rows with $x$ toys each — multiply.",
+      "help": "Total toys = $2 \\times x = 2x$.\n\nTwo equal rows means double $x$.\n\nWrite $2x$."
+    },
+    "4": {
+      "hint": "Substitute $a = 2$ and $b = 3$ into $C = a + b$.",
+      "help": "$C = 2 + 3 = 5$.\n\nReplace each letter with its value, then add.\n\nResult is 5."
+    },
+    "5": {
+      "hint": "Put $w = 4$ into $P = 2 + w$.",
+      "help": "$P = 2 + 4 = 6$.\n\nAdd the constant 2 to $w$.\n\nAnswer is 6.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "Replace $n$ with 3 in $T = 2n$.",
+      "help": "$T = 2 \\times 3 = 6$.\n\nDouble $n$ when $n = 3$.\n\nValue is 6."
+    },
+    "7": {
+      "hint": "What plus 1 equals 5? That value is $a$.",
+      "help": "$a + 1 = 5$ so $a = 4$.\n\nSubtract 1 from both sides.\n\nMaking a letter the subject means isolating it."
+    },
+    "8": {
+      "hint": "Divide both sides by 2 to find $b$.",
+      "help": "$2b = 8$ gives $b = 4$.\n\nDivide by the coefficient of $b$.\n\nAnswer: $b = 4$."
+    },
+    "9": {
+      "hint": "Multiply side length 6 by 4 in $P = 4s$.",
+      "help": "$P = 4 \\times 6 = 24$.\n\nAll four equal sides of a square.\n\nPerimeter is 24."
+    },
+    "10": {
+      "hint": "Multiply length 5 by width 3.",
+      "help": "$A = 5 \\times 3 = 15$ square units.\n\nArea is length times width.\n\nAnswer is 15."
+    },
+    "11": {
+      "hint": "Divide both sides of $P = 4s$ by 4 to get $s$ alone.",
+      "help": "$s = \\dfrac{P}{4}$.\n\nSide length is perimeter divided by 4.\n\nSubject $s$ is on the left."
+    },
+    "12": {
+      "hint": "Subtract 3 from both sides of $y = x + 3$.",
+      "help": "$x = y - 3$.\n\nUndo +3 with −3.\n\nRearranged formula for $x$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "Add 5 to both sides of $y = x - 5$.",
+      "help": "$x = y + 5$.\n\nIf $x$ is 5 less than $y$, then $x + 5 = y$.\n\nSubject: $x = y + 5$."
+    },
+    "14": {
+      "hint": "Divide both sides by 2 in $y = 2x$.",
+      "help": "$x = \\dfrac{y}{2}$.\n\nHalve $y$ to recover $x$.\n\nSubject $x$ on the left."
+    },
+    "15": {
+      "hint": "Divide $A$ by $w$ to make $l$ the subject of $A = lw$.",
+      "help": "$l = \\dfrac{A}{w}$.\n\nLength is area divided by width.\n\nCheck with numbers if needed."
+    },
+    "16": {
+      "hint": "Substitute $l = 7$, $w = 4$ into $P = 2l + 2w$.",
+      "help": "$P = 2(7) + 2(4) = 14 + 8 = 22$.\n\nTwice length plus twice width.\n\nPerimeter 22."
+    },
+    "17": {
+      "hint": "Subtract 1, then divide by 3 in $y = 3x + 1$.",
+      "help": "$y - 1 = 3x$, so $x = \\dfrac{y - 1}{3}$.\n\nUndo steps in reverse order.\n\nSubject $x$."
+    },
+    "18": {
+      "hint": "Add 2 to both sides, then divide by 5.",
+      "help": "$y + 2 = 5x$, so $x = \\dfrac{y + 2}{5}$.\n\nWatch signs on the $-2$.\n\nCorrect: $x = \\dfrac{y + 2}{5}$."
+    },
+    "19": {
+      "hint": "Replace $n$ with 8 in $C = 5 + 2n$.",
+      "help": "$C = 5 + 16 = 21$.\n\n$2 \\times 8 = 16$ first, then add 5.\n\nCost is 21."
+    },
+    "20": {
+      "hint": "Subtract $t$ from both sides to leave $u$ on one side.",
+      "help": "$u = v - t$.\n\nIf $v = u + t$, then $u = v - t$.\n\nSubject $u$."
+    },
+    "21": {
+      "hint": "The subject is the letter alone on one side of the equals sign.",
+      "help": "In $A = lw$, **$A$** is the subject — it is written by itself on the left.\n\n$l$ and $w$ are on the other side.\n\nSubject: $A$."
+    },
+    "22": {
+      "hint": "Which letter is isolated on the left in $v = u + at$?",
+      "help": "**$v$** is the subject — the formula tells you how to find $v$ from $u$, $a$, and $t$.\n\nOther letters appear on the right.\n\nAnswer: $v$."
+    },
+    "23": {
+      "hint": "Sam subtracted instead of dividing. Side length is perimeter ÷ 4.",
+      "help": "Wrong: $s = P - 4$. Correct: $s = \\dfrac{P}{4}$.\n\n$P = 4s$ means $s$ is one fourth of $P$.\n\nExplain divide, not subtract."
+    },
+    "24": {
+      "hint": "Rearranging shuffles the formula but keeps the same links between letters.",
+      "help": "Same relationship, different letter on the left — **always** true.\n\nExample: $P = 4s$ and $s = P/4$ say the same thing.\n\nAnswer: always."
+    },
+    "25": {
+      "hint": "Priya added 3 again instead of subtracting 3 from $y$.",
+      "help": "From $y = x + 3$, correct is $x = y - 3$, not $y + 3$.\n\nUndo addition with subtraction.\n\nCorrect rearrangement: $x = y - 3$."
+    },
+    "26": {
+      "hint": "Test $w = A/l$ and $w = A - l$ with $A = 20$, $l = 4$.",
+      "help": "$w = 20/4 = 5$ works. $w = 20 - 4 = 16$ does not match $A = lw$.\n\nCorrect: $w = \\dfrac{A}{l}$.\n\nDivision, not subtraction."
+    },
+    "27": {
+      "hint": "Try the steps on $y = 2x + 5$: subtract 5, divide by 2.",
+      "help": "$y - 5 = 2x$, $x = \\dfrac{y-5}{2}$.\n\nThat is the standard rearrangement.\n\nStatement is **true**."
+    },
+    "28": {
+      "hint": "Solve $y = 3x - 1$ for $x$: add 1, divide by 3.",
+      "help": "$y + 1 = 3x$, $x = \\dfrac{y + 1}{3}$.\n\nSam is correct; Leo's $\\dfrac{y-1}{3}$ is wrong.\n\nShow algebra to justify."
+    },
+    "29": {
+      "hint": "Substitute when you know values; rearrange when you need a different letter alone.",
+      "help": "**Substitute** when all but one value are known — plug in numbers.\n\n**Rearrange** when you need a formula solved for a new letter (e.g. find time from distance formula).\n\nBoth use the same relationship."
+    },
+    "30": {
+      "hint": "Mo added 5 instead of subtracting 5 before dividing by 2.",
+      "help": "$C = 5 + 2n$ → $C - 5 = 2n$ → $n = \\dfrac{C - 5}{2}$.\n\nMo used $(C+5)/2$ which is wrong.\n\nCorrect: $n = \\dfrac{C - 5}{2}$."
+    },
+    "31": {
+      "hint": "From $m = 0.6k$, divide both sides by 0.6. Then use $m = 30$.",
+      "help": "$k = \\dfrac{m}{0.6}$. When $m = 30$, $k = 50$.\n\nRearrange first, then substitute.\n\n$k = 50$ km."
+    },
+    "32": {
+      "hint": "Subtract 3 from $C$, divide by 2 for $m$. Use $C = 17$.",
+      "help": "$m = \\dfrac{C - 3}{2}$. $m = (17-3)/2 = 7$ miles.\n\nUndo flat fee then per-mile rate.\n\n7 miles."
+    },
+    "33": {
+      "hint": "Rearrange $P = 2l + 2w$ for $l$, then plug $P = 24$, $w = 5$.",
+      "help": "$P - 2w = 2l$, $l = \\dfrac{P - 2w}{2}$. $l = (24-10)/2 = 7$.\n\nIsolate $l$ step by step.\n\nLength 7."
+    },
+    "34": {
+      "hint": "Subtract 20 from $T$, divide by 30 to make $w$ the subject.",
+      "help": "$w = \\dfrac{T - 20}{30}$. For $T = 110$, $w = 3$ kg.\n\nFixed 20 minutes plus 30 per kg.\n\nWeight 3 kg."
+    },
+    "35": {
+      "hint": "Rearrange $f = 2c + 30$ for $c$, then use $f = 70$.",
+      "help": "$c = \\dfrac{f - 30}{2}$. With $f = 70$, $c = 20$.\n\nSubtract 30, halve.\n\nCelsius about 20."
+    },
+    "36": {
+      "hint": "Subtract 10 from $C$, divide by 0.05 to find $t$ when $C = 15$.",
+      "help": "$t = \\dfrac{C - 10}{0.05}$. $t = 5/0.05 = 100$ texts.\n\nRemove monthly fee first.\n\n100 texts."
+    },
+    "37": {
+      "hint": "Subtract 4 from both sides, then multiply by 2.",
+      "help": "$y - 4 = \\dfrac{x}{2}$, so $x = 2(y - 4)$.\n\nUndo divide-by-2 with multiply-by-2 last.\n\nSubject: $x = 2(y - 4)$."
+    },
+    "38": {
+      "hint": "Multiply both sides by 2, then divide by $b$.",
+      "help": "$2A = bh$, $h = \\dfrac{2A}{b}$.\n\nTriangle area formula rearranged for height.\n\n$h = \\dfrac{2A}{b}$."
+    },
+    "39": {
+      "hint": "Add 6 to both sides of $2y = 3x - 6$, then divide by 3.",
+      "help": "$2y + 6 = 3x$, $x = \\dfrac{2y + 6}{3}$.\n\nOr divide whole equation by 3 after adding 6.\n\nSubject $x$."
+    },
+    "40": {
+      "hint": "Divide $V$ by $lw$ for $h$, then substitute $V = 60$, $l = 5$, $w = 4$.",
+      "help": "$h = \\dfrac{V}{lw}$. $h = 60/(5 \\times 4) = 3$.\n\nHeight is volume divided by base area.\n\n$h = 3$."
+    },
+    "41": {
+      "hint": "Subtract 5 from both sides of $x + 5 = 12$.",
+      "help": "$x = 7$.\n\nSimple rearrangement — $x$ is already almost the subject.\n\nAnswer $x = 7$."
+    },
+    "42": {
+      "hint": "From $P = 2l + 2w$, subtract $2l$ and divide by 2.",
+      "help": "$P - 2l = 2w$, $w = \\dfrac{P - 2l}{2}$.\n\nWidth from perimeter and length.\n\nSubject $w$."
+    },
+    "43": {
+      "hint": "Undo the addition by subtracting the same number from y.",
+      "help": "To isolate $x$, subtract 3 from both sides.\n\n$y - 3 = x$.\n\nWrite $x$ on the left: $x = y - 3$."
+    },
+    "44": {
+      "hint": "Undo the addition by subtracting the same number from y.",
+      "help": "To isolate $x$, subtract 4 from both sides.\n\n$y - 4 = x$.\n\nWrite $x$ on the left: $x = y - 4$."
+    },
+    "45": {
+      "hint": "Subtract 6 from both sides of $y = x + 6$.",
+      "help": "$x = y - 6$.\n\n**Different example:** $y = x + 3$ → $x = y - 3$.\n\nUndo + 6 with − 6."
+    },
+    "46": {
+      "hint": "Undo subtract 4: add 4 to both sides of $y = x - 4$.",
+      "help": "$x = y + 4$.\n\n**Different example:** $y = x - 7$ → $x = y + 7$.\n\nSubtract 4 becomes +4 on other side."
+    },
+    "47": {
+      "hint": "Divide both sides by 5 to isolate $x$ in $y = 5x$.",
+      "help": "$x = \\dfrac{y}{5}$.\n\n**Different example:** $y = 3x$ → $x = \\dfrac{y}{3}$.\n\n$y$ is 5 times $x$."
+    },
+    "48": {
+      "hint": "Multiply both sides by 3 in $y = \\dfrac{x}{3}$.",
+      "help": "$x = 3y$.\n\n**Different example:** $y = \\dfrac{x}{2}$ → $x = 2y$.\n\nDivision undone by multiply."
+    },
+    "49": {
+      "hint": "Subtract 1, then divide by 2 in $y = 2x + 1$.",
+      "help": "$x = \\dfrac{y - 1}{2}$.\n\n**Different example:** $y = 4x + 3$ → $x = \\dfrac{y - 3}{4}$.\n\nUndo +1 before ÷2."
+    },
+    "50": {
+      "hint": "Add 2 to both sides, then divide by 3.",
+      "help": "$x = \\dfrac{y + 2}{3}$.\n\n**Different example:** $y = 2x - 5$ → $x = \\dfrac{y + 5}{2}$.\n\nReverse −2 then ×3."
+    },
+    "51": {
+      "hint": "Subtract 10 from $C = 10 + 5n$, then divide by 5.",
+      "help": "$n = \\dfrac{C - 10}{5}$.\n\n**Different example:** $C = 3 + 2m$ → $m = \\dfrac{C - 3}{2}$.\n\nFlat fee first."
+    },
+    "52": {
+      "hint": "From $P = 2l + 2w$, subtract $2l$ then divide by 2.",
+      "help": "$w = \\dfrac{P - 2l}{2}$.\n\n**Different example:** $P = 2l + 2w$ → $l = \\dfrac{P - 2w}{2}$.\n\nDo not forget ÷2."
+    },
+    "53": {
+      "hint": "Subtract 7, then multiply by 2 in $y = \\dfrac{x}{2} + 7$.",
+      "help": "$x = 2(y - 7)$.\n\n**Different example:** $y = \\dfrac{x}{4} + 1$ → $x = 4(y - 1)$.\n\nRemove constant first."
+    },
+    "54": {
+      "hint": "Multiply by 2, then divide by $h$ in $A = \\dfrac{1}{2}bh$.",
+      "help": "$b = \\dfrac{2A}{h}$.\n\n**Different example:** triangle area → base from $A$ and height.\n\nDouble area before ÷$h$."
+    },
+    "55": {
+      "hint": "Subtract 9, divide by 4 in $y = 4x + 9$.",
+      "help": "$x = \\dfrac{y - 9}{4}$.\n\n**Different example:** $y = 6x + 1$ → $x = \\dfrac{y - 1}{6}$.\n\nLinear rearrange."
+    },
+    "56": {
+      "hint": "Divide both sides by $v$ in $d = vt$.",
+      "help": "$t = \\dfrac{d}{v}$.\n\n**Different example:** $d = 60t$ → $t = \\dfrac{d}{60}$.\n\nTime = distance ÷ speed."
+    },
+    "57": {
+      "hint": "Subtract 8, divide by −2 in $y = -2x + 8$.",
+      "help": "$x = \\dfrac{8 - y}{2}$ or $x = \\dfrac{y - 8}{-2}$.\n\n**Different example:** watch sign when dividing.\n\nNegative coefficient."
+    },
+    "58": {
+      "hint": "Divide $C = 2\\pi r$ by $2\\pi$.",
+      "help": "$r = \\dfrac{C}{2\\pi}$.\n\n**Different example:** circumference formula reversed.\n\nLeave $\\pi$ in answer."
+    },
+    "59": {
+      "hint": "Multiply by 3, subtract 1, divide by 2.",
+      "help": "$x = \\dfrac{3y - 1}{2}$.\n\n**Different example:** undo fraction step by step.\n\nClear denominator first."
+    },
+    "60": {
+      "hint": "Subtract 20, divide by 4 in $P = 4n + 20$.",
+      "help": "$n = \\dfrac{P - 20}{4}$.\n\n**Different example:** $S = 50 + 8w$ → $w = \\dfrac{S - 50}{8}$.\n\nIsolate $n$."
+    },
+    "61": {
+      "hint": "Rearrange $y = 5 - x$ so $x$ is alone.",
+      "help": "$x = 5 - y$.\n\n**Different example:** $y = 10 - x$ → $x = 10 - y$.\n\nSwap sides or subtract 5."
+    },
+    "62": {
+      "hint": "Divide $V = lwh$ by $wh$.",
+      "help": "$l = \\dfrac{V}{wh}$.\n\n**Different example:** $A = lw$ → $w = \\dfrac{A}{l}$.\n\nKnown $w$ and $h$ stay."
+    },
+    "63": {
+      "hint": "Multiply by 4, add 3 in $y = \\dfrac{x - 3}{4}$.",
+      "help": "$x = 4y + 3$.\n\n**Different example:** $y = \\dfrac{x + 1}{2}$ → $x = 2y - 1$.\n\nReverse fraction."
+    },
+    "64": {
+      "hint": "Subtract 32, multiply by $\\dfrac{5}{9}$ in $F = \\dfrac{9c}{5} + 32$.",
+      "help": "$c = \\dfrac{5(F - 32)}{9}$.\n\n**Different example:** Celsius from Fahrenheit.\n\nStandard temperature swap."
+    },
+    "65": {
+      "hint": "Divide by 3 or expand $3(x + 2)$ first.",
+      "help": "$x = \\dfrac{y}{3} - 2$.\n\n**Different example:** $y = 2(x + 5)$ → $x = \\dfrac{y}{2} - 5$.\n\nEither divide or expand."
+    },
+    "66": {
+      "hint": "Divide $E = mc^2$ by $c^2$.",
+      "help": "$m = \\dfrac{E}{c^2}$.\n\n**Different example:** $F = ma$ → $a = \\dfrac{F}{m}$.\n\nEnergy formula."
+    },
+    "67": {
+      "hint": "Add 4, divide by 6 in $2y = 6x - 4$.",
+      "help": "$x = \\dfrac{2y + 4}{6} = \\dfrac{y + 2}{3}$.\n\n**Different example:** simplify after rearrange.\n\nBoth sides ÷2 first optional."
+    },
+    "68": {
+      "hint": "Double $A$, divide by $h$, subtract $a$ in trapezium formula.",
+      "help": "$b = \\dfrac{2A}{h} - a$.\n\n**Different example:** parallel sides formula.\n\nUndo $\\dfrac{1}{2}$ first."
+    },
+    "69": {
+      "hint": "Multiply by 2, subtract 5 in $y = \\dfrac{5 - x}{2}$.",
+      "help": "$x = 5 - 2y$.\n\n**Different example:** numerator $5 - x$ — multiply then isolate.\n\nSign care."
+    },
+    "70": {
+      "hint": "Divide $V = prt$ by $rt$.",
+      "help": "$p = \\dfrac{V}{rt}$.\n\n**Different example:** simple interest style.\n\nProduct of two letters below."
+    },
+    "71": {
+      "hint": "Multiply by 2, subtract 1 in $y = \\dfrac{3x + 1}{2}$.",
+      "help": "$x = \\dfrac{2y - 1}{3}$.\n\n**Different example:** clear fraction then ÷3.\n\nTwo-step undo."
+    },
+    "72": {
+      "hint": "From $a = \\dfrac{b}{x}$, multiply both sides by $x$ then divide by $a$.",
+      "help": "$x = \\dfrac{b}{a}$.\n\n**Different example:** $y = \\dfrac{k}{x}$ → $x = \\dfrac{k}{y}$.\n\n$x$ in denominator."
+    },
+    "73": {
+      "hint": "Expand or subtract 4, divide by 2 in $y = 2(x - 3) + 4$.",
+      "help": "$x = \\dfrac{y - 4}{2} + 3$ or expand to $y = 2x - 2$ → $x = \\dfrac{y + 2}{2}$.\n\n**Different example:** simplify first.\n\nBracket optional."
+    },
+    "74": {
+      "hint": "Multiply $P = \\dfrac{k}{T}$ by $T$, divide by $P$.",
+      "help": "$T = \\dfrac{k}{P}$.\n\n**Different example:** inverse proportion form.\n\n$k$ stays on top."
+    },
+    "75": {
+      "hint": "Add 1, multiply by 4 in $y = \\dfrac{x}{4} - 1$.",
+      "help": "$x = 4(y + 1)$.\n\n**Different example:** undo −1 before ×4.\n\nFraction and constant."
+    },
+    "76": {
+      "hint": "Subtract $u^2$, divide by $2a$ in $v^2 = u^2 + 2as$.",
+      "help": "$s = \\dfrac{v^2 - u^2}{2a}$.\n\n**Different example:** SUVAT rearrange.\n\n$2a$ on denominator."
+    },
+    "77": {
+      "hint": "Subtract $y$ from both sides of $3x + y = 12$.",
+      "help": "$x = \\dfrac{12 - y}{3}$.\n\n**Different example:** $2x + y = 10$ → $x = \\dfrac{10 - y}{2}$.\n\nCollect $x$ terms."
+    },
+    "78": {
+      "hint": "Multiply by $\\dfrac{3}{4\\pi}$, then cube root for $r^3$.",
+      "help": "$r = \\sqrt[3]{\\dfrac{3V}{4\\pi}}$.\n\n**Different example:** sphere volume reversed.\n\nCube root step."
+    },
+    "79": {
+      "hint": "From $y = \\dfrac{2}{x}$, multiply to get $xy = 2$.",
+      "help": "$x = \\dfrac{2}{y}$.\n\n**Different example:** $y = \\dfrac{k}{x}$ → $x = \\dfrac{k}{y}$.\n\nReciprocal relationship."
+    },
+    "80": {
+      "hint": "Collect $x$ terms: $5x - 3x = 7 + 3y$.",
+      "help": "$x = \\dfrac{7 + 3y}{2}$.\n\n**Different example:** move all $x$ to one side.\n\nTwo variables."
+    },
+    "81": {
+      "hint": "Multiply by 2, divide by $(a + l)$ in $S = \\dfrac{n}{2}(a + l)$.",
+      "help": "$n = \\dfrac{2S}{a + l}$.\n\n**Different example:** arithmetic series sum.\n\nClear the fraction."
+    },
+    "82": {
+      "hint": "Multiply both sides by $(x - 1)$ carefully — $x$ appears twice.",
+      "help": "Cross-multiply $y(x - 1) = x + 5$, collect $x$ terms.\n\n**Different example:** $x$ in denominator needs multiply through.\n\nExpand and collect."
+    },
+    "83": {
+      "hint": "Subtract $c$, divide by $k$ in $y = kx + c$.",
+      "help": "$x = \\dfrac{y - c}{k}$.\n\n**Different example:** $y = mx + c$ form.\n\nStandard linear."
+    },
+    "84": {
+      "hint": "Add 1, divide by 2 in $\\dfrac{y}{3} = 2x - 1$.",
+      "help": "$x = \\dfrac{y/3 + 1}{2}$ or multiply by 3 first: $y = 6x - 3$.\n\n**Different example:** clear fraction on left.\n\nTwo approaches."
+    },
+    "85": {
+      "hint": "Square both sides of $y = \\sqrt{x + 4}$.",
+      "help": "$x = y^2 - 4$.\n\n**Different example:** undo square root by squaring.\n\nCheck $y \\geq 0$ in context."
+    },
+    "86": {
+      "hint": "Subtract 3, divide by 2 in $2x + 3 = y + 1$.",
+      "help": "$x = \\dfrac{y - 2}{2}$.\n\n**Different example:** simplify to $2x = y - 2$ first.\n\nAlmost already solved."
+    },
+    "87": {
+      "hint": "Divide $F = ma$ by $a$.",
+      "help": "$m = \\dfrac{F}{a}$.\n\n**Different example:** Newton's second law.\n\nSubject already almost $m$."
+    },
+    "88": {
+      "hint": "Multiply by $(x - 2)$, rearrange $y(x - 2) = 3$.",
+      "help": "$x = \\dfrac{3}{y} + 2$.\n\n**Different example:** $y = \\dfrac{k}{x - a}$ pattern.\n\nDenominator $(x - 2)$."
+    },
+    "89": {
+      "hint": "Subtract $b$, divide by $a$ in $ax + b = c$.",
+      "help": "$x = \\dfrac{c - b}{a}$.\n\n**Different example:** general linear solve.\n\nRequires $a \\neq 0$."
+    },
+    "90": {
+      "hint": "From $y = \\dfrac{1}{2x}$, cross-multiply to $2xy = 1$.",
+      "help": "$x = \\dfrac{1}{2y}$.\n\n**Different example:** reciprocal with coefficient 2.\n\nMultiply both sides."
+    },
+    "91": {
+      "hint": "Divide by 3, expand or rearrange $y - x = 4$.",
+      "help": "$x = y - 4$ from $3(y - x) = 12$ → $y - x = 4$.\n\n**Different example:** divide before expanding bracket.\n\nOne step divide."
+    },
+    "92": {
+      "hint": "Subtract 9 from $y^2 = x + 9$.",
+      "help": "$x = y^2 - 9$.\n\n**Different example:** $a^2 = x + b$ → $x = a^2 - b$.\n\nSquare already on one side."
+    },
+    "93": {
+      "hint": "Check $y = x + 5$ → subtract 5 from both sides.",
+      "help": "**True** — $x = y - 5$.\n\n**Different example:** undo +5 by subtract 5.\n\nOne inverse step."
+    },
+    "94": {
+      "hint": "Does dividing both sides by same non-zero number balance?",
+      "help": "**Always** — equation stays equivalent.\n\n**Different example:** $6x = 12$ → $x = 2$.\n\nSame operation both sides."
+    },
+    "95": {
+      "hint": "Mo wrote $w = P - 2l$ — missing divide by 2.",
+      "help": "Correct: $w = \\dfrac{P - 2l}{2}$.\n\n**Different example:** must undo **both** $+2l$ and ×2.\n\nPerimeter formula."
+    },
+    "96": {
+      "hint": "Subject means one letter alone on one side.",
+      "help": "**True** — $x = \\ldots$ form.\n\n**Different example:** $y = 3x + 1$ has $y$ as subject.\n\nDefinition of subject."
+    },
+    "97": {
+      "hint": "Compare $y = 3x$ and $x = y/3$.",
+      "help": "**Always** same relationship.\n\n**Different example:** multiply vs divide inverse.\n\nReversible steps."
+    },
+    "98": {
+      "hint": "Priya divided only $2x$, not +3.",
+      "help": "Must divide **every** term: $x = \\dfrac{y - 3}{2}$.\n\n**Different example:** $2x + 3 = y$ needs both terms handled.\n\nCommon error."
+    },
+    "99": {
+      "hint": "Inverse of +5 is subtract 5.",
+      "help": "**True** — balance both sides.\n\n**Different example:** $x + 7 = 10$ → subtract 7.\n\nUndo addition."
+    },
+    "100": {
+      "hint": "Rearrange $F = ma$ to $a = F/m$ when $m \\neq 0$.",
+      "help": "**Always** valid when $m \\neq 0$.\n\n**Different example:** divide by mass.\n\nDivision defined."
+    },
+    "101": {
+      "hint": "Does $5 = x$ mean the same as $x = 5$?",
+      "help": "**True** — equality symmetric.\n\n**Different example:** swap sides freely.\n\nSame statement."
+    },
+    "102": {
+      "hint": "Can any letter be made subject in a 3-letter formula?",
+      "help": "**Always** if algebra allows (may need restrictions).\n\n**Different example:** $V = lwh$ → any of $l, w, h$.\n\nSame relationship, new subject."
+    },
+    "103": {
+      "hint": "Leo multiplies $y = x/2$ by 2 to get $x = 2y$.",
+      "help": "**Valid** — multiply both sides by 2.\n\n**Different example:** $y = x/3$ → $x = 3y$.\n\nClear fraction."
+    },
+    "104": {
+      "hint": "Rearrange $C = 5 + 2n$ for $n$.",
+      "help": "**True** — $n = \\dfrac{C - 5}{2}$.\n\n**Different example:** subtract 5, divide 2.\n\nCheck with numbers."
+    },
+    "105": {
+      "hint": "Is adding the inverse of subtracting?",
+      "help": "**Always** — opposite operations balance.\n\n**Different example:** $x - 3 = 7$ add 3.\n\nInverse pairs."
+    },
+    "106": {
+      "hint": "Rearrange $y = -x + 4$ for $x$.",
+      "help": "**True** — $x = 4 - y$.\n\n**Different example:** subtract 4, multiply −1.\n\nSign swap."
+    },
+    "107": {
+      "hint": "Compare multiply by $\\dfrac{1}{2}$ and divide by 2.",
+      "help": "**Always** equivalent.\n\n**Different example:** $x/2 = x \\times \\dfrac{1}{2}$.\n\nSame result."
+    },
+    "108": {
+      "hint": "Correct rearrangement of $2x + 4 = y$ for $x$.",
+      "help": "$x = \\dfrac{y - 4}{2}$ — divide **both** $2x$ and 4.\n\n**Different example:** Nina's error skips ÷2 on constant.\n\nEvery term."
+    },
+    "109": {
+      "hint": "Rearrange $A = \\pi r^2$ for $r$.",
+      "help": "**True** — $r = \\sqrt{A/\\pi}$.\n\n**Different example:** divide by $\\pi$, square root.\n\nArea of circle."
+    },
+    "110": {
+      "hint": "$y = x^2$ → $x = \\sqrt{y}$ — any issue?",
+      "help": "**Sometimes** — need $\\pm\\sqrt{y}$ for real $x$.\n\n**Different example:** $x^2 = 9$ → $x = \\pm 3$.\n\nPrincipal root alone incomplete."
+    },
+    "111": {
+      "hint": "Divide $3x = y$ by 3.",
+      "help": "**True** — $x = y/3$.\n\n**Different example:** $5x = y$ → $x = y/5$.\n\nDirect divide."
+    },
+    "112": {
+      "hint": "Same inverse operations as solving?",
+      "help": "**Always** — rearranging uses same balance skills.\n\n**Different example:** $y = 2x + 1$ like solve for $x$.\n\nSame toolkit."
+    },
+    "113": {
+      "hint": "Divide $P = 4s$ by 4.",
+      "help": "**True** — $s = P/4$.\n\n**Different example:** square perimeter.\n\nOne step."
+    },
+    "114": {
+      "hint": "Clear fraction in $y = (x + 1)/2$.",
+      "help": "**Always** — $x = 2y - 1$.\n\n**Different example:** multiply 2, subtract 1.\n\nStandard linear fraction."
+    },
+    "115": {
+      "hint": "May you subtract $x$ from both sides?",
+      "help": "**True** — valid balancing move.\n\n**Different example:** collect $x$ on one side.\n\nAllowed operation."
+    },
+    "116": {
+      "hint": "Rearrange $v = u + at$ for $t$ when $a \\neq 0$.",
+      "help": "**Always** — $t = (v - u)/a$.\n\n**Different example:** SUVAT.\n\nSubtract $u$, divide $a$."
+    },
+    "117": {
+      "hint": "Is $y$ already alone in $y = 5$?",
+      "help": "**True** — $y$ is the subject.\n\n**Different example:** $y = k$ constant form.\n\nAlready done."
+    },
+    "118": {
+      "hint": "Dividing by $x$ when rearranging — when OK?",
+      "help": "**Sometimes** — only if $x \\neq 0$.\n\n**Different example:** cannot divide by zero.\n\nRestriction needed."
+    },
+    "119": {
+      "hint": "Rearrange $C = 3 + 2m$, then use $C = 17$.",
+      "help": "$m = \\dfrac{C - 3}{2}$; $C = 17$ → $m = 7$ miles.\n\n**Different example:** taxi fare model.\n\nTwo steps."
+    },
+    "120": {
+      "hint": "From $P = 2l + 2w$, find $w$ with $P = 30$, $l = 8$.",
+      "help": "$w = \\dfrac{P - 2l}{2} = \\dfrac{30 - 16}{2} = 7$.\n\n**Different example:** rectangle width.\n\nSubstitute after rearrange."
+    },
+    "121": {
+      "hint": "Rearrange $S = 50 + 8w$ for $w$, then $S = 146$.",
+      "help": "$w = \\dfrac{S - 50}{8}$; $w = 12$ when $S = 146$.\n\n**Different example:** subtract fixed amount first.\n\nSavings model."
+    },
+    "122": {
+      "hint": "From $A = lw$, divide by $w = 7$.",
+      "help": "$l = A/w = 56/7 = 8$.\n\n**Different example:** area ÷ width.\n\nRearrange then substitute."
+    },
+    "123": {
+      "hint": "Rearrange $F = \\dfrac{9C}{5} + 32$ for $C$ when $F = 68$.",
+      "help": "$C = \\dfrac{5(F - 32)}{9} = 20$°C.\n\n**Different example:** Fahrenheit to Celsius.\n\nSubtract 32 first."
+    },
+    "124": {
+      "hint": "From $V = lwh$, divide by $l \\times w$.",
+      "help": "$h = V/(lw) = 120/(5 \\times 4) = 6$.\n\n**Different example:** volume box.\n\nKnown $l$ and $w$."
+    },
+    "125": {
+      "hint": "Rearrange $E = mc^2$ for $m$ with given numbers.",
+      "help": "$m = E/c^2$; substitute $E$ and $c$.\n\n**Different example:** famous physics formula.\n\nDivide by $c^2$."
+    },
+    "126": {
+      "hint": "Divide $d = vt$ by $v = 60$.",
+      "help": "$t = d/v = 180/60 = 3$ hours.\n\n**Different example:** time = distance ÷ speed.\n\nDirect formula use."
+    },
+    "127": {
+      "hint": "Multiply $P = k/V$ by $V$, divide by $P$.",
+      "help": "$V = k/P$.\n\n**Different example:** inverse proportion.\n\nMake $V$ the subject."
+    },
+    "128": {
+      "hint": "Rearrange $C = 10 + 0.05t$ for $t$ at $C = 22.50$.",
+      "help": "$t = (C - 10)/0.05 = 250$.\n\n**Different example:** subtract flat fee, ÷ rate.\n\nDecimal rate."
+    },
+    "129": {
+      "hint": "From $y = 2x + 3$, find $x$ when $y = 19$.",
+      "help": "$x = (19 - 3)/2 = 8$.\n\n**Different example:** subtract 3, ÷2.\n\nLinear solve."
+    },
+    "130": {
+      "hint": "Double $A$, divide by $h$ in $A = \\dfrac{1}{2}bh$.",
+      "help": "$b = 2A/h = 60/5 = 12$.\n\n**Different example:** triangle base.\n\nArea formula."
+    },
+    "131": {
+      "hint": "Rearrange $T = 20 + 30w$ for $w$ at $T = 110$.",
+      "help": "$w = (110 - 20)/30 = 3$.\n\n**Different example:** weekly total model.\n\nSubtract 20 first."
+    },
+    "132": {
+      "hint": "From $y = x/2 + 4$, subtract 4, multiply 2.",
+      "help": "$x = 2(y - 4) = 12$ when $y = 10$.\n\n**Different example:** undo fraction and constant.\n\nTwo inverse steps."
+    },
+    "133": {
+      "hint": "Divide $P = 4s$ by 4 with $P = 52$.",
+      "help": "$s = 52/4 = 13$.\n\n**Different example:** square side from perimeter.\n\nSimple divide."
+    },
+    "134": {
+      "hint": "Divide $y = 3(x - 2)$ by 3, add 2.",
+      "help": "$x = y/3 + 2 = 6$ when $y = 12$.\n\n**Different example:** bracket form.\n\nOr expand first."
+    },
+    "135": {
+      "hint": "Rearrange $C = 5n + 2$ for $n$ at $C = 47$.",
+      "help": "$n = (47 - 2)/5 = 9$.\n\n**Different example:** linear cost model.\n\nSubtract 2, ÷5."
+    },
+    "136": {
+      "hint": "Clear fraction in $y = (5x - 1)/2$ with $y = 7$.",
+      "help": "$5x - 1 = 14$ → $x = 3$.\n\n**Different example:** multiply by 2 first.\n\nThen solve linear."
+    },
+    "137": {
+      "hint": "From $V = \\pi r^2 h$, divide by $\\pi h$, square root.",
+      "help": "$r = \\sqrt{V/(\\pi h)}$.\n\n**Different example:** cylinder volume.\n\n$r$ from $V$ and $h$."
+    },
+    "138": {
+      "hint": "Set $y = 0$ in $y = -3x + 12$ and solve.",
+      "help": "$0 = -3x + 12$ → $x = 4$.\n\n**Different example:** where line crosses axis.\n\nSubstitute $y = 0$."
+    },
+    "139": {
+      "hint": "Multiply $a = (v - u)/t$ by $t$.",
+      "help": "$t = (v - u)/a$.\n\n**Different example:** SUVAT for time.\n\n$a$ in denominator."
+    },
+    "140": {
+      "hint": "From $y = 2/x$, cross-multiply with $y = 0.5$.",
+      "help": "$2/x = 0.5$ → $x = 4$.\n\n**Different example:** reciprocal relation.\n\n$xy = 2$."
+    },
+    "141": {
+      "hint": "From $S = ut + \\dfrac{1}{2}at^2$, subtract $\\dfrac{1}{2}at^2$ from both sides, then divide by $t$.",
+      "help": "To make $u$ the subject, undo the $\\dfrac{1}{2}at^2$ term first, then divide by $t$.\n\n**Different example:** $S = 10$, $a = 2$, $t = 2$ → subtract $4$, then divide by $2$ to get $u$.\n\nSUVAT formulas rearrange by inverse operations in reverse order."
+    },
+    "142": {
+      "hint": "Multiply both sides of $y = \\dfrac{x + 3}{x - 1}$ by $(x - 1)$, then collect every $x$ term on one side.",
+      "help": "Cross-multiply to clear the fraction, expand, move $x$ terms to one side, factor $x$, then divide.\n\n**Different example:** $y = \\dfrac{x + 1}{x - 2}$ → multiply by $(x - 2)$, then collect $x$.\n\nWatch that $(x - 1) \\neq 0$ when you multiply."
+    },
+    "143": {
+      "hint": "Rearrange $C = 2\\pi r$ for $r$, then substitute $C = 20\\pi$ and cancel $\\pi$.",
+      "help": "Divide both sides by $2\\pi$ to get $r = C/(2\\pi)$.\n\n**Different example:** $C = 10\\pi$ → divide by $2\\pi$ to get $r = 5$.\n\nCircumference ÷ $2\\pi$ gives the radius."
+    },
+    "144": {
+      "hint": "From $y = 5 - 2x$, put $y = -1$ on the left and isolate $x$ by undoing the $-2x$ term.",
+      "help": "Rearrange to $2x = 5 - y$, then divide by 2.\n\n**Different example:** $y = 5 - 2x$ with $y = 1$ → $2x = 4$ → divide by 2.\n\nSubtract before dividing when undoing $-2x$."
+    },
+    "145": {
+      "hint": "In $P = 2(l + w)$ with $P = 24$ and $w = 5$, divide by 2 first, then remove $w$.",
+      "help": "Halve the perimeter because $P = 2(l + w)$, then subtract $w$ to leave $l$.\n\n**Different example:** $P = 30$, $w = 4$ → halve to 15, subtract 4 to get $l$.\n\nPerimeter formula rearranged for length."
+    },
+    "146": {
+      "hint": "From $y = \\dfrac{3x + 2}{4}$ with $y = 5$, multiply by 4, subtract 2, then divide by 3.",
+      "help": "Clear the denominator: multiply by 4, subtract 2, divide by 3 to isolate $x$.\n\n**Different example:** $y = 2$ → multiply by 4 to get 8, subtract 2, divide by 3.\n\nWork through the fraction before solving for $x$."
+    },
+    "147": {
+      "hint": "Rearrange $F = ma$ for $a$, then substitute $F = 20$ and $m = 4$.",
+      "help": "Divide both sides by $m$ to get $a = F/m$.\n\n**Different example:** $F = 15$, $m = 3$ → divide 15 by 3.\n\nNewton's second law: acceleration equals force divided by mass."
+    },
+    "148": {
+      "hint": "Square both sides of $y = \\sqrt{x - 1}$ when $y = 4$, then add 1 to find $x$.",
+      "help": "Squaring removes the square root: $y^2 = x - 1$, so add 1 to both sides.\n\n**Different example:** $y = 3$ → square to get 9, add 1 to get $x$.\n\nSquare root and square are inverse operations."
+    },
+    "149": {
+      "hint": "From $V = \\dfrac{4}{3}\\pi r^3$, isolate $r^3$ by multiplying by 3 and dividing by $4\\pi$.",
+      "help": "Rearrange to $r^3 = 3V/(4\\pi)$, then take a cube root.\n\n**Different example:** $V = \\dfrac{32}{3}\\pi$ → $r^3 = 8$, then cube root.\n\nSphere volume reversed in three steps: clear fraction, isolate cube, root."
+    },
+    "150": {
+      "hint": "In $y = kx$ with $x = 4$ and $y = 28$, divide $y$ by $x$ to find the constant $k$.",
+      "help": "Direct proportion: $k = y/x$.\n\n**Different example:** $x = 5$, $y = 35$ → divide 35 by 5.\n\nThe constant links $x$ and $y$ in a straight-line through the origin."
+    },
+    "151": {
+      "hint": "From $y = \\dfrac{x - 5}{3}$ with $y = 2$, multiply by 3, then undo the $-5$ on $x$.",
+      "help": "Clear the denominator first, then add 5 to isolate $x$.\n\n**Different example:** $y = 4$ → multiply by 3 to get 12, add 5.\n\nFraction then linear steps in reverse order."
+    },
+    "152": {
+      "hint": "In $A = \\dfrac{1}{2}(a + b)h$, multiply by 2, divide by $h$, then subtract $b$.",
+      "help": "Undo the half and the height multiply before removing the other parallel side.\n\n**Different example:** $A = 20$, $b = 4$, $h = 5$ → double to 40, divide by 5, subtract 4.\n\nTrapezium area reversed for side $a$."
+    },
+    "153": {
+      "hint": "From $y = 4x - 7$ with $y = 1$, add 7 to both sides, then divide by 4.",
+      "help": "Rearrange to $4x = y + 7$, then divide by 4.\n\n**Different example:** $y = 9$ → add 7 to get 16, divide by 4.\n\nLinear formula solved by inverse operations."
+    },
+    "154": {
+      "hint": "In $P = \\dfrac{RT}{V}$, multiply both sides by $V$, then divide by $T$ to leave $R$.",
+      "help": "Clear the fraction: $PV = RT$, then $R = PV/T$.\n\n**Different example:** $P = 100$, $V = 2$, $T = 300$ → multiply, then divide.\n\nIdeal-gas style rearrangement for $R$."
+    },
+    "155": {
+      "hint": "From $y = \\dfrac{1}{x + 2}$, take reciprocals (when $y \\neq 0$), then subtract 2.",
+      "help": "Flip both sides: $x + 2 = 1/y$, then subtract 2.\n\n**Different example:** $y = \\dfrac{1}{5}$ → reciprocal gives 5, subtract 2.\n\nReciprocal shifts the fraction into a simpler linear step."
+    },
+    "156": {
+      "hint": "In $C = a + bn$, subtract $a$ from both sides, then divide by $b$.",
+      "help": "Remove the fixed part first, then divide by the coefficient of $n$.\n\n**Different example:** $C = 20$, $a = 5$, $b = 3$ → subtract 5, divide by 3.\n\nTwo-step linear rearrangement."
+    },
+    "157": {
+      "hint": "From $y = 2(x + 5) - 3$, add 3, divide by 2, then subtract 5 to make $x$ the subject.",
+      "help": "Undo operations in reverse order, or expand to $y = 2x + 7$ first.\n\n**Different example:** expand to $y = 2x + 7$ → subtract 7, divide by 2.\n\nBrackets can be expanded before rearranging."
+    },
+    "158": {
+      "hint": "In $v^2 = u^2 + 2as$, subtract $u^2$, then divide both sides by $2a$.",
+      "help": "Isolate the $2as$ term first, then divide by $2a$.\n\n**Different example:** $v = 10$, $u = 6$, $a = 2$ → subtract 36 from 100, divide by 4.\n\nSUVAT displacement formula rearranged for $s$."
+    },
+    "159": {
+      "hint": "From $y = \\dfrac{5}{x}$ with $y = 0.25$, use $x = 5/y$ or cross-multiply.",
+      "help": "Reciprocal relationship: multiply $y$ and $x$ to get 5.\n\n**Different example:** $y = 1$ → $x = 5$ using $xy = 5$.\n\nInverse proportion: product stays constant."
+    },
+    "160": {
+      "hint": "From $A = \\pi r^2$ with $A = 49\\pi$, divide by $\\pi$, then take the square root.",
+      "help": "Cancel $\\pi$ first to leave $r^2$, then square root.\n\n**Different example:** $A = 25\\pi$ → divide by $\\pi$ to get $r^2 = 25$, then root.\n\nCircle area reversed in two steps."
+    },
+    "161": {
+      "hint": "From $y = \\dfrac{2x + 3}{5}$ with $y = 3$, multiply by 5, subtract 3, then divide by 2.",
+      "help": "Clear the fraction, then solve the linear equation for $x$.\n\n**Different example:** $y = 1$ → multiply by 5, subtract 3, divide by 2.\n\nSame pattern as other fraction-then-linear questions."
+    },
+    "162": {
+      "hint": "From $T = \\dfrac{100}{n}$, multiply both sides by $n$, then divide by $T$.",
+      "help": "Cross-multiply to get $Tn = 100$, then divide by $T$.\n\n**Different example:** $T = 25$ → multiply across, divide to get $n$.\n\nInverse relationship: product of $T$ and $n$ stays 100."
+    },
+    "163": {
+      "hint": "From $y = 3 - \\dfrac{x}{2}$, subtract 3 from both sides, then multiply by $-2$.",
+      "help": "Rearrange to $x/2 = 3 - y$, then multiply both sides by 2.\n\n**Different example:** $y = 1$ → $x/2 = 2$, multiply by 2.\n\nWatch signs when undoing subtraction."
+    },
+    "164": {
+      "hint": "Substitute $l = 6$ and $w = 4$ into $P = 2l + 2w$ — use the original form, not a rearrangement.",
+      "help": "Replace each letter, then add the two terms.\n\n**Different example:** $l = 5$, $w = 3$ → $P = 10 + 6$.\n\nForward substitution checks you still know the basic perimeter formula."
+    },
+    "165": {
+      "hint": "In $y = \\dfrac{ax + b}{c}$, multiply by $c$, subtract $b$, then divide by $a$.",
+      "help": "Clear the fraction, then isolate $x$ in three inverse steps.\n\n**Different example:** $y = \\dfrac{2x + 1}{3}$ → multiply by 3, subtract 1, divide by 2.\n\nGeneral template for linear fractions."
+    },
+    "166": {
+      "hint": "Start from $x = y + z$ — subtract $z$ from both sides. Does $y$ end up alone?",
+      "help": "Subtract $z$: $x - z = y$, so $y = x - z$.\n\n**Different example:** $a = b + c$ → subtract $c$ to get $b = a - c$.\n\nStatement is **true** — valid rearrangement."
+    },
+    "167": {
+      "hint": "From $y = \\dfrac{1}{x - a}$, take reciprocals, then add $a$ to both sides.",
+      "help": "Flip: $x - a = 1/y$, then add $a$.\n\n**Different example:** $y = \\dfrac{1}{4}$, $a = 2$ → reciprocal gives 4, add 2.\n\nShifted reciprocal needs add $a$ at the end."
+    },
+    "168": {
+      "hint": "When $y = x^2$ and $y > 0$, think about $\\sqrt{y}$ — are there one or two values of $x$?",
+      "help": "Positive $y$ gives $x = \\pm\\sqrt{y}$ — two values.\n\n**Different example:** $y = 16$ → $x = 4$ or $x = -4$.\n\nAnswer: **always** two real roots when $y > 0$."
+    },
+    "169": {
+      "hint": "In $A = \\pi r^2 + \\pi r s$, factor $\\pi r$ from the right-hand side before isolating $r$.",
+      "help": "Write $A = \\pi r(r + s)$, then divide by $\\pi(r + s)$.\n\n**Different example:** factor $\\pi r$ from $\\pi r^2 + 2\\pi r$ → $\\pi r(r + 2)$.\n\nLeave $\\pi$ factors as the question asks."
+    },
+    "170": {
+      "hint": "Try $x = -3$: what is $|x|$? Can $|y|$ tell you whether $x$ was positive or negative?",
+      "help": "$|x|$ hides the sign of $x$.\n\n**Different example:** $|3| = 3$ and $|-3| = 3$, but $x$ was different.\n\nStatement is **true** — information is lost."
+    },
+    "171": {
+      "hint": "From $\\dfrac{2}{x} + 3 = y$, subtract 3, then rearrange the fraction to isolate $x$.",
+      "help": "Get $2/x = y - 3$, then cross-multiply or take reciprocals carefully.\n\n**Different example:** $\\dfrac{3}{x} + 1 = 4$ → subtract 1, then clear the fraction.\n\n$x$ in the denominator needs cross-multiplying."
+    },
+    "172": {
+      "hint": "Cross-multiply $y = \\dfrac{x}{x + 1}$ and collect $x$ terms — when is $y = 1$ a problem?",
+      "help": "Multiply: $y(x + 1) = x$, expand, move $x$ terms, factor.\n\n**Different example:** $y = \\dfrac{1}{2}$ → cross-multiply and collect.\n\n**Always** works when $y \\neq 1$ (so $1 - y \\neq 0$)."
+    },
+    "173": {
+      "hint": "$s = ut + \\dfrac{1}{2}at^2$ is quadratic in $t$ — state the quadratic-formula idea, not full algebra.",
+      "help": "Rearrange to $\\dfrac{1}{2}at^2 + ut - s = 0$ — a quadratic in $t$.\n\n**Different example:** $x^2 + 3x - 4 = 0$ needs the formula or factorising.\n\nGCSE may only ask you to recognise that $t$ needs the quadratic formula."
+    },
+    "174": {
+      "hint": "$y = \\ln x$ and $x = e^y$ undo each other — what is this relationship called?",
+      "help": "Natural log and $e$ are inverse operations.\n\n**Different example:** if $y = \\ln 2$, then $x = e^y$ recovers 2.\n\nStatement is **true** — accept wording like “inverse function”."
+    },
+    "175": {
+      "hint": "Multiply both sides of $y = \\dfrac{3}{2x - 1}$ by $(2x - 1)$, then collect $x$ on one side.",
+      "help": "Cross-multiply: $y(2x - 1) = 3$, expand, isolate $x$.\n\n**Different example:** $y = \\dfrac{2}{x + 1}$ → multiply across, collect $x$.\n\nDenominator must not be zero when you multiply."
+    },
+    "176": {
+      "hint": "When $a \\neq 0$ in $a(bx + c) = d$, divide by $a$ — can you always reach $x$?",
+      "help": "Divide by $a$, subtract $c$, divide by $b$ (if $b \\neq 0$).\n\n**Different example:** $3(2x + 1) = 15$ → divide by 3, subtract 1, divide by 2.\n\nAnswer: **always**, when $a \\neq 0$ and $b \\neq 0$."
+    },
+    "177": {
+      "hint": "Square both sides of $y = \\sqrt{2x + 1}$, subtract 1, then divide by 2.",
+      "help": "Squaring gives $y^2 = 2x + 1$, then rearrange linearly.\n\n**Different example:** $y = \\sqrt{x + 4}$ → square, subtract 4.\n\nRequires $y \\geq 0$ for the principal root in real numbers."
+    },
+    "178": {
+      "hint": "Start from $F = \\dfrac{9C}{5} + 32$ and solve for $C$ — does it match $C = \\dfrac{5(F - 32)}{9}$?",
+      "help": "Subtract 32, multiply by $5/9$.\n\n**Different example:** $F = 32$ → subtract 32, multiply by $5/9$.\n\nStatement is **true** — standard Celsius/Fahrenheit pair."
+    },
+    "179": {
+      "hint": "From $y = \\dfrac{x^2}{4}$, multiply by 4, then take square roots — remember $\\pm$.",
+      "help": "Get $x^2 = 4y$, then $x = \\pm 2\\sqrt{y}$.\n\n**Different example:** $y = \\dfrac{x^2}{9}$ → multiply by 9, $x = \\pm 3\\sqrt{y}$.\n\nSquaring loses sign — two roots."
+    },
+    "180": {
+      "hint": "From $y = mx + c$ with $m \\neq 0$, subtract $c$, then divide by $m$ — does this always work?",
+      "help": "Inverse steps: $y - c = mx$, then divide by $m$.\n\n**Different example:** $y = 2x + 5$ → subtract 5, divide by 2.\n\nAnswer: **always** when $m \\neq 0$."
+    },
+    "181": {
+      "hint": "From $R = \\dfrac{1000}{p}$, multiply both sides by $p$, then divide by $R$.",
+      "help": "Cross-multiply to get $Rp = 1000$, then divide by $R$.\n\n**Different example:** $R = 500$ → multiply across, divide to get $p$.\n\nInverse proportion: product stays 1000."
+    },
+    "182": {
+      "hint": "From $x = \\dfrac{y}{z}$, multiply both sides by $z$. Does that give $y = xz$?",
+      "help": "Multiply by $z$: $xz = y$.\n\n**Different example:** $a = \\dfrac{b}{c}$ → multiply by $c$ to get $b = ac$.\n\nStatement is **true**."
+    },
+    "183": {
+      "hint": "Multiply $y = \\dfrac{2x - 3}{x + 1}$ by $(x + 1)$, expand, then collect all $x$ terms.",
+      "help": "Cross-multiply, expand both sides, move $x$ terms to one side, factor $x$.\n\n**Different example:** $y = \\dfrac{x + 2}{x - 1}$ → same cross-multiply pattern.\n\n$x$ appears in numerator and denominator."
+    },
+    "184": {
+      "hint": "Multiply $y = x + \\dfrac{1}{x}$ by $x$ to clear the fraction — what type of equation appears?",
+      "help": "Get $xy = x^2 + 1$, rearrange to $x^2 - xy + 1 = 0$ — a quadratic in $x$.\n\n**Different example:** $y = x + \\dfrac{2}{x}$ → multiply by $x$, same pattern.\n\nAnswer: **always** — it becomes quadratic."
+    },
+    "185": {
+      "hint": "From $V = \\dfrac{1}{3}\\pi r^2 h$, multiply by 3, divide by $\\pi h$, then take a square root.",
+      "help": "Isolate $r^2$ first: $r^2 = 3V/(\\pi h)$, then square root.\n\n**Different example:** $V = 12\\pi$, $h = 4$ → multiply by 3, divide by $4\\pi$, root.\n\nCone volume reversed like circle area."
+    },
+    "186": {
+      "hint": "Can $P = 2\\pi r$ and $A = \\pi r^2$ both be rearranged to make $r$ the subject?",
+      "help": "$P = 2\\pi r$ → divide by $2\\pi$. $A = \\pi r^2$ → divide by $\\pi$, square root.\n\n**Different example:** same radius from circumference or area with different given values.\n\nStatement is **true**."
+    },
+    "187": {
+      "hint": "From $y = \\dfrac{a}{x} + b$, subtract $b$, take reciprocals, then multiply by $a$.",
+      "help": "Get $a/x = y - b$, flip to $x/a = 1/(y - b)$, multiply by $a$.\n\n**Different example:** $y = \\dfrac{6}{x} + 1$ → subtract 1, then invert.\n\nRequires $y \\neq b$."
+    },
+    "188": {
+      "hint": "From $y = kx^n$, divide by $k$, then use an $n$th root to isolate $x$.",
+      "help": "Rearrange to $x^n = y/k$, then take the $n$th root.\n\n**Different example:** $y = x^2$ → $x = \\pm\\sqrt{y}$; even $n$ gives two signs.\n\nAnswer: **always** when roots are defined."
+    },
+    "189": {
+      "hint": "Multiply $y = \\dfrac{x + 1}{x - 2}$ by $(x - 2)$, then collect $x$ terms on one side.",
+      "help": "Cross-multiply: $y(x - 2) = x + 1$, expand, move $x$ terms, factor.\n\n**Different example:** $y = \\dfrac{x + 3}{x - 1}$ → same method as question 142.\n\nLinear fraction with $x$ on both sides."
+    },
+    "190": {
+      "hint": "Does isolating a different letter change how the variables are linked?",
+      "help": "Rearranging shuffles the formula but keeps the same relationship.\n\n**Different example:** $P = 4s$ and $s = P/4$ say the same thing.\n\nStatement is **true** — same link, different subject."
+    },
+    "191": {
+      "hint": "In $3x - 2y = 5x + 1$, move every $x$ term to one side, factor $x$, then divide.",
+      "help": "Subtract $5x$: $-2x - 2y = 1$, or collect $x$ on the left.\n\n**Different example:** $2x - y = x + 3$ → subtract $x$, add $y$.\n\nBoth sides can contain the subject letter."
+    },
+    "192": {
+      "hint": "From $y = \\dfrac{1}{x^2}$ with $y > 0$, take reciprocals, then square roots — remember $\\pm$.",
+      "help": "Get $x^2 = 1/y$, then $x = \\pm 1/\\sqrt{y}$.\n\n**Different example:** $y = \\dfrac{1}{4}$ → reciprocal 4, root gives $\\pm 2$.\n\nAnswer: **always** for $y > 0$."
+    },
+    "193": {
+      "hint": "$S_n = \\dfrac{n}{2}(2a + (n-1)d)$ — expanding gives a quadratic in $n$; full solve is beyond typical GCSE.",
+      "help": "Multiply out: $S_n = na + \\dfrac{n(n-1)d}{2}$ — quadratic in $n$.\n\n**Different example:** solving $n^2 + 3n = 10$ needs the quadratic formula.\n\nState that GCSE may not require the full rearrangement."
+    },
+    "194": {
+      "hint": "From $v = u + at$, divide by $t$ to get $a$ — is that a common physics rearrangement?",
+      "help": "Rearrange to $a = (v - u)/t$.\n\n**Different example:** $v = 10$, $u = 4$, $t = 2$ → subtract, divide.\n\nStatement is **true** — finding acceleration is a standard use."
+    },
+    "195": {
+      "hint": "Multiply $y = \\dfrac{5x + 1}{2x - 3}$ by $(2x - 3)$, expand, then collect $x$ on one side.",
+      "help": "Cross-multiply, expand $y(2x - 3) = 5x + 1$, move $x$ terms, factor.\n\n**Different example:** $y = \\dfrac{3x + 2}{x - 1}$ → same cross-multiply method.\n\nFull algebra when $x$ is in top and bottom."
+    },
+    "196": {
+      "hint": "In $y = c$, is $y$ already written alone on one side of the equals sign?",
+      "help": "$y$ is already the subject — no rearranging needed.\n\n**Different example:** $y = 7$ or $y = -2$ — $y$ stands alone.\n\nAnswer: **always** — constant formulas already have $y$ as subject."
+    },
+    "197": {
+      "hint": "From $\\sqrt{y} = x + 3$, subtract 3 from both sides — or square to get a quadratic in $x$.",
+      "help": "Directly: $x = \\sqrt{y} - 3$ (principal root).\n\n**Different example:** $\\sqrt{y} = x + 1$ → subtract 1.\n\nSquaring gives $y = (x + 3)^2$ if you need both forms."
+    },
+    "198": {
+      "hint": "Start from $A = lw$ and divide by $w$ — when $w \\neq 0$, is that the same as $l = A/w$?",
+      "help": "Divide both sides by $w$: $l = A/w$.\n\n**Different example:** $A = 20$, $w = 4$ → divide to get $l$.\n\nStatement is **true** when $w \\neq 0$."
+    },
+    "199": {
+      "hint": "Multiply $y = \\dfrac{3x}{x + 2}$ by $(x + 2)$, expand, then collect $x$ terms on one side.",
+      "help": "Cross-multiply: $y(x + 2) = 3x$, expand, move $x$ terms, factor.\n\n**Different example:** $y = \\dfrac{2x}{x + 1}$ → multiply across, collect $x$.\n\nLinear after expanding both sides."
+    },
+    "200": {
+      "hint": "Pick a formula from this topic, make a **different** letter the subject, then substitute numbers both ways.",
+      "help": "Choose e.g. $C = 5 + 2n$ → rearrange to $n = (C - 5)/2$, pick $C = 17$, find $n$, then check $C = 5 + 2n$ gives the same $C$.\n\n**Different example:** $P = 4s$ ↔ $s = P/4$ with $s = 6$.\n\nBoth forms must agree on the same numbers."
+    }
+  }
+}

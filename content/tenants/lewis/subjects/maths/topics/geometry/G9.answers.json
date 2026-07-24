@@ -1,0 +1,1745 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "centre",
+      "accept": [
+        "centre",
+        "center"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "radius",
+      "accept": [
+        "radius"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "diameter",
+      "accept": [
+        "diameter"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "6 cm",
+      "accept": [
+        "6",
+        "6 cm",
+        "6cm"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm",
+        "5cm"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "circumference",
+      "accept": [
+        "circumference"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "centre",
+      "accept": [
+        "centre",
+        "center"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "radius",
+      "accept": [
+        "radius"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "11": {
+      "display": "diameter",
+      "accept": [
+        "diameter"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "12": {
+      "display": "radius",
+      "accept": [
+        "radius"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "13": {
+      "display": "circumference",
+      "accept": [
+        "circumference"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "14": {
+      "display": "tangent",
+      "accept": [
+        "tangent"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "15": {
+      "display": "chord",
+      "accept": [
+        "chord"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "16": {
+      "display": "arc",
+      "accept": [
+        "arc"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "17": {
+      "display": "sector",
+      "accept": [
+        "sector"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "18": {
+      "display": "segment",
+      "accept": [
+        "segment"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "19": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "20": {
+      "display": "90° (a right angle)",
+      "accept": [
+        "90",
+        "90°",
+        "right angle"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1150
+    },
+    "21": {
+      "display": "Radius",
+      "accept": [
+        "radius"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "22": {
+      "display": "Line joining two points on the circle",
+      "accept": [
+        "line",
+        "two points",
+        "circle"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "12 cm",
+      "accept": [
+        "12",
+        "12 cm",
+        "12cm"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "24": {
+      "display": "A tangent only touches the circle at one point, and that point is where the circle is momentarily 'flattest' along the tangent direction — the radius to that point is always exactly perpendicular to the tangent, otherwise the tangent would cross into the circle.",
+      "accept": [
+        "perpendicular",
+        "90",
+        "right angle"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 993
+    },
+    "25": {
+      "display": "The larger region is called the major segment and the smaller region is called the minor segment.",
+      "accept": [
+        "major segment",
+        "minor segment",
+        "segment"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1086
+    },
+    "26": {
+      "display": "Always — the diameter passes through the centre, so it is always at least as long as any other chord, and always longer than any chord that does not pass through the centre.",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1179
+    },
+    "27": {
+      "display": "The two tangent lengths are always equal.",
+      "accept": [
+        "equal",
+        "same length"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1271
+    },
+    "28": {
+      "display": "No — a radius always starts at the centre and reaches the edge, while a chord joins two points on the circumference and does not have to pass through the centre.",
+      "accept": [
+        "no",
+        "centre",
+        "circumference"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1364
+    },
+    "29": {
+      "display": "¼ (a quarter)",
+      "accept": [
+        "1/4",
+        "¼",
+        "quarter",
+        "0.25"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1457
+    },
+    "30": {
+      "display": "A sector is bounded by two radii and an arc (a 'pizza slice' from the centre); a segment is bounded by a chord and an arc, and does not include the centre.",
+      "accept": [
+        "two radii",
+        "chord",
+        "centre"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1550
+    },
+    "31": {
+      "display": "0.7 m",
+      "accept": [
+        "0.7",
+        "0.7 m",
+        "0.7m",
+        "70 cm"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "32": {
+      "display": "circumference",
+      "accept": [
+        "circumference"
+      ],
+      "tier": 3,
+      "rating": 1230
+    },
+    "33": {
+      "display": "1.6 m",
+      "accept": [
+        "1.6",
+        "1.6 m",
+        "1.6m"
+      ],
+      "tier": 3,
+      "rating": 1360
+    },
+    "34": {
+      "display": "60°",
+      "accept": [
+        "60",
+        "60°"
+      ],
+      "tier": 3,
+      "rating": 1490
+    },
+    "35": {
+      "display": "16 cm",
+      "accept": [
+        "16",
+        "16 cm",
+        "16cm"
+      ],
+      "tier": 3,
+      "rating": 1620
+    },
+    "36": {
+      "display": "diameter",
+      "accept": [
+        "diameter"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "Because the radius meets the tangent at exactly 90°, the radius itself is the shortest possible line from the centre to the tangent line — any other line from the centre to the tangent would be the hypotenuse of a right-angled triangle and so would be longer than the radius.",
+      "accept": [
+        "90",
+        "perpendicular",
+        "shortest"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1400
+    },
+    "38": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8 cm",
+        "8cm"
+      ],
+      "tier": 3,
+      "rating": 1600
+    },
+    "39": {
+      "display": "16 cm",
+      "accept": [
+        "16",
+        "16 cm",
+        "16cm"
+      ],
+      "tier": 3,
+      "rating": 1800
+    },
+    "40": {
+      "display": "The radius is perpendicular to the tangent at the point of contact.",
+      "accept": [
+        "radius",
+        "perpendicular",
+        "tangent",
+        "point of contact"
+      ],
+      "tier": 3,
+      "contains": true,
+      "containsMin": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10 cm"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "Tangent",
+      "accept": [
+        "tangent"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "43": {
+      "display": "radius",
+      "accept": [
+        "radius"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "diameter",
+      "accept": [
+        "diameter"
+      ],
+      "tier": 1,
+      "rating": 754
+    },
+    "45": {
+      "display": "18 cm",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "46": {
+      "display": "7 cm",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 762
+    },
+    "47": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 767
+    },
+    "48": {
+      "display": "Tangent",
+      "accept": [
+        "tangent"
+      ],
+      "tier": 1,
+      "rating": 771
+    },
+    "49": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "50": {
+      "display": "1/5 (or 72° out of 360°)",
+      "accept": [
+        "1/5",
+        "72"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 779
+    },
+    "51": {
+      "display": "45°",
+      "accept": [
+        "45"
+      ],
+      "tier": 1,
+      "rating": 783
+    },
+    "52": {
+      "display": "90°",
+      "accept": [
+        "90"
+      ],
+      "tier": 1,
+      "rating": 787
+    },
+    "53": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "rating": 791
+    },
+    "54": {
+      "display": "22 cm",
+      "accept": [
+        "22"
+      ],
+      "tier": 1,
+      "rating": 796
+    },
+    "55": {
+      "display": "They are equal in length",
+      "accept": [
+        "equal"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 800
+    },
+    "56": {
+      "display": "Diameter",
+      "accept": [
+        "diameter"
+      ],
+      "tier": 1,
+      "rating": 804
+    },
+    "57": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 808
+    },
+    "58": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 812
+    },
+    "59": {
+      "display": "1/3",
+      "accept": [
+        "1/3",
+        "120"
+      ],
+      "tier": 1,
+      "rating": 816
+    },
+    "60": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "61": {
+      "display": "5π cm (quarter of circumference 2π×10)",
+      "accept": [
+        "5pi",
+        "5π"
+      ],
+      "tier": 1,
+      "rating": 825
+    },
+    "62": {
+      "display": "12 cm",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 829
+    },
+    "63": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 833
+    },
+    "64": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 837
+    },
+    "65": {
+      "display": "Sector (segment does not include the centre)",
+      "accept": [
+        "sector"
+      ],
+      "tier": 1,
+      "rating": 841
+    },
+    "66": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 845
+    },
+    "67": {
+      "display": "11 cm",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 849
+    },
+    "68": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "25"
+      ],
+      "tier": 1,
+      "rating": 854
+    },
+    "69": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 858
+    },
+    "70": {
+      "display": "Radius (from centre O to A on the circle)",
+      "accept": [
+        "radius"
+      ],
+      "tier": 1,
+      "rating": 862
+    },
+    "71": {
+      "display": "26 cm",
+      "accept": [
+        "26"
+      ],
+      "tier": 2,
+      "rating": 866
+    },
+    "72": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 870
+    },
+    "73": {
+      "display": "16 cm",
+      "accept": [
+        "16"
+      ],
+      "tier": 2,
+      "rating": 874
+    },
+    "74": {
+      "display": "1/6",
+      "accept": [
+        "1/6"
+      ],
+      "tier": 2,
+      "rating": 878
+    },
+    "75": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 882
+    },
+    "76": {
+      "display": "9 cm",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 887
+    },
+    "77": {
+      "display": "24 cm",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 891
+    },
+    "78": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 895
+    },
+    "79": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 899
+    },
+    "80": {
+      "display": "1/8",
+      "accept": [
+        "1/8",
+        "45"
+      ],
+      "tier": 2,
+      "rating": 903
+    },
+    "81": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 907
+    },
+    "82": {
+      "display": "2 cm",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 911
+    },
+    "83": {
+      "display": "14 cm",
+      "accept": [
+        "14"
+      ],
+      "tier": 2,
+      "rating": 916
+    },
+    "84": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 920
+    },
+    "85": {
+      "display": "Major arc",
+      "accept": [
+        "major"
+      ],
+      "tier": 2,
+      "rating": 924
+    },
+    "86": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 928
+    },
+    "87": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 932
+    },
+    "88": {
+      "display": "Semicircle",
+      "accept": [
+        "semicircle"
+      ],
+      "tier": 2,
+      "rating": 936
+    },
+    "89": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 940
+    },
+    "90": {
+      "display": "Radius",
+      "accept": [
+        "radius"
+      ],
+      "tier": 2,
+      "rating": 945
+    },
+    "91": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 949
+    },
+    "92": {
+      "display": "90 cm",
+      "accept": [
+        "90"
+      ],
+      "tier": 2,
+      "rating": 953
+    },
+    "93": {
+      "display": "8 cm",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 957
+    },
+    "94": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 961
+    },
+    "95": {
+      "display": "90°",
+      "accept": [
+        "90"
+      ],
+      "tier": 2,
+      "rating": 965
+    },
+    "96": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 969
+    },
+    "97": {
+      "display": "1/12",
+      "accept": [
+        "1/12",
+        "30"
+      ],
+      "tier": 2,
+      "rating": 974
+    },
+    "98": {
+      "display": "40 cm",
+      "accept": [
+        "40"
+      ],
+      "tier": 2,
+      "rating": 978
+    },
+    "99": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 982
+    },
+    "100": {
+      "display": "Yes (half chord 3, radius 5 forms 3-4-5 triangle)",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 986
+    },
+    "101": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 990
+    },
+    "102": {
+      "display": "11 cm",
+      "accept": [
+        "11"
+      ],
+      "tier": 2,
+      "rating": 994
+    },
+    "103": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 998
+    },
+    "104": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "half"
+      ],
+      "tier": 2,
+      "rating": 1003
+    },
+    "105": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1007
+    },
+    "106": {
+      "display": "Sector (right angle at centre)",
+      "accept": [
+        "sector"
+      ],
+      "tier": 2,
+      "rating": 1011
+    },
+    "107": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1015
+    },
+    "108": {
+      "display": "13 cm",
+      "accept": [
+        "13"
+      ],
+      "tier": 2,
+      "rating": 1019
+    },
+    "109": {
+      "display": "2/5",
+      "accept": [
+        "2/5",
+        "144"
+      ],
+      "tier": 2,
+      "rating": 1023
+    },
+    "110": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1027
+    },
+    "111": {
+      "display": "90°",
+      "accept": [
+        "90"
+      ],
+      "tier": 2,
+      "rating": 1032
+    },
+    "112": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1036
+    },
+    "113": {
+      "display": "25 cm",
+      "accept": [
+        "25"
+      ],
+      "tier": 2,
+      "rating": 1040
+    },
+    "114": {
+      "display": "7.2 cm",
+      "accept": [
+        "7.2"
+      ],
+      "tier": 2,
+      "rating": 1044
+    },
+    "115": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1048
+    },
+    "116": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1052
+    },
+    "117": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1056
+    },
+    "118": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1061
+    },
+    "119": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1065
+    },
+    "120": {
+      "display": "Never (only one touch point)",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1069
+    },
+    "121": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1073
+    },
+    "122": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1077
+    },
+    "123": {
+      "display": "3/4",
+      "accept": [
+        "3/4",
+        "270"
+      ],
+      "tier": 2,
+      "rating": 1081
+    },
+    "124": {
+      "display": "Equal tangents from a point",
+      "accept": [
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1085
+    },
+    "125": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1089
+    },
+    "126": {
+      "display": "50 cm",
+      "accept": [
+        "50"
+      ],
+      "tier": 2,
+      "rating": 1094
+    },
+    "127": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1098
+    },
+    "128": {
+      "display": "13 cm",
+      "accept": [
+        "13"
+      ],
+      "tier": 2,
+      "rating": 1102
+    },
+    "129": {
+      "display": "72°",
+      "accept": [
+        "72"
+      ],
+      "tier": 2,
+      "rating": 1106
+    },
+    "130": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1110
+    },
+    "131": {
+      "display": "Tangents from P to a circle are equal in length.",
+      "accept": [
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1114
+    },
+    "132": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1118
+    },
+    "133": {
+      "display": "160 cm",
+      "accept": [
+        "160"
+      ],
+      "tier": 2,
+      "rating": 1123
+    },
+    "134": {
+      "display": "Chord",
+      "accept": [
+        "chord"
+      ],
+      "tier": 2,
+      "rating": 1127
+    },
+    "135": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1131
+    },
+    "136": {
+      "display": "1/20",
+      "accept": [
+        "1/20",
+        "18"
+      ],
+      "tier": 2,
+      "rating": 1135
+    },
+    "137": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1139
+    },
+    "138": {
+      "display": "28 cm",
+      "accept": [
+        "28"
+      ],
+      "tier": 2,
+      "rating": 1143
+    },
+    "139": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1147
+    },
+    "140": {
+      "display": "Kite-shaped quadrilateral OTP with right angles at T",
+      "accept": [
+        "kite",
+        "right"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1152
+    },
+    "141": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1156
+    },
+    "142": {
+      "display": "Sector",
+      "accept": [
+        "sector"
+      ],
+      "tier": 2,
+      "rating": 1160
+    },
+    "143": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1164
+    },
+    "144": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1168
+    },
+    "145": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1172
+    },
+    "146": {
+      "display": "9 cm",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1176
+    },
+    "147": {
+      "display": "17 cm",
+      "accept": [
+        "17"
+      ],
+      "tier": 2,
+      "rating": 1181
+    },
+    "148": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1185
+    },
+    "149": {
+      "display": "90°",
+      "accept": [
+        "90"
+      ],
+      "tier": 2,
+      "rating": 1189
+    },
+    "150": {
+      "display": "Your labelled circle diagram description.",
+      "accept": [
+        "circle",
+        "radius",
+        "diameter",
+        "label"
+      ],
+      "tier": 2,
+      "rating": 1193,
+      "contains": true,
+      "containsMin": 2
+    },
+    "151": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1197
+    },
+    "152": {
+      "display": "5/12 (150/360)",
+      "accept": [
+        "150",
+        "5/12"
+      ],
+      "tier": 3,
+      "rating": 1201
+    },
+    "153": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1205
+    },
+    "154": {
+      "display": "8 cm",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1210
+    },
+    "155": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1214
+    },
+    "156": {
+      "display": "60 cm",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1218
+    },
+    "157": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1222
+    },
+    "158": {
+      "display": "Minor sector is 160° (360−200)? — minor is 160° for 200° given? Actually 200° is major; minor 160°",
+      "accept": [
+        "160",
+        "minor"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1226
+    },
+    "159": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1230
+    },
+    "160": {
+      "display": "14 cm",
+      "accept": [
+        "14"
+      ],
+      "tier": 3,
+      "rating": 1234
+    },
+    "161": {
+      "display": "Radius meets tangent at 90° like a square corner.",
+      "accept": [
+        "90",
+        "perpendicular"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1239
+    },
+    "162": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1243
+    },
+    "163": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1247
+    },
+    "164": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1251
+    },
+    "165": {
+      "display": "9 cm",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1255
+    },
+    "166": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1259
+    },
+    "167": {
+      "display": "60° minor sector",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1263
+    },
+    "168": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1268
+    },
+    "169": {
+      "display": "4 cm",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1272
+    },
+    "170": {
+      "display": "Your circle diagram with labels.",
+      "accept": [
+        "circle",
+        "radius",
+        "chord",
+        "tangent"
+      ],
+      "tier": 3,
+      "rating": 1276,
+      "contains": true,
+      "containsMin": 2
+    },
+    "171": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1280
+    },
+    "172": {
+      "display": "60°",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1284
+    },
+    "173": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1288
+    },
+    "174": {
+      "display": "11 cm",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1292
+    },
+    "175": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1296
+    },
+    "176": {
+      "display": "20 cm",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1301
+    },
+    "177": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1305
+    },
+    "178": {
+      "display": "Sector includes centre; segment is between chord and arc.",
+      "accept": [
+        "sector",
+        "segment"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1309
+    },
+    "179": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1313
+    },
+    "180": {
+      "display": "11 cm",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1317
+    },
+    "181": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1321
+    },
+    "182": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1325
+    },
+    "183": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1330
+    },
+    "184": {
+      "display": "8 cm (distance from centre; half chord 5)",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1334
+    },
+    "185": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1338
+    },
+    "186": {
+      "display": "2.1 m",
+      "accept": [
+        "2.1"
+      ],
+      "tier": 3,
+      "rating": 1342
+    },
+    "187": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1346
+    },
+    "188": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1350
+    },
+    "189": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1354
+    },
+    "190": {
+      "display": "2 cm",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1359
+    },
+    "191": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1363
+    },
+    "192": {
+      "display": "120°",
+      "accept": [
+        "120"
+      ],
+      "tier": 3,
+      "rating": 1367
+    },
+    "193": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1371
+    },
+    "194": {
+      "display": "72°",
+      "accept": [
+        "72"
+      ],
+      "tier": 3,
+      "rating": 1375
+    },
+    "195": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1379
+    },
+    "196": {
+      "display": "Diameter = 2 × radius because two radii fit along a diameter.",
+      "accept": [
+        "2",
+        "radius"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1383
+    },
+    "197": {
+      "display": "Yes — 5 + 8 = 13 cm between centres",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1388
+    },
+    "198": {
+      "display": "Your tangent–radius right-angle story.",
+      "accept": [
+        "tangent",
+        "radius",
+        "90",
+        "right angle"
+      ],
+      "tier": 3,
+      "rating": 1392,
+      "contains": true,
+      "containsMin": 2
+    },
+    "199": {
+      "display": "60°",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1396
+    },
+    "200": {
+      "display": "Linked paragraph defining centre, radius, diameter, chord, tangent, arc, sector, segment, circumference.",
+      "accept": [
+        "centre",
+        "radius",
+        "diameter",
+        "chord",
+        "tangent",
+        "circumference"
+      ],
+      "tier": 3,
+      "rating": 1400,
+      "contains": true,
+      "containsMin": 2
+    }
+  }
+}

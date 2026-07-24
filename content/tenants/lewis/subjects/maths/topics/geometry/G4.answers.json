@@ -1,0 +1,1827 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "equilateral triangle",
+      "accept": [
+        "equilateral",
+        "equilateral triangle"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "square",
+      "accept": [
+        "square"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "rectangle",
+      "accept": [
+        "rectangle"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "isosceles triangle",
+      "accept": [
+        "isosceles",
+        "isosceles triangle"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "parallelogram",
+      "accept": [
+        "parallelogram"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "11": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "12": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "13": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "14": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "15": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "16": {
+      "display": "1 (at least one)",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "17": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "18": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "19": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "20": {
+      "display": "Right-angled isosceles triangle",
+      "accept": [
+        "right angled isosceles",
+        "right-angled isosceles"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1150
+    },
+    "21": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "22": {
+      "display": "180",
+      "accept": [
+        "180"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "A square has four equal sides (like every rhombus) plus four right angles, but a rhombus does not need right angles, so a rhombus is only a square in the special case where its angles are all 90°.",
+      "accept": [
+        "right angles",
+        "90"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 900
+    },
+    "24": {
+      "display": "110°, 70°, 110° (opposite angles equal, adjacent angles add to 180°).",
+      "accept": [
+        "110",
+        "70"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 993
+    },
+    "25": {
+      "display": "Sometimes — only when the rectangle is also a square do its diagonals cross at right angles.",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1086
+    },
+    "26": {
+      "display": "No — a kite has no pairs of parallel sides; instead it has two pairs of equal adjacent sides.",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1179
+    },
+    "27": {
+      "display": "65° and 65°",
+      "accept": [
+        "65"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1271
+    },
+    "28": {
+      "display": "No, not two pairs — only the two non-parallel sides (the legs) are equal; the two parallel sides usually have different lengths.",
+      "accept": [
+        "no",
+        "legs",
+        "non-parallel"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1364
+    },
+    "29": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1457
+    },
+    "30": {
+      "display": "Parallelogram",
+      "accept": [
+        "parallelogram"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "31": {
+      "display": "68°, 112°, 68° (opposite angles equal at 112°, the other pair equal at 68° since co-interior angles add to 180°).",
+      "accept": [
+        "68",
+        "112"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1100
+    },
+    "32": {
+      "display": "70° each",
+      "accept": [
+        "70"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1230
+    },
+    "33": {
+      "display": "No — a square's diagonals must be equal in length, but here the half-diagonals are different (6 cm and 8 cm), so the full diagonals (12 cm and 16 cm) are unequal; this is a rhombus that is not a square.",
+      "accept": [
+        "no",
+        "not a square"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1360
+    },
+    "34": {
+      "display": "That description is a parallelogram, not a trapezium. A trapezium only needs exactly one pair of parallel sides (or at least one, depending on definition), not two.",
+      "accept": [
+        "parallelogram",
+        "one pair"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1490
+    },
+    "35": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°"
+      ],
+      "tier": 3,
+      "rating": 1620
+    },
+    "36": {
+      "display": "It is a rhombus — its opposite angles are equal to each other, but they are not usually 90°.",
+      "accept": [
+        "rhombus"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1750
+    },
+    "37": {
+      "display": "Every square is a rectangle (has 4 right angles) and also a parallelogram (has opposite sides parallel); every rectangle is a parallelogram, but not every parallelogram is a rectangle, and not every rectangle is a square.",
+      "accept": [
+        "square",
+        "rectangle",
+        "parallelogram"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1400
+    },
+    "38": {
+      "display": "A rhombus has a line of symmetry along each diagonal; reflecting across one diagonal swaps the two halves exactly, which is only possible if that diagonal meets the other one at a right angle.",
+      "accept": [
+        "symmetry",
+        "mirror",
+        "right angle",
+        "90"
+      ],
+      "tier": 3,
+      "contains": true,
+      "containsMin": 2,
+      "rating": 1600
+    },
+    "39": {
+      "display": "An isosceles trapezium is symmetric about a line through the midpoints of its parallel sides; this symmetry makes both diagonals mirror images of each other (so equal in length), but the parallel sides themselves are not mirror images of each other, so they can differ in length.",
+      "accept": [
+        "symmetry",
+        "mirror",
+        "equal"
+      ],
+      "tier": 3,
+      "contains": true,
+      "containsMin": 2,
+      "rating": 1800
+    },
+    "40": {
+      "display": "Sometimes — a rhombus has four equal sides, but a general parallelogram only has opposite sides equal.",
+      "accept": [
+        "sometimes",
+        "rhombus",
+        "opposite sides"
+      ],
+      "tier": 3,
+      "contains": true,
+      "containsMin": 2,
+      "rating": 2000
+    },
+    "41": {
+      "display": "70",
+      "accept": [
+        "70"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "Rectangle has four right angles; parallelogram only needs opposite sides parallel",
+      "accept": [
+        "right angles",
+        "parallel"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1550
+    },
+    "43": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 754
+    },
+    "45": {
+      "display": "85°",
+      "accept": [
+        "85",
+        "85°"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "46": {
+      "display": "95°",
+      "accept": [
+        "95",
+        "95°"
+      ],
+      "tier": 1,
+      "rating": 762
+    },
+    "47": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 767
+    },
+    "48": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 771
+    },
+    "49": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "50": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 1,
+      "rating": 779
+    },
+    "51": {
+      "display": "Trapezium",
+      "accept": [
+        "trapezium"
+      ],
+      "tier": 1,
+      "rating": 783
+    },
+    "52": {
+      "display": "Kite",
+      "accept": [
+        "kite"
+      ],
+      "tier": 1,
+      "rating": 787
+    },
+    "53": {
+      "display": "60° each",
+      "accept": [
+        "60",
+        "60°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 791
+    },
+    "54": {
+      "display": "30° and 60°",
+      "accept": [
+        "30",
+        "60"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 796
+    },
+    "55": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 800
+    },
+    "56": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 804
+    },
+    "57": {
+      "display": "25° each",
+      "accept": [
+        "25",
+        "25°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 808
+    },
+    "58": {
+      "display": "112° each",
+      "accept": [
+        "112",
+        "112°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 812
+    },
+    "59": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 816
+    },
+    "60": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "61": {
+      "display": "Opposite angles are equal because co-interior angles with a side create matching pairs in a parallelogram.",
+      "accept": [
+        "parallel",
+        "equal",
+        "opposite"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 825
+    },
+    "62": {
+      "display": "120°, 60°, and 60°",
+      "accept": [
+        "120",
+        "60"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 829
+    },
+    "63": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 1,
+      "rating": 833
+    },
+    "64": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 837
+    },
+    "65": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 841
+    },
+    "66": {
+      "display": "Isosceles triangle",
+      "accept": [
+        "isosceles"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 845
+    },
+    "67": {
+      "display": "Equilateral triangle",
+      "accept": [
+        "equilateral"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 849
+    },
+    "68": {
+      "display": "Rhombus",
+      "accept": [
+        "rhombus"
+      ],
+      "tier": 2,
+      "rating": 854
+    },
+    "69": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 858
+    },
+    "70": {
+      "display": "p = 10; angles 40° and 140°",
+      "accept": [
+        "10",
+        "40",
+        "140"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 862
+    },
+    "71": {
+      "display": "q = 30; angles 120°, 30°, and 30°",
+      "accept": [
+        "30",
+        "120"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 866
+    },
+    "72": {
+      "display": "Yes — a square has two pairs of equal adjacent sides like a kite.",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 870
+    },
+    "73": {
+      "display": "1",
+      "accept": [
+        "1",
+        "one"
+      ],
+      "tier": 2,
+      "rating": 874
+    },
+    "74": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 878
+    },
+    "75": {
+      "display": "66 cm²",
+      "accept": [
+        "66"
+      ],
+      "tier": 3,
+      "rating": 882
+    },
+    "76": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 887
+    },
+    "77": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 891
+    },
+    "78": {
+      "display": "A square has four equal sides, which is the defining property of a rhombus.",
+      "accept": [
+        "equal sides",
+        "rhombus"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 895
+    },
+    "79": {
+      "display": "Isosceles",
+      "accept": [
+        "isosceles"
+      ],
+      "tier": 1,
+      "rating": 899
+    },
+    "80": {
+      "display": "Right-angled (or scalene right)",
+      "accept": [
+        "right"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 903
+    },
+    "81": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 907
+    },
+    "82": {
+      "display": "r = 34; angles 83°, 97°, 83°, and 97°",
+      "accept": [
+        "34",
+        "83",
+        "97"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 911
+    },
+    "83": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 916
+    },
+    "84": {
+      "display": "Parallelogram",
+      "accept": [
+        "parallelogram"
+      ],
+      "tier": 2,
+      "rating": 920
+    },
+    "85": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 924
+    },
+    "86": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 928
+    },
+    "87": {
+      "display": "90°, 45°, and 45°",
+      "accept": [
+        "90",
+        "45"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 932
+    },
+    "88": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 936
+    },
+    "89": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8 cm"
+      ],
+      "tier": 2,
+      "rating": 940
+    },
+    "90": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 945
+    },
+    "91": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 949
+    },
+    "92": {
+      "display": "50° each",
+      "accept": [
+        "50",
+        "50°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 953
+    },
+    "93": {
+      "display": "Both diagonals form two congruent right triangles with the same hypotenuse (diagonal) and equal legs (half sides).",
+      "accept": [
+        "congruent",
+        "equal"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 957
+    },
+    "94": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 961
+    },
+    "95": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 965
+    },
+    "96": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8 cm"
+      ],
+      "tier": 1,
+      "rating": 969
+    },
+    "97": {
+      "display": "Sometimes (equilateral has three)",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 974
+    },
+    "98": {
+      "display": "Kite",
+      "accept": [
+        "kite"
+      ],
+      "tier": 3,
+      "rating": 978
+    },
+    "99": {
+      "display": "60°, 120°, 60°, and 120°",
+      "accept": [
+        "60",
+        "120"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 982
+    },
+    "100": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 986
+    },
+    "101": {
+      "display": "68°, 112°, and 68°",
+      "accept": [
+        "68",
+        "112"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 990
+    },
+    "102": {
+      "display": "70°",
+      "accept": [
+        "70",
+        "70°"
+      ],
+      "tier": 1,
+      "rating": 994
+    },
+    "103": {
+      "display": "It has reflection symmetry swapping the equal legs and matching base angles.",
+      "accept": [
+        "symmetry",
+        "reflection"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 998
+    },
+    "104": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1003
+    },
+    "105": {
+      "display": "28 cm²",
+      "accept": [
+        "28"
+      ],
+      "tier": 2,
+      "rating": 1007
+    },
+    "106": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1011
+    },
+    "107": {
+      "display": "Scalene",
+      "accept": [
+        "scalene"
+      ],
+      "tier": 1,
+      "rating": 1015
+    },
+    "108": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1019
+    },
+    "109": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1023
+    },
+    "110": {
+      "display": "Opposite sides parallel (or opposite angles equal) — not required for a trapezium.",
+      "accept": [
+        "parallel",
+        "opposite"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1027
+    },
+    "111": {
+      "display": "50° each",
+      "accept": [
+        "50",
+        "50°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1032
+    },
+    "112": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1036
+    },
+    "113": {
+      "display": "36 cm",
+      "accept": [
+        "36",
+        "36 cm"
+      ],
+      "tier": 1,
+      "rating": 1040
+    },
+    "114": {
+      "display": "Sometimes (needs four right angles)",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1044
+    },
+    "115": {
+      "display": "s = 15; angles 75° and 105°",
+      "accept": [
+        "15",
+        "75",
+        "105"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1048
+    },
+    "116": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1052
+    },
+    "117": {
+      "display": "45° each",
+      "accept": [
+        "45",
+        "45°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1056
+    },
+    "118": {
+      "display": "Only when it is a rhombus (all sides equal) — a general kite is not a parallelogram.",
+      "accept": [
+        "rhombus",
+        "not"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1061
+    },
+    "119": {
+      "display": "0",
+      "accept": [
+        "0",
+        "none"
+      ],
+      "tier": 1,
+      "rating": 1065
+    },
+    "120": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1069
+    },
+    "121": {
+      "display": "46 cm",
+      "accept": [
+        "46",
+        "46 cm"
+      ],
+      "tier": 1,
+      "rating": 1073
+    },
+    "122": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1077
+    },
+    "123": {
+      "display": "60°",
+      "accept": [
+        "60",
+        "60°"
+      ],
+      "tier": 1,
+      "rating": 1081
+    },
+    "124": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1085
+    },
+    "125": {
+      "display": "t = 30; angles 110° and 70°",
+      "accept": [
+        "30",
+        "110",
+        "70"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1089
+    },
+    "126": {
+      "display": "All four sides are equal, which is the definition of a rhombus.",
+      "accept": [
+        "equal sides",
+        "rhombus"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1094
+    },
+    "127": {
+      "display": "50 cm²",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1098
+    },
+    "128": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1102
+    },
+    "129": {
+      "display": "Square (or rectangle)",
+      "accept": [
+        "square",
+        "rectangle"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1106
+    },
+    "130": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1110
+    },
+    "131": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1114
+    },
+    "132": {
+      "display": "True (rhombus that is not a square)",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1118
+    },
+    "133": {
+      "display": "Scalene",
+      "accept": [
+        "scalene"
+      ],
+      "tier": 1,
+      "rating": 1123
+    },
+    "134": {
+      "display": "Opposite angles are equal",
+      "accept": [
+        "equal",
+        "opposite"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1127
+    },
+    "135": {
+      "display": "u = 23; base angles 51°, top 138°",
+      "accept": [
+        "23",
+        "51",
+        "138"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1131
+    },
+    "136": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1135
+    },
+    "137": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1139
+    },
+    "138": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1143
+    },
+    "139": {
+      "display": "A rectangle has four right angles but a square also needs equal sides.",
+      "accept": [
+        "equal sides",
+        "right angles"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1147
+    },
+    "140": {
+      "display": "65°, 115°, and 65°",
+      "accept": [
+        "65",
+        "115"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1152
+    },
+    "141": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1156
+    },
+    "142": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°"
+      ],
+      "tier": 1,
+      "rating": 1160
+    },
+    "143": {
+      "display": "36 cm",
+      "accept": [
+        "36",
+        "36 cm"
+      ],
+      "tier": 1,
+      "rating": 1164
+    },
+    "144": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1168
+    },
+    "145": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1172
+    },
+    "146": {
+      "display": "Parallelogram",
+      "accept": [
+        "parallelogram"
+      ],
+      "tier": 2,
+      "rating": 1176
+    },
+    "147": {
+      "display": "Rectangle has 2 lines of symmetry; rhombus has 2 (diagonals) but not usually 4 unless square.",
+      "accept": [
+        "2",
+        "diagonal"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1181
+    },
+    "148": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1185
+    },
+    "149": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8 cm"
+      ],
+      "tier": 2,
+      "rating": 1189
+    },
+    "150": {
+      "display": "60 cm²",
+      "accept": [
+        "60"
+      ],
+      "tier": 2,
+      "rating": 1193
+    },
+    "151": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1197
+    },
+    "152": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1201
+    },
+    "153": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1205
+    },
+    "154": {
+      "display": "Equilateral",
+      "accept": [
+        "equilateral"
+      ],
+      "tier": 1,
+      "rating": 1210
+    },
+    "155": {
+      "display": "Diagonals bisect each other because opposite triangles formed are congruent in a parallelogram.",
+      "accept": [
+        "bisect",
+        "congruent"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1214
+    },
+    "156": {
+      "display": "100°, 80°, and 80°",
+      "accept": [
+        "100",
+        "80"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1218
+    },
+    "157": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1222
+    },
+    "158": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1226
+    },
+    "159": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1230
+    },
+    "160": {
+      "display": "Your always/sometimes/never about diagonals, correctly answered.",
+      "accept": [
+        "always",
+        "sometimes",
+        "never",
+        "diagonal"
+      ],
+      "tier": 3,
+      "rating": 1234,
+      "contains": true,
+      "containsMin": 2
+    },
+    "161": {
+      "display": "Trapezium → parallelogram → rectangle/rhombus → square (special cases with extra properties).",
+      "accept": [
+        "square",
+        "parallelogram"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1239
+    },
+    "162": {
+      "display": "Your isosceles triangle problem with correct solution.",
+      "accept": [
+        "isosceles",
+        "triangle"
+      ],
+      "tier": 3,
+      "rating": 1243,
+      "contains": true
+    },
+    "163": {
+      "display": "Your trapezium area problem with correct solution.",
+      "accept": [
+        "trapezium",
+        "area"
+      ],
+      "tier": 3,
+      "rating": 1247,
+      "contains": true
+    },
+    "164": {
+      "display": "Yes — when the kite is also a rhombus (all sides equal).",
+      "accept": [
+        "rhombus",
+        "yes"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1251
+    },
+    "165": {
+      "display": "Use parallel lines to show co-interior angles sum to 180°, proving opposite angles match.",
+      "accept": [
+        "parallel",
+        "co-interior",
+        "180",
+        "opposite"
+      ],
+      "tier": 3,
+      "rating": 1255,
+      "contains": true,
+      "containsMin": 2
+    },
+    "166": {
+      "display": "Parallelogram, rectangle, rhombus, and square",
+      "accept": [
+        "parallelogram",
+        "rectangle",
+        "rhombus",
+        "square"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1259
+    },
+    "167": {
+      "display": "Every equilateral triangle is isosceles, but not every isosceles triangle is equilateral.",
+      "accept": [
+        "equilateral",
+        "isosceles"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1263
+    },
+    "168": {
+      "display": "Example: lamp shade — one pair of parallel sides (trapezium).",
+      "accept": [
+        "trapezium",
+        "parallel"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1268
+    },
+    "169": {
+      "display": "Example: A has 1 vertical line; H has 2 (or more with font).",
+      "accept": [
+        "vertical",
+        "line",
+        "symmetry"
+      ],
+      "tier": 3,
+      "rating": 1272,
+      "contains": true,
+      "containsMin": 2
+    },
+    "170": {
+      "display": "Your rhombus diagonal angle problem with solution.",
+      "accept": [
+        "rhombus",
+        "diagonal",
+        "angle"
+      ],
+      "tier": 3,
+      "rating": 1276,
+      "contains": true,
+      "containsMin": 2
+    },
+    "171": {
+      "display": "v = 10; angles 40° and 140°",
+      "accept": [
+        "10",
+        "40",
+        "140"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1280
+    },
+    "172": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1284
+    },
+    "173": {
+      "display": "45° each",
+      "accept": [
+        "45",
+        "45°"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1288
+    },
+    "174": {
+      "display": "No — only for rhombus/square in general",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1292
+    },
+    "175": {
+      "display": "w = 36; angles 108°, 108°, 72°, and 72°",
+      "accept": [
+        "36",
+        "108",
+        "72"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1296
+    },
+    "176": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1301
+    },
+    "177": {
+      "display": "36 cm",
+      "accept": [
+        "36",
+        "36 cm"
+      ],
+      "tier": 1,
+      "rating": 1305
+    },
+    "178": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1309
+    },
+    "179": {
+      "display": "Rhombus, square, kite (always); rectangle/square for equal diagonals too.",
+      "accept": [
+        "rhombus",
+        "kite",
+        "square"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1313
+    },
+    "180": {
+      "display": "Kite diagonals always cross at 90°; rhombus diagonals also bisect but kite diagonals need not bisect each other.",
+      "accept": [
+        "kite",
+        "rhombus",
+        "90",
+        "perpendicular"
+      ],
+      "tier": 3,
+      "rating": 1317,
+      "contains": true,
+      "containsMin": 2
+    },
+    "181": {
+      "display": "110°",
+      "accept": [
+        "110",
+        "110°"
+      ],
+      "tier": 1,
+      "rating": 1321
+    },
+    "182": {
+      "display": "72 cm²",
+      "accept": [
+        "72"
+      ],
+      "tier": 2,
+      "rating": 1325
+    },
+    "183": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1330
+    },
+    "184": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1334
+    },
+    "185": {
+      "display": "A trapezium has only one pair of parallel sides; a parallelogram has two.",
+      "accept": [
+        "one pair",
+        "two"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1338
+    },
+    "186": {
+      "display": "30° each",
+      "accept": [
+        "30",
+        "30°"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1342
+    },
+    "187": {
+      "display": "58 cm",
+      "accept": [
+        "58",
+        "58 cm"
+      ],
+      "tier": 1,
+      "rating": 1346
+    },
+    "188": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1350
+    },
+    "189": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1354
+    },
+    "190": {
+      "display": "0",
+      "accept": [
+        "0",
+        "none"
+      ],
+      "tier": 1,
+      "rating": 1359
+    },
+    "191": {
+      "display": "Your parallelogram algebra problem with solution.",
+      "accept": [
+        "parallelogram",
+        "algebra"
+      ],
+      "tier": 3,
+      "rating": 1363,
+      "contains": true
+    },
+    "192": {
+      "display": "Reflection symmetry across midlines of rectangles on a brick pattern.",
+      "accept": [
+        "reflection",
+        "symmetry",
+        "rectangle"
+      ],
+      "tier": 3,
+      "rating": 1367,
+      "contains": true,
+      "containsMin": 2
+    },
+    "193": {
+      "display": "A rhombus need not have right angles or equal diagonals — only equal sides.",
+      "accept": [
+        "right angles",
+        "equal sides"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1371
+    },
+    "194": {
+      "display": "Your isosceles trapezium angle problem with solution.",
+      "accept": [
+        "isosceles",
+        "trapezium"
+      ],
+      "tier": 3,
+      "rating": 1375,
+      "contains": true
+    },
+    "195": {
+      "display": "Riddle leading to square with correct reasoning.",
+      "accept": [
+        "square",
+        "riddle"
+      ],
+      "tier": 3,
+      "rating": 1379,
+      "contains": true
+    },
+    "196": {
+      "display": "Riddle leading to kite with correct reasoning.",
+      "accept": [
+        "kite",
+        "riddle"
+      ],
+      "tier": 3,
+      "rating": 1383,
+      "contains": true
+    },
+    "197": {
+      "display": "Equilateral order 3; square order 4 — square has quarter-turn symmetry too.",
+      "accept": [
+        "3",
+        "4"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1388
+    },
+    "198": {
+      "display": "Two right triangles share a diagonal; corresponding legs equal ⇒ diagonals equal.",
+      "accept": [
+        "right triangle",
+        "diagonal",
+        "equal"
+      ],
+      "tier": 3,
+      "rating": 1392,
+      "contains": true,
+      "containsMin": 2
+    },
+    "199": {
+      "display": "Your hardest quadrilateral question with full solution.",
+      "accept": [
+        "quadrilateral",
+        "solution"
+      ],
+      "tier": 3,
+      "rating": 1396,
+      "contains": true
+    },
+    "200": {
+      "display": "Your hardest triangle question with full solution.",
+      "accept": [
+        "triangle",
+        "solution"
+      ],
+      "tier": 3,
+      "rating": 1400,
+      "contains": true
+    }
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "What number plus 2 makes 5? You can count up from 2 or think what to add to 2.",
+      "help": "The box stands for a number you do not know yet. The sentence says that number **plus 2** equals **5**.\n\nTry thinking: start at 2 and count up until you reach 5. How many steps did you take?\n\nYou can also ask: what do I add to 2 to get 5? That missing addend is what goes in the box."
+    },
+    "2": {
+      "hint": "This time 4 is fixed and the box is the second addend. What plus 4 equals 6?",
+      "help": "When the blank is after the plus sign, you need the number that **completes** the sum to 6.\n\nImagine 4 counters. How many more do you need so the total is 6?\n\nAnother way: if □ + 4 = 6, the box is the same as 6 − 4."
+    },
+    "3": {
+      "hint": "Something take away 1 leaves 3. What number was there before you subtracted 1?",
+      "help": "Subtraction finds the **difference**. Here, a number minus 1 equals 3, so the number was one more than 3.\n\nThink backwards: if taking away 1 gives 3, add 1 back to 3 to recover the start.\n\nFor practice with different numbers: if □ − 2 = 8, you would add 2 to 8."
+    },
+    "4": {
+      "hint": "Start with 7 and take away the mystery number to get 5. How big is the piece you removed?",
+      "help": "When the blank is **after** the minus sign, you are finding how much was subtracted.\n\nYou know the start (7) and the result (5). The missing number is the gap between them.\n\nUse subtraction: start minus result tells you what was taken away."
+    },
+    "5": {
+      "hint": "The machine adds 1 to whatever goes in. What is 4 + 1?",
+      "help": "A function machine is a rule applied to an **input** to make an **output**.\n\nThis one always adds 1. So input 4 becomes 4 + 1.\n\nTry another input in your head: if 10 went in, the output would be 11."
+    },
+    "6": {
+      "hint": "Doubling means multiply by 2. What is 2 × 3?",
+      "help": "**Double** means two equal groups. For input 3, you have 3 + 3, which is the same as 2 × 3.\n\nFunction machines can multiply, add, or do several steps in order.\n\nIf the input were 7, doubling would give 14."
+    },
+    "7": {
+      "hint": "2 times what number equals 8? Think of the 2 times table or split 8 into equal pairs.",
+      "help": "This is a missing factor question: 2 × □ = 8.\n\nAsk: how many groups of 2 fit into 8? Or: what do you multiply by 2 to get 8?\n\nYou can check your answer by multiplying 2 by your number — you should get 8."
+    },
+    "8": {
+      "hint": "Replace n with the idea of a number. What number plus 3 makes 7?",
+      "help": "Letters like $n$ stand for numbers. The equation $n + 3 = 7$ means the same as □ + 3 = 7.\n\nTo find $n$, undo the + 3 by subtracting 3 from 7.\n\nAlways check: substitute your value back into $n + 3$ and see if you get 7."
+    },
+    "9": {
+      "hint": "What number plus 7 gives 15? Try subtracting 7 from 15.",
+      "help": "For □ + 7 = 15, the blank is the addend you need so the sum is 15.\n\nSubtract 7 from 15 to find it — addition and subtraction are inverse operations.\n\nExample with different numbers: □ + 4 = 11 gives □ = 7."
+    },
+    "10": {
+      "hint": "After taking 5 away you get 9. Add 5 back to find the starting number.",
+      "help": "The equation □ − 5 = 9 tells you the result after subtracting 5.\n\nTo reverse it, add 5 to 9.\n\nCheck: your starting number minus 5 should equal 9."
+    },
+    "11": {
+      "hint": "Treat $n - 4 = 9$ like a blank: what minus 4 equals 9?",
+      "help": "When $n$ has 4 subtracted and the answer is 9, $n$ must be 4 more than 9.\n\nAdd 4 to both sides of the idea: $n = 9 + 4$.\n\nSubstitute your $n$ back into $n - 4$ to confirm you get 9."
+    },
+    "12": {
+      "hint": "If $n + 6 = 20$, what do you subtract from 20 to find $n$?",
+      "help": "The + 6 tells you 6 was added to $n$. Undo that by subtracting 6 from 20.\n\nWrite it as: $n = 20 - 6$.\n\nThis same method works for any equation like $n + k = \\text{total}$."
+    },
+    "13": {
+      "hint": "Do the steps in order: first multiply the input by 3, then add 2 to that result.",
+      "help": "Multi-step machines run **left to right**. Input 5 → ×3 gives 15 → +2 gives 17.\n\nDo not add before you multiply unless the diagram says so.\n\nTry input 2: ×3 is 6, +2 is 8."
+    },
+    "14": {
+      "hint": "Start with 3, add 4 first, then multiply that answer by 2.",
+      "help": "Order matters. Input 3 → +4 gives 7 → ×2 gives 14.\n\nIf you multiplied before adding, you would get a different output.\n\nAlways follow the arrows on the machine diagram."
+    },
+    "15": {
+      "hint": "The machine multiplies first and adds 6 last, so undo the +6 before undoing the ×2.",
+      "help": "Work backwards through the operations in reverse order. First subtract 6 from the output, then divide that result by 2 to recover the input.\n\nFor a different machine, if an input is doubled and then 4 is added to make 18, undoing gives $18-4=14$ and then $14\\div2=7$.\n\nRun your result forwards through ×2 then +6 to make sure it returns to 14."
+    },
+    "16": {
+      "hint": "Reverse the steps: divide by 2 first, then subtract 5.",
+      "help": "Output 20 is after +5 then ×2. Undo ×2: 20 ÷ 2 = 10. Undo +5: 10 − 5 = 5.\n\nWorking backwards uses **inverse operations** in reverse order.\n\nForward check: 5 → +5 → 10 → ×2 → 20."
+    },
+    "17": {
+      "hint": "3 times what equals 21? Use the 3 times table or divide 21 by 3.",
+      "help": "Missing factor: 3 × □ = 21 means □ = 21 ÷ 3.\n\nYou can list multiples of 3 until you hit 21.\n\nMultiply your answer by 3 to check."
+    },
+    "18": {
+      "hint": "Something divided by 4 gives 6. Multiply 6 by 4 to find what was divided.",
+      "help": "Division and multiplication undo each other. If □ ÷ 4 = 6, then □ = 6 × 4.\n\nThink: 6 groups of 4 make the original number.\n\nCheck by dividing your answer by 4."
+    },
+    "19": {
+      "hint": "Do the multiply part first: 2 times the box, then add 1. What box makes the total 11?",
+      "help": "Two-step missing number: first ask what 2 × □ equals before the +1.\n\nIf the whole equals 11, then 2 × □ = 10, so □ = 5.\n\nCheck: 2 × 5 + 1 = 11."
+    },
+    "20": {
+      "hint": "Each output is the input multiplied by 5. Fill in 1×5, 2×5, 3×5, and 4×5.",
+      "help": "The rule is **× 5** for every row. Multiply each input by 5 to get the output.\n\nFor input 1 you get 5; for 2 you get 10; continue the pattern.\n\nTables like this show how a function machine behaves for many inputs."
+    },
+    "21": {
+      "hint": "Try putting the same number in both boxes, then try two different numbers. Does the sum change order?",
+      "help": "Addition is **commutative**: changing the order of the addends does not change the sum.\n\nExample: 3 + 8 = 8 + 3 = 11.\n\nSo Maya is correct — for any number in the box, □ + 8 equals 8 + □."
+    },
+    "22": {
+      "hint": "Pick any starting number. Add 5, then subtract 5. Do you get back where you started?",
+      "help": "Adding 5 and then subtracting 5 are inverse steps. They undo each other.\n\nTry start 10: +5 → 15, −5 → 10 again.\n\nThis is **always** true for any input."
+    },
+    "23": {
+      "hint": "Multiply any number by 0. What do you always get?",
+      "help": "Zero times any number is 0. So □ × 0 = 0 is true whether □ is 0, 5, or 100.\n\nSam is correct: **any** number in the box works.\n\nRemember: 0 × anything = 0."
+    },
+    "24": {
+      "hint": "Run machine A on 4 step by step, then run machine B on 4. Compare the final outputs.",
+      "help": "Machine A: 4 → ×2 → 8 → +3 → 11.\n\nMachine B: 4 → +3 → 7 → ×2 → 14.\n\nDifferent order gives different results here, so they are **not** the same."
+    },
+    "25": {
+      "hint": "Priya used subtraction to undo adding 5. Why does subtracting 5 find the missing addend?",
+      "help": "If □ + 5 = 12, adding 5 was the last step forward. The **inverse operation** is subtract 5.\n\nSo □ = 12 − 5 = 7.\n\nInverse means it undoes the other operation — add and subtract are inverses."
+    },
+    "26": {
+      "hint": "Try a number: double it, then halve the result. Do you get the start back?",
+      "help": "Doubling (×2) and halving (÷2) are inverse operations.\n\nExample: start 6 → double 12 → half 6 again.\n\nThis works for **every** starting number, so the answer is always."
+    },
+    "27": {
+      "hint": "÷ 2 means split in half, not multiply by 2. What is half of 10?",
+      "help": "Leo treated ÷ 2 like × 2. Dividing 10 by 2 gives **5**, not 20.\n\n÷ 2 means make two equal shares; each share is half the amount.\n\nCorrect output for input 10 is 5."
+    },
+    "28": {
+      "hint": "You need two steps that turn 3 into 13. Try multiply then add, or add then multiply — use different numbers from ×4 and +1.",
+      "help": "One path: 3 → ×4 → 12 → +1 → 13.\n\nAnother path could be 3 → +10 → 13 (one step) but you need **two** steps.\n\nTry 3 → ×3 → 9 → +4 → 13 — any pair that works counts if it is different from ×4 then +1."
+    },
+    "29": {
+      "hint": "The balance shows £17 after a £2 bonus was added. Subtract the bonus to find the top-up amount.",
+      "help": "After the bonus, Leo has £17. The bonus was added, so top-up = 17 − 2.\n\nUse inverse operations: undo the +£2 by subtracting £2.\n\nThe top-up before the bonus is £15."
+    },
+    "30": {
+      "hint": "Take away the £3 flat fee first, then see how many £2 hours fit in what is left.",
+      "help": "Total £13 includes £3 flat plus £2 per hour.\n\nSubtract flat fee: 13 − 3 = 10. Then 10 ÷ 2 = 5 hours.\n\nCheck: 3 + 5×2 = 13."
+    },
+    "31": {
+      "hint": "Sloan’s 22 stickers include 4 free ones. Subtract 4 to find the order size before the bonus.",
+      "help": "The bonus added 4 stickers after the order. So order size = 22 − 4.\n\nInverse of +4 is −4.\n\nBefore the bonus she ordered 18 stickers."
+    },
+    "32": {
+      "hint": "Trainers add 15 cm to Archer’s bare height to reach 132. Subtract 15 from 132.",
+      "help": "□ + 15 = 132 means bare height plus 15 cm trainers equals 132 cm.\n\n□ = 132 − 15.\n\nThat gives his height without trainers in centimetres."
+    },
+    "33": {
+      "hint": "Work backwards: subtract 6 from 20, then halve what you get.",
+      "help": "Forward: think of number → double → +6 → 20.\n\nBackwards: 20 − 6 = 14, then half of 14 is 7.\n\nCheck: 7 → double 14 → +6 → 20."
+    },
+    "34": {
+      "hint": "Remove the £2 booking fee from £26, then divide by £6 per ticket.",
+      "help": "Total = 6 × (number of tickets) + 2.\n\n26 − 2 = 24 for tickets only. 24 ÷ 6 = 4 tickets.\n\nCheck: 4×6 + 2 = 26."
+    },
+    "35": {
+      "hint": "Same idea as question 9: what number plus 7 equals 15?",
+      "help": "___ + 7 = 15 is another way to write a missing addend problem.\n\nSubtract 7 from 15 to find the blank.\n\nThe answer is 8."
+    },
+    "36": {
+      "hint": "5 times what number is 35? Divide 35 by 5 or use the 5 times table.",
+      "help": "5 × ___ = 35 means ___ = 35 ÷ 5.\n\nSeven fives make 35.\n\nCheck with multiplication."
+    },
+    "37": {
+      "hint": "Multiply the input 6 by 3 only — there is no extra step on this machine.",
+      "help": "Single-step ×3: output = 6 × 3.\n\nFor input 6 the output is 18.\n\nAny input $x$ would give output 3$x$."
+    },
+    "38": {
+      "hint": "What number minus 9 leaves 12? Add 9 to 12.",
+      "help": "___ − 9 = 12 so the start is 12 + 9.\n\nSubtraction undone by addition.\n\nThe missing number is 21."
+    },
+    "39": {
+      "hint": "Input 5: add 4, then multiply that result by 2.",
+      "help": "Order: 5 → +4 → 9 → ×2 → 18.\n\nDo addition before multiplication as shown on the machine.\n\nForward check your final output."
+    },
+    "40": {
+      "hint": "First divide both sides by 3, or think: 3 times (something) is 21 — what is inside the bracket?",
+      "help": "3(___ + 2) = 21 means the bracket times 3 equals 21.\n\nFirst ___ + 2 = 21 ÷ 3 = 7, so ___ = 5.\n\nCheck: 3(5 + 2) = 3×7 = 21."
+    },
+    "41": {
+      "hint": "Pick two operations that turn 4 into 20, then run the same steps on input 7.",
+      "help": "Example machine: ×4 then +4 gives 4 → 16 → 20.\n\nTest on 7: 7 → ×4 → 28 → +4 → 32.\n\nYour design is valid if 4 maps to 20 and you show the test on 7."
+    },
+    "42": {
+      "hint": "Plan three steps from 2 to 19, then apply the same three steps starting at 5.",
+      "help": "Build the rule one step at a time and keep a running value after each operation. You need exactly three steps, so include three genuine operations rather than padding the machine with an operation that changes nothing.\n\nFor a different target, the machine ×2, +3, ×2 turns 1 into 10: $1\\to2\\to5\\to10$. The same operations must then be used on every other input.\n\nAfter choosing your rule, trace both 2 and 5 through all three arrows."
+    },
+    "43": {
+      "hint": "Find two different whole numbers that add to 10. Avoid counting the same pair twice (e.g. 3+7 and 7+3).",
+      "help": "List pairs: 0+10, 1+9, 2+8, 3+7, 4+6, 5+5 — if order does not matter, there are six distinct pairs.\n\nIf both boxes must be **different**, leave out 5+5.\n\nExplain how you know you found them all without repeating."
+    },
+    "44": {
+      "hint": "Try the rule on x = 5: double it, then add the original input again. Compare with 3 × 5.",
+      "help": "Double then add the input again: for $x = 5$, double gives 10, add 5 again gives 15.\n\n3 × 5 is also 15.\n\nIn algebra, double ($2x$) plus $x$ is $3x$, so the machine always matches ×3."
+    },
+    "45": {
+      "hint": "What number plus 18 equals 35? Use subtraction to isolate $n$.",
+      "help": "When you see $n + 18 = 35$, the unknown is how much you add to 18 to reach 35.\n\nSubtract 18 from both sides: $n = 35 - 18$.\n\nCheck with a different example: if $n + 5 = 12$, then $n = 7$."
+    },
+    "46": {
+      "hint": "What number times 8 equals 72? Think 8 times table or divide 72 by 8.",
+      "help": "Missing factor: □ × 8 = 72 means □ = 72 ÷ 8.\n\n**Different example:** 5 × □ = 35 gives □ = 7.\n\nMultiply your answer by 8 to check you get 72."
+    },
+    "47": {
+      "hint": "The machine only subtracts 7. What is 31 − 7?",
+      "help": "One-step machine: output = input − 7.\n\n**Different example:** subtract 7 from 20 → 13.\n\nFor input 31: 31 − 7 = 24."
+    },
+    "48": {
+      "hint": "Something divided by 6 gives 8. Multiply 8 by 6 to find what was divided.",
+      "help": "Division undone by multiplication: if □ ÷ 6 = 8, then □ = 8 × 6.\n\n**Different example:** □ ÷ 4 = 5 → □ = 20.\n\nCheck by dividing your answer by 6."
+    },
+    "49": {
+      "hint": "Do × 6 first on input 5, then add 4 to that result.",
+      "help": "Order matters: 5 → ×6 → 30 → +4 → 34.\n\n**Different example:** input 2 → ×6 → 12 → +4 → 16.\n\nFollow the arrows left to right."
+    },
+    "50": {
+      "hint": "What number minus 14 leaves 27? Add 14 to 27.",
+      "help": "For $n - 14 = 27$, undo subtracting 14 by adding: $n = 27 + 14$.\n\n**Different example:** $n - 5 = 9$ → $n = 14$.\n\nSubstitute back to confirm."
+    },
+    "51": {
+      "hint": "16 plus what number makes 53? Subtract 16 from 53.",
+      "help": "The blank is the missing addend in 16 + □ = 53.\n\n**Different example:** 8 + □ = 15 → □ = 7.\n\nHere: 53 − 16 gives the number for the box."
+    },
+    "52": {
+      "hint": "Output 45 came from × 5 only. What input times 5 equals 45?",
+      "help": "Undo the last step first: divide 45 by 5.\n\n**Different example:** output 20 after × 4 → input 5.\n\nOne-step machine: input = output ÷ 5."
+    },
+    "53": {
+      "hint": "Each output is the input multiplied by 4. Try input 2 first.",
+      "help": "Rule “× 4”: multiply each input by 4.\n\n**Different example:** “× 3” on inputs 2 and 5 → 6 and 15.\n\nFill the table row: 2→8, 6→24, 9→36, 11→44."
+    },
+    "54": {
+      "hint": "$5n$ means 5 times $n$. What number times 5 gives 45?",
+      "help": "Divide both sides by 5: $n = 45 ÷ 5$.\n\n**Different example:** $3n = 21$ → $n = 7$.\n\nCheck by substituting your $n$ back."
+    },
+    "55": {
+      "hint": "Start with 20, add 12, then divide that result by 4.",
+      "help": "Steps in order: 20 + 12 = 32, then 32 ÷ 4.\n\n**Different example:** + 10 then ÷ 2 on input 6 → (6+10)÷2 = 8.\n\nFollow the machine left to right."
+    },
+    "56": {
+      "hint": "First find what (□ + 5) equals, then divide both sides by 2.",
+      "help": "$2(□ + 5) = 24$ means $□ + 5 = 12$, so $□ = 7$.\n\n**Different example:** $3(□ + 1) = 15$ → $□ = 4$.\n\nExpand the bracket idea: halve 24 first."
+    },
+    "57": {
+      "hint": "$n$ divided by 3 is 11. Multiply 11 by 3.",
+      "help": "Undo division by multiplying: $n = 11 × 3$.\n\n**Different example:** $\\dfrac{n}{2} = 6$ → $n = 12$.\n\nDivision and multiplication are inverses."
+    },
+    "58": {
+      "hint": "Multiply the input 9 by 7 — that is all this machine does.",
+      "help": "Single step × 7: output = 9 × 7.\n\n**Different example:** × 6 on input 4 → 24.\n\nUse times tables or repeated addition."
+    },
+    "59": {
+      "hint": "42 take away the mystery number leaves 19. What was removed?",
+      "help": "Subtraction form: 42 − □ = 19 → □ = 42 − 19.\n\n**Different example:** 50 − □ = 32 → □ = 18.\n\nThe blank is how much was subtracted."
+    },
+    "60": {
+      "hint": "Undo × 3 first on 51, then undo the + 9.",
+      "help": "Backwards: 51 ÷ 3 = 17, then 17 − 9 = 8.\n\n**Different example:** output 30 after + 10 then × 2 → (30÷2)−10 = 5.\n\nReverse the **last** operation first."
+    },
+    "61": {
+      "hint": "$n + n + n$ is three copies of $n$. What times 3 equals 36?",
+      "help": "$n + n + n = 3n = 36$, so $n = 12$.\n\n**Different example:** $n + n = 14$ → $n = 7$.\n\nSame number added repeatedly becomes multiplication."
+    },
+    "62": {
+      "hint": "Multiply 8 by 3 first, then subtract 5 from that answer.",
+      "help": "8 → ×3 → 24 → −5 → 19.\n\n**Different example:** input 5 → ×3 → 15 → −5 → 10.\n\nDo each step in the order shown."
+    },
+    "63": {
+      "hint": "7 times what number equals 168? Divide 168 by 7.",
+      "help": "Missing factor: 7 × □ = 168 → □ = 168 ÷ 7.\n\n**Different example:** 6 × □ = 54 → □ = 9.\n\nCheck with multiplication."
+    },
+    "64": {
+      "hint": "Subtract 3 from both sides of $2n + 3 = 31$, then halve.",
+      "help": "$2n = 28$, so $n = 14$.\n\n**Different example:** $2n + 1 = 11$ → $n = 5$.\n\nUndo + 3, then undo × 2."
+    },
+    "65": {
+      "hint": "Both boxes hold the same number. What doubled equals 18?",
+      "help": "□ + □ = 2 × □ = 18 → □ = 9.\n\n**Different example:** same number twice summing to 10 → 5.\n\nTwo equal unknowns mean multiply by 2."
+    },
+    "66": {
+      "hint": "Work out 4 + 5 + 9 on the right before solving for $n$.",
+      "help": "Right side: 4 + 5 + 9 = 18, so $n + 9 = 18$ and $n = 9$.\n\n**Different example:** $n + 3 = 2 + 3 + 4$ → simplify RHS first.\n\nAlways simplify known numbers first."
+    },
+    "67": {
+      "hint": "Halving gave 14. Double 14 to recover the starting input.",
+      "help": "If half the input is 14, input = 14 × 2 = 28.\n\n**Different example:** halved to 9 → input 18.\n\nHalving and doubling are inverse operations."
+    },
+    "68": {
+      "hint": "Do 3 × □ first, then add 4 to get 25. Subtract 4, then divide by 3.",
+      "help": "3 × □ = 21 → □ = 7.\n\n**Different example:** 2 × □ + 1 = 9 → □ = 4.\n\nUndo the + 4 before undoing the × 3."
+    },
+    "69": {
+      "hint": "Subtract 4 from 11 first, then multiply that result by 3.",
+      "help": "11 − 4 = 7, then 7 × 3 = 21.\n\n**Different example:** input 8 → −4 → 4 → ×3 → 12.\n\nTwo steps: follow the diagram order."
+    },
+    "70": {
+      "hint": "Add 8 to 28, then divide by 4 — reverse the last step first.",
+      "help": "Undo − 8: 28 + 8 = 36. Undo × 4: 36 ÷ 4 = 9.\n\n**Different example:** output 15 after × 5 then − 5 → (15+5)÷5 = 4.\n\nWork backwards through both steps."
+    },
+    "71": {
+      "hint": "For each input, add 6 then multiply by 2. Try input 3 first.",
+      "help": "Input 3: (3+6)×2 = 18. Repeat for 5, 8, 10.\n\n**Different example:** + 2 then × 4 on input 1 → (1+2)×4 = 12.\n\nComplete every cell in the table."
+    },
+    "72": {
+      "hint": "Add 7 to both sides of $3n - 7 = 20$, then divide by 3.",
+      "help": "$3n = 27$ → $n = 9$.\n\n**Different example:** $5n - 2 = 18$ → $n = 4$.\n\nInverse of − 7 is + 7; inverse of × 3 is ÷ 3."
+    },
+    "73": {
+      "hint": "In pence: add 50 to 200, then double the total.",
+      "help": "200 + 50 = 250p, then 250 × 2 = 500p.\n\n**Different example:** 100p + 20p, then double → 240p.\n\nConvert pounds to pence before calculating."
+    },
+    "74": {
+      "hint": "Divide 35 by 5 to find (□ − 3), then add 3.",
+      "help": "35 ÷ 5 = 7, so □ − 3 = 7 and □ = 10.\n\n**Different example:** $(□ - 1) × 4 = 20$ → □ = 6.\n\nUndo × 5 before undoing − 3."
+    },
+    "75": {
+      "hint": "Output 19: subtract 5 first, then multiply by 2.",
+      "help": "Backwards: 19 − 5 = 14, then 14 × 2 = 28.\n\n**Different example:** output 11 after ÷ 2 then + 3 → (11−3)×2 = 16.\n\nReverse ÷ 2 with × 2, and reverse + 5 with − 5."
+    },
+    "76": {
+      "hint": "Multiply 6 by 5, then add 15 to that result.",
+      "help": "6 → ×5 → 30 → +15 → 45.\n\n**Different example:** input 2 → ×5 → 10 → +15 → 25.\n\nFollow both steps in order."
+    },
+    "77": {
+      "hint": "Subtract 1 from 29, then divide the answer by 4.",
+      "help": "$4n + 1 = 29$ → $4n = 28$ → $n = 7$.\n\n**Different example:** $3n + 2 = 14$ → $n = 4$.\n\nUndo + 1, then undo × 4."
+    },
+    "78": {
+      "hint": "Multiply before adding: find 2 × □ first, then see what plus 9 makes 25.",
+      "help": "25 − 9 = 16, and 2 × □ = 16 → □ = 8.\n\n**Different example:** 3 + 4 × 2 = 11 (not 14).\n\nBIDMAS: do × before +."
+    },
+    "79": {
+      "hint": "Divide 40 by 2 first, then subtract 10.",
+      "help": "Backwards: 40 ÷ 2 = 20, then 20 − 10 = 15.\n\n**Different example:** output 24 after + 6 then × 2 → (24÷2)−6 = 6.\n\nReverse × 2 with ÷ 2."
+    },
+    "80": {
+      "hint": "Divide 35 by 5, then add 9.",
+      "help": "35 ÷ 5 = 7, then 7 + 9 = 16.\n\n**Different example:** input 20 → ÷ 5 → 4 → + 9 → 13.\n\nTwo steps left to right."
+    },
+    "81": {
+      "hint": "What number taken from 10 leaves 3?",
+      "help": "$10 - n = 3$ → $n = 10 - 3$.\n\n**Different example:** $8 - n = 2$ → $n = 6$.\n\nThe unknown is what you subtract."
+    },
+    "82": {
+      "hint": "Double each input, then add 9. Start with input 4.",
+      "help": "4 → 8 → 17; 7 → 23; 12 → 33; 15 → 39.\n\n**Different example:** × 3 then + 1 on input 2 → 7.\n\nApply the same two steps to every input."
+    },
+    "83": {
+      "hint": "Subtract 6 from 11, then multiply that answer by 4.",
+      "help": "11 − 6 = 5, so □ ÷ 4 = 5 and □ = 20.\n\n**Different example:** □ ÷ 3 + 2 = 6 → □ = 12.\n\nUndo the + 6 before undoing ÷ 4."
+    },
+    "84": {
+      "hint": "Multiply 7 by 2, then add 3 to get the input.",
+      "help": "Backwards: 7 × 2 = 14, then 14 + 3 = 17.\n\n**Different example:** output 5 after − 1 then ÷ 2 → (5×2)+1 = 11.\n\nReverse ÷ 2 with × 2."
+    },
+    "85": {
+      "hint": "Multiply 5 by 8, then subtract 12.",
+      "help": "5 × 8 = 40, then 40 − 12 = 28.\n\n**Different example:** input 3 → × 8 → 24 → − 12 → 12.\n\nDo × 8 before − 12."
+    },
+    "86": {
+      "hint": "$6n = 54$. Divide 54 by 6.",
+      "help": "$n = 54 ÷ 6$.\n\n**Different example:** $4n = 36$ → $n = 9$.\n\nMultiplication undone by division."
+    },
+    "87": {
+      "hint": "Divide 30 by 5, then add 1 to find □.",
+      "help": "$5(□ - 1) = 30$ → $□ - 1 = 6$ → $□ = 7$.\n\n**Different example:** $4(□ - 2) = 12$ → $□ = 5$.\n\nHalve the bracket first."
+    },
+    "88": {
+      "hint": "Add 50 to 100, then divide by 10.",
+      "help": "Backwards: 100 + 50 = 150, then 150 ÷ 10 = 15.\n\n**Different example:** output 60 after × 6 then − 10 → (60+10)÷6 = 11.\n\nUndo − 50 before undoing × 10."
+    },
+    "89": {
+      "hint": "Add 20 to input 0, then divide by 4.",
+      "help": "(0 + 20) ÷ 4 = 5.\n\n**Different example:** input 8 → + 20 → 28 → ÷ 4 → 7.\n\nZero plus 20 is still 20."
+    },
+    "90": {
+      "hint": "$n + n$ is double $n$. What doubled equals 50?",
+      "help": "$2n = 50$ → $n = 25$.\n\n**Different example:** $n + n = 18$ → $n = 9$.\n\nTwo equal terms mean multiply by 2."
+    },
+    "91": {
+      "hint": "100 minus what number equals 37?",
+      "help": "100 − □ = 37 → □ = 100 − 37.\n\n**Different example:** 80 − □ = 25 → □ = 55.\n\nSubtraction finds the missing part."
+    },
+    "92": {
+      "hint": "Add 7 to 14, then divide by 7.",
+      "help": "Backwards: 14 + 7 = 21, then 21 ÷ 7 = 3.\n\n**Different example:** output 20 after × 5 then − 5 → (20+5)÷5 = 5.\n\nReverse − 7 with + 7."
+    },
+    "93": {
+      "hint": "Try putting 5 in the box: does 5 + 0 equal 5?",
+      "help": "Adding 0 changes nothing, so **true** for any number in the box.\n\n**Different example:** 12 + 0 = 12.\n\nZero is the identity for addition."
+    },
+    "94": {
+      "hint": "What happens when you multiply any number by 1?",
+      "help": "× 1 leaves the input unchanged → **never** changes it.\n\n**Different example:** 7 × 1 = 7.\n\nMultiplying by 1 is a do-nothing step."
+    },
+    "95": {
+      "hint": "Divide 8 by 1. What do you get? Does □ ÷ 1 equal any number?",
+      "help": "□ ÷ 1 equals **the same** □, not “any” number.\n\n**Different example:** 15 ÷ 1 = 15 only.\n\nNina mixed up “any input works” with “any output”."
+    },
+    "96": {
+      "hint": "When undoing two steps, which operation happened last on the way forward?",
+      "help": "Undo the **last** step first when working backwards.\n\n**Different example:** + 3 then × 2 undone by ÷ 2 then − 3.\n\n**True** — reverse order matters."
+    },
+    "97": {
+      "hint": "Try start number 2: is (2+2)×3 the same as (2×3)+2?",
+      "help": "With 2: left gives 12, right gives 8 → **sometimes** same, not always.\n\n**Different example:** start 0 makes both 2.\n\nOrder of + and × usually matters."
+    },
+    "98": {
+      "hint": "Put 4 in both boxes. Is 4 + 4 the same as 2 × 4?",
+      "help": "4 + 4 = 8 and 2 × 4 = 8 → **yes**, when both boxes match.\n\n**Different example:** 3 + 3 = 2 × 3.\n\nSame number twice sums to double it."
+    },
+    "99": {
+      "hint": "Both sides multiply 3 by something. If 3×□ = 3×7, what must □ be?",
+      "help": "Equal products with the same factor 3 mean □ = 7 — like balanced scales.\n\n**Different example:** 2×□ = 2×9 → □ = 9.\n\n**True** by balance."
+    },
+    "100": {
+      "hint": "Try halving 5. Do you get a whole number every time?",
+      "help": "Halving 5 gives 2.5 → **sometimes** whole, not always.\n\n**Different example:** half of 6 is 3 (whole).\n\nOdd numbers can give fractions."
+    },
+    "101": {
+      "hint": "If you add 5 then subtract 5, do you return to the start?",
+      "help": "Adding then subtracting 5 returns to the original → fixes balance in □ + 5 = 12.\n\n**Different example:** guess 10, +5=15, −5=10 again.\n\nInverse operations undo each other."
+    },
+    "102": {
+      "hint": "Run input 8 through × 0, then + 5. What is the output?",
+      "help": "8 × 0 = 0, then 0 + 5 = 5 → **true** for any input.\n\n**Different example:** input 100 also gives 5.\n\n× 0 wipes the input before + 5."
+    },
+    "103": {
+      "hint": "Double any whole number. Is the result even or odd?",
+      "help": "2 × (whole number) is always **even**.\n\n**Different example:** 2 × 7 = 14.\n\n**Always** — doubling makes pairs."
+    },
+    "104": {
+      "hint": "If the same number is in both boxes, what is number minus itself?",
+      "help": "□ − □ = 0 always → Leo is **correct**.\n\n**Different example:** 9 − 9 = 0.\n\nSubtracting equal values gives zero."
+    },
+    "105": {
+      "hint": "Left side adds 7, right adds 4. Can one number make both sides equal?",
+      "help": "Left is always 3 more than right → no whole □ works → **true**.\n\n**Different example:** □ + 10 = □ + 3 is also impossible.\n\nDifferent constants on each side break balance."
+    },
+    "106": {
+      "hint": "Double a whole number, then add 1. Is the result odd or even?",
+      "help": "Double is even; + 1 makes it **odd** → **always** for whole inputs.\n\n**Different example:** 2×4+1=9.\n\nEven plus 1 is odd."
+    },
+    "107": {
+      "hint": "Start with 10, add 6, then subtract 6. Where do you end up?",
+      "help": "10 + 6 = 16, then 16 − 6 = 10 → inverse of + 6 is − 6.\n\n**Different example:** 4 + 6 − 6 = 4.\n\n**True** — check with numbers."
+    },
+    "108": {
+      "hint": "Multiply a whole number by 5. What digits can the ones place be?",
+      "help": "Multiples of 5 end in **0 or 5** → **always** for whole □.\n\n**Different example:** 5×4=20, 5×7=35.\n\nOnes digit pattern of × 5."
+    },
+    "109": {
+      "hint": "What happens if a machine tries to divide by zero?",
+      "help": "Division by 0 is **undefined** — you cannot reverse it.\n\n**Different example:** 8 ÷ 0 has no answer.\n\nSam is right: that step cannot be undone."
+    },
+    "110": {
+      "hint": "Can + 5 on two different inputs ever give the same output? That is not × 0.",
+      "help": "**False** — e.g. inputs 1 and 6 both give 11 after + 5, with no × 0.\n\n**Different example:** × 2 on 3 and 7 gives 6 and 14 (different).\n\nSame output need not mean × 0."
+    },
+    "111": {
+      "hint": "Is □ + 1 bigger than □ for whole numbers like 0, 1, 2?",
+      "help": "Adding 1 increases any whole □ → **always** true.\n\n**Different example:** 0 + 1 > 0.\n\nOne more is always larger."
+    },
+    "112": {
+      "hint": "One test with □ = 5 shows it works once — what else do you need?",
+      "help": "A single example does **not** prove “for all numbers” — need a general reason.\n\n**Different example:** □ + 1 = 1 + □ works for many tests but still needs explanation.\n\nProof needs all numbers, not one."
+    },
+    "113": {
+      "hint": "Does □ + 3 = 7 mean the same as n + 3 = 7?",
+      "help": "Both are placeholders for an unknown → **false** that the meaning changes.\n\n**Different example:** □ and $n$ both stand for “some number”.\n\nLetter and box are both unknowns."
+    },
+    "114": {
+      "hint": "To undo three steps, must you reverse them in one fixed order?",
+      "help": "Inverse steps undo in **reverse order** — only one correct backwards path → **always**.\n\n**Different example:** undo × 2 before undoing + 3 if forward was + 3 then × 2.\n\nLast step undone first."
+    },
+    "115": {
+      "hint": "If □ × 2 = 18, find □. Then add 2 to that value.",
+      "help": "□ = 9 from × 2, then □ + 2 = 11 → **true** link.\n\n**Different example:** □ × 3 = 12 → □ = 4 → □ + 2 = 6.\n\nFind □ first, then use it."
+    },
+    "116": {
+      "hint": "If both sides of a balance get + 4, do they still match?",
+      "help": "Adding the same amount to both sides keeps equality → **always**.\n\n**Different example:** 5 = 5, add 4 → 9 = 9.\n\nBalance stays balanced."
+    },
+    "117": {
+      "hint": "Try 6: is “add 1 then add 6 again” the same as double 6 then add 1?",
+      "help": "First story: 6+1+6=13. Second: 2×6+1=13 here, but stories differ → **false** as stated.\n\n**Different example:** test with 3 carefully.\n\nRead the words literally."
+    },
+    "118": {
+      "hint": "Can adding whole numbers ever give a fraction?",
+      "help": "Whole + whole = whole → **never** a fraction output.\n\n**Different example:** 4 + 5 = 9.\n\nAddition of integers stays integer."
+    },
+    "119": {
+      "hint": "Subtract the £6 card fee from £34, then divide by £4 per day.",
+      "help": "£34 − £6 = £28; £28 ÷ £4 = 7 days.\n\n**Different example:** £20 total with £5 fee and £3/day → 5 days.\n\nRemove the one-off fee before counting days."
+    },
+    "120": {
+      "hint": "Take off the one-time bonus of 5 from 61, then divide by 8 points per round.",
+      "help": "61 − 5 = 56; 56 ÷ 8 = 7 rounds.\n\n**Different example:** final 45 with bonus 5 and 10 per round → 4 rounds.\n\nBonus applies once at the end."
+    },
+    "121": {
+      "hint": "The rope plus 25 cm equals 180 cm. Subtract 25.",
+      "help": "□ + 25 = 180 → □ = 155 cm.\n\n**Different example:** □ + 10 = 50 → □ = 40.\n\nThe blank is length before the extra piece."
+    },
+    "122": {
+      "hint": "Subtract £5 seating from £29, then divide by £3 per drink.",
+      "help": "£29 − £5 = £24; £24 ÷ £3 = 8 drinks.\n\n**Different example:** £17 with £2 fee and £3 items → 5 items.\n\nFlat fee first, then unit price."
+    },
+    "123": {
+      "hint": "Add 4 to 23, then divide by 3 to undo tripling.",
+      "help": "23 + 4 = 27; 27 ÷ 3 = 9.\n\n**Different example:** double, subtract 2, get 10 → start 6.\n\nWork backwards through the steps."
+    },
+    "124": {
+      "hint": "Remove the £12 note from £54, then divide by £7 per week.",
+      "help": "£54 − £12 = £42; £42 ÷ £7 = 6 weekly deposits.\n\n**Different example:** £40 total with £10 bonus and £5/week → 6 weeks.\n\nOne-off amount before repeated weekly."
+    },
+    "125": {
+      "hint": "Subtract the starting 40 litres from 190, then divide by 15 litres per minute.",
+      "help": "190 − 40 = 150; 150 ÷ 15 = 10 minutes.\n\n**Different example:** start 20, end 80, rate 10/min → 6 min.\n\nFind extra volume filled, then rate."
+    },
+    "126": {
+      "hint": "Subtract £45 coach fee from £225, then divide by £18 per pupil.",
+      "help": "£225 − £45 = £180; £180 ÷ £18 = 10 pupils.\n\n**Different example:** £100 total, £20 fee, £10 each → 8 pupils.\n\nRemove fixed coach cost first."
+    },
+    "127": {
+      "hint": "Subtract 12 from 57, then divide by 3.",
+      "help": "57 − 12 = 45; 45 ÷ 3 = 15.\n\n**Different example:** output 30 after × 2 then + 10 → input 10.\n\nUndo + 12, then undo × 3."
+    },
+    "128": {
+      "hint": "After growing 9 cm the plant is 142 cm. Subtract 9.",
+      "help": "□ + 9 = 142 → □ = 133 cm.\n\n**Different example:** □ + 5 = 20 → □ = 15.\n\nGrowth adds to starting height."
+    },
+    "129": {
+      "hint": "Divide £33 by 1.1 to find the bill before the 10% tip.",
+      "help": "£33 ÷ 1.1 = £30.\n\n**Different example:** after × 1.2 is £24 → before was £20.\n\nTip multiplier divides off at the end."
+    },
+    "130": {
+      "hint": "Two equal packs plus 3 kg box = 19 kg. Subtract 3, then halve.",
+      "help": "19 − 3 = 16; 16 ÷ 2 = 8 kg per pack.\n\n**Different example:** two bags + 2 kg = 14 → 6 kg each.\n\nRemove the box, then split equally."
+    },
+    "131": {
+      "hint": "Subtract the £2 online fee from £38, then divide by £9 per ticket.",
+      "help": "£38 − £2 = £36; £36 ÷ £9 = 4 tickets.\n\n**Different example:** £29 with £5 fee and £6 tickets → 4 tickets.\n\nOne fee per order, not per ticket."
+    },
+    "132": {
+      "hint": "Subtract 13 from 20, then double to undo halving.",
+      "help": "20 − 13 = 7; 7 × 2 = 14.\n\n**Different example:** halve, add 5, get 9 → start 8.\n\nReverse add before reverse halve."
+    },
+    "133": {
+      "hint": "Subtract £35 handset charge from £107, then divide by £12 per month.",
+      "help": "£107 − £35 = £72; £72 ÷ £12 = 6 months.\n\n**Different example:** £59 with £11 fee and £8/month → 6 months.\n\nHandset is a one-time charge."
+    },
+    "134": {
+      "hint": "4200 seconds ÷ 60 seconds per minute.",
+      "help": "4200 ÷ 60 = 70 minutes.\n\n**Different example:** 300 seconds → 5 minutes.\n\n× 60 forward means ÷ 60 backwards."
+    },
+    "135": {
+      "hint": "Add the inside and outside lengths: 1.5 m + 4.5 m.",
+      "help": "□ = 1.5 + 4.5 = 6 m total ladder.\n\n**Different example:** 2 m inside + 3 m outside → 5 m ladder.\n\nWhole length is both parts together."
+    },
+    "136": {
+      "hint": "After 6 free items the box has 38. Subtract 6 for paid items.",
+      "help": "38 − 6 = 32 paid items.\n\n**Different example:** 50 total with 10 free → 40 paid.\n\nBonus items are not paid for."
+    },
+    "137": {
+      "hint": "Subtract 1 from 5, then multiply by 5.",
+      "help": "5 − 1 = 4; 4 × 5 = 20.\n\n**Different example:** output 8 after ÷ 4 then + 2 → (8−2)×4 = 24.\n\nUndo ÷ 5 with × 5."
+    },
+    "138": {
+      "hint": "Subtract £3 flag fall from £18, then divide by £2.50 per mile.",
+      "help": "£18 − £3 = £15; £15 ÷ £2.50 = 6 miles.\n\n**Different example:** £13 fare with £3 flag and £2/mile → 5 miles.\n\nFixed flag before mileage rate."
+    },
+    "139": {
+      "hint": "Halve 40 to undo doubling, then subtract 9.",
+      "help": "40 ÷ 2 = 20; 20 − 9 = 11.\n\n**Different example:** add 3, double, get 16 → start 5.\n\nReverse double before reverse add."
+    },
+    "140": {
+      "hint": "120 litres remain after draining 47. Add them back.",
+      "help": "□ − 47 = 120 → □ = 167 litres.\n\n**Different example:** □ − 10 = 30 → □ = 40.\n\nStarting volume is remainder plus drained amount."
+    },
+    "141": {
+      "hint": "Total dry weight 950 g includes 250 g sugar. Subtract sugar from total.",
+      "help": "□ + 250 = 950 → □ = 700 g flour.\n\n**Different example:** □ + 100 = 400 → □ = 300.\n\nFind flour by removing known sugar."
+    },
+    "142": {
+      "hint": "Subtract the 20-point bonus from 75, then divide by 5 per coin.",
+      "help": "75 − 20 = 55; 55 ÷ 5 = 11 coins.\n\n**Different example:** score 40 with bonus 10 and 6 per coin → 5 coins.\n\nLevel bonus once, then points per coin."
+    },
+    "143": {
+      "hint": "Add 6 to 24, then divide by 3.",
+      "help": "24 + 6 = 30; 30 ÷ 3 = 10.\n\n**Different example:** output 18 after × 2 then − 4 → (18+4)÷2 = 11.\n\nUndo − 6 with + 6, then undo × 3."
+    },
+    "144": {
+      "hint": "132 cm split into 4 equal pieces — divide by 4.",
+      "help": "132 ÷ 4 = 33 cm each.\n\n**Different example:** 100 cm into 5 equal pieces → 20 cm.\n\nEqual parts means divide total by 4."
+    },
+    "145": {
+      "hint": "Subtract £15 pledge from £87, then divide by £6 per lap.",
+      "help": "£87 − £15 = £72; £72 ÷ £6 = 12 laps.\n\n**Different example:** £51 with £9 pledge and £3/lap → 14 laps.\n\nSponsor pledge is added once."
+    },
+    "146": {
+      "hint": "Divide 28 by 4, then add 7.",
+      "help": "28 ÷ 4 = 7; 7 + 7 = 14.\n\n**Different example:** subtract 3, ×5, get 20 → start 7.\n\nUndo × 4 before undo − 7."
+    },
+    "147": {
+      "hint": "Reading 406 after using 19 units. Add 19 to 406.",
+      "help": "□ − 19 = 406 → □ = 425.\n\n**Different example:** □ − 5 = 100 → □ = 105.\n\nStart reading is end plus units used."
+    },
+    "148": {
+      "hint": "One tray is 3 kg of the 24 kg. Subtract to find packaging mass.",
+      "help": "24 − 3 = 21 kg packaging.\n\n**Different example:** 10 kg total with 7 kg product → 3 kg packaging.\n\nPackaging is what is left after tray product."
+    },
+    "149": {
+      "hint": "Multiply 11 by 3, then subtract 4.",
+      "help": "11 × 3 = 33; 33 − 4 = 29.\n\n**Different example:** output 7 after ÷ 2 then + 1 → (7−1)×2 = 12.\n\nUndo ÷ 3 with × 3, then undo + 4."
+    },
+    "150": {
+      "hint": "Height requirement □ + 8 = 150 cm. Subtract 8.",
+      "help": "□ = 150 − 8 = 142 cm.\n\n**Different example:** □ + 12 = 200 → □ = 188.\n\nRemove the shoe/trainer boost."
+    },
+    "151": {
+      "hint": "Subtract £8 delivery from £43, then divide by £5 per kg.",
+      "help": "£43 − £8 = £35; £35 ÷ £5 = 7 kg.\n\n**Different example:** £28 with £3 delivery and £5/kg → 5 kg.\n\nDelivery is fixed; rest is per kg."
+    },
+    "152": {
+      "hint": "Subtract 10 from 85, then divide by 5.",
+      "help": "85 − 10 = 75; 75 ÷ 5 = 15.\n\n**Different example:** ×4, +8, get 28 → start 5.\n\nUndo + 10, then undo × 5."
+    },
+    "153": {
+      "hint": "240 litres after adding 60. Subtract 60 for start.",
+      "help": "□ + 60 = 240 → □ = 180 litres.\n\n**Different example:** □ + 25 = 100 → □ = 75.\n\nAdded amount reverses with subtraction."
+    },
+    "154": {
+      "hint": "47 people = 4 rows of pupils plus 3 staff. Subtract 3, divide by 4.",
+      "help": "47 − 3 = 44; 44 ÷ 4 = 11 pupils per row.\n\n**Different example:** 35 total with 5 staff and 6 rows → 5 per row.\n\nRemove staff before splitting rows."
+    },
+    "155": {
+      "hint": "Add 8 to 2, then divide by 5.",
+      "help": "2 + 8 = 10; 10 ÷ 5 = 2.\n\n**Different example:** output 6 after × 4 then − 10 → (6+10)÷4 = 4.\n\nUndo − 8 before undo × 5."
+    },
+    "156": {
+      "hint": "Subtract £50 starter from £178, then divide by £4 per ticket.",
+      "help": "£178 − £50 = £128; £128 ÷ £4 = 32 tickets.\n\n**Different example:** £90 with £30 starter and £3 each → 20 tickets.\n\nStarter fund before per-ticket amount."
+    },
+    "157": {
+      "hint": "Total path = repaired part + part still needing work.",
+      "help": "□ = 2.8 + 5.2 = 8 m.\n\n**Different example:** 3 m done + 4 m left → 7 m path.\n\nAdd the two sections."
+    },
+    "158": {
+      "hint": "Double 10 to undo halving, then subtract 12.",
+      "help": "10 × 2 = 20; 20 − 12 = 8.\n\n**Different example:** add 5, halve, get 7 → start 9.\n\nReverse halve with × 2."
+    },
+    "159": {
+      "hint": "£14.50 is pounds. Convert to pence (× 100) for the machine input.",
+      "help": "£14.50 = 1450 pence.\n\n**Different example:** £3.25 → 325 pence.\n\n÷ 100 on pence gives pounds; reverse with × 100."
+    },
+    "160": {
+      "hint": "Remove 12 bonus cards from 96, then divide by 6 pupils.",
+      "help": "96 − 12 = 84; 84 ÷ 6 = 14 cards each.\n\n**Different example:** 60 total, 12 bonus, 4 pupils → 12 each.\n\nBonus shared across the class after removing extras."
+    },
+    "161": {
+      "hint": "Add 18 to 45, then divide by 9.",
+      "help": "45 + 18 = 63; 63 ÷ 9 = 7.\n\n**Different example:** output 20 after × 4 then − 5 → (20+5)÷4 = 6.\n\nUndo − 18, then undo × 9."
+    },
+    "162": {
+      "hint": "Subtract £20 sign-up from £47, then divide by £9 per month.",
+      "help": "£47 − £20 = £27; £27 ÷ £9 = 3 months.\n\n**Different example:** £35 with £5 fee and £6/month → 5 months.\n\nSign-up fee is once upfront."
+    },
+    "163": {
+      "hint": "Double then add original is 3× the number. Divide 33 by 3.",
+      "help": "2n + n = 3n = 33 → n = 11.\n\n**Different example:** double plus original gives 21 → n = 7.\n\nSame as tripling the start number."
+    },
+    "164": {
+      "hint": "Six panels and a 2 m gate make 20 m. Subtract 2, divide by 6.",
+      "help": "20 − 2 = 18; 18 ÷ 6 = 3 m per panel.\n\n**Different example:** 5 panels + 1 m gate = 16 m → 3 m panels.\n\nRemove gate length before splitting panels."
+    },
+    "165": {
+      "hint": "Add 8 to 10, divide by 3, then subtract 2.",
+      "help": "Backwards from 10: 10 + 8 = 18; 18 ÷ 3 = 6; 6 − 2 = **4**.\n\n**Different example:** output 7 after +1, ×2, −3 → input 4.\n\nUndo −8, then ÷3, then −2."
+    },
+    "166": {
+      "hint": "Pick two steps that turn 5 into 23, e.g. ×4 then +3. Test on 8.",
+      "help": "Example: × 4 then + 3 gives 5 → 23; on 8: 8×4+3 = 35.\n\n**Different example:** × 2 then + 13 also works for 5 → 23.\n\nShow steps and test the second input."
+    },
+    "167": {
+      "hint": "Plan three steps from 1 to 10, then run input 4 through them.",
+      "help": "Example: +2, ×2, +2 gives 1→10; on 4: (4+2)×2+2 = 14.\n\n**Different example:** ×3, +4, −1 on 1 → 10.\n\nWrite steps clearly and test both inputs."
+    },
+    "168": {
+      "hint": "After ×2 then +6 the output is 12. What input gives 12?",
+      "help": "12 = 2×input + 6 → input = 3. Also 0 → 6, −3 → 0 — find three **different** whole inputs.\n\n**Different example:** ×2 then +4 = 10 → input 3.\n\nSolve 2x + 6 = 12 for one, then try others."
+    },
+    "169": {
+      "hint": "Try □ = 2: is 2×2 greater than 2? Try □ = 3 as well.",
+      "help": "For □ ≥ 2, □×□ ≥ 2□ (e.g. 3×3=9 > 6) → **always** for whole □ ≥ 2.\n\n**Different example:** 4×4=16 > 8.\n\nSquaring grows faster than doubling for n ≥ 2."
+    },
+    "170": {
+      "hint": "Add the input to itself, then add 1. Try x = 4.",
+      "help": "Rule: x + x + 1 = 2x + 1. For x = 4: 8 + 1 = 9.\n\n**Different example:** x = 0 → 1.\n\nWrite as 2x + 1 in algebra."
+    },
+    "171": {
+      "hint": "Output 25: undo −3, then undo ×4, then undo +5.",
+      "help": "25 + 3 = 28; 28 ÷ 4 = 7; 7 − 5 = 2.\n\n**Different example:** output 10 after +2, ×3, −1 → input 1.\n\nList each inverse step in order."
+    },
+    "172": {
+      "hint": "In □ + 5 = 12, how is 12 − 5 related to the box?",
+      "help": "Both find the same missing number: □ = 12 − 5.\n\n**Different example:** □ + 8 = 20 ↔ 20 − 8.\n\nAddition and subtraction are inverses on the same sentence."
+    },
+    "173": {
+      "hint": "Square the input, then subtract 1. Do this for 3 and for 5.",
+      "help": "3² − 1 = 8; 5² − 1 = 24.\n\n**Different example:** input 2 → 4 − 1 = 3.\n\nOrder: square first, then − 1."
+    },
+    "174": {
+      "hint": "Find two **different** pairs of steps that both send 6 to 18.",
+      "help": "× 3 alone works; or + 12 also sends 6 → 18.\n\n**Different example:** × 2 then + 6 also works.\n\nTest both machines on 6."
+    },
+    "175": {
+      "hint": "Add 12 to 0, then divide by 3.",
+      "help": "0 + 12 = 12; 12 ÷ 3 = 4.\n\n**Different example:** output 9 after × 3 then − 6 → (9+6)÷3 = 5.\n\nUndo − 12 before undo × 3."
+    },
+    "176": {
+      "hint": "Pick a whole number, ×4, then ÷4. Do you get the start?",
+      "help": "× 4 then ÷ 4 returns the start for non-zero wholes → **true**.\n\n**Different example:** 7 → 28 → 7.\n\nInverse operations in a row."
+    },
+    "177": {
+      "hint": "Set 3x + 2 = 29. Subtract 2, then divide by 3.",
+      "help": "29 − 2 = 27; 27 ÷ 3 = 9.\n\n**Different example:** 2x + 5 = 15 → x = 5.\n\nSolve for input when output is known."
+    },
+    "178": {
+      "hint": "List four steps that turn 2 into 16, then test on another input.",
+      "help": "Example: ×2, ×2, ×2, ×2 (four doubles). On 2 → 16.\n\n**Different example:** +2, ×2, +2, ×2.\n\nExplain each step in words."
+    },
+    "179": {
+      "hint": "Divide 10 by 5, subtract 1, then multiply by 2.",
+      "help": "10 ÷ 5 = 2; 2 − 1 = 1; 1 × 2 = 2? Follow stem order carefully — undo last step first.\n\n**Different example:** draw the forward arrows then reverse.\n\nWrite inverse steps in reverse order."
+    },
+    "180": {
+      "hint": "Try □ = 5: what is 5 ÷ 5? Can □ be 0?",
+      "help": "Same non-zero whole in both boxes gives 1 → **always** when □ ≠ 0; □ = 0 is undefined.\n\n**Different example:** 8 ÷ 8 = 1.\n\nDivision by zero is not allowed."
+    },
+    "181": {
+      "hint": "For input 6, compute double, add half of 6, and also 6 × 2.5.",
+      "help": "Double 6 = 12, half of 6 = 3, total 15; 6 × 2.5 = 15 → both match.\n\n**Different example:** test input 4 both ways.\n\nShow both calculations equal."
+    },
+    "182": {
+      "hint": "Undo the last step first: output 8 after −2, ÷3, +5.",
+      "help": "Work backwards step by step from 8 through the three inverses.\n\n**Different example:** output 1 after +4, ×2, −3 → input −1.\n\nList each inverse operation."
+    },
+    "183": {
+      "hint": "Try input 1: compare (1×3−5) with (−5×3).",
+      "help": "Order matters: 1 → ×3 → −5 gives −2; −5 → ×3 gives −15 → **different**.\n\n**Different example:** input 2 also shows different order results.\n\nShow both full calculations."
+    },
+    "184": {
+      "hint": "Is triple the number the same as three copies added?",
+      "help": "□ × 3 = □ + □ + □ for **any** number → **true**.\n\n**Different example:** 4×3 = 4+4+4.\n\nMultiplication repeats addition."
+    },
+    "185": {
+      "hint": "For input 7: double, add original, and also compute 3×7.",
+      "help": "7×2+7 = 21; 3×7 = 21 → same as ×3 rule.\n\n**Different example:** input 5 → 15 both ways.\n\nDouble plus original equals triple."
+    },
+    "186": {
+      "hint": "Undo ÷2, then −10, then ×5 on output 50.",
+      "help": "50 × 2 = 100; 100 + 10 = 110; 110 ÷ 5 = 22? Trace carefully — reverse each step.\n\n**Different example:** smaller numbers to practise order.\n\nReverse **last** forward operation first."
+    },
+    "187": {
+      "hint": "For odd 5 use rule input+1; for even 6 use half.",
+      "help": "5 → 6; 6 → 3.\n\n**Different example:** 7 → 8; 8 → 4.\n\nDifferent rules for odd vs even inputs."
+    },
+    "188": {
+      "hint": "Try □ = 3 and □ = 10: does □ + 1 equal 1 + □?",
+      "help": "Addition order does not matter → **always** true.\n\n**Different example:** 100 + 1 = 1 + 100.\n\nCommutative property of +."
+    },
+    "189": {
+      "hint": "Start at output 3 and undo −5, then ×2, then +7.",
+      "help": "Reverse each step in order from the last forward step.\n\n**Different example:** output 0 with three steps — list inverses.\n\nShow every backwards step."
+    },
+    "190": {
+      "hint": "500 − 260 litres left = litres drained. Divide by 8 litres per minute.",
+      "help": "500 − 260 = 240; 240 ÷ 8 = 30 minutes.\n\n**Different example:** 400 start, 320 left, 4/min → 20 min.\n\nFind volume lost, then rate."
+    },
+    "191": {
+      "hint": "If the rule uses $n$, can you test many values quickly?",
+      "help": "Using $n$ lets you try several inputs without rewriting → **true**.\n\n**Different example:** test n = 1, 2, 5 in the same rule.\n\nLetters stand for any number."
+    },
+    "192": {
+      "hint": "Undo ×8, then +2, then ÷4 on output 4.",
+      "help": "Work backwards through all three steps in reverse order.\n\n**Different example:** output 10 with three steps — write inverses.\n\nOne inverse at a time."
+    },
+    "193": {
+      "hint": "Find a so that a+10 and a×2 give the same result.",
+      "help": "Example: a = 10 → 20 from both +10 and ×2.\n\n**Different example:** solve a + 10 = 2a → a = 10.\n\nSet the two outputs equal."
+    },
+    "194": {
+      "hint": "Can +1 change odd to even? Can +2 keep odd/even the same?",
+      "help": "+1 flips parity; +2 keeps it → **sometimes** parity changes.\n\n**Different example:** odd +1 = even.\n\nOnly some step types swap odd/even."
+    },
+    "195": {
+      "hint": "Set 2x + 10 = 100. Subtract 10, divide by 2.",
+      "help": "100 − 10 = 90; 90 ÷ 2 = 45 → x = 45? Check: 2×45+10=100.\n\n**Different example:** 2x+10=30 → x=10.\n\nLinear machine — solve for x."
+    },
+    "196": {
+      "hint": "Undo ÷2, then +6, then ×3 on output 12.",
+      "help": "12 × 2 = 24; 24 − 6 = 18; 18 ÷ 3 = 6.\n\n**Different example:** output 8 after similar steps.\n\nReverse order: last step undone first."
+    },
+    "197": {
+      "hint": "Use ÷ twice only — e.g. ÷10 then ÷1 to turn 10 into 1.",
+      "help": "Example: input 10 → ÷10 → 1 → ÷1 → 1.\n\n**Different example:** ÷5 then ÷2 on 10 → 1.\n\nExactly two ÷ steps required."
+    },
+    "198": {
+      "hint": "If three equal boxes sum to 30, what is each box?",
+      "help": "30 ÷ 3 = 10 each → **true** when all three equal.\n\n**Different example:** □+□+□=12 → each 4.\n\nEqual unknowns split the total."
+    },
+    "199": {
+      "hint": "Undo −14, then ×7, then +3 on output 7.",
+      "help": "Reverse the three steps from output 7.\n\n**Different example:** practise with two-step machines first.\n\nList inverses in reverse order."
+    },
+    "200": {
+      "hint": "Run input 3 forward through ×2,+1,×2,+1. Then work backwards from that output.",
+      "help": "Forward: 3→6→7→14→15. Backwards from 15 returns to 3.\n\n**Different example:** trace on paper arrow by arrow.\n\nForward then inverse should recover the start."
+    }
+  }
+}

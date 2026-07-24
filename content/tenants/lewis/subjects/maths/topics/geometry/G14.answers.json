@@ -1,0 +1,1823 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "8 cm",
+      "accept": [
+        "8",
+        "8 cm",
+        "8cm"
+      ],
+      "tier": 1,
+      "rating": 510
+    },
+    "2": {
+      "display": "10 cm",
+      "accept": [
+        "10",
+        "10 cm",
+        "10cm"
+      ],
+      "tier": 1,
+      "rating": 535
+    },
+    "3": {
+      "display": "6",
+      "accept": [
+        "6",
+        "6 squares",
+        "6 cm²",
+        "6cm²"
+      ],
+      "tier": 1,
+      "rating": 570
+    },
+    "4": {
+      "display": "perimeter",
+      "accept": [
+        "perimeter"
+      ],
+      "tier": 1,
+      "rating": 605
+    },
+    "5": {
+      "display": "area",
+      "accept": [
+        "area"
+      ],
+      "tier": 1,
+      "rating": 640
+    },
+    "6": {
+      "display": "16 cm",
+      "accept": [
+        "16",
+        "16 cm",
+        "16cm"
+      ],
+      "tier": 1,
+      "rating": 675
+    },
+    "7": {
+      "display": "8 square units",
+      "accept": [
+        "8",
+        "8 square units",
+        "8 units squared"
+      ],
+      "tier": 1,
+      "rating": 710
+    },
+    "8": {
+      "display": "cm²",
+      "accept": [
+        "cm²",
+        "cm2",
+        "square centimetres",
+        "square centimeters"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "26 cm",
+      "accept": [
+        "26",
+        "26 cm",
+        "26cm"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "40 cm²",
+      "accept": [
+        "40",
+        "40 cm2",
+        "40 cm²",
+        "40cm²"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "length × width (or A = lw)",
+      "accept": [
+        "length x width",
+        "length × width",
+        "l x w",
+        "lw"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "Perimeter 24 m; area 36 m²",
+      "accept": [
+        "24 36",
+        "24 and 36",
+        "p=24 a=36",
+        "perimeter 24 area 36"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "2 m; 30 000 cm² (3 m²)",
+      "accept": [
+        "2 m",
+        "2",
+        "30000",
+        "30 000 cm2",
+        "30000 cm²"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "64 cm² (40 + 24)",
+      "accept": [
+        "64",
+        "64 cm2",
+        "64 cm²"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "perimeter = 2 × (length + width)",
+      "accept": [
+        "2(l+w)",
+        "2 x (length + width)",
+        "2×(length+width)",
+        "2(length+width)"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "7 cm",
+      "accept": [
+        "7",
+        "7 cm",
+        "7cm"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5 cm",
+        "5cm"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "35 cm",
+      "accept": [
+        "35",
+        "35 cm",
+        "35cm"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "130 m",
+      "accept": [
+        "130",
+        "130 m",
+        "130m"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "500 cm; 1.5 m²",
+      "accept": [
+        "500",
+        "1.5",
+        "500 cm 1.5 m2",
+        "500cm 1.5m2"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "No. A: perimeter 20 cm; B: perimeter 28 cm.",
+      "accept": [
+        "no",
+        "different",
+        "20 28",
+        "20 and 28"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "22": {
+      "display": "Never — doubling length and width makes area 4 times as big (e.g. 3×2=6 → 6×4=24).",
+      "accept": [
+        "never",
+        "four times",
+        "4 times"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "23": {
+      "display": "Sam found area, not perimeter. Correct perimeter = 2×(7+3) = 20 cm.",
+      "accept": [
+        "20",
+        "perimeter",
+        "add sides"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "24": {
+      "display": "No — the square (5×5) has area 25 cm²; the rectangle (8×2) has area 16 cm². Different areas.",
+      "accept": [
+        "no",
+        "25",
+        "16",
+        "different"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "25": {
+      "display": "Example: a 1 cm × 20 cm rectangle has perimeter 42 cm and area 20 cm²; a 5 cm × 5 cm square has a smaller perimeter (20 cm) but a bigger area (25 cm²).",
+      "accept": [
+        "perimeter",
+        "area",
+        "rectangle",
+        "square"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 2,
+      "rating": 1351
+    },
+    "26": {
+      "display": "The perimeter increases (but does not double, since only length changed); the area doubles. E.g. 4×3 (P=14, A=12) → 8×3 (P=22, A=24).",
+      "accept": [
+        "doubles",
+        "area doubles"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "27": {
+      "display": "Example: 6×6 cm (perimeter 24 cm) and 4×9 cm (perimeter 26 cm) — different perimeters for the same area of 36 cm².",
+      "accept": [
+        "24",
+        "26",
+        "different"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "28": {
+      "display": "True — the 6×6 square has perimeter 24 cm; the 9×4 rectangle has perimeter 26 cm. The square has the smaller perimeter.",
+      "accept": [
+        "true",
+        "24",
+        "26"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "29": {
+      "display": "10 500 cm²",
+      "accept": [
+        "10500",
+        "10 500",
+        "10500 cm2"
+      ],
+      "tier": 3,
+      "rating": 1620
+    },
+    "30": {
+      "display": "48 m² (54 − 6 from a 9×6 rectangle minus a 3×2 grass corner)",
+      "accept": [
+        "48",
+        "48 m2",
+        "48 m²"
+      ],
+      "tier": 3,
+      "rating": 1680
+    },
+    "31": {
+      "display": "540 m",
+      "accept": [
+        "540",
+        "540 m",
+        "540m"
+      ],
+      "tier": 3,
+      "rating": 1740
+    },
+    "32": {
+      "display": "£168",
+      "accept": [
+        "168",
+        "£168"
+      ],
+      "tier": 3,
+      "rating": 1580
+    },
+    "33": {
+      "display": "216 cm²",
+      "accept": [
+        "216",
+        "216 cm2",
+        "216 cm²"
+      ],
+      "tier": 3,
+      "rating": 1640
+    },
+    "34": {
+      "display": "Each plot is 6 m × 8 m = 48 m²; the dividing fence is 8 m long.",
+      "accept": [
+        "48",
+        "8"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1720
+    },
+    "35": {
+      "display": "20 cm²",
+      "accept": [
+        "20",
+        "20cm2",
+        "20 cm²",
+        "20cm²"
+      ],
+      "tier": 2,
+      "rating": 1240
+    },
+    "36": {
+      "display": "18 cm",
+      "accept": [
+        "18",
+        "18cm",
+        "18 cm"
+      ],
+      "tier": 2,
+      "rating": 1316
+    },
+    "37": {
+      "display": "49 cm²",
+      "accept": [
+        "49",
+        "49cm2",
+        "49 cm²"
+      ],
+      "tier": 2,
+      "rating": 1392
+    },
+    "38": {
+      "display": "5 cm",
+      "accept": [
+        "5",
+        "5cm",
+        "5 cm"
+      ],
+      "tier": 2,
+      "rating": 1180
+    },
+    "39": {
+      "display": "12 m²",
+      "accept": [
+        "12",
+        "12m2",
+        "12 m²"
+      ],
+      "tier": 2,
+      "rating": 1280
+    },
+    "40": {
+      "display": "20 m²",
+      "accept": [
+        "20",
+        "20m2",
+        "20 m²"
+      ],
+      "tier": 2,
+      "rating": 1380
+    },
+    "41": {
+      "display": "Width 5 cm; area 50 cm²",
+      "accept": [
+        "5",
+        "50",
+        "width 5",
+        "area 50"
+      ],
+      "tier": 3,
+      "rating": 1885
+    },
+    "42": {
+      "display": "Yes — 6 × 4 + 8 × 3 = 24 + 24 = 48 cm².",
+      "accept": [
+        "48",
+        "24",
+        "6",
+        "4",
+        "8",
+        "3"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 3,
+      "rating": 1925
+    },
+    "43": {
+      "display": "Example: 8×9 (perimeter 34 cm) and 6×12 (perimeter 36 cm) — different perimeters for the same area of 72 cm².",
+      "accept": [
+        "34",
+        "36"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1975
+    },
+    "44": {
+      "display": "16 cm",
+      "accept": [
+        "16",
+        "16 cm",
+        "16cm"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "45": {
+      "display": "2500",
+      "accept": [
+        "2500"
+      ],
+      "tier": 1,
+      "rating": 831
+    },
+    "46": {
+      "display": "3.5",
+      "accept": [
+        "3.5"
+      ],
+      "tier": 1,
+      "rating": 838
+    },
+    "47": {
+      "display": "7.5",
+      "accept": [
+        "7.5"
+      ],
+      "tier": 1,
+      "rating": 845
+    },
+    "48": {
+      "display": "420",
+      "accept": [
+        "420"
+      ],
+      "tier": 1,
+      "rating": 852
+    },
+    "49": {
+      "display": "2.5",
+      "accept": [
+        "2.5"
+      ],
+      "tier": 1,
+      "rating": 859
+    },
+    "50": {
+      "display": "3600",
+      "accept": [
+        "3600"
+      ],
+      "tier": 1,
+      "rating": 866
+    },
+    "51": {
+      "display": "4.5",
+      "accept": [
+        "4.5"
+      ],
+      "tier": 1,
+      "rating": 873
+    },
+    "52": {
+      "display": "2300",
+      "accept": [
+        "2300"
+      ],
+      "tier": 1,
+      "rating": 880
+    },
+    "53": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 887
+    },
+    "54": {
+      "display": "80",
+      "accept": [
+        "80"
+      ],
+      "tier": 1,
+      "rating": 894
+    },
+    "55": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 901,
+      "contains": true
+    },
+    "56": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 908,
+      "contains": true
+    },
+    "57": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 915,
+      "contains": true
+    },
+    "58": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 922,
+      "contains": true
+    },
+    "59": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 929,
+      "contains": true
+    },
+    "60": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 936,
+      "contains": true
+    },
+    "61": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 943,
+      "contains": true
+    },
+    "62": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 950,
+      "contains": true
+    },
+    "63": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 957,
+      "contains": true
+    },
+    "64": {
+      "display": "450",
+      "accept": [
+        "450"
+      ],
+      "tier": 1,
+      "rating": 964
+    },
+    "65": {
+      "display": "3.2",
+      "accept": [
+        "3.2"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "66": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 978,
+      "contains": true
+    },
+    "67": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 985,
+      "contains": true
+    },
+    "68": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 992,
+      "contains": true
+    },
+    "69": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "rating": 999
+    },
+    "70": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1006,
+      "contains": true
+    },
+    "71": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1013,
+      "contains": true
+    },
+    "72": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1020,
+      "contains": true
+    },
+    "73": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1027,
+      "contains": true
+    },
+    "74": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1034,
+      "contains": true
+    },
+    "75": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1041,
+      "contains": true
+    },
+    "76": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1048,
+      "contains": true
+    },
+    "77": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1055,
+      "contains": true
+    },
+    "78": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1062,
+      "contains": true
+    },
+    "79": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1069,
+      "contains": true
+    },
+    "80": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1076,
+      "contains": true
+    },
+    "81": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1083,
+      "contains": true
+    },
+    "82": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1090,
+      "contains": true
+    },
+    "83": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1097,
+      "contains": true
+    },
+    "84": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1104,
+      "contains": true
+    },
+    "85": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1111
+    },
+    "86": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1118,
+      "contains": true
+    },
+    "87": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1125,
+      "contains": true
+    },
+    "88": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1132,
+      "contains": true
+    },
+    "89": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1139
+    },
+    "90": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1146,
+      "contains": true
+    },
+    "91": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1153,
+      "contains": true
+    },
+    "92": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1160,
+      "contains": true
+    },
+    "93": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1167
+    },
+    "94": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1174,
+      "contains": true
+    },
+    "95": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1181,
+      "contains": true
+    },
+    "96": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1188,
+      "contains": true
+    },
+    "97": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1195,
+      "contains": true
+    },
+    "98": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1202
+    },
+    "99": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 1,
+      "rating": 1209,
+      "contains": true
+    },
+    "100": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1216,
+      "contains": true
+    },
+    "101": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1223,
+      "contains": true
+    },
+    "102": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1230,
+      "contains": true
+    },
+    "103": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1237,
+      "contains": true
+    },
+    "104": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1244,
+      "contains": true
+    },
+    "105": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1251
+    },
+    "106": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1258,
+      "contains": true
+    },
+    "107": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1265,
+      "contains": true
+    },
+    "108": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1272,
+      "contains": true
+    },
+    "109": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1279,
+      "contains": true
+    },
+    "110": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1286,
+      "contains": true
+    },
+    "111": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1293,
+      "contains": true
+    },
+    "112": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1300
+    },
+    "113": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1307,
+      "contains": true
+    },
+    "114": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1314,
+      "contains": true
+    },
+    "115": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1321
+    },
+    "116": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1328,
+      "contains": true
+    },
+    "117": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1335,
+      "contains": true
+    },
+    "118": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1342
+    },
+    "119": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1349,
+      "contains": true
+    },
+    "120": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1356,
+      "contains": true
+    },
+    "121": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1363
+    },
+    "122": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1370,
+      "contains": true
+    },
+    "123": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1377
+    },
+    "124": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1384,
+      "contains": true
+    },
+    "125": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1391,
+      "contains": true
+    },
+    "126": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1398,
+      "contains": true
+    },
+    "127": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1100,
+      "contains": true
+    },
+    "128": {
+      "display": "2000",
+      "accept": [
+        "2000"
+      ],
+      "tier": 2,
+      "rating": 1104
+    },
+    "129": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1108
+    },
+    "130": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1112,
+      "contains": true
+    },
+    "131": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1116,
+      "contains": true
+    },
+    "132": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1121,
+      "contains": true
+    },
+    "133": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1125
+    },
+    "134": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1129,
+      "contains": true
+    },
+    "135": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1133,
+      "contains": true
+    },
+    "136": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1137
+    },
+    "137": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1141,
+      "contains": true
+    },
+    "138": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1145
+    },
+    "139": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1149,
+      "contains": true
+    },
+    "140": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1153
+    },
+    "141": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1158,
+      "contains": true
+    },
+    "142": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1162
+    },
+    "143": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1166,
+      "contains": true
+    },
+    "144": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1170,
+      "contains": true
+    },
+    "145": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1174
+    },
+    "146": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1178,
+      "contains": true
+    },
+    "147": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1182
+    },
+    "148": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1186,
+      "contains": true
+    },
+    "149": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1190,
+      "contains": true
+    },
+    "150": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1195,
+      "contains": true
+    },
+    "151": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1199
+    },
+    "152": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1203,
+      "contains": true
+    },
+    "153": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1207,
+      "contains": true
+    },
+    "154": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1211,
+      "contains": true
+    },
+    "155": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1215
+    },
+    "156": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1219,
+      "contains": true
+    },
+    "157": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1223,
+      "contains": true
+    },
+    "158": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1227,
+      "contains": true
+    },
+    "159": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1232
+    },
+    "160": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1236,
+      "contains": true
+    },
+    "161": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1240
+    },
+    "162": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1244,
+      "contains": true
+    },
+    "163": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1248
+    },
+    "164": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1252,
+      "contains": true
+    },
+    "165": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1256,
+      "contains": true
+    },
+    "166": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1260,
+      "contains": true
+    },
+    "167": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1264
+    },
+    "168": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 2,
+      "rating": 1268,
+      "contains": true
+    },
+    "169": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1273
+    },
+    "170": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1277,
+      "contains": true
+    },
+    "171": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1281
+    },
+    "172": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1285,
+      "contains": true
+    },
+    "173": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 3,
+      "rating": 1289,
+      "contains": true
+    },
+    "174": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1293,
+      "contains": true
+    },
+    "175": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1297
+    },
+    "176": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1301,
+      "contains": true
+    },
+    "177": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 3,
+      "rating": 1305,
+      "contains": true
+    },
+    "178": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1310,
+      "contains": true
+    },
+    "179": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1314
+    },
+    "180": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1318,
+      "contains": true
+    },
+    "181": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 3,
+      "rating": 1322,
+      "contains": true
+    },
+    "182": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1326,
+      "contains": true
+    },
+    "183": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1330
+    },
+    "184": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1334,
+      "contains": true
+    },
+    "185": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 3,
+      "rating": 1338,
+      "contains": true
+    },
+    "186": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1342,
+      "contains": true
+    },
+    "187": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1347
+    },
+    "188": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1351,
+      "contains": true
+    },
+    "189": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1355,
+      "contains": true
+    },
+    "190": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 3,
+      "rating": 1359,
+      "contains": true
+    },
+    "191": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1363,
+      "contains": true
+    },
+    "192": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1367
+    },
+    "193": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1371,
+      "contains": true
+    },
+    "194": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 3,
+      "rating": 1375
+    },
+    "195": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1379,
+      "contains": true
+    },
+    "196": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1384
+    },
+    "197": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1388,
+      "contains": true
+    },
+    "198": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 3,
+      "rating": 1392,
+      "contains": true
+    },
+    "199": {
+      "display": "See help for method.",
+      "accept": [
+        "method"
+      ],
+      "tier": 3,
+      "rating": 1396,
+      "contains": true
+    },
+    "200": {
+      "display": "240 bottles",
+      "accept": [
+        "240"
+      ],
+      "tier": 3,
+      "rating": 1400
+    }
+  }
+}

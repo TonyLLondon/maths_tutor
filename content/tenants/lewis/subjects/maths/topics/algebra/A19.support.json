@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Total 5, one is 2 — subtract.",
+      "help": "Other number **3**.\n\nSum minus known part.\n\n3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "2": {
+      "hint": "7 − 3.",
+      "help": "Other **4**.\n\nComplement to total.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "If $x=2$ in $x+y=6$, find $y$.",
+      "help": "$y=**4**$.\n\n$6-2$.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "$x=5$ in $x+y=8$.",
+      "help": "$y=**3**$.\n\nSubtract known.\n\n3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "$y=1$ in $x+y=5$.",
+      "help": "$x=**4**$.\n\n$5-1$.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "$x-y=2$, $y=1$ → $x=3$.",
+      "help": "$x=**3**$.\n\nAdd $y$ to difference.\n\n3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "$x=3$ in $x+y=7$.",
+      "help": "$y=**4**$.\n\nSimple substitution.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "8": {
+      "hint": "$y=4$ in $x+y=9$.",
+      "help": "$x=**5**$.\n\n$9-4$.\n\n5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "9": {
+      "hint": "Add the two equations to eliminate $y$.",
+      "help": "$2x=12$, $x=6$, $y=**3**$.\n\nElimination method.\n\n$x=6,y=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "Add: $2x=20$.",
+      "help": "$x=10$, $y=**5**$.\n\nSame technique.\n\n10 and 5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "11": {
+      "hint": "Subtract second from first to eliminate $y$.",
+      "help": "$x=5$, $y=**3**$.\n\n$2x+y=13$ minus $x+y=8$.\n\n5,3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "12": {
+      "hint": "Subtract equations.",
+      "help": "$2x=10$, $x=5$, $y=**2**$.\n\nEliminate $y$.\n\n5,2.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "Subtract to remove $x$.",
+      "help": "$2y=8$, $y=4$, $x=**2**$.\n\nThen back-substitute.\n\n2,4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "14": {
+      "hint": "Add equations to cancel $y$.",
+      "help": "$4x=16$, $x=4$, $y=**1**$.\n\nSum of equations.\n\n4,1.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "15": {
+      "hint": "Substitute $x=y+4$ into $x+y=10$.",
+      "help": "$2y+4=10$, $y=3$, $x=**7**$.\n\nSubstitution.\n\n7,3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "16": {
+      "hint": "Replace $y=2x$ in $x+y=15$.",
+      "help": "$3x=15$, $x=5$, $y=**10**$.\n\nLinked variables.\n\n5,10.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "Substitute $y=x-2$.",
+      "help": "$2x-2=8$, $x=5$, $y=**3**$.\n\nLinear link.\n\n5,3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "18": {
+      "hint": "$y=x+1$ into $2x+y=13$.",
+      "help": "$3x+1=13$, $x=4$, $y=**5**$.\n\nCombine substitution.\n\n4,5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "19": {
+      "hint": "$x=3y$ in $x+y=20$.",
+      "help": "$4y=20$, $y=5$, $x=**15**$.\n\nRatio link.\n\n15,5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "Replace $y=x+4$ in first equation.",
+      "help": "$5x=15$, $x=3$, $y=**7**$.\n\nStandard pair.\n\n3,7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "21": {
+      "hint": "$x=3$ in $x+y=10$.",
+      "help": "$y=**7**$.\n\nQuick sub.\n\n7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "$x=2$ in $2x+y=7$.",
+      "help": "$y=**3**$.\n\n$4+y=7$.\n\n3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "23": {
+      "hint": "Adding gives $2x=12$ so $x=6$ — then find $y$ from original.",
+      "help": "$x=6$, $y=**4**$ from $x+y=10$.\n\nSam may have stopped at $x$ only.\n\nComplete pair."
+    },
+    "24": {
+      "hint": "Adding can eliminate a variable if coefficients match.",
+      "help": "**Sometimes** — only when terms align to cancel.\n\nNot every add works.\n\nSometimes."
+    },
+    "25": {
+      "hint": "Subtract second equation from first.",
+      "help": "$y=5$, then $x=**2**$ from $x+y=7$.\n\nShow subtraction.\n\n2,5."
+    },
+    "26": {
+      "hint": "Pair B is double of first — same line.",
+      "help": "B is **dependent** (infinite solutions); A **unique** pair.\n\nParallel/coincident vs crossing once.\n\nExplain uniqueness."
+    },
+    "27": {
+      "hint": "Intersection point satisfies both equations.",
+      "help": "**True** — graph crossing = simultaneous solution.\n\nGraphical meaning.\n\nTrue."
+    },
+    "28": {
+      "hint": "Leo got $y=5$ — find $x$ from $x+y=11$.",
+      "help": "$x=**6**$.\n\nCheck subtraction steps.\n\n6,5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "29": {
+      "hint": "Adding removes $y$; subtracting removes $x$.",
+      "help": "Add → eliminate $y$. Subtract → eliminate $x$.\n\nChoose by which cancels.\n\nCompare methods."
+    },
+    "30": {
+      "hint": "Parallel lines: same slope, different intercept — no meeting.",
+      "help": "Example $x+y=1$ and $x+y=2$ — **no** solution.\n\nInconsistent parallel.\n\nExplain."
+    },
+    "31": {
+      "hint": "$x+y=15$, $x-y=5$.",
+      "help": "Add: $2x=20$, numbers **10** and **5**.\n\nSum and difference system.\n\n10,5."
+    },
+    "32": {
+      "hint": "$2p+r=3.50$, $p+r=2.50$.",
+      "help": "Subtract: $p=**£1**$, $r=**£1.50**$.\n\nTwo purchases.\n\nCosts."
+    },
+    "33": {
+      "hint": "$3x+2y=39$, $2x+2y=30$.",
+      "help": "Subtract: $x=9$, $y=**£6**$ (typical solve).\n\nTicket prices.\n\nAdult/child."
+    },
+    "34": {
+      "hint": "$x+y=20$, $x=3y$.",
+      "help": "$4y=20$, smaller **5**, larger **15**.\n\nTriple relationship.\n\n5 and 15."
+    },
+    "35": {
+      "hint": "Two equations for adult $a$ and family $f$ tickets.",
+      "help": "Let adult cost be $a$ and family cost be $f$. The purchases give $2a+f=25$ and $a+f=18$.\n\nSubtract the second equation from the first: $a=7$. Substitute into $a+f=18$ to get $f=11$.\n\nCheck: $2(7)+11=25$ and $7+11=18$."
+    },
+    "36": {
+      "hint": "$x+2y=16$, $x-y=1$.",
+      "help": "Subtract: $3y=15$, $y=5$, $x=**6**$.\n\nTwo relationships.\n\n6,5."
+    },
+    "37": {
+      "hint": "Multiply $x+y=6$ by 2 to match $3x+2y=16$.",
+      "help": "Eliminate after scaling — $x=**4**$, $y=**2**$ typical.\n\nMultiply equation first.\n\n4,2."
+    },
+    "38": {
+      "hint": "Eliminate $y$ or $x$ between the two lines.",
+      "help": "Standard elimination → $x=**2**$, $y=**4**$ (check arithmetic).\n\nTwo-step eliminate.\n\nPair solution."
+    },
+    "39": {
+      "hint": "$2x+2y=26$ and $x+3y=27$.",
+      "help": "First simplify $2x+2y=26$ to $x+y=13$.\n\nSubtract this from $x+3y=27$: $2y=14$, so $y=7$. Then $x=13-7=6$.\n\nCheck both originals: $2(6)+2(7)=26$ and $6+3(7)=27$."
+    },
+    "40": {
+      "hint": "Invent story with two unknowns and whole-number answer.",
+      "help": "Write two equations from context, solve, interpret.\n\nWhole numbers.\n\nYour problem."
+    },
+    "41": {
+      "hint": "Smaller $s$, larger $s+3$, sum 15.",
+      "help": "$2s+3=15$, $s=6$, numbers **6** and **9**.\n\nConsecutive-style sum.\n\n6,9."
+    },
+    "42": {
+      "hint": "$4c+7a=26$, $c+a=5$.",
+      "help": "Substitute: $4c+7(5-c)=26$ → **3** child, **2** adult (typical).\n\nTicket mix.\n\nCounts."
+    },
+    "43": {
+      "hint": "Add the equations to eliminate y, or substitute.",
+      "help": "Adding the equations: $2x = 4$, so $x = 2$.\n\nSubstitute back to find $y = 1$.\n\nCheck in both originals."
+    },
+    "44": {
+      "hint": "Add the equations to eliminate y, or substitute.",
+      "help": "Adding the equations: $2x = 6$, so $x = 3$.\n\nSubstitute back to find $y = 2$.\n\nCheck in both originals."
+    },
+    "45": {
+      "hint": "A19 Q45: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "46": {
+      "hint": "A19 Q46: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "47": {
+      "hint": "A19 Q47: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "48": {
+      "hint": "A19 Q48: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "49": {
+      "hint": "A19 Q49: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "50": {
+      "hint": "A19 Q50: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "51": {
+      "hint": "A19 Q51: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "52": {
+      "hint": "A19 Q52: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "53": {
+      "hint": "A19 Q53: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "54": {
+      "hint": "A19 Q54: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "55": {
+      "hint": "A19 Q55: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "56": {
+      "hint": "A19 Q56: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "57": {
+      "hint": "A19 Q57: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "58": {
+      "hint": "A19 Q58: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "59": {
+      "hint": "A19 Q59: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "60": {
+      "hint": "A19 Q60: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "61": {
+      "hint": "A19 Q61: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "62": {
+      "hint": "A19 Q62: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "63": {
+      "hint": "A19 Q63: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "64": {
+      "hint": "A19 Q64: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "65": {
+      "hint": "A19 Q65: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "66": {
+      "hint": "A19 Q66: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "67": {
+      "hint": "A19 Q67: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "68": {
+      "hint": "A19 Q68: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "69": {
+      "hint": "A19 Q69: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "70": {
+      "hint": "A19 Q70: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "71": {
+      "hint": "A19 Q71: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "72": {
+      "hint": "A19 Q72: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "73": {
+      "hint": "A19 Q73: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "74": {
+      "hint": "A19 Q74: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "75": {
+      "hint": "A19 Q75: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "76": {
+      "hint": "A19 Q76: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "77": {
+      "hint": "A19 Q77: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "78": {
+      "hint": "A19 Q78: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "79": {
+      "hint": "A19 Q79: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "80": {
+      "hint": "A19 Q80: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "81": {
+      "hint": "A19 Q81: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "82": {
+      "hint": "A19 Q82: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "83": {
+      "hint": "A19 Q83: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "84": {
+      "hint": "A19 Q84: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "85": {
+      "hint": "A19 Q85: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "86": {
+      "hint": "A19 Q86: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "87": {
+      "hint": "A19 Q87: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "88": {
+      "hint": "A19 Q88: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "89": {
+      "hint": "A19 Q89: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "90": {
+      "hint": "A19 Q90: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "91": {
+      "hint": "A19 Q91: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "92": {
+      "hint": "A19 Q92: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "93": {
+      "hint": "A19 Q93: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "94": {
+      "hint": "A19 Q94: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "95": {
+      "hint": "A19 Q95: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "96": {
+      "hint": "A19 Q96: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "97": {
+      "hint": "A19 Q97: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "98": {
+      "hint": "A19 Q98: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "99": {
+      "hint": "A19 Q99: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "100": {
+      "hint": "A19 Q100: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "101": {
+      "hint": "A19 Q101: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "102": {
+      "hint": "A19 Q102: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "103": {
+      "hint": "A19 Q103: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "104": {
+      "hint": "A19 Q104: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "105": {
+      "hint": "A19 Q105: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "106": {
+      "hint": "A19 Q106: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "107": {
+      "hint": "A19 Q107: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "108": {
+      "hint": "A19 Q108: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "109": {
+      "hint": "A19 Q109: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "110": {
+      "hint": "A19 Q110: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "111": {
+      "hint": "A19 Q111: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "112": {
+      "hint": "A19 Q112: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "113": {
+      "hint": "A19 Q113: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "114": {
+      "hint": "A19 Q114: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "115": {
+      "hint": "A19 Q115: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "116": {
+      "hint": "A19 Q116: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "117": {
+      "hint": "A19 Q117: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "118": {
+      "hint": "A19 Q118: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "119": {
+      "hint": "A19 Q119: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "120": {
+      "hint": "A19 Q120: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "121": {
+      "hint": "A19 Q121: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "122": {
+      "hint": "A19 Q122: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "123": {
+      "hint": "A19 Q123: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "124": {
+      "hint": "A19 Q124: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "125": {
+      "hint": "A19 Q125: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "126": {
+      "hint": "A19 Q126: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "127": {
+      "hint": "A19 Q127: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "128": {
+      "hint": "A19 Q128: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "129": {
+      "hint": "A19 Q129: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "130": {
+      "hint": "A19 Q130: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "131": {
+      "hint": "A19 Q131: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "132": {
+      "hint": "A19 Q132: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "133": {
+      "hint": "A19 Q133: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "134": {
+      "hint": "A19 Q134: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "135": {
+      "hint": "A19 Q135: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "136": {
+      "hint": "A19 Q136: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "137": {
+      "hint": "A19 Q137: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "138": {
+      "hint": "A19 Q138: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "139": {
+      "hint": "A19 Q139: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "140": {
+      "hint": "A19 Q140: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "141": {
+      "hint": "A19 Q141: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "142": {
+      "hint": "A19 Q142: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "143": {
+      "hint": "A19 Q143: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "144": {
+      "hint": "A19 Q144: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "145": {
+      "hint": "A19 Q145: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "146": {
+      "hint": "A19 Q146: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "147": {
+      "hint": "A19 Q147: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "148": {
+      "hint": "A19 Q148: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "149": {
+      "hint": "A19 Q149: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "150": {
+      "hint": "A19 Q150: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "151": {
+      "hint": "A19 Q151: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "152": {
+      "hint": "A19 Q152: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "153": {
+      "hint": "A19 Q153: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "154": {
+      "hint": "A19 Q154: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "155": {
+      "hint": "A19 Q155: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "156": {
+      "hint": "A19 Q156: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "157": {
+      "hint": "A19 Q157: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "158": {
+      "hint": "A19 Q158: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "159": {
+      "hint": "A19 Q159: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "160": {
+      "hint": "A19 Q160: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "161": {
+      "hint": "A19 Q161: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "162": {
+      "hint": "A19 Q162: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "163": {
+      "hint": "A19 Q163: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "164": {
+      "hint": "A19 Q164: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "165": {
+      "hint": "A19 Q165: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "166": {
+      "hint": "A19 Q166: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "167": {
+      "hint": "A19 Q167: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "168": {
+      "hint": "A19 Q168: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "169": {
+      "hint": "A19 Q169: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "170": {
+      "hint": "A19 Q170: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "171": {
+      "hint": "A19 Q171: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "172": {
+      "hint": "A19 Q172: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "173": {
+      "hint": "A19 Q173: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "174": {
+      "hint": "A19 Q174: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "175": {
+      "hint": "A19 Q175: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "176": {
+      "hint": "A19 Q176: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "177": {
+      "hint": "A19 Q177: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "178": {
+      "hint": "A19 Q178: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "179": {
+      "hint": "A19 Q179: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "180": {
+      "hint": "A19 Q180: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "181": {
+      "hint": "A19 Q181: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "182": {
+      "hint": "A19 Q182: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "183": {
+      "hint": "A19 Q183: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "184": {
+      "hint": "A19 Q184: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "185": {
+      "hint": "A19 Q185: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "186": {
+      "hint": "A19 Q186: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "187": {
+      "hint": "A19 Q187: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "188": {
+      "hint": "A19 Q188: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "189": {
+      "hint": "A19 Q189: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "190": {
+      "hint": "A19 Q190: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "191": {
+      "hint": "A19 Q191: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "192": {
+      "hint": "A19 Q192: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "193": {
+      "hint": "A19 Q193: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "194": {
+      "hint": "A19 Q194: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "195": {
+      "hint": "A19 Q195: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "196": {
+      "hint": "A19 Q196: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "197": {
+      "hint": "A19 Q197: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "198": {
+      "hint": "A19 Q198: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "199": {
+      "hint": "A19 Q199: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "200": {
+      "hint": "A19 Q200: what is the first step on paper?",
+      "help": "Eliminate or substitute to find both unknowns.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    }
+  }
+}

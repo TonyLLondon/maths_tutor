@@ -18,6 +18,16 @@ export const TARGET_QUESTIONS_PER_TOPIC = 200;
 /** Max rating change per question (kids). */
 export const ELO_K = 28;
 
+/** Only serve questions whose rating is within this many points of the learner’s level. */
+export const ADAPTIVE_RATING_WINDOW = 110;
+
+/** If nothing in window, widen in steps before falling back to the full pool. */
+const PICK_WINDOW_STEPS = [
+  ADAPTIVE_RATING_WINDOW,
+  ADAPTIVE_RATING_WINDOW + 50,
+  ADAPTIVE_RATING_WINDOW + 100,
+] as const;
+
 const TIER_BASE: Record<QuestionTier, number> = {
   1: 1200,
   2: 1600,
@@ -68,10 +78,21 @@ export function pickNextQuestionId(opts: PickNextOptions): string | null {
   if (questionIds.length === 0) return null;
 
   const sessionSet = new Set(sessionIds);
-  const candidates = questionIds.filter((id) => ratingById[id] != null);
-  if (candidates.length === 0) return questionIds[0] ?? null;
+  const rated = questionIds.filter((id) => ratingById[id] != null);
+  if (rated.length === 0) return questionIds[0] ?? null;
 
-  const scored = candidates.map((id) => {
+  let pool = rated;
+  for (const window of PICK_WINDOW_STEPS) {
+    const inBand = rated.filter(
+      (id) => Math.abs(ratingById[id]! - userRating) <= window,
+    );
+    if (inBand.length > 0) {
+      pool = inBand;
+      break;
+    }
+  }
+
+  const scored = pool.map((id) => {
     const qRating = ratingById[id]!;
     const distance = Math.abs(qRating - userRating);
     const repeatPenalty = sessionSet.has(id) ? 120 : 0;

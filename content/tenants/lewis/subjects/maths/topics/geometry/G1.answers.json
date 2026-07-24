@@ -1,0 +1,1852 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "triangle",
+      "accept": [
+        "triangle"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "square",
+      "accept": [
+        "square"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "parallel",
+      "accept": [
+        "parallel"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "perpendicular",
+      "accept": [
+        "perpendicular"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "11": {
+      "display": "3 sides and 3 vertices",
+      "accept": [
+        "3",
+        "3 sides",
+        "3 sides 3 vertices",
+        "3 vertices"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "12": {
+      "display": "square, rectangle, rhombus",
+      "accept": [
+        "square rectangle rhombus",
+        "square, rectangle, rhombus",
+        "rectangle square rhombus"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "13": {
+      "display": "90° (or a right angle)",
+      "accept": [
+        "90",
+        "90°",
+        "90 degrees",
+        "right angle"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "14": {
+      "display": "scalene",
+      "accept": [
+        "scalene"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "15": {
+      "display": "isosceles",
+      "accept": [
+        "isosceles"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "16": {
+      "display": "False — every square is a rectangle, but not every rectangle is a square.",
+      "accept": [
+        "false",
+        "not true"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 968
+    },
+    "17": {
+      "display": "equilateral",
+      "accept": [
+        "equilateral"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "18": {
+      "display": "5 sides and 5 vertices",
+      "accept": [
+        "5",
+        "5 sides",
+        "5 vertices"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "19": {
+      "display": "6 sides",
+      "accept": [
+        "6",
+        "6 sides"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "20": {
+      "display": "quadrilateral",
+      "accept": [
+        "quadrilateral"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "21": {
+      "display": "Always — a quadrilateral with four right angles must have opposite sides equal and parallel, so it is always a rectangle (a square counts as a special rectangle).",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "22": {
+      "display": "The horizontal lines are parallel; the vertical line is perpendicular to them.",
+      "accept": [
+        "parallel",
+        "perpendicular"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 993
+    },
+    "23": {
+      "display": "No — e.g. a rhombus or a kite has equal sides but is not a rectangle unless its angles are also right angles.",
+      "accept": [
+        "no",
+        "incorrect",
+        "rhombus",
+        "kite"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1086
+    },
+    "24": {
+      "display": "Yes — a square has all the properties of a rectangle (four right angles, opposite sides equal and parallel) plus all four sides equal, so it is a special rectangle.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1179
+    },
+    "25": {
+      "display": "Sometimes — an isosceles or equilateral triangle has at least two equal sides, but a scalene triangle does not.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1271
+    },
+    "26": {
+      "display": "A rhombus has four equal sides but its angles are not usually 90°. A square has four equal sides AND four right angles (90° each).",
+      "accept": [
+        "90",
+        "right angle",
+        "equal sides"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1364
+    },
+    "27": {
+      "display": "False — a regular polygon must have both equal sides AND equal angles; if the angles differ, the shape is not regular.",
+      "accept": [
+        "false",
+        "equal angles"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1457
+    },
+    "28": {
+      "display": "parallelogram",
+      "accept": [
+        "parallelogram"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "29": {
+      "display": "A right-angle corner sketched with a small square marking the angle; perpendicular means two lines meet at a right angle (90°).",
+      "accept": [
+        "perpendicular",
+        "90",
+        "right angle"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1100
+    },
+    "30": {
+      "display": "6 sides and 6 vertices. A square has only 4 sides and 4 vertices, and its angles (90°) are different from a hexagon's interior angles.",
+      "accept": [
+        "6",
+        "six sides",
+        "six vertices"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1230
+    },
+    "31": {
+      "display": "8 sides and 8 vertices.",
+      "accept": [
+        "8",
+        "eight sides",
+        "eight vertices"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1360
+    },
+    "32": {
+      "display": "adjacent",
+      "accept": [
+        "adjacent",
+        "adjacent sides"
+      ],
+      "tier": 3,
+      "rating": 1490
+    },
+    "33": {
+      "display": "Right-angled triangles. Yes, the two triangles are the same size and shape (congruent), since the diagonal splits the rectangle exactly in half.",
+      "accept": [
+        "right-angled",
+        "right angled",
+        "congruent",
+        "same"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "34": {
+      "display": "All three sides are equal in length, and all three angles are equal, each measuring 60°.",
+      "accept": [
+        "equal",
+        "60"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "35": {
+      "display": "115°",
+      "accept": [
+        "115",
+        "115°",
+        "115 degrees"
+      ],
+      "tier": 2,
+      "rating": 750
+    },
+    "36": {
+      "display": "170°",
+      "accept": [
+        "170",
+        "170°"
+      ],
+      "tier": 2,
+      "rating": 880
+    },
+    "37": {
+      "display": "40°",
+      "accept": [
+        "40",
+        "40°"
+      ],
+      "tier": 2,
+      "rating": 1010
+    },
+    "38": {
+      "display": "360°",
+      "accept": [
+        "360",
+        "360°"
+      ],
+      "tier": 2,
+      "rating": 1140
+    },
+    "39": {
+      "display": "80°",
+      "accept": [
+        "80",
+        "80°"
+      ],
+      "tier": 2,
+      "rating": 1270
+    },
+    "40": {
+      "display": "325°",
+      "accept": [
+        "325",
+        "325°"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "41": {
+      "display": "Trapezium (or trapezoid) — one pair of parallel sides.",
+      "accept": [
+        "trapezium",
+        "trapezoid"
+      ],
+      "tier": 3,
+      "rating": 1400
+    },
+    "42": {
+      "display": "Sometimes — right-angled triangles have one right angle, but acute and obtuse triangles do not.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1600
+    },
+    "43": {
+      "display": "A hexagon, because it has six straight sides.",
+      "accept": [
+        "hexagon",
+        "six",
+        "6"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1800
+    },
+    "44": {
+      "display": "Always has a right angle: square, rectangle. Does not always have a right angle: rhombus, kite.",
+      "accept": [
+        "square",
+        "rectangle",
+        "rhombus",
+        "kite"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "45": {
+      "display": "6 vertices",
+      "accept": [
+        "6",
+        "six",
+        "6 vertices"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "46": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 762
+    },
+    "47": {
+      "display": "heptagon",
+      "accept": [
+        "heptagon"
+      ],
+      "tier": 1,
+      "rating": 774
+    },
+    "48": {
+      "display": "triangle",
+      "accept": [
+        "triangle"
+      ],
+      "tier": 1,
+      "rating": 785
+    },
+    "49": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 797
+    },
+    "50": {
+      "display": "diagonal",
+      "accept": [
+        "diagonal"
+      ],
+      "tier": 1,
+      "rating": 809
+    },
+    "51": {
+      "display": "trapezium",
+      "accept": [
+        "trapezium",
+        "trapezoid"
+      ],
+      "tier": 1,
+      "rating": 821
+    },
+    "52": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 833
+    },
+    "53": {
+      "display": "acute",
+      "accept": [
+        "acute",
+        "acute-angled",
+        "acute angled"
+      ],
+      "tier": 1,
+      "rating": 845
+    },
+    "54": {
+      "display": "congruent",
+      "accept": [
+        "congruent"
+      ],
+      "tier": 1,
+      "rating": 856
+    },
+    "55": {
+      "display": "9",
+      "accept": [
+        "9",
+        "nine"
+      ],
+      "tier": 1,
+      "rating": 868
+    },
+    "56": {
+      "display": "acute",
+      "accept": [
+        "acute"
+      ],
+      "tier": 1,
+      "rating": 880
+    },
+    "57": {
+      "display": "obtuse",
+      "accept": [
+        "obtuse"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "58": {
+      "display": "straight",
+      "accept": [
+        "straight"
+      ],
+      "tier": 1,
+      "rating": 904
+    },
+    "59": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 915
+    },
+    "60": {
+      "display": "parallelogram",
+      "accept": [
+        "parallelogram"
+      ],
+      "tier": 1,
+      "rating": 927
+    },
+    "61": {
+      "display": "rhombus",
+      "accept": [
+        "rhombus"
+      ],
+      "tier": 1,
+      "rating": 939
+    },
+    "62": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 951
+    },
+    "63": {
+      "display": "decagon",
+      "accept": [
+        "decagon"
+      ],
+      "tier": 1,
+      "rating": 963
+    },
+    "64": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 975
+    },
+    "65": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 986
+    },
+    "66": {
+      "display": "perpendicular",
+      "accept": [
+        "perpendicular"
+      ],
+      "tier": 1,
+      "rating": 998
+    },
+    "67": {
+      "display": "scalene",
+      "accept": [
+        "scalene"
+      ],
+      "tier": 1,
+      "rating": 1010
+    },
+    "68": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 1022
+    },
+    "69": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1034
+    },
+    "70": {
+      "display": "vertices",
+      "accept": [
+        "vertices"
+      ],
+      "tier": 1,
+      "rating": 1045
+    },
+    "71": {
+      "display": "octagon",
+      "accept": [
+        "octagon"
+      ],
+      "tier": 1,
+      "rating": 1057
+    },
+    "72": {
+      "display": "reflex",
+      "accept": [
+        "reflex"
+      ],
+      "tier": 1,
+      "rating": 1069
+    },
+    "73": {
+      "display": "65°",
+      "accept": [
+        "65",
+        "65°"
+      ],
+      "tier": 1,
+      "rating": 1081
+    },
+    "74": {
+      "display": "equal",
+      "accept": [
+        "equal",
+        "equal in length"
+      ],
+      "tier": 1,
+      "rating": 1093
+    },
+    "75": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "76": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "77": {
+      "display": "polygon",
+      "accept": [
+        "polygon"
+      ],
+      "tier": 1,
+      "rating": 1128
+    },
+    "78": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°",
+        "right"
+      ],
+      "tier": 1,
+      "rating": 1140
+    },
+    "79": {
+      "display": "rhombus",
+      "accept": [
+        "rhombus"
+      ],
+      "tier": 1,
+      "rating": 1152
+    },
+    "80": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1164
+    },
+    "81": {
+      "display": "obtuse",
+      "accept": [
+        "obtuse"
+      ],
+      "tier": 1,
+      "rating": 1175
+    },
+    "82": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 1187
+    },
+    "83": {
+      "display": "Sometimes — a parallelogram is a rectangle only when all angles are right angles.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1199
+    },
+    "84": {
+      "display": "hexagon",
+      "accept": [
+        "hexagon"
+      ],
+      "tier": 1,
+      "rating": 1211
+    },
+    "85": {
+      "display": "right",
+      "accept": [
+        "right"
+      ],
+      "tier": 1,
+      "rating": 1223
+    },
+    "86": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1235
+    },
+    "87": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 1246
+    },
+    "88": {
+      "display": "symmetry",
+      "accept": [
+        "symmetry"
+      ],
+      "tier": 1,
+      "rating": 1258
+    },
+    "89": {
+      "display": "obtuse",
+      "accept": [
+        "obtuse"
+      ],
+      "tier": 1,
+      "rating": 1270
+    },
+    "90": {
+      "display": "61°",
+      "accept": [
+        "61",
+        "61°"
+      ],
+      "tier": 1,
+      "rating": 1282
+    },
+    "91": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1294
+    },
+    "92": {
+      "display": "pentagon",
+      "accept": [
+        "pentagon"
+      ],
+      "tier": 1,
+      "rating": 1305
+    },
+    "93": {
+      "display": "D",
+      "accept": [
+        "d"
+      ],
+      "tier": 1,
+      "rating": 1317
+    },
+    "94": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 1329
+    },
+    "95": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1341
+    },
+    "96": {
+      "display": "regular",
+      "accept": [
+        "regular"
+      ],
+      "tier": 1,
+      "rating": 1353
+    },
+    "97": {
+      "display": "70°",
+      "accept": [
+        "70",
+        "70°"
+      ],
+      "tier": 2,
+      "rating": 1365
+    },
+    "98": {
+      "display": "square",
+      "accept": [
+        "square"
+      ],
+      "tier": 1,
+      "rating": 1376
+    },
+    "99": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1388
+    },
+    "100": {
+      "display": "equilateral",
+      "accept": [
+        "equilateral"
+      ],
+      "tier": 1,
+      "rating": 1400
+    },
+    "101": {
+      "display": "Sometimes — a rhombus is a square only when all angles are 90°.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "102": {
+      "display": "A polygon is made of straight line segments; a circle is one curved line with no straight sides.",
+      "accept": [
+        "straight",
+        "curved",
+        "curve"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 913
+    },
+    "103": {
+      "display": "False — a rhombus has four equal sides but angles need not be 90°.",
+      "accept": [
+        "false",
+        "rhombus"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 927
+    },
+    "104": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 940
+    },
+    "105": {
+      "display": "Never — a kite has equal **adjacent** sides, not opposite pairs.",
+      "accept": [
+        "never",
+        "adjacent"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 953
+    },
+    "106": {
+      "display": "A rectangle has four right angles; a general parallelogram has opposite angles equal but not necessarily 90°.",
+      "accept": [
+        "90",
+        "right"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 966
+    },
+    "107": {
+      "display": "False — an isosceles triangle with sides 5, 5, 8 is not equilateral.",
+      "accept": [
+        "false",
+        "not equilateral"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 980
+    },
+    "108": {
+      "display": "A trapezium has one pair of parallel sides; a parallelogram has two pairs of parallel sides.",
+      "accept": [
+        "one pair",
+        "two pairs",
+        "parallel"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 993
+    },
+    "109": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1006
+    },
+    "110": {
+      "display": "Yes — every quadrilateral has four corners (vertices).",
+      "accept": [
+        "yes",
+        "correct",
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1019
+    },
+    "111": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1033
+    },
+    "112": {
+      "display": "Trapezium (or kite) — e.g. a trapezium with only one pair of parallel sides.",
+      "accept": [
+        "trapezium",
+        "kite"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1046
+    },
+    "113": {
+      "display": "Always — opposite angles in a parallelogram are equal.",
+      "accept": [
+        "always",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1059
+    },
+    "114": {
+      "display": "A square has four right angles like a rectangle and four equal sides like a rhombus.",
+      "accept": [
+        "rectangle",
+        "rhombus",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1072
+    },
+    "115": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1086
+    },
+    "116": {
+      "display": "Two congruent right-angled isosceles triangles.",
+      "accept": [
+        "right",
+        "right-angled",
+        "isosceles"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1099
+    },
+    "117": {
+      "display": "Always — “regular” means equal sides and equal angles.",
+      "accept": [
+        "always",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1112
+    },
+    "118": {
+      "display": "No — a pentagon has five sides but they need not all be equal unless it is regular.",
+      "accept": [
+        "no",
+        "false",
+        "regular"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1126
+    },
+    "119": {
+      "display": "False — parallel lines go on forever and can be different lengths.",
+      "accept": [
+        "false",
+        "different"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1139
+    },
+    "120": {
+      "display": "Square and rectangle",
+      "accept": [
+        "square",
+        "rectangle"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1152
+    },
+    "121": {
+      "display": "Always — every triangle has at least two acute angles.",
+      "accept": [
+        "always",
+        "acute"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1165
+    },
+    "122": {
+      "display": "Adjacent sides meet at a corner; opposite sides are across from each other and do not share a vertex.",
+      "accept": [
+        "adjacent",
+        "opposite"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1179
+    },
+    "123": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1192
+    },
+    "124": {
+      "display": "A square (four lines of symmetry) has more than a non-square rectangle (two).",
+      "accept": [
+        "square",
+        "four",
+        "2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1205
+    },
+    "125": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1218
+    },
+    "126": {
+      "display": "No — a rectangle needs four right angles, not just one.",
+      "accept": [
+        "no",
+        "four right"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1232
+    },
+    "127": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1245
+    },
+    "128": {
+      "display": "Regular: all sides and angles equal. Irregular: sides or angles not all equal.",
+      "accept": [
+        "regular",
+        "equal",
+        "irregular"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1258
+    },
+    "129": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1271
+    },
+    "130": {
+      "display": "Each angle is 60° (three equal angles totalling 180°).",
+      "accept": [
+        "60",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1285
+    },
+    "131": {
+      "display": "Sometimes — a general parallelogram may have no line symmetry unless it is a rectangle or rhombus.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1298
+    },
+    "132": {
+      "display": "Triangles: scalene, equilateral. Quadrilaterals: square, kite.",
+      "accept": [
+        "scalene",
+        "equilateral",
+        "square",
+        "kite"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1311
+    },
+    "133": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1324
+    },
+    "134": {
+      "display": "A rectangle can have different length and width, so sides need not all be equal like a square.",
+      "accept": [
+        "different",
+        "not equal",
+        "length"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1338
+    },
+    "135": {
+      "display": "False — only one angle is obtuse; the other two are acute.",
+      "accept": [
+        "false",
+        "one"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "136": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 2,
+      "rating": 1364
+    },
+    "137": {
+      "display": "Never — a diagonal of a rectangle is longer than each side.",
+      "accept": [
+        "never",
+        "longer"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1378
+    },
+    "138": {
+      "display": "kite",
+      "accept": [
+        "kite"
+      ],
+      "tier": 2,
+      "rating": 1391
+    },
+    "139": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1404
+    },
+    "140": {
+      "display": "A rhombus has four equal sides; a kite has two pairs of equal adjacent sides.",
+      "accept": [
+        "rhombus",
+        "kite",
+        "adjacent"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1417
+    },
+    "141": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1431
+    },
+    "142": {
+      "display": "They counted five sides — a quadrilateral must have exactly four.",
+      "accept": [
+        "five",
+        "four"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1444
+    },
+    "143": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1457
+    },
+    "144": {
+      "display": "60°",
+      "accept": [
+        "60",
+        "60°"
+      ],
+      "tier": 2,
+      "rating": 1470
+    },
+    "145": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1484
+    },
+    "146": {
+      "display": "Opposite sides run in the same direction and stay the same distance apart so they never meet.",
+      "accept": [
+        "parallel",
+        "same direction"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1497
+    },
+    "147": {
+      "display": "False — a heptagon has seven sides, more than a hexagon’s six.",
+      "accept": [
+        "false",
+        "seven"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1510
+    },
+    "148": {
+      "display": "trapezium",
+      "accept": [
+        "trapezium",
+        "trapezoid"
+      ],
+      "tier": 2,
+      "rating": 1523
+    },
+    "149": {
+      "display": "Never — two right angles would sum to 180° with no angle left for the third corner.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1537
+    },
+    "150": {
+      "display": "circle",
+      "accept": [
+        "circle"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "151": {
+      "display": "5 sides and 5 vertices",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1100
+    },
+    "152": {
+      "display": "Square with four right angles",
+      "accept": [
+        "square",
+        "four",
+        "4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1113
+    },
+    "153": {
+      "display": "isosceles",
+      "accept": [
+        "isosceles"
+      ],
+      "tier": 3,
+      "rating": 1127
+    },
+    "154": {
+      "display": "No — diagonals of a non-square rectangle are not perpendicular.",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1140
+    },
+    "155": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 3,
+      "rating": 1153
+    },
+    "156": {
+      "display": "8 sides and 8 vertices",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1166
+    },
+    "157": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1180
+    },
+    "158": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1193
+    },
+    "159": {
+      "display": "70°",
+      "accept": [
+        "70",
+        "70°"
+      ],
+      "tier": 3,
+      "rating": 1206
+    },
+    "160": {
+      "display": "isosceles",
+      "accept": [
+        "isosceles"
+      ],
+      "tier": 3,
+      "rating": 1219
+    },
+    "161": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1233
+    },
+    "162": {
+      "display": "parallel",
+      "accept": [
+        "parallel"
+      ],
+      "tier": 3,
+      "rating": 1246
+    },
+    "163": {
+      "display": "6",
+      "accept": [
+        "6",
+        "hexagon",
+        "six"
+      ],
+      "tier": 3,
+      "rating": 1259
+    },
+    "164": {
+      "display": "Polygons are made of straight sides; a circle is a single curved boundary.",
+      "accept": [
+        "straight",
+        "curved"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1272
+    },
+    "165": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1286
+    },
+    "166": {
+      "display": "right-angled",
+      "accept": [
+        "right",
+        "right-angled",
+        "right angled"
+      ],
+      "tier": 3,
+      "rating": 1299
+    },
+    "167": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 3,
+      "rating": 1312
+    },
+    "168": {
+      "display": "trapezium",
+      "accept": [
+        "trapezium",
+        "trapezoid"
+      ],
+      "tier": 3,
+      "rating": 1326
+    },
+    "169": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°"
+      ],
+      "tier": 3,
+      "rating": 1339
+    },
+    "170": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 3,
+      "rating": 1352
+    },
+    "171": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1365
+    },
+    "172": {
+      "display": "trapezium",
+      "accept": [
+        "trapezium",
+        "trapezoid"
+      ],
+      "tier": 3,
+      "rating": 1379
+    },
+    "173": {
+      "display": "60°",
+      "accept": [
+        "60",
+        "60°"
+      ],
+      "tier": 3,
+      "rating": 1392
+    },
+    "174": {
+      "display": "False — opposite sides are equal in length in a parallelogram.",
+      "accept": [
+        "false",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1405
+    },
+    "175": {
+      "display": "180°",
+      "accept": [
+        "180",
+        "180°"
+      ],
+      "tier": 3,
+      "rating": 1418
+    },
+    "176": {
+      "display": "isosceles",
+      "accept": [
+        "isosceles"
+      ],
+      "tier": 3,
+      "rating": 1432
+    },
+    "177": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "tier": 3,
+      "rating": 1445
+    },
+    "178": {
+      "display": "dodecagon",
+      "accept": [
+        "dodecagon",
+        "12-sided",
+        "12 sided"
+      ],
+      "tier": 3,
+      "rating": 1458
+    },
+    "179": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1471
+    },
+    "180": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1485
+    },
+    "181": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 3,
+      "rating": 1498
+    },
+    "182": {
+      "display": "90° + 95° > 180°, so the three angles cannot fit in one triangle.",
+      "accept": [
+        "180",
+        "sum",
+        "too big"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1511
+    },
+    "183": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1524
+    },
+    "184": {
+      "display": "All eight sides are equal and all eight angles are equal.",
+      "accept": [
+        "equal",
+        "eight"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1538
+    },
+    "185": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 3,
+      "rating": 1551
+    },
+    "186": {
+      "display": "triangle",
+      "accept": [
+        "triangle",
+        "triangles"
+      ],
+      "tier": 3,
+      "rating": 1564
+    },
+    "187": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1578
+    },
+    "188": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 3,
+      "rating": 1591
+    },
+    "189": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1604
+    },
+    "190": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 3,
+      "rating": 1617
+    },
+    "191": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1631
+    },
+    "192": {
+      "display": "Same size and same shape — they match exactly.",
+      "accept": [
+        "same",
+        "size",
+        "shape"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1644
+    },
+    "193": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1657
+    },
+    "194": {
+      "display": "70° and 110°",
+      "accept": [
+        "70",
+        "110"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1670
+    },
+    "195": {
+      "display": "Always — an equilateral triangle is a regular triangle.",
+      "accept": [
+        "always",
+        "equilateral"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1684
+    },
+    "196": {
+      "display": "Trapezium with one pair of parallel sides clearly marked.",
+      "accept": [
+        "trapezium",
+        "parallel"
+      ],
+      "tier": 3,
+      "rating": 1697,
+      "contains": true
+    },
+    "197": {
+      "display": "A rhombus has four equal sides; a parallelogram only has opposite sides equal.",
+      "accept": [
+        "equal",
+        "rhombus",
+        "parallelogram"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1710
+    },
+    "198": {
+      "display": "Sometimes — it is a rectangle but only a square if all sides are equal.",
+      "accept": [
+        "sometimes",
+        "rectangle"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1723
+    },
+    "199": {
+      "display": "parallel",
+      "accept": [
+        "parallel"
+      ],
+      "tier": 3,
+      "rating": 1737
+    },
+    "200": {
+      "display": "Name one rectangular object and one triangular object, each with a correct property such as side count.",
+      "accept": [
+        "rectangle",
+        "triangle",
+        "3",
+        "4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    }
+  }
+}

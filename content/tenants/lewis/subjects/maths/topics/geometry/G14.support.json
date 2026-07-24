@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Square perimeter = 4 × side — side is 2 cm.",
+      "help": "Perimeter $= 4 \\times 2 = 8$ cm.\n\nExample: square side 5 cm → perimeter 20 cm."
+    },
+    "2": {
+      "hint": "Rectangle perimeter = 2 × (length + width).",
+      "help": "$2 \\times (3 + 2) = 10$ cm.\n\nExample: 8 m by 5 m → 26 m.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "Area by counting squares: 3 long, 2 wide.",
+      "help": "$3 \\times 2 = 6$ unit squares cover the rectangle.\n\nExample: grid counting."
+    },
+    "4": {
+      "hint": "Distance **around** — perimeter or area?",
+      "help": "**Perimeter** goes around the outside.\n\nExample: fence length."
+    },
+    "5": {
+      "hint": "Space **inside** — perimeter or area?",
+      "help": "**Area** measures inside space.\n\nExample: paint on a wall.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "6": {
+      "hint": "Square side 4 cm — multiply by 4 for perimeter.",
+      "help": "Perimeter $= 4 \\times 4 = 16$ cm.\n\nExample: four equal sides."
+    },
+    "7": {
+      "hint": "4 rows of 2 squares — multiply rows × columns.",
+      "help": "Area $= 4 \\times 2 = 8$ square units.\n\nExample: array of unit squares."
+    },
+    "8": {
+      "hint": "Area uses squared units — cm or cm²?",
+      "help": "**cm²** for area.\n\nExample: 5 cm² not 5 cm.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "9": {
+      "hint": "Perimeter 8 by 5 rectangle: 2(8+5).",
+      "help": "Perimeter $= 2(8+5) = 26$ cm.\n\nExample: add both dimensions, double."
+    },
+    "10": {
+      "hint": "Area = length × width for rectangle.",
+      "help": "Area $= 8 \\times 5 = 40$ cm².\n\nExample: same rectangle, different measure."
+    },
+    "11": {
+      "hint": "Area formula with length and width letters.",
+      "help": "**Area = length × width** (or $A = lw$).\n\nExample: substitute numbers."
+    },
+    "12": {
+      "hint": "Square: perimeter 4×6; area 6×6.",
+      "help": "Perimeter $= 24$ m, area $= 36$ m².\n\nExample: side 6 m.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "200 cm = ? m; 3 m² = ? cm² using 1 m = 100 cm.",
+      "help": "200 cm $= 2$ m. $3$ m² $= 3 \\times 10000 = 30000$ cm² (each m is 100 cm, area scales by 100²).\n\nExample: 1 m² = 10 000 cm²."
+    },
+    "14": {
+      "hint": "L-shape: add areas of two rectangles (watch overlap).",
+      "help": "Areas $10\\times4=40$ and $6\\times4=24$ → total **64** cm² (shared 4 cm side, no double count if split cleanly).\n\nExample: split L into two rectangles."
+    },
+    "15": {
+      "hint": "Perimeter formula: 2(length + width).",
+      "help": "**Perimeter = 2 × (length + width)**.\n\nExample: plug in 10 and 3."
+    },
+    "16": {
+      "hint": "Square area 49 — side is square root of 49.",
+      "help": "Side $= \\sqrt{49} = 7$ cm.\n\nExample: $s^2=49$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "Area = length × width — find width from 60 and 12.",
+      "help": "Width $= 60 \\div 12 = 5$ cm.\n\nExample: rearrange $A=lw$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "Regular pentagon perimeter = 5 × side.",
+      "help": "$5 \\times 7 = 35$ cm.\n\nExample: five equal sides.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "19": {
+      "hint": "Field perimeter 2(40+25).",
+      "help": "$2(40+25) = 130$ m.\n\nExample: rectangle field walk.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "5 m to cm; 15 000 cm² to m².",
+      "help": "5 m $= 500$ cm. 15 000 cm² $= 1.5$ m².\n\nExample: divide cm² by 10 000."
+    },
+    "21": {
+      "hint": "Work perimeter of 6×4 and 12×2 — both area 24.",
+      "help": "A: $2(6+4)=20$ cm. B: $2(12+2)=28$ cm — **different perimeters**, same area.\n\nExample: compare both."
+    },
+    "22": {
+      "hint": "Double length and width on 3×2 — area becomes 4 times, not 2.",
+      "help": "Original area 6. Doubled dimensions 6×4 → area 24 (**×4**). Statement **never** true as “double area”.\n\nExample: test numbers."
+    },
+    "23": {
+      "hint": "Sam used area formula 7×3 — perimeter needs adding all sides twice.",
+      "help": "Mistake: used **area** formula. Perimeter $= 2(7+3)=20$ cm, not 21.\n\nExample: perimeter vs area."
+    },
+    "24": {
+      "hint": "Square side from perimeter 20; rectangle 8×2 area — compare.",
+      "help": "Square side 5 cm → area **25** cm². Rectangle area **16** cm² — **not equal**.\n\nExample: same perimeter 20."
+    },
+    "25": {
+      "hint": "Give long thin shape vs compact shape — same perimeter, smaller area.",
+      "help": "Example: rectangle **2×8** vs **5×5** — bigger perimeter does **not** force bigger area.\n\nExample: Priya wrong with counterexample."
+    },
+    "26": {
+      "hint": "Double length only — perimeter adds one extra length; area doubles.",
+      "help": "Perimeter increases by one extra length (not doubled). Area **doubles** when width fixed.\n\nExample: 3×2 → 6×2."
+    },
+    "27": {
+      "hint": "Try two rectangles with area 36 — e.g. 6×6 and 9×4.",
+      "help": "6×6 perimeter 24; 9×4 perimeter 26 — **different** perimeters. Leo **wrong**.\n\nExample: two factor pairs of 36."
+    },
+    "28": {
+      "hint": "6×6 square vs 9×4 rectangle — same area 36, compare perimeters.",
+      "help": "Square perimeter **24**; rectangle **26** — square **smaller** perimeter for same area. Statement **true** for this test.\n\nExample: compare 36 cm² shapes."
+    },
+    "29": {
+      "hint": "One poster area 50×70 — multiply by 3 for three posters.",
+      "help": "One area $3500$ cm²; three → **10 500** cm².\n\nExample: $3 \\times 50 \\times 70$."
+    },
+    "30": {
+      "hint": "Whole 9×6 minus grass corner 3×2 for path area.",
+      "help": "Path area $= 54 - 6 = 48$ m².\n\nExample: sketch L, subtract grass."
+    },
+    "31": {
+      "hint": "Perimeter once around 90×45, then ×2 for two laps.",
+      "help": "One lap $2(90+45)=270$ m; twice → **540** m.\n\nExample: double the lap."
+    },
+    "32": {
+      "hint": "Floor area 4×3.5 m², then × £12 per m².",
+      "help": "Area $= 14$ m²; cost $= 14 \\times 12 = £168$.\n\nExample: area then price."
+    },
+    "33": {
+      "hint": "Framed size 34×24 minus picture 30×20 for border area.",
+      "help": "Border area $= 34\\times24 - 30\\times20 = 816 - 600 = 216$ cm².\n\nExample: subtract inner rectangle."
+    },
+    "34": {
+      "hint": "Fence parallel to 8 m side splits 12×8 into two 6×8 plots.",
+      "help": "One plot area $= 6\\times8=48$ m²; fence length **8** m.\n\nExample: half the length."
+    },
+    "35": {
+      "hint": "Rectangle area 5×4.",
+      "help": "Area **20** cm².\n\nExample: $A=lw$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "36": {
+      "hint": "Perimeter 2(6+3).",
+      "help": "**18** cm.\n\nExample: rectangle perimeter.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "37": {
+      "hint": "Square area side² — 7×7.",
+      "help": "**49** cm².\n\nExample: $7^2$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "38": {
+      "hint": "Square perimeter 20 — side = 20÷4.",
+      "help": "Side **5** cm.\n\nExample: four equal sides.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "39": {
+      "hint": "Room floor 4×3 m².",
+      "help": "**12** m².\n\nExample: rectangle area.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "40": {
+      "hint": "Lawn = 6×4 rectangle minus 2×2 patio corner.",
+      "help": "Area $= 24 - 4 = 20$ m².\n\nExample: subtract patio.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "41": {
+      "hint": "Perimeter 30, length 10 — find width then area.",
+      "help": "$2(10+w)=30$ → $w=5$ cm. Area $= 50$ cm².\n\nExample: half perimeter minus length."
+    },
+    "42": {
+      "hint": "Pick two rectangles totalling 48 cm² — show calculation.",
+      "help": "Choose dimensions e.g. **8×4** and **6×8** split compound — show **sum of areas = 48** cm².\n\nExample: your sketch."
+    },
+    "43": {
+      "hint": "Find two factor pairs of 72 — compute each perimeter.",
+      "help": "e.g. **8×9** perimeter 34; **6×12** perimeter 36 — different perimeters.\n\nExample: list factor pairs."
+    },
+    "44": {
+      "hint": "Small square side after cutting 8 cm square into four — half each dimension.",
+      "help": "Small square side **4** cm; perimeter **16** cm.\n\nExample: quarter of big square."
+    },
+    "45": {
+      "hint": "Kilometres to metres — multiply by 1000.",
+      "help": "There are **1000 m in 1 km**. So **2.5 km** $= 2.5 \\times 1000 = **2500 m**$.\n\nExample: 3 km $= 3000$ m."
+    },
+    "46": {
+      "hint": "Metres to kilometres — divide by 1000.",
+      "help": "Divide by **1000** to change m to km: **3500 m** $= 3500 \\div 1000 = **3.5 km**$.\n\nExample: 500 m $= 0.5$ km."
+    },
+    "47": {
+      "hint": "Centimetres to metres — how many cm in 1 m?",
+      "help": "**100 cm = 1 m**. So **750 cm** $= 750 \\div 100 = **7.5 m**$.\n\nExample: 250 cm $= 2.5$ m."
+    },
+    "48": {
+      "hint": "Metres to centimetres — multiply by 100.",
+      "help": "**1 m = 100 cm**. So **4.2 m** $= 4.2 \\times 100 = **420 cm**$.\n\nExample: 1.5 m $= 150$ cm."
+    },
+    "49": {
+      "hint": "Grams to kilograms — divide by 1000.",
+      "help": "**1000 g = 1 kg**. **2500 g** $= 2500 \\div 1000 = **2.5 kg**$.\n\nExample: 500 g $= 0.5$ kg."
+    },
+    "50": {
+      "hint": "Kilograms to grams — multiply by 1000.",
+      "help": "**1 kg = 1000 g**. **3.6 kg** $= 3.6 \\times 1000 = **3600 g**$.\n\nExample: 2 kg $= 2000$ g."
+    },
+    "51": {
+      "hint": "Millilitres to litres — divide by 1000.",
+      "help": "**1000 ml = 1 l**. **4500 ml** $= 4500 \\div 1000 = **4.5 l**$.\n\nExample: 500 ml $= 0.5$ l."
+    },
+    "52": {
+      "hint": "Litres to millilitres — multiply by 1000.",
+      "help": "**1 l = 1000 ml**. **2.3 l** $= 2.3 \\times 1000 = **2300 ml**$.\n\nExample: 1.5 l $= 1500$ ml."
+    },
+    "53": {
+      "hint": "Millimetres to centimetres — divide by 10.",
+      "help": "**10 mm = 1 cm**. **60 mm** $= 60 \\div 10 = **6 cm**$.\n\nExample: 25 mm $= 2.5$ cm."
+    },
+    "54": {
+      "hint": "Centimetres to millimetres — multiply by 10.",
+      "help": "**1 cm = 10 mm**. **8 cm** $= 8 \\times 10 = **80 mm**$.\n\nExample: 3.5 cm $= 35$ mm."
+    },
+    "55": {
+      "hint": "Compare 2.4 km and 2400 m — convert to the same unit.",
+      "help": "**2.4 km** $= 2.4 \\times 1000 = **2400 m**$ — they are **equal** in length.\n\nExample: always convert before comparing."
+    },
+    "56": {
+      "hint": "Compare 1.2 kg and 1150 g — use grams or kg for both.",
+      "help": "**1.2 kg** $= **1200 g**$, which is **heavier** than **1150 g**.\n\nExample: 1 kg $= 1000$ g helps compare."
+    },
+    "57": {
+      "hint": "Compare 2 l and 1800 ml — convert to millilitres.",
+      "help": "**2 l** $= **2000 ml**$, which **holds more** than **1800 ml**.\n\nExample: 1 l $= 1000$ ml."
+    },
+    "58": {
+      "hint": "cm² to mm² — square the scale factor (1 cm = 10 mm).",
+      "help": "Length factor **10**, so area factor **100**. **5 cm²** $= 5 \\times 100 = **500 mm²**$.\n\nExample: 1 cm² $= 100$ mm²."
+    },
+    "59": {
+      "hint": "m² to cm² — each metre is 100 cm, so square 100.",
+      "help": "**1 m² = 10 000 cm²**. **2 m²** $= 2 \\times 10\\,000 = **20 000 cm²**$.\n\nExample: 3 m² $= 30 000$ cm²."
+    },
+    "60": {
+      "hint": "Is 100 cm² the same as 1 m²?",
+      "help": "**False** — **1 m² = 10 000 cm²**, not 100 cm². Area units **square** the length conversion.\n\nExample: a 1 m square is 100 cm by 100 cm."
+    },
+    "61": {
+      "hint": "Metres to centimetres for a 2.8 m ribbon.",
+      "help": "Multiply by **100**: **2.8 m** $= 2.8 \\times 100 = **280 cm**$.\n\nExample: measure ribbon in cm on a ruler."
+    },
+    "62": {
+      "hint": "Kilograms to grams for 1.5 kg of flour.",
+      "help": "Multiply by **1000**: **1.5 kg** $= 1.5 \\times 1000 = **1500 g**$.\n\nExample: kitchen scales often show grams."
+    },
+    "63": {
+      "hint": "Millilitres to litres for a 750 ml bottle.",
+      "help": "Divide by **1000**: **750 ml** $= 750 \\div 1000 = **0.75 l**$.\n\nExample: a typical drink bottle is about 0.75 l."
+    },
+    "64": {
+      "hint": "Convert 0.45 km to metres.",
+      "help": "Multiply km by **1000**: **0.45 km** $= 0.45 \\times 1000 = **450 m**$.\n\nExample: 0.2 km $= 200$ m."
+    },
+    "65": {
+      "hint": "Convert 320 cm to metres.",
+      "help": "Divide by **100**: **320 cm** $= 320 \\div 100 = **3.2 m**$.\n\nExample: a room might be 320 cm wide."
+    },
+    "66": {
+      "hint": "Which is shorter: 4500 mm or 4 m?",
+      "help": "**4 m = 4000 mm**, so **4000 mm** is **shorter** than **4500 mm** (4 m is shorter).\n\nExample: convert both to mm before comparing."
+    },
+    "67": {
+      "hint": "Room width 3.2 m — write in centimetres.",
+      "help": "Multiply by **100**: **3.2 m** $= **320 cm**$.\n\nExample: tape measures often show cm."
+    },
+    "68": {
+      "hint": "Pencil 18 cm — length in millimetres.",
+      "help": "Multiply by **10**: **18 cm** $= **180 mm**$.\n\nExample: 15 cm $= 150$ mm."
+    },
+    "69": {
+      "hint": "Does 1000 ml equal 1 l exactly?",
+      "help": "**Always** — by definition **1000 ml = 1 litre** exactly.\n\nExample: a 1 l bottle holds 1000 ml."
+    },
+    "70": {
+      "hint": "Why is 1 m² not equal to 100 cm²?",
+      "help": "A square **1 m by 1 m** has area **10 000 cm²** (100 × 100), not 100 cm². You must **square** the length factor.\n\nExample: 1 m = 100 cm → 1 m² = 100² cm²."
+    },
+    "71": {
+      "hint": "5.5 km to metres, then think how many cm.",
+      "help": "**5.5 km = 5500 m**. In cm: **5500 × 100 = 550 000 cm**.\n\nExample: convert step by step km → m → cm."
+    },
+    "72": {
+      "hint": "Recipe sugar 250 g — how many kilograms?",
+      "help": "Divide by **1000**: **250 g = 0.25 kg**.\n\nExample: 500 g $= 0.5$ kg."
+    },
+    "73": {
+      "hint": "Tank 12 000 l — how many kilolitres?",
+      "help": "**1000 l = 1 kilolitre (kl)**. **12 000 l = 12 kl**.\n\nExample: large tanks use kl."
+    },
+    "74": {
+      "hint": "Convert 90 mm to centimetres.",
+      "help": "Divide by **10**: **90 mm = 9 cm**.\n\nExample: 50 mm $= 5$ cm."
+    },
+    "75": {
+      "hint": "Convert 0.8 m to millimetres.",
+      "help": "First to cm: **0.8 m = 80 cm**, then **80 × 10 = 800 mm**.\n\nExample: 1 m $= 1000$ mm."
+    },
+    "76": {
+      "hint": "Compare 1 m² and 10 000 cm² — convert to the same unit.",
+      "help": "**1 m² = 10 000 cm²**, so they are **equal** areas.\n\nExample: a 1 m square tile covers 10 000 cm²."
+    },
+    "77": {
+      "hint": "Field 0.75 km by 0.4 km — find area in m².",
+      "help": "Convert km to m first: **750 m × 400 m = 300 000 m²**.\n\nExample: multiply length × width in metres."
+    },
+    "78": {
+      "hint": "Tile 30 cm × 30 cm — how many cover 1 m²?",
+      "help": "Tile area **900 cm²**. **1 m² = 10 000 cm²**. Tiles needed: **10 000 ÷ 900 ≈ 11.1** — need **12 tiles** to cover (exact fit needs whole number).\n\nExample: divide total area by tile area."
+    },
+    "79": {
+      "hint": "If you double centimetres, do millimetres double too?",
+      "help": "**True** for the same length — **1 cm = 10 mm**, so **2 cm = 20 mm** (both scale the same).\n\nExample: doubling the number of cm doubles the mm."
+    },
+    "80": {
+      "hint": "Pool 25 m long — write length in km.",
+      "help": "Divide by **1000**: **25 m = 0.025 km**.\n\nExample: 1000 m $= 1$ km."
+    },
+    "81": {
+      "hint": "Paper clip 2 g — mass in kilograms.",
+      "help": "Divide by **1000**: **2 g = 0.002 kg**.\n\nExample: small masses are tiny fractions of a kg."
+    },
+    "82": {
+      "hint": "Syringe 5 ml — capacity in litres.",
+      "help": "Divide by **1000**: **5 ml = 0.005 l**.\n\nExample: 500 ml $= 0.5$ l."
+    },
+    "83": {
+      "hint": "1.25 hours — how many minutes?",
+      "help": "**1 hour = 60 min**. **1.25 h = 1 h 15 min = 75 min**.\n\nExample: 0.5 h $= 30$ min."
+    },
+    "84": {
+      "hint": "540 seconds — convert to minutes.",
+      "help": "Divide by **60**: **540 ÷ 60 = 9 minutes**.\n\nExample: 120 s $= 2$ min."
+    },
+    "85": {
+      "hint": "When converting length units, what happens to area units?",
+      "help": "**Always** — area units **square** the length factor. **1 m = 100 cm** → **1 m² = 100² cm²**.\n\nExample: never use the length factor alone for area."
+    },
+    "86": {
+      "hint": "Square side 50 cm — area in cm² and m².",
+      "help": "Area **50² = 2500 cm²**. In m²: **2500 ÷ 10 000 = 0.25 m²**.\n\nExample: $A = s^2$ then convert units."
+    },
+    "87": {
+      "hint": "Rectangle 2 m by 80 cm — area in m².",
+      "help": "Convert **80 cm = 0.8 m**. Area **2 × 0.8 = 1.6 m²**.\n\nExample: use the same unit before multiplying."
+    },
+    "88": {
+      "hint": "Path 1.2 km — distance there and back in metres.",
+      "help": "**1.2 km = 1200 m** one way. Return trip: **2 × 1200 = 2400 m**.\n\nExample: there and back means double."
+    },
+    "89": {
+      "hint": "Is 5000 mg equal to 5 g?",
+      "help": "**True** — **1000 mg = 1 g**, so **5000 mg = 5 g**.\n\nExample: mg are thousandths of a gram."
+    },
+    "90": {
+      "hint": "Convert 5 g to milligrams.",
+      "help": "Multiply by **1000**: **5 g = 5000 mg**.\n\nExample: 1 g $= 1000$ mg."
+    },
+    "91": {
+      "hint": "Jug 1.8 l — how many 300 ml cups?",
+      "help": "**1.8 l = 1800 ml**. **1800 ÷ 300 = 6 cups**.\n\nExample: convert to ml then divide."
+    },
+    "92": {
+      "hint": "8 l per 100 km — millilitres per km?",
+      "help": "**8 l = 8000 ml**. Per km: **8000 ÷ 100 = 80 ml/km**.\n\nExample: divide total ml by km."
+    },
+    "93": {
+      "hint": "Does heavier mass always mean larger volume?",
+      "help": "**Never** for all materials — **density** matters. Heavy metal can occupy **less space** than light foam.\n\nExample: 1 kg steel vs 1 kg polystyrene."
+    },
+    "94": {
+      "hint": "Why does 1 kg of gold take less space than 1 kg of foam?",
+      "help": "**Gold is denser** — more mass is packed into each cm³, so the same mass needs **less volume**.\n\nExample: dense materials feel heavy for their size."
+    },
+    "95": {
+      "hint": "Desk 120 cm wide — more or less than 1 m?",
+      "help": "**120 cm = 1.2 m**, which is **more than 1 m**.\n\nExample: 100 cm $= 1$ m exactly."
+    },
+    "96": {
+      "hint": "Phone thickness 8 mm — write in cm.",
+      "help": "Divide by **10**: **8 mm = 0.8 cm**.\n\nExample: 10 mm $= 1$ cm."
+    },
+    "97": {
+      "hint": "Marathon about 42 km — length in metres.",
+      "help": "Multiply by **1000**: **42 km = 42 000 m**.\n\nExample: long distances use km; races often quote metres too."
+    },
+    "98": {
+      "hint": "Is 0.001 km equal to 1 m?",
+      "help": "**True** — **0.001 km = 1 m** (1000 m per km).\n\nExample: 0.002 km $= 2$ m."
+    },
+    "99": {
+      "hint": "Garden 8 m × 6 m — area in m² and cm².",
+      "help": "Area **8 × 6 = 48 m²**. In cm²: **48 × 10 000 = 480 000 cm²**.\n\nExample: multiply sides in m, then convert area."
+    },
+    "100": {
+      "hint": "Stamp 2 cm × 2 cm — area in mm².",
+      "help": "Area **2 × 2 = 4 cm²**. **1 cm² = 100 mm²**, so **4 cm² = 400 mm²**.\n\nExample: convert cm² to mm² using factor 100."
+    },
+    "101": {
+      "hint": "Convert 2.75 l to millilitres.",
+      "help": "Multiply by **1000**: **2.75 l = 2750 ml**.\n\nExample: 1.5 l $= 1500$ ml."
+    },
+    "102": {
+      "hint": "Convert 9400 g to kilograms.",
+      "help": "Divide by **1000**: **9400 g = 9.4 kg**.\n\nExample: 2500 g $= 2.5$ kg."
+    },
+    "103": {
+      "hint": "Which is longer: 0.9 m or 95 cm?",
+      "help": "**0.9 m = 90 cm**, so **95 cm is longer**.\n\nExample: convert both to cm to compare."
+    },
+    "104": {
+      "hint": "Wire 4.5 m — how many 15 cm pieces (no waste)?",
+      "help": "**4.5 m = 450 cm**. **450 ÷ 15 = 30 pieces**.\n\nExample: convert to cm then divide."
+    },
+    "105": {
+      "hint": "Are perimeter units the same type as length units?",
+      "help": "**Always** — perimeter is a **distance around**, measured in **m, cm, mm**, not square or cube units.\n\nExample: fence length uses metres, not m²."
+    },
+    "106": {
+      "hint": "Square field side 0.5 km — perimeter in metres.",
+      "help": "Side **0.5 km = 500 m**. Perimeter **4 × 500 = 2000 m**.\n\nExample: square perimeter $= 4s$."
+    },
+    "107": {
+      "hint": "Rectangle perimeter 40 cm, length 12 cm — find width.",
+      "help": "Perimeter **2(l + w) = 40**, so **l + w = 20**. Width **20 − 12 = 8 cm**.\n\nExample: half perimeter minus length."
+    },
+    "108": {
+      "hint": "Can area be measured in cm³?",
+      "help": "**False** — **cm³** is for **volume**. Area uses **cm²**.\n\nExample: floor area is m², room space is m³."
+    },
+    "109": {
+      "hint": "Explain one difference between cm² and cm³.",
+      "help": "**cm²** measures **flat area** (two dimensions). **cm³** measures **space filled** (three dimensions).\n\nExample: paper area vs box volume."
+    },
+    "110": {
+      "hint": "Face area 200 cm² — write in m².",
+      "help": "Divide by **10 000**: **200 cm² = 0.02 m²**.\n\nExample: 10 000 cm² $= 1$ m²."
+    },
+    "111": {
+      "hint": "Cube edge 10 cm — volume in cm³ and litres.",
+      "help": "Volume **10³ = 1000 cm³**. **1000 cm³ = 1 litre**.\n\nExample: a 10 cm cube holds 1 l of water."
+    },
+    "112": {
+      "hint": "For water, is 1 cm³ equal to 1 ml?",
+      "help": "**Always** (at standard conditions) — **1 cm³ of water ≈ 1 ml**.\n\nExample: a 500 cm³ bottle holds about 500 ml."
+    },
+    "113": {
+      "hint": "Convert 0.25 m³ to litres.",
+      "help": "**1 m³ = 1000 l**. **0.25 m³ = 250 l**.\n\nExample: 2 m³ $= 2000$ l."
+    },
+    "114": {
+      "hint": "Tank 50×30×40 cm — volume in cm³ and litres.",
+      "help": "Volume **50 × 30 × 40 = 60 000 cm³**. **60 000 cm³ = 60 l**.\n\nExample: multiply three edges in cm."
+    },
+    "115": {
+      "hint": "Is 1000 cm³ equal to 1 dm³?",
+      "help": "**True** — **1 dm = 10 cm**, so **1 dm³ = 10³ cm³ = 1000 cm³**.\n\nExample: cubic units cube the length factor."
+    },
+    "116": {
+      "hint": "5 km in 25 minutes — average speed in km/min.",
+      "help": "Speed **= distance ÷ time = 5 ÷ 25 = 0.2 km/min**.\n\nExample: divide km by minutes."
+    },
+    "117": {
+      "hint": "Convert 3 m/s to metres per minute.",
+      "help": "**1 min = 60 s**. **3 m/s × 60 = 180 m/min**.\n\nExample: multiply by 60 to change per second to per minute."
+    },
+    "118": {
+      "hint": "Does a larger unit name mean fewer units for the same amount?",
+      "help": "**Always** — **1 km** is fewer units than **1000 m** for the same distance.\n\nExample: kilometres group metres in thousands."
+    },
+    "119": {
+      "hint": "Map scale 1 cm : 5 km — 20 km on the map in cm?",
+      "help": "**5 km per cm**. **20 ÷ 5 = 4 cm** on the map.\n\nExample: divide real km by km per cm."
+    },
+    "120": {
+      "hint": "Map 8 cm at scale 1 : 25 000 — real distance in km?",
+      "help": "**1 cm = 25 000 cm real = 0.25 km**. **8 × 0.25 = 2 km**.\n\nExample: multiply map cm by real km per cm."
+    },
+    "121": {
+      "hint": "Do scale drawings keep the same angles?",
+      "help": "**True** — scaling changes **lengths** but **angles stay the same**.\n\nExample: a scaled triangle has the same corner angles."
+    },
+    "122": {
+      "hint": "Model 12 cm, real car 4.8 m — scale as model : real.",
+      "help": "Convert: **4.8 m = 480 cm**. Scale **12 : 480 = 1 : 40** (model 1 cm represents 40 cm real).\n\nExample: write both in cm first."
+    },
+    "123": {
+      "hint": "Converting km to m — multiply by 1000?",
+      "help": "**Always** — **1 km = 1000 m**, so multiply km by **1000**.\n\nExample: 2.3 km $= 2300$ m."
+    },
+    "124": {
+      "hint": "Beaker 400 ml — how many litres?",
+      "help": "Divide by **1000**: **400 ml = 0.4 l**.\n\nExample: 750 ml $= 0.75$ l."
+    },
+    "125": {
+      "hint": "Sack 25 kg — how many 500 g portions?",
+      "help": "**25 kg = 25 000 g**. **25 000 ÷ 500 = 50 portions**.\n\nExample: convert to grams then divide."
+    },
+    "126": {
+      "hint": "Are 2.5 cm² and 250 mm² equal areas?",
+      "help": "**True** — **1 cm² = 100 mm²**, so **2.5 cm² = 250 mm²**.\n\nExample: multiply cm² by 100 to get mm²."
+    },
+    "127": {
+      "hint": "Wall 3 m high and 4 m wide — area in m².",
+      "help": "Area **3 × 4 = 12 m²**.\n\nExample: rectangle area $= height \\times width$."
+    },
+    "128": {
+      "hint": "Triangle plot base 80 m, height 50 m — area m² and hectares.",
+      "help": "Area **½ × 80 × 50 = 2000 m²**. **1 ha = 10 000 m²**, so **0.2 ha**.\n\nExample: divide m² by 10 000 for hectares."
+    },
+    "129": {
+      "hint": "If a square's side doubles, does its perimeter quadruple?",
+      "help": "**False** — perimeter **doubles** when side doubles ($P = 4s$). **Area** quadruples.\n\nExample: side 2 → perim 8; side 4 → perim 16 (×2 not ×4)."
+    },
+    "130": {
+      "hint": "Circle radius 7 cm — state the radius in millimetres.",
+      "help": "Multiply by **10**: **7 cm = 70 mm** radius.\n\nExample: 1 cm $= 10$ mm."
+    },
+    "131": {
+      "hint": "Is 1 inch ≈ 2.54 cm used in conversions?",
+      "help": "**True** — the standard conversion **1 inch = 2.54 cm** is used officially.\n\nExample: rulers may show inches and cm."
+    },
+    "132": {
+      "hint": "Screen 32 inches at 2.5 cm per inch — approximate width in cm.",
+      "help": "**32 × 2.5 = 80 cm** (estimate).\n\nExample: multiply inch count by cm per inch."
+    },
+    "133": {
+      "hint": "Should mixed units be converted before adding lengths?",
+      "help": "**Always** — add **2 m + 35 cm** only after converting both to **cm or m**.\n\nExample: 2 m 35 cm $= 235$ cm."
+    },
+    "134": {
+      "hint": "Add 2 m 35 cm and 1 m 40 cm — answer in cm.",
+      "help": "**235 cm + 140 cm = 375 cm**.\n\nExample: convert each part to cm first."
+    },
+    "135": {
+      "hint": "Subtract 3 m from 250 cm — answer in cm.",
+      "help": "**3 m = 300 cm**. **250 − 300 = −50 cm** (250 cm is 50 cm shorter than 3 m).\n\nExample: convert m to cm before subtracting."
+    },
+    "136": {
+      "hint": "Does 1.5 l + 500 ml equal 2 l?",
+      "help": "**True** — **1.5 l + 0.5 l = 2 l**.\n\nExample: 500 ml $= 0.5$ l."
+    },
+    "137": {
+      "hint": "600 ml milk for 4 people — how much for 6?",
+      "help": "Scale up: **600 × (6÷4) = 900 ml**.\n\nExample: multiply by the ratio of people."
+    },
+    "138": {
+      "hint": "Similar shapes half the length — how does area compare?",
+      "help": "Area scales by **square** of length factor: **(½)² = ¼** — area is **one quarter**.\n\nExample: half each side → quarter the area."
+    },
+    "139": {
+      "hint": "Similar triangle with sides half length — area ratio?",
+      "help": "Linear scale **½** → area scale **(½)² = ¼** of the original.\n\nExample: copy shape at half size has one quarter the area."
+    },
+    "140": {
+      "hint": "Does volume scale by the cube of the linear scale factor?",
+      "help": "**True** — if lengths scale by **k**, volume scales by **k³**.\n\nExample: double edges → volume ×8."
+    },
+    "141": {
+      "hint": "Cuboid 2 m × 1 m × 0.5 m — volume m³ and litres.",
+      "help": "Volume **2 × 1 × 0.5 = 1 m³**. **1 m³ = 1000 l**.\n\nExample: multiply three dimensions in metres."
+    },
+    "142": {
+      "hint": "Does 1 tonne equal 1000 kg?",
+      "help": "**Always** — **1 tonne (t) = 1000 kg** by definition.\n\nExample: 2.5 t $= 2500$ kg."
+    },
+    "143": {
+      "hint": "Convert 2.4 tonnes to kilograms.",
+      "help": "Multiply by **1000**: **2.4 t = 2400 kg**.\n\nExample: 0.5 t $= 500$ kg."
+    },
+    "144": {
+      "hint": "Bag 850 g — mass in kilograms.",
+      "help": "Divide by **1000**: **850 g = 0.85 kg**.\n\nExample: 1500 g $= 1.5$ kg."
+    },
+    "145": {
+      "hint": "Do capacity and volume measure the same idea for liquids?",
+      "help": "**True** for liquids — **capacity** (how much a container holds) matches **volume** of liquid inside.\n\nExample: a 2 l bottle has capacity 2 l."
+    },
+    "146": {
+      "hint": "Pipe 3.6 m — how many 40 cm sections?",
+      "help": "**3.6 m = 360 cm**. **360 ÷ 40 = 9 sections**.\n\nExample: convert to cm then divide."
+    },
+    "147": {
+      "hint": "Zero area — does that mean zero perimeter?",
+      "help": "**Sometimes** — a **flat point** has no area and no perimeter, but a **line** has no area yet has length.\n\nExample: a degenerate shape breaks simple rules."
+    },
+    "148": {
+      "hint": "Square side 0.1 m — area in cm².",
+      "help": "Side **0.1 m = 10 cm**. Area **10² = 100 cm²**.\n\nExample: convert side to cm before squaring."
+    },
+    "149": {
+      "hint": "Is 10 mm² equal to 1 cm²?",
+      "help": "**False** — **1 cm² = 100 mm²**, not 10 mm².\n\nExample: area conversion squares the length factor 10."
+    },
+    "150": {
+      "hint": "Park 400 m by 300 m — area in km².",
+      "help": "Area **400 × 300 = 120 000 m²**. **1 km² = 1 000 000 m²**, so **0.12 km²**.\n\nExample: divide m² by 1 000 000."
+    },
+    "151": {
+      "hint": "Do larger containers always weigh more when full of the same liquid?",
+      "help": "**Always** for the **same liquid** — more volume means **more mass** (same density).\n\nExample: 2 l of water weighs about twice 1 l."
+    },
+    "152": {
+      "hint": "Steel bar 2 m long, mass 12 kg — mass per metre?",
+      "help": "**12 ÷ 2 = 6 kg per metre**.\n\nExample: divide total mass by length."
+    },
+    "153": {
+      "hint": "Do unit prices help compare value (cost per kg)?",
+      "help": "**True** — **cost per kg** lets you compare different pack sizes fairly.\n\nExample: £4/kg vs £5/kg shows which is cheaper."
+    },
+    "154": {
+      "hint": "Tea £4 for 200 g — cost per kilogram.",
+      "help": "**200 g = 0.2 kg**. **£4 ÷ 0.2 = £20 per kg**.\n\nExample: scale up to 1 kg price."
+    },
+    "155": {
+      "hint": "Converting hours to seconds — multiply by 3600?",
+      "help": "**Always** — **1 h = 60 min = 3600 s**.\n\nExample: 2 h $= 7200$ s."
+    },
+    "156": {
+      "hint": "Film 1 h 45 min — how many minutes?",
+      "help": "**1 h = 60 min**, plus **45 min = 105 minutes** total.\n\nExample: convert hours to minutes then add."
+    },
+    "157": {
+      "hint": "Is 90 km/h exactly equal to 25 m/s?",
+      "help": "**True** — **90 ÷ 3.6 = 25 m/s** (or **90 km/h = 25 m/s** exactly).\n\nExample: divide km/h by 3.6 for m/s."
+    },
+    "158": {
+      "hint": "Convert 72 km/h to m/s.",
+      "help": "Divide by **3.6**: **72 ÷ 3.6 = 20 m/s**.\n\nExample: km/h to m/s uses ÷ 3.6."
+    },
+    "159": {
+      "hint": "Is rectangle perimeter measured in square units?",
+      "help": "**False** — perimeter is a **length** (m, cm), not **m²**.\n\nExample: fence length is in metres."
+    },
+    "160": {
+      "hint": "Room 5 m × 4 m, tiles 50 cm square — how many tiles?",
+      "help": "Floor **20 m² = 200 000 cm²**. Tile **50² = 2500 cm²**. Tiles **200 000 ÷ 2500 = 80**.\n\nExample: floor area ÷ tile area."
+    },
+    "161": {
+      "hint": "Does 1 ml of water have mass about 1 g at room temperature?",
+      "help": "**True** approximately — **1 ml water ≈ 1 g**.\n\nExample: 500 ml water weighs about 500 g."
+    },
+    "162": {
+      "hint": "Tank 2 m³ — how many litres?",
+      "help": "**1 m³ = 1000 l**. **2 m³ = 2000 l**.\n\nExample: multiply cubic metres by 1000."
+    },
+    "163": {
+      "hint": "Can you mix area and length units in formulas without converting?",
+      "help": "**Never** — you must use **consistent units** before calculating (e.g. both in cm or both in m).\n\nExample: 2 m × 50 cm needs conversion first."
+    },
+    "164": {
+      "hint": "Field 2.5 ha — write area in m².",
+      "help": "**1 ha = 10 000 m²**. **2.5 ha = 25 000 m²**.\n\nExample: multiply hectares by 10 000."
+    },
+    "165": {
+      "hint": "Is 500 cm equal to 5 m?",
+      "help": "**True** — **500 cm = 5 m** (100 cm per metre).\n\nExample: divide cm by 100."
+    },
+    "166": {
+      "hint": "Wire 3 km 200 m — total length in metres.",
+      "help": "**3 km = 3000 m**. Total **3000 + 200 = 3200 m**.\n\nExample: convert km part then add metres."
+    },
+    "167": {
+      "hint": "Does a bigger unit number always mean a smaller physical quantity?",
+      "help": "**Never** as a rule — **5 m** is a bigger quantity than **400 cm** even though m is a larger unit.\n\nExample: compare the actual measure, not just the unit name."
+    },
+    "168": {
+      "hint": "Sort smallest to largest: 0.4 m, 35 cm, 400 mm.",
+      "help": "**0.4 m = 40 cm = 400 mm**. All **equal** — any order works.\n\nExample: convert all to cm: 40, 35, 40 — so 35 cm is smallest."
+    },
+    "169": {
+      "hint": "Is 1.2 l the same as 120 cl if 1 l = 100 cl?",
+      "help": "**True** — **1.2 l = 120 cl**.\n\nExample: multiply litres by 100 for centilitres."
+    },
+    "170": {
+      "hint": "Design a km ↔ m conversion question and solve it.",
+      "help": "Make a real context (e.g. **3.2 km walk**), convert: **3.2 × 1000 = 3200 m**, and show working.\n\nExample: write the question, convert, state answer with units."
+    },
+    "171": {
+      "hint": "Do two rectangles with equal area always have equal perimeter?",
+      "help": "**Never guaranteed** — **6×6** and **9×4** both area 36 but different perimeters.\n\nExample: find two shapes with same area, compare perimeters."
+    },
+    "172": {
+      "hint": "Square area 49 cm² — find the side length.",
+      "help": "Side **= √49 = 7 cm**.\n\nExample: $s = \\sqrt{A}$ for a square."
+    },
+    "173": {
+      "hint": "Is 1000 m² equal to 1 km²?",
+      "help": "**False** — **1 km² = 1 000 000 m²** (1000 m × 1000 m).\n\nExample: area conversion squares 1000."
+    },
+    "174": {
+      "hint": "Square side 1 km — area in m² and km².",
+      "help": "Area **1 km²** in km². In m²: **1000 × 1000 = 1 000 000 m²**.\n\nExample: side 1 km gives 1 km²."
+    },
+    "175": {
+      "hint": "Converting m to cm — does volume scale by 100³?",
+      "help": "**Always** — **1 m = 100 cm**, so **1 m³ = 100³ cm³ = 1 000 000 cm³**.\n\nExample: cube the length conversion for volume."
+    },
+    "176": {
+      "hint": "Cube edge 2 m — volume in cm³.",
+      "help": "Edge **2 m = 200 cm**. Volume **200³ = 8 000 000 cm³**.\n\nExample: convert edge to cm before cubing."
+    },
+    "177": {
+      "hint": "Is 1 mm³ very small compared with 1 cm³?",
+      "help": "**True** — **1 cm³ = 1000 mm³**, so 1 mm³ is a thousandth of a cm³.\n\nExample: mm³ suit tiny volumes."
+    },
+    "178": {
+      "hint": "Pool 50×20×2 m — volume m³ and litres.",
+      "help": "Volume **50 × 20 × 2 = 2000 m³**. **2000 × 1000 = 2 000 000 l**.\n\nExample: m³ × 1000 gives litres."
+    },
+    "179": {
+      "hint": "Does price per litre help compare bottle sizes?",
+      "help": "**Always** — comparing **£/l** shows better value regardless of bottle size.\n\nExample: divide price by litres for each bottle."
+    },
+    "180": {
+      "hint": "Juice A £2/1 l vs Juice B £3/2 l — better value per litre?",
+      "help": "A: **£2/l**. B: **£3 ÷ 2 = £1.50/l** — **Juice B** is better value.\n\nExample: divide price by litres for each."
+    },
+    "181": {
+      "hint": "Is 250 ml one quarter of a litre?",
+      "help": "**True** — **250 ml = 0.25 l = ¼ l**.\n\nExample: 1000 ml $= 1$ l."
+    },
+    "182": {
+      "hint": "Car tank 45 l — capacity in millilitres.",
+      "help": "Multiply by **1000**: **45 l = 45 000 ml**.\n\nExample: 1 l $= 1000$ ml."
+    },
+    "183": {
+      "hint": "Can mass in kg be converted to g by multiplying by 1000?",
+      "help": "**Always** — **1 kg = 1000 g**.\n\nExample: 3.5 kg $= 3500$ g."
+    },
+    "184": {
+      "hint": "Letter mass 85 g — write in kilograms.",
+      "help": "Divide by **1000**: **85 g = 0.085 kg**.\n\nExample: small masses are fractions of a kg."
+    },
+    "185": {
+      "hint": "Does circle perimeter use length units, not area units?",
+      "help": "**True** — circumference is a **distance** (cm, m), not cm².\n\nExample: perimeter and area use different unit types."
+    },
+    "186": {
+      "hint": "Track lap 400 m — how many laps in 5 km?",
+      "help": "**5 km = 5000 m**. **5000 ÷ 400 = 12.5 laps**.\n\nExample: convert km to m, divide by lap length."
+    },
+    "187": {
+      "hint": "Scale 1 : 100 — does 1 cm represent 100 cm real?",
+      "help": "**True** — **1 : 100** means **1 cm on drawing = 100 cm in real life**.\n\nExample: 3 cm on map $= 300$ cm real."
+    },
+    "188": {
+      "hint": "Drawing 15 cm represents 45 m — scale factor real/drawing.",
+      "help": "**45 m = 4500 cm**. Scale **4500 : 15 = 300 : 1** (real is 300 times drawing).\n\nExample: convert real to cm, divide."
+    },
+    "189": {
+      "hint": "Create a kitchen ml ↔ l word problem and solve it.",
+      "help": "Example: **750 ml milk + 250 ml** $= 1000 ml = 1 l$. Write your own context and convert.\n\nExample: always show ml → l by dividing by 1000."
+    },
+    "190": {
+      "hint": "Is 1.5 m² equal to 15 000 cm²?",
+      "help": "**True** — **1.5 × 10 000 = 15 000 cm²**.\n\nExample: multiply m² by 10 000."
+    },
+    "191": {
+      "hint": "Paint 1 l covers 8 m² — wall 24 m² needs how many litres?",
+      "help": "**24 ÷ 8 = 3 litres**.\n\nExample: divide wall area by coverage per litre."
+    },
+    "192": {
+      "hint": "Does doubling radius double circle area?",
+      "help": "**False** — area uses **r²**, so doubling **r** multiplies area by **4**.\n\nExample: $A = \\pi r^2$."
+    },
+    "193": {
+      "hint": "Room 4 m × 3 m × 2.5 m — volume in m³.",
+      "help": "Volume **4 × 3 × 2.5 = 30 m³**.\n\nExample: multiply length × width × height."
+    },
+    "194": {
+      "hint": "Is 100 cm³ equal to 1 dm³?",
+      "help": "**False** — **1 dm³ = 1000 cm³**.\n\nExample: 10 cm cube has volume 1000 cm³."
+    },
+    "195": {
+      "hint": "Cuboid volume 6000 cm³ — write in litres.",
+      "help": "**1000 cm³ = 1 l**. **6000 cm³ = 6 l**.\n\nExample: divide cm³ by 1000."
+    },
+    "196": {
+      "hint": "Do wrong units (cm instead of cm²) make answers meaningless?",
+      "help": "**Always** — using **wrong unit type** makes the answer **nonsense** even if the number is right.\n\nExample: area must end in cm², not cm."
+    },
+    "197": {
+      "hint": "Farmer 3.5 ha — area in m².",
+      "help": "One **hectare** is **10 000 m²**. Multiply: **3.5 × 10 000 = 35 000 m²** of land.\n\nExample: 2 ha would be 20 000 m²."
+    },
+    "198": {
+      "hint": "Is 0.01 km equal to 10 m?",
+      "help": "**True** — **0.01 × 1000 = 10 m**.\n\nExample: 0.001 km $= 1$ m."
+    },
+    "199": {
+      "hint": "Add 2 m + 45 cm + 300 mm — total in cm.",
+      "help": "**2 m = 200 cm**, **45 cm**, **300 mm = 30 cm**. Total **200 + 45 + 30 = 275 cm**.\n\nExample: convert each part to cm first."
+    },
+    "200": {
+      "hint": "Box 80×60×50 cm — how many 1 l bottles (10 cm cubes) fit?",
+      "help": "Box volume **80×60×50 = 240 000 cm³ = 240 l**. Each bottle **10³ = 1000 cm³ = 1 l**. **240 bottles** if perfect packing.\n\nExample: divide total volume by bottle volume."
+    }
+  }
+}

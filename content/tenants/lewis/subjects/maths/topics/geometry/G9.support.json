@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Round, no corners — name the shape.",
+      "help": "A **circle** is round with **no vertices**.\n\nExample: wheel outline."
+    },
+    "2": {
+      "hint": "Middle point of a circle — special name?",
+      "help": "The **centre** is the middle point equidistant from the edge.\n\nExample: compass needle point."
+    },
+    "3": {
+      "hint": "Every point on the edge — same distance from centre?",
+      "help": "Yes — all points on the **circumference** are the same distance from the centre. **True**.\n\nExample: radius constant round the circle."
+    },
+    "4": {
+      "hint": "Centre to edge — radius or diameter?",
+      "help": "Centre to edge is a **radius**.\n\nExample: spoke on a wheel.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "Across through the centre — radius or diameter?",
+      "help": "Through the centre edge to edge is a **diameter**.\n\nExample: widest part of a circle."
+    },
+    "6": {
+      "hint": "Diameter is two radii — 3 + 3.",
+      "help": "Diameter $= 2 \\times 3 = 6$ cm.\n\nExample: radius 5 cm → diameter 10 cm."
+    },
+    "7": {
+      "hint": "Radius is half the diameter — 10 ÷ 2.",
+      "help": "Radius $= 10 \\div 2 = 5$ cm.\n\nExample: diameter 14 cm → radius 7 cm."
+    },
+    "8": {
+      "hint": "Outside edge of a circle — one word.",
+      "help": "The **circumference** is the distance around the outside.\n\nExample: rim of a cup."
+    },
+    "9": {
+      "hint": "Middle point — same as question 2.",
+      "help": "The **centre**.\n\nExample: dot at middle of a circle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "10": {
+      "hint": "Centre to edge — vocabulary name.",
+      "help": "**Radius** — distance from centre to circumference.\n\nExample: 4 cm radius."
+    },
+    "11": {
+      "hint": "Straight across through centre — vocabulary.",
+      "help": "**Diameter** — twice the radius.\n\nExample: 12 cm diameter → 6 cm radius."
+    },
+    "12": {
+      "hint": "Diameter equals 2 times what?",
+      "help": "Diameter $= 2 \\times$ **radius**.\n\nExample: $d = 2r$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "13": {
+      "hint": "Distance all the way round a circle.",
+      "help": "**Circumference** — perimeter of a circle.\n\nExample: measure rim length."
+    },
+    "14": {
+      "hint": "Touches at one point only, does not cut through.",
+      "help": "A **tangent** touches the circle at **one point**.\n\nExample: ladder just touching a round tower."
+    },
+    "15": {
+      "hint": "Straight line joining two points on the edge.",
+      "help": "A **chord** joins two points on the **circumference**.\n\nExample: string stretched between two rim points."
+    },
+    "16": {
+      "hint": "Part of the curved edge between two points.",
+      "help": "An **arc** is part of the **circumference** between two points.\n\nExample: rainbow arc."
+    },
+    "17": {
+      "hint": "Two radii and an arc — pizza slice name.",
+      "help": "A **sector** — region between two radii and an arc.\n\nExample: pizza slice from centre."
+    },
+    "18": {
+      "hint": "Region between a chord and an arc — not through centre.",
+      "help": "A **segment** — area between **chord** and **arc**.\n\nExample: cap cut off a circle."
+    },
+    "19": {
+      "hint": "Diameter joins two points on the circle — is it a chord?",
+      "help": "A diameter is a chord through the **centre** — **true**.\n\nExample: longest chord."
+    },
+    "20": {
+      "hint": "Tangent and radius at contact point — what angle?",
+      "help": "**90°** — tangent **perpendicular** to radius at touch point.\n\nExample: radius to tangent forms right angle."
+    },
+    "21": {
+      "hint": "Segment from centre to edge — name?",
+      "help": "**Radius**.\n\nExample: 7 cm radius.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "Line segment with both ends on the circle.",
+      "help": "A **chord** connects two points on the circumference.\n\nExample: not necessarily through centre."
+    },
+    "23": {
+      "hint": "Double the radius: 6 × 2.",
+      "help": "Diameter $= 2 \\times 6 = 12$ cm.\n\nExample: r=8 → d=16.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "24": {
+      "hint": "Why 90° at tangent touch point — shortest distance to line.",
+      "help": "The radius to the touch point is the **shortest** line to the tangent, so it meets at **90°**.\n\nExample: sketch radius to tangent."
+    },
+    "25": {
+      "hint": "Chord splits circle into two regions with arc + chord.",
+      "help": "Two **segments** (minor and major) — each bounded by chord and arc.\n\nExample: chord not through centre → unequal segments."
+    },
+    "26": {
+      "hint": "Longest chord passes through centre — always?",
+      "help": "**Diameter** is longest chord — **always** true.\n\nExample: any other chord shorter."
+    },
+    "27": {
+      "hint": "Two tangents from outside point to circle — compare lengths.",
+      "help": "Tangent segments from one **external point** are **equal** in length.\n\nExample: two tangents from P to circle."
+    },
+    "28": {
+      "hint": "Radius to centre; chord edge to edge — not the same.",
+      "help": "Sam is **wrong**: **radius** centre to edge; **chord** between two edge points.\n\nExample: radius 5 cm vs chord 8 cm."
+    },
+    "29": {
+      "hint": "90° sector — what fraction of full 360° turn?",
+      "help": "$90 \\div 360 = \\frac{1}{4}$ of the circle.\n\nExample: quarter pizza."
+    },
+    "30": {
+      "hint": "Sector includes centre; segment does not.",
+      "help": "**Sector**: two **radii** + arc (pie slice). **Segment**: **chord** + arc (no centre corner).\n\nExample: label both on a diagram."
+    },
+    "31": {
+      "hint": "Radius is half diameter — 1.4 ÷ 2.",
+      "help": "Radius $= 1.4 \\div 2 = 0.7$ m.\n\nExample: table diameter 2 m → r=1 m."
+    },
+    "32": {
+      "hint": "Path once around the track — distance name.",
+      "help": "One lap is the **circumference**.\n\nExample: tyre tracks full loop."
+    },
+    "33": {
+      "hint": "Two tangents from outside — equal tangent lengths.",
+      "help": "Tangent segments from the external point to the circle are **equal**.\n\nExample: symmetric struts to rim."
+    },
+    "34": {
+      "hint": "6 equal slices — divide 360° by 6.",
+      "help": "Centre angle each slice $= 360 \\div 6 = 60°$.\n\nExample: 8 slices → 45° each."
+    },
+    "35": {
+      "hint": "Diameter = 2 × radius 8 cm.",
+      "help": "Diameter $= 2 \\times 8 = 16$ cm.\n\nExample: through centre and minute hand tip."
+    },
+    "36": {
+      "hint": "Straight line across semicircle flat end.",
+      "help": "The flat end is a **diameter** (or **chord** of full circle).\n\nExample: semicircle base line."
+    },
+    "37": {
+      "hint": "Shortest from centre to tangent — along radius at 90°.",
+      "help": "Shortest distance is the **radius** to the touch point, perpendicular to tangent.\n\nExample: compare slant line vs radius."
+    },
+    "38": {
+      "hint": "External touch — centres apart by sum of radii.",
+      "help": "Distance between centres $= 5 + 3 = 8$ cm.\n\nExample: two circles touching externally."
+    },
+    "39": {
+      "hint": "Chord 6 cm from centre, radius 10 — half-chord 3, Pythagoras.",
+      "help": "Half chord $= 3$ cm. Chord length $= 2 \\times \\sqrt{10^2 - 6^2} = 2 \\times 8 = 16$ cm.\n\nExample: right triangle radius, distance, half-chord."
+    },
+    "40": {
+      "hint": "Recall the tangent–radius theorem at the touching point.",
+      "help": "A tangent touches a circle at exactly one point. The radius drawn to that point is perpendicular to the tangent.\n\nPerpendicular lines meet at a right angle, which is 90°."
+    },
+    "41": {
+      "hint": "Diameter = 2 × 5 cm.",
+      "help": "Diameter **10 cm**.\n\nExample: r=5 → d=10.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "One touch point only — vocabulary.",
+      "help": "**Tangent**.\n\nExample: line just grazing circle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "43": {
+      "hint": "Which circle word matches: centre to the circle?",
+      "help": "A **radius** is the part that centre to the circle. Sketch a circle and label it."
+    },
+    "44": {
+      "hint": "Which circle word matches: through the centre, end to end?",
+      "help": "A **diameter** is the part that through the centre, end to end. Sketch a circle and label it."
+    },
+    "45": {
+      "hint": "Diameter is twice the radius — double 9 cm.",
+      "help": "Diameter $= 2 \\times 9 = 18$ cm.\n\nExample: radius 6 cm → diameter 12 cm."
+    },
+    "46": {
+      "hint": "Radius is half the diameter — divide 14 cm by 2.",
+      "help": "Radius $= 14 \\div 2 = 7$ cm.\n\nExample: diameter 20 cm → radius 10 cm."
+    },
+    "47": {
+      "hint": "A diameter joins two points on the circle through the centre — is it also a chord?",
+      "help": "A **diameter** is a **chord** that passes through the **centre** — **true**.\n\nExample: any chord is a line segment between two points on the circle."
+    },
+    "48": {
+      "hint": "Which line touches the circle at exactly one point without crossing inside?",
+      "help": "A **tangent** touches the circle at **one point** only.\n\nExample: a wheel on flat ground — ground line is tangent at the contact."
+    },
+    "49": {
+      "hint": "All radii of one circle go from centre to edge — are they the same length?",
+      "help": "Every **radius** of the same circle has the **same length** — **true**.\n\nExample: radius 5 cm from centre to any point on the circle."
+    },
+    "50": {
+      "hint": "Sector fraction: divide central angle 72° by 360°.",
+      "help": "Fraction $= 72 \\div 360 = 1/5$ of the full circle.\n\nExample: 90° sector → $90/360 = 1/4$."
+    },
+    "51": {
+      "hint": "Eight equal pizza slices from the centre — divide 360° by 8.",
+      "help": "Central angle per slice $= 360 \\div 8 = 45°$.\n\nExample: 6 equal slices → 60° each."
+    },
+    "52": {
+      "hint": "Radius meets tangent at the contact point — what angle do they make?",
+      "help": "Radius and tangent are **perpendicular** → **90°** at the contact point.\n\nExample: a square corner fits between radius and tangent."
+    },
+    "53": {
+      "hint": "The diameter is the longest chord — can any chord be longer than a diameter?",
+      "help": "No chord can be **longer than a diameter** — **never**.\n\nExample: diameter 10 cm is the maximum chord length."
+    },
+    "54": {
+      "hint": "Circumference uses $\\pi d$ — find diameter from radius 11 cm first.",
+      "help": "Diameter $= 2 \\times 11 = 22$ cm, then use $C = \\pi d$.\n\nExample: radius 5 cm → $d = 10$ cm."
+    },
+    "55": {
+      "hint": "From an external point, two tangents are drawn to a circle — how do their lengths compare?",
+      "help": "The two tangents from the same external point are **equal in length**.\n\nExample: both tangents from P might be 8 cm each."
+    },
+    "56": {
+      "hint": "Semicircle flat edge across the middle — what is that straight line called?",
+      "help": "The flat edge of a semicircle is the **diameter**.\n\nExample: half a circle cut through the centre."
+    },
+    "57": {
+      "hint": "Does the centre point lie on every chord of a circle?",
+      "help": "Only a **diameter** passes through the centre — ordinary chords need **not** contain the centre — **false**.\n\nExample: a short chord misses the centre."
+    },
+    "58": {
+      "hint": "Compare chord 8 cm with diameter 10 cm (radius 5 cm) — which is longer?",
+      "help": "Diameter $= 10$ cm. Chord **8 cm < 10 cm**, so the chord is **shorter**.\n\nExample: longest chord equals diameter."
+    },
+    "59": {
+      "hint": "Sector with central angle 120° — what fraction of 360°?",
+      "help": "Fraction $= 120 \\div 360 = 1/3$ of the circle.\n\nExample: 180° sector is half the circle."
+    },
+    "60": {
+      "hint": "Two circles with the same radius — identical size circles?",
+      "help": "Equal radii → same size circles → **congruent** — **always**.\n\nExample: both radius 4 cm circles match exactly."
+    },
+    "61": {
+      "hint": "Quarter turn of minute hand — what fraction of the full circumference does the tip travel?",
+      "help": "Quarter turn $= 1/4$ of the circumference. Arc length $= \\frac{1}{4} \\times 2\\pi r$ with $r = 10$ cm.\n\nExample: half turn → half the circumference."
+    },
+    "62": {
+      "hint": "Two tangents from the same point P — if one is 12 cm, what is the other?",
+      "help": "Equal tangents property: second tangent is also **12 cm**.\n\nExample: both tangents from P are 7 cm."
+    },
+    "63": {
+      "hint": "Is an arc a curved part of the circumference?",
+      "help": "An **arc** is part of the **circumference** — **true**.\n\nExample: the curved edge from A to B on a circle."
+    },
+    "64": {
+      "hint": "Radius is half the diameter — find radius when diameter is 20 cm.",
+      "help": "Radius $= 20 \\div 2 = 10$ cm.\n\nExample: diameter 14 cm → radius 7 cm."
+    },
+    "65": {
+      "hint": "Segment vs sector — which region includes the centre of the circle?",
+      "help": "A **sector** has two radii and includes the **centre**. A **segment** is between a chord and arc — usually **no centre**.\n\nExample: pizza slice is a sector."
+    },
+    "66": {
+      "hint": "If a radius is perpendicular to a chord, does it cut the chord in half?",
+      "help": "A radius **perpendicular** to a chord **bisects** the chord — **always** in the same circle.\n\nExample: symmetry through the centre."
+    },
+    "67": {
+      "hint": "Circles touch externally — add radii 4 cm and 7 cm for centre distance.",
+      "help": "Distance between centres $= 4 + 7 = 11$ cm.\n\nExample: radii 3 and 5 touching externally → 8 cm apart."
+    },
+    "68": {
+      "hint": "90° sector — what fraction of the full circle area?",
+      "help": "Fraction $= 90 \\div 360 = 1/4$ of the circle area.\n\nExample: 180° sector is half the area."
+    },
+    "69": {
+      "hint": "Are all points on a circle the same distance from the centre?",
+      "help": "Every point on a circle is **equidistant** from the **centre** — **true**.\n\nExample: that distance is the radius."
+    },
+    "70": {
+      "hint": "OA joins centre O to point A on the circle — what is OA called?",
+      "help": "**OA** is a **radius** (centre to circle).\n\nExample: any line from centre to the edge is a radius."
+    },
+    "71": {
+      "hint": "Radius 13 cm — double it for the diameter.",
+      "help": "Diameter $= 2 \\times 13 = 26$ cm.\n\nExample: radius 8 cm → diameter 16 cm."
+    },
+    "72": {
+      "hint": "Can a tangent line cross the circle at two points?",
+      "help": "A **tangent** touches at **one point** only — it cannot cut twice — **never**.\n\nExample: tangent just grazes the circle."
+    },
+    "73": {
+      "hint": "Longest chord in a circle — what special name does it have?",
+      "help": "The **longest chord** is the **diameter** $= 2 \\times 8 = 16$ cm.\n\nExample: radius 5 cm → longest chord 10 cm."
+    },
+    "74": {
+      "hint": "60° sector — divide by 360° for fraction of circumference.",
+      "help": "Arc fraction $= 60 \\div 360 = 1/6$ of the circumference.\n\nExample: 90° → $1/4$ of circumference."
+    },
+    "75": {
+      "hint": "Does circumference mean the distance around the edge of a circle?",
+      "help": "**Circumference** is the perimeter around a circle — **true**.\n\nExample: measure the edge of a plate."
+    },
+    "76": {
+      "hint": "Equal tangents from P — if one tangent is 9 cm, find the other.",
+      "help": "Both tangents from P are **9 cm**.\n\nExample: tangents 6 cm and 6 cm from same point."
+    },
+    "77": {
+      "hint": "Diameter from radius 12 cm — multiply by 2.",
+      "help": "Diameter $= 2 \\times 12 = 24$ cm.\n\nExample: radius 9 cm → diameter 18 cm."
+    },
+    "78": {
+      "hint": "Must every diameter pass through the centre of the circle?",
+      "help": "A **diameter** goes through the **centre** end to end — **always**.\n\nExample: centre is the midpoint of a diameter."
+    },
+    "79": {
+      "hint": "Chord 10 cm in a circle whose diameter is 10 cm — is it a diameter?",
+      "help": "A chord equal to the **diameter** **is** a diameter — **yes**.\n\nExample: longest possible chord equals diameter."
+    },
+    "80": {
+      "hint": "Sector angle 45° — fraction of full 360° turn?",
+      "help": "Fraction $= 45 \\div 360 = 1/8$.\n\nExample: 120° → $1/3$ of circle."
+    },
+    "81": {
+      "hint": "Does a sector look like a slice of pizza from the centre?",
+      "help": "A **sector** is a **pizza-slice** shape with two radii and an arc — **true**.\n\nExample: wedge cut from centre of round pizza."
+    },
+    "82": {
+      "hint": "Circles touch internally — subtract smaller radius 3 cm from larger 5 cm.",
+      "help": "Centre distance $= 5 - 3 = 2$ cm.\n\nExample: radii 8 and 5 internally → 3 cm apart."
+    },
+    "83": {
+      "hint": "Find diameter when radius is 7 cm.",
+      "help": "Diameter $= 2 \\times 7 = 14$ cm.\n\nExample: radius 4.5 cm → diameter 9 cm."
+    },
+    "84": {
+      "hint": "Tangents drawn from the same point outside the circle — equal lengths?",
+      "help": "Tangents from one **external point** are **equal** — **always**.\n\nExample: both 11 cm from P."
+    },
+    "85": {
+      "hint": "Minor arc AB has a longer partner from A to B — what is it called?",
+      "help": "The longer path is the **major arc**.\n\nExample: minor arc is the shorter curve between A and B."
+    },
+    "86": {
+      "hint": "Radius to the tangent contact point — perpendicular to the tangent?",
+      "help": "Radius ⟂ tangent at the point of contact — **true** (90°).\n\nExample: square corner at contact point."
+    },
+    "87": {
+      "hint": "Diameter 30 cm — is chord 24 cm shorter than the diameter?",
+      "help": "24 cm **<** 30 cm diameter — chord is **shorter** — **yes**.\n\nExample: no chord exceeds diameter length."
+    },
+    "88": {
+      "hint": "Central angle 180° sector — half a circle — what shape name?",
+      "help": "180° sector is a **semicircle**.\n\nExample: half a round pizza."
+    },
+    "89": {
+      "hint": "Can two different chords in the same circle have the same length?",
+      "help": "**Equal chords** are possible in one circle — **always** (symmetry).\n\nExample: two 6 cm chords opposite each other."
+    },
+    "90": {
+      "hint": "Line from centre O to point A on the circle — name OA.",
+      "help": "A segment from the **centre** to any point on the circle is a **radius**. So **OA** is a radius.\n\nExample: OB or OC from the centre are also radii."
+    },
+    "91": {
+      "hint": "Is a segment the region trapped between a chord and an arc?",
+      "help": "A **segment** is the region between a **chord** and an **arc** — **true**.\n\nExample: a flat cap cut off a circle."
+    },
+    "92": {
+      "hint": "Diameter 1.8 m — halve it and convert metres to centimetres.",
+      "help": "Radius $= 0.9$ m $= 90$ cm.\n\nExample: diameter 2 m → radius 100 cm."
+    },
+    "93": {
+      "hint": "External touch — add radii 6 cm and 2 cm for distance between centres.",
+      "help": "Distance $= 6 + 2 = 8$ cm.\n\nExample: radii 5 and 4 external → 9 cm."
+    },
+    "94": {
+      "hint": "Line through centre meeting circle at both ends — is it a diameter?",
+      "help": "A line through the **centre** hitting the circle twice is a **diameter** — **always**.\n\nExample: widest chord through centre."
+    },
+    "95": {
+      "hint": "Angle between radius and tangent at the point of contact?",
+      "help": "Tangent ⟂ radius → **90°**.\n\nExample: square corner at contact point."
+    },
+    "96": {
+      "hint": "Is $\\pi$ used in the formula for circle circumference?",
+      "help": "$C = \\pi d$ or $C = 2\\pi r$ — **true** that **π** is used.\n\nExample: circumference of a wheel uses π."
+    },
+    "97": {
+      "hint": "30° sector — what fraction of a full 360° turn?",
+      "help": "Fraction $= 30 \\div 360 = 1/12$.\n\nExample: 60° → $1/6$ of circle."
+    },
+    "98": {
+      "hint": "Longest possible chord when radius is 20 cm?",
+      "help": "Longest chord $=$ **diameter** $= 40$ cm.\n\nExample: radius 7 cm → longest chord 14 cm."
+    },
+    "99": {
+      "hint": "Concentric circles — do they share the same centre?",
+      "help": "**Concentric** circles have the **same centre** — **always**.\n\nExample: target rings on a dartboard."
+    },
+    "100": {
+      "hint": "Chord 6 cm, radius 5 cm — half chord 3, radius 5: can a right triangle work?",
+      "help": "Half chord 3, radius 5: $3^2 + 4^2 = 5^2$ — distance from centre to chord is 4 cm — **yes, possible**.\n\nExample: 3-4-5 triangle inside circle."
+    },
+    "101": {
+      "hint": "Where does the centre of a circle sit — inside or outside?",
+      "help": "The **centre** is **inside** the circle — **true**.\n\nExample: compass needle point sits inside the drawn circle."
+    },
+    "102": {
+      "hint": "Diameter 22 cm — halve it to find the radius.",
+      "help": "Radius $= 22 \\div 2 = 11$ cm.\n\nExample: diameter 16 cm → radius 8 cm."
+    },
+    "103": {
+      "hint": "Two tangents both 15 cm from P — are tangents from one point equal?",
+      "help": "Tangents from the same **external point** are **equal** — **true**.\n\nExample: both 9 cm from P."
+    },
+    "104": {
+      "hint": "Half a circle — what fraction of the full circumference?",
+      "help": "Half a circle is **$1/2$** of the circumference.\n\nExample: semicircle arc is half the edge."
+    },
+    "105": {
+      "hint": "Does a sector always have two radii from the centre?",
+      "help": "A **sector** is bounded by **two radii** and an arc — **always**.\n\nExample: pizza slice has two straight edges from centre."
+    },
+    "106": {
+      "hint": "Two radii 4 cm apart at 90° from the centre — name the bounded shape.",
+      "help": "Two radii at **90°** make a **quarter circle** (quadrant).\n\nExample: one slice of a four-slice pizza."
+    },
+    "107": {
+      "hint": "Does a chord join two points on the circle's edge?",
+      "help": "A **chord** joins **two points on the circle** — **true**.\n\nExample: straight line across inside a circle."
+    },
+    "108": {
+      "hint": "External touch — add radii 10 cm and 3 cm for centre distance.",
+      "help": "Distance $= 10 + 3 = 13$ cm.\n\nExample: radii 7 and 4 external → 11 cm."
+    },
+    "109": {
+      "hint": "144° sector — divide by 360° for the fraction of the circle.",
+      "help": "Fraction $= 144 \\div 360 = 2/5$.\n\nExample: 72° → $1/5$ of circle."
+    },
+    "110": {
+      "hint": "Is diameter always twice the radius?",
+      "help": "Diameter $= 2 \\times$ radius — **always**.\n\nExample: radius 5 cm → diameter 10 cm."
+    },
+    "111": {
+      "hint": "Radius OT to tangent at T — what angle between them?",
+      "help": "Radius ⟂ tangent at contact → **90°**.\n\nExample: square corner at T."
+    },
+    "112": {
+      "hint": "Which arc is shorter — minor or major?",
+      "help": "The **minor arc** is the **shorter** path along the circumference — **true**.\n\nExample: minor arc is the small curve between A and B."
+    },
+    "113": {
+      "hint": "Diameter 50 cm — halve to get radius.",
+      "help": "Radius $= 50 \\div 2 = 25$ cm.\n\nExample: diameter 18 cm → radius 9 cm."
+    },
+    "114": {
+      "hint": "Equal tangents from P — if one is 7.2 cm, find the other.",
+      "help": "Both tangents from P are **7.2 cm**.\n\nExample: tangents 5 cm and 5 cm from same point."
+    },
+    "115": {
+      "hint": "Can radii of the same circle have different lengths?",
+      "help": "All **radii** of one circle are **equal** — **always**.\n\nExample: every spoke same length on a wheel."
+    },
+    "116": {
+      "hint": "How many 40° sectors fit into a full 360° turn?",
+      "help": "$360 \\div 40 = 9$ sectors fit.\n\nExample: eight 45° slices make a full pizza."
+    },
+    "117": {
+      "hint": "Is a semicircle both a segment and a sector?",
+      "help": "A **semicircle** is both a **segment** and a **sector** — **true**.\n\nExample: half pizza is slice and cap shape."
+    },
+    "118": {
+      "hint": "Radius 6 cm — double it for diameter.",
+      "help": "Diameter $= 2 \\times 6 = 12$ cm.\n\nExample: radius 10 cm → diameter 20 cm."
+    },
+    "119": {
+      "hint": "Same centre, radii 5 and 8 — are the circles concentric?",
+      "help": "Same **centre**, different radii → **concentric** — **yes**.\n\nExample: dartboard rings share one centre."
+    },
+    "120": {
+      "hint": "Does a tangent stay outside the circle except at one touch point?",
+      "help": "A **tangent** touches at **one point** only — rest is outside — **always**.\n\nExample: line just grazing a ball."
+    },
+    "121": {
+      "hint": "Chord 12 cm, diameter 20 cm — is the chord shorter than the diameter?",
+      "help": "12 cm **<** 20 cm diameter — chord is **shorter** — **yes**.\n\nExample: no chord beats diameter length."
+    },
+    "122": {
+      "hint": "Does circumference equal $\\pi$ times diameter?",
+      "help": "$C = \\pi d$ — **true**.\n\nExample: wheel rim length uses $\\pi \\times$ width."
+    },
+    "123": {
+      "hint": "270° sector — what fraction of the full 360° circle?",
+      "help": "Fraction $= 270 \\div 360 = 3/4$.\n\nExample: 90° → $1/4$ of circle."
+    },
+    "124": {
+      "hint": "Both tangents from P are 4 cm — what property links them?",
+      "help": "**Equal tangents** from an external point — both **4 cm**.\n\nExample: tangents from P always match in length."
+    },
+    "125": {
+      "hint": "Is the longest chord in any circle always a diameter?",
+      "help": "The **longest chord** is the **diameter** — **always**.\n\nExample: widest line through centre."
+    },
+    "126": {
+      "hint": "Radius 25 cm — multiply by 2 for diameter.",
+      "help": "Diameter $= 2 \\times 25 = 50$ cm.\n\nExample: radius 12 cm → diameter 24 cm."
+    },
+    "127": {
+      "hint": "Does an arc start and end at points on the circle?",
+      "help": "An **arc** has **two endpoints** on the circle — **true**.\n\nExample: curved edge between A and B."
+    },
+    "128": {
+      "hint": "External touch — add radii 9 cm and 4 cm.",
+      "help": "Distance $= 9 + 4 = 13$ cm.\n\nExample: radii 6 and 5 external → 11 cm."
+    },
+    "129": {
+      "hint": "One fifth of a circle — what central angle in degrees?",
+      "help": "$360 \\div 5 = 72°$ at the centre.\n\nExample: eight equal slices → 45° each."
+    },
+    "130": {
+      "hint": "Is the radius always perpendicular to the tangent at the contact point?",
+      "help": "Radius ⟂ tangent at contact — **always** (90°).\n\nExample: square corner where radius meets tangent."
+    },
+    "131": {
+      "hint": "Why are both tangents from an outside point the same length?",
+      "help": "From external point **P**, tangents to a circle are **equal** — symmetric right triangles OTP and OTP′.\n\nExample: both tangents 6 cm from P."
+    },
+    "132": {
+      "hint": "Does a sector include the centre of the circle?",
+      "help": "A **sector** is a wedge from the **centre** — **true**.\n\nExample: pizza slice point is at the centre."
+    },
+    "133": {
+      "hint": "Diameter 3.2 m — halve and convert to centimetres.",
+      "help": "Radius $= 1.6$ m $= 160$ cm.\n\nExample: diameter 2.4 m → radius 120 cm."
+    },
+    "134": {
+      "hint": "Chord that does not pass through the centre — still called a chord?",
+      "help": "A chord **not through the centre** is still a **chord** (not a diameter).\n\nExample: short line across the circle off-centre."
+    },
+    "135": {
+      "hint": "Can two circles touch at exactly one point?",
+      "help": "Circles can **touch externally or internally** at **one point** — **always** possible.\n\nExample: two coins just touching edge to edge."
+    },
+    "136": {
+      "hint": "18° sector — divide by 360° for the fraction.",
+      "help": "Fraction $= 18 \\div 360 = 1/20$.\n\nExample: 36° → $1/10$ of circle."
+    },
+    "137": {
+      "hint": "Is every point on the circle the same distance from the centre?",
+      "help": "The **centre** is **equidistant** from all points on the circle — **true**.\n\nExample: radius constant round the edge."
+    },
+    "138": {
+      "hint": "Radius 14 cm — longest chord equals diameter.",
+      "help": "Longest chord $= 2 \\times 14 = 28$ cm.\n\nExample: radius 9 cm → longest chord 18 cm."
+    },
+    "139": {
+      "hint": "Diameter perpendicular to a chord — does it bisect the chord?",
+      "help": "A **diameter perpendicular to a chord** **bisects** it — **true**.\n\nExample: fold line through centre cuts chord in half."
+    },
+    "140": {
+      "hint": "Equal tangents from P with radius ⟂ tangent — what quadrilateral is OTP?",
+      "help": "Two right angles at T and T′ with equal tangents → **kite** (or symmetric quadrilateral OTP…).\n\nExample: mirror symmetry about OP."
+    },
+    "141": {
+      "hint": "Does $\\pi d$ give the circumference of a circle?",
+      "help": "$C = \\pi d$ — **true**.\n\nExample: diameter 10 cm → $C = 10\\pi$ cm."
+    },
+    "142": {
+      "hint": "Two radii 5 cm with 120° between them — name the sector OAB.",
+      "help": "Central angle **120°** makes a **sector** (one-third of a circle).\n\nExample: three equal pizza slices fill 360°."
+    },
+    "143": {
+      "hint": "Can a chord also be a diameter?",
+      "help": "A chord **through the centre** **is** a diameter — **always** possible.\n\nExample: widest chord across the circle."
+    },
+    "144": {
+      "hint": "Two circles both radius 2 cm — are they congruent?",
+      "help": "Same **radius** → **congruent circles** — **yes**.\n\nExample: two identical coins."
+    },
+    "145": {
+      "hint": "Does a segment usually include the centre?",
+      "help": "A **segment** (chord + arc region) usually **does not** include the centre — **true**.\n\nExample: small cap cut off the top."
+    },
+    "146": {
+      "hint": "Diameter 18 cm — halve for radius.",
+      "help": "Radius $= 18 \\div 2 = 9$ cm.\n\nExample: diameter 24 cm → radius 12 cm."
+    },
+    "147": {
+      "hint": "External touch — add radii 12 cm and 5 cm.",
+      "help": "Distance $= 12 + 5 = 17$ cm.\n\nExample: radii 8 and 3 external → 11 cm."
+    },
+    "148": {
+      "hint": "Are tangents from P to a circle always symmetric about OP?",
+      "help": "Tangents from **P** are **symmetric** about line **OP** — **always**.\n\nExample: mirror image left and right tangents."
+    },
+    "149": {
+      "hint": "Arc is one quarter of the circle — what central angle?",
+      "help": "Quarter circle → central angle **90°**.\n\nExample: four equal slices → 90° each."
+    },
+    "150": {
+      "hint": "Sketch and name chord, tangent, and radius on one circle.",
+      "help": "**Radius**: centre to edge. **Chord**: line between two edge points. **Tangent**: touches edge once.\n\nExample: label each on a wheel diagram."
+    },
+    "151": {
+      "hint": "Is radius half of the diameter?",
+      "help": "Radius $= $ diameter $\\div 2$ — **true**.\n\nExample: diameter 14 cm → radius 7 cm."
+    },
+    "152": {
+      "hint": "150° sector — fraction of 360°?",
+      "help": "Fraction $= 150 \\div 360 = 5/12$.\n\nExample: 60° → $1/6$ of circle."
+    },
+    "153": {
+      "hint": "In one circle, do equal chords sit the same distance from the centre?",
+      "help": "**Equal chords** are **equidistant** from the centre in the same circle — **always**.\n\nExample: two 8 cm chords at same depth."
+    },
+    "154": {
+      "hint": "One tangent from P is 8 cm — find the other tangent length.",
+      "help": "Both tangents from P are **8 cm**.\n\nExample: tangents 12 cm and 12 cm from same point."
+    },
+    "155": {
+      "hint": "Is circumference the length around the outside edge?",
+      "help": "**Circumference** is the distance **around the edge** — **true**.\n\nExample: tape measure round a tin."
+    },
+    "156": {
+      "hint": "Radius 30 cm — double for diameter.",
+      "help": "Diameter $= 2 \\times 30 = 60$ cm.\n\nExample: radius 15 cm → diameter 30 cm."
+    },
+    "157": {
+      "hint": "Line through centre hitting the circle twice — is it a diameter?",
+      "help": "Through **centre**, meets circle twice → **diameter** — **always**.\n\nExample: widest line across the circle."
+    },
+    "158": {
+      "hint": "Central angle 200° — which sector is minor, 200° or 160°?",
+      "help": "Minor sector has the **smaller** angle: $360 - 200 = 160°$ is **minor** (200° is major).\n\nExample: pick the smaller wedge."
+    },
+    "159": {
+      "hint": "Concentric circles — do they have different radii?",
+      "help": "**Concentric** circles share a centre but have **different radii** — **true**.\n\nExample: dartboard rings of different widths."
+    },
+    "160": {
+      "hint": "Two circles radius 7 touch externally — distance between centres?",
+      "help": "Distance $= 7 + 7 = 14$ cm.\n\nExample: two equal coins touching → sum of radii."
+    },
+    "161": {
+      "hint": "Tangent meets radius at a square corner — explain with 90°.",
+      "help": "At the contact point, **radius ⟂ tangent** — like a **square corner** (90°).\n\nExample: corner of a box where radius meets tangent line."
+    },
+    "162": {
+      "hint": "Can any chord be longer than the diameter?",
+      "help": "The **diameter** is the **longest chord** — **always**.\n\nExample: no line across the circle beats diameter length."
+    },
+    "163": {
+      "hint": "Chord 16 cm equals diameter 16 cm — is it a diameter?",
+      "help": "Chord length **equals diameter** → it **is** a diameter — **yes**.\n\nExample: widest chord through centre."
+    },
+    "164": {
+      "hint": "Is a 90° sector exactly one quarter of the circle?",
+      "help": "90° out of 360° is **one quarter** — **true**.\n\nExample: four equal pizza slices."
+    },
+    "165": {
+      "hint": "Radius 4.5 cm — multiply by 2 for diameter.",
+      "help": "Diameter $= 2 \\times 4.5 = 9$ cm.\n\nExample: radius 3.5 cm → diameter 7 cm."
+    },
+    "166": {
+      "hint": "Point P outside the circle — are tangents from P equal?",
+      "help": "From **external point P**, tangents are **equal** — **always**.\n\nExample: both tangents 10 cm from P."
+    },
+    "167": {
+      "hint": "Central angle 300° — find the minor sector angle.",
+      "help": "Minor sector angle $= 360 - 300 = 60°$.\n\nExample: pick the smaller wedge under 180°."
+    },
+    "168": {
+      "hint": "Does arc length depend on both radius and central angle?",
+      "help": "Arc length grows with **radius** and **angle at centre** — **true**.\n\nExample: bigger circle or bigger angle → longer arc."
+    },
+    "169": {
+      "hint": "Internal touch — subtract radii 10 cm and 6 cm.",
+      "help": "Distance $= 10 - 6 = 4$ cm.\n\nExample: radii 9 and 4 internally → 5 cm apart."
+    },
+    "170": {
+      "hint": "Draw a circle and label chord, tangent, and radius clearly.",
+      "help": "Sketch: **radius** centre-to-edge, **chord** between two edge points, **tangent** touching once.\n\nExample: wheel with spoke, straight across, and grazing line."
+    },
+    "171": {
+      "hint": "Do both endpoints of a diameter lie on the circle?",
+      "help": "Diameter endpoints are **on the circle** — **true**.\n\nExample: widest line touches edge at both ends."
+    },
+    "172": {
+      "hint": "Sector is one sixth of the circle — central angle?",
+      "help": "$360 \\div 6 = 60°$ at the centre.\n\nExample: six equal slices → 60° each."
+    },
+    "173": {
+      "hint": "Can two circles cross at two separate points?",
+      "help": "Circles can **intersect at two points** — **always** possible if close enough.\n\nExample: two overlapping rings."
+    },
+    "174": {
+      "hint": "Equal tangents property — both lengths are 11 cm.",
+      "help": "Both tangents from P are **11 cm**.\n\nExample: tangents 7 cm and 7 cm from same point."
+    },
+    "175": {
+      "hint": "Does the centre give the circle its name and position?",
+      "help": "The **centre** fixes the circle's position — **true** (names the circle in diagrams).\n\nExample: point O labels circle O."
+    },
+    "176": {
+      "hint": "Diameter 40 cm — halve for radius.",
+      "help": "Radius $= 40 \\div 2 = 20$ cm.\n\nExample: diameter 26 cm → radius 13 cm."
+    },
+    "177": {
+      "hint": "Radius to midpoint of a bisected chord — perpendicular?",
+      "help": "Radius to **midpoint of bisected chord** is **perpendicular** to the chord — **always**.\n\nExample: fold line from centre cuts chord at 90°."
+    },
+    "178": {
+      "hint": "Segment vs sector — which includes the centre?",
+      "help": "**Sector**: wedge from **centre** (two radii + arc). **Segment**: region between **chord and arc**, usually no centre.\n\nExample: pizza slice vs flat cap."
+    },
+    "179": {
+      "hint": "Is $\\pi$ approximately equal to 3.14?",
+      "help": "$\\pi \\approx 3.14$ — **true** (close enough for estimates).\n\nExample: circumference ≈ $3.14 \\times$ diameter."
+    },
+    "180": {
+      "hint": "External touch — add radii 8 cm and 3 cm.",
+      "help": "Distance $= 8 + 3 = 11$ cm.\n\nExample: radii 10 and 6 external → 16 cm."
+    },
+    "181": {
+      "hint": "Can a tangent share two points with the circle?",
+      "help": "A **tangent** touches at **one point** only — **never** two.\n\nExample: line grazing a ball at a single spot."
+    },
+    "182": {
+      "hint": "How many 36° sectors fill a full 360° turn?",
+      "help": "$360 \\div 36 = 10$ sectors.\n\nExample: ten equal thin slices make a full circle."
+    },
+    "183": {
+      "hint": "Does a diameter split a circle into two semicircles?",
+      "help": "A **diameter** cuts the circle into **two semicircles** — **true**.\n\nExample: half a round pizza on each side."
+    },
+    "184": {
+      "hint": "Half chord 5 cm, radius 6 cm — use Pythagoras for distance from centre.",
+      "help": "Right triangle: half chord 5, radius 6 → distance from centre $= \\sqrt{6^2 - 5^2} = \\sqrt{11}$ cm.\n\nExample: 3-4-5 triangle gives distance 4 cm."
+    },
+    "185": {
+      "hint": "Circles with equal radii — are they congruent?",
+      "help": "Equal **radii** → **congruent circles** — **always**.\n\nExample: two coins of same size match exactly."
+    },
+    "186": {
+      "hint": "Car mirror tangents both 2.1 m — find the other tangent length.",
+      "help": "Equal tangents → other length **2.1 m**.\n\nExample: both tangents 1.5 m from same point."
+    },
+    "187": {
+      "hint": "Does a sector's boundary include a curved arc?",
+      "help": "A **sector** boundary has an **arc** plus two radii — **true**.\n\nExample: pizza slice curved outer edge is an arc."
+    },
+    "188": {
+      "hint": "Radius 11 cm means diameter 22 cm — use that for circumference?",
+      "help": "Diameter $= 22$ cm, so $C = \\pi \\times 22$ — **true**.\n\nExample: $C = \\pi d$ with $d = 2r$."
+    },
+    "189": {
+      "hint": "Does the word arc mean the curved part of the circumference?",
+      "help": "An **arc** is the **curved part** of the circumference — **always**.\n\nExample: curved edge between A and B."
+    },
+    "190": {
+      "hint": "Concentric circles radii 3 and 5 — subtract for ring width.",
+      "help": "Ring width $= 5 - 3 = 2$ cm.\n\nExample: radii 4 and 7 → width 3 cm."
+    },
+    "191": {
+      "hint": "Angle in a semicircle on the circumference — what size angle?",
+      "help": "Angle in a **semicircle** (on the circle, diameter as base) is **90°** — **true** (Thales).\n\nExample: triangle on diameter with vertex on circle."
+    },
+    "192": {
+      "hint": "240° sector — what is the minor sector angle?",
+      "help": "Minor sector $= 360 - 240 = 120°$.\n\nExample: pick the smaller wedge under 180°."
+    },
+    "193": {
+      "hint": "Tangents from external point P — always equal in length?",
+      "help": "Tangents from **external P** are **equal** — **always**.\n\nExample: both 8 cm from P."
+    },
+    "194": {
+      "hint": "Five equal pizza slices — divide 360° by 5 for central angle.",
+      "help": "$360 \\div 5 = 72°$ per slice.\n\nExample: four slices → 90° each."
+    },
+    "195": {
+      "hint": "Does a radius meet the circle at exactly one point?",
+      "help": "A **radius** meets the circle at **one point** on the edge — **true**.\n\nExample: spoke touches rim once."
+    },
+    "196": {
+      "hint": "Explain why diameter equals two radii placed end to end.",
+      "help": "Diameter goes **centre to edge twice** (both directions) → **diameter $= 2 \\times$ radius**.\n\nExample: two 5 cm radii make 10 cm diameter."
+    },
+    "197": {
+      "hint": "Centres 13 cm apart, radii 5 and 8 — do they touch externally?",
+      "help": "$5 + 8 = 13$ cm — centres exactly **sum of radii** → **touch externally** — **yes**.\n\nExample: two coins just touching."
+    },
+    "198": {
+      "hint": "Tangent–radius triangle — where is the right angle?",
+      "help": "Right angle at **point of contact** where **radius ⟂ tangent**.\n\nExample: label 90° at T where tangent meets radius OT."
+    },
+    "199": {
+      "hint": "Regular hexagon inscribed — six equal arcs at the centre?",
+      "help": "Six equal arcs → central angle $360 \\div 6 = 60°$ each.\n\nExample: six equal pizza slices from centre."
+    },
+    "200": {
+      "hint": "Link all circle words in one paragraph — start from the centre.",
+      "help": "From **centre**, **radius** to edge; **diameter** is twice radius; **chord** joins two edge points; **tangent** touches once; **arc** is curved edge; **sector** is wedge; **segment** is chord+arc region; **circumference** is full edge.\n\nExample: label each on one diagram."
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import { cookies } from "next/headers";
 import {
   getAccountById,
+  isParentAccount,
   loadAccountRegistry,
   resolveAccountFromLogin,
   type AccountRecord,
@@ -28,6 +29,7 @@ async function hydrateSession(
   return {
     ...payload,
     displayName: account.displayName,
+    isParent: isParentAccount(account),
   };
 }
 
@@ -47,6 +49,12 @@ export async function requireSession(
   if (!session) throw new Error("UNAUTHORIZED");
   if (tenant && session.tenant !== tenant) throw new Error("FORBIDDEN");
   return session;
+}
+
+export async function getSessionAccount(): Promise<AccountRecord | null> {
+  const session = await getSession();
+  if (!session) return null;
+  return (await getAccountById(session.userId)) ?? null;
 }
 
 export async function validateLogin(name: string): Promise<AccountRecord | null> {

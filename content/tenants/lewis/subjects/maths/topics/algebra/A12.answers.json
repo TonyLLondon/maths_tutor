@@ -1,0 +1,2081 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "Linear",
+      "accept": [
+        "linear"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "Quadratic",
+      "accept": [
+        "quadratic"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "A straight line (linear)",
+      "accept": [
+        "straight line",
+        "linear"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "A U-shape (quadratic / parabola)",
+      "accept": [
+        "u-shape",
+        "quadratic",
+        "parabola"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "An S-shape (cubic)",
+      "accept": [
+        "s-shape",
+        "cubic"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "A reciprocal curve (two branches)",
+      "accept": [
+        "reciprocal",
+        "hyperbola",
+        "two branches",
+        "two curves"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "-8, -1, 0, 1, 8",
+      "accept": [
+        "-8 -1 0 1 8",
+        "-8,-1,0,1,8",
+        "-8, -1, 0, 1, 8"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "6, 3, 2, 1",
+      "accept": [
+        "6 3 2 1",
+        "6,3,2,1",
+        "6, 3, 2, 1"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "Linear",
+      "accept": [
+        "linear"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "Quadratic",
+      "accept": [
+        "quadratic"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "No — since k is not 0, dividing k by any x never gives exactly 0.",
+      "accept": [
+        "no",
+        "never"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "Yes — cubing a negative number gives a negative result.",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "y = 5x is linear; y = x^2 is quadratic; y = x^3 + 1 is cubic; y = 2/x is reciprocal.",
+      "accept": [
+        "linear",
+        "quadratic",
+        "cubic",
+        "reciprocal"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "y = x^2 has 1 turning point (a minimum at x = 0). y = x^3 has 0 turning points — it is always increasing, just flattening momentarily at the origin.",
+      "accept": [
+        "1",
+        "0"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "Reciprocal",
+      "accept": [
+        "reciprocal",
+        "hyperbola"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "Exponential",
+      "accept": [
+        "exponential"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "23": {
+      "display": "y = x^2 is always non-negative and symmetric, forming a U-shape with one minimum turning point. y = x^3 gives negative outputs for negative x and is an S-shape that keeps increasing with no turning point — the graphs look quite different despite both being powers of x.",
+      "accept": [
+        "u-shape",
+        "s-shape",
+        "different"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "24": {
+      "display": "Sometimes — a cubic with no constant term, like y = x^3, passes through (0, 0), but a shifted cubic such as y = x^3 + 1 does not.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "25": {
+      "display": "Sam is wrong — dividing by zero is undefined, so x = 0 cannot be substituted into y = 4/x.",
+      "accept": [
+        "undefined",
+        "divide by zero",
+        "cannot"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "26": {
+      "display": "y = -x^2 is a reflection of y = x^2 in the x-axis — it forms an upside-down (n-shaped) curve with a maximum turning point instead of a minimum.",
+      "accept": [
+        "reflection",
+        "upside-down",
+        "maximum"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "27": {
+      "display": "True — for large x, x^3 becomes much bigger than x^2 (e.g. at x = 10, x^3 = 1000 but x^2 = 100), so the cubic grows far faster.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "28": {
+      "display": "Leo is correct — both have a constant term of 3, so y = 2(0) + 3 = 3 and y = 0^2 + 3 = 3; both graphs cross the y-axis at (0, 3).",
+      "accept": [
+        "correct",
+        "(0,3)",
+        "3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "29": {
+      "display": "Both equations use the number 3 and the letter x, but y = 3x is a straight line through the origin where y increases in direct proportion to x, while y = 3/x is a curved reciprocal graph in two branches where y decreases as x increases, and it never touches either axis.",
+      "accept": [
+        "linear",
+        "reciprocal",
+        "direct",
+        "inverse"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "30": {
+      "display": "No — the highest power of x is 3 (from x^3), so y = x^3 + x^2 is a cubic, not a quadratic, even though it contains an x^2 term.",
+      "accept": [
+        "no",
+        "cubic"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "31": {
+      "display": "Cubic",
+      "accept": [
+        "cubic"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "32": {
+      "display": "At x = 10, y = 200/10 = 20. As x gets very large, y gets closer and closer to 0 but never actually reaches it.",
+      "accept": [
+        "20",
+        "0",
+        "closer to 0"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1680
+    },
+    "33": {
+      "display": "It can never touch the x-axis because 10/x is never exactly 0 for any x, and it can never touch the y-axis because x = 0 would mean dividing by zero, which is undefined.",
+      "accept": [
+        "never 0",
+        "undefined",
+        "divide by zero"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "34": {
+      "display": "A linear equation has a constant rate of change (a straight line), but the ball's height rises then falls, which needs a curve with a turning point — only a quadratic can model that.",
+      "accept": [
+        "constant rate",
+        "turning point",
+        "quadratic"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1650
+    },
+    "35": {
+      "display": "In a cubic graph, the rate of increase itself keeps growing as x increases, so the curve becomes steeper and steeper — costs rise much faster for large orders than for small ones.",
+      "accept": [
+        "steeper",
+        "rate of increase grows"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1700
+    },
+    "36": {
+      "display": "y = x^3 - 5 keeps increasing without ever turning back, similar to a straight line, even though its graph curves. In contrast, y = x^2 + 2 decreases then increases, so it does turn back on itself at its minimum.",
+      "accept": [
+        "x^3-5",
+        "x^3 - 5",
+        "cubic"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "At x = -2, -1, 0, 1, 2: x^2 gives 4, 1, 0, 1, 4 (always non-negative, since squaring removes the sign). x^3 gives -8, -1, 0, 1, 8 (keeps the sign of x, since an odd power preserves negativity).",
+      "accept": [
+        "4",
+        "-8",
+        "sign"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1860
+    },
+    "38": {
+      "display": "As x gets close to 0 from the positive side, y = 1/x shoots up towards very large positive values. As x gets very large, y gets closer and closer to 0 but never reaches it.",
+      "accept": [
+        "large",
+        "close to 0"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "39": {
+      "display": "y = x^3 - x equals 0 at x = -1, x = 0, and x = 1 (since (-1)^3 - (-1) = 0, 0^3 - 0 = 0, and 1^3 - 1 = 0). This crosses the x-axis three times, disproving the claim that all cubics cross exactly once.",
+      "accept": [
+        "-1",
+        "0",
+        "1",
+        "three times"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1953
+    },
+    "40": {
+      "display": "Look at the highest power of x: power 1 gives a straight line (linear), power 2 gives a U-shape (quadratic), power 3 gives an S-shape (cubic). If x appears in the denominator (like k/x), the graph is reciprocal, with two curved branches.",
+      "accept": [
+        "highest power",
+        "linear",
+        "quadratic",
+        "cubic",
+        "reciprocal"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "Cubic",
+      "accept": [
+        "cubic"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "x^2 is always non-negative; x^3 can be negative",
+      "accept": [
+        "non-negative",
+        "negative"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1500
+    },
+    "43": {
+      "display": "linear",
+      "tier": 1,
+      "rating": 817,
+      "accept": [
+        "linear"
+      ]
+    },
+    "44": {
+      "display": "linear",
+      "tier": 1,
+      "rating": 824,
+      "accept": [
+        "linear"
+      ]
+    },
+    "45": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 821,
+      "contains": true
+    },
+    "46": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 831,
+      "contains": true
+    },
+    "47": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 841,
+      "contains": true
+    },
+    "48": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 851,
+      "contains": true
+    },
+    "49": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 861,
+      "contains": true
+    },
+    "50": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 856,
+      "contains": true
+    },
+    "51": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 866,
+      "contains": true
+    },
+    "52": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 876,
+      "contains": true
+    },
+    "53": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 886,
+      "contains": true
+    },
+    "54": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 896,
+      "contains": true
+    },
+    "55": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 891,
+      "contains": true
+    },
+    "56": {
+      "display": "Answer with yes/no and reason",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 901,
+      "contains": true
+    },
+    "57": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 911,
+      "contains": true
+    },
+    "58": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 921,
+      "contains": true
+    },
+    "59": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 931,
+      "contains": true
+    },
+    "60": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 926,
+      "contains": true
+    },
+    "61": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 936,
+      "contains": true
+    },
+    "62": {
+      "display": "Answer with yes/no and reason",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 946,
+      "contains": true
+    },
+    "63": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 956,
+      "contains": true
+    },
+    "64": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 966,
+      "contains": true
+    },
+    "65": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 961,
+      "contains": true
+    },
+    "66": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 971,
+      "contains": true
+    },
+    "67": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 981,
+      "contains": true
+    },
+    "68": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 991,
+      "contains": true
+    },
+    "69": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1001,
+      "contains": true
+    },
+    "70": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 996,
+      "contains": true
+    },
+    "71": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1006,
+      "contains": true
+    },
+    "72": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1016,
+      "contains": true
+    },
+    "73": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1026,
+      "contains": true
+    },
+    "74": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1036,
+      "contains": true
+    },
+    "75": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1031,
+      "contains": true
+    },
+    "76": {
+      "display": "linear; quadratic; cubic; reciprocal",
+      "accept": [
+        "linear",
+        "quadratic",
+        "cubic",
+        "reciprocal"
+      ],
+      "tier": 1,
+      "rating": 1041,
+      "contains": true,
+      "containsMin": 3
+    },
+    "77": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1051,
+      "contains": true
+    },
+    "78": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1061,
+      "contains": true
+    },
+    "79": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1071,
+      "contains": true
+    },
+    "80": {
+      "display": "Answer with yes/no and reason",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 1066,
+      "contains": true
+    },
+    "81": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1076,
+      "contains": true
+    },
+    "82": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1086,
+      "contains": true
+    },
+    "83": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1096,
+      "contains": true
+    },
+    "84": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1106,
+      "contains": true
+    },
+    "85": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1101,
+      "contains": true
+    },
+    "86": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1111,
+      "contains": true
+    },
+    "87": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1121,
+      "contains": true
+    },
+    "88": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1131,
+      "contains": true
+    },
+    "89": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1141,
+      "contains": true
+    },
+    "90": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 1136,
+      "contains": true
+    },
+    "91": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1146,
+      "contains": true
+    },
+    "92": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1156,
+      "contains": true
+    },
+    "93": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1166,
+      "contains": true
+    },
+    "94": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1176,
+      "contains": true
+    },
+    "95": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1171,
+      "contains": true
+    },
+    "96": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1181,
+      "contains": true
+    },
+    "97": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1191,
+      "contains": true
+    },
+    "98": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1201,
+      "contains": true
+    },
+    "99": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1211,
+      "contains": true
+    },
+    "100": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1206,
+      "contains": true
+    },
+    "101": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1100,
+      "contains": true
+    },
+    "102": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1107,
+      "contains": true
+    },
+    "103": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1113,
+      "contains": true
+    },
+    "104": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1120,
+      "contains": true
+    },
+    "105": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1126,
+      "contains": true
+    },
+    "106": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1133,
+      "contains": true
+    },
+    "107": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1139,
+      "contains": true
+    },
+    "108": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1146,
+      "contains": true
+    },
+    "109": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1153,
+      "contains": true
+    },
+    "110": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1159,
+      "contains": true
+    },
+    "111": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1166,
+      "contains": true
+    },
+    "112": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1172,
+      "contains": true
+    },
+    "113": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1179,
+      "contains": true
+    },
+    "114": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1185,
+      "contains": true
+    },
+    "115": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1192,
+      "contains": true
+    },
+    "116": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1198,
+      "contains": true
+    },
+    "117": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1205,
+      "contains": true
+    },
+    "118": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1212,
+      "contains": true
+    },
+    "119": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1218,
+      "contains": true
+    },
+    "120": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1225,
+      "contains": true
+    },
+    "121": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1231,
+      "contains": true
+    },
+    "122": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1238,
+      "contains": true
+    },
+    "123": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1244,
+      "contains": true
+    },
+    "124": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1251,
+      "contains": true
+    },
+    "125": {
+      "display": "Answer with yes/no and reason",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1258,
+      "contains": true
+    },
+    "126": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1264,
+      "contains": true
+    },
+    "127": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1271,
+      "contains": true
+    },
+    "128": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1277,
+      "contains": true
+    },
+    "129": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1284,
+      "contains": true
+    },
+    "130": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1290,
+      "contains": true
+    },
+    "131": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1297,
+      "contains": true
+    },
+    "132": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1304,
+      "contains": true
+    },
+    "133": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1310,
+      "contains": true
+    },
+    "134": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1317,
+      "contains": true
+    },
+    "135": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1323,
+      "contains": true
+    },
+    "136": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1330,
+      "contains": true
+    },
+    "137": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1336,
+      "contains": true
+    },
+    "138": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1343,
+      "contains": true
+    },
+    "139": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1349,
+      "contains": true
+    },
+    "140": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1356,
+      "contains": true
+    },
+    "141": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1363,
+      "contains": true
+    },
+    "142": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1369,
+      "contains": true
+    },
+    "143": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1376,
+      "contains": true
+    },
+    "144": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1382,
+      "contains": true
+    },
+    "145": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1389,
+      "contains": true
+    },
+    "146": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1395,
+      "contains": true
+    },
+    "147": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1402,
+      "contains": true
+    },
+    "148": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1409,
+      "contains": true
+    },
+    "149": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1415,
+      "contains": true
+    },
+    "150": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1422,
+      "contains": true
+    },
+    "151": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1428,
+      "contains": true
+    },
+    "152": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1435,
+      "contains": true
+    },
+    "153": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1441,
+      "contains": true
+    },
+    "154": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1448,
+      "contains": true
+    },
+    "155": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1455,
+      "contains": true
+    },
+    "156": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1461,
+      "contains": true
+    },
+    "157": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1468,
+      "contains": true
+    },
+    "158": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1474,
+      "contains": true
+    },
+    "159": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1481,
+      "contains": true
+    },
+    "160": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1487,
+      "contains": true
+    },
+    "161": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1494,
+      "contains": true
+    },
+    "162": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1501,
+      "contains": true
+    },
+    "163": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1507,
+      "contains": true
+    },
+    "164": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1514,
+      "contains": true
+    },
+    "165": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1520,
+      "contains": true
+    },
+    "166": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1527,
+      "contains": true
+    },
+    "167": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1533,
+      "contains": true
+    },
+    "168": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1540,
+      "contains": true
+    },
+    "169": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1546,
+      "contains": true
+    },
+    "170": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1553,
+      "contains": true
+    },
+    "171": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1560,
+      "contains": true
+    },
+    "172": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1566,
+      "contains": true
+    },
+    "173": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1573,
+      "contains": true
+    },
+    "174": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1579,
+      "contains": true
+    },
+    "175": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1586,
+      "contains": true
+    },
+    "176": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1592,
+      "contains": true
+    },
+    "177": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1599,
+      "contains": true
+    },
+    "178": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1606,
+      "contains": true
+    },
+    "179": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1612,
+      "contains": true
+    },
+    "180": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1619,
+      "contains": true
+    },
+    "181": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1625,
+      "contains": true
+    },
+    "182": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1632,
+      "contains": true
+    },
+    "183": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1638,
+      "contains": true
+    },
+    "184": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1645,
+      "contains": true
+    },
+    "185": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1652,
+      "contains": true
+    },
+    "186": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1658,
+      "contains": true
+    },
+    "187": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1665,
+      "contains": true
+    },
+    "188": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1671,
+      "contains": true
+    },
+    "189": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1678,
+      "contains": true
+    },
+    "190": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1684,
+      "contains": true
+    },
+    "191": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1691,
+      "contains": true
+    },
+    "192": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1697,
+      "contains": true
+    },
+    "193": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1704,
+      "contains": true
+    },
+    "194": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1711,
+      "contains": true
+    },
+    "195": {
+      "display": "Quadratics form U-shaped parabolas.",
+      "accept": [
+        "quadratic",
+        "parabola",
+        "u"
+      ],
+      "tier": 3,
+      "rating": 1717,
+      "contains": true,
+      "containsMin": 2
+    },
+    "196": {
+      "display": "Reciprocals form hyperbola branches.",
+      "accept": [
+        "reciprocal",
+        "hyperbola"
+      ],
+      "tier": 3,
+      "rating": 1724,
+      "contains": true,
+      "containsMin": 2
+    },
+    "197": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1730,
+      "contains": true
+    },
+    "198": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1737,
+      "contains": true
+    },
+    "199": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1743,
+      "contains": true
+    },
+    "200": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1750,
+      "contains": true
+    }
+  }
+}

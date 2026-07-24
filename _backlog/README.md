@@ -43,7 +43,7 @@ New worksheets must use those section headings. Answer keys should include `"tie
 
 1. Run `python3 _backlog/scripts/update-coverage.py` → use `missingSlugs` only (do **not** reuse stale `batch-*.txt` after spine is full).
 2. Read `_backlog/agents/WORKSHEET-BRIEF.md`.
-3. Write under `content/tenants/archer/subjects/maths/topics/…`
+3. Write under `content/tenants/lewis/subjects/maths/topics/…`
 4. Log in `logs/` and re-run coverage.
 
 See `_backlog/issues/003-parallel-batch-overlap.md` if multiple agents touch the same slug.

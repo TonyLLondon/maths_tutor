@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Count the straight edges around a triangle — how many sides meet at the corners?",
+      "help": "A **triangle** is a flat shape with three straight sides. Each side is a line segment between two corners.\n\nExample: a triangle drawn on paper has exactly **3** sides, no matter how tall or wide it looks."
+    },
+    "2": {
+      "hint": "A square has four equal sides — how many sides is that in total?",
+      "help": "A **square** is a quadrilateral with four equal sides and four equal angles.\n\nExample: a chessboard square has **4** sides."
+    },
+    "3": {
+      "hint": "Corners are the points where two sides meet — count them on a rectangle.",
+      "help": "A **rectangle** has four sides, and each corner is where two sides meet. That gives **4** corners (vertices).\n\nExample: a door frame (roughly rectangular) has four corners."
+    },
+    "4": {
+      "hint": "Which common shape is completely round with no straight edges?",
+      "help": "Shapes with **no straight sides** are curved all the way round. A **circle** (or a ball’s outline) fits this.\n\nExample: a wheel or a coin face is circular — no straight sides."
+    },
+    "5": {
+      "hint": "Compare how many sides each named shape has: circle, triangle, or square.",
+      "help": "Count sides: a circle has **none** (only a curve), a triangle has **3**, a square has **4**.\n\nExample: only the **triangle** has exactly three straight sides."
+    },
+    "6": {
+      "hint": "Which shape must have all four sides the same length: square or rectangle?",
+      "help": "A **square** always has four **equal** sides. A rectangle has four sides but only opposite pairs are equal — the sides can be different lengths.\n\nExample: a 5 cm by 8 cm rectangle is **not** a square."
+    },
+    "7": {
+      "hint": "Does a circle have sharp corners where two straight lines meet?",
+      "help": "A circle is one smooth curve. It has **no corners** — no vertices where straight sides meet.\n\nSo the statement is **false**."
+    },
+    "8": {
+      "hint": "“Penta-” often means five — how many sides does a pentagon have?",
+      "help": "A **pentagon** is a polygon with **5** straight sides. Think of a five-sided road sign shape.\n\nExample: a regular pentagon has 5 equal sides and 5 corners."
+    },
+    "9": {
+      "hint": "Lines that stay the same distance apart and never cross — what are they called?",
+      "help": "**Parallel** lines lie in the same direction and never meet, like railway tracks in the distance.\n\nExample: opposite edges of a ruler are parallel."
+    },
+    "10": {
+      "hint": "When two lines meet at 90°, they are at right angles — what word describes that?",
+      "help": "**Perpendicular** lines cross at a **right angle** (90°). You often mark the corner with a small square.\n\nExample: the corner of a sheet of paper is perpendicular sides."
+    },
+    "11": {
+      "hint": "Sides and vertices (corners) — count both for a triangle.",
+      "help": "Every side of a triangle joins two **vertices**. A triangle has **3** sides and **3** vertices.\n\nExample: an equilateral triangle still has 3 sides and 3 corners."
+    },
+    "12": {
+      "hint": "A quadrilateral has exactly four sides — which listed shapes fit that?",
+      "help": "Pick shapes with **4** straight sides: **square**, **rectangle**, and **rhombus** are quadrilaterals. A triangle has 3 sides; a pentagon has 5.\n\nExample: a kite with four sides is also a quadrilateral."
+    },
+    "13": {
+      "hint": "Four equal angles in a square — each one is a right angle. How many degrees is that?",
+      "help": "A **right angle** is **90°**. A square has four equal angles, so each angle is **90°**.\n\nExample: the corner of a book is 90°."
+    },
+    "14": {
+      "hint": "All three sides different lengths — which triangle name fits?",
+      "help": "**Scalene** means no sides are equal. **Isosceles** has two equal sides; **equilateral** has three equal sides.\n\nExample: sides 3 cm, 4 cm, 5 cm → **scalene**."
+    },
+    "15": {
+      "hint": "Exactly two sides the same length — pick the matching triangle type.",
+      "help": "**Isosceles** triangles have **two equal sides** (and often two equal angles opposite those sides).\n\nExample: sides 5 cm, 5 cm, 7 cm → isosceles."
+    },
+    "16": {
+      "hint": "Can every rectangle be a square, or only some rectangles?",
+      "help": "A rectangle needs four right angles, but sides can be different lengths. A **square** is a special rectangle where **all four sides are equal**.\n\nSo **not every** rectangle is a square — only those with equal sides."
+    },
+    "17": {
+      "hint": "All sides equal and all angles equal — which triangle name is that?",
+      "help": "**Equilateral** means **equal sides**. All three angles are also equal (60° each).\n\nExample: a triangle with sides 4 cm, 4 cm, 4 cm is equilateral."
+    },
+    "18": {
+      "hint": "On a pentagon, count sides and matching corners (vertices).",
+      "help": "A pentagon has **5** sides and **5** vertices — each side connects two corners.\n\nExample: a regular pentagon has 5 equal sides and 5 corners."
+    },
+    "19": {
+      "hint": "“Hex-” suggests six — how many sides on a hexagon?",
+      "help": "A **hexagon** has **6** straight sides. Think of a honeycomb cell outline.\n\nExample: a regular hexagon has six equal sides."
+    },
+    "20": {
+      "hint": "Four-sided flat shape — the special maths name starts with “quad…”.",
+      "help": "“Quad” means four. A **quadrilateral** is any four-sided polygon.\n\nExample: squares and rectangles are quadrilaterals."
+    },
+    "21": {
+      "hint": "Four right angles — must it always be a rectangle, or can another shape fit?",
+      "help": "A rectangle is defined as a quadrilateral with four right angles. Side lengths do not have to be different.\n\nA square also has four right angles, so it belongs to the rectangle family as well as the square family."
+    },
+    "22": {
+      "hint": "Use one word for lines that never meet and another for lines that meet at 90°.",
+      "help": "**Parallel** lines remain the same distance apart and never meet. **Perpendicular** lines meet at a right angle.\n\nFor example, opposite edges of a rectangular page are parallel, while two edges that meet at a corner are perpendicular."
+    },
+    "23": {
+      "hint": "Two pairs of equal sides — could the shape be a rhombus or kite instead of a rectangle?",
+      "help": "A **rectangle** needs four **right angles**. A **rhombus** can have two pairs of equal sides but slanted angles — not necessarily a rectangle.\n\nExample: a diamond shape (rhombus) has equal sides but is not a rectangle unless angles are 90°."
+    },
+    "24": {
+      "hint": "A square has four right angles and four equal sides — is that allowed for a rectangle?",
+      "help": "A **rectangle** has four right angles. A **square** has four right angles **and** four equal sides — so a square **is** a special type of rectangle.\n\nSam is **correct** if rectangles are defined with right angles only."
+    },
+    "25": {
+      "hint": "Can a triangle have zero equal sides, or always at least two equal?",
+      "help": "Test the statement against different triangle families. An isosceles triangle has two equal sides, while a scalene triangle has none.\n\nBecause the statement works for some triangles but not all of them, use the matching always-sometimes-never category."
+    },
+    "26": {
+      "hint": "Rhombus and square both have four equal sides — compare their corner angles.",
+      "help": "Both have **four equal sides**. A **square** has four **90°** angles. A **rhombus** has equal sides but angles are not all 90° unless it is a square.\n\nExample: a tilted diamond is a rhombus but not a square."
+    },
+    "27": {
+      "hint": "Regular means equal sides AND equal angles — can angles differ if sides match?",
+      "help": "A **regular polygon** has **all sides equal and all angles equal**. You cannot have equal sides but different angle sizes and still call it regular.\n\nThe statement is **false**."
+    },
+    "28": {
+      "hint": "Opposite sides parallel, four sides, not all equal — think of a slanted box shape.",
+      "help": "Four sides with **opposite sides parallel** is a **parallelogram**. If not all sides are equal, it is not a rhombus or square.\n\nExample: a pushed-over rectangle is a parallelogram."
+    },
+    "29": {
+      "hint": "Mark a 90° corner with a small square — perpendicular means meeting at right angles.",
+      "help": "Sketch two lines meeting at **90°**. Mark the angle with a little square in the corner.\n\n**Perpendicular** means the lines cross at a right angle — like the corner of a room."
+    },
+    "30": {
+      "hint": "Count sides and corners on a hexagon — compare to a square’s four sides.",
+      "help": "A regular **hexagon** has **6** sides and **6** vertices. A **square** has **4** of each.\n\nExample: hexagon tiles often tessellate; squares have fewer sides."
+    },
+    "31": {
+      "hint": "Octagon: “oct” suggests eight — count sides and vertices.",
+      "help": "An **octagon** has **8** sides and **8** vertices. A stop sign is a regular octagon.\n\nExample: 8 equal sides on a regular octagon."
+    },
+    "32": {
+      "hint": "Think of the geometry word for two sides next to each other.",
+      "help": "**Adjacent sides** share a vertex, so they meet at the same corner. **Opposite sides** face each other and do not share a corner.\n\nFor example, the top and right edges of a square are adjacent."
+    },
+    "33": {
+      "hint": "A diagonal splits a rectangle into two triangles — are they the same shape and size?",
+      "help": "A rectangle diagonal makes two **right-angled triangles**. They are **congruent** (same size and shape) because they share the diagonal and matching sides.\n\nExample: 6 m by 4 m rectangle → two identical right triangles."
+    },
+    "34": {
+      "hint": "Equilateral triangle — what do you know about all three sides and all three angles?",
+      "help": "**Equilateral**: all **three sides equal**. All **three angles equal** — each is **60°**.\n\nExample: road sign triangle often equilateral — equal sides and equal angles."
+    },
+    "35": {
+      "hint": "Angles on a straight line add to 180° — subtract the angle you know from 180°.",
+      "help": "A straight line is **180°**. If one angle is 65°, the other is $180 - 65 = 115°$.\n\nExample: on a line, 40° and 140° add to 180°."
+    },
+    "36": {
+      "hint": "Angles around a point add to 360° — add the two given angles, then subtract from 360°.",
+      "help": "Full turn around a point is **360°**. $90 + 100 = 190$, so the third angle is $360 - 190 = 170°$.\n\nExample: 120°, 120°, 120° around a point sum to 360°."
+    },
+    "37": {
+      "hint": "Triangle angles sum to 180° — two angles are 70°, so what is left?",
+      "help": "In any triangle, angles add to **180°**. Two angles of 70° use $70 + 70 = 140°$, so the third is $180 - 140 = 40°$.\n\nExample: isosceles with 80°, 80°, 20°."
+    },
+    "38": {
+      "hint": "One full turn is how many degrees when you spin all the way round?",
+      "help": "A complete rotation is **360°** — like turning to face the same direction again.\n\nExample: four right angles (90° each) make 360°."
+    },
+    "39": {
+      "hint": "Add 40° and 60°, then subtract from 180° for the missing triangle angle.",
+      "help": "Triangle angle sum: $40 + 60 = 100°$. Missing angle: $180 - 100 = 80°$.\n\nExample: 30°, 60°, 90° triangle sums to 180°."
+    },
+    "40": {
+      "hint": "Reflex angle is the big angle outside the acute one — they add to 360° around a point.",
+      "help": "Angles around a point total **360°**. Acute 35° leaves reflex $360 - 35 = 325°$.\n\nExample: acute 20° → reflex 340°."
+    },
+    "41": {
+      "hint": "Recall the UK name for a quadrilateral with one parallel pair.",
+      "help": "Classify quadrilaterals by their parallel sides. A parallelogram has two parallel pairs, while a trapezium has one parallel pair.\n\nA sloping tabletop outline can be a useful example of the second shape."
+    },
+    "42": {
+      "hint": "Compare right-angled triangles with acute triangles.",
+      "help": "A right-angled triangle has one 90° angle. An acute triangle has three angles below 90°, so it has no right angle.\n\nWhen a statement is true for one kind of triangle but false for another, it is **sometimes** true."
+    },
+    "43": {
+      "hint": "Polygon names depend on the number of sides, not whether the sides are equal.",
+      "help": "A polygon with six straight sides belongs to the hexagon family. If its sides or angles are not all equal, it is irregular.\n\nFor example, changing one side length of a regular five-sided shape still leaves a pentagon."
+    },
+    "44": {
+      "hint": "Square and rectangle always have 90° corners — what about rhombus and kite?",
+      "help": "**Square** and **rectangle**: always at least one right angle (actually four).\n\n**Rhombus**: not always — only when it is a square.\n\n**Kite**: not always — angles can all be non-right.\n\nSort using whether a right angle is **guaranteed**."
+    },
+    "45": {
+      "hint": "Vertices are corners — on a regular hexagon, count corners, not side length.",
+      "help": "A **hexagon** has **6** vertices (corners), one at each join of two sides.\n\nExample: a honeycomb cell outline has six corners."
+    },
+    "46": {
+      "hint": "A square has four equal sides — does that match the definition of a rhombus?",
+      "help": "A **rhombus** has **four equal sides**. A **square** also has four equal sides (and four right angles), so every square **is** a rhombus.\n\nAnswer: **true**."
+    },
+    "47": {
+      "hint": "“Hept-” means seven — write the seven-sided polygon name.",
+      "help": "A **heptagon** has **7** straight sides.\n\nExample: some coins are heptagonal."
+    },
+    "48": {
+      "hint": "Quadrilaterals have four sides — which listed shape has only three?",
+      "help": "A **triangle** has **3** sides, so it is **not** a quadrilateral. Kite, trapezium, and parallelogram all have four sides.\n\nPick **triangle**."
+    },
+    "49": {
+      "hint": "Fold a square in half both ways and diagonally — how many mirror lines?",
+      "help": "A **square** has **4** lines of symmetry: vertical, horizontal, and two diagonals.\n\nExample: a square tile looks the same in four mirror positions."
+    },
+    "50": {
+      "hint": "Corner to corner across the middle of a rectangle — what is that segment called?",
+      "help": "A **diagonal** joins two vertices that are **not** next to each other.\n\nExample: from top-left to bottom-right of a rectangle."
+    },
+    "51": {
+      "hint": "UK name for a four-sided shape with exactly one pair of parallel sides.",
+      "help": "A **trapezium** has **one pair** of parallel sides. (US: trapezoid.)\n\nExample: a slanted table top shape."
+    },
+    "52": {
+      "hint": "Rhombus definition — are all four sides always the same length?",
+      "help": "By definition, a **rhombus** has **four equal sides**.\n\nSo the statement is **true** (angles may still slant)."
+    },
+    "53": {
+      "hint": "All three angles under 90° — which triangle name fits?",
+      "help": "An **acute-angled** triangle has **all angles less than 90°**.\n\nExample: 60°, 60°, 60° is acute-angled."
+    },
+    "54": {
+      "hint": "Matching shapes exactly — the word starts with “con…”.",
+      "help": "**Congruent** shapes are the **same size and shape** — one fits exactly on the other.\n\nExample: two identical tiles are congruent."
+    },
+    "55": {
+      "hint": "“Nona-” means nine — how many sides?",
+      "help": "A **nonagon** has **9** straight sides.\n\nExample: some coins are nine-sided."
+    },
+    "56": {
+      "hint": "Is 88° smaller than a right angle (90°)?",
+      "help": "**Acute** angles are **less than 90°**. Since $88 < 90$, the angle is **acute**."
+    },
+    "57": {
+      "hint": "Is 91° just past a right angle?",
+      "help": "**Obtuse** angles are **greater than 90°** but less than 180°. $91°$ is **obtuse**."
+    },
+    "58": {
+      "hint": "A half turn on a straight line — what angle name fits 180°?",
+      "help": "A **straight angle** is exactly **180°** — a flat line.\n\nExample: angles on a straight line add to 180°."
+    },
+    "59": {
+      "hint": "Same number of vertices as sides on a pentagon — how many?",
+      "help": "A **pentagon** has **5** vertices (corners), one at each end of the five sides.\n\nExample: a regular pentagon has five corners."
+    },
+    "60": {
+      "hint": "Opposite sides parallel in both directions — name the quadrilateral family.",
+      "help": "A **parallelogram** has **both pairs** of opposite sides **parallel**.\n\nExample: a pushed-over rectangle is a parallelogram."
+    },
+    "61": {
+      "hint": "Four equal sides but not always four right angles — rectangle or rhombus?",
+      "help": "A **rhombus** always has **four equal sides**. A rectangle need not have all sides equal.\n\nPick **rhombus**."
+    },
+    "62": {
+      "hint": "Equilateral means three equal sides — does that include two equal sides?",
+      "help": "**Isosceles** means at least **two equal sides**. **Equilateral** has **three** equal sides, so it **is** also isosceles.\n\nAnswer: **true**."
+    },
+    "63": {
+      "hint": "Ten-sided polygon — “deca-” means ten.",
+      "help": "A **decagon** has **10** straight sides.\n\nExample: some medals are decagonal."
+    },
+    "64": {
+      "hint": "Draw both diagonals inside a rectangle — how many different diagonals?",
+      "help": "A rectangle has **2** diagonals: they cross in the middle and join opposite corners.\n\nExample: from corner A to C and from B to D."
+    },
+    "65": {
+      "hint": "Polygons use straight sides only — does a circle qualify?",
+      "help": "A **polygon** is made of **straight** segments. A **circle** is one **curve**, so it is **not** a polygon.\n\nAnswer: **no**."
+    },
+    "66": {
+      "hint": "Crossing at 90° — same word as in question 10.",
+      "help": "**Perpendicular** lines meet at a **right angle (90°)**.\n\nExample: the corner of a book."
+    },
+    "67": {
+      "hint": "No equal sides at all — which triangle type?",
+      "help": "**Scalene** triangles have **no equal sides**.\n\nExample: sides 3 cm, 4 cm, 5 cm."
+    },
+    "68": {
+      "hint": "A non-square rectangle: mirror through the middle horizontally and vertically only.",
+      "help": "A rectangle that is **not a square** has **2** lines of symmetry (horizontal and vertical through the centre).\n\nA square would have four."
+    },
+    "69": {
+      "hint": "Kite definition — two pairs of equal sides next to each other.",
+      "help": "A **kite** has **two pairs of equal adjacent sides** by definition.\n\nAnswer: **true**."
+    },
+    "70": {
+      "hint": "More than one vertex — what is the plural word?",
+      "help": "One **vertex**, many **vertices** (corners where sides meet).\n\nExample: a triangle has three vertices."
+    },
+    "71": {
+      "hint": "Seven sides vs eight sides — which name has more?",
+      "help": "An **octagon** has **8** sides; a **heptagon** has **7**. So **octagon** has more sides."
+    },
+    "72": {
+      "hint": "Angles between 180° and 360° — what type is 270°?",
+      "help": "A **reflex** angle is **greater than 180°** and less than 360°. **270°** is reflex.\n\nExample: the outside of a sharp corner."
+    },
+    "73": {
+      "hint": "Triangle angles sum to 180° — add 55 and 60, then subtract from 180.",
+      "help": "$55 + 60 = 115$. Third angle: $180 - 115 = 65°$.\n\nCheck: $55 + 60 + 65 = 180$."
+    },
+    "74": {
+      "hint": "Parallelogram opposite sides — same length as well as parallel.",
+      "help": "In a **parallelogram**, opposite sides are **parallel** and **equal in length**.\n\nMissing word: **equal**."
+    },
+    "75": {
+      "hint": "Rectangle has four right angles — is that enough to be a parallelogram?",
+      "help": "Every **rectangle** has opposite sides parallel, so it **is** a parallelogram.\n\nAnswer: **true**."
+    },
+    "76": {
+      "hint": "Any quadrilateral — count corners.",
+      "help": "A **quadrilateral** has **4** vertices (corners).\n\nExample: squares, kites, and trapeziums all have four vertices."
+    },
+    "77": {
+      "hint": "Circles are not made of straight segments — they are not a ___.",
+      "help": "Only shapes with straight sides are **polygons**. A circle is **not** a polygon.\n\nMissing word: **polygon**."
+    },
+    "78": {
+      "hint": "Exactly a right angle — pick 89°, 90°, or 92°.",
+      "help": "A **right angle** is exactly **90°**.\n\nSo choose **90°**.\n\nExample: the corner of a sheet of paper."
+    },
+    "79": {
+      "hint": "Four equal sides, angles not all 90° — name the quadrilateral.",
+      "help": "A **rhombus** has four equal sides but need not have right angles.\n\nExample: a tilted diamond shape."
+    },
+    "80": {
+      "hint": "Regular pentagon — are all five angles the same size?",
+      "help": "A **regular pentagon** has **five equal angles** (each $108°$) as well as equal sides.\n\nAnswer: **true**."
+    },
+    "81": {
+      "hint": "Between 90° and 180° — name the angle type.",
+      "help": "An **obtuse** angle is **more than 90°** and **less than 180°**.\n\nExample: 120° is obtuse."
+    },
+    "82": {
+      "hint": "Decagon — how many sides?",
+      "help": "A **decagon** has **10** sides.\n\nExample: some coins are ten-sided."
+    },
+    "83": {
+      "hint": "Slanted parallelogram without right angles — still a rectangle?",
+      "help": "A **parallelogram** is a **rectangle** only when **all angles are 90°**.\n\nOtherwise it is **sometimes** a rectangle — only in the right-angle case."
+    },
+    "84": {
+      "hint": "Honeycomb cells — six sides or five?",
+      "help": "Honeycomb cells are usually **hexagons** (**6** sides).\n\nExample: beeswax cells tessellate with hexagons."
+    },
+    "85": {
+      "hint": "One angle exactly 90° — fill in “___-angled”.",
+      "help": "A triangle with a **90°** angle is **right-angled**.\n\nExample: 3-4-5 triangles are right-angled."
+    },
+    "86": {
+      "hint": "Scalene means unequal sides — can the largest angle still be 90°?",
+      "help": "A **scalene** triangle can still be **right-angled** (e.g. sides 3, 4, 5 cm).\n\nAnswer: **true**."
+    },
+    "87": {
+      "hint": "Isosceles — at least how many sides match?",
+      "help": "**Isosceles** means **at least two equal sides** (often exactly two).\n\nMinimum count: **2** equal sides."
+    },
+    "88": {
+      "hint": "Mirror line vocabulary — line of ___",
+      "help": "A mirror line is a **line of symmetry**.\n\nExample: fold a rectangle in half — the crease is a line of symmetry."
+    },
+    "89": {
+      "hint": "179° is just under a straight line but well past 90°.",
+      "help": "**Obtuse** angles are between **90° and 180°**. **179°** is **obtuse** (not reflex)."
+    },
+    "90": {
+      "hint": "Add 48° and 71°, subtract from 180°.",
+      "help": "$48 + 71 = 119$. Missing angle: $180 - 119 = 61°$.\n\nExample: check $48 + 71 + 61 = 180$."
+    },
+    "91": {
+      "hint": "Square diagonals cross in the middle — do they make 90° there?",
+      "help": "In a **square**, diagonals **bisect at 90°**.\n\nAnswer: **true**."
+    },
+    "92": {
+      "hint": "Five-sided shape name.",
+      "help": "A **pentagon** has **5** sides.\n\nExample: a home badge shaped like a pentagon."
+    },
+    "93": {
+      "hint": "Which capital letter looks like a slanted diamond (rhombus) in block font?",
+      "help": "Among **O**, **H**, and **D**, capital **D** is often drawn with a **slanted** outer edge in block lettering, closest to a **rhombus** outline in some styles.\n\nChoose **D**."
+    },
+    "94": {
+      "hint": "Octagon vertices equal octagon sides — how many?",
+      "help": "An **octagon** has **8** vertices.\n\nExample: a stop sign has eight corners."
+    },
+    "95": {
+      "hint": "UK trapezium — parallel sides requirement.",
+      "help": "A **trapezium** must have **at least one pair of parallel sides**.\n\nAnswer: **true**."
+    },
+    "96": {
+      "hint": "Equal sides and equal angles together — regular or irregular?",
+      "help": "A **regular** polygon has **all sides equal and all angles equal**.\n\nMissing word: **regular**."
+    },
+    "97": {
+      "hint": "Isosceles with 40° at the top — base angles are equal.",
+      "help": "Angles sum to **180°**. Top **40°** leaves $140°$ for the two equal base angles: $140 ÷ 2 = 70°$ each."
+    },
+    "98": {
+      "hint": "Four equal sides and four 90° angles — name it.",
+      "help": "A **square** has **four equal sides** and **four right angles**."
+    },
+    "99": {
+      "hint": "Rectangle diagonals — same length in any rectangle?",
+      "help": "Both diagonals of a **rectangle** are **equal in length**.\n\nAnswer: **true**."
+    },
+    "100": {
+      "hint": "All three angles equal — triangle name?",
+      "help": "If all **three angles are equal**, each is **60°** — an **equilateral** triangle."
+    },
+    "101": {
+      "hint": "Rhombus with slanted angles — when does it become a square?",
+      "help": "A **rhombus** is a **square** only when **all angles are 90°**.\n\nSo **sometimes** a rhombus is a square."
+    },
+    "102": {
+      "hint": "Polygons use straight edges — what does a circle use instead?",
+      "help": "Explain that **polygons** have **straight sides**, but a **circle** is a **curve** with no straight segments.\n\nOne sentence is enough."
+    },
+    "103": {
+      "hint": "Four equal sides could be a rhombus with non-90° angles.",
+      "help": "A **rhombus** has four equal sides but is **not always** a square.\n\nAnswer: **false**."
+    },
+    "104": {
+      "hint": "Regular means equal sides AND equal angles.",
+      "help": "If angles are **not all equal**, the hexagon is **not regular** even if sides match.\n\nAnswer: **no**."
+    },
+    "105": {
+      "hint": "Kite equal sides touch — opposite or adjacent?",
+      "help": "Kites have **adjacent** equal sides, **not opposite** pairs like a rectangle.\n\nAnswer: **never** for opposite pairs."
+    },
+    "106": {
+      "hint": "Compare corner angles: rectangle vs general parallelogram.",
+      "help": "Say that a **rectangle** has **four right angles**, while a **parallelogram** only needs **opposite angles equal**."
+    },
+    "107": {
+      "hint": "Isosceles with two equal sides — need all three equal?",
+      "help": "Give a counter-example: **5, 5, 8** is isosceles but **not** equilateral.\n\nAnswer: **false**."
+    },
+    "108": {
+      "hint": "Count pairs of parallel sides on each shape.",
+      "help": "**Trapezium**: **one** pair parallel. **Parallelogram**: **two** pairs parallel."
+    },
+    "109": {
+      "hint": "Three straight sides — always what family?",
+      "help": "Any closed shape with **three sides** is a **triangle**.\n\nAnswer: **always**."
+    },
+    "110": {
+      "hint": "“Quad” means four — how many vertices?",
+      "help": "Mia is **correct**: every **quadrilateral** has exactly **four vertices** (corners).\n\nExample: a kite has four corners."
+    },
+    "111": {
+      "hint": "Reflex angles sit between 180° and 360°.",
+      "help": "A **reflex** angle is **greater than 180°**.\n\nAnswer: **true**."
+    },
+    "112": {
+      "hint": "Need a four-sided shape that is not a parallelogram.",
+      "help": "Examples: **trapezium** (only one pair parallel) or some **kites**."
+    },
+    "113": {
+      "hint": "Parallelogram opposite angles — equal or different?",
+      "help": "Opposite angles in a **parallelogram** are **equal**.\n\nAnswer: **always**."
+    },
+    "114": {
+      "hint": "Square fits rectangle rules and rhombus rules.",
+      "help": "Mention **four right angles** (rectangle) and **four equal sides** (rhombus)."
+    },
+    "115": {
+      "hint": "Can more than one angle in a triangle be over 90°?",
+      "help": "Only **one** angle can be obtuse — the other two must be acute.\n\nAnswer: **true**."
+    },
+    "116": {
+      "hint": "Square corner angles are 90° — what triangles appear when you cut along a diagonal?",
+      "help": "Each half is a **right-angled isosceles** triangle (45°, 45°, 90° in a square cut)."
+    },
+    "117": {
+      "hint": "Regular polygon definition — sides match and angles match.",
+      "help": "**Regular** ⇒ **equal sides** (and equal angles).\n\nAnswer: **always** for the word regular."
+    },
+    "118": {
+      "hint": "Pentagon only means five sides — equal sides optional.",
+      "help": "Dev is **wrong**: any five-sided shape is a pentagon; sides need not be equal unless **regular**."
+    },
+    "119": {
+      "hint": "Parallel lines go on forever — can one be shorter?",
+      "help": "Parallel lines can be **different lengths** (think of two lines on a page).\n\nAnswer: **false**."
+    },
+    "120": {
+      "hint": "Which quadrilaterals always have 90° corners?",
+      "help": "**Square** and **rectangle** always have **four right angles**."
+    },
+    "121": {
+      "hint": "Try a right-angled triangle — how many acute angles left?",
+      "help": "Even with one **90°** angle, the other **two** are acute — so **always** at least two acute angles."
+    },
+    "122": {
+      "hint": "Next-door sides vs sides across the shape.",
+      "help": "**Adjacent** sides share a vertex. **Opposite** sides do not touch at a corner."
+    },
+    "123": {
+      "hint": "Can a hexagon push inward on one corner?",
+      "help": "A **concave** hexagon can have one interior angle **greater than 180°**.\n\nAnswer: **true**."
+    },
+    "124": {
+      "hint": "Count mirror lines for square vs long rectangle.",
+      "help": "**Square**: **4** lines. Non-square **rectangle**: **2** lines.\n\nSquare wins."
+    },
+    "125": {
+      "hint": "Four equal sides — rhombus definition.",
+      "help": "Four equal sides ⇒ **rhombus**.\n\nAnswer: **always**.\n\nExample: a diamond playing-card shape is a rhombus."
+    },
+    "126": {
+      "hint": "Rectangle needs four right angles, not one.",
+      "help": "One right angle is **not enough** — answer **no** and say you need **four** right angles."
+    },
+    "127": {
+      "hint": "Equilateral triangle — fold through each vertex.",
+      "help": "An **equilateral** triangle has **3** lines of symmetry.\n\nAnswer: **true**."
+    },
+    "128": {
+      "hint": "Regular vs irregular hexagon — equal sides/angles or not.",
+      "help": "**Regular**: all sides **and** angles equal. **Irregular**: at least one side or angle differs."
+    },
+    "129": {
+      "hint": "Vertex means corner in 2D shapes.",
+      "help": "**Vertex** and **corner** mean the same point where sides meet.\n\nAnswer: **always**."
+    },
+    "130": {
+      "hint": "Equilateral road sign — all angles equal in any triangle sum to 180°.",
+      "help": "Three equal angles in a triangle sum to **180°**, so each is $180 ÷ 3 = 60°$.\n\nExample: an equilateral road sign."
+    },
+    "131": {
+      "hint": "General parallelogram — mirror line may be missing.",
+      "help": "Only special parallelograms (rectangle/rhombus/square) always have symmetry lines.\n\nAnswer: **sometimes**."
+    },
+    "132": {
+      "hint": "Three-sided family vs four-sided family.",
+      "help": "Triangles: **scalene**, **equilateral**. Quadrilaterals: **square**, **kite**."
+    },
+    "133": {
+      "hint": "Two pairs of parallel sides — parallelogram test.",
+      "help": "That description is exactly a **parallelogram**.\n\nAnswer: **always**."
+    },
+    "134": {
+      "hint": "Different length and width — square or not?",
+      "help": "Use **different side lengths** to show a rectangle is **not always** a square."
+    },
+    "135": {
+      "hint": "Obtuse triangle — only one angle over 90°.",
+      "help": "The other two angles are **acute** — not all obtuse.\n\nAnswer: **false**."
+    },
+    "136": {
+      "hint": "Regular octagon — how many equal angles at corners?",
+      "help": "A regular **octagon** has **8** equal interior angles (one at each vertex)."
+    },
+    "137": {
+      "hint": "Compare diagonal length to a short side in a rectangle.",
+      "help": "A diagonal is the **longest** segment across the shape — **never** shorter than every side.\n\nAnswer: **never**."
+    },
+    "138": {
+      "hint": "Adjacent equal sides, no parallel sides — kite or rhombus?",
+      "help": "A **kite** fits: equal **adjacent** pairs, not necessarily parallel sides."
+    },
+    "139": {
+      "hint": "Two perpendicular lines make four 90° angles at the cross.",
+      "help": "When lines are **perpendicular**, all **four** angles at the intersection are **90°**.\n\nAnswer: **true**."
+    },
+    "140": {
+      "hint": "Rhombus: four equal sides. Kite: two pairs of adjacent equal sides.",
+      "help": "Compare **four equal sides** (rhombus) with **adjacent pairs** (kite)."
+    },
+    "141": {
+      "hint": "Minimum sides for a polygon — triangles count.",
+      "help": "A polygon needs **at least three** sides.\n\nAnswer: **always**."
+    },
+    "142": {
+      "hint": "Quadrilateral means four — they counted five sides.",
+      "help": "They mis-named it: **five sides** means **pentagon**, not quadrilateral."
+    },
+    "143": {
+      "hint": "Acute angles are greater than 0° and less than 90°.",
+      "help": "**0°** is not considered **acute** in GCSE style.\n\nAnswer: **false**."
+    },
+    "144": {
+      "hint": "Equilateral triangle — three equal angles in 180°.",
+      "help": "Each angle in an **equilateral** triangle is **60°** because $180 ÷ 3 = 60$.\n\nExample: equal angles on a triangular sign."
+    },
+    "145": {
+      "hint": "Square has two pairs of parallel sides.",
+      "help": "A **square** is a special **parallelogram**.\n\nAnswer: **always**."
+    },
+    "146": {
+      "hint": "Opposite sides parallel — same direction, never meet.",
+      "help": "Describe **parallel** opposite sides staying the same distance apart."
+    },
+    "147": {
+      "hint": "Heptagon 7, hexagon 6 — which is larger?",
+      "help": "**Heptagon** has **more** sides than a hexagon.\n\nStatement is **false**."
+    },
+    "148": {
+      "hint": "One pair parallel, other pair not — UK name.",
+      "help": "That is a **trapezium** — one pair of **parallel** sides and one pair that is not.\n\nExample: a slanted table top."
+    },
+    "149": {
+      "hint": "Two 90° angles already use 180° — room for a third angle?",
+      "help": "Two right angles sum to **180°** — impossible in a triangle.\n\nAnswer: **never**."
+    },
+    "150": {
+      "hint": "Flat face of a cylinder — which 2D shape?",
+      "help": "The flat end of a cylinder is a **circle** — one curved edge, no straight sides.\n\nExample: a tin can viewed from above."
+    },
+    "151": {
+      "hint": "Regular pentagon badge — sides and corners match.",
+      "help": "A pentagon has **5 sides** and **5 vertices** — one corner at each join of sides.\n\nExample: a five-sided badge."
+    },
+    "152": {
+      "hint": "Chessboard square — name and count right angles.",
+      "help": "It is a **square** with **four** right angles (90° at each corner).\n\nExample: a chessboard square."
+    },
+    "153": {
+      "hint": "Equal sloping sides on each half of the chevron.",
+      "help": "Equal sloping sides on each half ⇒ **isosceles** triangles.\n\nExample: a chevron arrow made from two matching triangles."
+    },
+    "154": {
+      "hint": "30 by 20 rectangle — are diagonals perpendicular?",
+      "help": "Only a **square** has perpendicular diagonals among rectangles.\n\nAnswer: **no**."
+    },
+    "155": {
+      "hint": "Honeycomb tiling — how many hexagons meet at one point?",
+      "help": "In a flat honeycomb pattern, **3** hexagons meet at each vertex."
+    },
+    "156": {
+      "hint": "Stop-sign shape — count sides and vertices.",
+      "help": "An **octagon** has **8 sides** and **8 vertices**.\n\nExample: a stop sign outline."
+    },
+    "157": {
+      "hint": "6,6,10,10 adjacent — all four equal?",
+      "help": "A **rhombus** needs **all four sides equal**. This kite is **not** a rhombus.\n\nAnswer: **no**."
+    },
+    "158": {
+      "hint": "Rectangle needs **four** 90° angles — check the list.",
+      "help": "Angles **95°** and **85°** are not right angles — **not** a rectangle.\n\nAnswer: **no**."
+    },
+    "159": {
+      "hint": "Corresponding angles with parallel lines are equal.",
+      "help": "Corresponding angles are **equal**: **70°** on the second parallel line."
+    },
+    "160": {
+      "hint": "Two sides 7 cm and base 10 cm — equal pair?",
+      "help": "Two equal sides (7 cm and 7 cm) ⇒ **isosceles** triangle.\n\nExample: a roof triangle with equal sloping edges."
+    },
+    "161": {
+      "hint": "Square needs 90° angles — one angle 60° blocks that.",
+      "help": "Four equal sides with a **60°** angle is a **rhombus**, not a square.\n\nAnswer: **no**."
+    },
+    "162": {
+      "hint": "Opposite sides of a door — parallel or perpendicular?",
+      "help": "Top and bottom of a door are **parallel**; hinge side is perpendicular to top/bottom."
+    },
+    "163": {
+      "hint": "Interior angle 120° — use regular polygon formula or trial.",
+      "help": "Regular hexagons have **120°** interior angles — **6** sides."
+    },
+    "164": {
+      "hint": "Polygons need straight segments — circle differs how?",
+      "help": "Say **polygons** use **straight sides**; a **circle** is curved."
+    },
+    "165": {
+      "hint": "Rhombus diagonals — right angle where they cross?",
+      "help": "Rhombus diagonals **meet at 90°**.\n\nAnswer: **true**.\n\nExample: diagonals of a diamond shape cross at right angles."
+    },
+    "166": {
+      "hint": "Angles 35°, 55°, 90° — one right angle present.",
+      "help": "With a **90°** angle, the triangle is **right-angled** (even if other angles are acute).\n\nExample: 35°, 55°, 90°."
+    },
+    "167": {
+      "hint": "Two equilateral triangles glued on one full side — count outer edges.",
+      "help": "The outline becomes a **rhombus** with **4** sides (two from each triangle exposed)."
+    },
+    "168": {
+      "hint": "One pair of parallel sides 8 cm and 5 cm.",
+      "help": "One parallel pair ⇒ **trapezium** family (UK name).\n\nExample: a window with a slanted top edge."
+    },
+    "169": {
+      "hint": "North to east is a quarter turn.",
+      "help": "A quarter turn from north to east is **90°**.\n\nExample: turning right at a corner is often 90°."
+    },
+    "170": {
+      "hint": "Decagon medal — equal sides count.",
+      "help": "A **decagon** has **10** equal sides when it is **regular**.\n\nExample: a ten-sided medal."
+    },
+    "171": {
+      "hint": "Square diagonals — equal halves at 90°?",
+      "help": "Square diagonals **bisect at right angles**.\n\nAnswer: **always**."
+    },
+    "172": {
+      "hint": "One pair parallel only — trapezium not parallelogram.",
+      "help": "AB parallel to CD but AD not parallel to BC ⇒ **trapezium**."
+    },
+    "173": {
+      "hint": "Three equal angles in a triangle — split 180° three ways.",
+      "help": "Each equal angle is **60°** because $180 ÷ 3 = 60$ in any triangle with three equal angles.\n\nExample: equilateral triangle."
+    },
+    "174": {
+      "hint": "Parallelogram opposite sides — equal length?",
+      "help": "Opposite sides of a parallelogram are **equal in length** — the statement is **false**.\n\nExample: mark tick marks on opposite sides."
+    },
+    "175": {
+      "hint": "Two right turns — add 90° + 90°.",
+      "help": "$90 + 90 = 180°$ total turn for two right angles.\n\nExample: turning left twice at square corners."
+    },
+    "176": {
+      "hint": "Two angles 65° — third angle?",
+      "help": "Two equal angles (65° and 65°) ⇒ **isosceles** triangle; the third angle is 50°.\n\nExample: a symmetric roof triangle."
+    },
+    "177": {
+      "hint": "Rhombus — are opposite sides parallel?",
+      "help": "Every **rhombus** is a **parallelogram** — opposite sides **parallel**.\n\nAnswer: **yes**."
+    },
+    "178": {
+      "hint": "12-sided polygon name — “dodecagon”.",
+      "help": "A **dodecagon** has **12** sides (accept “12-sided polygon”)."
+    },
+    "179": {
+      "hint": "Isosceles — mirror line through the equal sides?",
+      "help": "Non-equilateral **isosceles** triangles have **one** line of symmetry.\n\nAnswer: **true**."
+    },
+    "180": {
+      "hint": "All sides 5 cm but angles 60° and 120° — all 90°?",
+      "help": "Not all angles are **90°** — **not** a square (it is a rhombus).\n\nAnswer: **no**."
+    },
+    "181": {
+      "hint": "Equilateral triangle symmetry count again.",
+      "help": "An **equilateral** triangle has **3** lines of symmetry — one through each vertex.\n\nExample: fold the triangle in half three ways."
+    },
+    "182": {
+      "hint": "Triangle angles must sum to 180° — check 90 + 95.",
+      "help": "$90 + 95 = 185 > 180$ — **impossible** in one triangle.\n\nExample: angles in a triangle must always sum to 180°."
+    },
+    "183": {
+      "hint": "Rectangle — opposite sides equal in pairs.",
+      "help": "Rectangles **always** have **two pairs of equal opposite sides**."
+    },
+    "184": {
+      "hint": "Regular octagon — sides and angles match.",
+      "help": "Say **eight equal sides** and **eight equal angles** on a regular octagon.\n\nExample: a stop sign is a regular octagon."
+    },
+    "185": {
+      "hint": "Scalene — all sides different — symmetry?",
+      "help": "A **scalene** triangle usually has **no** line symmetry.\n\nAnswer: **false**."
+    },
+    "186": {
+      "hint": "Three sides and three vertices — family name.",
+      "help": "Three sides and three vertices describe a **triangle**.\n\nExample: a pizza slice outline is a triangle."
+    },
+    "187": {
+      "hint": "Kite has four sides — quadrilateral family.",
+      "help": "A kite is always a **quadrilateral** (four sides).\n\nAnswer: **always**.\n\nExample: a kite-shaped badge still has four sides."
+    },
+    "188": {
+      "hint": "Rectangle always has four right angles — even with diagonal 13 cm.",
+      "help": "Any **rectangle** has **4** right angles, no matter how long its sides are.\n\nExample: a door frame is roughly rectangular."
+    },
+    "189": {
+      "hint": "All squares same shape — different sizes still similar.",
+      "help": "All **squares** are **similar** (same angles, sides in proportion).\n\nAnswer: **true**."
+    },
+    "190": {
+      "hint": "From one vertex of a pentagon, diagonals to non-neighbour corners.",
+      "help": "From one corner of a **pentagon**, you can draw **2** diagonals."
+    },
+    "191": {
+      "hint": "Compare side counts: triangle vs quadrilateral.",
+      "help": "Triangles have **fewer** sides than quadrilaterals.\n\nAnswer: **never** more."
+    },
+    "192": {
+      "hint": "Same size and shape — one word definition.",
+      "help": "**Congruent** means **same size and same shape** — one fits exactly on the other.\n\nExample: two identical tiles."
+    },
+    "193": {
+      "hint": "Straight angle is 180° — is 200° bigger?",
+      "help": "**200°** is a **reflex** angle and **greater than 180°**.\n\nAnswer: **true**."
+    },
+    "194": {
+      "hint": "Parallelogram opposite angles equal — repeat 70° and 110°.",
+      "help": "The other two angles are **70°** and **110°** again (opposite angles equal in a parallelogram).\n\nExample: 70°, 110°, 70°, 110° around the four corners."
+    },
+    "195": {
+      "hint": "Regular triangle name?",
+      "help": "An **equilateral** triangle is a **regular** triangle.\n\nAnswer: **always**."
+    },
+    "196": {
+      "hint": "Draw one pair of horizontal parallel sides and mark them.",
+      "help": "Sketch a **trapezium**, mark the **parallel** pair with arrows."
+    },
+    "197": {
+      "hint": "Use “equal” — four equal sides vs opposite sides equal.",
+      "help": "Write that a **rhombus** has **four equal sides**, while a **parallelogram** only has **opposite sides equal**."
+    },
+    "198": {
+      "hint": "Four right angles — square or just rectangle?",
+      "help": "Four right angles ⇒ **rectangle**; **square** only if sides also equal.\n\nAnswer: **sometimes**."
+    },
+    "199": {
+      "hint": "Which vocabulary word means never meeting?",
+      "help": "**Parallel** lines never meet, even if extended, when they lie in the same plane.\n\nExample: railway tracks viewed from far away."
+    },
+    "200": {
+      "hint": "Pick real objects — state sides or angles for each.",
+      "help": "Example: **book** (rectangle, **4** sides) and **sandwich cut** (triangle, **3** sides). Any sensible objects with correct properties."
+    }
+  }
+}

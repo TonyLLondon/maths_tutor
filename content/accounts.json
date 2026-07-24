@@ -4,14 +4,26 @@
     {
       "id": "archer",
       "displayName": "Archer",
-      "contentTenant": "archer",
+      "contentTenant": "lewis",
       "chessLevel": "standard"
     },
     {
       "id": "sloan",
       "displayName": "Sloan",
-      "contentTenant": "archer",
+      "contentTenant": "lewis",
       "chessLevel": "gentle"
+    },
+    {
+      "id": "tony",
+      "displayName": "Tony",
+      "contentTenant": "lewis",
+      "parentOf": ["archer", "sloan"]
+    },
+    {
+      "id": "jacquie",
+      "displayName": "Jacquie",
+      "contentTenant": "lewis",
+      "parentOf": ["archer", "sloan"]
     }
   ]
 }

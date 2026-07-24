@@ -1,0 +1,806 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Share 8 equally between 2 — divide by 2.",
+      "help": "$8 \\div 2 = 4$ strawberries each.\n\n**Different example:** $10 \\div 2 = 5$."
+    },
+    "2": {
+      "hint": "What fraction of 6 is 3?",
+      "help": "$3$ out of $6$ is $\\frac{3}{6} = \\frac{1}{2}$.\n\n**Different example:** 2 out of 8 is $\\frac{1}{4}$."
+    },
+    "3": {
+      "hint": "2 red out of 2 + 2 = 4 balls.",
+      "help": "$\\frac{2}{4} = \\frac{1}{2}$ are red.\n\n**Different example:** 3 red out of 6 is $\\frac{1}{2}$."
+    },
+    "4": {
+      "hint": "One quarter of 12 means $12 \\div 4$.",
+      "help": "$\\frac{1}{4} \\times 12 = 3$ chocolate cakes.\n\n**Different example:** $\\frac{1}{4}$ of 20 is 5."
+    },
+    "5": {
+      "hint": "Ratio 1:2 means 3 equal parts in total.",
+      "help": "Total parts $1+2=3$. Smaller share $15 \\div 3 \\times 1 = 5$ stickers.\n\n**Different example:** £30 in 1:2 gives £10 and £20."
+    },
+    "6": {
+      "hint": "3 cat toys out of 3 + 1 toys.",
+      "help": "$\\frac{3}{4}$ of the toys are cat toys.\n\n**Different example:** 2 cats out of 5 toys is $\\frac{2}{5}$."
+    },
+    "7": {
+      "hint": "2 green out of 10 apples.",
+      "help": "$\\frac{2}{10} = \\frac{1}{5}$ are green.\n\n**Different example:** 3 green out of 15 is $\\frac{1}{5}$."
+    },
+    "8": {
+      "hint": "Half of 14, then what does she keep?",
+      "help": "Half of 14 is 7 given away; she keeps $14 - 7 = 7$ pencils.\n\n**Different example:** Half of 20 given away leaves 10."
+    },
+    "9": {
+      "hint": "10 sweets shared between 2 children.",
+      "help": "$10 \\div 2 = 5$ sweets each.\n\n**Different example:** $12 \\div 2 = 6$."
+    },
+    "10": {
+      "hint": "4 is what fraction of 8?",
+      "help": "$\\frac{4}{8} = \\frac{1}{2}$.\n\n**Different example:** 5 out of 10 is $\\frac{1}{2}$."
+    },
+    "11": {
+      "hint": "3 red and 3 blue — equal parts.",
+      "help": "$\\frac{3}{6} = \\frac{1}{2}$ are red.\n\n**Different example:** 4 red out of 8 is $\\frac{1}{2}$."
+    },
+    "12": {
+      "hint": "Half of 20.",
+      "help": "$20 \\div 2 = 10$. Halving splits a number into two equal parts.\n\n**Different example:** Half of 30 is 15."
+    },
+    "13": {
+      "hint": "Ratio 1:3 — smaller share is 1 part out of 4.",
+      "help": "Total parts 4. Smaller share $\\frac{1}{4}$ of £40 = £10.\n\n**Different example:** 1:3 on £80 gives £20 as the smaller share, still $\\frac{1}{4}$ of total."
+    },
+    "14": {
+      "hint": "Girls are the 3 in ratio 2:3.",
+      "help": "Girls fraction $\\frac{3}{2+3} = \\frac{3}{5}$ of the class.\n\n**Different example:** Boys 2:5 gives boys $\\frac{2}{7}$."
+    },
+    "15": {
+      "hint": "Sugar is the 2 in ratio 5:2.",
+      "help": "Sugar is $\\frac{2}{5+2} = \\frac{2}{7}$ of the mixture.\n\n**Different example:** 1:4 gives second part $\\frac{4}{5}$."
+    },
+    "16": {
+      "hint": "Larger share in 1:2 is 2 parts out of 3.",
+      "help": "Larger share $\\frac{2}{3}$ of 24 sweets = 16 sweets.\n\n**Different example:** 1:2 on 30 gives larger share 20, still $\\frac{2}{3}$."
+    },
+    "17": {
+      "hint": "Red is 3 in ratio 3:7.",
+      "help": "Red fraction $\\frac{3}{3+7} = \\frac{3}{10}$.\n\n**Different example:** 4:6 gives first part $\\frac{4}{10}$."
+    },
+    "18": {
+      "hint": "Middle share in 2:3:5 is 3 parts out of 10.",
+      "help": "Middle share $\\frac{3}{10}$ of £60 = £18.\n\n**Different example:** 2:3:5 on £100 gives middle £30."
+    },
+    "19": {
+      "hint": "Dogs are 1 part in ratio 4:1.",
+      "help": "Dogs $\\frac{1}{4+1} = \\frac{1}{5}$ of animals.\n\n**Different example:** 9:1 gives second part $\\frac{1}{10}$."
+    },
+    "20": {
+      "hint": "Smallest share in 1:1:4 is 1 part out of 6.",
+      "help": "Smallest share $\\frac{1}{6}$ of 36 marbles = 6 marbles.\n\n**Different example:** 1:1:4 on 60 gives smallest 10."
+    },
+    "21": {
+      "hint": "Yellow is 3 in ratio 5:3.",
+      "help": "Yellow $\\frac{3}{5+3} = \\frac{3}{8}$ of counters.\n\n**Different example:** 2:6 gives second part $\\frac{6}{8}$."
+    },
+    "22": {
+      "hint": "Adults are 3 in ratio 3:5.",
+      "help": "Adults $\\frac{3}{3+5} = \\frac{3}{8}$ of passengers.\n\n**Different example:** 1:7 gives adults $\\frac{1}{8}$."
+    },
+    "23": {
+      "hint": "Share £90 in ratio 4:5 — smaller share is 4 parts.",
+      "help": "Total parts 9. Smaller share $90 \\div 9 \\times 4 = £40$.\n\n**Different example:** £72 in 4:5 gives smaller £32."
+    },
+    "24": {
+      "hint": "Apples are 2 parts in ratio 2:5 with 14 total fruit.",
+      "help": "14 fruit $\\Rightarrow$ 2 parts = 4 apples (each part 2, apples $2 \\times 2 = 4$). Check: $14 \\div 7 \\times 2 = 4$.\n\n**Different example:** 21 fruit gives 6 apples."
+    },
+    "25": {
+      "hint": "Ratio 1:4 means first part $\\frac{1}{5}$, second $\\frac{4}{5}$.",
+      "help": "Fractions of whole: **$\\frac{1}{5}$** and **$\\frac{4}{5}$**.\n\n**Different example:** 2:3 gives $\\frac{2}{5}$ and $\\frac{3}{5}$."
+    },
+    "26": {
+      "hint": "Archer's share is 3 in ratio 3:4.",
+      "help": "Archer has $\\frac{3}{3+4} = \\frac{3}{7}$ of the stickers.\n\n**Different example:** 2:5 gives first part $\\frac{2}{7}$."
+    },
+    "27": {
+      "hint": "Ratio 1:3 has how many **total** parts?",
+      "help": "Total parts $1+3=4$, so first part is $\\frac{1}{4}$, not $\\frac{1}{3}$. Say **wrong** and give **$\\frac{1}{4}$**."
+    },
+    "28": {
+      "hint": "First part is always $\\frac{a}{a+b}$ of the total.",
+      "help": "Adding parts gives the whole, so first fraction is $\\frac{a}{a+b}$. This is **always** true."
+    },
+    "29": {
+      "hint": "2:2 means equal parts — same fraction each?",
+      "help": "Each part is $\\frac{2}{4} = \\frac{1}{2}$ — **equal** fractions, not different. Sloan is **not** correct."
+    },
+    "30": {
+      "hint": "1:1 splits the whole into two equal parts.",
+      "help": "Each part is $\\frac{1}{2}$ of the whole. **Always** true for 1:1."
+    },
+    "31": {
+      "hint": "Compare $\\frac{3}{8}$ with $\\frac{5}{8}$ for 3:5 vs 5:3.",
+      "help": "3:5 gives first part $\\frac{3}{8}$; 5:3 gives first part $\\frac{5}{8}$. Swapping the ratio swaps which fraction is larger."
+    },
+    "32": {
+      "hint": "Larger project has 3 parts in ratio 3:2.",
+      "help": "Larger fraction $\\frac{3}{5}$ of £500 = **£300**.\n\n**Different example:** 3:2 on £200 gives £120 to larger."
+    },
+    "33": {
+      "hint": "Walkers are 3 parts in ratio 3:5 with 400 pupils.",
+      "help": "$400 \\div 8 \\times 3 = 150$ pupils walk.\n\n**Different example:** 560 pupils gives 210 walkers."
+    },
+    "34": {
+      "hint": "Blue is 1 part in 1:4 on a 20-litre tin.",
+      "help": "Blue $\\frac{1}{5}$ of tin = 4 litres.\n\n**Different example:** 1:4 on 10 L gives 2 L blue."
+    },
+    "35": {
+      "hint": "Sloan gets 5 parts in ratio 4:5 on £45.",
+      "help": "Sloan $\\frac{5}{9}$ of £45 = **£25**.\n\n**Different example:** 4:5 on £90 gives Sloan £50."
+    },
+    "36": {
+      "hint": "Orange is 2 parts in ratio 2:7.",
+      "help": "Orange $\\frac{2}{9}$ of 900 ml = **200 ml**.\n\n**Different example:** 2:7 on 450 ml gives 100 ml juice."
+    },
+    "37": {
+      "hint": "Flowerbeds are 2 parts in 2:3; 24 m² is those 2 parts.",
+      "help": "One part $24 \\div 2 = 12$ m²; total $12 \\times 5 = 60$ m².\n\n**Different example:** 2:3 with 10 m² beds gives 25 m² total."
+    },
+    "38": {
+      "hint": "Girls have one more part than boys in 3:4.",
+      "help": "Difference 1 part = 12 pupils, so 7 parts = **84** pupils.\n\n**Different example:** 12 more with ratio 2:3 gives 5 parts total 60."
+    },
+    "39": {
+      "hint": "Smallest two ingredients are 2 + 3 parts in 2:3:5.",
+      "help": "Combined $\\frac{2+3}{2+3+5} = \\frac{5}{10} = \\frac{1}{2}$ of mixture.\n\n**Different example:** 1:1:2 gives two smallest $\\frac{1}{2}$."
+    },
+    "40": {
+      "hint": "Archer gets 1 part; cousin gets 3 parts in 1:2:3.",
+      "help": "Cousin $\\frac{3}{6} = \\frac{1}{2}$ of total. If Archer gets £15 (1 part), total £90, cousin **£45**."
+    },
+    "41": {
+      "hint": "Dogs are 3 in ratio 5:3; 64 animals total.",
+      "help": "Dogs $\\frac{3}{8}$; $64 \\div 8 \\times 3 = 24$ dogs.\n\n**Different example:** 80 animals gives 30 dogs."
+    },
+    "42": {
+      "hint": "Second part in 7:1 is 1 out of 8 total parts.",
+      "help": "Second part $\\frac{1}{8}$ of total — a small but exact fraction. Sloan is **correct**; give **$\\frac{1}{8}$**."
+    },
+    "43": {
+      "hint": "Share £60 in ratio 2:3 — larger share is 3 parts.",
+      "help": "$60 \\div 5 \\times 3 = £36$ larger share.\n\n**Different example:** £50 in 2:3 gives £30 larger."
+    },
+    "44": {
+      "hint": "15 girls is 3 parts in ratio 3:2.",
+      "help": "One part = $15 \\div 3 = 5$ boys = **10** boys.\n\n**Different example:** 12 girls in 3:2 gives 8 boys."
+    }
+,
+    "45": {
+      "hint": "Add 2 and 7 for the whole. What fraction is the smaller part?",
+      "help": "**Fraction from a ratio:** Add the parts to get the whole. The smaller share in 1:4 is **1/5** of the total, not 1/4.\n\n**Different example:** In 3:5, the smaller fraction is **3/8**."
+    },
+    "46": {
+      "hint": "How many parts in total? Black is 5 of those parts.",
+      "help": "Turn the ratio into a fraction: first part ÷ total parts.\n\n**Different example:** 2:6 gives **2/8 = 1/4** for the first colour."
+    },
+    "47": {
+      "hint": "3 + 4 = 7 parts. Divide 56 by 7, then × 3.",
+      "help": "Find one part by dividing the total by the sum of the ratio parts.\n\n**Different example:** 20 shared 2:3 → 4 parts of 20 is **8**."
+    },
+    "48": {
+      "hint": "What number divides both 12 and 18?",
+      "help": "Divide both sides of the ratio by their HCF to simplify.\n\n**Different example:** 10:15 → **2:3**."
+    },
+    "49": {
+      "hint": "Lemon is 1 part out of 1 + 5 parts altogether.",
+      "help": "Write the fraction as (lemon parts) ÷ (total parts).\n\n**Different example:** 2:5 mix → first ingredient is **2/7**."
+    },
+    "50": {
+      "hint": "Middle share is 2 parts. How many parts in total?",
+      "help": "Add 1 + 2 + 3, then find one part of £120.\n\n**Different example:** 1:2:3 on £90 → middle share **£30**."
+    },
+    "51": {
+      "hint": "Blue is the second part. Add 7 + 3 first.",
+      "help": "Second fraction = second part ÷ total parts.\n\n**Different example:** 4:1 → second part is **1/5**."
+    },
+    "52": {
+      "hint": "If boys are 2/5, girls are the rest. Write girls as a fraction, then as a ratio to boys.",
+      "help": "Girls are **3/5**. Ratio boys : girls = **2/5 : 3/5** = **2:3**.\n\n**Different example:** **1/4** boys → ratio **1:3**."
+    },
+    "53": {
+      "hint": "Longer part is 5 parts. Find one part from 35 km.",
+      "help": "35 ÷ 7 = 5 km per part. Longer share = 5 × 5 km.\n\n**Different example:** 24 km in 1:3 → longer part **18 km**."
+    },
+    "54": {
+      "hint": "Try a = 2, b = 5 — are the two fractions equal?",
+      "help": "If the parts differ, their fractions of the whole differ too.\n\n**Different example:** 1:2 vs 2:1 give different first fractions."
+    },
+    "55": {
+      "hint": "Copper is 3 parts out of 3 + 2.",
+      "help": "Fraction = part ÷ total parts → **3/5** style thinking.\n\n**Different example:** 7:3 → first part **7/10**."
+    },
+    "56": {
+      "hint": "Smaller share is 4 parts. Total parts = 9.",
+      "help": "108 ÷ 9 = one part. Multiply by 4 for the smaller pile.\n\n**Different example:** 63 in 4:5 → smaller **28**."
+    },
+    "57": {
+      "hint": "Wins are 3 parts of 3 + 1.",
+      "help": "Games fraction = wins parts ÷ total parts.\n\n**Different example:** 5:2 record → wins are **5/7**."
+    },
+    "58": {
+      "hint": "Cement is the second part in 4:1.",
+      "help": "Second fraction = 1 ÷ (4 + 1).\n\n**Different example:** 9:1 → second part **1/10**."
+    },
+    "59": {
+      "hint": "Smaller share is 2 parts of 2 + 3.",
+      "help": "£75 ÷ 5 = £15 per part. Smaller = 2 × £15.\n\n**Different example:** £100 in 3:7 → smaller **£30**."
+    },
+    "60": {
+      "hint": "Compare 1:2 with 2:4 — do the fractions change?",
+      "help": "Scaling both parts equally keeps each fraction the same.\n\n**Different example:** 3:6 and 1:2 both give **1/3** for the first part."
+    },
+    "61": {
+      "hint": "Peas are 2 parts out of 7 + 2.",
+      "help": "Write peas as 2 ÷ total parts.\n\n**Different example:** 5:1 mix → second part **1/6**."
+    },
+    "62": {
+      "hint": "Largest share is 4 parts. Total parts = 7.",
+      "help": "63 ÷ 7 = 9 per part. Largest = 4 × 9.\n\n**Different example:** 1:2:3 on 48 → largest **24**."
+    },
+    "63": {
+      "hint": "Yellow is 2 parts of 2 + 3.",
+      "help": "First fraction = 2 ÷ 5.\n\n**Different example:** 1:4 paint → yellow **1/5**."
+    },
+    "64": {
+      "hint": "Sloan's stickers are 8 parts out of 5 + 8.",
+      "help": "Archer's fraction would be 5/13; Sloan is the other part.\n\n**Different example:** 2:3 split → second person gets **3/5**."
+    },
+    "65": {
+      "hint": "Smaller share is 5 parts. How many parts altogether?",
+      "help": "£96 ÷ 12 = £8 per part. Smaller = 5 × £8.\n\n**Different example:** £70 in 2:5 → smaller **£20**."
+    },
+    "66": {
+      "hint": "First part 4, total parts 4 + 9.",
+      "help": "Fraction = 4/13.\n\n**Different example:** 3:7 → first **3/10**."
+    },
+    "67": {
+      "hint": "Apples are 3 parts. Total fruit 24.",
+      "help": "3 + 5 = 8 parts. One part = 24 ÷ 8.\n\n**Different example:** 2:3 with 30 total → first part **12**."
+    },
+    "68": {
+      "hint": "Divide 20 and 15 by 5.",
+      "help": "Divide both parts by their highest common factor (here 5) to simplify the ratio.\n\n**Different example:** 18:12 → **3:2**."
+    },
+    "69": {
+      "hint": "Second part is 4 out of 1 + 4.",
+      "help": "Second fraction = 4/5.\n\n**Different example:** 2:3 → second **3/5**."
+    },
+    "70": {
+      "hint": "Larger share is 3 parts. Split 150 ml into 5 equal parts.",
+      "help": "150 ÷ 5 = 30 ml per part. Larger = 3 × 30 ml.\n\n**Different example:** 80 ml in 1:3 → larger **60 ml**."
+    },
+    "71": {
+      "hint": "Second part is 7 of 6 + 7.",
+      "help": "Add the parts for the whole, then write the second part as a fraction of that total.\n\n**Different example:** 1:8 → second **8/9**."
+    },
+    "72": {
+      "hint": "Larger share is 3 parts of 3 + 2.",
+      "help": "£200 ÷ 5 = £40 per part. Larger = 3 × £40.\n\n**Different example:** £150 in 2:3 → larger **£90**."
+    },
+    "73": {
+      "hint": "First fraction = 9 ÷ (9 + 16).",
+      "help": "Add parts before dividing.\n\n**Different example:** 5:11 → first **5/16**."
+    },
+    "74": {
+      "hint": "Smaller time is 1 part of 3 parts total.",
+      "help": "45 ÷ 3 = 15 minutes per part.\n\n**Different example:** 60 min in 2:3 → smaller **24 min**."
+    },
+    "75": {
+      "hint": "Two equal parts — what fraction is each?",
+      "help": "1:1 splits the whole into two equal halves.\n\n**Different example:** Any equal two-part ratio gives **1/2** each."
+    },
+    "76": {
+      "hint": "Milk is 1 part in 8 + 1.",
+      "help": "Smallest part ÷ total parts.\n\n**Different example:** 1:5 squash → concentrate **1/6**."
+    },
+    "77": {
+      "hint": "Smaller pile is 4 parts. 72 ÷ 9 parts.",
+      "help": "One part = 8 books. Smaller = 4 × 8.\n\n**Different example:** 55 in 5:6 → smaller **25**."
+    },
+    "78": {
+      "hint": "HCF of 45 and 60 is 15.",
+      "help": "Divide both sides by 15 so the ratio uses the smallest whole numbers.\n\n**Different example:** 24:36 → **2:3**."
+    },
+    "79": {
+      "hint": "Middle ingredient is 5 parts of 2 + 5 + 3.",
+      "help": "Total 10 parts → middle is 5/10.\n\n**Different example:** 1:2:3 → middle **2/6**."
+    },
+    "80": {
+      "hint": "Smaller share is 2 parts of five altogether.",
+      "help": "£340 ÷ 5 = £68 per part. Smaller = 2 × £68.\n\n**Different example:** £250 in 3:2 → smaller **£100**."
+    },
+    "81": {
+      "hint": "Spots are the first part: 5 of 5 + 11.",
+      "help": "First fraction = 5/16.\n\n**Different example:** 3:13 → first **3/16**."
+    },
+    "82": {
+      "hint": "Larger share is 5 parts. Divide 880 g by 8.",
+      "help": "880 ÷ 8 = 110 g per part. Larger = 5 × 110 g.\n\n**Different example:** 400 g in 3:5 → larger **250 g**."
+    },
+    "83": {
+      "hint": "Second part is 4 out of 3 + 4.",
+      "help": "Second fraction = 4/7.\n\n**Different example:** 5:2 → second **2/7**."
+    },
+    "84": {
+      "hint": "Larger share is 6 parts (compare 6 and 5).",
+      "help": "£55 ÷ 11 = £5 per part. Larger = 6 × £5.\n\n**Different example:** £44 in 5:6 → larger **£24**."
+    },
+    "85": {
+      "hint": "Try ratio 3:5 — is the first part more than half?",
+      "help": "3:5 gives first part **3/8**, which is less than **1/2** even though 3 < 5 is not the test — compare fraction to **1/2**.\n\n**Different example:** 4:3 gives first part **4/7** > **1/2**."
+    },
+    "86": {
+      "hint": "Silver is the second part: 9 of 4 + 9.",
+      "help": "Second fraction = 9/13.\n\n**Different example:** 2:7 → second **7/9**."
+    },
+    "87": {
+      "hint": "Smaller is 1 part of 4. Convert kg to g if helpful.",
+      "help": "1.2 kg = 1200 g. 1200 ÷ 4 = 300 g per part.\n\n**Different example:** 2 kg in 1:3 → smaller **500 g**."
+    },
+    "88": {
+      "hint": "Both 14 and 49 divide by 7.",
+      "help": "Find the largest number that divides both parts, then divide each part by it.\n\n**Different example:** 21:35 → **3:5**."
+    },
+    "89": {
+      "hint": "Smallest part is 2 in 5 + 2 + 3.",
+      "help": "Total 10 parts → smallest fraction **2/10**.\n\n**Different example:** 1:2:4 → smallest **1/7**."
+    },
+    "90": {
+      "hint": "Smaller share is 3 parts of 10.",
+      "help": "£1000 ÷ 10 = £100 per part. Smaller = 3 × £100.\n\n**Different example:** £500 in 2:3 → smaller **£200**."
+    },
+    "91": {
+      "hint": "Honey is 4 parts of 11 + 4.",
+      "help": "Second part fraction = 4/15.\n\n**Different example:** 3:10 → second **10/13**."
+    },
+    "92": {
+      "hint": "Middle share is 3 parts. Total parts 9.",
+      "help": "180 ÷ 9 = 20 per part. Middle = 3 × 20.\n\n**Different example:** 2:3:5 on 100 → middle **30**."
+    },
+    "93": {
+      "hint": "First part 7 of 7 + 5.",
+      "help": "Fraction = 7/12.\n\n**Different example:** 9:4 → first **9/13**."
+    },
+    "94": {
+      "hint": "Shorter piece is 5 parts. 42 ÷ 14 parts.",
+      "help": "One part = 3 m. Shorter = 5 × 3 m.\n\n**Different example:** 56 m in 3:5 → shorter **21 m**."
+    },
+    "95": {
+      "hint": "Simplify 2:6 and 1:3 — same fractions?",
+      "help": "Equivalent ratios give the same fractions of the whole.\n\n**Different example:** 4:8 and 1:2 match."
+    },
+    "96": {
+      "hint": "Rabbits are the second part: 5 of 8 + 5.",
+      "help": "Second fraction = 5/13.\n\n**Different example:** 10:3 → second **3/13**."
+    },
+    "97": {
+      "hint": "Larger share is 4 parts. £126 ÷ 7.",
+      "help": "One part = £18. Larger = 4 × £18.\n\n**Different example:** £88 in 3:5 → larger **£55**."
+    },
+    "98": {
+      "hint": "Divide 72 and 54 by 18.",
+      "help": "Use the HCF of both numbers to scale the ratio down to simplest form.\n\n**Different example:** 90:60 → **3:2**."
+    },
+    "99": {
+      "hint": "Largest part is 6 of 1 + 2 + 6.",
+      "help": "Total 9 parts → largest **6/9**.\n\n**Different example:** 2:3:4 → largest **4/9**."
+    },
+    "100": {
+      "hint": "Add the ratio parts — is the first share 3 out of 5 or 3 out of 2?",
+      "help": "Total parts = 3 + 2 = 5. The first fraction is **3/5**, not **3/2**.\n\n**Different example:** 4:1 → first part **4/5** of the total."
+    },
+    "101": {
+      "hint": "Write fractions for 2:5 and for 5:2 — do they stay the same?",
+      "help": "Swapping parts swaps which fraction is larger.\n\n**Different example:** 1:3 gives **1/4** first; 3:1 gives **3/4** first."
+    },
+    "102": {
+      "hint": "How many equal parts in 4:4?",
+      "help": "4:4 means 8 parts total with 4 each → **1/2** each.\n\n**Different example:** 3:3 → each **1/2**."
+    },
+    "103": {
+      "hint": "Try 2:2:2 — what fraction is each share?",
+      "help": "Equal three-part ratios give **1/3** each, not more than **1/3**.\n\n**Different example:** 1:1:1 → each **1/3**."
+    },
+    "104": {
+      "hint": "Work out a/(a+b) for each ratio separately.",
+      "help": "2:5 → **2/7**; 5:2 → **5/7**.\n\n**Different example:** 3:4 → **3/7** first."
+    },
+    "105": {
+      "hint": "Find a ratio where the first part is 1/3 of the whole but the ratio is not 1:3.",
+      "help": "1:2 has first part **1/3** because 1 + 2 = 3 parts.\n\n**Different example:** 2:4 also gives **1/3** for the first part."
+    },
+    "106": {
+      "hint": "Try 1:2 then add 1 to both parts — do the fractions stay equal?",
+      "help": "1:2 → **1/3**; 2:3 → **2/5** — they change.\n\n**Different example:** Adding to both parts changes the split."
+    },
+    "107": {
+      "hint": "How many parts in total for 5:1?",
+      "help": "Total 6 parts → first is 5 out of 6.\n\n**Different example:** 7:1 → first **7/8**."
+    },
+    "108": {
+      "hint": "If two ratios simplify to the same numbers, what happens to the fractions?",
+      "help": "Equivalent ratios describe the same fractions of the whole.\n\n**Different example:** 10:15 and 2:3 both give first **2/5**."
+    },
+    "109": {
+      "hint": "In 1:2, how many parts total? What fraction is the second part?",
+      "help": "Second part is 2 out of 3 → **2/3**.\n\n**Different example:** 2:5 → second **5/7**."
+    },
+    "110": {
+      "hint": "If the first part is half the second, try ratio 1:2.",
+      "help": "1:2 gives first part **1/3**, not **1/2**.\n\n**Different example:** 2:4 also gives **1/3** first."
+    },
+    "111": {
+      "hint": "Find the second fraction for 3:7 and for 4:7 — same denominator on the bottom?",
+      "help": "Wholes are 10 and 11 → **7/10** vs **7/11**.\n\n**Different example:** Same second part number does not force equal fractions."
+    },
+    "112": {
+      "hint": "If a = 2b, write the ratio as 2:1 and find the first fraction.",
+      "help": "2:1 → first part **2/3**.\n\n**Different example:** a = 3b → ratio 3:1 → first **3/4**."
+    },
+    "113": {
+      "hint": "First part is 1 out of 1 + 9.",
+      "help": "Fraction = **1/10** — small but exact.\n\n**Different example:** 1:4 → first **1/5**."
+    },
+    "114": {
+      "hint": "Compare 1:4 with 4:1 — which first fraction is larger?",
+      "help": "Reversing the ratio swaps which fraction is bigger.\n\n**Different example:** 2:9 vs 9:2."
+    },
+    "115": {
+      "hint": "Simplify 6:8 first.",
+      "help": "6:8 = 3:4 → first fraction **3/7** in both forms.\n\n**Different example:** 12:16 also gives **3/7**."
+    },
+    "116": {
+      "hint": "Can a ratio part be zero in a sharing problem?",
+      "help": "Zero parts are not used in normal sharing ratios.\n\n**Different example:** Valid ratios use positive whole parts."
+    },
+    "117": {
+      "hint": "Write each part as a fraction with denominator 10.",
+      "help": "2/10 + 3/10 + 5/10 = 10/10 = 1.\n\n**Different example:** Three fractions from a ratio should always add to 1."
+    },
+    "118": {
+      "hint": "If a < b in a:b, is a/(a+b) less than b/(a+b)?",
+      "help": "The smaller part is always less than half when there are only two unequal parts.\n\n**Different example:** 3:8 → first **3/11** < **1/2**."
+    },
+    "119": {
+      "hint": "Work out the first fraction for 10:2 and for 5:1.",
+      "help": "Both simplify to 5:1 → first **5/6**.\n\n**Different example:** 15:3 also gives **5/6**."
+    },
+    "120": {
+      "hint": "Try 2:3 and 3:2 — same total parts but same fractions?",
+      "help": "Same total parts 5 but different fractions unless ratios match.\n\n**Different example:** 1:4 vs 4:1 with 5 parts each."
+    },
+    "121": {
+      "hint": "Second part in 1:4 vs second part in 4:1.",
+      "help": "1:4 → second **4/5**; 4:1 → second **1/5**.\n\n**Different example:** Order in the ratio matters."
+    },
+    "122": {
+      "hint": "In two parts, is the smaller always less than half the whole?",
+      "help": "Two positive parts → smaller fraction < **1/2**.\n\n**Different example:** 3:7 → smaller **3/10**."
+    },
+    "123": {
+      "hint": "2:3 means 2 parts out of 5, not 2 out of 3.",
+      "help": "Correct first fraction **2/5**.\n\n**Different example:** 3:4 → **3/7**, not **3/4** of total."
+    },
+    "124": {
+      "hint": "Try doubling only the first part of 1:2.",
+      "help": "1:2 → **1/3**; 2:2 → **1/2** — first fraction doubles.\n\n**Different example:** Scale one side only changes fractions."
+    },
+    "125": {
+      "hint": "Write fractions for 5:10 and simplify to compare with 1:2.",
+      "help": "Both give **1/3** and **2/3**.\n\n**Different example:** 3:6 matches 1:2."
+    },
+    "126": {
+      "hint": "If all parts are equal, what fraction is each?",
+      "help": "3:3:3 → each **1/3**.\n\n**Different example:** n equal parts → each **1/n**."
+    },
+    "127": {
+      "hint": "Find 4/9 exactly — is it nearer 1/2 or 1/3?",
+      "help": "**4/9 ≈ 0.44** — closer to **1/2** than to **1/3**.\n\n**Different example:** Compare **5/12** to **1/2**."
+    },
+    "128": {
+      "hint": "Add the two fractions from a:b — what do you get?",
+      "help": "a/(a+b) + b/(a+b) = 1.\n\n**Different example:** 2:5 → **2/7 + 5/7 = 1**."
+    },
+    "129": {
+      "hint": "If a/(a+b) = 1/2, what does that say about a and b?",
+      "help": "Equal fractions of half means **a = b**.\n\n**Different example:** 1:1 gives **1/2** each."
+    },
+    "130": {
+      "hint": "Total drinks 260. Coffee is 8 parts of 5 + 8.",
+      "help": "13 parts → one part 20 drinks. Tea fraction = 5/13.\n\n**Different example:** 3:2 with 50 total → larger **30**."
+    },
+    "131": {
+      "hint": "Larger charity is 9 parts. Find 9/14 of £840.",
+      "help": "One part = £840 ÷ 14. Larger = 9 parts.\n\n**Different example:** 2:3 on £100 → larger **£60**."
+    },
+    "132": {
+      "hint": "Yogurt is 3 parts of 10. Then find 3/10 of 500 ml.",
+      "help": "Fraction first, then multiply by the amount.\n\n**Different example:** 1:4 on 2 L → first **400 ml**."
+    },
+    "133": {
+      "hint": "Year 7 is 4 parts of 4 + 7.",
+      "help": "55 ÷ 11 = 5 per part. Year 7 = 4 × 5.\n\n**Different example:** 2:3 with 40 members → first **16**."
+    },
+    "134": {
+      "hint": "Blue is 7 parts of 12. Total length 24 m.",
+      "help": "Fraction **7/12**; one part = 24 ÷ 12 m.\n\n**Different example:** 1:2:3 bunting 18 m → largest **9 m**."
+    },
+    "135": {
+      "hint": "Sloan has 5 parts = £28. Find one part, then Archer’s 3 parts.",
+      "help": "One part = £28 ÷ 5. Archer = 3 parts; fraction **3/8**.\n\n**Different example:** 4:5 with larger £35 → smaller **£28**."
+    },
+    "136": {
+      "hint": "Sand is 4 parts of 11 in 55 kg.",
+      "help": "Fraction **4/11**; one part = 55 ÷ 11 kg.\n\n**Different example:** 7:3 on 40 kg → second **12 kg**."
+    },
+    "137": {
+      "hint": "Children are 8 parts of 11. Adults fraction is 3/11.",
+      "help": "440 ÷ 11 = 40 per part. Children = 8 × 40.\n\n**Different example:** 2:5 tickets 70 → children **50**."
+    },
+    "138": {
+      "hint": "Concentrate is 1 part of 12. Find 1/12 of 3.6 L.",
+      "help": "3.6 ÷ 12 = 0.3 L concentrate.\n\n**Different example:** 1:5 on 2 L → **1/3 L** concentrate."
+    },
+    "139": {
+      "hint": "Materials are 4 parts = £320. Find total parts 4 + 9.",
+      "help": "One part = £80. Total = 13 parts. Labour fraction **9/13**.\n\n**Different example:** 2:3 spend with £40 on first → total **£100**."
+    },
+    "140": {
+      "hint": "Gold is 5 parts of 11. Total beads 132.",
+      "help": "132 ÷ 11 = 12 per part. Gold = 5 × 12. Silver fraction **6/11**.\n\n**Different example:** 3:4 on 77 → first **33**."
+    },
+    "141": {
+      "hint": "Paths are 3 parts = 12 km. Grass is 17 parts.",
+      "help": "One part = 4 km. Total 20 parts. Grass fraction **17/20**.\n\n**Different example:** 2:3 areas with 8 m² first → total **20 m²**."
+    },
+    "142": {
+      "hint": "Butter is 1 part of 6 + 2 + 1. Total mix 360 g.",
+      "help": "Butter fraction **1/9**; one part = 360 ÷ 9 g.\n\n**Different example:** 2:3:5 on 200 g → smallest **40 g**."
+    },
+    "143": {
+      "hint": "Save is 3 parts = £39. Spend is 5 parts.",
+      "help": "One part = £13. Total 8 parts. Spent fraction **5/8**.\n\n**Different example:** 4:1 spend:save, save £20 → total **£100**."
+    },
+    "144": {
+      "hint": "No is 2 parts = 8 pupils. Yes is 7 parts.",
+      "help": "One part = 4 pupils. Yes = 7 × 4. Yes fraction **7/9**.\n\n**Different example:** 5:1 vote, 3 on side B → total **18**."
+    },
+    "145": {
+      "hint": "Copper is 9 parts of 10 in 400 g.",
+      "help": "Fraction **9/10**; copper mass = 9/10 × 400 g.\n\n**Different example:** 4:1 alloy 500 g → first **400 g**."
+    },
+    "146": {
+      "hint": "Morning is 5 parts of 9. Total sessions 108.",
+      "help": "108 ÷ 9 = 12 per session type. Morning = 5 × 12.\n\n**Different example:** 3:4 on 77 → first **33**."
+    },
+    "147": {
+      "hint": "Cranberry is 2 parts of 11 in 770 ml.",
+      "help": "Fraction **2/11**; one part = 770 ÷ 11 ml.\n\n**Different example:** 1:6 drink 700 ml → first **100 ml**."
+    },
+    "148": {
+      "hint": "Younger is 3 parts = 240 m². Older is 5 parts.",
+      "help": "One part = 80 m². Total 8 parts. Older fraction **5/8**.\n\n**Different example:** 2:5 land, smaller 100 m² → total **350 m²**."
+    },
+    "149": {
+      "hint": "Plain is 1 part of 5. Face cards are 4 parts.",
+      "help": "250 ÷ 5 = 50 plain. Face fraction **4/5**.\n\n**Different example:** 3:2 split of 100 → first **60**."
+    },
+    "150": {
+      "hint": "A pays 2 parts = £96. B pays 5 parts.",
+      "help": "One part = £48. B = 5 × £48. B fraction **5/7**.\n\n**Different example:** 3:4 rent, smaller £36 → larger **£48**."
+    },
+    "151": {
+      "hint": "Smallest two parts are 1 + 2 out of 1 + 2 + 3.",
+      "help": "Combine parts: (1+2)/6 = **1/2**.\n\n**Different example:** 2:3:5 → two smallest **5/10**."
+    },
+    "152": {
+      "hint": "Difference 5 − 3 = 2 parts = 40 counters.",
+      "help": "One part = 20. Total parts 8 → 160 counters.\n\n**Different example:** 7:4 with 30 more in first → total **110**."
+    },
+    "153": {
+      "hint": "Pick numbers a,b,c — is the biggest part always the biggest fraction?",
+      "help": "Largest part number gives largest fraction **max/(a+b+c)**.\n\n**Different example:** 2:5:3 → largest fraction **5/10**."
+    },
+    "154": {
+      "hint": "Largest share is 5 parts of 3 + 4 + 5.",
+      "help": "Fraction **5/12**.\n\n**Different example:** 1:2:3 → largest **3/6**."
+    },
+    "155": {
+      "hint": "Is 6:21 equivalent to 2:7?",
+      "help": "Divide both parts of 6:21 by 3 → 2:7. Flour stays **2/9**.\n\n**Different example:** Scaling both parts keeps fractions."
+    },
+    "156": {
+      "hint": "4 + 9 = 13 parts. Sum is 65.",
+      "help": "One part = 5. Smaller number 20. Fraction **20/65 = 4/13**.\n\n**Different example:** 3:5 sum 40 → smaller **15**."
+    },
+    "157": {
+      "hint": "First part 3/8 means 3 parts out of 8. What is the second part?",
+      "help": "Remaining 5 parts → ratio **3:5**.\n\n**Different example:** First **2/5** → ratio **2:3**."
+    },
+    "158": {
+      "hint": "2/5 water means 2 parts water and 3 parts empty.",
+      "help": "Water : empty = **2:3**.\n\n**Different example:** **3/4** full → **3:1** water to empty."
+    },
+    "159": {
+      "hint": "Simplify 2:4 and find the first fraction each time.",
+      "help": "Both give first part **1/3**.\n\n**Different example:** 3:6 and 1:2 match."
+    },
+    "160": {
+      "hint": "Middle share is 5 parts of 2 + 5 + 6.",
+      "help": "Total 13 parts → middle **5/13**.\n\n**Different example:** 1:3:4 → middle **3/8**."
+    },
+    "161": {
+      "hint": "Sloan gets 3/5. Write that as a ratio Archer : Sloan.",
+      "help": "Archer 2/5, Sloan 3/5 → ratio **2:3**.\n\n**Different example:** **1/4** vs rest → **1:3**."
+    },
+    "162": {
+      "hint": "5:8 scaled so first is 45 — multiply both parts by 9.",
+      "help": "Second part 72. Total 117 → first fraction **45/117 = 5/13**.\n\n**Different example:** 2:3 with first 10 → second 15."
+    },
+    "163": {
+      "hint": "What denominator do a/(a+b) and b/(a+b) share?",
+      "help": "Both use **a+b** on the bottom.\n\n**Different example:** 3:5 → **3/8** and **5/8**."
+    },
+    "164": {
+      "hint": "Middle is 4 parts = £36,000. Youngest is 1 part.",
+      "help": "One part = £9,000. Youngest fraction **1/10**.\n\n**Different example:** 1:2:3, smallest £10 → total **£60**."
+    },
+    "165": {
+      "hint": "Not blue is 1 − 5/12. Write as a ratio to blue.",
+      "help": "Blue **5/12**, not blue **7/12** → **5:7**.\n\n**Different example:** **1/3** coloured → **1:2** coloured : plain."
+    },
+    "166": {
+      "hint": "7/15 means 7 parts = 28. Find one part, then the rest.",
+      "help": "One part = 4. Second part 32. Total 60.\n\n**Different example:** First **3/10** is 12 → total **40**."
+    },
+    "167": {
+      "hint": "Try 1:2 then add 1 to each part — do fractions grow?",
+      "help": "1:2 → **1/3**; 2:3 → **2/5** — fractions change.\n\n**Different example:** Adding to all parts shifts the split."
+    },
+    "168": {
+      "hint": "B is 5 parts = £150. Total parts 3 + 5 + 8.",
+      "help": "One part = £30. Total £480. A = 3 parts → **3/16**.\n\n**Different example:** 2:3:5, middle £45 → total **£135**."
+    },
+    "169": {
+      "hint": "Multiply both sides to clear fractions — use 6.",
+      "help": "**1/2 : 1/3** → 3:2.\n\n**Different example:** **1/4 : 1/2** → **1:2**."
+    },
+    "170": {
+      "hint": "Flowers are 11 parts = 88 m². Herbs are 4 parts.",
+      "help": "One part = 8 m². Total 120 m². Herbs **4/15**.\n\n**Different example:** 5:2 areas, first 50 m² → total **70 m²**."
+    },
+    "171": {
+      "hint": "Smaller share is 5 parts of 14.",
+      "help": "£84 ÷ 14 = £6 per part. Smaller = 5 × £6.\n\n**Different example:** £130 in 4:9 → smaller **£40**."
+    },
+    "172": {
+      "hint": "First part 11 of 11 + 6.",
+      "help": "Fraction **11/17**.\n\n**Different example:** 8:3 → first **8/11**."
+    },
+    "173": {
+      "hint": "HCF of 63 and 42 is 21.",
+      "help": "21 divides both 63 and 42, so divide each part by 21 to simplify.\n\n**Different example:** 48:32 → **3:2**."
+    },
+    "174": {
+      "hint": "Try 3:5 — is the first part more than half?",
+      "help": "3:5 → **3/8** < **1/2** even though you might expect otherwise.\n\n**Different example:** 4:3 → first **4/7** > **1/2**."
+    },
+    "175": {
+      "hint": "Larger is 7 parts of 10 in 500 ml.",
+      "help": "500 ÷ 10 = 50 ml per part. Larger = 350 ml.\n\n**Different example:** 600 ml in 1:5 → larger **500 ml**."
+    },
+    "176": {
+      "hint": "Smaller group is 4 parts of 9.",
+      "help": "108 ÷ 9 = 12 per part. Smaller = 48.\n\n**Different example:** 5:7 total 60 → smaller **25**."
+    },
+    "177": {
+      "hint": "Second part 9 of 2 + 9.",
+      "help": "Fraction **9/11**.\n\n**Different example:** 3:10 → second **10/13**."
+    },
+    "178": {
+      "hint": "Simplify 3:6 and compare to 1:2.",
+      "help": "Equivalent ratios → same fractions **1/3** and **2/3**.\n\n**Different example:** 5:10 = 1:2."
+    },
+    "179": {
+      "hint": "Larger share is 5 parts of 6.",
+      "help": "£144 ÷ 6 = £24 per part. Larger = £120.\n\n**Different example:** £56 in 1:3 → larger **£42**."
+    },
+    "180": {
+      "hint": "Nuts are 5 parts of 13 + 5.",
+      "help": "Fraction **5/18**.\n\n**Different example:** 2:9 → second **9/11**."
+    },
+    "181": {
+      "hint": "Smaller is 4 parts of 11 in 77 kg.",
+      "help": "77 ÷ 11 = 7 kg per part. Smaller = 28 kg.\n\n**Different example:** 90 kg in 2:7 → smaller **20 kg**."
+    },
+    "182": {
+      "hint": "Smallest is 3 parts of 3 + 4 + 5.",
+      "help": "Fraction **3/12 = 1/4**.\n\n**Different example:** 1:2:6 → smallest **1/9**."
+    },
+    "183": {
+      "hint": "Coffee is 5 parts of 5 + 12.",
+      "help": "340 ÷ 17 = 20 per part. Coffee = 5 × 20.\n\n**Different example:** 3:8 sales 132 → first **36**."
+    },
+    "184": {
+      "hint": "If a = b, what are the two fractions?",
+      "help": "Equal parts → equal fractions **1/2** each for two parts.\n\n**Different example:** 4:4 → **1/2** each."
+    },
+    "185": {
+      "hint": "Smaller is 2 parts of 2 + 7.",
+      "help": "£252 ÷ 9 = £28 per part. Smaller = 2 × £28.\n\n**Different example:** £90 in 2:7 → smaller **£20**."
+    },
+    "186": {
+      "hint": "Wins are 4 parts of 4 + 2 + 1.",
+      "help": "Total 7 parts → wins **4/7**.\n\n**Different example:** 3:1:1 → first **3/5**."
+    },
+    "187": {
+      "hint": "Divide 100 and 75 by 25.",
+      "help": "25 is the HCF of 100 and 75 — divide both parts by 25 to simplify.\n\n**Different example:** 80:60 → **4:3**."
+    },
+    "188": {
+      "hint": "Second part is 1 of 6 + 1.",
+      "help": "Fraction **1/7**.\n\n**Different example:** 10:1 → second **1/11**."
+    },
+    "189": {
+      "hint": "Concentrate is 1 part of 1 + 8 in 720 ml.",
+      "help": "720 ÷ 9 = 80 ml concentrate.\n\n**Different example:** 1:4 on 500 ml → **100 ml**."
+    },
+    "190": {
+      "hint": "Do the ratio parts always add to the number of equal shares?",
+      "help": "The whole is split into (sum of parts) equal shares.\n\n**Different example:** 2:3 → 5 equal shares total."
+    },
+    "191": {
+      "hint": "Larger is 7 parts of 13.",
+      "help": "91 ÷ 13 = 7 per part. Larger = 49 stickers.\n\n**Different example:** 60 in 5:7 → larger **35**."
+    },
+    "192": {
+      "hint": "First part 5 of 5 + 11.",
+      "help": "Fraction **5/16**.\n\n**Different example:** 7:9 → first **7/16**."
+    },
+    "193": {
+      "hint": "First part 4/9 means 4 parts out of 9 total.",
+      "help": "Second part 5 → ratio **4:5**.\n\n**Different example:** **2/5** first → **2:3**."
+    },
+    "194": {
+      "hint": "Larger is 4 parts of 7 in £420.",
+      "help": "£420 ÷ 7 = £60 per part. Larger = £240.\n\n**Different example:** £105 in 2:5 → larger **£75**."
+    },
+    "195": {
+      "hint": "Double 1:2 to 2:4 — do fractions stay the same?",
+      "help": "Doubling both parts keeps fractions; doubling only one part would not.\n\n**Different example:** 3:6 = 1:2 same fractions."
+    },
+    "196": {
+      "hint": "Larger is 8 parts = £40. Find one part and total.",
+      "help": "One part = £5. Total £65. Smaller **5/13**.\n\n**Different example:** 3:5, larger 45 → total **£72**."
+    },
+    "197": {
+      "hint": "Multiply **1/4** and **1/2** by 4 to clear denominators.",
+      "help": "**1/4 : 1/2** → **1:2**.\n\n**Different example:** **2/3 : 1/6** → **4:1**."
+    },
+    "198": {
+      "hint": "Smaller charity is 2 parts = £240.",
+      "help": "One part = £120. Total £400. Larger fraction **3/5**.\n\n**Different example:** 1:4, smaller £50 → total **£250**."
+    },
+    "199": {
+      "hint": "Two smallest parts are 1 + 1 out of 1 + 1 + 4.",
+      "help": "Combined **2/6 = 1/3**.\n\n**Different example:** 2:2:5 → two smallest **4/9**."
+    },
+    "200": {
+      "hint": "B is 5 parts = £75. Find one part, then A’s fraction and C’s money.",
+      "help": "One part = £15. Total £210. A = 2 parts → **1/7**; C = 7 parts → £105.\n\n**Different example:** 1:2:3, middle £20 → total **£60**."
+    }
+  }
+}

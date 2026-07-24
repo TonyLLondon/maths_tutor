@@ -1,0 +1,1861 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "20",
+      "accept": [
+        "20",
+        "twenty"
+      ],
+      "tier": 1,
+      "rating": 520
+    },
+    "3": {
+      "display": "40",
+      "accept": [
+        "40",
+        "forty"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "4": {
+      "display": "70",
+      "accept": [
+        "70",
+        "seventy"
+      ],
+      "tier": 1,
+      "rating": 560
+    },
+    "5": {
+      "display": "100",
+      "accept": [
+        "100",
+        "one hundred"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "6": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 600
+    },
+    "7": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "8": {
+      "display": "45",
+      "accept": [
+        "45",
+        "forty five",
+        "forty-five"
+      ],
+      "tier": 1,
+      "rating": 640
+    },
+    "9": {
+      "display": "20",
+      "accept": [
+        "20",
+        "twenty"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "10": {
+      "display": "200",
+      "accept": [
+        "200",
+        "two hundred"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "11": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 680
+    },
+    "12": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "7.5 cm ≤ length < 8.5 cm",
+      "accept": [
+        "7.5",
+        "8.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 650
+    },
+    "14": {
+      "display": "35 kg ≤ mass < 45 kg",
+      "accept": [
+        "35",
+        "45"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 661
+    },
+    "15": {
+      "display": "14.5 min ≤ time < 15.5 min",
+      "accept": [
+        "14.5",
+        "15.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 673
+    },
+    "16": {
+      "display": "6.15 ≤ n < 6.25",
+      "accept": [
+        "6.15",
+        "6.25"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 684
+    },
+    "17": {
+      "display": "115 mm ≤ length < 125 mm",
+      "accept": [
+        "115",
+        "125"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 695
+    },
+    "18": {
+      "display": "250 ≤ n < 350",
+      "accept": [
+        "250",
+        "350"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 707
+    },
+    "19": {
+      "display": "7.495 ≤ n < 7.505",
+      "accept": [
+        "7.495",
+        "7.505"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 718
+    },
+    "20": {
+      "display": "2.5 km ≤ distance < 3.5 km",
+      "accept": [
+        "2.5",
+        "3.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 741
+    },
+    "21": {
+      "display": "85 ≤ n < 95",
+      "accept": [
+        "85",
+        "95"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 798
+    },
+    "22": {
+      "display": "2.45 kg ≤ mass < 2.55 kg",
+      "accept": [
+        "2.45",
+        "2.55"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 866
+    },
+    "23": {
+      "display": "42.5 cm ≤ length < 47.5 cm",
+      "accept": [
+        "42.5",
+        "47.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 650
+    },
+    "24": {
+      "display": "950 ≤ n < 1050",
+      "accept": [
+        "950",
+        "1050"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 817
+    },
+    "25": {
+      "display": "0.55 ≤ n < 0.65",
+      "accept": [
+        "0.55",
+        "0.65"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 983
+    },
+    "26": {
+      "display": "1.5 h ≤ time < 2.5 h",
+      "accept": [
+        "1.5",
+        "2.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1150
+    },
+    "27": {
+      "display": "No — it means the actual length could be anywhere from 7.5 cm up to (but not including) 8.5 cm, not exactly 8 cm.",
+      "accept": [
+        "no",
+        "7.5",
+        "8.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "28": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 957
+    },
+    "29": {
+      "display": "Mistake: half of 10 is 5, so the bounds should be 145 cm to 155 cm, not the full 10 either way.",
+      "accept": [
+        "145",
+        "155"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1168
+    },
+    "30": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1378
+    },
+    "31": {
+      "display": "Nearest 10 gives 25 ≤ n < 35 (width 10); nearest 1 gives 29.5 ≤ n < 30.5 (width 1). The nearest-10 interval is wider because rounding to a bigger unit hides more precision.",
+      "accept": [
+        "nearest 10",
+        "wider",
+        "10"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "32": {
+      "display": "195 m ≤ length < 205 m",
+      "accept": [
+        "195",
+        "205"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1501
+    },
+    "33": {
+      "display": "1.45 kg",
+      "accept": [
+        "1.45"
+      ],
+      "tier": 3,
+      "rating": 1712
+    },
+    "34": {
+      "display": "42.5 min ≤ time < 47.5 min",
+      "accept": [
+        "42.5",
+        "47.5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1597
+    },
+    "35": {
+      "display": "No — Archer's height is 139.5 to 140.5 cm and Sloan's is 138.5 to 139.5 cm. Sloan's height can get close to but never reach 139.5 cm, which is Archer's minimum, so Sloan cannot actually be taller.",
+      "accept": [
+        "no",
+        "139.5",
+        "cannot"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1731
+    },
+    "36": {
+      "display": "12.5 cm",
+      "accept": [
+        "12.5"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "55 ≤ n < 65",
+      "accept": [
+        "55",
+        "65"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1806
+    },
+    "38": {
+      "display": "4.45 ≤ x < 4.55",
+      "accept": [
+        "4.45",
+        "4.55"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1929
+    },
+    "39": {
+      "display": "4500 ≤ crowd < 5500. No — 4400 is below the lower bound, so it could not have been the actual crowd.",
+      "accept": [
+        "4500",
+        "5500",
+        "no"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1982
+    },
+    "40": {
+      "display": "Rounding to 1 decimal place means going halfway to the next value, and half of 0.1 is 0.05, so the bounds are 7.95 to 8.05, not the full 0.1 either side.",
+      "accept": [
+        "0.05",
+        "half"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "22.5 ≤ n < 27.5",
+      "accept": [
+        "22.5",
+        "27.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "Yes — rounding to the nearest 100 gives a width of 100, while rounding to the nearest 10 gives a width of only 10, so nearest-100 rounding is always less precise.",
+      "accept": [
+        "yes",
+        "100",
+        "10"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 959
+    },
+    "43": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "23.5 ≤ L < 24.5",
+      "accept": [
+        "23.5",
+        "24.5",
+        "error interval"
+      ],
+      "tier": 1,
+      "rating": 781,
+      "contains": true
+    },
+    "45": {
+      "display": "90",
+      "accept": [
+        "90"
+      ],
+      "tier": 1,
+      "rating": 812
+    },
+    "46": {
+      "display": "0.5",
+      "accept": [
+        "0.5"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "47": {
+      "display": "450 g ≤ mass < 550 g",
+      "accept": [
+        "450",
+        "550"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 874
+    },
+    "48": {
+      "display": "204",
+      "accept": [
+        "204"
+      ],
+      "tier": 1,
+      "rating": 905
+    },
+    "49": {
+      "display": "2300",
+      "accept": [
+        "2300"
+      ],
+      "tier": 1,
+      "rating": 936
+    },
+    "50": {
+      "display": "17.5 °C ≤ T < 22.5 °C",
+      "accept": [
+        "17.5",
+        "22.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 967
+    },
+    "51": {
+      "display": "3.14",
+      "accept": [
+        "3.14"
+      ],
+      "tier": 1,
+      "rating": 998
+    },
+    "52": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1029
+    },
+    "53": {
+      "display": "1000",
+      "accept": [
+        "1000"
+      ],
+      "tier": 1,
+      "rating": 1060
+    },
+    "54": {
+      "display": "5.95 km ≤ d < 6.05 km",
+      "accept": [
+        "5.95",
+        "6.05"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1090
+    },
+    "55": {
+      "display": "65",
+      "accept": [
+        "65"
+      ],
+      "tier": 1,
+      "rating": 1121
+    },
+    "56": {
+      "display": "1.3",
+      "accept": [
+        "1.3"
+      ],
+      "tier": 1,
+      "rating": 1152
+    },
+    "57": {
+      "display": "0.295 ≤ x < 0.305",
+      "accept": [
+        "0.295",
+        "0.305"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1183
+    },
+    "58": {
+      "display": "9.5 cm",
+      "accept": [
+        "9.5"
+      ],
+      "tier": 1,
+      "rating": 1214
+    },
+    "59": {
+      "display": "5000",
+      "accept": [
+        "5000"
+      ],
+      "tier": 1,
+      "rating": 1245
+    },
+    "60": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1276
+    },
+    "61": {
+      "display": "1.5 L ≤ V < 2.5 L",
+      "accept": [
+        "1.5",
+        "2.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1307
+    },
+    "62": {
+      "display": "9.0",
+      "accept": [
+        "9.0",
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1338
+    },
+    "63": {
+      "display": "3.25 kg",
+      "accept": [
+        "3.25"
+      ],
+      "tier": 1,
+      "rating": 1369
+    },
+    "64": {
+      "display": "1300",
+      "accept": [
+        "1300"
+      ],
+      "tier": 1,
+      "rating": 1400
+    },
+    "65": {
+      "display": "55 mph ≤ s < 65 mph",
+      "accept": [
+        "55",
+        "65"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 730
+    },
+    "66": {
+      "display": "0.01",
+      "accept": [
+        "0.01"
+      ],
+      "tier": 1,
+      "rating": 752
+    },
+    "67": {
+      "display": "12.5 ≤ n < 17.5",
+      "accept": [
+        "12.5",
+        "17.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 764
+    },
+    "68": {
+      "display": "40 000",
+      "accept": [
+        "40000",
+        "40 000"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "69": {
+      "display": "£4.50 ≤ p < £5.50",
+      "accept": [
+        "4.5",
+        "5.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 786
+    },
+    "70": {
+      "display": "1 cm",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 809
+    },
+    "71": {
+      "display": "2.38",
+      "accept": [
+        "2.38"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "72": {
+      "display": "1150 ≤ p < 1250",
+      "accept": [
+        "1150",
+        "1250"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 832
+    },
+    "73": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "74": {
+      "display": "1.0",
+      "accept": [
+        "1.0",
+        "1"
+      ],
+      "tier": 1,
+      "rating": 855
+    },
+    "75": {
+      "display": "0.45 m ≤ w < 0.55 m",
+      "accept": [
+        "0.45",
+        "0.55"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 877
+    },
+    "76": {
+      "display": "3.55",
+      "accept": [
+        "3.55"
+      ],
+      "tier": 1,
+      "rating": 889
+    },
+    "77": {
+      "display": "680",
+      "accept": [
+        "680"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "78": {
+      "display": "9.95 s ≤ t < 10.05 s",
+      "accept": [
+        "9.95",
+        "10.05"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 911
+    },
+    "79": {
+      "display": "400",
+      "accept": [
+        "400"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "80": {
+      "display": "7.5 kg ≤ m < 8.5 kg",
+      "accept": [
+        "7.5",
+        "8.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 934
+    },
+    "81": {
+      "display": "5.05",
+      "accept": [
+        "5.05"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "82": {
+      "display": "2000",
+      "accept": [
+        "2000"
+      ],
+      "tier": 1,
+      "rating": 957
+    },
+    "83": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "84": {
+      "display": "72.25 ≤ n < 72.75",
+      "accept": [
+        "72.25",
+        "72.75"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 980
+    },
+    "85": {
+      "display": "0.00",
+      "accept": [
+        "0.00",
+        "0"
+      ],
+      "tier": 1,
+      "rating": 991
+    },
+    "86": {
+      "display": "3.75 m ≤ L < 4.25 m",
+      "accept": [
+        "3.75",
+        "4.25"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1002
+    },
+    "87": {
+      "display": "950",
+      "accept": [
+        "950"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "88": {
+      "display": "7.85",
+      "accept": [
+        "7.85"
+      ],
+      "tier": 1,
+      "rating": 1025
+    },
+    "89": {
+      "display": "145 L ≤ V < 155 L",
+      "accept": [
+        "145",
+        "155"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1036
+    },
+    "90": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1048
+    },
+    "91": {
+      "display": "6000",
+      "accept": [
+        "6000"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "92": {
+      "display": "2.05 cm ≤ t < 2.15 cm",
+      "accept": [
+        "2.05",
+        "2.15"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1070
+    },
+    "93": {
+      "display": "54",
+      "accept": [
+        "54"
+      ],
+      "tier": 1,
+      "rating": 1082
+    },
+    "94": {
+      "display": "0.20",
+      "accept": [
+        "0.20"
+      ],
+      "tier": 1,
+      "rating": 1093
+    },
+    "95": {
+      "display": "£29 500 ≤ salary < £30 500",
+      "accept": [
+        "29500",
+        "30500"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1105
+    },
+    "96": {
+      "display": "6.25",
+      "accept": [
+        "6.25"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "97": {
+      "display": "400",
+      "accept": [
+        "400"
+      ],
+      "tier": 1,
+      "rating": 1127
+    },
+    "98": {
+      "display": "11 kg ≤ m < 13 kg",
+      "accept": [
+        "11",
+        "13"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1139
+    },
+    "99": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "100": {
+      "display": "No — 24.5 cm is not included; the upper bound is strict, so the greatest possible length is just below 24.5 cm.",
+      "accept": [
+        "no",
+        "24.5",
+        "not included"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 919
+    },
+    "101": {
+      "display": "Sometimes — values near the middle are closer to the recorded value, but values near a bound can be closer to the next multiple.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 938
+    },
+    "102": {
+      "display": "Mistake: half of 100 is 50, so values from 50 up to (but not including) 150 round to 100 — not from 100.",
+      "accept": [
+        "50",
+        "150"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 976
+    },
+    "103": {
+      "display": "Nearest cm allows up to 8.5 cm; 1 d.p. only allows up to 8.05 cm, so nearest cm allows a longer actual length.",
+      "accept": [
+        "nearest cm",
+        "8.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 996
+    },
+    "104": {
+      "display": "Never — doubling the recorded value does not double the interval width.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1015
+    },
+    "105": {
+      "display": "Yes — 2.445 is the lower bound and is included in 2.445 ≤ x < 2.455.",
+      "accept": [
+        "yes",
+        "2.445"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1034
+    },
+    "106": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1053
+    },
+    "107": {
+      "display": "Lee — 4.45 rounds up to 4.5 to 1 d.p.",
+      "accept": [
+        "lee",
+        "4.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1072
+    },
+    "108": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1091
+    },
+    "109": {
+      "display": "Because a value exactly on the upper bound would round up to the next recorded value, so it is excluded.",
+      "accept": [
+        "round",
+        "next"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1110
+    },
+    "110": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1129
+    },
+    "111": {
+      "display": "Yes — 69 rounds to 70 to the nearest 10 and to 68 to the nearest 2.",
+      "accept": [
+        "yes",
+        "69"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1149
+    },
+    "112": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1187
+    },
+    "113": {
+      "display": "No — the third decimal is 9, so the second decimal rounds up to 0.85, not 0.84.",
+      "accept": [
+        "no",
+        "0.85"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1206
+    },
+    "114": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "115": {
+      "display": "Nearest 100 — interval width 100 versus width 10 for nearest 10.",
+      "accept": [
+        "nearest 100",
+        "100"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1244
+    },
+    "116": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1263
+    },
+    "117": {
+      "display": "Width is 1 minute (from 9.5 to 10.5), not 2 minutes.",
+      "accept": [
+        "1",
+        "minute"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1282
+    },
+    "118": {
+      "display": "Never — e.g. 8 cm to nearest cm (width 1 cm) can be less precise than 8.0 cm to 1 d.p. (width 0.1 cm).",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1301
+    },
+    "119": {
+      "display": "4499 is 499 away from 4000 but only 501 from 5000, so it rounds to 5000 to the nearest 1000.",
+      "accept": [
+        "5000",
+        "501"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1321
+    },
+    "120": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1340
+    },
+    "121": {
+      "display": "Yes — greatest width 5.5 cm and length 8.5 cm give perimeter 2 × 14 = 28 cm.",
+      "accept": [
+        "yes",
+        "28"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1359
+    },
+    "122": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1397
+    },
+    "123": {
+      "display": "Yes — the recorded value is halfway between the lower and upper bounds.",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1416
+    },
+    "124": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1435
+    },
+    "125": {
+      "display": "2 to the nearest 1 — interval width 1 versus width 0.5 for 1.5 to nearest 0.5.",
+      "accept": [
+        "2",
+        "nearest 1"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1454
+    },
+    "126": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1474
+    },
+    "127": {
+      "display": "Extra digits can change which way a tie at 5 rounds when you round step by step.",
+      "accept": [
+        "tie",
+        "5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1493
+    },
+    "128": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1512
+    },
+    "129": {
+      "display": "No — 6.2 is correct to 1 d.p.; trailing zeros show accuracy but do not force two decimal places.",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1531
+    },
+    "130": {
+      "display": "175 cm ≤ L < 185 cm",
+      "accept": [
+        "175",
+        "185"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1100
+    },
+    "131": {
+      "display": "0.995 kg",
+      "accept": [
+        "0.995"
+      ],
+      "tier": 3,
+      "rating": 1119
+    },
+    "132": {
+      "display": "27.5 cm",
+      "accept": [
+        "27.5"
+      ],
+      "tier": 3,
+      "rating": 1138
+    },
+    "133": {
+      "display": "22 500 ≤ audience < 27 500",
+      "accept": [
+        "22500",
+        "27500"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1157
+    },
+    "134": {
+      "display": "325 ml ≤ V < 335 ml",
+      "accept": [
+        "325",
+        "335"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1176
+    },
+    "135": {
+      "display": "2.25 ≤ n < 2.75",
+      "accept": [
+        "2.25",
+        "2.75"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1196
+    },
+    "136": {
+      "display": "67.5 cm ≤ d < 72.5 cm",
+      "accept": [
+        "67.5",
+        "72.5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1215
+    },
+    "137": {
+      "display": "4.30 kg",
+      "accept": [
+        "4.30",
+        "4.3"
+      ],
+      "tier": 3,
+      "rating": 1234
+    },
+    "138": {
+      "display": "125 m ≤ h < 175 m",
+      "accept": [
+        "125",
+        "175"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1253
+    },
+    "139": {
+      "display": "12 300; 12 250 ≤ n < 12 350",
+      "accept": [
+        "12300",
+        "12250",
+        "12350"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1272
+    },
+    "140": {
+      "display": "71% ≤ s < 73%",
+      "accept": [
+        "71",
+        "73"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1291
+    },
+    "141": {
+      "display": "3.505 m",
+      "accept": [
+        "3.505"
+      ],
+      "tier": 3,
+      "rating": 1310
+    },
+    "142": {
+      "display": "53 g ≤ m < 55 g",
+      "accept": [
+        "53",
+        "55"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1329
+    },
+    "143": {
+      "display": "£50",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1349
+    },
+    "144": {
+      "display": "11.15 s ≤ t < 11.25 s",
+      "accept": [
+        "11.15",
+        "11.25"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1368
+    },
+    "145": {
+      "display": "350 m² ≤ A < 450 m²",
+      "accept": [
+        "350",
+        "450"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1387
+    },
+    "146": {
+      "display": "0.245 kg ≤ m < 0.255 kg",
+      "accept": [
+        "0.245",
+        "0.255"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1406
+    },
+    "147": {
+      "display": "9.90 cm",
+      "accept": [
+        "9.90",
+        "9.9"
+      ],
+      "tier": 3,
+      "rating": 1425
+    },
+    "148": {
+      "display": "7.5 h ≤ t < 8.5 h",
+      "accept": [
+        "7.5",
+        "8.5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1444
+    },
+    "149": {
+      "display": "450 ≤ n < 550",
+      "accept": [
+        "450",
+        "550"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1463
+    },
+    "150": {
+      "display": "19.75 m ≤ L < 20.25 m",
+      "accept": [
+        "19.75",
+        "20.25"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1482
+    },
+    "151": {
+      "display": "No — 939 is below the lower bound 950.",
+      "accept": [
+        "no",
+        "950"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1521
+    },
+    "152": {
+      "display": "13.75 cm²",
+      "accept": [
+        "13.75"
+      ],
+      "tier": 3,
+      "rating": 1540
+    },
+    "153": {
+      "display": "3.15 mm ≤ r < 3.25 mm",
+      "accept": [
+        "3.15",
+        "3.25"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1559
+    },
+    "154": {
+      "display": "£42 500 ≤ total < £47 500",
+      "accept": [
+        "42500",
+        "47500"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1578
+    },
+    "155": {
+      "display": "3.05 m",
+      "accept": [
+        "3.05"
+      ],
+      "tier": 3,
+      "rating": 1616
+    },
+    "156": {
+      "display": "0.01",
+      "accept": [
+        "0.01"
+      ],
+      "tier": 3,
+      "rating": 1635
+    },
+    "157": {
+      "display": "235 V ≤ V < 245 V",
+      "accept": [
+        "235",
+        "245"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1654
+    },
+    "158": {
+      "display": "Never — the greatest perimeter is exactly 30 cm when each side is 7.5 cm.",
+      "accept": [
+        "never",
+        "30"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1674
+    },
+    "159": {
+      "display": "37.5 L ≤ V < 38.5 L",
+      "accept": [
+        "37.5",
+        "38.5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1693
+    },
+    "160": {
+      "display": "4450 ≤ n < 4550",
+      "accept": [
+        "4450",
+        "4550"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1400
+    },
+    "161": {
+      "display": "8.10 cm",
+      "accept": [
+        "8.10",
+        "8.1"
+      ],
+      "tier": 3,
+      "rating": 1418
+    },
+    "162": {
+      "display": "380",
+      "accept": [
+        "380"
+      ],
+      "tier": 3,
+      "rating": 1435
+    },
+    "163": {
+      "display": "0.004495 ≤ x < 0.004505",
+      "accept": [
+        "0.004495",
+        "0.004505"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1453
+    },
+    "164": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1471
+    },
+    "165": {
+      "display": "128.787 cm³ (using 5.05 cm)",
+      "accept": [
+        "128.787",
+        "128.8",
+        "129"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1488
+    },
+    "166": {
+      "display": "1.245",
+      "accept": [
+        "1.245"
+      ],
+      "tier": 3,
+      "rating": 1506
+    },
+    "167": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 3,
+      "rating": 1524
+    },
+    "168": {
+      "display": "50.3 cm³ (approx.)",
+      "accept": [
+        "50.3",
+        "50"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1541
+    },
+    "169": {
+      "display": "998.5 ≤ n < 999.5",
+      "accept": [
+        "998.5",
+        "999.5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1559
+    },
+    "170": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1576
+    },
+    "171": {
+      "display": "-0.05 ≤ x < 0.05",
+      "accept": [
+        "-0.05",
+        "0.05"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1594
+    },
+    "172": {
+      "display": "2.445",
+      "accept": [
+        "2.445"
+      ],
+      "tier": 3,
+      "rating": 1612
+    },
+    "173": {
+      "display": "255 km",
+      "accept": [
+        "255"
+      ],
+      "tier": 3,
+      "rating": 1629
+    },
+    "174": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1647
+    },
+    "175": {
+      "display": "6.275 ≤ x < 6.285",
+      "accept": [
+        "6.275",
+        "6.285"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1665
+    },
+    "176": {
+      "display": "1 decimal place",
+      "accept": [
+        "1 decimal",
+        "one decimal"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1682
+    },
+    "177": {
+      "display": "999 000",
+      "accept": [
+        "999000",
+        "999 000"
+      ],
+      "tier": 3,
+      "rating": 1700
+    },
+    "178": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1718
+    },
+    "179": {
+      "display": "1.95 ≤ n < 2.05",
+      "accept": [
+        "1.95",
+        "2.05"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1735
+    },
+    "180": {
+      "display": "0.445 km ≤ w < 0.455 km",
+      "accept": [
+        "0.445",
+        "0.455"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1753
+    },
+    "181": {
+      "display": "5.1 kg to 1 decimal place",
+      "accept": [
+        "5.1",
+        "1 decimal"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1771
+    },
+    "182": {
+      "display": "1.000",
+      "accept": [
+        "1.000",
+        "1"
+      ],
+      "tier": 3,
+      "rating": 1788
+    },
+    "183": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1824
+    },
+    "184": {
+      "display": "50 cm",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1841
+    },
+    "185": {
+      "display": "0.0495 ≤ x < 0.0505",
+      "accept": [
+        "0.0495",
+        "0.0505"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1859
+    },
+    "186": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1876
+    },
+    "187": {
+      "display": "2.10 m",
+      "accept": [
+        "2.10",
+        "2.1"
+      ],
+      "tier": 3,
+      "rating": 1894
+    },
+    "188": {
+      "display": "50; 45 ≤ n < 55",
+      "accept": [
+        "50",
+        "45",
+        "55"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1912
+    },
+    "189": {
+      "display": "Use $9.5 \\leq x < 10.5$ — upper bound must be strict (< not ≤).",
+      "accept": [
+        "9.5",
+        "10.5",
+        "<"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1947
+    },
+    "190": {
+      "display": "70",
+      "accept": [
+        "70"
+      ],
+      "tier": 3,
+      "rating": 1965
+    },
+    "191": {
+      "display": "225 g ≤ m < 275 g",
+      "accept": [
+        "225",
+        "275"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1018
+    },
+    "192": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1077
+    },
+    "193": {
+      "display": "0.8",
+      "accept": [
+        "0.8"
+      ],
+      "tier": 3,
+      "rating": 1136
+    },
+    "194": {
+      "display": "850",
+      "accept": [
+        "850"
+      ],
+      "tier": 3,
+      "rating": 1195
+    },
+    "195": {
+      "display": "160.5 cm ≤ h < 161.5 cm",
+      "accept": [
+        "160.5",
+        "161.5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1255
+    },
+    "196": {
+      "display": "19 000",
+      "accept": [
+        "19000",
+        "19 000"
+      ],
+      "tier": 3,
+      "rating": 1314
+    },
+    "197": {
+      "display": "Yes — e.g. actual 4.86 cm rounds to 4.9 and also lies in the interval for 4.85 to 1 d.p.",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1373
+    },
+    "198": {
+      "display": "7.25 ≤ n < 7.75",
+      "accept": [
+        "7.25",
+        "7.75"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1432
+    },
+    "199": {
+      "display": "0.10",
+      "accept": [
+        "0.10"
+      ],
+      "tier": 3,
+      "rating": 1491
+    },
+    "200": {
+      "display": "42.15 km ≤ d < 42.25 km",
+      "accept": [
+        "42.15",
+        "42.25"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1550
+    }
+  }
+}

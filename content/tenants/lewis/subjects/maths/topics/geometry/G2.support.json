@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Which school tool has a straight edge for drawing lines?",
+      "help": "A **ruler** (or straight edge) helps you draw **straight lines** accurately.\n\nExample: use a ruler to join two points with a line segment."
+    },
+    "2": {
+      "hint": "Split 6 cm into two equal parts — what is half of 6?",
+      "help": "Equal parts means **divide by 2**. $6 \\div 2 = 3$ cm each.\n\nExample: 10 cm split equally → 5 cm each."
+    },
+    "3": {
+      "hint": "The word for the exact middle of a line segment — starts with “mid…”.",
+      "help": "The **midpoint** is halfway between the two ends.\n\nExample: midpoint of a 8 cm line is 4 cm from each end."
+    },
+    "4": {
+      "hint": "Fold 10 cm in half — each half is the same length.",
+      "help": "Folding in half splits into **two equal** pieces: $10 \\div 2 = 5$ cm.\n\nExample: 20 cm ribbon → 10 cm per half."
+    },
+    "5": {
+      "hint": "If you split something into two equal halves, are the halves the same size?",
+      "help": "**Equal halves** means each part has the **same length or size**.\n\nThe statement is **true** — that is what “equal” means."
+    },
+    "6": {
+      "hint": "Circles are drawn with one tool that keeps a fixed distance from a point — which tool?",
+      "help": "**Compasses** keep a fixed radius and draw a circle. A protractor measures angles, not circles.\n\nExample: set compasses to 3 cm and draw a circle."
+    },
+    "7": {
+      "hint": "Midpoint is halfway — on an 8 cm line, how far from one end to the middle?",
+      "help": "Half of 8 cm is **4 cm** from either end to the midpoint.\n\nExample: 12 cm line → midpoint 6 cm from each end."
+    },
+    "8": {
+      "hint": "A square’s corner is a right angle — how many degrees?",
+      "help": "Each corner of a square is a **right angle**, **90°**.\n\nExample: the corner of a book is 90°."
+    },
+    "9": {
+      "hint": "Perpendicular bisector construction uses a straight edge plus what circle-drawing tool?",
+      "help": "You need a **ruler** and **compasses** to construct a perpendicular bisector accurately.\n\nExample: arcs from each end of a segment meet at points you join."
+    },
+    "10": {
+      "hint": "Perpendicular bisector goes through the middle at 90° — fill in “half” and the angle size.",
+      "help": "It cuts the segment in **half** (the midpoint) and crosses at **90°** (perpendicular).\n\nExample: the line of symmetry of a segment is its perpendicular bisector."
+    },
+    "11": {
+      "hint": "Midpoint of 8 cm is 4 cm from each end — what distance to each end?",
+      "help": "Half of 8 cm is **4 cm**. The midpoint is **4 cm** from each end.\n\nExample: 10 cm segment → 5 cm each side of midpoint."
+    },
+    "12": {
+      "hint": "An angle bisector splits an angle into two equal parts — what word describes those parts?",
+      "help": "An angle bisector makes two **equal** (congruent) angles.\n\nExample: bisecting 60° gives two 30° angles."
+    },
+    "13": {
+      "hint": "A locus is all points that obey one rule — is that true?",
+      "help": "A **locus** is the set of all points satisfying a condition (a path or region).\n\nThe statement is **true**."
+    },
+    "14": {
+      "hint": "Fixed distance from one point — what shape do all those points make?",
+      "help": "All points the same distance from one point form a **circle**.\n\nExample: 5 cm from a peg → circle of radius 5 cm."
+    },
+    "15": {
+      "hint": "The dog can only walk as far as the lead — what shape is that region?",
+      "help": "Every point the dog can reach is at most **3 m** from the post — a **circle** (or disc) of radius 3 m.\n\nExample: shorter lead → smaller circle."
+    },
+    "16": {
+      "hint": "Same distance from A and from B — what line is that set of points?",
+      "help": "Points equidistant from A and B lie on the **perpendicular bisector** of AB.\n\nExample: the midline between two towns."
+    },
+    "17": {
+      "hint": "Same distance from two crossing lines — think of the angle bisectors.",
+      "help": "The locus is the pair of **angle bisectors** of the angles where the lines cross.\n\nExample: centre of a crossed road equidistant from both arms."
+    },
+    "18": {
+      "hint": "First arc from the vertex must cross both arms of the angle — which part of the angle?",
+      "help": "The arc must cross **both sides** (arms) of the angle from the vertex.\n\nExample: mark where the arc meets each arm before further arcs."
+    },
+    "19": {
+      "hint": "On the perpendicular bisector of AB, distance to A equals distance to which other point?",
+      "help": "Every point on the perpendicular bisector is the same distance from **A** as from **B**.\n\nExample: choose a point on the bisector — measure to A and B; they match."
+    },
+    "20": {
+      "hint": "Radius 5 cm means every point on the circle is how far from C?",
+      "help": "On the circle, every point is exactly **5 cm** from the centre C.\n\nExample: radius 7 cm → 7 cm from centre."
+    },
+    "21": {
+      "hint": "Circles through three points not in a line — which tool draws circles?",
+      "help": "**Compasses** (with ruler) construct circles and find points equidistant from others.\n\nExample: centre of a circle through three corners is found with bisectors."
+    },
+    "22": {
+      "hint": "All points the same distance from one fixed point — what is that set called?",
+      "help": "That set is a **circle** (the locus of fixed distance from a point).\n\nExample: ripples on water from a splash — roughly circular."
+    },
+    "23": {
+      "hint": "All points exactly 6 cm from P — draw a circle. What radius?",
+      "help": "Use a **circle** centred at **P** with **radius 6 cm**.\n\nExample: 4 cm from P → circle radius 4 cm."
+    },
+    "24": {
+      "hint": "Why must the mirror line of equal distances from A and B go through the middle of AB?",
+      "help": "The midpoint is the only point on the segment **equidistant** from A and B. The perpendicular bisector passes through it by definition.\n\nExample: fold AB so A meets B — the crease goes through the midpoint at 90°."
+    },
+    "25": {
+      "hint": "Picture the perpendicular bisector of the segment joining the two points.",
+      "help": "Every point on a perpendicular bisector is equally far from the segment's two endpoints. The bisector is a straight line through the midpoint at 90°.\n\nUse that fact to choose the correct always-sometimes-never word."
+    },
+    "26": {
+      "hint": "Same distance from two **parallel** lines — is that one point or a whole line?",
+      "help": "Points equidistant from two parallel lines form a **line** midway between them, not a single point.\n\nPriya is **incorrect**."
+    },
+    "27": {
+      "hint": "Bisect 80° into two equal angles — what is half of 80?",
+      "help": "Angle bisector splits 80° into two **40°** angles.\n\nExample: bisect 100° → 50° and 50°."
+    },
+    "28": {
+      "hint": "Equidistant from A and B — where does that line meet AB, and at what angle?",
+      "help": "It meets AB at the **midpoint** (6 cm from each end on a 12 cm segment) at **90°**.\n\nExample: perpendicular bisector crosses at the centre."
+    },
+    "29": {
+      "hint": "Same distance from both paths — where do angle bisectors of the cross go?",
+      "help": "Place the bench on an **angle bisector** of the crossing paths — points equidistant from both straight paths.\n\nExample: two roads at 90° → bisectors along the diagonals of the angles."
+    },
+    "30": {
+      "hint": "A straight angle is 180° — what is half of that?",
+      "help": "Bisecting **180°** gives **90°** — a right angle.\n\nExample: half a straight line turn is a quarter turn."
+    },
+    "31": {
+      "hint": "Equal signal in all directions up to 15 km — what boundary shape?",
+      "help": "The edge is a **circle** of **radius 15 km** around the mast.\n\nExample: on a map, draw a circle radius 15 km."
+    },
+    "32": {
+      "hint": "Closer to A than B — which side of the perpendicular bisector of AB?",
+      "help": "The **perpendicular bisector** of AB splits the plane: points **closer to A** are on A’s side of the line.\n\nExample: exactly on the line → equal distance."
+    },
+    "33": {
+      "hint": "Grazing area is a circle — use $A = \\pi r^2$ with $r = 5$ m.",
+      "help": "The goat reaches a **circle** of radius 5 m. Area $\\approx \\pi \\times 5^2 = 25\\pi$ m² (about 78.5 m² if $\\pi \\approx 3.14$).\n\nExample: radius 2 m → $4\\pi$ m²."
+    },
+    "34": {
+      "hint": "At least 4 km from a straight coast — parallel line 4 km offshore.",
+      "help": "The boundary is **two parallel lines** (or one line each side) **4 km** from the coastline — the edge of the allowed region.\n\nExample: stay north of a line parallel to the shore."
+    },
+    "35": {
+      "hint": "Same distance from two walls in a right-angled corner — angle bisector of 90°.",
+      "help": "The foot goes on the **angle bisector** of the 90° corner — points equidistant from both walls.\n\nExample: 45° from each wall along the floor."
+    },
+    "36": {
+      "hint": "Centre of rectangle is midpoint — compare sprinkler radius 3 m to distance to nearest edge.",
+      "help": "Centre of 6 m by 4 m rectangle is 3 m from long sides and 2 m from short sides. Radius 3 m reaches the long edges but **not** past the 4 m width fully — work out which corners are watered.\n\nExample: compare 3 m to half of 4 m (= 2 m) and half of 6 m (= 3 m)."
+    },
+    "37": {
+      "hint": "Pick any point on the perpendicular bisector — compare distances to A and B.",
+      "help": "By construction, every point on the perpendicular bisector has **equal** distance to A and B — that is the definition of the locus.\n\nExample: use compasses to check from a point on the line."
+    },
+    "38": {
+      "hint": "More than 5 cm but less than 8 cm from C — between two circles.",
+      "help": "The region is a **ring** (annulus): **outside** the circle radius 5 cm and **inside** radius 8 cm.\n\nExample: band between two concentric circles."
+    },
+    "39": {
+      "hint": "Closer to A than B, and within 20 km of B — combine a half-plane with a circle.",
+      "help": "Use the **perpendicular bisector** of AB for “closer to A”, and a **circle radius 20 km** around B. The answer region is where both rules hold.\n\nExample: shade the part nearer A inside the 20 km circle."
+    },
+    "40": {
+      "hint": "Which standard locus is equally far from two endpoints?",
+      "help": "Join the two fixed points with a segment. Its perpendicular bisector passes through the midpoint at 90°.\n\nEvery point on that bisector is equally far from the two endpoints; points away from it are closer to one endpoint."
+    },
+    "41": {
+      "hint": "Its name combines how it crosses with how it halves the segment.",
+      "help": "A line that meets another at 90° is **perpendicular**. A line that divides something into two equal parts is a **bisector**.\n\nCombine those ideas to name the required line."
+    },
+    "42": {
+      "hint": "Same distance from a line — two parallel lines, one on each side.",
+      "help": "Points **3 cm** from a straight line form **two parallel lines**, one on each side, each 3 cm from the original.\n\nExample: track parallel to a river on both banks."
+    },
+    "43": {
+      "hint": "The midpoint splits the line into two equal halves.",
+      "help": "Half of **6 cm** is **3 cm**. Each half is the same length.\n\nWork step by step and check units."
+    },
+    "44": {
+      "hint": "The midpoint splits the line into two equal halves.",
+      "help": "Half of **8 cm** is **4 cm**. Each half is the same length.\n\nWork step by step and check units."
+    },
+    "45": { "hint": "Half of 14 cm — divide by two for the midpoint distance.", "help": "The **midpoint** splits a segment into equal parts. $14 \\div 2 = 7$ cm from either end.\n\nExample: 20 cm segment → 10 cm to the midpoint." },
+    "46": { "hint": "Find half of 22 cm for the distance to the midpoint.", "help": "Half of **22 cm** is **11 cm**. The midpoint is equally far from both ends.\n\nExample: 18 cm → 9 cm each way." },
+    "47": { "hint": "Perpendicular means at 90° — which bisector crosses at right angles?", "help": "A **perpendicular bisector** cuts the segment in half **and** meets it at **90°**.\n\nExample: crease when folding A onto B." },
+    "48": { "hint": "Can you measure and mark equal arc crossings without a straight edge?", "help": "You usually need a **ruler** (or straight edge) to draw the final line through arc points. The statement is **false** for a full construction." },
+    "49": { "hint": "Bisect means split into two equal angles — what is half of 44°?", "help": "Halve **44°** to get **22°** each. Both parts match.\n\nExample: 60° → 30° and 30°." },
+    "50": { "hint": "Divide 86° equally between the two new angles.", "help": "$86 \\div 2 = 43°$ for each part after bisecting.\n\nCheck: $43 + 43 = 86$." },
+    "51": { "hint": "Half of 136° gives the size of each bisected angle.", "help": "Each new angle is **68°**. Bisecting doubles the count but halves the size.\n\nExample: 100° → 50° each." },
+    "52": { "hint": "A straight angle is 180° — halve it once.", "help": "Bisecting **180°** gives **90°** each — two right angles.\n\nExample: half a full turn on a line." },
+    "53": { "hint": "Fixed distance from one point — the radius matches that distance.", "help": "The locus is a **circle** with **radius 5 cm** centred at Q.\n\nExample: 3 cm from P → radius 3 cm." },
+    "54": { "hint": "Tether fixed length from a peg — what boundary shape on flat ground?", "help": "The sheep can reach a **circle** (disc) of **radius 6 m** around the peg.\n\nExample: shorter rope → smaller circle." },
+    "55": { "hint": "Same distance from two trees — think perpendicular bisector.", "help": "The feeder lies on the **perpendicular bisector** of the line joining the trees.\n\nExample: fair point between two goals." },
+    "56": { "hint": "Equal distance from two crossing lines — angle bisectors help.", "help": "Use **angle bisector** lines through the crossing point — points on them stay equally far from both paths.\n\nExample: corner of two roads." },
+    "57": { "hint": "Same distance from a line on both sides — count the parallel lines.", "help": "You get **two** parallel lines, one on each side of the fence, each **2 cm** away.\n\nExample: tram tracks on both sides of a centre line." },
+    "58": { "hint": "Midway between parallels — is that a single point or a whole line?", "help": "Equidistant points form a **line parallel** to both fences. The statement is **true**.\n\nExample: centre line between railway tracks." },
+    "59": { "hint": "Angle bisector construction pairs a straight edge with which circle tool?", "help": "Use **compasses** with a **ruler** to mark equal distances on the angle arms.\n\nExample: same arc radius from the vertex." },
+    "60": { "hint": "Radius 9 cm means every point on the circle is how far from P?", "help": "Each point on the circle is exactly **9 cm** from the centre **P**.\n\nExample: radius 4 cm → 4 cm from centre." },
+    "61": { "hint": "Perpendicular bisector always goes through the middle of the segment.", "help": "It meets **XY** at the **midpoint**, **8 cm** from X and from Y on a 16 cm segment.\n\nExample: fold ends together — crease hits the centre." },
+    "62": { "hint": "Three cm from a line (both sides) — circles or parallel lines?", "help": "Distance from a **line** gives **parallel lines**, not one circle. Answer **never** for a single circle.\n\nExample: two rails 6 cm apart for a 3 cm offset." },
+    "63": { "hint": "Stay at least 5 m from a straight bank — draw a parallel boundary.", "help": "Allowed ground is on one side of a **line parallel** to the bank, **5 m** from the water’s edge.\n\nExample: safety strip along a canal." },
+    "64": { "hint": "Closer to one mast than the other — boundary between them?", "help": "Draw the **perpendicular bisector** of the line joining the masts. It splits “nearer first” from “nearer second”.\n\nExample: mobile tower hand-off regions." },
+    "65": { "hint": "Halve 56° for each piece after bisecting.", "help": "Each angle is **28°**. Check they add back to 56°.\n\nExample: 48° → 24° each." },
+    "66": { "hint": "Split 118° into two matching angles.", "help": "Half of 118° is **59°** each.\n\nExample: bisect 90° → 45° each." },
+    "67": { "hint": "The first arc must touch both sides coming out of the corner.", "help": "The arc crosses **both arms** (sides) of the angle from the **vertex**.\n\nExample: mark where it meets each arm before the next arcs." },
+    "68": { "hint": "Perpendicular means a right angle — how many degrees?", "help": "A perpendicular bisector meets the segment at **90°**.\n\nExample: corner of a square." },
+    "69": { "hint": "Less than 4 cm from P — inside or outside the circle?", "help": "All points **inside** the open **circle of radius 4 cm** (not including the boundary if “less than” strictly).\n\nExample: 3 cm from P is inside." },
+    "70": { "hint": "Sprays 8 m in all directions — that number is the radius.", "help": "The boundary is a circle with **radius 8 m**.\n\nExample: 5 m reach → radius 5 m." },
+    "71": { "hint": "Circle area with r = 4 m — use π × r².", "help": "$A = \\pi \\times 4^2 = 16\\pi \\approx 50.3$ m² to 1 d.p.\n\nExample: r = 2 m → $4\\pi$ m²." },
+    "72": { "hint": "Radius 10 m — multiply π by 10².", "help": "$100\\pi \\approx 314$ m² to the nearest whole m².\n\nExample: r = 1 m → about 3 m²." },
+    "73": { "hint": "Bisector of 90° splits the corner equally — half of 90°?", "help": "Each path makes **45°** with each wall along the **angle bisector**.\n\nExample: square corner → diagonal directions at 45°." },
+    "74": { "hint": "Does bisecting 90° give two equal 45° angles?", "help": "Yes — **true**. An angle bisector of 90° makes **45°** on each side.\n\nExample: corner of a room." },
+    "75": { "hint": "Two fixed points A and C — which line is the mirror of equal distances?", "help": "Points equidistant from A and C lie on the **perpendicular bisector** of AC.\n\nExample: fair meeting point between two towns." },
+    "76": { "hint": "Two lines that cross — which locus splits the angles equally?", "help": "Use **angle bisector** lines through the crossing point.\n\nExample: sprinkler between two walls meeting at a corner." },
+    "77": { "hint": "Within 3 km of H — boundary is a circle. What radius?", "help": "Allowed positions are inside a **circle of radius 3 km** centred on **H**.\n\nExample: harbour safety zone on a chart." },
+    "78": { "hint": "Between two circles same centre — name the ring shape.", "help": "Points between **2 cm** and **5 cm** from O form an **annulus** (ring) between those radii.\n\nExample: washer shape." },
+    "79": { "hint": "Midpoint of 30 cm — halve the length.", "help": "$30 \\div 2 = 15$ cm from either end to the midpoint.\n\nExample: 26 cm → 13 cm." },
+    "80": { "hint": "Maths word for “all points that follow one rule”.", "help": "That set is called a **locus**.\n\nExample: all points 2 m from a tree." },
+    "81": { "hint": "Fixed radius from a peg — ruler or compasses?", "help": "**Compasses** keep a fixed radius while you swing a circle.\n\nExample: set to 3 cm and draw." },
+    "82": { "hint": "Equidistant from both doors on an 18 m corridor — half the length?", "help": "The board is at the **midpoint**, **9 m** from each door.\n\nExample: 12 m corridor → 6 m each way." },
+    "83": { "hint": "Why must equal-distance points from A and B include the midpoint?", "help": "The **midpoint** is on AB and is equidistant from A and B; the perpendicular bisector is exactly the line of all such points, so it must pass through that midpoint.\n\nExample: fold A onto B." },
+    "84": { "hint": "Is the equidistant line always at 90° to the segment joining the points?", "help": "Yes — **always**. The perpendicular bisector meets AB at **90°**.\n\nExample: symmetry line of a segment." },
+    "85": { "hint": "Opposite corners A and B — which line through the field centre is fair?", "help": "The **perpendicular bisector of AB** runs through the rectangle’s centre and stays equidistant from A and B.\n\nExample: diagonal of a square is not the answer — use AB’s bisector." },
+    "86": { "hint": "1 cm from a long line on both sides — how many lines?", "help": "Two **parallel lines**, each **1 cm** from the original, one on each side.\n\nExample: paint stripes parallel to a kerb." },
+    "87": { "hint": "Coverage radius equals the broadcast reach distance.", "help": "The circle has **radius 25 km**.\n\nExample: 10 km signal → radius 10 km." },
+    "88": { "hint": "Equal distance from two buoys on a line — which bisector?", "help": "Follow the **perpendicular bisector** of the segment joining the buoys.\n\nExample: middle of a straight channel." },
+    "89": { "hint": "Halve 150° for each new angle.", "help": "Each part is **75°**. Check $75 + 75 = 150$.\n\nExample: 120° → 60° each." },
+    "90": { "hint": "Angle bisector — equal perpendicular distances to both arms?", "help": "Yes — **true** for points on the angle bisector in plane geometry.\n\nExample: centre of a corner equidistant from both walls." },
+    "91": { "hint": "Can one point be equally far from two parallel lines far apart?", "help": "No single point — the locus is a **whole parallel line** midway between. **False**.\n\nExample: centre track between rails." },
+    "92": { "hint": "Halfway between fences 6 m apart — distance to each?", "help": "The path is **3 m** from **each** fence.\n\nExample: 10 m apart → 5 m from each." },
+    "93": { "hint": "One fixed point, fixed distance — shape name?", "help": "All such points form a **circle**.\n\nExample: 7 cm from P → circle radius 7 cm." },
+    "94": { "hint": "Perpendicular bisector meets the segment at a right angle.", "help": "It crosses CD at **90°**.\n\nExample: T-shape at the midpoint." },
+    "95": { "hint": "70° corner between two beams — which locus splits it?", "help": "Points equidistant from both lines lie on an **angle bisector** of the 70° angle.\n\nExample: insect on a corner bisector." },
+    "96": { "hint": "Half of 58° — calculator or mental split.", "help": "Each angle is **29°** after bisecting.\n\nExample: 64° → 32° each." },
+    "97": { "hint": "Donkey tether 7 m — area π × 7².", "help": "$49\\pi \\approx 153.9$ m² to 1 d.p.\n\nExample: r = 5 m → $25\\pi$ m²." },
+    "98": { "hint": "Circles radius 3 from A and B when AB = 10 cm — do they meet?", "help": "No — **6 cm** apart along AB is not enough for both radii 3 cm to meet off the line. Answer **no**.\n\nExample: circles meet when sum of radii ≥ AB." },
+    "99": { "hint": "Closer to P than Q — which side of the perpendicular bisector of PQ?", "help": "Choose the **half-plane containing P** (the side with P, not the side with Q).\n\nExample: test a point near P." },
+    "100": { "hint": "Join the two points where your equal arcs cross.", "help": "Draw a **straight line** with the **ruler** through the arc intersections — that is the perpendicular bisector.\n\nExample: classic construction step." },
+    "101": { "hint": "Middle of a circle — special name starting with “cent…”.", "help": "The fixed middle point is the **centre** (center).\n\nExample: compass needle point." },
+    "102": { "hint": "Arcs from A and B must cross — is radius half the segment enough?", "help": "The compass opening must be **greater than half** the segment length so arcs meet.\n\nExample: half-length arcs only touch at midpoint." },
+    "103": { "hint": "At most 4 cm includes all points up to the boundary circle.", "help": "Yes — **true**. It includes the **disc** of radius 4 cm (inside and on the circle).\n\nExample: 4 cm string reaches the boundary." },
+    "104": { "hint": "Bisect 34° into two equal parts.", "help": "An angle bisector splits an angle into two **equal** parts. Halving **34°** gives **17°** on each side.\n\nExample: 50° → 25° and 25°." },
+    "105": { "hint": "Half of a straight 180° angle.", "help": "Bisecting a **straight angle** (180°) splits it into two **90°** right angles.\n\nExample: quarter turn from a line." },
+    "106": { "hint": "Bisect 90° once, then bisect each 45° again.", "help": "Two bisections of 90° give **22.5°** for each of the four angles.\n\nExample: half of 45° is 22.5°." },
+    "107": { "hint": "Midpoint on a 14 cm segment — halve 14.", "help": "The **midpoint** is halfway along the segment, so **7 cm** from either end on a 14 cm line.\n\nExample: 10 cm → 5 cm." },
+    "108": { "hint": "Both sides of line L, 6 cm away — parallel count?", "help": "Two **parallel lines**, each **6 cm** from L.\n\nExample: offset tracks on a map." },
+    "109": { "hint": "Fountain reach is the circle radius on the ground.", "help": "The spray boundary is a circle; the reach distance is the **radius**, here **2.5 m**.\n\nExample: 4 m spray → radius 4 m." },
+    "110": { "hint": "π × 3² for the lawn area.", "help": "$9\\pi \\approx 28.3$ m² to 1 d.p.\n\nExample: r = 5 m → $25\\pi$ m²." },
+    "111": { "hint": "Equidistant from two points — always a straight line through the midpoint?", "help": "Yes — **always** the **perpendicular bisector**.\n\nExample: fair line between two posts." },
+    "112": { "hint": "Angle bisector of 90° — each wall meets the bisector at what angle?", "help": "**45°** from each wall along the floor.\n\nExample: square corner diagonal directions." },
+    "113": { "hint": "Tool that swings a fixed radius around a centre.", "help": "**Compasses** draw circular loci.\n\nExample: pencil fixed distance from a pivot." },
+    "114": { "hint": "Rails 5 cm apart — equidistant line is halfway.", "help": "**2.5 cm** from each rail.\n\nExample: 8 cm apart → 4 cm each side." },
+    "115": { "hint": "Half of 24 cm to the midpoint.", "help": "Half of **24 cm** is **12 cm**, so the midpoint is **12 cm** from either end.\n\nExample: 16 cm → 8 cm." },
+    "116": { "hint": "Square corner 90° split equally — angle from each wall?", "help": "The bisector makes **45°** with each wall because $90 \\div 2 = 45$.\n\nExample: corner paths at equal angles." },
+    "117": { "hint": "Between inner radius 3 and outer 7 — describe the band.", "help": "An **annulus**: points more than 3 cm and less than 7 cm from the centre.\n\nExample: ring between two circles." },
+    "118": { "hint": "Compare 9 m to the 8 m range limit.", "help": "**9 m > 8 m**, so the tablet is **not** in range.\n\nExample: 7 m away → yes." },
+    "119": { "hint": "Say what a locus is without giving this question’s answer numbers.", "help": "Write a sentence: a **locus** is all points that satisfy one rule (distance, equal distance, etc.).\n\nUse your own words — teacher checks reasoning." },
+    "120": { "hint": "Half of 210° — large angle split in two.", "help": "Bisecting **210°** gives two equal angles of **105°** each.\n\nExample: 200° → 100° each." },
+    "121": { "hint": "7 cm segment — what is half of 7?", "help": "The midpoint is **3.5 cm** from each end.\n\nExample: 9 cm → 4.5 cm." },
+    "122": { "hint": "Diameter is twice the radius when radius is 5 cm.", "help": "Diameter $= 2 \\times 5 = 10$ cm.\n\nExample: radius 6 cm → diameter 12 cm." },
+    "123": { "hint": "Perpendicular bisector — right angle at the segment?", "help": "Yes — **true**. It meets the segment at **90°**.\n\nExample: T-junction at the midpoint." },
+    "124": { "hint": "Two lines cross — two pairs of opposite angles — how many bisector lines for equal distance to both lines?", "help": "There are **2** angle bisector lines through the crossing point.\n\nExample: 90° cross gives two perpendicular bisectors of angles." },
+    "125": { "hint": "Circumference 2πr with r = 5 m.", "help": "$2 \\times \\pi \\times 5 = 10\\pi \\approx 31.4$ m to 1 d.p.\n\nExample: r = 3 m → $6\\pi$ m." },
+    "126": { "hint": "Equal distance from two crossing lines — fill the missing word angle ___ .", "help": "Points lie on the angle **bisector** lines.\n\nExample: corner of a field." },
+    "127": { "hint": "Side 8 cm — midpoint of one side is half of 8.", "help": "**4 cm** from either end of that side.\n\nExample: 12 cm side → 6 cm." },
+    "128": { "hint": "Nearer A than B — pick the side of the bisector that contains A.", "help": "Points on the **same side as A** (not the B side) are closer to A.\n\nExample: test with a point near A." },
+    "129": { "hint": "Why two lines 2 cm from a line, not one?", "help": "Points **2 cm** from a line lie on **both sides**, giving **two parallel** lines **4 cm** apart.\n\nExample: offset on left and right." },
+    "130": { "hint": "Area π × 12² to nearest whole m².", "help": "Use $A = \\pi r^2$ with $r = 12$ m: $144\\pi \\approx 452$ m² to the nearest whole m².\n\nExample: r = 10 m → $100\\pi$." },
+    "131": { "hint": "Halve 132° for the bisector.", "help": "An angle bisector splits **132°** into two **66°** angles that match.\n\nExample: 88° → 44° each." },
+    "132": { "hint": "8 cm segment — distance from midpoint to an end?", "help": "The midpoint is half of **8 cm**, so **4 cm** from each end.\n\nExample: 6 cm → 3 cm." },
+    "133": { "hint": "Tether 2.5 m — use π × (2.5)².", "help": "$6.25\\pi \\approx 19.6$ m² to 1 d.p.\n\nExample: 2 m → $4\\pi$ m²." },
+    "134": { "hint": "Does the mirror line of equal distance from endpoints pass through the centre of the segment?", "help": "Yes — the **perpendicular bisector** always goes through the **midpoint**.\n\nExample: fold ends together." },
+    "135": { "hint": "Radius zero — still a circle with area?", "help": "Radius **0** is just one **point**, not a proper circle with area. **False**.\n\nExample: positive radius needed for a loop." },
+    "136": { "hint": "Stay 3 km from a straight motorway — parallel safety line.", "help": "Boundary is a **line parallel** to the road, **3 km** away on the safe side.\n\nExample: noise barrier offset." },
+    "137": { "hint": "Split 76° equally.", "help": "Bisect **76°** to get two **38°** angles of equal size.\n\nExample: 84° → 42°." },
+    "138": { "hint": "Midway between two parallel railways — what locus?", "help": "A **line parallel** to both, **halfway** between them.\n\nExample: centre service path." },
+    "139": { "hint": "Bisector makes two matching angles — word for matching?", "help": "An angle bisector always makes two **equal** (congruent) angles.\n\nExample: 50° → 25° and 25°." },
+    "140": { "hint": "Diameter through the centre — twice the radius 6 cm.", "help": "Diameter is **twice the radius**: $2 \\times 6 = 12$ cm across the circle.\n\nExample: r = 9 cm → diameter 18 cm." },
+    "141": { "hint": "On the perpendicular bisector of the stations — distances compare how?", "help": "Distance to **each station is the same**.\n\nExample: fair hand-off point." },
+    "142": { "hint": "Which angle bisected once gives 45° pieces?", "help": "Bisect **90°** to get **45°** each.\n\nExample: square corner." },
+    "143": { "hint": "Outer 5 inner 2 same centre — subtract radii for ring width.", "help": "Ring width is outer radius minus inner: $5 - 2 = 3$ cm for this annulus.\n\nExample: 10 and 6 → 4 cm ring." },
+    "144": { "hint": "Half of 40 cm.", "help": "The midpoint of a **40 cm** segment is **20 cm** from either end.\n\nExample: 32 cm → 16 cm." },
+    "145": { "hint": "90° walls — table same distance from both — which line on the floor?", "help": "Along the **angle bisector** of the corner.\n\nExample: 45° from each wall." },
+    "146": { "hint": "Halve 62°.", "help": "Bisecting **62°** gives two **31°** angles that add back to 62°.\n\nExample: 70° → 35°." },
+    "147": { "hint": "Two lines 5 cm from a line — how far apart are they?", "help": "**10 cm** apart ($5 + 5$).\n\nExample: 3 cm offset → 6 cm apart." },
+    "148": { "hint": "π × 9² rounded to whole m².", "help": "Area $= \\pi \\times 9^2 = 81\\pi \\approx 254$ m² to the nearest whole m².\n\nExample: r = 4 m → $16\\pi$." },
+    "149": { "hint": "Midline between parallel lines — true or false statement?", "help": "**True** — equidistant points form a parallel line midway.\n\nExample: between two hedges." },
+    "150": { "hint": "Half of 9 cm.", "help": "Half of **9 cm** is **4.5 cm** from either end to the midpoint.\n\nExample: 11 cm → 5.5 cm." },
+    "151": { "hint": "Read the radius from the question — it is given.", "help": "The radius is **11 cm** as stated.\n\nExample: label on a diagram." },
+    "152": { "hint": "Explain locus using a circle example without using this question’s numbers.", "help": "A **circle** is all points the same **fixed distance** from one **centre** — a classic locus.\n\nWrite your sentence in your own words." },
+    "153": { "hint": "Bisector of 90° corner — angle between bisector and each wall?", "help": "The angle bisector of **90°** makes **45°** with each wall along the floor.\n\nExample: square floor corner." },
+    "154": { "hint": "Horse 6 m rope — π × 36.", "help": "Grazing area $= \\pi \\times 6^2 = 36\\pi \\approx 113.1$ m² to 1 d.p.\n\nExample: 4 m → $16\\pi$." },
+    "155": { "hint": "Half of 162°.", "help": "Bisecting **162°** gives two **81°** angles of equal size.\n\nExample: 140° → 70°." },
+    "156": { "hint": "Perpendicular bisector hits the midpoint of 8 cm — how far from each end?", "help": "**4 cm** from each end.\n\nExample: always half the segment length." },
+    "157": { "hint": "Combine “closer to A” with a circle around B — name both loci.", "help": "Use the **perpendicular bisector** of AB and a **circle radius 10 km** about B; keep the region closer to A inside the circle.\n\nSketch and describe overlap." },
+    "158": { "hint": "Halve 28°.", "help": "Bisecting **28°** gives two **14°** angles that match.\n\nExample: 32° → 16°." },
+    "159": { "hint": "Paths 8 cm apart — equidistant path is centred.", "help": "The equidistant path is halfway between parallel paths **8 cm** apart, so **4 cm** from each.\n\nExample: 6 cm apart → 3 cm." },
+    "160": { "hint": "Large circle r = 15 m — π × 225.", "help": "$225\\pi \\approx 706.9$ m² to 1 d.p.\n\nExample: r = 20 m → $400\\pi$." },
+    "161": { "hint": "Arc is a curved piece of which shape?", "help": "An **arc** is a curved section of a **circle**, not the full loop.\n\nExample: rainbow segment." },
+    "162": { "hint": "Diameter endpoints — does symmetry line through centre bisect the diameter?", "help": "Yes — the **perpendicular bisector of DE** passes through the **centre**.\n\nExample: diameter through O." },
+    "163": { "hint": "Half of 200°.", "help": "Bisecting **200°** gives two **100°** angles that add back to 200°.\n\nExample: 160° → 80°." },
+    "164": { "hint": "Vertical segment — can its mirror line be horizontal?", "help": "Yes — a **horizontal** line can bisect a **vertical** segment at right angles.\n\nExample: plus sign shape." },
+    "165": { "hint": "Draw all points 3 cm from a dot — which tool?", "help": "Set **compasses** to **3 cm** and swing a full circle around the fixed point.\n\nExample: pencil on a string." },
+    "166": { "hint": "P side of perpendicular bisector of PQ — closer to P?", "help": "Yes — points on **P’s side** are closer to **P**.\n\nExample: pick a test point near P." },
+    "167": { "hint": "Bisect 54°.", "help": "Bisecting **54°** gives two **27°** angles of equal size.\n\nExample: 48° → 24°." },
+    "168": { "hint": "Goat 9 m — nearest whole m² for π × 81.", "help": "Area $= \\pi \\times 9^2 = 81\\pi \\approx 254$ m² to the nearest whole m².\n\nExample: 8 m → $64\\pi$." },
+    "169": { "hint": "Two lines 4 cm from a line — total gap between them?", "help": "Offset **4 cm** on each side gives two parallels **8 cm** apart in total.\n\nExample: 2 cm offset → 4 cm gap." },
+    "170": { "hint": "Bench between paths 6 m apart — equal distance each side.", "help": "Halfway between paths **6 m** apart is **3 m** from each path.\n\nExample: 4 m apart → 2 m." },
+    "171": { "hint": "Halve 88°.", "help": "Bisecting **88°** gives two **44°** angles that match.\n\nExample: 92° → 46°." },
+    "172": { "hint": "Diameter = 2 × 2.5 cm.", "help": "Diameter is twice the radius: $2 \\times 2.5 = 5$ cm across the circle.\n\nExample: r = 7 cm → 14 cm." },
+    "173": { "hint": "Fixed distance from one point — always a circle?", "help": "Yes — **always** (in flat plane geometry).\n\nExample: 1 cm from P → circle r = 1 cm." },
+    "174": { "hint": "Half of 41°.", "help": "Bisecting **41°** gives two **20.5°** angles that add back to 41°.\n\nExample: 33° → 16.5°." },
+    "175": { "hint": "Midpoint of 15 cm.", "help": "Half of **15 cm** is **7.5 cm** from either end to the midpoint.\n\nExample: 13 cm → 6.5 cm." },
+    "176": { "hint": "At least 2 km from coast — parallel boundary offshore.", "help": "A **line parallel** to the coast, **2 km** out to sea marks the nearest allowed edge.\n\nExample: shipping lane offset." },
+    "177": { "hint": "Split 148° in two equal angles.", "help": "Bisecting **148°** gives two **74°** angles of equal size.\n\nExample: 136° → 68°." },
+    "178": { "hint": "Annulus width — outer minus inner radius.", "help": "Ring width is outer minus inner radius: $10 - 6 = 4$ cm for this annulus.\n\nExample: ring between two circles." },
+    "179": { "hint": "On the segment itself, how many points are equally far from both ends?", "help": "Only **1** — the **midpoint** on AB.\n\nExample: off the segment, many points on the bisector." },
+    "180": { "hint": "Halve 95°.", "help": "Bisecting **95°** gives two **47.5°** angles that match.\n\nExample: 85° → 42.5°." },
+    "181": { "hint": "Pony 12 m — π × 144 to 1 d.p.", "help": "Grazing area $= \\pi \\times 12^2 = 144\\pi \\approx 452.4$ m² to 1 d.p.\n\nExample: 11 m → $121\\pi$." },
+    "182": { "hint": "Within 5 km of T — describe disc including boundary.", "help": "All points **inside or on** a **circle radius 5 km** centred at **T**.\n\nExample: town coverage map." },
+    "183": { "hint": "Halve 60°.", "help": "Bisecting **60°** gives two **30°** angles of equal size.\n\nExample: 40° → 20°." },
+    "184": { "hint": "Hedges 3 m apart — middle path distance from each.", "help": "The middle path is halfway between hedges **3 m** apart, so **1.5 m** from each.\n\nExample: 5 m apart → 2.5 m." },
+    "185": { "hint": "Halve 135°.", "help": "Bisecting **135°** gives two **67.5°** angles that add back to 135°.\n\nExample: 110° → 55°." },
+    "186": { "hint": "Square corner bisector — same as diagonal of the corner square?", "help": "Yes — along the floor the **angle bisector** matches the **diagonal** direction of a square corner.\n\nExample: 45° from each wall." },
+    "187": { "hint": "Halve 72°.", "help": "Bisecting **72°** gives two **36°** angles of equal size.\n\nExample: 64° → 32°." },
+    "188": { "hint": "π × 7² to 1 d.p.", "help": "Area $= \\pi \\times 7^2 = 49\\pi \\approx 153.9$ m² to 1 d.p.\n\nExample: r = 6 m → $36\\pi$." },
+    "189": { "hint": "Two fixed points — name the equidistant line.", "help": "The **perpendicular bisector** of the segment joining them.\n\nExample: fair meeting line." },
+    "190": { "hint": "Halve 103°.", "help": "Bisecting **103°** gives two **51.5°** angles that match.\n\nExample: 99° → 49.5°." },
+    "191": { "hint": "Centre of 10 m square is 5 m to an edge — sprinkler radius 4 m?", "help": "**5 m > 4 m**, so water **does not** reach the middle of each edge. Answer **no**.\n\nExample: radius 6 m would reach." },
+    "192": { "hint": "Halve 19°.", "help": "Bisecting **19°** gives two **9.5°** angles of equal size.\n\nExample: 21° → 10.5°." },
+    "193": { "hint": "Rabbit 3.5 m — π × 12.25.", "help": "$12.25\\pi \\approx 38.5$ m² to 1 d.p.\n\nExample: 3 m → $9\\pi$." },
+    "194": { "hint": "Can you bisect a straight 180° angle to make two 90° angles?", "help": "Yes — **true**. Bisecting **180°** gives **90°** each.\n\nExample: corner of a rectangle construction." },
+    "195": { "hint": "Halve 166°.", "help": "Bisecting **166°** gives two **83°** angles that add back to 166°.\n\nExample: 150° → 75°." },
+    "196": { "hint": "Fair meeting point — which construction lines could you draw?", "help": "Describe using a **perpendicular bisector** and/or **circles** of equal radius from each friend.\n\nExplain overlap points in words." },
+    "197": { "hint": "Dog on 5 m lead — name the grazing boundary shape.", "help": "Write a short story; the locus is a **circle** (disc) **radius 5 m** around the post.\n\nTeacher checks wording." },
+    "198": { "hint": "Crossing paths — bench equidistant from both lines.", "help": "Place the bench on an **angle bisector** through the crossing.\n\nDescribe possible positions along that line." },
+    "199": { "hint": "At least 1 m from a straight fence — parallel boundary.", "help": "Safe region is on the pitch side of a **line parallel** to the fence, **≥ 1 m** away.\n\nExample: warm-up zone offset." },
+    "200": { "hint": "List construction steps for a perpendicular bisector — no numbers from this question.", "help": "Typical steps: draw the segment; open compasses **> half** length; arcs from each end; join arc crosses with a **ruler line** through the **midpoint** at **90°**.\n\nWrite your ordered list." }
+  }
+}

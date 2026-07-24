@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "$y = x$ means $y$ equals $x$ — when $x=1$, what is $y$?",
+      "help": "$y = 1$.\n\nOn $y=x$, coordinates match.\n\nAnswer 1.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "2": {
+      "hint": "Substitute $x=3$ into $y=x$.",
+      "help": "$y = 3$.\n\nSame value both axes.\n\n$y=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "Add 1 to $x=2$.",
+      "help": "$y = 3$.\n\nRule $y=x+1$.\n\nAnswer 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "Add 2 to $x=1$.",
+      "help": "$y = 3$.\n\n$y=x+2$ at $x=1$.\n\n$y=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "Double $x=2$.",
+      "help": "$y = 4$.\n\n$y=2x$.\n\nAnswer 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "Triple $x=2$.",
+      "help": "$y = 6$.\n\n$3 \\times 2$.\n\n$y=6$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "On $y=x$, $y$ must equal $x$ — check $(2,2)$ vs $(2,3)$.",
+      "help": "$(2,2)$ has $y=x$. $(2,3)$ does not.\n\nPick **$(2,2)$**.\n\nCoordinates must satisfy equation."
+    },
+    "8": {
+      "hint": "For $y=x+1$ at $x=1$, $y$ should be 2.",
+      "help": "$(1,2)$ works; $(1,1)$ does not.\n\nChoose **$(1,2)$**.\n\nSubstitute $x=1$."
+    },
+    "9": {
+      "hint": "Add 2 to each $x$ in the table.",
+      "help": "Row: **2, 3, 4, 5** for $x=0..3$.\n\n$y=x+2$.\n\nFill table.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "Compute $3x-1$ for $x=0,1,2,3$.",
+      "help": "Values **−1, 2, 5, 8**.\n\nTriple then minus 1.\n\nComplete row."
+    },
+    "11": {
+      "hint": "On $y=4$, $y$ is always 4 no matter what $x$ is.",
+      "help": "$y = **4**$ when $x=10$.\n\nHorizontal line $y=4$.\n\nConstant $y$."
+    },
+    "12": {
+      "hint": "On $x=3$, $x$ stays 3 for every $y$.",
+      "help": "$x = **3**$ when $y=100$.\n\nVertical line $x=3$.\n\n$x$ fixed.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "Set $x=0$ in $y=x+2$ for $y$-axis crossing.",
+      "help": "Crosses at **$(0, 2)$** — $y$-intercept 2.\n\n$x=0$ gives $y=2$.\n\nPoint $(0,2)$."
+    },
+    "14": {
+      "hint": "Set $y=0$ and solve $2x-6=0$.",
+      "help": "$2x=6$, $x=3$. Crosses **$(3, 0)$** on $x$-axis.\n\n$y=0$ for $x$-intercept.\n\n$(3,0)$."
+    },
+    "15": {
+      "hint": "$y=5$ is flat — horizontal or vertical?",
+      "help": "**Horizontal** — same $y$ everywhere.\n\nFlat left-right line.\n\nHorizontal."
+    },
+    "16": {
+      "hint": "$x=-2$ is upright — which type?",
+      "help": "**Vertical** line — fixed $x$.\n\nGoes up/down.\n\nVertical.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "Check if $5 = 2+3$ using $y=x+3$.",
+      "help": "$2+3=5$ — **yes**, on the line.\n\nSubstitute $x=2$, compare to $y=5$.\n\nShow check."
+    },
+    "18": {
+      "hint": "Does $9 = 2(4)+1$?",
+      "help": "$2(4)+1=9$ — **yes**.\n\nSubstitute $x=4$.\n\nPoint lies on line."
+    },
+    "19": {
+      "hint": "Midpoint: average $x$ values and average $y$ values.",
+      "help": "$(\\dfrac{0+6}{2}, \\dfrac{0+8}{2}) = **(3, 4)**$.\n\nHalve each coordinate sum.\n\nMidpoint $(3,4)$."
+    },
+    "20": {
+      "hint": "Average 1 and 5 for $x$; average 1 and 9 for $y$.",
+      "help": "Midpoint **$(3, 5)$**.\n\n$(\\dfrac{1+5}{2}, \\dfrac{1+9}{2})$.\n\n$(3,5)$."
+    },
+    "21": {
+      "hint": "Substitute $x=2$ into $y=x+3$ — is $y=5$?",
+      "help": "$2+3=5$ — **yes**.\n\nSame check as Q17.\n\nOn the line.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "When $x=3$, $y=2\\times3$.",
+      "help": "$y = **6**$.\n\nTable entry for $y=2x$.\n\n$y=6$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "23": {
+      "hint": "Horizontal line $y=3$ means every point has $y=3$, including $x=7$.",
+      "help": "$(7,3)$ has $y=3$ — Priya is **correct**.\n\nAll points on $y=3$ share $y=3$.\n\nExplain horizontal rule."
+    },
+    "24": {
+      "hint": "Plug $x=0$ into $y=x+c$ — where does it cross $y$-axis?",
+      "help": "At $x=0$, $y=c$ — crosses **$(0,c)$** always.\n\n**Always** true for $y=x+c$.\n\nAnswer: always."
+    },
+    "25": {
+      "hint": "Compute $3(3)+1$ and compare to Sam's $y=10$.",
+      "help": "$3(3)+1=10$ — **on** the line.\n\nShow substitution $x=3$.\n\nPoint is on line."
+    },
+    "26": {
+      "hint": "Vertical $x=4$ meets horizontal $y=4$ at one corner.",
+      "help": "Cross at **$(4, 4)$** — $x$ must be 4 and $y$ must be 4.\n\nNo plotting needed.\n\nIntersection $(4,4)$."
+    },
+    "27": {
+      "hint": "On $y=2x$, is $y$ always twice $x$?",
+      "help": "By definition **true** — every point satisfies $y=2x$.\n\nDouble relationship.\n\nTrue."
+    },
+    "28": {
+      "hint": "$x$-axis has $y=0$, not $x=0$. Solve $x-5=0$.",
+      "help": "Leo gave $y$-intercept. $x$-axis crossing: $0=x-5$, $x=**5**$, point **$(5,0)$**.\n\n$y=0$ for $x$-axis.\n\nCorrect $(5,0)$."
+    },
+    "29": {
+      "hint": "Compare $y$-intercepts: $x=0$ in each equation.",
+      "help": "$y=x+1$ → $(0,1)$. $y=x-1$ → $(0,-1)$.\n\n**Different** $y$-axis points.\n\nParallel, shifted."
+    },
+    "30": {
+      "hint": "All points have $y=x$ — what line is that?",
+      "help": "Equation **$y=x$** — each coordinate pair equal.\n\nMo is right they are collinear.\n\nLine $y=x$."
+    },
+    "31": {
+      "hint": "Gradient 0.5 per unit from $(0,1)$ to $(1,1.5)$ — find $(2, ?)$.",
+      "help": "Pattern +0.5 each unit: at 2 units **$(2, 2)$**.\n\nContinue same step.\n\n$(2, 2)$ or equivalent."
+    },
+    "32": {
+      "hint": "$y=5$ flat — delivery does not depend on item count $x$.",
+      "help": "**Fixed £5 delivery** whatever $x$ is.\n\nHorizontal cost line.\n\nConstant charge."
+    },
+    "33": {
+      "hint": "Fee applies at exactly 2 hours — $x$ fixed, not rate per hour.",
+      "help": "**Vertical** at $x=2$ — time locked, not slope per hour.\n\nFixed moment, not proportional.\n\nExplain vertical."
+    },
+    "34": {
+      "hint": "Set $x=0$ in $y=20+5x$.",
+      "help": "Crosses **$(0, 20)$** — starting cost £20 at month 0.\n\n$y$-intercept is initial fee.\n\nContext: £20 base."
+    },
+    "35": {
+      "hint": "Solve $2x+3=9$ and $3x=9$ separately.",
+      "help": "First: $x=3$. Second: $x=3$. Both give $y=9$ at **$x=3$**.\n\nSame $x$ when $y=9$.\n\n$x=3$ each."
+    },
+    "36": {
+      "hint": "Midpoint of $(0,4)$ and $(4,12)$; test in $y=2x+4$.",
+      "help": "Midpoint **$(2,8)$**. Check: $2(2)+4=8$ — **on** line.\n\nAverage coordinates then substitute.\n\nMidpoint on line."
+    },
+    "37": {
+      "hint": "Find gradient from $(1,4)$ to $(3,8)$, pick another $x$.",
+      "help": "Gradient 2. Example third point **$(2,6)$** or $(4,10)$.\n\nContinue +2 in $y$ per +1 in $x$.\n\nShow working."
+    },
+    "38": {
+      "hint": "$y$-axis: $x=0$. $x$-axis: $y=0$.",
+      "help": "$y$-intercept **$(0,-8)$**. $x$-intercept solve $2x-8=0$ → **$(4,0)$**.\n\nBoth axes found.\n\n$(0,-8)$ and $(4,0)$."
+    },
+    "39": {
+      "hint": "Plug $(3,10)$ into $y=x+c$ to find $c$.",
+      "help": "$10=3+c$, $c=**7**$.\n\nUse known point.\n\n$c=7$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "40": {
+      "hint": "Verify $y=2x+1$ for each point by substitution.",
+      "help": "$(1,3)$: $2+1=3$. $(2,5)$, $(4,9)$ work — all on **$y=2x+1$**.\n\nShow three checks.\n\nAll lie on line."
+    },
+    "41": {
+      "hint": "Plot $(0,1)$ and $(3,4)$ and draw straight line through them.",
+      "help": "Both satisfy $y=x+1$ — join with ruler for sketch.\n\nSlope 1, intercept 1.\n\nStraight line through points."
+    },
+    "42": {
+      "hint": "Gradient = change in $y$ ÷ change in $x$ from $(0,-2)$ to $(2,2)$.",
+      "help": "$(2-(-2))/(2-0)=**2**$.\n\nRise 4 over run 2.\n\nGradient 2.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "43": {
+      "hint": "Substitute the x-value into the equation.",
+      "help": "Linear equations $y = mx + c$ give a straight line.\n\nMultiply $x$ by the gradient, add the intercept.\n\nPlotting several points draws the graph."
+    },
+    "44": {
+      "hint": "Substitute the x-value into the equation.",
+      "help": "Linear equations $y = mx + c$ give a straight line.\n\nMultiply $x$ by the gradient, add the intercept.\n\nPlotting several points draws the graph."
+    },
+    "45": {"hint": "For $y = x + 5$, find $y$ when $x = -2$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: For $y = x + 5$, find $y$ when $x = -2$...."},
+    "46": {"hint": "For $y = 3x - 4$, find $y$ when $x = 0$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: For $y = 3x - 4$, find $y$ when $x = 0$...."},
+    "47": {"hint": "For $y = -2x + 7$, find $y$ when $x = 3$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: For $y = -2x + 7$, find $y$ when $x = 3$...."},
+    "48": {"hint": "Complete the missing $y$ in the table for $y = 2x + 1$: when $x = 4$, $y = $ ___ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Complete the missing $y$ in the table for $y = 2x + 1$: when $x = 4$, $y = $ ___..."},
+    "49": {"hint": "A table for $y = 5 - x$ gives $y = 2$ when $x = $ ___", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A table for $y = 5 - x$ gives $y = 2$ when $x = $ ___..."},
+    "50": {"hint": "Does $(0, -3)$ lie on $y = x - 3$? **Yes or no.**", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Does $(0, -3)$ lie on $y = x - 3$? **Yes or no.**..."},
+    "51": {"hint": "Does $(5, 11)$ lie on $y = 2x + 1$? **Yes or no.**", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Does $(5, 11)$ lie on $y = 2x + 1$? **Yes or no.**..."},
+    "52": {"hint": "Write the $y$-intercept of $y = 4x - 9$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the $y$-intercept of $y = 4x - 9$...."},
+    "53": {"hint": "Find the $x$-intercept of $y = 3x + 6$ (where $y = 0$).", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the $x$-intercept of $y = 3x + 6$ (where $y = 0$)...."},
+    "54": {"hint": "For horizontal line $y = -1$, state $y$ when $x = 50$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: For horizontal line $y = -1$, state $y$ when $x = 50$...."},
+    "55": {"hint": "For vertical line $x = 4$, state $x$ when $y = -20$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: For vertical line $x = 4$, state $x$ when $y = -20$...."},
+    "56": {"hint": "Which is horizontal: $y = 2x + 1$ or $y = 8$?", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Which is horizontal: $y = 2x + 1$ or $y = 8$?..."},
+    "57": {"hint": "Which is vertical: $x = -3$ or $y = -3$?", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Which is vertical: $x = -3$ or $y = -3$?..."},
+    "58": {"hint": "Find gradient of the line through $(0, 0)$ and $(2, 6)$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find gradient of the line through $(0, 0)$ and $(2, 6)$...."},
+    "59": {"hint": "Find gradient of the line through $(1, 5)$ and $(4, 11)$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find gradient of the line through $(1, 5)$ and $(4, 11)$...."},
+    "60": {"hint": "Write the equation of the line with gradient 3 through $(0, -2)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the equation of the line with gradient 3 through $(0, -2)$...."},
+    "61": {"hint": "Write the equation of the line with gradient $-1$ through $(0, 6)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the equation of the line with gradient $-1$ through $(0, 6)$...."},
+    "62": {"hint": "Midpoint of $(2, 8)$ and $(6, 0)$?", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Midpoint of $(2, 8)$ and $(6, 0)$?..."},
+    "63": {"hint": "Does $(3, 7)$ lie on the line through $(0, 1)$ and $(2, 5)$? **Yes or no — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Does $(3, 7)$ lie on the line through $(0, 1)$ and $(2, 5)$? **Yes or no.**..."},
+    "64": {"hint": "For $y = \\dfrac{1}{2}x + 3$, find $y$ when $x = 10$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: For $y = \\dfrac{1}{2}x + 3$, find $y$ when $x = 10$...."},
+    "65": {"hint": "A phone battery drains linearly: 100% at $t = 0$, 70% at $t = 2$ hours — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A phone battery drains linearly: 100% at $t = 0$, 70% at $t = 2$ hours. Find the..."},
+    "66": {"hint": "Sketch in words: how does the graph of $y = -4$ look compared with $y = x$? — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Sketch in words: how does the graph of $y = -4$ look compared with $y = x$?..."},
+    "67": {"hint": "Sketch in words: how does $x = 2$ look on a grid?", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Sketch in words: how does $x = 2$ look on a grid?..."},
+    "68": {"hint": "State the gradient of $y = 5$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: State the gradient of $y = 5$...."},
+    "69": {"hint": "State the gradient of $x = -1$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: State the gradient of $x = -1$...."},
+    "70": {"hint": "Are $y = 2x + 1$ and $y = 2x - 5$ parallel? **Yes or no.**", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Are $y = 2x + 1$ and $y = 2x - 5$ parallel? **Yes or no.**..."},
+    "71": {"hint": "Are $y = 3x + 2$ and $y = -3x + 2$ parallel? **Yes or no.**", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Are $y = 3x + 2$ and $y = -3x + 2$ parallel? **Yes or no.**..."},
+    "72": {"hint": "Write the equation of a line parallel to $y = 4x + 1$ through $(0, -3)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the equation of a line parallel to $y = 4x + 1$ through $(0, -3)$...."},
+    "73": {"hint": "Line $A$: $y = x + 2$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Line $A$: $y = x + 2$. Line $B$: $y = x - 7$. What is the same about their graph..."},
+    "74": {"hint": "Line $C$: $y = 5x$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Line $C$: $y = 5x$. Line $D$: $y = 5x + 100$. Do they ever meet? **Yes or no.**..."},
+    "75": {"hint": "Find where $y = 2x + 4$ crosses the $y$-axis.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find where $y = 2x + 4$ crosses the $y$-axis...."},
+    "76": {"hint": "Find where $y = -x + 5$ crosses the $x$-axis.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find where $y = -x + 5$ crosses the $x$-axis...."},
+    "77": {"hint": "Which point is on $y = x + 4$: $(2, 5)$ or $(2, 6)$?", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Which point is on $y = x + 4$: $(2, 5)$ or $(2, 6)$?..."},
+    "78": {"hint": "Which point is on $y = 3x - 2$: $(1, 2)$ or $(1, 1)$?", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Which point is on $y = 3x - 2$: $(1, 2)$ or $(1, 1)$?..."},
+    "79": {"hint": "Complete: line through $(0, 2)$ and $(3, 8)$ has gradient ___ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Complete: line through $(0, 2)$ and $(3, 8)$ has gradient ___..."},
+    "80": {"hint": "If gradient is 4 and line passes through $(0, 1)$, write the equation — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: If gradient is 4 and line passes through $(0, 1)$, write the equation...."},
+    "81": {"hint": "**True or false?** The graph of $y = mx + c$ always crosses the $y$-axis at $(0, c)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** The graph of $y = mx + c$ always crosses the $y$-axis at $(0,..."},
+    "82": {"hint": "**True or false?** A vertical line has an equation of the form $y = k$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** A vertical line has an equation of the form $y = k$...."},
+    "83": {"hint": "**Always, sometimes, or never?** Two different straight lines with the same gradient are parallel — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Always, sometimes, or never?** Two different straight lines with the same grad..."},
+    "84": {"hint": "**True or false?** If $(2, 8)$ lies on $y = 4x$, then $(4, 16)$ also lies on it — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** If $(2, 8)$ lies on $y = 4x$, then $(4, 16)$ also lies on it...."},
+    "85": {"hint": "Nina says $y = 2x + 3$ and $y = 3x + 2$ cross at $(1, 5)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Nina says $y = 2x + 3$ and $y = 3x + 2$ cross at $(1, 5)$. Substitute to check —..."},
+    "86": {"hint": "**Always, sometimes, or never?** The line $x = 0$ is the $y$-axis — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Always, sometimes, or never?** The line $x = 0$ is the $y$-axis...."},
+    "87": {"hint": "**True or false?** A line with gradient 0 is horizontal.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** A line with gradient 0 is horizontal...."},
+    "88": {"hint": "Omar claims every straight line crosses the $x$-axis — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Omar claims every straight line crosses the $x$-axis. Give a counterexample equa..."},
+    "89": {"hint": "**True or false?** Point $(c, c)$ always lies on $y = x$ for any number $c$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** Point $(c, c)$ always lies on $y = x$ for any number $c$...."},
+    "90": {"hint": "**Always, sometimes, or never?** Lines $y = x + 1$ and $y = -x + 1$ are perpendicular — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Always, sometimes, or never?** Lines $y = x + 1$ and $y = -x + 1$ are perpendi..."},
+    "91": {"hint": "**True or false?** If a line rises 3 units when $x$ increases by 1, its gradient is 3 — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** If a line rises 3 units when $x$ increases by 1, its gradient..."},
+    "92": {"hint": "Priya says horizontal lines have no $x$-intercept — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Priya says horizontal lines have no $x$-intercept. Is she always right? Explain...."},
+    "93": {"hint": "**True or false?** $(0, b)$ is always on the graph of $y = mx + b$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** $(0, b)$ is always on the graph of $y = mx + b$...."},
+    "94": {"hint": "**Always, sometimes, or never?** $y = 2x$ and $y = 2x + 1$ have the same steepness — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Always, sometimes, or never?** $y = 2x$ and $y = 2x + 1$ have the same steepne..."},
+    "95": {"hint": "**True or false?** The midpoint of two points on a straight line also lies on that line — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** The midpoint of two points on a straight line also lies on th..."},
+    "96": {"hint": "**True or false?** $y = -2x + 4$ goes down as you move right — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** $y = -2x + 4$ goes down as you move right...."},
+    "97": {"hint": "**Always, sometimes, or never?** A line through $(0, 0)$ has equation $y = mx$ for some $m$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Always, sometimes, or never?** A line through $(0, 0)$ has equation $y = mx$ f..."},
+    "98": {"hint": "**True or false?** Vertical lines cannot be written as $y = mx + c$ with a number $m$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** Vertical lines cannot be written as $y = mx + c$ with a numbe..."},
+    "99": {"hint": "**True or false?** If two lines intersect, they must have different gradients (unless they are the same line) — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** If two lines intersect, they must have different gradients (u..."},
+    "100": {"hint": "**Always, sometimes, or never?** The $x$-intercept of $y = mx + c$ is at $x = -c/m$ when $m \\ne 0$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Always, sometimes, or never?** The $x$-intercept of $y = mx + c$ is at $x = -c..."},
+    "101": {"hint": "A plumber charges £40 call-out plus £25 per hour — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A plumber charges £40 call-out plus £25 per hour. Write cost $C$ after $h$ hours..."},
+    "102": {"hint": "Using Q101, find the cost for 3 hours.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Using Q101, find the cost for 3 hours...."},
+    "103": {"hint": "A taxi fare is £3 plus £2 per mile — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A taxi fare is £3 plus £2 per mile. Write fare $F$ for $m$ miles...."},
+    "104": {"hint": "Using Q103, find the fare for 8 miles.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Using Q103, find the fare for 8 miles...."},
+    "105": {"hint": "A savings account starts at £50 and gains £12 per month — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A savings account starts at £50 and gains £12 per month. How much after 6 months..."},
+    "106": {"hint": "A candle is 30 cm tall and burns 2 cm per hour — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A candle is 30 cm tall and burns 2 cm per hour. Write height $h$ after $t$ hours..."},
+    "107": {"hint": "Using Q106, when is the candle 10 cm tall?", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Using Q106, when is the candle 10 cm tall?..."},
+    "108": {"hint": "A pool fills at 5 litres per minute from empty — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A pool fills at 5 litres per minute from empty. How many litres after 12 minutes..."},
+    "109": {"hint": "A gym membership costs £15 per month with no joining fee — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A gym membership costs £15 per month with no joining fee. Write total cost $C$ f..."},
+    "110": {"hint": "Using Q109, find cost for 9 months.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Using Q109, find cost for 9 months...."},
+    "111": {"hint": "A line graph of distance vs time passes through $(0, 0)$ and $(2, 14)$ (km, hours) — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A line graph of distance vs time passes through $(0, 0)$ and $(2, 14)$ (km, hour..."},
+    "112": {"hint": "Two tariffs: Plan A $y = 10 + 2x$, Plan B $y = 4x$ (cost vs texts) — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Two tariffs: Plan A $y = 10 + 2x$, Plan B $y = 4x$ (cost vs texts). For how many..."},
+    "113": {"hint": "A straight-line graph of temperature starts at $(0, 20)$ and reaches $(5, 35)$ (°C, hours) — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A straight-line graph of temperature starts at $(0, 20)$ and reaches $(5, 35)$ (..."},
+    "114": {"hint": "A bike rental is £8 flat plus £3 per hour — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A bike rental is £8 flat plus £3 per hour. Write cost for $h$ hours and find cos..."},
+    "115": {"hint": "Water depth in a tank is $y = 12 + 0 — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Water depth in a tank is $y = 12 + 0.5t$ cm after $t$ minutes. Find depth at $t ..."},
+    "116": {"hint": "A line through $(0, 100)$ and $(4, 180)$ models savings — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A line through $(0, 100)$ and $(4, 180)$ models savings. Find gradient and savin..."},
+    "117": {"hint": "Compare lines $y = 5x + 2$ and $y = 5x - 10$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Compare lines $y = 5x + 2$ and $y = 5x - 10$. Which starts higher on the $y$-axi..."},
+    "118": {"hint": "Find the intersection of $y = x + 1$ and $y = -x + 7$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the intersection of $y = x + 1$ and $y = -x + 7$...."},
+    "119": {"hint": "Find the intersection of $y = 2x - 1$ and $y = 2x + 5$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the intersection of $y = 2x - 1$ and $y = 2x + 5$. What does your answer me..."},
+    "120": {"hint": "A straight line passes through $(2, 1)$ and $(6, 13)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A straight line passes through $(2, 1)$ and $(6, 13)$. Find its equation...."},
+    "121": {"hint": "Archer walks so distance $d = 4t$ km after $t$ hours — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Archer walks so distance $d = 4t$ km after $t$ hours. How far in 2.5 hours?..."},
+    "122": {"hint": "A line model for a plant height is $h = 3 + 1 — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A line model for a plant height is $h = 3 + 1.5w$ cm after $w$ weeks. Find heigh..."},
+    "123": {"hint": "Does a line through $(1, 2)$ and $(3, 6)$ also pass through $(5, 10)$? **Yes or no — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Does a line through $(1, 2)$ and $(3, 6)$ also pass through $(5, 10)$? **Yes or ..."},
+    "124": {"hint": "Find the point where $y = 3x + 2$ and the $x$-axis meet.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the point where $y = 3x + 2$ and the $x$-axis meet...."},
+    "125": {"hint": "Find the point where $x = -2$ meets $y = 5$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the point where $x = -2$ meets $y = 5$...."},
+    "126": {"hint": "A delivery van's line passes through $(0, 5)$ and $(1, 9)$ (litres, km) — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A delivery van's line passes through $(0, 5)$ and $(1, 9)$ (litres, km). How man..."},
+    "127": {"hint": "Write the equation of the line with $x$-intercept 4 and $y$-intercept 2 — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the equation of the line with $x$-intercept 4 and $y$-intercept 2...."},
+    "128": {"hint": "A student plots $(0, 1)$, $(2, 5)$, $(4, 9)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A student plots $(0, 1)$, $(2, 5)$, $(4, 9)$. Write the equation suggested...."},
+    "129": {"hint": "Two lines: $y = 7$ and $y = 2x + 1$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Two lines: $y = 7$ and $y = 2x + 1$. Find their intersection...."},
+    "130": {"hint": "A café sells drinks: hot $y = 2x + 1$, cold $y = x + 4$ (cost vs size index $x$) — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A café sells drinks: hot $y = 2x + 1$, cold $y = x + 4$ (cost vs size index $x$)..."},
+    "131": {"hint": "Find the equation through $(-1, 4)$ and $(5, -2)$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the equation through $(-1, 4)$ and $(5, -2)$...."},
+    "132": {"hint": "Line $P: y = 3x - 5$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Line $P: y = 3x - 5$. Line $Q: y = -3x + 7$. Find where they meet...."},
+    "133": {"hint": "Show that $(2, 5)$, $(4, 9)$, and $(7, 15)$ are collinear.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Show that $(2, 5)$, $(4, 9)$, and $(7, 15)$ are collinear...."},
+    "134": {"hint": "A rectangle has vertices on $y = 2x + 1$ at $x = 0$ and $x = 3$ and height 4 on vertical sides — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A rectangle has vertices on $y = 2x + 1$ at $x = 0$ and $x = 3$ and height 4 on ..."},
+    "135": {"hint": "Find $k$ if $(k, 10)$ lies on $y = 2x + 4$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find $k$ if $(k, 10)$ lies on $y = 2x + 4$...."},
+    "136": {"hint": "Find $k$ if lines $y = kx + 1$ and $y = 3x + 7$ are parallel — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find $k$ if lines $y = kx + 1$ and $y = 3x + 7$ are parallel...."},
+    "137": {"hint": "Find $k$ if $(2, k)$ lies on $3x + 2y = 16$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find $k$ if $(2, k)$ lies on $3x + 2y = 16$...."},
+    "138": {"hint": "Write the equation of the perpendicular to $y = 2x$ through $(0, 0)$ (line through origin with gradient $-\\dfrac{1}{2}$) — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the equation of the perpendicular to $y = 2x$ through $(0, 0)$ (line throu..."},
+    "139": {"hint": "Solve graphically by algebra: $y = 4x - 3$ and $y = x + 6$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Solve graphically by algebra: $y = 4x - 3$ and $y = x + 6$...."},
+    "140": {"hint": "A piecewise story: cost is $y = 2x + 5$ for $x \\le 10$ texts — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A piecewise story: cost is $y = 2x + 5$ for $x \\le 10$ texts. Find cost at exact..."},
+    "141": {"hint": "Find the distance along the $x$-axis from $x$-intercept of $y = 2x - 8$ to $x$-intercept of $y = -2x + 8$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the distance along the $x$-axis from $x$-intercept of $y = 2x - 8$ to $x$-i..."},
+    "142": {"hint": "Line through $(a, 3)$ and $(4, 11)$ has gradient 2 — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Line through $(a, 3)$ and $(4, 11)$ has gradient 2. Find $a$...."},
+    "143": {"hint": "**Always, sometimes, or never?** $y = mx + c$ and $y = mx + d$ with $c \\ne d$ are parallel — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Always, sometimes, or never?** $y = mx + c$ and $y = mx + d$ with $c \\ne d$ ar..."},
+    "144": {"hint": "Write two points on $y = -x + 9$ with $x > 0$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write two points on $y = -x + 9$ with $x > 0$...."},
+    "145": {"hint": "Find the equation whose graph passes through $(0, -4)$ and is parallel to $y = 5x + 1$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the equation whose graph passes through $(0, -4)$ and is parallel to $y = 5..."},
+    "146": {"hint": "Find where $y = \\dfrac{1}{3}x + 2$ meets $y = -x + 10$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find where $y = \\dfrac{1}{3}x + 2$ meets $y = -x + 10$...."},
+    "147": {"hint": "A line has gradient $-2$ and passes through $(3, 1)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A line has gradient $-2$ and passes through $(3, 1)$. Write the equation...."},
+    "148": {"hint": "Find the $x$-value where $y = 0$ on $y = 1.5x - 12$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the $x$-value where $y = 0$ on $y = 1.5x - 12$...."},
+    "149": {"hint": "Two phones: $y = 15 + 0 — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Two phones: $y = 15 + 0.1x$ vs $y = 5 + 0.25x$ (pence per text). After how many ..."},
+    "150": {"hint": "Show the midpoint of $(0, 6)$ and $(8, 10)$ lies on $y = x + 4$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Show the midpoint of $(0, 6)$ and $(8, 10)$ lies on $y = x + 4$...."},
+    "151": {"hint": "Find the equation of the line through $(2, -1)$ with gradient 4 — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the equation of the line through $(2, -1)$ with gradient 4...."},
+    "152": {"hint": "Does $y = |x|$ produce a straight line? **Yes or no** — explain in one sentence — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Does $y = |x|$ produce a straight line? **Yes or no** — explain in one sentence...."},
+    "153": {"hint": "Find intersection of $y = 5$ and $y = 2x + 1$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find intersection of $y = 5$ and $y = 2x + 1$...."},
+    "154": {"hint": "A ladder line has equation $y = -3x + 18$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A ladder line has equation $y = -3x + 18$. Find where it meets the axes...."},
+    "155": {"hint": "Write the steeper line: $y = x + 2$ or $y = 3x + 2$?", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the steeper line: $y = x + 2$ or $y = 3x + 2$?..."},
+    "156": {"hint": "Find $c$ if $y = 2x + c$ passes through $(4, 11)$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find $c$ if $y = 2x + c$ passes through $(4, 11)$...."},
+    "157": {"hint": "Find the gradient between $(-2, 7)$ and $(4, -5)$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the gradient between $(-2, 7)$ and $(4, -5)$...."},
+    "158": {"hint": "**True or false?** Every straight-line graph can be written as $y = mx + c$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** Every straight-line graph can be written as $y = mx + c$...."},
+    "159": {"hint": "Find the equation through $(0, 0)$ and $(-3, 6)$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the equation through $(0, 0)$ and $(-3, 6)$...."},
+    "160": {"hint": "A train line model: $d = 80t$ for $t$ hours — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A train line model: $d = 80t$ for $t$ hours. Find $t$ when $d = 220$ km...."},
+    "161": {"hint": "Compare intercepts of $y = -x + 8$ and $y = 2x + 8$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Compare intercepts of $y = -x + 8$ and $y = 2x + 8$...."},
+    "162": {"hint": "Find the point on $y = x + 3$ with $y = 12$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the point on $y = x + 3$ with $y = 12$...."},
+    "163": {"hint": "Find the point on $y = 4x - 5$ with $x = 6$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the point on $y = 4x - 5$ with $x = 6$...."},
+    "164": {"hint": "Write the equation with gradient 0 through $(-2, 5)$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the equation with gradient 0 through $(-2, 5)$...."},
+    "165": {"hint": "Write the equation with undefined gradient (vertical) through $(7, 1)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the equation with undefined gradient (vertical) through $(7, 1)$...."},
+    "166": {"hint": "Find where $y = 0.2x + 1$ reaches $y = 5$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find where $y = 0.2x + 1$ reaches $y = 5$...."},
+    "167": {"hint": "**Always, sometimes, or never?** A line with positive gradient crosses both axes (unless it passes through origin only o — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Always, sometimes, or never?** A line with positive gradient crosses both axes..."},
+    "168": {"hint": "Find the intersection of $y = 2x + 1$ and $y = 2x + 1$ (same line) — describe the solution set — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the intersection of $y = 2x + 1$ and $y = 2x + 1$ (same line) — describe th..."},
+    "169": {"hint": "A straight line has $y = 7$ when $x = 0$ and $y = 13$ when $x = 2$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A straight line has $y = 7$ when $x = 0$ and $y = 13$ when $x = 2$. Find the equ..."},
+    "170": {"hint": "Find the gradient of $y = 5 - 2x$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the gradient of $y = 5 - 2x$...."},
+    "171": {"hint": "Rewrite $2y = 6x + 4$ in the form $y = mx + c$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Rewrite $2y = 6x + 4$ in the form $y = mx + c$...."},
+    "172": {"hint": "Find the $y$-value when $x = -3$ on $y = -4x + 2$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the $y$-value when $x = -3$ on $y = -4x + 2$...."},
+    "173": {"hint": "A graph passes through $(1, 4)$ and $(1, 9)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A graph passes through $(1, 4)$ and $(1, 9)$. What type of line is it?..."},
+    "174": {"hint": "Find the intersection of $y = x$ and $y = 2x - 3$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the intersection of $y = x$ and $y = 2x - 3$...."},
+    "175": {"hint": "**True or false?** Increasing the gradient makes a line steeper for positive gradients — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **True or false?** Increasing the gradient makes a line steeper for positive gra..."},
+    "176": {"hint": "Find the equation through $(5, 2)$ and $(5, 8)$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the equation through $(5, 2)$ and $(5, 8)$...."},
+    "177": {"hint": "Find the equation through $(-2, 3)$ and $(4, 3)$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the equation through $(-2, 3)$ and $(4, 3)$...."},
+    "178": {"hint": "A line is $y = mx$ and passes through $(6, 15)$. Find $m$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A line is $y = mx$ and passes through $(6, 15)$. Find $m$...."},
+    "179": {"hint": "Find where $y = 3x + 12$ crosses the $x$-axis.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find where $y = 3x + 12$ crosses the $x$-axis...."},
+    "180": {"hint": "Using Q179’s intercept, state whether that point lies on the $x$-axis — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Using Q179’s intercept, state whether that point lies on the $x$-axis...."},
+    "181": {"hint": "Find the cost at 0 texts for $C = 6 + 0.8t$.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the cost at 0 texts for $C = 6 + 0.8t$...."},
+    "182": {"hint": "Two lines share $y$-intercept 4 but have gradients 1 and -1 — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Two lines share $y$-intercept 4 but have gradients 1 and -1. Where do they meet?..."},
+    "183": {"hint": "Find the equation with gradient $\\dfrac{3}{2}$ through $(2, 5)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the equation with gradient $\\dfrac{3}{2}$ through $(2, 5)$...."},
+    "184": {"hint": "**Always, sometimes, or never?** Lines with gradients $m$ and $-m$ (both non-zero) meet at exactly one point — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Always, sometimes, or never?** Lines with gradients $m$ and $-m$ (both non-zer..."},
+    "185": {"hint": "A line passes through $(0, -5)$ and $(10, 0)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: A line passes through $(0, -5)$ and $(10, 0)$. Find the equation...."},
+    "186": {"hint": "Find the $x$-coordinate where $y = 2x + 7$ equals $y = -x + 1$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the $x$-coordinate where $y = 2x + 7$ equals $y = -x + 1$...."},
+    "187": {"hint": "Write the equation of the line parallel to $y = -x + 2$ through $(3, 4)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Write the equation of the line parallel to $y = -x + 2$ through $(3, 4)$...."},
+    "188": {"hint": "Find the midpoint of $(-4, 2)$ and $(8, 10)$ and check if it lies on $y = x + 4$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: Find the midpoint of $(-4, 2)$ and $(8, 10)$ and check if it lies on $y = x + 4$..."},
+    "189": {"hint": "**Stretch:** Find the equation through $(1, 1)$, $(4, 7)$, and verify $(7, 13)$ is on it — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** Find the equation through $(1, 1)$, $(4, 7)$, and verify $(7, 13)$ ..."},
+    "190": {"hint": "**Stretch:** Lines $y = 2x + k$ and $y = -x + 10$ meet at $(2, 8)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** Lines $y = 2x + k$ and $y = -x + 10$ meet at $(2, 8)$. Find $k$...."},
+    "191": {"hint": "**Stretch:** A parallelogram has sides along $y = x$ and $y = x + 6$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** A parallelogram has sides along $y = x$ and $y = x + 6$. Write one ..."},
+    "192": {"hint": "**Stretch:** Find the gradient between $(1, -2)$ and $(5, 6)$ and write the line equation — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** Find the gradient between $(1, -2)$ and $(5, 6)$ and write the line..."},
+    "193": {"hint": "**Stretch:** For which $x$ is $y = 3x - 2$ above $y = x + 4$? (Give the $x$-value where they meet first — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** For which $x$ is $y = 3x - 2$ above $y = x + 4$? (Give the $x$-valu..."},
+    "194": {"hint": "**Stretch:** A line has $x$-intercept $(6, 0)$ and gradient $-2$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** A line has $x$-intercept $(6, 0)$ and gradient $-2$. Write the equa..."},
+    "195": {"hint": "**Stretch:** Find the point where $y = \\dfrac{1}{2}x + 5$ meets $y = 3x - 1$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** Find the point where $y = \\dfrac{1}{2}x + 5$ meets $y = 3x - 1$...."},
+    "196": {"hint": "**Stretch:** Show that lines $y = 5x + 1$ and $y = 5x - 4$ never intersect — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** Show that lines $y = 5x + 1$ and $y = 5x - 4$ never intersect...."},
+    "197": {"hint": "**Stretch:** Find the equation through $(-3, 0)$ and $(0, 6)$ — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** Find the equation through $(-3, 0)$ and $(0, 6)$...."},
+    "198": {"hint": "**Stretch:** A mobile plan $y = 12 + 0 — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** A mobile plan $y = 12 + 0.05x$ (pounds, texts). How many texts unti..."},
+    "199": {"hint": "**Stretch:** Write the equation of the line through $(2, 3)$ perpendicular to $y = 2x$ (gradient $-\\dfrac{1}{2}$) — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** Write the equation of the line through $(2, 3)$ perpendicular to $y..."},
+    "200": {"hint": "**Stretch:** Archer models profit $P = 8n - 20$ for $n$ items sold — use the linear rule.", "help": "**Method:** read the equation in the question.\n\nTry a similar example with different numbers (not the same as this question).\n\nShow substitution or gradient steps for: **Stretch:** Archer models profit $P = 8n - 20$ for $n$ items sold. Find the sma..."}
+  }
+}

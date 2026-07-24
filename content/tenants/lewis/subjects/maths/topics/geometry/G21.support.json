@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Right angle in degrees?",
+      "help": "**90°**.\n\nExample: square corner.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "2": {
+      "hint": "Half of 90°?",
+      "help": "**45°**.\n\nExample: split right angle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "3": {
+      "hint": "One third of 90°?",
+      "help": "**30°**.\n\nExample: 90÷3.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "4": {
+      "hint": "Compare 30 and 60.",
+      "help": "**60°** is larger.\n\nExample: on protractor.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "One half as fraction?",
+      "help": "**2** in denominator: $\\frac12$.\n\nExample: half.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "6": {
+      "hint": "Diagonal splits 90° into two equal angles.",
+      "help": "Each **45°**.\n\nExample: square diagonal.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "7": {
+      "hint": "Quarter of 360° — which listed angle?",
+      "help": "**90°** is a quarter turn (45° is eighth).\n\nExample: 360÷4.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "8": {
+      "hint": "Order 30, 45, 60.",
+      "help": "**30°, 45°, 60°**.\n\nExample: increasing.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "9": {
+      "hint": "Exact sin 30°.",
+      "help": "**$\\frac12$**.\n\nExample: memorised value.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "10": {
+      "hint": "Exact cos 30°.",
+      "help": "**$\\frac{\\sqrt3}{2}$**.\n\nExample: exact trig table.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "Exact tan 45°.",
+      "help": "**1**.\n\nExample: equal legs.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "12": {
+      "hint": "Exact sin 45°.",
+      "help": "**$\\frac{\\sqrt2}{2}$** (or $\\frac1{\\sqrt2}$).\n\nExample: isosceles right triangle."
+    },
+    "13": {
+      "hint": "Exact cos 45°.",
+      "help": "**$\\frac{\\sqrt2}{2}$**.\n\nExample: same as sin 45°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "Exact sin 60°.",
+      "help": "**$\\frac{\\sqrt3}{2}$**.\n\nExample: equilateral half.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "Exact cos 60°.",
+      "help": "**$\\frac12$**.\n\nExample: complement of 30°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "16": {
+      "hint": "Exact tan 60°.",
+      "help": "**$\\sqrt3$**.\n\nExample: 60° triangle.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "sin 0° on unit circle.",
+      "help": "**0**.\n\nExample: no opposite rise.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "18": {
+      "hint": "cos 0°.",
+      "help": "**1**.\n\nExample: full adjacent.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "19": {
+      "hint": "Exact tan 30°.",
+      "help": "**$\\frac1{\\sqrt3}$** (or $\\frac{\\sqrt3}{3}$).\n\nExample: 30-60-90 triangle."
+    },
+    "20": {
+      "hint": "sin 90°.",
+      "help": "**1**.\n\nExample: top of sine range.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "21": {
+      "hint": "sin 30° exact.",
+      "help": "**$\\frac12$**.\n\nExample: same as Q9.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "cos 60° exact.",
+      "help": "**$\\frac12$**.\n\nExample: same as sin 30°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "23": {
+      "hint": "30° and 60° complementary — sin/cos swap.",
+      "help": "Angles **sum 90°** so $\\sin30°=\\cos60°$.\n\nExample: cofunction identity."
+    },
+    "24": {
+      "hint": "45° isosceles right triangle — sin and cos equal?",
+      "help": "**True** — both $\\frac{\\sqrt2}{2}$.\n\nExample: equal legs.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "25": {
+      "hint": "tan45=1 means opp=adj.",
+      "help": "Ravi **correct** — $\\tan=opp/adj=1$ → legs equal.\n\nExample: 45-45-90."
+    },
+    "26": {
+      "hint": "sin increases from 0 to 90°?",
+      "help": "**Always** on 0°–90°.\n\nExample: 0, 30, 45, 60, 90 values rise."
+    },
+    "27": {
+      "hint": "cos 90° = 0 exactly.",
+      "help": "At 90°, adjacent length **0** → $\\cos90°=**0**$ exactly.\n\nExample: unit triangle collapses."
+    },
+    "28": {
+      "hint": "tan = sin/cos — cos90=0.",
+      "help": "Division by **zero** at 90° — **undefined**.\n\nExample: vertical line."
+    },
+    "29": {
+      "hint": "Compute sin30+sin60 vs sin90 numerically.",
+      "help": "$\\frac12+\\frac{\\sqrt3}{2}\\neq1$ — Sloan **false**.\n\nExample: sin is not linear."
+    },
+    "30": {
+      "hint": "Complementary 30 and 60 swap sin/cos.",
+      "help": "$\\sin30°=\\cos60°$ and $\\cos30°=\\sin60°$.\n\nExample: 30+60=90."
+    },
+    "31": {
+      "hint": "opp = hyp×sin30° = 8×½.",
+      "help": "Opposite **4** cm exactly.\n\nExample: half hypotenuse.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "32": {
+      "hint": "adj = hyp×cos60° = 10×½.",
+      "help": "Adjacent **5** cm exactly.\n\nExample: cos 60.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "33": {
+      "hint": "tan45=1 → other leg equals 6 cm.",
+      "help": "Other leg **6** cm.\n\nExample: equal legs at 45°.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "34": {
+      "hint": "Equilateral side 4 — height from 60° half-triangle.",
+      "help": "Height **$2\\sqrt3$** cm using sin60°.\n\nExample: split equilateral."
+    },
+    "35": {
+      "hint": "tan30 = height/12.",
+      "help": "Height **$4\\sqrt3$** m (exact).\n\nExample: opp/adj.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "36": {
+      "hint": "Compute sin²45+cos²45 with exact fractions.",
+      "help": "$\\frac12+\\frac12=**1**$ — Pythagoras identity.\n\nExample: $(\\frac{\\sqrt2}{2})^2=\\frac12$."
+    },
+    "37": {
+      "hint": "sin30+cos60 with exact values.",
+      "help": "$\\frac12+\\frac12=**1**$.\n\nExample: add.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "38": {
+      "hint": "sin60=opp/hyp — hyp = opp/sin60.",
+      "help": "Hypotenuse **12** cm ($6\\sqrt3 \\div \\frac{\\sqrt3}{2}$).\n\nExample: rearrange."
+    },
+    "39": {
+      "hint": "tan60÷tan30 with exact surds.",
+      "help": "$\\sqrt3 \\div \\frac1{\\sqrt3} = **3**$.\n\nExample: simplify.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "40": {
+      "hint": "Derive exact values from 45-45-90 and half equilateral.",
+      "help": "Use **isosceles right** legs 1,1, hyp $\\sqrt2$ for 45°; **half equilateral** 1,2, $\\sqrt3$ for 30°/60°.\n\nExample: draw triangles."
+    },
+    "41": {
+      "hint": "sin θ = opp/hyp = 5/10.",
+      "help": "**$\\frac12$**.\n\nExample: simplify ratio.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "Isosceles right legs 1 — hyp Pythagoras.",
+      "help": "Hypotenuse **$\\sqrt2$** cm.\n\nExample: $1^2+1^2$.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "43": {
+      "hint": "Recall the exact trig table for special angles.",
+      "help": "From the exact values table, **sin 30° = 1/2**.\n\nWork step by step and check units."
+    },
+    "44": {
+      "hint": "Recall the exact trig table for special angles.",
+      "help": "From the exact values table, **cos 60° = 1/2**.\n\nWork step by step and check units."
+    },
+    "45": {
+      "hint": "Exact table: sin 45° = ?",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "46": {
+      "hint": "Exact table: cos 45° = ?",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "47": {
+      "hint": "Exact table: tan 45° = ?",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "48": {
+      "hint": "Exact table: sin 30° = ?",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "49": {
+      "hint": "Exact table: cos 30° = ?",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "50": {
+      "hint": "Exact table: sin 60° = ?",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "51": {
+      "hint": "Exact table: cos 60° = ?",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "52": {
+      "hint": "Exact table: tan 60° = ?",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "53": {
+      "hint": "Exact table: tan 30° = ?",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "54": {
+      "hint": "Exact table: sin 45° = ? (Q54)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "55": {
+      "hint": "Exact table: cos 45° = ? (Q55)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "56": {
+      "hint": "Exact table: tan 45° = ? (Q56)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "57": {
+      "hint": "Exact table: sin 30° = ? (Q57)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "58": {
+      "hint": "Exact table: cos 30° = ? (Q58)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "59": {
+      "hint": "Exact table: sin 60° = ? (Q59)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "60": {
+      "hint": "Exact table: cos 60° = ? (Q60)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "61": {
+      "hint": "Exact table: tan 60° = ? (Q61)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "62": {
+      "hint": "Exact table: tan 30° = ? (Q62)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "63": {
+      "hint": "Exact table: sin 45° = ? (Q63)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "64": {
+      "hint": "Exact table: cos 45° = ? (Q64)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "65": {
+      "hint": "Exact table: tan 45° = ? (Q65)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "66": {
+      "hint": "Exact table: sin 30° = ? (Q66)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "67": {
+      "hint": "Exact table: cos 30° = ? (Q67)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "68": {
+      "hint": "Exact table: sin 60° = ? (Q68)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "69": {
+      "hint": "Exact table: cos 60° = ? (Q69)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "70": {
+      "hint": "Exact table: tan 60° = ? (Q70)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "71": {
+      "hint": "Exact table: tan 30° = ? (Q71)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "72": {
+      "hint": "Exact table: sin 45° = ? (Q72)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "73": {
+      "hint": "Exact table: cos 45° = ? (Q73)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "74": {
+      "hint": "Exact table: tan 45° = ? (Q74)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "75": {
+      "hint": "Exact table: sin 30° = ? (Q75)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "76": {
+      "hint": "Exact table: cos 30° = ? (Q76)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "77": {
+      "hint": "Exact table: sin 60° = ? (Q77)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "78": {
+      "hint": "Exact table: cos 60° = ? (Q78)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "79": {
+      "hint": "Exact table: tan 60° = ? (Q79)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "80": {
+      "hint": "Exact table: tan 30° = ? (Q80)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "81": {
+      "hint": "Leg 1 cm in 45-45-90 → hypotenuse 1√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "82": {
+      "hint": "Leg 2 cm in 45-45-90 → hypotenuse 2√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "83": {
+      "hint": "Leg 3 cm in 45-45-90 → hypotenuse 3√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "84": {
+      "hint": "Leg 4 cm in 45-45-90 → hypotenuse 4√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "85": {
+      "hint": "Leg 5 cm in 45-45-90 → hypotenuse 5√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "86": {
+      "hint": "Leg 6 cm in 45-45-90 → hypotenuse 6√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "87": {
+      "hint": "Leg 7 cm in 45-45-90 → hypotenuse 7√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "88": {
+      "hint": "Leg 8 cm in 45-45-90 → hypotenuse 8√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "89": {
+      "hint": "Leg 9 cm in 45-45-90 → hypotenuse 9√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "90": {
+      "hint": "Leg 10 cm in 45-45-90 → hypotenuse 10√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "91": {
+      "hint": "Leg 11 cm in 45-45-90 → hypotenuse 11√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "92": {
+      "hint": "Leg 12 cm in 45-45-90 → hypotenuse 12√2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "93": {
+      "hint": "Short leg 2 cm → hypotenuse 2×2 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "94": {
+      "hint": "Short leg 3 cm → hypotenuse 2×3 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "95": {
+      "hint": "Short leg 4 cm → hypotenuse 2×4 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "96": {
+      "hint": "Short leg 5 cm → hypotenuse 2×5 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "97": {
+      "hint": "Short leg 6 cm → hypotenuse 2×6 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "98": {
+      "hint": "Short leg 7 cm → hypotenuse 2×7 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "99": {
+      "hint": "Short leg 8 cm → hypotenuse 2×8 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "100": {
+      "hint": "Short leg 9 cm → hypotenuse 2×9 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "101": {
+      "hint": "Short leg 10 cm → hypotenuse 2×10 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "102": {
+      "hint": "Short leg 11 cm → hypotenuse 2×11 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "103": {
+      "hint": "Short leg 12 cm → hypotenuse 2×12 cm.",
+      "help": "Right triangle: $c^2=a^2+b^2$. Label legs and hypotenuse first.\n\n**Different example:** Legs 9 and 12 → c=15.\n\nWork step by step and include units if the question uses them."
+    },
+    "104": {
+      "hint": "Short leg 2 cm → long leg 2√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "105": {
+      "hint": "Short leg 3 cm → long leg 3√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "106": {
+      "hint": "Short leg 4 cm → long leg 4√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "107": {
+      "hint": "Short leg 5 cm → long leg 5√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "108": {
+      "hint": "Short leg 6 cm → long leg 6√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "109": {
+      "hint": "Short leg 7 cm → long leg 7√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "110": {
+      "hint": "Short leg 8 cm → long leg 8√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "111": {
+      "hint": "Short leg 9 cm → long leg 9√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "112": {
+      "hint": "Short leg 10 cm → long leg 10√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "113": {
+      "hint": "Short leg 11 cm → long leg 11√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "114": {
+      "hint": "Short leg 12 cm → long leg 12√3 cm (opposite 60°).",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "115": {
+      "hint": "No calculator — recall sin 30° from special triangles.",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "116": {
+      "hint": "No calculator — recall cos 30° from special triangles.",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "117": {
+      "hint": "No calculator — recall tan 30° from special triangles.",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "118": {
+      "hint": "No calculator — recall sin 45° from special triangles.",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "119": {
+      "hint": "No calculator — recall cos 45° from special triangles.",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "120": {
+      "hint": "No calculator — recall tan 45° from special triangles.",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "121": {
+      "hint": "No calculator — recall sin 60° from special triangles.",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "122": {
+      "hint": "No calculator — recall cos 60° from special triangles.",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "123": {
+      "hint": "No calculator — recall tan 60° from special triangles.",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "124": {
+      "hint": "No calculator — recall sin 30° from special triangles. (Q124)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "125": {
+      "hint": "No calculator — recall cos 30° from special triangles. (Q125)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "126": {
+      "hint": "No calculator — recall tan 30° from special triangles. (Q126)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "127": {
+      "hint": "No calculator — recall sin 45° from special triangles. (Q127)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "128": {
+      "hint": "No calculator — recall cos 45° from special triangles. (Q128)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "129": {
+      "hint": "No calculator — recall tan 45° from special triangles. (Q129)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "130": {
+      "hint": "No calculator — recall sin 60° from special triangles. (Q130)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "131": {
+      "hint": "No calculator — recall cos 60° from special triangles. (Q131)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "132": {
+      "hint": "No calculator — recall tan 60° from special triangles. (Q132)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "133": {
+      "hint": "No calculator — recall sin 30° from special triangles. (Q133)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "134": {
+      "hint": "No calculator — recall cos 30° from special triangles. (Q134)",
+      "help": "Use special-triangle exact values; surds stay exact.\n\n**Different example:** sin 30°=½, cos 45°=√2/2.\n\nWork step by step and include units if the question uses them."
+    },
+    "135": {
+      "hint": "Q135: is this true? ... and ... are equal.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "136": {
+      "hint": "Q136: explain — Explain why ....",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "137": {
+      "hint": "Q137: test \"Exact trig values are rational numbers.\" — always, sometimes, or never?",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "138": {
+      "hint": "Write ... using surd form.",
+      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+    },
+    "139": {
+      "hint": "Q139: hypotenuse 7√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "140": {
+      "hint": "Q140: hypotenuse 8√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "141": {
+      "hint": "Q141: hypotenuse 9√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "142": {
+      "hint": "Q142: hypotenuse 10√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "143": {
+      "hint": "Q143: hypotenuse 11√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "144": {
+      "hint": "Q144: hypotenuse 12√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "145": {
+      "hint": "Q145: hypotenuse 3√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "146": {
+      "hint": "Q146: hypotenuse 4√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "147": {
+      "hint": "Q147: hypotenuse 5√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "148": {
+      "hint": "Q148: hypotenuse 6√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "149": {
+      "hint": "Q149: hypotenuse 7√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "150": {
+      "hint": "Q150: hypotenuse 8√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "151": {
+      "hint": "Q151: hypotenuse 9√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "152": {
+      "hint": "Q152: hypotenuse 10√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "153": {
+      "hint": "Q153: hypotenuse 11√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "154": {
+      "hint": "Q154: hypotenuse 12√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "155": {
+      "hint": "Q155: hypotenuse 3√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "156": {
+      "hint": "Q156: hypotenuse 4√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "157": {
+      "hint": "Q157: hypotenuse 5√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "158": {
+      "hint": "Q158: hypotenuse 6√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "159": {
+      "hint": "Q159: hypotenuse 7√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "160": {
+      "hint": "Q160: hypotenuse 8√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "161": {
+      "hint": "Q161: hypotenuse 9√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "162": {
+      "hint": "Q162: hypotenuse 10√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "163": {
+      "hint": "Q163: hypotenuse 11√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "164": {
+      "hint": "Q164: hypotenuse 12√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "165": {
+      "hint": "Q165: hypotenuse 3√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "166": {
+      "hint": "Q166: hypotenuse 4√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "167": {
+      "hint": "Q167: hypotenuse 5√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "168": {
+      "hint": "Q168: hypotenuse 6√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "169": {
+      "hint": "Q169: hypotenuse 7√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "170": {
+      "hint": "Q170: hypotenuse 8√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "171": {
+      "hint": "Q171: hypotenuse 9√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "172": {
+      "hint": "Q172: hypotenuse 10√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "173": {
+      "hint": "Q173: hypotenuse 11√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "174": {
+      "hint": "Q174: hypotenuse 12√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "175": {
+      "hint": "Q175: hypotenuse 3√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "176": {
+      "hint": "Q176: hypotenuse 4√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "177": {
+      "hint": "Q177: hypotenuse 5√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "178": {
+      "hint": "Q178: hypotenuse 6√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "179": {
+      "hint": "Q179: hypotenuse 7√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "180": {
+      "hint": "Q180: hypotenuse 8√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "181": {
+      "hint": "Q181: hypotenuse 9√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "182": {
+      "hint": "Q182: hypotenuse 10√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "183": {
+      "hint": "Q183: hypotenuse 11√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "184": {
+      "hint": "Q184: hypotenuse 12√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "185": {
+      "hint": "Q185: hypotenuse 3√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "186": {
+      "hint": "Q186: hypotenuse 4√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "187": {
+      "hint": "Q187: hypotenuse 5√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "188": {
+      "hint": "Q188: hypotenuse 6√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "189": {
+      "hint": "Q189: hypotenuse 7√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "190": {
+      "hint": "Q190: hypotenuse 8√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "191": {
+      "hint": "Q191: hypotenuse 9√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "192": {
+      "hint": "Q192: hypotenuse 10√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "193": {
+      "hint": "Q193: hypotenuse 11√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "194": {
+      "hint": "Q194: hypotenuse 12√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "195": {
+      "hint": "Q195: hypotenuse 3√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "196": {
+      "hint": "Q196: hypotenuse 4√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "197": {
+      "hint": "Q197: hypotenuse 5√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "198": {
+      "hint": "Q198: hypotenuse 6√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "199": {
+      "hint": "Q199: hypotenuse 7√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    },
+    "200": {
+      "hint": "Q200: hypotenuse 8√2 cm — each leg = hypotenuse÷√2.",
+      "help": "Pick the area formula for the shape; use perpendicular height.\n\n**Different example:** Triangle ½bh; parallelogram bh; trapezium ½(a+b)h.\n\nWork step by step and include units if the question uses them."
+    }
+  }
+}

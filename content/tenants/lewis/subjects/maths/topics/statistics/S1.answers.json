@@ -1,0 +1,1823 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 510
+    },
+    "2": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 545
+    },
+    "3": {
+      "display": "Apples",
+      "accept": [
+        "apples",
+        "apple"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "6 children",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 610
+    },
+    "5": {
+      "display": "4 children",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 640
+    },
+    "6": {
+      "display": "8 children",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 670
+    },
+    "7": {
+      "display": "Green",
+      "accept": [
+        "green"
+      ],
+      "tier": 1,
+      "rating": 710
+    },
+    "8": {
+      "display": "2 more votes",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "Apple 4, banana 3, orange 1, grape 1 (tally marks)",
+      "accept": [
+        "4 3 1 1",
+        "apple 4",
+        "4 apple",
+        "4,3,1,1"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "Apple; 4 pupils",
+      "accept": [
+        "apple",
+        "4"
+      ],
+      "tier": 1,
+      "rating": 789
+    },
+    "11": {
+      "display": "Fish least popular; 5 more chose cats than fish (8 − 3)",
+      "accept": [
+        "fish",
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 818
+    },
+    "12": {
+      "display": "12 pupils",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 847
+    },
+    "13": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 876
+    },
+    "14": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 905
+    },
+    "15": {
+      "display": "30 pupils",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 934
+    },
+    "16": {
+      "display": "10 pupils",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 963
+    },
+    "17": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 992
+    },
+    "18": {
+      "display": "Wednesday; 6 mm more than Thursday (8 − 2)",
+      "accept": [
+        "wednesday",
+        "wed",
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1021
+    },
+    "19": {
+      "display": "8 pupils (5 + 3)",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "20": {
+      "display": "Disagree — the axis can have gaps; the chart can still show the data correctly.",
+      "accept": [
+        "disagree",
+        "no",
+        "not wrong",
+        "can work"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "21": {
+      "display": "False — equal bar heights mean equal frequencies, not that categories differ.",
+      "accept": [
+        "false",
+        "same frequency",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1230
+    },
+    "22": {
+      "display": "Yes — half of 4 is 2, so Sloan is correct.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1280
+    },
+    "23": {
+      "display": "Never — a pie chart shows proportions of a circle while a bar chart shows heights against an axis, so they always look different even for the same data.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1330
+    },
+    "24": {
+      "display": "Yes — tally marks are just a counting method that gets turned into the same numbers shown in a frequency table.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1380
+    },
+    "25": {
+      "display": "Yes — since every pupil is counted exactly once across the categories, the frequencies must add up to the total surveyed.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1430
+    },
+    "26": {
+      "display": "Starting the axis above zero exaggerates the visual differences between bars, making them look more different than the real numbers show.",
+      "accept": [
+        "exaggerate",
+        "bigger",
+        "misleading",
+        "look bigger"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "27": {
+      "display": "Bar chart with car 12, bus 3, bike 4, walk 1; car seen most.",
+      "accept": [],
+      "kind": "bar-chart",
+      "bars": {
+        "labels": [
+          "car",
+          "bus",
+          "bike",
+          "walk"
+        ],
+        "heights": [
+          12,
+          3,
+          4,
+          1
+        ]
+      },
+      "tier": 3,
+      "rating": 1620
+    },
+    "28": {
+      "display": "PE most popular; 4 more chose PE than Art (10 − 6)",
+      "accept": [
+        "pe",
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1670
+    },
+    "29": {
+      "display": "74 sales in total; Wednesday had the lowest sales (9)",
+      "accept": [
+        "74",
+        "wednesday",
+        "wed"
+      ],
+      "tier": 3,
+      "rating": 1720
+    },
+    "30": {
+      "display": "3 friends have no pet (24 − 10 − 6 − 5)",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1730
+    },
+    "31": {
+      "display": "Attendance rose, then fell, then rose again; total attendance over 4 weeks is 66.",
+      "accept": [
+        "66"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1737
+    },
+    "32": {
+      "display": "Brown 12, blue 6, green 3; total 21 pupils",
+      "accept": [
+        "12 6 3 21",
+        "21"
+      ],
+      "tier": 3,
+      "rating": 1744
+    },
+    "33": {
+      "display": "Walk 4, car 3, bike 2, bus 1; total 10 pupils",
+      "accept": [
+        "4 3 2 1",
+        "walk 4",
+        "total 10"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "34": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "35": {
+      "display": "13",
+      "accept": [
+        "13",
+        "thirteen"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "36": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "37": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "38": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "39": {
+      "display": "Number of pets",
+      "accept": [
+        "pets",
+        "number of pets",
+        "discrete"
+      ],
+      "tier": 2,
+      "rating": 1400,
+      "contains": true
+    },
+    "40": {
+      "display": "3 full symbols (15 pupils) plus 2/5 of a symbol (2 pupils) to make 17.",
+      "accept": [
+        "3",
+        "2/5",
+        "part symbol",
+        "part-symbol"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1870
+    },
+    "41": {
+      "display": "Discrete data can only take separate, countable values (e.g. number of siblings, number of pets); continuous data can take any value in a range (e.g. height, weight, time).",
+      "accept": [
+        "countable",
+        "separate values",
+        "any value",
+        "range",
+        "measured"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1910
+    },
+    "42": {
+      "display": "D = 8 (40 − 12 − 9 − 11); either chart type is acceptable with a valid reason (e.g. bar chart for easy comparison, pie chart for showing proportions of the whole).",
+      "accept": [
+        "8"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1950
+    },
+    "43": {
+      "display": "Three suitable survey questions; one classified as numbers/categories with a sensible display method.",
+      "accept": [
+        "question",
+        "numerical",
+        "categorical",
+        "chart",
+        "display"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1980
+    },
+    "44": {
+      "display": "A sensible survey topic, correct classification of the data, and a suitable chart choice.",
+      "accept": [
+        "survey",
+        "numerical",
+        "categorical",
+        "chart",
+        "data"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 2000
+    },
+    "45": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "46": {
+      "display": "Sandwich, 11 pupils",
+      "accept": [
+        "sandwich",
+        "11"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1150
+    },
+    "47": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "48": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "49": {
+      "display": "26",
+      "accept": [
+        "26"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "50": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "51": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "52": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "53": {
+      "display": "28",
+      "accept": [
+        "28"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "54": {
+      "display": "Chess (5)",
+      "accept": [
+        "chess",
+        "5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1150
+    },
+    "55": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "56": {
+      "display": "Size 5",
+      "accept": [
+        "5",
+        "size 5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1150
+    },
+    "57": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "58": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "59": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "60": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "61": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "62": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "63": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "64": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "65": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "66": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "67": {
+      "display": "Chocolate",
+      "accept": [
+        "chocolate"
+      ],
+      "tier": 1,
+      "rating": 1151
+    },
+    "68": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1152
+    },
+    "69": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1153
+    },
+    "70": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1154
+    },
+    "71": {
+      "display": "Wednesday",
+      "accept": [
+        "wed",
+        "wednesday"
+      ],
+      "tier": 1,
+      "rating": 1155
+    },
+    "72": {
+      "display": "7 mm",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1156
+    },
+    "73": {
+      "display": "74",
+      "accept": [
+        "74"
+      ],
+      "tier": 1,
+      "rating": 1157
+    },
+    "74": {
+      "display": "Wednesday",
+      "accept": [
+        "wed",
+        "wednesday"
+      ],
+      "tier": 1,
+      "rating": 1158
+    },
+    "75": {
+      "display": "Art",
+      "accept": [
+        "art"
+      ],
+      "tier": 1,
+      "rating": 1159
+    },
+    "76": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1160
+    },
+    "77": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1161
+    },
+    "78": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1162
+    },
+    "79": {
+      "display": "Bus",
+      "accept": [
+        "bus"
+      ],
+      "tier": 1,
+      "rating": 1163
+    },
+    "80": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1164
+    },
+    "81": {
+      "display": "12 pupils",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1165
+    },
+    "82": {
+      "display": "15 pupils",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1166
+    },
+    "83": {
+      "display": "28 pupils",
+      "accept": [
+        "28"
+      ],
+      "tier": 1,
+      "rating": 1167
+    },
+    "84": {
+      "display": "20 pupils",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1168
+    },
+    "85": {
+      "display": "7 pupils",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1169
+    },
+    "86": {
+      "display": "7 pupils",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1170
+    },
+    "87": {
+      "display": "8 pupils",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1171
+    },
+    "88": {
+      "display": "6 pupils",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1172
+    },
+    "89": {
+      "display": "15 trees",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1173
+    },
+    "90": {
+      "display": "2 full icons",
+      "accept": [
+        "2"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1174
+    },
+    "91": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1175
+    },
+    "92": {
+      "display": "2/5",
+      "accept": [
+        "2/5",
+        "0.4"
+      ],
+      "tier": 1,
+      "rating": 1181
+    },
+    "93": {
+      "display": "28",
+      "accept": [
+        "28"
+      ],
+      "tier": 1,
+      "rating": 1189
+    },
+    "94": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1196
+    },
+    "95": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1204
+    },
+    "96": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1212
+    },
+    "97": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1219
+    },
+    "98": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1227
+    },
+    "99": {
+      "display": "20 kg",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1234
+    },
+    "100": {
+      "display": "Thursday",
+      "accept": [
+        "thu",
+        "thursday"
+      ],
+      "tier": 1,
+      "rating": 1242
+    },
+    "101": {
+      "display": "True — a truncated axis exaggerates differences",
+      "accept": [
+        "true",
+        "exaggerate",
+        "axis"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1250
+    },
+    "102": {
+      "display": "True — same counts, different layout",
+      "accept": [
+        "true",
+        "same"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1257
+    },
+    "103": {
+      "display": "Always — tallest bar matches largest frequency",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1265
+    },
+    "104": {
+      "display": "Incorrect — one-to-one symbols are clear and common",
+      "accept": [
+        "incorrect",
+        "false",
+        "not"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1272
+    },
+    "105": {
+      "display": "True — each pupil counted once",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1280
+    },
+    "106": {
+      "display": "Always — half a symbol means half the key value",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1287
+    },
+    "107": {
+      "display": "Disagree — bar charts work for many categories",
+      "accept": [
+        "disagree",
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1295
+    },
+    "108": {
+      "display": "True — separate bars for each count",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1303
+    },
+    "109": {
+      "display": "True when each cell is one person counted once",
+      "accept": [
+        "true",
+        "row"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1310
+    },
+    "110": {
+      "display": "Always — equal heights mean equal frequencies",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1318
+    },
+    "111": {
+      "display": "True — labels show what each bar means",
+      "accept": [
+        "true",
+        "label"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1325
+    },
+    "112": {
+      "display": "Tallies let you add one at a time while collecting data",
+      "accept": [
+        "add",
+        "collect",
+        "quick"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1333
+    },
+    "113": {
+      "display": "True — same key, double symbols means double frequency",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1340
+    },
+    "114": {
+      "display": "Always — frequencies are enough to draw bars",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1348
+    },
+    "115": {
+      "display": "True — grouped heights can be put in intervals",
+      "accept": [
+        "true",
+        "group"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1356
+    },
+    "116": {
+      "display": "Correct — missing category lowers the total",
+      "accept": [
+        "correct",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1363
+    },
+    "117": {
+      "display": "Always — mode is a category with highest frequency",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1371
+    },
+    "118": {
+      "display": "False — larger keys are still accurate if used correctly",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1378
+    },
+    "119": {
+      "display": "Always — same scale from zero aids fair comparison",
+      "accept": [
+        "always",
+        "zero"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1386
+    },
+    "120": {
+      "display": "False — two choices per pupil need a different structure",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "121": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1401
+    },
+    "122": {
+      "display": "20 pupils (brown 12, blue 6, green 2)",
+      "accept": [
+        "20"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1409
+    },
+    "123": {
+      "display": "5 walk",
+      "accept": [
+        "5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1416
+    },
+    "124": {
+      "display": "Total 80; difference 11 between best and worst day",
+      "accept": [
+        "80",
+        "11"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1424
+    },
+    "125": {
+      "display": "8 more pupils chose music",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1431
+    },
+    "126": {
+      "display": "Bar chart with red 7, blue 5, green 4, yellow 6; mode is red.",
+      "accept": [
+        "red"
+      ],
+      "contains": true,
+      "kind": "bar-chart",
+      "bars": {
+        "labels": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "heights": [
+          7,
+          5,
+          4,
+          6
+        ]
+      },
+      "tier": 3,
+      "rating": 1439
+    },
+    "127": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 3,
+      "rating": 1447
+    },
+    "128": {
+      "display": "Sparrow; total 18 birds",
+      "accept": [
+        "sparrow",
+        "18"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1454
+    },
+    "129": {
+      "display": "50%",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1462
+    },
+    "130": {
+      "display": "Bar chart with walk 9, bus 6, car 4, bike 5; walk most popular.",
+      "accept": [
+        "walk"
+      ],
+      "contains": true,
+      "kind": "bar-chart",
+      "bars": {
+        "labels": [
+          "walk",
+          "bus",
+          "car",
+          "bike"
+        ],
+        "heights": [
+          9,
+          6,
+          4,
+          5
+        ]
+      },
+      "tier": 3,
+      "rating": 1469
+    },
+    "131": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 3,
+      "rating": 1477
+    },
+    "132": {
+      "display": "4 full symbols and 2/5 of a symbol",
+      "accept": [
+        "4",
+        "2/5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1485
+    },
+    "133": {
+      "display": "23 pupils; modal 1 sibling",
+      "accept": [
+        "23",
+        "1"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1492
+    },
+    "134": {
+      "display": "Week 2",
+      "accept": [
+        "week 2",
+        "2"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1500
+    },
+    "135": {
+      "display": "9 pupils",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1507
+    },
+    "136": {
+      "display": "10 chose water",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1515
+    },
+    "137": {
+      "display": "Two pupils not yet recorded or absent from survey",
+      "accept": [
+        "absent",
+        "missing",
+        "not"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1522
+    },
+    "138": {
+      "display": "Winter",
+      "accept": [
+        "winter"
+      ],
+      "tier": 3,
+      "rating": 1530
+    },
+    "139": {
+      "display": "8 votes",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1538
+    },
+    "140": {
+      "display": "3 apples",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1545
+    },
+    "141": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1553
+    },
+    "142": {
+      "display": "4 full symbols and 1/2 symbol",
+      "accept": [
+        "4",
+        "half",
+        "1/2"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1560
+    },
+    "143": {
+      "display": "30 minutes",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1568
+    },
+    "144": {
+      "display": "10 minutes",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1575
+    },
+    "145": {
+      "display": "176",
+      "accept": [
+        "176"
+      ],
+      "tier": 3,
+      "rating": 1583
+    },
+    "146": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "147": {
+      "display": "17",
+      "accept": [
+        "17"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "148": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "149": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "150": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "151": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "152": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "153": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "154": {
+      "display": "2 pupils",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "155": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "156": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "157": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "158": {
+      "display": "17",
+      "accept": [
+        "17"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "159": {
+      "display": "17",
+      "accept": [
+        "17"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "160": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "161": {
+      "display": "Art",
+      "accept": [
+        "art"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "162": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "163": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "164": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "165": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "166": {
+      "display": "48",
+      "accept": [
+        "48"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "167": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "168": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "169": {
+      "display": "Reading",
+      "accept": [
+        "reading"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "170": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "171": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "172": {
+      "display": "4/15",
+      "accept": [
+        "4/15"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "173": {
+      "display": "28",
+      "accept": [
+        "28"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "174": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "175": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "176": {
+      "display": "February",
+      "accept": [
+        "feb",
+        "february"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "177": {
+      "display": "40 kg",
+      "accept": [
+        "40"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "178": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "179": {
+      "display": "False — a chart can show data without a title, but titles help readers",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "180": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "181": {
+      "display": "Juice",
+      "accept": [
+        "juice"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "182": {
+      "display": "5 full faces",
+      "accept": [
+        "5"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "183": {
+      "display": "45 (thousand steps)",
+      "accept": [
+        "45"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "184": {
+      "display": "Friday",
+      "accept": [
+        "fri",
+        "friday"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "185": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "186": {
+      "display": "2 full symbols and 1/6 of a symbol",
+      "accept": [
+        "2",
+        "1/6"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1894
+    },
+    "187": {
+      "display": "2 full symbols and 3/8 of a symbol",
+      "accept": [
+        "2",
+        "3/8"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1901
+    },
+    "188": {
+      "display": "Tables summarise counts and are easier to scan than long lists",
+      "accept": [
+        "summar",
+        "scan",
+        "easier"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1909
+    },
+    "189": {
+      "display": "Not wrong — axes can extend beyond the tallest bar",
+      "accept": [
+        "not wrong",
+        "no"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1917
+    },
+    "190": {
+      "display": "Two suitable questions with category vs count and display methods",
+      "accept": [
+        "categor",
+        "count",
+        "bar",
+        "table",
+        "chart",
+        "tally"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1924
+    },
+    "191": {
+      "display": "10 pupils",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1932
+    },
+    "192": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 3,
+      "rating": 1939
+    },
+    "193": {
+      "display": "Cats and dogs tie as most popular; fish least popular",
+      "accept": [
+        "tie",
+        "equal",
+        "fish"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1947
+    },
+    "194": {
+      "display": "Double counting pupils or arithmetic error in frequencies",
+      "accept": [
+        "double",
+        "error",
+        "count"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1955
+    },
+    "195": {
+      "display": "Three sensible steps: question, collect, tally/table/chart",
+      "accept": [
+        "question",
+        "collect",
+        "tally",
+        "table",
+        "chart",
+        "survey"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1962
+    },
+    "196": {
+      "display": "2 full symbols and 7/10 of a symbol",
+      "accept": [
+        "2",
+        "7/10"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1970
+    },
+    "197": {
+      "display": "Summer (18); range 9",
+      "accept": [
+        "summer",
+        "9"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1977
+    },
+    "198": {
+      "display": "Never — time series or line graphs show monthly change more clearly",
+      "accept": [
+        "never",
+        "time",
+        "line"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1985
+    },
+    "199": {
+      "display": "Sensible plan with topic, data type, and chart choice",
+      "accept": [
+        "breakfast",
+        "categor",
+        "bar",
+        "table",
+        "chart",
+        "discrete"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1992
+    },
+    "200": {
+      "display": "Side-by-side bars hard for many categories; a table or dual line graph can help",
+      "accept": [
+        "table",
+        "line",
+        "limit"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

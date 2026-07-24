@@ -1,0 +1,1838 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 510
+    },
+    "2": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "$(2, 3)$",
+      "accept": [
+        "(2,3)",
+        "(2, 3)",
+        "2,3",
+        "2, 3"
+      ],
+      "tier": 1,
+      "rating": 575
+    },
+    "4": {
+      "display": "$(1, 0)$",
+      "accept": [
+        "(1,0)",
+        "(1, 0)",
+        "1,0",
+        "1, 0"
+      ],
+      "tier": 1,
+      "rating": 605
+    },
+    "5": {
+      "display": "$(0, 2)$",
+      "accept": [
+        "(0,2)",
+        "(0, 2)",
+        "0,2",
+        "0, 2"
+      ],
+      "tier": 1,
+      "rating": 635
+    },
+    "6": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 665
+    },
+    "7": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "(3, 2)",
+      "accept": [
+        "(3,2)",
+        "(3, 2)",
+        "3,2",
+        "3 2"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "(-4, -1)",
+      "accept": [
+        "(-4,-1)",
+        "(-4, -1)",
+        "-4,-1",
+        "-4 -1"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "1, 2, 3, 4",
+      "accept": [
+        "1 2 3 4",
+        "1,2,3,4",
+        "1, 2, 3, 4"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "0, 2, 4, 6",
+      "accept": [
+        "0 2 4 6",
+        "0,2,4,6",
+        "0, 2, 4, 6"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "5",
+      "accept": [
+        "5",
+        "y=5",
+        "y = 5"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "10",
+      "accept": [
+        "10",
+        "y=10",
+        "y = 10"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "(3, 0)",
+      "accept": [
+        "(3,0)",
+        "(3, 0)",
+        "3,0"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "(0, 5)",
+      "accept": [
+        "(0,5)",
+        "(0, 5)",
+        "0,5"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "Below",
+      "accept": [
+        "below"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "11",
+      "accept": [
+        "11",
+        "y=11",
+        "y = 11"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "12",
+      "accept": [
+        "12",
+        "y=12",
+        "y = 12"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "Yes — the line has gradient 3, so when x increases by 1, y increases by 3; from (1, 3) to (2, 6) fits that rule.",
+      "accept": [
+        "yes",
+        "true",
+        "gradient",
+        "slope",
+        "3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "22": {
+      "display": "True — e.g. when x = 2, y = 3, which is one more than x.",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "23": {
+      "display": "Yes — on y = x, y always equals x, and 3 = 3 is true.",
+      "accept": [
+        "yes",
+        "correct",
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "24": {
+      "display": "Line B is steeper — from (0,0) to (1,4) rises more per unit of x than Line A's rise from (0,0) to (1,2).",
+      "accept": [
+        "b",
+        "line b",
+        "steeper"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "25": {
+      "display": "Always — a line through the origin has no constant term, since y = 0 when x = 0.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "26": {
+      "display": "Sam forgot to add 3 (or added the wrong number). The correct value is y = 0 + 3 = 3.",
+      "accept": [
+        "3",
+        "forgot",
+        "mistake"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "27": {
+      "display": "Yes — at x = 5, y = 5 − 2 = 3, which matches the point (5, 3).",
+      "accept": [
+        "yes",
+        "3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "28": {
+      "display": "Both lines have the same steepness (gradient 1) so they are parallel, but y = x + 5 is drawn 4 units higher up than y = x + 1.",
+      "accept": [
+        "parallel",
+        "same gradient",
+        "higher",
+        "4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "29": {
+      "display": "Costs: £3, £5, £7, £9. The graph is a straight line starting at (0, 3) with gradient 2 (cost increases by £2 per mile).",
+      "accept": [
+        "3 5 7 9",
+        "3,5,7,9",
+        "straight line",
+        "gradient 2"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "30": {
+      "display": "Costs: £1, £1.50, £2, £2.50. The graph is a straight line starting at (0, 1) rising by 50p every 10 minutes.",
+      "accept": [
+        "1 1.5 2 2.5",
+        "1, 1.5, 2, 2.5",
+        "straight line"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1680
+    },
+    "31": {
+      "display": "Cost = £5 + £0.10 × t. For 20 texts: £5 + £2 = £7.",
+      "accept": [
+        "7",
+        "£7"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "32": {
+      "display": "w = 5 + 2m. After 6 minutes: w = 5 + 12 = 17 litres.",
+      "accept": [
+        "17",
+        "17 litres"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1650
+    },
+    "33": {
+      "display": "4 items, costing £8 at both stalls (x + 4 = 2x → x = 4).",
+      "accept": [
+        "4",
+        "£8",
+        "8"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1700
+    },
+    "34": {
+      "display": "5 hours",
+      "accept": [
+        "5",
+        "5 hours"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "35": {
+      "display": "(2, 3)",
+      "accept": [
+        "2,3",
+        "2 3",
+        "(2,3)",
+        "(2, 3)"
+      ],
+      "tier": 2,
+      "rating": 1240
+    },
+    "36": {
+      "display": "y: 2, 3, 4",
+      "accept": [
+        "2 3 4",
+        "2,3,4"
+      ],
+      "tier": 2,
+      "rating": 1316,
+      "contains": true
+    },
+    "37": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 2,
+      "rating": 1392
+    },
+    "38": {
+      "display": "y-axis",
+      "accept": [
+        "y",
+        "y-axis",
+        "y axis",
+        "vertical"
+      ],
+      "tier": 2,
+      "rating": 1320
+    },
+    "39": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 2,
+      "rating": 1360
+    },
+    "40": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "41": {
+      "display": "Example: (0, 1), (1, 3), (2, 5) — y increases by 2 each time x increases by 1.",
+      "accept": [
+        "example",
+        "any point",
+        "coordinates"
+      ],
+      "tier": 3,
+      "rating": 1880,
+      "contains": true
+    },
+    "42": {
+      "display": "No, they never cross — both lines have the same gradient (2), so they are parallel.",
+      "accept": [
+        "no",
+        "never",
+        "parallel"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1930
+    },
+    "43": {
+      "display": "Gradient = (7 − 3) ÷ (2 − 0) = 2; equation y = 2x + 3.",
+      "accept": [
+        "y=2x+3",
+        "y = 2x + 3",
+        "2x+3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1970
+    },
+    "44": {
+      "display": "Gradient = (17 − 5) ÷ (2 − 0) = 6; equation y = 6x + 5. At x = 5: y = 35, so 5 pizzas cost £35.",
+      "accept": [
+        "y=6x+5",
+        "35",
+        "£35"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "45": {
+      "display": "(-3, 2)",
+      "accept": [
+        "(-3,2)",
+        "(-3, 2)"
+      ],
+      "tier": 1,
+      "rating": 821
+    },
+    "46": {
+      "display": "(4, -3)",
+      "accept": [
+        "(4,-3)",
+        "(4, -3)"
+      ],
+      "tier": 1,
+      "rating": 834
+    },
+    "47": {
+      "display": "Second (II)",
+      "accept": [
+        "second",
+        "ii",
+        "2"
+      ],
+      "tier": 1,
+      "rating": 847
+    },
+    "48": {
+      "display": "Fourth (IV)",
+      "accept": [
+        "fourth",
+        "iv",
+        "4"
+      ],
+      "tier": 1,
+      "rating": 859
+    },
+    "49": {
+      "display": "Third (III)",
+      "accept": [
+        "third",
+        "iii",
+        "3"
+      ],
+      "tier": 1,
+      "rating": 872
+    },
+    "50": {
+      "display": "First (I)",
+      "accept": [
+        "first",
+        "i",
+        "1"
+      ],
+      "tier": 1,
+      "rating": 885
+    },
+    "51": {
+      "display": "-9",
+      "accept": [
+        "-9"
+      ],
+      "tier": 1,
+      "rating": 898
+    },
+    "52": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 1,
+      "rating": 911
+    },
+    "53": {
+      "display": "(-5, 0)",
+      "accept": [
+        "(-5,0)",
+        "(-5, 0)"
+      ],
+      "tier": 1,
+      "rating": 924
+    },
+    "54": {
+      "display": "(0, -3)",
+      "accept": [
+        "(0,-3)",
+        "(0, -3)"
+      ],
+      "tier": 1,
+      "rating": 937
+    },
+    "55": {
+      "display": "(-4, -2)",
+      "accept": [
+        "(-4,-2)",
+        "(-4, -2)"
+      ],
+      "tier": 1,
+      "rating": 950
+    },
+    "56": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 963
+    },
+    "57": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 976
+    },
+    "58": {
+      "display": "(-3, -2)",
+      "accept": [
+        "(-3,-2)",
+        "(-3, -2)"
+      ],
+      "tier": 1,
+      "rating": 989
+    },
+    "59": {
+      "display": "(-4, 2)",
+      "accept": [
+        "(-4,2)",
+        "(-4, 2)"
+      ],
+      "tier": 1,
+      "rating": 1002
+    },
+    "60": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1015
+    },
+    "61": {
+      "display": "-5",
+      "accept": [
+        "-5"
+      ],
+      "tier": 1,
+      "rating": 1028
+    },
+    "62": {
+      "display": "-5",
+      "accept": [
+        "-5"
+      ],
+      "tier": 1,
+      "rating": 1041
+    },
+    "63": {
+      "display": "-1",
+      "accept": [
+        "-1"
+      ],
+      "tier": 1,
+      "rating": 1054
+    },
+    "64": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1067
+    },
+    "65": {
+      "display": "0",
+      "accept": [
+        "0"
+      ],
+      "tier": 1,
+      "rating": 1080
+    },
+    "66": {
+      "display": "-7",
+      "accept": [
+        "-7"
+      ],
+      "tier": 1,
+      "rating": 1093
+    },
+    "67": {
+      "display": "-4",
+      "accept": [
+        "-4"
+      ],
+      "tier": 1,
+      "rating": 1106
+    },
+    "68": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1119
+    },
+    "69": {
+      "display": "(-2, 0)",
+      "accept": [
+        "(-2,0)",
+        "(-2, 0)"
+      ],
+      "tier": 1,
+      "rating": 1132
+    },
+    "70": {
+      "display": "(0, 2)",
+      "accept": [
+        "(0,2)",
+        "(0, 2)"
+      ],
+      "tier": 1,
+      "rating": 1145
+    },
+    "71": {
+      "display": "Example: (-2, 5)",
+      "accept": [
+        "(",
+        "-",
+        ","
+      ],
+      "tier": 1,
+      "rating": 1158,
+      "contains": true
+    },
+    "72": {
+      "display": "Example: (3, -2)",
+      "accept": [
+        "(",
+        "-",
+        ","
+      ],
+      "tier": 1,
+      "rating": 1171,
+      "contains": true
+    },
+    "73": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1184
+    },
+    "74": {
+      "display": "(2, 1)",
+      "accept": [
+        "(2,1)",
+        "(2, 1)"
+      ],
+      "tier": 1,
+      "rating": 1197
+    },
+    "75": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 1,
+      "rating": 1210
+    },
+    "76": {
+      "display": "-5",
+      "accept": [
+        "-5"
+      ],
+      "tier": 1,
+      "rating": 1223
+    },
+    "77": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1236
+    },
+    "78": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1249
+    },
+    "79": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1262
+    },
+    "80": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 1,
+      "rating": 1275
+    },
+    "81": {
+      "display": "-1",
+      "accept": [
+        "-1"
+      ],
+      "tier": 1,
+      "rating": 1288
+    },
+    "82": {
+      "display": "-7",
+      "accept": [
+        "-7"
+      ],
+      "tier": 1,
+      "rating": 1301
+    },
+    "83": {
+      "display": "Same y; x values are opposites",
+      "accept": [
+        "opposite",
+        "same y"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1318
+    },
+    "84": {
+      "display": "(-3, 5)",
+      "accept": [
+        "(-3,5)",
+        "(-3, 5)"
+      ],
+      "tier": 2,
+      "rating": 1335
+    },
+    "85": {
+      "display": "(-2, -4)",
+      "accept": [
+        "(-2,-4)",
+        "(-2, -4)"
+      ],
+      "tier": 2,
+      "rating": 1352
+    },
+    "86": {
+      "display": "(3, 1)",
+      "accept": [
+        "(3,1)",
+        "(3, 1)"
+      ],
+      "tier": 2,
+      "rating": 1369
+    },
+    "87": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 2,
+      "rating": 1386
+    },
+    "88": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1403
+    },
+    "89": {
+      "display": "y = 2x - 3",
+      "accept": [
+        "y=2x-3",
+        "2x-3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1420
+    },
+    "90": {
+      "display": "y = -x + 5",
+      "accept": [
+        "y=-x+5",
+        "-x+5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "91": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "92": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 927
+    },
+    "93": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 954
+    },
+    "94": {
+      "display": "Both are 5 units from the x-axis (use |y|)",
+      "accept": [
+        "5",
+        "absolute"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 981
+    },
+    "95": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1008
+    },
+    "96": {
+      "display": "Same height y = 4",
+      "accept": [
+        "4",
+        "same y"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1035
+    },
+    "97": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1063
+    },
+    "98": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1090
+    },
+    "99": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1117
+    },
+    "100": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1144
+    },
+    "101": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1171
+    },
+    "102": {
+      "display": "Set y = 0 gives x = 3",
+      "accept": [
+        "3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1198
+    },
+    "103": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "104": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1252
+    },
+    "105": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1279
+    },
+    "106": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1306
+    },
+    "107": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1333
+    },
+    "108": {
+      "display": "4 units down",
+      "accept": [
+        "4",
+        "down"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1360
+    },
+    "109": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1388
+    },
+    "110": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1415
+    },
+    "111": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1442
+    },
+    "112": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1469
+    },
+    "113": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1496
+    },
+    "114": {
+      "display": "On the x-axis (y = 0)",
+      "accept": [
+        "x-axis",
+        "axis"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1523
+    },
+    "115": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "116": {
+      "display": "(0, -8)",
+      "accept": [
+        "(0,-8)",
+        "(0, -8)"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "117": {
+      "display": "(5, -8)",
+      "accept": [
+        "(5,-8)",
+        "(5, -8)"
+      ],
+      "tier": 3,
+      "rating": 1122
+    },
+    "118": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1145
+    },
+    "119": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1167
+    },
+    "120": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1190
+    },
+    "121": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1212
+    },
+    "122": {
+      "display": "(2, 2)",
+      "accept": [
+        "(2,2)",
+        "(2, 2)"
+      ],
+      "tier": 3,
+      "rating": 1234
+    },
+    "123": {
+      "display": "540",
+      "accept": [
+        "540",
+        "£540"
+      ],
+      "tier": 3,
+      "rating": 1257
+    },
+    "124": {
+      "display": "Third",
+      "accept": [
+        "third",
+        "iii",
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1279
+    },
+    "125": {
+      "display": "(-1, -3)",
+      "accept": [
+        "(-1,-3)",
+        "(-1, -3)"
+      ],
+      "tier": 3,
+      "rating": 1302
+    },
+    "126": {
+      "display": "(3, -1)",
+      "accept": [
+        "(3,-1)",
+        "(3, -1)"
+      ],
+      "tier": 3,
+      "rating": 1324
+    },
+    "127": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1347
+    },
+    "128": {
+      "display": "(-6, -2)",
+      "accept": [
+        "(-6,-2)",
+        "(-6, -2)"
+      ],
+      "tier": 3,
+      "rating": 1369
+    },
+    "129": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 3,
+      "rating": 1391
+    },
+    "130": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1414
+    },
+    "131": {
+      "display": "(4, 3)",
+      "accept": [
+        "(4,3)",
+        "(4, 3)"
+      ],
+      "tier": 3,
+      "rating": 1436
+    },
+    "132": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1459
+    },
+    "133": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1481
+    },
+    "134": {
+      "display": "15",
+      "accept": [
+        "15",
+        "£15"
+      ],
+      "tier": 3,
+      "rating": 1503
+    },
+    "135": {
+      "display": "x = 2",
+      "accept": [
+        "x=2",
+        "x = 2"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1526
+    },
+    "136": {
+      "display": "Fourth (IV)",
+      "accept": [
+        "fourth",
+        "iv",
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1548
+    },
+    "137": {
+      "display": "-8",
+      "accept": [
+        "-8"
+      ],
+      "tier": 3,
+      "rating": 1571
+    },
+    "138": {
+      "display": "The x-axis",
+      "accept": [
+        "x-axis",
+        "x axis"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1593
+    },
+    "139": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 1616
+    },
+    "140": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1638
+    },
+    "141": {
+      "display": "-3",
+      "accept": [
+        "-3"
+      ],
+      "tier": 3,
+      "rating": 1660
+    },
+    "142": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 3,
+      "rating": 1683
+    },
+    "143": {
+      "display": "(-2, 5)",
+      "accept": [
+        "(-2,5)",
+        "(-2, 5)"
+      ],
+      "tier": 3,
+      "rating": 1705
+    },
+    "144": {
+      "display": "6",
+      "accept": [
+        "6",
+        "£6"
+      ],
+      "tier": 3,
+      "rating": 1728
+    },
+    "145": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "146": {
+      "display": "Gradient = 1",
+      "accept": [
+        "1"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1946
+    },
+    "147": {
+      "display": "y = -x + 3",
+      "accept": [
+        "y=-x+3",
+        "-x+3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1942
+    },
+    "148": {
+      "display": "Example: (-3, 3)",
+      "accept": [
+        "(-3,3)",
+        "(3,-3)"
+      ],
+      "tier": 3,
+      "rating": 1938
+    },
+    "149": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1934
+    },
+    "150": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 3,
+      "rating": 1930
+    },
+    "151": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 3,
+      "rating": 1926
+    },
+    "152": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 3,
+      "rating": 1922
+    },
+    "153": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1918
+    },
+    "154": {
+      "display": "(4, -1)",
+      "accept": [
+        "(4,-1)",
+        "(4, -1)"
+      ],
+      "tier": 3,
+      "rating": 1914
+    },
+    "155": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1910
+    },
+    "156": {
+      "display": "Example: (3, 4)",
+      "accept": [
+        "(3,4)",
+        "(4,3)"
+      ],
+      "tier": 3,
+      "rating": 1906
+    },
+    "157": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1902
+    },
+    "158": {
+      "display": "y = 2x - 5",
+      "accept": [
+        "y=2x-5",
+        "2x-5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1898
+    },
+    "159": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1894
+    },
+    "160": {
+      "display": "Third quadrant (both negative)",
+      "accept": [
+        "third",
+        "iii"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1890
+    },
+    "161": {
+      "display": "5 km",
+      "accept": [
+        "5",
+        "5 km"
+      ],
+      "tier": 3,
+      "rating": 1886
+    },
+    "162": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 3,
+      "rating": 1882
+    },
+    "163": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1878
+    },
+    "164": {
+      "display": "y = 0.5x + 2",
+      "accept": [
+        "y=0.5x+2",
+        "0.5x+2"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1874
+    },
+    "165": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1870
+    },
+    "166": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1866
+    },
+    "167": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1862
+    },
+    "168": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1858
+    },
+    "169": {
+      "display": "Through (0,0) and (1,4)",
+      "accept": [
+        "(1,4)",
+        "1,4",
+        "steeper"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1854
+    },
+    "170": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1850
+    },
+    "171": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1846
+    },
+    "172": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1842
+    },
+    "173": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1838
+    },
+    "174": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 3,
+      "rating": 1834
+    },
+    "175": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1830
+    },
+    "176": {
+      "display": "Example: (-0.5, 1.2)",
+      "accept": [
+        ".",
+        "-",
+        ","
+      ],
+      "tier": 3,
+      "rating": 1826,
+      "contains": true
+    },
+    "177": {
+      "display": "(1, 4)",
+      "accept": [
+        "(1,4)",
+        "(1, 4)"
+      ],
+      "tier": 3,
+      "rating": 1822
+    },
+    "178": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1818
+    },
+    "179": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1814
+    },
+    "180": {
+      "display": "(4, 8)",
+      "accept": [
+        "(4,8)",
+        "(4, 8)"
+      ],
+      "tier": 3,
+      "rating": 1810
+    },
+    "181": {
+      "display": "y = 2x + 5",
+      "accept": [
+        "y=2x+5",
+        "2x+5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1806
+    },
+    "182": {
+      "display": "0",
+      "accept": [
+        "0"
+      ],
+      "tier": 3,
+      "rating": 1802
+    },
+    "183": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1798
+    },
+    "184": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1794
+    },
+    "185": {
+      "display": "(3, 2.5)",
+      "accept": [
+        "(3,2.5)",
+        "(3, 2.5)"
+      ],
+      "tier": 3,
+      "rating": 1790
+    },
+    "186": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1786
+    },
+    "187": {
+      "display": "Yes — e.g. (2, -2)",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1782
+    },
+    "188": {
+      "display": "-1.5",
+      "accept": [
+        "-1.5",
+        "-3/2"
+      ],
+      "tier": 3,
+      "rating": 1778
+    },
+    "189": {
+      "display": "Gradient 1; y = x + 1",
+      "accept": [
+        "y=x+1",
+        "x+1"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1774
+    },
+    "190": {
+      "display": "(3, 3)",
+      "accept": [
+        "(3,3)",
+        "(3, 3)"
+      ],
+      "tier": 3,
+      "rating": 1770
+    },
+    "191": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1766
+    },
+    "192": {
+      "display": "Example: (1, 1) and (2, 4)",
+      "accept": [
+        "(",
+        ",",
+        "1",
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1762,
+      "contains": true,
+      "containsMin": 2
+    },
+    "193": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 3,
+      "rating": 1758
+    },
+    "194": {
+      "display": "-4",
+      "accept": [
+        "-4"
+      ],
+      "tier": 3,
+      "rating": 1754
+    },
+    "195": {
+      "display": "(1, 2)",
+      "accept": [
+        "(1,2)",
+        "(1, 2)"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "196": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1746
+    },
+    "197": {
+      "display": "y = 7",
+      "accept": [
+        "y=7",
+        "7"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1742
+    },
+    "198": {
+      "display": "x = 5",
+      "accept": [
+        "x=5",
+        "5"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1738
+    },
+    "199": {
+      "display": "y = x",
+      "accept": [
+        "y=x",
+        "x"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1734
+    },
+    "200": {
+      "display": "75",
+      "accept": [
+        "75",
+        "£75"
+      ],
+      "tier": 3,
+      "rating": 1900
+    }
+  }
+}

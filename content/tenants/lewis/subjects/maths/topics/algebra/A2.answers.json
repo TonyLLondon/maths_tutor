@@ -1,0 +1,1768 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 530
+    },
+    "3": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 560
+    },
+    "4": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 590
+    },
+    "5": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "6": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "7": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 680
+    },
+    "8": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 710
+    },
+    "9": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 680
+    },
+    "11": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 1,
+      "rating": 710
+    },
+    "12": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 740
+    },
+    "13": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 770
+    },
+    "14": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 800
+    },
+    "15": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 830
+    },
+    "16": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 860
+    },
+    "17": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "18": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 940
+    },
+    "19": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 980
+    },
+    "20": {
+      "display": "−15",
+      "accept": [
+        "-15",
+        "−15"
+      ],
+      "tier": 1,
+      "rating": 1020
+    },
+    "21": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1060
+    },
+    "22": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1100
+    },
+    "23": {
+      "display": "Priya added 3 and 2 instead of multiplying them first. The correct value is 7.",
+      "accept": [
+        "multiply",
+        "7"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 980
+    },
+    "24": {
+      "display": "Always — 5 × 0 + 4 = 4.",
+      "accept": [
+        "always",
+        "4"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1040
+    },
+    "25": {
+      "display": "No. Squaring −1 means (−1) × (−1), which is 1.",
+      "accept": [
+        "no",
+        "1",
+        "negative"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1120
+    },
+    "26": {
+      "display": "Yes. Both expressions equal 13 when x = 5.",
+      "accept": [
+        "13",
+        "same"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1200
+    },
+    "27": {
+      "display": "True — 7 + 7 = 14 and 2 × 7 = 14, so both give the same result.",
+      "accept": [
+        "true",
+        "14"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "28": {
+      "display": "Leo has the order wrong: indices apply before multiplication, so you square x first (3^2 = 9), then multiply by 4, giving 36 — not (4 × 3)^2 = 144.",
+      "accept": [
+        "36"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "29": {
+      "display": "At x = 2, x^2 = 4 and 2x = 4 — they are equal. At x = 5, x^2 = 25 and 2x = 10 — x^2 is bigger. x^2 grows faster than 2x as x increases.",
+      "accept": [
+        "4",
+        "25",
+        "10",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "30": {
+      "display": "Mo has forgotten that a negative number squared is positive: (−4)² + 3 = 19.",
+      "accept": [
+        "19",
+        "positive",
+        "squared"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1480
+    },
+    "31": {
+      "display": "£13",
+      "accept": [
+        "13",
+        "£13"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "32": {
+      "display": "£44",
+      "accept": [
+        "44",
+        "£44"
+      ],
+      "tier": 3,
+      "rating": 1200
+    },
+    "33": {
+      "display": "40 cm²",
+      "accept": [
+        "40",
+        "40 cm2",
+        "40 cm²"
+      ],
+      "tier": 3,
+      "rating": 1300
+    },
+    "34": {
+      "display": "£12",
+      "accept": [
+        "12",
+        "£12"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1400
+    },
+    "35": {
+      "display": "28 cm, then 56 cm",
+      "accept": [
+        "28",
+        "56"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1500
+    },
+    "36": {
+      "display": "22 points",
+      "accept": [
+        "22",
+        "22 points"
+      ],
+      "tier": 3,
+      "rating": 1600
+    },
+    "37": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 3,
+      "rating": 1450
+    },
+    "38": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "39": {
+      "display": "(3 + 2)^2 = 25 but 3^2 + 4 = 13 — the two expressions give different values, so they are not equivalent.",
+      "accept": [
+        "25",
+        "13"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1953
+    },
+    "40": {
+      "display": "2, 5, 8, 11; the 10th term is 29.",
+      "accept": [
+        "2, 5, 8, 11",
+        "29"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "x + y = 5 and 2x − y = 4",
+      "accept": [
+        "5",
+        "4"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1100
+    },
+    "42": {
+      "display": "£13",
+      "accept": [
+        "13",
+        "£13"
+      ],
+      "tier": 2,
+      "rating": 1250
+    },
+    "43": {
+      "display": "-7",
+      "tier": 1,
+      "rating": 817,
+      "accept": [
+        "-7"
+      ]
+    },
+    "44": {
+      "display": "-3",
+      "tier": 1,
+      "rating": 824,
+      "accept": [
+        "-3"
+      ]
+    },
+    "45": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 1,
+      "rating": 837
+    },
+    "46": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 840
+    },
+    "47": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 1,
+      "rating": 854
+    },
+    "48": {
+      "display": "31",
+      "accept": [
+        "31"
+      ],
+      "tier": 1,
+      "rating": 857
+    },
+    "49": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 861
+    },
+    "50": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 875
+    },
+    "51": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 878
+    },
+    "52": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 882
+    },
+    "53": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 896
+    },
+    "54": {
+      "display": "0",
+      "accept": [
+        "0"
+      ],
+      "tier": 1,
+      "rating": 899
+    },
+    "55": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 903
+    },
+    "56": {
+      "display": "36",
+      "accept": [
+        "36"
+      ],
+      "tier": 1,
+      "rating": 917
+    },
+    "57": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 920
+    },
+    "58": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 934
+    },
+    "59": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 938
+    },
+    "60": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 941
+    },
+    "61": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 955
+    },
+    "62": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 959
+    },
+    "63": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 962
+    },
+    "64": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 976
+    },
+    "65": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 980
+    },
+    "66": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 1,
+      "rating": 983
+    },
+    "67": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "68": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1000
+    },
+    "69": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 1015
+    },
+    "70": {
+      "display": "42",
+      "accept": [
+        "42"
+      ],
+      "tier": 1,
+      "rating": 1018
+    },
+    "71": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1021
+    },
+    "72": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "73": {
+      "display": "19",
+      "accept": [
+        "19"
+      ],
+      "tier": 1,
+      "rating": 1039
+    },
+    "74": {
+      "display": "17",
+      "accept": [
+        "17"
+      ],
+      "tier": 1,
+      "rating": 1042
+    },
+    "75": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1057
+    },
+    "76": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1060
+    },
+    "77": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1063
+    },
+    "78": {
+      "display": "0",
+      "accept": [
+        "0"
+      ],
+      "tier": 1,
+      "rating": 1077
+    },
+    "79": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1081
+    },
+    "80": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1095
+    },
+    "81": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1098
+    },
+    "82": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1102
+    },
+    "83": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "84": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1119
+    },
+    "85": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1123
+    },
+    "86": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1137
+    },
+    "87": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1140
+    },
+    "88": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 1,
+      "rating": 1143
+    },
+    "89": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1158
+    },
+    "90": {
+      "display": "-2",
+      "accept": [
+        "-2"
+      ],
+      "tier": 1,
+      "rating": 1161
+    },
+    "91": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 1,
+      "rating": 1175
+    },
+    "92": {
+      "display": "41",
+      "accept": [
+        "41"
+      ],
+      "tier": 1,
+      "rating": 1179
+    },
+    "93": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1182,
+      "contains": true
+    },
+    "94": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1196,
+      "contains": true
+    },
+    "95": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1200,
+      "contains": true
+    },
+    "96": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1203,
+      "contains": true
+    },
+    "97": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1217,
+      "contains": true
+    },
+    "98": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1220,
+      "contains": true
+    },
+    "99": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1224,
+      "contains": true
+    },
+    "100": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1238,
+      "contains": true
+    },
+    "101": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1241,
+      "contains": true
+    },
+    "102": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1256,
+      "contains": true
+    },
+    "103": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1259,
+      "contains": true
+    },
+    "104": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1262,
+      "contains": true
+    },
+    "105": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1277,
+      "contains": true
+    },
+    "106": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1280,
+      "contains": true
+    },
+    "107": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1283,
+      "contains": true
+    },
+    "108": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1297,
+      "contains": true
+    },
+    "109": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1301,
+      "contains": true
+    },
+    "110": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1304,
+      "contains": true
+    },
+    "111": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1318,
+      "contains": true
+    },
+    "112": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1322,
+      "contains": true
+    },
+    "113": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1336,
+      "contains": true
+    },
+    "114": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1339,
+      "contains": true
+    },
+    "115": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1343,
+      "contains": true
+    },
+    "116": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1357,
+      "contains": true
+    },
+    "117": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1360,
+      "contains": true
+    },
+    "118": {
+      "display": "Substitute and compare both sides.",
+      "accept": [
+        "substitute",
+        "test",
+        "both sides",
+        "same"
+      ],
+      "tier": 2,
+      "rating": 1363,
+      "contains": true
+    },
+    "119": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1378
+    },
+    "120": {
+      "display": "50",
+      "accept": [
+        "50"
+      ],
+      "tier": 1,
+      "rating": 1381
+    },
+    "121": {
+      "display": "146",
+      "accept": [
+        "146"
+      ],
+      "tier": 1,
+      "rating": 1384
+    },
+    "122": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 1399
+    },
+    "123": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 1402
+    },
+    "124": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 1,
+      "rating": 1416
+    },
+    "125": {
+      "display": "1020",
+      "accept": [
+        "1020"
+      ],
+      "tier": 1,
+      "rating": 1420
+    },
+    "126": {
+      "display": "37.5",
+      "accept": [
+        "37.5"
+      ],
+      "tier": 1,
+      "rating": 1423
+    },
+    "127": {
+      "display": "320",
+      "accept": [
+        "320"
+      ],
+      "tier": 1,
+      "rating": 1437
+    },
+    "128": {
+      "display": "37",
+      "accept": [
+        "37"
+      ],
+      "tier": 1,
+      "rating": 1440
+    },
+    "129": {
+      "display": "23",
+      "accept": [
+        "23"
+      ],
+      "tier": 1,
+      "rating": 1444
+    },
+    "130": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 1458
+    },
+    "131": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1461
+    },
+    "132": {
+      "display": "26",
+      "accept": [
+        "26"
+      ],
+      "tier": 1,
+      "rating": 1465
+    },
+    "133": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1479
+    },
+    "134": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 1482
+    },
+    "135": {
+      "display": "460",
+      "accept": [
+        "460"
+      ],
+      "tier": 1,
+      "rating": 1497
+    },
+    "136": {
+      "display": "136",
+      "accept": [
+        "136"
+      ],
+      "tier": 1,
+      "rating": 1500
+    },
+    "137": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 1503
+    },
+    "138": {
+      "display": "23",
+      "accept": [
+        "23"
+      ],
+      "tier": 1,
+      "rating": 1517
+    },
+    "139": {
+      "display": "50",
+      "accept": [
+        "50"
+      ],
+      "tier": 1,
+      "rating": 1521
+    },
+    "140": {
+      "display": "32",
+      "accept": [
+        "32"
+      ],
+      "tier": 1,
+      "rating": 1524
+    },
+    "141": {
+      "display": "60",
+      "accept": [
+        "60"
+      ],
+      "tier": 1,
+      "rating": 1538
+    },
+    "142": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 1542
+    },
+    "143": {
+      "display": "36",
+      "accept": [
+        "36"
+      ],
+      "tier": 1,
+      "rating": 1545
+    },
+    "144": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1559
+    },
+    "145": {
+      "display": "82",
+      "accept": [
+        "82"
+      ],
+      "tier": 1,
+      "rating": 1563
+    },
+    "146": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1577
+    },
+    "147": {
+      "display": "19.5",
+      "accept": [
+        "19.5"
+      ],
+      "tier": 1,
+      "rating": 1580
+    },
+    "148": {
+      "display": "42",
+      "accept": [
+        "42"
+      ],
+      "tier": 1,
+      "rating": 1583
+    },
+    "149": {
+      "display": "23",
+      "accept": [
+        "23"
+      ],
+      "tier": 1,
+      "rating": 1598
+    },
+    "150": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 1,
+      "rating": 1601
+    },
+    "151": {
+      "display": "33",
+      "accept": [
+        "33"
+      ],
+      "tier": 1,
+      "rating": 1604
+    },
+    "152": {
+      "display": "60",
+      "accept": [
+        "60"
+      ],
+      "tier": 1,
+      "rating": 1619
+    },
+    "153": {
+      "display": "42",
+      "accept": [
+        "42"
+      ],
+      "tier": 1,
+      "rating": 1622
+    },
+    "154": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1625
+    },
+    "155": {
+      "display": "42",
+      "accept": [
+        "42"
+      ],
+      "tier": 1,
+      "rating": 1640
+    },
+    "156": {
+      "display": "320",
+      "accept": [
+        "320"
+      ],
+      "tier": 1,
+      "rating": 1643
+    },
+    "157": {
+      "display": "99",
+      "accept": [
+        "99"
+      ],
+      "tier": 1,
+      "rating": 1657
+    },
+    "158": {
+      "display": "500",
+      "accept": [
+        "500"
+      ],
+      "tier": 1,
+      "rating": 1660
+    },
+    "159": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 1664
+    },
+    "160": {
+      "display": "35",
+      "accept": [
+        "35"
+      ],
+      "tier": 1,
+      "rating": 1678
+    },
+    "161": {
+      "display": "1020",
+      "accept": [
+        "1020"
+      ],
+      "tier": 1,
+      "rating": 1681
+    },
+    "162": {
+      "display": "37.7",
+      "accept": [
+        "37.7"
+      ],
+      "tier": 1,
+      "rating": 1685
+    },
+    "163": {
+      "display": "173",
+      "accept": [
+        "173"
+      ],
+      "tier": 1,
+      "rating": 1699
+    },
+    "164": {
+      "display": "42",
+      "accept": [
+        "42"
+      ],
+      "tier": 1,
+      "rating": 1702
+    },
+    "165": {
+      "display": "-16",
+      "accept": [
+        "-16"
+      ],
+      "tier": 1,
+      "rating": 1706
+    },
+    "166": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1720
+    },
+    "167": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1723
+    },
+    "168": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 1,
+      "rating": 1737
+    },
+    "169": {
+      "display": "-3",
+      "accept": [
+        "-3"
+      ],
+      "tier": 1,
+      "rating": 1741
+    },
+    "170": {
+      "display": "False — (1+2)^2=9 but 1^2+2^2=5.",
+      "accept": [
+        "false",
+        "9",
+        "5"
+      ],
+      "tier": 2,
+      "rating": 1744,
+      "contains": true
+    },
+    "171": {
+      "display": "49",
+      "accept": [
+        "49"
+      ],
+      "tier": 1,
+      "rating": 1758
+    },
+    "172": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1762
+    },
+    "173": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1765
+    },
+    "174": {
+      "display": "4.5",
+      "accept": [
+        "4.5"
+      ],
+      "tier": 1,
+      "rating": 1779
+    },
+    "175": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1783
+    },
+    "176": {
+      "display": "Always for integers — (-x)^3 = -(x^3).",
+      "accept": [
+        "always",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1786,
+      "contains": true
+    },
+    "177": {
+      "display": "19",
+      "accept": [
+        "19"
+      ],
+      "tier": 1,
+      "rating": 1800
+    },
+    "178": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1803
+    },
+    "179": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1818
+    },
+    "180": {
+      "display": "45",
+      "accept": [
+        "45"
+      ],
+      "tier": 3,
+      "rating": 1821
+    },
+    "181": {
+      "display": "2.5",
+      "accept": [
+        "2.5"
+      ],
+      "tier": 1,
+      "rating": 1824
+    },
+    "182": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 1,
+      "rating": 1839
+    },
+    "183": {
+      "display": "120",
+      "accept": [
+        "120"
+      ],
+      "tier": 1,
+      "rating": 1842
+    },
+    "184": {
+      "display": "Always — both sides expand to match.",
+      "accept": [
+        "always",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1845,
+      "contains": true
+    },
+    "185": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1860
+    },
+    "186": {
+      "display": "106",
+      "accept": [
+        "106"
+      ],
+      "tier": 3,
+      "rating": 1863
+    },
+    "187": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1866
+    },
+    "188": {
+      "display": "False — sqrt(16)=4 not -4.",
+      "accept": [
+        "false",
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1880,
+      "contains": true
+    },
+    "189": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1884
+    },
+    "190": {
+      "display": "2.2",
+      "accept": [
+        "2.2"
+      ],
+      "tier": 1,
+      "rating": 1898
+    },
+    "191": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1901
+    },
+    "192": {
+      "display": "Always — 2^n is even for positive integer n.",
+      "accept": [
+        "always",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1905,
+      "contains": true
+    },
+    "193": {
+      "display": "80",
+      "accept": [
+        "80"
+      ],
+      "tier": 1,
+      "rating": 1919
+    },
+    "194": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1922
+    },
+    "195": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1926
+    },
+    "196": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1940
+    },
+    "197": {
+      "display": "0",
+      "accept": [
+        "0"
+      ],
+      "tier": 1,
+      "rating": 1943
+    },
+    "198": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 3,
+      "rating": 1946
+    },
+    "199": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1961
+    },
+    "200": {
+      "display": "T(4)=6 and T(1)=0; smaller at x=1 (0).",
+      "accept": [
+        "1",
+        "0",
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1964,
+      "contains": true
+    }
+  }
+}

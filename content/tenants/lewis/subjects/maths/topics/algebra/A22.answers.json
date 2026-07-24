@@ -1,0 +1,2316 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "$<$",
+      "accept": [
+        "<",
+        "less than"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "$>$",
+      "accept": [
+        ">",
+        "greater than"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "0, 1, 2",
+      "accept": [
+        "0,1,2",
+        "0, 1, 2"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "3, 4",
+      "accept": [
+        "3,4",
+        "3, 4"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "x > 5",
+      "accept": [
+        "x>5",
+        "x > 5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "x < 8",
+      "accept": [
+        "x<8",
+        "x < 8"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "x > 7",
+      "accept": [
+        "x>7",
+        "x > 7"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "x ≤ 12",
+      "accept": [
+        "x<=12",
+        "x ≤ 12",
+        "x≤12"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "x < 4",
+      "accept": [
+        "x<4",
+        "x < 4"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "x ≥ 4",
+      "accept": [
+        "x>=4",
+        "x ≥ 4",
+        "x≥4"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "x > 3",
+      "accept": [
+        "x>3",
+        "x > 3"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "x ≤ −4",
+      "accept": [
+        "x<=-4",
+        "x ≤ -4",
+        "x≤-4"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "x < 4",
+      "accept": [
+        "x<4",
+        "x < 4"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "x ≥ 8",
+      "accept": [
+        "x>=8",
+        "x ≥ 8",
+        "x≥8"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "−1, 0, 1, 2, 3",
+      "accept": [
+        "-1, 0, 1, 2, 3",
+        "-1,0,1,2,3"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "x ≥ 5",
+      "accept": [
+        "x>=5",
+        "x ≥ 5",
+        "x≥5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "x is greater than 3",
+      "accept": [
+        "greater than 3",
+        "x > 3"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "Any x less than 5, e.g. 4",
+      "accept": [
+        "4",
+        "0",
+        "1"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "23": {
+      "display": "Sam forgot to reverse the inequality sign when dividing both sides by a negative number. The correct solution is x < −4.",
+      "accept": [
+        "reverse",
+        "flip",
+        "-4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "24": {
+      "display": "Always — dividing or multiplying by a negative number always reverses the direction of the inequality.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "25": {
+      "display": "Yes, she is correct — subtracting 3 from both sides of x + 3 < 10 gives exactly x < 7, so the two inequalities have the same solution set.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "26": {
+      "display": "Dividing both sides of 2x > 10 by 2 gives x > 5 — they are the same inequality written in two different (but equivalent) forms.",
+      "accept": [
+        "divide",
+        "equivalent",
+        "same"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "27": {
+      "display": "True — the symbol ≥ means \"greater than or equal to\", so x = 4 satisfies the inequality.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "28": {
+      "display": "Leo forgot to reverse the inequality sign when dividing by a negative number. Dividing −3x < 12 by −3 correctly gives x > −4.",
+      "accept": [
+        "reverse",
+        "flip",
+        "x > -4",
+        "x>-4"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "29": {
+      "display": "x > 3 does not include 3 itself, but x ≥ 3 does include 3 — the key difference is whether the boundary value is part of the solution.",
+      "accept": [
+        "includes 3",
+        "boundary"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "30": {
+      "display": "Mo is correct — an inequality such as x > 0 is satisfied by every number greater than 0, and there are infinitely many such numbers.",
+      "accept": [
+        "correct",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "31": {
+      "display": "3p ≤ 20 → p ≤ 6⅔, so Archer can afford at most 6 pens.",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "32": {
+      "display": "4m ≤ 500 → m ≤ 125 kg.",
+      "accept": [
+        "125"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1680
+    },
+    "33": {
+      "display": "15 + 3g > 24 → 3g > 9 → g > 3, so Sloan needs to play at least 4 games.",
+      "accept": [
+        "4",
+        "g > 3",
+        "g>3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "34": {
+      "display": "2(x + x + 4) < 40 → 4x + 8 < 40 → x < 8.",
+      "accept": [
+        "x < 8",
+        "x<8"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1650
+    },
+    "35": {
+      "display": "h ≥ 120; yes, a rider exactly 120 cm tall is allowed because ≥ includes the boundary value.",
+      "accept": [
+        "h ≥ 120",
+        "h>=120",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1700
+    },
+    "36": {
+      "display": "2 + 1.5t ≤ 11 → 1.5t ≤ 9 → t ≤ 6, so Archer can park for at most 6 hours.",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "2x − 3 ≤ 5x + 6 → −9 ≤ 3x → x ≥ −3.",
+      "accept": [
+        "x ≥ -3",
+        "x>=-3",
+        "x≥-3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1400
+    },
+    "38": {
+      "display": "−4 < 2x + 2 ≤ 10 → −6 < 2x ≤ 8 → −3 < x ≤ 4. Integer solutions: −2, −1, 0, 1, 2, 3, 4.",
+      "accept": [
+        "-2, -1, 0, 1, 2, 3, 4",
+        "-3 < x",
+        "-3<x"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1411
+    },
+    "39": {
+      "display": "x + 2 > 3 gives x > 1; 2x < 16 gives x < 8. Integer solutions satisfying both: 2, 3, 4, 5, 6, 7.",
+      "accept": [
+        "2, 3, 4, 5, 6, 7"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1422
+    },
+    "40": {
+      "display": "Example: Sloan has £30 and buys books costing £6 each — 6b ≤ 30 gives b ≤ 5. Any correct real-world inequality with solution x ≤ 5 is acceptable.",
+      "accept": [
+        "6b ≤ 30",
+        "b ≤ 5",
+        "books"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1433
+    },
+    "41": {
+      "display": "x < 4",
+      "accept": [
+        "x<4",
+        "x < 4"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "3b ≤ 10",
+      "accept": [
+        "3b<=10",
+        "b ≤ 3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1500
+    },
+    "43": {
+      "display": "x ≥ 5",
+      "tier": 1,
+      "rating": 817,
+      "accept": [
+        "x>=5",
+        "x ≥ 5",
+        "x>= 5"
+      ]
+    },
+    "44": {
+      "display": "x ≥ 6",
+      "tier": 1,
+      "rating": 824,
+      "accept": [
+        "x>=6",
+        "x ≥ 6",
+        "x>= 6"
+      ]
+    },
+    "45": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 700,
+      "contains": true
+    },
+    "46": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 723,
+      "contains": true
+    },
+    "47": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 746,
+      "contains": true
+    },
+    "48": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 769,
+      "contains": true
+    },
+    "49": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 792,
+      "contains": true
+    },
+    "50": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 815,
+      "contains": true
+    },
+    "51": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 838,
+      "contains": true
+    },
+    "52": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 862,
+      "contains": true
+    },
+    "53": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 885,
+      "contains": true
+    },
+    "54": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 908,
+      "contains": true
+    },
+    "55": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 931,
+      "contains": true
+    },
+    "56": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 954,
+      "contains": true
+    },
+    "57": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 977,
+      "contains": true
+    },
+    "58": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1000,
+      "contains": true
+    },
+    "59": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1023,
+      "contains": true
+    },
+    "60": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1046,
+      "contains": true
+    },
+    "61": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1069,
+      "contains": true
+    },
+    "62": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1092,
+      "contains": true
+    },
+    "63": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1115,
+      "contains": true
+    },
+    "64": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1138,
+      "contains": true
+    },
+    "65": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1162,
+      "contains": true
+    },
+    "66": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1185,
+      "contains": true
+    },
+    "67": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1208,
+      "contains": true
+    },
+    "68": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1231,
+      "contains": true
+    },
+    "69": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1254,
+      "contains": true
+    },
+    "70": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1277,
+      "contains": true
+    },
+    "71": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1300,
+      "contains": true
+    },
+    "72": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1323,
+      "contains": true
+    },
+    "73": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1346,
+      "contains": true
+    },
+    "74": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1369,
+      "contains": true
+    },
+    "75": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1392,
+      "contains": true
+    },
+    "76": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1415,
+      "contains": true
+    },
+    "77": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1438,
+      "contains": true
+    },
+    "78": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1462,
+      "contains": true
+    },
+    "79": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1485,
+      "contains": true
+    },
+    "80": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1508,
+      "contains": true
+    },
+    "81": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1531,
+      "contains": true
+    },
+    "82": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1554,
+      "contains": true
+    },
+    "83": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1577,
+      "contains": true
+    },
+    "84": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1600,
+      "contains": true
+    },
+    "85": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 700,
+      "contains": true
+    },
+    "86": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 726,
+      "contains": true
+    },
+    "87": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 753,
+      "contains": true
+    },
+    "88": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 779,
+      "contains": true
+    },
+    "89": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 806,
+      "contains": true
+    },
+    "90": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 832,
+      "contains": true
+    },
+    "91": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 859,
+      "contains": true
+    },
+    "92": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 885,
+      "contains": true
+    },
+    "93": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 912,
+      "contains": true
+    },
+    "94": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 938,
+      "contains": true
+    },
+    "95": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 965,
+      "contains": true
+    },
+    "96": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 991,
+      "contains": true
+    },
+    "97": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1018,
+      "contains": true
+    },
+    "98": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1044,
+      "contains": true
+    },
+    "99": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1071,
+      "contains": true
+    },
+    "100": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1097,
+      "contains": true
+    },
+    "101": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1124,
+      "contains": true
+    },
+    "102": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1150,
+      "contains": true
+    },
+    "103": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1176,
+      "contains": true
+    },
+    "104": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1203,
+      "contains": true
+    },
+    "105": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1229,
+      "contains": true
+    },
+    "106": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1256,
+      "contains": true
+    },
+    "107": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1282,
+      "contains": true
+    },
+    "108": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1309,
+      "contains": true
+    },
+    "109": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1335,
+      "contains": true
+    },
+    "110": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1362,
+      "contains": true
+    },
+    "111": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1388,
+      "contains": true
+    },
+    "112": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1415,
+      "contains": true
+    },
+    "113": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1441,
+      "contains": true
+    },
+    "114": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1468,
+      "contains": true
+    },
+    "115": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1494,
+      "contains": true
+    },
+    "116": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1521,
+      "contains": true
+    },
+    "117": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1547,
+      "contains": true
+    },
+    "118": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1574,
+      "contains": true
+    },
+    "119": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1600,
+      "contains": true
+    },
+    "120": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 900,
+      "contains": true
+    },
+    "121": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 946,
+      "contains": true
+    },
+    "122": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 993,
+      "contains": true
+    },
+    "123": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1039,
+      "contains": true
+    },
+    "124": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1086,
+      "contains": true
+    },
+    "125": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1132,
+      "contains": true
+    },
+    "126": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1179,
+      "contains": true
+    },
+    "127": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1225,
+      "contains": true
+    },
+    "128": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1271,
+      "contains": true
+    },
+    "129": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1318,
+      "contains": true
+    },
+    "130": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1364,
+      "contains": true
+    },
+    "131": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1411,
+      "contains": true
+    },
+    "132": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1457,
+      "contains": true
+    },
+    "133": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1504,
+      "contains": true
+    },
+    "134": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1550,
+      "contains": true
+    },
+    "135": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1055,
+      "contains": true
+    },
+    "136": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1074,
+      "contains": true
+    },
+    "137": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1093,
+      "contains": true
+    },
+    "138": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1112,
+      "contains": true
+    },
+    "139": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1131,
+      "contains": true
+    },
+    "140": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1150,
+      "contains": true
+    },
+    "141": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1169,
+      "contains": true
+    },
+    "142": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1188,
+      "contains": true
+    },
+    "143": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1207,
+      "contains": true
+    },
+    "144": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1226,
+      "contains": true
+    },
+    "145": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1245,
+      "contains": true
+    },
+    "146": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1264,
+      "contains": true
+    },
+    "147": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1283,
+      "contains": true
+    },
+    "148": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1302,
+      "contains": true
+    },
+    "149": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1321,
+      "contains": true
+    },
+    "150": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1444,
+      "contains": true
+    },
+    "151": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1456,
+      "contains": true
+    },
+    "152": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1467,
+      "contains": true
+    },
+    "153": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1478,
+      "contains": true
+    },
+    "154": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1489,
+      "contains": true
+    },
+    "155": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1500,
+      "contains": true
+    },
+    "156": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1511,
+      "contains": true
+    },
+    "157": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1522,
+      "contains": true
+    },
+    "158": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1533,
+      "contains": true
+    },
+    "159": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1544,
+      "contains": true
+    },
+    "160": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1556,
+      "contains": true
+    },
+    "161": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1567,
+      "contains": true
+    },
+    "162": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1578,
+      "contains": true
+    },
+    "163": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1589,
+      "contains": true
+    },
+    "164": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1600,
+      "contains": true
+    },
+    "165": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1611,
+      "contains": true
+    },
+    "166": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1622,
+      "contains": true
+    },
+    "167": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1633,
+      "contains": true
+    },
+    "168": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1644,
+      "contains": true
+    },
+    "169": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1656,
+      "contains": true
+    },
+    "170": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1667,
+      "contains": true
+    },
+    "171": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1678,
+      "contains": true
+    },
+    "172": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1689,
+      "contains": true
+    },
+    "173": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1700,
+      "contains": true
+    },
+    "174": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1711,
+      "contains": true
+    },
+    "175": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1722,
+      "contains": true
+    },
+    "176": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1733,
+      "contains": true
+    },
+    "177": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1744,
+      "contains": true
+    },
+    "178": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1756,
+      "contains": true
+    },
+    "179": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1767,
+      "contains": true
+    },
+    "180": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1778,
+      "contains": true
+    },
+    "181": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1789,
+      "contains": true
+    },
+    "182": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1800,
+      "contains": true
+    },
+    "183": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1811,
+      "contains": true
+    },
+    "184": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 3,
+      "rating": 1822,
+      "contains": true
+    },
+    "185": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1833,
+      "contains": true
+    },
+    "186": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1844,
+      "contains": true
+    },
+    "187": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1856,
+      "contains": true
+    },
+    "188": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1867,
+      "contains": true
+    },
+    "189": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1878,
+      "contains": true
+    },
+    "190": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1889,
+      "contains": true
+    },
+    "191": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1900,
+      "contains": true
+    },
+    "192": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1911,
+      "contains": true
+    },
+    "193": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1922,
+      "contains": true
+    },
+    "194": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1933,
+      "contains": true
+    },
+    "195": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1944,
+      "contains": true
+    },
+    "196": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1956,
+      "contains": true
+    },
+    "197": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1967,
+      "contains": true
+    },
+    "198": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1978,
+      "contains": true
+    },
+    "199": {
+      "display": "Correct working",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1989,
+      "contains": true
+    },
+    "200": {
+      "display": "Correct working shown",
+      "accept": [
+        "x",
+        "y",
+        "n",
+        "step",
+        "="
+      ],
+      "tier": 3,
+      "rating": 2000,
+      "contains": true,
+      "containsMin": 2
+    }
+  }
+}

@@ -1,0 +1,1713 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "10 mph",
+      "accept": [
+        "10",
+        "10 mph"
+      ],
+      "tier": 1,
+      "rating": 505
+    },
+    "2": {
+      "display": "5 m/s",
+      "accept": [
+        "5",
+        "5 m/s",
+        "5m/s"
+      ],
+      "tier": 1,
+      "rating": 514
+    },
+    "3": {
+      "display": "time",
+      "accept": [
+        "time"
+      ],
+      "tier": 1,
+      "rating": 518
+    },
+    "4": {
+      "display": "6 miles",
+      "accept": [
+        "6",
+        "6 miles"
+      ],
+      "tier": 1,
+      "rating": 527
+    },
+    "5": {
+      "display": "£2 per kg",
+      "accept": [
+        "2",
+        "£2",
+        "£2 per kg"
+      ],
+      "tier": 1,
+      "rating": 536
+    },
+    "6": {
+      "display": "volume",
+      "accept": [
+        "volume"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "7": {
+      "display": "3 kg/m³",
+      "accept": [
+        "3",
+        "3 kg/m3",
+        "3kg/m3",
+        "3 kg/m³"
+      ],
+      "tier": 1,
+      "rating": 549
+    },
+    "8": {
+      "display": "3 hours",
+      "accept": [
+        "3",
+        "3 hours"
+      ],
+      "tier": 1,
+      "rating": 553
+    },
+    "9": {
+      "display": "15 mph",
+      "accept": [
+        "15",
+        "15 mph"
+      ],
+      "tier": 1,
+      "rating": 562
+    },
+    "10": {
+      "display": "2.5 kg/m³",
+      "accept": [
+        "2.5",
+        "2.5 kg/m3",
+        "2.5 kg/m³"
+      ],
+      "tier": 1,
+      "rating": 571
+    },
+    "11": {
+      "display": "30 miles",
+      "accept": [
+        "30",
+        "30 miles"
+      ],
+      "tier": 1,
+      "rating": 575
+    },
+    "12": {
+      "display": "area",
+      "accept": [
+        "area"
+      ],
+      "tier": 1,
+      "rating": 584
+    },
+    "13": {
+      "display": "60 mph",
+      "accept": [
+        "60",
+        "60 mph"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "14": {
+      "display": "5 m/s",
+      "accept": [
+        "5",
+        "5 m/s",
+        "5m/s"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "15": {
+      "display": "8 kg/m³",
+      "accept": [
+        "8",
+        "8 kg/m3",
+        "8 kg/m³"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "16": {
+      "display": "60 miles",
+      "accept": [
+        "60",
+        "60 miles"
+      ],
+      "tier": 1,
+      "rating": 800
+    },
+    "17": {
+      "display": "30 mph",
+      "accept": [
+        "30",
+        "30 mph"
+      ],
+      "tier": 1,
+      "rating": 850
+    },
+    "18": {
+      "display": "£1.50 per kg",
+      "accept": [
+        "1.5",
+        "1.50",
+        "£1.50"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "19": {
+      "display": "72 km/h",
+      "accept": [
+        "72",
+        "72 km/h"
+      ],
+      "tier": 1,
+      "rating": 950
+    },
+    "20": {
+      "display": "8 miles per litre",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1000
+    },
+    "21": {
+      "display": "1.25 g/cm³",
+      "accept": [
+        "1.25"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "22": {
+      "display": "3 hours",
+      "accept": [
+        "3",
+        "3 hours"
+      ],
+      "tier": 1,
+      "rating": 1100
+    },
+    "23": {
+      "display": "£28",
+      "accept": [
+        "28",
+        "£28"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "24": {
+      "display": "Yes — these units show how much distance is covered for each unit of time.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "25": {
+      "display": "Always — since density = mass ÷ volume, rearranging gives volume = mass ÷ density.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1008
+    },
+    "26": {
+      "display": "True — price per kg puts different pack sizes on the same scale, so you can compare them fairly.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1117
+    },
+    "27": {
+      "display": "Yes — 60 ÷ 1.5 = 40 mph, so Priya is correct.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "28": {
+      "display": "Because each one combines two different units (like distance and time, or mass and volume) into a single rate.",
+      "accept": ["combines", "units", "rate"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1333
+    },
+    "29": {
+      "display": "Sam is correct — 2500 g ÷ 2000 cm³ = 1.25 g/cm³.",
+      "accept": [
+        "yes",
+        "correct",
+        "1.25"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1442
+    },
+    "30": {
+      "display": "No, not necessarily — fuel use per mile depends on the vehicle, driving style and conditions, not just on speed.",
+      "accept": [
+        "no",
+        "not necessarily"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "31": {
+      "display": "162.5 miles",
+      "accept": [
+        "162.5"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "32": {
+      "display": "120 km/h",
+      "accept": [
+        "120",
+        "120 km/h"
+      ],
+      "tier": 3,
+      "rating": 1208
+    },
+    "33": {
+      "display": "19.3 g/cm³",
+      "accept": [
+        "19.3"
+      ],
+      "tier": 3,
+      "rating": 1317
+    },
+    "34": {
+      "display": "500 g costs £2.40/kg; 2 kg costs £2.20/kg — the 2 kg pack is better value.",
+      "accept": [
+        "2.40",
+        "2.20",
+        "2kg",
+        "2 kg"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1425
+    },
+    "35": {
+      "display": "5 m/s; 18 km/h",
+      "accept": [
+        "5",
+        "18",
+        "18 km/h"
+      ],
+      "tier": 3,
+      "rating": 1533
+    },
+    "36": {
+      "display": "1.2 kg/litre",
+      "accept": [
+        "1.2"
+      ],
+      "tier": 3,
+      "rating": 1642
+    },
+    "37": {
+      "display": "600 mph; 6 hours",
+      "accept": [
+        "600",
+        "6",
+        "6 hours"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "38": {
+      "display": "60 mph",
+      "accept": [
+        "60",
+        "60 mph"
+      ],
+      "tier": 1,
+      "rating": 787
+    },
+    "39": {
+      "display": "1.5 kg/m³",
+      "accept": [
+        "1.5",
+        "1.5 kg/m³"
+      ],
+      "tier": 1,
+      "rating": 803
+    },
+    "40": {
+      "display": "50 miles",
+      "accept": [
+        "50",
+        "50 miles"
+      ],
+      "tier": 1,
+      "rating": 804
+    },
+    "41": {
+      "display": "£2 per kg",
+      "accept": [
+        "2",
+        "£2",
+        "£2 per kg"
+      ],
+      "tier": 1,
+      "rating": 852
+    },
+    "42": {
+      "display": "20 N/m²",
+      "accept": [
+        "20",
+        "20 N/m²"
+      ],
+      "tier": 1,
+      "rating": 860
+    },
+    "43": {
+      "display": "67.5 mph",
+      "accept": [
+        "67.5",
+        "67.5 mph"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "44": {
+      "display": "2 kg/m³",
+      "accept": [
+        "2",
+        "2 kg/m³"
+      ],
+      "tier": 1,
+      "rating": 783
+    },
+    "45": {
+      "display": "120 miles",
+      "accept": [
+        "120",
+        "120 miles"
+      ],
+      "tier": 1,
+      "rating": 791
+    },
+    "46": {
+      "display": "£3 per kg",
+      "accept": [
+        "3",
+        "£3",
+        "3.00"
+      ],
+      "tier": 1,
+      "rating": 693
+    },
+    "47": {
+      "display": "300 N/m²",
+      "accept": [
+        "300"
+      ],
+      "tier": 1,
+      "rating": 841
+    },
+    "48": {
+      "display": "54 km/h",
+      "accept": [
+        "54"
+      ],
+      "tier": 1,
+      "rating": 799
+    },
+    "49": {
+      "display": "88 km/h",
+      "accept": [
+        "88"
+      ],
+      "tier": 1,
+      "rating": 743
+    },
+    "50": {
+      "display": "1.2 g/cm³",
+      "accept": [
+        "1.2"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "51": {
+      "display": "73.5 km",
+      "accept": [
+        "73.5"
+      ],
+      "tier": 1,
+      "rating": 818
+    },
+    "52": {
+      "display": "£2.80 per kg",
+      "accept": [
+        "2.8",
+        "2.80",
+        "2.80"
+      ],
+      "tier": 1,
+      "rating": 774
+    },
+    "53": {
+      "display": "5000 N/m²",
+      "accept": [
+        "5000"
+      ],
+      "tier": 1,
+      "rating": 846
+    },
+    "54": {
+      "display": "48 mph",
+      "accept": [
+        "48"
+      ],
+      "tier": 1,
+      "rating": 811
+    },
+    "55": {
+      "display": "8 kg/m³",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "56": {
+      "display": "121 miles",
+      "accept": [
+        "121"
+      ],
+      "tier": 1,
+      "rating": 831
+    },
+    "57": {
+      "display": "£10.85",
+      "accept": [
+        "10.85"
+      ],
+      "tier": 1,
+      "rating": 759
+    },
+    "58": {
+      "display": "64 km/h",
+      "accept": [
+        "64"
+      ],
+      "tier": 1,
+      "rating": 783
+    },
+    "59": {
+      "display": "1.7 g/cm³",
+      "accept": [
+        "1.7"
+      ],
+      "tier": 1,
+      "rating": 887
+    },
+    "60": {
+      "display": "20 m/s",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 858
+    },
+    "61": {
+      "display": "25 miles per litre",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 722
+    },
+    "62": {
+      "display": "3000 N/m²",
+      "accept": [
+        "3000"
+      ],
+      "tier": 1,
+      "rating": 794
+    },
+    "63": {
+      "display": "7.5 km/h",
+      "accept": [
+        "7.5"
+      ],
+      "tier": 1,
+      "rating": 863
+    },
+    "64": {
+      "display": "£2.90 per kg",
+      "accept": [
+        "2.9",
+        "2.90"
+      ],
+      "tier": 1,
+      "rating": 766
+    },
+    "65": {
+      "display": "90 km/h",
+      "accept": [
+        "90"
+      ],
+      "tier": 1,
+      "rating": 806
+    },
+    "66": {
+      "display": "0.8 kg per litre",
+      "accept": [
+        "0.8"
+      ],
+      "tier": 1,
+      "rating": 729
+    },
+    "67": {
+      "display": "30 miles",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 829
+    },
+    "68": {
+      "display": "£6 per kg",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 949
+    },
+    "69": {
+      "display": "40 N/m²",
+      "accept": [
+        "40"
+      ],
+      "tier": 1,
+      "rating": 776
+    },
+    "70": {
+      "display": "90 km/h",
+      "accept": [
+        "90"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "71": {
+      "display": "5 hours",
+      "accept": [
+        "5",
+        "5 hours"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "72": {
+      "display": "54 kg",
+      "accept": [
+        "54"
+      ],
+      "tier": 1,
+      "rating": 870
+    },
+    "73": {
+      "display": "Shop B is cheaper at £2.20 per kg (Shop A is £2.50 per kg).",
+      "accept": [
+        "b",
+        "2.20",
+        "shop b"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 833
+    },
+    "74": {
+      "display": "21.6 km/h",
+      "accept": [
+        "21.6"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "75": {
+      "display": "1.5 g/cm³",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 1,
+      "rating": 853
+    },
+    "76": {
+      "display": "52.5 miles",
+      "accept": [
+        "52.5"
+      ],
+      "tier": 1,
+      "rating": 735
+    },
+    "77": {
+      "display": "£3 per litre",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1005
+    },
+    "78": {
+      "display": "3000 N/m²",
+      "accept": [
+        "3000"
+      ],
+      "tier": 1,
+      "rating": 747
+    },
+    "79": {
+      "display": "70 mph",
+      "accept": [
+        "70"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "80": {
+      "display": "1.8 g/cm³",
+      "accept": [
+        "1.8"
+      ],
+      "tier": 1,
+      "rating": 824
+    },
+    "81": {
+      "display": "36 km/h",
+      "accept": [
+        "36"
+      ],
+      "tier": 1,
+      "rating": 768
+    },
+    "82": {
+      "display": "5 hours",
+      "accept": [
+        "5",
+        "5 hours"
+      ],
+      "tier": 1,
+      "rating": 1062
+    },
+    "83": {
+      "display": "1000 g",
+      "accept": [
+        "1000",
+        "1",
+        "1 kg"
+      ],
+      "tier": 1,
+      "rating": 814
+    },
+    "84": {
+      "display": "£12 per kg",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 779
+    },
+    "85": {
+      "display": "30000 N/m²",
+      "accept": [
+        "30000"
+      ],
+      "tier": 1,
+      "rating": 792
+    },
+    "86": {
+      "display": "60 km/h",
+      "accept": [
+        "60"
+      ],
+      "tier": 1,
+      "rating": 842
+    },
+    "87": {
+      "display": "0.8 g/cm³",
+      "accept": [
+        "0.8"
+      ],
+      "tier": 1,
+      "rating": 1075
+    },
+    "88": {
+      "display": "65 miles",
+      "accept": [
+        "65"
+      ],
+      "tier": 1,
+      "rating": 804
+    },
+    "89": {
+      "display": "£1.50 per litre",
+      "accept": [
+        "1.5",
+        "1.50"
+      ],
+      "tier": 1,
+      "rating": 1010
+    },
+    "90": {
+      "display": "25 miles per litre",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 1040
+    },
+    "91": {
+      "display": "15000 N/m²",
+      "accept": [
+        "15000"
+      ],
+      "tier": 1,
+      "rating": 835
+    },
+    "92": {
+      "display": "30 m/s",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 1068
+    },
+    "93": {
+      "display": "700 km/h",
+      "accept": [
+        "700"
+      ],
+      "tier": 2,
+      "rating": 1037
+    },
+    "94": {
+      "display": "2.5 L costs £9/L; 5 L costs £8/L — the 5 L tin is better value.",
+      "accept": [
+        "5",
+        "8",
+        "5 l"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1056
+    },
+    "95": {
+      "display": "3000 N/m²",
+      "accept": [
+        "3000"
+      ],
+      "tier": 2,
+      "rating": 1059
+    },
+    "96": {
+      "display": "False — 1 m/s equals 3.6 km/h, which is greater than 3 km/h.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1073
+    },
+    "97": {
+      "display": "12.5 km/h",
+      "accept": [
+        "12.5"
+      ],
+      "tier": 2,
+      "rating": 1076
+    },
+    "98": {
+      "display": "0.9 g/cm³",
+      "accept": [
+        "0.9"
+      ],
+      "tier": 2,
+      "rating": 1082
+    },
+    "99": {
+      "display": "147 miles",
+      "accept": [
+        "147"
+      ],
+      "tier": 2,
+      "rating": 1093
+    },
+    "100": {
+      "display": "£7 per kg",
+      "accept": [
+        "7"
+      ],
+      "tier": 2,
+      "rating": 1104
+    },
+    "101": {
+      "display": "12.5 miles per litre",
+      "accept": [
+        "12.5"
+      ],
+      "tier": 2,
+      "rating": 1110
+    },
+    "102": {
+      "display": "150000 N/m²",
+      "accept": [
+        "150000"
+      ],
+      "tier": 2,
+      "rating": 1121
+    },
+    "103": {
+      "display": "19.8 km/h",
+      "accept": [
+        "19.8"
+      ],
+      "tier": 2,
+      "rating": 1127
+    },
+    "104": {
+      "display": "68.8 mph",
+      "accept": [
+        "68.8",
+        "69"
+      ],
+      "tier": 2,
+      "rating": 1138
+    },
+    "105": {
+      "display": "19.3 g/cm³",
+      "accept": [
+        "19.3"
+      ],
+      "tier": 2,
+      "rating": 1149
+    },
+    "106": {
+      "display": "Always — pressure = force ÷ area, so doubling force doubles pressure.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1163
+    },
+    "107": {
+      "display": "27 km/h",
+      "accept": [
+        "27"
+      ],
+      "tier": 2,
+      "rating": 1166
+    },
+    "108": {
+      "display": "£4 per kg",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1172
+    },
+    "109": {
+      "display": "750 g",
+      "accept": [
+        "750"
+      ],
+      "tier": 2,
+      "rating": 1183
+    },
+    "110": {
+      "display": "106.5 miles",
+      "accept": [
+        "106.5"
+      ],
+      "tier": 2,
+      "rating": 1194
+    },
+    "111": {
+      "display": "The 4 kg bag is cheaper at £2.40 per kg (the 2.5 kg bag is £2.60 per kg).",
+      "accept": [
+        "4",
+        "2.40",
+        "4 kg"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1208
+    },
+    "112": {
+      "display": "80000 N/m²",
+      "accept": [
+        "80000"
+      ],
+      "tier": 2,
+      "rating": 1211
+    },
+    "113": {
+      "display": "68.6 km/h",
+      "accept": [
+        "68.6",
+        "68.57"
+      ],
+      "tier": 2,
+      "rating": 1217
+    },
+    "114": {
+      "display": "200 g",
+      "accept": [
+        "200"
+      ],
+      "tier": 2,
+      "rating": 1228
+    },
+    "115": {
+      "display": "55.9 mph",
+      "accept": [
+        "55.9",
+        "56"
+      ],
+      "tier": 2,
+      "rating": 1239
+    },
+    "116": {
+      "display": "15 litres per minute",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1245
+    },
+    "117": {
+      "display": "30000 N/m²",
+      "accept": [
+        "30000"
+      ],
+      "tier": 2,
+      "rating": 1256
+    },
+    "118": {
+      "display": "True — both combine cost with another unit (mass or volume).",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1270
+    },
+    "119": {
+      "display": "40 km/h",
+      "accept": [
+        "40"
+      ],
+      "tier": 2,
+      "rating": 1273
+    },
+    "120": {
+      "display": "£2.70 per kg",
+      "accept": [
+        "2.7",
+        "2.70"
+      ],
+      "tier": 2,
+      "rating": 1284
+    },
+    "121": {
+      "display": "3 g/cm³",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1290
+    },
+    "122": {
+      "display": "117.5 miles",
+      "accept": [
+        "117.5"
+      ],
+      "tier": 2,
+      "rating": 1301
+    },
+    "123": {
+      "display": "11.25 miles per litre",
+      "accept": [
+        "11.25"
+      ],
+      "tier": 2,
+      "rating": 1307
+    },
+    "124": {
+      "display": "16000 N/m²",
+      "accept": [
+        "16000"
+      ],
+      "tier": 2,
+      "rating": 1318
+    },
+    "125": {
+      "display": "43.2 km/h",
+      "accept": [
+        "43.2"
+      ],
+      "tier": 2,
+      "rating": 1329
+    },
+    "126": {
+      "display": "Yes — 80 km/h for 0.5 h is 40 km.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1343
+    },
+    "127": {
+      "display": "0.9 g/cm³",
+      "accept": [
+        "0.9"
+      ],
+      "tier": 2,
+      "rating": 1346
+    },
+    "128": {
+      "display": "£6 per litre",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1352
+    },
+    "129": {
+      "display": "49.5 km",
+      "accept": [
+        "49.5"
+      ],
+      "tier": 2,
+      "rating": 1363
+    },
+    "130": {
+      "display": "30000 N/m²",
+      "accept": [
+        "30000"
+      ],
+      "tier": 2,
+      "rating": 1374
+    },
+    "131": {
+      "display": "True — density is mass per unit volume.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1336
+    },
+    "132": {
+      "display": "60 mph",
+      "accept": [
+        "60"
+      ],
+      "tier": 2,
+      "rating": 1316
+    },
+    "133": {
+      "display": "£8 per kg",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1324
+    },
+    "134": {
+      "display": "495 g",
+      "accept": [
+        "495"
+      ],
+      "tier": 2,
+      "rating": 1337
+    },
+    "135": {
+      "display": "60.5 miles",
+      "accept": [
+        "60.5"
+      ],
+      "tier": 2,
+      "rating": 1350
+    },
+    "136": {
+      "display": "£8 per kg",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1358
+    },
+    "137": {
+      "display": "90000 N/m²",
+      "accept": [
+        "90000"
+      ],
+      "tier": 2,
+      "rating": 1371
+    },
+    "138": {
+      "display": "15 m/s",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1379
+    },
+    "139": {
+      "display": "8 miles per litre",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1392
+    },
+    "140": {
+      "display": "50 mph",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "141": {
+      "display": "500 ml is £6.80/L; 750 ml is £6.60/L — the 750 ml bottle is better value.",
+      "accept": [
+        "750",
+        "6.60"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1121
+    },
+    "142": {
+      "display": "180000 N/m²",
+      "accept": [
+        "180000"
+      ],
+      "tier": 3,
+      "rating": 1142
+    },
+    "143": {
+      "display": "1.25 m/s",
+      "accept": [
+        "1.25"
+      ],
+      "tier": 3,
+      "rating": 1163
+    },
+    "144": {
+      "display": "2.7 g/cm³",
+      "accept": [
+        "2.7"
+      ],
+      "tier": 3,
+      "rating": 1184
+    },
+    "145": {
+      "display": "50 mph",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1205
+    },
+    "146": {
+      "display": "£3.20 per kg",
+      "accept": [
+        "3.2",
+        "3.20"
+      ],
+      "tier": 3,
+      "rating": 1226
+    },
+    "147": {
+      "display": "60000 N/m²",
+      "accept": [
+        "60000"
+      ],
+      "tier": 3,
+      "rating": 1247
+    },
+    "148": {
+      "display": "Never — more miles per litre means the car uses less fuel per mile.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1268
+    },
+    "149": {
+      "display": "90 km/h",
+      "accept": [
+        "90"
+      ],
+      "tier": 3,
+      "rating": 1289
+    },
+    "150": {
+      "display": "0.9 kg per litre",
+      "accept": [
+        "0.9"
+      ],
+      "tier": 3,
+      "rating": 1310
+    },
+    "151": {
+      "display": "78 miles",
+      "accept": [
+        "78"
+      ],
+      "tier": 3,
+      "rating": 1331
+    },
+    "152": {
+      "display": "£6 per kg",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1352
+    },
+    "153": {
+      "display": "13 miles per litre",
+      "accept": [
+        "13"
+      ],
+      "tier": 3,
+      "rating": 1373
+    },
+    "154": {
+      "display": "80000 N/m²",
+      "accept": [
+        "80000"
+      ],
+      "tier": 3,
+      "rating": 1394
+    },
+    "155": {
+      "display": "72 km/h; about 44.7 mph",
+      "accept": [
+        "72",
+        "44.7",
+        "45"
+      ],
+      "tier": 3,
+      "rating": 1415
+    },
+    "156": {
+      "display": "True — for the same volume, more density means more mass.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1435
+    },
+    "157": {
+      "display": "4 km/h",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1456
+    },
+    "158": {
+      "display": "£0.85 per kg",
+      "accept": [
+        "0.85"
+      ],
+      "tier": 3,
+      "rating": 1477
+    },
+    "159": {
+      "display": "150 cm³",
+      "accept": [
+        "150"
+      ],
+      "tier": 3,
+      "rating": 1498
+    },
+    "160": {
+      "display": "400000 N/m²",
+      "accept": [
+        "400000"
+      ],
+      "tier": 3,
+      "rating": 1519
+    },
+    "161": {
+      "display": "60 mph",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1540
+    },
+    "162": {
+      "display": "£0.92 per litre",
+      "accept": [
+        "0.92"
+      ],
+      "tier": 3,
+      "rating": 1561
+    },
+    "163": {
+      "display": "900 km/h",
+      "accept": [
+        "900"
+      ],
+      "tier": 3,
+      "rating": 1582
+    },
+    "164": {
+      "display": "0.9 g/cm³",
+      "accept": [
+        "0.9"
+      ],
+      "tier": 3,
+      "rating": 1603
+    },
+    "165": {
+      "display": "134.75 miles",
+      "accept": [
+        "134.75"
+      ],
+      "tier": 3,
+      "rating": 1624
+    },
+    "166": {
+      "display": "True — pressure depends on both force and the area it acts on.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1645
+    },
+    "167": {
+      "display": "13 miles per litre",
+      "accept": [
+        "13"
+      ],
+      "tier": 3,
+      "rating": 1666
+    },
+    "168": {
+      "display": "50000 N/m²",
+      "accept": [
+        "50000"
+      ],
+      "tier": 3,
+      "rating": 1687
+    },
+    "169": {
+      "display": "162 km/h",
+      "accept": [
+        "162"
+      ],
+      "tier": 3,
+      "rating": 1708
+    },
+    "170": {
+      "display": "Both packs cost £9 per kg — same value.",
+      "accept": [
+        "9",
+        "same"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1729
+    },
+    "171": {
+      "display": "2700 kg/m³",
+      "accept": [
+        "2700"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "172": {
+      "display": "40 mph",
+      "accept": [
+        "40"
+      ],
+      "tier": 3,
+      "rating": 1782
+    },
+    "173": {
+      "display": "1300 cm³",
+      "accept": [
+        "1300"
+      ],
+      "tier": 3,
+      "rating": 1787
+    },
+    "174": {
+      "display": "3000000 N/m²",
+      "accept": [
+        "3000000"
+      ],
+      "tier": 3,
+      "rating": 1797
+    },
+    "175": {
+      "display": "13.3 km/h",
+      "accept": [
+        "13.3"
+      ],
+      "tier": 3,
+      "rating": 1807
+    },
+    "176": {
+      "display": "20 p per kg cheaper for the 5 kg bag (£2.70 vs £2.90 per kg).",
+      "accept": [
+        "20",
+        "5",
+        "2.70"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1845
+    },
+    "177": {
+      "display": "The first car — 13 miles per litre vs 12 miles per litre.",
+      "accept": [
+        "first",
+        "13"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1855
+    },
+    "178": {
+      "display": "Always — multiply m/s by 3.6 to get km/h.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1860
+    },
+    "179": {
+      "display": "45 kg",
+      "accept": [
+        "45"
+      ],
+      "tier": 3,
+      "rating": 1837
+    },
+    "180": {
+      "display": "200000 N/m²",
+      "accept": [
+        "200000"
+      ],
+      "tier": 3,
+      "rating": 1847
+    },
+    "181": {
+      "display": "720 km/h",
+      "accept": [
+        "720"
+      ],
+      "tier": 3,
+      "rating": 1852
+    },
+    "182": {
+      "display": "Can is £3.00/L; bottle is £2.75/L — the bottle is cheaper.",
+      "accept": [
+        "bottle",
+        "2.75"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1895
+    },
+    "183": {
+      "display": "450 cm³",
+      "accept": [
+        "450"
+      ],
+      "tier": 3,
+      "rating": 1867
+    },
+    "184": {
+      "display": "3 hours",
+      "accept": [
+        "3",
+        "3 hours"
+      ],
+      "tier": 3,
+      "rating": 1877
+    },
+    "185": {
+      "display": "135000 N/m²",
+      "accept": [
+        "135000"
+      ],
+      "tier": 3,
+      "rating": 1887
+    },
+    "186": {
+      "display": "False — use total distance ÷ total time, not the mean of the speeds.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1925
+    },
+    "187": {
+      "display": "300 cm³",
+      "accept": [
+        "300"
+      ],
+      "tier": 3,
+      "rating": 1902
+    },
+    "188": {
+      "display": "198 km",
+      "accept": [
+        "198"
+      ],
+      "tier": 3,
+      "rating": 1907
+    },
+    "189": {
+      "display": "13 miles per litre",
+      "accept": [
+        "13"
+      ],
+      "tier": 3,
+      "rating": 1917
+    },
+    "190": {
+      "display": "800000 N/m²",
+      "accept": [
+        "800000"
+      ],
+      "tier": 3,
+      "rating": 1927
+    },
+    "191": {
+      "display": "59.4 km/h",
+      "accept": [
+        "59.4"
+      ],
+      "tier": 3,
+      "rating": 1932
+    },
+    "192": {
+      "display": "Block A is denser, by a factor of 2.5.",
+      "accept": [
+        "a",
+        "2.5",
+        "block a"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1975
+    },
+    "193": {
+      "display": "£7 per kg",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 1947
+    },
+    "194": {
+      "display": "21.2 km/h",
+      "accept": [
+        "21.2",
+        "21.3"
+      ],
+      "tier": 3,
+      "rating": 1957
+    },
+    "195": {
+      "display": "1500000 N/m²",
+      "accept": [
+        "1500000"
+      ],
+      "tier": 3,
+      "rating": 1967
+    },
+    "196": {
+      "display": "40 mph",
+      "accept": [
+        "40"
+      ],
+      "tier": 3,
+      "rating": 1972
+    },
+    "197": {
+      "display": "Block A is denser, by a factor of 2.5.",
+      "accept": [
+        "a",
+        "2.5",
+        "block a"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "198": {
+      "display": "12 km/h",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "199": {
+      "display": "Price per kg combines cost and mass into one rate for fair comparison.",
+      "accept": ["price", "kg", "compare"],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "200": {
+      "display": "A speed, density or price-per-unit problem, with the compound-unit formula and a full working solution.",
+      "accept": ["formula", "unit", "answer"],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

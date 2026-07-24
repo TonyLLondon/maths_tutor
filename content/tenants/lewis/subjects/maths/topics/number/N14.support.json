@@ -1,0 +1,806 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Round 19 and 21 to the nearest 10, then add.",
+      "help": "$20 + 20 = 40$.\n\n**Different example:** $18 + 22$ estimates to $20 + 20 = 40$."
+    },
+    "2": {
+      "hint": "Which multiple of 10 is 49 closer to?",
+      "help": "49 is closer to **50** than to 40.\n\n**Different example:** 44 is closer to 40."
+    },
+    "3": {
+      "hint": "Estimate $8 \\times 5$ — which size makes sense?",
+      "help": "$8 \\times 5 = 40$, so **40** is sensible.\n\n**Different example:** $3 \\times 6$ is about 20, not 200."
+    },
+    "4": {
+      "hint": "Inverse of addition: subtract 6 from 13.",
+      "help": "$13 - 6 = 7$ checks $7 + 6 = 13$.\n\n**Different example:** Check $9 + 4$ with $13 - 4$."
+    },
+    "5": {
+      "hint": "Look at the units digit 3 in 63.",
+      "help": "63 rounds to **60** to the nearest 10.\n\n**Different example:** 67 → 70."
+    },
+    "6": {
+      "hint": "Round 98 and 51 to the nearest 10.",
+      "help": "$100 - 50 = 50$ estimate.\n\n**Different example:** $99 - 48 \\approx 100 - 50$."
+    },
+    "7": {
+      "hint": "About £1 each for 6 pencils.",
+      "help": "Roughly **£6** (6 × £1).\n\n**Different example:** 4 items at about £2 ≈ £8."
+    },
+    "8": {
+      "hint": "Is 24 + 31 near 5 or near 50?",
+      "help": "Exact sum is 55, so **5** is not sensible.\n\n**Different example:** 2 + 3 = 5 is sensible."
+    },
+    "9": {
+      "hint": "Units digit 7 in 487.",
+      "help": "487 → **490** to nearest 10.\n\n**Different example:** 482 → 480."
+    },
+    "10": {
+      "hint": "Look at the hundredths digit in 6.28.",
+      "help": "6.28 → **6.3** to 1 d.p.\n\n**Different example:** 4.24 → 4.2."
+    },
+    "11": {
+      "hint": "Round 39 and 21 to the nearest 10.",
+      "help": "$40 \\times 20 = 800$.\n\n**Different example:** $38 \\times 22 \\approx 40 \\times 20$."
+    },
+    "12": {
+      "hint": "Round 502 and 9 to easy numbers.",
+      "help": "Sensible estimate: **50** ($500 \\div 10$) or similar.\n\n**Different example:** $498 \\div 9 \\approx 500 \\div 10$."
+    },
+    "13": {
+      "hint": "Tens and units in 2345 — nearest 100.",
+      "help": "2345 → **2300** to the nearest 100 because 45 is less than 50.\n\n**Different example:** 2380 → 2400."
+    },
+    "14": {
+      "hint": "Third decimal in 8.652 for 2 d.p.",
+      "help": "8.652 → **8.65** to 2 d.p. because the third decimal is 2 (round down).\n\n**Different example:** 3.456 → 3.46."
+    },
+    "15": {
+      "hint": "Round 58 and 32 to the nearest 10.",
+      "help": "$60 \\times 30 = 1800$.\n\n**Different example:** $61 \\times 29 \\approx 60 \\times 30$."
+    },
+    "16": {
+      "hint": "First two significant figures in 0.0847.",
+      "help": "0.0847 → **0.085** (2 s.f.).\n\n**Different example:** 0.00672 → 0.0067."
+    },
+    "17": {
+      "hint": "Round 810 and 42 to friendly numbers.",
+      "help": "Estimate **20** ($800 \\div 40$).\n\n**Different example:** $792 \\div 38 \\approx 800 \\div 40$."
+    },
+    "18": {
+      "hint": "Look at the third decimal in 3.995.",
+      "help": "3.995 → **4.00** to 2 d.p.\n\n**Different example:** 2.994 → 2.99."
+    },
+    "19": {
+      "hint": "Nearest 1000 to 19 872.",
+      "help": "19 872 → **20 000**.\n\n**Different example:** 18 400 → 18 000."
+    },
+    "20": {
+      "hint": "Round 4.8 and 5.1 to whole numbers.",
+      "help": "$5 \\times 5 = 25$.\n\n**Different example:** $4.9 \\times 5.2 \\approx 5 \\times 5$."
+    },
+    "21": {
+      "hint": "Second decimal in 0.6666 for 1 d.p.",
+      "help": "0.6666 → **0.7** to 1 d.p. because the second decimal is 6 (round up).\n\n**Different example:** 0.44 → 0.4."
+    },
+    "22": {
+      "hint": "Round each to the nearest 100.",
+      "help": "$300 + 400 = 700$.\n\n**Different example:** $287 + 412 \\approx 300 + 400$."
+    },
+    "23": {
+      "hint": "How far is 500 from 503?",
+      "help": "503 is only 3 away from 500, so the estimate is **sensible** / **yes**."
+    },
+    "24": {
+      "hint": "Try rounding both factors up — is the product above the true value?",
+      "help": "Rounding both **up** before multiplying gives an estimate **bigger** than the true product. **Always**; e.g. $2 \\times 2 = 4 > 1.8 \\times 1.9$."
+    },
+    "25": {
+      "hint": "Work exact $6.8 \\times 3.2$ and compare with 21.",
+      "help": "Exact $6.8 \\times 3.2 = 21.76$, close to estimate 21 — answer **yes**, sensible.\n\n**Different example:** $5.1 \\times 4.9 \\approx 25$ is close to 24.99."
+    },
+    "26": {
+      "hint": "Can a number round to itself to the nearest 10?",
+      "help": "**Sometimes** — 40 stays 40 when rounded to the nearest 10, but 43 becomes 40.\n\n**Different example:** 50 stays 50."
+    },
+    "27": {
+      "hint": "Next digit is 5 in 3.65 — round up the tenths.",
+      "help": "3.65 → **3.7** to 1 d.p., not 3.6. Mention rounding **up** at 5."
+    },
+    "28": {
+      "hint": "Round attendance and ticket price sensibly.",
+      "help": "e.g. $30\\,000 \\times £50 = £1\\,500\\,000$. Show your rounded values."
+    },
+    "29": {
+      "hint": "Round 288 and 19.",
+      "help": "About $300 \\times 20 = 6000$ kg.\n\n**Different example:** $290 \\times 20$ gives similar."
+    },
+    "30": {
+      "hint": "Round each mile distance to nearest 10.",
+      "help": "Estimate $190 + 210 = 400$; exact 401 — very close. Include **400** and **401** or similar."
+    },
+    "31": {
+      "hint": "Round 24 and 32 down to 20 and 30.",
+      "help": "Estimate $20 \\times 30 = 600$; exact 768 — **too low** because both numbers were rounded down."
+    },
+    "32": {
+      "hint": "Round £2.95 to nearest pound.",
+      "help": "Estimate $6 \\times £3 = £18$; exact £17.70. Show both estimate and exact."
+    },
+    "33": {
+      "hint": "Units digit 7 in 47.",
+      "help": "47 → **50** to the nearest 10 because 7 ≥ 5.\n\n**Different example:** 43 → 40."
+    },
+    "34": {
+      "hint": "Hundredths digit in 3.47.",
+      "help": "3.47 → **3.5** to 1 d.p.\n\n**Different example:** 2.44 → 2.4."
+    },
+    "35": {
+      "hint": "19 → 20 and 21 → 20.",
+      "help": "$20 \\times 20 = 400$.\n\n**Different example:** $18 \\times 22 \\approx 20 \\times 20$."
+    },
+    "36": {
+      "hint": "156 to nearest 100.",
+      "help": "156 → **200** to the nearest 100 because 56 ≥ 50.\n\n**Different example:** 149 → 100."
+    },
+    "37": {
+      "hint": "Round to nearest 100.",
+      "help": "$100 + 200 = 300$.\n\n**Different example:** $98 + 203 \\approx 100 + 200$."
+    },
+    "38": {
+      "hint": "2.95 m to nearest metre.",
+      "help": "2.95 → **3** m to the nearest metre because 0.95 ≥ 0.5.\n\n**Different example:** 2.4 m → 2 m."
+    },
+    "39": {
+      "hint": "Exact $49 \\times 52$, then estimate with rounding.",
+      "help": "Exact **2548**; estimate e.g. $50 \\times 50 = 2500$ — close. Give exact and compare."
+    },
+    "40": {
+      "hint": "Values that round to 3.8 to 1 d.p. lie in an interval.",
+      "help": "Smallest **3.75**; largest just below **3.85** ($3.75 \\le x < 3.85$)."
+    },
+    "41": {
+      "hint": "Which squares does 50 lie between?",
+      "help": "$\\sqrt{50}$ is between **7** and **8**, closer to **7** ($7^2=49$)."
+    },
+    "42": {
+      "hint": "Nearest 1000 to 20 000 — half-width 500.",
+      "help": "Nearest 1000 on 20 000: go half a thousand below and above. Smallest **19 500**; largest just below **20 500** is **20 499**.\n\n**Different example:** 3000 to nearest 1000 runs from 2500 to 3499."
+    },
+    "43": {
+      "hint": "Round 612 and 29.",
+      "help": "Estimate $600 \\div 30 = 20$; exact ≈ 21.1 — estimate is **smaller** than exact."
+    },
+    "44": {
+      "hint": "Does rounding change the true value?",
+      "help": "Rounding makes work easier but **does** change accuracy slightly. Archer is **not** correct — say **no** and that error is introduced."
+    }
+,
+    "45": {
+      "hint": "Look at the ones digit — is 72 nearer to 70 or 80?",
+      "help": "Numbers **5–9** in the ones place round **up**; **0–4** round **down**. So **72 → 70**.\n\nExample: **68 → 70**, **74 → 70**."
+    },
+    "46": {
+      "hint": "Keep one digit after the decimal point.",
+      "help": "The **8** in the hundredths place rounds the **8** tenths up to **9**, so **5.84 → 5.8**.\n\nExample: **3.14 → 3.1**."
+    },
+    "47": {
+      "hint": "Round 31 and 68 to the nearest 10, then add.",
+      "help": "**31 → 30** and **68 → 70**, so the estimate is **30 + 70 = 100**.\n\nExample: **19 + 21 → 20 + 20 = 40**."
+    },
+    "48": {
+      "hint": "Which two hundreds is 892 between?",
+      "help": "**892** is closer to **900** than to **800**, so round to **900**.\n\nExample: **850 → 900**."
+    },
+    "49": {
+      "hint": "Round each factor to the nearest 10 before multiplying.",
+      "help": "**47 → 50**, **23 → 20**, estimate **50 × 20 = 1000**.\n\nExample: **39 × 21 → 40 × 20 = 800**."
+    },
+    "50": {
+      "hint": "Adding the difference back should give the starting number.",
+      "help": "If **56 − 19 = 37**, check with **37 + 19 = 56**.\n\nExample: check **13 − 5 = 8** using **8 + 5 = 13**."
+    },
+    "51": {
+      "hint": "Count significant figures from the first non-zero digit.",
+      "help": "**0.0376** has first sig fig **3**; second is **7**, so two sf gives **0.038**.\n\nExample: **0.0847 → 0.085** (two sf)."
+    },
+    "52": {
+      "hint": "Round each number to the nearest 100 first.",
+      "help": "**403 → 400**, **198 → 200**, estimate **400 − 200 = 200**.\n\nExample: **289 + 411 → 300 + 400 = 700**."
+    },
+    "53": {
+      "hint": "Watch the thousandths digit when rounding to two decimals.",
+      "help": "**14.995** — the **5** in thousandths rounds the hundredths **9** up, giving **15.00**.\n\nExample: **3.995 → 4.00** to two dp."
+    },
+    "54": {
+      "hint": "Round 7.9 and 4.1 to whole numbers, then multiply.",
+      "help": "**8 × 4 = 32** is a quick estimate (exact **15.99**).\n\nExample: **4.8 × 5.1 → 5 × 5 = 25**."
+    },
+    "55": {
+      "hint": "Round £1.20 to the nearest pound, then multiply by 8.",
+      "help": "**£1.20 → £1**, so **8 × £1 = £8** (exact **£9.60**).\n\nExample: **6 pencils at about £1 → about £6**."
+    },
+    "56": {
+      "hint": "Which thousand is 4567 closest to?",
+      "help": "**4567** is nearer **5000** than **4000**.\n\nExample: **19 872 → 20 000** to the nearest 1000."
+    },
+    "57": {
+      "hint": "Try rounding to numbers that divide easily.",
+      "help": "**95 ÷ 19 = 5** exactly — sometimes friendly numbers give the exact quotient.\n\nExample: **502 ÷ 9 ≈ 500 ÷ 10 = 50**."
+    },
+    "58": {
+      "hint": "One significant figure means one non-zero digit.",
+      "help": "**250 → 300** (the **5** rounds the **2** up).\n\nExample: **780 → 800** to one sf."
+    },
+    "59": {
+      "hint": "Round each addend to the nearest 100.",
+      "help": "**156 → 200**, **243 → 200**, estimate **200 + 200 = 400**.\n\nExample: **98 + 203 → 100 + 200 = 300**."
+    },
+    "60": {
+      "hint": "Compare 28 × 11 with 300 mentally.",
+      "help": "**28 × 11 = 308**, so **300** is sensible — answer **yes**.\n\nExample: **5** is not sensible for **24 + 31**."
+    },
+    "61": {
+      "hint": "The thousandths digit is 9 — does it affect the tenths place?",
+      "help": "**9.999 → 10.0** to one decimal place.\n\nExample: **6.28 → 6.3**."
+    },
+    "62": {
+      "hint": "Both numbers are near 50 — use 50 × 50.",
+      "help": "**50 × 50 = 2500** estimates **52 × 48** (exact **2496**).\n\nExample: **49 × 51 ≈ 50²**."
+    },
+    "63": {
+      "hint": "Division undoes multiplication for the same numbers.",
+      "help": "**63 ÷ 9 = 7** checks **9 × 7 = 63**.\n\nExample: **13 − 6 = 7** checks **7 + 6 = 13**."
+    },
+    "64": {
+      "hint": "Two sf: first non-zero is 4, second is 5.",
+      "help": "**0.00456 → 0.0046** (the **6** rounds the **5** up).\n\nExample: **0.05052 → 0.0505** to three sf."
+    },
+    "65": {
+      "hint": "Look at the ones digit of 1234.",
+      "help": "**1234 → 1230** to the nearest 10.\n\nExample: **487 → 490**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "66": {
+      "hint": "Round to two digits after the decimal point.",
+      "help": "**7.046 → 7.05** (hundredths digit **6** rounds up).\n\nExample: **8.652 → 8.65**."
+    },
+    "67": {
+      "hint": "Round 68 and 31 to tens, then multiply.",
+      "help": "**70 × 30 = 2100** (exact **2108**).\n\nExample: **58 × 32 → 60 × 30**."
+    },
+    "68": {
+      "hint": "3456 sits between 3400 and 3500.",
+      "help": "Round to **3500** to the nearest 100.\n\nExample: **2345 → 2300**."
+    },
+    "69": {
+      "hint": "Try 800 ÷ 40 or 780 ÷ 40.",
+      "help": "**781 ÷ 38 ≈ 20** using **800 ÷ 40**.\n\nExample: **810 ÷ 42 ≈ 800 ÷ 40**."
+    },
+    "70": {
+      "hint": "Three significant figures — keep three counting digits.",
+      "help": "**0.05052 → 0.0505**.\n\nExample: **0.0847 → 0.085** (two sf)."
+    },
+    "71": {
+      "hint": "Round each decimal to the nearest whole number.",
+      "help": "**5 + 4 = 9** estimates **4.6 + 3.8**.\n\nExample: **4.8 + 5.1 → 5 + 5**."
+    },
+    "72": {
+      "hint": "Is 19 499 closer to 19 000 or 20 000?",
+      "help": "Round to **19 000** to the nearest 1000.\n\nExample: **19 872 → 20 000**."
+    },
+    "73": {
+      "hint": "30 × 40 is a quick product.",
+      "help": "**29 → 30**, **41 → 40**, estimate **1200**.\n\nExample: **39 × 21 → 40 × 20**."
+    },
+    "74": {
+      "hint": "Look at the thousandths digit 5.",
+      "help": "**6.275 → 6.28** to two decimal places.\n\nExample: **3.995 → 4.00**."
+    },
+    "75": {
+      "hint": "Both numbers are near 500.",
+      "help": "**512 → 500**, **487 → 500**, sum **1000**.\n\nExample: **289 + 411 → 300 + 400**."
+    },
+    "76": {
+      "hint": "780 has three digits — keep one sf.",
+      "help": "**780 → 780** or **800**? The **8** is the only sf if we write **7.8 × 10²** → **800** to one sf.\n\nExample: **6040 → 6000**."
+    },
+    "77": {
+      "hint": "Round 903 and 29 to one significant figure each.",
+      "help": "**900 ÷ 30 = 30**.\n\nExample: **502 ÷ 9 ≈ 500 ÷ 10**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "78": {
+      "hint": "Keep three digits after the decimal point.",
+      "help": "**3.14159 → 3.142**.\n\nExample: round **π** to three dp for a rough value."
+    },
+    "79": {
+      "hint": "20 × 50 is an easy estimate.",
+      "help": "**18 → 20**, **52 → 50**, product **1000**.\n\nExample: **18 × 52** is near **20 × 50**."
+    },
+    "80": {
+      "hint": "Two sf for a small decimal.",
+      "help": "**0.00987 → 0.0099** (or **0.010**).\n\nExample: **0.00804** to two sf."
+    },
+    "81": {
+      "hint": "Round to hundreds before subtracting.",
+      "help": "**296 → 300**, **104 → 100**, estimate **200**.\n\nExample: **403 − 198 → 400 − 200**."
+    },
+    "82": {
+      "hint": "The hundredths digit is 5 — round the tenths.",
+      "help": "**55.55 → 55.6** to one dp.\n\nExample: **4.85 → 4.9**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "83": {
+      "hint": "6 × 5 estimates the product.",
+      "help": "**6 × 5 = 30** for **6.2 × 5.3**.\n\nExample: **7 × 3** for **6.8 × 3.2**."
+    },
+    "84": {
+      "hint": "12 345 to the nearest 100.",
+      "help": "Look at tens digit **4** → **12 300**.\n\nExample: **156 → 200** to nearest 100."
+    },
+    "85": {
+      "hint": "450 ÷ 20 is simpler than 449 ÷ 21.",
+      "help": "Estimate **20** (exact about **21.4**).\n\nExample: **612 ÷ 29 ≈ 600 ÷ 30**."
+    },
+    "86": {
+      "hint": "0.1999 — does the 9 affect the tenths?",
+      "help": "**0.1999 → 0.2** to one decimal place.\n\nExample: **0.6666 → 0.7**."
+    },
+    "87": {
+      "hint": "Round each addend to the nearest 10.",
+      "help": "**70 + 30 + 90 = 190**.\n\nExample: round three prices before adding."
+    },
+    "88": {
+      "hint": "6040 to two significant figures.",
+      "help": "**6000** (second digit **0** stays).\n\nExample: **780 → 800** to one sf."
+    },
+    "89": {
+      "hint": "40 × 60 estimates 38 × 62.",
+      "help": "Product about **2400**.\n\nExample: **58 × 32 → 60 × 30**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "90": {
+      "hint": "Trailing zeros can matter in decimal places.",
+      "help": "**8.004 → 8.00** to two dp.\n\nExample: **3.995 → 4.00**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "91": {
+      "hint": "Round both numbers to the nearest 100.",
+      "help": "**1200 − 600 = 600**.\n\nExample: **296 − 104 → 300 − 100**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "92": {
+      "hint": "37 500 to one significant figure.",
+      "help": "**40 000**.\n\nExample: **250 → 300**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "93": {
+      "hint": "5 × 3 after rounding.",
+      "help": "**5 × 3 = 15**.\n\nExample: **6 × 5** for decimals near whole numbers."
+    },
+    "94": {
+      "hint": "Look at the third decimal digit.",
+      "help": "**0.666 → 0.67** to two dp.\n\nExample: **0.6666 → 0.7** to one dp."
+    },
+    "95": {
+      "hint": "860 ÷ 40 is friendly.",
+      "help": "Estimate **20** (exact **19.9…**).\n\nExample: **856 ÷ 43 ≈ 860 ÷ 40**."
+    },
+    "96": {
+      "hint": "999 is very close to 1000.",
+      "help": "To nearest **100**, **999 → 1000**.\n\nExample: **892 → 900**."
+    },
+    "97": {
+      "hint": "44 → 40 and 56 → 60.",
+      "help": "**40 × 60 = 2400** (exact **2464**).\n\nExample: **47 × 23 → 50 × 20**."
+    },
+    "98": {
+      "hint": "Look at the hundredths digit 7.",
+      "help": "**2.375 → 2.4** to one dp.\n\nExample: **6.275 → 6.3**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "99": {
+      "hint": "Both numbers are near 200 and 300.",
+      "help": "**200 × 300 = 60 000**.\n\nExample: **199 × 301** is close to **200 × 300**."
+    },
+    "100": {
+      "hint": "Try rounding both parts up in a subtraction like 52 − 11.",
+      "help": "When **both** numbers round **up**, the estimate can be **higher or lower** than the exact difference — so **sometimes**.\n\nExample: **703 − 298** vs **700 − 300**."
+    },
+    "101": {
+      "hint": "When the next digit is 5, which way do you round?",
+      "help": "**4.85** has **5** hundredths, so round **8** tenths **up** to **9** → **4.9**.\n\nExample: **3.65 → 3.7**."
+    },
+    "102": {
+      "hint": "Does 40 change when rounded to the nearest 10?",
+      "help": "**40** already ends in **0**; **43** becomes **40** — so **sometimes**.\n\nExample: **always/sometimes/never** needs a counterexample."
+    },
+    "103": {
+      "hint": "Work out 703 − 298 exactly.",
+      "help": "Exact **405**; estimate **400** is very close → **yes, sensible**.\n\nExample: **198 + 305 ≈ 500** vs **503**."
+    },
+    "104": {
+      "hint": "What happens if one factor goes up and one goes down?",
+      "help": "Errors can **partially cancel**, giving a **closer** product than rounding both the same way.\n\nExample: **49 × 51 ≈ 50²**."
+    },
+    "105": {
+      "hint": "What operation undoes addition?",
+      "help": "**Subtraction** checks addition: if **a + b = c**, then **c − b = a** → **always**.\n\nExample: **7 + 6 = 13** checked with **13 − 6**."
+    },
+    "106": {
+      "hint": "Draw a number line for multiples of 10 near 50.",
+      "help": "Values from **45** up to **54** round to **50** — smallest whole number is **45**.\n\nExample: bounds for rounding to nearest 10."
+    },
+    "107": {
+      "hint": "Try 1.99 to one decimal place.",
+      "help": "**1.99 → 2.0**, which is **bigger** than **1.99** — so **sometimes**, not always.\n\nExample: **1.24 → 1.2** gets smaller."
+    },
+    "108": {
+      "hint": "Use (50 − 1)(50 + 1).",
+      "help": "This expands to **50² − 1**, so **49 × 51** is one less than **2500**.\n\nExample: difference-of-squares pattern."
+    },
+    "109": {
+      "hint": "Can rounding make an estimate too big?",
+      "help": "Yes — e.g. rounding **both factors up** before multiplying → **never** must be **less**.\n\nExample: over-estimates in shopping."
+    },
+    "110": {
+      "hint": "Is 0.5 halfway between 0 and 1?",
+      "help": "**0.5** rounds **up** to **1** to the nearest whole number — Kim is **wrong**.\n\nExample: **1.5 → 2**."
+    },
+    "111": {
+      "hint": "Try 45 to the nearest 10 and to the nearest 100.",
+      "help": "**45 → 50** (nearest 10) but **0** or **100** to nearest 100 — **sometimes** the same.\n\nExample: **40** stays **40** for both."
+    },
+    "112": {
+      "hint": "Multiply the claimed answer by the divisor.",
+      "help": "**7 × 12 = 84** — if division is correct, you get **84**.\n\nExample: check **84 ÷ 12** with **7 × 12**."
+    },
+    "113": {
+      "hint": "Add exact values, then round once — compare.",
+      "help": "Order of rounding can change the result → **sometimes** the same, sometimes not.\n\nExample: **2.4 + 2.4** vs rounding first."
+    },
+    "114": {
+      "hint": "Think of shopping vs medicine.",
+      "help": "**Estimate:** rough total cost. **Exact:** dose or bank transfer.\n\nExample: **about £50** vs **£50.95** exact."
+    },
+    "115": {
+      "hint": "Add 502 and 498 exactly.",
+      "help": "They sum to **1000**, so **500** is an excellent estimate → **always** sensible here.\n\nExample: numbers equally above/below a round value."
+    },
+    "116": {
+      "hint": "Find the difference from 156 for each estimate.",
+      "help": "**160** is **4** away; **150** is **6** away; **140** is **16** away → **160** closest.\n\nExample: pick smallest error."
+    },
+    "117": {
+      "hint": "Does 0.004 have a non-zero digit?",
+      "help": "Any **non-zero** number has at least one sig fig → **always** (in normal form).\n\nExample: **0.050** has two sf."
+    },
+    "118": {
+      "hint": "What is the digit after the 9 in 9.95?",
+      "help": "The **5** forces **9.9 → 10.0** when rounding to one dp.\n\nExample: carrying when rounding decimals."
+    },
+    "119": {
+      "hint": "If c − b = a, must a + b = c?",
+      "help": "A successful **inverse check** means the calculation is **correct** → **always** for that check.\n\nExample: one failed check means wrong answer."
+    },
+    "120": {
+      "hint": "Work out 38 × 52 or compare errors.",
+      "help": "Exact **1976**; **2000** is only **24** off vs **1500** → **2000** closer.\n\nExample: pick better rounding."
+    },
+    "121": {
+      "hint": "Which hundred is 999 nearest?",
+      "help": "**999 → 1000**, not **900** → **never** gives **900**.\n\nExample: **999** to nearest 100."
+    },
+    "122": {
+      "hint": "Recall bounds for nearest cm.",
+      "help": "From **5.5 cm** up to but not including **6.5 cm** — longest just below **6.5 cm**.\n\nExample: **5 cm** to nearest cm."
+    },
+    "123": {
+      "hint": "If both factors get smaller, what happens to the product?",
+      "help": "Smaller factors → smaller product → **always** an **underestimate**.\n\nExample: round **both down** before ×."
+    },
+    "124": {
+      "hint": "Why is 100 × 100 easy?",
+      "help": "Both numbers are **very close** to **100**, and **100²** is quick.\n\nExample: **99 × 101 ≈ 100²**."
+    },
+    "125": {
+      "hint": "Can exact work be right if your estimate was poor?",
+      "help": "A bad estimate does **not** prove the exact work wrong → **never**.\n\nExample: rough mental check vs careful calculation."
+    },
+    "126": {
+      "hint": "Is always rounding up realistic for every purchase?",
+      "help": "Safer for budgets sometimes, but often **sensible rounding** is enough — **not always** agree.\n\nExample: **£2.95 → £3** vs **£3.50**."
+    },
+    "127": {
+      "hint": "Look at the hundredths digit of 0.049.",
+      "help": "**0.049 → 0.0** to one dp → **always** in this case.\n\nExample: small decimals rounding to **0.0**."
+    },
+    "128": {
+      "hint": "Lower bound for one decimal place rounding to 3.2.",
+      "help": "From **3.15** up to **3.25** (upper not included) — smallest **3.15**.\n\nExample: **3.8** one dp bounds."
+    },
+    "129": {
+      "hint": "Compare dividing by 9.8 vs by 10.",
+      "help": "If the divisor is **far** from **10**, using **10** is poor → **sometimes** unreliable.\n\nExample: **810 ÷ 42** vs **800 ÷ 40**."
+    },
+    "130": {
+      "hint": "Round £24.95 and 312 to friendly numbers.",
+      "help": "e.g. **£25 × 300 = £7500** or **£25 × 312** — about **£7800**.\n\nExample: ticket income estimates."
+    },
+    "131": {
+      "hint": "Round 19 tonnes and multiply by 28.",
+      "help": "**28 × 20 ≈ 560** tonnes.\n\nExample: **288 × 19 ≈ 300 × 20**."
+    },
+    "132": {
+      "hint": "Round 87% and 34% to the nearest 10%.",
+      "help": "**90% − 30% = 60%** lost (exact **53%**).\n\nExample: percentage change estimates."
+    },
+    "133": {
+      "hint": "Area ≈ length × width after rounding sides.",
+      "help": "**50 × 30 = 1500 m²**.\n\nExample: field area with rounded dimensions."
+    },
+    "134": {
+      "hint": "Round ticket price and attendance.",
+      "help": "**£40 × 2400 = £96 000**.\n\nExample: **31000 × £50** income.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "135": {
+      "hint": "Find flour per person, then scale to 11.",
+      "help": "**325 ÷ 4 ≈ 80 g** each → **80 × 11 ≈ 880–900 g**.\n\nExample: scaling recipes."
+    },
+    "136": {
+      "hint": "Round each leg to the nearest 10 miles.",
+      "help": "**130 + 90 + 60 = 280** miles.\n\nExample: **187 + 214 → 190 + 210**."
+    },
+    "137": {
+      "hint": "Round shelves and boxes per shelf.",
+      "help": "**50 × 60 = 3000** boxes.\n\nExample: **24 × 32 → 20 × 30**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "138": {
+      "hint": "Round pence and litres separately.",
+      "help": "**140p × 40 = 5600p ≈ £56**.\n\nExample: petrol cost estimates."
+    },
+    "139": {
+      "hint": "Divide volume by flow rate.",
+      "help": "**400 ÷ 8 ≈ 50** seconds (use **8** from **8.4**).\n\nExample: time = amount ÷ rate."
+    },
+    "140": {
+      "hint": "Round each price to the nearest pound.",
+      "help": "About **£4 + £2 + £6 + £2 + £4 + £1 ≈ £19–20**.\n\nExample: basket totals."
+    },
+    "141": {
+      "hint": "Multiply steps by step length, then convert to km.",
+      "help": "**18 500 × 0.75 m ≈ 13 875 m ≈ 14 km**.\n\nExample: distance from steps."
+    },
+    "142": {
+      "hint": "Pages ≈ total ink ÷ ink per page.",
+      "help": "**480 ÷ 12 = 40** pages.\n\nExample: **502 ÷ 9** style division estimate."
+    },
+    "143": {
+      "hint": "Nearest 1000 — half-width is 500.",
+      "help": "From **23 500** to **24 499** inclusive.\n\nExample: **20 000** to nearest 1000."
+    },
+    "144": {
+      "hint": "Which squares is 80 between?",
+      "help": "**8² = 64**, **9² = 81**, so **between 8 and 9**.\n\nExample: **√50** between **7 and 8**."
+    },
+    "145": {
+      "hint": "47 min is close to three-quarters of an hour.",
+      "help": "**2 h 47 min ≈ 2.8 h** or about **3 h**.\n\nExample: time estimates."
+    },
+    "146": {
+      "hint": "Multiply 2.5 by 17 or round first.",
+      "help": "**2.5 × 17 = 42.5 kg** → estimate **40–43 kg**.\n\nExample: **6 × 2.95** packs."
+    },
+    "147": {
+      "hint": "14 × about 70 kg.",
+      "help": "**14 × 70 = 980 kg** (round **68 → 70**).\n\nExample: elevator load."
+    },
+    "148": {
+      "hint": "30% off means pay 70%.",
+      "help": "**45 × 0.7 = £31.50**.\n\nExample: sale price from percent off."
+    },
+    "149": {
+      "hint": "Time ≈ 55 ÷ 2.8 minutes.",
+      "help": "About **20 minutes**.\n\nExample: fill-rate problems.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "150": {
+      "hint": "Two sf: 350 means 3.5 × 10².",
+      "help": "From **345** to **354** (upper **355** not included for continuous).\n\nExample: **significant figure bounds**."
+    },
+    "151": {
+      "hint": "Round 2.01 and 1.99 before multiplying.",
+      "help": "**2 × 98 + 2 × 102 ≈ 400**.\n\nExample: round each term then add."
+    },
+    "152": {
+      "hint": "3 h 12 min is a bit over 3 hours.",
+      "help": "**22 × 3 ≈ 66 km**.\n\nExample: speed × time.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "153": {
+      "hint": "Divide van limit by rounded box mass.",
+      "help": "**950 ÷ 5 ≈ 190–200** boxes (use **4.7 → 5**).\n\nExample: capacity problems."
+    },
+    "154": {
+      "hint": "£19.99 is about £20 per month.",
+      "help": "**£20 × 12 = £240** per year.\n\nExample: monthly to yearly.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "155": {
+      "hint": "600 ÷ 24.",
+      "help": "Other factor about **25**.\n\nExample: factor from approximate product."
+    },
+    "156": {
+      "hint": "50 ÷ length of one panel.",
+      "help": "**5 m** panels → **50 ÷ 5 = 10**.\n\nExample: fencing panels.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "157": {
+      "hint": "80 × 0.73 is close to 80 × 0.7.",
+      "help": "About **56–58** questions.\n\nExample: percent of a count.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "158": {
+      "hint": "200 ÷ 7.2.",
+      "help": "About **28** tanks.\n\nExample: division with decimals.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "159": {
+      "hint": "Round 4.8 and −1.6 to whole degrees.",
+      "help": "**5 − (−2) = 7 °C** change.\n\nExample: temperature drop.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "160": {
+      "hint": "Multiply 997 × 1003, then compare with 10⁶.",
+      "help": "Exact **999 991**; **1 000 000** is **9** too high.\n\nExample: **997 × 1002** near **10⁶**."
+    },
+    "161": {
+      "hint": "Nearest cm: half-width 0.5 cm.",
+      "help": "**4.5 cm ≤ L < 6.5 cm**.\n\nExample: measurement bounds.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "162": {
+      "hint": "Round top and bottom to 500.",
+      "help": "**500 × 500 ÷ 500 ≈ 500**.\n\nExample: fraction estimate.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "163": {
+      "hint": "Count sf carefully for 0.0049995.",
+      "help": "Three sf **0.00500**, two sf **0.0050** — **not** the same.\n\nExample: trailing zeros in sf."
+    },
+    "164": {
+      "hint": "Compare 31² with 30 × 32.",
+      "help": "**961 − 960 = 1** — very close.\n\nExample: **n² ≈ (n−1)(n+1) + 1**."
+    },
+    "165": {
+      "hint": "Two dp rounding to 7.50.",
+      "help": "**7.495 ≤ x < 7.505** (standard bounds).\n\nExample: **3.8** one dp."
+    },
+    "166": {
+      "hint": "9² = 81 and 10² = 100.",
+      "help": "**√98 ≈ 9.9** — **10** is slightly **high**.\n\nExample: **√50** closer to **7**."
+    },
+    "167": {
+      "hint": "If a' ≥ a and b' ≥ b, compare products.",
+      "help": "Rounded-up factors give product **≥** true product → **always** for positive numbers.\n\nExample: **2×2 vs 1.8×1.9**."
+    },
+    "168": {
+      "hint": "Expand (50 + 1)².",
+      "help": "**2500 + 100 + 1 = 2601**.\n\nExample: **(100−1)²** for **99²**."
+    },
+    "169": {
+      "hint": "Three sf at 2.45 × 10⁴.",
+      "help": "**24 450** to **24 549**.\n\nExample: sf with standard form.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "170": {
+      "hint": "One sf: 20, 20, and 10.",
+      "help": "**20 × 20 ÷ 10 = 40**.\n\nExample: chained estimate.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "171": {
+      "hint": "Same numerator, different divisors.",
+      "help": "**700÷20 = 35**, **700÷25 = 28** — different bias.\n\nExample: **704÷23** estimates."
+    },
+    "172": {
+      "hint": "Use upper bounds 5.25 cm each side.",
+      "help": "Max area about **5.25 × 5.25 ≈ 27.6 cm²** (use **25.65** if taking 5.25×4.9 style — question asks largest true area with given bounds).\n\nExample: error in area."
+    },
+    "173": {
+      "hint": "Multiply 49.5 and 50.5.",
+      "help": "Exact **2499.75**, compare **2500**.\n\nExample: **49×51 vs 50²**."
+    },
+    "174": {
+      "hint": "Which whole numbers round to 5?",
+      "help": "From **4.5** to **5.5** (exclusive upper) → **always** in that range.\n\nExample: $|x−5|<0.5$."
+    },
+    "175": {
+      "hint": "0.49 is about one half.",
+      "help": "**1 ÷ 0.5 = 2**.\n\nExample: reciprocal estimate.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "176": {
+      "hint": "Round each price to 10p, then add.",
+      "help": "Compare rounded sum with **£2.44 + £3.46** exact.\n\nExample: till rounding rules."
+    },
+    "177": {
+      "hint": "68×72 is near 70×70.",
+      "help": "**70² = 4900**; exact **4896** — closer to **4900**.\n\nExample: **49×52** exact vs estimate."
+    },
+    "178": {
+      "hint": "Pick a value that rounds to 0.0400 (four sf).",
+      "help": "Any value like **0.04001** in the correct interval.\n\nExample: sf bounds."
+    },
+    "179": {
+      "hint": "301≈300, 199≈200, 602≈600.",
+      "help": "**300×200÷600 = 100**.\n\nExample: simplify before dividing.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "180": {
+      "hint": "Try three factors like 2.1, 3.1, 4.1.",
+      "help": "Rounding each factor first can differ from one final round → **sometimes**.\n\nExample: multi-step rounding."
+    },
+    "181": {
+      "hint": "Nearest 500: add/subtract 250.",
+      "help": "**48 250** to **48 749**.\n\nExample: **20 000** to nearest 1000."
+    },
+    "182": {
+      "hint": "Use 100² − 2×100 + 1.",
+      "help": "**99² = 9801**.\n\nExample: **(100−1)²** expansion.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "183": {
+      "hint": "One decimal place on 24.5 m/s.",
+      "help": "**24.45** to **24.55 m/s** bounds.\n\nExample: speed bounds.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "184": {
+      "hint": "12² = 144 and 13² = 169 bracket 150.",
+      "help": "**√150 ≈ 12.2**.\n\nExample: **√80** between **8 and 9**.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "185": {
+      "hint": "Work out both estimates and compare to exact ÷.",
+      "help": "**900÷30 = 30** is closer than **900÷25 = 36** to **≈30.6**.\n\nExample: pick divisor carefully."
+    },
+    "186": {
+      "hint": "Convert bounds to mm (×1000).",
+      "help": "**0.0245 m** to **0.0254 m** in mm for two sf **0.025**.\n\nExample: unit change with bounds."
+    },
+    "187": {
+      "hint": "Try 1.9 + 1.9 with one sf each.",
+      "help": "Error can exceed **10%** → **sometimes**.\n\nExample: sf addition error."
+    },
+    "188": {
+      "hint": "Use 200² − 3² pattern.",
+      "help": "**203×197 = 40 000 − 9 = 39 991**.\n\nExample: **49×51 = 2500−1**."
+    },
+    "189": {
+      "hint": "5×10³ and 2×10² to one sf.",
+      "help": "**(5÷2)×10³⁻² ≈ 2.5×10³**.\n\nExample: standard form estimate."
+    },
+    "190": {
+      "hint": "12 678 → nearest 1000, then add 892.",
+      "help": "**13 000 + 900 ≈ 13 900**.\n\nExample: mixed exact and rounded."
+    },
+    "191": {
+      "hint": "What is 5 × 23?",
+      "help": "**5 × 23 = 115 ≠ 125** — division answer should be **25** → **not correct**.\n\nExample: inverse check."
+    },
+    "192": {
+      "hint": "56×44 is near 56×40 or simplify ÷11 first.",
+      "help": "**56×44÷11 = 224** (exact).\n\nExample: estimate then exact.\n\nCheck your rounding digit before you calculate — estimates should stay close to the true value."
+    },
+    "193": {
+      "hint": "Try 12 400 and 12 600 to nearest 100.",
+      "help": "**Sometimes** — only some values match both precisions.\n\nExample: **350** two sf vs dp."
+    },
+    "194": {
+      "hint": "Round each bill amount to the pound.",
+      "help": "About **£51**; exact **£50.95** — estimate **slightly high** if you rounded **£9.95 → £10**.\n\nExample: bill rounding bias."
+    },
+    "195": {
+      "hint": "Leading zeros do not count as sf.",
+      "help": "**0.00804** for both two and three sf here.\n\nExample: **0.00804** vs **0.0080**."
+    },
+    "196": {
+      "hint": "Nearest 100: ±50.",
+      "help": "**32 350** to **32 449**.\n\nExample: stadium capacity bounds."
+    },
+    "197": {
+      "hint": "700×300 vs exact 715×285.",
+      "help": "Estimate **210 000**; exact **203 775** — true product is **smaller**.\n\nExample: over-estimate products."
+    },
+    "198": {
+      "hint": "What addition checks 45 − 17 = 28?",
+      "help": "**28 + 17 = 45** verifies the subtraction.\n\nExample: **13 − 6** check."
+    },
+    "199": {
+      "hint": "One dp vs one sf for 2.45.",
+      "help": "**2.5** vs **2** — **sometimes** the same, not here → **sometimes** overall.\n\nExample: compare rounding types."
+    },
+    "200": {
+      "hint": "One sf £2.4 million — what interval?",
+      "help": "**£2.35 m** to **£2.45 m** (standard one-sf bounds).\n\nExample: **350** two sf bounds."
+    }
+  }
+}

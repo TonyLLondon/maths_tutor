@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "The amount of turn at a corner — what do we call that?",
+      "help": "An **angle** measures how much one line turns to meet another.\n\nExample: a wide open door makes a larger angle than a nearly closed one."
+    },
+    "2": {
+      "hint": "How many 90° corners does a square have?",
+      "help": "A square has **four** corners, and each is a **right angle** (90°).\n\nExample: every corner of a square tile is 90°."
+    },
+    "3": {
+      "hint": "A right angle is a quarter turn — how many degrees?",
+      "help": "A **right angle** is **90°** — one quarter of a full 360° turn.\n\nExample: the corner of a sheet of paper is 90°."
+    },
+    "4": {
+      "hint": "Acute means less than 90° — is that smaller than a right angle?",
+      "help": "**Acute** angles are **less than 90°**, so they are **smaller** than a right angle.\n\nExample: 45° is acute."
+    },
+    "5": {
+      "hint": "Obtuse means between 90° and 180° — compare to 90°.",
+      "help": "**Obtuse** angles are **greater than 90°** but less than 180°, so **larger** than a right angle.\n\nExample: 110° is obtuse."
+    },
+    "6": {
+      "hint": "A straight line is half of a full turn — is that true?",
+      "help": "A straight angle is **180°**, which is **half** of 360°.\n\nThe statement is **true**."
+    },
+    "7": {
+      "hint": "Two equal angles make 90° — divide 90 by 2.",
+      "help": "If two equal angles sum to 90°, each is $90 \\div 2 = 45°$.\n\nExample: split a right angle into two 45° angles."
+    },
+    "8": {
+      "hint": "Right angle is 90° — subtract 30° to find the other part.",
+      "help": "Angles on a straight line or at a right angle split: $90 - 30 = 60°$ for the other angle.\n\nExample: 90° split into 20° and 70°."
+    },
+    "9": {
+      "hint": "Angles on one straight line always add to a half turn — how many degrees?",
+      "help": "Angles on a **straight line** add to **180°**.\n\nExample: 70° and 110° on a line sum to 180°."
+    },
+    "10": {
+      "hint": "All angles meeting at one point — full turn in degrees?",
+      "help": "Angles **around a point** add to **360°**.\n\nExample: three 120° angles sum to 360°."
+    },
+    "11": {
+      "hint": "When two lines cross, opposite angles match — equal or different?",
+      "help": "**Vertically opposite** angles are **equal**.\n\nExample: if one angle is 50°, its opposite is 50°."
+    },
+    "12": {
+      "hint": "On a straight line: 70° plus x equals 180° — solve for x.",
+      "help": "$x = 180 - 70 = 110°$.\n\nExample: 40° on a line → partner angle 140°."
+    },
+    "13": {
+      "hint": "Around a point: 100 + 150 + y = 360 — find y.",
+      "help": "$100 + 150 = 250$, so $y = 360 - 250 = 110°$.\n\nExample: 90°, 90°, 180° around a point."
+    },
+    "14": {
+      "hint": "Three angles inside any triangle — what do they add to?",
+      "help": "Interior angles of a triangle always sum to **180°**.\n\nExample: 60°, 60°, 60° in an equilateral triangle."
+    },
+    "15": {
+      "hint": "180° minus 50° minus 60° for the third triangle angle.",
+      "help": "$50 + 60 = 110$, third angle $= 180 - 110 = 70°$.\n\nExample: 30°, 60°, 90° triangle."
+    },
+    "16": {
+      "hint": "Four angles inside a quadrilateral — total degrees?",
+      "help": "Angles inside a **quadrilateral** add to **360°**.\n\nExample: a square’s four 90° angles sum to 360°."
+    },
+    "17": {
+      "hint": "Matching angles in the same corner when a line crosses parallels — special name?",
+      "help": "**Corresponding** angles are in matching positions when a transversal cuts parallel lines.\n\nExample: top-left on each parallel line."
+    },
+    "18": {
+      "hint": "Z-shaped angles between parallel lines — are they equal?",
+      "help": "**Alternate** angles (Z pattern) between parallel lines are **equal**.\n\nExample: 65° alternate to 65°."
+    },
+    "19": {
+      "hint": "C-shaped angles between parallels — what do they add to?",
+      "help": "**Co-interior** ( allied ) angles add to **180°**.\n\nExample: 70° and 110° co-interior."
+    },
+    "20": {
+      "hint": "35 + 85 + z on a straight line — total 180°.",
+      "help": "$35 + 85 = 120$, so $z = 180 - 120 = 60°$.\n\nExample: three angles on a line must sum to 180°."
+    },
+    "21": {
+      "hint": "Fill in the number of degrees on a straight line.",
+      "help": "Angles on a straight line add to **180** degrees.\n\nExample: supplementary angles sum to 180°."
+    },
+    "22": {
+      "hint": "Vertically opposite angles — same size or not?",
+      "help": "They are **equal** when two lines cross.\n\nExample: cross lines give two pairs of equal opposite angles."
+    },
+    "23": {
+      "hint": "Corresponding angle to 65° with parallel lines — same size. Why?",
+      "help": "With parallel lines, **corresponding** angles are equal, so the matching angle is **65°**. Parallel lines keep the same slant.\n\nExample: 110° corresponding → 110°."
+    },
+    "24": {
+      "hint": "Draw parallels and a transversal — mark Z angles and explain they match.",
+      "help": "Sketch two **parallel** lines and a crossing line. **Alternate** angles sit in a Z — they are equal because the lines never meet and the geometry copies the angle.\n\nExample: label equal Z angles on your diagram."
+    },
+    "25": {
+      "hint": "When two lines cross, are opposite angles always equal?",
+      "help": "Whenever two straight lines **cross**, vertically opposite angles are **equal**.\n\nAnswer: **always** true."
+    },
+    "26": {
+      "hint": "Quadrilateral angles sum to 360° — subtract 90, 90, 100 from 360.",
+      "help": "$90 + 90 + 100 = 280$, so $w = 360 - 280 = 80°$.\n\nExample: rectangle missing one angle → 90°."
+    },
+    "27": {
+      "hint": "Co-interior angles add to 180° — are they always equal to each other?",
+      "help": "Co-interior angles **add to 180°** but are **not always equal** — only when each is 90°.\n\nSam is **wrong** if he says they are always equal."
+    },
+    "28": {
+      "hint": "Exterior angle at the third corner equals the other two interior angles added together.",
+      "help": "The **exterior angle** equals $50° + 70° = 120°$.\n\nExample: interior angles 40° and 55° → exterior 95° at the third vertex."
+    },
+    "29": {
+      "hint": "The three angles sum to 360° — subtract 100°, then split the rest in ratio 2 : 3.",
+      "help": "$360 - 100 = 260°$ left. Ratio $2 + 3 = 5$ parts, one part $= 260 \\div 5 = 52°$. Angles are $2 \\times 52 = 104°$ and $3 \\times 52 = 156°$.\n\nExample: third angle 80°, ratio 1:1 → two 140° angles."
+    },
+    "30": {
+      "hint": "Three 90° angles use 270° — can the fourth angle still be obtuse?",
+      "help": "Three right angles sum to **270°**. The fourth would be $360 - 270 = 90°$, not obtuse. Leo is **correct** — you cannot have three right angles and one obtuse in a quadrilateral.\n\nExample: three 90° forces the fourth to 90°."
+    },
+    "31": {
+      "hint": "Wall and ground are 90° — ladder makes 65° with ground. Angles in the corner sum to 180°.",
+      "help": "Ground and wall form **90°**. With the ladder, angles on the ground line sum to 180°: angle with wall $= 180 - 90 - 65 = 25°$ (or use triangle in the corner: $180 - 65 - 90 = 25°$).\n\nExample: ladder 50° with ground → 40° with wall if wall vertical."
+    },
+    "32": {
+      "hint": "Four angles at a crossing — opposite angles match; adjacent ones add to 180°.",
+      "help": "One angle is **118°**. Opposite is **118°**. Adjacent angles are $180 - 118 = 62°$. The **two distinct sizes** are **118°** and **62°**.\n\nExample: 100° at a cross → 100° and 80°."
+    },
+    "33": {
+      "hint": "Isosceles: two base angles 72° — add them and subtract from 180° for the top angle.",
+      "help": "$72 + 72 = 144°$, top angle $= 180 - 144 = 36°$.\n\nExample: base angles 65° each → top 50°."
+    },
+    "34": {
+      "hint": "Vertically opposite angles are equal — set 3x + 10 equal to 2x + 40.",
+      "help": "$3x + 10 = 2x + 40$ → $x = 30$. Angle $= 3(30) + 10 = 100°$ (check: $2(30) + 40 = 100°$).\n\nExample: $(x+5)°$ and $(2x)°$ opposite → solve $x+5=2x$."
+    },
+    "35": {
+      "hint": "Two angles are 100° each — use 360° in a quadrilateral, then ratio 3 : 1 for the rest.",
+      "help": "Kite quadrilateral: $100 + 100 = 200°$. Remaining $360 - 200 = 160°$ split in ratio **3 : 1** → $160 \\div 4 = 40°$ and $120°$.\n\nExample: two equal 90° angles → split remaining 180° in ratio 2:1."
+    },
+    "36": {
+      "hint": "Exterior 130° equals sum of the two equal interior angles at the other corners.",
+      "help": "Exterior angle equals sum of remote interiors: each interior $= 130 \\div 2 = 65°$.\n\nExample: exterior 100° with equal remote interiors → 50° each."
+    },
+    "37": {
+      "hint": "Draw a line through the top vertex parallel to the base — use alternate angles with the sides.",
+      "help": "Through the top vertex, draw a line **parallel** to the base. Alternate angles show the three angles at the vertex line match the triangle’s three angles, which lie on a **straight line** (180°).\n\nExample: label equal alternate angles on a sketch."
+    },
+    "38": {
+      "hint": "Three triangles from one vertex — each triangle has angle sum 180°.",
+      "help": "Diagonals from one vertex split a pentagon into **3 triangles**. $3 \\times 180° = 540°$ — total of all interior angles.\n\nExample: hexagon → 4 triangles → $720°$."
+    },
+    "39": {
+      "hint": "Two angles in the triangle are 55° and 65° — sum all three to 180°.",
+      "help": "$55 + 65 = 120°$, third angle $= 180 - 120 = 60°$.\n\nExample: base angles 40° and 50° → top 90°."
+    },
+    "40": {
+      "hint": "The three interior angles of a triangle total 180°.",
+      "help": "Add the two known angles first, then subtract their total from 180°.\n\nFor example, if two angles are 42° and 73°, the third is $180 - (42 + 73) = 65°$."
+    },
+    "41": {
+      "hint": "Angles on a straight line add to 180° — subtract 65°.",
+      "help": "Missing angle $= 180 - 65 = 115°$.\n\nExample: 40° on a line → partner 140°."
+    },
+    "42": {
+      "hint": "Co-interior with 112° adds to 180° — find the partner angle.",
+      "help": "A **co-interior** angle with 112° is $180 - 112 = 68°$.\n\nExample: co-interior to 95° is 85°."
+    },
+    "43": {
+      "hint": "Straight-line angles sum to 180°.",
+      "help": "$180 - 18 = 162°$. Example: 90° and 90° on a line.\n\nWork step by step and check units."
+    },
+    "44": {
+      "hint": "Straight-line angles sum to 180°.",
+      "help": "$180 - 29 = 151°$. Example: 90° and 90° on a line.\n\nWork step by step and check units."
+    },
+    "45": {
+      "hint": "Subtract 42° from 180° for the missing straight-line angle.",
+      "help": "Angles on a straight line add to **180°**. $180 - 42 = 138°$.\n\nExample: if one angle is 60°, the other is 120°."
+    },
+    "46": {
+      "hint": "180° minus 133° leaves the other angle on the line.",
+      "help": "Use **180° − 133° = 47°** for the missing angle.\n\nExample: 100° and 80° form a straight line."
+    },
+    "47": {
+      "hint": "Full turn around a point is 360° — subtract the two given angles.",
+      "help": "$360 - 85 - 120 = 155°$ for **t**.\n\nExample: three angles 90°, 90°, and 180° around a point."
+    },
+    "48": {
+      "hint": "Add 95° and 110°, then take that from 360°.",
+      "help": "Around a point: $360 - 95 - 110 = 155°$ for **u**.\n\nExample: two right angles and a straight angle use up 360°."
+    },
+    "49": {
+      "hint": "Triangle angles sum to 180° — subtract 38° and 71°.",
+      "help": "Third angle $= 180 - 38 - 71 = 71°$.\n\nExample: 50° and 60° with third 70°."
+    },
+    "50": {
+      "hint": "Take 47° and 58° from 180° for the last triangle angle.",
+      "help": "$180 - 47 - 58 = 75°$.\n\nExample: right triangle 90°, 37°, 53°."
+    },
+    "51": {
+      "hint": "Four corners of a quadrilateral add to 360° — subtract 88°, 92°, and 105° from 360.",
+      "help": "Interior angles in any **quadrilateral** sum to **360°**. Add the three known angles, then subtract from 360.\n\nExample: 80°, 90°, 100°, and 90° in a trapezium also sum to 360°."
+    },
+    "52": {
+      "hint": "Use the quadrilateral angle sum 360° with angles 70°, 110°, and 130°.",
+      "help": "Add the three given angles and take the total from **360°** to find **w**.\n\nExample: a rectangle’s four 90° angles use all 360°."
+    },
+    "53": {
+      "hint": "Corresponding angles sit in matching corners when a transversal crosses parallel lines — are they equal?",
+      "help": "When lines are **parallel**, **corresponding** angles are **equal**. The matching angle is the same size as 54°.\n\nExample: 70° corresponding → 70° on the other parallel."
+    },
+    "54": {
+      "hint": "Look for the Z-shaped alternate angle between the parallel lines — it matches the given 61°.",
+      "help": "**Alternate** angles (Z pattern) between parallel lines are **equal**.\n\nExample: if one alternate angle is 48°, its partner is 48°."
+    },
+    "55": {
+      "hint": "Co-interior angles on the same side of a transversal add to 180° — subtract 118° from 180.",
+      "help": "**Co-interior** (C-shaped) angles between parallel lines add to **180°**. Partner angle $= 180 - 118$.\n\nExample: 65° and 115° are co-interior."
+    },
+    "56": {
+      "hint": "When two lines cross, the angle opposite 37° sits across the intersection — what rule links them?",
+      "help": "**Vertically opposite** angles are **equal**. The angle opposite 37° is also 37°.\n\nExample: cross lines with 110° give 110° vertically opposite."
+    },
+    "57": {
+      "hint": "Vertically opposite angles are always equal — no calculation needed for 143°.",
+      "help": "At a crossing of two lines, each angle equals its **vertically opposite** partner.\n\nExample: 156° opposite is 156°."
+    },
+    "58": {
+      "hint": "Three angles on one straight line must sum to 180° — add 48° and 62°, then subtract from 180.",
+      "help": "Angles on a **straight line** total **180°**. Find **p** by subtracting the two known angles from 180.\n\nExample: 30°, 50°, and 100° on a line sum to 180°."
+    },
+    "59": {
+      "hint": "Straight-line rule: 91° plus 54° plus q equals 180° — solve for q.",
+      "help": "Add the two given angles, then subtract from **180°** for the third angle on the line.\n\nExample: 60°, 40°, and 80° on one line."
+    },
+    "60": {
+      "hint": "Do the three inside angles of every triangle always add to the same total?",
+      "help": "The interior angles of **any** triangle always sum to **180°** — this is always true.\n\nExample: 50°, 60°, and 70° in a triangle."
+    },
+    "61": {
+      "hint": "Co-interior angles between parallel lines — do they always add to a half turn?",
+      "help": "When a transversal cuts **parallel** lines, **co-interior** angles on the same side add to **180°**.\n\nExample: 72° and 108° are co-interior."
+    },
+    "62": {
+      "hint": "Isosceles triangle: two base angles are equal — split the leftover from 180° equally after taking 36°.",
+      "help": "Apex is **36°**. Remaining $180 - 36 = 144°$ splits equally between the two base angles.\n\nExample: apex 40° → each base angle 70°."
+    },
+    "63": {
+      "hint": "Base angles are 65° each — add them and subtract from 180° for the top angle.",
+      "help": "In an **isosceles** triangle, equal base angles mean $65 + 65 = 130°$, so apex $= 180 - 130$.\n\nExample: base angles 50° each → apex 80°."
+    },
+    "64": {
+      "hint": "Co-interior with 72° on parallel lines — what do co-interior partners add to?",
+      "help": "Co-interior angles sum to **180°**. Partner $= 180 - 72$.\n\nExample: 110° co-interior partner is 70°."
+    },
+    "65": {
+      "hint": "Corresponding angle to 115° — same corner position on the other parallel line.",
+      "help": "**Corresponding** angles are equal when lines are parallel, so the matching angle is **115°**.\n\nExample: 83° corresponding → 83°."
+    },
+    "66": {
+      "hint": "Angles around a point use a full 360° turn — subtract 130°, 95°, and 88°.",
+      "help": "Add the three known angles, then subtract from **360°** for the missing angle.\n\nExample: 90°, 90°, 90°, and 90° around a point."
+    },
+    "67": {
+      "hint": "Ratio 1 : 2 : 3 means three parts that sum to 180° — how many parts in total?",
+      "help": "Triangle sum is **180°**. Ratio parts $1 + 2 + 3 = 6$. One part $= 180 \\div 6 = 30°$. Angles are 30°, 60°, 90°.\n\nExample: ratio 2:3:4 → 40°, 60°, 80°."
+    },
+    "68": {
+      "hint": "One angle is 140° and three others are equal — subtract 140 from 360, then divide by 3.",
+      "help": "Quadrilateral sum **360°**. Remaining $360 - 140 = 220°$ shared equally among three angles.\n\nExample: one 100° angle and three 86.67° angles (if equal)."
+    },
+    "69": {
+      "hint": "Alternate angles are equal — but only when the two lines are parallel. Always true?",
+      "help": "**Alternate** angles are equal **when** the lines are parallel. If lines are not parallel, they need not match.\n\nAnswer: **always** (for parallel lines)."
+    },
+    "70": {
+      "hint": "Vertically opposite angles are equal — do they always add to 180°?",
+      "help": "Vertically opposite angles are **equal**, not necessarily supplementary. Two 60° opposite angles sum to 120°, not 180°.\n\nAnswer: **never** (they add to 180° only when each is 90°)."
+    },
+    "71": {
+      "hint": "Wall meets ground at 90° — ladder makes 58° with ground. Use angles in the corner triangle.",
+      "help": "Ground and wall form **90°**. The ladder, ground, and wall make a triangle. Angle with wall $= 180 - 90 - 58 = 32°$.\n\nExample: ladder 45° with ground → 45° with vertical wall."
+    },
+    "72": {
+      "hint": "Corresponding angles match when lines are parallel — find the angle in the same corner position as 124°.",
+      "help": "**Corresponding** angles are equal with parallel lines, so the matching angle is **124°**.\n\nExample: 67° corresponding → 67° on the other parallel."
+    },
+    "73": {
+      "hint": "Exterior angle equals the sum of the two remote interior angles — use 105° and 48°.",
+      "help": "Exterior angle $= 48° + x = 105°$, so solve for **x**.\n\nExample: exterior 120° with one remote interior 50° → other remote 70°."
+    },
+    "74": {
+      "hint": "Two angles on a straight line add to 180° — set (2y + 10) + (3y − 5) equal to 180 and solve for y.",
+      "help": "Straight-line pair: $(2y + 10) + (3y - 5) = 180$. Solve for **y**, then substitute back for each angle.\n\nExample: $(x + 20) + (2x + 10) = 180$ → $x = 50$."
+    },
+    "75": {
+      "hint": "Ratio 1 : 2 : 4 around a point — the parts must sum to 360°.",
+      "help": "Around a point: $1 + 2 + 4 = 7$ parts, each part $= 360 \\div 7$. Largest angle is **4 parts**.\n\nExample: ratio 1:1:2 around a point → 90°, 90°, 180°."
+    },
+    "76": {
+      "hint": "At one intersection with parallel lines, acute angles are less than 90° — which angles equal 49°?",
+      "help": "With angle **49°**, corresponding and alternate angles also give **49°** (acute). Vertically opposite to 49° is also 49°.\n\nExample: 65° at a cross gives acute angles 65° and 115°."
+    },
+    "77": {
+      "hint": "Can two angles in one triangle both be greater than 90°? What is the triangle angle sum?",
+      "help": "Two obtuse angles would sum to more than **180°**, impossible in one triangle.\n\nAnswer: **false** — a triangle has at most one obtuse angle."
+    },
+    "78": {
+      "hint": "Triangle interior angles sum to 180° — subtract 92° and 34°.",
+      "help": "Third angle $= 180 - 92 - 34$.\n\nExample: 60° and 70° → third angle 50°."
+    },
+    "79": {
+      "hint": "Quadrilateral angles total 360° — subtract 100°, 85°, and 95°.",
+      "help": "Add the three known angles, subtract from **360°** for the fourth.\n\nExample: three 90° angles in a rectangle → fourth is 90°."
+    },
+    "80": {
+      "hint": "Alternate angle in the Z-pattern between parallel lines — same size as 68°?",
+      "help": "**Alternate** angles between parallel lines are **equal**, so the alternate angle is **68°**.\n\nExample: 55° alternate → 55°."
+    },
+    "81": {
+      "hint": "One angle is three times the other and they form a straight line — call the smaller angle x.",
+      "help": "On a straight line: $x + 3x = 180$, so $x = 45°$ and the other is **135°**.\n\nExample: one angle twice another on a line → 60° and 120°."
+    },
+    "82": {
+      "hint": "Four angles around a point sum to 360° — add 70°, 95°, and 110°, then subtract from 360.",
+      "help": "Add the three given angles, take from **360°** for **r**.\n\nExample: 80°, 100°, 120°, and 60° around a point."
+    },
+    "83": {
+      "hint": "Explain why co-interior angles between parallel lines add to 180° — one sentence using a straight line.",
+      "help": "Co-interior angles sit on the same side of a transversal between parallels; one plus its corresponding angle on the other line forms a straight line (**180°**).\n\nExample: 70° co-interior partner is 110°."
+    },
+    "84": {
+      "hint": "Roof triangle: two base angles 55° and 63° — subtract both from 180° for the apex.",
+      "help": "Triangle sum **180°**: apex $= 180 - 55 - 63$.\n\nExample: base angles 40° and 50° → apex 90°."
+    },
+    "85": {
+      "hint": "Vertically opposite angles are equal — set 4a − 20 equal to 2a + 40 and solve for a.",
+      "help": "Opposite angles match: $4a - 20 = 2a + 40$. Solve for **a**, then find the angle size.\n\nExample: $(x + 5)°$ opposite $(2x - 10)°$ → solve $x + 5 = 2x - 10$."
+    },
+    "86": {
+      "hint": "Co-interior angles add to 180° — write (3b + 15) + (2b + 25) = 180 and solve for b.",
+      "help": "Co-interior pair: $(3b + 15) + (2b + 25) = 180$. Solve **b**, then find both angles.\n\nExample: $(2x + 10) + (x + 20) = 180$ → $x = 50$."
+    },
+    "87": {
+      "hint": "Do the four interior angles of any quadrilateral always add to the same total?",
+      "help": "Every quadrilateral’s interior angles sum to **360°** — always true.\n\nExample: split a quadrilateral into two triangles → $2 \\times 180° = 360°$."
+    },
+    "88": {
+      "hint": "Exterior angle equals sum of remote interior angles — 140° equals 75° plus s.",
+      "help": "Exterior angle theorem: $75 + s = 140$, solve for **s**.\n\nExample: exterior 110° with remote interior 40° → other remote 70°."
+    },
+    "89": {
+      "hint": "At 3 o'clock the hour hand points at 12 and the minute hand at 3 — how many quarter turns between them?",
+      "help": "At **3 o'clock**, hands form a **right angle** of **90°** (quarter of a full turn).\n\nExample: at 6 o'clock the angle is 180°."
+    },
+    "90": {
+      "hint": "Find the co-interior partner of 102°, then the vertically opposite angle to that partner.",
+      "help": "Co-interior to **102°** is $180 - 102 = 78°$. Vertically opposite to **78°** is also **78°**.\n\nExample: co-interior to 115° is 65°; opposite to 65° is 65°."
+    },
+    "91": {
+      "hint": "Pentagon interior angles sum to 540° — subtract the four given angles from 540.",
+      "help": "Pentagon total **540°**. Add 100°, 110°, 120°, and 130°, subtract from 540 for the fifth.\n\nExample: four angles 108° each in a regular pentagon → fifth is 108°."
+    },
+    "92": {
+      "hint": "Three triangle angles sum to 180° — write (x + 10) + (2x + 20) + (3x + 30) = 180.",
+      "help": "Combine like terms: $6x + 60 = 180$, solve **x**, then find each angle.\n\nExample: $(x) + (x + 30) + (x + 60) = 180$ → $x = 30$."
+    },
+    "93": {
+      "hint": "Corresponding angles are equal — but only when the lines are parallel. True or false?",
+      "help": "**Corresponding** angles are equal **only when** lines are parallel. If lines cross at an angle, corresponding angles differ.\n\nAnswer: **true**."
+    },
+    "94": {
+      "hint": "Straight-line pair: (5c − 10) + (3c + 30) = 180 — solve for c first.",
+      "help": "Set the two expressions equal to **180°** total. Solve **c**, then find each angle.\n\nExample: $(4x) + (2x + 30) = 180$ on a line."
+    },
+    "95": {
+      "hint": "Around a point: 2d + 3d + 4d = 360 — combine the d terms and solve.",
+      "help": "$2d + 3d + 4d = 9d = 360$, so **d** = 40. Three angles are 80°, 120°, and 160°.\n\nExample: $x + 2x + 3x = 360$ around a point → $x = 60$."
+    },
+    "96": {
+      "hint": "Co-interior to 44° is 180 − 44 — is that angle acute or obtuse?",
+      "help": "Co-interior partner $= 180 - 44 = 136°$, which is **obtuse**.\n\nExample: co-interior to 70° is 110° (obtuse)."
+    },
+    "97": {
+      "hint": "Exterior angle at the apex is 130° — each base angle is half of the remote interior pair.",
+      "help": "Exterior angle equals sum of remote interiors. Each base angle $= (180 - 130) \\div 2$ using isosceles symmetry.\n\nExample: exterior apex 120° → each base 30° in isosceles triangle."
+    },
+    "98": {
+      "hint": "Explain why alternate angles are equal when a transversal crosses parallel lines.",
+      "help": "Parallel lines never meet, so the Z-shaped **alternate** angles copy the same slant — they must be **equal**.\n\nExample: sketch parallels and label matching Z angles."
+    },
+    "99": {
+      "hint": "Quadrilateral: 2e + 3e + 4e + e = 360 — solve for e.",
+      "help": "$2e + 3e + 4e + e = 10e = 360$, so **e** = 36. Four angles are 72°, 108°, 144°, and 36°.\n\nExample: $a + 2a + 3a + 4a = 360$ in a quadrilateral."
+    },
+    "100": {
+      "hint": "Find the third angle from 31° and 59°, then compare it to 90° to classify it.",
+      "help": "Third angle $= 180 - 31 - 59 = 90°$, which is a **right** angle.\n\nExample: 30° and 40° → third 110° (obtuse)."
+    },
+    "101": {
+      "hint": "Corresponding angles match in the same corner when lines are parallel — what size matches 77°?",
+      "help": "**Corresponding** angles are equal with parallel lines, so the matching angle is **77°**.\n\nExample: 52° corresponding → 52° on the other parallel."
+    },
+    "102": {
+      "hint": "Find the Z-shaped alternate angle to 77° between the parallel lines.",
+      "help": "**Alternate** angles between parallel lines are **equal**, so the alternate angle is **77°**.\n\nExample: 61° alternate → 61°."
+    },
+    "103": {
+      "hint": "Co-interior angles on the same side add to 180° — subtract 77° from 180.",
+      "help": "Co-interior partner $= 180 - 77 = 103°$.\n\nExample: co-interior to 65° is 115°."
+    },
+    "104": {
+      "hint": "Vertically opposite angles are equal — what sits opposite 88°?",
+      "help": "When lines cross, **vertically opposite** angles match, so the opposite angle is **88°**.\n\nExample: 120° opposite is 120°."
+    },
+    "105": {
+      "hint": "Supplementary angles on a straight line add to 180° — subtract 126° from 180.",
+      "help": "Partner angle $= 180 - 126 = 54°$.\n\nExample: 110° on a line → partner 70°."
+    },
+    "106": {
+      "hint": "Triangle angles sum to 180° — subtract 44° and 57° for h.",
+      "help": "Third angle **h** $= 180 - 44 - 57$.\n\nExample: 50° and 60° → third 70°."
+    },
+    "107": {
+      "hint": "Quadrilateral interior angles total 360° — subtract 90°, 90°, and 115°.",
+      "help": "Fourth angle **k** $= 360 - 90 - 90 - 115$.\n\nExample: three 90° corners in a rectangle → fourth 90°."
+    },
+    "108": {
+      "hint": "Exterior angle equals the sum of the two remote interior angles — is it always bigger than each one alone?",
+      "help": "The exterior angle equals **both** remote interiors added, so it is **greater than** either remote interior alone.\n\nAnswer: **always** true."
+    },
+    "109": {
+      "hint": "At one crossing with parallel lines, how many different angle sizes appear among the four angles?",
+      "help": "With one angle **59°**, you get **59°** and **121°** (supplementary pair) — **two distinct sizes** at that intersection.\n\nExample: 80° at a cross → 80° and 100°."
+    },
+    "110": {
+      "hint": "Straight-line pair: (6f − 12) + (4f + 8) = 180 — solve for f.",
+      "help": "Combine: $10f - 4 = 180$, so **f** = 18.4. Substitute to find both angles.\n\nExample: $(5x) + (3x + 20) = 180$ on a line."
+    },
+    "111": {
+      "hint": "Angles around a point sum to 360° — subtract 115° and 125° for m.",
+      "help": "**m** $= 360 - 115 - 125 = 120°$.\n\nExample: 100°, 110°, and 150° around a point."
+    },
+    "112": {
+      "hint": "Subtract 36° and 54° from 180° for the third triangle angle n.",
+      "help": "**n** $= 180 - 36 - 54 = 90°$.\n\nExample: 40° and 50° → third 90°."
+    },
+    "113": {
+      "hint": "Zip wire makes 40° with horizontal ground and meets a vertical cliff — use the right angle at the cliff.",
+      "help": "Cliff is **vertical** (90° with ground). Triangle: angle with cliff $= 180 - 90 - 40 = 50°$.\n\nExample: wire 30° with ground → 60° with vertical cliff."
+    },
+    "114": {
+      "hint": "Co-interior angles add to 180° — set (7g + 5) + (5g + 35) = 180.",
+      "help": "$12g + 40 = 180$, so **g** = 11.67 (or $35/3$). Substitute for both angles.\n\nExample: $(4x + 10) + (2x + 20) = 180$."
+    },
+    "115": {
+      "hint": "Vertically opposite angles are equal — set 8h − 10 equal to 6h + 20.",
+      "help": "$8h - 10 = 6h + 20$ → **h** = 15. Angle $= 8(15) - 10 = 110°$.\n\nExample: $(3x)°$ opposite $(x + 40)°$ → solve $3x = x + 40$."
+    },
+    "116": {
+      "hint": "Arithmetic sequence: smallest 40°, each next is 20° larger — three angles sum to 180°.",
+      "help": "Angles **40°, 60°, 80°** (each +20°). Check: $40 + 60 + 80 = 180°$.\n\nExample: start 30°, diff 25° → 30°, 55°, 95°."
+    },
+    "117": {
+      "hint": "Can two obtuse angles (each over 90°) sit on the same straight line?",
+      "help": "Two obtuse angles would sum to **more than 180°**, so they cannot share one straight line.\n\nAnswer: **false**."
+    },
+    "118": {
+      "hint": "Corresponding angles are equal — set (9j − 6) equal to (7j + 12).",
+      "help": "$9j - 6 = 7j + 12$ → **j** = 9. Check both corresponding angles match.\n\nExample: $(5x + 10)°$ corresponding to $(3x + 30)°$."
+    },
+    "119": {
+      "hint": "Find the fourth quadrilateral angle from 85°, 95°, and 110°, then compare it to 90°.",
+      "help": "Fourth $= 360 - 85 - 95 - 110 = 70°$, which is **acute** (less than 90°).\n\nExample: fourth angle 95° is obtuse."
+    },
+    "120": {
+      "hint": "At one intersection, 136° is obtuse — what is the acute angle among the four?",
+      "help": "Supplementary partner $= 180 - 136 = 44°$, which is **acute**.\n\nExample: 150° at a cross → acute angle 30°."
+    },
+    "121": {
+      "hint": "Around a point: p + p + 4p = 360 — combine the p terms.",
+      "help": "$6p = 360$, so **p** = 60. Angles are 60°, 60°, and 240°.\n\nExample: $2a + 3a + a = 360$ around a point."
+    },
+    "122": {
+      "hint": "Exterior angle 118° equals the sum of remote interiors 52° and t.",
+      "help": "$52 + t = 118$, so **t** = 66°.\n\nExample: exterior 130° with one remote 55° → other 75°."
+    },
+    "123": {
+      "hint": "Vertically opposite angles are equal, not supplementary — correct the student in one sentence.",
+      "help": "Vertically opposite angles are **equal**, not necessarily adding to 180° (unless each is 90°).\n\nExample: 70° opposite is 70°, not 110°."
+    },
+    "124": {
+      "hint": "Corresponding to 83° is 83° (acute) — the obtuse corresponding sits in the opposite corner pair.",
+      "help": "Acute corresponding is **83°**. Obtuse corresponding $= 180 - 83 = 97°$ (same corner position on the other side of the line).\n\nExample: 60° acute corresponding → 120° obtuse at matching position."
+    },
+    "125": {
+      "hint": "Straight line: (11k − 15) + (9k + 5) = 180 — solve for k.",
+      "help": "$20k - 10 = 180$ → **k** = 9.5. Substitute for both angles.\n\nExample: $(8x) + (6x + 12) = 180$ on a line."
+    },
+    "126": {
+      "hint": "Pentagon interior angles sum to 540° — subtract 108°, 112°, 116°, and 120°.",
+      "help": "Fifth angle $= 540 - 108 - 112 - 116 - 120 = 84°$.\n\nExample: regular pentagon → each interior 108°."
+    },
+    "127": {
+      "hint": "Does every triangle have at least one angle smaller than 90°?",
+      "help": "A triangle cannot have three obtuse or three right angles. At least one angle must be **acute**.\n\nAnswer: **always** true."
+    },
+    "128": {
+      "hint": "Isosceles apex 28° — split the remaining 152° equally between the two base angles.",
+      "help": "Base angles each $= (180 - 28) \\div 2 = 76°$.\n\nExample: apex 40° → base angles 70° each."
+    },
+    "129": {
+      "hint": "Isosceles with base angles 74° each — add them and subtract from 180° for the apex.",
+      "help": "Apex $= 180 - 74 - 74 = 32°$.\n\nExample: base angles 65° → apex 50°."
+    },
+    "130": {
+      "hint": "Co-interior to 47° adds to 180° — find u.",
+      "help": "**u** $= 180 - 47 = 133°$.\n\nExample: co-interior to 72° is 108°."
+    },
+    "131": {
+      "hint": "Alternate angle in the Z-pattern equals the given 39° when lines are parallel.",
+      "help": "**Alternate** angle $= 39°$.\n\nExample: alternate to 55° is 55°."
+    },
+    "132": {
+      "hint": "Corresponding angle in the matching corner equals 125° with parallel lines.",
+      "help": "**Corresponding** angle $= 125°$.\n\nExample: corresponding to 88° is 88°."
+    },
+    "133": {
+      "hint": "Two roads cross at 55° — vertically opposite angles match; adjacent pairs add to 180°.",
+      "help": "Four angles: **55°, 125°, 55°, 125°** (two acute, two obtuse).\n\nExample: cross at 70° → 70°, 110°, 70°, 110°."
+    },
+    "134": {
+      "hint": "Triangle ratio 2 : 3 : 4 — seven parts total, split 180°.",
+      "help": "Ratio parts $2 + 3 + 4 = 9$. One part $= 180 \\div 9 = 20°$. Largest angle $= 4 \\times 20 = 80°$.\n\nExample: ratio 1:2:3 → largest 90°."
+    },
+    "135": {
+      "hint": "Quadrilateral angles sum to 360° — write (2q+10)+(3q+5)+(4q)+(q+25)=360.",
+      "help": "$10q + 40 = 360$ → **q** = 32. Substitute into each expression for all four angles.\n\nExample: $(x)+(2x)+(3x)+(4x)=360$ in a quadrilateral."
+    },
+    "136": {
+      "hint": "Can an exterior angle of a triangle ever be a straight 180°?",
+      "help": "An exterior angle sits on a straight line through a side — it is always **less than 180°** in a proper triangle.\n\nAnswer: **false**."
+    },
+    "137": {
+      "hint": "Three angles on a straight line: 25 + (2r+15) + (r+40) = 180 — solve for r.",
+      "help": "$3r + 80 = 180$ → **r** = 33.33. Find the two missing angles.\n\nExample: 30°, $(x+10)°$, $(2x)°$ on a line."
+    },
+    "138": {
+      "hint": "Four equal angles around a point — divide 360° by 4.",
+      "help": "Each angle $= 360 \\div 4 = 90°$.\n\nExample: six equal angles around a point → 60° each."
+    },
+    "139": {
+      "hint": "Co-interior partner of 91° is 180 − 91 — is that acute or obtuse?",
+      "help": "Partner $= 180 - 91 = 89°$, which is **acute** (just under 90°).\n\nExample: co-interior to 100° is 80° (acute)."
+    },
+    "140": {
+      "hint": "Two right angles in one triangle would use 180° already — can a third angle fit?",
+      "help": "Two **90°** angles sum to **180°**, leaving **0°** for the third — impossible.\n\nSo a triangle cannot have two right angles."
+    },
+    "141": {
+      "hint": "Straight line: x + (3x − 60) = 180 — solve for x.",
+      "help": "$4x - 60 = 180$ → **x** = 60. Partner angle $= 3(60) - 60 = 120°$.\n\nExample: $x + (2x + 30) = 180$ on a line."
+    },
+    "142": {
+      "hint": "Triangle: (4s+5)+(2s+15)+(s+20)=180 — combine s terms.",
+      "help": "$7s + 40 = 180$ → **s** = 20. Find all three angles.\n\nExample: $(x)+(x+10)+(x+20)=180$."
+    },
+    "143": {
+      "hint": "Co-interior angles (5t+10) and (3t+50) add to 180° — solve for t.",
+      "help": "$8t + 60 = 180$ → **t** = 15. Substitute for both co-interior angles.\n\nExample: beam problem with $(2x+5) + (x+25) = 180$."
+    },
+    "144": {
+      "hint": "Vertically opposite: set 6u + 8 equal to 4u + 28.",
+      "help": "$6u + 8 = 4u + 28$ → **u** = 10. Angle $= 6(10) + 8 = 68°$.\n\nExample: $(5x)°$ opposite $(3x + 20)°$."
+    },
+    "145": {
+      "hint": "Corresponding angles are equal — but only when lines are parallel. Always, sometimes, or never?",
+      "help": "Corresponding angles are equal **when** lines are parallel; otherwise they may differ.\n\nAnswer: **sometimes** (always for parallels, not always in general)."
+    },
+    "146": {
+      "hint": "Supplementary angles on a straight line — subtract 17° from 180°.",
+      "help": "Missing angle $= 180 - 17 = 163°$.\n\nExample: 25° on a line → partner 155°."
+    },
+    "147": {
+      "hint": "Straight-line partner of 164° — subtract from 180°.",
+      "help": "Missing angle $= 180 - 164 = 16°$.\n\nExample: 170° on a line → partner 10°."
+    },
+    "148": {
+      "hint": "Triangle third angle: subtract 61° and 49° from 180°.",
+      "help": "**v** $= 180 - 61 - 49 = 70°$.\n\nExample: 55° and 65° → third 60°."
+    },
+    "149": {
+      "hint": "Quadrilateral: subtract 78°, 102°, and 96° from 360° for y.",
+      "help": "**y** $= 360 - 78 - 102 - 96 = 84°$.\n\nExample: three angles 90° → fourth 90°."
+    },
+    "150": {
+      "hint": "Co-interior partner of 53° on parallel lines — subtract from 180°.",
+      "help": "Co-interior angle $= 180 - 53 = 127°$.\n\nExample: co-interior to 40° is 140°."
+    },
+    "151": {
+      "hint": "Alternate angle to 53° between parallel lines — same as the given angle.",
+      "help": "**Alternate** angle $= 53°$.\n\nExample: alternate to 72° is 72°."
+    },
+    "152": {
+      "hint": "Stretch: draw a line through one vertex parallel to the opposite side — which angle facts link up?",
+      "help": "Through the top vertex, draw a line **parallel** to the base. **Alternate** angles show the three triangle angles lie on a straight line → sum **180°**.\n\nOutline this proof on a sketch."
+    },
+    "153": {
+      "hint": "Hexagon splits into four triangles from one vertex — multiply 180° by 4.",
+      "help": "Four triangles give $4 \\times 180° = 720°$ total interior angle sum for a hexagon.\n\nExample: pentagon → 3 triangles → 540°."
+    },
+    "154": {
+      "hint": "Triangle between parallel lines: base angles 48° and 62° — subtract from 180° for the top.",
+      "help": "Top angle $= 180 - 48 - 62 = 70°$.\n\nExample: base angles 55° and 65° → top 60°."
+    },
+    "155": {
+      "hint": "Stretch: invent a puzzle using vertically opposite angles and a straight line — then solve it.",
+      "help": "Example puzzle: two lines cross giving **65°** vertically opposite to **x**, and **x** with **y** on a straight line. Then **x** = 65°, **y** = 115°.\n\nWrite your own numbers and solve."
+    },
+    "156": {
+      "hint": "Stretch: combine corresponding angles on parallel lines with a triangle angle sum.",
+      "help": "Example: parallel lines give corresponding **50°** equal to a triangle base angle; other base **70°** → apex **60°**.\n\nCreate and solve your own version."
+    },
+    "157": {
+      "hint": "With angle 67° at a parallel-line crossing, count corresponding and alternate angles that also equal 67°.",
+      "help": "At one intersection: **corresponding** and **alternate** to 67° also give **67°** — typically **two** labels at 67° on that side (plus vertically opposite copies).\n\nSketch and count matching positions."
+    },
+    "158": {
+      "hint": "Around a point: subtract 140° and 100° from 360° for z.",
+      "help": "**z** $= 360 - 140 - 100 = 120°$.\n\nExample: 90°, 120°, and 150° around a point."
+    },
+    "159": {
+      "hint": "Exterior 95° equals sum of remote interiors 42° and a.",
+      "help": "$42 + a = 95$, so **a** = 53°.\n\nExample: exterior 110° with remote 45° → other 65°."
+    },
+    "160": {
+      "hint": "Do the exterior angles of any convex polygon always add to one full turn?",
+      "help": "Walking round a convex polygon, the exterior turns sum to **360°** — always true.\n\nExample: square exterior angles: four lots of 90° turn = 360°."
+    },
+    "161": {
+      "hint": "Straight line: (12w − 8) + (8w + 12) = 180 — solve for w.",
+      "help": "$20w + 4 = 180$ → **w** = 8.8. Substitute for both angles.\n\nExample: $(10x) + (5x + 15) = 180$."
+    },
+    "162": {
+      "hint": "Isosceles: two base angles equal (2x+5) each, apex (6x−10) — sum to 180°.",
+      "help": "$(2x + 5) + (2x + 5) + (6x - 10) = 180$ → **x** = 15. Find all three angles.\n\nExample: base $(x+10)°$ each, apex $(4x)°$."
+    },
+    "163": {
+      "hint": "Ladder 52° with ground, wall vertical (90°) — find angle between ladder and wall.",
+      "help": "Angle with wall $= 180 - 90 - 52 = 38°$ (or $90 - 52 = 38°$ in the corner).\n\nExample: 60° with ground → 30° with vertical wall."
+    },
+    "164": {
+      "hint": "Can a corner of a normal quadrilateral measure 0°?",
+      "help": "A **0°** corner would collapse the shape — not a valid quadrilateral corner.\n\nAnswer: **no**."
+    },
+    "165": {
+      "hint": "Alternate to 109° is 109° (obtuse) — find the acute alternate at the other Z.",
+      "help": "Acute alternate $= 180 - 109 = 71°$ (using supplementary relationship at the crossing).\n\nExample: obtuse 120° → acute alternate 60°."
+    },
+    "166": {
+      "hint": "Vertically opposite: (3y + 15) equals (5y − 5) — solve for y.",
+      "help": "$3y + 15 = 5y - 5$ → **y** = 10. Angle $= 3(10) + 15 = 45°$.\n\nExample: $(2x + 8)°$ opposite $(4x - 12)°$."
+    },
+    "167": {
+      "hint": "Co-interior to 68° adds to 180° — find b and name the rule.",
+      "help": "**b** $= 180 - 68 = 112°$. Rule: **co-interior** angles between parallel lines sum to **180°**.\n\nExample: co-interior to 75° is 105°."
+    },
+    "168": {
+      "hint": "Third angle from 17° and 63° — then compare to 90° to classify.",
+      "help": "Third $= 180 - 17 - 63 = 100°$, which is **obtuse**.\n\nExample: 30° and 40° → third 110° (obtuse)."
+    },
+    "169": {
+      "hint": "Five equal angles around a point — divide 360° by 5.",
+      "help": "Each angle $= 360 \\div 5 = 72°$.\n\nExample: eight equal angles → 45° each."
+    },
+    "170": {
+      "hint": "Is the biggest angle always opposite the longest side in a triangle?",
+      "help": "In any triangle, the **largest angle** lies opposite the **longest side** — always true.\n\nExample: sides 3, 4, 5 → right angle opposite side 5."
+    },
+    "171": {
+      "hint": "One angle is twice the other on a straight line — call the smaller x, so x + 2x = 180.",
+      "help": "$3x = 180$ → smaller **60°**, larger **120°**.\n\nExample: one angle triple the other → 45° and 135°."
+    },
+    "172": {
+      "hint": "Co-interior to 34° is 180 − 34 — is that acute or obtuse?",
+      "help": "Co-interior partner $= 146°$, which is **obtuse**.\n\nExample: co-interior to 50° is 130° (obtuse)."
+    },
+    "173": {
+      "hint": "Exterior angle equals sum of remote interior angles 40° and 55°.",
+      "help": "Exterior angle $= 40 + 55 = 95°$.\n\nExample: remote interiors 30° and 50° → exterior 80°."
+    },
+    "174": {
+      "hint": "Rope 70° with level ground, pole vertical — angle between rope and pole?",
+      "help": "Pole ⟂ ground → angle with pole $= 90 - 70 = 20°$ (or $180 - 90 - 70 = 20°$).\n\nExample: rope 50° with ground → 40° with vertical pole."
+    },
+    "175": {
+      "hint": "Quadrilateral: subtract 110°, 100°, and 95° from 360° for d.",
+      "help": "**d** $= 360 - 110 - 100 - 95 = 55°$.\n\nExample: four angles 90° each in a rectangle."
+    },
+    "176": {
+      "hint": "Can alternate angles be equal even when the lines are not parallel?",
+      "help": "If lines are **not parallel**, alternate angles are **not guaranteed** equal — only sometimes (by chance).\n\nAnswer: **sometimes** true, not always."
+    },
+    "177": {
+      "hint": "Triangle angles 7z, 8z, and 9z sum to 180° — solve for z.",
+      "help": "$24z = 180$ → **z** = 7.5. Angles are 52.5°, 60°, and 67.5°.\n\nExample: $(2x) + (3x) + (4x) = 180$ → $x = 20$."
+    },
+    "178": {
+      "hint": "Stretch: describe using co-interior and vertically opposite facts to find an unknown.",
+      "help": "Method: find a **co-interior** partner (sum 180°), then use **vertically opposite** equality at a crossing to transfer the angle to another part of the diagram.\n\nDescribe each step in words on your sketch."
+    },
+    "179": {
+      "hint": "Stretch: co-interior angles 3a and 2a + 30 — set their sum to 180 and solve for a.",
+      "help": "$3a + (2a + 30) = 180$ → **a** = 30. Angles are 90° and 120°.\n\nExample: $(4x) + (x + 20) = 180$."
+    },
+    "180": {
+      "hint": "Stretch: explain splitting any quadrilateral into two triangles to show 360° total.",
+      "help": "Draw one diagonal — it splits the quadrilateral into **two triangles**. Each triangle sums to **180°**, so total **360°**.\n\nExample: sketch a kite split by one diagonal."
+    },
+    "181": {
+      "hint": "Missing straight-line angle with 88° — subtract from 180°.",
+      "help": "Partner $= 180 - 88 = 92°$.\n\nExample: 75° on a line → partner 105°."
+    },
+    "182": {
+      "hint": "Straight-line partner of 103° — subtract from 180°.",
+      "help": "Missing angle $= 180 - 103 = 77°$.\n\nExample: 120° on a line → partner 60°."
+    },
+    "183": {
+      "hint": "Only two angles around a point: 220° and b — they must sum to 360°.",
+      "help": "**b** $= 360 - 220 = 140°$.\n\nExample: 270° and 90° as two angles around a point."
+    },
+    "184": {
+      "hint": "Triangle third angle: subtract 72° and 58° from 180°.",
+      "help": "**e** $= 180 - 72 - 58 = 50°$.\n\nExample: 45° and 55° → third 80°."
+    },
+    "185": {
+      "hint": "Corresponding angle to 47° on parallel lines — equal in matching position.",
+      "help": "**Corresponding** angle $= 47°$.\n\nExample: corresponding to 93° is 93°."
+    },
+    "186": {
+      "hint": "Co-interior partner of 132° — subtract from 180°.",
+      "help": "Co-interior angle $= 180 - 132 = 48°$.\n\nExample: co-interior to 115° is 65°."
+    },
+    "187": {
+      "hint": "Can 91° appear twice as angles in one triangle? What is the angle sum?",
+      "help": "Two angles of **91°** would sum to **182°**, already over **180°** — impossible.\n\nAnswer: **no**."
+    },
+    "188": {
+      "hint": "Vertically opposite to 156° — equal across the intersection.",
+      "help": "When two lines **cross**, vertically opposite angles are **equal**. The angle opposite **156°** is also **156°**.\n\nExample: 134° at a cross has 134° vertically opposite."
+    },
+    "189": {
+      "hint": "Pentagon sum 540° — subtract 105°, 115°, 125°, and 135° for the fifth angle.",
+      "help": "Fifth angle $= 540 - 105 - 115 - 125 - 135 = 60°$.\n\nExample: four angles 100° each → fifth 140°."
+    },
+    "190": {
+      "hint": "Corresponding angles equal: set (4m + 8) equal to (6m − 4) and solve for m.",
+      "help": "$4m + 8 = 6m - 4$ → **m** = 6. Both corresponding angles $= 32°$.\n\nExample: $(3x + 5)°$ corresponding to $(5x - 7)°$."
+    },
+    "191": {
+      "hint": "Does a triangle have exactly one right angle, or could it have more?",
+      "help": "At most **one** right angle fits in a triangle (two would use 180°). So a triangle has **exactly one** right angle **when** it is right-angled.\n\nAnswer: **always** (for any right-angled triangle)."
+    },
+    "192": {
+      "hint": "Isosceles apex 100° — split remaining 80° equally between base angles.",
+      "help": "Each base angle $= (180 - 100) \\div 2 = 40°$.\n\nExample: apex 80° → base angles 50° each."
+    },
+    "193": {
+      "hint": "Isosceles base angles 35° each — subtract both from 180° for apex.",
+      "help": "Apex $= 180 - 35 - 35 = 110°$.\n\nExample: base angles 40° → apex 100°."
+    },
+    "194": {
+      "hint": "Stretch: design a question mixing quadrilateral sum and parallel-line facts, then solve.",
+      "help": "Example: quadrilateral with one angle **70°** from parallel-line corresponding, other three sum to **290°** — find them if equal (**96.67°** each approx).\n\nInvent your own diagram and solve."
+    },
+    "195": {
+      "hint": "Stretch: combine around-a-point and triangle-sum facts in one puzzle.",
+      "help": "Example: three angles around a point are **100°**, **110°**, and **150°**; a triangle shares one **110°** angle — find the other two if isosceles.\n\nCreate and solve your version."
+    },
+    "196": {
+      "hint": "Stretch: prove vertically opposite angles are equal using straight-line 180° facts.",
+      "help": "Adjacent angles on a line sum to **180°**. Both vertically opposite pairs share the same leftover from 180°, so opposite angles are **equal**.\n\nWrite this as a short argument with labels."
+    },
+    "197": {
+      "hint": "Stretch: list four angle facts for parallel lines cut by a transversal.",
+      "help": "Key facts: **corresponding** equal, **alternate** equal, **co-interior** sum to **180°**, and vertically opposite angles at the crossing are **equal**.\n\nList each with a one-line description."
+    },
+    "198": {
+      "hint": "Stretch: write a real-world angle puzzle (ladder, road, or roof) and solve it.",
+      "help": "Example: a roof peak **40°**, each base angle **70°** (check sum 180°). Or a ladder **55°** with ground against a vertical wall → **35°** with wall.\n\nWrite your scenario and show working."
+    },
+    "199": {
+      "hint": "Stretch: three lines meet — use two pairs of vertically opposite angles to find an unknown.",
+      "help": "If two lines cross giving **x** opposite **65°**, then **x** = 65°. A third line through the point gives more pairs — use **equal** opposite angles step by step.\n\nSketch three crossing lines and label."
+    },
+    "200": {
+      "hint": "Stretch: write your hardest angle-fact puzzle for a friend, then give a full solution.",
+      "help": "Combine at least **two** facts (e.g. parallels + triangle sum, or around-a-point + isosceles). Set unknowns with algebra if you like.\n\nWrite the puzzle, then solve it showing every angle fact used."
+    }
+  }
+}

@@ -1,0 +1,1717 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "4 cm²",
+      "accept": [
+        "4",
+        "4 cm2",
+        "4cm2",
+        "4 cm²"
+      ],
+      "tier": 1,
+      "rating": 501
+    },
+    "2": {
+      "display": "8 cm³",
+      "accept": [
+        "8",
+        "8 cm3",
+        "8cm3",
+        "8 cm³"
+      ],
+      "tier": 1,
+      "rating": 510
+    },
+    "3": {
+      "display": "6 cm",
+      "accept": [
+        "6",
+        "6 cm",
+        "6cm"
+      ],
+      "tier": 1,
+      "rating": 514
+    },
+    "4": {
+      "display": "4 cm²",
+      "accept": [
+        "4",
+        "4 cm2",
+        "4cm2"
+      ],
+      "tier": 1,
+      "rating": 523
+    },
+    "5": {
+      "display": "8 cm³",
+      "accept": [
+        "8",
+        "8 cm3",
+        "8cm3"
+      ],
+      "tier": 1,
+      "rating": 532
+    },
+    "6": {
+      "display": "k²",
+      "accept": [
+        "2",
+        "squared",
+        "k2",
+        "k²"
+      ],
+      "tier": 1,
+      "rating": 536
+    },
+    "7": {
+      "display": "k³",
+      "accept": [
+        "3",
+        "cubed",
+        "k3",
+        "k³"
+      ],
+      "tier": 1,
+      "rating": 545
+    },
+    "8": {
+      "display": "1 : 4",
+      "accept": [
+        "1:4",
+        "1 : 4"
+      ],
+      "tier": 1,
+      "rating": 549
+    },
+    "9": {
+      "display": "9 cm²",
+      "accept": [
+        "9",
+        "9 cm2",
+        "9 cm²"
+      ],
+      "tier": 1,
+      "rating": 558
+    },
+    "10": {
+      "display": "27 cm³",
+      "accept": [
+        "27",
+        "27 cm3",
+        "27 cm³"
+      ],
+      "tier": 1,
+      "rating": 567
+    },
+    "11": {
+      "display": "9",
+      "accept": [
+        "9",
+        "×9",
+        "x9"
+      ],
+      "tier": 1,
+      "rating": 571
+    },
+    "12": {
+      "display": "8",
+      "accept": [
+        "8",
+        "×8",
+        "x8"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "13": {
+      "display": "9 cm² and 36 cm²; ratio 1 : 4",
+      "accept": [
+        "1:4",
+        "9 36"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "14": {
+      "display": "8 cm³ and 64 cm³; ratio 1 : 8",
+      "accept": [
+        "1:8",
+        "8 64"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "15": {
+      "display": "1 : 9",
+      "accept": [
+        "1:9",
+        "1 : 9"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "16": {
+      "display": "1 : 8",
+      "accept": [
+        "1:8",
+        "1 : 8"
+      ],
+      "tier": 1,
+      "rating": 800
+    },
+    "17": {
+      "display": "180 cm²; ratio 1 : 9",
+      "accept": [
+        "180",
+        "1:9"
+      ],
+      "tier": 1,
+      "rating": 850
+    },
+    "18": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "19": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 950
+    },
+    "20": {
+      "display": "48 cm²",
+      "accept": [
+        "48",
+        "48 cm2",
+        "48 cm²"
+      ],
+      "tier": 1,
+      "rating": 1000
+    },
+    "21": {
+      "display": "810 cm³",
+      "accept": [
+        "810",
+        "810 cm3",
+        "810 cm³"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "22": {
+      "display": "2 : 3",
+      "accept": [
+        "2:3",
+        "2 : 3"
+      ],
+      "tier": 1,
+      "rating": 1100
+    },
+    "23": {
+      "display": "2 : 3",
+      "accept": [
+        "2:3",
+        "2 : 3"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "24": {
+      "display": "No — a side of 3 cm (area 9 cm²) doubled to 6 cm gives area 36 cm², which is 4 times bigger, not 2.",
+      "accept": [
+        "no",
+        "incorrect",
+        "4 times"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "25": {
+      "display": "Always — for similar 2D shapes, area scale factor is always the square of the length scale factor.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1008
+    },
+    "26": {
+      "display": "True — for similar 3D solids, volume scale factor is always the cube of the length scale factor.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1117
+    },
+    "27": {
+      "display": "No — surface area scale factor is 2² = 4, so the ratio is 1:4, while volume scale factor is 2³ = 8, so the ratio is 1:8. These are different.",
+      "accept": [
+        "no",
+        "incorrect",
+        "1:4",
+        "1:8"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "28": {
+      "display": "A square with side s has area s squared. Enlarging the side by factor k gives a new side ks, so the new area is (ks)² = k²s², which is k squared times the original area.",
+      "accept": ["k squared", "times bigger"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1333
+    },
+    "29": {
+      "display": "No — the length scale factor is the square root of the area scale factor, so it is 3, not 9.",
+      "accept": [
+        "no",
+        "3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1442
+    },
+    "30": {
+      "display": "No — the volume scale factor is (1/2)³ = 1/8, not 1/2.",
+      "accept": [
+        "no",
+        "1/8"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "31": {
+      "display": "5000 cm³",
+      "accept": [
+        "5000"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "32": {
+      "display": "250 cm²",
+      "accept": [
+        "250"
+      ],
+      "tier": 3,
+      "rating": 1208
+    },
+    "33": {
+      "display": "108 litres",
+      "accept": [
+        "108"
+      ],
+      "tier": 3,
+      "rating": 1317
+    },
+    "34": {
+      "display": "20 000 m²",
+      "accept": [
+        "20000",
+        "20 000"
+      ],
+      "tier": 3,
+      "rating": 1425
+    },
+    "35": {
+      "display": "2 : 3",
+      "accept": [
+        "2:3",
+        "2 : 3"
+      ],
+      "tier": 3,
+      "rating": 1533
+    },
+    "36": {
+      "display": "1 : 4",
+      "accept": [
+        "1:4",
+        "1 : 4"
+      ],
+      "tier": 3,
+      "rating": 1642
+    },
+    "37": {
+      "display": "1 : 10",
+      "accept": [
+        "1:10",
+        "1 : 10"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "38": {
+      "display": "27 : 64",
+      "accept": [
+        "27:64",
+        "27 : 64"
+      ],
+      "tier": 3,
+      "rating": 783
+    },
+    "39": {
+      "display": "800 ml",
+      "accept": [
+        "800",
+        "800ml",
+        "0.8"
+      ],
+      "tier": 3,
+      "rating": 791
+    },
+    "40": {
+      "display": "(a) 4 : 25  (b) 8 : 125",
+      "accept": [
+        "4:25",
+        "8:125"
+      ],
+      "tier": 3,
+      "rating": 800
+    },
+    "41": {
+      "display": "Yes",
+      "accept": ["yes"],
+      "tier": 3,
+      "rating": 848
+    },
+    "42": {
+      "display": "15 cm",
+      "accept": ["15", "15 cm"],
+      "tier": 3,
+      "rating": 856
+    },
+    "43": {
+      "display": "9 cm",
+      "accept": [
+        "9",
+        "9 cm"
+      ],
+      "tier": 1,
+      "rating": 783
+    },
+    "44": {
+      "display": "36 cm²",
+      "accept": [
+        "36",
+        "36 cm²"
+      ],
+      "tier": 1,
+      "rating": 791
+    },
+    "45": {
+      "display": "2.5",
+      "accept": [
+        "2.5",
+        "5/2"
+      ],
+      "tier": 1,
+      "rating": 799
+    },
+    "46": {
+      "display": "225 cm²",
+      "accept": [
+        "225"
+      ],
+      "tier": 1,
+      "rating": 701
+    },
+    "47": {
+      "display": "512 cm³",
+      "accept": [
+        "512"
+      ],
+      "tier": 1,
+      "rating": 849
+    },
+    "48": {
+      "display": "3 : 5",
+      "accept": [
+        "3",
+        "5"
+      ],
+      "tier": 1,
+      "rating": 807
+    },
+    "49": {
+      "display": "2 : 5",
+      "accept": [
+        "2",
+        "5"
+      ],
+      "tier": 1,
+      "rating": 751
+    },
+    "50": {
+      "display": "9 cm, 12 cm and 15 cm",
+      "accept": [
+        "9",
+        "12",
+        "15"
+      ],
+      "tier": 1,
+      "rating": 885
+    },
+    "51": {
+      "display": "21 cm",
+      "accept": [
+        "21"
+      ],
+      "tier": 1,
+      "rating": 826
+    },
+    "52": {
+      "display": "2.5",
+      "accept": [
+        "2.5"
+      ],
+      "tier": 1,
+      "rating": 782
+    },
+    "53": {
+      "display": "60 cm²",
+      "accept": [
+        "60"
+      ],
+      "tier": 1,
+      "rating": 854
+    },
+    "54": {
+      "display": "648 cm³",
+      "accept": [
+        "648"
+      ],
+      "tier": 1,
+      "rating": 819
+    },
+    "55": {
+      "display": "7 : 11",
+      "accept": [
+        "7",
+        "11"
+      ],
+      "tier": 1,
+      "rating": 722
+    },
+    "56": {
+      "display": "1 : 8",
+      "accept": [
+        "1",
+        "8"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "57": {
+      "display": "2.4 cm",
+      "accept": [
+        "2.4"
+      ],
+      "tier": 1,
+      "rating": 767
+    },
+    "58": {
+      "display": "200 cm²",
+      "accept": [
+        "200"
+      ],
+      "tier": 1,
+      "rating": 791
+    },
+    "59": {
+      "display": "5 cm³",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 895
+    },
+    "60": {
+      "display": "27 : 8",
+      "accept": [
+        "27",
+        "8"
+      ],
+      "tier": 1,
+      "rating": 866
+    },
+    "61": {
+      "display": "3.5 cm",
+      "accept": [
+        "3.5"
+      ],
+      "tier": 1,
+      "rating": 730
+    },
+    "62": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 802
+    },
+    "63": {
+      "display": "2 : 3",
+      "accept": [
+        "2",
+        "3"
+      ],
+      "tier": 1,
+      "rating": 871
+    },
+    "64": {
+      "display": "45 cm²",
+      "accept": [
+        "45"
+      ],
+      "tier": 1,
+      "rating": 774
+    },
+    "65": {
+      "display": "1 : 50",
+      "accept": [
+        "50"
+      ],
+      "tier": 1,
+      "rating": 814
+    },
+    "66": {
+      "display": "1.5",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 1,
+      "rating": 737
+    },
+    "67": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 837
+    },
+    "68": {
+      "display": "100 cm³",
+      "accept": [
+        "100"
+      ],
+      "tier": 1,
+      "rating": 957
+    },
+    "69": {
+      "display": "4 : 49",
+      "accept": [
+        "4",
+        "49"
+      ],
+      "tier": 1,
+      "rating": 784
+    },
+    "70": {
+      "display": "90 cm",
+      "accept": [
+        "90"
+      ],
+      "tier": 1,
+      "rating": 847
+    },
+    "71": {
+      "display": "704 cm³",
+      "accept": [
+        "704"
+      ],
+      "tier": 1,
+      "rating": 768
+    },
+    "72": {
+      "display": "135 cm²",
+      "accept": [
+        "135"
+      ],
+      "tier": 1,
+      "rating": 878
+    },
+    "73": {
+      "display": "8 : 27",
+      "accept": [
+        "8",
+        "27"
+      ],
+      "tier": 1,
+      "rating": 803
+    },
+    "74": {
+      "display": "3.6 m",
+      "accept": [
+        "3.6"
+      ],
+      "tier": 1,
+      "rating": 885
+    },
+    "75": {
+      "display": "1/3",
+      "accept": [
+        "1/3"
+      ],
+      "tier": 1,
+      "rating": 861
+    },
+    "76": {
+      "display": "10 cm, 24 cm and 26 cm",
+      "accept": [
+        "10",
+        "24",
+        "26"
+      ],
+      "tier": 1,
+      "rating": 743
+    },
+    "77": {
+      "display": "324 cm³",
+      "accept": [
+        "324"
+      ],
+      "tier": 1,
+      "rating": 1013
+    },
+    "78": {
+      "display": "1.5",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 1,
+      "rating": 755
+    },
+    "79": {
+      "display": "20 000 m²",
+      "accept": [
+        "20000"
+      ],
+      "tier": 1,
+      "rating": 1058
+    },
+    "80": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "81": {
+      "display": "5 000 000 m²",
+      "accept": [
+        "5000000"
+      ],
+      "tier": 1,
+      "rating": 776
+    },
+    "82": {
+      "display": "1.5",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 1,
+      "rating": 1070
+    },
+    "83": {
+      "display": "800 cm³",
+      "accept": [
+        "800"
+      ],
+      "tier": 1,
+      "rating": 822
+    },
+    "84": {
+      "display": "9 : 25",
+      "accept": [
+        "9",
+        "25"
+      ],
+      "tier": 1,
+      "rating": 787
+    },
+    "85": {
+      "display": "30 cm",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 800
+    },
+    "86": {
+      "display": "10.8 cm",
+      "accept": [
+        "10.8"
+      ],
+      "tier": 1,
+      "rating": 850
+    },
+    "87": {
+      "display": "125 : 8",
+      "accept": [
+        "125",
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1083
+    },
+    "88": {
+      "display": "480 m²",
+      "accept": [
+        "480"
+      ],
+      "tier": 1,
+      "rating": 812
+    },
+    "89": {
+      "display": "125 : 8",
+      "accept": [
+        "125",
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1018
+    },
+    "90": {
+      "display": "1.75",
+      "accept": [
+        "1.75"
+      ],
+      "tier": 1,
+      "rating": 1048
+    },
+    "91": {
+      "display": "1.5",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "92": {
+      "display": "5 cm³",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1076
+    },
+    "93": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1020
+    },
+    "94": {
+      "display": "30 cm³",
+      "accept": [
+        "30"
+      ],
+      "tier": 2,
+      "rating": 1031
+    },
+    "95": {
+      "display": "8 cm, 10 cm and 10 cm",
+      "accept": [
+        "8",
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1042
+    },
+    "96": {
+      "display": "False — volume scale factor is k³, so 27.",
+      "accept": [
+        "false",
+        "27"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1056
+    },
+    "97": {
+      "display": "200 m³",
+      "accept": [
+        "200"
+      ],
+      "tier": 2,
+      "rating": 1059
+    },
+    "98": {
+      "display": "25 : 64",
+      "accept": [
+        "25",
+        "64"
+      ],
+      "tier": 2,
+      "rating": 1065
+    },
+    "99": {
+      "display": "70 cm",
+      "accept": [
+        "70"
+      ],
+      "tier": 2,
+      "rating": 1076
+    },
+    "100": {
+      "display": "7 : 10",
+      "accept": [
+        "7",
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1087
+    },
+    "101": {
+      "display": "20 km",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1093
+    },
+    "102": {
+      "display": "2/3",
+      "accept": [
+        "2/3"
+      ],
+      "tier": 2,
+      "rating": 1104
+    },
+    "103": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1110
+    },
+    "104": {
+      "display": "Never — same perimeter does not force same shape or area.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1129
+    },
+    "105": {
+      "display": "3.6 m",
+      "accept": [
+        "3.6"
+      ],
+      "tier": 2,
+      "rating": 1132
+    },
+    "106": {
+      "display": "15 cm by 22.5 cm; area 337.5 cm²",
+      "accept": [
+        "15",
+        "22.5"
+      ],
+      "tier": 2,
+      "rating": 1138
+    },
+    "107": {
+      "display": "170.7 cm³",
+      "accept": [
+        "170.7",
+        "171"
+      ],
+      "tier": 2,
+      "rating": 1149
+    },
+    "108": {
+      "display": "800 cm³",
+      "accept": [
+        "800"
+      ],
+      "tier": 2,
+      "rating": 1155
+    },
+    "109": {
+      "display": "22.5 cm",
+      "accept": [
+        "22.5"
+      ],
+      "tier": 2,
+      "rating": 1166
+    },
+    "110": {
+      "display": "1.4",
+      "accept": [
+        "1.4"
+      ],
+      "tier": 2,
+      "rating": 1177
+    },
+    "111": {
+      "display": "125 cm³",
+      "accept": [
+        "125"
+      ],
+      "tier": 2,
+      "rating": 1183
+    },
+    "112": {
+      "display": "324 cm³",
+      "accept": [
+        "324"
+      ],
+      "tier": 2,
+      "rating": 1194
+    },
+    "113": {
+      "display": "True — doubling length multiplies area by 2² = 4.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1208
+    },
+    "114": {
+      "display": "66 m",
+      "accept": [
+        "66"
+      ],
+      "tier": 2,
+      "rating": 1211
+    },
+    "115": {
+      "display": "1.5",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 2,
+      "rating": 1222
+    },
+    "116": {
+      "display": "125 : 27",
+      "accept": [
+        "125",
+        "27"
+      ],
+      "tier": 2,
+      "rating": 1228
+    },
+    "117": {
+      "display": "6.4 cm",
+      "accept": [
+        "6.4"
+      ],
+      "tier": 2,
+      "rating": 1239
+    },
+    "118": {
+      "display": "20 cm³",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1245
+    },
+    "119": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1256
+    },
+    "120": {
+      "display": "128 000 000 cm²",
+      "accept": [
+        "128000000"
+      ],
+      "tier": 2,
+      "rating": 1267
+    },
+    "121": {
+      "display": "32 cm²",
+      "accept": [
+        "32"
+      ],
+      "tier": 2,
+      "rating": 1273
+    },
+    "122": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1284
+    },
+    "123": {
+      "display": "729 : 512",
+      "accept": [
+        "729",
+        "512"
+      ],
+      "tier": 2,
+      "rating": 1290
+    },
+    "124": {
+      "display": "170 mm",
+      "accept": [
+        "170"
+      ],
+      "tier": 2,
+      "rating": 1301
+    },
+    "125": {
+      "display": "14 cm, 48 cm and 50 cm",
+      "accept": [
+        "14",
+        "48",
+        "50"
+      ],
+      "tier": 2,
+      "rating": 1312
+    },
+    "126": {
+      "display": "False — volume scale factor is k³.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1326
+    },
+    "127": {
+      "display": "4/3",
+      "accept": [
+        "1.33",
+        "4/3"
+      ],
+      "tier": 2,
+      "rating": 1329
+    },
+    "128": {
+      "display": "384 cm³",
+      "accept": [
+        "384"
+      ],
+      "tier": 2,
+      "rating": 1335
+    },
+    "129": {
+      "display": "4.48 m",
+      "accept": [
+        "4.48"
+      ],
+      "tier": 2,
+      "rating": 1346
+    },
+    "130": {
+      "display": "27 : 64",
+      "accept": [
+        "27",
+        "64"
+      ],
+      "tier": 2,
+      "rating": 1357
+    },
+    "131": {
+      "display": "16 : 9",
+      "accept": [
+        "16",
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1321
+    },
+    "132": {
+      "display": "20 km",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1334
+    },
+    "133": {
+      "display": "300 cm²",
+      "accept": [
+        "300"
+      ],
+      "tier": 2,
+      "rating": 1342
+    },
+    "134": {
+      "display": "15 cm²",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1355
+    },
+    "135": {
+      "display": "1 : 2",
+      "accept": [
+        "1",
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1368
+    },
+    "136": {
+      "display": "Never — volume uses k³.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1384
+    },
+    "137": {
+      "display": "21 093.75 kg",
+      "accept": [
+        "21093"
+      ],
+      "tier": 2,
+      "rating": 1389
+    },
+    "138": {
+      "display": "1.5",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 2,
+      "rating": 1397
+    },
+    "139": {
+      "display": "1200 m²",
+      "accept": [
+        "1200"
+      ],
+      "tier": 2,
+      "rating": 1410
+    },
+    "140": {
+      "display": "1 cm³",
+      "accept": [
+        "1"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "141": {
+      "display": "300 cm²",
+      "accept": [
+        "300"
+      ],
+      "tier": 3,
+      "rating": 1121
+    },
+    "142": {
+      "display": "880 cm² and 2400 cm³",
+      "accept": [
+        "880",
+        "2400"
+      ],
+      "tier": 3,
+      "rating": 1142
+    },
+    "143": {
+      "display": "True — perimeter ratio equals length ratio.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1163
+    },
+    "144": {
+      "display": "10 m",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1184
+    },
+    "145": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1205
+    },
+    "146": {
+      "display": "24 cm by 45 cm",
+      "accept": [
+        "24",
+        "45"
+      ],
+      "tier": 3,
+      "rating": 1226
+    },
+    "147": {
+      "display": "100 cm²",
+      "accept": [
+        "100"
+      ],
+      "tier": 3,
+      "rating": 1247
+    },
+    "148": {
+      "display": "12 cm and 16 cm",
+      "accept": [
+        "12",
+        "16"
+      ],
+      "tier": 3,
+      "rating": 1268
+    },
+    "149": {
+      "display": "1/∛2",
+      "accept": [
+        "0.79"
+      ],
+      "tier": 3,
+      "rating": 1289
+    },
+    "150": {
+      "display": "∛3",
+      "accept": [
+        "1.44"
+      ],
+      "tier": 3,
+      "rating": 1310
+    },
+    "151": {
+      "display": "28.56 cm²",
+      "accept": [
+        "28.56"
+      ],
+      "tier": 3,
+      "rating": 1331
+    },
+    "152": {
+      "display": "Always — equal angles and side ratios.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1352
+    },
+    "153": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1373
+    },
+    "154": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1394
+    },
+    "155": {
+      "display": "23.7 m",
+      "accept": [
+        "23.7"
+      ],
+      "tier": 3,
+      "rating": 1415
+    },
+    "156": {
+      "display": "3/2",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 3,
+      "rating": 1435
+    },
+    "157": {
+      "display": "720 cm³",
+      "accept": [
+        "720"
+      ],
+      "tier": 3,
+      "rating": 1456
+    },
+    "158": {
+      "display": "True — area scale is k².",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1477
+    },
+    "159": {
+      "display": "1350 cm³",
+      "accept": [
+        "1350"
+      ],
+      "tier": 3,
+      "rating": 1498
+    },
+    "160": {
+      "display": "4800 cm²",
+      "accept": [
+        "4800"
+      ],
+      "tier": 3,
+      "rating": 1519
+    },
+    "161": {
+      "display": "135 cm²",
+      "accept": [
+        "135"
+      ],
+      "tier": 3,
+      "rating": 1540
+    },
+    "162": {
+      "display": "15.625",
+      "accept": [
+        "15.625"
+      ],
+      "tier": 3,
+      "rating": 1561
+    },
+    "163": {
+      "display": "25 cm",
+      "accept": [
+        "25"
+      ],
+      "tier": 3,
+      "rating": 1582
+    },
+    "164": {
+      "display": "50 cm²",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1603
+    },
+    "165": {
+      "display": "True — cube example k³.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1624
+    },
+    "166": {
+      "display": "10 cm³",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1645
+    },
+    "167": {
+      "display": "4/3",
+      "accept": [
+        "1.33"
+      ],
+      "tier": 3,
+      "rating": 1666
+    },
+    "168": {
+      "display": "100 km²",
+      "accept": [
+        "100"
+      ],
+      "tier": 3,
+      "rating": 1687
+    },
+    "169": {
+      "display": "5 cm, 7.5 cm and 10 cm",
+      "accept": [
+        "5",
+        "7.5",
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1708
+    },
+    "170": {
+      "display": "64 : 1",
+      "accept": [
+        "64"
+      ],
+      "tier": 3,
+      "rating": 1729
+    },
+    "171": {
+      "display": "208 m³",
+      "accept": [
+        "208"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "172": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1763
+    },
+    "173": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1768
+    },
+    "174": {
+      "display": "Never — equal area ≠ equal perimeter.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1786
+    },
+    "175": {
+      "display": "1000 cm²",
+      "accept": [
+        "1000"
+      ],
+      "tier": 3,
+      "rating": 1788
+    },
+    "176": {
+      "display": "27 : 64",
+      "accept": [
+        "27",
+        "64"
+      ],
+      "tier": 3,
+      "rating": 1793
+    },
+    "177": {
+      "display": "37.5 cm by 56.25 cm; area scale 6.25",
+      "accept": [
+        "37.5",
+        "56.25"
+      ],
+      "tier": 3,
+      "rating": 1803
+    },
+    "178": {
+      "display": "ab",
+      "accept": [
+        "ab"
+      ],
+      "tier": 3,
+      "rating": 1808
+    },
+    "179": {
+      "display": "True — surface area scales with k².",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1826
+    },
+    "180": {
+      "display": "1 : 15; volume factor 3375",
+      "accept": [
+        "15",
+        "3375"
+      ],
+      "tier": 3,
+      "rating": 1828
+    },
+    "181": {
+      "display": "3 : 8",
+      "accept": [
+        "3",
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1833
+    },
+    "182": {
+      "display": "9 cm, 12 cm and 15 cm",
+      "accept": [
+        "9",
+        "12",
+        "15"
+      ],
+      "tier": 3,
+      "rating": 1843
+    },
+    "183": {
+      "display": "250 litres",
+      "accept": [
+        "250"
+      ],
+      "tier": 3,
+      "rating": 1848
+    },
+    "184": {
+      "display": "True — matching lengths scale equally.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1866
+    },
+    "185": {
+      "display": "640 cm²",
+      "accept": [
+        "640"
+      ],
+      "tier": 3,
+      "rating": 1868
+    },
+    "186": {
+      "display": "625 ha",
+      "accept": [
+        "625"
+      ],
+      "tier": 3,
+      "rating": 1873
+    },
+    "187": {
+      "display": "72.8%",
+      "accept": [
+        "72.8"
+      ],
+      "tier": 3,
+      "rating": 1883
+    },
+    "188": {
+      "display": "98 cm²",
+      "accept": [
+        "98"
+      ],
+      "tier": 3,
+      "rating": 1888
+    },
+    "189": {
+      "display": "737.9 kg",
+      "accept": [
+        "737"
+      ],
+      "tier": 3,
+      "rating": 1898
+    },
+    "190": {
+      "display": "Always — same length-to-width ratio.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1916
+    },
+    "191": {
+      "display": "No — only one dimension doubled.",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1921
+    },
+    "192": {
+      "display": "3/2",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 3,
+      "rating": 1923
+    },
+    "193": {
+      "display": "1440 cm³",
+      "accept": [
+        "1440"
+      ],
+      "tier": 3,
+      "rating": 1928
+    },
+    "194": {
+      "display": "True — scale factor below 1 reduces lengths.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1946
+    },
+    "195": {
+      "display": "1 : 4",
+      "accept": [
+        "1",
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1948
+    },
+    "196": {
+      "display": "4000 cm²",
+      "accept": [
+        "4000"
+      ],
+      "tier": 3,
+      "rating": 1953
+    },
+    "197": {
+      "display": "27 : 64",
+      "accept": [
+        "27",
+        "64"
+      ],
+      "tier": 3,
+      "rating": 1975
+    },
+    "198": {
+      "display": "Linear factor 3; area factor 9",
+      "accept": [
+        "3",
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1992
+    },
+    "199": {
+      "display": "Lengths scale by k because 2D shapes only stretch in one direction at a time for area, so area scales by k squared (2 dimensions), and volume scales by k cubed (3 dimensions).",
+      "accept": ["k squared", "k cubed"],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "200": {
+      "display": "27 : 1",
+      "accept": ["27:1", "27 : 1", "27"],
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

@@ -1,0 +1,563 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "1 : 2",
+      "accept": [
+        "1:2",
+        "1 : 2"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "6 apples",
+      "accept": [
+        "6",
+        "6 apples"
+      ],
+      "tier": 1,
+      "rating": 508
+    },
+    "3": {
+      "display": "2x",
+      "accept": [
+        "2x",
+        "2 x"
+      ],
+      "tier": 1,
+      "rating": 515
+    },
+    "4": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 523
+    },
+    "5": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 530
+    },
+    "6": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 538
+    },
+    "7": {
+      "display": "3x",
+      "accept": [
+        "3x",
+        "3 x"
+      ],
+      "tier": 1,
+      "rating": 545
+    },
+    "8": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 553
+    },
+    "9": {
+      "display": "12",
+      "accept": [
+        "12",
+        "twelve"
+      ],
+      "tier": 1,
+      "rating": 560
+    },
+    "10": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 568
+    },
+    "11": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 575
+    },
+    "12": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 583
+    },
+    "13": {
+      "display": "1 : 4",
+      "accept": [
+        "1:4",
+        "1 : 4"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "14": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 684
+    },
+    "15": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 708
+    },
+    "16": {
+      "display": "y = 6x",
+      "accept": [
+        "y=6x",
+        "y = 6x"
+      ],
+      "tier": 1,
+      "rating": 732
+    },
+    "17": {
+      "display": "1 : 1.25; y = 1.25x",
+      "accept": [
+        "1:1.25",
+        "y=1.25x",
+        "y = 1.25x"
+      ],
+      "tier": 1,
+      "rating": 756
+    },
+    "18": {
+      "display": "5 : 8; k = 1.6",
+      "accept": [
+        "5:8",
+        "1.6"
+      ],
+      "tier": 1,
+      "rating": 780
+    },
+    "19": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 1,
+      "rating": 804
+    },
+    "20": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 828
+    },
+    "21": {
+      "display": "y = 4x",
+      "accept": [
+        "y=4x",
+        "y = 4x"
+      ],
+      "tier": 1,
+      "rating": 852
+    },
+    "22": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 1,
+      "rating": 876
+    },
+    "23": {
+      "display": "300",
+      "accept": [
+        "300"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "24": {
+      "display": "Yes — a ratio table means y is always k times x for a fixed k, so plotting the points gives a straight line through (0,0) with gradient k.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 950
+    },
+    "25": {
+      "display": "Always — when x = 0, y = k × 0 = 0, so the line always passes through the origin.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1017
+    },
+    "26": {
+      "display": "True — a constant ratio x : y = 1 : 3 means y = 3x, which is direct proportion.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1083
+    },
+    "27": {
+      "display": "No — since the ratio isn't constant across all rows, the data cannot be described by a single rule y = kx.",
+      "accept": [
+        "no",
+        "incorrect"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1150
+    },
+    "28": {
+      "display": "Divide the y-value by the corresponding x-value: k = y ÷ x.",
+      "accept": [
+        "y/x",
+        "y ÷ x",
+        "divide"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1217
+    },
+    "29": {
+      "display": "Yes — since £0 always converts to €0, the graph must pass through the origin, and a constant exchange rate gives a straight line.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1283
+    },
+    "30": {
+      "display": "Yes — y = kx means doubling x gives k(2x) = 2(kx) = 2y, so y also doubles.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1350
+    },
+    "31": {
+      "display": "y = 1.15x; 46 euros",
+      "accept": [
+        "46",
+        "1.15x",
+        "y=1.15x"
+      ],
+      "tier": 3,
+      "rating": 1150
+    },
+    "32": {
+      "display": "y = 1.5x; 15 eggs",
+      "accept": [
+        "15",
+        "1.5x",
+        "y=1.5x"
+      ],
+      "tier": 3,
+      "rating": 1225
+    },
+    "33": {
+      "display": "y = x/8; 25 litres",
+      "accept": [
+        "25",
+        "x/8"
+      ],
+      "tier": 3,
+      "rating": 1300
+    },
+    "34": {
+      "display": "y = 2.5x; 45 cm",
+      "accept": [
+        "45",
+        "2.5x",
+        "y=2.5x"
+      ],
+      "tier": 3,
+      "rating": 1375
+    },
+    "35": {
+      "display": "y = 2.5x; £15",
+      "accept": [
+        "15",
+        "£15",
+        "2.5x"
+      ],
+      "tier": 3,
+      "rating": 1450
+    },
+    "36": {
+      "display": "y = 2x; £20",
+      "accept": [
+        "20",
+        "£20",
+        "2x"
+      ],
+      "tier": 3,
+      "rating": 1525
+    },
+    "37": {
+      "display": "42 cm",
+      "accept": [
+        "42",
+        "42 cm",
+        "42cm"
+      ],
+      "tier": 3,
+      "rating": 1600
+    },
+    "38": {
+      "display": "3 : 1",
+      "accept": [
+        "3:1",
+        "3 : 1"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "39": {
+      "display": "k = 3; y = 3x",
+      "accept": [
+        "3",
+        "3x",
+        "y=3x",
+        "y = 3x"
+      ],
+      "tier": 1,
+      "rating": 659
+    },
+    "40": {
+      "display": "5/2",
+      "accept": [
+        "5/2",
+        "2.5"
+      ],
+      "tier": 1,
+      "rating": 669
+    },
+    "41": {
+      "display": "6 : 1",
+      "accept": [
+        "6:1",
+        "6 : 1"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "42": {
+      "display": "k = 2; y = 2x",
+      "accept": [
+        "2",
+        "2x",
+        "y=2x",
+        "y = 2x"
+      ],
+      "tier": 1,
+      "rating": 687
+    },
+    "43": {
+      "display": "8/3",
+      "accept": [
+        "8/3"
+      ],
+      "tier": 1,
+      "rating": 696
+    },
+    "44": {
+      "display": "9 : 1",
+      "accept": [
+        "9:1",
+        "9 : 1"
+      ],
+      "tier": 1,
+      "rating": 706
+    },
+    "45": { "display": "2 : 3", "accept": ["2:3", "2 : 3"], "tier": 1, "rating": 723 },
+    "46": { "display": "k = 2.5; y = 2.5x", "accept": ["2.5", "2.5x", "y=2.5x"], "tier": 1, "rating": 732 },
+    "47": { "display": "2/5", "accept": ["2/5", "0.4"], "tier": 1, "rating": 741 },
+    "48": { "display": "24", "accept": ["24"], "tier": 1, "rating": 750 },
+    "49": { "display": "3 : 2", "accept": ["3:2", "3 : 2"], "tier": 1, "rating": 759 },
+    "50": { "display": "1.5", "accept": ["1.5", "3/2"], "tier": 1, "rating": 768 },
+    "51": { "display": "3/10", "accept": ["3/10", "0.3"], "tier": 1, "rating": 777 },
+    "52": { "display": "17.5", "accept": ["17.5", "17½"], "tier": 1, "rating": 786 },
+    "53": { "display": "3 : 1", "accept": ["3:1", "3 : 1"], "tier": 1, "rating": 795 },
+    "54": { "display": "y = 4.5x", "accept": ["4.5x", "y=4.5x", "y = 4.5x"], "tier": 1, "rating": 804 },
+    "55": { "display": "1/5", "accept": ["1/5", "0.2"], "tier": 1, "rating": 813 },
+    "56": { "display": "7 : 4", "accept": ["7:4", "7 : 4"], "tier": 1, "rating": 822 },
+    "57": { "display": "0.4", "accept": ["0.4", "2/5"], "tier": 1, "rating": 831 },
+    "58": { "display": "2/5", "accept": ["2/5", "0.4"], "tier": 1, "rating": 840 },
+    "59": { "display": "30", "accept": ["30"], "tier": 1, "rating": 849 },
+    "60": { "display": "3 : 5", "accept": ["3:5", "3 : 5"], "tier": 1, "rating": 858 },
+    "61": { "display": "0.75", "accept": ["0.75", "3/4"], "tier": 1, "rating": 867 },
+    "62": { "display": "4/5", "accept": ["4/5", "0.8"], "tier": 1, "rating": 876 },
+    "63": { "display": "7", "accept": ["7"], "tier": 1, "rating": 885 },
+    "64": { "display": "5 : 2", "accept": ["5:2", "5 : 2"], "tier": 1, "rating": 894 },
+    "65": { "display": "2.5", "accept": ["2.5", "5/2"], "tier": 1, "rating": 902 },
+    "66": { "display": "5/7", "accept": ["5/7"], "tier": 1, "rating": 911 },
+    "67": { "display": "15", "accept": ["15"], "tier": 1, "rating": 920 },
+    "68": { "display": "3 : 4", "accept": ["3:4", "3 : 4"], "tier": 1, "rating": 929 },
+    "69": { "display": "0.2", "accept": ["0.2", "1/5"], "tier": 1, "rating": 938 },
+    "70": { "display": "3/8", "accept": ["3/8", "0.375"], "tier": 1, "rating": 947 },
+    "71": { "display": "2 : 5", "accept": ["2:5", "2 : 5"], "tier": 1, "rating": 956 },
+    "72": { "display": "2.5", "accept": ["2.5", "5/2"], "tier": 1, "rating": 965 },
+    "73": { "display": "9/10", "accept": ["9/10", "0.9"], "tier": 1, "rating": 974 },
+    "74": { "display": "6", "accept": ["6"], "tier": 1, "rating": 983 },
+    "75": { "display": "5 : 2", "accept": ["5:2", "5 : 2"], "tier": 1, "rating": 992 },
+    "76": { "display": "k = 1.5; y = 1.5x", "accept": ["1.5", "1.5x"], "tier": 1, "rating": 1001 },
+    "77": { "display": "3/4", "accept": ["3/4", "0.75"], "tier": 1, "rating": 1010 },
+    "78": { "display": "2 : 5", "accept": ["2:5", "2 : 5"], "tier": 1, "rating": 1019 },
+    "79": { "display": "22", "accept": ["22"], "tier": 1, "rating": 1028 },
+    "80": { "display": "3 : 7", "accept": ["3:7", "3 : 7"], "tier": 1, "rating": 1037 },
+    "81": { "display": "5/12", "accept": ["5/12"], "tier": 1, "rating": 1046 },
+    "82": { "display": "7/10", "accept": ["7/10", "0.7"], "tier": 1, "rating": 1055 },
+    "83": { "display": "11", "accept": ["11"], "tier": 1, "rating": 1064 },
+    "84": { "display": "2 : 3", "accept": ["2:3", "2 : 3"], "tier": 1, "rating": 1073 },
+    "85": { "display": "4", "accept": ["4"], "tier": 1, "rating": 1082 },
+    "86": { "display": "7/10", "accept": ["7/10", "0.7"], "tier": 1, "rating": 1091 },
+    "87": { "display": "5 : 3", "accept": ["5:3", "5 : 3"], "tier": 1, "rating": 1100 },
+    "88": { "display": "5/3", "accept": ["5/3", "1.666", "1.67"], "tier": 1, "rating": 1109 },
+    "89": { "display": "4/5", "accept": ["4/5", "0.8"], "tier": 1, "rating": 1118 },
+    "90": { "display": "14", "accept": ["14"], "tier": 1, "rating": 1127 },
+    "91": { "display": "4 : 3", "accept": ["4:3", "4 : 3"], "tier": 1, "rating": 1136 },
+    "92": { "display": "24 cm", "accept": ["24", "24cm", "24 cm"], "tier": 1, "rating": 1145 },
+    "93": { "display": "y = 0.4x; £3.20", "accept": ["3.20", "3.2", "£3.20", "0.4x"], "tier": 2, "rating": 920 },
+    "94": { "display": "y = 0.02x; £14", "accept": ["14", "£14", "0.02x"], "tier": 2, "rating": 933 },
+    "95": { "display": "2/7", "accept": ["2/7"], "tier": 2, "rating": 945 },
+    "96": { "display": "4/7", "accept": ["4/7"], "tier": 2, "rating": 958 },
+    "97": { "display": "15", "accept": ["15"], "tier": 2, "rating": 970 },
+    "98": { "display": "15", "accept": ["15"], "tier": 2, "rating": 983 },
+    "99": { "display": "3/4", "accept": ["3/4", "0.75"], "tier": 2, "rating": 996 },
+    "100": { "display": "k = 1.5; y = 1.5x", "accept": ["1.5", "1.5x"], "tier": 2, "rating": 1008 },
+    "101": { "display": "2 : 3", "accept": ["2:3", "2 : 3"], "tier": 2, "rating": 1021 },
+    "102": { "display": "18 litres", "accept": ["18", "18 litres", "18l"], "tier": 2, "rating": 1033 },
+    "103": { "display": "3/8", "accept": ["3/8"], "tier": 2, "rating": 1046 },
+    "104": { "display": "14", "accept": ["14"], "tier": 2, "rating": 1059 },
+    "105": { "display": "5 : 3", "accept": ["5:3", "5 : 3"], "tier": 2, "rating": 1071 },
+    "106": { "display": "0.4", "accept": ["0.4", "2/5"], "tier": 2, "rating": 1084 },
+    "107": { "display": "2/5", "accept": ["2/5", "0.4"], "tier": 2, "rating": 1097 },
+    "108": { "display": "37.80 euros", "accept": ["37.8", "37.80", "37.80 euros"], "tier": 2, "rating": 1109 },
+    "109": { "display": "3 : 4", "accept": ["3:4", "3 : 4"], "tier": 2, "rating": 1122 },
+    "110": { "display": "y = 150x; 1050 g", "accept": ["1050", "1050g", "150x"], "tier": 2, "rating": 1134 },
+    "111": { "display": "2/5", "accept": ["2/5", "0.4"], "tier": 2, "rating": 1147 },
+    "112": { "display": "35", "accept": ["35"], "tier": 2, "rating": 1160 },
+    "113": { "display": "3 : 2", "accept": ["3:2", "3 : 2"], "tier": 2, "rating": 1172 },
+    "114": { "display": "y = (4/3)x", "accept": ["4/3", "4/3x", "y=(4/3)x"], "tier": 2, "rating": 1185 },
+    "115": { "display": "2/9", "accept": ["2/9"], "tier": 2, "rating": 1197 },
+    "116": { "display": "12.6", "accept": ["12.6"], "tier": 2, "rating": 1210 },
+    "117": { "display": "4 : 3", "accept": ["4:3", "4 : 3"], "tier": 2, "rating": 1223 },
+    "118": { "display": "£7.50", "accept": ["7.50", "7.5", "£7.50"], "tier": 2, "rating": 1235 },
+    "119": { "display": "3/4", "accept": ["3/4", "0.75"], "tier": 2, "rating": 1248 },
+    "120": { "display": "Yes — the points (0,0) and (5,13) lie on one line through the origin with k = 13/5.", "accept": ["yes"], "contains": true, "tier": 2, "rating": 1260 },
+    "121": { "display": "5 : 3", "accept": ["5:3", "5 : 3"], "tier": 2, "rating": 1273 },
+    "122": { "display": "0.35", "accept": ["0.35", "7/20"], "tier": 2, "rating": 1286 },
+    "123": { "display": "5/8", "accept": ["5/8", "0.625"], "tier": 2, "rating": 1298 },
+    "124": { "display": "15", "accept": ["15"], "tier": 2, "rating": 1311 },
+    "125": { "display": "2 : 1", "accept": ["2:1", "2 : 1"], "tier": 2, "rating": 1323 },
+    "126": { "display": "17.5 minutes", "accept": ["17.5", "17.5 minutes", "17½"], "tier": 2, "rating": 1336 },
+    "127": { "display": "1/4", "accept": ["1/4", "0.25"], "tier": 2, "rating": 1349 },
+    "128": { "display": "3.6", "accept": ["3.6", "18/5"], "tier": 2, "rating": 1361 },
+    "129": { "display": "3 : 2", "accept": ["3:2", "3 : 2"], "tier": 2, "rating": 1374 },
+    "130": { "display": "14 km", "accept": ["14", "14 km"], "tier": 2, "rating": 1387 },
+    "131": { "display": "13/20", "accept": ["13/20", "0.65"], "tier": 2, "rating": 1399 },
+    "132": { "display": "7.5", "accept": ["7.5", "7½"], "tier": 2, "rating": 1412 },
+    "133": { "display": "5 : 2", "accept": ["5:2", "5 : 2"], "tier": 2, "rating": 1424 },
+    "134": { "display": "0.8", "accept": ["0.8", "4/5"], "tier": 2, "rating": 1437 },
+    "135": { "display": "4/5", "accept": ["4/5", "0.8"], "tier": 2, "rating": 1450 },
+    "136": { "display": "21", "accept": ["21"], "tier": 2, "rating": 1462 },
+    "137": { "display": "2 : 3", "accept": ["2:3", "2 : 3"], "tier": 2, "rating": 1475 },
+    "138": { "display": "70 ml", "accept": ["70", "70 ml"], "tier": 2, "rating": 1487 },
+    "139": { "display": "37/100", "accept": ["37/100", "0.37"], "tier": 2, "rating": 1500 },
+    "140": { "display": "£3.60", "accept": ["3.60", "3.6", "£3.60"], "tier": 3, "rating": 1150 },
+    "141": { "display": "28 km", "accept": ["28", "28 km"], "tier": 3, "rating": 1168 },
+    "142": { "display": "y = 24; y = 1.6x", "accept": ["24", "1.6x"], "tier": 3, "rating": 1185 },
+    "143": { "display": "3/5", "accept": ["3/5", "0.6"], "tier": 3, "rating": 1203 },
+    "144": { "display": "k = 3.6; y = 21.6", "accept": ["3.6", "21.6"], "tier": 3, "rating": 1221 },
+    "145": { "display": "£560", "accept": ["560", "£560"], "tier": 3, "rating": 1239 },
+    "146": { "display": "80", "accept": ["80"], "tier": 3, "rating": 1256 },
+    "147": { "display": "450 g", "accept": ["450", "450g", "450 g"], "tier": 3, "rating": 1274 },
+    "148": { "display": "4/3", "accept": ["4/3", "1.333"], "tier": 3, "rating": 1292 },
+    "149": { "display": "£15.60", "accept": ["15.60", "15.6", "£15.60"], "tier": 3, "rating": 1310 },
+    "150": { "display": "y = 4x; y = 20", "accept": ["20", "4x"], "tier": 3, "rating": 1327 },
+    "151": { "display": "3/5", "accept": ["3/5", "0.6"], "tier": 3, "rating": 1345 },
+    "152": { "display": "165 litres", "accept": ["165", "165 litres"], "tier": 3, "rating": 1363 },
+    "153": { "display": "4/15", "accept": ["4/15"], "tier": 3, "rating": 1381 },
+    "154": { "display": "10.5", "accept": ["10.5", "10½"], "tier": 3, "rating": 1398 },
+    "155": { "display": "8 : 5", "accept": ["8:5", "8 : 5"], "tier": 3, "rating": 1416 },
+    "156": { "display": "k = 0.625; x = 40", "accept": ["0.625", "40", "5/8"], "tier": 3, "rating": 1434 },
+    "157": { "display": "multiplier 1.2; £48", "accept": ["48", "£48", "1.2"], "tier": 3, "rating": 1452 },
+    "158": { "display": "5/8", "accept": ["5/8", "0.625"], "tier": 3, "rating": 1469 },
+    "159": { "display": "y = x/250; 7.2 cm", "accept": ["7.2", "7.2 cm"], "tier": 3, "rating": 1487 },
+    "160": { "display": "100 ml", "accept": ["100", "100 ml"], "tier": 3, "rating": 1505 },
+    "161": { "display": "6", "accept": ["6"], "tier": 3, "rating": 1523 },
+    "162": { "display": "3 : 2", "accept": ["3:2", "3 : 2"], "tier": 3, "rating": 1540 },
+    "163": { "display": "24 cm", "accept": ["24", "24 cm"], "tier": 3, "rating": 1558 },
+    "164": { "display": "4/9", "accept": ["4/9"], "tier": 3, "rating": 1576 },
+    "165": { "display": "4/15", "accept": ["4/15"], "tier": 3, "rating": 1594 },
+    "166": { "display": "£848", "accept": ["848", "£848"], "tier": 3, "rating": 1611 },
+    "167": { "display": "2 kg", "accept": ["2", "2 kg", "2000g"], "tier": 3, "rating": 1629 },
+    "168": { "display": "12", "accept": ["12"], "tier": 3, "rating": 1647 },
+    "169": { "display": "3 : 2", "accept": ["3:2", "3 : 2"], "tier": 3, "rating": 1665 },
+    "170": { "display": "192 boxes", "accept": ["192", "192 boxes"], "tier": 3, "rating": 1682 },
+    "171": { "display": "3/10", "accept": ["3/10", "0.3"], "tier": 3, "rating": 1700 },
+    "172": { "display": "4.8", "accept": ["4.8", "24/5"], "tier": 3, "rating": 1420 },
+    "173": { "display": "140 pages", "accept": ["140", "140 pages"], "tier": 3, "rating": 1443 },
+    "174": { "display": "y = 36; y = 2.25x", "accept": ["36", "2.25x", "9/4"], "tier": 3, "rating": 1466 },
+    "175": { "display": "2/3", "accept": ["2/3"], "tier": 3, "rating": 1489 },
+    "176": { "display": "k = 2.75; y = 38.5", "accept": ["2.75", "38.5", "11/4"], "tier": 3, "rating": 1512 },
+    "177": { "display": "£72", "accept": ["72", "£72"], "tier": 3, "rating": 1535 },
+    "178": { "display": "19/50", "accept": ["19/50", "0.38"], "tier": 3, "rating": 1558 },
+    "179": { "display": "(18, 15)", "accept": ["18, 15", "(18, 15)"], "tier": 3, "rating": 1581 },
+    "180": { "display": "0.15 kg", "accept": ["0.15", "0.15 kg", "150g"], "tier": 3, "rating": 1604 },
+    "181": { "display": "72", "accept": ["72"], "tier": 3, "rating": 1627 },
+    "182": { "display": "5/8", "accept": ["5/8"], "tier": 3, "rating": 1650 },
+    "183": { "display": "56.25 litres", "accept": ["56.25", "56.25 litres"], "tier": 3, "rating": 1673 },
+    "184": { "display": "3/4", "accept": ["3/4", "0.75"], "tier": 3, "rating": 1697 },
+    "185": { "display": "k = 0.3; y = 7.5", "accept": ["0.3", "7.5", "3/10"], "tier": 3, "rating": 1720 },
+    "186": { "display": "52.64 euros", "accept": ["52.64", "52.64 euros"], "tier": 3, "rating": 1743 },
+    "187": { "display": "38.5", "accept": ["38.5", "38½"], "tier": 3, "rating": 1766 },
+    "188": { "display": "3 : 2", "accept": ["3:2", "3 : 2"], "tier": 3, "rating": 1789 },
+    "189": { "display": "11.2 cm", "accept": ["11.2", "11.2 cm"], "tier": 3, "rating": 1812 },
+    "190": { "display": "7/10", "accept": ["7/10", "0.7"], "tier": 3, "rating": 1835 },
+    "191": { "display": "k = 2.75; y = 27.5", "accept": ["2.75", "27.5"], "tier": 3, "rating": 1858 },
+    "192": { "display": "£744", "accept": ["744", "£744"], "tier": 3, "rating": 1881 },
+    "193": { "display": "7 : 11", "accept": ["7:11", "7 : 11"], "tier": 3, "rating": 1904 },
+    "194": { "display": "12.5", "accept": ["12.5", "12½", "25/2"], "tier": 3, "rating": 1927 },
+    "195": { "display": "0.5 litres", "accept": ["0.5", "0.5 litres", "500ml"], "tier": 3, "rating": 1950 },
+    "196": { "display": "x = 18; y = (7/3)x", "accept": ["18", "7/3", "y=(7/3)x"], "tier": 3, "rating": 1600 },
+    "197": { "display": "k = 2.5; y = 37.5", "accept": ["2.5", "37.5"], "tier": 3, "rating": 1700 },
+    "198": { "display": "Yes — 5/2 equals 2.5, so both rules are the same.", "accept": ["yes", "same"], "contains": true, "tier": 3, "rating": 1800 },
+    "199": { "display": "Divide y by x to get k = 15/6 = 2.5, so the equation is y = 2.5x.", "accept": ["2.5", "5/2", "divide"], "contains": true, "tier": 3, "rating": 1900 },
+    "200": { "display": "A real-life ratio table, the rule y = kx, and a sensible predicted value.", "accept": ["ratio", "y = k", "predict"], "contains": true, "tier": 3, "rating": 2000 }
+  }
+}

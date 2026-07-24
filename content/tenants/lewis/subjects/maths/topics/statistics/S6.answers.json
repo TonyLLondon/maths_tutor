@@ -1,0 +1,1827 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "Positive",
+      "accept": [
+        "positive"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "Fit",
+      "accept": [
+        "fit",
+        "line of best fit"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "Outlier",
+      "accept": [
+        "outlier"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "negative",
+      "accept": [
+        "negative"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 708
+    },
+    "11": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "12": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "Positive correlation",
+      "accept": [
+        "positive"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "Negative correlation",
+      "accept": [
+        "negative"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "No correlation",
+      "accept": [
+        "no correlation",
+        "none"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "Line of best fit",
+      "accept": [
+        "line of best fit"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "17": {
+      "display": "More hours of revision are linked with higher test scores",
+      "accept": [
+        "more revision higher score",
+        "higher score"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 865
+    },
+    "18": {
+      "display": "Lower temperatures are linked with higher hot chocolate sales",
+      "accept": [
+        "lower temperature more sales",
+        "colder more sales"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 892
+    },
+    "19": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "20": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "21": {
+      "display": "An outlier",
+      "accept": [
+        "outlier"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "22": {
+      "display": "No — outliers should usually be ignored when drawing the line, since they do not fit the general trend",
+      "accept": [
+        "no",
+        "ignore"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 997
+    },
+    "23": {
+      "display": "Estimating a value between two known data points, within the range of data collected",
+      "accept": [
+        "within range",
+        "between known points"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1024
+    },
+    "24": {
+      "display": "Estimating a value beyond the range of data collected, which is less reliable",
+      "accept": [
+        "beyond range",
+        "outside range",
+        "less reliable"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "25": {
+      "display": "Strong correlation means the points lie very close to the line of best fit, with little scatter around it.",
+      "accept": [
+        "close to the line",
+        "little scatter"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "26": {
+      "display": "False — correlation shows a relationship between two variables, but it does not prove that one causes the other to change.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "27": {
+      "display": "Not true — extrapolation assumes the same pattern continues beyond the data collected, but the relationship between the variables could change outside that range, making the estimate less reliable.",
+      "accept": [
+        "pattern could change",
+        "less reliable",
+        "assumes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "28": {
+      "display": "Never — if there is no clear correlation, drawing a line of best fit would not represent a meaningful trend in the data.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "29": {
+      "display": "Flawed because correlation does not mean causation; a third factor, such as hot weather, is likely causing both more ice cream sales and more people swimming (and therefore more drownings).",
+      "accept": [
+        "hot weather",
+        "third factor",
+        "causation"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "30": {
+      "display": "An outlier can distort the line of best fit if included, so it is usually ignored when drawing the line, but it might represent a real, valid (if unusual) result, so it should not be deleted from the data without good reason.",
+      "accept": [
+        "distort",
+        "valid result",
+        "real"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "31": {
+      "display": "Not necessary — a line of best fit is meant to show the overall trend of all the points, so it usually passes between most points rather than exactly through any of them.",
+      "accept": [
+        "overall trend",
+        "between points"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "32": {
+      "display": "Positive correlation: as one variable increases, so does the other (e.g. height and shoe size); negative correlation: as one increases, the other decreases (e.g. car age and value); no correlation: no clear relationship (e.g. shoe size and test score).",
+      "accept": [
+        "positive",
+        "negative",
+        "no correlation"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "33": {
+      "display": "Gradient = -2 — the car's value decreases by about £2000 for every extra year of age.",
+      "accept": [
+        "-2",
+        "decreases",
+        "£2000"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "34": {
+      "display": "£12,000",
+      "accept": [
+        "12",
+        "12000",
+        "£12,000",
+        "£12000"
+      ],
+      "tier": 3,
+      "rating": 1680
+    },
+    "35": {
+      "display": "70",
+      "accept": [
+        "70"
+      ],
+      "tier": 3,
+      "rating": 1740
+    },
+    "36": {
+      "display": "Driving at a lower speed (below the threshold) improves fuel efficiency, so drivers wanting to save fuel should slow down.",
+      "accept": [
+        "slow down",
+        "lower speed"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1741
+    },
+    "37": {
+      "display": "45°C is far outside the range of temperatures observed (10–30°C), so the trend might not continue in the same way at such an extreme temperature, making the estimate unreliable.",
+      "accept": [
+        "outside the range",
+        "unreliable",
+        "extrapolation"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1744
+    },
+    "38": {
+      "display": "Treat it as an outlier — ignore it when drawing the line of best fit and describing the correlation as strong positive, but mention it separately as an unusual case.",
+      "accept": [
+        "outlier",
+        "ignore"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "39": {
+      "display": "y = 5x",
+      "accept": [
+        "y=5x",
+        "5x"
+      ],
+      "tier": 3,
+      "rating": 1860
+    },
+    "40": {
+      "display": "30; this is interpolation (x = 6 is within the data range 1 to 9)",
+      "accept": [
+        "30",
+        "interpolation"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "41": {
+      "display": "Example: the number of firefighters at a fire and the amount of damage caused both increase because of the size of the fire (a third factor), not because more firefighters cause more damage.",
+      "accept": [
+        "firefighters",
+        "damage",
+        "size of the fire",
+        "third factor",
+        "not cause"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 3,
+      "rating": 1953
+    },
+    "42": {
+      "display": "Your own two positively correlated variables and two negatively correlated variables, with reasoning for each.",
+      "accept": [
+        "positive",
+        "negative",
+        "increases",
+        "decreases",
+        "reason"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "Positive correlation",
+      "accept": [
+        "positive",
+        "no correlation",
+        "none"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "44": {
+      "display": "Negative correlation",
+      "accept": [
+        "negative",
+        "no correlation",
+        "none"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "45": {
+      "display": "Positive correlation",
+      "accept": [
+        "positive"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "46": {
+      "display": "Negative correlation",
+      "accept": [
+        "negative"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "47": {
+      "display": "No correlation",
+      "accept": [
+        "no correlation",
+        "none",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "48": {
+      "display": "Positive",
+      "accept": [
+        "positive"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "49": {
+      "display": "Strong",
+      "accept": [
+        "strong"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "50": {
+      "display": "Weak",
+      "accept": [
+        "weak"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "51": {
+      "display": "Positive",
+      "accept": [
+        "positive"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "52": {
+      "display": "Negative",
+      "accept": [
+        "negative"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "53": {
+      "display": "No correlation",
+      "accept": [
+        "no correlation",
+        "none",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "54": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1150
+    },
+    "55": {
+      "display": "Decrease",
+      "accept": [
+        "decrease"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "56": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "57": {
+      "display": "Negative correlation",
+      "accept": [
+        "negative"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "58": {
+      "display": "No correlation",
+      "accept": [
+        "no correlation",
+        "none",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "59": {
+      "display": "Increase",
+      "accept": [
+        "increase",
+        "rise"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "60": {
+      "display": "Decrease",
+      "accept": [
+        "decrease",
+        "fall"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "61": {
+      "display": "Roughly equal",
+      "accept": [
+        "equal",
+        "roughly equal",
+        "same"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1151
+    },
+    "62": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1152
+    },
+    "63": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1153
+    },
+    "64": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1154
+    },
+    "65": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 1155
+    },
+    "66": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1156
+    },
+    "67": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 1,
+      "rating": 1157
+    },
+    "68": {
+      "display": "70",
+      "accept": [
+        "70"
+      ],
+      "tier": 1,
+      "rating": 1158
+    },
+    "69": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1159
+    },
+    "70": {
+      "display": "29",
+      "accept": [
+        "29"
+      ],
+      "tier": 1,
+      "rating": 1160
+    },
+    "71": {
+      "display": "-2",
+      "accept": [
+        "-2",
+        "decrease 2",
+        "decreases by 2"
+      ],
+      "tier": 1,
+      "rating": 1161
+    },
+    "72": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1162
+    },
+    "73": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 1,
+      "rating": 1163
+    },
+    "74": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 1164
+    },
+    "75": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 1,
+      "rating": 1165
+    },
+    "76": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1166
+    },
+    "77": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1167
+    },
+    "78": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1168
+    },
+    "79": {
+      "display": "No correlation",
+      "accept": [
+        "no correlation",
+        "none",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 1169
+    },
+    "80": {
+      "display": "Positive",
+      "accept": [
+        "positive"
+      ],
+      "tier": 1,
+      "rating": 1170
+    },
+    "81": {
+      "display": "Interpolation",
+      "accept": [
+        "interpolation"
+      ],
+      "tier": 1,
+      "rating": 1171
+    },
+    "82": {
+      "display": "Extrapolation",
+      "accept": [
+        "extrapolation"
+      ],
+      "tier": 1,
+      "rating": 1172
+    },
+    "83": {
+      "display": "Interpolation",
+      "accept": [
+        "interpolation"
+      ],
+      "tier": 1,
+      "rating": 1173
+    },
+    "84": {
+      "display": "Extrapolation",
+      "accept": [
+        "extrapolation"
+      ],
+      "tier": 1,
+      "rating": 1174
+    },
+    "85": {
+      "display": "Interpolation",
+      "accept": [
+        "interpolation"
+      ],
+      "tier": 1,
+      "rating": 1175
+    },
+    "86": {
+      "display": "Extrapolation",
+      "accept": [
+        "extrapolation"
+      ],
+      "tier": 1,
+      "rating": 1176
+    },
+    "87": {
+      "display": "Interpolation",
+      "accept": [
+        "interpolation"
+      ],
+      "tier": 1,
+      "rating": 1177
+    },
+    "88": {
+      "display": "Extrapolation",
+      "accept": [
+        "extrapolation"
+      ],
+      "tier": 1,
+      "rating": 1178
+    },
+    "89": {
+      "display": "Extrapolation — outside the range of data collected",
+      "accept": [
+        "extrapolation",
+        "outside",
+        "outside the data"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1179
+    },
+    "90": {
+      "display": "Decrease",
+      "accept": [
+        "decrease",
+        "fall"
+      ],
+      "tier": 1,
+      "rating": 1180
+    },
+    "91": {
+      "display": "55",
+      "accept": [
+        "55"
+      ],
+      "tier": 1,
+      "rating": 1181
+    },
+    "92": {
+      "display": "32",
+      "accept": [
+        "32"
+      ],
+      "tier": 1,
+      "rating": 1182
+    },
+    "93": {
+      "display": "240",
+      "accept": [
+        "240"
+      ],
+      "tier": 1,
+      "rating": 1185
+    },
+    "94": {
+      "display": "65",
+      "accept": [
+        "65"
+      ],
+      "tier": 1,
+      "rating": 1193
+    },
+    "95": {
+      "display": "Extrapolation",
+      "accept": [
+        "extrapolation"
+      ],
+      "tier": 1,
+      "rating": 1200
+    },
+    "96": {
+      "display": "Interpolation",
+      "accept": [
+        "interpolation"
+      ],
+      "tier": 1,
+      "rating": 1208
+    },
+    "97": {
+      "display": "The trend may not continue / the relationship could change outside the data range",
+      "accept": [
+        "change",
+        "not continue",
+        "pattern"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1215
+    },
+    "98": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 1223
+    },
+    "99": {
+      "display": "120",
+      "accept": [
+        "120"
+      ],
+      "tier": 1,
+      "rating": 1230
+    },
+    "100": {
+      "display": "Extrapolation",
+      "accept": [
+        "extrapolation"
+      ],
+      "tier": 1,
+      "rating": 1238
+    },
+    "101": {
+      "display": "False — an outlier can be a real but unusual result, not always a mistake",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1245
+    },
+    "102": {
+      "display": "Correlation does not prove causation — another factor or chance could explain the link",
+      "accept": [
+        "causation",
+        "cause",
+        "not prove"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1253
+    },
+    "103": {
+      "display": "Always — treating the outlier differently changes where the line goes",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1260
+    },
+    "104": {
+      "display": "Misleading — negative correlation means y tends to decrease as x increases, not that every point decreases",
+      "accept": [
+        "tend",
+        "tendency",
+        "not always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1268
+    },
+    "105": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1275
+    },
+    "106": {
+      "display": "It shows the overall trend of the scatter points",
+      "accept": [
+        "trend"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1283
+    },
+    "107": {
+      "display": "Keep it recorded as data but do not let it pull the trend line",
+      "accept": [
+        "record",
+        "keep",
+        "not pull"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1290
+    },
+    "108": {
+      "display": "False — it is an estimate from a model, not always exact",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1298
+    },
+    "109": {
+      "display": "No — correlation is not causation; a third factor such as fire size drives both",
+      "accept": [
+        "no",
+        "causation",
+        "third"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1305
+    },
+    "110": {
+      "display": "True — a flat line means no linear trend in y as x changes",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1313
+    },
+    "111": {
+      "display": "Strong positive: points stay close to the line; weak positive: wide scatter but still rising overall",
+      "accept": [
+        "scatter",
+        "close",
+        "wide"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1320
+    },
+    "112": {
+      "display": "False — steepness is gradient; strength depends on how tight points are to the line",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1328
+    },
+    "113": {
+      "display": "A",
+      "accept": [
+        "a",
+        "graph a"
+      ],
+      "tier": 2,
+      "rating": 1335
+    },
+    "114": {
+      "display": "False — interpolation uses values within the data range on the line you already have",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1343
+    },
+    "115": {
+      "display": "The line may cross below zero outside the data even when y cannot be negative in context",
+      "accept": [
+        "negative",
+        "context",
+        "impossible"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1350
+    },
+    "116": {
+      "display": "Always — a very large y-value pulls the mean more than the median",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1358
+    },
+    "117": {
+      "display": "Colder weather correlates with more coats sold, but coats do not cause cold weather — temperature drives both patterns",
+      "accept": [
+        "temperature",
+        "causation",
+        "drive"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1365
+    },
+    "118": {
+      "display": "False — extrapolation is used but is risky when the trend may change",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1373
+    },
+    "119": {
+      "display": "Segment joins only connect consecutive points; a line of best fit shows the overall trend through all points",
+      "accept": [
+        "overall",
+        "trend",
+        "all points"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1380
+    },
+    "120": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1388
+    },
+    "121": {
+      "display": "Gradient = -1; value decreases as age increases",
+      "accept": [
+        "-1",
+        "decrease"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1395
+    },
+    "122": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 3,
+      "rating": 1403
+    },
+    "123": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 3,
+      "rating": 1410
+    },
+    "124": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 3,
+      "rating": 1418
+    },
+    "125": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1425
+    },
+    "126": {
+      "display": "50",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1433
+    },
+    "127": {
+      "display": "110",
+      "accept": [
+        "110"
+      ],
+      "tier": 3,
+      "rating": 1440
+    },
+    "128": {
+      "display": "59",
+      "accept": [
+        "59"
+      ],
+      "tier": 3,
+      "rating": 1448
+    },
+    "129": {
+      "display": "92",
+      "accept": [
+        "92"
+      ],
+      "tier": 3,
+      "rating": 1455
+    },
+    "130": {
+      "display": "Gradient 30 — vet bills tend to increase by about £30 per year of pet age on this line",
+      "accept": [
+        "30",
+        "increase"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1463
+    },
+    "131": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1470
+    },
+    "132": {
+      "display": "60",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1478
+    },
+    "133": {
+      "display": "Points are spread widely — rainfall only weakly predicts yield",
+      "accept": [
+        "weak",
+        "scatter",
+        "spread"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1485
+    },
+    "134": {
+      "display": "More miles driven tends to leave less fuel in the tank",
+      "accept": [
+        "less fuel",
+        "decrease",
+        "runs out"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1493
+    },
+    "135": {
+      "display": "No — outlier",
+      "accept": [
+        "no",
+        "outlier"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1500
+    },
+    "136": {
+      "display": "60",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1508
+    },
+    "137": {
+      "display": "y = 3x + 3",
+      "accept": [
+        "y=3x+3",
+        "3x+3",
+        "y = 3x + 3"
+      ],
+      "tier": 3,
+      "rating": 1515
+    },
+    "138": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 3,
+      "rating": 1523
+    },
+    "139": {
+      "display": "x = 8",
+      "accept": [
+        "8",
+        "x=8",
+        "x = 8"
+      ],
+      "tier": 3,
+      "rating": 1530
+    },
+    "140": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 3,
+      "rating": 1538
+    },
+    "141": {
+      "display": "Outlier",
+      "accept": [
+        "outlier"
+      ],
+      "tier": 2,
+      "rating": 1545
+    },
+    "142": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 2,
+      "rating": 1553
+    },
+    "143": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 2,
+      "rating": 1560
+    },
+    "144": {
+      "display": "Far from / outside the main pattern",
+      "accept": [
+        "far",
+        "outside",
+        "main pattern"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1568
+    },
+    "145": {
+      "display": "Yes for prior knowledge; no — do not delete without checking",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1575
+    },
+    "146": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1583
+    },
+    "147": {
+      "display": "Decrease",
+      "accept": [
+        "decrease",
+        "fall"
+      ],
+      "tier": 2,
+      "rating": 1590
+    },
+    "148": {
+      "display": "Yes, it can be drawn; no — it is not useful for prediction",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1598
+    },
+    "149": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 2,
+      "rating": 1600
+    },
+    "150": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 2,
+      "rating": 1600
+    },
+    "151": {
+      "display": "No — smoking is a hidden cause of both",
+      "accept": [
+        "no",
+        "smoking"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1600
+    },
+    "152": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 2,
+      "rating": 1600
+    },
+    "153": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 2,
+      "rating": 1600
+    },
+    "154": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 2,
+      "rating": 1600
+    },
+    "155": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "156": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "157": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "158": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "159": {
+      "display": "34",
+      "accept": [
+        "34"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "160": {
+      "display": "28",
+      "accept": [
+        "28"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "161": {
+      "display": "Positive correlation",
+      "accept": [
+        "positive"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "162": {
+      "display": "Negative correlation",
+      "accept": [
+        "negative"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "163": {
+      "display": "No correlation",
+      "accept": [
+        "no correlation",
+        "none",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "164": {
+      "display": "Interpolation",
+      "accept": [
+        "interpolation"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "165": {
+      "display": "Extrapolation",
+      "accept": [
+        "extrapolation"
+      ],
+      "tier": 1,
+      "rating": 1550
+    },
+    "166": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "167": {
+      "display": "Example: daylight hours and ice cream sales both rise in summer because of warmer weather",
+      "accept": [
+        "summer",
+        "weather",
+        "third"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "168": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "169": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "170": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "171": {
+      "display": "y = 2.5x - 2",
+      "accept": [
+        "y=2.5x-2",
+        "y = 2.5x - 2",
+        "5/2 x - 2"
+      ],
+      "tier": 3,
+      "rating": 1770
+    },
+    "172": {
+      "display": "10.5; interpolation",
+      "accept": [
+        "10.5",
+        "interpolation"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1778
+    },
+    "173": {
+      "display": "Trend may change; relationship may not hold far outside the data",
+      "accept": [
+        "change",
+        "outside",
+        "not continue"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1785
+    },
+    "174": {
+      "display": "Examples: family stress, sleep, exercise — any two reasonable factors",
+      "accept": [
+        "sleep",
+        "stress",
+        "exercise",
+        "family"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1786
+    },
+    "175": {
+      "display": "Yes — wide scatter around a steep line can still be weak correlation",
+      "accept": [
+        "yes",
+        "wide scatter",
+        "scatter"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1800
+    },
+    "176": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 3,
+      "rating": 1808
+    },
+    "177": {
+      "display": "Interpolation at x = 7 is more reliable",
+      "accept": [
+        "interpolation",
+        "7",
+        "within"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1815
+    },
+    "178": {
+      "display": "Interpolation",
+      "accept": [
+        "interpolation"
+      ],
+      "tier": 3,
+      "rating": 1823
+    },
+    "179": {
+      "display": "Extrapolation",
+      "accept": [
+        "extrapolation"
+      ],
+      "tier": 3,
+      "rating": 1830
+    },
+    "180": {
+      "display": "170",
+      "accept": [
+        "170"
+      ],
+      "tier": 3,
+      "rating": 1838
+    },
+    "181": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1845
+    },
+    "182": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1853
+    },
+    "183": {
+      "display": "More absences tend to go with lower grades, but it is not a guarantee for every pupil",
+      "accept": [
+        "lower",
+        "absences",
+        "tend"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1860
+    },
+    "184": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 2,
+      "rating": 1868
+    },
+    "185": {
+      "display": "No; yes — adjust slightly for balance",
+      "accept": [
+        "no",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1875
+    },
+    "186": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 2,
+      "rating": 1883
+    },
+    "187": {
+      "display": "Ignored",
+      "accept": [
+        "ignored",
+        "ignore"
+      ],
+      "tier": 2,
+      "rating": 1890
+    },
+    "188": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 2,
+      "rating": 1898
+    },
+    "189": {
+      "display": "184",
+      "accept": [
+        "184"
+      ],
+      "tier": 2,
+      "rating": 1905
+    },
+    "190": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1913
+    },
+    "191": {
+      "display": "Hot weather / summer / sunshine",
+      "accept": [
+        "hot",
+        "summer",
+        "weather",
+        "sun"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1920
+    },
+    "192": {
+      "display": "Yes — it may help on average even if not guaranteed",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1928
+    },
+    "193": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1935
+    },
+    "194": {
+      "display": "28",
+      "accept": [
+        "28"
+      ],
+      "tier": 3,
+      "rating": 1943
+    },
+    "195": {
+      "display": "y = 2x + 12",
+      "accept": [
+        "y=2x+12",
+        "y = 2x + 12",
+        "2x+12"
+      ],
+      "tier": 3,
+      "rating": 1950
+    },
+    "196": {
+      "display": "30; interpolation",
+      "accept": [
+        "30",
+        "interpolation"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1958
+    },
+    "197": {
+      "display": "Wrong because correlation is not causation. More crime may lead cities to hire more police, not police causing crime.",
+      "accept": [
+        "causation",
+        "correlation",
+        "hire"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1965
+    },
+    "198": {
+      "display": "At age 14 use interpolation on a strong positive trend; at 25 extrapolate and treat as unreliable; note any outlier separately",
+      "accept": [
+        "interpolation",
+        "extrapolation",
+        "outlier"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1973
+    },
+    "199": {
+      "display": "y = 4x - 3",
+      "accept": [
+        "y=4x-3",
+        "y = 4x - 3",
+        "4x-3"
+      ],
+      "tier": 3,
+      "rating": 1980
+    },
+    "200": {
+      "display": "41; extrapolation; not reliable / unlikely",
+      "accept": [
+        "41",
+        "extrapolation",
+        "no",
+        "unreliable"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

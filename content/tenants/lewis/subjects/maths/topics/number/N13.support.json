@@ -1,0 +1,806 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "How many centimetres make one metre?",
+      "help": "1 m = **100 cm**. There are one hundred centimetres in every metre.\n\n**Different example:** 2 m = 200 cm."
+    },
+    "2": {
+      "hint": "Grams in one kilogram.",
+      "help": "1 kg = **1000 g**. Kilo means one thousand grams.\n\n**Different example:** 2 kg = 2000 g."
+    },
+    "3": {
+      "hint": "A pencil is short — km or cm?",
+      "help": "**cm** fits a pencil; km is for long distances.\n\n**Different example:** Room width uses m, not km."
+    },
+    "4": {
+      "hint": "1 km = 1000 m.",
+      "help": "$2 \\times 1000 = 2000$ m.\n\n**Different example:** 3 km = 3000 m."
+    },
+    "5": {
+      "hint": "Speed = distance ÷ time with matching units.",
+      "help": "30 miles in 1 hour → **30 mph**.\n\n**Different example:** 60 km in 2 h is 30 km/h."
+    },
+    "6": {
+      "hint": "Water in a bottle — ml or tonnes?",
+      "help": "**ml** (millilitres) suit a bottle; tonnes are far too big.\n\n**Different example:** A swimming pool might use litres."
+    },
+    "7": {
+      "hint": "Minutes in one hour, then ×2.",
+      "help": "$2 \\times 60 = 120$ minutes.\n\n**Different example:** 3 hours = 180 minutes."
+    },
+    "8": {
+      "hint": "Add masses in kg.",
+      "help": "$3 + 2 = 5$ kg total.\n\n**Different example:** 4 kg + 1 kg = 5 kg."
+    },
+    "9": {
+      "hint": "Half a metre in cm.",
+      "help": "Half of 100 cm = **50 cm**.\n\n**Different example:** 0.25 m = 25 cm."
+    },
+    "10": {
+      "hint": "Compare 1 kg with 500 g.",
+      "help": "1 kg = 1000 g, so **1 kg** is heavier.\n\n**Different example:** 2 kg > 1500 g."
+    },
+    "11": {
+      "hint": "Seconds in one minute.",
+      "help": "**60** seconds in 1 minute.\n\n**Different example:** 2 minutes = 120 seconds."
+    },
+    "12": {
+      "hint": "Add 500 g to 1 kg — write in kg.",
+      "help": "1 kg + 0.5 kg = **1.5 kg**.\n\n**Different example:** 2 kg + 250 g = 2.25 kg."
+    },
+    "13": {
+      "hint": "Multiply km by 1000 for metres.",
+      "help": "$3.5 \\times 1000 = 3500$ m.\n\n**Different example:** 2.2 km = 2200 m."
+    },
+    "14": {
+      "hint": "Divide cm by 100 for metres.",
+      "help": "$250 \\div 100 = 2.5$ m.\n\n**Different example:** 400 cm = 4 m."
+    },
+    "15": {
+      "hint": "2 hours in minutes.",
+      "help": "$2 \\times 60 = 120$ minutes.\n\n**Different example:** 1.5 h = 90 min."
+    },
+    "16": {
+      "hint": "Divide grams by 1000 for kg.",
+      "help": "$1500 \\div 1000 = 1.5$ kg.\n\n**Different example:** 2500 g = 2.5 kg."
+    },
+    "17": {
+      "hint": "Average speed = distance ÷ time in km/h.",
+      "help": "$120 \\div 2 = 60$ km/h.\n\n**Different example:** 90 km in 3 h is 30 km/h."
+    },
+    "18": {
+      "hint": "1 litre = 1000 ml.",
+      "help": "$4 \\times 1000 = 4000$ ml.\n\n**Different example:** 2.5 L = 2500 ml."
+    },
+    "19": {
+      "hint": "30 miles in 3 hours — mph.",
+      "help": "$30 \\div 3 = 10$ mph.\n\n**Different example:** 45 miles in 3 h is 15 mph."
+    },
+    "20": {
+      "hint": "0.75 kg to grams.",
+      "help": "$0.75 \\times 1000 = 750$ g.\n\n**Different example:** 1.2 kg = 1200 g."
+    },
+    "21": {
+      "hint": "Density = mass ÷ volume.",
+      "help": "$20 \\div 4 = 5$ g/cm³.\n\n**Different example:** 12 g and 3 cm³ gives 4 g/cm³."
+    },
+    "22": {
+      "hint": "90 minutes as hours.",
+      "help": "$90 \\div 60 = 1.5$ hours.\n\n**Different example:** 120 min = 2 h."
+    },
+    "23": {
+      "hint": "Speed in m/s: metres ÷ seconds.",
+      "help": "$400 \\div 50 = 8$ m/s.\n\n**Different example:** 100 m in 20 s is 5 m/s."
+    },
+    "24": {
+      "hint": "1 tonne = 1000 kg.",
+      "help": "$2.5 \\times 1000 = 2500$ kg.\n\n**Different example:** 3 t = 3000 kg."
+    },
+    "25": {
+      "hint": "Mass = density × volume.",
+      "help": "$5 \\times 8 = 40$ g.\n\n**Different example:** 3 g/cm³ and 10 cm³ gives 30 g."
+    },
+    "26": {
+      "hint": "Metres to km — divide by 1000.",
+      "help": "$5000 \\div 1000 = 5$ km.\n\n**Different example:** 8000 m = 8 km."
+    },
+    "27": {
+      "hint": "Speed needs distance **and** time in the units.",
+      "help": "Say speed needs two units (e.g. **m/s** or **km/h**), not “metres” alone. Give an example like 10 m in 2 s → 5 m/s."
+    },
+    "28": {
+      "hint": "Smaller unit → larger unit usually means divide.",
+      "help": "cm to m, g to kg, ml to L use division. **Always** for standard metric steps like these."
+    },
+    "29": {
+      "hint": "0.5 hour is half an hour — how many minutes?",
+      "help": "1.5 h = 1 h 30 min = **90** minutes, not 1 h 5 min. Mention **30** minutes for the half hour."
+    },
+    "30": {
+      "hint": "Density formula.",
+      "help": "Density = mass ÷ volume for uniform material. **Always** true when units match."
+    },
+    "31": {
+      "hint": "Convert 60 km/h to m/s or 20 m/s to km/h.",
+      "help": "60 km/h ≈ 16.7 m/s; **20 m/s** is faster. Show conversion or compare values."
+    },
+    "32": {
+      "hint": "180 km in 1.5 hours.",
+      "help": "$180 \\div 1.5 = 120$ km/h.\n\n**Different example:** 90 km in 1.5 h is 60 km/h."
+    },
+    "33": {
+      "hint": "25 minutes as a fraction of an hour first.",
+      "help": "2 km in $\\frac{25}{60}$ h → $2 \\div \\frac{5}{12} = 4.8$ km/h.\n\n**Different example:** 1 km in 15 min is 4 km/h."
+    },
+    "34": {
+      "hint": "540 g ÷ 60 cm³.",
+      "help": "Density = $540 \\div 60 = 9$ g/cm³.\n\n**Different example:** 300 g and 50 cm³ → 6 g/cm³."
+    },
+    "35": {
+      "hint": "1000 ml = 1 litre.",
+      "help": "$15000 \\div 1000 = 15$ litres.\n\n**Different example:** 5000 ml = 5 L."
+    },
+    "36": {
+      "hint": "45 minutes is three quarters of an hour.",
+      "help": "Distance = $24 \\times 0.75 = 18$ km.\n\n**Different example:** 40 km/h for 30 min → 20 km."
+    },
+    "37": {
+      "hint": "2 h 30 min as decimal hours.",
+      "help": "2.5 h at 90 km/h → $90 \\times 2.5 = 225$ km.\n\n**Different example:** 60 km/h for 2.5 h is 150 km."
+    },
+    "38": {
+      "hint": "Mass = density × volume.",
+      "help": "$0.8 \\times 200 = 160$ g.\n\n**Different example:** 1.2 g/cm³ and 50 cm³ → 60 g."
+    },
+    "39": {
+      "hint": "Speed = distance ÷ time for each runner.",
+      "help": "A: $100/12 \\approx 8.33$ m/s; B: $400/52 \\approx 7.69$ m/s. **Runner A** is faster."
+    },
+    "40": {
+      "hint": "Time = distance ÷ speed.",
+      "help": "$350 \\div 70 = 5$ hours = **5 hours 0 minutes**.\n\n**Different example:** 140 km at 70 km/h takes 2 h."
+    },
+    "41": {
+      "hint": "Convert km/h to m/s: ×1000 ÷ 3600.",
+      "help": "$45 \\times 1000/3600 = 12.5$ m/s.\n\n**Different example:** 36 km/h = 10 m/s."
+    },
+    "42": {
+      "hint": "Convert 15 km/h to m/s and compare with 5 m/s.",
+      "help": "15 km/h ≈ 4.17 m/s < 5 m/s, so **5 m/s is faster** — Sloan is correct."
+    },
+    "43": {
+      "hint": "Same as Q13: km to m.",
+      "help": "$3.5 \\times 1000 = 3500$ m.\n\n**Different example:** 1.8 km = 1800 m."
+    },
+    "44": {
+      "hint": "240 minutes in hours.",
+      "help": "$240 \\div 60 = 4$ hours.\n\n**Different example:** 180 min = 3 h."
+    }
+,
+    "45": {
+      "hint": "How many millimetres are in 1 centimetre?",
+      "help": "There are 10 mm in 1 cm.\n\nTo change mm to cm, divide by 10.\n\n**Different example:** 80 mm = 8 cm."
+    },
+    "46": {
+      "hint": "1 km = 1000 m — multiply kilometres by 1000.",
+      "help": "Changing km to m uses ×1000.\n\n**Different example:** 0.5 km = 500 m."
+    },
+    "47": {
+      "hint": "Pick a unit that matches everyday objects, not huge loads.",
+      "help": "A textbook is small and light compared with a lorry load.\n\nGrams (g) or kilograms (kg) fit; tonnes are for very large masses."
+    },
+    "48": {
+      "hint": "1000 g = 1 kg — divide grams by 1000.",
+      "help": "To change g → kg, divide by 1000.\n\n**Different example:** 500 g = 0.5 kg."
+    },
+    "49": {
+      "hint": "Average speed = distance ÷ time.",
+      "help": "Divide the distance by the time in hours when the speed unit is km/h.\n\n**Different example:** 90 km in 3 h → 30 km/h."
+    },
+    "50": {
+      "hint": "1 litre = 1000 ml — multiply litres by 1000.",
+      "help": "Changing l → ml uses ×1000.\n\n**Different example:** 2 l = 2000 ml."
+    },
+    "51": {
+      "hint": "Convert the 0.5 hours to minutes first.",
+      "help": "1 hour = 60 minutes.\n\n3 hours = 180 minutes; half an hour = 30 minutes.\n\nAdd the parts for mixed hours."
+    },
+    "52": {
+      "hint": "1 cm = 10 mm — multiply centimetres by 10.",
+      "help": "Changing cm → mm uses ×10.\n\n**Different example:** 12 cm = 120 mm."
+    },
+    "53": {
+      "hint": "Compare 1 km and 1000 m — are they the same length?",
+      "help": "By definition, 1 km is exactly 1000 m.\n\nSo one is not *longer* than the other — they are equal.\n\nTest with another pair: 2 km and 2000 m are also equal."
+    },
+    "54": {
+      "hint": "Density = mass ÷ volume.",
+      "help": "Divide mass (g) by volume (cm³).\n\n**Different example:** 100 g and 25 cm³ → 4 g/cm³."
+    },
+    "55": {
+      "hint": "Change the 1 hour to minutes, then add 15 minutes.",
+      "help": "1 hour = 60 minutes.\n\n1 hour 15 minutes = 60 + 15 minutes.\n\n**Different example:** 2 h 10 min = 120 + 10 min."
+    },
+    "56": {
+      "hint": "1 tonne = 1000 kg.",
+      "help": "Multiply tonnes by 1000 to get kg.\n\n**Different example:** 1.2 t = 1200 kg."
+    },
+    "57": {
+      "hint": "Change 0.4 km to metres so both lengths use m.",
+      "help": "0.4 km = 400 m.\n\nCompare 500 m with 400 m.\n\n**Different example:** 0.2 km = 200 m."
+    },
+    "58": {
+      "hint": "Speed = distance ÷ time — use the same time unit.",
+      "help": "Divide 12 cm by 2 minutes.\n\n**Different example:** 20 cm in 4 min → 5 cm/min."
+    },
+    "59": {
+      "hint": "1000 ml = 1 litre — divide ml by 1000.",
+      "help": "2750 ÷ 1000 gives litres.\n\n**Different example:** 1250 ml = 1.25 l."
+    },
+    "60": {
+      "hint": "60 minutes = 1 hour — divide minutes by 60.",
+      "help": "108 ÷ 60 gives hours (you may get a decimal).\n\n**Different example:** 90 min = 1.5 h."
+    },
+    "61": {
+      "hint": "Divide 960 km by 4 hours.",
+      "help": "Average speed = distance ÷ time.\n\n**Different example:** 300 km in 5 h → 60 km/h."
+    },
+    "62": {
+      "hint": "Mass = density × volume.",
+      "help": "Multiply density (g/cm³) by volume (cm³).\n\n**Different example:** 3 g/cm³ and 10 cm³ → 30 g."
+    },
+    "63": {
+      "hint": "Try distance ÷ time on a simple journey.",
+      "help": "Speed always compares distance with time.\n\nExample: 10 m in 2 s → 5 m/s.\n\nThat matches distance ÷ time every time."
+    },
+    "64": {
+      "hint": "100 cm = 1 m — divide centimetres by 100.",
+      "help": "125 cm ÷ 100 = metres.\n\n**Different example:** 250 cm = 2.5 m."
+    },
+    "65": {
+      "hint": "Divide millilitres by 1000 to get litres.",
+      "help": "4500 ml → litres uses ÷1000.\n\n**Different example:** 800 ml = 0.8 l."
+    },
+    "66": {
+      "hint": "Divide 6 km by 1.5 hours.",
+      "help": "Speed = distance ÷ time when time is in hours.\n\n**Different example:** 10 km in 2 h → 5 km/h."
+    },
+    "67": {
+      "hint": "750 g is less than 1000 g — how many kg?",
+      "help": "Divide grams by 1000.\n\n**Different example:** 250 g = 0.25 kg."
+    },
+    "68": {
+      "hint": "Convert 2 hours to minutes, then add 15.",
+      "help": "2 h = 120 min; add the extra minutes.\n\n**Different example:** 1 h 20 min = 80 min."
+    },
+    "69": {
+      "hint": "Multiply density by volume.",
+      "help": "Mass = density × volume.\n\n**Different example:** 4 g/cm³ × 6 cm³ = 24 g."
+    },
+    "70": {
+      "hint": "Divide metres by 1000 for km.",
+      "help": "3800 m → km uses ÷1000.\n\n**Different example:** 5000 m = 5 km."
+    },
+    "71": {
+      "hint": "Divide miles by hours for mph.",
+      "help": "50 miles in 2 hours → divide 50 by 2.\n\n**Different example:** 60 miles in 3 h → 20 mph."
+    },
+    "72": {
+      "hint": "Multiply litres by 1000 for ml.",
+      "help": "1.5 l → ml uses ×1000.\n\n**Different example:** 0.25 l = 250 ml."
+    },
+    "73": {
+      "hint": "How many seconds in 1 hour?",
+      "help": "1 hour = 3600 seconds.\n\n7200 ÷ 3600 gives hours.\n\n**Different example:** 1800 s = 0.5 h."
+    },
+    "74": {
+      "hint": "Check the meaning of centi- in centimetre.",
+      "help": "Centi- means one hundredth.\n\n1 m = 100 cm always.\n\nTry measuring 1 m with a ruler to see 100 cm."
+    },
+    "75": {
+      "hint": "Multiply metres by 100 for cm.",
+      "help": "2.5 m → cm uses ×100.\n\n**Different example:** 0.8 m = 80 cm."
+    },
+    "76": {
+      "hint": "Multiply kg by 1000 for grams.",
+      "help": "0.35 kg → g uses ×1000.\n\n**Different example:** 2 kg = 2000 g."
+    },
+    "77": {
+      "hint": "300 km ÷ 2.5 h — use a calculator if allowed.",
+      "help": "Average speed = distance ÷ time.\n\n**Different example:** 150 km in 2 h → 75 km/h."
+    },
+    "78": {
+      "hint": "850 mm is less than 1000 mm — how many m?",
+      "help": "1000 mm = 1 m.\n\nDivide mm by 1000.\n\n**Different example:** 500 mm = 0.5 m."
+    },
+    "79": {
+      "hint": "Multiply volume by density.",
+      "help": "Mass = density × volume.\n\n**Different example:** 0.5 g/cm³ and 100 cm³ → 50 g."
+    },
+    "80": {
+      "hint": "5.5 hours = 5 hours plus half an hour in minutes.",
+      "help": "1 hour = 60 min; half an hour = 30 min.\n\nOr multiply 5.5 × 60."
+    },
+    "81": {
+      "hint": "Divide grams by 1000.",
+      "help": "6500 g → kg uses ÷1000 because 1000 g = 1 kg.\n\n**Different example:** 4000 g = 4 kg."
+    },
+    "82": {
+      "hint": "Change 45 minutes to hours before dividing.",
+      "help": "45 min = 0.75 h (three quarters of an hour).\n\nThen 18 ÷ 0.75."
+    },
+    "83": {
+      "hint": "160 cm ÷ 100.",
+      "help": "cm → m divides by 100.\n\n**Different example:** 75 cm = 0.75 m."
+    },
+    "84": {
+      "hint": "What do you measure with a measuring cylinder?",
+      "help": "Millilitres measure liquid volume in small amounts.\n\nLitres are also volume/capacity — ml is just a smaller unit."
+    },
+    "85": {
+      "hint": "1 minute = 60 seconds.",
+      "help": "Multiply minutes by 60.\n\n**Different example:** 5 min = 300 s."
+    },
+    "86": {
+      "hint": "km to m uses ×1000.",
+      "help": "Each kilometre is 1000 metres, so multiply km by 1000.\n\n**Different example:** 1.1 km = 1100 m."
+    },
+    "87": {
+      "hint": "210 miles ÷ 3.5 hours.",
+      "help": "mph = miles ÷ hours.\n\n**Different example:** 100 miles in 4 h → 25 mph."
+    },
+    "88": {
+      "hint": "ml to litres: divide by 1000.",
+      "help": "1000 ml = 1 litre, so divide millilitres by 1000.\n\n**Different example:** 3500 ml = 3.5 l."
+    },
+    "89": {
+      "hint": "450 ÷ 150 — mass over volume.",
+      "help": "Density = mass ÷ volume.\n\n**Different example:** 60 g and 20 cm³ → 3 g/cm³."
+    },
+    "90": {
+      "hint": "90 seconds is more than 1 minute — how many minutes as a decimal?",
+      "help": "60 s = 1 min.\n\nDivide seconds by 60.\n\n**Different example:** 120 s = 2 min."
+    },
+    "91": {
+      "hint": "1.2 kg to grams: ×1000.",
+      "help": "1 kg = 1000 g, so multiply kilograms by 1000.\n\n**Different example:** 0.5 kg = 500 g."
+    },
+    "92": {
+      "hint": "20 minutes is one third of an hour.",
+      "help": "Convert 20 min to hours: 20/60 = 1/3 h.\n\nThen divide 5 km by that time."
+    },
+    "93": {
+      "hint": "475 cm to m: ÷100.",
+      "help": "100 cm = 1 m, so divide centimetres by 100.\n\n**Different example:** 305 cm = 3.05 m."
+    },
+    "94": {
+      "hint": "Would millimetres be easy to read on a 25 m pool?",
+      "help": "Metres are a sensible size for rooms and pools.\n\nMillimetres are for very small lengths."
+    },
+    "95": {
+      "hint": "0.25 t = quarter of a tonne.",
+      "help": "×1000 to change t → kg.\n\n**Different example:** 0.5 t = 500 kg."
+    },
+    "96": {
+      "hint": "40 minutes = two thirds of an hour.",
+      "help": "40 ÷ 60 = 2/3 hour.\n\nAverage speed = distance ÷ time in hours.\n\n**Different example:** 30 min = 0.5 h."
+    },
+    "97": {
+      "hint": "3.75 l to ml: ×1000.",
+      "help": "1 litre = 1000 ml, so multiply litres by 1000.\n\n**Different example:** 2.2 l = 2200 ml."
+    },
+    "98": {
+      "hint": "156 ÷ 60 gives hours.",
+      "help": "Minutes to hours: divide by 60.\n\nYou may write a decimal hour."
+    },
+    "99": {
+      "hint": "18 mm to cm: divide by 10.",
+      "help": "10 mm = 1 cm, so divide millimetres by 10.\n\n**Different example:** 25 mm = 2.5 cm."
+    },
+    "100": {
+      "hint": "Multiply 5 miles by 1.6 — is that exactly 8 km?",
+      "help": "1.6 km per mile is an **approximation**.\n\n5 × 1.6 = 8 km roughly, but real conversions use exact factors.\n\nSay whether Archer is exactly correct or only close."
+    },
+    "101": {
+      "hint": "Try cm → m and m → km with the same stick length.",
+      "help": "Larger units give smaller numbers for the same measurement.\n\nExample: 150 cm = 1.5 m.\n\nDoes that pattern always hold?"
+    },
+    "102": {
+      "hint": "How many minutes in 2 hours? How many more for 30 minutes?",
+      "help": "2 h = 120 min; add 30 min.\n\n230 would mean 3 h 50 min — spot the place-value mistake."
+    },
+    "103": {
+      "hint": "Change 10 m/s to km/h using ×3.6.",
+      "help": "1 m/s = 3.6 km/h.\n\nCompare with 36 km/h.\n\n**Different example:** 5 m/s = 18 km/h."
+    },
+    "104": {
+      "hint": "What is the density of water in g/cm³?",
+      "help": "Pure water is about 1 g per 1 cm³.\n\nSo mass in grams matches volume in cm³ for water."
+    },
+    "105": {
+      "hint": "Name one distance unit and one time unit in your example.",
+      "help": "Speed tells you how far you go per unit of time.\n\nWrite something like \"metres per second\" or \"miles per hour\"."
+    },
+    "106": {
+      "hint": "How many ml make 1 litre?",
+      "help": "1000 ml = 1 l.\n\n500 ml is half of 1000 ml.\n\nDecide if Layla is right."
+    },
+    "107": {
+      "hint": "Is kg bigger or smaller than g?",
+      "help": "1 kg = 1000 g.\n\nGoing kg → g multiplies by 1000.\n\nTry 2 kg → 2000 g as a check."
+    },
+    "108": {
+      "hint": "Convert 20 m/s to km/h.",
+      "help": "Multiply metres per second by 3.6 to get km/h.\n\nThen compare that speed with 72 km/h to decide which is faster."
+    },
+    "109": {
+      "hint": "Work out mass ÷ volume first.",
+      "help": "Density = mass ÷ volume.\n\nCompare with 1 g/cm³ (water).\n\nLower density often means floating."
+    },
+    "110": {
+      "hint": "Can minutes measure how long something takes?",
+      "help": "Minutes are a time unit.\n\nThey do not measure length or mass on their own."
+    },
+    "111": {
+      "hint": "Think of something very heavy moved in bulk.",
+      "help": "Tonnes (t) are used when kilograms would be awkwardly large.\n\nExamples: coal deliveries, lorry loads, or ship cargo."
+    },
+    "112": {
+      "hint": "0.5 km — how many metres is that?",
+      "help": "1 km = 1000 m, so 0.5 km = 500 m.\n\nKim used centimetres instead of metres."
+    },
+    "113": {
+      "hint": "Do both units compare distance per time?",
+      "help": "mph uses miles and hours; km/h uses kilometres and hours.\n\nBoth measure speed in different unit systems."
+    },
+    "114": {
+      "hint": "Convert 3 m/s to km/h with ×3.6.",
+      "help": "Compare 3 m/s with 10 km/h after converting.\n\n**Different example:** 2 m/s = 7.2 km/h."
+    },
+    "115": {
+      "hint": "What units do you write after g/cm³?",
+      "help": "Density = mass ÷ volume, so units combine g and cm³.\n\nArcher is wrong — density has units."
+    },
+    "116": {
+      "hint": "How many milligrams in 1 gram?",
+      "help": "**milli-** means one thousandth of the unit.\n\nBecause **1000 mg = 1 g**, multiply grams by 1000 to get milligrams.\n\n**Different example:** 2 g = 2000 mg."
+    },
+    "117": {
+      "hint": "Which system do scientists often use?",
+      "help": "m/s uses metric metres and seconds.\n\nIt suits experiments and short races better than miles."
+    },
+    "118": {
+      "hint": "Find distance ÷ time for each runner.",
+      "help": "Speed = distance ÷ time in seconds for m/s.\n\nCompare both results."
+    },
+    "119": {
+      "hint": "How many seconds in 1 minute? In 1 hour?",
+      "help": "60 × 60 = 3600 seconds in 1 hour.\n\nThat link is always true."
+    },
+    "120": {
+      "hint": "What do digital kitchen scales display?",
+      "help": "Scales show mass in grams or kilograms even when people say \"weight\"."
+    },
+    "121": {
+      "hint": "1 litre of water — how many cm³?",
+      "help": "In school maths, 1 litre of liquid matches 1000 cm³ of space.\n\nSo capacity in litres lines up with volume in litres."
+    },
+    "122": {
+      "hint": "How many metres in 1 km?",
+      "help": "**1 km = 1000 m**, so to change metres to kilometres you **divide by 1000**.\n\nWrite the answer in km with a sensible number of decimal places.\n\n**Different example:** 2500 m = 2.5 km."
+    },
+    "123": {
+      "hint": "Find ml in 4 cartons, then convert to litres.",
+      "help": "Work out **250 ml × 4** to get the total in millilitres first.\n\nThen **divide by 1000** because **1 litre = 1000 ml**.\n\n**Different example:** 500 ml × 2 = 1000 ml = 1 L."
+    },
+    "124": {
+      "hint": "Imagine a large hollow box and a small stone.",
+      "help": "Mass and density differ.\n\nA light object can be less dense than a heavy one."
+    },
+    "125": {
+      "hint": "Divide 6 km by 0.5 hours.",
+      "help": "Speed = distance ÷ time.\n\nCheck whether 3 km/h fits the numbers."
+    },
+    "126": {
+      "hint": "Is a metre ruler wider than a sheet of paper?",
+      "help": "Paper thickness is tiny compared with 1 m.\n\nMillimetres are the sensible unit."
+    },
+    "127": {
+      "hint": "Use distance = speed × time for 1 hour.",
+      "help": "At 60 km/h for 1 hour, distance = 60 × 1 km.\n\nThat pattern always works when units match."
+    },
+    "128": {
+      "hint": "km/h needs time in hours.",
+      "help": "Convert minutes to hours (÷60) before dividing distance by time.\n\n**Different example:** 30 min = 0.5 h."
+    },
+    "129": {
+      "hint": "How many ml in 1 litre? How many cm³ in 1 ml?",
+      "help": "1 l = 1000 ml and 1 ml = 1 cm³ for water.\n\nSo 2.5 l matches 2500 cm³."
+    },
+    "130": {
+      "hint": "4500 ÷ 500 — how many hours?",
+      "help": "Divide total volume by the fill rate per hour.\n\n**Different example:** 1000 l at 200 l/h → 5 h."
+    },
+    "131": {
+      "hint": "Find litres per km first.",
+      "help": "6 l per 100 km → scale up to 350 km.\n\nUse proportion: multiply 6 by 350/100."
+    },
+    "132": {
+      "hint": "Work out each walking time, then add the rest.",
+      "help": "Time = distance ÷ speed for each walk.\n\nConvert 15 minutes to hours before adding."
+    },
+    "133": {
+      "hint": "Density first, then compare with 1 g/cm³.",
+      "help": "384 ÷ 48 gives density.\n\nIf density > 1 g/cm³, it sinks in water."
+    },
+    "134": {
+      "hint": "Time = 240 ÷ 80 hours, then add to 14:30.",
+      "help": "Journey time in hours added to the start clock time.\n\nUse 24-hour time."
+    },
+    "135": {
+      "hint": "900 ml for 6 people — how much per person?",
+      "help": "Scale up from 6 to 10 people using the same ratio.\n\n**Different example:** double people doubles milk."
+    },
+    "136": {
+      "hint": "40 litres in 5 minutes — scale to 1 hour.",
+      "help": "There are 12 lots of 5 minutes in 1 hour.\n\nOr divide 40 by 5 then multiply by 60."
+    },
+    "137": {
+      "hint": "Change 1800 g to kg before adding.",
+      "help": "Convert **1800 g** to kilograms: **1800 ÷ 1000 = 1.8 kg**.\n\nAdd **1.8 kg + 2.5 kg** only after both masses use the same unit.\n\n**Different example:** 500 g + 0.2 kg = 0.5 kg + 0.2 kg."
+    },
+    "138": {
+      "hint": "Add the two times: 15÷20 and 10÷25.",
+      "help": "For each part of the journey, use **time = distance ÷ speed** (with matching units).\n\nWork out both times in **hours**, then **add** them for the total journey time.\n\n**Different example:** 30 km at 60 km/h takes 0.5 h."
+    },
+    "139": {
+      "hint": "1 m³ = 1000 litres.",
+      "help": "Multiply cubic metres by 1000.\n\n**Different example:** 0.5 m³ = 500 l."
+    },
+    "140": {
+      "hint": "2 h 20 min as a fraction of an hour.",
+      "help": "Convert **20 minutes** to hours: **20 ÷ 60 = 1/3 h**, so the time is **2⅓ hours**.\n\nUse **distance = speed × time**: multiply **55 mph** by **2⅓**.\n\n**Different example:** 1 h at 40 mph → 40 miles."
+    },
+    "141": {
+      "hint": "0.5 cm per week — how many mm in 6 weeks?",
+      "help": "**1 cm = 10 mm**, so **0.5 cm per week** is **5 mm per week**.\n\nMultiply by **6 weeks** to find the total growth in millimetres.\n\n**Different example:** 2 mm/week for 3 weeks → 6 mm."
+    },
+    "142": {
+      "hint": "250 ml each minute for 120 minutes.",
+      "help": "**2 hours = 120 minutes**. Multiply **250 ml/min × 120 min** to get millilitres pumped.\n\nDivide by **1000** to change millilitres to **litres**.\n\n**Different example:** 1000 ml = 1 L."
+    },
+    "143": {
+      "hint": "Total distance ÷ total time — not average of speeds.",
+      "help": "Find time for each 60 km leg, add times, divide 120 km by total hours."
+    },
+    "144": {
+      "hint": "120÷60 plus 90÷45.",
+      "help": "Add journey times from each part.\n\n**Different example:** 40 km at 20 km/h → 2 h."
+    },
+    "145": {
+      "hint": "750 g is three quarters of 1 kg.",
+      "help": "**750 g = 0.75 kg** (three quarters of a kilogram).\n\nMultiply the price **£1.20 per kg** by **0.75**, or scale from the cost of **1000 g**.\n\n**Different example:** 500 g at £2/kg costs £1."
+    },
+    "146": {
+      "hint": "5500 km ÷ 7 hours.",
+      "help": "Average speed = total distance ÷ total time.\n\n**Different example:** 400 km in 5 h → 80 km/h."
+    },
+    "147": {
+      "hint": "Convert 1.25 l to ml, then add all volumes.",
+      "help": "Put all drinks in litres or all in ml before adding.\n\n1.25 l = 1250 ml."
+    },
+    "148": {
+      "hint": "Volume = mass ÷ density.",
+      "help": "300 ÷ 7.5 gives cm³.\n\n**Different example:** 50 g at 2 g/cm³ → 25 cm³."
+    },
+    "149": {
+      "hint": "Count departures every 12 minutes for 120 minutes.",
+      "help": "Include the bus at time 0.\n\n120 ÷ 12 = 10 intervals, plus the first bus."
+    },
+    "150": {
+      "hint": "Time in hours = 1.5 ÷ 6, then ×60 for minutes.",
+      "help": "Use **time = distance ÷ speed** with **1.5 km** and **6 km/h** to get time in **hours**.\n\nMultiply that time by **60** to change hours to **minutes**.\n\n**Different example:** 3 km at 6 km/h takes 0.5 h = 30 min."
+    },
+    "151": {
+      "hint": "×3.6 to change m/s to km/h.",
+      "help": "To change **metres per second** to **km/h**, multiply by **3.6**.\n\nSo **18 m/s × 3.6** gives the speed in km/h.\n\n**Different example:** 5 m/s = 18 km/h."
+    },
+    "152": {
+      "hint": "Volume = length × width × height, then mass = density × volume.",
+      "help": "Volume = **length × width × height**: **10 × 5 × 4 = 200 cm³**.\n\nMass = **density × volume**: multiply **200 cm³** by **2 g/cm³**.\n\n**Different example:** 10 cm³ at 3 g/cm³ has mass 30 g."
+    },
+    "153": {
+      "hint": "Convert 1 h 20 min to hours for Car A.",
+      "help": "For each car, use **average speed = distance ÷ time** (times in **hours**).\n\nConvert **1 h 20 min** to **4/3 h** before dividing **100 km** by that time.\n\n**Different example:** 60 km in 1 h → 60 km/h."
+    },
+    "154": {
+      "hint": "If speed doubles, what happens to distance in the same time?",
+      "help": "Distance = speed × time.\n\nDouble speed with fixed time doubles distance."
+    },
+    "155": {
+      "hint": "Divide km by 1.6 to get miles.",
+      "help": "To change **kilometres to miles**, **divide by 1.6** (approximate conversion factor).\n\nWork out **45 ÷ 1.6** and round to **one decimal place** as asked.\n\n**Different example:** 16 km ≈ 10 miles."
+    },
+    "156": {
+      "hint": "Volume = 60×40×30 cm³, then mass in g, then kg.",
+      "help": "Find volume **60 × 40 × 30 cm³**, then use **1 cm³ of water ≈ 1 g** for the mass in grams.\n\nDivide by **1000** to write the mass in **kilograms**.\n\n**Different example:** 2000 g = 2 kg."
+    },
+    "157": {
+      "hint": "Add the two speeds — they move towards each other.",
+      "help": "Relative speed = 70 + 56 km/h.\n\nTime = 420 ÷ relative speed."
+    },
+    "158": {
+      "hint": "200 ÷ 7 gives m/s, then ×3.6 for km/h.",
+      "help": "Speed in **m/s** = **200 m ÷ 7 s**, then multiply by **3.6** to get **km/h**.\n\nCheck units at each step so distance and time match.\n\n**Different example:** 10 m/s = 36 km/h."
+    },
+    "159": {
+      "hint": "Find density and compare with water (1 g/cm³).",
+      "help": "96 ÷ 80 = density in g/cm³.\n\nDecide sink or float against water."
+    },
+    "160": {
+      "hint": "Multiply speed (km/h) by time (h).",
+      "help": "Units cancel to give km.\n\n**Different example:** 40 km/h for 0.5 h → 20 km."
+    },
+    "161": {
+      "hint": "20 minutes is one third of an hour.",
+      "help": "**20 minutes = 1/3 hour**. Multiply the speed **15 mph** by **1/3 h** to find miles travelled in that time.\n\nKeep time in hours when speed is in miles per hour.\n\n**Different example:** 30 mph for 20 min → 10 miles."
+    },
+    "162": {
+      "hint": "Mass = 2.7 × volume.",
+      "help": "2.7 g/cm³ × 50 cm³.\n\n**Different example:** 3 g/cm³ and 10 cm³ → 30 g."
+    },
+    "163": {
+      "hint": "Multiply miles by 1.6.",
+      "help": "To change **miles to kilometres**, multiply by **1.6** (approximate).\n\nWork out **400 × 1.6** for the distance in km.\n\n**Different example:** 10 miles ≈ 16 km."
+    },
+    "164": {
+      "hint": "50×1 plus 40×0.5.",
+      "help": "Use **distance = speed × time** for each part: **50 × 1** and **40 × 0.5**.\n\nAdd the two distances to get the **total distance** for the whole trip.\n\n**Different example:** 10 km/h for 2 h → 20 km."
+    },
+    "165": {
+      "hint": "Compare 10 m/s with 10 km/h using conversion.",
+      "help": "10 m/s = 36 km/h, which is a bigger number than 10 km/h for the same motion."
+    },
+    "166": {
+      "hint": "15 minutes = 900 seconds, or 0.25 hours.",
+      "help": "2.5 l/s × time in seconds = litres.\n\nOr multiply rate by 60×15."
+    },
+    "167": {
+      "hint": "Find density for each sample.",
+      "help": "Density = **mass ÷ volume** for each sample: **150 ÷ 50** and **200 ÷ 80**.\n\nCompare the two results — the **larger density** means more mass per cm³.\n\n**Different example:** 10 g in 5 cm³ → density 2 g/cm³."
+    },
+    "168": {
+      "hint": "Divide km/h by 3.6.",
+      "help": "To change **km/h to m/s**, **divide by 3.6**.\n\nSo **72 ÷ 3.6** gives the speed in metres per second.\n\n**Different example:** 36 km/h = 10 m/s."
+    },
+    "169": {
+      "hint": "2.5 m³ to ml, then divide by 500.",
+      "help": "1 m³ = 1 000 000 cm³ = 1 000 000 ml.\n\nHow many 500 ml bottles fit?"
+    },
+    "170": {
+      "hint": "Are tonnes and kg both mass units?",
+      "help": "**Tonnes and kilograms** both measure **mass**; a tonne is just a larger unit.\n\n**1 tonne = 1000 kg**, so you can convert between them by multiplying or dividing by 1000.\n\n**Different example:** 2 t = 2000 kg."
+    },
+    "171": {
+      "hint": "6400 ml → litres: ÷1000.",
+      "help": "Divide millilitres by 1000.\n\n**Different example:** 2500 ml = 2.5 l."
+    },
+    "172": {
+      "hint": "2 h 15 min = 2.25 hours.",
+      "help": "88 km ÷ 2.25 h gives km/h.\n\n**Different example:** 45 km in 1.5 h → 30 km/h."
+    },
+    "173": {
+      "hint": "2.05 kg to g: ×1000.",
+      "help": "Multiply kg by 1000.\n\n**Different example:** 1.2 kg = 1200 g."
+    },
+    "174": {
+      "hint": "1 cm = 10 mm — which direction?",
+      "help": "cm → mm multiplies by 10.\n\n**Different example:** 3 cm = 30 mm."
+    },
+    "175": {
+      "hint": "100 ÷ 11 for m/s.",
+      "help": "Speed = distance ÷ time in seconds.\n\n**Different example:** 50 m in 5 s → 10 m/s."
+    },
+    "176": {
+      "hint": "3 hours = 180 min; add 20 more.",
+      "help": "Convert hours to minutes then add.\n\n**Different example:** 2 h 5 min = 125 min."
+    },
+    "177": {
+      "hint": "Volume = mass ÷ density.",
+      "help": "170 ÷ 0.85 gives cm³.\n\n**Different example:** 40 g at 2 g/cm³ → 20 cm³."
+    },
+    "178": {
+      "hint": "36 minutes = 0.6 hours.",
+      "help": "**36 minutes = 36 ÷ 60 = 0.6 hours**. Multiply **125 km/h × 0.6 h** to find distance in km.\n\nOr convert minutes to a fraction of an hour before multiplying.\n\n**Different example:** 30 min at 100 km/h → 50 km."
+    },
+    "179": {
+      "hint": "Change 2.3 kg to grams.",
+      "help": "**2.3 kg = 2300 g** because **1 kg = 1000 g**.\n\nCompare **2300 g** with the other mass once both are in grams.\n\n**Different example:** 1.5 kg = 1500 g."
+    },
+    "180": {
+      "hint": "0.045 km × 1000.",
+      "help": "To change **kilometres to metres**, multiply by **1000**.\n\nSo **0.045 km × 1000** gives the distance in metres.\n\n**Different example:** 0.12 km = 120 m."
+    },
+    "181": {
+      "hint": "8 litres per 100 km — scale to 28 litres.",
+      "help": "Find km per litre or litres per km.\n\n28 ÷ 8 × 100 km is one route."
+    },
+    "182": {
+      "hint": "What does density tell you about mass in a fixed volume?",
+      "help": "Higher density means more mass packed into each cm³.\n\nThat is always how density is defined."
+    },
+    "183": {
+      "hint": "km/h to m/s: ÷3.6.",
+      "help": "To change **km/h to m/s**, **divide by 3.6**.\n\nWork out **54 ÷ 3.6** for the speed in metres per second.\n\n**Different example:** 36 km/h = 10 m/s."
+    },
+    "184": {
+      "hint": "600 g for 4 people — scale to 7.",
+      "help": "Multiply 600 by 7/4.\n\n**Different example:** double people doubles rice."
+    },
+    "185": {
+      "hint": "How many 25 m lengths in 1500 m?",
+      "help": "1500 ÷ 25.\n\n**Different example:** 1000 m is 40 lengths of 25 m."
+    },
+    "186": {
+      "hint": "1.8 tonnes × 1000.",
+      "help": "tonnes → kg uses ×1000.\n\n**Different example:** 0.5 t = 500 kg."
+    },
+    "187": {
+      "hint": "144 ÷ 6 for volume.",
+      "help": "Volume = mass ÷ density.\n\n**Different example:** 20 g at 4 g/cm³ → 5 cm³."
+    },
+    "188": {
+      "hint": "280 ÷ 70.",
+      "help": "Time = distance ÷ speed.\n\n**Different example:** 150 km at 50 km/h → 3 h."
+    },
+    "189": {
+      "hint": "500 cm vs 5 m — convert to the same unit.",
+      "help": "5 m = 500 cm.\n\nThey are equal, not one longer than the other."
+    },
+    "190": {
+      "hint": "12 litres in 4 minutes — find litres in 60 minutes.",
+      "help": "**12 litres in 4 minutes** means **3 litres per minute**.\n\nScale up to **60 minutes** (1 hour) by multiplying by **15**, or use **12 ÷ 4 × 60**.\n\n**Different example:** 5 L in 10 min → 30 L/h."
+    },
+    "191": {
+      "hint": "14 m/s × 3.6.",
+      "help": "Convert m/s to km/h.\n\n**Different example:** 10 m/s = 36 km/h."
+    },
+    "192": {
+      "hint": "23 kg to grams: ×1000.",
+      "help": "**1 kg = 1000 g**, so multiply kilograms by **1000** to get grams.\n\n**23 kg × 1000** gives the mass in grams.\n\n**Different example:** 2 kg = 2000 g."
+    },
+    "193": {
+      "hint": "1 h 15 min = 1.25 hours.",
+      "help": "**1 h 15 min = 1.25 hours** (15 min is 0.25 h).\n\nUse **distance = speed × time**: multiply **16 km/h × 1.25 h**.\n\n**Different example:** 20 km/h for 1.5 h → 30 km."
+    },
+    "194": {
+      "hint": "750 minutes ÷ 60.",
+      "help": "Minutes to hours: divide by 60.\n\n**Different example:** 180 min = 3 h."
+    },
+    "195": {
+      "hint": "468 ÷ 60.",
+      "help": "Density = mass ÷ volume.\n\n**Different example:** 90 g and 30 cm³ → 3 g/cm³."
+    },
+    "196": {
+      "hint": "Can you compare 30 mph and 50 km/h without converting?",
+      "help": "Convert to the same units first, then compare.\n\nThat avoids mistakes."
+    },
+    "197": {
+      "hint": "1 h 12 min = 1.2 hours.",
+      "help": "**1 h 12 min = 1.2 hours** because **12 ÷ 60 = 0.2**.\n\nAverage speed = **900 km ÷ 1.2 h**.\n\n**Different example:** 60 km in 1 h → 60 km/h."
+    },
+    "198": {
+      "hint": "1 m = 1000 mm.",
+      "help": "**1 m = 1000 mm**, so multiply metres by **1000** to get millimetres.\n\n**3.2 m × 1000** gives the length in mm.\n\n**Different example:** 0.5 m = 500 mm."
+    },
+    "199": {
+      "hint": "2.5 hours = 150 minutes.",
+      "help": "180 l/min × 150 min, or 180 × 60 × 2.5 for litres per hour flow."
+    },
+    "200": {
+      "hint": "Add both journey times, then 500 ÷ total hours.",
+      "help": "4.5 h + 1.25 h = total time.\n\nAverage speed = total 500 km ÷ total time."
+    }
+  }
+}

@@ -3,8 +3,9 @@ import { requireSession } from "@/lib/auth";
 import { getAnswerKey, getQuestionSupport, getWorksheet } from "@/lib/content";
 import type { ClientQuestionSupport } from "@/lib/question-support";
 import { parseQuestions, toClientAnswerMeta } from "@/lib/questions";
+import { isGcseDomain } from "@/lib/subjects";
 import { isTenantId } from "@/lib/tenants";
-import { TenantNav } from "@/components/TenantNav";
+import { ServerTenantNav } from "@/components/ServerTenantNav";
 import { QuestionPractice } from "@/components/QuestionPractice";
 import { mathsTopicTrail } from "@/lib/nav-crumbs";
 import { mathsTopicHref } from "@/lib/paths";
@@ -15,7 +16,7 @@ type Props = {
 
 export default async function PracticePage({ params }: Props) {
   const { tenant, domain, code } = await params;
-  if (!isTenantId(tenant)) notFound();
+  if (!isTenantId(tenant) || !isGcseDomain(domain)) notFound();
   const session = await requireSession(tenant);
 
   const slug = `${domain}/${code}`;
@@ -46,10 +47,15 @@ export default async function PracticePage({ params }: Props) {
 
   return (
     <>
-      <TenantNav
+      <ServerTenantNav
         tenantId={tenant}
-        userName={session.displayName}
-        crumbs={mathsTopicTrail(tenant, doc.frontmatter.title, topicHref)}
+        crumbs={mathsTopicTrail(
+          tenant,
+          domain,
+          doc.frontmatter.title,
+          topicHref,
+          "Practice",
+        )}
       />
       <main className="mx-auto max-w-2xl px-4 py-6 sm:py-8">
         <QuestionPractice

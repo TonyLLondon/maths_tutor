@@ -1,0 +1,1832 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "½",
+        "one half",
+        "a half"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "0.5",
+      "accept": [
+        "0.5",
+        ".5"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "0.25",
+      "accept": [
+        "0.25",
+        ".25"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "0.7",
+      "accept": [
+        "0.7",
+        ".7"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "0.3",
+      "accept": [
+        "0.3",
+        ".3"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "½",
+        "one half"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "0.5",
+      "accept": [
+        "0.5",
+        ".5"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "0.7",
+      "accept": [
+        "0.7",
+        "0.70",
+        "7/10"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "one quarter",
+        "¼"
+      ],
+      "tier": 1,
+      "rating": 661
+    },
+    "11": {
+      "display": "0.6",
+      "accept": [
+        "0.6",
+        "0.60",
+        "3/5"
+      ],
+      "tier": 1,
+      "rating": 673
+    },
+    "12": {
+      "display": "35 squares shaded; fraction 7/20 (35/100 simplified).",
+      "accept": [
+        "7/20",
+        "35/100",
+        "35 squares"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 684
+    },
+    "13": {
+      "display": "4/5",
+      "accept": [
+        "4/5",
+        "four fifths"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "14": {
+      "display": "0.45",
+      "accept": [
+        "0.45"
+      ],
+      "tier": 1,
+      "rating": 707
+    },
+    "15": {
+      "display": "0.125",
+      "accept": [
+        "0.125"
+      ],
+      "tier": 1,
+      "rating": 718
+    },
+    "16": {
+      "display": "3/25",
+      "accept": [
+        "3/25"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "17": {
+      "display": "0.44",
+      "accept": [
+        "0.44"
+      ],
+      "tier": 1,
+      "rating": 798
+    },
+    "18": {
+      "display": "3/50",
+      "accept": [
+        "3/50"
+      ],
+      "tier": 1,
+      "rating": 855
+    },
+    "19": {
+      "display": "0.875",
+      "accept": [
+        "0.875"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "20": {
+      "display": "3/8",
+      "accept": [
+        "3/8"
+      ],
+      "tier": 1,
+      "rating": 817
+    },
+    "21": {
+      "display": "75%",
+      "accept": [
+        "75",
+        "75%"
+      ],
+      "tier": 1,
+      "rating": 983
+    },
+    "22": {
+      "display": "60%",
+      "accept": [
+        "60",
+        "60%"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "Yes. 0.8 = 8/10 = 4/5.",
+      "accept": [
+        "yes",
+        "correct",
+        "true",
+        "same"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "24": {
+      "display": "Sometimes — e.g. 0.5 = 5/10, but 0.25 = 1/4 which is not tenths.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 957
+    },
+    "25": {
+      "display": "No. 1/3 = 0.333... (recurring), not exactly 0.3.",
+      "accept": [
+        "no",
+        "not correct",
+        "incorrect"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1168
+    },
+    "26": {
+      "display": "Always — e.g. 0.45 × 10 = 4.5.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1378
+    },
+    "27": {
+      "display": "Adding digits doesn't tell you the size of a fraction, so her reasoning is wrong — but her conclusion happens to be right: 2/5 = 0.4, which is bigger than 0.35.",
+      "accept": [
+        "wrong",
+        "0.4",
+        "2/5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "28": {
+      "display": "1.25 km",
+      "accept": [
+        "1.25",
+        "1.25 km",
+        "1.25km",
+        "5/4"
+      ],
+      "tier": 3,
+      "rating": 1620
+    },
+    "29": {
+      "display": "Yes — 0.6 kg is exactly the same as 3/5 kg, so she has exactly enough.",
+      "accept": [
+        "yes",
+        "enough",
+        "equal",
+        "same"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1698
+    },
+    "30": {
+      "display": "Archer buys more (4/5 = 0.8 m), by 0.1 m more than Sloan's 0.7 m.",
+      "accept": [
+        "archer",
+        "0.1"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1672
+    },
+    "31": {
+      "display": "0.75 litres",
+      "accept": [
+        "0.75",
+        "0.75l",
+        "0.75 litres"
+      ],
+      "tier": 3,
+      "rating": 1724
+    },
+    "32": {
+      "display": "3 slices",
+      "accept": [
+        "3",
+        "3 slices"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "33": {
+      "display": "0.5",
+      "accept": [
+        "0.5",
+        ".5",
+        "1/2"
+      ],
+      "tier": 2,
+      "rating": 1270
+    },
+    "34": {
+      "display": "3/4",
+      "accept": [
+        "3/4",
+        "three quarters"
+      ],
+      "tier": 2,
+      "rating": 1322
+    },
+    "35": {
+      "display": "0.75",
+      "accept": [
+        "0.75",
+        ".75",
+        "3/4"
+      ],
+      "tier": 2,
+      "rating": 1374
+    },
+    "36": {
+      "display": "Equal (both 0.8)",
+      "accept": [
+        "equal",
+        "same",
+        "0.8",
+        "4/5",
+        "neither"
+      ],
+      "tier": 2,
+      "rating": 1296,
+      "contains": true
+    },
+    "37": {
+      "display": "0.4",
+      "accept": [
+        "0.4",
+        ".4",
+        "40%"
+      ],
+      "tier": 2,
+      "rating": 1348
+    },
+    "38": {
+      "display": "0.2",
+      "accept": [
+        "0.2",
+        ".2",
+        "1/5",
+        "20%"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "39": {
+      "display": "0.2, 1/4, 3/10, 0.75",
+      "accept": [
+        "0.2 1/4 3/10 0.75",
+        "0.2, 1/4, 3/10, 0.75",
+        "0.2 0.25 0.3 0.75"
+      ],
+      "tier": 3,
+      "rating": 1945
+    },
+    "40": {
+      "display": "0.83",
+      "accept": [
+        "0.83"
+      ],
+      "tier": 3,
+      "rating": 1964
+    },
+    "41": {
+      "display": "0.78 is bigger. 7/9 = 0.777... which is less than 0.780.",
+      "accept": [
+        "0.78"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1982
+    },
+    "42": {
+      "display": "1/3",
+      "accept": [
+        "1/3",
+        "one third"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "0.4 (= 2/5), 9/20, 0.5",
+      "accept": [
+        "0.4 9/20 0.5",
+        "0.4, 9/20, 0.5",
+        "0.4 0.45 0.5"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "44": {
+      "display": "Sloan is comparing digits like whole numbers, not place value. 0.1 = 0.10, which is bigger than 0.09.",
+      "accept": [
+        "0.1",
+        "place value"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 931
+    },
+    "45": {
+      "display": "0.2",
+      "accept": [
+        "0.2",
+        "0.20",
+        "1/5"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "46": {
+      "display": "9/100",
+      "accept": [
+        "9/100"
+      ],
+      "tier": 1,
+      "rating": 776
+    },
+    "47": {
+      "display": "36",
+      "accept": [
+        "36"
+      ],
+      "tier": 1,
+      "rating": 802
+    },
+    "48": {
+      "display": "3/5 (0.6)",
+      "accept": [
+        "3/5",
+        "0.6"
+      ],
+      "tier": 1,
+      "rating": 828
+    },
+    "49": {
+      "display": "0.5",
+      "accept": [
+        "0.5",
+        "1/2"
+      ],
+      "tier": 1,
+      "rating": 854
+    },
+    "50": {
+      "display": "3/5",
+      "accept": [
+        "3/5",
+        "0.6"
+      ],
+      "tier": 1,
+      "rating": 880
+    },
+    "51": {
+      "display": "7/20",
+      "accept": [
+        "7/20"
+      ],
+      "tier": 1,
+      "rating": 906
+    },
+    "52": {
+      "display": "0.625",
+      "accept": [
+        "0.625"
+      ],
+      "tier": 1,
+      "rating": 932
+    },
+    "53": {
+      "display": "1/8",
+      "accept": [
+        "1/8"
+      ],
+      "tier": 1,
+      "rating": 958
+    },
+    "54": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 984
+    },
+    "55": {
+      "display": "0.82",
+      "accept": [
+        "0.82"
+      ],
+      "tier": 1,
+      "rating": 1010
+    },
+    "56": {
+      "display": "0.55",
+      "accept": [
+        "0.55"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "57": {
+      "display": "3/10",
+      "accept": [
+        "3/10",
+        "0.3"
+      ],
+      "tier": 1,
+      "rating": 1062
+    },
+    "58": {
+      "display": "2/25",
+      "accept": [
+        "2/25"
+      ],
+      "tier": 1,
+      "rating": 1088
+    },
+    "59": {
+      "display": "0.08",
+      "accept": [
+        "0.08"
+      ],
+      "tier": 1,
+      "rating": 1114
+    },
+    "60": {
+      "display": "11/20",
+      "accept": [
+        "11/20"
+      ],
+      "tier": 1,
+      "rating": 1140
+    },
+    "61": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 1166
+    },
+    "62": {
+      "display": "<",
+      "accept": [
+        "<",
+        "less"
+      ],
+      "tier": 1,
+      "rating": 1192
+    },
+    "63": {
+      "display": "0.35",
+      "accept": [
+        "0.35"
+      ],
+      "tier": 1,
+      "rating": 1218
+    },
+    "64": {
+      "display": "1/8, 2/15, 0.15, 0.2",
+      "accept": [
+        "1/8 2/15 0.15 0.2",
+        "0.125 0.133 0.15 0.2"
+      ],
+      "tier": 1,
+      "rating": 1244
+    },
+    "65": {
+      "display": "0.65",
+      "accept": [
+        "0.65"
+      ],
+      "tier": 1,
+      "rating": 730
+    },
+    "66": {
+      "display": "1/25",
+      "accept": [
+        "1/25"
+      ],
+      "tier": 1,
+      "rating": 752
+    },
+    "67": {
+      "display": "60",
+      "accept": [
+        "60"
+      ],
+      "tier": 1,
+      "rating": 764
+    },
+    "68": {
+      "display": "0.84",
+      "accept": [
+        "0.84"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "69": {
+      "display": "0.72",
+      "accept": [
+        "0.72"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "70": {
+      "display": "0.08",
+      "accept": [
+        "0.08"
+      ],
+      "tier": 1,
+      "rating": 809
+    },
+    "71": {
+      "display": "7/8",
+      "accept": [
+        "7/8"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "72": {
+      "display": "27",
+      "accept": [
+        "27",
+        "£27"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "73": {
+      "display": ">",
+      "accept": [
+        ">",
+        "greater"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "74": {
+      "display": "0.875",
+      "accept": [
+        "0.875",
+        "7/8"
+      ],
+      "tier": 1,
+      "rating": 866
+    },
+    "75": {
+      "display": "1.5",
+      "accept": [
+        "1.5",
+        "150%"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "76": {
+      "display": "0.444",
+      "accept": [
+        "0.444",
+        "0.44"
+      ],
+      "tier": 1,
+      "rating": 889
+    },
+    "77": {
+      "display": "1/125",
+      "accept": [
+        "1/125"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "78": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 911
+    },
+    "79": {
+      "display": "11/15",
+      "accept": [
+        "11/15",
+        "0.733"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "80": {
+      "display": "0.05",
+      "accept": [
+        "0.05",
+        "5%"
+      ],
+      "tier": 1,
+      "rating": 934
+    },
+    "81": {
+      "display": "0.425",
+      "accept": [
+        "0.425"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "82": {
+      "display": "37.5%",
+      "accept": [
+        "37.5",
+        "37.5%"
+      ],
+      "tier": 1,
+      "rating": 957
+    },
+    "83": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "84": {
+      "display": "=",
+      "accept": [
+        "=",
+        "equal"
+      ],
+      "tier": 1,
+      "rating": 980
+    },
+    "85": {
+      "display": "0.625",
+      "accept": [
+        "0.625",
+        "5/8"
+      ],
+      "tier": 1,
+      "rating": 991
+    },
+    "86": {
+      "display": "0.4375",
+      "accept": [
+        "0.4375",
+        "0.438"
+      ],
+      "tier": 1,
+      "rating": 1002
+    },
+    "87": {
+      "display": "7/100",
+      "accept": [
+        "7/100"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "88": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1025
+    },
+    "89": {
+      "display": "0.99",
+      "accept": [
+        "0.99"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "90": {
+      "display": "15%",
+      "accept": [
+        "15",
+        "15%"
+      ],
+      "tier": 1,
+      "rating": 1048
+    },
+    "91": {
+      "display": "0.3",
+      "accept": [
+        "0.3",
+        "3/10"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "92": {
+      "display": "5/4",
+      "accept": [
+        "5/4"
+      ],
+      "tier": 1,
+      "rating": 1070
+    },
+    "93": {
+      "display": "<",
+      "accept": [
+        "<",
+        "less"
+      ],
+      "tier": 1,
+      "rating": 1082
+    },
+    "94": {
+      "display": "1/2",
+      "accept": [
+        "1/2"
+      ],
+      "tier": 1,
+      "rating": 1093
+    },
+    "95": {
+      "display": "0.5625",
+      "accept": [
+        "0.5625"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "96": {
+      "display": "1/500",
+      "accept": [
+        "1/500"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "97": {
+      "display": "63",
+      "accept": [
+        "63"
+      ],
+      "tier": 1,
+      "rating": 1127
+    },
+    "98": {
+      "display": "5/8",
+      "accept": [
+        "5/8",
+        "0.625"
+      ],
+      "tier": 1,
+      "rating": 1139
+    },
+    "99": {
+      "display": "45%",
+      "accept": [
+        "45",
+        "45%"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "100": {
+      "display": "No. 0.25 = 1/4, not 1/5.",
+      "accept": [
+        "no",
+        "1/4",
+        "incorrect"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 919
+    },
+    "101": {
+      "display": "Sometimes — e.g. 0.5 = 5/10, but 0.25 = 1/4.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 938
+    },
+    "102": {
+      "display": "She treated 1/8 like 1÷8 written as 0.8 instead of 0.125.",
+      "accept": [
+        "0.125",
+        "wrong",
+        "place"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 976
+    },
+    "103": {
+      "display": "Always — e.g. 0.45 × 100 = 45.0 (same digit order).",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 996
+    },
+    "104": {
+      "display": "Yes — for any positive whole number, three quarters is more than one half.",
+      "accept": [
+        "yes",
+        "correct",
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1015
+    },
+    "105": {
+      "display": "Yes — 1/3 = 0.333… exactly.",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1034
+    },
+    "106": {
+      "display": "Never — simplest form keeps the same value.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1053
+    },
+    "107": {
+      "display": "No — 0.5% = 0.005, not one half.",
+      "accept": [
+        "no",
+        "0.005"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1072
+    },
+    "108": {
+      "display": "Sometimes — 1/100 = 0.01, but 3/100 = 0.03.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1091
+    },
+    "109": {
+      "display": "2/5 = 4/10 = 0.4, so they are the same amount.",
+      "accept": [
+        "0.4",
+        "same",
+        "equivalent"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1110
+    },
+    "110": {
+      "display": "Never — 1/4 + 0.25 = 0.5, which is not greater than 0.5.",
+      "accept": [
+        "never",
+        "0.5",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1129
+    },
+    "111": {
+      "display": "No — 1/1000 = 0.001, not 0.1.",
+      "accept": [
+        "no",
+        "0.001"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1149
+    },
+    "112": {
+      "display": "Never — e.g. 1/3 = 0.333… (recurring).",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1187
+    },
+    "113": {
+      "display": "You must compare with common denominators or cross-multiply, not add tops and bottoms.",
+      "accept": [
+        "denominator",
+        "cross",
+        "wrong"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1206
+    },
+    "114": {
+      "display": "Yes — 1 ÷ 8 = 0.125 exactly.",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "115": {
+      "display": "Never — doubling the denominator makes the fraction half as big.",
+      "accept": [
+        "never",
+        "half"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1244
+    },
+    "116": {
+      "display": "Yes — 25% = 1/4, so both are 20 of 80.",
+      "accept": [
+        "yes",
+        "same",
+        "20"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1263
+    },
+    "117": {
+      "display": "Always — 0.7 is nearer 0.666… (2/3) than 0.75 (3/4).",
+      "accept": [
+        "always",
+        "2/3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1282
+    },
+    "118": {
+      "display": "2/10 simplifies to 1/5; simplest form cancels the factor 2.",
+      "accept": [
+        "1/5",
+        "simplest",
+        "cancel"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1301
+    },
+    "119": {
+      "display": "Always — if a/b < 1 with positive a and b, then a < b.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1321
+    },
+    "120": {
+      "display": "Yes — 0.999… and 1 differ by zero in the limit.",
+      "accept": [
+        "yes",
+        "equal",
+        "same"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1340
+    },
+    "121": {
+      "display": "Always — 3 ÷ 5 = 0.6.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1359
+    },
+    "122": {
+      "display": "0.08 is eight hundredths; 8/10 is eight tenths (0.8).",
+      "accept": [
+        "hundredth",
+        "tenth",
+        "0.8"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1397
+    },
+    "123": {
+      "display": "Always — e.g. 150% = 1.5 > 1.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1416
+    },
+    "124": {
+      "display": "You must compare size using common denominators or decimals, not just numerators.",
+      "accept": [
+        "denominator",
+        "3/4",
+        "wrong"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1435
+    },
+    "125": {
+      "display": "Yes — 3/5 = 0.6 exactly.",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1454
+    },
+    "126": {
+      "display": "Always — reciprocal swaps numerator and denominator.",
+      "accept": [
+        "always",
+        "5/2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1474
+    },
+    "127": {
+      "display": "0.05 is five hundredths (5/100), not five tenths.",
+      "accept": [
+        "hundredth",
+        "5/100",
+        "place"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1493
+    },
+    "128": {
+      "display": "Always — 0.1 = 1/10 of the number you add it to.",
+      "accept": [
+        "always",
+        "1/10"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1512
+    },
+    "129": {
+      "display": "Two halves of the same whole make one whole, not two quarters.",
+      "accept": [
+        "1",
+        "whole",
+        "same"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1531
+    },
+    "130": {
+      "display": "0.725 kg",
+      "accept": [
+        "0.725",
+        "0.725 kg"
+      ],
+      "tier": 2,
+      "rating": 1100
+    },
+    "131": {
+      "display": "£30",
+      "accept": [
+        "30",
+        "£30"
+      ],
+      "tier": 2,
+      "rating": 1126
+    },
+    "132": {
+      "display": "The half-full carton (1/2 = 0.5).",
+      "accept": [
+        "1/2",
+        "half",
+        "0.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1152
+    },
+    "133": {
+      "display": "0.575 km",
+      "accept": [
+        "0.575",
+        "0.575 km"
+      ],
+      "tier": 2,
+      "rating": 1178
+    },
+    "134": {
+      "display": "£18",
+      "accept": [
+        "18",
+        "£18"
+      ],
+      "tier": 2,
+      "rating": 1204
+    },
+    "135": {
+      "display": "1.75 litres",
+      "accept": [
+        "1.75",
+        "1.75 l",
+        "1.75 litres"
+      ],
+      "tier": 2,
+      "rating": 1230
+    },
+    "136": {
+      "display": "7/12",
+      "accept": [
+        "7/12"
+      ],
+      "tier": 2,
+      "rating": 1256
+    },
+    "137": {
+      "display": "50p",
+      "accept": [
+        "50",
+        "50p"
+      ],
+      "tier": 2,
+      "rating": 1282
+    },
+    "138": {
+      "display": "280 litres",
+      "accept": [
+        "280",
+        "280 litres"
+      ],
+      "tier": 2,
+      "rating": 1308
+    },
+    "139": {
+      "display": "4/9",
+      "accept": [
+        "4/9"
+      ],
+      "tier": 2,
+      "rating": 1334
+    },
+    "140": {
+      "display": "7.25 °C",
+      "accept": [
+        "7.25",
+        "7.25 c"
+      ],
+      "tier": 2,
+      "rating": 1360
+    },
+    "141": {
+      "display": "1 km",
+      "accept": [
+        "1",
+        "1 km"
+      ],
+      "tier": 2,
+      "rating": 1386
+    },
+    "142": {
+      "display": "70 pupils",
+      "accept": [
+        "70",
+        "70 pupils"
+      ],
+      "tier": 2,
+      "rating": 1412
+    },
+    "143": {
+      "display": "42%",
+      "accept": [
+        "42",
+        "42%"
+      ],
+      "tier": 2,
+      "rating": 1438
+    },
+    "144": {
+      "display": "0.733 litres (approx)",
+      "accept": [
+        "0.733",
+        "11/15",
+        "0.73"
+      ],
+      "tier": 2,
+      "rating": 1464
+    },
+    "145": {
+      "display": "£28",
+      "accept": [
+        "28",
+        "£28"
+      ],
+      "tier": 2,
+      "rating": 1490
+    },
+    "146": {
+      "display": "0.55 m",
+      "accept": [
+        "0.55",
+        "0.55 m"
+      ],
+      "tier": 2,
+      "rating": 1516
+    },
+    "147": {
+      "display": "12 pupils",
+      "accept": [
+        "12",
+        "12 pupils"
+      ],
+      "tier": 2,
+      "rating": 1542
+    },
+    "148": {
+      "display": "50 minutes",
+      "accept": [
+        "50",
+        "50 min",
+        "50 minutes"
+      ],
+      "tier": 2,
+      "rating": 1568
+    },
+    "149": {
+      "display": "1.5 tsp",
+      "accept": [
+        "1.5",
+        "3/2",
+        "1.5 tsp"
+      ],
+      "tier": 2,
+      "rating": 1594
+    },
+    "150": {
+      "display": "7/10",
+      "accept": [
+        "7/10",
+        "0.7"
+      ],
+      "tier": 2,
+      "rating": 1646
+    },
+    "151": {
+      "display": "0.143",
+      "accept": [
+        "0.143",
+        "0.14"
+      ],
+      "tier": 3,
+      "rating": 1400
+    },
+    "152": {
+      "display": "0.71",
+      "accept": [
+        "0.71"
+      ],
+      "tier": 3,
+      "rating": 1418
+    },
+    "153": {
+      "display": "0.833",
+      "accept": [
+        "0.833",
+        "5/6"
+      ],
+      "tier": 3,
+      "rating": 1436
+    },
+    "154": {
+      "display": "0.111",
+      "accept": [
+        "0.111",
+        "0.11"
+      ],
+      "tier": 3,
+      "rating": 1455
+    },
+    "155": {
+      "display": "0.5, 0.505, 0.55, 3/5",
+      "accept": [
+        "0.5 0.505 0.55",
+        "1/2 0.505 0.55 3/5"
+      ],
+      "tier": 3,
+      "rating": 1473
+    },
+    "156": {
+      "display": "Always — proper fractions between 0 and 1 are less than 1 as decimals.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1491
+    },
+    "157": {
+      "display": "0.05",
+      "accept": [
+        "0.05",
+        "1/20"
+      ],
+      "tier": 3,
+      "rating": 1509
+    },
+    "158": {
+      "display": "0.88",
+      "accept": [
+        "0.88"
+      ],
+      "tier": 3,
+      "rating": 1527
+    },
+    "159": {
+      "display": "41.7%",
+      "accept": [
+        "41.7",
+        "41.7%"
+      ],
+      "tier": 3,
+      "rating": 1545
+    },
+    "160": {
+      "display": "No — 49/100 = 0.49 but 49/99 is slightly larger.",
+      "accept": [
+        "no",
+        "49/100",
+        "different"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1564
+    },
+    "161": {
+      "display": "0.5",
+      "accept": [
+        "0.5",
+        "1/2"
+      ],
+      "tier": 3,
+      "rating": 1582
+    },
+    "162": {
+      "display": "13/20, 2/3, 0.67",
+      "accept": [
+        "13/20 2/3 0.67",
+        "0.65 0.667 0.67"
+      ],
+      "tier": 3,
+      "rating": 1600
+    },
+    "163": {
+      "display": "Always — 0.5² = 0.25 = 1/4.",
+      "accept": [
+        "always",
+        "1/4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1618
+    },
+    "164": {
+      "display": "0.917",
+      "accept": [
+        "0.917",
+        "0.92"
+      ],
+      "tier": 3,
+      "rating": 1636
+    },
+    "165": {
+      "display": "0.583",
+      "accept": [
+        "0.583",
+        "7/12"
+      ],
+      "tier": 3,
+      "rating": 1655
+    },
+    "166": {
+      "display": "30 cm",
+      "accept": [
+        "30",
+        "30 cm"
+      ],
+      "tier": 3,
+      "rating": 1673
+    },
+    "167": {
+      "display": "3/4",
+      "accept": [
+        "3/4",
+        "0.75"
+      ],
+      "tier": 3,
+      "rating": 1691
+    },
+    "168": {
+      "display": "1/2000",
+      "accept": [
+        "1/2000"
+      ],
+      "tier": 3,
+      "rating": 1709
+    },
+    "169": {
+      "display": "60",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1727
+    },
+    "170": {
+      "display": "Always — e.g. 0.4 + 0.3 = 0.7 < 2.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1745
+    },
+    "171": {
+      "display": "0.333… (1/3)",
+      "accept": [
+        "0.333",
+        "1/3",
+        "0.3"
+      ],
+      "tier": 3,
+      "rating": 1764
+    },
+    "172": {
+      "display": "7/40",
+      "accept": [
+        "7/40"
+      ],
+      "tier": 3,
+      "rating": 1782
+    },
+    "173": {
+      "display": "7/12",
+      "accept": [
+        "7/12"
+      ],
+      "tier": 3,
+      "rating": 1800
+    },
+    "174": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1818
+    },
+    "175": {
+      "display": "Always — divide the percentage by 100.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1836
+    },
+    "176": {
+      "display": "0.792",
+      "accept": [
+        "0.792",
+        "0.79"
+      ],
+      "tier": 3,
+      "rating": 1855
+    },
+    "177": {
+      "display": "No — 0.999… = 1, which is greater than 9/10.",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1873
+    },
+    "178": {
+      "display": "0.5",
+      "accept": [
+        "0.5",
+        "1/2"
+      ],
+      "tier": 3,
+      "rating": 1891
+    },
+    "179": {
+      "display": "−1/2, −0.45, −0.4, −3/8",
+      "accept": [
+        "-1/2 -0.45 -0.4",
+        "−1/2 −0.45 −0.4 −3/8"
+      ],
+      "tier": 3,
+      "rating": 1909
+    },
+    "180": {
+      "display": "46.7%",
+      "accept": [
+        "46.7",
+        "46.7%"
+      ],
+      "tier": 3,
+      "rating": 1927
+    },
+    "181": {
+      "display": "£7.50",
+      "accept": [
+        "7.50",
+        "7.5",
+        "£7.50"
+      ],
+      "tier": 3,
+      "rating": 962
+    },
+    "182": {
+      "display": "<",
+      "accept": [
+        "<",
+        "less"
+      ],
+      "tier": 3,
+      "rating": 993
+    },
+    "183": {
+      "display": "0.7",
+      "accept": [
+        "0.7",
+        "7/10"
+      ],
+      "tier": 3,
+      "rating": 1024
+    },
+    "184": {
+      "display": "£12",
+      "accept": [
+        "12",
+        "£12"
+      ],
+      "tier": 3,
+      "rating": 1055
+    },
+    "185": {
+      "display": "27/500",
+      "accept": [
+        "27/500"
+      ],
+      "tier": 3,
+      "rating": 1086
+    },
+    "186": {
+      "display": "Always — half of 1/2 is 1/4.",
+      "accept": [
+        "always",
+        "quarter",
+        "1/4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1117
+    },
+    "187": {
+      "display": "750 ml",
+      "accept": [
+        "750",
+        "750 ml"
+      ],
+      "tier": 3,
+      "rating": 1148
+    },
+    "188": {
+      "display": "14/15",
+      "accept": [
+        "14/15",
+        "0.933"
+      ],
+      "tier": 3,
+      "rating": 1179
+    },
+    "189": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1210
+    },
+    "190": {
+      "display": "0.3125",
+      "accept": [
+        "0.3125"
+      ],
+      "tier": 3,
+      "rating": 1240
+    },
+    "191": {
+      "display": "0.182",
+      "accept": [
+        "0.182",
+        "0.18"
+      ],
+      "tier": 3,
+      "rating": 1271
+    },
+    "192": {
+      "display": "£120",
+      "accept": [
+        "120",
+        "£120"
+      ],
+      "tier": 3,
+      "rating": 1302
+    },
+    "193": {
+      "display": "=",
+      "accept": [
+        "=",
+        "equal"
+      ],
+      "tier": 3,
+      "rating": 1333
+    },
+    "194": {
+      "display": "0.5",
+      "accept": [
+        "0.5",
+        "1/2"
+      ],
+      "tier": 3,
+      "rating": 1364
+    },
+    "195": {
+      "display": "Sometimes — e.g. 0.500 < 1 but 1.234 has three decimal places and is greater than 1.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1395
+    },
+    "196": {
+      "display": "11/18",
+      "accept": [
+        "11/18"
+      ],
+      "tier": 3,
+      "rating": 1426
+    },
+    "197": {
+      "display": "0.8%",
+      "accept": [
+        "0.8",
+        "0.8%"
+      ],
+      "tier": 3,
+      "rating": 1457
+    },
+    "198": {
+      "display": "12 minutes",
+      "accept": [
+        "12",
+        "12 min",
+        "12 minutes"
+      ],
+      "tier": 3,
+      "rating": 1488
+    },
+    "199": {
+      "display": "0.49",
+      "accept": [
+        "0.49"
+      ],
+      "tier": 3,
+      "rating": 1519
+    },
+    "200": {
+      "display": "7/20, 0.39, 2/5, 0.41",
+      "accept": [
+        "7/20 0.39 2/5 0.41",
+        "0.35 0.39 0.4 0.41"
+      ],
+      "tier": 3,
+      "rating": 1550
+    }
+  }
+}

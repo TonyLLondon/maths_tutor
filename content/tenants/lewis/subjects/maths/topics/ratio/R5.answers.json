@@ -1,0 +1,1225 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "5",
+      "accept": ["5"],
+      "tier": 1,
+      "rating": 510
+    },
+    "2": {
+      "display": "5",
+      "accept": ["5"],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "10",
+      "accept": ["10"],
+      "tier": 1,
+      "rating": 570
+    },
+    "4": {
+      "display": "The first share",
+      "accept": ["first", "3"],
+      "tier": 1,
+      "rating": 600
+    },
+    "5": {
+      "display": "4",
+      "accept": ["4"],
+      "tier": 1,
+      "rating": 630
+    },
+    "6": {
+      "display": "5",
+      "accept": ["5"],
+      "tier": 1,
+      "rating": 660
+    },
+    "7": {
+      "display": "£15",
+      "accept": ["15", "£15"],
+      "tier": 1,
+      "rating": 690
+    },
+    "8": {
+      "display": "£6",
+      "accept": ["6", "£6"],
+      "tier": 1,
+      "rating": 715
+    },
+    "9": {
+      "display": "£15",
+      "accept": ["15", "£15"],
+      "tier": 1,
+      "rating": 665
+    },
+    "10": {
+      "display": "20",
+      "accept": ["20"],
+      "tier": 1,
+      "rating": 713
+    },
+    "11": {
+      "display": "£12",
+      "accept": ["12", "£12"],
+      "tier": 1,
+      "rating": 761
+    },
+    "12": {
+      "display": "9 and 36",
+      "accept": ["9", "36"],
+      "tier": 1,
+      "rating": 809
+    },
+    "13": {
+      "display": "£40",
+      "accept": ["40", "£40"],
+      "tier": 1,
+      "rating": 857
+    },
+    "14": {
+      "display": "18",
+      "accept": ["18"],
+      "tier": 1,
+      "rating": 905
+    },
+    "15": {
+      "display": "£36",
+      "accept": ["36", "£36"],
+      "tier": 1,
+      "rating": 953
+    },
+    "16": {
+      "display": "60",
+      "accept": ["60"],
+      "tier": 1,
+      "rating": 1001
+    },
+    "17": {
+      "display": "£56",
+      "accept": ["56", "£56"],
+      "tier": 1,
+      "rating": 1049
+    },
+    "18": {
+      "display": "16",
+      "accept": ["16"],
+      "tier": 1,
+      "rating": 1097
+    },
+    "19": {
+      "display": "£40",
+      "accept": ["40", "£40"],
+      "tier": 1,
+      "rating": 1145
+    },
+    "20": {
+      "display": "No — 4 parts, £10 each; the smaller share is £10, not £13.",
+      "accept": ["no", "10"],
+      "contains": true,
+      "tier": 2,
+      "rating": 950
+    },
+    "21": {
+      "display": "True — 7 parts, £10 each; the larger share (5 parts) is £50.",
+      "accept": ["true", "50"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1050
+    },
+    "22": {
+      "display": "No — ratio 3 : 3 means equal shares of £30 each, not double.",
+      "accept": ["no", "equal", "30"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1150
+    },
+    "23": {
+      "display": "The total is split into (a + b) equal parts, so you need the total number of parts before you can divide to find the value of one part.",
+      "accept": ["parts", "divide", "total"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1250
+    },
+    "24": {
+      "display": "Sometimes — e.g. ratio 5 : 2 the larger share is more than double, but in ratio 3 : 2 it is not.",
+      "accept": ["sometimes", "double"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1350
+    },
+    "25": {
+      "display": "Leo split the sweets equally instead of using the ratio; 5 parts means one part = 10, so the shares should be 20 and 30.",
+      "accept": ["10", "20", "30"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1450
+    },
+    "26": {
+      "display": "Yes — 4 : 6 simplifies to 2 : 3, so the shares are exactly the same for the same total.",
+      "accept": ["yes", "2:3", "same"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1540
+    },
+    "27": {
+      "display": "£24",
+      "accept": ["24", "£24"],
+      "tier": 3,
+      "rating": 1150
+    },
+    "28": {
+      "display": "35",
+      "accept": ["35"],
+      "tier": 3,
+      "rating": 1250
+    },
+    "29": {
+      "display": "£60",
+      "accept": ["60", "£60"],
+      "tier": 3,
+      "rating": 1350
+    },
+    "30": {
+      "display": "40 cm and 50 cm",
+      "accept": ["40", "50"],
+      "tier": 3,
+      "rating": 1450
+    },
+    "31": {
+      "display": "£64",
+      "accept": ["64", "£64"],
+      "tier": 3,
+      "rating": 1550
+    },
+    "32": {
+      "display": "640 g",
+      "accept": ["640", "640g", "640 g"],
+      "tier": 3,
+      "rating": 1650
+    },
+    "33": {
+      "display": "£105",
+      "accept": ["105", "£105"],
+      "tier": 3,
+      "rating": 1740
+    },
+    "34": {
+      "display": "£24",
+      "accept": ["24", "£24"],
+      "tier": 2,
+      "rating": 800
+    },
+    "35": {
+      "display": "40",
+      "accept": ["40"],
+      "tier": 2,
+      "rating": 916
+    },
+    "36": {
+      "display": "£12",
+      "accept": ["12", "£12"],
+      "tier": 2,
+      "rating": 1032
+    },
+    "37": {
+      "display": "48 and 60",
+      "accept": ["48", "60"],
+      "tier": 2,
+      "rating": 1148
+    },
+    "38": {
+      "display": "£80",
+      "accept": ["80", "£80"],
+      "tier": 2,
+      "rating": 1264
+    },
+    "39": {
+      "display": "24",
+      "accept": ["24"],
+      "tier": 2,
+      "rating": 1380
+    },
+    "40": {
+      "display": "£25",
+      "accept": ["25", "£25"],
+      "tier": 1,
+      "rating": 700
+    },
+    "41": {
+      "display": "10",
+      "accept": ["10"],
+      "tier": 1,
+      "rating": 800
+    },
+    "42": {
+      "display": "£24",
+      "accept": ["24", "£24"],
+      "tier": 1,
+      "rating": 900
+    },
+    "43": {
+      "display": "72",
+      "accept": ["72"],
+      "tier": 1,
+      "rating": 1000
+    },
+    "44": {
+      "display": "£48",
+      "accept": ["48", "£48"],
+      "tier": 1,
+      "rating": 1100
+    },
+    "45": {
+      "display": "£20",
+      "accept": ["20", "£20"],
+      "tier": 2,
+      "rating": 831
+    },
+    "46": {
+      "display": "15",
+      "accept": ["15"],
+      "tier": 2,
+      "rating": 838
+    },
+    "47": {
+      "display": "£32",
+      "accept": ["32", "£32"],
+      "tier": 2,
+      "rating": 846
+    },
+    "48": {
+      "display": "14",
+      "accept": ["14"],
+      "tier": 2,
+      "rating": 853
+    },
+    "49": {
+      "display": "£40",
+      "accept": ["40", "£40"],
+      "tier": 2,
+      "rating": 861
+    },
+    "50": {
+      "display": "12",
+      "accept": ["12"],
+      "tier": 2,
+      "rating": 868
+    },
+    "51": {
+      "display": "£66",
+      "accept": ["66", "£66"],
+      "tier": 2,
+      "rating": 876
+    },
+    "52": {
+      "display": "25",
+      "accept": ["25"],
+      "tier": 2,
+      "rating": 883
+    },
+    "53": {
+      "display": "£56",
+      "accept": ["56", "£56"],
+      "tier": 2,
+      "rating": 891
+    },
+    "54": {
+      "display": "44",
+      "accept": ["44"],
+      "tier": 2,
+      "rating": 898
+    },
+    "55": {
+      "display": "£15",
+      "accept": ["15", "£15"],
+      "tier": 2,
+      "rating": 906
+    },
+    "56": {
+      "display": "40",
+      "accept": ["40"],
+      "tier": 2,
+      "rating": 914
+    },
+    "57": {
+      "display": "£60",
+      "accept": ["60", "£60"],
+      "tier": 2,
+      "rating": 921
+    },
+    "58": {
+      "display": "42",
+      "accept": ["42"],
+      "tier": 2,
+      "rating": 929
+    },
+    "59": {
+      "display": "£45",
+      "accept": ["45", "£45"],
+      "tier": 2,
+      "rating": 936
+    },
+    "60": {
+      "display": "80",
+      "accept": ["80"],
+      "tier": 2,
+      "rating": 944
+    },
+    "61": {
+      "display": "£30",
+      "accept": ["30", "£30"],
+      "tier": 2,
+      "rating": 951
+    },
+    "62": {
+      "display": "33",
+      "accept": ["33"],
+      "tier": 2,
+      "rating": 959
+    },
+    "63": {
+      "display": "£90",
+      "accept": ["90", "£90"],
+      "tier": 2,
+      "rating": 966
+    },
+    "64": {
+      "display": "6",
+      "accept": ["6"],
+      "tier": 2,
+      "rating": 974
+    },
+    "65": {
+      "display": "£110",
+      "accept": ["110", "£110"],
+      "tier": 2,
+      "rating": 981
+    },
+    "66": {
+      "display": "20",
+      "accept": ["20"],
+      "tier": 2,
+      "rating": 989
+    },
+    "67": {
+      "display": "£63",
+      "accept": ["63", "£63"],
+      "tier": 2,
+      "rating": 997
+    },
+    "68": {
+      "display": "49",
+      "accept": ["49"],
+      "tier": 2,
+      "rating": 1004
+    },
+    "69": {
+      "display": "£60",
+      "accept": ["60", "£60"],
+      "tier": 2,
+      "rating": 1012
+    },
+    "70": {
+      "display": "84",
+      "accept": ["84"],
+      "tier": 2,
+      "rating": 1019
+    },
+    "71": {
+      "display": "20",
+      "accept": ["20"],
+      "tier": 2,
+      "rating": 1027
+    },
+    "72": {
+      "display": "£20",
+      "accept": ["20", "£20"],
+      "tier": 2,
+      "rating": 1034
+    },
+    "73": {
+      "display": "50",
+      "accept": ["50"],
+      "tier": 2,
+      "rating": 1042
+    },
+    "74": {
+      "display": "£42",
+      "accept": ["42", "£42"],
+      "tier": 2,
+      "rating": 1049
+    },
+    "75": {
+      "display": "28",
+      "accept": ["28"],
+      "tier": 2,
+      "rating": 1057
+    },
+    "76": {
+      "display": "£50",
+      "accept": ["50", "£50"],
+      "tier": 2,
+      "rating": 1064
+    },
+    "77": {
+      "display": "12",
+      "accept": ["12"],
+      "tier": 2,
+      "rating": 1072
+    },
+    "78": {
+      "display": "£64",
+      "accept": ["64", "£64"],
+      "tier": 2,
+      "rating": 1079
+    },
+    "79": {
+      "display": "35",
+      "accept": ["35"],
+      "tier": 2,
+      "rating": 1087
+    },
+    "80": {
+      "display": "£90",
+      "accept": ["90", "£90"],
+      "tier": 2,
+      "rating": 1094
+    },
+    "81": {
+      "display": "£32",
+      "accept": ["32", "£32"],
+      "tier": 2,
+      "rating": 1102
+    },
+    "82": {
+      "display": "£50",
+      "accept": ["50", "£50"],
+      "tier": 2,
+      "rating": 1109
+    },
+    "83": {
+      "display": "22",
+      "accept": ["22"],
+      "tier": 2,
+      "rating": 1117
+    },
+    "84": {
+      "display": "£80",
+      "accept": ["80", "£80"],
+      "tier": 2,
+      "rating": 1124
+    },
+    "85": {
+      "display": "60",
+      "accept": ["60"],
+      "tier": 2,
+      "rating": 1132
+    },
+    "86": {
+      "display": "£60",
+      "accept": ["60", "£60"],
+      "tier": 2,
+      "rating": 1139
+    },
+    "87": {
+      "display": "30",
+      "accept": ["30"],
+      "tier": 2,
+      "rating": 1147
+    },
+    "88": {
+      "display": "£150",
+      "accept": ["150", "£150"],
+      "tier": 2,
+      "rating": 1154
+    },
+    "89": {
+      "display": "42",
+      "accept": ["42"],
+      "tier": 2,
+      "rating": 1162
+    },
+    "90": {
+      "display": "£120",
+      "accept": ["120", "£120"],
+      "tier": 2,
+      "rating": 1169
+    },
+    "91": {
+      "display": "32",
+      "accept": ["32"],
+      "tier": 2,
+      "rating": 1177
+    },
+    "92": {
+      "display": "£90",
+      "accept": ["90", "£90"],
+      "tier": 2,
+      "rating": 1184
+    },
+    "93": {
+      "display": "45",
+      "accept": ["45"],
+      "tier": 2,
+      "rating": 1192
+    },
+    "94": {
+      "display": "40 litres",
+      "accept": ["40", "40 litres", "40l"],
+      "tier": 2,
+      "rating": 1199
+    },
+    "95": {
+      "display": "4",
+      "accept": ["4"],
+      "tier": 2,
+      "rating": 1207
+    },
+    "96": {
+      "display": "£48",
+      "accept": ["48", "£48"],
+      "tier": 2,
+      "rating": 1214
+    },
+    "97": {
+      "display": "15",
+      "accept": ["15"],
+      "tier": 2,
+      "rating": 1222
+    },
+    "98": {
+      "display": "Leo £45, total £63",
+      "accept": ["45", "63", "£45", "£63"],
+      "tier": 2,
+      "rating": 1229
+    },
+    "99": {
+      "display": "120 g",
+      "accept": ["120", "120g", "120 g"],
+      "tier": 2,
+      "rating": 1237
+    },
+    "100": {
+      "display": "48",
+      "accept": ["48"],
+      "tier": 2,
+      "rating": 1244
+    },
+    "101": {
+      "display": "16",
+      "accept": ["16"],
+      "tier": 2,
+      "rating": 1252
+    },
+    "102": {
+      "display": "£49",
+      "accept": ["49", "£49"],
+      "tier": 2,
+      "rating": 1259
+    },
+    "103": {
+      "display": "16 litres",
+      "accept": ["16", "16 litres"],
+      "tier": 2,
+      "rating": 1267
+    },
+    "104": {
+      "display": "60",
+      "accept": ["60"],
+      "tier": 2,
+      "rating": 1274
+    },
+    "105": {
+      "display": "£75",
+      "accept": ["75", "£75"],
+      "tier": 2,
+      "rating": 1282
+    },
+    "106": {
+      "display": "18",
+      "accept": ["18"],
+      "tier": 2,
+      "rating": 1289
+    },
+    "107": {
+      "display": "£90",
+      "accept": ["90", "£90"],
+      "tier": 2,
+      "rating": 1297
+    },
+    "108": {
+      "display": "45",
+      "accept": ["45"],
+      "tier": 2,
+      "rating": 1304
+    },
+    "109": {
+      "display": "£640",
+      "accept": ["640", "£640"],
+      "tier": 2,
+      "rating": 1312
+    },
+    "110": {
+      "display": "55",
+      "accept": ["55"],
+      "tier": 2,
+      "rating": 1319
+    },
+    "111": {
+      "display": "32",
+      "accept": ["32"],
+      "tier": 2,
+      "rating": 1327
+    },
+    "112": {
+      "display": "£133.33 (or £133)",
+      "accept": ["133", "133.33", "£133"],
+      "tier": 2,
+      "rating": 1334
+    },
+    "113": {
+      "display": "9",
+      "accept": ["9"],
+      "tier": 2,
+      "rating": 1342
+    },
+    "114": {
+      "display": "32 cm",
+      "accept": ["32", "32 cm"],
+      "tier": 2,
+      "rating": 1349
+    },
+    "115": {
+      "display": "£200",
+      "accept": ["200", "£200"],
+      "tier": 2,
+      "rating": 1357
+    },
+    "116": {
+      "display": "£72",
+      "accept": ["72", "£72"],
+      "tier": 2,
+      "rating": 1364
+    },
+    "117": {
+      "display": "£243",
+      "accept": ["243", "£243"],
+      "tier": 2,
+      "rating": 1372
+    },
+    "118": {
+      "display": "49 cm",
+      "accept": ["49", "49 cm"],
+      "tier": 2,
+      "rating": 1379
+    },
+    "119": {
+      "display": "24",
+      "accept": ["24"],
+      "tier": 2,
+      "rating": 1387
+    },
+    "120": {
+      "display": "£900",
+      "accept": ["900", "£900"],
+      "tier": 2,
+      "rating": 1394
+    },
+    "121": {
+      "display": "640 g",
+      "accept": ["640", "640g", "640 g"],
+      "tier": 2,
+      "rating": 1402
+    },
+    "122": {
+      "display": "1200",
+      "accept": ["1200"],
+      "tier": 2,
+      "rating": 1409
+    },
+    "123": {
+      "display": "24",
+      "accept": ["24"],
+      "tier": 2,
+      "rating": 1417
+    },
+    "124": {
+      "display": "True",
+      "accept": ["true", "yes"],
+      "contains": ["true", "36"],
+      "tier": 2,
+      "rating": 1424
+    },
+    "125": {
+      "display": "Yes",
+      "accept": ["yes", "true"],
+      "contains": ["yes", "20", "80"],
+      "tier": 2,
+      "rating": 1432
+    },
+    "126": {
+      "display": "21 and 35",
+      "accept": ["21", "35", "21 and 35"],
+      "tier": 3,
+      "rating": 1440
+    },
+    "127": {
+      "display": "32 and 56",
+      "accept": ["32", "56"],
+      "tier": 3,
+      "rating": 1448
+    },
+    "128": {
+      "display": "8 and 12 years",
+      "accept": ["8", "12"],
+      "tier": 3,
+      "rating": 1455
+    },
+    "129": {
+      "display": "40 and 64",
+      "accept": ["40", "64"],
+      "tier": 3,
+      "rating": 1463
+    },
+    "130": {
+      "display": "£36 and £48",
+      "accept": ["36", "48", "£36", "£48"],
+      "tier": 3,
+      "rating": 1470
+    },
+    "131": {
+      "display": "21 cm and 30 cm",
+      "accept": ["21", "30"],
+      "tier": 3,
+      "rating": 1478
+    },
+    "132": {
+      "display": "£16",
+      "accept": ["16", "£16"],
+      "tier": 3,
+      "rating": 1485
+    },
+    "133": {
+      "display": "£36",
+      "accept": ["36", "£36"],
+      "tier": 3,
+      "rating": 1493
+    },
+    "134": {
+      "display": "36 and 52",
+      "accept": ["36", "52"],
+      "tier": 3,
+      "rating": 1500
+    },
+    "135": {
+      "display": "30, 45 and 60",
+      "accept": ["30", "45", "60"],
+      "tier": 3,
+      "rating": 1508
+    },
+    "136": {
+      "display": "15 boys, 18 girls",
+      "accept": ["15", "18"],
+      "tier": 3,
+      "rating": 1515
+    },
+    "137": {
+      "display": "£42, £105 and £63",
+      "accept": ["42", "105", "63"],
+      "tier": 3,
+      "rating": 1523
+    },
+    "138": {
+      "display": "33 and 24",
+      "accept": ["33", "24"],
+      "tier": 3,
+      "rating": 1530
+    },
+    "139": {
+      "display": "£180",
+      "accept": ["180", "£180"],
+      "tier": 3,
+      "rating": 1538
+    },
+    "140": {
+      "display": "Sometimes",
+      "accept": ["sometimes"],
+      "contains": ["sometimes", "half"],
+      "tier": 3,
+      "rating": 1545
+    },
+    "141": {
+      "display": "2 litres squash, 10 litres water",
+      "accept": ["2", "10"],
+      "tier": 3,
+      "rating": 1553
+    },
+    "142": {
+      "display": "£140",
+      "accept": ["140", "£140"],
+      "tier": 3,
+      "rating": 1560
+    },
+    "143": {
+      "display": "£28 and £35",
+      "accept": ["28", "35"],
+      "tier": 3,
+      "rating": 1568
+    },
+    "144": {
+      "display": "£120",
+      "accept": ["120", "£120"],
+      "tier": 3,
+      "rating": 1575
+    },
+    "145": {
+      "display": "16 cm and 40 cm",
+      "accept": ["16", "40"],
+      "tier": 3,
+      "rating": 1583
+    },
+    "146": {
+      "display": "1/2",
+      "accept": ["1/2", "0.5", "half"],
+      "tier": 3,
+      "rating": 1590
+    },
+    "147": {
+      "display": "Yes",
+      "accept": ["yes", "true"],
+      "contains": ["yes", "2", "3"],
+      "tier": 3,
+      "rating": 1598
+    },
+    "148": {
+      "display": "20 teas, 45 coffees",
+      "accept": ["20", "45"],
+      "tier": 3,
+      "rating": 1605
+    },
+    "149": {
+      "display": "£275 and £225",
+      "accept": ["275", "225"],
+      "tier": 3,
+      "rating": 1613
+    },
+    "150": {
+      "display": "30 cm",
+      "accept": ["30", "30 cm"],
+      "tier": 3,
+      "rating": 1620
+    },
+    "151": {
+      "display": "18 and 63",
+      "accept": ["18", "63"],
+      "tier": 3,
+      "rating": 1628
+    },
+    "152": {
+      "display": "112",
+      "accept": ["112"],
+      "tier": 3,
+      "rating": 1635
+    },
+    "153": {
+      "display": "True",
+      "accept": ["true", "yes"],
+      "contains": ["true", "equal", "18.5"],
+      "tier": 3,
+      "rating": 1643
+    },
+    "154": {
+      "display": "Sports £1500, total £3300",
+      "accept": ["1500", "3300"],
+      "tier": 3,
+      "rating": 1650
+    },
+    "155": {
+      "display": "5",
+      "accept": ["5"],
+      "tier": 3,
+      "rating": 1658
+    },
+    "156": {
+      "display": "£288, £360 and £432",
+      "accept": ["288", "360", "432"],
+      "tier": 3,
+      "rating": 1665
+    },
+    "157": {
+      "display": "20 and 30",
+      "accept": ["20", "30"],
+      "tier": 3,
+      "rating": 1673
+    },
+    "158": {
+      "display": "£210",
+      "accept": ["210", "£210"],
+      "tier": 3,
+      "rating": 1680
+    },
+    "159": {
+      "display": "£480",
+      "accept": ["480", "£480"],
+      "tier": 3,
+      "rating": 1688
+    },
+    "160": {
+      "display": "30°, 60° and 90°",
+      "accept": ["30", "60", "90"],
+      "tier": 3,
+      "rating": 1695
+    },
+    "161": {
+      "display": "16 km",
+      "accept": ["16", "16 km"],
+      "tier": 3,
+      "rating": 1703
+    },
+    "162": {
+      "display": "£175",
+      "accept": ["175", "£175"],
+      "tier": 3,
+      "rating": 1710
+    },
+    "163": {
+      "display": "200 g sand, 150 g cement",
+      "accept": ["200", "150"],
+      "tier": 3,
+      "rating": 1718
+    },
+    "164": {
+      "display": "28 and 16",
+      "accept": ["28", "16"],
+      "tier": 3,
+      "rating": 1725
+    },
+    "165": {
+      "display": "£330",
+      "accept": ["330", "£330"],
+      "tier": 3,
+      "rating": 1733
+    },
+    "166": {
+      "display": "Sometimes",
+      "accept": ["sometimes"],
+      "contains": ["sometimes", "divide", "parts"],
+      "tier": 3,
+      "rating": 1740
+    },
+    "167": {
+      "display": "2 : 1 : 1; £480, £240 and £240",
+      "accept": ["480", "240"],
+      "tier": 3,
+      "rating": 1748
+    },
+    "168": {
+      "display": "28 dogs",
+      "accept": ["28"],
+      "tier": 3,
+      "rating": 1755
+    },
+    "169": {
+      "display": "3/16",
+      "accept": ["3/16", "0.1875"],
+      "tier": 3,
+      "rating": 1763
+    },
+    "170": {
+      "display": "£45,000, £67,500 and £112,500",
+      "accept": ["45000", "67500", "112500"],
+      "tier": 3,
+      "rating": 1770
+    },
+    "171": {
+      "display": "Middle share (£333)",
+      "accept": ["333", "middle", "second"],
+      "tier": 3,
+      "rating": 1778
+    },
+    "172": {
+      "display": "12 cm and 28 cm",
+      "accept": ["12", "28"],
+      "tier": 3,
+      "rating": 1785
+    },
+    "173": {
+      "display": "Yes",
+      "accept": ["yes", "true"],
+      "contains": ["yes", "3", "5"],
+      "tier": 3,
+      "rating": 1793
+    },
+    "174": {
+      "display": "£600",
+      "accept": ["600", "£600"],
+      "tier": 3,
+      "rating": 1800
+    },
+    "175": {
+      "display": "64 and 72",
+      "accept": ["64", "72"],
+      "tier": 3,
+      "rating": 1808
+    },
+    "176": {
+      "display": "90 cm",
+      "accept": ["90", "90 cm"],
+      "tier": 3,
+      "rating": 1815
+    },
+    "177": {
+      "display": "£92",
+      "accept": ["92", "£92"],
+      "tier": 3,
+      "rating": 1823
+    },
+    "178": {
+      "display": "No — banana should be 120 ml; milk 200 ml, honey 20 ml",
+      "accept": ["no", "120", "200", "20"],
+      "contains": ["no", "120"],
+      "tier": 3,
+      "rating": 1830
+    },
+    "179": {
+      "display": "False",
+      "accept": ["false", "no"],
+      "contains": ["false", "same"],
+      "tier": 3,
+      "rating": 1838
+    },
+    "180": {
+      "display": "£72",
+      "accept": ["72", "£72"],
+      "tier": 3,
+      "rating": 1845
+    },
+    "181": {
+      "display": "35 : 63 (or 5 : 9)",
+      "accept": ["35:63", "5:9"],
+      "tier": 3,
+      "rating": 1853
+    },
+    "182": {
+      "display": "33 kg",
+      "accept": ["33"],
+      "tier": 3,
+      "rating": 1860
+    },
+    "183": {
+      "display": "£825, £893.75 and £1031.25",
+      "accept": ["825", "893", "1031"],
+      "tier": 3,
+      "rating": 1868
+    },
+    "184": {
+      "display": "He divided by 5 people instead of 10 parts",
+      "accept": ["10", "parts", "sum"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1875
+    },
+    "185": {
+      "display": "£84,000",
+      "accept": ["84000", "£84000"],
+      "tier": 3,
+      "rating": 1883
+    },
+    "186": {
+      "display": "28 cm by 16 cm",
+      "accept": ["28", "16"],
+      "tier": 3,
+      "rating": 1890
+    },
+    "187": {
+      "display": "£810",
+      "accept": ["810", "£810"],
+      "tier": 3,
+      "rating": 1898
+    },
+    "188": {
+      "display": "Always",
+      "accept": ["always"],
+      "contains": ["always", "parts"],
+      "tier": 3,
+      "rating": 1905
+    },
+    "189": {
+      "display": "3 : 5 : 3; £462, £770 and £462",
+      "accept": ["462", "770"],
+      "tier": 3,
+      "rating": 1913
+    },
+    "190": {
+      "display": "£12, £15 and £18",
+      "accept": ["12", "15", "18"],
+      "tier": 3,
+      "rating": 1920
+    },
+    "191": {
+      "display": "65 and 40; difference 25",
+      "accept": ["65", "40", "25"],
+      "tier": 3,
+      "rating": 1928
+    },
+    "192": {
+      "display": "72 pencils",
+      "accept": ["72"],
+      "tier": 3,
+      "rating": 1935
+    },
+    "193": {
+      "display": "Middle share (£264)",
+      "accept": ["264", "middle", "11"],
+      "tier": 3,
+      "rating": 1943
+    },
+    "194": {
+      "display": "£108",
+      "accept": ["108", "£108"],
+      "tier": 3,
+      "rating": 1950
+    },
+    "195": {
+      "display": "60, 75 and 90",
+      "accept": ["60", "75", "90"],
+      "tier": 3,
+      "rating": 1958
+    },
+    "196": {
+      "display": "£504",
+      "accept": ["504", "£504"],
+      "tier": 3,
+      "rating": 1965
+    },
+    "197": {
+      "display": "30 and 42",
+      "accept": ["30", "42"],
+      "tier": 3,
+      "rating": 1973
+    },
+    "198": {
+      "display": "£192, £288 and £360",
+      "accept": ["192", "288", "360"],
+      "tier": 3,
+      "rating": 1980
+    },
+    "199": {
+      "display": "3/5 is one share of the total; 5/3 would be more than the whole",
+      "accept": ["share", "total", "not"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1988
+    },
+    "200": {
+      "display": "A three-part ratio, a total over £100, and a clear answer line showing each share.",
+      "accept": ["ratio", "share", "total"],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

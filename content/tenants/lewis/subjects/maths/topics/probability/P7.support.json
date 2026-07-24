@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Count the results one coin can show.",
+      "help": "One coin → **2** outcomes: heads and tails.\n\nThat set is the possibility space."
+    },
+    "2": {
+      "hint": "The missing outcome has tail first, then head.",
+      "help": "Complete list: HH, HT, TH, **TT**.\n\nFour outcomes for two coins."
+    },
+    "3": {
+      "hint": "The spinner lands on red or blue only.",
+      "help": "The **possibility space** is the full list of results that can happen.\n\nThis spinner only shows red or blue, so the space is **{red, blue}** — **2** outcomes."
+    },
+    "4": {
+      "hint": "Multiply: 2 coin outcomes × 2 spinner numbers.",
+      "help": "Combined outcomes = $2 \\times 2 = 4$.\n\nCoin and spinner are independent."
+    },
+    "5": {
+      "hint": "List H1, H2, T1, T2.",
+      "help": "Combine each coin result with each spinner number.\n\nWrite all four outcomes: **H1, H2, T1, T2**.\n\nEach pair is one cell in a 2×2 possibility grid."
+    },
+    "6": {
+      "hint": "Both heads means the outcome HH.",
+      "help": "Outcome **HH** means first coin heads and second coin heads.\n\nAnswer **HH**."
+    },
+    "7": {
+      "hint": "Exactly one head means HT or TH — not HH or TT.",
+      "help": "Outcomes with exactly one head: **HT** and **TH**.\n\nTwo outcomes."
+    },
+    "8": {
+      "hint": "Cells in a 2 by 3 grid — multiply rows by columns.",
+      "help": "Cells = $2 \\times 3 = 6$.\n\nEach cell is one combined outcome in a grid."
+    },
+    "9": {
+      "hint": "A standard dice has six faces.",
+      "help": "One fair dice roll has six equally likely faces.\n\nThe possibility space is {1, 2, 3, 4, 5, 6}, so there are **6** outcomes in total."
+    },
+    "10": {
+      "hint": "Two coins → four ordered outcomes.",
+      "help": "Flip one coin, then the other — order matters.\n\nThe four outcomes **HH, HT, TH, TT** fill the possibility space.\n\nEach has probability $\\frac{1}{4}$ on fair coins."
+    },
+    "11": {
+      "hint": "Same as Q4: coin × spinner with 2 numbers.",
+      "help": "Multiply the number of coin outcomes by spinner numbers: $2 \\times 2 = 4$.\n\nYou can draw a grid with 2 rows and 2 columns — **4** cells in the combined space."
+    },
+    "12": {
+      "hint": "The list needs the outcome with two tails.",
+      "help": "Missing outcome: **HH** if you have TT, TH, HT — complete to four outcomes.\n\nFull list: TT, TH, HT, **HH**."
+    },
+    "13": {
+      "hint": "Two dice give 6×6 cells — each cell is one pair, not one total.",
+      "help": "Sample space for two dice has **36** ordered pairs (1,1) through (6,6).\n\nA diagram can show **totals** in cells, but there are still 36 equally likely pairs."
+    },
+    "14": {
+      "hint": "On a total grid, count cells where dice add to 8.",
+      "help": "Pairs giving 8: (2,6), (3,5), (4,4), (5,3), (6,2) → **5** outcomes out of 36.\n\nCount on your diagram."
+    },
+    "15": {
+      "hint": "Total 12 only from double six.",
+      "help": "Only (6,6) gives total 12 → **1** way.\n\nP(total 12) = $\\frac{1}{36}$."
+    },
+    "16": {
+      "hint": "Draw rows for coin H,T and columns for dice 1–4.",
+      "help": "Possibility space has $2 \\times 4 = 8$ outcomes.\n\nDescribe grid or list H1…H4, T1…T4."
+    },
+    "17": {
+      "hint": "Count cells with heads and an even dice (2 or 4).",
+      "help": "Even on 4-sided dice: 2 and 4.\n\nFavourable: H2, H4 → **2** out of 8.\n\nP = $\\frac{2}{8} = \\frac{1}{4}$."
+    },
+    "18": {
+      "hint": "Write all four two-coin outcomes.",
+      "help": "Two fair coins give four ordered outcomes.\n\nList every one: **HH, HT, TH, TT** — that is the complete possibility space before you find any probability."
+    },
+    "19": {
+      "hint": "Exactly one head is HT or TH — 2 out of 4.",
+      "help": "Exactly one head means **HT** or **TH**, not HH or TT.\n\nTwo favourable outcomes out of four in the space.\n\nP(exactly one head) = $\\frac{2}{4} = \\frac{1}{2}$."
+    },
+    "20": {
+      "hint": "Spinner spun twice: 3 × 3 outcomes.",
+      "help": "First spin has 3 outcomes; second spin has 3 — multiply for combined trials.\n\nPossibility space size = $3 \\times 3 = 9$ ordered pairs like (1,1), (1,2), … (3,3)."
+    },
+    "21": {
+      "hint": "Same number both spins: (1,1), (2,2), (3,3).",
+      "help": "Three matching pairs out of 9.\n\nP = $\\frac{3}{9} = \\frac{1}{3}$."
+    },
+    "22": {
+      "hint": "Doubles on two dice: (1,1) through (6,6) — six pairs.",
+      "help": "Same number on both dice: 6 ways out of 36.\n\nP = $\\frac{6}{36} = \\frac{1}{6}$."
+    },
+    "23": {
+      "hint": "Count pairs with even total on the 36-cell grid.",
+      "help": "Half of totals are even → **18** out of 36.\n\nP(even total) = $\\frac{18}{36} = \\frac{1}{2}$."
+    },
+    "24": {
+      "hint": "Find the cell for 6 on dice and tail on coin.",
+      "help": "One favourable cell out of 12 (6 faces × 2 coin results).\n\nP(6 and tail) = $\\frac{1}{12}$."
+    },
+    "25": {
+      "hint": "Did Archer forget that (2,3) and (3,2) are different outcomes?",
+      "help": "Likely counted **unordered** pairs or totals only → 21 instead of **36**.\n\nExplain ordered pairs (a,b) with both dice."
+    },
+    "26": {
+      "hint": "A grid shows every pair at a glance — good for counting favourites.",
+      "help": "Rows and columns list all combinations; you **count cells** matching your event.\n\nExplain why grids help for two events."
+    },
+    "27": {
+      "hint": "Each of 36 cells is one equally likely ordered pair on fair dice.",
+      "help": "Say **true** — each pair like (3,5) has probability $\\frac{1}{36}$ on fair dice.\n\nExplain equal likelihood."
+    },
+    "28": {
+      "hint": "Count ways for total 7 vs total 2 on the grid.",
+      "help": "Sloan is **wrong**.\n\nTotal 7: **6** ways. Total 2: **1** way.\n\nP(7) > P(2)."
+    },
+    "29": {
+      "hint": "Middle totals have more lines on the diagonal grid than corners.",
+      "help": "7 is near the middle of the total range → **more** pairs add to 7 than to 12.\n\nUse the grid counts."
+    },
+    "30": {
+      "hint": "Three coins: multiply 2×2×2, not 3×2.",
+      "help": "Priya is **wrong**.\n\nCorrect total = $2^3 = 8$ outcomes (HHH, HHT, … TTT).\n\nExplain multiplication."
+    },
+    "31": {
+      "hint": "Grid shows structure; plain list is fine but easier to miss a pair.",
+      "help": "Grid aligns first event on rows, second on columns.\n\nEasier to **see patterns** and count.\n\nCompare to a long list."
+    },
+    "32": {
+      "hint": "Build 6×6 multiplication grid; count products greater than 20.",
+      "help": "List products of scores 1–6; count cells with product **> 20**.\n\nDivide favourable by 36 for probability."
+    },
+    "33": {
+      "hint": "Odd spinner numbers are 1,3,5 — cross with heads row.",
+      "help": "Draw 5×2 grid (spinner × coin).\n\nCount odd+heads cells; divide by 10 total outcomes."
+    },
+    "34": {
+      "hint": "4×4 grid of totals 2–8; count totals ≥ 6.",
+      "help": "List all sums from two 4-sided dice.\n\nCount cells with total at least 6; divide by 16."
+    },
+    "35": {
+      "hint": "Find the single cell (B, 2) in a 3×2 grid.",
+      "help": "Grid 3 letters × 2 numbers = 6 outcomes.\n\nP(B and 2) = $\\frac{1}{6}$."
+    },
+    "36": {
+      "hint": "Difference 0 means doubles — same number on both dice.",
+      "help": "Difference 0 when both show same face: 6 pairs out of 36.\n\nP = $\\frac{6}{36} = \\frac{1}{6}$."
+    },
+    "37": {
+      "hint": "List 8 outcomes for three flips; count with exactly two H.",
+      "help": "Outcomes with exactly 2 heads: HHT, HTH, THH — **3** out of 8.\n\nP = $\\frac{3}{8}$."
+    },
+    "38": {
+      "hint": "Easier to count no six: both dice not six, then complement.",
+      "help": "P(at least one 6) = 1 − P(no six on either).\n\nP(no six) = $\\frac{5}{6} \\times \\frac{5}{6}$ on fair dice.\n\nOr count 11 favourable cells out of 36."
+    },
+    "39": {
+      "hint": "Three dice need a 6×6×6 cube of outcomes — hard to draw flat.",
+      "help": "Extend grid by adding a third dimension or use systematic lists/trees.\n\nExplain why 216 outcomes are hard on one simple 2D grid."
+    },
+    "40": {
+      "hint": "Biased dice makes some cells more likely than others.",
+      "help": "Cells are **not** all equally likely when the dice is biased.\n\nP(6,6) is bigger than P(1,1) if 6 is favoured.\n\nExplain unequal cell probabilities."
+    },
+    "41": {
+      "hint": "Count outcomes per total 2–12 — middle totals have highest counts.",
+      "help": "Counts rise toward 7 then fall — **triangular** pattern.\n\nExplain using counts from the total table."
+    },
+    "42": {
+      "hint": "Pick two spinners, draw grid, pick one cell probability.",
+      "help": "Design spinners with stated sections.\n\nDraw grid, choose one outcome, show P = favourable ÷ total equally likely cells (if fair)."
+    },
+    "43": {
+      "hint": "Multiply the number of coin outcomes by the number of dice outcomes.",
+      "help": "Each coin result can pair with each dice result.\n\nCoin (2) × dice (2) = 4 combined outcomes.\n\nUse a grid with 2 rows and 2 columns."
+    },
+    "44": {
+      "hint": "Multiply the number of coin outcomes by the number of dice outcomes.",
+      "help": "Each coin result can pair with each dice result.\n\nCoin (2) × dice (3) = 6 combined outcomes.\n\nUse a grid with 2 rows and 3 columns."
+    },
+    "45": {
+      "hint": "Count totals 11 and 12 on the dice grid.",
+      "help": "Totals above 10 are 11 and 12.\n\nCount cells: 2 + 1 = 6 favourable out of 36.\n\nP = $\\frac{6}{36} = \\frac{1}{6}$."
+    },
+    "46": {
+      "hint": "Totals 2, 3, and 4 sit at the low end of the grid.",
+      "help": "Add the counts for totals 2, 3, and 4.\n\nYou get 1 + 2 + 3 = 6 cells out of 36.\n\nP = $\\frac{1}{6}$."
+    },
+    "47": {
+      "hint": "Both dice must land on 2, 4, or 6.",
+      "help": "Each die has three even faces.\n\nMultiply: $3 \\times 3 = 9$ even–even pairs.\n\nP = $\\frac{9}{36} = \\frac{1}{4}$."
+    },
+    "48": {
+      "hint": "Both dice must land on 1, 3, or 5.",
+      "help": "Three odd faces on each die gives $3 \\times 3 = 9$ pairs.\n\nDivide by 36 total cells."
+    },
+    "49": {
+      "hint": "Count cells with exactly one six — not zero and not two sixes.",
+      "help": "One six: five pairs with six on the first die only, plus five with six on the second only.\n\n10 out of 36 → $\\frac{5}{18}$."
+    },
+    "50": {
+      "hint": "Neither die may show 1 — use five faces on each.",
+      "help": "If 1 is forbidden on both dice, each has five outcomes.\n\n$5 \\times 5 = 25$ favourable cells out of 36."
+    },
+    "51": {
+      "hint": "Totals 4, 8, and 12 are multiples of 4.",
+      "help": "Count grid cells whose totals are 4, 8, or 12.\n\nYou should find 9 cells.\n\nP = $\\frac{9}{36} = \\frac{1}{4}$."
+    },
+    "52": {
+      "hint": "List pairs whose product is 12.",
+      "help": "Try factor pairs of 12 using dice scores 1–6.\n\nThere are four ordered pairs: (2,6), (3,4), (4,3), (6,2)."
+    },
+    "53": {
+      "hint": "Only very large products beat 30 on a 6×6 grid.",
+      "help": "Check high scores — only (6,6) gives 36, which is greater than 30.\n\nOne cell out of 36."
+    },
+    "54": {
+      "hint": "Difference 3 means scores like 1 and 4, or 2 and 5.",
+      "help": "List ordered pairs where the larger minus the smaller equals 3.\n\nSix cells → P = $\\frac{6}{36} = \\frac{1}{6}$."
+    },
+    "55": {
+      "hint": "Use the total row for 6 on a sample-space table.",
+      "help": "Pairs that sum to 6: (1,5), (2,4), (3,3), (4,2), (5,1).\n\nFive ordered outcomes."
+    },
+    "56": {
+      "hint": "Add the counts for totals 7 and 8.",
+      "help": "Total 7 has six cells; total 8 has five.\n\n11 favourable out of 36."
+    },
+    "57": {
+      "hint": "Find the single cell where red is 5 and blue is 2.",
+      "help": "One specific ordered pair on the 36-cell grid.\n\nP = $\\frac{1}{36}$."
+    },
+    "58": {
+      "hint": "Count cells below the diagonal where the first score is higher.",
+      "help": "When the first die beats the second, you get 15 ordered pairs.\n\nP = $\\frac{15}{36} = \\frac{5}{12}$."
+    },
+    "59": {
+      "hint": "Easier: count when both dice show 1, 2, or 3 only.",
+      "help": "Complement: both low → $3 \\times 3 = 9$ cells.\n\nAt least one ≥4 → $36 - 9 = 27$ cells."
+    },
+    "60": {
+      "hint": "Prime faces are 2, 3, and 5 — look for matching doubles.",
+      "help": "Doubles (2,2), (3,3), and (5,5) are the only ways both show the same prime.\n\nThree cells out of 36."
+    },
+    "61": {
+      "hint": "Which totals from 2 to 12 are prime numbers?",
+      "help": "Prime totals are 2, 3, 5, 7, and 11.\n\nAdd their counts from the grid — 15 cells.\n\nP = $\\frac{5}{12}$."
+    },
+    "62": {
+      "hint": "One die must be 2 and the other 5, in either order.",
+      "help": "Two ordered cells: (2,5) and (5,2).\n\nP = $\\frac{2}{36} = \\frac{1}{18}$."
+    },
+    "63": {
+      "hint": "The larger score is 6 when at least one die shows 6.",
+      "help": "Same as at least one six: 11 cells on the grid.\n\nUse complements if you prefer."
+    },
+    "64": {
+      "hint": "The smaller score is 1 when at least one die shows 1.",
+      "help": "Count cells with a 1 on the first or second die (11 cells).\n\nSame idea as at least one six."
+    },
+    "65": {
+      "hint": "Pairs adding to 9 include (3,6) and (4,5).",
+      "help": "List every ordered pair with total 9.\n\nYou should find four cells."
+    },
+    "66": {
+      "hint": "Doubles lie on the main diagonal of the dice grid.",
+      "help": "Six matching pairs from (1,1) to (6,6).\n\nP = $\\frac{6}{36} = \\frac{1}{6}$."
+    },
+    "67": {
+      "hint": "Difference 5 means 1 with 6, in either order.",
+      "help": "Only (1,6) and (6,1) give difference 5.\n\nTwo cells out of 36."
+    },
+    "68": {
+      "hint": "Each die may show 3, 4, 5, or 6 only.",
+      "help": "Four choices per die → $4 \\times 4 = 16$ cells.\n\nP = $\\frac{16}{36} = \\frac{4}{9}$."
+    },
+    "69": {
+      "hint": "Both dice must show 1 or 2.",
+      "help": "Only $2 \\times 2 = 4$ cells use scores 1 or 2 on both dice.\n\nP = $\\frac{4}{36} = \\frac{1}{9}$."
+    },
+    "70": {
+      "hint": "Does the first die’s score matter separately from the second?",
+      "help": "Ordered pairs treat (3,4) and (4,3) as different cells.\n\nSay **false** and explain order."
+    },
+    "71": {
+      "hint": "List tail outcomes with dice 5 or 6.",
+      "help": "T5 and T6 are the only tail cells above 4.\n\nCount **2** outcomes."
+    },
+    "72": {
+      "hint": "Prime dice scores are 2, 3, and 5 — pair with heads.",
+      "help": "Heads with 2, 3, or 5 gives three cells in a 12-cell grid.\n\nP = $\\frac{3}{12} = \\frac{1}{4}$."
+    },
+    "73": {
+      "hint": "Multiples of 3 on a dice are 3 and 6.",
+      "help": "Tails with 3 or 6 → two cells out of 12.\n\nP = $\\frac{1}{6}$."
+    },
+    "74": {
+      "hint": "Heads with 1 or 4 on a four-sided dice.",
+      "help": "Two favourable cells in an 8-cell grid.\n\nP = $\\frac{2}{8} = \\frac{1}{4}$."
+    },
+    "75": {
+      "hint": "The list ends with the last tail outcome on a four-sided dice.",
+      "help": "After T3 comes **T4**.\n\nEight outcomes total: H1–H4 and T1–T4."
+    },
+    "76": {
+      "hint": "Odd dice scores are 1, 3, and 5 with heads.",
+      "help": "Three head cells with odd numbers in a 12-cell coin-and-dice grid.\n\nP = $\\frac{1}{4}$."
+    },
+    "77": {
+      "hint": "Tails with anything except 6 on the dice.",
+      "help": "Five tail cells (dice 1–5) out of 12.\n\nP = $\\frac{5}{12}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "78": {
+      "hint": "Heads with dice 1 or 2 only.",
+      "help": "Two cells: H1 and H2.\n\nP = $\\frac{2}{12} = \\frac{1}{6}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "79": {
+      "hint": "Multiply coin outcomes by spinner numbers.",
+      "help": "Coin (2) × spinner (3) = **6** combined outcomes.\n\nDraw a 2×3 grid to see them."
+    },
+    "80": {
+      "hint": "One cell is heads with spinner 2.",
+      "help": "One favourable cell in six.\n\nP = $\\frac{1}{6}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "81": {
+      "hint": "Odd spinner numbers are 1, 3, and 5 with tails.",
+      "help": "Three tail cells out of ten in a 5×2 grid.\n\nP = $\\frac{3}{10}$."
+    },
+    "82": {
+      "hint": "Heads with spinner 4 or 5.",
+      "help": "Two cells out of ten.\n\nP = $\\frac{2}{10} = \\frac{1}{5}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "83": {
+      "hint": "Multiply 3 colours by 3 numbers.",
+      "help": "Spinner A (3) × spinner B (3) = **9** grid cells.\n\nEach cell is one combined outcome."
+    },
+    "84": {
+      "hint": "R with odd numbers 1 or 3 on spinner B.",
+      "help": "Two cells out of nine.\n\nP = $\\frac{2}{9}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "85": {
+      "hint": "G pairs only with even number 2 on spinner B.",
+      "help": "One cell: G with 2.\n\nP = $\\frac{1}{9}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "86": {
+      "hint": "N1 and N2 are the outcomes starting with N.",
+      "help": "Two outcomes begin with letter N.\n\nAnswer **2**. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "87": {
+      "hint": "A with even digits 2 or 4.",
+      "help": "Two cells in an 8-outcome grid.\n\nP = $\\frac{2}{8} = \\frac{1}{4}$."
+    },
+    "88": {
+      "hint": "Same letter both spins means XX and YY.",
+      "help": "Matching spins: **XX** and **YY**.\n\nTwo outcomes when spinning X and Y twice."
+    },
+    "89": {
+      "hint": "Subtract matching pairs from 16.",
+      "help": "Four doubles out of 16 ordered pairs.\n\nDifferent numbers → 12 cells → $\\frac{3}{4}$."
+    },
+    "90": {
+      "hint": "One cell is red ball with tails.",
+      "help": "Four ball-and-coin outcomes; one is red with tails.\n\nP = $\\frac{1}{4}$."
+    },
+    "91": {
+      "hint": "Two flavours × two containers.",
+      "help": "Multiply 2 × 2 = **4** combined choices.\n\nList them as a small grid."
+    },
+    "92": {
+      "hint": "Find the chocolate-and-cone cell.",
+      "help": "One of four equally likely outcomes.\n\nP = $\\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "93": {
+      "hint": "Two times of day × two transport choices.",
+      "help": "2 × 2 = **4** outcomes.\n\nDraw a 2×2 possibility grid. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "94": {
+      "hint": "Locate afternoon with walk on your grid.",
+      "help": "One cell out of four.\n\nP = $\\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "95": {
+      "hint": "Find the single C-and-1 cell on a 3×2 grid.",
+      "help": "Six outcomes total.\n\nP(C and 1) = $\\frac{1}{6}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "96": {
+      "hint": "First spinner 1 and second spinner 3 is one cell.",
+      "help": "One favourable cell in a 3×3 grid.\n\nP = $\\frac{1}{9}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "97": {
+      "hint": "Digit 2 appears with P, Q, and R.",
+      "help": "P2, Q2, and R2 — **three** outcomes include digit 2. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "98": {
+      "hint": "Which outcome shows letter Q and digit 2 together?",
+      "help": "Only **Q2** matches both conditions.\n\nList that single outcome."
+    },
+    "99": {
+      "hint": "Each of three coins doubles the list length.",
+      "help": "$2 \\times 2 \\times 2 = 8$ outcomes.\n\nSystematic lists HHH through TTT help."
+    },
+    "100": {
+      "hint": "Exactly one tail means exactly two heads.",
+      "help": "Outcomes HHT, HTH, THH — three of eight.\n\nP = $\\frac{3}{8}$."
+    },
+    "101": {
+      "hint": "All heads or all tails.",
+      "help": "HHH and TTT — two of eight.\n\nP = $\\frac{2}{8} = \\frac{1}{4}$."
+    },
+    "102": {
+      "hint": "At least two heads means two or three heads.",
+      "help": "Four outcomes: HHH, HHT, HTH, THH.\n\nP = $\\frac{4}{8} = \\frac{1}{2}$."
+    },
+    "103": {
+      "hint": "Exactly two tails means one head.",
+      "help": "HTT, THT, TTH — **three** outcomes. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "104": {
+      "hint": "First flip tails but not all tails.",
+      "help": "THT and THH work — two of eight.\n\nP = $\\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "105": {
+      "hint": "Four coins multiply to sixteen outcomes.",
+      "help": "$2^4 = 16$.\n\nUse a tree with four branches. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "106": {
+      "hint": "Choose two positions for heads among four flips.",
+      "help": "Six patterns with exactly two heads.\n\nP = $\\frac{6}{16} = \\frac{3}{8}$."
+    },
+    "107": {
+      "hint": "Only all-heads avoids tails.",
+      "help": "P(at least one tail) = 1 − P(all heads) = 1 − $\\frac{1}{16}$."
+    },
+    "108": {
+      "hint": "Two coins (4) times six dice scores.",
+      "help": "4 × 6 = **24** combined outcomes.\n\nExtend a coin grid with six dice columns."
+    },
+    "109": {
+      "hint": "HH pairs with even dice 2, 4, or 6.",
+      "help": "Three cells out of 24.\n\nP = $\\frac{3}{24} = \\frac{1}{8}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "110": {
+      "hint": "At least one tail on coins and dice shows 5.",
+      "help": "Three coin patterns with a tail (HT, TH, TT) each with dice 5.\n\n3 out of 24."
+    },
+    "111": {
+      "hint": "Four-sided dice give 4×4 cells.",
+      "help": "16 ordered pairs.\n\nDraw a 4×4 total or score grid. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "112": {
+      "hint": "Add counts for totals 2, 3, and 4.",
+      "help": "Six cells have total at most 4.\n\nP = $\\frac{6}{16} = \\frac{3}{8}$."
+    },
+    "113": {
+      "hint": "Totals 7 and 8 are the high totals on four-sided dice.",
+      "help": "Three cells reach 7 or 8.\n\nP = $\\frac{3}{16}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "114": {
+      "hint": "Doubles on four faces: (1,1) through (4,4).",
+      "help": "Four matching pairs out of 16.\n\nP = $\\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "115": {
+      "hint": "Product 16 needs 4×4.",
+      "help": "Only (4,4) works.\n\nP = $\\frac{1}{16}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "116": {
+      "hint": "Half of totals on two four-sided dice are even.",
+      "help": "Eight even totals out of sixteen cells.\n\nP = $\\frac{1}{2}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "117": {
+      "hint": "One cell: tails with dice 3.",
+      "help": "Eight cells total.\n\nP = $\\frac{1}{8}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "118": {
+      "hint": "List pairs summing to 5.",
+      "help": "Four ordered pairs: (1,4), (2,3), (3,2), (4,1). Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "119": {
+      "hint": "Totals 7 and 8 exceed 6 on four-sided dice.",
+      "help": "Three cells out of sixteen.\n\nP = $\\frac{3}{16}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "120": {
+      "hint": "Six dice faces × two spinner letters.",
+      "help": "6 × 2 = **12** combined outcomes.\n\nUse a 6×2 grid. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "121": {
+      "hint": "One cell has dice 3 and spinner B.",
+      "help": "Twelve cells in the dice-and-spinner grid.\n\nOne match → P = $\\frac{1}{12}$."
+    },
+    "122": {
+      "hint": "Heads with spinner section 6.",
+      "help": "One favourable cell in twelve.\n\nP = $\\frac{1}{12}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "123": {
+      "hint": "Tails with spinner 1 or 2.",
+      "help": "Two cells out of twelve.\n\nP = $\\frac{2}{12} = \\frac{1}{6}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "124": {
+      "hint": "Four coin outcomes times two colours.",
+      "help": "4 × 2 = **8** end outcomes.\n\nTree: coins first, then colour."
+    },
+    "125": {
+      "hint": "Only HH with red wins.",
+      "help": "One cell out of eight.\n\nP = $\\frac{1}{8}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "126": {
+      "hint": "Six ways to make total 7 on fair dice.",
+      "help": "Count diagonal cells on a total table — **6** ordered pairs."
+    },
+    "127": {
+      "hint": "First die 4, 5, or 6 gives half the grid.",
+      "help": "Three columns (or rows) × six partners = 18 cells.\n\nP = $\\frac{1}{2}$."
+    },
+    "128": {
+      "hint": "Second die fixed at 1 — six rows in the grid.",
+      "help": "Six cells have second score 1.\n\nP = $\\frac{6}{36} = \\frac{1}{6}$."
+    },
+    "129": {
+      "hint": "Eight coin triples times two spinner numbers.",
+      "help": "8 × 2 = **16** outcomes.\n\nExtend a three-coin list with two spinner branches."
+    },
+    "130": {
+      "hint": "Only HHH pairs with spinner 1.",
+      "help": "One cell in sixteen.\n\nP = $\\frac{1}{16}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "131": {
+      "hint": "Product 1 means 1×1 only.",
+      "help": "Single cell (1,1) on a multiplication grid.\n\nP = $\\frac{1}{36}$."
+    },
+    "132": {
+      "hint": "Odd product needs both dice odd.",
+      "help": "3×3 = 9 odd–odd cells.\n\nP = $\\frac{9}{36} = \\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "133": {
+      "hint": "Count cells where at least one score is 5.",
+      "help": "Complement: no fives → 5×5 = 25 cells.\n\n11 cells include a five."
+    },
+    "134": {
+      "hint": "Card 2 with even dice 2, 4, or 6.",
+      "help": "Three cells in a 12-outcome space.\n\nP = $\\frac{3}{12} = \\frac{1}{4}$."
+    },
+    "135": {
+      "hint": "Five weekdays × three transport options.",
+      "help": "5 × 3 = **15** combined outcomes.\n\nDraw a 5×3 grid. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "136": {
+      "hint": "One cell is Wednesday with bus.",
+      "help": "One of fifteen equally likely outcomes.\n\nP = $\\frac{1}{15}$."
+    },
+    "137": {
+      "hint": "More cells can spread probability thinner.",
+      "help": "Say **false** — bigger spaces do not make every event more likely.\n\nExplain with an example."
+    },
+    "138": {
+      "hint": "Spinner spun twice: 3×3 outcomes.",
+      "help": "Even-only spinner still gives $3 \\times 3 = 9$ ordered pairs."
+    },
+    "139": {
+      "hint": "Every face is even, so every result is even.",
+      "help": "All nine outcomes are even.\n\nP = **1**. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "140": {
+      "hint": "Three digits × two letters.",
+      "help": "3 × 2 = **6** grid cells.\n\nList D1, D2, … with letters A and B."
+    },
+    "141": {
+      "hint": "One cell is digit 1 with letter B.",
+      "help": "One favourable cell in six.\n\nP = $\\frac{1}{6}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "142": {
+      "hint": "Even totals above 8 are 10 and 12.",
+      "help": "Count cells for totals 10 and 12.\n\nFour cells → P = $\\frac{4}{36} = \\frac{1}{9}$."
+    },
+    "143": {
+      "hint": "Spinner (3) × two coins (4).",
+      "help": "3 × 4 = **12** outcomes.\n\nBuild a tree or grid. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "144": {
+      "hint": "Spinner 2 with exactly one head on two coins.",
+      "help": "Spinner 2 with HT or TH → two of twelve cells.\n\nP = $\\frac{1}{6}$."
+    },
+    "145": {
+      "hint": "Coin splits each branch of two four-sided dice.",
+      "help": "2 × 4 × 4 = **32** end branches on the tree. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "146": {
+      "hint": "Heads with only (4,4) on two four-sided dice.",
+      "help": "One cell out of 32.\n\nP = $\\frac{1}{32}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "147": {
+      "hint": "Fair dice → 36 equally likely ordered pairs.",
+      "help": "Say **true**.\n\nEach cell has probability $\\frac{1}{36}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "148": {
+      "hint": "Compare HH, HT, TH, TT for both statements.",
+      "help": "Three outcomes have at least one head and three have at most one tail.\n\nSame set → **true**."
+    },
+    "149": {
+      "hint": "21 is 15 short of 36 — think about order.",
+      "help": "Explain treating (2,3) and (3,2) as one outcome.\n\nOrdered pairs fix the count."
+    },
+    "150": {
+      "hint": "Fair spinners → multiply sections.",
+      "help": "3 × 3 = 9 equal cells → **always** when both spinners are fair."
+    },
+    "151": {
+      "hint": "Two dice are rolled one after another.",
+      "help": "Order matters for distinct dice.\n\n(2,3) and (3,2) are different cells."
+    },
+    "152": {
+      "hint": "Complements work on dice with more than two faces.",
+      "help": "Example: P(not 6) = 1 − P(6) on one fair dice.\n\nStatement is **false**."
+    },
+    "153": {
+      "hint": "Total 7 on dice is not independent of the coin.",
+      "help": "Build a combined grid — do not multiply $\\frac{1}{2}$ and $\\frac{1}{6}$ blindly."
+    },
+    "154": {
+      "hint": "Trees and grids list the same combined outcomes.",
+      "help": "Say **true** when every branch matches a cell exactly once. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "155": {
+      "hint": "Three coins → multiply three twos.",
+      "help": "$2^3 = 8$ outcomes is the full list length. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "156": {
+      "hint": "Equal cells → fraction = favourites ÷ total.",
+      "help": "Explain counting favourable cells on a fair grid.\n\nProbability = $\\frac{\\text{favourable}}{\\text{total}}$."
+    },
+    "157": {
+      "hint": "Space size is product of stage sizes.",
+      "help": "Doubling one spinner’s sections doubles the product.\n\nSay **true**."
+    },
+    "158": {
+      "hint": "Coin times four-sided dice should be eight cells.",
+      "help": "Six cells mean a wrong multiply — likely 2×3 instead of 2×4."
+    },
+    "159": {
+      "hint": "Fair stages make every combined cell equally likely.",
+      "help": "Answer **always** when both events are fair. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "160": {
+      "hint": "Doubles sit on the diagonal of a score grid.",
+      "help": "Count (1,1)…(6,6) quickly without listing all totals. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "161": {
+      "hint": "No duplicates and no missing results.",
+      "help": "Say **true** — each outcome appears once in a sample space. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "162": {
+      "hint": "Multiply outcomes at each tree stage.",
+      "help": "5 × 4 = **20** end branches.\n\nExplain the tree rule. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "163": {
+      "hint": "Try product 6 with scores 2 and 3.",
+      "help": "Even product does not require both dice even.\n\nStatement is **false**."
+    },
+    "164": {
+      "hint": "Swapping labels does not change counts.",
+      "help": "Same cells, same probabilities — answer **no**. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "165": {
+      "hint": "List three-coin outcomes with two heads.",
+      "help": "HHT, HTH, THH — exactly three outcomes.\n\nSay **true**. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "166": {
+      "hint": "Totals 2 through 5 on the dice grid.",
+      "help": "Add counts for totals 2, 3, 4, and 5.\n\n10 cells → $\\frac{5}{18}$."
+    },
+    "167": {
+      "hint": "Tails with spinner 3 or 4.",
+      "help": "Two cells in an 8-cell grid.\n\nP = $\\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "168": {
+      "hint": "Product odd only when both spins odd.",
+      "help": "Both odd: 2×2 = 4 of 9 cells even product otherwise.\n\nP(even product) = $\\frac{5}{9}$."
+    },
+    "169": {
+      "hint": "More heads than tails means 2 or 3 heads.",
+      "help": "Same as at least two heads on three coins.\n\nP = $\\frac{1}{2}$."
+    },
+    "170": {
+      "hint": "Heads with double 4 on four-sided dice.",
+      "help": "One cell (H,4,4) in 32 outcomes.\n\nP = $\\frac{1}{32}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "171": {
+      "hint": "List square products on a multiplication grid.",
+      "help": "Count cells with square products like 1, 4, 9, 16, 25, 36.\n\nEight cells → $\\frac{2}{9}$."
+    },
+    "172": {
+      "hint": "Letter B with tails on a 4-cell grid.",
+      "help": "One of four outcomes.\n\nP = $\\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "173": {
+      "hint": "At least one five — complement no fives.",
+      "help": "11 cells include a five, same as one-six logic. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "174": {
+      "hint": "Spinner pairs summing to 4: (1,3) and (3,1).",
+      "help": "Two of nine ordered pairs.\n\nP = $\\frac{2}{9}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "175": {
+      "hint": "All heads or all tails on four coins.",
+      "help": "HHHH and TTTT — two of sixteen.\n\nP = $\\frac{1}{8}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "176": {
+      "hint": "One coin times two four-sided dice.",
+      "help": "2 × 4 × 4 = **32** outcomes. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "177": {
+      "hint": "Heads with four dice pairs totalling 5.",
+      "help": "Four dice pairs with total 5, each with heads → 4 of 32.\n\nP = $\\frac{1}{8}$."
+    },
+    "178": {
+      "hint": "Odd totals at least 9 are 9 and 11.",
+      "help": "Six cells out of 36.\n\nP = $\\frac{1}{6}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "179": {
+      "hint": "Green branch with tails on both coins.",
+      "help": "One of eight outcomes: green with TT.\n\nP = $\\frac{1}{8}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "180": {
+      "hint": "Count multiplication cells with product at most 6.",
+      "help": "Build a 6×6 product grid.\n\n14 cells have product ≤ 6 → $\\frac{7}{18}$."
+    },
+    "181": {
+      "hint": "Heads with spinner C or D.",
+      "help": "Cells HC and HD — two of eight.\n\nP = $\\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "182": {
+      "hint": "Difference 1 means neighbouring scores.",
+      "help": "Ten ordered pairs differ by 1.\n\nP = $\\frac{10}{36} = \\frac{5}{18}$."
+    },
+    "183": {
+      "hint": "Exclude all-heads and all-tails.",
+      "help": "Six of eight three-coin outcomes mix heads and tails.\n\nP = $\\frac{3}{4}$."
+    },
+    "184": {
+      "hint": "Not heads means tails; dice 4, 5, or 6.",
+      "help": "Three cells: T4, T5, T6.\n\nP = $\\frac{3}{12} = \\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "185": {
+      "hint": "Prime spinner numbers are 2, 3, and 5.",
+      "help": "3 × 3 = 9 prime–prime pairs out of 25.\n\nP = $\\frac{9}{25}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "186": {
+      "hint": "Add counts for totals 10 and 11.",
+      "help": "Three plus two cells = five out of 36. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "187": {
+      "hint": "Two paths × coin × four-sided dice.",
+      "help": "2 × 2 × 4 = **16** outcomes on the tree. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "188": {
+      "hint": "One end branch: left, heads, dice 2.",
+      "help": "Single branch out of sixteen.\n\nP = $\\frac{1}{16}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "189": {
+      "hint": "Both dice show 3 or 6.",
+      "help": "2 × 2 = 4 cells out of 36.\n\nP = $\\frac{1}{9}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "190": {
+      "hint": "Only one pattern matches HTH exactly.",
+      "help": "One of eight three-coin outcomes.\n\nP = $\\frac{1}{8}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "191": {
+      "hint": "Count cells with even spin OR tails.",
+      "help": "Include all tail rows plus H2 on a 6-cell grid.\n\nFour cells → $\\frac{2}{3}$."
+    },
+    "192": {
+      "hint": "Totals 3 and 4 on two four-sided dice.",
+      "help": "Two cells for 3 and three for 4.\n\nFive of sixteen. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "193": {
+      "hint": "Each ordered pair is one cell on a fair grid.",
+      "help": "Say **true** — (1,6) and (3,3) each have probability $\\frac{1}{36}$."
+    },
+    "194": {
+      "hint": "Multiply coin, 1–3 spinner, and 1–2 spinner.",
+      "help": "2 × 3 × 2 = **12** ordered outcomes. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "195": {
+      "hint": "Follow one path: H, then 2, then 1.",
+      "help": "One branch in twelve.\n\nP = $\\frac{1}{12}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "196": {
+      "hint": "Fix first die at 4 — only one partner gives total 7.",
+      "help": "Row for first die 4 has one cell with total 7.\n\nP = $\\frac{1}{6}$ within that row."
+    },
+    "197": {
+      "hint": "Count pairs where first spin is less than second.",
+      "help": "Six ordered pairs on 4×4 grid.\n\nP = $\\frac{6}{16} = \\frac{3}{8}$."
+    },
+    "198": {
+      "hint": "First coin then two more coins.",
+      "help": "2 × 4 = **8** outcomes on the tree. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "199": {
+      "hint": "First H, then exactly one head on the next two flips.",
+      "help": "H with HT or H with TH → two of eight.\n\nP = $\\frac{1}{4}$. Draw every outcome on a grid or tree before you count favourable cells."
+    },
+    "200": {
+      "hint": "Pick two stages, draw a grid, choose one cell.",
+      "help": "Design a fair two-stage experiment.\n\nShow the space and compute P = $\\frac{\\text{favourable}}{\\text{total}}$ for one outcome you name."
+    }
+  }
+}

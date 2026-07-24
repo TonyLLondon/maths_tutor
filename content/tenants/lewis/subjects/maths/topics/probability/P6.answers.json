@@ -1,0 +1,1819 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "Heads, tails",
+      "accept": [
+        "heads tails",
+        "heads and tails"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "1, 2, 3",
+      "accept": [
+        "1 2 3",
+        "1, 2, 3"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "AB, BA",
+      "accept": [
+        "ab ba",
+        "ab, ba"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "A1, A2, B1, B2",
+      "accept": [
+        "a1 a2 b1 b2",
+        "a1, a2, b1, b2"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "It helps you include every outcome once.",
+      "accept": [
+        "not miss",
+        "every outcome",
+        "all outcomes"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "AB and BA",
+      "accept": [
+        "AB, BA",
+        "AB and BA",
+        "AB BA"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 708
+    },
+    "11": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "12": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "12, 13, 21, 23, 31, 32",
+      "accept": [
+        "12 13 21 23 31 32",
+        "6 numbers"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "6 (ABC, ACB, BAC, BCA, CAB, CBA)",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "soup+pasta, soup+fish, soup+chicken, salad+pasta, salad+fish, salad+chicken (6 outcomes)",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "12, 13, 14, 21, 23, 24, 31, 32, 34, 41, 42, 43 (12 codes)",
+      "accept": [
+        "12"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 839
+    },
+    "17": {
+      "display": "43, 44, 45, 53, 54, 55 (6 numbers)",
+      "accept": [
+        "43 44 45 53 54 55",
+        "6"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "18": {
+      "display": "6 outfits (3 x 2)",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "19": {
+      "display": "6 (XYZ, XZY, YXZ, YZX, ZXY, ZYX)",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "20": {
+      "display": "H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6 (12 outcomes)",
+      "accept": [
+        "12"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 945
+    },
+    "21": {
+      "display": "111, 112, 121, 122, 211, 212, 221, 222 (8 numbers)",
+      "accept": [
+        "8"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 971
+    },
+    "22": {
+      "display": "2 x 4 = 8 sandwiches",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "23": {
+      "display": "AB, AC, AD, BC, BD, CD (6 pairs)",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1024
+    },
+    "24": {
+      "display": "56, 57, 58, 65, 67, 68, 75, 76, 78, 85, 86, 87 (12 numbers)",
+      "accept": [
+        "12"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "25": {
+      "display": "Archer missed TH — the full list is HH, HT, TH, TT, giving 4 outcomes, not 3.",
+      "accept": [
+        "th",
+        "4",
+        "four"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "26": {
+      "display": "A systematic order (e.g. listing all outcomes starting with A, then all starting with B, and so on) makes it easy to check every combination has been included exactly once.",
+      "accept": ["systematic", "every combination", "exactly once", "not missed"],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1230
+    },
+    "27": {
+      "display": "No, Sloan is incorrect — when order does not matter, there are only 3 pairs: AB, AC, BC. Six would be the answer if order mattered (AB, BA, AC, CA, BC, CB).",
+      "accept": [
+        "no",
+        "3",
+        "three"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1280
+    },
+    "28": {
+      "display": "True — for example, flipping a coin (2 outcomes) and rolling a dice (6 outcomes) gives 2 x 6 = 12 combined outcomes.",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1330
+    },
+    "29": {
+      "display": "The number 32 is missing — the full list should be 12, 13, 21, 23, 31, 32 (6 numbers).",
+      "accept": [
+        "32"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1380
+    },
+    "30": {
+      "display": "When order matters, swapping two items creates a different outcome (e.g. arranging letters AB and BA are different); when order does not matter, swapping items gives the same outcome (e.g. choosing a pair {A, B} is the same as {B, A}).",
+      "accept": ["different outcome", "same outcome", "order matters", "order does not matter"],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1430
+    },
+    "31": {
+      "display": "No, Priya is incorrect — the correct method is to multiply the options (one shirt choice for each of 4 trouser choices), giving 3 x 4 = 12 outfits.",
+      "accept": [
+        "no",
+        "12",
+        "multiply"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "32": {
+      "display": "Multiply the choices systematically for each course: 3 x 2 x 2 = 12 possible meals.",
+      "accept": [
+        "12"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "33": {
+      "display": "16 PINs (2 x 2 x 2 x 2 = 2^4)",
+      "accept": [
+        "16"
+      ],
+      "tier": 3,
+      "rating": 1670
+    },
+    "34": {
+      "display": "6 orders: Archer-Sloan-Priya, Archer-Priya-Sloan, Sloan-Archer-Priya, Sloan-Priya-Archer, Priya-Archer-Sloan, Priya-Sloan-Archer",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1720
+    },
+    "35": {
+      "display": "20 codes (5 x 4, since order matters and letters cannot repeat)",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1730
+    },
+    "36": {
+      "display": "5 x 6 = 30 combinations, matching a systematic grid/list method for a smaller version (e.g. 2 starters x 3 mains = 6, checked by listing).",
+      "accept": [
+        "30"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1737
+    },
+    "37": {
+      "display": "3 ways: 5 x 10p; 1 x 20p + 3 x 10p; 2 x 20p + 1 x 10p",
+      "accept": [
+        "3",
+        "three ways"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1744
+    },
+    "38": {
+      "display": "RB, RG, RY, BG, BY, GY (6 pairs)",
+      "accept": [
+        "6"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "39": {
+      "display": "A sensible systematic strategy, e.g. first counting outcomes where all three dice match, then outcomes where exactly two match, using smaller grids or grouped counting rather than listing all 216 outcomes.",
+      "accept": ["systematic", "all three match", "exactly two match", "grouped counting", "216"],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1860
+    },
+    "40": {
+      "display": "Total meals = s x m x d — this works because for each of the s starter choices, there are m main choices, and for each starter-main combination there are d dessert choices, systematically multiplying the options at each stage.",
+      "accept": [
+        "s x m x d",
+        "smd"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "41": {
+      "display": "A systematic list ensures every possible outcome is counted exactly once — for example, listing outcomes for two dice without a system might accidentally miss (1,2) or double-count (2,1) and (1,2) as the same, leading to a wrong probability.",
+      "accept": ["every outcome", "exactly once", "miss", "double-count", "systematic"],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1953
+    },
+    "42": {
+      "display": "24 ways (4! = 4 x 3 x 2 x 1)",
+      "accept": [
+        "24"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "45": {
+      "display": "9 meals (3 sides × 3 mains)",
+      "accept": [
+        "9",
+        "nine"
+      ],
+      "tier": 2,
+      "rating": 1250,
+      "contains": true
+    },
+    "46": {
+      "display": "6 codes (3 digits × 2 letters)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1255,
+      "contains": true
+    },
+    "47": {
+      "display": "4 outcomes: HH, HT, TH, TT",
+      "accept": [
+        "4",
+        "hh ht th tt"
+      ],
+      "tier": 2,
+      "rating": 1260,
+      "contains": true
+    },
+    "48": {
+      "display": "6 outcomes (3 colours × 2 coin results)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1265,
+      "contains": true
+    },
+    "49": {
+      "display": "4 routes: School-bus, School-walk, Library-bus, Library-walk",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1269,
+      "contains": true
+    },
+    "50": {
+      "display": "4 strings: MM, MN, NM, NN",
+      "accept": [
+        "4",
+        "mm mn nm nn"
+      ],
+      "tier": 2,
+      "rating": 1274,
+      "contains": true
+    },
+    "51": {
+      "display": "6 trays (2 fruits × 3 yogurts)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1279,
+      "contains": true
+    },
+    "52": {
+      "display": "7 codes (111 not allowed)",
+      "accept": [
+        "7"
+      ],
+      "tier": 2,
+      "rating": 1284,
+      "contains": true
+    },
+    "53": {
+      "display": "4 routes: ABD, ABE, ACD, ACF",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1289,
+      "contains": true
+    },
+    "54": {
+      "display": "44, 45, 54, 55 (4 numbers)",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1294,
+      "contains": true
+    },
+    "55": {
+      "display": "6 deals (2 soups × 3 rolls)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1298,
+      "contains": true
+    },
+    "56": {
+      "display": "6 passwords (2 × 3)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1303,
+      "contains": true
+    },
+    "57": {
+      "display": "4 ordered pairs: (1,1), (1,2), (2,1), (2,2)",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1308,
+      "contains": true
+    },
+    "58": {
+      "display": "6 badges (3 shapes × 2 metals)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1313,
+      "contains": true
+    },
+    "59": {
+      "display": "8 paths (2³ three-step R/U strings)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1318,
+      "contains": true
+    },
+    "60": {
+      "display": "4 orders (2 flavours × 2 sizes)",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1323,
+      "contains": true
+    },
+    "61": {
+      "display": "6 kits (2 × 3)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1327,
+      "contains": true
+    },
+    "62": {
+      "display": "4 outcomes (2 coin × 2 spin)",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1332,
+      "contains": true
+    },
+    "63": {
+      "display": "6 arrangements of P, Q, R",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1337,
+      "contains": true
+    },
+    "64": {
+      "display": "6 combos (3 drinks × 2 snacks)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1342,
+      "contains": true
+    },
+    "65": {
+      "display": "6 extensions (3 × 2 different digits)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1347,
+      "contains": true
+    },
+    "66": {
+      "display": "9 ordered pairs (3 × 3 dice rolls)",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1352,
+      "contains": true
+    },
+    "67": {
+      "display": "2 routes: Start-North-Finish, Start-East-Finish",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1356,
+      "contains": true
+    },
+    "68": {
+      "display": "8 codes (4 letters × 2 digits)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1361,
+      "contains": true
+    },
+    "69": {
+      "display": "12 outfits (2 × 3 × 2) listed by jacket then scarf–hat pairs",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1366,
+      "contains": true
+    },
+    "70": {
+      "display": "Missing outcome T2 (full list H1, H2, T1, T2)",
+      "accept": [
+        "t2"
+      ],
+      "tier": 2,
+      "rating": 1371,
+      "contains": true
+    },
+    "71": {
+      "display": "2 routes: Depot-Annex-City, Depot-Bay-City",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1376,
+      "contains": true
+    },
+    "72": {
+      "display": "Missing outcome (2, 2)",
+      "accept": [
+        "2,2",
+        "(2,2)"
+      ],
+      "tier": 2,
+      "rating": 1381,
+      "contains": true
+    },
+    "73": {
+      "display": "6 codes: EF, EG, FE, FG, GE, GF",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1385,
+      "contains": true
+    },
+    "74": {
+      "display": "6 trays (2 mains × 3 sides)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1390,
+      "contains": true
+    },
+    "75": {
+      "display": "6 codes: 23, 24, 32, 34, 42, 43",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1395,
+      "contains": true
+    },
+    "76": {
+      "display": "6 codes (2 vowels × 3 consonants)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1400,
+      "contains": true
+    },
+    "77": {
+      "display": "10 labels (5 digits × 2 letters)",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1405,
+      "contains": true
+    },
+    "78": {
+      "display": "4 sequences: HH, HT, TH, TT",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1410,
+      "contains": true
+    },
+    "79": {
+      "display": "6 PINs (2 even × 3 odd)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1415,
+      "contains": true
+    },
+    "80": {
+      "display": "6 stickers (2 sizes × 3 colours)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1419,
+      "contains": true
+    },
+    "81": {
+      "display": "9 ordered pairs for dice 1–3 twice",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1424,
+      "contains": true
+    },
+    "82": {
+      "display": "8 strings (2³ with A and B)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1429,
+      "contains": true
+    },
+    "83": {
+      "display": "12 codes (4 × 3 ordered different digits)",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1434,
+      "contains": true
+    },
+    "84": {
+      "display": "Missing pair (vegetable, fish)",
+      "accept": [
+        "vegetable fish",
+        "veg fish"
+      ],
+      "tier": 2,
+      "rating": 1439,
+      "contains": true
+    },
+    "85": {
+      "display": "8 binary codes 000–111",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1444,
+      "contains": true
+    },
+    "86": {
+      "display": "2 orders: Ana then Bo, Bo then Ana",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1448,
+      "contains": true
+    },
+    "87": {
+      "display": "6 pairs: cheese-pepper, cheese-olive, cheese-mushroom, pepper-olive, pepper-mushroom, olive-mushroom",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1453,
+      "contains": true
+    },
+    "88": {
+      "display": "3 paths: RRU, RUR, URR",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1458,
+      "contains": true
+    },
+    "89": {
+      "display": "8 outcomes (2 × 4)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1463,
+      "contains": true
+    },
+    "90": {
+      "display": "6 ordered pairs (3 × 2)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1468,
+      "contains": true
+    },
+    "91": {
+      "display": "8 codes (2 letters × 4 digits)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1473,
+      "contains": true
+    },
+    "92": {
+      "display": "Missing outcome HT",
+      "accept": [
+        "ht"
+      ],
+      "tier": 2,
+      "rating": 1477,
+      "contains": true
+    },
+    "93": {
+      "display": "8 outcomes (2³ coin flips)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1482,
+      "contains": true
+    },
+    "94": {
+      "display": "2 pairs: (1,2) and (2,1)",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1487,
+      "contains": true
+    },
+    "95": {
+      "display": "8 combinations (2 × 2 × 2 gear choices)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1492,
+      "contains": true
+    },
+    "96": {
+      "display": "8 meals (2 starters × 4 mains)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1497,
+      "contains": true
+    },
+    "97": {
+      "display": "6 codes (3 × 2 different second digit)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1502,
+      "contains": true
+    },
+    "98": {
+      "display": "2 routes: A→B→C→A and A→C→B→A",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1506,
+      "contains": true
+    },
+    "99": {
+      "display": "6 arrangements of D, E, F",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1511,
+      "contains": true
+    },
+    "100": {
+      "display": "6 outcomes (2 colours × 3 numbers)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1516,
+      "contains": true
+    },
+    "101": {
+      "display": "Missing code 2B",
+      "accept": [
+        "2b"
+      ],
+      "tier": 2,
+      "rating": 1521,
+      "contains": true
+    },
+    "102": {
+      "display": "Fix one choice at a time: list all drink–dessert pairs for each sandwich (2×2 each), then total 2×2×2 = 8 meals",
+      "accept": [
+        "8",
+        "nested",
+        "fix"
+      ],
+      "tier": 2,
+      "rating": 1526,
+      "contains": true
+    },
+    "103": {
+      "display": "True — AB and BA are the same pair when order does not matter; only list each pair once",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1531,
+      "contains": true
+    },
+    "104": {
+      "display": "2 routes via North or South hub",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1535,
+      "contains": true
+    },
+    "105": {
+      "display": "Missing path UR",
+      "accept": [
+        "ur"
+      ],
+      "tier": 2,
+      "rating": 1540,
+      "contains": true
+    },
+    "106": {
+      "display": "6 numbers: 67, 68, 76, 78, 86, 87",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1545,
+      "contains": true
+    },
+    "107": {
+      "display": "9 outcomes — group by first spin A, then B, then C",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1550,
+      "contains": true
+    },
+    "108": {
+      "display": "List is incomplete — missing T6 (should have 12 outcomes)",
+      "accept": [
+        "t6",
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1555,
+      "contains": true
+    },
+    "109": {
+      "display": "Fix a starter: for each starter list all 3×3 main–dessert pairs → 9 per starter × 3 starters = 27 meals",
+      "accept": [
+        "27"
+      ],
+      "tier": 2,
+      "rating": 1560,
+      "contains": true
+    },
+    "110": {
+      "display": "6 wristbands (2 patterns × 3 colours)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1565,
+      "contains": true
+    },
+    "111": {
+      "display": "6 ordered pairs (2 × 3)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1569,
+      "contains": true
+    },
+    "112": {
+      "display": "TH is the tails-then-heads outcome; without it the list is incomplete and probabilities are wrong",
+      "accept": [
+        "th",
+        "four"
+      ],
+      "tier": 2,
+      "rating": 1574,
+      "contains": true
+    },
+    "113": {
+      "display": "6 codes: XY, XZ, YX, YZ, ZX, ZY",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1579,
+      "contains": true
+    },
+    "114": {
+      "display": "4 tickets (2 days × 2 times)",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1584,
+      "contains": true
+    },
+    "115": {
+      "display": "3 paths: URR, RUR, RRU",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1589,
+      "contains": true
+    },
+    "116": {
+      "display": "8 lunches (2×2×2 nested listing)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1594,
+      "contains": true
+    },
+    "117": {
+      "display": "24 orders (4 × 3 × 2 × 1)",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 1598,
+      "contains": true
+    },
+    "118": {
+      "display": "12 codes (4 × 3 without repeat)",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1603,
+      "contains": true
+    },
+    "119": {
+      "display": "2 routes: Camp-Lake-Base, Camp-Peak-Base",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1608,
+      "contains": true
+    },
+    "120": {
+      "display": "10 pairs: vc, vs, vm, vr, cs, cm, cr, sm, sr, mr",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1613,
+      "contains": true
+    },
+    "121": {
+      "display": "12 outcomes (2 × 3 × 2)",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1618,
+      "contains": true
+    },
+    "122": {
+      "display": "8 ordered pairs (2 × 4)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1623,
+      "contains": true
+    },
+    "123": {
+      "display": "Grouping by sum lets you count how many pairs give each total without duplicating (1,2) and (2,1) when order matters in the table",
+      "accept": [
+        "group",
+        "sum"
+      ],
+      "tier": 2,
+      "rating": 1627,
+      "contains": true
+    },
+    "124": {
+      "display": "6 codes AB, AC, BA, BC, CA, CB",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1632,
+      "contains": true
+    },
+    "125": {
+      "display": "12 meals (3 × 2 × 2 by fixing starter)",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1637,
+      "contains": true
+    },
+    "126": {
+      "display": "16 sequences (2⁴ independent choices)",
+      "accept": [
+        "16"
+      ],
+      "tier": 2,
+      "rating": 1642,
+      "contains": true
+    },
+    "127": {
+      "display": "6 orders for Ana, Bo, Cal",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1647,
+      "contains": true
+    },
+    "128": {
+      "display": "20 codes (5 × 4 ordered different letters)",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1652,
+      "contains": true
+    },
+    "129": {
+      "display": "3 ways: 4×10p, 2×20p, or 20p+2×10p",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1656,
+      "contains": true
+    },
+    "130": {
+      "display": "8 badge designs (2 × 2 × 2)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1661,
+      "contains": true
+    },
+    "131": {
+      "display": "24 outcomes (4 coin outcomes × 6 dice)",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 1666,
+      "contains": true
+    },
+    "132": {
+      "display": "3 pairs: (1,3), (2,2), (3,1)",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1671,
+      "contains": true
+    },
+    "133": {
+      "display": "Missing meal salad-pie (or the one not listed among 6 pairs)",
+      "accept": [
+        "salad pie",
+        "salad-pie"
+      ],
+      "tier": 2,
+      "rating": 1676,
+      "contains": true
+    },
+    "134": {
+      "display": "8 codes (2 × 4 digit choices)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1681,
+      "contains": true
+    },
+    "135": {
+      "display": "6 paths: RRUU, RURU, RUUR, URRU, URUR, UURR",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1685,
+      "contains": true
+    },
+    "136": {
+      "display": "24 dinners (3 × 2 × 4)",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 1690,
+      "contains": true
+    },
+    "137": {
+      "display": "16 binary strings of length 4",
+      "accept": [
+        "16"
+      ],
+      "tier": 2,
+      "rating": 1695,
+      "contains": true
+    },
+    "138": {
+      "display": "6 tickets (3 regions × 2 classes)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1700,
+      "contains": true
+    },
+    "139": {
+      "display": "12 ordered codes (4 × 3 from PQRS)",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1705,
+      "contains": true
+    },
+    "140": {
+      "display": "Wrong — HT and TH are different ordered outcomes; correct sample space HH, HT, TH, TT (4 outcomes)",
+      "accept": [
+        "4",
+        "th"
+      ],
+      "tier": 2,
+      "rating": 1710,
+      "contains": true
+    },
+    "141": {
+      "display": "4 trails (2 paths to Hut × 2 to Summit)",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1715,
+      "contains": true
+    },
+    "142": {
+      "display": "7 words — all 2³ strings except AAA",
+      "accept": [
+        "7"
+      ],
+      "tier": 2,
+      "rating": 1719,
+      "contains": true
+    },
+    "143": {
+      "display": "20 segments (2 × 5 × 2)",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1724,
+      "contains": true
+    },
+    "144": {
+      "display": "3 pairs: Mon-Tue, Mon-Wed, Tue-Wed",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1729,
+      "contains": true
+    },
+    "145": {
+      "display": "8 outcomes (4 × 2) grouped by H then T",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1734,
+      "contains": true
+    },
+    "146": {
+      "display": "Missing 31, 32, 34",
+      "accept": [
+        "31",
+        "32",
+        "34"
+      ],
+      "tier": 2,
+      "rating": 1739,
+      "contains": true
+    },
+    "147": {
+      "display": "15 slots (3 aisles × 5 shelves)",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1744,
+      "contains": true
+    },
+    "148": {
+      "display": "8 settings (2³ U/D positions)",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1748,
+      "contains": true
+    },
+    "149": {
+      "display": "10 colour pairs from 5 colours",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1753,
+      "contains": true
+    },
+    "150": {
+      "display": "4 journeys (2 × 2 transport choices)",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1758,
+      "contains": true
+    },
+    "151": {
+      "display": "16 passwords (2⁴)",
+      "accept": [
+        "16"
+      ],
+      "tier": 2,
+      "rating": 1763,
+      "contains": true
+    },
+    "152": {
+      "display": "24 arrangements of L, O, V, E",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 1768,
+      "contains": true
+    },
+    "153": {
+      "display": "24 meal plans (4 × 3 × 2)",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 1773,
+      "contains": true
+    },
+    "154": {
+      "display": "15 codes (3 even digits × 5 letters)",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1777,
+      "contains": true
+    },
+    "155": {
+      "display": "3 routes Gate-A-Exit, Gate-B-Exit, Gate-C-Exit",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1782,
+      "contains": true
+    },
+    "156": {
+      "display": "A 6×6 table: fix first die 1–6, list second die 1–6 in each row → 36 ordered outcomes",
+      "accept": [
+        "36"
+      ],
+      "tier": 2,
+      "rating": 1787,
+      "contains": true
+    },
+    "157": {
+      "display": "9 badges (3 animals × 3 backgrounds)",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1792,
+      "contains": true
+    },
+    "158": {
+      "display": "1 path: RRRRR (five Right moves only)",
+      "accept": [
+        "1"
+      ],
+      "tier": 2,
+      "rating": 1797,
+      "contains": true
+    },
+    "159": {
+      "display": "6 codes — all permutations of 1,2,3",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1802,
+      "contains": true
+    },
+    "160": {
+      "display": "True — place 5 books one slot at a time: 5×4×3×2×1 = 120 arrangements",
+      "accept": [
+        "true",
+        "120"
+      ],
+      "tier": 2,
+      "rating": 1806,
+      "contains": true
+    },
+    "161": {
+      "display": "12 ordered match-ups (4 × 3, no team vs itself)",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1811,
+      "contains": true
+    },
+    "162": {
+      "display": "36 lunch boxes (2 × 3 × 2 × 3)",
+      "accept": [
+        "36"
+      ],
+      "tier": 2,
+      "rating": 1816,
+      "contains": true
+    },
+    "163": {
+      "display": "4 numbers: 211, 212, 221, 222",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1821,
+      "contains": true
+    },
+    "164": {
+      "display": "4 move sequences ++, +-, -+, -- (four endings/sequences)",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1826,
+      "contains": true
+    },
+    "165": {
+      "display": "10 topping triples from 5 flavours",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1831,
+      "contains": true
+    },
+    "166": {
+      "display": "72 outcomes (2 × 6 × 6) grouped by H/T then dice pairs",
+      "accept": [
+        "72"
+      ],
+      "tier": 2,
+      "rating": 1835,
+      "contains": true
+    },
+    "167": {
+      "display": "2 routes: Start-A-Finish, Start-B-Finish",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1840,
+      "contains": true
+    },
+    "168": {
+      "display": "24 permutations of four distinct digits",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 1845,
+      "contains": true
+    },
+    "169": {
+      "display": "12 passwords (4 × 3, no repeated letter)",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1850,
+      "contains": true
+    },
+    "170": {
+      "display": "18 records (3 × 2 × 3 transport–weather–mood)",
+      "accept": [
+        "18"
+      ],
+      "tier": 2,
+      "rating": 1855,
+      "contains": true
+    },
+    "171": {
+      "display": "48 ticket types (4 × 6 × 2)",
+      "accept": [
+        "48"
+      ],
+      "tier": 3,
+      "rating": 1860,
+      "contains": true
+    },
+    "172": {
+      "display": "6 paths with exactly two U in four steps",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1865,
+      "contains": true
+    },
+    "173": {
+      "display": "60 codes (5 × 4 × 3 without repeat)",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1869,
+      "contains": true
+    },
+    "174": {
+      "display": "Group by number of heads: 0 heads (TTT), 1 head (HTT,THT,TTH), 2 heads, 3 heads — totals 1+3+3+1 = 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1874,
+      "contains": true
+    },
+    "175": {
+      "display": "25 meals (5 × 5 starter–main grid)",
+      "accept": [
+        "25"
+      ],
+      "tier": 3,
+      "rating": 1879,
+      "contains": true
+    },
+    "176": {
+      "display": "16 sequences (2⁴ on {H,T})",
+      "accept": [
+        "16"
+      ],
+      "tier": 3,
+      "rating": 1884,
+      "contains": true
+    },
+    "177": {
+      "display": "30 assignments (6 × 5 captain then secretary)",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1889,
+      "contains": true
+    },
+    "178": {
+      "display": "4 ways: 3×20p, 2×20+2×10, 20+4×10, 6×10p",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1894,
+      "contains": true
+    },
+    "179": {
+      "display": "24 certificate designs (2 × 3 × 4)",
+      "accept": [
+        "24"
+      ],
+      "tier": 3,
+      "rating": 1898,
+      "contains": true
+    },
+    "180": {
+      "display": "12 outcomes (4 × 3 spinners)",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1903,
+      "contains": true
+    },
+    "181": {
+      "display": "32 PINs (2⁵ binary)",
+      "accept": [
+        "32"
+      ],
+      "tier": 3,
+      "rating": 1908,
+      "contains": true
+    },
+    "182": {
+      "display": "3 distinct arrangements: AAB, ABA, BAA",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1913,
+      "contains": true
+    },
+    "183": {
+      "display": "16 pass types (4 zones × 4 durations)",
+      "accept": [
+        "16"
+      ],
+      "tier": 3,
+      "rating": 1918,
+      "contains": true
+    },
+    "184": {
+      "display": "30 ordered letter pairs (6 × 5)",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1923,
+      "contains": true
+    },
+    "185": {
+      "display": "8 outcomes (4 suits × 2 sizes)",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1927,
+      "contains": true
+    },
+    "186": {
+      "display": "7 outcomes with at least one head (all except TTT)",
+      "accept": [
+        "7"
+      ],
+      "tier": 3,
+      "rating": 1932,
+      "contains": true
+    },
+    "187": {
+      "display": "80 locations (8 × 10) listed bay by bay",
+      "accept": [
+        "80"
+      ],
+      "tier": 3,
+      "rating": 1937,
+      "contains": true
+    },
+    "188": {
+      "display": "18 meals remain (3 starters × 3 mains × 2 desserts)",
+      "accept": [
+        "18"
+      ],
+      "tier": 3,
+      "rating": 1942,
+      "contains": true
+    },
+    "189": {
+      "display": "20 six-step paths with three R and three U",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1947,
+      "contains": true
+    },
+    "190": {
+      "display": "3600 lockers (5 × 10 × 9 × 8 letter then three distinct digits)",
+      "accept": [
+        "3600"
+      ],
+      "tier": 3,
+      "rating": 1952,
+      "contains": true
+    },
+    "191": {
+      "display": "36 outcomes — six rows (first die) each with six columns (second die)",
+      "accept": [
+        "36"
+      ],
+      "tier": 3,
+      "rating": 1956,
+      "contains": true
+    },
+    "192": {
+      "display": "6 valid codes — all 2³ except 000 and 111",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1961,
+      "contains": true
+    },
+    "193": {
+      "display": "3 routes Town-A-City, Town-B-City, Town-C-City",
+      "accept": [
+        "3"
+      ],
+      "tier": 3,
+      "rating": 1966,
+      "contains": true
+    },
+    "194": {
+      "display": "27 numbers (3 choices per digit: 3³)",
+      "accept": [
+        "27"
+      ],
+      "tier": 3,
+      "rating": 1971,
+      "contains": true
+    },
+    "195": {
+      "display": "48 kits (3 × 2 × 4 × 2)",
+      "accept": [
+        "48"
+      ],
+      "tier": 3,
+      "rating": 1976,
+      "contains": true
+    },
+    "196": {
+      "display": "9 ordered outcomes (3 × 3 with replacement)",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1981,
+      "contains": true
+    },
+    "197": {
+      "display": "15 unordered pairs from 6 items",
+      "accept": [
+        "15"
+      ],
+      "tier": 3,
+      "rating": 1985,
+      "contains": true
+    },
+    "198": {
+      "display": "24 pass types (3 × 4 × 2)",
+      "accept": [
+        "24"
+      ],
+      "tier": 3,
+      "rating": 1990,
+      "contains": true
+    },
+    "199": {
+      "display": "64 outcomes (2⁶ coin flips)",
+      "accept": [
+        "64"
+      ],
+      "tier": 3,
+      "rating": 1995,
+      "contains": true
+    },
+    "200": {
+      "display": "30 codes (2 projects × 5 versions × 3 languages)",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 2000,
+      "contains": true
+    }
+  }
+}

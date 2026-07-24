@@ -6,8 +6,8 @@ Read `_backlog/state/gcse-foundation-spine.json` for official **title** and **do
 
 ## Deliverables per slug `{domain}/{CODE}`
 
-1. `content/tenants/archer/subjects/maths/topics/{domain}/{CODE}.md`
-2. `content/tenants/archer/subjects/maths/topics/{domain}/{CODE}.answers.json`
+1. `content/tenants/lewis/subjects/maths/topics/{domain}/{CODE}.md`
+2. `content/tenants/lewis/subjects/maths/topics/{domain}/{CODE}.answers.json`
 
 ## Worksheet rules
 

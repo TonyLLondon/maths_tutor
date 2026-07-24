@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "$x + x$ means two $x$ terms — write one term with a coefficient.",
+      "help": "Adding like terms: $x + x = 2x$.\n\nSame letter, add the coefficients (1 + 1).\n\nSimplified: **$2x$**."
+    },
+    "2": {
+      "hint": "Combine the two $a$ terms the same way as $x + x$.",
+      "help": "$a + a = 2a$.\n\nCollect like terms with the same letter.\n\nAnswer: $2a$."
+    },
+    "3": {
+      "hint": "Three $b$ terms added — what single term matches?",
+      "help": "$b + b + b = 3b$.\n\nCount how many $b$ you have.\n\nSimplified: $3b$."
+    },
+    "4": {
+      "hint": "$2c$ already has two $c$; adding one more $c$ gives how many?",
+      "help": "$2c + c = 3c$.\n\nTreat $c$ as having coefficient 1.\n\nResult: $3c$."
+    },
+    "5": {
+      "hint": "Multiply the 2 by **both** terms inside the bracket.",
+      "help": "Expand: $2 \\times x + 2 \\times 1 = 2x + 2$.\n\nEvery term inside gets multiplied by 2.\n\nResult: $2x + 2$."
+    },
+    "6": {
+      "hint": "Multiply 3 by $y$ and by 1 inside the bracket.",
+      "help": "$3(y + 1) = 3y + 3$.\n\nDo not forget to multiply the constant inside.\n\nExpansion: $3y + 3$."
+    },
+    "7": {
+      "hint": "Substitute $a = 1$ after expanding, or multiply 2 by $(1+2)$.",
+      "help": "$2(a+2)$ with $a=1$: $2(1+2)=2\\times3=6$.\n\nOr expand to $2a+4$ then $2+4=6$.\n\nValue is 6."
+    },
+    "8": {
+      "hint": "Replace $b$ with 2 in $3(b+1)$.",
+      "help": "$3(2+1)=3\\times3=9$.\n\nBracket first, then multiply by 3.\n\nAnswer is 9."
+    },
+    "9": {
+      "hint": "Add the coefficients of $x$: 3 and 2.",
+      "help": "$3x + 2x = 5x$.\n\nLike terms only — both are $x$ terms.\n\nSimplified: $5x$."
+    },
+    "10": {
+      "hint": "$5y - 2y$ means five lots minus two lots of $y$.",
+      "help": "$5y - 2y = 3y$.\n\nSubtract coefficients when letters match.\n\nAnswer: $3y$."
+    },
+    "11": {
+      "hint": "Group the $x$ terms: $3x + 2x$, then add the plain 3.",
+      "help": "$3x + 2x = 5x$, so $5x + 3$.\n\nConstants stay separate from $x$ terms.\n\nResult: $5x + 3$."
+    },
+    "12": {
+      "hint": "Combine all the $a$ terms: $6a - 2a + a$.",
+      "help": "$6a - 2a + a = 5a$.\n\nSingle $a$ counts as $1a$.\n\nSimplified: $5a$."
+    },
+    "13": {
+      "hint": "Collect $x$ with $x$ and $y$ with $y$ separately.",
+      "help": "$3x + x = 4x$ and $2y + y = 3y$.\n\nDifferent letters stay in separate terms.\n\nAnswer: $4x + 3y$."
+    },
+    "14": {
+      "hint": "Combine $5a - 2a$ and $3b - b$ in two steps.",
+      "help": "$5a - 2a = 3a$. $3b - b = 2b$.\n\nResult: $3a + 2b$.\n\nDo not mix $a$ and $b$ into one term."
+    },
+    "15": {
+      "hint": "Multiply 2 by $x$ and by 3.",
+      "help": "$2(x+3) = 2x + 6$.\n\nBoth terms inside the bracket are doubled.\n\nExpansion: $2x + 6$."
+    },
+    "16": {
+      "hint": "Multiply 3 by $x$ and by $-4$.",
+      "help": "$3(x-4) = 3x - 12$.\n\nNegative four times three is $-12$.\n\nResult: $3x - 12$."
+    },
+    "17": {
+      "hint": "Multiply 5 by each part of $(2x + 1)$.",
+      "help": "$5(2x+1) = 10x + 5$.\n\n$5 \\times 2x = 10x$ and $5 \\times 1 = 5$.\n\nAnswer: $10x + 5$."
+    },
+    "18": {
+      "hint": "Expand $4(3x - 2)$ carefully with signs.",
+      "help": "$4 \\times 3x = 12x$, $4 \\times (-2) = -8$.\n\nSo $12x - 8$.\n\nCheck both products."
+    },
+    "19": {
+      "hint": "$x \\times x$ means $x$ squared.",
+      "help": "Multiplying a letter by itself gives a power: $x \\times x = x^2$.\n\nNot $2x$ unless you are adding.\n\nSimplified: $x^2$."
+    },
+    "20": {
+      "hint": "Multiply the numbers 3 and 2, keep the $x$.",
+      "help": "$3x \\times 2 = 6x$.\n\nCoefficients multiply; letter stays.\n\nResult: $6x$."
+    },
+    "21": {
+      "hint": "Add coefficients 3 and 2 on $a$.",
+      "help": "$3a + 2a = 5a$.\n\nSame as earlier like-term questions.\n\nAnswer: $5a$."
+    },
+    "22": {
+      "hint": "Double everything inside $(x + 4)$.",
+      "help": "$2(x+4) = 2x + 8$.\n\nMultiply 2 by $x$ and by 4.\n\nExpansion: $2x + 8$."
+    },
+    "23": {
+      "hint": "Adding $x$ terms does not multiply the letters — you add coefficients only.",
+      "help": "Sam wrongly got $5x^2$. Correct: $3x + 2x = 5x$.\n\nYou only add exponents when **multiplying** powers, not when adding like terms.\n\nCorrect answer: $5x$."
+    },
+    "24": {
+      "hint": "Expand $2(x+5)$ and compare to $2x+5$.",
+      "help": "$2(x+5) = 2x + 10$, not $2x + 5$.\n\nThe 2 must multiply **both** 5 and $x$.\n\nSo they are **not** always equal — only sometimes if you mis-expand."
+    },
+    "25": {
+      "hint": "Priya multiplied $x$ by 4 but forgot to multiply $-3$ by 4.",
+      "help": "Correct: $4(x-3) = 4x - 12$.\n\nPriya wrote $4x - 3$ — only the $x$ was multiplied.\n\nEvery term inside the bracket gets the 4."
+    },
+    "26": {
+      "hint": "Substitute $x = 4$ into both $3(x+2)$ and $3x+6$.",
+      "help": "Left: $3(4+2)=3\\times6=18$. Right: $3(4)+6=12+6=18$.\n\nSame value — supports that they are equivalent expressions.\n\nShow both calculations."
+    },
+    "27": {
+      "hint": "Can you combine $x$ terms with $y$ terms in $3x + 2y + x$?",
+      "help": "Combine $3x + x = 4x$; $2y$ stays.\n\nYou **can** collect $x$ with $x$ while keeping $y$ separate.\n\nStatement is **false** — you collect matching letters."
+    },
+    "28": {
+      "hint": "Leo subtracted wrong — $5x - 3x + 2x$ should add the net $x$ terms.",
+      "help": "$5x - 3x = 2x$, then $2x + 2x = 4x$.\n\nNot zero unless all cancel.\n\nCorrect: $4x$."
+    },
+    "29": {
+      "hint": "Simplifying adds like terms; expanding removes brackets — different jobs.",
+      "help": "$4x + 3x = 7x$ is one term — simplified sum.\n\n$4(x+3) = 4x + 12$ — still two terms but bracket gone.\n\nFirst combines; second distributes."
+    },
+    "30": {
+      "hint": "Both $x$ and $y$ inside the bracket get multiplied by 2.",
+      "help": "Correct: $2(x+y) = 2x + 2y$.\n\nMo's $2x + y$ only doubled $x$.\n\nMultiply the 2 across the whole bracket."
+    },
+    "31": {
+      "hint": "Perimeter is all sides: width + length twice each opposite pair.",
+      "help": "Width $x$, length $x+3$. Perimeter $2x + 2(x+3) = 2x + 2x + 6 = 4x + 6$.\n\nOr $x + (x+3) + x + (x+3)$ then simplify.\n\nExpression: $4x + 6$."
+    },
+    "32": {
+      "hint": "Cost pens: $20x$ pence? 20p each for $x$ pens — plus 15p each for $x$ pencils.",
+      "help": "Pens: $20x$ pence. Pencils: $15x$ pence.\n\nTotal: $20x + 15x = 35x$ pence.\n\nCollect like terms in $x$."
+    },
+    "33": {
+      "hint": "Expand $3(x+2)$ to $3x+6$, then add $2x$.",
+      "help": "$3(x+2) = 3x + 6$. Total area $3x + 6 + 2x = 5x + 6$.\n\nExpand each part then combine $x$ terms.\n\nSimplified: $5x + 6$."
+    },
+    "34": {
+      "hint": "2 t-shirts at $(x+5)$ each and 3 shorts at $x$ each.",
+      "help": "T-shirts: $2(x+5) = 2x + 10$. Shorts: $3x$.\n\nTotal: $2x + 10 + 3x = 5x + 10$ pounds.\n\nExpand then simplify."
+    },
+    "35": {
+      "hint": "Add the three side lengths and collect $x$ terms.",
+      "help": "$2x + (x+3) + (x+3) = 2x + 2x + 6 = 4x + 6$.\n\nTwo sides are the same length.\n\nPerimeter: $4x + 6$."
+    },
+    "36": {
+      "hint": "Expand $5(n+1)$ — what do 5 and 1 mean in the story?",
+      "help": "$5(n+1) = 5n + 5$ pence.\n\n$5n$ is 5p per sticker times $n$; +5 is fixed handling.\n\nExplain: 5p per item plus 5p flat charge."
+    },
+    "37": {
+      "hint": "Expand each bracket first, then collect $x$ terms.",
+      "help": "$3(x+2)=3x+6$. $2(x-1)=2x-2$.\n\nSum: $3x+6+2x-2 = 5x+4$.\n\nStep by step expansion then simplify."
+    },
+    "38": {
+      "hint": "Expand $5(2x-1)$ and $3(x+2)$, then subtract the second from the first.",
+      "help": "$5(2x-1)=10x-5$. $3(x+2)=3x+6$.\n\n$(10x-5)-(3x+6)=7x-11$.\n\nWatch signs on subtraction."
+    },
+    "39": {
+      "hint": "Expand $4(x+3)$ then subtract $2x$.",
+      "help": "$4(x+3)=4x+12$. $4x+12-2x=2x+12$.\n\nShows the target form $2x+12$.\n\nWrite each step clearly."
+    },
+    "40": {
+      "hint": "Simplify $2(x+4)+2(x+4)$ — are width and length equal?",
+      "help": "$2(x+4)+2(x+4)=4(x+4)=4x+16$ or $4x+16$ perimeter.\n\nSame expression twice suggests a rectangle with equal opposite sides.\n\nFully simplified: $4x + 16$."
+    },
+    "41": {
+      "hint": "Group $5x - 2x$ and $3 + 1$ separately.",
+      "help": "$5x - 2x = 3x$. $3 + 1 = 4$.\n\nResult: $3x + 4$.\n\nConstants and $x$ terms separately."
+    },
+    "42": {
+      "hint": "Expand $3(2x-1)$ then add the extra $x$.",
+      "help": "$3(2x-1)=6x-3$. Plus $x$ gives $7x - 3$.\n\nExpand bracket before combining.\n\nAnswer: $7x - 3$."
+    },
+    "43": {
+      "hint": "Both terms contain the same letter and power, so add the coefficients 2 and 1.",
+      "help": "Like terms have exactly the same letter part, so their coefficients can be combined.\n\nHere a lone $x$ has coefficient 1. Add the coefficients: $2+1=3$, while keeping the $x$ unchanged.\n\nFor example, $4y+y=5y$ because four lots of $y$ plus one more lot make five lots."
+    },
+    "44": {
+      "hint": "The letter parts match, so combine the two coefficients and keep one $x$.",
+      "help": "You may collect terms when their letter parts are identical. Add the numbers in front and leave the common letter unchanged.\n\nFor a different example, $6a+3a=9a$: six lots of $a$ plus three lots make nine lots.\n\nUse the same coefficient rule on the two $x$ terms in this question."
+    },
+    "45": {
+      "hint": "Both terms are $x$ terms — add the coefficients 6 and 2.",
+      "help": "$6x + 2x = 8x$.\n\n**Different example:** $5y + 3y = 8y$.\n\nLike terms: same letter, add the numbers in front."
+    },
+    "46": {
+      "hint": "Expand $4(x + 3)$ by multiplying 4 into the bracket.",
+      "help": "$4x + 12$.\n\n**Different example:** $3(x + 2) = 3x + 6$.\n\nDistribute the 4."
+    },
+    "47": {
+      "hint": "Combine $9y$ and $-4y$, keep $+ 1$.",
+      "help": "$5y + 1$.\n\n**Different example:** $7a - 2a + 3 = 5a + 3$.\n\nLike terms only."
+    },
+    "48": {
+      "hint": "Multiply 2 into $(3x - 1)$.",
+      "help": "$6x - 2$.\n\n**Different example:** $5(x - 4) = 5x - 20$.\n\nBoth terms inside bracket."
+    },
+    "49": {
+      "hint": "Group $5a - 2a$ and $3b + b$ separately.",
+      "help": "$3a + 4b$.\n\n**Different example:** $2x + x + 4y - y = 3x + 3y$.\n\n$a$ with $a$, $b$ with $b$."
+    },
+    "50": {
+      "hint": "Multiply $-2$ into $(x + 5)$ — signs change.",
+      "help": "$-2x - 10$.\n\n**Different example:** $-3(x + 1) = -3x - 3$.\n\nNegative outside bracket."
+    },
+    "51": {
+      "hint": "Add the coefficients of $x$: $1 + 4 - 2$.",
+      "help": "$3x$.\n\n**Different example:** $5x - x = 4x$.\n\nOnly $x$ terms combine."
+    },
+    "52": {
+      "hint": "Expand $5(2x + 1)$.",
+      "help": "$10x + 5$.\n\n**Different example:** $3(2x + 4) = 6x + 12$.\n\nMultiply both terms by 5."
+    },
+    "53": {
+      "hint": "Combine constants $7 + 2$ and $x$ terms $-3x + x$.",
+      "help": "$-2x + 9$.\n\n**Different example:** $10 - 2x + 1 - x = 11 - 3x$.\n\nConstants and letters separately."
+    },
+    "54": {
+      "hint": "Multiply 4 into $(2x - 3)$.",
+      "help": "$8x - 12$.\n\n**Different example:** $2(3x - 5) = 6x - 10$.\n\nDistribute 4."
+    },
+    "55": {
+      "hint": "Expand $3(x + 1)$ then subtract $2x$.",
+      "help": "$3x + 3 - 2x = x + 3$.\n\n**Different example:** $2(x + 2) - x = x + 4$.\n\nBracket first."
+    },
+    "56": {
+      "hint": "Multiply $-3$ into $(2 - x)$.",
+      "help": "$-6 + 3x$.\n\n**Different example:** $-2(1 - x) = -2 + 2x$.\n\nWatch minus signs."
+    },
+    "57": {
+      "hint": "Combine $2x - x$ and $3y + 5y$.",
+      "help": "$x + 8y$.\n\n**Different example:** $4a - a + 2b + b = 3a + 3b$.\n\nTwo letter types."
+    },
+    "58": {
+      "hint": "Expand $6(\\frac{x}{2} + 1)$ — simplify $\\frac{x}{2}$ first mentally.",
+      "help": "$3x + 6$.\n\n**Different example:** $4(\\frac{x}{4} + 2) = x + 8$.\n\nHalf of 6 is 3."
+    },
+    "59": {
+      "hint": "Calculate $5(2x)$ then subtract $3x$.",
+      "help": "$10x - 3x = 7x$.\n\n**Different example:** $3(2x) - x = 5x$.\n\nMultiply before subtracting."
+    },
+    "60": {
+      "hint": "Use FOIL on $(x + 2)(x + 3)$.",
+      "help": "$x^2 + 5x + 6$.\n\n**Different example:** $(x + 1)(x + 4) = x^2 + 5x + 4$.\n\nEach pair multiplies."
+    },
+    "61": {
+      "hint": "Combine $8x - 3x$ and constants $5 + 2$.",
+      "help": "$5x + 7$.\n\n**Different example:** $6x + 1 - 2x + 3 = 4x + 4$.\n\nCollect like terms."
+    },
+    "62": {
+      "hint": "Expand $7(x - 2) - 4x$.",
+      "help": "$7x - 14 - 4x = 3x - 14$.\n\n**Different example:** $5(x - 1) - 2x = 3x - 5$.\n\nBracket then combine."
+    },
+    "63": {
+      "hint": "Group $4a - a$ and $3b - 2b$.",
+      "help": "$3a + b$.\n\n**Different example:** $5x - 2x + y - 3y = 3x - 2y$.\n\nTwo variable types."
+    },
+    "64": {
+      "hint": "Expand both brackets $2(3x + 4)$ and $5(x - 1)$, then add.",
+      "help": "$6x + 8 + 5x - 5 = 11x + 3$.\n\n**Different example:** $3(x + 1) + 2(x + 2) = 5x + 7$.\n\nExpand each fully."
+    },
+    "65": {
+      "hint": "Combine $x^2 + 2x^2$ and $3x - x$.",
+      "help": "$3x^2 + 2x$.\n\n**Different example:** $2x^2 + x^2 - x = 3x^2 - x$.\n\n$x^2$ terms separate from $x$."
+    },
+    "66": {
+      "hint": "Expand $3(2x - 5) - 2(x + 1)$.",
+      "help": "$6x - 15 - 2x - 2 = 4x - 17$.\n\n**Different example:** $2(x - 3) - (x + 1) = x - 7$.\n\nDistribute minus on second bracket."
+    },
+    "67": {
+      "hint": "Combine $12y - 3y - 2y$ and constant 5.",
+      "help": "$7y + 5$.\n\n**Different example:** $10a - 4a + 1 = 6a + 1$.\n\nAll $y$ terms together."
+    },
+    "68": {
+      "hint": "Expand $5(x + 2) + 2(x - 3)$.",
+      "help": "$5x + 10 + 2x - 6 = 7x + 4$.\n\n**Different example:** $4(x + 1) + 3(x - 2) = 7x - 2$.\n\nTwo brackets."
+    },
+    "69": {
+      "hint": "Expand $6x - 2(x + 1)$.",
+      "help": "$6x - 2x - 2 = 4x - 2$.\n\n**Different example:** $5x - 3(x - 1) = 2x + 3$.\n\nSubtract whole bracket."
+    },
+    "70": {
+      "hint": "Multiply $(2x + 1)(x + 4)$.",
+      "help": "$2x^2 + 8x + x + 4 = 2x^2 + 9x + 4$.\n\n**Different example:** $(x + 2)(x + 3)$.\n\nFour products."
+    },
+    "71": {
+      "hint": "Expand $3x + 4 - 2(x - 1)$.",
+      "help": "$3x + 4 - 2x + 2 = x + 6$.\n\n**Different example:** $4x + 1 - (x + 3) = 3x - 2$.\n\n−2 distributes."
+    },
+    "72": {
+      "hint": "Expand $4(3x - 2) - 3(2x + 1)$.",
+      "help": "$12x - 8 - 6x - 3 = 6x - 11$.\n\n**Different example:** $2(2x - 1) - (x + 2) = 3x - 4$.\n\nBoth brackets first."
+    },
+    "73": {
+      "hint": "Combine $5x^2 - 2x^2$ and $3x - x$.",
+      "help": "$3x^2 + 2x$.\n\n**Different example:** $4x^2 - x^2 + x = 3x^2 + x$.\n\nSquare terms separate."
+    },
+    "74": {
+      "hint": "Expand $2(x + 5) + 3(x - 2)$.",
+      "help": "$2x + 10 + 3x - 6 = 5x + 4$.\n\n**Different example:** $6(x + 1) + (x - 4) = 7x + 2$.\n\nLine by line."
+    },
+    "75": {
+      "hint": "Expand $7a - 3(b - a)$.",
+      "help": "$7a - 3b + 3a = 10a - 3b$.\n\n**Different example:** $5x - 2(y - x) = 7x - 2y$.\n\n−3 on bracket."
+    },
+    "76": {
+      "hint": "Expand $(x + 5)^2$ as $(x + 5)(x + 5)$.",
+      "help": "$x^2 + 10x + 25$.\n\n**Different example:** $(x + 2)^2 = x^2 + 4x + 4$.\n\nPerfect square pattern."
+    },
+    "77": {
+      "hint": "Expand $4(2x + 1) - 3(x - 2)$.",
+      "help": "$8x + 4 - 3x + 6 = 5x + 10$.\n\n**Different example:** $3(2x + 3) - 2x = 4x + 9$.\n\nFull expansion."
+    },
+    "78": {
+      "hint": "Multiply $3x$ by $(2x + 1)$.",
+      "help": "$6x^2 + 3x$.\n\n**Different example:** $2x(x + 4) = 2x^2 + 8x$.\n\nEach term in bracket."
+    },
+    "79": {
+      "hint": "Expand $5x - 2(3 - x)$.",
+      "help": "$5x - 6 + 2x = 7x - 6$.\n\n**Different example:** $4x - 2(1 - x) = 6x - 2$.\n\n−2 × −$x$ gives +$2x$."
+    },
+    "80": {
+      "hint": "Expand $(2x - 1)(3x + 2)$.",
+      "help": "$6x^2 + 4x - 3x - 2 = 6x^2 + x - 2$.\n\n**Different example:** $(x + 1)(2x - 3)$.\n\nFour partial products."
+    },
+    "81": {
+      "hint": "Write $x + x + y + y + y$ as simplified expression.",
+      "help": "$2x + 3y$.\n\n**Different example:** $a + a + b = 2a + b$.\n\nCount like letters."
+    },
+    "82": {
+      "hint": "Expand $6(x - \\frac{1}{2})$.",
+      "help": "$6x - 3$.\n\n**Different example:** $4(x - \\frac{1}{4}) = 4x - 1$.\n\nHalf of 6 is 3."
+    },
+    "83": {
+      "hint": "Combine $9 - 4x + 2 + x$.",
+      "help": "$11 - 3x$.\n\n**Different example:** $5 + 3x - 1 + x = 4 + 4x$.\n\nConstants and $x$ terms."
+    },
+    "84": {
+      "hint": "Expand $2(3a - 2b) + 4(a + b)$.",
+      "help": "$6a - 4b + 4a + 4b = 10a$.\n\n**Different example:** $3(x + y) + 2(x - y) = 5x + y$.\n\n$b$ terms cancel here."
+    },
+    "85": {
+      "hint": "Expand both brackets in $3(x + 2) - 2(x + 5)$.",
+      "help": "$3x + 6 - 2x - 10 = x - 4$.\n\n**Different example:** $5(x + 1) - 3(x + 2) = 2x - 1$.\n\nSubtract second expansion."
+    },
+    "86": {
+      "hint": "Use difference of squares on $(x + 1)(x - 1)$.",
+      "help": "$x^2 - 1$.\n\n**Different example:** $(a + 3)(a - 3) = a^2 - 9$.\n\nNo middle term."
+    },
+    "87": {
+      "hint": "Combine $4x^2 + 2x + x^2 - 3x$.",
+      "help": "$5x^2 - x$.\n\n**Different example:** $2x^2 + x + x^2 = 3x^2 + x$.\n\nGroup $x^2$ and $x$."
+    },
+    "88": {
+      "hint": "Expand $5(2x - 3y) - 2(x + y)$.",
+      "help": "$10x - 15y - 2x - 2y = 8x - 17y$.\n\n**Different example:** $3(x - y) - (x + y) = 2x - 4y$.\n\nTwo variables throughout."
+    },
+    "89": {
+      "hint": "Expand $x(x + 5) - x^2$.",
+      "help": "$x^2 + 5x - x^2 = 5x$.\n\n**Different example:** $2x(x + 1) - 2x^2 = 2x$.\n\n$x^2$ cancels."
+    },
+    "90": {
+      "hint": "Multiply 5 into $(x + y + 2)$.",
+      "help": "$5x + 5y + 10$.\n\n**Different example:** $2(a + b + 1) = 2a + 2b + 2$.\n\nThree terms inside."
+    },
+    "91": {
+      "hint": "Expand $6x - 3(x - 4) + 2$.",
+      "help": "$6x - 3x + 12 + 2 = 3x + 14$.\n\n**Different example:** $4x - 2(x - 1) + 5 = 2x + 7$.\n\nBracket then constants."
+    },
+    "92": {
+      "hint": "Expand $(x + 6)(x + 1)$.",
+      "help": "$x^2 + 7x + 6$.\n\n**Different example:** $(x + 2)(x + 5) = x^2 + 7x + 10$.\n\nFOIL pattern."
+    },
+    "93": {
+      "hint": "Test $x = 4$ in $2(x + 3)$ and $2x + 3$.",
+      "help": "$2(7) = 14$ but $8 + 3 = 11$ → **not** equivalent.\n\n**Different example:** always expand bracket.\n\nMissing $2 × 3$ term."
+    },
+    "94": {
+      "hint": "Is there only one correct simplified form?",
+      "help": "**Always** one simplest form if like terms collected.\n\n**Different example:** $2x + 3x$ only $5x$.\n\nStandard form unique."
+    },
+    "95": {
+      "hint": "Leo got $3x + 2$ for $3(x + 2)$ — what should it be?",
+      "help": "Correct: $3x + 6$.\n\n**Different example:** $2(x + 5) = 2x + 10$ not $2x + 5$.\n\nMultiply 3 by both terms."
+    },
+    "96": {
+      "hint": "Can $x + x^2$ become $2x^2$?",
+      "help": "**No** — different powers; test $x = 2$: $2 + 4 ≠ 8$.\n\n**Different example:** only same power combines.\n\n$x$ and $x^2$ unlike."
+    },
+    "97": {
+      "hint": "Expand $-(x - 3)$.",
+      "help": "$-x + 3$ → **always** $-(x - 3) = -x + 3$.\n\n**Different example:** $-(2 - x) = -2 + x$.\n\nMinus flips signs."
+    },
+    "98": {
+      "hint": "Nina wrote $5x + 2x = 7x^2$ — combine powers correctly.",
+      "help": "Same power only: $5x + 2x = 7x$.\n\n**Different example:** $3x^2 + 2x^2 = 5x^2$.\n\nDo not add exponents."
+    },
+    "99": {
+      "hint": "Test $(x + 2)^2$ at $x = 1$ vs $x^2 + 4$.",
+      "help": "$(1 + 2)^2 = 9$ but $1 + 4 = 5$ → **false**.\n\n**Different example:** middle term $4x$ missing.\n\nSquare binomial has $2xy$ term."
+    },
+    "100": {
+      "hint": "Compare $2(3x)$ and $6x$ at any $x$.",
+      "help": "Always match → **always** true $2(3x) = 6x$.\n\n**Different example:** $3(2x) = 6x$.\n\nMultiply numbers first."
+    },
+    "101": {
+      "hint": "Does order matter in $3x + 2y$ vs $2y + 3x$?",
+      "help": "Same expression → **true**.\n\n**Different example:** $a + b = b + a$.\n\nAddition commutative."
+    },
+    "102": {
+      "hint": "Add $x^2 + x^2$.",
+      "help": "$2x^2$ → **always**.\n\n**Different example:** $5x^2 + x^2 = 6x^2$.\n\nSame power adds."
+    },
+    "103": {
+      "hint": "Expand $(x + 3)(x + 2)$ — Omar missed $x$ cross terms.",
+      "help": "Correct: $x^2 + 5x + 6$, not $x^2 + 5x + 5$.\n\n**Different example:** check $3 × 2 = 6$ constant.\n\nLast term is product of constants."
+    },
+    "104": {
+      "hint": "Expand $4(x - 1) - 4x$.",
+      "help": "$4x - 4 - 4x = -4$ → **always** $-4$.\n\n**Different example:** $5(x - 2) - 5x = -10$.\n\n$x$ terms cancel."
+    },
+    "105": {
+      "hint": "Is $a(b + c) = ab + ac$ for all values?",
+      "help": "Distributive law → **always**.\n\n**Different example:** $2(3 + 4) = 6 + 8$.\n\nExpand to verify."
+    },
+    "106": {
+      "hint": "Evaluate both sides at $x = 2$ for $5x - 3x$ and 2.",
+      "help": "Left $= 2$, right $= 2$ at $x = 2$ only for that check — not same expression always.\n\n**Different example:** $5x - 3x = 2x$, not 2.\n\nSimplify left fully."
+    },
+    "107": {
+      "hint": "Compare $(x + 1)^2$ with $x^2 + 1$ when $x > 0$.",
+      "help": "$(x + 1)^2 = x^2 + 2x + 1 > x^2 + 1$ for $x > 0$ → **always** bigger when $x > 0$.\n\n**Different example:** $x = 3$ → 16 vs 10.\n\nExtra $2x$ term."
+    },
+    "108": {
+      "hint": "Test $2(x + y)$ vs $2x + y$ at $x = 1$, $y = 1$.",
+      "help": "$2(2) = 4$ but $2 + 1 = 3$ → Priya wrong.\n\n**Different example:** distribute 2 to both.\n\nOnly first term doubled in error."
+    },
+    "109": {
+      "hint": "Expand $3(2x - 1)$ — is it $6x - 1$?",
+      "help": "Correct $6x - 3$ → **false** that $6x - 1$.\n\n**Different example:** $2(3x - 2) = 6x - 4$.\n\nMultiply 3 by −1."
+    },
+    "110": {
+      "hint": "Combine $x + 2x$.",
+      "help": "$3x$ → **always** $x + 2x = 3x$.\n\n**Different example:** $4x + x = 5x$.\n\nLike terms."
+    },
+    "111": {
+      "hint": "Expand $-(2x - 5)$.",
+      "help": "$-2x + 5$ not $-2x - 5$ → **false** original claim.\n\n**Different example:** $-(x - 1) = -x + 1$.\n\nFlip both signs."
+    },
+    "112": {
+      "hint": "Expand $(x + a)(x + b)$ pattern.",
+      "help": "$x^2 + (a + b)x + ab$ → **always**.\n\n**Different example:** $(x + 2)(x + 3)$.\n\nFOIL rule."
+    },
+    "113": {
+      "hint": "Evaluate $5(x + 0)$.",
+      "help": "$5x$ → **true** $5(x + 0) = 5x$.\n\n**Different example:** $3(x + 0) = 3x$.\n\nAdding zero changes nothing."
+    },
+    "114": {
+      "hint": "Count terms in $2x + 3y$.",
+      "help": "**Two** terms → **always** exactly two here.\n\n**Different example:** $x + y + z$ has three.\n\nTerms separated by +/−."
+    },
+    "115": {
+      "hint": "Expand $(x + 1)^2$.",
+      "help": "$x^2 + 2x + 1$ → **identity**.\n\n**Different example:** perfect square trinomial.\n\nMiddle term $2x$."
+    },
+    "116": {
+      "hint": "Simplify $4x - 2x$.",
+      "help": "$2x$ → **always**.\n\n**Different example:** $9y - 4y = 5y$.\n\nSubtract coefficients."
+    },
+    "117": {
+      "hint": "Expand $3(x - 2) - 3x$.",
+      "help": "$3x - 6 - 3x = -6$ → **always** −6.\n\n**Different example:** $2(x - 5) - 2x = -10$.\n\n$x$ cancels."
+    },
+    "118": {
+      "hint": "Expand $-1(x - 4)$.",
+      "help": "$-x + 4$ → **always**.\n\n**Different example:** $-(5 - x) = -5 + x$.\n\nNegative distributes."
+    },
+    "119": {
+      "hint": "Perimeter $w + (w + 5) + w + (w + 5)$.",
+      "help": "Simplify to $4w + 10$.\n\n**Different example:** rectangle $2l + 2w$.\n\nFour sides added."
+    },
+    "120": {
+      "hint": "$n$ notebooks at 20p plus 3 pens at 10p? — stem says 20p each and 3 pens £1 each → $20n + 300$ pence.",
+      "help": "Write $20n + 300$ pence (3 × 100p).\n\n**Different example:** $x$ items at 50p → $50x$.\n\nConvert pounds to pence."
+    },
+    "121": {
+      "hint": "Expand $2(x + 3)$ for length; width is $x$.",
+      "help": "Length $2x + 6$; area $x(2x + 6)$.\n\n**Different example:** square side $s$ → area $s^2$.\n\nExpand before area."
+    },
+    "122": {
+      "hint": "Triangle sides $x$, $2x$, $x + 4$ — add all three.",
+      "help": "Perimeter $x + 2x + x + 4 = 4x + 4$.\n\n**Different example:** sides 3, 4, 5 → 12.\n\nSum of three sides."
+    },
+    "123": {
+      "hint": "Cost $3x + 1.50x$ for sandwiches and drinks.",
+      "help": "Total $4.5x$ or $3x + 1.5x$ pounds.\n\n**Different example:** $2a + 3b$ costs.\n\nLike items add."
+    },
+    "124": {
+      "hint": "Wire $(3x + 7) - 2x$ remaining.",
+      "help": "Remaining $x + 7$ cm.\n\n**Different example:** $(5x + 2) - 3x = 2x + 2$.\n\nSubtract cut length."
+    },
+    "125": {
+      "hint": "Expand $x(x + 2)$ for poster area.",
+      "help": "$x^2 + 2x$.\n\n**Different example:** $3 × (3 + 1) = 12$.\n\nWidth × length."
+    },
+    "126": {
+      "hint": "Substitute $m = 5$ into $3 + 2m$.",
+      "help": "$3 + 10 = 13$ pounds for 5 miles.\n\n**Different example:** $2 + 4d$ at $d = 3$.\n\nFlat + per mile."
+    },
+    "127": {
+      "hint": "Pupils $2x + x + 3 = 3x + 3$.",
+      "help": "Simplify to $3x + 3$.\n\n**Different example:** $4x + x = 5x$.\n\nBoys + girls."
+    },
+    "128": {
+      "hint": "Expand $3(2x + 5)$ for three cases.",
+      "help": "$6x + 15$ pounds total.\n\n**Different example:** $2(3x + 1) = 6x + 2$.\n\nMultiply before adding."
+    },
+    "129": {
+      "hint": "Expand $4(x - 1)$; use $x = 6$ for length.",
+      "help": "Length $4x - 4$; at $x = 6$ → 20 m.\n\n**Different example:** $5(x - 2)$ at $x = 4$.\n\nSubstitute after expand."
+    },
+    "130": {
+      "hint": "Consecutive evens $x + (x + 2) = 2x + 2$.",
+      "help": "Sum expression $2x + 2$.\n\n**Different example:** three consecutive → $3x + 3$.\n\nEven gap is 2."
+    },
+    "131": {
+      "hint": "Square side becomes $x + 2$; perimeter $4(x + 2)$.",
+      "help": "$4x + 8$.\n\n**Different example:** side $s$ → $4s$.\n\nFour equal sides."
+    },
+    "132": {
+      "hint": "Expand $5(x + 2) + 3(x - 1) + x$.",
+      "help": "$5x + 10 + 3x - 3 + x = 9x + 7$.\n\n**Different example:** combine three parts.\n\nAll like terms."
+    },
+    "133": {
+      "hint": "Expand $x^2(x + 1)$.",
+      "help": "$x^3 + x^2$.\n\n**Different example:** $2x(x + 3) = 2x^2 + 6x$.\n\nMultiply powers carefully."
+    },
+    "134": {
+      "hint": "Total before discount $n(x + 5)$.",
+      "help": "Write $n(x + 5)$ pounds.\n\n**Different example:** 4 items at $(p - 2)$.\n\nPrice × quantity."
+    },
+    "135": {
+      "hint": "Expand $2(3x + 1) + 2(x + 4)$.",
+      "help": "$6x + 2 + 2x + 8 = 8x + 10$.\n\n**Different example:** double rectangle sides.\n\nFactor 2 on pairs."
+    },
+    "136": {
+      "hint": "Sum $x + (x + 1) + (x + 2) = 3x + 3$.",
+      "help": "Shows $3x + 3$ for three consecutive.\n\n**Different example:** 4 + 5 + 6 = 15.\n\nMiddle term $x$."
+    },
+    "137": {
+      "hint": "Volume $x(x + 1)(2)$.",
+      "help": "Expand $2x(x + 1) = 2x^2 + 2x$.\n\n**Different example:** $lwh$ multiply three.\n\nTwo dimensions given."
+    },
+    "138": {
+      "hint": "Expand $3(x + 4)$.",
+      "help": "$3x + 12$.\n\n**Different example:** $4(x + 2) = 4x + 8$.\n\nThree rows pattern."
+    },
+    "139": {
+      "hint": "Expand $4(2x - 3) - 2(x + 5)$.",
+      "help": "$8x - 12 - 2x - 10 = 6x - 22$.\n\n**Different example:** check signs on second bracket.\n\nFull simplify."
+    },
+    "140": {
+      "hint": "Expand $4(2x)$.",
+      "help": "$8x$ → perimeter of four sides $2x$.\n\n**Different example:** $4 × 5 = 20$.\n\nFour times side."
+    },
+    "141": {
+      "hint": "Expand $x + 3(x - 2) + 5$.",
+      "help": "$x + 3x - 6 + 5 = 4x - 1$.\n\n**Different example:** $2(x - 1) + 4 = 2x + 2$.\n\nDistribute 3."
+    },
+    "142": {
+      "hint": "Expand $3x(x + 2)$.",
+      "help": "$3x^2 + 6x$.\n\n**Different example:** $2x(x + 5) = 2x^2 + 10x$.\n\nArea expression."
+    },
+    "143": {
+      "hint": "Expand $2(x + 1)^2 - 2x^2$.",
+      "help": "$2(x^2 + 2x + 1) - 2x^2 = 4x + 2$.\n\n**Different example:** expand squares first.\n\n$2x^2$ cancels partly."
+    },
+    "144": {
+      "hint": "Add sections $(x + 2) + (3x - 1)$.",
+      "help": "$4x + 1$ m total fence.\n\n**Different example:** two lengths sum.\n\nCombine like terms."
+    },
+    "145": {
+      "hint": "Expand $1.2(x + 10)$.",
+      "help": "$1.2x + 12$.\n\n**Different example:** $1.5(x + 4) = 1.5x + 6$.\n\nDecimal coefficient."
+    },
+    "146": {
+      "hint": "Expand $x^2 + (x + 1)^2$.",
+      "help": "$x^2 + x^2 + 2x + 1 = 2x^2 + 2x + 1$.\n\n**Different example:** $1^2 + 2^2 = 5$ at numbers.\n\nTwo squares added."
+    },
+    "147": {
+      "hint": "Expand $5x - 2(2x - 3) + 4$.",
+      "help": "$5x - 4x + 6 + 4 = x + 10$.\n\n**Different example:** $3x - 2(x - 1) = x + 2$.\n\n−2 on bracket."
+    },
+    "148": {
+      "hint": "FOIL on $(x + 4)(x - 2)$.",
+      "help": "$x^2 + 2x - 8$.\n\n**Different example:** $(x + 3)(x - 1) = x^2 + 2x - 3$.\n\nWatch negative constant."
+    },
+    "149": {
+      "hint": "Expand $0.5(2x + 6)$.",
+      "help": "$x + 3$.\n\n**Different example:** $0.5(4x + 2) = 2x + 1$.\n\nHalf each term."
+    },
+    "150": {
+      "hint": "Expand $3(2x + 1) + 2(3x - 4)$.",
+      "help": "$6x + 3 + 6x - 8 = 12x - 5$.\n\n**Different example:** two brackets then add.\n\nCollect $x$ terms."
+    },
+    "151": {
+      "hint": "Double $(x + 5)$ minus $(x - 1)$.",
+      "help": "$2x + 10 - x + 1 = x + 11$.\n\n**Different example:** $2(a + 3) - a = a + 6$.\n\nExpand both parts."
+    },
+    "152": {
+      "hint": "Multiply $4x$ by $(x - 3)$.",
+      "help": "$4x^2 - 12x$.\n\n**Different example:** $3x(x + 2) = 3x^2 + 6x$.\n\nEach term in bracket."
+    },
+    "153": {
+      "hint": "Expand $7(x - 2) - 3(2x + 1)$.",
+      "help": "$7x - 14 - 6x - 3 = x - 17$.\n\n**Different example:** $5(x - 1) - 2(x + 2) = 3x - 9$.\n\nCareful with −3."
+    },
+    "154": {
+      "hint": "Expand $2(x + 3) + 2(2x - 1)$.",
+      "help": "$2x + 6 + 4x - 2 = 6x + 4$.\n\n**Different example:** perimeter of two rectangles.\n\nCombine."
+    },
+    "155": {
+      "hint": "Expand $(2x + 3)(x + 1)$.",
+      "help": "$2x^2 + 2x + 3x + 3 = 2x^2 + 5x + 3$.\n\n**Different example:** $(x + 2)(x + 3)$.\n\nFour products."
+    },
+    "156": {
+      "hint": "Expand $x(x + 5) - x^2$.",
+      "help": "$5x$.\n\n**Different example:** $3x(x + 2) - 3x^2 = 6x$.\n\nSquare terms cancel."
+    },
+    "157": {
+      "hint": "Expand $5(x + y + 2)$.",
+      "help": "$5x + 5y + 10$.\n\n**Different example:** $2(a + b + c)$.\n\nThree-term bracket."
+    },
+    "158": {
+      "hint": "Expand $6x - 3(x - 4) + 2$.",
+      "help": "$3x + 14$.\n\n**Different example:** $4x - 2(x - 3) + 1 = 2x + 7$.\n\nStandard expand-collect."
+    },
+    "159": {
+      "hint": "Expand $(x + 6)(x + 1)$.",
+      "help": "$x^2 + 7x + 6$.\n\n**Different example:** $(x + 5)(x + 2)$.\n\nQuadratic trinomial."
+    },
+    "160": {
+      "hint": "Expand $4(3x - 2) - 5(x + 1)$.",
+      "help": "$12x - 8 - 5x - 5 = 7x - 13$.\n\n**Different example:** $3(2x - 1) - (x + 4) = 5x - 7$.\n\nTwo brackets minus."
+    },
+    "161": {
+      "hint": "Expand $(3x - 2)(2x + 5)$.",
+      "help": "$6x^2 + 15x - 4x - 10 = 6x^2 + 11x - 10$.\n\n**Different example:** $(x + 1)(2x + 3)$.\n\nFour terms."
+    },
+    "162": {
+      "hint": "Expand $2(x + 3)^2 - 2x^2 - 12x$.",
+      "help": "Expand square first; simplify to constant.\n\n**Different example:** $(x + 1)^2$ expansion.\n\nShow each step."
+    },
+    "163": {
+      "hint": "Expand $(2x - 3)(x + 1)$ first, then multiply by $x$.",
+      "help": "Two-step expansion — multiply two brackets before third factor.\n\n**Different example:** $(x + 1)(x + 2)$ first.\n\nOrder of expansion."
+    },
+    "164": {
+      "hint": "Simplify $\\frac{12x + 8}{4} + 3x$.",
+      "help": "$3x + 2 + 3x = 6x + 2$.\n\n**Different example:** $\\frac{8x + 4}{2} = 4x + 2$.\n\nDivide each term."
+    },
+    "165": {
+      "hint": "Expand both parts of $(2x - 1)(3x + 4) - (x + 2)^2$.",
+      "help": "Expand fully, then subtract like terms.\n\n**Different example:** subtract two quadratics.\n\nCareful with square."
+    },
+    "166": {
+      "hint": "Test $(x + y)^2$ vs $x^2 + y^2$ at $x = 1$, $y = 2$.",
+      "help": "9 vs 5 → **false** without $2xy$.\n\n**Different example:** include middle term.\n\nExpand LHS."
+    },
+    "167": {
+      "hint": "Expand $3(2x - 1)^2 - 12x$.",
+      "help": "Square bracket first: $3(4x^2 - 4x + 1) - 12x$.\n\n**Different example:** $(x - 1)^2$.\n\nComplete square steps."
+    },
+    "168": {
+      "hint": "Multiply $(x + 2)(x + 3)$ then $(...)(x + 1)$.",
+      "help": "Expand two at a time.\n\n**Different example:** $(x + 1)(x + 2)(x + 3)$ stepwise.\n\nDo not skip steps."
+    },
+    "169": {
+      "hint": "Is $(x + a)^2$ always ≥ 0 for real $x$?",
+      "help": "Square term → **always** non-negative.\n\n**Different example:** $(x - 5)^2 ≥ 0$.\n\nMinimum at vertex."
+    },
+    "170": {
+      "hint": "Substitute $x = 0$ into simplified form of $5x - 2(3x - 4) + (x - 5)^2$.",
+      "help": "Simplify first, then $x = 0$.\n\n**Different example:** evaluate at given value only.\n\nExpand $(x - 5)^2$."
+    },
+    "171": {
+      "hint": "Use $(2x + 1)(2x - 1)$ difference of squares.",
+      "help": "$4x^2 - 1$.\n\n**Different example:** $(3x - 2)(3x + 2)$.\n\nNo middle term."
+    },
+    "172": {
+      "hint": "Are $x^3 + x^3$ and $2x^3$ the same?",
+      "help": "**True** — like terms.\n\n**Different example:** $5x^3 + x^3 = 6x^3$.\n\nSame power adds."
+    },
+    "173": {
+      "hint": "Expand $4(x + 1)(x - 1) - 2(x^2 - 4)$.",
+      "help": "$4(x^2 - 1) - 2x^2 + 8$ then simplify.\n\n**Different example:** use $x^2 - 1$ factor.\n\nBoth are difference of squares."
+    },
+    "174": {
+      "hint": "Expand $(x + 5)^2 - (x - 5)^2$.",
+      "help": "Use identities or expand both squares.\n\n**Different example:** $(a + b)^2 - (a - b)^2 = 4ab$.\n\nSubtract expanded forms."
+    },
+    "175": {
+      "hint": "Compare $(2x)^2$ and $2x^2$ at $x = 3$.",
+      "help": "$(6)^2 = 36$ but $2(9) = 18$ → **never** equal in general.\n\n**Different example:** $x = 2$ → 16 vs 8.\n\nParentheses matter."
+    },
+    "176": {
+      "hint": "Simplify $\\frac{3(2x - 6)}{6} + x$.",
+      "help": "$x - 3 + x = 2x - 3$.\n\n**Different example:** divide inside first.\n\nFactor 6 in numerator."
+    },
+    "177": {
+      "hint": "Expand $(3x - 2y)(x + 4y)$.",
+      "help": "Four products with $x$ and $y$.\n\n**Different example:** $(x + 2y)(x - y)$.\n\nTwo variables."
+    },
+    "178": {
+      "hint": "Test $(-x)^2$ and $x^2$ at $x = -4$.",
+      "help": "Both 16 → **true** always.\n\n**Different example:** $(-3)^2 = 9$.\n\nSquaring removes sign."
+    },
+    "179": {
+      "hint": "Expand $2(3x + 1) - 3(2x - 2) + (x + 4)$.",
+      "help": "Line-by-line to $x + 14$.\n\n**Different example:** three-part simplify.\n\nCheck −3 distribution."
+    },
+    "180": {
+      "hint": "Expand with $a = 2$, $b = 5$; compare to $x^2 + 7x + 10$.",
+      "help": "Match when $a + b = 7$, $ab = 10$.\n\n**Different example:** $(x + 2)(x + 5)$.\n\nVerify product."
+    },
+    "181": {
+      "hint": "Factor $x^2 - 1$ as $(x - 1)(x + 1)$.",
+      "help": "**Always** difference of squares identity.\n\n**Different example:** $a^2 - 9$.\n\nRecognise pattern."
+    },
+    "182": {
+      "hint": "Expand $5(2x - 3)^2 - 20x + 45$ — spot perfect square.",
+      "help": "$5(4x^2 - 12x + 9) - 20x + 45$ simplifies to $20x^2 - 80x + 90$.\n\n**Different example:** complete square form.\n\nExpand carefully."
+    },
+    "183": {
+      "hint": "Expand $(2x + 3)^2 - (x - 1)^2$.",
+      "help": "Two separate squares then subtract.\n\n**Different example:** $(x + 4)^2 - (x + 2)^2$.\n\nExpand fully."
+    },
+    "184": {
+      "hint": "Expand $3(x + 2)$ and compare to $3x + 6$.",
+      "help": "**True** identity.\n\n**Different example:** $5(x + 1) = 5x + 5$.\n\nDistributive law."
+    },
+    "185": {
+      "hint": "Expand $x(x + 1)(x + 2) - x^3 - 3x^2$.",
+      "help": "Left expands to cubic; subtract given terms.\n\n**Different example:** simplify to linear if terms cancel.\n\nExpand stepwise."
+    },
+    "186": {
+      "hint": "Expand $(x + \\frac{1}{2})^2$.",
+      "help": "$x^2 + x + \\frac{1}{4}$.\n\n**Different example:** $(x + 3)^2$.\n\nFraction in binomial."
+    },
+    "187": {
+      "hint": "Expand $(x + y)(x - y)$.",
+      "help": "$x^2 - y^2$ → **always**.\n\n**Different example:** $(2a + b)(2a - b)$.\n\nDifference of squares."
+    },
+    "188": {
+      "hint": "Expand $(2x - 1)^2$ and subtract $4x^2$.",
+      "help": "$4x^2 - 4x + 1 - 4x^2 = -4x + 1$.\n\n**Different example:** $(x - 3)^2 - x^2$.\n\nSquares may cancel."
+    },
+    "189": {
+      "hint": "Multiply $(x + 2)$ by $(x + 3)$, then by $(x + 1)$ stepwise.",
+      "help": "Expand two brackets first each time.\n\n**Different example:** cube binomial stepwise.\n\nDo not rush."
+    },
+    "190": {
+      "hint": "Simplify $10x - 5x$.",
+      "help": "$5x$ → **true**.\n\n**Different example:** $8x - 3x = 5x$.\n\nLike terms."
+    },
+    "191": {
+      "hint": "Simplify $\\frac{2(3x + 9)}{3} - 2x$.",
+      "help": "$2x + 6 - 2x = 6$.\n\n**Different example:** factor 3 in numerator.\n\n$x$ terms cancel."
+    },
+    "192": {
+      "hint": "Expand $(5x - 1)(5x + 1)$.",
+      "help": "$25x^2 - 1$.\n\n**Different example:** $(3x - 4)(3x + 4)$.\n\n$a^2 - b^2$."
+    },
+    "193": {
+      "hint": "Is $x^2 + 2x + 1$ a perfect square?",
+      "help": "**Always** $(x + 1)^2$.\n\n**Different example:** $x^2 + 6x + 9 = (x + 3)^2$.\n\nRecognise trinomial."
+    },
+    "194": {
+      "hint": "Expand $3(x + 2)(x - 2) + 4x^2$.",
+      "help": "$3(x^2 - 4) + 4x^2 = 7x^2 - 12$.\n\n**Different example:** $(x + 1)(x - 1)$ first.\n\nDifference of squares inside."
+    },
+    "195": {
+      "hint": "Expand $(2x - 3y)^2$.",
+      "help": "$4x^2 - 12xy + 9y^2$.\n\n**Different example:** $(x - 2y)^2$.\n\nCross term $-12xy$."
+    },
+    "196": {
+      "hint": "Expand $-(x - y)$ and compare to $y - x$.",
+      "help": "Both $-x + y$ → **true**.\n\n**Different example:** $-(3 - 5) = 2$.\n\nSign flip."
+    },
+    "197": {
+      "hint": "Expand $2x(3x - 4) - 3(2x^2 - 5x)$.",
+      "help": "$6x^2 - 8x - 6x^2 + 15x = 7x$.\n\n**Different example:** $x^2$ terms cancel.\n\nFull distribute."
+    },
+    "198": {
+      "hint": "Expand $(x + 1)(x + 2)$ then multiply result by $(x + 3)$.",
+      "help": "Two-stage expansion.\n\n**Different example:** write intermediate trinomial.\n\nMultiply in stages."
+    },
+    "199": {
+      "hint": "Factor $a^2 - b^2$.",
+      "help": "**Always** $(a - b)(a + b)$.\n\n**Different example:** $x^2 - 16$.\n\nClassic identity."
+    },
+    "200": {
+      "hint": "Design three brackets to expand; show full simplified result.",
+      "help": "Pick e.g. $(x + 1)(x + 2)(x + 3)$ and expand stepwise.\n\n**Different example:** your own product of three binomials.\n\nShow all working."
+    }
+  }
+}

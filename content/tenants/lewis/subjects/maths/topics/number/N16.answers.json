@@ -1,0 +1,1744 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "8.3 cm",
+      "accept": [
+        "8.3",
+        "8.3 cm",
+        "8.3cm"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 520
+    },
+    "3": {
+      "display": "No",
+      "accept": [
+        "no",
+        "n"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "4": {
+      "display": "Nearest centimetre",
+      "accept": [
+        "nearest centimetre",
+        "centimetre",
+        "cm"
+      ],
+      "tier": 1,
+      "rating": 560
+    },
+    "5": {
+      "display": "6.5 cm",
+      "accept": [
+        "6.5",
+        "6.5 cm",
+        "6.5cm"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "6": {
+      "display": "7.5 cm",
+      "accept": [
+        "7.5",
+        "7.5 cm",
+        "7.5cm"
+      ],
+      "tier": 1,
+      "rating": 600
+    },
+    "7": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "8": {
+      "display": "Nearest 1 cm",
+      "accept": [
+        "nearest 1 cm",
+        "1 cm",
+        "nearest cm"
+      ],
+      "tier": 1,
+      "rating": 640
+    },
+    "9": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 700
+    },
+    "10": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 660
+    },
+    "11": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 680
+    },
+    "12": {
+      "display": "Yes — nearest cm",
+      "accept": [
+        "yes",
+        "nearest cm",
+        "cm"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "11.5 ≤ a < 12.5",
+      "accept": [
+        "11.5",
+        "12.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 650
+    },
+    "14": {
+      "display": "4.5 ≤ b < 5.5",
+      "accept": [
+        "4.5",
+        "5.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 661
+    },
+    "15": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 671
+    },
+    "16": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 682
+    },
+    "17": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 693
+    },
+    "18": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 703
+    },
+    "19": {
+      "display": "92.25",
+      "accept": [
+        "92.25"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "20": {
+      "display": "68.25",
+      "accept": [
+        "68.25"
+      ],
+      "tier": 1,
+      "rating": 778
+    },
+    "21": {
+      "display": "5.86 (20.5 ÷ 3.5)",
+      "accept": [
+        "5.86",
+        "5.857"
+      ],
+      "tier": 1,
+      "rating": 831
+    },
+    "22": {
+      "display": "4.33 (19.5 ÷ 4.5)",
+      "accept": [
+        "4.33",
+        "4.333"
+      ],
+      "tier": 1,
+      "rating": 895
+    },
+    "23": {
+      "display": "11.10",
+      "accept": [
+        "11.1",
+        "11.10"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "24": {
+      "display": "4.90",
+      "accept": [
+        "4.9",
+        "4.90"
+      ],
+      "tier": 1,
+      "rating": 817
+    },
+    "25": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 983
+    },
+    "26": {
+      "display": "6.92 (45 ÷ 6.5)",
+      "accept": [
+        "6.92",
+        "6.923"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "27": {
+      "display": "Wrong — using the maximum of b subtracts a bigger amount, giving a smaller result. To maximise a − b, use the maximum of a and the MINIMUM of b.",
+      "accept": [
+        "minimum",
+        "wrong"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "28": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1015
+    },
+    "29": {
+      "display": "No — to minimise a + b you use the lower bound of a AND the lower bound of b, not one minimum and one maximum.",
+      "accept": [
+        "no",
+        "lower bound"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1244
+    },
+    "30": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1454
+    },
+    "31": {
+      "display": "For the minimum of a ÷ b, use the lower bound of a and the upper bound of b. For the minimum of a × b, use the lower bounds of both a and b.",
+      "accept": [
+        "lower",
+        "upper"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "32": {
+      "display": "131.75 cm²",
+      "accept": [
+        "131.75"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "33": {
+      "display": "108.75 cm²",
+      "accept": [
+        "108.75"
+      ],
+      "tier": 3,
+      "rating": 1717
+    },
+    "34": {
+      "display": "67 mph",
+      "accept": [
+        "67"
+      ],
+      "tier": 3,
+      "rating": 1633
+    },
+    "35": {
+      "display": "14 kg",
+      "accept": [
+        "14"
+      ],
+      "tier": 3,
+      "rating": 1733
+    },
+    "36": {
+      "display": "175.5 cm",
+      "accept": [
+        "175.5"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "259.875 cm³",
+      "accept": [
+        "259.875"
+      ],
+      "tier": 3,
+      "rating": 1922
+    },
+    "38": {
+      "display": "149.625 cm³",
+      "accept": [
+        "149.625"
+      ],
+      "tier": 3,
+      "rating": 1948
+    },
+    "39": {
+      "display": "8.26 m/s (95 ÷ 11.5)",
+      "accept": [
+        "8.26",
+        "8.261"
+      ],
+      "tier": 3,
+      "rating": 1974
+    },
+    "40": {
+      "display": "6.80 m/s (85 ÷ 12.5)",
+      "accept": [
+        "6.8",
+        "6.80"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "24 cm ≤ sum < 26 cm",
+      "accept": [
+        "24",
+        "26"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "Yes — multiplying the smallest possible values of a and b together gives the smallest possible product.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 941
+    },
+    "43": {
+      "display": "15.5 cm",
+      "accept": [
+        "15.5",
+        "15.5 cm"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "2.35 kg",
+      "accept": [
+        "2.35",
+        "2.35 kg"
+      ],
+      "tier": 1,
+      "rating": 784
+    },
+    "45": {
+      "display": "8.5 cm",
+      "accept": [
+        "8.5",
+        "8.5 cm"
+      ],
+      "tier": 1,
+      "rating": 818
+    },
+    "46": {
+      "display": "3.65 kg",
+      "accept": [
+        "3.65",
+        "3.65 kg"
+      ],
+      "tier": 1,
+      "rating": 853
+    },
+    "47": {
+      "display": "5.5 ≤ x < 6.5 cm",
+      "accept": [
+        "5.5",
+        "6.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 887
+    },
+    "48": {
+      "display": "63.25 cm²",
+      "accept": [
+        "63.25"
+      ],
+      "tier": 1,
+      "rating": 921
+    },
+    "49": {
+      "display": "45 m",
+      "accept": [
+        "45"
+      ],
+      "tier": 1,
+      "rating": 955
+    },
+    "50": {
+      "display": "6.95 kg",
+      "accept": [
+        "6.95",
+        "6.95 kg"
+      ],
+      "tier": 1,
+      "rating": 989
+    },
+    "51": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "52": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 1058
+    },
+    "53": {
+      "display": "12.4025",
+      "accept": [
+        "12.4",
+        "12.40",
+        "12.4025"
+      ],
+      "tier": 1,
+      "rating": 1092
+    },
+    "54": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1126
+    },
+    "55": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 1161
+    },
+    "56": {
+      "display": "105",
+      "accept": [
+        "105"
+      ],
+      "tier": 1,
+      "rating": 1195
+    },
+    "57": {
+      "display": "34.125 cm²",
+      "accept": [
+        "34.125"
+      ],
+      "tier": 1,
+      "rating": 1229
+    },
+    "58": {
+      "display": "45 ≤ v < 55 mph",
+      "accept": [
+        "45",
+        "55"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1263
+    },
+    "59": {
+      "display": "97.5",
+      "accept": [
+        "97.5"
+      ],
+      "tier": 1,
+      "rating": 1297
+    },
+    "60": {
+      "display": "11.18",
+      "accept": [
+        "11.18",
+        "11.176"
+      ],
+      "tier": 1,
+      "rating": 1332
+    },
+    "61": {
+      "display": "No — use both upper bounds to maximise a × b.",
+      "accept": [
+        "no",
+        "upper"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1366
+    },
+    "62": {
+      "display": "2.45 ≤ l < 2.55 m",
+      "accept": [
+        "2.45",
+        "2.55"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1400
+    },
+    "63": {
+      "display": "13.5 cm",
+      "accept": [
+        "13.5",
+        "13.5 cm"
+      ],
+      "tier": 1,
+      "rating": 724
+    },
+    "64": {
+      "display": "4.75 kg",
+      "accept": [
+        "4.75",
+        "4.75 kg"
+      ],
+      "tier": 1,
+      "rating": 735
+    },
+    "65": {
+      "display": "36.75",
+      "accept": [
+        "36.75"
+      ],
+      "tier": 1,
+      "rating": 746
+    },
+    "66": {
+      "display": "23.75",
+      "accept": [
+        "23.75"
+      ],
+      "tier": 1,
+      "rating": 756
+    },
+    "67": {
+      "display": "9.1",
+      "accept": [
+        "9.1",
+        "9.10"
+      ],
+      "tier": 1,
+      "rating": 767
+    },
+    "68": {
+      "display": "4.9",
+      "accept": [
+        "4.9",
+        "4.90"
+      ],
+      "tier": 1,
+      "rating": 788
+    },
+    "69": {
+      "display": "10625 m²",
+      "accept": [
+        "10625"
+      ],
+      "tier": 1,
+      "rating": 799
+    },
+    "70": {
+      "display": "8625 m²",
+      "accept": [
+        "8625"
+      ],
+      "tier": 1,
+      "rating": 810
+    },
+    "71": {
+      "display": "26 km/h",
+      "accept": [
+        "26"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "72": {
+      "display": "15.7 km/h",
+      "accept": [
+        "15.7",
+        "15.71"
+      ],
+      "tier": 1,
+      "rating": 841
+    },
+    "73": {
+      "display": "56 g",
+      "accept": [
+        "56"
+      ],
+      "tier": 1,
+      "rating": 852
+    },
+    "74": {
+      "display": "24 g",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 863
+    },
+    "75": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 873
+    },
+    "76": {
+      "display": "345 ≤ x < 355",
+      "accept": [
+        "345",
+        "355"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 884
+    },
+    "77": {
+      "display": "0.85 s",
+      "accept": [
+        "0.85"
+      ],
+      "tier": 1,
+      "rating": 905
+    },
+    "78": {
+      "display": "1375",
+      "accept": [
+        "1375"
+      ],
+      "tier": 1,
+      "rating": 916
+    },
+    "79": {
+      "display": "0.445 m",
+      "accept": [
+        "0.445"
+      ],
+      "tier": 1,
+      "rating": 927
+    },
+    "80": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 937
+    },
+    "81": {
+      "display": "86.625 cm³",
+      "accept": [
+        "86.625"
+      ],
+      "tier": 1,
+      "rating": 948
+    },
+    "82": {
+      "display": "39.375 cm³",
+      "accept": [
+        "39.375"
+      ],
+      "tier": 1,
+      "rating": 959
+    },
+    "83": {
+      "display": "4.43",
+      "accept": [
+        "4.43",
+        "4.428"
+      ],
+      "tier": 1,
+      "rating": 969
+    },
+    "84": {
+      "display": "3.22",
+      "accept": [
+        "3.22",
+        "3.222"
+      ],
+      "tier": 1,
+      "rating": 980
+    },
+    "85": {
+      "display": "21.5 ≤ l < 22.5 cm",
+      "accept": [
+        "21.5",
+        "22.5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 990
+    },
+    "86": {
+      "display": "5.005 l",
+      "accept": [
+        "5.005"
+      ],
+      "tier": 1,
+      "rating": 1001
+    },
+    "87": {
+      "display": "70 mph",
+      "accept": [
+        "70"
+      ],
+      "tier": 1,
+      "rating": 1012
+    },
+    "88": {
+      "display": "52.2 mph",
+      "accept": [
+        "52.2",
+        "52.22"
+      ],
+      "tier": 1,
+      "rating": 1022
+    },
+    "89": {
+      "display": "17 cm ≤ sum < 19 cm",
+      "accept": [
+        "17",
+        "19"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1033
+    },
+    "90": {
+      "display": "7500",
+      "accept": [
+        "7500"
+      ],
+      "tier": 1,
+      "rating": 1044
+    },
+    "91": {
+      "display": "3.05",
+      "accept": [
+        "3.05",
+        "3.050"
+      ],
+      "tier": 1,
+      "rating": 1054
+    },
+    "92": {
+      "display": "2.95",
+      "accept": [
+        "2.95",
+        "2.951"
+      ],
+      "tier": 1,
+      "rating": 1065
+    },
+    "93": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 1076
+    },
+    "94": {
+      "display": "1.75 m",
+      "accept": [
+        "1.75"
+      ],
+      "tier": 1,
+      "rating": 1086
+    },
+    "95": {
+      "display": "47.5 cm",
+      "accept": [
+        "47.5"
+      ],
+      "tier": 1,
+      "rating": 1097
+    },
+    "96": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 1107
+    },
+    "97": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1118
+    },
+    "98": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1129
+    },
+    "99": {
+      "display": "62 cm",
+      "accept": [
+        "62"
+      ],
+      "tier": 1,
+      "rating": 1139
+    },
+    "100": {
+      "display": "58 cm",
+      "accept": [
+        "58"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "101": {
+      "display": "Wrong — use the minimum of a and the maximum of b to minimise a − b.",
+      "accept": [
+        "maximum",
+        "wrong"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 919
+    },
+    "102": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 938
+    },
+    "103": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 957
+    },
+    "104": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 976
+    },
+    "105": {
+      "display": "65 km/h",
+      "accept": [
+        "65"
+      ],
+      "tier": 2,
+      "rating": 996
+    },
+    "106": {
+      "display": "55 km/h",
+      "accept": [
+        "55"
+      ],
+      "tier": 2,
+      "rating": 1034
+    },
+    "107": {
+      "display": "365",
+      "accept": [
+        "365"
+      ],
+      "tier": 2,
+      "rating": 1053
+    },
+    "108": {
+      "display": "435",
+      "accept": [
+        "435"
+      ],
+      "tier": 2,
+      "rating": 1072
+    },
+    "109": {
+      "display": "1560.25 cm²",
+      "accept": [
+        "1560.25"
+      ],
+      "tier": 2,
+      "rating": 1091
+    },
+    "110": {
+      "display": "19683 cm²",
+      "accept": [
+        "19683"
+      ],
+      "tier": 2,
+      "rating": 1110
+    },
+    "111": {
+      "display": "Yes — the true value can equal the lower limit but not the upper limit.",
+      "accept": [
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1129
+    },
+    "112": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1149
+    },
+    "113": {
+      "display": "3.73 g/cm³",
+      "accept": [
+        "3.73",
+        "3.725"
+      ],
+      "tier": 2,
+      "rating": 1168
+    },
+    "114": {
+      "display": "4.29 g/cm³",
+      "accept": [
+        "4.29",
+        "4.285"
+      ],
+      "tier": 2,
+      "rating": 1187
+    },
+    "115": {
+      "display": "11.6 km/l",
+      "accept": [
+        "11.6"
+      ],
+      "tier": 2,
+      "rating": 1206
+    },
+    "116": {
+      "display": "13.5 km/l",
+      "accept": [
+        "13.5",
+        "13.48"
+      ],
+      "tier": 2,
+      "rating": 1225
+    },
+    "117": {
+      "display": "Dividing by a larger b makes the quotient smaller — use upper a and lower b.",
+      "accept": [
+        "lower",
+        "smaller"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1263
+    },
+    "118": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1282
+    },
+    "119": {
+      "display": "1.245 ≤ x < 1.255 m",
+      "accept": [
+        "1.245",
+        "1.255"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1301
+    },
+    "120": {
+      "display": "45500 m",
+      "accept": [
+        "45500"
+      ],
+      "tier": 2,
+      "rating": 1321
+    },
+    "121": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1340
+    },
+    "122": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1359
+    },
+    "123": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1378
+    },
+    "124": {
+      "display": "Max × uses both upper bounds; max ÷ uses upper a and lower b.",
+      "accept": [
+        "upper",
+        "lower"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1397
+    },
+    "125": {
+      "display": "Lower bound should be 5.5 cm, not 5 cm.",
+      "accept": [
+        "5.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1416
+    },
+    "126": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1435
+    },
+    "127": {
+      "display": "Maximum a − b is 8 (10.5 − 2.5), not 7 from using both upper bounds.",
+      "accept": [
+        "8",
+        "wrong"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1474
+    },
+    "128": {
+      "display": "No — upper bound of 14 cm is 14.5 cm, not double 7.5 cm.",
+      "accept": [
+        "no",
+        "14.5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1493
+    },
+    "129": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1512
+    },
+    "130": {
+      "display": "5.0 cm (1 d.p.) — the rounding unit is smaller (0.05 cm vs 0.5 cm).",
+      "accept": [
+        "5.0",
+        "1 d.p",
+        "decimal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1531
+    },
+    "131": {
+      "display": "471.75 m²",
+      "accept": [
+        "471.75"
+      ],
+      "tier": 2,
+      "rating": 1100
+    },
+    "132": {
+      "display": "428.75 m²",
+      "accept": [
+        "428.75"
+      ],
+      "tier": 2,
+      "rating": 1117
+    },
+    "133": {
+      "display": "8.53 m/s",
+      "accept": [
+        "8.53",
+        "8.526"
+      ],
+      "tier": 2,
+      "rating": 1133
+    },
+    "134": {
+      "display": "7.52 m/s",
+      "accept": [
+        "7.52",
+        "7.524"
+      ],
+      "tier": 2,
+      "rating": 1150
+    },
+    "135": {
+      "display": "24 cm",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 1167
+    },
+    "136": {
+      "display": "4 cm",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1183
+    },
+    "137": {
+      "display": "690.625 cm³",
+      "accept": [
+        "690.625"
+      ],
+      "tier": 2,
+      "rating": 1200
+    },
+    "138": {
+      "display": "474.375 cm³",
+      "accept": [
+        "474.375"
+      ],
+      "tier": 2,
+      "rating": 1217
+    },
+    "139": {
+      "display": "86.7 km/h",
+      "accept": [
+        "86.7",
+        "86.67"
+      ],
+      "tier": 2,
+      "rating": 1233
+    },
+    "140": {
+      "display": "74.1 km/h",
+      "accept": [
+        "74.1",
+        "74.12"
+      ],
+      "tier": 2,
+      "rating": 1250
+    },
+    "141": {
+      "display": "1.28 m",
+      "accept": [
+        "1.28",
+        "1.275"
+      ],
+      "tier": 2,
+      "rating": 1267
+    },
+    "142": {
+      "display": "149.5 cm",
+      "accept": [
+        "149.5"
+      ],
+      "tier": 2,
+      "rating": 1283
+    },
+    "143": {
+      "display": "162.75 cm²",
+      "accept": [
+        "162.75"
+      ],
+      "tier": 2,
+      "rating": 1300
+    },
+    "144": {
+      "display": "48 cm",
+      "accept": [
+        "48"
+      ],
+      "tier": 2,
+      "rating": 1317
+    },
+    "145": {
+      "display": "16.6 litres",
+      "accept": [
+        "16.6",
+        "16.575"
+      ],
+      "tier": 2,
+      "rating": 1333
+    },
+    "146": {
+      "display": "13.5 litres",
+      "accept": [
+        "13.5",
+        "13.475"
+      ],
+      "tier": 2,
+      "rating": 1350
+    },
+    "147": {
+      "display": "5.10 kg",
+      "accept": [
+        "5.1",
+        "5.10"
+      ],
+      "tier": 2,
+      "rating": 1367
+    },
+    "148": {
+      "display": "1.30 kg",
+      "accept": [
+        "1.3",
+        "1.30"
+      ],
+      "tier": 2,
+      "rating": 1383
+    },
+    "149": {
+      "display": "18.97 km/h",
+      "accept": [
+        "18.97"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "150": {
+      "display": "17.10 km/h",
+      "accept": [
+        "17.1",
+        "17.10"
+      ],
+      "tier": 2,
+      "rating": 1417
+    },
+    "151": {
+      "display": "12.35 m²",
+      "accept": [
+        "12.35",
+        "12.3525"
+      ],
+      "tier": 2,
+      "rating": 1433
+    },
+    "152": {
+      "display": "11.65 m²",
+      "accept": [
+        "11.65",
+        "11.6525"
+      ],
+      "tier": 2,
+      "rating": 1450
+    },
+    "153": {
+      "display": "403.75 litres",
+      "accept": [
+        "403.75"
+      ],
+      "tier": 2,
+      "rating": 1467
+    },
+    "154": {
+      "display": "318.75 litres",
+      "accept": [
+        "318.75"
+      ],
+      "tier": 2,
+      "rating": 1483
+    },
+    "155": {
+      "display": "195 m ≤ sum < 215 m",
+      "accept": [
+        "195",
+        "215"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1500
+    },
+    "156": {
+      "display": "15.42 g/cm",
+      "accept": [
+        "15.42"
+      ],
+      "tier": 2,
+      "rating": 1517
+    },
+    "157": {
+      "display": "14.59 g/cm",
+      "accept": [
+        "14.59"
+      ],
+      "tier": 2,
+      "rating": 1533
+    },
+    "158": {
+      "display": "4.92 m",
+      "accept": [
+        "4.92",
+        "4.917"
+      ],
+      "tier": 2,
+      "rating": 1567
+    },
+    "159": {
+      "display": "£7.65",
+      "accept": [
+        "7.65",
+        "7.65"
+      ],
+      "tier": 2,
+      "rating": 1583
+    },
+    "160": {
+      "display": "£7.35",
+      "accept": [
+        "7.35"
+      ],
+      "tier": 2,
+      "rating": 1600
+    },
+    "161": {
+      "display": "72 chairs",
+      "accept": [
+        "72"
+      ],
+      "tier": 2,
+      "rating": 1617
+    },
+    "162": {
+      "display": "40.4 litres",
+      "accept": [
+        "40.4"
+      ],
+      "tier": 2,
+      "rating": 1650
+    },
+    "163": {
+      "display": "39.6 litres",
+      "accept": [
+        "39.6"
+      ],
+      "tier": 2,
+      "rating": 1667
+    },
+    "164": {
+      "display": "45.33 m²",
+      "accept": [
+        "45.33",
+        "45.325"
+      ],
+      "tier": 2,
+      "rating": 1683
+    },
+    "165": {
+      "display": "41.13 m²",
+      "accept": [
+        "41.13",
+        "41.125"
+      ],
+      "tier": 2,
+      "rating": 1700
+    },
+    "166": {
+      "display": "3.40",
+      "accept": [
+        "3.4",
+        "3.40"
+      ],
+      "tier": 3,
+      "rating": 1400
+    },
+    "167": {
+      "display": "2.14",
+      "accept": [
+        "2.14",
+        "2.143"
+      ],
+      "tier": 3,
+      "rating": 1426
+    },
+    "168": {
+      "display": "539 cm³",
+      "accept": [
+        "539",
+        "539.5"
+      ],
+      "tier": 3,
+      "rating": 1452
+    },
+    "169": {
+      "display": "508 cm³",
+      "accept": [
+        "508",
+        "507.5"
+      ],
+      "tier": 3,
+      "rating": 1478
+    },
+    "170": {
+      "display": "20.22 m/s",
+      "accept": [
+        "20.22",
+        "20.2"
+      ],
+      "tier": 3,
+      "rating": 1504
+    },
+    "171": {
+      "display": "16.18 m/s",
+      "accept": [
+        "16.18",
+        "16.2"
+      ],
+      "tier": 3,
+      "rating": 1530
+    },
+    "172": {
+      "display": "22.5 cm",
+      "accept": [
+        "22.5"
+      ],
+      "tier": 3,
+      "rating": 1557
+    },
+    "173": {
+      "display": "19.5 cm",
+      "accept": [
+        "19.5"
+      ],
+      "tier": 3,
+      "rating": 1583
+    },
+    "174": {
+      "display": "7625",
+      "accept": [
+        "7625"
+      ],
+      "tier": 3,
+      "rating": 1609
+    },
+    "175": {
+      "display": "11.8",
+      "accept": [
+        "11.8"
+      ],
+      "tier": 3,
+      "rating": 1635
+    },
+    "176": {
+      "display": "202 cm³",
+      "accept": [
+        "202",
+        "201.9"
+      ],
+      "tier": 3,
+      "rating": 1661
+    },
+    "177": {
+      "display": "109 cm³",
+      "accept": [
+        "109",
+        "108.9"
+      ],
+      "tier": 3,
+      "rating": 1687
+    },
+    "178": {
+      "display": "4.95 ≤ s < 6.05",
+      "accept": [
+        "4.95",
+        "6.05"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1713
+    },
+    "179": {
+      "display": "16.4%",
+      "accept": [
+        "16.4",
+        "16.35"
+      ],
+      "tier": 3,
+      "rating": 1739
+    },
+    "180": {
+      "display": "13.7%",
+      "accept": [
+        "13.7",
+        "13.66"
+      ],
+      "tier": 3,
+      "rating": 1765
+    },
+    "181": {
+      "display": "0.332 m",
+      "accept": [
+        "0.332",
+        "0.331"
+      ],
+      "tier": 3,
+      "rating": 1791
+    },
+    "182": {
+      "display": "21",
+      "accept": [
+        "21",
+        "21.0"
+      ],
+      "tier": 3,
+      "rating": 1817
+    },
+    "183": {
+      "display": "0.253",
+      "accept": [
+        "0.253"
+      ],
+      "tier": 3,
+      "rating": 1843
+    },
+    "184": {
+      "display": "0.228",
+      "accept": [
+        "0.228"
+      ],
+      "tier": 3,
+      "rating": 1870
+    },
+    "185": {
+      "display": "375",
+      "accept": [
+        "375"
+      ],
+      "tier": 3,
+      "rating": 1896
+    },
+    "186": {
+      "display": "9.45 kg",
+      "accept": [
+        "9.45"
+      ],
+      "tier": 3,
+      "rating": 981
+    },
+    "187": {
+      "display": "7.5 cm",
+      "accept": [
+        "7.5"
+      ],
+      "tier": 3,
+      "rating": 1022
+    },
+    "188": {
+      "display": "28.75",
+      "accept": [
+        "28.75"
+      ],
+      "tier": 3,
+      "rating": 1063
+    },
+    "189": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1103
+    },
+    "190": {
+      "display": "51.75 cm²",
+      "accept": [
+        "51.75"
+      ],
+      "tier": 3,
+      "rating": 1144
+    },
+    "191": {
+      "display": "6.55 m/s",
+      "accept": [
+        "6.55",
+        "6.552"
+      ],
+      "tier": 3,
+      "rating": 1184
+    },
+    "192": {
+      "display": "9.90 g",
+      "accept": [
+        "9.9",
+        "9.90"
+      ],
+      "tier": 3,
+      "rating": 1225
+    },
+    "193": {
+      "display": "When finding a maximum for a ÷ b, use the upper bound of the top and the lower bound of the bottom.",
+      "accept": [
+        "upper",
+        "lower",
+        "maximum"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1266
+    },
+    "194": {
+      "display": "2450 ≤ x < 2550",
+      "accept": [
+        "2450",
+        "2550"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1306
+    },
+    "195": {
+      "display": "6.10",
+      "accept": [
+        "6.1",
+        "6.10"
+      ],
+      "tier": 3,
+      "rating": 1347
+    },
+    "196": {
+      "display": "39.375 cm³",
+      "accept": [
+        "39.375"
+      ],
+      "tier": 3,
+      "rating": 1388
+    },
+    "197": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1428
+    },
+    "198": {
+      "display": "56.9 mph",
+      "accept": [
+        "56.9",
+        "56.86"
+      ],
+      "tier": 3,
+      "rating": 1469
+    },
+    "199": {
+      "display": "4.995 ≤ x < 5.005 cm",
+      "accept": [
+        "4.995",
+        "5.005"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1509
+    },
+    "200": {
+      "display": "3550 m",
+      "accept": [
+        "3550"
+      ],
+      "tier": 3,
+      "rating": 1550
+    }
+  }
+}

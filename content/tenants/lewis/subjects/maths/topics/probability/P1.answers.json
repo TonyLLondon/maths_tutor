@@ -1,0 +1,1847 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "Certain",
+      "accept": [
+        "certain"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "Impossible",
+      "accept": [
+        "impossible"
+      ],
+      "tier": 1,
+      "rating": 520
+    },
+    "3": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 555
+    },
+    "4": {
+      "display": "Heads and tails",
+      "accept": [
+        "heads and tails",
+        "heads tails"
+      ],
+      "tier": 1,
+      "rating": 585
+    },
+    "5": {
+      "display": "They are equally likely.",
+      "accept": [
+        "equally likely",
+        "same"
+      ],
+      "tier": 1,
+      "rating": 615
+    },
+    "6": {
+      "display": "Impossible",
+      "accept": [
+        "impossible"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "7": {
+      "display": "Green",
+      "accept": [
+        "green"
+      ],
+      "tier": 1,
+      "rating": 685
+    },
+    "8": {
+      "display": "Impossible, possible, certain",
+      "accept": [
+        "impossible possible certain",
+        "impossible, possible, certain"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "1, 2, 3, 4, 5, 6",
+      "accept": [
+        "1 2 3 4 5 6",
+        "1,2,3,4,5,6",
+        "1 to 6"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "A number greater than 4 is more likely: P(3) = 1/6, P(>4) = 2/6.",
+      "accept": [
+        "greater than 4",
+        ">4",
+        "2/6",
+        "1/3",
+        "more likely"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "one quarter",
+        "0.25",
+        "25%"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "1/2 (5 out of 10)",
+      "accept": [
+        "1/2",
+        "5/10",
+        "one half",
+        "0.5",
+        "50%"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "3/10",
+      "accept": [
+        "3/10",
+        "0.3",
+        "30%"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "one half",
+        "0.5",
+        "50%"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "1/2 (5 out of 10)",
+      "accept": [
+        "1/2",
+        "5/10",
+        "one half",
+        "0.5",
+        "50%"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "1/5 (2 out of 10)",
+      "accept": [
+        "1/5",
+        "2/10",
+        "0.2",
+        "20%"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "Impossible = 0; certain = 1",
+      "accept": [
+        "0 1",
+        "0 and 1",
+        "0,1"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "1/4 (2 out of 8)",
+      "accept": [
+        "1/4",
+        "2/8",
+        "0.25",
+        "25%"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "0 — it is impossible",
+      "accept": [
+        "0",
+        "impossible"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "1/20",
+      "accept": [
+        "1/20",
+        "0.05",
+        "5%"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "No — on a fair dice every face is equally likely.",
+      "accept": [
+        "no",
+        "incorrect",
+        "equally likely",
+        "same"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "22": {
+      "display": "Unfair — P(Win) = 6/8 and P(Lose) = 2/8, so Win is more likely.",
+      "accept": [
+        "unfair",
+        "not fair",
+        "6/8",
+        "more likely to win"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1230
+    },
+    "23": {
+      "display": "No — each flip is independent, so the probability of tails is still 1/2, whatever happened before.",
+      "accept": [
+        "no",
+        "incorrect",
+        "independent",
+        "still 1/2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1280
+    },
+    "24": {
+      "display": "True — probabilities range from 0 to 1; a probability of 1 means the event is certain to happen.",
+      "accept": [
+        "true",
+        "certain"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1330
+    },
+    "25": {
+      "display": "Yes — both red and blue have probability 2/5.",
+      "accept": [
+        "yes",
+        "correct",
+        "2/5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1380
+    },
+    "26": {
+      "display": "No. P(red) for Bag A is 2/4 = 1/2, but P(red) for Bag B is 2/10 = 1/5 — the total number of counters matters, not just the number of red ones.",
+      "accept": [
+        "no",
+        "incorrect",
+        "1/2",
+        "1/5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1430
+    },
+    "27": {
+      "display": "It means rain is possible but unlikely — if this happened many times, it would rain on about 30 out of every 100 similar days.",
+      "accept": [
+        "possible",
+        "not certain",
+        "30 out of 100",
+        "unlikely"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1480
+    },
+    "28": {
+      "display": "Six ways to total 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). 36 equally likely outcomes for two dice.",
+      "accept": [
+        "6",
+        "36",
+        "six ways",
+        "6 ways"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "29": {
+      "display": "1/2 (10 green out of 20)",
+      "accept": [
+        "1/2",
+        "10/20",
+        "0.5",
+        "50%"
+      ],
+      "tier": 3,
+      "rating": 1670
+    },
+    "30": {
+      "display": "2/5 (12 out of 30)",
+      "accept": [
+        "2/5",
+        "12/30",
+        "0.4",
+        "40%"
+      ],
+      "tier": 3,
+      "rating": 1720
+    },
+    "31": {
+      "display": "About 15 times (probability 1/4 of 60)",
+      "accept": [
+        "15",
+        "about 15"
+      ],
+      "tier": 3,
+      "rating": 1730
+    },
+    "32": {
+      "display": "1/20 (5 out of 100)",
+      "accept": [
+        "1/20",
+        "5/100",
+        "0.05",
+        "5%"
+      ],
+      "tier": 3,
+      "rating": 1737
+    },
+    "33": {
+      "display": "1/2 (5 out of 10)",
+      "accept": [
+        "1/2",
+        "5/10",
+        "0.5",
+        "50%"
+      ],
+      "tier": 3,
+      "rating": 1744
+    },
+    "34": {
+      "display": "1/5 (5 multiples of 5 out of 25 cards)",
+      "accept": [
+        "1/5",
+        "5/25",
+        "0.2",
+        "20%"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "35": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "one sixth"
+      ],
+      "tier": 2,
+      "rating": 1240
+    },
+    "36": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "25%",
+        "0.25"
+      ],
+      "tier": 2,
+      "rating": 1316
+    },
+    "37": {
+      "display": "2/5",
+      "accept": [
+        "2/5",
+        "0.4",
+        "40%"
+      ],
+      "tier": 2,
+      "rating": 1392
+    },
+    "38": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "50%",
+        "0.5"
+      ],
+      "tier": 2,
+      "rating": 1360
+    },
+    "39": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "5/10",
+        "50%"
+      ],
+      "tier": 2,
+      "rating": 1380
+    },
+    "40": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "25%",
+        "0.25"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "41": {
+      "display": "Fair spinner with three equal sections — e.g. each colour probability 1/3.",
+      "accept": [
+        "three equal sections",
+        "equal sections",
+        "1/3",
+        "one third"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 1880
+    },
+    "42": {
+      "display": "1/6 (since 1/2 + 1/3 = 5/6, leaving 1/6 for green)",
+      "accept": [
+        "1/6"
+      ],
+      "tier": 3,
+      "rating": 1925
+    },
+    "43": {
+      "display": "There are 6 ways to make 7 (e.g. 1+6, 2+5, 3+4, 4+3, 5+2, 6+1) but only 1 way to make 2 (1+1), so 7 has more chances of occurring.",
+      "accept": [
+        "6",
+        "1 way",
+        "more ways"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1975
+    },
+    "44": {
+      "display": "Total 7 is most likely, with 6 ways out of 36, so P(7) = 6/36 = 1/6.",
+      "accept": [
+        "7",
+        "6/36",
+        "1/6"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "45": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 2,
+      "rating": 1250
+    },
+    "46": {
+      "display": "HH, HT, TH, TT",
+      "accept": [
+        "hh",
+        "ht",
+        "th",
+        "tt"
+      ],
+      "tier": 2,
+      "rating": 1255,
+      "contains": true
+    },
+    "47": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 2,
+      "rating": 1260
+    },
+    "48": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 2,
+      "rating": 1265
+    },
+    "49": {
+      "display": "12",
+      "accept": [
+        "12",
+        "twelve"
+      ],
+      "tier": 2,
+      "rating": 1269
+    },
+    "50": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 2,
+      "rating": 1274
+    },
+    "51": {
+      "display": "2 — (P then Q) and (Q then P)",
+      "accept": [
+        "2",
+        "two",
+        "pq",
+        "qp"
+      ],
+      "tier": 2,
+      "rating": 1279,
+      "contains": true
+    },
+    "52": {
+      "display": "1, 2, 3, 4",
+      "accept": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1284,
+      "contains": true
+    },
+    "53": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 2,
+      "rating": 1289
+    },
+    "54": {
+      "display": "36",
+      "accept": [
+        "36"
+      ],
+      "tier": 2,
+      "rating": 1294
+    },
+    "55": {
+      "display": "5/6",
+      "accept": [
+        "5/6"
+      ],
+      "tier": 2,
+      "rating": 1298
+    },
+    "56": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "0.5",
+        "50%"
+      ],
+      "tier": 2,
+      "rating": 1303
+    },
+    "57": {
+      "display": "1/5",
+      "accept": [
+        "1/5",
+        "2/10"
+      ],
+      "tier": 2,
+      "rating": 1308
+    },
+    "58": {
+      "display": "4/5",
+      "accept": [
+        "4/5"
+      ],
+      "tier": 2,
+      "rating": 1313
+    },
+    "59": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "5/10"
+      ],
+      "tier": 2,
+      "rating": 1318
+    },
+    "60": {
+      "display": "2/3",
+      "accept": [
+        "2/3",
+        "4/6"
+      ],
+      "tier": 2,
+      "rating": 1323
+    },
+    "61": {
+      "display": "0.65",
+      "accept": [
+        "0.65",
+        "65%"
+      ],
+      "tier": 2,
+      "rating": 1327
+    },
+    "62": {
+      "display": "5/8",
+      "accept": [
+        "5/8"
+      ],
+      "tier": 2,
+      "rating": 1332
+    },
+    "63": {
+      "display": "3/4",
+      "accept": [
+        "3/4"
+      ],
+      "tier": 2,
+      "rating": 1337
+    },
+    "64": {
+      "display": "4/5",
+      "accept": [
+        "4/5",
+        "16/20"
+      ],
+      "tier": 2,
+      "rating": 1342
+    },
+    "65": {
+      "display": "5/7",
+      "accept": [
+        "5/7"
+      ],
+      "tier": 2,
+      "rating": 1347
+    },
+    "66": {
+      "display": "49/50",
+      "accept": [
+        "49/50"
+      ],
+      "tier": 2,
+      "rating": 1352
+    },
+    "67": {
+      "display": "3/4",
+      "accept": [
+        "3/4"
+      ],
+      "tier": 2,
+      "rating": 1356
+    },
+    "68": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "6/12"
+      ],
+      "tier": 2,
+      "rating": 1361
+    },
+    "69": {
+      "display": "3/4",
+      "accept": [
+        "3/4"
+      ],
+      "tier": 2,
+      "rating": 1366
+    },
+    "70": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "2/4"
+      ],
+      "tier": 2,
+      "rating": 1371
+    },
+    "71": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "6/36"
+      ],
+      "tier": 2,
+      "rating": 1376
+    },
+    "72": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "18/36"
+      ],
+      "tier": 2,
+      "rating": 1381
+    },
+    "73": {
+      "display": "1/12",
+      "accept": [
+        "1/12"
+      ],
+      "tier": 2,
+      "rating": 1385
+    },
+    "74": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "2/4"
+      ],
+      "tier": 2,
+      "rating": 1390
+    },
+    "75": {
+      "display": "1/3",
+      "accept": [
+        "1/3",
+        "2/6"
+      ],
+      "tier": 2,
+      "rating": 1395
+    },
+    "76": {
+      "display": "11/36",
+      "accept": [
+        "11/36"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "77": {
+      "display": "1/8",
+      "accept": [
+        "1/8"
+      ],
+      "tier": 2,
+      "rating": 1405
+    },
+    "78": {
+      "display": "7/8",
+      "accept": [
+        "7/8"
+      ],
+      "tier": 2,
+      "rating": 1410
+    },
+    "79": {
+      "display": "2/3",
+      "accept": [
+        "2/3"
+      ],
+      "tier": 2,
+      "rating": 1415
+    },
+    "80": {
+      "display": "1/4",
+      "accept": [
+        "1/4"
+      ],
+      "tier": 2,
+      "rating": 1419
+    },
+    "81": {
+      "display": "1/12",
+      "accept": [
+        "1/12"
+      ],
+      "tier": 2,
+      "rating": 1424
+    },
+    "82": {
+      "display": "2/9",
+      "accept": [
+        "2/9",
+        "8/36"
+      ],
+      "tier": 2,
+      "rating": 1429
+    },
+    "83": {
+      "display": "1/4",
+      "accept": [
+        "1/4"
+      ],
+      "tier": 2,
+      "rating": 1434
+    },
+    "84": {
+      "display": "1/3",
+      "accept": [
+        "1/3",
+        "2/6"
+      ],
+      "tier": 2,
+      "rating": 1439
+    },
+    "85": {
+      "display": "5/36",
+      "accept": [
+        "5/36"
+      ],
+      "tier": 2,
+      "rating": 1444
+    },
+    "86": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "6/36"
+      ],
+      "tier": 2,
+      "rating": 1448
+    },
+    "87": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "6/36"
+      ],
+      "tier": 2,
+      "rating": 1453
+    },
+    "88": {
+      "display": "6 is more likely: P(6) = 5/36, P(9) = 4/36",
+      "accept": [
+        "6",
+        "5/36",
+        "4/36",
+        "more likely"
+      ],
+      "tier": 2,
+      "rating": 1458,
+      "contains": true
+    },
+    "89": {
+      "display": "5/6",
+      "accept": [
+        "5/6",
+        "30/36"
+      ],
+      "tier": 2,
+      "rating": 1463
+    },
+    "90": {
+      "display": "1/36",
+      "accept": [
+        "1/36"
+      ],
+      "tier": 2,
+      "rating": 1468
+    },
+    "91": {
+      "display": "1/36",
+      "accept": [
+        "1/36"
+      ],
+      "tier": 2,
+      "rating": 1473
+    },
+    "92": {
+      "display": "1/3",
+      "accept": [
+        "1/3",
+        "12/36"
+      ],
+      "tier": 2,
+      "rating": 1477
+    },
+    "93": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 2,
+      "rating": 1482
+    },
+    "94": {
+      "display": "1/36",
+      "accept": [
+        "1/36"
+      ],
+      "tier": 2,
+      "rating": 1487
+    },
+    "95": {
+      "display": "Total 7 has 6 ordered pairs; total 2 has only (1,1) — so 6/36 vs 1/36",
+      "accept": [
+        "6",
+        "1",
+        "6/36",
+        "1/36"
+      ],
+      "tier": 2,
+      "rating": 1492,
+      "contains": true
+    },
+    "96": {
+      "display": "5/6",
+      "accept": [
+        "5/6",
+        "30/36"
+      ],
+      "tier": 2,
+      "rating": 1497
+    },
+    "97": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 2,
+      "rating": 1502
+    },
+    "98": {
+      "display": "2/9",
+      "accept": [
+        "2/9",
+        "8/36"
+      ],
+      "tier": 2,
+      "rating": 1506
+    },
+    "99": {
+      "display": "Yes — P(7) = 1/6",
+      "accept": [
+        "yes",
+        "1/6"
+      ],
+      "tier": 2,
+      "rating": 1511,
+      "contains": true
+    },
+    "100": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "6/36"
+      ],
+      "tier": 2,
+      "rating": 1516
+    },
+    "101": {
+      "display": "(3,6), (4,5), (5,4), (6,3)",
+      "accept": [
+        "3,6",
+        "4,5",
+        "6,3"
+      ],
+      "tier": 2,
+      "rating": 1521,
+      "contains": true
+    },
+    "102": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "18/36"
+      ],
+      "tier": 2,
+      "rating": 1526
+    },
+    "103": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 2,
+      "rating": 1531
+    },
+    "104": {
+      "display": "11/36",
+      "accept": [
+        "11/36"
+      ],
+      "tier": 2,
+      "rating": 1535
+    },
+    "105": {
+      "display": "3/20",
+      "accept": [
+        "3/20",
+        "9/60"
+      ],
+      "tier": 2,
+      "rating": 1540
+    },
+    "106": {
+      "display": "0.62",
+      "accept": [
+        "0.62",
+        "31/50"
+      ],
+      "tier": 2,
+      "rating": 1545
+    },
+    "107": {
+      "display": "Yes — 12/40 = 3/10 is close to 1/4",
+      "accept": [
+        "yes",
+        "3/10"
+      ],
+      "tier": 2,
+      "rating": 1550,
+      "contains": true
+    },
+    "108": {
+      "display": "Yes — 22/100 = 0.22 is close to 0.2",
+      "accept": [
+        "yes",
+        "0.22"
+      ],
+      "tier": 2,
+      "rating": 1555,
+      "contains": true
+    },
+    "109": {
+      "display": "False — short experiments often differ from theoretical probability",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1560,
+      "contains": true
+    },
+    "110": {
+      "display": "21/100",
+      "accept": [
+        "21/100",
+        "42/200"
+      ],
+      "tier": 2,
+      "rating": 1565
+    },
+    "111": {
+      "display": "Yes — 11/30 is close to 1/3",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1569,
+      "contains": true
+    },
+    "112": {
+      "display": "Randomness means results vary — you might get zero sixes or several in 10 rolls",
+      "accept": [
+        "random",
+        "vary",
+        "zero",
+        "sixes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1574
+    },
+    "113": {
+      "display": "23/40",
+      "accept": [
+        "23/40",
+        "46/80"
+      ],
+      "tier": 2,
+      "rating": 1579
+    },
+    "114": {
+      "display": "Always — more trials usually make relative frequency closer to theoretical probability",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1584,
+      "contains": true
+    },
+    "115": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 2,
+      "rating": 1589
+    },
+    "116": {
+      "display": "5/8",
+      "accept": [
+        "5/8",
+        "15/24"
+      ],
+      "tier": 2,
+      "rating": 1594
+    },
+    "117": {
+      "display": "0.3",
+      "accept": [
+        "0.3",
+        "30%"
+      ],
+      "tier": 2,
+      "rating": 1598
+    },
+    "118": {
+      "display": "True — relative frequency is successes divided by trials, so it stays between 0 and 1",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1603,
+      "contains": true
+    },
+    "119": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 2,
+      "rating": 1608
+    },
+    "120": {
+      "display": "50",
+      "accept": [
+        "50"
+      ],
+      "tier": 2,
+      "rating": 1613
+    },
+    "121": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1618
+    },
+    "122": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1623
+    },
+    "123": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 2,
+      "rating": 1627
+    },
+    "124": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1632
+    },
+    "125": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 2,
+      "rating": 1637
+    },
+    "126": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 2,
+      "rating": 1642
+    },
+    "127": {
+      "display": "80",
+      "accept": [
+        "80"
+      ],
+      "tier": 2,
+      "rating": 1647
+    },
+    "128": {
+      "display": "60",
+      "accept": [
+        "60"
+      ],
+      "tier": 2,
+      "rating": 1652
+    },
+    "129": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 2,
+      "rating": 1656
+    },
+    "130": {
+      "display": "False — expected value is what you would expect on average, not a guarantee",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1661,
+      "contains": true
+    },
+    "131": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1666
+    },
+    "132": {
+      "display": "12.5 (or about 12 or 13)",
+      "accept": [
+        "12.5",
+        "12",
+        "13"
+      ],
+      "tier": 2,
+      "rating": 1671
+    },
+    "133": {
+      "display": "True — the six outcomes cover everything on one roll",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1676,
+      "contains": true
+    },
+    "134": {
+      "display": "Yes — each roll is independent, so P(6) is still 1/6",
+      "accept": [
+        "yes",
+        "1/6"
+      ],
+      "tier": 2,
+      "rating": 1681,
+      "contains": true
+    },
+    "135": {
+      "display": "False — equal sections keep the same probabilities",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1685,
+      "contains": true
+    },
+    "136": {
+      "display": "Always — an event either happens or it does not",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1690,
+      "contains": true
+    },
+    "137": {
+      "display": "No — each dice shows at most 6, so the largest total is 12",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1695,
+      "contains": true
+    },
+    "138": {
+      "display": "True — order matters for ordered pairs",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1700,
+      "contains": true
+    },
+    "139": {
+      "display": "Each dice has 6 outcomes, so ordered pairs give 6 × 6 = 36 equally likely results",
+      "accept": [
+        "36",
+        "6 times 6"
+      ],
+      "tier": 2,
+      "rating": 1705,
+      "contains": true
+    },
+    "140": {
+      "display": "Unfair — faces 1 and 2 each take two slots, so they are more likely than 3",
+      "accept": [
+        "unfair",
+        "not fair"
+      ],
+      "tier": 2,
+      "rating": 1710,
+      "contains": true
+    },
+    "141": {
+      "display": "True when there are exactly two equally likely outcomes",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1715,
+      "contains": true
+    },
+    "142": {
+      "display": "No — a friend is not chosen fairly from the whole class",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1719,
+      "contains": true
+    },
+    "143": {
+      "display": "True — e.g. rolling 2 and rolling 5 on one dice cannot both happen",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1724,
+      "contains": true
+    },
+    "144": {
+      "display": "No — next flip is still P(heads) = 1/2",
+      "accept": [
+        "no",
+        "1/2"
+      ],
+      "tier": 2,
+      "rating": 1729,
+      "contains": true
+    },
+    "145": {
+      "display": "False — on a fair spinner, section size decides probability, not spin speed",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1734,
+      "contains": true
+    },
+    "146": {
+      "display": "No — the first pick changes what is left for the second pick",
+      "accept": [
+        "no",
+        "not independent"
+      ],
+      "tier": 2,
+      "rating": 1739,
+      "contains": true
+    },
+    "147": {
+      "display": "True — only TT fails, so 3/4 succeed",
+      "accept": [
+        "true",
+        "3/4"
+      ],
+      "tier": 2,
+      "rating": 1744,
+      "contains": true
+    },
+    "148": {
+      "display": "Always — one face out of six equally likely faces",
+      "accept": [
+        "always",
+        "1/6"
+      ],
+      "tier": 2,
+      "rating": 1748,
+      "contains": true
+    },
+    "149": {
+      "display": "No — each roll of two dice is independent; 7 is not more likely on the next roll",
+      "accept": [
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1753,
+      "contains": true
+    },
+    "150": {
+      "display": "True — e.g. zero heads in 3 flips can happen even though P(heads) = 1/2",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1758,
+      "contains": true
+    },
+    "151": {
+      "display": "2/5",
+      "accept": [
+        "2/5",
+        "8/20"
+      ],
+      "tier": 2,
+      "rating": 1763
+    },
+    "152": {
+      "display": "3/8",
+      "accept": [
+        "3/8"
+      ],
+      "tier": 2,
+      "rating": 1768
+    },
+    "153": {
+      "display": "2/11",
+      "accept": [
+        "2/11"
+      ],
+      "tier": 2,
+      "rating": 1773
+    },
+    "154": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "2/8"
+      ],
+      "tier": 2,
+      "rating": 1777
+    },
+    "155": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "5/20"
+      ],
+      "tier": 2,
+      "rating": 1782
+    },
+    "156": {
+      "display": "1/4",
+      "accept": [
+        "1/4"
+      ],
+      "tier": 2,
+      "rating": 1787
+    },
+    "157": {
+      "display": "1/5",
+      "accept": [
+        "1/5",
+        "3/15"
+      ],
+      "tier": 2,
+      "rating": 1792
+    },
+    "158": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "3/6"
+      ],
+      "tier": 2,
+      "rating": 1797
+    },
+    "159": {
+      "display": "3/8",
+      "accept": [
+        "3/8",
+        "9/24"
+      ],
+      "tier": 2,
+      "rating": 1802
+    },
+    "160": {
+      "display": "5/36",
+      "accept": [
+        "5/36"
+      ],
+      "tier": 2,
+      "rating": 1806
+    },
+    "161": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 2,
+      "rating": 1811
+    },
+    "162": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "3/6"
+      ],
+      "tier": 2,
+      "rating": 1816
+    },
+    "163": {
+      "display": "0.88",
+      "accept": [
+        "0.88",
+        "88%"
+      ],
+      "tier": 2,
+      "rating": 1821
+    },
+    "164": {
+      "display": "4/11",
+      "accept": [
+        "4/11"
+      ],
+      "tier": 2,
+      "rating": 1826
+    },
+    "165": {
+      "display": "1/4",
+      "accept": [
+        "1/4"
+      ],
+      "tier": 2,
+      "rating": 1831
+    },
+    "166": {
+      "display": "3/10",
+      "accept": [
+        "3/10"
+      ],
+      "tier": 2,
+      "rating": 1835
+    },
+    "167": {
+      "display": "3/5",
+      "accept": [
+        "3/5",
+        "6/10"
+      ],
+      "tier": 2,
+      "rating": 1840
+    },
+    "168": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "6/36"
+      ],
+      "tier": 2,
+      "rating": 1845
+    },
+    "169": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "2/8"
+      ],
+      "tier": 2,
+      "rating": 1850
+    },
+    "170": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "2/4"
+      ],
+      "tier": 2,
+      "rating": 1855
+    },
+    "171": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1860
+    },
+    "172": {
+      "display": "1/4",
+      "accept": [
+        "1/4"
+      ],
+      "tier": 2,
+      "rating": 1865
+    },
+    "173": {
+      "display": "1/3",
+      "accept": [
+        "1/3",
+        "4/12"
+      ],
+      "tier": 2,
+      "rating": 1869
+    },
+    "174": {
+      "display": "1/2",
+      "accept": [
+        "1/2"
+      ],
+      "tier": 2,
+      "rating": 1874
+    },
+    "175": {
+      "display": "2/5",
+      "accept": [
+        "2/5"
+      ],
+      "tier": 2,
+      "rating": 1879
+    },
+    "176": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "15/30"
+      ],
+      "tier": 2,
+      "rating": 1884
+    },
+    "177": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "6/36"
+      ],
+      "tier": 2,
+      "rating": 1889
+    },
+    "178": {
+      "display": "3/8",
+      "accept": [
+        "3/8"
+      ],
+      "tier": 2,
+      "rating": 1894
+    },
+    "179": {
+      "display": "1/5",
+      "accept": [
+        "1/5",
+        "5/25"
+      ],
+      "tier": 2,
+      "rating": 1898
+    },
+    "180": {
+      "display": "Total 7 has 6 ways out of 36 but total 6 has only 5 ways",
+      "accept": [
+        "6",
+        "5",
+        "more ways"
+      ],
+      "tier": 2,
+      "rating": 1903,
+      "contains": true
+    },
+    "181": {
+      "display": "4/7",
+      "accept": [
+        "4/7"
+      ],
+      "tier": 2,
+      "rating": 1908
+    },
+    "182": {
+      "display": "2/3",
+      "accept": [
+        "2/3"
+      ],
+      "tier": 2,
+      "rating": 1913
+    },
+    "183": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "6/36"
+      ],
+      "tier": 2,
+      "rating": 1918
+    },
+    "184": {
+      "display": "9/20",
+      "accept": [
+        "9/20"
+      ],
+      "tier": 2,
+      "rating": 1923
+    },
+    "185": {
+      "display": "7/12",
+      "accept": [
+        "7/12"
+      ],
+      "tier": 2,
+      "rating": 1927
+    },
+    "186": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "6/36"
+      ],
+      "tier": 2,
+      "rating": 1932
+    },
+    "187": {
+      "display": "11/15",
+      "accept": [
+        "11/15"
+      ],
+      "tier": 2,
+      "rating": 1937
+    },
+    "188": {
+      "display": "False — middle totals like 7 are more likely than totals like 2 or 12",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1942,
+      "contains": true
+    },
+    "189": {
+      "display": "32",
+      "accept": [
+        "32"
+      ],
+      "tier": 2,
+      "rating": 1947
+    },
+    "190": {
+      "display": "0.75",
+      "accept": [
+        "0.75",
+        "75%"
+      ],
+      "tier": 2,
+      "rating": 1952
+    },
+    "191": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 2,
+      "rating": 1956
+    },
+    "192": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "3/6"
+      ],
+      "tier": 2,
+      "rating": 1961
+    },
+    "193": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 2,
+      "rating": 1966
+    },
+    "194": {
+      "display": "1/6",
+      "accept": [
+        "1/6",
+        "5/30"
+      ],
+      "tier": 2,
+      "rating": 1971
+    },
+    "195": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 1976
+    },
+    "196": {
+      "display": "Yes — P(odd) = 3/6 = 1/2",
+      "accept": [
+        "yes",
+        "1/2"
+      ],
+      "tier": 2,
+      "rating": 1981,
+      "contains": true
+    },
+    "197": {
+      "display": "1/3",
+      "accept": [
+        "1/3",
+        "12/36"
+      ],
+      "tier": 2,
+      "rating": 1985
+    },
+    "198": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 2,
+      "rating": 1990
+    },
+    "199": {
+      "display": "3/5",
+      "accept": [
+        "3/5",
+        "12/20"
+      ],
+      "tier": 2,
+      "rating": 1995
+    },
+    "200": {
+      "display": "P(7) = 1/6 from 6 ways out of 36",
+      "accept": [
+        "1/6",
+        "6/36",
+        "6 ways"
+      ],
+      "tier": 2,
+      "rating": 2000,
+      "contains": true
+    }
+  }
+}

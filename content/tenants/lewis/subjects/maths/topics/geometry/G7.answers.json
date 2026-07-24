@@ -1,0 +1,1749 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "flip",
+      "accept": [
+        "flip"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "slide",
+      "accept": [
+        "slide"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "No",
+      "accept": [
+        "no",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "4 cm",
+      "accept": [
+        "4",
+        "4 cm",
+        "4cm"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "true"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "enlargement",
+      "accept": [
+        "enlargement",
+        "enlarge"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "translation",
+      "accept": [
+        "translation"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "rotation",
+      "accept": [
+        "rotation"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "11": {
+      "display": "reflection",
+      "accept": [
+        "reflection"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "12": {
+      "display": "enlargement",
+      "accept": [
+        "enlargement"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "13": {
+      "display": "translation, rotation, reflection",
+      "accept": [
+        "translation",
+        "rotation",
+        "reflection"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 832
+    },
+    "14": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "15": {
+      "display": "Move every point 3 units right and 2 units down.",
+      "accept": [
+        "3 right",
+        "2 down",
+        "right",
+        "down"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 923
+    },
+    "16": {
+      "display": "Rotation",
+      "accept": [
+        "rotation"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "17": {
+      "display": "the mirror line (line of reflection)",
+      "accept": [
+        "mirror line",
+        "line of reflection"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 1014
+    },
+    "18": {
+      "display": "Bigger",
+      "accept": [
+        "bigger",
+        "larger"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "19": {
+      "display": "Smaller",
+      "accept": [
+        "smaller"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "20": {
+      "display": "opposite",
+      "accept": [
+        "opposite"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "21": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "22": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "First the triangle slides 4 right and 1 up (translation); then the result is flipped over the x-axis (reflection).",
+      "accept": [
+        "translat",
+        "reflect",
+        "4",
+        "1"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 900
+    },
+    "24": {
+      "display": "Translations, rotations, and reflections only move or flip a shape — they never change its size, so the image is always congruent. Enlargement changes the size (unless scale factor 1), so the image is only similar.",
+      "accept": [
+        "size",
+        "similar",
+        "congruent"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 993
+    },
+    "25": {
+      "display": "6 cm",
+      "accept": [
+        "6",
+        "6 cm",
+        "6cm"
+      ],
+      "tier": 2,
+      "rating": 1086
+    },
+    "26": {
+      "display": "Always — two reflections in the same mirror line cancel each other out and return the shape to its original position.",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1179
+    },
+    "27": {
+      "display": "48 cm²",
+      "accept": [
+        "48",
+        "48 cm2",
+        "48 cm²"
+      ],
+      "tier": 2,
+      "rating": 1271
+    },
+    "28": {
+      "display": "No — a full 360° turn brings the shape all the way back round to exactly where it started.",
+      "accept": [
+        "no",
+        "same position",
+        "back"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1364
+    },
+    "29": {
+      "display": "3 cm",
+      "accept": [
+        "3",
+        "3 cm",
+        "3cm"
+      ],
+      "tier": 2,
+      "rating": 1457
+    },
+    "30": {
+      "display": "The centre of rotation is the single fixed point the shape turns around; the mirror line is the line the shape is flipped over, with the image the same distance from the line as the original, on the opposite side.",
+      "accept": [
+        "fixed point",
+        "flipped",
+        "opposite side"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1550
+    },
+    "31": {
+      "display": "(5, 3)",
+      "accept": [
+        "5,3",
+        "(5,3)",
+        "5 3"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1100
+    },
+    "32": {
+      "display": "20 cm",
+      "accept": [
+        "20",
+        "20 cm",
+        "20cm"
+      ],
+      "tier": 3,
+      "rating": 1230
+    },
+    "33": {
+      "display": "25 cm",
+      "accept": [
+        "25",
+        "25 cm",
+        "25cm"
+      ],
+      "tier": 3,
+      "rating": 1360
+    },
+    "34": {
+      "display": "128 cm²",
+      "accept": [
+        "128",
+        "128 cm2",
+        "128 cm²"
+      ],
+      "tier": 3,
+      "rating": 1490
+    },
+    "35": {
+      "display": "(−1, 4)",
+      "accept": [
+        "-1,4",
+        "(-1,4)",
+        "-1 4"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1620
+    },
+    "36": {
+      "display": "(5, −2)",
+      "accept": [
+        "5,-2",
+        "(5,-2)",
+        "5 -2"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1750
+    },
+    "37": {
+      "display": "The angles are preserved because enlargement keeps the shape the same, but the side lengths are scaled by 2, so the two shapes are the same shape but different sizes — similar, not congruent (congruent requires identical size too).",
+      "accept": [
+        "same shape",
+        "different size",
+        "similar"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1400
+    },
+    "38": {
+      "display": "3",
+      "accept": [
+        "3",
+        "k = 3"
+      ],
+      "tier": 3,
+      "rating": 1600
+    },
+    "39": {
+      "display": "Two reflections in mirror lines that cross at a point have the same overall effect as a single rotation about that point (through twice the angle between the mirror lines).",
+      "accept": [
+        "two reflections",
+        "rotation"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1800
+    },
+    "40": {
+      "display": "Congruent — both a translation and a reflection preserve size and shape.",
+      "accept": [
+        "congruent",
+        "same size",
+        "same shape"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 2000
+    },
+    "41": {
+      "display": "(3, -1)",
+      "accept": [
+        "3,-1",
+        "(3,-1)",
+        "3, -1"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "Translation 4 units right",
+      "accept": [
+        "translation",
+        "4",
+        "right"
+      ],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 2,
+      "rating": 1550
+    },
+    "43": {
+      "display": "congruent",
+      "accept": [
+        "congruent"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "congruent",
+      "accept": [
+        "congruent"
+      ],
+      "tier": 1,
+      "rating": 754
+    },
+    "45": {
+      "display": "Translation",
+      "accept": [
+        "translation",
+        "translate"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "46": {
+      "display": "(2, −5)",
+      "accept": [
+        "2,-5",
+        "2, -5"
+      ],
+      "tier": 1,
+      "rating": 762
+    },
+    "47": {
+      "display": "(3, 4)",
+      "accept": [
+        "3,4",
+        "3, 4"
+      ],
+      "tier": 1,
+      "rating": 767
+    },
+    "48": {
+      "display": "(2, −1)",
+      "accept": [
+        "2,-1",
+        "2, -1"
+      ],
+      "tier": 1,
+      "rating": 771
+    },
+    "49": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "50": {
+      "display": "6 cm",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 779
+    },
+    "51": {
+      "display": "5 cm",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 783
+    },
+    "52": {
+      "display": "Translation and reflection",
+      "accept": [
+        "translation",
+        "reflection"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 787
+    },
+    "53": {
+      "display": "24 cm²",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 791
+    },
+    "54": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 796
+    },
+    "55": {
+      "display": "20 cm",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 800
+    },
+    "56": {
+      "display": "(1, 7)",
+      "accept": [
+        "1,7",
+        "1, 7"
+      ],
+      "tier": 1,
+      "rating": 804
+    },
+    "57": {
+      "display": "Slide 5 units down",
+      "accept": [
+        "down",
+        "5"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 808
+    },
+    "58": {
+      "display": "(−2, 4)",
+      "accept": [
+        "-2,4",
+        "-2, 4"
+      ],
+      "tier": 1,
+      "rating": 812
+    },
+    "59": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 816
+    },
+    "60": {
+      "display": "14 cm",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "61": {
+      "display": "24 cm",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 825
+    },
+    "62": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 829
+    },
+    "63": {
+      "display": "12 cm",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 833
+    },
+    "64": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 837
+    },
+    "65": {
+      "display": "(−5, −1)",
+      "accept": [
+        "-5,-1"
+      ],
+      "tier": 1,
+      "rating": 841
+    },
+    "66": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 845
+    },
+    "67": {
+      "display": "225 cm²",
+      "accept": [
+        "225"
+      ],
+      "tier": 1,
+      "rating": 849
+    },
+    "68": {
+      "display": "(−3, 4)",
+      "accept": [
+        "-3,4"
+      ],
+      "tier": 1,
+      "rating": 854
+    },
+    "69": {
+      "display": "Translation",
+      "accept": [
+        "translation"
+      ],
+      "tier": 1,
+      "rating": 858
+    },
+    "70": {
+      "display": "5 cm",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 862
+    },
+    "71": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "rating": 866
+    },
+    "72": {
+      "display": "(−2, −2)",
+      "accept": [
+        "-2,-2"
+      ],
+      "tier": 1,
+      "rating": 870
+    },
+    "73": {
+      "display": "(−3, 7)",
+      "accept": [
+        "-3,7"
+      ],
+      "tier": 1,
+      "rating": 874
+    },
+    "74": {
+      "display": "20 cm",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 878
+    },
+    "75": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 882
+    },
+    "76": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 887
+    },
+    "77": {
+      "display": "(3, 2)",
+      "accept": [
+        "3,2"
+      ],
+      "tier": 1,
+      "rating": 891
+    },
+    "78": {
+      "display": "(0, 4)",
+      "accept": [
+        "0,4"
+      ],
+      "tier": 1,
+      "rating": 895
+    },
+    "79": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 1,
+      "rating": 899
+    },
+    "80": {
+      "display": "16 (area factor k² = 4 when k = 2)",
+      "accept": [
+        "16",
+        "4"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 903
+    },
+    "81": {
+      "display": "(−2, 3)",
+      "accept": [
+        "-2,3"
+      ],
+      "tier": 2,
+      "rating": 907
+    },
+    "82": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 911
+    },
+    "83": {
+      "display": "8 cm",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 916
+    },
+    "84": {
+      "display": "Enlargement scale factor −2 from the origin (flip and double distance)",
+      "accept": [
+        "-2",
+        "enlargement"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 920
+    },
+    "85": {
+      "display": "(−4, 1)",
+      "accept": [
+        "-4,1"
+      ],
+      "tier": 2,
+      "rating": 924
+    },
+    "86": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 928
+    },
+    "87": {
+      "display": "1.5",
+      "accept": [
+        "1.5",
+        "3/2"
+      ],
+      "tier": 2,
+      "rating": 932
+    },
+    "88": {
+      "display": "(4, 7)",
+      "accept": [
+        "4,7"
+      ],
+      "tier": 2,
+      "rating": 936
+    },
+    "89": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 940
+    },
+    "90": {
+      "display": "8 cm²",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 945
+    },
+    "91": {
+      "display": "(0, 6)",
+      "accept": [
+        "0,6"
+      ],
+      "tier": 2,
+      "rating": 949
+    },
+    "92": {
+      "display": "(2, 3)",
+      "accept": [
+        "2,3"
+      ],
+      "tier": 2,
+      "rating": 953
+    },
+    "93": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 957
+    },
+    "94": {
+      "display": "1000 m",
+      "accept": [
+        "1000",
+        "1 km"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 961
+    },
+    "95": {
+      "display": "Translation",
+      "accept": [
+        "translation"
+      ],
+      "tier": 2,
+      "rating": 965
+    },
+    "96": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 969
+    },
+    "97": {
+      "display": "18 cm",
+      "accept": [
+        "18"
+      ],
+      "tier": 2,
+      "rating": 974
+    },
+    "98": {
+      "display": "(−1, 1)",
+      "accept": [
+        "-1,1"
+      ],
+      "tier": 2,
+      "rating": 978
+    },
+    "99": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 982
+    },
+    "100": {
+      "display": "90 cm²",
+      "accept": [
+        "90"
+      ],
+      "tier": 2,
+      "rating": 986
+    },
+    "101": {
+      "display": "(3, 4)",
+      "accept": [
+        "3,4"
+      ],
+      "tier": 2,
+      "rating": 990
+    },
+    "102": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 994
+    },
+    "103": {
+      "display": "Similar only",
+      "accept": [
+        "similar"
+      ],
+      "tier": 2,
+      "rating": 998
+    },
+    "104": {
+      "display": "(0, 4)",
+      "accept": [
+        "0,4"
+      ],
+      "tier": 2,
+      "rating": 1003
+    },
+    "105": {
+      "display": "(3, 3)",
+      "accept": [
+        "3,3"
+      ],
+      "tier": 2,
+      "rating": 1007
+    },
+    "106": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1011
+    },
+    "107": {
+      "display": "22 cm",
+      "accept": [
+        "22"
+      ],
+      "tier": 2,
+      "rating": 1015
+    },
+    "108": {
+      "display": "(−5, −5)",
+      "accept": [
+        "-5,-5"
+      ],
+      "tier": 2,
+      "rating": 1019
+    },
+    "109": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1023
+    },
+    "110": {
+      "display": "(8, 2)",
+      "accept": [
+        "8,2"
+      ],
+      "tier": 2,
+      "rating": 1027
+    },
+    "111": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1032
+    },
+    "112": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1036
+    },
+    "113": {
+      "display": "(1, −1)",
+      "accept": [
+        "1,-1"
+      ],
+      "tier": 2,
+      "rating": 1040
+    },
+    "114": {
+      "display": "180 cm²",
+      "accept": [
+        "180"
+      ],
+      "tier": 2,
+      "rating": 1044
+    },
+    "115": {
+      "display": "False",
+      "accept": [
+        "false",
+        "no"
+      ],
+      "tier": 2,
+      "rating": 1048
+    },
+    "116": {
+      "display": "Congruent: same size and shape. Similar: same shape, proportional sides.",
+      "accept": [
+        "congruent",
+        "similar"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1052
+    },
+    "117": {
+      "display": "(1, −2)",
+      "accept": [
+        "1,-2"
+      ],
+      "tier": 2,
+      "rating": 1056
+    },
+    "118": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1061
+    },
+    "119": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1065
+    },
+    "120": {
+      "display": "(2, 0)",
+      "accept": [
+        "2,0"
+      ],
+      "tier": 2,
+      "rating": 1069
+    },
+    "121": {
+      "display": "15 cm",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1073
+    },
+    "122": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1077
+    },
+    "123": {
+      "display": "(−1, −1)",
+      "accept": [
+        "-1,-1"
+      ],
+      "tier": 2,
+      "rating": 1081
+    },
+    "124": {
+      "display": "Right 3 and down 3",
+      "accept": [
+        "right",
+        "down"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1085
+    },
+    "125": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1089
+    },
+    "126": {
+      "display": "100 cm²",
+      "accept": [
+        "100"
+      ],
+      "tier": 2,
+      "rating": 1094
+    },
+    "127": {
+      "display": "Same as the vector (image of origin)",
+      "accept": [
+        "vector"
+      ],
+      "tier": 2,
+      "rating": 1098
+    },
+    "128": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1102
+    },
+    "129": {
+      "display": "(5, −2)",
+      "accept": [
+        "5,-2"
+      ],
+      "tier": 2,
+      "rating": 1106
+    },
+    "130": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1110
+    },
+    "131": {
+      "display": "Translation slides without turning or resizing.",
+      "accept": [
+        "slide",
+        "size"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1114
+    },
+    "132": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1118
+    },
+    "133": {
+      "display": "(−3, 0)",
+      "accept": [
+        "-3,0"
+      ],
+      "tier": 2,
+      "rating": 1123
+    },
+    "134": {
+      "display": "(−2, −2)",
+      "accept": [
+        "-2,-2"
+      ],
+      "tier": 2,
+      "rating": 1127
+    },
+    "135": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1131
+    },
+    "136": {
+      "display": "75 m",
+      "accept": [
+        "75"
+      ],
+      "tier": 2,
+      "rating": 1135
+    },
+    "137": {
+      "display": "(4, 4)",
+      "accept": [
+        "4,4"
+      ],
+      "tier": 2,
+      "rating": 1139
+    },
+    "138": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1143
+    },
+    "139": {
+      "display": "8 cm",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1147
+    },
+    "140": {
+      "display": "(a+c, b+d)",
+      "accept": [
+        "a+c"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1152
+    },
+    "141": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1156
+    },
+    "142": {
+      "display": "30 cm",
+      "accept": [
+        "30"
+      ],
+      "tier": 2,
+      "rating": 1160
+    },
+    "143": {
+      "display": "(5, −2)",
+      "accept": [
+        "5,-2"
+      ],
+      "tier": 2,
+      "rating": 1164
+    },
+    "144": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1168
+    },
+    "145": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1172
+    },
+    "146": {
+      "display": "(−3, −2)",
+      "accept": [
+        "-3,-2"
+      ],
+      "tier": 2,
+      "rating": 1176
+    },
+    "147": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1181
+    },
+    "148": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1185
+    },
+    "149": {
+      "display": "(0, 0)",
+      "accept": [
+        "0,0"
+      ],
+      "tier": 2,
+      "rating": 1189
+    },
+    "150": {
+      "display": "Your enlargement example with scale factor stated.",
+      "accept": [
+        "enlargement",
+        "scale factor"
+      ],
+      "tier": 2,
+      "rating": 1193,
+      "contains": true
+    },
+    "151": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1197
+    },
+    "152": {
+      "display": "(0, 2)",
+      "accept": [
+        "0,2"
+      ],
+      "tier": 3,
+      "rating": 1201
+    },
+    "153": {
+      "display": "50 cm",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1205
+    },
+    "154": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1210
+    },
+    "155": {
+      "display": "1.5",
+      "accept": [
+        "1.5"
+      ],
+      "tier": 3,
+      "rating": 1214
+    },
+    "156": {
+      "display": "(−5, −3)",
+      "accept": [
+        "-5,-3"
+      ],
+      "tier": 3,
+      "rating": 1218
+    },
+    "157": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1222
+    },
+    "158": {
+      "display": "(−4, −4)",
+      "accept": [
+        "-4,-4"
+      ],
+      "tier": 3,
+      "rating": 1226
+    },
+    "159": {
+      "display": "(6, 8)",
+      "accept": [
+        "6,8"
+      ],
+      "tier": 3,
+      "rating": 1230
+    },
+    "160": {
+      "display": "Translation, rotation, reflection",
+      "accept": [
+        "translation",
+        "rotation",
+        "reflection"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1234
+    },
+    "161": {
+      "display": "30 cm",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1239
+    },
+    "162": {
+      "display": "(1, −7)",
+      "accept": [
+        "1,-7"
+      ],
+      "tier": 3,
+      "rating": 1243
+    },
+    "163": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1247
+    },
+    "164": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1251
+    },
+    "165": {
+      "display": "(4, −4)",
+      "accept": [
+        "4,-4"
+      ],
+      "tier": 3,
+      "rating": 1255
+    },
+    "166": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1259
+    },
+    "167": {
+      "display": "(6, −2)",
+      "accept": [
+        "6,-2"
+      ],
+      "tier": 3,
+      "rating": 1263
+    },
+    "168": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1268
+    },
+    "169": {
+      "display": "1.667 or 5/3",
+      "accept": [
+        "5/3",
+        "1.67"
+      ],
+      "tier": 3,
+      "rating": 1272
+    },
+    "170": {
+      "display": "360° rotation returns to start",
+      "accept": [
+        "360"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1276
+    },
+    "171": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1280
+    },
+    "172": {
+      "display": "(4, 4)",
+      "accept": [
+        "4,4"
+      ],
+      "tier": 3,
+      "rating": 1284
+    },
+    "173": {
+      "display": "(0, 5)",
+      "accept": [
+        "0,5"
+      ],
+      "tier": 3,
+      "rating": 1288
+    },
+    "174": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1292
+    },
+    "175": {
+      "display": "4 cm",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1296
+    },
+    "176": {
+      "display": "10 cm",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1301
+    },
+    "177": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1305
+    },
+    "178": {
+      "display": "(−1, 4)",
+      "accept": [
+        "-1,4"
+      ],
+      "tier": 3,
+      "rating": 1309
+    },
+    "179": {
+      "display": "112 cm²",
+      "accept": [
+        "112"
+      ],
+      "tier": 3,
+      "rating": 1313
+    },
+    "180": {
+      "display": "Your two-step transformation puzzle with congruent/similar conclusion.",
+      "accept": [
+        "transformation",
+        "congruent",
+        "similar"
+      ],
+      "tier": 3,
+      "rating": 1317,
+      "contains": true,
+      "containsMin": 2
+    },
+    "181": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1321
+    },
+    "182": {
+      "display": "2.5",
+      "accept": [
+        "2.5",
+        "5/2"
+      ],
+      "tier": 3,
+      "rating": 1325
+    },
+    "183": {
+      "display": "(0, 0)",
+      "accept": [
+        "0,0"
+      ],
+      "tier": 3,
+      "rating": 1330
+    },
+    "184": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1334
+    },
+    "185": {
+      "display": "(0, −1)",
+      "accept": [
+        "0,-1"
+      ],
+      "tier": 3,
+      "rating": 1338
+    },
+    "186": {
+      "display": "12 cm",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1342
+    },
+    "187": {
+      "display": "Never",
+      "accept": [
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1346
+    },
+    "188": {
+      "display": "Area multiplies by k² when lengths scale by k.",
+      "accept": [
+        "k^2",
+        "k²"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1350
+    },
+    "189": {
+      "display": "(−1, −1)",
+      "accept": [
+        "-1,-1"
+      ],
+      "tier": 3,
+      "rating": 1354
+    },
+    "190": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1359
+    },
+    "191": {
+      "display": "8 cm",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1363
+    },
+    "192": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 3,
+      "rating": 1367
+    },
+    "193": {
+      "display": "1000 m",
+      "accept": [
+        "1000"
+      ],
+      "tier": 3,
+      "rating": 1371
+    },
+    "194": {
+      "display": "(−3, −2)",
+      "accept": [
+        "-3,-2"
+      ],
+      "tier": 3,
+      "rating": 1375
+    },
+    "195": {
+      "display": "True",
+      "accept": [
+        "true",
+        "yes"
+      ],
+      "tier": 3,
+      "rating": 1379
+    },
+    "196": {
+      "display": "Your similarity story with a scale factor.",
+      "accept": [
+        "similar",
+        "scale factor"
+      ],
+      "tier": 3,
+      "rating": 1383,
+      "contains": true
+    },
+    "197": {
+      "display": "Rotation turns about a centre; reflection flips across a mirror line.",
+      "accept": [
+        "rotation",
+        "reflection"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1388
+    },
+    "198": {
+      "display": "Your translate-then-rotate example for (1,2).",
+      "accept": [
+        "translate",
+        "rotate",
+        "1",
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1392,
+      "contains": true,
+      "containsMin": 2
+    },
+    "199": {
+      "display": "10 cm²",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1396
+    },
+    "200": {
+      "display": "Four transformations with numeric examples and congruent/similar labels.",
+      "accept": [
+        "translation",
+        "rotation",
+        "reflection",
+        "enlargement",
+        "congruent",
+        "similar"
+      ],
+      "tier": 3,
+      "rating": 1400,
+      "contains": true,
+      "containsMin": 2
+    }
+  }
+}

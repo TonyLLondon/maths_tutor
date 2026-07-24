@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Count up by 1 from 3.",
+      "help": "Next term **4**.\n\nAdd 1 rule.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "2": {
+      "hint": "After 4 comes 5.",
+      "help": "**5**.\n\n+1 sequence.\n\n5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "Even numbers — add 2.",
+      "help": "**8**.\n\n2,4,6,8 pattern.\n\n8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "Odd numbers — add 2.",
+      "help": "**7**.\n\n1,3,5,7.\n\n7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "Count down by 1.",
+      "help": "**2**.\n\nDecreasing by 1.\n\n2.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "Each term is one more than the last.",
+      "help": "Rule: **add 1** (or count on).\n\n1,2,3,4…\n\n+1 each time.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "Add 2 each step.",
+      "help": "Rule: **add 2**.\n\nEven numbers.\n\n+2.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "8": {
+      "hint": "Gap between 5 and 9 is 4 — add 4 to 5.",
+      "help": "Missing **7**.\n\nConstant difference 4? Check: 3,5,7,9 if +2 — actually 3+2=5, +2=7.\n\n**7** if +2 rule."
+    },
+    "9": {
+      "hint": "Difference 7−4=3 — keep adding 3.",
+      "help": "Next three: **16, 19, 22**.\n\n+3 linear sequence.\n\n16,19,22.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "Subtract 3 each time from start 20.",
+      "help": "Terms: 20,17,14,11,8,**5** — 6th is **5**.\n\n−3 rule.\n\n5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "11": {
+      "hint": "Pattern +3 from 5.",
+      "help": "Missing **14**.\n\n5,8,11,14.\n\n14.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "12": {
+      "hint": "Start 3, add 6 repeatedly.",
+      "help": "**3, 9, 15, 21**.\n\nFour terms.\n\nList.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "Add 2 to even sequence.",
+      "help": "**10, 12, 14**.\n\nContinue 8.\n\nThree terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "14": {
+      "hint": "Subtract 5 each time.",
+      "help": "**30, 25, 20**.\n\nFrom 35.\n\nThree terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "15": {
+      "hint": "Multiply by 2 each term.",
+      "help": "**1, 2, 4, 8, 16**.\n\nDoubling.\n\nFive terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "16": {
+      "hint": "Start 100, subtract 8.",
+      "help": "**100, 92, 84, 76**.\n\nFour terms.\n\nList.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "Add 3 to 11.",
+      "help": "6th term **14**.\n\n2,5,8,11,14.\n\n14.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "18": {
+      "hint": "After 24 double again.",
+      "help": "Next **48**. Rule **×2** (double).\n\nGeometric.\n\n48, double.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "19": {
+      "hint": "7 + 4×(5−1) for 5th term.",
+      "help": "5th term **23**.\n\nStart 7, +4 four times.\n\n23.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "Sequence +4 from 12.",
+      "help": "Missing **20**.\n\n12,16,20,24,28.\n\n20.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "21": {
+      "hint": "2,4,8,16 multiplies by 2 — not +2.",
+      "help": "Sam wrong — rule **×2** (double).\n\nNot constant add.\n\nCorrect: multiply by 2."
+    },
+    "22": {
+      "hint": "After 5 steps from 100: A is 100−35, B is 100−50.",
+      "help": "A: **65**. B: **50**. **B smaller**.\n\nShow five −7 vs −10.\n\nB smaller."
+    },
+    "23": {
+      "hint": "If you add +3 forever from below 1000, do you eventually pass 1000?",
+      "help": "**Always** (if same positive add forever) — will exceed 1000 eventually.\n\nUnbounded increase.\n\nAlways."
+    },
+    "24": {
+      "hint": "Compare first 5 terms of double vs add 10 from 1.",
+      "help": "Double: 1,2,4,8,16. Add10: 1,11,21,31,41 — add10 bigger after term 2.\n\nPriya **not** right for first 5.\n\nTest terms."
+    },
+    "25": {
+      "hint": "Check if any term equals same value in both lists.",
+      "help": "No overlap in first four — **never** same value there.\n\nOne increasing +5, one decreasing −5 from different starts.\n\nNo match."
+    },
+    "26": {
+      "hint": "Adding negative constant each time decreases sequence.",
+      "help": "**True** — e.g. start 10, add −3 → 7,4,1…\n\nNegative step lowers terms.\n\nTrue with example."
+    },
+    "27": {
+      "hint": "Find 4th term: ×2 three times vs +15 three times from 10.",
+      "help": "A: 10→20→40→**80**. B: 10→25→40→**55**. **A bigger** at term 4.\n\nShow both."
+    },
+    "28": {
+      "hint": "Use nth term like $3n+2$ to jump to term 10.",
+      "help": "Example arithmetic $3n+2$ gives 10th term **32** without listing all.\n\nPosition-to-term formula.\n\nDirect calculation."
+    },
+    "29": {
+      "hint": "Turn 8: score adds same amount each time — find 8th.",
+      "help": "Pattern +7 from 5: term8 = **5+7×7=54** or continue table.\n\nLinear game score.\n\nTurn 8 score."
+    },
+    "30": {
+      "hint": "Month costs: 20+15, 20+30, …",
+      "help": "Sequence **35,50,65,80**… After 6 months total **20+15×6=110** pounds.\n\nJoin + monthly.\n\n£110."
+    },
+    "31": {
+      "hint": "Week 0 height 4, +3 each week.",
+      "help": "Heights **4,7,10,13,16** weeks 0–4. Week 10: **4+30=34** cm.\n\nLinear growth.\n\n34 cm."
+    },
+    "32": {
+      "hint": "Week 6 save: 5+(6−1)×2; total sum weeks 1–6.",
+      "help": "Week 6 amount **15** pounds; total **5+7+9+11+13+15=60** (or use sum formula).\n\nIncreasing saves.\n\nShow both."
+    },
+    "33": {
+      "hint": "Row n has 1+(n−1)×3 chairs.",
+      "help": "6th row **16** chairs.\n\n1,4,7,10,13,16.\n\n16.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "34": {
+      "hint": "Hours cost 2,4,6,8… — 7th hour?",
+      "help": "If linear £2 per hour pattern, 7 hours **£14** (continue 2,4,6,8,10,12,14).\n\nEven number sequence.\n\n£14."
+    },
+    "35": {
+      "hint": "Add 5 each time.",
+      "help": "Next **25**.\n\n5,10,15,20,25.\n\n25.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "36": {
+      "hint": "Subtract 10.",
+      "help": "Next **70**.\n\n100,90,80,70.\n\n70.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "37": {
+      "hint": "3, then 10, 17.",
+      "help": "**10, 17**.\n\n+7 from 3.\n\nTwo terms.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "38": {
+      "hint": "Double: 16→32.",
+      "help": "**32**.\n\n×2 rule.\n\n32.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "39": {
+      "hint": "Differences between terms are equal.",
+      "help": "Added **4** each time.\n\n16−12=4.\n\n+4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "40": {
+      "hint": "Next square after 16 is 5².",
+      "help": "**25**.\n\nSquare numbers 1,4,9,16,25.\n\n25.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "41": {
+      "hint": "Add 3 each time from 1,4,7,10.",
+      "help": "Rule **add 3**. 10th term **1+9×3=28**.\n\nArithmetic sequence.\n\n28."
+    },
+    "42": {
+      "hint": "Start 3, add 4: nth term $4n-1$.",
+      "help": "Formula **$4n-1$**. 20th: $80-1=**79**$.\n\nCheck n=1 gives 3.\n\n79."
+    },
+    "43": {
+      "hint": "Set $2+5(n-1)=18-3(n-1)$ for term number $n$.",
+      "help": "Solve for when values equal — **n=3**, value **12** typical.\n\nEquate nth terms.\n\nTerm number."
+    },
+    "44": {
+      "hint": "Pick a non-constant-add rule, give 3 terms and 5th.",
+      "help": "Design e.g. multiply or Fibonacci-style.\n\nExplain rule clearly.\n\nYour puzzle."
+    },
+    "45": {
+      "hint": "A23 Q45: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "46": {
+      "hint": "A23 Q46: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "47": {
+      "hint": "A23 Q47: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "48": {
+      "hint": "A23 Q48: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "49": {
+      "hint": "A23 Q49: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "50": {
+      "hint": "A23 Q50: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "51": {
+      "hint": "A23 Q51: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "52": {
+      "hint": "A23 Q52: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "53": {
+      "hint": "A23 Q53: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "54": {
+      "hint": "A23 Q54: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "55": {
+      "hint": "A23 Q55: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "56": {
+      "hint": "A23 Q56: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "57": {
+      "hint": "A23 Q57: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "58": {
+      "hint": "A23 Q58: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "59": {
+      "hint": "A23 Q59: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "60": {
+      "hint": "A23 Q60: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "61": {
+      "hint": "A23 Q61: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "62": {
+      "hint": "A23 Q62: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "63": {
+      "hint": "A23 Q63: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "64": {
+      "hint": "A23 Q64: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "65": {
+      "hint": "A23 Q65: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "66": {
+      "hint": "A23 Q66: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "67": {
+      "hint": "A23 Q67: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "68": {
+      "hint": "A23 Q68: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "69": {
+      "hint": "A23 Q69: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "70": {
+      "hint": "A23 Q70: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "71": {
+      "hint": "A23 Q71: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "72": {
+      "hint": "A23 Q72: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "73": {
+      "hint": "A23 Q73: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "74": {
+      "hint": "A23 Q74: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "75": {
+      "hint": "A23 Q75: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "76": {
+      "hint": "A23 Q76: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "77": {
+      "hint": "A23 Q77: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "78": {
+      "hint": "A23 Q78: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "79": {
+      "hint": "A23 Q79: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "80": {
+      "hint": "A23 Q80: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "81": {
+      "hint": "A23 Q81: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "82": {
+      "hint": "A23 Q82: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "83": {
+      "hint": "A23 Q83: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "84": {
+      "hint": "A23 Q84: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "85": {
+      "hint": "A23 Q85: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "86": {
+      "hint": "A23 Q86: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "87": {
+      "hint": "A23 Q87: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "88": {
+      "hint": "A23 Q88: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "89": {
+      "hint": "A23 Q89: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "90": {
+      "hint": "A23 Q90: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "91": {
+      "hint": "A23 Q91: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "92": {
+      "hint": "A23 Q92: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "93": {
+      "hint": "A23 Q93: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "94": {
+      "hint": "A23 Q94: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "95": {
+      "hint": "A23 Q95: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "96": {
+      "hint": "A23 Q96: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "97": {
+      "hint": "A23 Q97: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "98": {
+      "hint": "A23 Q98: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "99": {
+      "hint": "A23 Q99: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "100": {
+      "hint": "A23 Q100: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "101": {
+      "hint": "A23 Q101: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "102": {
+      "hint": "A23 Q102: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "103": {
+      "hint": "A23 Q103: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "104": {
+      "hint": "A23 Q104: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "105": {
+      "hint": "A23 Q105: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "106": {
+      "hint": "A23 Q106: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "107": {
+      "hint": "A23 Q107: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "108": {
+      "hint": "A23 Q108: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "109": {
+      "hint": "A23 Q109: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "110": {
+      "hint": "A23 Q110: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "111": {
+      "hint": "A23 Q111: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "112": {
+      "hint": "A23 Q112: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "113": {
+      "hint": "A23 Q113: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "114": {
+      "hint": "A23 Q114: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "115": {
+      "hint": "A23 Q115: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "116": {
+      "hint": "A23 Q116: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "117": {
+      "hint": "A23 Q117: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "118": {
+      "hint": "A23 Q118: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "119": {
+      "hint": "A23 Q119: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "120": {
+      "hint": "A23 Q120: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "121": {
+      "hint": "A23 Q121: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "122": {
+      "hint": "A23 Q122: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "123": {
+      "hint": "A23 Q123: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "124": {
+      "hint": "A23 Q124: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "125": {
+      "hint": "A23 Q125: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "126": {
+      "hint": "A23 Q126: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "127": {
+      "hint": "A23 Q127: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "128": {
+      "hint": "A23 Q128: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "129": {
+      "hint": "A23 Q129: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "130": {
+      "hint": "A23 Q130: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "131": {
+      "hint": "A23 Q131: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "132": {
+      "hint": "A23 Q132: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "133": {
+      "hint": "A23 Q133: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "134": {
+      "hint": "A23 Q134: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "135": {
+      "hint": "A23 Q135: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "136": {
+      "hint": "A23 Q136: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "137": {
+      "hint": "A23 Q137: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "138": {
+      "hint": "A23 Q138: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "139": {
+      "hint": "A23 Q139: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "140": {
+      "hint": "A23 Q140: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "141": {
+      "hint": "A23 Q141: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "142": {
+      "hint": "A23 Q142: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "143": {
+      "hint": "A23 Q143: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "144": {
+      "hint": "A23 Q144: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "145": {
+      "hint": "A23 Q145: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "146": {
+      "hint": "A23 Q146: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "147": {
+      "hint": "A23 Q147: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "148": {
+      "hint": "A23 Q148: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "149": {
+      "hint": "A23 Q149: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "150": {
+      "hint": "A23 Q150: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "151": {
+      "hint": "A23 Q151: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "152": {
+      "hint": "A23 Q152: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "153": {
+      "hint": "A23 Q153: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "154": {
+      "hint": "A23 Q154: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "155": {
+      "hint": "A23 Q155: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "156": {
+      "hint": "A23 Q156: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "157": {
+      "hint": "A23 Q157: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "158": {
+      "hint": "A23 Q158: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "159": {
+      "hint": "A23 Q159: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "160": {
+      "hint": "A23 Q160: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "161": {
+      "hint": "A23 Q161: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "162": {
+      "hint": "A23 Q162: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "163": {
+      "hint": "A23 Q163: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "164": {
+      "hint": "A23 Q164: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "165": {
+      "hint": "A23 Q165: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "166": {
+      "hint": "A23 Q166: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "167": {
+      "hint": "A23 Q167: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "168": {
+      "hint": "A23 Q168: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "169": {
+      "hint": "A23 Q169: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "170": {
+      "hint": "A23 Q170: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "171": {
+      "hint": "A23 Q171: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "172": {
+      "hint": "A23 Q172: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "173": {
+      "hint": "A23 Q173: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "174": {
+      "hint": "A23 Q174: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "175": {
+      "hint": "A23 Q175: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "176": {
+      "hint": "A23 Q176: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "177": {
+      "hint": "A23 Q177: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "178": {
+      "hint": "A23 Q178: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "179": {
+      "hint": "A23 Q179: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "180": {
+      "hint": "A23 Q180: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "181": {
+      "hint": "A23 Q181: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "182": {
+      "hint": "A23 Q182: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "183": {
+      "hint": "A23 Q183: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "184": {
+      "hint": "A23 Q184: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "185": {
+      "hint": "A23 Q185: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "186": {
+      "hint": "A23 Q186: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "187": {
+      "hint": "A23 Q187: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "188": {
+      "hint": "A23 Q188: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "189": {
+      "hint": "A23 Q189: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "190": {
+      "hint": "A23 Q190: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "191": {
+      "hint": "A23 Q191: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "192": {
+      "hint": "A23 Q192: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "193": {
+      "hint": "A23 Q193: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "194": {
+      "hint": "A23 Q194: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "195": {
+      "hint": "A23 Q195: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "196": {
+      "hint": "A23 Q196: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "197": {
+      "hint": "A23 Q197: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "198": {
+      "hint": "A23 Q198: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "199": {
+      "hint": "A23 Q199: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "200": {
+      "hint": "A23 Q200: what is the first step on paper?",
+      "help": "Describe the term-to-term rule before continuing the sequence.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    }
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "The first number in brackets is the x-coordinate — which is it for (2, 1)?",
+      "help": "In **(x, y)**, the **x-coordinate** is the first number: **2**.\n\nExample: (5, 3) has x = 5."
+    },
+    "2": {
+      "hint": "The second number in (2, 1) is the y-coordinate.",
+      "help": "The **y-coordinate** is the second number: **1**.\n\nExample: (5, 3) has y = 3."
+    },
+    "3": {
+      "hint": "From (0, 0), move 3 right — add 3 to x.",
+      "help": "Starting at origin, 3 right → **(3, 0)**.\n\nExample: 2 right from (0,0) → (2, 0)."
+    },
+    "4": {
+      "hint": "From (0, 0), move 2 up — add 2 to y.",
+      "help": "2 up → **(0, 2)**.\n\nExample: 4 up → (0, 4).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "5": {
+      "hint": "Compare x-coordinates: 1 vs 4 — which is further right?",
+      "help": "Larger **x** is further right. **(4, 2)** is farther right than (1, 2).\n\nExample: (7, 1) is right of (2, 1)."
+    },
+    "6": {
+      "hint": "Same x means vertical line — subtract y values: 4 − 1.",
+      "help": "Vertical distance $|4 - 1| = 3$ squares.\n\nExample: (1, 2) to (1, 7) → 5 apart."
+    },
+    "7": {
+      "hint": "Same y means horizontal line — subtract x values: 6 − 2.",
+      "help": "Horizontal distance $|6 - 2| = 4$ squares.\n\nExample: (2, 3) to (9, 3) → 7 apart."
+    },
+    "8": {
+      "hint": "Halfway on x-axis from 0 to 4 — average the x-coordinates.",
+      "help": "Midpoint of (0, 0) and (4, 0) is **(2, 0)** — average x: $(0+4)/2$.\n\nExample: halfway (0,0) and (6,0) → (3,0)."
+    },
+    "9": {
+      "hint": "Same x — vertical segment. Subtract y: 7 − 3.",
+      "help": "Distance AB $= |7 - 3| = 4$ (vertical line).\n\nExample: (2,1) to (2,8) → 7."
+    },
+    "10": {
+      "hint": "Same y — horizontal segment. Subtract x: 6 − 1.",
+      "help": "Distance CD $= |6 - 1| = 5$.\n\nExample: (1,5) to (8,5) → 7.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "Midpoint: average x and average y — (2+2)/2 and (3+7)/2.",
+      "help": "Midpoint **(2, 5)** — x unchanged at 2, y average $(3+7)/2 = 5$.\n\nExample: (0,0) and (4,6) → (2,3)."
+    },
+    "12": {
+      "hint": "Add coordinates and divide by 2 for each.",
+      "help": "Midpoint $( (0+8)/2, (0+6)/2 ) = **(4, 3)**$.\n\nExample: (2,4) and (6,8) → (4,6)."
+    },
+    "13": {
+      "hint": "Reflect in x-axis: x stays, y becomes negative.",
+      "help": "(3, 4) → **(3, −4)**.\n\nExample: (2, 5) → (2, −5).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "14": {
+      "hint": "Reflect in y-axis: y stays, x becomes negative.",
+      "help": "(3, 4) → **(−3, 4)**.\n\nExample: (2, 5) → (−2, 5).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "15": {
+      "hint": "Square missing corner — same x as (0,0) and same y as (4,4).",
+      "help": "Fourth vertex **(0, 4)** completes the square.\n\nExample: three corners of axis-aligned square → find missing by matching x and y."
+    },
+    "16": {
+      "hint": "Midpoint y is (y₁ + y₂) divided by 2.",
+      "help": "Second coordinate is **(y₁ + y₂)/2**.\n\nExample: (2,8) and (6,2) → y-midpoint 5."
+    },
+    "17": {
+      "hint": "x goes 1 to 5 — how many right? y unchanged.",
+      "help": "Moved **4** squares **right** (y stays 2).\n\nExample: (1,2) to (1,6) → 4 up."
+    },
+    "18": {
+      "hint": "x = 0 on both points — which axis is the y-axis?",
+      "help": "Both lie on the **y-axis** (x = 0).\n\nExample: (0, 2) and (0, −5) on y-axis."
+    },
+    "19": {
+      "hint": "y = 0 on both — which axis?",
+      "help": "Both lie on the **x-axis** (y = 0).\n\nExample: (4, 0) and (−6, 0)."
+    },
+    "20": {
+      "hint": "Midpoint definition — exactly halfway?",
+      "help": "The midpoint is **exactly halfway** in both x and y — **true**.\n\nExample: average of endpoints."
+    },
+    "21": {
+      "hint": "Average x: (2+6)/2; average y: (4+8)/2.",
+      "help": "Midpoint **(4, 6)**.\n\nExample: (1,1) and (5,9) → (3,5).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "Horizontal 3, vertical 4 from origin — use 3² + 4².",
+      "help": "Distance $= \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$.\n\nExample: 6-8-10 triangle from axes."
+    },
+    "23": {
+      "hint": "Rectangle: fourth corner shares x with (1,1) and y with (5,4).",
+      "help": "Fourth vertex **(1, 4)**.\n\nExample: plot three corners and complete rectangle."
+    },
+    "24": {
+      "hint": "Add x values, divide by 2; same for y — try (2,8) and (6,2).",
+      "help": "Midpoint $x = (2+6)/2 = 4$, $y = (8+2)/2 = 5$ → **(4, 5)**.\n\nExample: explain averaging both coordinates."
+    },
+    "25": {
+      "hint": "Horizontal change 6, vertical 8 — Pythagoras on 6 and 8.",
+      "help": "Length $= \\sqrt{6^2 + 8^2} = 10$.\n\nExample: right triangle with legs 6 and 8."
+    },
+    "26": {
+      "hint": "x-axis reflection — which coordinate flips sign?",
+      "help": "x unchanged, **y** changes sign — **always** for x-axis reflection.\n\nExample: (3,2) → (3,−2)."
+    },
+    "27": {
+      "hint": "Parallelogram: D = A + C − B (vector from B to C added to A).",
+      "help": "Vertex D **(2, 3)** using $\\overrightarrow{OD} = \\overrightarrow{OA} + \\overrightarrow{OC} - \\overrightarrow{OB}$ or (0+6−4, 0+3−0).\n\nExample: opposite sides equal and parallel."
+    },
+    "28": {
+      "hint": "Check midpoint of (2,2) and (8,8) — average each coordinate.",
+      "help": "Midpoint $( (2+8)/2, (2+8)/2 ) = (5, 5)$ — Sam is **correct**.\n\nExample: verify by averaging."
+    },
+    "29": {
+      "hint": "P is midpoint of A and B — work from A to P and repeat to find B.",
+      "help": "From A(2,2) to P(4,6) is (+2,+4). B = P + same step → **(6, 10)**.\n\nExample: double the step from A to P."
+    },
+    "30": {
+      "hint": "Same x — vertical distance |6 − (−2)|.",
+      "help": "Distance $= |6 - (-2)| = 8$ — subtract y-coordinates on a vertical line.\n\nExample: (3,1) to (3,9) → 8."
+    },
+    "31": {
+      "hint": "Rectangle corners share x or y — missing corner matches (7,?) and (?,1).",
+      "help": "Fourth corner **(7, 1)** — same y as (2,1) and same x as (7,5).\n\nExample: plot on grid."
+    },
+    "32": {
+      "hint": "Midpoint of (1,2) and (9,8) — average x and y.",
+      "help": "Treasure at $( (1+9)/2, (2+8)/2 ) = **(5, 5)**$.\n\nExample: map midpoint treasure."
+    },
+    "33": {
+      "hint": "Legs 6 and 8 from (0,0) to (6,8) — Pythagoras.",
+      "help": "Path length $= \\sqrt{6^2 + 8^2} = 10$ m.\n\nExample: grid diagonal."
+    },
+    "34": {
+      "hint": "Centre of square = midpoint of opposite corners (2,2) and (8,8).",
+      "help": "Centre **(5, 5)** — average of 2 and 8 for both coordinates.\n\nExample: diagonal midpoint."
+    },
+    "35": {
+      "hint": "AC vertical from (0,4) to (0,−4); BD horizontal −3 to 3.",
+      "help": "AC length $= 8$, BD length $= 6$ (distance along axes).\n\nExample: kite diagonals on axes."
+    },
+    "36": {
+      "hint": "Reflect (5, −3) in x-axis — flip sign of y.",
+      "help": "Image **(5, 3)**.\n\nExample: x-axis reflection negates y.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "37": {
+      "hint": "Midpoint first; then horizontal 6, vertical 8 for length.",
+      "help": "Midpoint **(1, 5)**. Length $\\sqrt{6^2 + 8^2} = 10$.\n\nExample: two-step coordinate problem."
+    },
+    "38": {
+      "hint": "In parallelogram, fourth vertex = first + third − second.",
+      "help": "Use **vector addition**: opposite sides equal → $D = A + C - B$ in coordinates.\n\nExample: plot A, B, C and find D so AB parallel DC."
+    },
+    "39": {
+      "hint": "Reflect in x then y — both coordinates change sign.",
+      "help": "(a, b) → (a, −b) → **(−a, −b)**. Same as **180° rotation** about origin.\n\nExample: (2,3) → (2,−3) → (−2,−3)."
+    },
+    "40": {
+      "hint": "Average the two x-coordinates, then average the two y-coordinates.",
+      "help": "The midpoint lies halfway in both directions. Use\n$\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$.\n\nFor example, the midpoint of $(1,3)$ and $(7,9)$ is $(4,6)$."
+    },
+    "41": {
+      "hint": "Same y — horizontal distance |5 − 1|.",
+      "help": "AB $= |5 - 1| = 4$.\n\nExample: horizontal segment length.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "Midpoint (4,3), A (2,3) — find B by doubling the step from A to midpoint.",
+      "help": "From A to midpoint (+2, 0), continue to B → **(6, 3)**.\n\nExample: reverse midpoint formula."
+    },
+    "43": {
+      "hint": "The first number in (x, y) is the horizontal step.",
+      "help": "In **(1, 1)**, **1** is along the **horizontal x-axis** and **1** is vertical."
+    },
+    "44": {
+      "hint": "The first number in (x, y) is the horizontal step.",
+      "help": "In **(1, 2)**, **1** is along the **horizontal x-axis** and **2** is vertical."
+    },
+    "45": {
+      "hint": "Add each coordinate pair and divide by 2.",
+      "help": "Midpoint **(3, 2)** from $(0+6)/2$ and $(0+4)/2$.\n\nExample: halfway between (2, 0) and (8, 6) is (5, 3)."
+    },
+    "46": {
+      "hint": "Average the x-values, then the y-values.",
+      "help": "Midpoint **(4, 6)** — x: $(1+7)/2$, y: $(3+9)/2$.\n\nExample: (0, 0) and (10, 8) → (5, 4)."
+    },
+    "47": {
+      "hint": "Use (x₁+x₂)/2 and (y₁+y₂)/2.",
+      "help": "Midpoint **(1, 3)** from $(-2+4)/2$ and $(5+1)/2$.\n\nExample: negative x-coordinates work the same way."
+    },
+    "48": {
+      "hint": "Same x means the midpoint shares that x.",
+      "help": "Both points have x = 3, so midpoint x = 3. Average y: $(-1+7)/2 = 3$ → **(3, 3)**.\n\nExample: vertical segment midpoints stay on the line."
+    },
+    "49": {
+      "hint": "Average 10 with 2, and 2 with 10.",
+      "help": "Midpoint **(6, 6)**.\n\nExample: diagonal of a square from (0,0) to (4,4) has centre (2,2)."
+    },
+    "50": {
+      "hint": "Combine the negatives carefully when averaging.",
+      "help": "Midpoint **(1, 3)** from $(-4+6)/2$ and $(-2+8)/2$.\n\nExample: $(-6,0)$ and $(6,0)$ have midpoint (0,0)."
+    },
+    "51": {
+      "hint": "Horizontal change 5, vertical 12 — use Pythagoras.",
+      "help": "$\\sqrt{5^2+12^2}=13$.\n\nExample: 3-4-5 triangle from the axes gives distance 5."
+    },
+    "52": {
+      "hint": "Find horizontal and vertical steps, then square and add.",
+      "help": "Legs 3 and 4 → distance **5**.\n\nExample: from (0,0) to (6,8) the distance is 10."
+    },
+    "53": {
+      "hint": "Same x — this is a vertical line.",
+      "help": "Distance $|11-3|=8$.\n\nExample: (5,1) to (5,9) is 8 units apart."
+    },
+    "54": {
+      "hint": "Same y — subtract the x-coordinates.",
+      "help": "Distance $|5-(-3)|=8$.\n\nExample: points on the x-axis use horizontal distance only."
+    },
+    "55": {
+      "hint": "Legs 3 and 4 form a right triangle.",
+      "help": "Distance $\\sqrt{3^2+4^2}=5$.\n\nExample: check with a sketch on grid paper."
+    },
+    "56": {
+      "hint": "Horizontal 6, vertical 8 — classic 6-8-10 triangle.",
+      "help": "Distance **10**.\n\nExample: (0,0) to (6,8) is also length 10."
+    },
+    "57": {
+      "hint": "Horizontal change 3, vertical change 4.",
+      "help": "Distance **5**.\n\nExample: always draw the right triangle under the segment."
+    },
+    "58": {
+      "hint": "Vertical segment — subtract y-values.",
+      "help": "Distance $|9-1|=8$.\n\nExample: (4,2) to (4,10) is 8 units.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "59": {
+      "hint": "Horizontal distance along y = 4.",
+      "help": "Distance $|6-(-2)|=8$.\n\nExample: parallel to the x-axis means same y."
+    },
+    "60": {
+      "hint": "Try the 8-15-17 Pythagorean triple.",
+      "help": "Distance $\\sqrt{8^2+15^2}=17$.\n\nExample: (0,0) to (5,12) is 13 units."
+    },
+    "61": {
+      "hint": "Reflect in the x-axis: keep x, change sign of y.",
+      "help": "(2, 5) → **(2, −5)**.\n\nExample: (4, 1) → (4, −1).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "62": {
+      "hint": "Flip the sign of the y-coordinate only.",
+      "help": "(−4, 3) → **(−4, −3)**.\n\nExample: x-axis reflection does not move x."
+    },
+    "63": {
+      "hint": "Reflect in the y-axis: flip the x-coordinate.",
+      "help": "(6, −2) → **(−6, −2)**.\n\nExample: (1, 5) → (−1, 5).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "64": {
+      "hint": "Change the sign of x, keep y.",
+      "help": "(−1, −7) → **(1, −7)** after y-axis reflection.\n\nExample: the y-axis is the mirror line."
+    },
+    "65": {
+      "hint": "Do one reflection, then the other.",
+      "help": "x-axis: (0,6)→(0,−6); y-axis: **(0, −6)** (x stays 0).\n\nExample: two reflections can match a 180° turn."
+    },
+    "66": {
+      "hint": "y-axis reflection negates x.",
+      "help": "(3, 8) → **(−3, 8)**.\n\nExample: mirror image across the vertical axis."
+    },
+    "67": {
+      "hint": "Add 4 to x and 3 to y.",
+      "help": "(2,1) + (4,3) → **(6, 4)**.\n\nExample: right is +x, up is +y."
+    },
+    "68": {
+      "hint": "Left means subtract from x; up adds to y.",
+      "help": "(5,1) → **(3, 5)**.\n\nExample: from (0,0), 3 right and 2 up is (3,2)."
+    },
+    "69": {
+      "hint": "Combine −3+5 on x and 2−1 on y.",
+      "help": "Landing point **(2, 1)**.\n\nExample: track moves as separate x and y steps."
+    },
+    "70": {
+      "hint": "Same x — vertical distance only.",
+      "help": "Distance $|9-4|=5$.\n\nExample: sailing north stays on one grid line."
+    },
+    "71": {
+      "hint": "Fourth corner shares x with one point and y with another.",
+      "help": "Missing vertex **(2, 5)** completes the rectangle.\n\nExample: plot three corners and fill in the L-shape."
+    },
+    "72": {
+      "hint": "Opposite corner of (0,0) across the square is (0,3).",
+      "help": "Fourth vertex **(0, 3)**.\n\nExample: axis-aligned square uses matching x and y."
+    },
+    "73": {
+      "hint": "Match x of (−1,2) and y of (3,6).",
+      "help": "Fourth corner **(−1, 6)**.\n\nExample: rectangle corners come in matching pairs."
+    },
+    "74": {
+      "hint": "The missing corner sits at x = 1, y = 5.",
+      "help": "Fourth corner **(1, 5)**.\n\nExample: sketch the square on squared paper."
+    },
+    "75": {
+      "hint": "Use D = A + C − B for a parallelogram.",
+      "help": "D is **(3, 4)**.\n\nExample: opposite sides are equal vectors."
+    },
+    "76": {
+      "hint": "Add vectors OA and OC, subtract OB.",
+      "help": "D = **(1, 2)**.\n\nExample: walk round the shape in order to check."
+    },
+    "77": {
+      "hint": "Double the step from A to P to reach B.",
+      "help": "From (3,1) to (5,3) is (+2,+2), so B is **(7, 5)**.\n\nExample: midpoint splits a segment in half."
+    },
+    "78": {
+      "hint": "M is halfway — continue the same step from M.",
+      "help": "B = **(4, 8)**.\n\nExample: if M is (1,1) and A is (0,0), B is (2,2)."
+    },
+    "79": {
+      "hint": "From A to midpoint is half the full jump to B.",
+      "help": "B = **(8, 4)**.\n\nExample: reverse the midpoint formula.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "80": {
+      "hint": "Find the vector from A to M and add it again.",
+      "help": "B = **(3, 9)**.\n\nExample: (−1,5) to (1,7) is (+2,+2), so B is (3,9)."
+    },
+    "81": {
+      "hint": "Both points have x = 0.",
+      "help": "They lie on the **y-axis**.\n\nExample: (0, 2) and (0, −5) are vertical."
+    },
+    "82": {
+      "hint": "Both have y = 0.",
+      "help": "They lie on the **x-axis**.\n\nExample: (3,0) and (−4,0).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "83": {
+      "hint": "Higher up means larger y.",
+      "help": "**(3, 7)** is higher than (3, 2).\n\nExample: compare y when x matches."
+    },
+    "84": {
+      "hint": "Further left means smaller x.",
+      "help": "**(−4, 1)** is further left.\n\nExample: −4 is less than 2 on the number line."
+    },
+    "85": {
+      "hint": "On y = x, the y-value equals x.",
+      "help": "When x = 4, y = 4 → **(4, 4)**.\n\nExample: (2,2) also lies on y = x."
+    },
+    "86": {
+      "hint": "Substitute x = 5 into y = 2x.",
+      "help": "y = 10 → **(5, 10)**.\n\nExample: (1,2) is on the same line.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "87": {
+      "hint": "Compute y = x + 1 when x = 3.",
+      "help": "y = 4 → **(4, 4)**.\n\nExample: (0,1) is the y-intercept of that line."
+    },
+    "88": {
+      "hint": "Multiply x by 3 to get y.",
+      "help": "**(2, 6)**.\n\nExample: (1,3) is also on y = 3x.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "89": {
+      "hint": "Slope from (0,0) to (2,6) is 3.",
+      "help": "y = 3x, so when x = 5, y = **15**.\n\nExample: doubling x doubles y on this line."
+    },
+    "90": {
+      "hint": "Compute both distances with Pythagoras.",
+      "help": "Both are $\\sqrt{9+16}=5$ — **true**.\n\nExample: distance depends on squares of legs, not order."
+    },
+    "91": {
+      "hint": "9-12-15 triangle along the fence.",
+      "help": "Length **15 m**.\n\nExample: (0,0) to (6,8) is 10 m.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "92": {
+      "hint": "Horizontal 8, vertical 8.",
+      "help": "Distance $8\\sqrt{2}$ km (about 11.3 km).\n\nExample: equal legs give diagonal $\\text{leg}\\times\\sqrt{2}$."
+    },
+    "93": {
+      "hint": "6-8-10 triangle.",
+      "help": "String length **10**.\n\nExample: classic Pythagorean triple.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "94": {
+      "hint": "Horizontal and vertical changes are both 8.",
+      "help": "Diagonal $8\\sqrt{2}$.\n\nExample: square diagonal from side 8 is $8\\sqrt{2}$."
+    },
+    "95": {
+      "hint": "Add the three side lengths.",
+      "help": "Sides 4, 3, and 5 → perimeter **12**.\n\nExample: right triangle 3-4-5."
+    },
+    "96": {
+      "hint": "Two sides are 4 and 3; find the slanted side.",
+      "help": "Hypotenuse 5 → perimeter **12**.\n\nExample: sketch the right angle at (1,1)."
+    },
+    "97": {
+      "hint": "Opposite corners of a square are a diagonal.",
+      "help": "Diagonal 6√2 implies side **6**.\n\nExample: side = diagonal ÷ √2."
+    },
+    "98": {
+      "hint": "Difference 6 in x and y between opposite corners.",
+      "help": "Side length **6**.\n\nExample: use diagonal 6√2 for a square.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "99": {
+      "hint": "Centre = midpoint of opposite corners.",
+      "help": "Centre **(4, 4)**.\n\nExample: midpoint of (0,0) and (8,8).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "100": {
+      "hint": "Vertical walk — subtract y-coordinates.",
+      "help": "Distance $|14-2|=12$.\n\nExample: same x means straight north/south."
+    },
+    "101": {
+      "hint": "Average −6 with 2 and 0 with 8.",
+      "help": "Midpoint **(−2, 4)**.\n\nExample: mixing negatives and positives."
+    },
+    "102": {
+      "hint": "Vertical line at x = 5.",
+      "help": "Distance $| -9|=9$ from 5 to −4 on y? (5,0) to (5,-9) = 9.\n\nExample: |−9| for vertical drop."
+    },
+    "103": {
+      "hint": "Apply x-axis flip, then y-axis flip.",
+      "help": "(7,−1) → (7,1) → **(−7, −1)**? x-axis: (7,-1), y-axis: (-7,-1).\n\nExample: track each coordinate sign."
+    },
+    "104": {
+      "hint": "Count units along the base from (0,0) to (4,0).",
+      "help": "Side AB length **4**.\n\nExample: horizontal side is |x₂−x₁|.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "105": {
+      "hint": "Use Pythagoras on horizontal 2 and vertical 3.",
+      "help": "Length $\\sqrt{4+9}=\\sqrt{13}$.\n\nExample: slanted side of rhombus."
+    },
+    "106": {
+      "hint": "Try a midpoint where averages are not whole numbers.",
+      "help": "Only **sometimes** — e.g. (1,2) and (2,3) give (1.5, 2.5).\n\nExample: even + odd can give halves."
+    },
+    "107": {
+      "hint": "Distance is not the sum of the legs.",
+      "help": "Use $\\sqrt{3^2+4^2}=5$, not 7.\n\nExample: walk 3 east and 4 north — direct line is 5."
+    },
+    "108": {
+      "hint": "Average −3 with 5 and 2 with −2.",
+      "help": "Midpoint **(1, 0)**.\n\nExample: $(-3+5)/2=1$.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "109": {
+      "hint": "Horizontal 8, vertical 4.",
+      "help": "Length $\\sqrt{64+16}=\\sqrt{80}=4\\sqrt{5}$.\n\nExample: simplify surds when needed."
+    },
+    "110": {
+      "hint": "Add coordinates and halve.",
+      "help": "Midpoint **(1, 2)**.\n\nExample: (−2,5) and (4,−1) average to (1,2)."
+    },
+    "111": {
+      "hint": "Horizontal 6, vertical 6.",
+      "help": "Distance $6\\sqrt{2}$.\n\nExample: equal legs → multiply by √2."
+    },
+    "112": {
+      "hint": "Side length 4; square goes upward from base.",
+      "help": "Top vertices **(3, 6)** and **(7, 6)**.\n\nExample: from (3,2) go up 4 units."
+    },
+    "113": {
+      "hint": "Find missing corner, then add all four sides.",
+      "help": "Fourth corner (−2,5); sides 6 and 5 → perimeter **22 cm**.\n\nExample: opposite sides equal in rectangles."
+    },
+    "114": {
+      "hint": "Find both midpoints first.",
+      "help": "Both are **(6, 4)** — distance **0**.\n\nExample: averaging endpoints can give the same point."
+    },
+    "115": {
+      "hint": "Try a point not on an axis.",
+      "help": "Order does not matter — **true**.\n\nExample: (2,3) ends at (−2,−3) either way."
+    },
+    "116": {
+      "hint": "Substitute x = 2 into y = 5 − x.",
+      "help": "y = 3 → **(2, 3)**.\n\nExample: (0,5) is on the same line.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "117": {
+      "hint": "Half of 6 plus 1.",
+      "help": "y = 4 → **(6, 4)**.\n\nExample: substitute into the equation.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "118": {
+      "hint": "Check 2x + 1 for each point.",
+      "help": "**(2, 5)** works because 2×2+1=5.\n\nExample: (0,1) is also on y=2x+1."
+    },
+    "119": {
+      "hint": "Compute y − 3 for each x.",
+      "help": "**(5, 2)** because 5−3=2.\n\nExample: (4,1) fits y=x−3.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "120": {
+      "hint": "Add horizontal and vertical parts.",
+      "help": "10 + 5 = **15**.\n\nExample: Manhattan distance along axes.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "121": {
+      "hint": "Add 3 to x and −2 to y.",
+      "help": "Image **(4, 3)**.\n\nExample: translation moves every point the same vector."
+    },
+    "122": {
+      "hint": "Subtract 4 from x, add 6 to y.",
+      "help": "Image **(3, 7)**.\n\nExample: (−4,6) means left and up.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "123": {
+      "hint": "x-axis mirror flips y only.",
+      "help": "Image **(a, −b)**.\n\nExample: (5,2) → (5,−2).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "124": {
+      "hint": "y-axis mirror flips x only.",
+      "help": "Image **(−a, b)**.\n\nExample: (5,2) → (−5,2).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "125": {
+      "hint": "Two reflections: track signs.",
+      "help": "Final point **(5, −2)**.\n\nExample: start (−5,2), flip x then y carefully."
+    },
+    "126": {
+      "hint": "Vertical segment.",
+      "help": "Distance **10**.\n\nExample: |8−(−2)|.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "127": {
+      "hint": "Horizontal segment.",
+      "help": "Distance **9**.\n\nExample: |2−(−7)|.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "128": {
+      "hint": "Average the matching coordinates.",
+      "help": "Midpoint **(1, 3)**.\n\nExample: midpoint of vertical segment keeps x."
+    },
+    "129": {
+      "hint": "5-12-13 ladder triangle.",
+      "help": "Length **13 m**.\n\nExample: check 5²+12²=13².\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "130": {
+      "hint": "Same x on both points.",
+      "help": "Distance **10**.\n\nExample: |11−1|.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "131": {
+      "hint": "Parallelogram rule D = A + C − B.",
+      "help": "Fourth corner **(−2, 4)**.\n\nExample: sketch the three given vertices."
+    },
+    "132": {
+      "hint": "Complete the rectangle.",
+      "help": "Fourth vertex **(−2, 5)**.\n\nExample: match x and y.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "133": {
+      "hint": "Opposite corner is twice centre minus known corner.",
+      "help": "Opposite **(5, 5)** from centre (3,3) and corner (1,1).\n\nExample: diagonal bisects at centre."
+    },
+    "134": {
+      "hint": "Compare distances before and after reflection.",
+      "help": "**Always** the same — reflection is a rigid move.\n\nExample: mirror does not stretch distances."
+    },
+    "135": {
+      "hint": "Mention same x-coordinate.",
+      "help": "Subtract y-values: $|5-(-1)|$.\n\nExample: (2,4) to (2,1) → distance 3."
+    },
+    "136": {
+      "hint": "Mention averaging both coordinates.",
+      "help": "Midpoint uses $(-4+8)/2$ and $(6+0)/2$.\n\nExample: explain in words, then compute."
+    },
+    "137": {
+      "hint": "Drone from (−1, 2) to (5, 10) — horizontal change 6, vertical 8.",
+      "help": "Direct distance **10**.\n\nExample: drone path is the hypotenuse."
+    },
+    "138": {
+      "hint": "Legs 12 and 5.",
+      "help": "Length **13**.\n\nExample: 5-12-13 triangle.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "139": {
+      "hint": "Square side 4 — four equal sides.",
+      "help": "Perimeter $4\\times4=16$.\n\nExample: count units round the square."
+    },
+    "140": {
+      "hint": "Find midpoint of (6,0) and (0,8) first.",
+      "help": "Midpoint (3,4); distance from origin **5**.\n\nExample: 3-4-5 again."
+    },
+    "141": {
+      "hint": "Compare $\\sqrt{3^2+4^2}$ for each point.",
+      "help": "Both equal 5 — Sam is **correct**.\n\nExample: swap legs, same hypotenuse."
+    },
+    "142": {
+      "hint": "Length from (1,1) to (7,1) is 6.",
+      "help": "Extend another 6 to **(13, 1)**.\n\nExample: continue same direction."
+    },
+    "143": {
+      "hint": "Midpoint formula backwards.",
+      "help": "A = **(2, 2)**.\n\nExample: if B were (6,4) and M (4,3), find A."
+    },
+    "144": {
+      "hint": "Double the step from (−2,8) to (1,5)?",
+      "help": "B = **(4, 2)**.\n\nExample: vector from midpoint to endpoint repeats."
+    },
+    "145": {
+      "hint": "Average −8 and 8 on x.",
+      "help": "Midpoint **(0, 0)** — **true**.\n\nExample: symmetric points about origin."
+    },
+    "146": {
+      "hint": "Midpoint of horizontal side along x-axis.",
+      "help": "**(2.5, 0)** or (5/2, 0).\n\nExample: halfway between 0 and 5 on x."
+    },
+    "147": {
+      "hint": "Average (0,0) with (2,4).",
+      "help": "Midpoint **(1, 2)**.\n\nExample: slanted side midpoint.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "148": {
+      "hint": "Side 6 along axes from (0,0).",
+      "help": "Corners **(0,0), (6,0), (6,6), (0,6)**.\n\nExample: list going round the square."
+    },
+    "149": {
+      "hint": "Use distance formula with y = 0.",
+      "help": "Possible **(6, 0)** or **(−2, 0)** — 5 units from (2,3).\n\nExample: draw circle radius 5 in your head."
+    },
+    "150": {
+      "hint": "Point on y-axis has x = 0.",
+      "help": "**(0, 8)** or **(0, −2)** work.\n\nExample: vertical distance 5 from y=3."
+    },
+    "151": {
+      "hint": "Horizontal 3, vertical 4.",
+      "help": "Distance **5**.\n\nExample: (0,0) to (3,4).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "152": {
+      "hint": "Average 2 with −1 and 3 with 7.",
+      "help": "Midpoint **(0.5, 5)**.\n\nExample: halves appear in midpoints."
+    },
+    "153": {
+      "hint": "Top-right: add width and height to bottom-left.",
+      "help": "**(6, 5)** from (1,2) with width 5 height 3.\n\nExample: rectangle corners add dimensions."
+    },
+    "154": {
+      "hint": "Reflect then add 3 to x.",
+      "help": "(−2,−5) then **(1, −5)**.\n\nExample: do steps in order.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "155": {
+      "hint": "y-axis mirror keeps y the same.",
+      "help": "**Always** same y-coordinate.\n\nExample: (4,7) → (−4,7).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "156": {
+      "hint": "Average endpoints of the trail.",
+      "help": "Midpoint **(1, 3)**.\n\nExample: (−2,−1) to (4,7).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "157": {
+      "hint": "Trail from (−2, −1) to (4, 7) — legs 6 across and 8 up.",
+      "help": "Trail length **10**.\n\nExample: use Pythagoras on grid.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "158": {
+      "hint": "Horizontal −6, vertical 8 from (8,2) to (2,10).",
+      "help": "Distance **10**.\n\nExample: direction does not matter for length."
+    },
+    "159": {
+      "hint": "Vertical diagonal through centre.",
+      "help": "From 5 to −5 is **10**.\n\nExample: kite on coordinate axes.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "160": {
+      "hint": "From −3 to 3 on x at y = 0.",
+      "help": "Horizontal diagonal **6**.\n\nExample: count units along x.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "161": {
+      "hint": "Compute (−3+5)/2 and (−4+6)/2.",
+      "help": "Midpoint **(1, 1)** — **true**.\n\nExample: check both coordinates."
+    },
+    "162": {
+      "hint": "On x-axis, y = 0.",
+      "help": "**(4, 0)** or **(−4, 0)**.\n\nExample: distance 4 from origin."
+    },
+    "163": {
+      "hint": "On y-axis, x = 0.",
+      "help": "**(0, 4)** or **(0, −4)**.\n\nExample: up/down from origin.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "164": {
+      "hint": "Side of rotated square — use Pythagoras on 3 and 3.",
+      "help": "Side **3√2** between (3,0) and (0,3).\n\nExample: diamond shape from square."
+    },
+    "165": {
+      "hint": "Compute both distances.",
+      "help": "Both are 5 — **equal** length.\n\nExample: different paths, same distance."
+    },
+    "166": {
+      "hint": "Vertical line x = −5.",
+      "help": "Length $|9-(-2)|=11$.\n\nExample: subtract y-values.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "167": {
+      "hint": "Average −5 with itself? same x — average y.",
+      "help": "Midpoint **(−5, 3.5)**.\n\nExample: halfway between −2 and 9 on y."
+    },
+    "168": {
+      "hint": "Horizontal move along y = −3.",
+      "help": "Distance $|−2−6|=8$.\n\nExample: left 8 units.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "169": {
+      "hint": "What if both points are the same?",
+      "help": "**Sometimes** zero — distance is positive only for distinct points.\n\nExample: distance ≥ 0 always."
+    },
+    "170": {
+      "hint": "Name horizontal and vertical legs.",
+      "help": "They are perpendicular legs; the segment is the **hypotenuse**.\n\nExample: draw the right triangle under the line."
+    },
+    "171": {
+      "hint": "40-30-50 triangle.",
+      "help": "Distance **50** on the map.\n\nExample: 3-4-5 scaled by 10.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "172": {
+      "hint": "Average 40 with 0 and 0 with 30.",
+      "help": "Midpoint **(20, 15)**.\n\nExample: field corners on axes.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "173": {
+      "hint": "Midpoint of diagonal endpoints.",
+      "help": "**(5, 6)**.\n\nExample: centre of square from diagonal.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "174": {
+      "hint": "Change 8 in x and y.",
+      "help": "Diagonal $8\\sqrt{2}$.\n\nExample: square diagonal formula.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "175": {
+      "hint": "Reflect corner through centre.",
+      "help": "Opposite **(8, 5)**.\n\nExample: centre (5,5) with corner (2,5)."
+    },
+    "176": {
+      "hint": "Check midpoint formula on (−a,−b) and (a,b).",
+      "help": "Midpoint is (0,0) — **true**.\n\nExample: symmetry in both axes."
+    },
+    "177": {
+      "hint": "Horizontal segment — length and midpoint separately.",
+      "help": "Length **12**; midpoint **(−2, 1)**.\n\nExample: average x, keep y."
+    },
+    "178": {
+      "hint": "Vertical segment at x = 3.",
+      "help": "Length **16**; midpoint **(3, 2)**.\n\nExample: |10−(−6)|.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "179": {
+      "hint": "Add two leg lengths.",
+      "help": "8 + 6 = **14**.\n\nExample: robot path along grid lines.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "180": {
+      "hint": "Straight line from start to (−1,−3).",
+      "help": "Direct distance **10**.\n\nExample: shorter than the path length."
+    },
+    "181": {
+      "hint": "Find missing corner then average opposite corners.",
+      "help": "Fourth **(4, 5)**; centre **(6, 3)**.\n\nExample: square centre from diagonal midpoints."
+    },
+    "182": {
+      "hint": "Both points have y = 0.",
+      "help": "Midpoint still has y = 0 — **always** on x-axis.\n\nExample: average of zeros is zero."
+    },
+    "183": {
+      "hint": "180° rotation flips both signs.",
+      "help": "**(−6, 4)**.\n\nExample: (2,−1) → (−2,1).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "184": {
+      "hint": "Distance from point to its origin reflection doubles radius.",
+      "help": "Distance $2\\sqrt{52}=4\\sqrt{13}$.\n\nExample: origin reflection = 180° turn."
+    },
+    "185": {
+      "hint": "Recompute (1+9)/2 and (8+0)/2.",
+      "help": "Correct midpoint **(5, 4)**, not (4, 4).\n\nExample: average each coordinate separately."
+    },
+    "186": {
+      "hint": "Centre of rectangle = average of opposite corners.",
+      "help": "**(8, 4)** from corners (2,1) and (14,7).\n\nExample: park centre for a map pin."
+    },
+    "187": {
+      "hint": "Width 12, height 6 on the rectangle.",
+      "help": "Diagonal $\\sqrt{144+36}=6\\sqrt{5}$.\n\nExample: Pythagoras on length and width."
+    },
+    "188": {
+      "hint": "Horizontal line means same y.",
+      "help": "Midpoint y matches — **true**.\n\nExample: (2,5) and (8,5) → midpoint y=5."
+    },
+    "189": {
+      "hint": "Include coordinates and a clear question.",
+      "help": "Write a stem with numbers, then solve using **midpoint** or **distance**.\n\nExample: invent two points and find the midpoint."
+    },
+    "190": {
+      "hint": "From A to M, repeat to B.",
+      "help": "B = **(7, 5)**.\n\nExample: vector doubling.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "191": {
+      "hint": "From (4, 1) to (10, 9) — x changes by 6, y by 8.",
+      "help": "Distance **10**.\n\nExample: (0,0) to (6,8).\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "192": {
+      "hint": "Top-left is at x = 0, y = base + height.",
+      "help": "**(0, 12)** with base y=2 and height 10.\n\nExample: draw the square on axes."
+    },
+    "193": {
+      "hint": "Two x-axis flips undo the first.",
+      "help": "**Always** returns to start.\n\nExample: (3,−2) → (3,2) → (3,−2)."
+    },
+    "194": {
+      "hint": "Distance |y − 8| = 5.",
+      "help": "y = **3** or **13**.\n\nExample: two points above/below on a vertical line."
+    },
+    "195": {
+      "hint": "|x − 7| = 4 on horizontal line.",
+      "help": "x = **3** or **11**.\n\nExample: two positions same distance from 7."
+    },
+    "196": {
+      "hint": "Horizontal road along y = 2.",
+      "help": "Length **16**; midpoint **(2, 2)**.\n\nExample: from −6 to 10 on x."
+    },
+    "197": {
+      "hint": "15-8-17 triangle.",
+      "help": "Distance **17**.\n\nExample: flag pole problem.\n\nUse coordinates step by step; sketch on squared paper if it helps."
+    },
+    "198": {
+      "hint": "Substitute (0,0) into the formula.",
+      "help": "Distance $\\sqrt{a^2+b^2}$ — **true**.\n\nExample: origin to (3,4) is 5."
+    },
+    "199": {
+      "hint": "Add each side round the pentagon.",
+      "help": "Perimeter **14 + 6√2** (includes two slanted sides 3√2 each).\n\nExample: walk each edge in order."
+    },
+    "200": {
+      "hint": "Equidistant from (0,0) and (6,0) lies on x = 3.",
+      "help": "P is **(3, 4)**; distance from A is **5**.\n\nExample: perpendicular bisector of AB is vertical line x=3."
+    }
+  }
+}

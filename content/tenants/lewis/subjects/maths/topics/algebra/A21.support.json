@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Add red $x$ and 2 blue.",
+      "help": "Total **$x+2$** balls.\n\nExpression for sum.\n\n$x+2$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "2": {
+      "hint": "$n$ cats plus 1 dog.",
+      "help": "**$n+1$** animals.\n\nCombine counts.\n\n$n+1$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "Starts with $a$, gains 3.",
+      "help": "**$a+3$** apples.\n\nAfter receiving more.\n\n$a+3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "$b$ toys minus 2 removed.",
+      "help": "**$b-2$** remain.\n\nSubtraction story.\n\n$b-2$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "Two bags of $x$ each.",
+      "help": "**$2x$** marbles.\n\nDouble one bag.\n\n$2x$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "$x+2=6$.",
+      "help": "Equation **$x+2=6$**.\n\nWords to algebra.\n\n$x+2=6$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "$2n=8$.",
+      "help": "**$2n=8$**.\n\nDoubled number.\n\n$2n=8$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "8": {
+      "hint": "$x-1=4$ after losing one.",
+      "help": "**$x-1=4$**.\n\nLoss equation.\n\n$x-1=4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "9": {
+      "hint": "Five more than $x$.",
+      "help": "**$x+5$**.\n\nAddition phrase.\n\n$x+5$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "Three less than $y$.",
+      "help": "**$y-3$**.\n\nSubtract 3 from $y$.\n\n$y-3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "11": {
+      "hint": "Double $n$, then add 4.",
+      "help": "**$2n+4$**.\n\nOrder matters.\n\n$2n+4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "12": {
+      "hint": "Equals 15 included.",
+      "help": "**$x+7=15$**.\n\nEquation form.\n\n$x+7=15$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "Three times $y$ equals 21.",
+      "help": "**$3y=21$**.\n\nMultiplication equation.\n\n$3y=21$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "14": {
+      "hint": "Sloan has 4 more than Archer's $x$.",
+      "help": "**$x+4$** sweets.\n\nCompare amounts.\n\n$x+4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "15": {
+      "hint": "Five tickets at £$t$ each.",
+      "help": "**$5t$** pounds.\n\nMultiply price by count.\n\n$5t$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "16": {
+      "hint": "£3 plus £2 per mile $m$.",
+      "help": "**$3+2m$**.\n\nFixed plus rate.\n\n$3+2m$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "Double $x$, add 3, equals 17.",
+      "help": "**$2x+3=17$**.\n\nMulti-step words.\n\n$2x+3=17$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "18": {
+      "hint": "Four equal sides $s$.",
+      "help": "**$4s$** perimeter.\n\nSquare formula.\n\n$4s$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "19": {
+      "hint": "Length is width plus 4.",
+      "help": "**$w+4$** cm.\n\nLonger than width.\n\n$w+4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "Half of $n$ plus 6 equals 10.",
+      "help": "**$\\dfrac{n}{2}+6=10$**.\n\nFraction in equation.\n\n$n/2+6=10$."
+    },
+    "21": {
+      "hint": "$2x=14$.",
+      "help": "**$2x=14$**.\n\nDoubled unknown.\n\n$2x=14$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "Five less than $x$ is 12.",
+      "help": "**$x-5=12$**.\n\nNot $5-x$.\n\n$x-5=12$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "23": {
+      "hint": "7 less than $x$ means $x-7$, not $7-x$.",
+      "help": "Sam reversed order — correct **$x-7$**.\n\nLess than starts with original.\n\nFix expression."
+    },
+    "24": {
+      "hint": "Addition commutes — order of adding 3 doesn't matter.",
+      "help": "**Always** same — $2x+3$ equals $3+2x$.\n\nCommutative addition.\n\nAlways."
+    },
+    "25": {
+      "hint": "Check $3x=x+6$ then solve.",
+      "help": "Equation correct — $2x=6$, $x=**3**$.\n\nForm ok, solve.\n\n3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "26": {
+      "hint": "$x+5$ and $5+x$ same by commutative law.",
+      "help": "Both **correct** — addition order free.\n\nSame solutions.\n\nExplain."
+    },
+    "27": {
+      "hint": "Sum of $x$ and $2x$ is 18.",
+      "help": "**$x+2x=18$** — **true** statement of problem.\n\nTriple is $3x$.\n\nTrue."
+    },
+    "28": {
+      "hint": "Substitute $x=4$ into $2x+3=11$.",
+      "help": "$8+3=11$ — Leo **correct**, $x=4$.\n\nCheck solution.\n\nVerified."
+    },
+    "29": {
+      "hint": "Try $n=3$ in both $n+4$ and $4n$.",
+      "help": "$7$ vs $12$ — different meanings.\n\nMore than vs times.\n\nContrast phrases."
+    },
+    "30": {
+      "hint": "Perimeter $2w+2(2w)=20$.",
+      "help": "Mo **correct** — $6w=20$, $w=**10/3**$ cm.\n\nLength twice width.\n\nSolve $w$."
+    },
+    "31": {
+      "hint": "In 5 years: $x+5=2x-3$.",
+      "help": "$x=**8**$ years now.\n\nAge equation.\n\n8.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "32": {
+      "hint": "$2.50+1.50m=11.50$.",
+      "help": "$1.50m=9$, $m=**6**$ miles.\n\nFare equation.\n\n6 miles.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "33": {
+      "hint": "$3n-1=8$ after voucher.",
+      "help": "$3n=9$, $n=**£3**$ per notebook.\n\nThree books minus £1.\n\n£3."
+    },
+    "34": {
+      "hint": "$2w+2(w+5)=34$.",
+      "help": "$4w+10=34$, $w=**6**$ cm.\n\nPerimeter setup.\n\n6 cm.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "35": {
+      "hint": "Numbers $n,n+1,n+2$ sum 54.",
+      "help": "$3n+3=54$, $n=17$ — **17,18,19**.\n\nConsecutive triple.\n\nThree numbers."
+    },
+    "36": {
+      "hint": "$5s+40=115$.",
+      "help": "$5s=75$, $s=**15**$ students.\n\nPer student plus coach.\n\n15.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "37": {
+      "hint": "$2x-5=\\dfrac{x}{2}+10$ — clear fractions carefully.",
+      "help": "Multiply through by 2: $4x-10=x+20$, $x=**10**$.\n\nMulti-step equation.\n\n10."
+    },
+    "38": {
+      "hint": "Let ages be $y$ and $26-y$; set future condition.",
+      "help": "Equations from sum 26 and future double relation — solve for **10 and 16** typical.\n\nAge system.\n\nCurrent ages."
+    },
+    "39": {
+      "hint": "$(2w+3)w=65$ or length×width=65.",
+      "help": "Quadratic in $w$ — positive $w=**5**$ cm typical.\n\nArea constraint.\n\nSolve $w$."
+    },
+    "40": {
+      "hint": "Create word problem with fraction like $n/3+4=9$.",
+      "help": "Write story, equation, solve.\n\nInclude fraction.\n\nYour design."
+    },
+    "41": {
+      "hint": "$r/3=20$ if three equal pieces.",
+      "help": "$r=**60**$ cm.\n\nThree pieces 20 cm.\n\n60 cm rope.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "42": {
+      "hint": "Her spend is £5.00 − £0.60. Divide that amount by £0.80, then ask whether the result can count pens.",
+      "help": "Sloan spends £4.40, so the equation is $0.80n=4.40$. Dividing gives $n=5.5$.\n\nA number of pens must be a whole number, so this result is impossible in the stated context. Five pens would cost £4.00 and give £1.00 change; six would cost £4.80 and give 20p change.\n\nTherefore the information in the question is inconsistent: there is no whole-number value of $n$."
+    },
+    "43": {
+      "hint": "Translate the words directly into symbols.",
+      "help": "\"Plus\" becomes +, \"equals\" becomes =.\n\nDo not solve yet unless asked — **form** the equation first.\n\nCheck each phrase maps to a part of the sentence."
+    },
+    "44": {
+      "hint": "Translate the words directly into symbols.",
+      "help": "\"Plus\" becomes +, \"equals\" becomes =.\n\nDo not solve yet unless asked — **form** the equation first.\n\nCheck each phrase maps to a part of the sentence."
+    },
+    "45": {
+      "hint": "A21 Q45: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "46": {
+      "hint": "A21 Q46: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "47": {
+      "hint": "A21 Q47: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "48": {
+      "hint": "A21 Q48: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "49": {
+      "hint": "A21 Q49: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "50": {
+      "hint": "A21 Q50: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "51": {
+      "hint": "A21 Q51: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "52": {
+      "hint": "A21 Q52: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "53": {
+      "hint": "A21 Q53: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "54": {
+      "hint": "A21 Q54: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "55": {
+      "hint": "A21 Q55: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "56": {
+      "hint": "A21 Q56: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "57": {
+      "hint": "A21 Q57: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "58": {
+      "hint": "A21 Q58: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "59": {
+      "hint": "A21 Q59: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "60": {
+      "hint": "A21 Q60: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "61": {
+      "hint": "A21 Q61: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "62": {
+      "hint": "A21 Q62: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "63": {
+      "hint": "A21 Q63: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "64": {
+      "hint": "A21 Q64: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "65": {
+      "hint": "A21 Q65: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "66": {
+      "hint": "A21 Q66: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "67": {
+      "hint": "A21 Q67: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "68": {
+      "hint": "A21 Q68: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "69": {
+      "hint": "A21 Q69: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "70": {
+      "hint": "A21 Q70: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "71": {
+      "hint": "A21 Q71: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "72": {
+      "hint": "A21 Q72: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "73": {
+      "hint": "A21 Q73: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "74": {
+      "hint": "A21 Q74: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "75": {
+      "hint": "A21 Q75: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "76": {
+      "hint": "A21 Q76: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "77": {
+      "hint": "A21 Q77: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "78": {
+      "hint": "A21 Q78: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "79": {
+      "hint": "A21 Q79: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "80": {
+      "hint": "A21 Q80: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "81": {
+      "hint": "A21 Q81: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "82": {
+      "hint": "A21 Q82: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "83": {
+      "hint": "A21 Q83: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "84": {
+      "hint": "A21 Q84: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "85": {
+      "hint": "A21 Q85: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "86": {
+      "hint": "A21 Q86: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "87": {
+      "hint": "A21 Q87: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "88": {
+      "hint": "A21 Q88: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "89": {
+      "hint": "A21 Q89: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "90": {
+      "hint": "A21 Q90: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "91": {
+      "hint": "A21 Q91: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "92": {
+      "hint": "A21 Q92: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "93": {
+      "hint": "A21 Q93: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "94": {
+      "hint": "A21 Q94: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "95": {
+      "hint": "A21 Q95: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "96": {
+      "hint": "A21 Q96: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "97": {
+      "hint": "A21 Q97: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "98": {
+      "hint": "A21 Q98: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "99": {
+      "hint": "A21 Q99: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "100": {
+      "hint": "A21 Q100: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "101": {
+      "hint": "A21 Q101: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "102": {
+      "hint": "A21 Q102: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "103": {
+      "hint": "A21 Q103: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "104": {
+      "hint": "A21 Q104: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "105": {
+      "hint": "A21 Q105: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "106": {
+      "hint": "A21 Q106: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "107": {
+      "hint": "A21 Q107: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "108": {
+      "hint": "A21 Q108: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "109": {
+      "hint": "A21 Q109: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "110": {
+      "hint": "A21 Q110: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "111": {
+      "hint": "A21 Q111: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "112": {
+      "hint": "A21 Q112: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "113": {
+      "hint": "A21 Q113: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "114": {
+      "hint": "A21 Q114: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "115": {
+      "hint": "A21 Q115: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "116": {
+      "hint": "A21 Q116: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "117": {
+      "hint": "A21 Q117: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "118": {
+      "hint": "A21 Q118: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "119": {
+      "hint": "A21 Q119: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "120": {
+      "hint": "A21 Q120: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "121": {
+      "hint": "A21 Q121: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "122": {
+      "hint": "A21 Q122: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "123": {
+      "hint": "A21 Q123: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "124": {
+      "hint": "A21 Q124: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "125": {
+      "hint": "A21 Q125: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "126": {
+      "hint": "A21 Q126: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "127": {
+      "hint": "A21 Q127: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "128": {
+      "hint": "A21 Q128: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "129": {
+      "hint": "A21 Q129: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "130": {
+      "hint": "A21 Q130: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "131": {
+      "hint": "A21 Q131: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "132": {
+      "hint": "A21 Q132: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "133": {
+      "hint": "A21 Q133: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "134": {
+      "hint": "A21 Q134: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "135": {
+      "hint": "A21 Q135: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "136": {
+      "hint": "A21 Q136: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "137": {
+      "hint": "A21 Q137: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "138": {
+      "hint": "A21 Q138: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "139": {
+      "hint": "A21 Q139: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "140": {
+      "hint": "A21 Q140: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "141": {
+      "hint": "A21 Q141: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "142": {
+      "hint": "A21 Q142: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "143": {
+      "hint": "A21 Q143: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "144": {
+      "hint": "A21 Q144: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "145": {
+      "hint": "A21 Q145: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "146": {
+      "hint": "A21 Q146: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "147": {
+      "hint": "A21 Q147: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "148": {
+      "hint": "A21 Q148: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "149": {
+      "hint": "A21 Q149: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "150": {
+      "hint": "A21 Q150: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "151": {
+      "hint": "A21 Q151: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "152": {
+      "hint": "A21 Q152: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "153": {
+      "hint": "A21 Q153: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "154": {
+      "hint": "A21 Q154: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "155": {
+      "hint": "A21 Q155: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "156": {
+      "hint": "A21 Q156: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "157": {
+      "hint": "A21 Q157: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "158": {
+      "hint": "A21 Q158: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "159": {
+      "hint": "A21 Q159: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "160": {
+      "hint": "A21 Q160: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "161": {
+      "hint": "A21 Q161: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "162": {
+      "hint": "A21 Q162: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "163": {
+      "hint": "A21 Q163: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "164": {
+      "hint": "A21 Q164: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "165": {
+      "hint": "A21 Q165: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "166": {
+      "hint": "A21 Q166: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "167": {
+      "hint": "A21 Q167: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "168": {
+      "hint": "A21 Q168: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "169": {
+      "hint": "A21 Q169: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "170": {
+      "hint": "A21 Q170: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "171": {
+      "hint": "A21 Q171: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "172": {
+      "hint": "A21 Q172: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "173": {
+      "hint": "A21 Q173: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "174": {
+      "hint": "A21 Q174: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "175": {
+      "hint": "A21 Q175: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "176": {
+      "hint": "A21 Q176: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "177": {
+      "hint": "A21 Q177: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "178": {
+      "hint": "A21 Q178: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "179": {
+      "hint": "A21 Q179: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "180": {
+      "hint": "A21 Q180: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "181": {
+      "hint": "A21 Q181: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "182": {
+      "hint": "A21 Q182: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "183": {
+      "hint": "A21 Q183: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "184": {
+      "hint": "A21 Q184: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "185": {
+      "hint": "A21 Q185: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "186": {
+      "hint": "A21 Q186: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "187": {
+      "hint": "A21 Q187: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "188": {
+      "hint": "A21 Q188: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "189": {
+      "hint": "A21 Q189: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "190": {
+      "hint": "A21 Q190: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "191": {
+      "hint": "A21 Q191: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "192": {
+      "hint": "A21 Q192: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "193": {
+      "hint": "A21 Q193: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "194": {
+      "hint": "A21 Q194: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "195": {
+      "hint": "A21 Q195: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "196": {
+      "hint": "A21 Q196: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "197": {
+      "hint": "A21 Q197: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "198": {
+      "hint": "A21 Q198: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "199": {
+      "hint": "A21 Q199: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    },
+    "200": {
+      "hint": "A21 Q200: what is the first step on paper?",
+      "help": "Translate the story into algebra, then solve.\n\n**Worked example (different numbers):** practise one similar question in your book, writing every step, before you submit."
+    }
+  }
+}

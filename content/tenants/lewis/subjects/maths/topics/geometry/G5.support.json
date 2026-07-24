@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Same size and shape means they match exactly — is that congruent?",
+      "help": "When shapes **match exactly** in size and shape, they are **congruent**.\n\nExample: two identical puzzle pieces."
+    },
+    "2": {
+      "hint": "Two 4 cm squares — same side length and all angles 90°?",
+      "help": "Both squares have side **4 cm** and the same angles — **true**, they are congruent.\n\nExample: two 4 cm square tiles match."
+    },
+    "3": {
+      "hint": "Compare side lists — 3, 4, 5 on both triangles?",
+      "help": "Matching sides **3 cm, 4 cm, 5 cm** on both → same shape and size → **congruent**.\n\nExample: SSS with identical lists."
+    },
+    "4": {
+      "hint": "Which pair is the same shape: two squares or square and circle?",
+      "help": "Two **5 cm squares** match in shape and size. A square and circle are different shapes.\n\nExample: only the two squares are congruent."
+    },
+    "5": {
+      "hint": "Turning (rotation) — does it stretch the shape?",
+      "help": "**Rotation** only turns the shape — size stays the same. Statement is **false**.\n\nExample: spin a triangle — side lengths unchanged."
+    },
+    "6": {
+      "hint": "Flipping (reflection) — do side lengths change?",
+      "help": "**Reflection** mirrors the shape without changing side lengths. **False**.\n\nExample: mirror image of a 3-4-5 triangle still 3-4-5."
+    },
+    "7": {
+      "hint": "Exact copy — corresponding sides should match.",
+      "help": "A copy without resizing has **equal matching sides** (corresponding sides equal).\n\nExample: trace and cut — same lengths."
+    },
+    "8": {
+      "hint": "Congruent means both matching shape and matching size.",
+      "help": "You need **both** **size** and **shape** to fit exactly.\n\nExample: same angles but different sizes → not congruent."
+    },
+    "9": {
+      "hint": "Congruent — same size and shape, can be placed on top of each other.",
+      "help": "**Congruent** shapes are identical in size and shape — one can be moved (slide/turn/flip) onto the other.\n\nExample: two 5 cm equilateral triangles."
+    },
+    "10": {
+      "hint": "All three sides match — three-letter rule starting with S.",
+      "help": "**SSS** (side-side-side) — all three corresponding sides equal.\n\nExample: 7, 8, 9 cm on both triangles."
+    },
+    "11": {
+      "hint": "Two sides and the angle between them — which rule?",
+      "help": "**SAS** (side-angle-side) — two sides and the **included** angle.\n\nExample: 5 cm, 60°, 8 cm between."
+    },
+    "12": {
+      "hint": "Two angles and a side — which congruence rule?",
+      "help": "**ASA** (angle-side-angle) or **AAS** when two angles and a matching side are known.\n\nExample: 40°, 8 cm, 60°."
+    },
+    "13": {
+      "hint": "Right angle, hypotenuse, and one other side — special rule for right triangles.",
+      "help": "**RHS** (right-angle-hypotenuse-side) for right-angled triangles.\n\nExample: 90°, hypotenuse 10 cm, leg 6 cm."
+    },
+    "14": {
+      "hint": "Same three angles — could one triangle be bigger?",
+      "help": "Same angles means **similar**, not always same size. **False** — AAA does not prove congruence.\n\nExample: 30-60-90 triangles of different sizes."
+    },
+    "15": {
+      "hint": "Identical side lists 3, 4, 5 — which three-letter rule?",
+      "help": "**SSS** proves congruence when all three sides match.\n\nExample: 3-4-5 on both."
+    },
+    "16": {
+      "hint": "50° between 6 cm and 8 cm on both — included angle rule?",
+      "help": "**SAS** — two sides with the **included** 50° angle equal.\n\nExample: 6 cm — 50° — 8 cm on both triangles."
+    },
+    "17": {
+      "hint": "If triangles are congruent, do matching angles match?",
+      "help": "Yes — **corresponding angles** are **equal** in congruent triangles.\n\nExample: angle A matches angle D."
+    },
+    "18": {
+      "hint": "Same size and shape — same area too?",
+      "help": "Congruent triangles have **equal area**.\n\nExample: copy a triangle — area unchanged."
+    },
+    "19": {
+      "hint": "Same angles but different sizes — congruent or not?",
+      "help": "They are **similar** but **not congruent** — B is bigger.\n\nExample: enlarge one triangle — angles same, sides longer."
+    },
+    "20": {
+      "hint": "Which rule is invalid: SSA often fails — spot the bad one.",
+      "help": "**SSA** (two sides and non-included angle) is **not** a valid general congruence rule.\n\nExample: ambiguous case with SSA."
+    },
+    "21": {
+      "hint": "Three matching sides — name the rule.",
+      "help": "**SSS** uses three sides.\n\nExample: 5-12-13 matching.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "22": {
+      "hint": "Two sides with the angle between them — which rule?",
+      "help": "**SAS** — included angle between the two sides.\n\nExample: 4 cm, 70°, 6 cm."
+    },
+    "23": {
+      "hint": "Right triangles: hypotenuse 10 cm, other side 6 cm — RHS applies.",
+      "help": "Use **RHS**: right angle, equal hypotenuse **10 cm**, equal leg **6 cm** → congruent (third side fixed).\n\nExample: both have third side 8 cm."
+    },
+    "24": {
+      "hint": "Congruent = same size and shape; similar = same shape, maybe different size.",
+      "help": "**Congruent**: identical size and shape. **Similar**: same shape (equal angles), scale factor may differ.\n\nExample: all squares similar; only same-size squares congruent."
+    },
+    "25": {
+      "hint": "Same perimeter — could triangles still have different sides?",
+      "help": "Different triangles can have perimeter 12 cm with different side sets. **Sometimes** same perimeter, not always congruent.\n\nExample: 3-4-5 and 2-5-5."
+    },
+    "26": {
+      "hint": "Shared side 7 cm, 90° at one end, 40° at other — ASA?",
+      "help": "Use **ASA** (or AAS): fixed side with two angles determines the triangle.\n\nExample: draw and check third angle 50°."
+    },
+    "27": {
+      "hint": "SSA vs SAS — is non-included angle enough?",
+      "help": "Sam is **wrong**: **SSA** can give two different triangles; **SAS** with **included** angle is safe.\n\nExample: sketch SSA ambiguous case."
+    },
+    "28": {
+      "hint": "Reflection — same side lengths and angles as original?",
+      "help": "Reflection is a **congruence** transformation — image matches original size and shape.\n\nExample: mirror a triangle — still congruent."
+    },
+    "29": {
+      "hint": "Same angles, different sizes — why not congruent?",
+      "help": "**AAA** only fixes shape, not scale. Enlarge one triangle — angles match, sides do not.\n\nExample: 30°, 60°, 90° at two scales."
+    },
+    "30": {
+      "hint": "Same equal sides 5 cm and base angle 70° — but different base lengths?",
+      "help": "Same apex angle and equal legs can still make **different** base lengths — **not necessarily congruent** without matching base.\n\nExample: compare two isosceles with 70° base angles."
+    },
+    "31": {
+      "hint": "Sides 15, 20, 25 on both brackets — which rule?",
+      "help": "**SSS** — all three sides match.\n\nExample: 15-20-25 triangle unique."
+    },
+    "32": {
+      "hint": "RHS with 13 m and 5 m — find missing side with Pythagoras.",
+      "help": "Third side $\\sqrt{13^2 - 5^2} = \\sqrt{144} = 12$ m. Both triangles match → **RHS** congruent.\n\nExample: 5-12-13 right triangles."
+    },
+    "33": {
+      "hint": "AB=DE, angle A = angle D, AC=DF — two sides and included angle?",
+      "help": "**SAS** — sides AB=DE, AC=DF with included angles A and D equal.\n\nExample: label included angle at A and D."
+    },
+    "34": {
+      "hint": "Same two angles and included side — enough to fix triangle?",
+      "help": "Two angles fix the third; same side between them → **ASA** congruence for the plot.\n\nExample: 55°, 65°, side between measured equal."
+    },
+    "35": {
+      "hint": "Compare 6,6,10 with 6,6,8 — all sides match?",
+      "help": "Third sides **10 cm** vs **8 cm** differ — **not congruent** (SSS fails).\n\nExample: isosceles with different bases."
+    },
+    "36": {
+      "hint": "Two congruent right triangles on hypotenuse — rectangle properties?",
+      "help": "Two congruent right triangles sharing hypotenuse form a **rectangle** (or square) with four right angles.\n\nExample: two 3-4-5 triangles → 5 cm by 5 cm? check legs."
+    },
+    "37": {
+      "hint": "RHS fixes third side in a right triangle — like SSS.",
+      "help": "Right angle + hypotenuse + one leg fixes the other leg (Pythagoras), so all three sides fixed → like **SSS**.\n\nExample: 90°, 10, 6 → third 8."
+    },
+    "38": {
+      "hint": "Same area, different shapes — draw two non-congruent triangles same area.",
+      "help": "Example: triangle base 8 height 3 and triangle base 6 height 4 both area 12 — **same area**, different side lengths → not congruent.\n\nExplain side lists differ."
+    },
+    "39": {
+      "hint": "AAA with different sizes — one word for same shape, different size.",
+      "help": "They are **similar** — equal angles, scale factor not 1.\n\nExample: enlarge by factor 2."
+    },
+    "40": {
+      "hint": "The known angle lies between the two known sides.",
+      "help": "**SAS** proves congruence when two corresponding sides and the angle included between them match.\n\nFor example, sides 5 cm and 8 cm with an included angle of 40° fix one unique triangle."
+    },
+    "41": {
+      "hint": "Both triangles 5, 7, 9 cm — SSS?",
+      "help": "All three sides match → **congruent** by **SSS**.\n\nExample: identical side sets."
+    },
+    "42": {
+      "hint": "6 cm, 50°, 8 cm on both — included angle 50° between those sides?",
+      "help": "**SAS** — PQ=AB, PR=AC, angle P = angle A = 50° between them → **congruent**.\n\nExample: check order of sides around the angle."
+    },
+    "43": {
+      "hint": "Recall side-side-side, side-angle-side, angle-side-angle, or right-angle-hypotenuse-side.",
+      "help": "**SSS** is one of the standard congruence tests for triangles. Match sides and angles as the letters suggest."
+    },
+    "44": {
+      "hint": "Recall side-side-side, side-angle-side, angle-side-angle, or right-angle-hypotenuse-side.",
+      "help": "**SAS** is one of the standard congruence tests for triangles. Match sides and angles as the letters suggest."
+    },
+    "45": {
+      "hint": "Compare all three side lengths on P and Q.",
+      "help": "**SSS** needs every side to match. Third sides **6 cm** vs **7 cm** differ, so the triangles are **not congruent**."
+    },
+    "46": {
+      "hint": "Order of sides does not matter for SSS.",
+      "help": "Lists 8,10,12 and 12,8,10 are the same set — **yes, congruent by SSS**."
+    },
+    "47": {
+      "hint": "Same size triangles — same perimeter?",
+      "help": "Congruent triangles have equal sides, so **perimeters match**. Answer **true**."
+    },
+    "48": {
+      "hint": "Equilateral with the same side length?",
+      "help": "Both are 3 cm equilateral — **true**, they are congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "49": {
+      "hint": "Read each letter in SSS aloud.",
+      "help": "Each **S** stands for a **side** length that must pair up equally."
+    },
+    "50": {
+      "hint": "SAS cares about the angle between the two sides.",
+      "help": "The matching angle must be **included** between the two sides — answer **yes**."
+    },
+    "51": {
+      "hint": "Three sides match exactly.",
+      "help": "Identical triple 7,24,25 → **SSS** proves congruence.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "52": {
+      "hint": "Isosceles — compare the bases.",
+      "help": "Bases **8 cm** vs **6 cm** differ → **not congruent**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "53": {
+      "hint": "Does flipping change edge lengths?",
+      "help": "Reflection is rigid — **yes**, cut-out and mirror image are congruent."
+    },
+    "54": {
+      "hint": "Three fixed side lengths — how many shapes?",
+      "help": "Equal side lists fix the triangle — **always** congruent (scalene case too)."
+    },
+    "55": {
+      "hint": "Angle-side-angle with the side in the middle.",
+      "help": "Two angles with the **included** side → **ASA**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "56": {
+      "hint": "Two sides and the angle between them on both.",
+      "help": "Matching 9 cm, 40°, 11 cm → **SAS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "57": {
+      "hint": "Included 65° between 8 cm and 12 cm on both.",
+      "help": "Same SAS data → **yes**, congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "58": {
+      "hint": "SAS needs the angle between the sides.",
+      "help": "Equal angle **not** between the sides is not SAS — statement is **false**."
+    },
+    "59": {
+      "hint": "10 cm and 14 cm with 60° between.",
+      "help": "Classic **SAS** setup — name **SAS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "60": {
+      "hint": "Same two sides but different included angles.",
+      "help": "30° vs 50° between the sides → **not congruent**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "61": {
+      "hint": "ASA letters: angle, side, …?",
+      "help": "Middle letter is **side** — angle-side-angle.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "62": {
+      "hint": "Matching angles and included side 9 cm.",
+      "help": "Both triangles match → **yes**, congruent (ASA).\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "63": {
+      "hint": "Angles in a triangle sum to 180°.",
+      "help": "180 − 47 − 63 = **70°** for each.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "64": {
+      "hint": "ASA needs the side between the angles — can AAS work when the side is not between them?",
+      "help": "With two angles fixed, the third angle is fixed too, so **AAS** can still prove congruence even when the side is not between the angles — **true**.\n\nExample: angles 50° and 60° with a matching side opposite one of them."
+    },
+    "65": {
+      "hint": "Right angle included between 90° and 35° with side 6 cm.",
+      "help": "Two angles + included side → **ASA** (right angle is one angle)."
+    },
+    "66": {
+      "hint": "Side-angle-side with B the included angle.",
+      "help": "AB, angle B, BC match → **SAS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "67": {
+      "hint": "Pythagoras: √(17² − 8²).",
+      "help": "√(289 − 64) = √225 = **15 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "68": {
+      "hint": "RHS then find the other leg.",
+      "help": "√(15² − 9²) = √144 = **12 cm**; rule **RHS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "69": {
+      "hint": "RHS needs a right angle.",
+      "help": "One angle must be **90°** — **true**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "70": {
+      "hint": "Same legs in different order — still congruent?",
+      "help": "9-12 and 12-9 are the same triangle — **yes**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "71": {
+      "hint": "3-4-5 triangle scaled?",
+      "help": "3² + 4² = 5² → height **4 m**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "72": {
+      "hint": "7² + 24² on the hypotenuse.",
+      "help": "49 + 576 = 625 → hypotenuse **25 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "73": {
+      "hint": "Right angle, equal hypotenuse and leg.",
+      "help": "Use **RHS** when those three facts match.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "74": {
+      "hint": "Equal hypotenuse alone — enough?",
+      "help": "Different legs possible — **sometimes** only.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "75": {
+      "hint": "√(25² − 15²).",
+      "help": "625 − 225 = 400 → **20 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "76": {
+      "hint": "Corresponding angles in congruent triangles.",
+      "help": "Angle D matches angle A → **48°**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "77": {
+      "hint": "AB corresponds to DE.",
+      "help": "Matching sides equal → **12 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "78": {
+      "hint": "Congruence pairs up equal parts.",
+      "help": "You can match equal sides and angles — **true**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "79": {
+      "hint": "Find the side corresponding to 11 cm.",
+      "help": "Congruent → matching side is **11 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "80": {
+      "hint": "Add the three sides 8 + 9 + 13.",
+      "help": "Perimeter **30 cm** each.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "81": {
+      "hint": "Same shape and size — same height?",
+      "help": "Congruent triangles have equal corresponding heights — **yes**."
+    },
+    "82": {
+      "hint": "Compare third sides 10 and 11.",
+      "help": "SSS fails — **not congruent**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "83": {
+      "hint": "Included angle must match for SAS.",
+      "help": "40° vs 140° → **not congruent**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "84": {
+      "hint": "Ambiguous SSA case.",
+      "help": "SSA can make two triangles — **true**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "85": {
+      "hint": "Identical 5-12-13 lists.",
+      "help": "**Yes, SSS** — brackets match.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "86": {
+      "hint": "Three sides fixed on the flag.",
+      "help": "Same measurements → **SSS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "87": {
+      "hint": "All three sides equal on both tiles.",
+      "help": "**Yes**, congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "88": {
+      "hint": "Two angles and included side repeat.",
+      "help": "Survey matches → **ASA**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "89": {
+      "hint": "1.2² + 1.6².",
+      "help": "1.44 + 2.56 = 4 → slope **2 m**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "90": {
+      "hint": "Rotation is a rigid move.",
+      "help": "Turning keeps size — **yes**, still congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "91": {
+      "hint": "Translation slides without resizing.",
+      "help": "**Yes** — image congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "92": {
+      "hint": "Mirror image size?",
+      "help": "**Always** congruent to the original.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "93": {
+      "hint": "Same angles, side lengths doubled?",
+      "help": "Scale factor 2 → **similar**, not congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "94": {
+      "hint": "Same shape, different size word.",
+      "help": "Answer **similar**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "95": {
+      "hint": "All three sides match.",
+      "help": "**Yes**, SSS.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "96": {
+      "hint": "Compare third sides 5 and 6.",
+      "help": "**No** — not congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "97": {
+      "hint": "Orientation can differ when congruent.",
+      "help": "Congruent triangles can be rotated — **false** that orientation must match."
+    },
+    "98": {
+      "hint": "Is isosceles alone enough?",
+      "help": "**No** — need matching measurements.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "99": {
+      "hint": "Right triangles with legs 6 and 8.",
+      "help": "**RHS** (or SSS with hypotenuse 10).\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "100": {
+      "hint": "5-12-13 family.",
+      "help": "25 + 144 = 169 → **13 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "101": {
+      "hint": "10² − 6².",
+      "help": "100 − 36 = 64 → leg **8 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "102": {
+      "hint": "BC matches EF.",
+      "help": "Corresponding side **9 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "103": {
+      "hint": "Angle C corresponds.",
+      "help": "Matching angle **71°**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "104": {
+      "hint": "Compare bases 16 and 14.",
+      "help": "**Not congruent**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "105": {
+      "hint": "Scale factor 2 changes size.",
+      "help": "**False** — not congruent after enlargement ×2.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "106": {
+      "hint": "Which move is rigid?",
+      "help": "**Translation** only (enlargement ×3 is not).\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "107": {
+      "hint": "Side 5 vs 8 on equilateral.",
+      "help": "**No** — different sizes.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "108": {
+      "hint": "SAS data identical.",
+      "help": "**Yes**, congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "109": {
+      "hint": "180 − 48 − 62.",
+      "help": "Third angle **70°**; ASA match → congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "110": {
+      "hint": "30-60-90 with matching hypotenuse.",
+      "help": "Use **RHS** on right triangles.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "111": {
+      "hint": "AAA fixes shape not scale.",
+      "help": "Explain sizes can differ — **similar** only.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "112": {
+      "hint": "SSA vs SAS.",
+      "help": "SSA can fail — two possible triangles.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "113": {
+      "hint": "18-24-30 same on both.",
+      "help": "**Yes, SSS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "114": {
+      "hint": "20-21-29 triple twice.",
+      "help": "**Yes**, congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "115": {
+      "hint": "Right angle and legs 5 and 8.",
+      "help": "**Yes**, RHS.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "116": {
+      "hint": "Same area, different shapes?",
+      "help": "**Sometimes** — area alone is not enough.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "117": {
+      "hint": "Scale factor 1 on similarity.",
+      "help": "**Yes** — congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "118": {
+      "hint": "Rigid moves in sequence.",
+      "help": "**Yes**, still congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "119": {
+      "hint": "Same perimeter, different side sets.",
+      "help": "7+8+9 vs 6+9+9 — **not congruent**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "120": {
+      "hint": "Non-included angle with SSA.",
+      "help": "**No** — SSA unreliable.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "121": {
+      "hint": "0.9² + 1.2² under the square root.",
+      "help": "Ramp length **1.5 m** (3-4-5 scaled).\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "122": {
+      "hint": "30-40-50 triangle.",
+      "help": "Hypotenuse **50 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "123": {
+      "hint": "Three sides match on the sail.",
+      "help": "**SSS** proves the spare matches.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "124": {
+      "hint": "Two angles and the side between on the sail edge.",
+      "help": "**ASA** with 38° and 74°.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "125": {
+      "hint": "SSS forces equal angles too.",
+      "help": "**Yes** — all matching angles equal.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "126": {
+      "hint": "Equal sides → equal perimeter.",
+      "help": "**True** for congruent triangles.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "127": {
+      "hint": "Identical isosceles lists.",
+      "help": "**Yes**, congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "128": {
+      "hint": "20² − 16².",
+      "help": "Missing leg **12 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "129": {
+      "hint": "Shortest sides must beat the longest.",
+      "help": "2+3 < 6 — **no**, triangle impossible.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "130": {
+      "hint": "Compare 5-12-13 with doubled sides.",
+      "help": "Scale factor 2 → **similar**, not congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "131": {
+      "hint": "CPCTC idea — parts pair up.",
+      "help": "**Corresponding parts** match when triangles are congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "132": {
+      "hint": "Side opposite the same angle.",
+      "help": "Matching side to **AC** is **7 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "133": {
+      "hint": "Included angle for SAS.",
+      "help": "**True** — angle between the sides.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "134": {
+      "hint": "180° minus the two given angles.",
+      "help": "180 − 25 − 35 = **120°** in each triangle.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "135": {
+      "hint": "41² − 16².",
+      "help": "Missing leg **30 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "136": {
+      "hint": "25² − 7².",
+      "help": "Leg **24 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "137": {
+      "hint": "Which rule is invalid?",
+      "help": "**AAA** does not prove congruence.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "138": {
+      "hint": "Check 9² + 12² = 15².",
+      "help": "81 + 144 = 225 — **yes**, right-angled.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "139": {
+      "hint": "180° rotation is rigid.",
+      "help": "**Yes**, still congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "140": {
+      "hint": "Rectangles same area?",
+      "help": "**Sometimes** — different dimensions can share area.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "141": {
+      "hint": "180 − 70 − 40.",
+      "help": "Third angle **70°**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "142": {
+      "hint": "16-30-34 matches on both.",
+      "help": "**Yes**, congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "143": {
+      "hint": "Lengths unchanged under reflection.",
+      "help": "Reflection is **rigid** — no stretching.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "144": {
+      "hint": "SSA ambiguity.",
+      "help": "**Yes**, two triangles possible.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "145": {
+      "hint": "8 cm, 50°, 10 cm SAS.",
+      "help": "**Yes, SAS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "146": {
+      "hint": "Third sides 12 vs 13.",
+      "help": "**No**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "147": {
+      "hint": "Add 9 + 10 + 17.",
+      "help": "Perimeter **36 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "148": {
+      "hint": "Copy the other two sides.",
+      "help": "Matching sides **12 cm** and **13 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "149": {
+      "hint": "Squares can have different side lengths.",
+      "help": "**False** — only same-size squares congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "150": {
+      "hint": "Two angles and a side.",
+      "help": "**AAS** (or ASA style reasoning).\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "151": {
+      "hint": "15² + 20².",
+      "help": "Diagonal **25 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "152": {
+      "hint": "Corresponding equal angles.",
+      "help": "**112°**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "153": {
+      "hint": "6-8-10 right triangle.",
+      "help": "**SSS** and **yes**, right-angled.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "154": {
+      "hint": "Same apex angle, different bases?",
+      "help": "**Sometimes** only.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "155": {
+      "hint": "SAS match on both.",
+      "help": "**Yes**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "156": {
+      "hint": "Bases 6 vs 8.",
+      "help": "**No**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "157": {
+      "hint": "AAA → similar.",
+      "help": "Equal angles, scaled sides → **similar**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "158": {
+      "hint": "Same template — same size.",
+      "help": "**Yes**, congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "159": {
+      "hint": "Right triangle shortcut.",
+      "help": "**RHS** first.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "160": {
+      "hint": "13-84-85 on both.",
+      "help": "**Yes**, SSS.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "161": {
+      "hint": "Three sides copied.",
+      "help": "**SSS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "162": {
+      "hint": "Labels change, sizes do not.",
+      "help": "**True**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "163": {
+      "hint": "Transitive congruence.",
+      "help": "**Yes**, 1 ≅ 3.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "164": {
+      "hint": "180 − 33 − 57.",
+      "help": "Third angle **90°**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "165": {
+      "hint": "41² − 9².",
+      "help": "Leg **40 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "166": {
+      "hint": "6, 10, 48° SAS.",
+      "help": "**Yes, SAS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "167": {
+      "hint": "SSS fixes angles.",
+      "help": "**Yes**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "168": {
+      "hint": "8-15-17 check.",
+      "help": "**Yes**, right-angled.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "169": {
+      "hint": "Same size → same area.",
+      "help": "**Always**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "170": {
+      "hint": "Different side lists.",
+      "help": "**Not congruent**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "171": {
+      "hint": "Hypotenuse and leg on right triangles.",
+      "help": "**RHS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "172": {
+      "hint": "180 − 55 − 65.",
+      "help": "Third **60°**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "173": {
+      "hint": "Scale factor 1.",
+      "help": "**Yes**, congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "174": {
+      "hint": "10-10-12 twice.",
+      "help": "**Yes**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "175": {
+      "hint": "Rotation rigid.",
+      "help": "Side lengths stay equal under turning.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "176": {
+      "hint": "Angles 46° and 59° fix the third — does AAS with a 7 cm side not between them prove congruence?",
+      "help": "Third angle $= 180 - 46 - 59 = 75°$. With two angles and a matching side, **AAS** is enough — **yes**.\n\nExample: ASA uses the included side; AAS uses any matching side with two angles."
+    },
+    "177": {
+      "hint": "8² + 15².",
+      "help": "Hypotenuse **17 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "178": {
+      "hint": "Flip without stretch.",
+      "help": "**Yes**, congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "179": {
+      "hint": "Need three pairs or rule.",
+      "help": "**False** — two sides alone fail.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "180": {
+      "hint": "12-16-20 matching.",
+      "help": "**SSS**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "181": {
+      "hint": "180 − 61 − 49.",
+      "help": "Third **70°**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "182": {
+      "hint": "20² + 21².",
+      "help": "Hypotenuse **29 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "183": {
+      "hint": "Pick the unreliable test.",
+      "help": "**SSA** invalid.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "184": {
+      "hint": "7-24-25 on both.",
+      "help": "**Yes**, right-angled congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "185": {
+      "hint": "Equilateral need equal sides.",
+      "help": "**Sometimes** — same side length required.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "186": {
+      "hint": "Pick different sizes, same angles.",
+      "help": "Describe **similar** non-congruent pair.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "187": {
+      "hint": "Choose sides and included angle.",
+      "help": "Show **SAS** with your numbers.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "188": {
+      "hint": "Swing the side in SSA.",
+      "help": "Two positions possible — explain SSA fail.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "189": {
+      "hint": "9-12-15 inches both.",
+      "help": "**Yes, SSS** interchangeable.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "190": {
+      "hint": "26² − 10².",
+      "help": "Leg **24 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "191": {
+      "hint": "ASA and AAS both use 2 angles + side.",
+      "help": "**True**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "192": {
+      "hint": "72°, 63°, side 10 cm between.",
+      "help": "**Yes, ASA**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "193": {
+      "hint": "Congruence means rigid fit.",
+      "help": "**Yes**, slide without resizing.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "194": {
+      "hint": "5-5-7 twice.",
+      "help": "**Yes**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "195": {
+      "hint": "50² − 14².",
+      "help": "Leg **48 cm**.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "196": {
+      "hint": "SSS → equal angles (CPCTC).",
+      "help": "Outline why angles must match.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "197": {
+      "hint": "Same angles, different hypotenuse.",
+      "help": "**Similar**, not congruent.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "198": {
+      "hint": "Pick a real object pair.",
+      "help": "Name rule: SSS/SAS/ASA/RHS.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "199": {
+      "hint": "Rigid vs enlargement.",
+      "help": "Slide/turn/flip OK; scale ≠1 breaks congruence.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    },
+    "200": {
+      "hint": "Four rules, four examples.",
+      "help": "List **SSS, SAS, ASA, RHS** each with new measurements.\n\nCompare the measurements carefully, then pick the congruence rule or length that fits."
+    }
+  }
+}

@@ -1,0 +1,1958 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "2, 4, 6",
+      "accept": [
+        "2 4 6",
+        "2,4,6",
+        "2, 4, 6"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "Even",
+      "accept": [
+        "even"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "20",
+      "accept": [
+        "20",
+        "twenty"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "15",
+      "accept": [
+        "15",
+        "fifteen"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "1, 2, 3, 6",
+      "accept": [
+        "1 2 3 6",
+        "1,2,3,6",
+        "1, 2, 3, 6"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "1, 2, 3, 4, 6, 9, 12, 18, 36",
+      "accept": [
+        "1 2 3 4 6 9 12 18 36",
+        "1,2,3,4,6,9,12,18,36"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "8, 16, 24, 32, 40, 48",
+      "accept": [
+        "8 16 24 32 40 48",
+        "8,16,24,32,40,48"
+      ],
+      "tier": 1,
+      "rating": 661
+    },
+    "11": {
+      "display": "13, 19 and 29 are prime",
+      "accept": [
+        "13 19 29",
+        "13,19,29",
+        "13 19 and 29"
+      ],
+      "tier": 1,
+      "rating": 673
+    },
+    "12": {
+      "display": "10",
+      "accept": [
+        "10",
+        "hcf 10",
+        "hcf=10"
+      ],
+      "tier": 1,
+      "rating": 684
+    },
+    "13": {
+      "display": "1, 2, 3, 4, 6, 8, 12, 24",
+      "accept": [
+        "1 2 3 4 6 8 12 24",
+        "1,2,3,4,6,8,12,24"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "14": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 707
+    },
+    "15": {
+      "display": "2, 11 and 17 are prime",
+      "accept": [
+        "2 11 17",
+        "2,11,17",
+        "2 11 and 17"
+      ],
+      "tier": 1,
+      "rating": 718
+    },
+    "16": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 752
+    },
+    "17": {
+      "display": "12, 24, 36, 48, 60",
+      "accept": [
+        "12 24 36 48 60",
+        "12,24,36,48,60"
+      ],
+      "tier": 1,
+      "rating": 809
+    },
+    "18": {
+      "display": "No. 51 = 3 × 17, so it has more than two factors.",
+      "accept": [
+        "no",
+        "not prime",
+        "3 x 17",
+        "3×17"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 866
+    },
+    "19": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "20": {
+      "display": "1, 2, 5, 10, 25, 50",
+      "accept": [
+        "1 2 5 10 25 50",
+        "1,2,5,10,25,50"
+      ],
+      "tier": 1,
+      "rating": 817
+    },
+    "21": {
+      "display": "3 × 3 × 5 (or 3² × 5)",
+      "accept": [
+        "3 3 5",
+        "3×3×5",
+        "3^2×5",
+        "3² × 5"
+      ],
+      "tier": 1,
+      "rating": 983
+    },
+    "22": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "No. A prime number has exactly two factors (1 and itself); 1 only has one factor, so it is not prime.",
+      "accept": [
+        "no",
+        "one factor",
+        "exactly two factors",
+        "not prime"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "24": {
+      "display": "Sometimes — e.g. LCM(3, 6) = 6 (one of the numbers); LCM(4, 6) = 12 (neither).",
+      "accept": [
+        "sometimes",
+        "lcm(3, 6)",
+        "lcm(4, 6)",
+        "one of the numbers",
+        "neither"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 957
+    },
+    "25": {
+      "display": "Yes — any even number greater than 2 is divisible by 2, itself, and 1, so it has at least three factors and cannot be prime.",
+      "accept": [
+        "yes",
+        "divisible by 2",
+        "at least three factors",
+        "not prime"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1168
+    },
+    "26": {
+      "display": "Sometimes — e.g. HCF(12, 18) = 6, which is smaller than both, but HCF(4, 8) = 4, which is not smaller than 4.",
+      "accept": [
+        "sometimes",
+        "hcf(12, 18)",
+        "hcf(4, 8)",
+        "not smaller"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1378
+    },
+    "27": {
+      "display": "Yes — since 6 = 2 × 3, every multiple of 6 is also a multiple of 3.",
+      "accept": [
+        "yes",
+        "6 = 2 × 3",
+        "multiple of 3",
+        "divisible by 3"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "28": {
+      "display": "24 packs; 2 bottles and 3 bars in each pack",
+      "accept": [
+        "24",
+        "24 packs",
+        "2 bottles 3 bars",
+        "2 and 3",
+        "2 bottles",
+        "3 bars"
+      ],
+      "tier": 3,
+      "rating": 1482
+    },
+    "29": {
+      "display": "60 minutes",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1693
+    },
+    "30": {
+      "display": "6, 10 or 12 chairs per row",
+      "accept": [
+        "6 10 12",
+        "6,10,12",
+        "6, 10 and 12"
+      ],
+      "tier": 3,
+      "rating": 1712
+    },
+    "31": {
+      "display": "30 boxes (3 cupcakes and 2 cookies in each)",
+      "accept": [
+        "30",
+        "30 boxes"
+      ],
+      "tier": 3,
+      "rating": 1731
+    },
+    "32": {
+      "display": "2 × 2 × 3 × 7 (or 2² × 3 × 7)",
+      "accept": [
+        "2 2 3 7",
+        "2×2×3×7",
+        "2^2×3×7",
+        "2² × 3 × 7"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "33": {
+      "display": "6, 12, 18, 24, 30",
+      "accept": [
+        "6 12 18 24 30",
+        "6,12,18,24,30"
+      ],
+      "tier": 2,
+      "rating": 1270
+    },
+    "34": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 2,
+      "rating": 1296
+    },
+    "35": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 2,
+      "rating": 1374
+    },
+    "36": {
+      "display": "12",
+      "accept": [
+        "12",
+        "twelve"
+      ],
+      "tier": 2,
+      "rating": 1322
+    },
+    "37": {
+      "display": "23",
+      "accept": [
+        "23",
+        "twenty-three"
+      ],
+      "tier": 2,
+      "rating": 1348
+    },
+    "38": {
+      "display": "4 and 9 (or 9 and 4)",
+      "accept": [
+        "4 9",
+        "4 and 9",
+        "9 4",
+        "9 and 4"
+      ],
+      "tier": 2,
+      "rating": 1400,
+      "contains": true
+    },
+    "39": {
+      "display": "2 × 2 × 3 × 5 (or 2² × 3 × 5)",
+      "accept": [
+        "2 2 3 5",
+        "2×2×3×5",
+        "2^2×3×5",
+        "2 3 5"
+      ],
+      "tier": 3,
+      "rating": 1938
+    },
+    "40": {
+      "display": "24 = 2³ × 3, 36 = 2² × 3²; HCF = 2² × 3 = 12; LCM = 2³ × 3² = 72",
+      "accept": [
+        "12",
+        "72"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1959
+    },
+    "41": {
+      "display": "4, 9, 25 or 49 — the square of a prime number has exactly three factors (1, the prime, and its square).",
+      "accept": [
+        "square of a prime",
+        "exactly three factors",
+        "prime squared"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1979
+    },
+    "42": {
+      "display": "24 (since HCF × LCM = product of the two numbers: 6 × 72 = 432, and 432 ÷ 18 = 24)",
+      "accept": [
+        "24"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "12 and 24",
+      "accept": [
+        "12 24",
+        "12,24",
+        "12 and 24"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "44": {
+      "display": "Yes — e.g. 5 is both a factor of 5 and a multiple of 5.",
+      "accept": [
+        "yes",
+        "5",
+        "factor of 5",
+        "multiple of 5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 941
+    },
+    "45": {
+      "display": "1, 2, 4, 8, 16, 32",
+      "accept": [
+        "1 2 4 8 16 32",
+        "1,2,4,8,16,32",
+        "1, 2, 4, 8, 16, 32"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "46": {
+      "display": "35",
+      "accept": [
+        "35",
+        "thirty-five"
+      ],
+      "tier": 1,
+      "rating": 776
+    },
+    "47": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 802
+    },
+    "48": {
+      "display": "2 × 2 × 2 × 2 × 3 (or 2⁴ × 3)",
+      "accept": [
+        "2 2 2 2 3",
+        "2×2×2×2×3",
+        "2^4×3",
+        "2⁴ × 3"
+      ],
+      "tier": 1,
+      "rating": 828
+    },
+    "49": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 854
+    },
+    "50": {
+      "display": "9, 18, 27, 36",
+      "accept": [
+        "9 18 27 36",
+        "9,18,27,36",
+        "9, 18, 27, 36"
+      ],
+      "tier": 1,
+      "rating": 880
+    },
+    "51": {
+      "display": "7",
+      "accept": [
+        "7",
+        "seven"
+      ],
+      "tier": 1,
+      "rating": 906
+    },
+    "52": {
+      "display": "21",
+      "accept": [
+        "21",
+        "twenty-one"
+      ],
+      "tier": 1,
+      "rating": 932
+    },
+    "53": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 958
+    },
+    "54": {
+      "display": "2 × 2 × 2 × 7 (or 2³ × 7)",
+      "accept": [
+        "2 2 2 7",
+        "2×2×2×7",
+        "2^3×7",
+        "2³ × 7"
+      ],
+      "tier": 1,
+      "rating": 984
+    },
+    "55": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y",
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1010
+    },
+    "56": {
+      "display": "4, 8, 12, 16, 20, 24",
+      "accept": [
+        "4 8 12 16 20 24",
+        "4,8,12,16,20,24"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "57": {
+      "display": "33",
+      "accept": [
+        "33",
+        "thirty-three"
+      ],
+      "tier": 1,
+      "rating": 1062
+    },
+    "58": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 1088
+    },
+    "59": {
+      "display": "30",
+      "accept": [
+        "30",
+        "thirty"
+      ],
+      "tier": 1,
+      "rating": 1114
+    },
+    "60": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 1140
+    },
+    "61": {
+      "display": "2 × 2 × 2 × 3 × 3 (or 2³ × 3²)",
+      "accept": [
+        "2 2 2 3 3",
+        "2×2×2×3×3",
+        "2^3×3^2"
+      ],
+      "tier": 1,
+      "rating": 1166
+    },
+    "62": {
+      "display": "True — every multiple of 4 is 4k = 2 × (2k), so it is also a multiple of 2.",
+      "accept": [
+        "true",
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1192
+    },
+    "63": {
+      "display": "6 and 8 (or 8 and 6)",
+      "accept": [
+        "6 8",
+        "6 and 8",
+        "8 6",
+        "8 and 6"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1218
+    },
+    "64": {
+      "display": "16, 32 and 64",
+      "accept": [
+        "16 32 64",
+        "16,32,64",
+        "16 32 and 64"
+      ],
+      "tier": 1,
+      "rating": 1244
+    },
+    "65": {
+      "display": "1, 2, 4, 7, 8, 14, 28, 56",
+      "accept": [
+        "1 2 4 7 8 14 28 56",
+        "1,2,4,7,8,14,28,56"
+      ],
+      "tier": 1,
+      "rating": 730
+    },
+    "66": {
+      "display": "18, 36, 54, 72, 90",
+      "accept": [
+        "18 36 54 72 90",
+        "18,36,54,72,90"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "67": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 1,
+      "rating": 764
+    },
+    "68": {
+      "display": "2 × 2 × 5 × 5 (or 2² × 5²)",
+      "accept": [
+        "2 2 5 5",
+        "2×2×5×5",
+        "2^2×5^2"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "69": {
+      "display": "14",
+      "accept": [
+        "14",
+        "fourteen"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "70": {
+      "display": "60",
+      "accept": [
+        "60",
+        "sixty"
+      ],
+      "tier": 1,
+      "rating": 798
+    },
+    "71": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "72": {
+      "display": "1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72",
+      "accept": [
+        "1 2 3 4 6 8 9 12 18 24 36 72"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "73": {
+      "display": "3 × 3 × 7 (or 3² × 7)",
+      "accept": [
+        "3 3 7",
+        "3×3×7",
+        "3^2×7"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "74": {
+      "display": "18",
+      "accept": [
+        "18",
+        "eighteen"
+      ],
+      "tier": 1,
+      "rating": 855
+    },
+    "75": {
+      "display": "56",
+      "accept": [
+        "56",
+        "fifty-six"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "76": {
+      "display": "19",
+      "accept": [
+        "19",
+        "nineteen"
+      ],
+      "tier": 1,
+      "rating": 889
+    },
+    "77": {
+      "display": "15, 30, 45, 60, 75, 90",
+      "accept": [
+        "15 30 45 60 75 90"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "78": {
+      "display": "No — 57 = 3 × 19",
+      "accept": [
+        "no",
+        "not prime",
+        "3 x 19",
+        "3×19"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 911
+    },
+    "79": {
+      "display": "15",
+      "accept": [
+        "15",
+        "fifteen"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "80": {
+      "display": "45",
+      "accept": [
+        "45",
+        "forty-five"
+      ],
+      "tier": 1,
+      "rating": 934
+    },
+    "81": {
+      "display": "7",
+      "accept": [
+        "7",
+        "seven"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "82": {
+      "display": "2 × 2 × 3 × 3 × 3 (or 2² × 3³)",
+      "accept": [
+        "2 2 3 3 3",
+        "2×2×3×3×3",
+        "2^2×3^3"
+      ],
+      "tier": 1,
+      "rating": 957
+    },
+    "83": {
+      "display": "1, 3, 5, 9, 15, 45",
+      "accept": [
+        "1 3 5 9 15 45",
+        "1,3,5,9,15,45"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "84": {
+      "display": "16",
+      "accept": [
+        "16",
+        "sixteen"
+      ],
+      "tier": 1,
+      "rating": 980
+    },
+    "85": {
+      "display": "60",
+      "accept": [
+        "60",
+        "sixty"
+      ],
+      "tier": 1,
+      "rating": 991
+    },
+    "86": {
+      "display": "41",
+      "accept": [
+        "41",
+        "forty-one"
+      ],
+      "tier": 1,
+      "rating": 1002
+    },
+    "87": {
+      "display": "70",
+      "accept": [
+        "70",
+        "seventy"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "88": {
+      "display": "3 × 3 × 3 × 3 (or 3⁴)",
+      "accept": [
+        "3 3 3 3",
+        "3×3×3×3",
+        "3^4",
+        "3⁴"
+      ],
+      "tier": 1,
+      "rating": 1025
+    },
+    "89": {
+      "display": "18",
+      "accept": [
+        "18",
+        "eighteen"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "90": {
+      "display": "70",
+      "accept": [
+        "70",
+        "seventy"
+      ],
+      "tier": 1,
+      "rating": 1048
+    },
+    "91": {
+      "display": "12",
+      "accept": [
+        "12",
+        "twelve"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "92": {
+      "display": "No — 91 = 7 × 13",
+      "accept": [
+        "no",
+        "not prime",
+        "7 x 13",
+        "7×13"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1070
+    },
+    "93": {
+      "display": "1, 2, 4, 5, 8, 10, 16, 20, 40, 80",
+      "accept": [
+        "1 2 4 5 8 10 16 20 40 80"
+      ],
+      "tier": 1,
+      "rating": 1082
+    },
+    "94": {
+      "display": "2 × 2 × 2 × 2 × 2 × 3 (or 2⁵ × 3)",
+      "accept": [
+        "2 2 2 2 2 3",
+        "2×2×2×2×2×3",
+        "2^5×3"
+      ],
+      "tier": 1,
+      "rating": 1093
+    },
+    "95": {
+      "display": "9",
+      "accept": [
+        "9",
+        "nine"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "96": {
+      "display": "66",
+      "accept": [
+        "66",
+        "sixty-six"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "97": {
+      "display": "2, 3, 4, 6 and 8",
+      "accept": [
+        "2 3 4 6 8",
+        "2,3,4,6,8"
+      ],
+      "tier": 1,
+      "rating": 1127
+    },
+    "98": {
+      "display": "5 × 5 × 5 (or 5³)",
+      "accept": [
+        "5 5 5",
+        "5×5×5",
+        "5^3",
+        "5³"
+      ],
+      "tier": 1,
+      "rating": 1139
+    },
+    "99": {
+      "display": "35",
+      "accept": [
+        "35",
+        "thirty-five"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "100": {
+      "display": "Sometimes — e.g. 2 × 3 = 6 (even) but 3 × 5 = 15 (odd).",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 919
+    },
+    "101": {
+      "display": "Yes — since 9 = 3 × 3, every multiple of 9 is also a multiple of 3.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 938
+    },
+    "102": {
+      "display": "Sometimes — e.g. 8 and 15 have HCF 1 but are not prime; 3 and 5 are both prime with HCF 1.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 976
+    },
+    "103": {
+      "display": "1 has only one factor (itself). A prime number must have exactly two factors: 1 and itself.",
+      "accept": [
+        "one factor",
+        "exactly two",
+        "two factors"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 996
+    },
+    "104": {
+      "display": "Always — it is divisible by 1, 2, 5 and 10, so it has at least four factors.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1015
+    },
+    "105": {
+      "display": "No — e.g. LCM(4, 8) = 8, which is not greater than 8.",
+      "accept": [
+        "no",
+        "incorrect",
+        "not correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1034
+    },
+    "106": {
+      "display": "Always — two different primes share no common factor except 1.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1053
+    },
+    "107": {
+      "display": "49 = 7 × 7, so it has more than two factors and is not prime.",
+      "accept": [
+        "7 x 7",
+        "7×7",
+        "49 = 7"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1072
+    },
+    "108": {
+      "display": "Always — square numbers have paired factors except the square root, which is unpaired.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1091
+    },
+    "109": {
+      "display": "Test divisibility by primes up to √87 (about 9): try 2, 3, 5 and 7 only.",
+      "accept": [
+        "square root",
+        "primes up to",
+        "2 3 5 7"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1110
+    },
+    "110": {
+      "display": "Always — the LCM of 2 and any even number is that even number itself.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1129
+    },
+    "111": {
+      "display": "2 is even but only has factors 1 and 2. Any other even number is also divisible by 2, so it has at least three factors.",
+      "accept": [
+        "divisible by 2",
+        "three factors",
+        "only two factors"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1149
+    },
+    "112": {
+      "display": "Always — if n divides 12 exactly, then 12 = kn for some whole number k.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1187
+    },
+    "113": {
+      "display": "No — e.g. HCF(6, 10) = 2, which is neither 6 nor 10.",
+      "accept": [
+        "no",
+        "not correct",
+        "6 and 10"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1206
+    },
+    "114": {
+      "display": "Always — a perfect square greater than 1 has factors 1, the root, and the square, so it cannot be prime.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "115": {
+      "display": "LCM is greater — HCF(6, 8) = 2 and LCM(6, 8) = 24.",
+      "accept": [
+        "lcm",
+        "24"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1244
+    },
+    "116": {
+      "display": "Always — if you multiply a by b, the result ab is a multiple of both a and b.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1263
+    },
+    "117": {
+      "display": "15 = 3 × 5 and 22 = 2 × 11 — sharing no common factors except 1 does not mean both numbers are prime.",
+      "accept": [
+        "15 = 3",
+        "22 = 2",
+        "not prime"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1282
+    },
+    "118": {
+      "display": "Sometimes — e.g. 2 + 4 = 6 is not a multiple of 4, but 4 + 8 = 12 is.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1301
+    },
+    "119": {
+      "display": "143 = 11 × 13, so it has more than two factors and is not prime.",
+      "accept": [
+        "11 x 13",
+        "11×13",
+        "11 and 13"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1321
+    },
+    "120": {
+      "display": "Sometimes — e.g. 4 is composite but has three factors (1, 2, 4), which is odd.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1340
+    },
+    "121": {
+      "display": "Yes — if HCF(a, b) = b, then b divides a exactly.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1359
+    },
+    "122": {
+      "display": "Always — odd × odd = odd, so the LCM of two odd numbers is odd.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1397
+    },
+    "123": {
+      "display": "Yes — e.g. HCF(8, 9) = 1 because consecutive numbers share no common factor except 1.",
+      "accept": [
+        "yes",
+        "correct",
+        "8 and 9"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1416
+    },
+    "124": {
+      "display": "Always — p × q has exactly four factors: 1, p, q and pq.",
+      "accept": [
+        "always",
+        "four factors"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1435
+    },
+    "125": {
+      "display": "Yes — 0 = 0 × n for any whole number n, so 0 is a multiple of every number.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1454
+    },
+    "126": {
+      "display": "Always — if b = ka and c = mb, then c = (km)a, so a divides c.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1474
+    },
+    "127": {
+      "display": "Every even number greater than 2 equals 2 × something, so 2 is always a prime factor.",
+      "accept": [
+        "2 times",
+        "2 ×",
+        "divisible by 2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1493
+    },
+    "128": {
+      "display": "Always — for positive whole numbers, HCF × LCM = a × b.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1512
+    },
+    "129": {
+      "display": "No — 99 has six factors but 28 (smaller) has six too; bigger does not always mean more factors.",
+      "accept": [
+        "no",
+        "not correct",
+        "28"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1531
+    },
+    "130": {
+      "display": "12 bunches; 3 roses and 4 tulips in each bunch",
+      "accept": [
+        "12",
+        "12 bunches",
+        "3 roses",
+        "4 tulips",
+        "3 and 4"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "131": {
+      "display": "24 seconds",
+      "accept": [
+        "24",
+        "24 seconds"
+      ],
+      "tier": 3,
+      "rating": 1119
+    },
+    "132": {
+      "display": "8 or 9 pupils per row",
+      "accept": [
+        "8 9",
+        "8,9",
+        "8 or 9",
+        "8 and 9"
+      ],
+      "tier": 3,
+      "rating": 1138
+    },
+    "133": {
+      "display": "27 kits; 2 bolts and 3 nuts in each kit",
+      "accept": [
+        "27",
+        "27 kits",
+        "2 bolts",
+        "3 nuts",
+        "2 and 3"
+      ],
+      "tier": 3,
+      "rating": 1157
+    },
+    "134": {
+      "display": "2 × 3 × 3 × 7 (or 2 × 3² × 7)",
+      "accept": [
+        "2 3 3 7",
+        "2×3×3×7",
+        "2×3^2×7"
+      ],
+      "tier": 3,
+      "rating": 1176
+    },
+    "135": {
+      "display": "36 seconds",
+      "accept": [
+        "36",
+        "36 seconds"
+      ],
+      "tier": 3,
+      "rating": 1196
+    },
+    "136": {
+      "display": "HCF = 5; LCM = 180",
+      "accept": [
+        "5",
+        "180",
+        "hcf 5",
+        "lcm 180"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1215
+    },
+    "137": {
+      "display": "90 cm",
+      "accept": [
+        "90",
+        "90 cm"
+      ],
+      "tier": 3,
+      "rating": 1234
+    },
+    "138": {
+      "display": "24 of each (3 packs of 8 tickets and 2 packs of 12 badges)",
+      "accept": [
+        "24",
+        "24 of each",
+        "3 packs",
+        "2 packs"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1253
+    },
+    "139": {
+      "display": "1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96",
+      "accept": [
+        "1 2 3 4 6 8 12 16 24 32 48 96"
+      ],
+      "tier": 3,
+      "rating": 1272
+    },
+    "140": {
+      "display": "200 minutes",
+      "accept": [
+        "200",
+        "200 minutes"
+      ],
+      "tier": 3,
+      "rating": 1291
+    },
+    "141": {
+      "display": "3 × 3 × 3 × 5 (or 3³ × 5)",
+      "accept": [
+        "3 3 3 5",
+        "3×3×3×5",
+        "3^3×5"
+      ],
+      "tier": 3,
+      "rating": 1310
+    },
+    "142": {
+      "display": "42",
+      "accept": [
+        "42",
+        "forty-two"
+      ],
+      "tier": 3,
+      "rating": 1329
+    },
+    "143": {
+      "display": "72",
+      "accept": [
+        "72",
+        "seventy-two"
+      ],
+      "tier": 3,
+      "rating": 1349
+    },
+    "144": {
+      "display": "12",
+      "accept": [
+        "12",
+        "twelve"
+      ],
+      "tier": 3,
+      "rating": 1368
+    },
+    "145": {
+      "display": "60 of each (4 packs of 15 and 3 packs of 20)",
+      "accept": [
+        "60",
+        "60 of each",
+        "4 packs",
+        "3 packs"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1387
+    },
+    "146": {
+      "display": "24 cm",
+      "accept": [
+        "24",
+        "24 cm"
+      ],
+      "tier": 3,
+      "rating": 1406
+    },
+    "147": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 3,
+      "rating": 1425
+    },
+    "148": {
+      "display": "2 × 2 × 2 × 2 × 3 × 3 (or 2⁴ × 3²)",
+      "accept": [
+        "2 2 2 2 3 3",
+        "2×2×2×2×3×3",
+        "2^4×3^2"
+      ],
+      "tier": 3,
+      "rating": 1444
+    },
+    "149": {
+      "display": "42",
+      "accept": [
+        "42",
+        "forty-two"
+      ],
+      "tier": 3,
+      "rating": 1463
+    },
+    "150": {
+      "display": "24",
+      "accept": [
+        "24",
+        "twenty-four"
+      ],
+      "tier": 3,
+      "rating": 1501
+    },
+    "151": {
+      "display": "3 and 20 (or 20 and 3)",
+      "accept": [
+        "3 20",
+        "3 and 20",
+        "20 3",
+        "20 and 3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1521
+    },
+    "152": {
+      "display": "6 primes: 11, 13, 17, 19, 23, 29",
+      "accept": [
+        "6",
+        "11 13 17 19 23 29",
+        "11,13,17,19,23,29"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1540
+    },
+    "153": {
+      "display": "2 × 2 × 2 × 3 × 7 (or 2³ × 3 × 7)",
+      "accept": [
+        "2 2 2 3 7",
+        "2×2×2×3×7"
+      ],
+      "tier": 3,
+      "rating": 1559
+    },
+    "154": {
+      "display": "33",
+      "accept": [
+        "33",
+        "thirty-three"
+      ],
+      "tier": 3,
+      "rating": 1578
+    },
+    "155": {
+      "display": "18 of each (3 boxes and 2 trays)",
+      "accept": [
+        "18",
+        "18 of each",
+        "3 boxes",
+        "2 trays"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1597
+    },
+    "156": {
+      "display": "112",
+      "accept": [
+        "112"
+      ],
+      "tier": 3,
+      "rating": 1616
+    },
+    "157": {
+      "display": "16",
+      "accept": [
+        "16",
+        "sixteen"
+      ],
+      "tier": 3,
+      "rating": 1635
+    },
+    "158": {
+      "display": "14 groups; 3 sunflowers and 5 daisies in each group",
+      "accept": [
+        "14",
+        "14 groups",
+        "3 sunflowers",
+        "5 daisies",
+        "3 and 5"
+      ],
+      "tier": 3,
+      "rating": 1654
+    },
+    "159": {
+      "display": "40",
+      "accept": [
+        "40",
+        "forty"
+      ],
+      "tier": 3,
+      "rating": 1674
+    },
+    "160": {
+      "display": "HCF = 12; LCM = 252",
+      "accept": [
+        "12",
+        "252",
+        "hcf 12",
+        "lcm 252"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1400
+    },
+    "161": {
+      "display": "6, 8, 10, 14, 15, 21, 22, 26, 27, 33, 34, 35, 38, 39, 46",
+      "accept": [
+        "6",
+        "8",
+        "10",
+        "14",
+        "15",
+        "21",
+        "22",
+        "26",
+        "27",
+        "33",
+        "34",
+        "35",
+        "38",
+        "39",
+        "46"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1421
+    },
+    "162": {
+      "display": "Always — for positive whole numbers, HCF × LCM = product of the two numbers.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1441
+    },
+    "163": {
+      "display": "12",
+      "accept": [
+        "12",
+        "twelve"
+      ],
+      "tier": 3,
+      "rating": 1462
+    },
+    "164": {
+      "display": "2 × 2 × 2 × 3 × 3 × 5 (or 2³ × 3² × 5)",
+      "accept": [
+        "2 2 2 3 3 5",
+        "2×2×2×3×3×5",
+        "2^3×3^2×5"
+      ],
+      "tier": 3,
+      "rating": 1483
+    },
+    "165": {
+      "display": "360 seconds",
+      "accept": [
+        "360",
+        "360 seconds"
+      ],
+      "tier": 3,
+      "rating": 1503
+    },
+    "166": {
+      "display": "72 or 96",
+      "accept": [
+        "72",
+        "96",
+        "72 or 96"
+      ],
+      "tier": 3,
+      "rating": 1524
+    },
+    "167": {
+      "display": "36",
+      "accept": [
+        "36",
+        "thirty-six"
+      ],
+      "tier": 3,
+      "rating": 1545
+    },
+    "168": {
+      "display": "25",
+      "accept": [
+        "25",
+        "twenty-five"
+      ],
+      "tier": 3,
+      "rating": 1566
+    },
+    "169": {
+      "display": "25",
+      "accept": [
+        "25",
+        "twenty-five"
+      ],
+      "tier": 3,
+      "rating": 1586
+    },
+    "170": {
+      "display": "2 × 2 × 3 × 3 × 7 (or 2² × 3² × 7)",
+      "accept": [
+        "2 2 3 3 7",
+        "2×2×3×3×7"
+      ],
+      "tier": 3,
+      "rating": 1607
+    },
+    "171": {
+      "display": "180",
+      "accept": [
+        "180"
+      ],
+      "tier": 3,
+      "rating": 1628
+    },
+    "172": {
+      "display": "60",
+      "accept": [
+        "60",
+        "sixty"
+      ],
+      "tier": 3,
+      "rating": 1648
+    },
+    "173": {
+      "display": "4 and 25 (or 25 and 4)",
+      "accept": [
+        "4 25",
+        "4 and 25",
+        "25 4",
+        "25 and 4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1669
+    },
+    "174": {
+      "display": "121 = 11², so its factors are 1, 11 and 121 — exactly three.",
+      "accept": [
+        "11 squared",
+        "11²",
+        "11 x 11",
+        "three factors"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1690
+    },
+    "175": {
+      "display": "84",
+      "accept": [
+        "84",
+        "eighty-four"
+      ],
+      "tier": 3,
+      "rating": 1710
+    },
+    "176": {
+      "display": "24 cm",
+      "accept": [
+        "24",
+        "24 cm"
+      ],
+      "tier": 3,
+      "rating": 1731
+    },
+    "177": {
+      "display": "2 × 2 × 2 × 5 × 5 (or 2³ × 5²)",
+      "accept": [
+        "2 2 2 5 5",
+        "2×2×2×5×5"
+      ],
+      "tier": 3,
+      "rating": 1752
+    },
+    "178": {
+      "display": "HCF = 14; LCM = 210",
+      "accept": [
+        "14",
+        "210",
+        "hcf 14",
+        "lcm 210"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1772
+    },
+    "179": {
+      "display": "Always — only square numbers have an odd number of factors; the smallest is 1 (= 1²).",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1793
+    },
+    "180": {
+      "display": "150",
+      "accept": [
+        "150"
+      ],
+      "tier": 3,
+      "rating": 1814
+    },
+    "181": {
+      "display": "24",
+      "accept": [
+        "24",
+        "twenty-four"
+      ],
+      "tier": 3,
+      "rating": 1834
+    },
+    "182": {
+      "display": "225 seconds",
+      "accept": [
+        "225",
+        "225 seconds"
+      ],
+      "tier": 3,
+      "rating": 1855
+    },
+    "183": {
+      "display": "HCF = 24; LCM = 144",
+      "accept": [
+        "24",
+        "144",
+        "hcf 24",
+        "lcm 144"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1876
+    },
+    "184": {
+      "display": "24",
+      "accept": [
+        "24",
+        "twenty-four"
+      ],
+      "tier": 3,
+      "rating": 1897
+    },
+    "185": {
+      "display": "24",
+      "accept": [
+        "24",
+        "twenty-four"
+      ],
+      "tier": 3,
+      "rating": 1917
+    },
+    "186": {
+      "display": "1, 2, 4, 8, 16, 32, 64",
+      "accept": [
+        "1 2 4 8 16 32 64",
+        "1,2,4,8,16,32,64"
+      ],
+      "tier": 3,
+      "rating": 981
+    },
+    "187": {
+      "display": "11, 22, 33, 44, 55, 66",
+      "accept": [
+        "11 22 33 44 55 66"
+      ],
+      "tier": 3,
+      "rating": 1022
+    },
+    "188": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "y"
+      ],
+      "tier": 3,
+      "rating": 1063
+    },
+    "189": {
+      "display": "14",
+      "accept": [
+        "14",
+        "fourteen"
+      ],
+      "tier": 3,
+      "rating": 1103
+    },
+    "190": {
+      "display": "140",
+      "accept": [
+        "140"
+      ],
+      "tier": 3,
+      "rating": 1144
+    },
+    "191": {
+      "display": "2 × 2 × 2 × 11 (or 2³ × 11)",
+      "accept": [
+        "2 2 2 11",
+        "2×2×2×11"
+      ],
+      "tier": 3,
+      "rating": 1184
+    },
+    "192": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 3,
+      "rating": 1225
+    },
+    "193": {
+      "display": "Always — the HCF divides both numbers, and the LCM is a multiple of both, so the HCF always divides the LCM.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1266
+    },
+    "194": {
+      "display": "36",
+      "accept": [
+        "36",
+        "thirty-six"
+      ],
+      "tier": 3,
+      "rating": 1306
+    },
+    "195": {
+      "display": "24",
+      "accept": [
+        "24",
+        "twenty-four"
+      ],
+      "tier": 3,
+      "rating": 1347
+    },
+    "196": {
+      "display": "3 × 7 × 7 (or 3 × 7²)",
+      "accept": [
+        "3 7 7",
+        "3×7×7",
+        "3×7^2"
+      ],
+      "tier": 3,
+      "rating": 1388
+    },
+    "197": {
+      "display": "3 and 24 (or 24 and 3)",
+      "accept": [
+        "3 24",
+        "3 and 24",
+        "24 3",
+        "24 and 3"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1428
+    },
+    "198": {
+      "display": "25",
+      "accept": [
+        "25",
+        "twenty-five"
+      ],
+      "tier": 3,
+      "rating": 1469
+    },
+    "199": {
+      "display": "20",
+      "accept": [
+        "20",
+        "twenty"
+      ],
+      "tier": 3,
+      "rating": 1509
+    },
+    "200": {
+      "display": "HCF = 25; LCM = 150",
+      "accept": [
+        "25",
+        "150",
+        "hcf 25",
+        "lcm 150"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1550
+    }
+  }
+}

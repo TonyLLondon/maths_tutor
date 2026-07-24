@@ -1,0 +1,557 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "£4",
+      "accept": [
+        "4",
+        "£4"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "It doubles",
+      "accept": [
+        "doubles",
+        "it doubles"
+      ],
+      "tier": 1,
+      "rating": 508
+    },
+    "3": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 515
+    },
+    "4": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 523
+    },
+    "5": {
+      "display": "less time",
+      "accept": [
+        "less",
+        "less time"
+      ],
+      "tier": 1,
+      "rating": 530
+    },
+    "6": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 538
+    },
+    "7": {
+      "display": "y = 5x",
+      "accept": [
+        "y=5x",
+        "y = 5x"
+      ],
+      "tier": 1,
+      "rating": 545
+    },
+    "8": {
+      "display": "y = 8/x",
+      "accept": [
+        "y=8/x",
+        "y = 8/x"
+      ],
+      "tier": 1,
+      "rating": 553
+    },
+    "9": {
+      "display": "20",
+      "accept": [
+        "20",
+        "twenty"
+      ],
+      "tier": 1,
+      "rating": 560
+    },
+    "10": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 568
+    },
+    "11": {
+      "display": "25",
+      "accept": [
+        "25",
+        "twenty-five"
+      ],
+      "tier": 1,
+      "rating": 575
+    },
+    "12": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 583
+    },
+    "13": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "14": {
+      "display": "35",
+      "accept": [
+        "35"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "15": {
+      "display": "32",
+      "accept": [
+        "32"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "16": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 800
+    },
+    "17": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 850
+    },
+    "18": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "19": {
+      "display": "35",
+      "accept": [
+        "35"
+      ],
+      "tier": 1,
+      "rating": 950
+    },
+    "20": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 1000
+    },
+    "21": {
+      "display": "y = 3x",
+      "accept": [
+        "y=3x",
+        "y = 3x"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "22": {
+      "display": "y = k/x",
+      "accept": [
+        "y=k/x",
+        "y = k/x"
+      ],
+      "tier": 1,
+      "rating": 1100
+    },
+    "23": {
+      "display": "y = kx",
+      "accept": [
+        "y=kx",
+        "y = kx"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "24": {
+      "display": "Yes — direct proportion means y = kx, so doubling x always doubles y.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "25": {
+      "display": "Always — in y = k/x, doubling x gives k/(2x) = half of k/x, so y always halves.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1008
+    },
+    "26": {
+      "display": "False — direct proportion must pass through the origin, but y = kx + 2 gives y = 2 when x = 0, not 0.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1117
+    },
+    "27": {
+      "display": "Yes — since y = k/x, multiplying both sides by x gives x × y = k, a constant for every pair of values.",
+      "accept": [
+        "yes",
+        "correct"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "28": {
+      "display": "Direct proportion: as one quantity increases, the other increases at the same rate (e.g. cost of apples and number bought). Inverse proportion: as one quantity increases, the other decreases (e.g. speed and time for a fixed distance).",
+      "accept": ["increases at the same rate", "the other decreases"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1333
+    },
+    "29": {
+      "display": "No — more workers taking less time is inverse proportion, not direct proportion.",
+      "accept": [
+        "no",
+        "inverse"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1442
+    },
+    "30": {
+      "display": "Inverse proportion — x × y is constant (1×12 = 2×6 = 3×4 = 12).",
+      "accept": [
+        "inverse",
+        "12"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "31": {
+      "display": "£4.80",
+      "accept": [
+        "4.8",
+        "4.80",
+        "£4.80"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "32": {
+      "display": "4 hours",
+      "accept": [
+        "4",
+        "4 hours"
+      ],
+      "tier": 3,
+      "rating": 1208
+    },
+    "33": {
+      "display": "35 kg",
+      "accept": [
+        "35",
+        "35 kg",
+        "35kg"
+      ],
+      "tier": 3,
+      "rating": 1317
+    },
+    "34": {
+      "display": "2 hours",
+      "accept": [
+        "2",
+        "2 hours"
+      ],
+      "tier": 3,
+      "rating": 1425
+    },
+    "35": {
+      "display": "12 days",
+      "accept": [
+        "12",
+        "12 days"
+      ],
+      "tier": 3,
+      "rating": 1533
+    },
+    "36": {
+      "display": "£6",
+      "accept": [
+        "6",
+        "£6"
+      ],
+      "tier": 3,
+      "rating": 1642
+    },
+    "37": {
+      "display": "15 cm",
+      "accept": [
+        "15",
+        "15 cm",
+        "15cm"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "38": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 650
+    },
+    "39": {
+      "display": "50% increase",
+      "accept": [
+        "50",
+        "50%"
+      ],
+      "tier": 3,
+      "rating": 659
+    },
+    "40": {
+      "display": "It halves (decreases by 50%)",
+      "accept": [
+        "halves",
+        "half",
+        "50%"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 669
+    },
+    "41": {
+      "display": "42",
+      "accept": ["42"],
+      "tier": 3,
+      "rating": 678
+    },
+    "42": {
+      "display": "56",
+      "accept": ["56"],
+      "tier": 3,
+      "rating": 687
+    },
+    "43": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 696
+    },
+    "44": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 706
+    },
+    "45": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 715
+    },
+    "46": { "display": "3", "accept": ["3"], "tier": 1, "rating": 724 },
+    "47": { "display": "y = 7x", "accept": ["y=7x", "y = 7x", "7x"], "tier": 1, "rating": 733 },
+    "48": { "display": "8", "accept": ["8"], "tier": 1, "rating": 743 },
+    "49": { "display": "£12", "accept": ["12", "£12"], "tier": 1, "rating": 752 },
+    "50": { "display": "8 hours", "accept": ["8", "8 hours"], "tier": 1, "rating": 761 },
+    "51": { "display": "k = 2.5; y = 25", "accept": ["2.5", "25"], "tier": 1, "rating": 770 },
+    "52": { "display": "4", "accept": ["4"], "tier": 1, "rating": 780 },
+    "53": { "display": "192.5 km", "accept": ["192.5", "192.5 km"], "tier": 1, "rating": 789 },
+    "54": { "display": "7.5 days", "accept": ["7.5", "7.5 days"], "tier": 1, "rating": 798 },
+    "55": { "display": "35", "accept": ["35"], "tier": 1, "rating": 807 },
+    "56": { "display": "15", "accept": ["15"], "tier": 1, "rating": 817 },
+    "57": { "display": "13.5 cm", "accept": ["13.5", "13.5 cm"], "tier": 1, "rating": 826 },
+    "58": { "display": "2.5 hours", "accept": ["2.5", "2.5 hours"], "tier": 1, "rating": 835 },
+    "59": { "display": "Yes", "accept": ["yes"], "tier": 1, "rating": 844 },
+    "60": { "display": "60", "accept": ["60"], "tier": 1, "rating": 854 },
+    "61": { "display": "4 hours", "accept": ["4", "4 hours"], "tier": 1, "rating": 863 },
+    "62": { "display": "33", "accept": ["33"], "tier": 1, "rating": 872 },
+    "63": { "display": "8", "accept": ["8"], "tier": 1, "rating": 881 },
+    "64": { "display": "1750 m", "accept": ["1750", "1750 m", "1.75 km"], "tier": 1, "rating": 891 },
+    "65": { "display": "5", "accept": ["5"], "tier": 1, "rating": 900 },
+    "66": { "display": "£99", "accept": ["99", "£99"], "tier": 1, "rating": 909 },
+    "67": { "display": "6", "accept": ["6"], "tier": 1, "rating": 919 },
+    "68": { "display": "y = 5/x", "accept": ["5/x", "y=5/x"], "tier": 1, "rating": 928 },
+    "69": { "display": "10", "accept": ["10"], "tier": 1, "rating": 937 },
+    "70": { "display": "6 hours", "accept": ["6", "6 hours"], "tier": 1, "rating": 946 },
+    "71": { "display": "7", "accept": ["7"], "tier": 1, "rating": 956 },
+    "72": { "display": "165 N", "accept": ["165", "165 N"], "tier": 1, "rating": 965 },
+    "73": { "display": "10", "accept": ["10"], "tier": 1, "rating": 974 },
+    "74": { "display": "8", "accept": ["8"], "tier": 1, "rating": 983 },
+    "75": { "display": "1500 g", "accept": ["1500", "1500 g", "1.5 kg"], "tier": 1, "rating": 993 },
+    "76": { "display": "2 hours", "accept": ["2", "2 hours"], "tier": 1, "rating": 1002 },
+    "77": { "display": "12", "accept": ["12"], "tier": 1, "rating": 1011 },
+    "78": { "display": "5", "accept": ["5"], "tier": 1, "rating": 1020 },
+    "79": { "display": "17 litres", "accept": ["17", "17 litres", "17l"], "tier": 1, "rating": 1030 },
+    "80": { "display": "210 lumens", "accept": ["210", "210 lumens"], "tier": 1, "rating": 1039 },
+    "81": { "display": "4", "accept": ["4"], "tier": 1, "rating": 1048 },
+    "82": { "display": "5/12", "accept": ["5/12"], "tier": 1, "rating": 1057 },
+    "83": { "display": "2 hours", "accept": ["2", "2 hours"], "tier": 1, "rating": 1067 },
+    "84": { "display": "10", "accept": ["10"], "tier": 1, "rating": 1076 },
+    "85": { "display": "6 L", "accept": ["6", "6 L", "6 litres"], "tier": 1, "rating": 1085 },
+    "86": { "display": "30", "accept": ["30"], "tier": 1, "rating": 1094 },
+    "87": { "display": "10 minutes", "accept": ["10", "10 minutes"], "tier": 1, "rating": 1104 },
+    "88": { "display": "6", "accept": ["6"], "tier": 1, "rating": 1113 },
+    "89": { "display": "£49.50", "accept": ["49.50", "49.5", "£49.50"], "tier": 1, "rating": 1122 },
+    "90": { "display": "16", "accept": ["16"], "tier": 1, "rating": 1131 },
+    "91": { "display": "4", "accept": ["4"], "tier": 1, "rating": 1141 },
+    "92": { "display": "1.4 m", "accept": ["1.4", "1.4 m"], "tier": 1, "rating": 1150 },
+    "93": { "display": "42", "accept": ["42"], "tier": 2, "rating": 900 },
+    "94": { "display": "12.5", "accept": ["12.5", "12½"], "tier": 2, "rating": 924 },
+    "95": { "display": "105 items", "accept": ["105", "105 items"], "tier": 2, "rating": 948 },
+    "96": { "display": "4 hours", "accept": ["4", "4 hours"], "tier": 2, "rating": 972 },
+    "97": { "display": "18", "accept": ["18"], "tier": 2, "rating": 996 },
+    "98": { "display": "21", "accept": ["21"], "tier": 2, "rating": 1020 },
+    "99": { "display": "$44.45", "accept": ["44.45", "$44.45"], "tier": 2, "rating": 1044 },
+    "100": { "display": "10", "accept": ["10"], "tier": 2, "rating": 1069 },
+    "101": { "display": "19.2 cm", "accept": ["19.2", "19.2 cm"], "tier": 2, "rating": 1093 },
+    "102": { "display": "40 s", "accept": ["40", "40 s", "40 seconds"], "tier": 2, "rating": 1117 },
+    "103": { "display": "k = 4; y = 20", "accept": ["4", "20"], "tier": 2, "rating": 1141 },
+    "104": { "display": "8", "accept": ["8"], "tier": 2, "rating": 1165 },
+    "105": { "display": "£280", "accept": ["280", "£280"], "tier": 2, "rating": 1189 },
+    "106": { "display": "77", "accept": ["77"], "tier": 2, "rating": 1213 },
+    "107": { "display": "22.5 km", "accept": ["22.5", "22.5 km"], "tier": 2, "rating": 1237 },
+    "108": { "display": "10", "accept": ["10"], "tier": 2, "rating": 1261 },
+    "109": { "display": "2.4 hours", "accept": ["2.4", "2.4 hours"], "tier": 2, "rating": 1285 },
+    "110": { "display": "20", "accept": ["20"], "tier": 2, "rating": 1309 },
+    "111": { "display": "£680", "accept": ["680", "£680"], "tier": 2, "rating": 1333 },
+    "112": { "display": "24.5", "accept": ["24.5", "24½"], "tier": 2, "rating": 1357 },
+    "113": { "display": "7.5", "accept": ["7.5", "7½"], "tier": 2, "rating": 1381 },
+    "114": { "display": "80 rpm", "accept": ["80", "80 rpm"], "tier": 2, "rating": 1406 },
+    "115": { "display": "14", "accept": ["14"], "tier": 2, "rating": 1430 },
+    "116": { "display": "14", "accept": ["14"], "tier": 2, "rating": 1454 },
+    "117": { "display": "27 L/min", "accept": ["27", "27 L/min"], "tier": 2, "rating": 1478 },
+    "118": { "display": "15", "accept": ["15"], "tier": 2, "rating": 1502 },
+    "119": { "display": "10.5 days", "accept": ["10.5", "10.5 days"], "tier": 2, "rating": 1526 },
+    "120": { "display": "15", "accept": ["15"], "tier": 2, "rating": 1550 },
+    "121": { "display": "2.04 kg", "accept": ["2.04", "2.04 kg", "2040g"], "tier": 2, "rating": 1100 },
+    "122": { "display": "12", "accept": ["12"], "tier": 2, "rating": 1113 },
+    "123": { "display": "67.2 km", "accept": ["67.2", "67.2 km"], "tier": 2, "rating": 1126 },
+    "124": { "display": "28.8 units", "accept": ["28.8", "28.8 units"], "tier": 2, "rating": 1139 },
+    "125": { "display": "45.5", "accept": ["45.5", "45½"], "tier": 2, "rating": 1152 },
+    "126": { "display": "9", "accept": ["9"], "tier": 2, "rating": 1165 },
+    "127": { "display": "£3,000", "accept": ["3000", "£3,000"], "tier": 2, "rating": 1178 },
+    "128": { "display": "32 hours", "accept": ["32", "32 hours"], "tier": 2, "rating": 1191 },
+    "129": { "display": "k = 3.2; y = 25.6", "accept": ["3.2", "25.6"], "tier": 2, "rating": 1204 },
+    "130": { "display": "6", "accept": ["6"], "tier": 2, "rating": 1217 },
+    "131": { "display": "32 minutes", "accept": ["32", "32 minutes"], "tier": 2, "rating": 1230 },
+    "132": { "display": "7.5", "accept": ["7.5", "7½"], "tier": 2, "rating": 1243 },
+    "133": { "display": "12", "accept": ["12"], "tier": 2, "rating": 1256 },
+    "134": { "display": "32.4 cm", "accept": ["32.4", "32.4 cm"], "tier": 2, "rating": 1269 },
+    "135": { "display": "7.5", "accept": ["7.5", "7½"], "tier": 2, "rating": 1282 },
+    "136": { "display": "£26.40", "accept": ["26.40", "26.4", "£26.40"], "tier": 2, "rating": 1295 },
+    "137": { "display": "20", "accept": ["20"], "tier": 2, "rating": 1308 },
+    "138": { "display": "1.33 m", "accept": ["1.33", "1.33 m", "4/3 m"], "tier": 2, "rating": 1321 },
+    "139": { "display": "20", "accept": ["20"], "tier": 2, "rating": 1334 },
+    "140": { "display": "12", "accept": ["12"], "tier": 3, "rating": 1347 },
+    "141": { "display": "84 L", "accept": ["84", "84 L", "84 litres"], "tier": 3, "rating": 1360 },
+    "142": { "display": "5", "accept": ["5"], "tier": 3, "rating": 1373 },
+    "143": { "display": "£75", "accept": ["75", "£75"], "tier": 3, "rating": 1386 },
+    "144": { "display": "24", "accept": ["24"], "tier": 3, "rating": 1399 },
+    "145": { "display": "12 workers", "accept": ["12", "12 workers"], "tier": 3, "rating": 1412 },
+    "146": { "display": "15", "accept": ["15"], "tier": 3, "rating": 1425 },
+    "147": { "display": "22 N", "accept": ["22", "22 N"], "tier": 3, "rating": 1438 },
+    "148": { "display": "10", "accept": ["10"], "tier": 3, "rating": 1451 },
+    "149": { "display": "154 pages", "accept": ["154", "154 pages"], "tier": 3, "rating": 1464 },
+    "150": { "display": "k = 0.6; y = 15", "accept": ["0.6", "15"], "tier": 3, "rating": 1477 },
+    "151": { "display": "12", "accept": ["12"], "tier": 3, "rating": 1490 },
+    "152": { "display": "33.75 litres", "accept": ["33.75", "33.75 litres"], "tier": 3, "rating": 1503 },
+    "153": { "display": "6", "accept": ["6"], "tier": 3, "rating": 1516 },
+    "154": { "display": "£6.40", "accept": ["6.40", "6.4", "£6.40"], "tier": 3, "rating": 1529 },
+    "155": { "display": "9.9", "accept": ["9.9"], "tier": 3, "rating": 1542 },
+    "156": { "display": "4", "accept": ["4"], "tier": 3, "rating": 1555 },
+    "157": { "display": "2.1 mm", "accept": ["2.1", "2.1 mm"], "tier": 3, "rating": 1568 },
+    "158": { "display": "12", "accept": ["12"], "tier": 3, "rating": 1581 },
+    "159": { "display": "4", "accept": ["4"], "tier": 3, "rating": 1594 },
+    "160": { "display": "1170 kg", "accept": ["1170", "1170 kg"], "tier": 3, "rating": 1607 },
+    "161": { "display": "8", "accept": ["8"], "tier": 3, "rating": 1620 },
+    "162": { "display": "12", "accept": ["12"], "tier": 3, "rating": 1633 },
+    "163": { "display": "9.33 days", "accept": ["9.33", "9.33 days", "28/3"], "tier": 3, "rating": 1646 },
+    "164": { "display": "7.5", "accept": ["7.5", "7½"], "tier": 3, "rating": 1659 },
+    "165": { "display": "£28.50", "accept": ["28.50", "28.5", "£28.50"], "tier": 3, "rating": 1672 },
+    "166": { "display": "15", "accept": ["15"], "tier": 3, "rating": 1685 },
+    "167": { "display": "10.71", "accept": ["10.71", "10.7"], "tier": 3, "rating": 1698 },
+    "168": { "display": "220 boxes/h", "accept": ["220", "220 boxes"], "tier": 3, "rating": 1711 },
+    "169": { "display": "8", "accept": ["8"], "tier": 3, "rating": 1724 },
+    "170": { "display": "6.75 L", "accept": ["6.75", "6.75 L"], "tier": 3, "rating": 1737 },
+    "171": { "display": "22.5", "accept": ["22.5", "22½"], "tier": 3, "rating": 1750 },
+    "172": { "display": "18", "accept": ["18"], "tier": 3, "rating": 1885 },
+    "173": { "display": "9", "accept": ["9"], "tier": 3, "rating": 1877 },
+    "174": { "display": "40 N", "accept": ["40", "40 N"], "tier": 3, "rating": 1870 },
+    "175": { "display": "4", "accept": ["4"], "tier": 3, "rating": 1862 },
+    "176": { "display": "27.5", "accept": ["27.5", "27½"], "tier": 3, "rating": 1855 },
+    "177": { "display": "2", "accept": ["2"], "tier": 3, "rating": 1847 },
+    "178": { "display": "27 m", "accept": ["27", "27 m"], "tier": 3, "rating": 1840 },
+    "179": { "display": "30", "accept": ["30"], "tier": 3, "rating": 1832 },
+    "180": { "display": "21", "accept": ["21"], "tier": 3, "rating": 1825 },
+    "181": { "display": "6.4 hours", "accept": ["6.4", "6.4 hours"], "tier": 3, "rating": 1817 },
+    "182": { "display": "6", "accept": ["6"], "tier": 3, "rating": 1810 },
+    "183": { "display": "11.9", "accept": ["11.9"], "tier": 3, "rating": 1802 },
+    "184": { "display": "24 L/min", "accept": ["24", "24 L/min"], "tier": 3, "rating": 1795 },
+    "185": { "display": "18", "accept": ["18"], "tier": 3, "rating": 1787 },
+    "186": { "display": "28", "accept": ["28"], "tier": 3, "rating": 1780 },
+    "187": { "display": "18 days", "accept": ["18", "18 days"], "tier": 3, "rating": 1772 },
+    "188": { "display": "8", "accept": ["8"], "tier": 3, "rating": 1765 },
+    "189": { "display": "k = 0.65; y = 13", "accept": ["0.65", "13"], "tier": 3, "rating": 1757 },
+    "190": { "display": "8", "accept": ["8"], "tier": 3, "rating": 1750 },
+    "191": { "display": "142.5 m", "accept": ["142.5", "142.5 m"], "tier": 3, "rating": 1742 },
+    "192": { "display": "14", "accept": ["14"], "tier": 3, "rating": 1735 },
+    "193": { "display": "6", "accept": ["6"], "tier": 3, "rating": 1727 },
+    "194": { "display": "294 parts", "accept": ["294", "294 parts"], "tier": 3, "rating": 1720 },
+    "195": { "display": "4.8", "accept": ["4.8"], "tier": 3, "rating": 1712 },
+    "196": { "display": "2", "accept": ["2"], "tier": 3, "rating": 1988 },
+    "197": { "display": "50%", "accept": ["50", "50%"], "tier": 3, "rating": 1995 },
+    "198": { "display": "y is halved", "accept": ["half", "halved", "50%"], "contains": true, "tier": 3, "rating": 1998 },
+    "199": { "display": "Direct: y/x constant; inverse: xy constant; otherwise neither.", "accept": ["constant", "product"], "contains": true, "tier": 3, "rating": 1999 },
+    "200": {
+      "display": "A correct direct or inverse proportion problem with a clear solution.",
+      "accept": ["direct", "inverse", "proportion", "example"],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

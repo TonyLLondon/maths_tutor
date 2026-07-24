@@ -1,0 +1,1768 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "cube",
+      "accept": [
+        "cube"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "cylinder",
+      "accept": [
+        "cylinder"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "6",
+      "accept": [
+        "6",
+        "six"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "square",
+      "accept": [
+        "square"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "2",
+      "accept": [
+        "2",
+        "two"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "faces",
+      "accept": [
+        "faces",
+        "face"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "edge",
+      "accept": [
+        "edge"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "11": {
+      "display": "vertex (vertices)",
+      "accept": [
+        "vertex",
+        "vertices"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 741
+    },
+    "12": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "13": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "14": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "15": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "16": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "17": {
+      "display": "cone",
+      "accept": [
+        "cone"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "18": {
+      "display": "cylinder",
+      "accept": [
+        "cylinder"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "19": {
+      "display": "sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "20": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "21": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "22": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "6 + 8 − 12 = 2, which checks out.",
+      "accept": [
+        "2",
+        "checks out",
+        "correct"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 900
+    },
+    "24": {
+      "display": "A prism has two identical end faces and the same cross-section throughout its length; a pyramid has one base and triangular faces that all meet at a single apex point.",
+      "accept": [
+        "same cross-section",
+        "apex",
+        "point"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 993
+    },
+    "25": {
+      "display": "8 + 12 − 18 = 2, which checks out.",
+      "accept": [
+        "2",
+        "checks out"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1086
+    },
+    "26": {
+      "display": "Always — triangular prism: 3 × 3 = 9 edges; cuboid: 3 × 4 = 12 edges; hexagonal prism: 3 × 6 = 18 edges — all match.",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1179
+    },
+    "27": {
+      "display": "5 + 5 − 8 = 2, which checks out.",
+      "accept": [
+        "2",
+        "checks out"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1271
+    },
+    "28": {
+      "display": "Yes — a cylinder has the same circular cross-section all the way along, just like a prism, even though the cross-section is curved rather than made of straight sides.",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1364
+    },
+    "29": {
+      "display": "3 rectangular faces and 2 triangular faces.",
+      "accept": [
+        "3",
+        "2"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1457
+    },
+    "30": {
+      "display": "A cone's sides taper to a single point (an apex), so its cross-section keeps shrinking — it does not stay the same shape and size all along its length like a true prism's does.",
+      "accept": [
+        "apex",
+        "point",
+        "shrink",
+        "not the same"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1550
+    },
+    "31": {
+      "display": "5 faces, 9 edges, 6 vertices.",
+      "accept": [
+        "5",
+        "9",
+        "6"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1100
+    },
+    "32": {
+      "display": "6 faces, 12 edges, 8 vertices; total edge length = 12 × 5 = 60 cm.",
+      "accept": [
+        "6",
+        "12",
+        "8",
+        "60"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1230
+    },
+    "33": {
+      "display": "9 faces (6 + 5 − 2).",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1360
+    },
+    "34": {
+      "display": "8 + 6 − 12 = 2, which checks out.",
+      "accept": [
+        "2",
+        "checks out"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1490
+    },
+    "35": {
+      "display": "Edges = 15 (3 × 5); faces = 7 (2 pentagons + 5 rectangles); vertices = 10 (5 on each pentagon).",
+      "accept": [
+        "15",
+        "7",
+        "10"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1620
+    },
+    "36": {
+      "display": "9 faces (6 + 5 − 2).",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1750
+    },
+    "37": {
+      "display": "30 edges (12 + 20 − 2 = 30).",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1400
+    },
+    "38": {
+      "display": "Faces = n + 2; edges = 3n; vertices = 2n.",
+      "accept": [
+        "n+2",
+        "3n",
+        "2n"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1600
+    },
+    "39": {
+      "display": "Faces = 12, edges = 30, vertices = 20; Euler's formula: 12 + 20 − 30 = 2, which checks out.",
+      "accept": [
+        "12",
+        "30",
+        "20",
+        "2"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1800
+    },
+    "40": {
+      "display": "6 + 8 − 12 = 2",
+      "accept": [
+        "6",
+        "8",
+        "12",
+        "2"
+      ],
+      "tier": 3,
+      "contains": true,
+      "containsMin": 4,
+      "rating": 2000
+    },
+    "41": {
+      "display": "Sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "42": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1550
+    },
+    "43": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 754
+    },
+    "45": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "46": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 762
+    },
+    "47": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 767
+    },
+    "48": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 771
+    },
+    "49": {
+      "display": "2 — 6 + 8 − 12 = 2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 775
+    },
+    "50": {
+      "display": "2 — 5 + 6 − 9 = 2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 779
+    },
+    "51": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 783
+    },
+    "52": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 1,
+      "rating": 787
+    },
+    "53": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 791
+    },
+    "54": {
+      "display": "cone",
+      "accept": [
+        "cone"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 796
+    },
+    "55": {
+      "display": "0 (or none along straight lines)",
+      "accept": [
+        "0",
+        "none"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 800
+    },
+    "56": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 1,
+      "rating": 804
+    },
+    "57": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "rating": 808
+    },
+    "58": {
+      "display": "0",
+      "accept": [
+        "0",
+        "none"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 812
+    },
+    "59": {
+      "display": "0",
+      "accept": [
+        "0",
+        "none"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 816
+    },
+    "60": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "61": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 825
+    },
+    "62": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 829
+    },
+    "63": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 833
+    },
+    "64": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 837
+    },
+    "65": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 841
+    },
+    "66": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 845
+    },
+    "67": {
+      "display": "2 — 5 + 5 − 8 = 2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 849
+    },
+    "68": {
+      "display": "2 — 7 + 12 − 17 = 2",
+      "accept": [
+        "2"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 854
+    },
+    "69": {
+      "display": "cube (6 faces vs 5)",
+      "accept": [
+        "cube"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 858
+    },
+    "70": {
+      "display": "cube (12 edges vs 8)",
+      "accept": [
+        "cube"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 862
+    },
+    "71": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 866
+    },
+    "72": {
+      "display": "cylinder",
+      "accept": [
+        "cylinder"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 870
+    },
+    "73": {
+      "display": "sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 874
+    },
+    "74": {
+      "display": "triangular prism",
+      "accept": [
+        "triangular prism",
+        "prism"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 878
+    },
+    "75": {
+      "display": "cone",
+      "accept": [
+        "cone"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 882
+    },
+    "76": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 887
+    },
+    "77": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 1,
+      "rating": 891
+    },
+    "78": {
+      "display": "Never — a cylinder has no straight edges",
+      "accept": [
+        "never"
+      ],
+      "tier": 1,
+      "contains": true,
+      "rating": 895
+    },
+    "79": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 899
+    },
+    "80": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 903
+    },
+    "81": {
+      "display": "6 triangular faces",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 907
+    },
+    "82": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 2,
+      "rating": 911
+    },
+    "83": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 2,
+      "rating": 916
+    },
+    "84": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 2,
+      "rating": 920
+    },
+    "85": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 924
+    },
+    "86": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 2,
+      "rating": 928
+    },
+    "87": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 932
+    },
+    "88": {
+      "display": "False",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "rating": 936
+    },
+    "89": {
+      "display": "e.g. tin can and drainpipe",
+      "accept": [
+        "can",
+        "pipe",
+        "cylinder"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 940
+    },
+    "90": {
+      "display": "e.g. ball and marble",
+      "accept": [
+        "ball",
+        "sphere"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 945
+    },
+    "91": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 949
+    },
+    "92": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 953
+    },
+    "93": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 957
+    },
+    "94": {
+      "display": "60 cm",
+      "accept": [
+        "60"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 961
+    },
+    "95": {
+      "display": "A slice through the solid at right angles to its length",
+      "accept": [
+        "slice",
+        "cross"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 965
+    },
+    "96": {
+      "display": "A sphere is curved with no straight edges meeting at corners",
+      "accept": [
+        "curved",
+        "no edges"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 969
+    },
+    "97": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 974
+    },
+    "98": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 2,
+      "rating": 978
+    },
+    "99": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 982
+    },
+    "100": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 986
+    },
+    "101": {
+      "display": "cube 8, triangular prism 6",
+      "accept": [
+        "8",
+        "6"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 990
+    },
+    "102": {
+      "display": "prism 18, pyramid 12",
+      "accept": [
+        "18",
+        "12"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 994
+    },
+    "103": {
+      "display": "sphere",
+      "accept": [
+        "sphere"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 998
+    },
+    "104": {
+      "display": "cylinder",
+      "accept": [
+        "cylinder"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1003
+    },
+    "105": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1007
+    },
+    "106": {
+      "display": "a triangle (from the triangular face)",
+      "accept": [
+        "triangle"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1011
+    },
+    "107": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1015
+    },
+    "108": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1019
+    },
+    "109": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1023
+    },
+    "110": {
+      "display": "1",
+      "accept": [
+        "1"
+      ],
+      "tier": 2,
+      "rating": 1027
+    },
+    "111": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1032
+    },
+    "112": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1036
+    },
+    "113": {
+      "display": "Teachers often count only the flat circular base as a face; the curved surface is not a flat face",
+      "accept": [
+        "flat",
+        "curved",
+        "base"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1040
+    },
+    "114": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1044
+    },
+    "115": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1048
+    },
+    "116": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 2,
+      "rating": 1052
+    },
+    "117": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1056
+    },
+    "118": {
+      "display": "triangular prism (3 faces)",
+      "accept": [
+        "triangular"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1061
+    },
+    "119": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 2,
+      "rating": 1065
+    },
+    "120": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1069
+    },
+    "121": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 2,
+      "rating": 1073
+    },
+    "122": {
+      "display": "Not necessarily all equal — a general cuboid has 12 edges in three pairs",
+      "accept": [
+        "not",
+        "pairs"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1077
+    },
+    "123": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1081
+    },
+    "124": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1085
+    },
+    "125": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1089
+    },
+    "126": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 2,
+      "rating": 1094
+    },
+    "127": {
+      "display": "square",
+      "accept": [
+        "square"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1098
+    },
+    "128": {
+      "display": "circle (or ellipse if viewed at an angle)",
+      "accept": [
+        "circle"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1102
+    },
+    "129": {
+      "display": "rectangle",
+      "accept": [
+        "rectangle"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1106
+    },
+    "130": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1110
+    },
+    "131": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1114
+    },
+    "132": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 1118
+    },
+    "133": {
+      "display": "Always for a convex polyhedron",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1123
+    },
+    "134": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 3,
+      "rating": 1127
+    },
+    "135": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1131
+    },
+    "136": {
+      "display": "Faces are flat surfaces; edges are lines where two faces meet",
+      "accept": [
+        "face",
+        "edge"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1135
+    },
+    "137": {
+      "display": "Vertices are corners where edges meet; edges join vertices",
+      "accept": [
+        "vertex",
+        "corner"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1139
+    },
+    "138": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1143
+    },
+    "139": {
+      "display": "octahedron",
+      "accept": [
+        "octahedron"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1147
+    },
+    "140": {
+      "display": "cuboid (non-cube)",
+      "accept": [
+        "cuboid",
+        "rectangular"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1152
+    },
+    "141": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1156
+    },
+    "142": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 2,
+      "rating": 1160
+    },
+    "143": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1164
+    },
+    "144": {
+      "display": "Yes — 6 faces, 8 vertices, 12 edges",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1168
+    },
+    "145": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 2,
+      "rating": 1172
+    },
+    "146": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1176
+    },
+    "147": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 2,
+      "rating": 1181
+    },
+    "148": {
+      "display": "23",
+      "accept": [
+        "23"
+      ],
+      "tier": 2,
+      "rating": 1185
+    },
+    "149": {
+      "display": "True for a right circular cylinder",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1189
+    },
+    "150": {
+      "display": "square (same shape as base)",
+      "accept": [
+        "square"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1193
+    },
+    "151": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 2,
+      "rating": 1197
+    },
+    "152": {
+      "display": "hexagon",
+      "accept": [
+        "hexagon",
+        "6"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1201
+    },
+    "153": {
+      "display": "Sometimes — prism has 3n edges, pyramid has 2n",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1205
+    },
+    "154": {
+      "display": "cylinder 3 faces counted (2 flat + curved), cone 2",
+      "accept": [
+        "cylinder"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1210
+    },
+    "155": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 2,
+      "rating": 1214
+    },
+    "156": {
+      "display": "Always (for polyhedra where it applies)",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1218
+    },
+    "157": {
+      "display": "26",
+      "accept": [
+        "26"
+      ],
+      "tier": 3,
+      "rating": 1222
+    },
+    "158": {
+      "display": "e.g. pyramid tent or roof peak",
+      "accept": [
+        "pyramid",
+        "tent"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1226
+    },
+    "159": {
+      "display": "e.g. pencil or hexagonal nut",
+      "accept": [
+        "pencil",
+        "hexagonal"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1230
+    },
+    "160": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1234
+    },
+    "161": {
+      "display": "6 (all faces rectangles; none are squares for 2×3×4)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1239
+    },
+    "162": {
+      "display": "square (similar to base)",
+      "accept": [
+        "square"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1243
+    },
+    "163": {
+      "display": "A cylinder has a curved surface, not only flat polygon faces",
+      "accept": [
+        "curved"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1247
+    },
+    "164": {
+      "display": "A sphere has no flat faces and no straight edges — not a prism",
+      "accept": [
+        "no flat",
+        "curved"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1251
+    },
+    "165": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 2,
+      "rating": 1255
+    },
+    "166": {
+      "display": "False — triangular prism 6 vertices, triangular pyramid 4",
+      "accept": [
+        "false"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1259
+    },
+    "167": {
+      "display": "5 more (15 − 10)",
+      "accept": [
+        "5"
+      ],
+      "tier": 2,
+      "rating": 1263
+    },
+    "168": {
+      "display": "6 more (8 − 2)",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1268
+    },
+    "169": {
+      "display": "Always — apex plus one per base vertex",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1272
+    },
+    "170": {
+      "display": "Your composite solid with F + V − E = 2 checked",
+      "accept": [
+        "euler",
+        "faces",
+        "edges",
+        "vertices",
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1276,
+      "contains": true,
+      "containsMin": 2
+    },
+    "171": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 2,
+      "rating": 1280
+    },
+    "172": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 2,
+      "rating": 1284
+    },
+    "173": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1288
+    },
+    "174": {
+      "display": "3n edges",
+      "accept": [
+        "3n"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1292
+    },
+    "175": {
+      "display": "n + 1 faces",
+      "accept": [
+        "n+1",
+        "n + 1"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1296
+    },
+    "176": {
+      "display": "2n edges",
+      "accept": [
+        "2n"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1301
+    },
+    "177": {
+      "display": "9 faces, 10 vertices, 16 edges; 9+10−16=3? For n=8 pyramid: faces 9, vertices 9, edges 16, 9+9-16=2",
+      "accept": [
+        "2",
+        "16"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1305
+    },
+    "178": {
+      "display": "Sometimes",
+      "accept": [
+        "sometimes"
+      ],
+      "tier": 2,
+      "rating": 1309
+    },
+    "179": {
+      "display": "cube has 12/6=2 edges per face on average; triangular prism 9/5",
+      "accept": [
+        "cube"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1313
+    },
+    "180": {
+      "display": "cylinder body and conical top",
+      "accept": [
+        "cylinder",
+        "cone"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1317
+    },
+    "181": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1321
+    },
+    "182": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 3,
+      "rating": 1325
+    },
+    "183": {
+      "display": "Cylinder edge is a circle curve, not a straight segment between vertices",
+      "accept": [
+        "curved",
+        "circle"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1330
+    },
+    "184": {
+      "display": "Always — at least the two joined faces disappear",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1334
+    },
+    "185": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 2,
+      "rating": 1338
+    },
+    "186": {
+      "display": "6 and 5 faces; 2 hidden on join",
+      "accept": [
+        "6",
+        "5"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1342
+    },
+    "187": {
+      "display": "True — 18 vs 9",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1346
+    },
+    "188": {
+      "display": "Missed one face — a cube has 6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1350
+    },
+    "189": {
+      "display": "Your 3D counting question answered correctly",
+      "accept": [
+        "faces",
+        "edges",
+        "vertices",
+        "3d"
+      ],
+      "tier": 3,
+      "rating": 1354,
+      "contains": true,
+      "containsMin": 2
+    },
+    "190": {
+      "display": "23 edges; check 9+14−23=2",
+      "accept": [
+        "23",
+        "2"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1359
+    },
+    "191": {
+      "display": "Always",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1363
+    },
+    "192": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 2,
+      "rating": 1367
+    },
+    "193": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 2,
+      "rating": 1371
+    },
+    "194": {
+      "display": "True",
+      "accept": [
+        "true"
+      ],
+      "tier": 2,
+      "rating": 1375
+    },
+    "195": {
+      "display": "sector and circle",
+      "accept": [
+        "sector",
+        "circle"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1379
+    },
+    "196": {
+      "display": "prism 16 vertices, pyramid 9",
+      "accept": [
+        "16",
+        "9"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1383
+    },
+    "197": {
+      "display": "pentagon",
+      "accept": [
+        "pentagon",
+        "5"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1388
+    },
+    "198": {
+      "display": "Always for a cube",
+      "accept": [
+        "always"
+      ],
+      "tier": 2,
+      "rating": 1392
+    },
+    "199": {
+      "display": "cylinder and hemisphere; join is a circle face",
+      "accept": [
+        "cylinder",
+        "hemisphere"
+      ],
+      "tier": 2,
+      "contains": true,
+      "rating": 1396
+    },
+    "200": {
+      "display": "90 edges; 32+60−90=2 — e.g. truncated icosahedron (football)",
+      "accept": [
+        "90",
+        "2",
+        "football"
+      ],
+      "tier": 3,
+      "contains": true,
+      "rating": 1400
+    }
+  }
+}

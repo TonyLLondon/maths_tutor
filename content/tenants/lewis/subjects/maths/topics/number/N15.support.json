@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Units digit 4 in 14 — round down.",
+      "help": "14 → **10** to the nearest 10 because the units digit 4 is less than 5.\n\n**Different example:** 16 → 20 because 6 ≥ 5."
+    },
+    "2": {
+      "hint": "Units digit 7 in 17.",
+      "help": "17 → **20** to the nearest 10 because the units digit 7 is 5 or more.\n\n**Different example:** 13 → 10."
+    },
+    "3": {
+      "hint": "42 is closer to 40 than 50.",
+      "help": "42 → **40** to the nearest 10 because 2 is less than 5.\n\n**Different example:** 48 → 50."
+    },
+    "4": {
+      "hint": "68 rounds up to the next ten.",
+      "help": "68 → **70** to the nearest 10 because the units digit 8 is 5 or more.\n\n**Different example:** 62 → 60."
+    },
+    "5": {
+      "hint": "Look at tens digit in 123.",
+      "help": "123 → **100** to nearest 100.\n\n**Different example:** 156 → 200."
+    },
+    "6": {
+      "hint": "Which number is within 5 of 10?",
+      "help": "**6** rounds to 10 (5–14 interval); 16 rounds to 20.\n\n**Different example:** 14 → 10, 15 → 20."
+    },
+    "7": {
+      "hint": "Could 28 round to 30?",
+      "help": "**Yes** — 28 is closer to 30 than to 20.\n\n**Different example:** 25 rounds to 30 (nearest 10)."
+    },
+    "8": {
+      "hint": "Smallest whole number that rounds to 50.",
+      "help": "Half-width 5 below 50: **45**.\n\n**Different example:** Smallest rounding to 100 is 95."
+    },
+    "9": {
+      "hint": "23 to nearest 10.",
+      "help": "23 → **20** to the nearest 10 because 3 is less than 5.\n\n**Different example:** 27 → 30."
+    },
+    "10": {
+      "hint": "156 to nearest 100.",
+      "help": "156 → **200** to the nearest 100 because 56 is 50 or more.\n\n**Different example:** 144 → 100."
+    },
+    "11": {
+      "hint": "Test 15 and 25 against multiples of 10.",
+      "help": "15 is equally close to 10 and 20; 25 is equally close to 20 and 30. This worksheet expects **25** as the answer.\n\n**Different example:** 14 rounds to 10; 16 rounds to 20."
+    },
+    "12": {
+      "hint": "9 is closer to 10 than to 0.",
+      "help": "9 rounds to **10** to the nearest 10 (within 5 of 10).\n\n**Different example:** 4 rounds to 0 to the nearest 10."
+    },
+    "13": {
+      "hint": "Nearest cm: half a cm below and above 8.",
+      "help": "Actual length: **7.5 cm ≤ L < 8.5 cm** (upper bound not included).\n\n**Different example:** 5 cm to nearest cm lies between 4.5 cm and 5.5 cm."
+    },
+    "14": {
+      "hint": "Nearest 10 kg on 40 kg.",
+      "help": "Half of 10 kg is 5 kg. Actual mass: **35 kg ≤ m < 45 kg** (45 not included).\n\n**Different example:** 90 kg to nearest 10 kg runs from 85 kg up to 95 kg."
+    },
+    "15": {
+      "hint": "Nearest minute on 15 min.",
+      "help": "Half a minute below and above 15: **14.5 min ≤ t < 15.5 min**.\n\n**Different example:** 8 min to nearest minute uses 7.5 min to 8.5 min."
+    },
+    "16": {
+      "hint": "1 d.p. on 6.2 — half of 0.1 is 0.05.",
+      "help": "One decimal place means ±0.05: **6.15 ≤ n < 6.25**.\n\n**Different example:** 3.0 to 1 d.p. runs from 2.95 to 3.05."
+    },
+    "17": {
+      "hint": "Nearest 10 mm on 120 mm.",
+      "help": "Half of 10 mm is 5 mm: **115 mm ≤ L < 125 mm**.\n\n**Different example:** 200 mm to nearest 10 mm uses 195 mm to 205 mm."
+    },
+    "18": {
+      "hint": "Nearest 100 on 300.",
+      "help": "Half of 100 is 50: **250 ≤ n < 350**.\n\n**Different example:** 500 to nearest 100 runs from 450 to 550."
+    },
+    "19": {
+      "hint": "2 d.p. on 7.50 — width 0.01.",
+      "help": "Two decimal places means ±0.005: **7.495 ≤ n < 7.505**.\n\n**Different example:** 4.00 to 2 d.p. runs from 3.995 to 4.005."
+    },
+    "20": {
+      "hint": "Nearest km on 3 km.",
+      "help": "Half a kilometre below and above 3: **2.5 km ≤ d < 3.5 km**.\n\n**Different example:** 10 km to nearest km uses 9.5 km to 10.5 km."
+    },
+    "21": {
+      "hint": "Nearest 10 on 90.",
+      "help": "Half of 10 is 5: **85 ≤ n < 95**.\n\n**Different example:** 40 to nearest 10 runs from 35 to 45."
+    },
+    "22": {
+      "hint": "1 d.p. on 2.5 kg.",
+      "help": "Half of 0.1 kg is 0.05 kg: **2.45 kg ≤ m < 2.55 kg**.\n\n**Different example:** 1.0 kg to 1 d.p. runs from 0.95 kg to 1.05 kg."
+    },
+    "23": {
+      "hint": "Nearest 5 cm — half-width 2.5 cm.",
+      "help": "Half of 5 cm is 2.5 cm: **42.5 cm ≤ L < 47.5 cm**.\n\n**Different example:** 20 cm to nearest 5 cm uses 17.5 cm to 22.5 cm."
+    },
+    "24": {
+      "hint": "Nearest 100 on 1000.",
+      "help": "Half of 100 is 50: **950 ≤ n < 1050**.\n\n**Different example:** 2000 to nearest 100 runs from 1950 to 2050."
+    },
+    "25": {
+      "hint": "1 d.p. on 0.6.",
+      "help": "One decimal place on 0.6 means ±0.05: **0.55 ≤ n < 0.65**.\n\n**Different example:** 0.4 to 1 d.p. runs from 0.35 to 0.45."
+    },
+    "26": {
+      "hint": "Nearest hour on 2 hours.",
+      "help": "Half an hour below and above 2 h: **1.5 h ≤ t < 2.5 h**.\n\n**Different example:** 5 hours to nearest hour uses 4.5 h to 5.5 h."
+    },
+    "27": {
+      "hint": "Could actual length be only exactly 8 cm?",
+      "help": "**No** — any value from **7.5 cm** up to (not including) **8.5 cm** is possible."
+    },
+    "28": {
+      "hint": "Is the lower bound included? Upper bound?",
+      "help": "Lower bound **included** (≤), upper bound **not included** (<). **Always** true for standard error intervals."
+    },
+    "29": {
+      "hint": "Nearest 10 cm on 150 — half of 10 is 5.",
+      "help": "Correct **145 cm to 155 cm**, not 140–160. Mention **145** and **155**."
+    },
+    "30": {
+      "hint": "Nearest whole number — width 1.",
+      "help": "Interval width is **1** (e.g. 29.5 to 30.5). **Always** for nearest whole number."
+    },
+    "31": {
+      "hint": "Compare widths: nearest 10 vs nearest 1 on 30.",
+      "help": "Nearest 10: 25–35 (width **10**); nearest 1: 29.5–30.5 (width **1**). Nearest 10 is **wider**."
+    },
+    "32": {
+      "hint": "Nearest 10 m on 200 m.",
+      "help": "Half of 10 m is 5 m: **195 m ≤ L < 205 m**.\n\n**Different example:** 50 m to nearest 10 m uses 45 m to 55 m."
+    },
+    "33": {
+      "hint": "Smallest mass for 1.5 kg to 1 d.p.",
+      "help": "Lower bound is half of 0.1 kg below 1.5: **1.45 kg**.\n\n**Different example:** 2.0 kg to 1 d.p. has minimum 1.95 kg."
+    },
+    "34": {
+      "hint": "Nearest 5 minutes on 45.",
+      "help": "Half of 5 minutes is 2.5 min: **42.5 min ≤ t < 47.5 min**.\n\n**Different example:** 30 min to nearest 5 min uses 27.5 min to 32.5 min."
+    },
+    "35": {
+      "hint": "Overlap intervals for 140 cm and 139 cm.",
+      "help": "Archer 139.5–140.5; Sloan 138.5–139.5. Sloan cannot exceed 139.5; Archer starts at 139.5. **No**, Sloan cannot be taller."
+    },
+    "36": {
+      "hint": "Greatest length — upper bound not included.",
+      "help": "Just below **12.5 cm** is the greatest possible; often written **12.5 cm** as upper limit in problems asking greatest possible recorded-style — answer **12.5 cm**."
+    },
+    "37": {
+      "hint": "Round to nearest 10 gives half-width 5.",
+      "help": "Nearest 10 on 60 means ±5: **55 ≤ n < 65**.\n\n**Different example:** 30 to nearest 10 runs from 25 to 35."
+    },
+    "38": {
+      "hint": "1 d.p. on 4.5 — half of 0.1.",
+      "help": "Half of 0.1 is 0.05: **4.45 ≤ x < 4.55**.\n\n**Different example:** 1.5 to 1 d.p. runs from 1.45 to 1.55."
+    },
+    "39": {
+      "hint": "Nearest 1000 on 5000; could actual be 4400?",
+      "help": "Interval **4500–5500**; **4400** is below lower bound — **no**."
+    },
+    "40": {
+      "hint": "Why upper bound 8.05 not 8.1 for 1 d.p.?",
+      "help": "Half of 0.1 is **0.05**, so upper bound is **8.05 cm**, not a full 0.1 above 8.0."
+    },
+    "41": {
+      "hint": "Nearest 5 on 25.",
+      "help": "Half of 5 is 2.5: **22.5 ≤ n < 27.5**.\n\n**Different example:** 10 to nearest 5 runs from 7.5 to 12.5."
+    },
+    "42": {
+      "hint": "Compare interval widths 100 vs 10.",
+      "help": "Nearest **100** always gives a **wider** interval than nearest **10**. Sloan is **correct**."
+    },
+    "43": {
+      "hint": "23 to nearest 10.",
+      "help": "23 → **20** to the nearest 10 because the units digit 3 is less than 5.\n\n**Different example:** 28 → 30."
+    },
+    "44": {
+      "hint": "Nearest cm on 24 cm.",
+      "help": "Half a centimetre below and above 24: **23.5 cm ≤ L < 24.5 cm**.\n\n**Different example:** 10 cm to nearest cm uses 9.5 cm to 10.5 cm."
+    },
+    "45": {
+      "hint": "Look at the ones digit in 87.",
+      "help": "7 ≥ 5, so **87 → 90** to the nearest 10.\n\n**Different example:** 82 → 80."
+    },
+    "46": {
+      "hint": "Keep one digit after the decimal point.",
+      "help": "The **7** in hundredths rounds the **4** tenths up: **0.47 → 0.5**.\n\n**Different example:** 0.44 → 0.4."
+    },
+    "47": {
+      "hint": "Nearest 100 g — half of 100 is 50 g.",
+      "help": "**450 g ≤ mass < 550 g** (550 not included).\n\n**Different example:** 200 g nearest 100 g → 150 g to 250 g."
+    },
+    "48": {
+      "hint": "Largest whole number still rounding to 200.",
+      "help": "Go up from 200 but stop before the next ten: **205** would round to 210, so try **204**.\n\n**Different example:** largest whole number rounding to 50 to nearest 10 is **54**."
+    },
+    "49": {
+      "hint": "Which hundred is 2345 nearer?",
+      "help": "Look at tens digit **4** → **2345 → 2300**.\n\n**Different example:** 2567 → 2600."
+    },
+    "50": {
+      "hint": "Nearest 5 °C — half of 5 is 2.5.",
+      "help": "**17.5 °C ≤ T < 22.5 °C**.\n\n**Different example:** 10 °C nearest 5 °C → 7.5 °C to 12.5 °C."
+    },
+    "51": {
+      "hint": "Keep two digits after the decimal point.",
+      "help": "Third decimal **1** means no change to hundredths: **3.141 → 3.14**.\n\n**Different example:** 3.146 → 3.15."
+    },
+    "52": {
+      "hint": "Is the top end of the interval included?",
+      "help": "The upper bound uses **<**, so the top value is **never** included.\n\n**Different example:** 24.5 cm is not in 23.5 ≤ L < 24.5 cm."
+    },
+    "53": {
+      "hint": "995 is closer to 1000 than 900.",
+      "help": "**995 → 1000** to the nearest 100.\n\n**Different example:** 949 → 900."
+    },
+    "54": {
+      "hint": "1 d.p. on 6.0 km — add and subtract 0.05 km.",
+      "help": "**5.95 km ≤ d < 6.05 km**.\n\n**Different example:** 3.0 km → 2.95 km to 3.05 km."
+    },
+    "55": {
+      "hint": "Smallest value rounding to 70 to nearest 10.",
+      "help": "Half of 10 below 70: **65**.\n\n**Different example:** smallest rounding to 100 is 95."
+    },
+    "56": {
+      "hint": "Hundredths digit 5 rounds the tenths.",
+      "help": "**1.25 → 1.3** to one decimal place.\n\n**Different example:** 2.35 → 2.4."
+    },
+    "57": {
+      "hint": "2 d.p. on 0.30 — width 0.01.",
+      "help": "**0.295 ≤ x < 0.305**.\n\n**Different example:** 0.50 to 2 d.p. → 0.495 to 0.505."
+    },
+    "58": {
+      "hint": "Nearest cm on 10 cm — subtract half a cm.",
+      "help": "Smallest actual length **9.5 cm**.\n\n**Different example:** 5 cm nearest cm → min 4.5 cm."
+    },
+    "59": {
+      "hint": "4567 to the nearest 1000.",
+      "help": "Look at hundreds digit **5** → **4567 → 5000**.\n\n**Different example:** 4321 → 4000."
+    },
+    "60": {
+      "hint": "Does rounding to nearest 100 always land on a multiple of 100?",
+      "help": "The **recorded** value is a multiple of 100 — **always**.\n\n**Different example:** 234 → 200."
+    },
+    "61": {
+      "hint": "Nearest litre on 2 L.",
+      "help": "**1.5 L ≤ V < 2.5 L**.\n\n**Different example:** 5 L nearest litre → 4.5 L to 5.5 L."
+    },
+    "62": {
+      "hint": "Round 8.96 to one decimal place.",
+      "help": "**8.96 → 9.0** (or **9**).\n\n**Different example:** 7.04 → 7.0."
+    },
+    "63": {
+      "hint": "Greatest mass for 3.2 kg to 1 d.p.",
+      "help": "Add half of 0.1 kg: **3.25 kg** (upper bound not included in strict sense; worksheet uses **3.25 kg**).\n\n**Different example:** 5.0 kg → max 5.05 kg."
+    },
+    "64": {
+      "hint": "1250 to the nearest 100.",
+      "help": "Tens digit **5** rounds hundreds up: **1250 → 1300**.\n\n**Different example:** 1150 → 1200."
+    },
+    "65": {
+      "hint": "Nearest 10 mph on 60 mph.",
+      "help": "**55 mph ≤ s < 65 mph**.\n\n**Different example:** 30 mph nearest 10 → 25 to 35 mph."
+    },
+    "66": {
+      "hint": "Third decimal 7 rounds hundredths up.",
+      "help": "**0.0067 → 0.01** to two decimal places.\n\n**Different example:** 0.0049 → 0.00."
+    },
+    "67": {
+      "hint": "Nearest 5 on 15.",
+      "help": "**12.5 ≤ n < 17.5**.\n\n**Different example:** 20 nearest 5 → 17.5 to 22.5."
+    },
+    "68": {
+      "hint": "39 999 to nearest 1000.",
+      "help": "**39 999 → 40 000**.\n\n**Different example:** 38 499 → 38 000."
+    },
+    "69": {
+      "hint": "Nearest pound on £4.99.",
+      "help": "**£4.50 ≤ p < £5.50**.\n\n**Different example:** £2.00 nearest pound → £1.50 to £2.50."
+    },
+    "70": {
+      "hint": "How wide is nearest-cm rounding?",
+      "help": "From half a cm below to half a cm above: width **1 cm**.\n\n**Different example:** nearest mm → width 1 mm."
+    },
+    "71": {
+      "hint": "Third decimal 5 — round hundredths.",
+      "help": "**2.375 → 2.38** to two decimal places.\n\n**Different example:** 1.235 → 1.24."
+    },
+    "72": {
+      "hint": "Nearest 100 on 1200 people.",
+      "help": "**1150 ≤ p < 1250**.\n\n**Different example:** 500 nearest 100 → 450 to 550."
+    },
+    "73": {
+      "hint": "Is the recorded value halfway between bounds?",
+      "help": "For standard rounding the midpoint equals the recorded value — **always**.\n\n**Different example:** 8 cm nearest cm → middle of 7.5 and 8.5."
+    },
+    "74": {
+      "hint": "0.999 to one decimal place.",
+      "help": "**0.999 → 1.0** to one decimal place because the tenths digit rounds up.\n\n**Different example:** 0.949 → 0.9."
+    },
+    "75": {
+      "hint": "Nearest 0.1 m on 0.5 m.",
+      "help": "**0.45 m ≤ w < 0.55 m**.\n\n**Different example:** 1.0 m nearest 0.1 m → 0.95 to 1.05 m."
+    },
+    "76": {
+      "hint": "Smallest value rounding to 3.6 to 1 d.p.",
+      "help": "**3.55** is the lower bound.\n\n**Different example:** min for 2.0 to 1 d.p. is 1.95."
+    },
+    "77": {
+      "hint": "678 to the nearest 10.",
+      "help": "Ones digit **8** → **678 → 680**.\n\n**Different example:** 672 → 670."
+    },
+    "78": {
+      "hint": "1 d.p. on 10.0 s.",
+      "help": "**9.95 s ≤ t < 10.05 s**.\n\n**Different example:** 8.0 s → 7.95 to 8.05 s."
+    },
+    "79": {
+      "hint": "350 to nearest 100.",
+      "help": "Tens digit **5** → **350 → 400**.\n\n**Different example:** 340 → 300."
+    },
+    "80": {
+      "hint": "Nearest kg on 8 kg.",
+      "help": "**7.5 kg ≤ m < 8.5 kg**.\n\n**Different example:** 5 kg → 4.5 to 5.5 kg."
+    },
+    "81": {
+      "hint": "Greatest value for 5.0 to 1 d.p.",
+      "help": "Just below **5.05** — worksheet answer **5.05** as upper-style bound.\n\n**Different example:** max for 3.0 is 3.05."
+    },
+    "82": {
+      "hint": "2049 to nearest 100.",
+      "help": "**2049 → 2000** to the nearest 100 because the tens digit is 4.\n\n**Different example:** 2050 → 2100."
+    },
+    "83": {
+      "hint": "Same recorded value and same accuracy?",
+      "help": "Then the error intervals match — **always**.\n\n**Different example:** two lengths both 6 cm to nearest cm → same interval."
+    },
+    "84": {
+      "hint": "Nearest 0.5 on 72.5.",
+      "help": "**72.25 ≤ n < 72.75**.\n\n**Different example:** 10.0 nearest 0.5 → 9.75 to 10.25."
+    },
+    "85": {
+      "hint": "0.0049 to two decimal places.",
+      "help": "Third and fourth decimals round down: **0.00**.\n\n**Different example:** 0.0051 → 0.01."
+    },
+    "86": {
+      "hint": "Nearest 0.5 m on 4 m.",
+      "help": "**3.75 m ≤ L < 4.25 m**.\n\n**Different example:** 2.0 m nearest 0.5 m → 1.75 to 2.25 m."
+    },
+    "87": {
+      "hint": "Smallest whole number rounding to 1000 nearest 100.",
+      "help": "**950**.\n\n**Different example:** smallest rounding to 500 nearest 100 is 450."
+    },
+    "88": {
+      "hint": "Keep two decimal places on 7.850.",
+      "help": "The **third** decimal is **0**, so the hundredths digit stays: **7.850 → 7.85** when rounding to two dp.\n\n**Different example:** 7.856 → 7.86 because the third decimal is 6."
+    },
+    "89": {
+      "hint": "Nearest 10 litres on 150 L.",
+      "help": "**145 L ≤ V < 155 L**.\n\n**Different example:** 80 L nearest 10 → 75 to 85 L."
+    },
+    "90": {
+      "hint": "Does truncating equal rounding?",
+      "help": "Truncating cuts digits off; rounding chooses nearest — **never** always the same.\n\n**Different example:** 2.39 truncates to 2.3 but rounds to 2.4."
+    },
+    "91": {
+      "hint": "5555 to nearest 1000.",
+      "help": "The **hundreds** digit **5** rounds the thousands up, so **5555 → 6000** to the nearest 1000.\n\n**Different example:** 5444 → 5000 because hundreds digit 4 rounds down."
+    },
+    "92": {
+      "hint": "1 d.p. on 2.1 cm thickness.",
+      "help": "**2.05 cm ≤ t < 2.15 cm**.\n\n**Different example:** 1.0 cm → 0.95 to 1.05 cm."
+    },
+    "93": {
+      "hint": "Greatest whole number rounding to 50 nearest 10.",
+      "help": "**54**.\n\n**Different example:** greatest rounding to 100 is 104."
+    },
+    "94": {
+      "hint": "0.195 to two decimal places.",
+      "help": "The **5** in thousandths rounds the **9** hundredths up, so you write **0.20** with two decimal places.\n\n**Different example:** 0.185 → 0.19 because thousandths digit 5 rounds hundredths up."
+    },
+    "95": {
+      "hint": "Nearest £1000 on £30 000.",
+      "help": "**£29 500 ≤ salary < £30 500**.\n\n**Different example:** £50 000 → £49 500 to £50 500."
+    },
+    "96": {
+      "hint": "Fill the upper bound for 6.2 to 1 d.p.",
+      "help": "**6.15 ≤ n < 6.25** — missing upper **6.25**.\n\n**Different example:** 4.0 → 3.95 to 4.05."
+    },
+    "97": {
+      "hint": "449 to nearest 100.",
+      "help": "The **tens** digit **4** is less than 5, so **449 → 400** to the nearest 100.\n\n**Different example:** 450 → 500 because 50 is halfway and rounds up."
+    },
+    "98": {
+      "hint": "Nearest 2 kg on 12 kg.",
+      "help": "**11 kg ≤ m < 13 kg**.\n\n**Different example:** 10 kg nearest 2 kg → 9 to 11 kg."
+    },
+    "99": {
+      "hint": "Is the lower bound included?",
+      "help": "Standard intervals use **≤** on the lower end — **always** included.\n\n**Different example:** 7.5 cm is in 7.5 ≤ L < 8.5 cm."
+    },
+    "100": {
+      "hint": "Can the length be exactly 24.5 cm?",
+      "help": "Upper bound is **not included**, so **24.5 cm** is impossible — answer **no**.\n\n**Different example:** greatest length just below 24.5 cm."
+    },
+    "101": {
+      "hint": "Is every rounded value closest to its recorded multiple?",
+      "help": "Values near a boundary can be closer to the next multiple — **sometimes**.\n\n**Different example:** compare 14 and 16 to nearest 10."
+    },
+    "102": {
+      "hint": "Half of 100 is 50, not 100.",
+      "help": "Correct interval **50 ≤ n < 150** for 100 to nearest 100.\n\n**Different example:** 1000 nearest 1000 → 500 to 1500."
+    },
+    "103": {
+      "hint": "Compare upper bounds: 8.5 cm vs 8.05 cm.",
+      "help": "Nearest **cm** allows longer lengths than **1 d.p.** here.\n\n**Different example:** width of intervals controls max length."
+    },
+    "104": {
+      "hint": "Does doubling the recorded value double the width?",
+      "help": "Width depends on accuracy, not the recorded number — **never**.\n\n**Different example:** 10 cm and 20 cm nearest cm both width 1 cm."
+    },
+    "105": {
+      "hint": "Is 2.445 the lower bound for 2.45 to 2 d.p.?",
+      "help": "**Yes** — included at **2.445 ≤ x < 2.455**.\n\n**Different example:** 1.235 included for 1.24."
+    },
+    "106": {
+      "hint": "Maximum sum uses both upper bounds.",
+      "help": "Add upper bounds of **a** and **b** — **always** for positive measurements.\n\n**Different example:** 5 cm + 3 cm nearest cm → max 5.5 + 3.5."
+    },
+    "107": {
+      "hint": "4.45 to 1 d.p. — round the 4 tenths.",
+      "help": "**Lee** is correct: **4.45 → 4.5**.\n\n**Different example:** 3.35 → 3.4."
+    },
+    "108": {
+      "hint": "Nearest 1000 — how wide is the interval?",
+      "help": "Half-width 500 → width **1000** — **always**.\n\n**Different example:** nearest 100 → width 100."
+    },
+    "109": {
+      "hint": "Why strict inequality on top?",
+      "help": "A value **on** the upper bound would round **up** to the next recorded value.\n\n**Different example:** 24.5 cm rounds to 25 cm, not 24 cm."
+    },
+    "110": {
+      "hint": "Does the lower bound round back to the recorded value?",
+      "help": "Values from the lower bound up round correctly — **always**.\n\n**Different example:** 7.5 cm rounds to 8 cm nearest cm."
+    },
+    "111": {
+      "hint": "Try 69 with nearest 10 and nearest 2.",
+      "help": "**69 → 70** and **69 → 68** — **yes**, possible.\n\n**Different example:** pick a number in both intervals."
+    },
+    "112": {
+      "hint": "Round once or twice to nearest 10?",
+      "help": "Second rounding does not change a multiple of 10 — **always** same.\n\n**Different example:** 37 → 40 → 40."
+    },
+    "113": {
+      "hint": "Look at the third decimal in 0.849.",
+      "help": "**9** forces hundredths up — **0.85**, not 0.84.\n\n**Different example:** 0.851 → 0.85."
+    },
+    "114": {
+      "hint": "Does every integer sit in one nearest-unit interval?",
+      "help": "Each integer is the centre of one width-1 interval — **always**.\n\n**Different example:** 7 → 6.5 to 7.5."
+    },
+    "115": {
+      "hint": "Compare widths 10 vs 100 on 100.",
+      "help": "**Nearest 100** is wider (100 vs 10).\n\n**Different example:** nearest 1000 vs nearest 10."
+    },
+    "116": {
+      "hint": "Same rounded value to nearest 10?",
+      "help": "Same recorded value means same interval — **always**.\n\n**Different example:** two lengths 30 cm nearest 10 → same bounds."
+    },
+    "117": {
+      "hint": "From 9.5 to 10.5 — how many minutes wide?",
+      "help": "Width is **1 minute**, not 2.\n\n**Different example:** nearest hour → width 1 hour."
+    },
+    "118": {
+      "hint": "Compare nearest cm vs 1 d.p.",
+      "help": "1 d.p. can be **more** precise — **never** always less precise.\n\n**Different example:** 8.0 cm vs 8 cm."
+    },
+    "119": {
+      "hint": "4499 vs 4000 and 5000.",
+      "help": "499 away from 4000, 501 from 5000 → **5000**.\n\n**Different example:** 3499 → 3000."
+    },
+    "120": {
+      "hint": "Smallest possible vs halfway below recorded?",
+      "help": "For symmetric rounding the minimum is half a unit below — **always**.\n\n**Different example:** nearest 10 on 60 → min 55."
+    },
+    "121": {
+      "hint": "Use upper bounds on width and length.",
+      "help": "Max perimeter **2 × (5.5 + 8.5) = 28 cm** — can exceed 27 cm.\n\n**Different example:** add upper bounds then double."
+    },
+    "122": {
+      "hint": "Zero to nearest whole number.",
+      "help": "Interval **−0.5 ≤ n < 0.5** has width **1** — **always**.\n\n**Different example:** nearest 10 on 0 → width 10."
+    },
+    "123": {
+      "hint": "Is the recorded value centred?",
+      "help": "For standard rounding **yes** — halfway between lower and upper.\n\n**Different example:** 6 cm nearest cm → centre 6 cm."
+    },
+    "124": {
+      "hint": "Lower bound plus half the width?",
+      "help": "For nearest integer, lower + 0.5 gives recorded value — **always**.\n\n**Different example:** 7.5 + 0.5 = 8."
+    },
+    "125": {
+      "hint": "Compare interval widths for 1.5 to 0.5 vs 2 to 1.",
+      "help": "**2 to nearest 1** has width 1; **1.5 to 0.5** has width 0.5 — **2** is wider range.\n\n**Different example:** compare half-units."
+    },
+    "126": {
+      "hint": "If x is in the interval, does it round back?",
+      "help": "Any value in the interval rounds to the recorded value — **always**.\n\n**Different example:** 7.6 cm in 7.5–8.5 → 8 cm."
+    },
+    "127": {
+      "hint": "Extra digits before rounding.",
+      "help": "Writing **2.650** can change tie-breaking when rounding step by step.\n\n**Different example:** keep full calculator display before rounding."
+    },
+    "128": {
+      "hint": "Zero to nearest 10.",
+      "help": "**−5 ≤ n < 5** — **always** that interval.\n\n**Different example:** 10 nearest 10 → 5 to 15."
+    },
+    "129": {
+      "hint": "Does 6.2 mean exactly two decimal places?",
+      "help": "**No** — it shows accuracy to 1 d.p.; trailing zero is not required.\n\n**Different example:** 5.0 kg to 1 d.p."
+    },
+    "130": {
+      "hint": "Nearest 10 cm on 180 cm.",
+      "help": "**175 cm ≤ L < 185 cm**.\n\n**Different example:** 200 cm nearest 10 → 195 to 205 cm."
+    },
+    "131": {
+      "hint": "Smallest mass for 1.00 kg to 2 d.p.",
+      "help": "**0.995 kg**.\n\n**Different example:** 2.00 kg → min 1.995 kg."
+    },
+    "132": {
+      "hint": "Add upper bounds 12.5 and 15.5 cm.",
+      "help": "Greatest total **27.5 cm** (worksheet **27.5 cm**).\n\n**Different example:** 10 cm + 8 cm nearest cm → max 10.5 + 8.5."
+    },
+    "133": {
+      "hint": "Nearest 5000 on 25 000.",
+      "help": "**22 500 ≤ audience < 27 500**.\n\n**Different example:** 10 000 nearest 5000 → 7500 to 12 500."
+    },
+    "134": {
+      "hint": "Nearest 10 ml on 330 ml.",
+      "help": "**325 ml ≤ V < 335 ml**.\n\n**Different example:** 400 ml nearest 10 → 395 to 405 ml."
+    },
+    "135": {
+      "hint": "Nearest 0.5 on 2.5.",
+      "help": "**2.25 ≤ n < 2.75**.\n\n**Different example:** 3.0 nearest 0.5 → 2.75 to 3.25."
+    },
+    "136": {
+      "hint": "Nearest 5 cm on 70 cm.",
+      "help": "**67.5 cm ≤ d < 72.5 cm**.\n\n**Different example:** 50 cm nearest 5 → 47.5 to 52.5 cm."
+    },
+    "137": {
+      "hint": "Add upper bounds 2.45 and 1.85 kg.",
+      "help": "Greatest combined **4.30 kg**.\n\n**Different example:** 3.0 + 2.0 kg to 1 d.p. → max 3.05 + 2.05."
+    },
+    "138": {
+      "hint": "Nearest 50 m on 150 m.",
+      "help": "**125 m ≤ h < 175 m**.\n\n**Different example:** 200 m nearest 50 → 175 to 225 m."
+    },
+    "139": {
+      "hint": "Round first, then write bounds for that rounded value.",
+      "help": "**12 345 → 12 300**; interval **12 250 ≤ n < 12 350**.\n\n**Different example:** round then bound."
+    },
+    "140": {
+      "hint": "Nearest 2% on 72%.",
+      "help": "**71% ≤ s < 73%**.\n\n**Different example:** 80% nearest 2% → 79% to 81%."
+    },
+    "141": {
+      "hint": "Greatest length for 3.50 m to 2 d.p.",
+      "help": "**3.505 m** (just below upper bound).\n\n**Different example:** 2.00 m → max 2.005 m."
+    },
+    "142": {
+      "hint": "Nearest 2 g on 54 g.",
+      "help": "**53 g ≤ m < 55 g**.\n\n**Different example:** 50 g nearest 2 g → 49 to 51 g."
+    },
+    "143": {
+      "hint": "Nearest £100 on £2000 — how far below?",
+      "help": "Interval **£1950 ≤ savings < £2050**. Most below target is **£50** from £2000 down to £1950.\n\n**Different example:** half-width equals maximum error from recorded value."
+    },
+    "144": {
+      "hint": "1 d.p. on 11.2 s.",
+      "help": "**11.15 s ≤ t < 11.25 s**.\n\n**Different example:** 9.0 s → 8.95 to 9.05 s."
+    },
+    "145": {
+      "hint": "Nearest 100 m² on 400 m².",
+      "help": "**350 m² ≤ A < 450 m²**.\n\n**Different example:** 500 m² nearest 100 → 450 to 550."
+    },
+    "146": {
+      "hint": "2 d.p. on 0.25 kg.",
+      "help": "**0.245 kg ≤ m < 0.255 kg**.\n\n**Different example:** 0.50 kg → 0.495 to 0.505."
+    },
+    "147": {
+      "hint": "Add lower bounds 5.95 and 3.95 cm.",
+      "help": "Smallest total **9.90 cm**.\n\n**Different example:** min sum uses both lower bounds."
+    },
+    "148": {
+      "hint": "Nearest hour on 8 hours.",
+      "help": "**7.5 h ≤ t < 8.5 h**.\n\n**Different example:** 5 h → 4.5 to 5.5 h."
+    },
+    "149": {
+      "hint": "1 significant figure on 500.",
+      "help": "**450 ≤ n < 550**.\n\n**Different example:** 600 to 1 s.f. → 550 to 650."
+    },
+    "150": {
+      "hint": "Nearest 0.5 m on 20 m.",
+      "help": "**19.75 m ≤ L < 20.25 m**.\n\n**Different example:** 10 m nearest 0.5 m → 9.75 to 10.25 m."
+    },
+    "151": {
+      "hint": "Could 939 be in the 1000 nearest-100 interval?",
+      "help": "Lower bound **950** — **939** is too low → **no**.\n\n**Different example:** compare value to lower bound."
+    },
+    "152": {
+      "hint": "Upper bounds 2.5 cm and 5.5 cm for area.",
+      "help": "Max area **2.5 × 5.5 = 13.75 cm²**.\n\n**Different example:** rectangle with nearest-cm sides."
+    },
+    "153": {
+      "hint": "1 d.p. on 3.2 mm.",
+      "help": "**3.15 mm ≤ r < 3.25 mm**.\n\n**Different example:** 1.0 mm → 0.95 to 1.05 mm."
+    },
+    "154": {
+      "hint": "Nearest £5000 on £45 000.",
+      "help": "**£42 500 ≤ total < £47 500**.\n\n**Different example:** £50 000 → £47 500 to £52 500."
+    },
+    "155": {
+      "hint": "Greatest length for 3.0 m to 1 d.p.",
+      "help": "Greatest length is half of 0.1 m above 3.0: **3.05 m** (upper bound for 1 d.p.).\n\n**Different example:** 5.0 m → max 5.05 m."
+    },
+    "156": {
+      "hint": "Third decimal 3 in 0.00503.",
+      "help": "**0.00503 → 0.01** to two decimal places.\n\n**Different example:** 0.00499 → 0.00."
+    },
+    "157": {
+      "hint": "Nearest 10 V on 240 V.",
+      "help": "**235 V ≤ V < 245 V**.\n\n**Different example:** 100 V nearest 10 → 95 to 105 V."
+    },
+    "158": {
+      "hint": "Max perimeter of square side 7 cm nearest cm.",
+      "help": "Greatest side **7.5 cm** → perimeter **30 cm** exactly — **never** exceeds 30.\n\n**Different example:** upper bound on side × 4."
+    },
+    "159": {
+      "hint": "Nearest litre on 38 L.",
+      "help": "**37.5 L ≤ V < 38.5 L**.\n\n**Different example:** 50 L → 49.5 to 50.5 L."
+    },
+    "160": {
+      "hint": "2 s.f. on 4500.",
+      "help": "**4450 ≤ n < 4550**.\n\n**Different example:** 4600 to 2 s.f. → 4550 to 4650."
+    },
+    "161": {
+      "hint": "Add upper bounds 2.05 and 3.05 cm.",
+      "help": "Greatest **a + b** is **8.10 cm**.\n\n**Different example:** use upper bounds on each 1 d.p. length."
+    },
+    "162": {
+      "hint": "Find a number in both intervals.",
+      "help": "**380** rounds to 400 (nearest 100) and to 380 (nearest 20).\n\n**Different example:** overlap two rounding intervals."
+    },
+    "163": {
+      "hint": "3 s.f. on 0.00450.",
+      "help": "**0.004495 ≤ x < 0.004505**.\n\n**Different example:** 0.00500 to 3 s.f."
+    },
+    "164": {
+      "hint": "Maximum error for nearest cm.",
+      "help": "Half a cm each side → max error **0.5 cm** — **always**.\n\n**Different example:** nearest mm → 0.5 mm."
+    },
+    "165": {
+      "hint": "Cube with edge 5.05 cm (upper bound).",
+      "help": "Volume **5.05³ ≈ 128.787 cm³**.\n\n**Different example:** use upper bound on each edge."
+    },
+    "166": {
+      "hint": "Upper bound for 1.234 to 3 d.p. vs 1.24 to 2 d.p.",
+      "help": "**1.2345** not included → upper **1.2345**; for 2 d.p. upper **1.245** — higher is **1.245**.\n\n**Different example:** compare strict upper limits."
+    },
+    "167": {
+      "hint": "Which integer does 12.5 to 13.5 round to?",
+      "help": "Any value in interval rounds to **13**.\n\n**Different example:** 9.5 to 10.5 → 10."
+    },
+    "168": {
+      "hint": "Multiply upper bounds 8.05 × 3.05 × 2.05.",
+      "help": "Greatest volume about **50.3 cm³**.\n\n**Different example:** cuboid with 1 d.p. edges."
+    },
+    "169": {
+      "hint": "3 s.f. on 999.",
+      "help": "**998.5 ≤ n < 999.5**.\n\n**Different example:** 1000 to 3 s.f. → 995 to 1005."
+    },
+    "170": {
+      "hint": "Is upper × upper safe for area?",
+      "help": "Multiplying upper bounds gives a safe maximum area — **always** (for positive lengths).\n\n**Different example:** max area from max length and max width."
+    },
+    "171": {
+      "hint": "0.0 to 1 d.p. — very small interval.",
+      "help": "**−0.05 ≤ x < 0.05**.\n\n**Different example:** 0.0 kg to 1 d.p."
+    },
+    "172": {
+      "hint": "Third decimal 5 in 2.4445.",
+      "help": "**2.4445 → 2.445** to three decimal places.\n\n**Different example:** 1.2345 → 1.235."
+    },
+    "173": {
+      "hint": "Greatest distance for 250 km nearest 10 km.",
+      "help": "Upper bound **255 km**.\n\n**Different example:** 100 km nearest 10 → max 105 km."
+    },
+    "174": {
+      "hint": "Can two intervals share a value?",
+      "help": "If intervals overlap, one value can fit both — **sometimes**.\n\n**Different example:** draw intervals on a number line."
+    },
+    "175": {
+      "hint": "2 d.p. on 6.28.",
+      "help": "**6.275 ≤ x < 6.285**.\n\n**Different example:** 4.00 to 2 d.p. → 3.995 to 4.005."
+    },
+    "176": {
+      "hint": "Read the half-width from the bounds.",
+      "help": "Width 0.1 m → accuracy **1 decimal place**.\n\n**Different example:** 4.95 to 5.05 → nearest 0.1 or 1 d.p."
+    },
+    "177": {
+      "hint": "999 499 to nearest 1000.",
+      "help": "**999 499 → 999 000**.\n\n**Different example:** 999 501 → 1 000 000."
+    },
+    "178": {
+      "hint": "Width of sum of intervals?",
+      "help": "Sum of widths equals width of sum interval — **always** (for a + b style).\n\n**Different example:** two width-1 cm intervals → width 2 cm for sum."
+    },
+    "179": {
+      "hint": "2 s.f. on 2.0.",
+      "help": "**1.95 ≤ n < 2.05**.\n\n**Different example:** 5.0 to 2 s.f. → 4.95 to 5.05."
+    },
+    "180": {
+      "hint": "2 d.p. km on 0.45 km.",
+      "help": "**0.445 km ≤ w < 0.455 km**.\n\n**Different example:** 1.00 km to 2 d.p."
+    },
+    "181": {
+      "hint": "Read the middle of 5.05 to 5.15.",
+      "help": "Recorded **5.1 kg** to **1 decimal place**.\n\n**Different example:** bounds tell you the rounded value."
+    },
+    "182": {
+      "hint": "0.9995 to three decimal places.",
+      "help": "**0.9995 → 1.000** to three decimal places — the fourth decimal 5 rounds up.\n\n**Different example:** 0.6665 → 0.667."
+    },
+    "183": {
+      "hint": "Compare intervals for nearest 100 vs 1000 on 500.",
+      "help": "Nearest **1000** interval contains the nearest **100** interval — **always** here.\n\n**Different example:** wider accuracy → wider interval."
+    },
+    "184": {
+      "hint": "Square perimeter 4 × upper side.",
+      "help": "Side up to **12.5 cm** → max perimeter **50 cm**.\n\n**Different example:** 10 cm side nearest cm → max 42 cm."
+    },
+    "185": {
+      "hint": "2 s.f. on 0.050.",
+      "help": "**0.0495 ≤ x < 0.0505**.\n\n**Different example:** 0.045 to 2 s.f."
+    },
+    "186": {
+      "hint": "Upper bound for 2 d.p. rounding.",
+      "help": "Half a hundredth below next tick — **always** for standard 2 d.p. bounds.\n\n**Different example:** 3.14 to 2 d.p. → upper 3.145."
+    },
+    "187": {
+      "hint": "Add upper bounds 1.25 m and 0.85 m.",
+      "help": "Greatest total depth **2.10 m**.\n\n**Different example:** sum upper bounds for max total."
+    },
+    "188": {
+      "hint": "Round 45.678 to 1 s.f., then bound.",
+      "help": "**50**; **45 ≤ n < 55**.\n\n**Different example:** round then write interval at that accuracy."
+    },
+    "189": {
+      "hint": "Fix ≤ on the upper end.",
+      "help": "Use **9.5 ≤ x < 10.5** — upper must be **<**.\n\n**Different example:** never use ≤ on upper bound."
+    },
+    "190": {
+      "hint": "73 to the nearest 10.",
+      "help": "**73 → 70** to the nearest 10 because the ones digit 3 is less than 5.\n\n**Different example:** 76 → 80."
+    },
+    "191": {
+      "hint": "Nearest 50 g on 250 g.",
+      "help": "**225 g ≤ m < 275 g**.\n\n**Different example:** 300 g nearest 50 → 275 to 325 g."
+    },
+    "192": {
+      "hint": "Does every number belong to one interval?",
+      "help": "For a fixed accuracy each value rounds to exactly one recorded value — **always**.\n\n**Different example:** nearest 10 partitions the number line."
+    },
+    "193": {
+      "hint": "0.762 to one decimal place.",
+      "help": "**0.762 → 0.8** to one decimal place — look at the hundredths digit 6.\n\n**Different example:** 0.749 → 0.7."
+    },
+    "194": {
+      "hint": "Smallest value rounding to 900 nearest 100.",
+      "help": "**850**.\n\n**Different example:** smallest rounding to 200 is 150."
+    },
+    "195": {
+      "hint": "Nearest cm on 161 cm.",
+      "help": "**160.5 cm ≤ h < 161.5 cm**.\n\n**Different example:** 170 cm → 169.5 to 170.5 cm."
+    },
+    "196": {
+      "hint": "18 750 to nearest 1000.",
+      "help": "**18 750 → 19 000**.\n\n**Different example:** 18 250 → 18 000."
+    },
+    "197": {
+      "hint": "Can one length match two different recordings?",
+      "help": "**Yes** — e.g. **4.86 cm** rounds to **4.9** and lies in bounds for **4.85** to 1 d.p.\n\n**Different example:** overlapping intervals."
+    },
+    "198": {
+      "hint": "Nearest 0.5 on 7.5.",
+      "help": "**7.25 ≤ n < 7.75**.\n\n**Different example:** 10.0 nearest 0.5 → 9.75 to 10.25."
+    },
+    "199": {
+      "hint": "0.0968 to two decimal places.",
+      "help": "**0.0968 → 0.10** to two decimal places — thousandths digit 8 rounds hundredths up.\n\n**Different example:** 0.0949 → 0.09."
+    },
+    "200": {
+      "hint": "1 d.p. km on 42.2 km.",
+      "help": "**42.15 km ≤ d < 42.25 km**.\n\n**Different example:** 10.0 km → 9.95 to 10.05 km."
+    }
+  }
+}

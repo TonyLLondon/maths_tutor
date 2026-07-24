@@ -3,7 +3,7 @@ import { requireSession } from "@/lib/auth";
 import { getWorksheet } from "@/lib/content";
 import { worksheetHref } from "@/lib/paths";
 import { isTenantId } from "@/lib/tenants";
-import { TenantNav } from "@/components/TenantNav";
+import { ServerTenantNav } from "@/components/ServerTenantNav";
 import { WorksheetView } from "@/components/WorksheetView";
 import { subjectsCrumb } from "@/lib/nav-crumbs";
 
@@ -21,9 +21,8 @@ export default async function LegacyWorksheetPage({ params }: Props) {
 
   return (
     <>
-      <TenantNav
+      <ServerTenantNav
         tenantId={tenant}
-        userName={session.displayName}
         crumbs={[
           subjectsCrumb(tenant),
           { label: "Worksheets", href: `/t/${tenant}/worksheets` },

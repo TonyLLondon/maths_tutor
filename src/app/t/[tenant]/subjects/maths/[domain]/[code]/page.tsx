@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { requireSession } from "@/lib/auth";
+import { getSessionAccount, requireSession } from "@/lib/auth";
 import { getAnswerKey, getWorksheet } from "@/lib/content";
+import { getChildTopicInsights } from "@/lib/family-progress";
+import { isParentAccount } from "@/lib/accounts";
 import { getTopicProgressState } from "@/lib/progress";
 import { formatLevel } from "@/lib/practice-rating";
 import {
@@ -9,9 +11,11 @@ import {
   mathsTopicHref,
 } from "@/lib/paths";
 import { primaryTopicLabel } from "@/lib/topic-labels";
+import { isGcseDomain } from "@/lib/subjects";
 import { isTenantId } from "@/lib/tenants";
 import { topicByCode } from "@/lib/topics/catalog";
-import { TenantNav } from "@/components/TenantNav";
+import { ServerTenantNav } from "@/components/ServerTenantNav";
+import { FamilyTopicPanel } from "@/components/FamilyTopicPanel";
 import { mathsTopicTrail } from "@/lib/nav-crumbs";
 
 type Props = {
@@ -20,8 +24,9 @@ type Props = {
 
 export default async function MathsTopicPage({ params }: Props) {
   const { tenant, domain, code } = await params;
-  if (!isTenantId(tenant)) notFound();
+  if (!isTenantId(tenant) || !isGcseDomain(domain)) notFound();
   const session = await requireSession(tenant);
+  const account = await getSessionAccount();
 
   const slug = `${domain}/${code}`;
   const doc = await getWorksheet(tenant, slug);
@@ -29,6 +34,10 @@ export default async function MathsTopicPage({ params }: Props) {
 
   const answerKey = await getAnswerKey(tenant, slug);
   const state = await getTopicProgressState(session.userId, "maths", slug);
+  const familyInsights =
+    account && isParentAccount(account)
+      ? await getChildTopicInsights(account, "maths", slug)
+      : [];
 
   const baseHref = mathsTopicHref(tenant, domain, code);
   const topicMeta = topicByCode(doc.frontmatter.topic);
@@ -38,10 +47,9 @@ export default async function MathsTopicPage({ params }: Props) {
 
   return (
     <>
-      <TenantNav
+      <ServerTenantNav
         tenantId={tenant}
-        userName={session.displayName}
-        crumbs={mathsTopicTrail(tenant, headline, baseHref)}
+        crumbs={mathsTopicTrail(tenant, domain, headline, baseHref)}
       />
       <main className="mx-auto max-w-3xl px-4 py-8">
         <h1 className="text-2xl font-semibold text-stone-900">{headline}</h1>
@@ -55,6 +63,8 @@ export default async function MathsTopicPage({ params }: Props) {
             {formatLevel(state.rating)}
           </span>
         </p>
+
+        <FamilyTopicPanel insights={familyInsights} />
 
         <div className="mt-6">
           <Link

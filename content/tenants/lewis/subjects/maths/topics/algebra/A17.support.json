@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "What plus 1 equals 4?",
+      "help": "□ = **3**.\n\nMissing addend.\n\nAnswer 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "2": {
+      "hint": "□ + 2 = 5.",
+      "help": "□ = **3**.\n\nSubtract 2.\n\n3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "3": {
+      "hint": "□ − 1 = 4.",
+      "help": "□ = **5**.\n\nAdd 1 back.\n\n5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "4": {
+      "hint": "2 × □ = 6.",
+      "help": "□ = **3**.\n\nDivide by 2.\n\n3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "Subtract 1 from both sides.",
+      "help": "$x = **2**$.\n\nInverse of +1.\n\n$x=2$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "6": {
+      "hint": "$x + 2 = 6$ → subtract 2.",
+      "help": "$x = **4**$.\n\nTwo-step missing number style.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "7": {
+      "hint": "Add 1 to both sides of $x - 1 = 5$.",
+      "help": "$x = **6**$.\n\nUndo subtraction.\n\n6.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "8": {
+      "hint": "Divide both sides by 2.",
+      "help": "$x = **4**$.\n\nHalve 8.\n\n$x=4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "9": {
+      "hint": "Subtract 5 from 12.",
+      "help": "$x = **7**$.\n\nBalanced equation.\n\n7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "10": {
+      "hint": "Add 3 to both sides.",
+      "help": "$x = **12**$.\n\n$x-3=9$.\n\n12.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "11": {
+      "hint": "Divide by 3.",
+      "help": "$x = **7**$.\n\n$3x=21$.\n\n7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "12": {
+      "hint": "Multiply both sides by 4.",
+      "help": "$x = **20**$.\n\n$x/4=5$.\n\n20.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "Subtract 3, then divide by 2.",
+      "help": "$2x=8$, $x=**4**$.\n\nTwo-step linear.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "14": {
+      "hint": "Add 4, divide by 3.",
+      "help": "$3x=18$, $x=**6**$.\n\nUndo −4 first.\n\n6.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "15": {
+      "hint": "Subtract 2, divide by 5.",
+      "help": "$5x=25$, $x=**5**$.\n\nStandard order.\n\n5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "16": {
+      "hint": "Subtract 1, multiply by 3.",
+      "help": "$x/3=5$, $x=**15**$.\n\nFraction step first.\n\n15.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "17": {
+      "hint": "Divide by 2 first or expand then solve.",
+      "help": "$x+3=8$, $x=**5**$.\n\nOr expand $2x+6=16$.\n\n5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "18": {
+      "hint": "Divide by 4: $x-1=5$.",
+      "help": "$x=**6**$.\n\nBracket equation.\n\n6.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "19": {
+      "hint": "Subtract $2x$ from both sides.",
+      "help": "$x=**4**$.\n\n$x$ on both sides.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "Subtract $3x$, add 2.",
+      "help": "$2x=10$, $x=**5**$.\n\nCollect $x$ terms.\n\n5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "21": {
+      "hint": "$x + 4 = 11$.",
+      "help": "$x=**7**$.\n\nSubtract 4.\n\n7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "22": {
+      "hint": "$3x=15$.",
+      "help": "$x=**5**$.\n\nDivide by 3.\n\n5.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "23": {
+      "hint": "Sam may have added 4 instead of subtracting before dividing.",
+      "help": "Correct: $2x=8$, $x=**4**$.\n\nSam's $x=8$ wrong.\n\nShow proper steps."
+    },
+    "24": {
+      "hint": "Multiplying both sides by same nonzero number keeps balance.",
+      "help": "**Always** true — equation stays equivalent.\n\nLike doubling both pans on scales.\n\nAlways."
+    },
+    "25": {
+      "hint": "Subtract $x$ from both sides of $3x=x+8$.",
+      "help": "$2x=8$, $x=**4**$ — **has** solution.\n\nPriya wrong.\n\n$x=4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "26": {
+      "hint": "Solve each — do they give same $x$?",
+      "help": "First: $x=4$. Second: $3x=12$, $x=4$.\n\n**Same** solution $x=4$.\n\nShow both."
+    },
+    "27": {
+      "hint": "Try adding 3 to both sides of $x=5$ vs $x+2=7$.",
+      "help": "**True** — same operation both sides keeps solution.\n\nExample supports.\n\nTrue."
+    },
+    "28": {
+      "hint": "Expand to $5x-10=15$, not $5x-2$.",
+      "help": "Correct: $5x=25$, $x=**5**$.\n\nLeo forgot to multiply −2 by 5.\n\n$x=5$."
+    },
+    "29": {
+      "hint": "Solve each separately.",
+      "help": "First $x=4$. Second $2x=4$, $x=**2**$.\n\nDifferent equations → different solutions.\n\nExplain."
+    },
+    "30": {
+      "hint": "Check $x=4$ in $3x-2=13$.",
+      "help": "$2x=8$ ok. $3(4)-2=10\\neq13$ — Mo **wrong** on second.\n\nOnly first works.\n\nPartial correct."
+    },
+    "31": {
+      "hint": "$a+5=14$ for age $a$.",
+      "help": "$a=**9**$ years.\n\nForm equation then solve.\n\n9 years old.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "32": {
+      "hint": "$3+2m=13$.",
+      "help": "$2m=10$, $m=**5**$ miles.\n\nRemove flat fee.\n\n5 miles.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "33": {
+      "hint": "$3n+7=28$.",
+      "help": "$3n=21$, $n=**7**$.\n\nTriple then add 7 story.\n\n7.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "34": {
+      "hint": "$4p+2=10$ for pen price $p$.",
+      "help": "$4p=8$, $p=**£2**$.\n\nFour pens plus ruler.\n\n£2 per pen.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "35": {
+      "hint": "$2w+2(w+3)=26$.",
+      "help": "$4w+6=26$, $w=**5**$ cm.\n\nLength $w+3$.\n\nWidth 5 cm.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "36": {
+      "hint": "$15+10m=75$.",
+      "help": "$10m=60$, $m=**6**$ months.\n\nSubtract joining fee.\n\n6 months."
+    },
+    "37": {
+      "hint": "Expand and collect $x$.",
+      "help": "$2x+6=3x-3$, $x=**9**$.\n\nBrackets both sides.\n\n9.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "38": {
+      "hint": "Common denominator 6: $\\dfrac{3x+2x}{6}=5$.",
+      "help": "$5x/6=5$, $x=**6**$.\n\nCombine fractions.\n\n6.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "39": {
+      "hint": "Let numbers be $n, n+1, n+2$; sum 72.",
+      "help": "$3n+3=72$, $n=23$ — triple **23, 24, 25**.\n\nConsecutive integers.\n\nThree numbers."
+    },
+    "40": {
+      "hint": "Build equation with two steps ending at $x=6$.",
+      "help": "Example: $2x+3=15$ → $x=6$.\n\nShow solve verifies 6.\n\nYour equation + proof."
+    },
+    "41": {
+      "hint": "Subtract 5, divide by 2.",
+      "help": "$2x=8$, $x=**4**$.\n\nStandard linear.\n\n4.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "42": {
+      "hint": "$x+8=20$.",
+      "help": "$x=**12**$.\n\nForm and solve.\n\n12.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "43": {
+      "hint": "Undo the addition by subtracting 2 from both sides of the equation.",
+      "help": "An equation stays balanced when you perform the same operation on both sides. Subtracting 2 undoes the $+2$ beside $x$.\n\nFor example, $n+4=9$ becomes $n=9-4=5$.\n\nApply that inverse-operation step here, then substitute your value back into the original equation."
+    },
+    "44": {
+      "hint": "Use subtraction to undo the 3 that was added to the unknown.",
+      "help": "To leave $x$ by itself, subtract 3 from both sides. Doing the same thing to each side preserves the equality.\n\nFor a different example, $p+5=12$ becomes $p=12-5=7$.\n\nUse the same method on this equation and test the result in the starting statement."
+    },
+    "45": {
+      "hint": "For Q45: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "46": {
+      "hint": "For Q46: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "47": {
+      "hint": "For Q47: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "48": {
+      "hint": "For Q48: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "49": {
+      "hint": "For Q49: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "50": {
+      "hint": "For Q50: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "51": {
+      "hint": "For Q51: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "52": {
+      "hint": "For Q52: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "53": {
+      "hint": "For Q53: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "54": {
+      "hint": "For Q54: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "55": {
+      "hint": "For Q55: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "56": {
+      "hint": "For Q56: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "57": {
+      "hint": "For Q57: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "58": {
+      "hint": "For Q58: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "59": {
+      "hint": "For Q59: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "60": {
+      "hint": "For Q60: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "61": {
+      "hint": "For Q61: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "62": {
+      "hint": "For Q62: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "63": {
+      "hint": "For Q63: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "64": {
+      "hint": "For Q64: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "65": {
+      "hint": "For Q65: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "66": {
+      "hint": "For Q66: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "67": {
+      "hint": "For Q67: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "68": {
+      "hint": "For Q68: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "69": {
+      "hint": "For Q69: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "70": {
+      "hint": "For Q70: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "71": {
+      "hint": "For Q71: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "72": {
+      "hint": "For Q72: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "73": {
+      "hint": "For Q73: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "74": {
+      "hint": "For Q74: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "75": {
+      "hint": "For Q75: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "76": {
+      "hint": "For Q76: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "77": {
+      "hint": "For Q77: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "78": {
+      "hint": "For Q78: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "79": {
+      "hint": "For Q79: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "80": {
+      "hint": "For Q80: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "81": {
+      "hint": "For Q81: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "82": {
+      "hint": "For Q82: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "83": {
+      "hint": "For Q83: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "84": {
+      "hint": "For Q84: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "85": {
+      "hint": "For Q85: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "86": {
+      "hint": "For Q86: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "87": {
+      "hint": "For Q87: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "88": {
+      "hint": "For Q88: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "89": {
+      "hint": "For Q89: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "90": {
+      "hint": "For Q90: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "91": {
+      "hint": "For Q91: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "92": {
+      "hint": "For Q92: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "93": {
+      "hint": "For Q93: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "94": {
+      "hint": "For Q94: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "95": {
+      "hint": "For Q95: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "96": {
+      "hint": "For Q96: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "97": {
+      "hint": "For Q97: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "98": {
+      "hint": "For Q98: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "99": {
+      "hint": "For Q99: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "100": {
+      "hint": "For Q100: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "101": {
+      "hint": "For Q101: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "102": {
+      "hint": "For Q102: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "103": {
+      "hint": "For Q103: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "104": {
+      "hint": "For Q104: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "105": {
+      "hint": "For Q105: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "106": {
+      "hint": "For Q106: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "107": {
+      "hint": "For Q107: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "108": {
+      "hint": "For Q108: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "109": {
+      "hint": "For Q109: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "110": {
+      "hint": "For Q110: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "111": {
+      "hint": "For Q111: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "112": {
+      "hint": "For Q112: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "113": {
+      "hint": "For Q113: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "114": {
+      "hint": "For Q114: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "115": {
+      "hint": "For Q115: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "116": {
+      "hint": "For Q116: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "117": {
+      "hint": "For Q117: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "118": {
+      "hint": "For Q118: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "119": {
+      "hint": "For Q119: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "120": {
+      "hint": "For Q120: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "121": {
+      "hint": "For Q121: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "122": {
+      "hint": "For Q122: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "123": {
+      "hint": "For Q123: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "124": {
+      "hint": "For Q124: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "125": {
+      "hint": "For Q125: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "126": {
+      "hint": "For Q126: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "127": {
+      "hint": "For Q127: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "128": {
+      "hint": "For Q128: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "129": {
+      "hint": "For Q129: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "130": {
+      "hint": "For Q130: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "131": {
+      "hint": "For Q131: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "132": {
+      "hint": "For Q132: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "133": {
+      "hint": "For Q133: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "134": {
+      "hint": "For Q134: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "135": {
+      "hint": "For Q135: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "136": {
+      "hint": "For Q136: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "137": {
+      "hint": "For Q137: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "138": {
+      "hint": "For Q138: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "139": {
+      "hint": "For Q139: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "140": {
+      "hint": "For Q140: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "141": {
+      "hint": "For Q141: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "142": {
+      "hint": "For Q142: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "143": {
+      "hint": "For Q143: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "144": {
+      "hint": "For Q144: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "145": {
+      "hint": "For Q145: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "146": {
+      "hint": "For Q146: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "147": {
+      "hint": "For Q147: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "148": {
+      "hint": "For Q148: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "149": {
+      "hint": "For Q149: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "150": {
+      "hint": "For Q150: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "151": {
+      "hint": "For Q151: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "152": {
+      "hint": "For Q152: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "153": {
+      "hint": "For Q153: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "154": {
+      "hint": "For Q154: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "155": {
+      "hint": "For Q155: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "156": {
+      "hint": "For Q156: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "157": {
+      "hint": "For Q157: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "158": {
+      "hint": "For Q158: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "159": {
+      "hint": "For Q159: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "160": {
+      "hint": "For Q160: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "161": {
+      "hint": "For Q161: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "162": {
+      "hint": "For Q162: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "163": {
+      "hint": "For Q163: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "164": {
+      "hint": "For Q164: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "165": {
+      "hint": "For Q165: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "166": {
+      "hint": "For Q166: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "167": {
+      "hint": "For Q167: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "168": {
+      "hint": "For Q168: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "169": {
+      "hint": "For Q169: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "170": {
+      "hint": "For Q170: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "171": {
+      "hint": "For Q171: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "172": {
+      "hint": "For Q172: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "173": {
+      "hint": "For Q173: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "174": {
+      "hint": "For Q174: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "175": {
+      "hint": "For Q175: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "176": {
+      "hint": "For Q176: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "177": {
+      "hint": "For Q177: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "178": {
+      "hint": "For Q178: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "179": {
+      "hint": "For Q179: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "180": {
+      "hint": "For Q180: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "181": {
+      "hint": "For Q181: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "182": {
+      "hint": "For Q182: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "183": {
+      "hint": "For Q183: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "184": {
+      "hint": "For Q184: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "185": {
+      "hint": "For Q185: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "186": {
+      "hint": "For Q186: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "187": {
+      "hint": "For Q187: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "188": {
+      "hint": "For Q188: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "189": {
+      "hint": "For Q189: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "190": {
+      "hint": "For Q190: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "191": {
+      "hint": "For Q191: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "192": {
+      "hint": "For Q192: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "193": {
+      "hint": "For Q193: what is the first inverse operation to isolate $x$?",
+      "help": "Multiply both sides to clear a fraction denominator.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "194": {
+      "hint": "For Q194: what is the first inverse operation to isolate $x$?",
+      "help": "Expand brackets before collecting like terms.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "195": {
+      "hint": "For Q195: what is the first inverse operation to isolate $x$?",
+      "help": "Undo the constant term first, then divide by the coefficient of $x$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "196": {
+      "hint": "For Q196: what is the first inverse operation to isolate $x$?",
+      "help": "Rearranging $y = mx + c$ means isolating $x$ in steps, undoing $+c$ then dividing by $m$.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "197": {
+      "hint": "For Q197: what is the first inverse operation to isolate $x$?",
+      "help": "For word problems, define $x$ clearly before forming the equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "198": {
+      "hint": "For Q198: what is the first inverse operation to isolate $x$?",
+      "help": "When $x$ appears on both sides, subtract the smaller $x$ term from both sides.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "199": {
+      "hint": "For Q199: what is the first inverse operation to isolate $x$?",
+      "help": "Check your answer by substituting back into the original equation.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    },
+    "200": {
+      "hint": "For Q200: what is the first inverse operation to isolate $x$?",
+      "help": "Collect $x$ terms on one side and numbers on the other.\n\n**Worked example (different numbers):** solve $2x + 5 = 17$ by subtracting 5 to get $2x = 12$, then divide by 2 to get $x = 6$.\n\nApply the same balance idea to your equation — do one step at a time."
+    }
+  }
+}

@@ -4,7 +4,7 @@ import { getAccountById } from "@/lib/accounts";
 import { getChessTrainerProgress } from "@/lib/chess/chess-progress";
 import { totalPliesForLevel, parseChessLevel } from "@/lib/chess/chess-level";
 import { isTenantId } from "@/lib/tenants";
-import { TenantNav } from "@/components/TenantNav";
+import { ServerTenantNav } from "@/components/ServerTenantNav";
 import { chessHomeTrail } from "@/lib/nav-crumbs";
 import { ChessOpeningTrainer } from "@/components/chess/ChessOpeningTrainer";
 
@@ -22,11 +22,7 @@ export default async function ChessSubjectPage({ params }: Props) {
 
   return (
     <div className="flex h-dvh flex-col overflow-hidden bg-background">
-      <TenantNav
-        tenantId={tenant}
-        userName={session.displayName}
-        crumbs={chessHomeTrail(tenant)}
-      />
+      <ServerTenantNav tenantId={tenant} crumbs={chessHomeTrail(tenant)} />
       <main className="flex min-h-0 flex-1 flex-col overflow-hidden px-3 py-2 sm:px-4 sm:py-3">
         <ChessOpeningTrainer
           tenant={tenant}

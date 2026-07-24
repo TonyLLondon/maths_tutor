@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Work out 2 + 3 and see if it equals 5.",
+      "help": "2 + 3 = 5, matching the right side.\n\nThe statement is **true**.\n\nTrue means both sides are equal."
+    },
+    "2": {
+      "hint": "Does 4 + 1 equal 6?",
+      "help": "4 + 1 = 5, not 6.\n\nThe statement is **false**.\n\nCheck arithmetic on both sides."
+    },
+    "3": {
+      "hint": "What number plus 2 gives 6?",
+      "help": "□ + 2 = 6 → □ = 4.\n\nSubtract 2 from 6.\n\nMissing number is 4."
+    },
+    "4": {
+      "hint": "2 times what is 6?",
+      "help": "2 × □ = 6 → □ = 3.\n\nDivide 6 by 2.\n\nAnswer 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "5": {
+      "hint": "Replace $x$ with 2 in $x + 1$ and compare to 3.",
+      "help": "$2 + 1 = 3$ — matches right side.\n\nStatement is **true** for $x = 2$.\n\nIt is an equation that holds for this value."
+    },
+    "6": {
+      "hint": "With $x = 4$, is $4 + 1$ equal to 3?",
+      "help": "$4 + 1 = 5 \\neq 3$.\n\n**False** for $x = 4$.\n\nEquations can be false for some values."
+    },
+    "7": {
+      "hint": "Combine two $x$ terms into one.",
+      "help": "$x + x = 2x$.\n\nLike terms add coefficients.\n\nSimplified: $2x$."
+    },
+    "8": {
+      "hint": "Try a few values of $x$ in both $x + x$ and $2x$.",
+      "help": "For any $x$, $x + x$ and $2x$ match — e.g. $x = 5$ gives 10 both ways.\n\nThey are **always** the same — an identity idea.\n\nAnswer: yes, for every $x$."
+    },
+    "9": {
+      "hint": "Substitute $x = 2$ into both sides of $2x + 1 = 5$.",
+      "help": "Left: $2(2)+1=5$. Right: 5.\n\nEqual, so **true** for $x = 2$.\n\nTesting checks if a value works."
+    },
+    "10": {
+      "hint": "Plug $x = 3$ into $2x + 1$.",
+      "help": "Left: $2(3)+1=7$. Right: 5.\n\nNot equal — **false** for $x = 3$.\n\nOnly some $x$ work in an equation."
+    },
+    "11": {
+      "hint": "Expand the left side at $x = 1$ and compare to $2x + 6$.",
+      "help": "$2(1+3)=8$ and $2(1)+6=8$.\n\nEqual for $x = 1$.\n\nSupports that the identity holds."
+    },
+    "12": {
+      "hint": "Repeat the check with $x = 10$.",
+      "help": "$2(10+3)=26$ and $2(10)+6=26$.\n\nStill equal — identity true for this value too.\n\nIdentities work for **all** $x$."
+    },
+    "13": {
+      "hint": "Subtract 4 from both sides of $x + 4 = 9$.",
+      "help": "$x = 5$.\n\nOne value makes the equation true.\n\nSolution: $x = 5$."
+    },
+    "14": {
+      "hint": "Expand $3(x+1)$ and compare to $3x+1$.",
+      "help": "$3(x+1)=3x+3$, not $3x+1$.\n\nThey are **not** the same expression.\n\nMissing the +2 from expanding."
+    },
+    "15": {
+      "hint": "Is $0^2$ equal to 0?",
+      "help": "$0^2 = 0$ and $x = 0$ — both sides 0.\n\n**True** for $x = 0$.\n\nOne solution of $x^2 = x$."
+    },
+    "16": {
+      "hint": "Check $1^2$ against 1.",
+      "help": "$1^2 = 1$ — true for $x = 1$.\n\nAnother value that works.\n\nTrue for this $x$."
+    },
+    "17": {
+      "hint": "Compare $2^2$ to 2.",
+      "help": "$4 \\neq 2$ — **false** for $x = 2$.\n\nNot every $x$ works.\n\nFalse for this test."
+    },
+    "18": {
+      "hint": "Expand $5(x-2)$ — does it always match $5x - 10$?",
+      "help": "$5(x-2)=5x-10$ always.\n\n**Always equal** — identity.\n\nExpansion shows they match for every $x$."
+    },
+    "19": {
+      "hint": "Divide both sides of $3x = 12$ by 3.",
+      "help": "$x = 4$.\n\nSingle solution.\n\nAnswer $x = 4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "Does $x^2 = x$ work for every $x$ or only some?",
+      "help": "Works for $x = 0$ and $x = 1$ but not all values (e.g. $x = 2$ fails).\n\n**Only some** values — it is an equation, not an identity.\n\nNot true for every $x$."
+    },
+    "21": {
+      "hint": "Is the left always equal to the right for every $x$?",
+      "help": "$2x + 6 = 2(x+3)$ expands to match for **all** $x$.\n\nThis is an **identity**, not a conditional equation.\n\nAnswer: identity."
+    },
+    "22": {
+      "hint": "Substitute $x = 4$ into both $x + x$ and $2x$.",
+      "help": "$4 + 4 = 8$ and $2(4) = 8$ — equal.\n\nShows the identity holds for $x = 4$.\n\nTrue for this value."
+    },
+    "23": {
+      "hint": "True for one value does not mean true for all values.",
+      "help": "$2x + 3 = 7$ works at $x = 2$ only — it is an **equation**, not an identity.\n\nPriya confused one test with always true.\n\nExplain difference."
+    },
+    "24": {
+      "hint": "Expand $3(x+2)$ — is it always $3x+6$?",
+      "help": "Always equal for every $x$.\n\n**Always** true — identity.\n\nAnswer: always."
+    },
+    "25": {
+      "hint": "$x + x = 2x$ has no equals sign to solve — it is true for all $x$.",
+      "help": "Sam called it an equation with solution 0 — wrong.\n\nIt is an **identity** (always true), not something to solve for one $x$.\n\nType: identity."
+    },
+    "26": {
+      "hint": "Test both statements at $x = 3$ and $x = 5$.",
+      "help": "Equation $2x+4=10$: true only when $x=3$. Identity $2(x+2)\\equiv2x+4$: true for both 3 and 5.\n\nEquation: specific $x$. Identity: all $x$.\n\nExplain from your tests."
+    },
+    "27": {
+      "hint": "Identities are true for all inputs; many equations have one solution.",
+      "help": "Identity: infinitely many $x$ work. Typical linear equation: one $x$.\n\nSome equations have 0 or 2+ solutions too.\n\nStatement is broadly **true** for school linear work."
+    },
+    "28": {
+      "hint": "$x^2 = 4$ is only true for certain $x$, not all.",
+      "help": "Not an identity — only $x = 2$ and $x = -2$ work.\n\nLeo confused “many numbers square” with “true for all $x$”.\n\nSolutions: $x = 2$ or $x = -2$."
+    },
+    "29": {
+      "hint": "Compare $4x+4$ on both sides vs $4(x+1)=20$.",
+      "help": "$4(x+1)=4x+4$ is identity. $4(x+1)=20$ is equation (solve $x+1=5$, $x=4$).\n\nSame look until the right side fixes a value.\n\nIdentify each type."
+    },
+    "30": {
+      "hint": "False for one $x$ and true for another means it is an equation with a specific solution.",
+      "help": "Mo found it fails at $x=1$ and works at $x=4$ — typical **equation** behaviour.\n\nSolution is $x = 4$.\n\nNot an identity."
+    },
+    "31": {
+      "hint": "Test $2(3x)=6x$ at $x=4$ and $x=-2$.",
+      "help": "Both give matching sides — always true.\n\nStatement is an **identity**.\n\nWorks for every $x$ Sloan tries."
+    },
+    "32": {
+      "hint": "Two examples working does not prove a rule for every order.",
+      "help": "Testing checks examples; **proof** needs algebra showing it always works.\n\nArcher cannot be sure from two orders alone.\n\nExplain limits of numerical testing."
+    },
+    "33": {
+      "hint": "Double score then subtract original — write with $s$.",
+      "help": "Identity: $2s - s \\equiv s$ (or $2s - s = s$ as always true).\n\nCheck $s=6$: $12-6=6$.\n\nAlways returns start score."
+    },
+    "34": {
+      "hint": "$x+5=5+x$ is true for every $x$ — you do not solve it.",
+      "help": "Commutative addition — **identity**, not equation to solve.\n\nNo single $x$ needed.\n\nType: identity."
+    },
+    "35": {
+      "hint": "Expand $(x+1)^2$ at $x=2$ and compare to $x^2+1$.",
+      "help": "$(2+1)^2=9$ but $2^2+1=5$ — not equal.\n\n**Not** an identity.\n\nMissing middle term $2x$ in wrong side."
+    },
+    "36": {
+      "hint": "Half then double price $p$ — write $\\dfrac{1}{2}(2p)$ or similar.",
+      "help": "Identity: $2 \\times \\dfrac{p}{2} = p$ or $(p/2)\\times2 = p$.\n\nCheck $p=14$: half 7, double 14.\n\nAlways original price."
+    },
+    "37": {
+      "hint": "Expand $3(x+4)-2x$ and simplify.",
+      "help": "$3x+12-2x = x+12$.\n\nMatches right side — **identity**.\n\nShow expansion steps."
+    },
+    "38": {
+      "hint": "Expand both brackets on the left and collect $x$ terms.",
+      "help": "$2x-2+2x+2=4x$.\n\nConstants cancel — identity $4x$.\n\nFull simplification shown."
+    },
+    "39": {
+      "hint": "Test $(x+2)^2$ vs $x^2+4$ at $x=1$ and $x=3$.",
+      "help": "$(1+2)^2=9$ vs $1+4=5$; $(3+2)^2=25$ vs $9+4=13$ — differ.\n\n**Not** an identity.\n\nTests disprove it."
+    },
+    "40": {
+      "hint": "Make one pair always equal and one pair equal for only one $x$.",
+      "help": "Identity example: $x+3 \\equiv 3+x$. Equation example: $x+3=10$ only when $x=7$.\n\nSubstitute to prove each.\n\nShow both types."
+    },
+    "41": {
+      "hint": "Equations need an equals sign with something to solve.",
+      "help": "$2x+3=10$ has $=$ and a target value — **equation**.\n\n$2x+3$ alone has no $=$ — just an expression.\n\nEquals sign makes the difference."
+    },
+    "42": {
+      "hint": "Expand $(x+1)^2$ at $x=3$ and compare to $x^2+2x+1$.",
+      "help": "$(3+1)^2=16$ and $9+6+1=16$ — match.\n\nFull expansion $(x+1)^2 = x^2+2x+1$ is an **identity**.\n\nTest supports identity."
+    },
+    "43": {
+      "hint": "Substitute the x-value and check both sides match.",
+      "help": "Replace $x$ with 2 on the left.\n\nIf both sides are equal, the equation is **true** for that value.\n\nOne true value does not make it an identity unless it works for all $x$."
+    },
+    "44": {
+      "hint": "Substitute the x-value and check both sides match.",
+      "help": "Replace $x$ with 3 on the left.\n\nIf both sides are equal, the equation is **true** for that value.\n\nOne true value does not make it an identity unless it works for all $x$."
+    },
+    "45": {
+      "hint": "Does $x + 3 = 7$ have an equals sign and one value to find?",
+      "help": "It can be solved for $x = 4$ → an **equation**, not an identity.\n\n**Different example:** $x + 1 = 1 + x$ is an identity.\n\nEquations hold for some values; identities for all."
+    },
+    "46": {
+      "hint": "Substitute $x = 4$ into both sides of $2x + 1 = 9$.",
+      "help": "Left: $2(4) + 1 = 9$. Right: 9 → **true**.\n\n**Different example:** $x = 3$ in $x + 2 = 6$ → false.\n\nReplace $x$ and compare both sides."
+    },
+    "47": {
+      "hint": "Expand $2(x + 1)$ — is it always $2x + 2$?",
+      "help": "Yes for every $x$ → an **identity**.\n\n**Different example:** $3(x + 2) \\equiv 3x + 6$.\n\nBoth sides match for all values."
+    },
+    "48": {
+      "hint": "Substitute $x = 1$ into $x^2 = 1$.",
+      "help": "$1^2 = 1$ → **true**.\n\n**Different example:** $x = 2$ gives $4 \\neq 1$ → false.\n\nTesting checks one value only."
+    },
+    "49": {
+      "hint": "Are the left and right sides identical for every real $x$?",
+      "help": "$3x + 5$ always equals $3x + 5$ → **identity** on all reals.\n\n**Different example:** $x + 2 = 5$ is not an identity.\n\nSame expression on both sides."
+    },
+    "50": {
+      "hint": "Substitute $x = 0$ into $5x = 0$.",
+      "help": "$5(0) = 0$ → **true**.\n\n**Different example:** $5x = 10$ at $x = 0$ → false.\n\nZero times anything is zero."
+    },
+    "51": {
+      "hint": "Solve $x + 2 = 5$ — is $x = 3$ the only integer from 0 to 10?",
+      "help": "$x = 3$ only → **yes** among integers 0–10.\n\n**Different example:** $x + 1 = 2$ → only $x = 1$.\n\nOne solution in that range."
+    },
+    "52": {
+      "hint": "Substitute $x = -2$ into $x + 8 = 6$.",
+      "help": "$-2 + 8 = 6$ → **true**.\n\n**Different example:** $x = 0$ gives $8 \\neq 6$.\n\nCheck arithmetic carefully with negatives."
+    },
+    "53": {
+      "hint": "Is $7 = 7$ true for every value of a variable?",
+      "help": "No variable — just true constants → an **identity** (trivially true).\n\n**Different example:** $5 = 5$.\n\nAlways true statement."
+    },
+    "54": {
+      "hint": "Substitute $x = 5$ into $3x - 2 = 13$.",
+      "help": "$3(5) - 2 = 13$ → **true**.\n\n**Different example:** $x = 4$ gives $10 \\neq 13$.\n\nLeft side must equal right."
+    },
+    "55": {
+      "hint": "Expand $(x + 1)^2$ — does it always equal $x^2 + 2x + 1$?",
+      "help": "Yes → **identity**.\n\n**Different example:** $(x + 2)^2 \\equiv x^2 + 4x + 4$.\n\nPerfect square pattern always holds."
+    },
+    "56": {
+      "hint": "Substitute $x = 2$ into $4x = 3x + 2$.",
+      "help": "Left: $4(2) = 8$. Right: $3(2) + 2 = 8$ → **true**.\n\n**Different example:** $5x = 4x + 1$ at $x = 1$ also balances.\n\nBoth sides must match."
+    },
+    "57": {
+      "hint": "How many real solutions does $x^2 = 4$ have?",
+      "help": "**Yes** — two solutions: $x = 2$ and $x = -2$.\n\n**Different example:** $x^2 = 9$ gives $x = 3$ or $-3$.\n\nA quadratic can have more than one solution."
+    },
+    "58": {
+      "hint": "Substitute $x = 3$ into $2(x + 1) = 8$.",
+      "help": "Left: $2(4) = 8$. Right: 8 → **true**.\n\n**Different example:** expand $2(x + 1)$ as $2x + 2$ first.\n\nBracket then compare."
+    },
+    "59": {
+      "hint": "Is $0 \\cdot x = 0$ true for every real $x$?",
+      "help": "**Yes** — zero times anything is zero for all $x$.\n\n**Different example:** $1 \\cdot x = x$ is also an identity.\n\nThis is an identity, not an equation to solve."
+    },
+    "60": {
+      "hint": "Substitute $x = 10$ into $\\dfrac{x}{2} = 4$.",
+      "help": "$10/2 = 5 \\neq 4$ → **false**.\n\n**Different example:** $\\dfrac{x}{2} = 4$ needs $x = 8$.\n\nThe test value does not satisfy the equation."
+    },
+    "61": {
+      "hint": "Does $x + 1 = 1 + x$ hold for all $x$?",
+      "help": "**Yes** — commutative addition is an **identity**.\n\n**Different example:** $a + b = b + a$ for any letters.\n\nOrder of terms does not matter."
+    },
+    "62": {
+      "hint": "Substitute $x = -1$ into $x^2 + 1 = 2$.",
+      "help": "$(-1)^2 + 1 = 1 + 1 = 2$ → **true**.\n\n**Different example:** squaring removes the negative sign.\n\nBoth sides equal 2."
+    },
+    "63": {
+      "hint": "Can $2x + 3 = 2x + 4$ ever be true?",
+      "help": "**No** — subtract $2x$ from both sides: $3 = 4$ is impossible.\n\n**Different example:** $x + 1 = x + 2$ is also never true.\n\nNo value of $x$ works."
+    },
+    "64": {
+      "hint": "Substitute $x = 6$ into $x - 4 = 2$.",
+      "help": "$6 - 4 = 2$ → **true**.\n\n**Different example:** $x - 1 = 5$ at $x = 6$ gives $5 = 5$.\n\nSimple linear substitution."
+    },
+    "65": {
+      "hint": "Test $x = 2$ and $x = 3$ in $x + 5 = 8$.",
+      "help": "$x = 2$ gives $7 \\neq 8$; $x = 3$ gives $8 = 8$ → **$x = 3$ works**.\n\n**Different example:** only one value satisfies a linear equation.\n\nTry each value given."
+    },
+    "66": {
+      "hint": "Expand $3(x + 2)$ — is it the same as $3x + 6$?",
+      "help": "**Yes** — distributive law gives $3x + 6$ for every $x$.\n\n**Different example:** $2(x + 5) \\equiv 2x + 10$.\n\nExpand to decide if it is an identity."
+    },
+    "67": {
+      "hint": "Substitute $x = 4$ into $(x + 1)(x - 1) = x^2 - 1$.",
+      "help": "Left: $5 \\times 3 = 15$. Right: $16 - 1 = 15$ → **true**.\n\n**Different example:** difference of squares holds for all $x$.\n\nThis is an identity."
+    },
+    "68": {
+      "hint": "Can $x^2 + 1 = 0$ for any real $x$?",
+      "help": "**No** — $x^2 \\geq 0$, so $x^2 + 1 \\geq 1$ always.\n\n**Different example:** $x^2 = -1$ also has no real solution.\n\nA square plus 1 cannot be zero."
+    },
+    "69": {
+      "hint": "Substitute $x = 5$ into $2x + 1 = x + 11$.",
+      "help": "Left: $11$. Right: $16$ → $11 \\neq 16$, so **false**.\n\n**Different example:** solving gives $x = 10$, not 5.\n\nThe test value is not a solution."
+    },
+    "70": {
+      "hint": "Is $x = x$ always true?",
+      "help": "**Yes** — anything equals itself: an **identity**.\n\n**Different example:** $5 = 5$ or $a = a$.\n\nTrue for every value of $x$."
+    },
+    "71": {
+      "hint": "Substitute $x = -3$ into $|x| = 3$.",
+      "help": "$|-3| = 3$ → **true**.\n\n**Different example:** $|5| = 5$.\n\nAbsolute value gives distance from zero."
+    },
+    "72": {
+      "hint": "Is $2x = x$ true for all $x$?",
+      "help": "**No** — it is an **equation** with solution $x = 0$ only (subtract $x$: $x = 0$).\n\n**Different example:** $2x - x = 0$ fails at $x = 1$.\n\nNot an identity."
+    },
+    "73": {
+      "hint": "Substitute $x = 1$ into $x^2 + x = 2$.",
+      "help": "$1 + 1 = 2$ → **true**.\n\n**Different example:** $x = 2$ gives $6 \\neq 2$.\n\nOne test value works."
+    },
+    "74": {
+      "hint": "Expand $(x + 2)^2$ — does it equal $x^2 + 4$?",
+      "help": "**No** — $(x + 2)^2 = x^2 + 4x + 4$; the middle term $4x$ is missing.\n\n**Different example:** $(x + 1)^2$ needs $2x$, not just $x^2 + 1$.\n\nNot an identity."
+    },
+    "75": {
+      "hint": "Substitute $x = 0$ into $3x + 2 = 2$.",
+      "help": "$0 + 2 = 2$ → **true**.\n\n**Different example:** $5x + 2 = 2$ at $x = 0$.\n\nThe $x$ term vanishes when $x = 0$."
+    },
+    "76": {
+      "hint": "Simplify $5x - 2x$ — is it always $3x$?",
+      "help": "**Yes** — like terms combine: $5x - 2x = 3x$ for all $x$.\n\n**Different example:** $7a - 2a = 5a$.\n\nThis is an identity."
+    },
+    "77": {
+      "hint": "Substitute $x = 7$ into $x^2 = 49$.",
+      "help": "$7^2 = 49$ → **true**.\n\n**Different example:** $x = -7$ also works because $(-7)^2 = 49$.\n\nSquaring can give two solutions."
+    },
+    "78": {
+      "hint": "Is $x + 0 = x$ an identity?",
+      "help": "**Yes** — adding zero changes nothing.\n\n**Different example:** $a + 0 = a$.\n\nZero is the identity for addition."
+    },
+    "79": {
+      "hint": "Substitute $x = 2$ into $x^3 = 8$.",
+      "help": "$2^3 = 8$ → **true**.\n\n**Different example:** $3^3 = 27$.\n\nCube the input and compare."
+    },
+    "80": {
+      "hint": "Is $x^2 = x$ true for all $x$?",
+      "help": "**No** — only $x = 0$ and $x = 1$ work; it is an **equation**, not an identity.\n\n**Different example:** $x = 2$ gives $4 \\neq 2$.\n\nFails for most values."
+    },
+    "81": {
+      "hint": "Substitute $x = -4$ into $x^2 = 16$.",
+      "help": "$(-4)^2 = 16$ → **true**.\n\n**Different example:** $x = 4$ also works.\n\nBoth signs give the same square."
+    },
+    "82": {
+      "hint": "Are $3x + 1$ and $1 + 3x$ the same expression?",
+      "help": "**Yes** — reordering terms gives an **identity**.\n\n**Different example:** $2x + 5 = 5 + 2x$.\n\nCommutative addition of terms."
+    },
+    "83": {
+      "hint": "Substitute $x = 5$ into $(x - 3)^2 = 4$.",
+      "help": "$(5 - 3)^2 = 2^2 = 4$ → **true**.\n\n**Different example:** $x = 1$ also works: $(-2)^2 = 4$.\n\nSquare after subtracting 3."
+    },
+    "84": {
+      "hint": "Test $x + 2 = 2 + x$ at $x = 100$.",
+      "help": "**True** — commutative identity holds at any $x$, including 100.\n\n**Different example:** $x = -3$ also works.\n\nLarge values still satisfy identities."
+    },
+    "85": {
+      "hint": "Substitute $x = 1$ into $2x + 3 = 5x$.",
+      "help": "$2 + 3 = 5$ and $5(1) = 5$ → **true**.\n\n**Different example:** $x = 0$ gives $3 \\neq 0$.\n\nOne value makes the equation true."
+    },
+    "86": {
+      "hint": "Does $0 = 1$ have any solutions?",
+      "help": "**No** — it is a false statement with **no solutions**.\n\n**Different example:** $1 = 2$ is impossible for any $x$.\n\nContradictions never hold."
+    },
+    "87": {
+      "hint": "Substitute $x = 3$ into $x(x + 1) = 12$.",
+      "help": "$3 \\times 4 = 12$ → **true**.\n\n**Different example:** expand to $x^2 + x = 12$.\n\nProduct form checks quickly."
+    },
+    "88": {
+      "hint": "Expand $(x + y)^2$ — does it equal $x^2 + y^2$?",
+      "help": "**No** — $(x + y)^2 = x^2 + 2xy + y^2$; the $2xy$ term is missing.\n\n**Different example:** $(1 + 2)^2 = 9$ but $1 + 4 = 5$.\n\nNot an identity."
+    },
+    "89": {
+      "hint": "Substitute $x = 2$ into $3x - 1 = x + 3$.",
+      "help": "$6 - 1 = 5$ and $2 + 3 = 5$ → **true**.\n\n**Different example:** collect $x$ terms to find $x = 2$.\n\nBoth sides match."
+    },
+    "90": {
+      "hint": "Is $x^2 \\geq 0$ always true for real $x$?",
+      "help": "**Yes** — squaring a real number never gives a negative result.\n\n**Different example:** $(-5)^2 = 25 \\geq 0$.\n\nThis is an identity for real $x$."
+    },
+    "91": {
+      "hint": "Substitute $x = -1$ into $2x^2 = 2$.",
+      "help": "$2(1) = 2$ → **true**.\n\n**Different example:** $x = 1$ also works because $(-1)^2 = 1$.\n\nSquaring removes the sign."
+    },
+    "92": {
+      "hint": "Can $x + 1 = x$ ever be true?",
+      "help": "**No** — subtract $x$: $1 = 0$ is impossible.\n\n**Different example:** $x + 2 = x$ leads to $2 = 0$.\n\nNo real solution exists."
+    },
+    "93": {
+      "hint": "One counter-example disproves a claimed identity?",
+      "help": "**True** — if one value fails, it cannot be an identity.\n\n**Different example:** many passing tests still cannot **prove** an identity alone.\n\nLogic of testing vs proving."
+    },
+    "94": {
+      "hint": "Is $x + 5 = 12$ false when $x = 0$?",
+      "help": "At $x = 0$: $0 + 5 = 5 \\neq 12$ → **always** false for that input.\n\n**Different example:** the equation is only true when $x = 7$.\n\nFalse at $x = 0$ does not mean no solutions."
+    },
+    "95": {
+      "hint": "Leo calls $x^2 = 4$ an identity — why is that wrong?",
+      "help": "It is an **equation** true only for $x = 2$ and $x = -2$, not every $x$.\n\n**Different example:** $x^2 = 9$ also has limited solutions.\n\nBalanced look does not mean identity."
+    },
+    "96": {
+      "hint": "Is substituting into both sides of a suspected identity valid?",
+      "help": "**True** — substitution checks whether sides match for that value.\n\n**Different example:** expand algebraically when you can.\n\nOne test can disprove; many tests do not prove all $x$."
+    },
+    "97": {
+      "hint": "Solve $2x + 1 = 11$ and $x + 1 = 6$ — same solution?",
+      "help": "First gives $x = 5$; second gives $x = 5$ → **always** the same solution here.\n\n**Different example:** $2x = 10$ and $x = 5$ match too.\n\nBoth equations describe $x = 5$."
+    },
+    "98": {
+      "hint": "Test Nina's claim $x^2 + 1 = (x + 1)^2$ at $x = 1$.",
+      "help": "Left: $1 + 1 = 2$. Right: $(2)^2 = 4$ → not equal; Nina is **wrong**.\n\n**Different example:** $(x + 1)^2 = x^2 + 2x + 1$.\n\nMissing the middle term $2x$."
+    },
+    "99": {
+      "hint": "Does $x = 5$ make $2x = 10$ true?",
+      "help": "$2(5) = 10$ → **true**.\n\n**Different example:** $3x = 15$ at $x = 5$.\n\n$x = 5$ is a solution."
+    },
+    "100": {
+      "hint": "Can an equation be true for no values of $x$?",
+      "help": "**Always possible** — e.g. $1 = 2$ or $2x + 3 = 2x + 4$ has no solution.\n\n**Different example:** $0 = 1$ never holds.\n\nSome equations are impossible."
+    },
+    "101": {
+      "hint": "Expand $3(x + 2)$ — does it equal $3x + 2$?",
+      "help": "**False** — $3(x + 2) = 3x + 6$, not $3x + 2$.\n\n**Different example:** $2(x + 3) = 2x + 6$ is the correct pattern.\n\nNot an identity."
+    },
+    "102": {
+      "hint": "Does $x^2 = -1$ have a real solution?",
+      "help": "**Never** for real $x$ — squares are $\\geq 0$.\n\n**Different example:** $x^2 = 0$ has $x = 0$.\n\nNo real number squares to $-1$."
+    },
+    "103": {
+      "hint": "Omar tested $x = 0$ in $x + x = 2x$ — is that enough to prove it?",
+      "help": "**No** — one value passing does not prove an identity for **all** $x$.\n\n**Different example:** expand to $2x = 2x$ or test a failing value to disprove.\n\nProof needs general reasoning."
+    },
+    "104": {
+      "hint": "Do $x + 2 = 5$ and $5 = x + 2$ mean the same thing?",
+      "help": "**True** — swapping sides does not change the equation.\n\n**Different example:** $2x = 8$ and $8 = 2x$ are equivalent.\n\nEquality is symmetric."
+    },
+    "105": {
+      "hint": "Is $(x + 1)^2 \\geq 0$ for every real $x$?",
+      "help": "**Always** — a square is never negative.\n\n**Different example:** $(x - 3)^2 \\geq 0$ with minimum 0 at $x = 3$.\n\nMinimum value is zero."
+    },
+    "106": {
+      "hint": "Does $2x - 1 = x + 3$ have solution $x = 4$?",
+      "help": "At $x = 4$: $8 - 1 = 7$ and $4 + 3 = 7$ → **true**.\n\n**Different example:** subtract $x$ to get $x - 1 = 3$ → $x = 4$.\n\nSolution is $x = 4$."
+    },
+    "107": {
+      "hint": "Do identities often use $\\equiv$ in formal work but $=$ in books?",
+      "help": "**Always** in convention — $\\equiv$ marks an identity; $=$ is used more loosely in textbooks.\n\n**Different example:** $2(x + 1) \\equiv 2x + 2$ formally.\n\nBoth symbols appear in maths writing."
+    },
+    "108": {
+      "hint": "Priya says $x^2 = 5$ is true at $x = 2$ — correct her.",
+      "help": "$2^2 = 4 \\neq 5$ → **false**; Priya made an arithmetic error.\n\n**Different example:** $x^2 = 5$ needs $x = \\pm\\sqrt{5}$, not 2.\n\nCheck the square carefully."
+    },
+    "109": {
+      "hint": "Is $x^2 - 1 = (x - 1)(x + 1)$ an identity?",
+      "help": "**True** — difference of squares factorisation always holds.\n\n**Different example:** $x^2 - 9 = (x - 3)(x + 3)$.\n\nExpand the brackets to see it matches."
+    },
+    "110": {
+      "hint": "Does $x + 3 = 7$ have exactly one solution?",
+      "help": "**Always** one solution: $x = 4$.\n\n**Different example:** $x - 2 = 5$ → $x = 7$ only.\n\nSimple linear equations have one root."
+    },
+    "111": {
+      "hint": "Is $0x = 0$ true for every $x$?",
+      "help": "**True** — zero times any number is zero: an **identity**.\n\n**Different example:** $0 \\cdot x = 0$ for all reals.\n\nThe $x$ term disappears."
+    },
+    "112": {
+      "hint": "Does $x^2 = x$ have solutions $0$ and $1$?",
+      "help": "**Always** those two: $0^2 = 0$ and $1^2 = 1$; other values fail.\n\n**Different example:** $x = 2$ gives $4 \\neq 2$.\n\nTwo solutions, not an identity."
+    },
+    "113": {
+      "hint": "If an equation is false for $x = 0$, does it have no solutions?",
+      "help": "**False** — failing at one value does not rule out others.\n\n**Different example:** $x + 1 = 2$ is false at $x = 0$ but true at $x = 1$.\n\nOne failed test is not enough."
+    },
+    "114": {
+      "hint": "Is $2(x + y) = 2x + 2y$ an identity?",
+      "help": "**Always** — distribute 2 across the bracket.\n\n**Different example:** $3(x + y) = 3x + 3y$.\n\nTrue for all real $x$ and $y$."
+    },
+    "115": {
+      "hint": "Is $x = |x|$ true for all real $x$?",
+      "help": "**False** — it fails for negatives, e.g. $-3 \\neq |-3| = 3$.\n\n**Different example:** $|x| = x$ only when $x \\geq 0$.\n\nNot true for every real $x$."
+    },
+    "116": {
+      "hint": "Does testing two values prove an identity?",
+      "help": "**Never** sufficient — two passes cannot guarantee all $x$ work.\n\n**Different example:** $x(x - 1) = 0$ is true at $x = 0$ and $1$ only.\n\nExpand or reason generally."
+    },
+    "117": {
+      "hint": "Is $x + 1 = 2$ an equation with solution $x = 1$?",
+      "help": "**True** — subtract 1: $x = 1$.\n\n**Different example:** $x + 4 = 7$ → $x = 3$.\n\nOne simple linear solution."
+    },
+    "118": {
+      "hint": "Is $x^2 + 2x + 1 = (x + 1)^2$ always true?",
+      "help": "**Always** — perfect square trinomial identity.\n\n**Different example:** $x^2 + 6x + 9 = (x + 3)^2$.\n\nExpand the square to confirm."
+    },
+    "119": {
+      "hint": "Sloan tests $x = 4$ in $2x + 3 = 11$ — is the check correct?",
+      "help": "$2(4) + 3 = 11$ and right side is 11 → **yes**, Sloan's check is correct.\n\n**Different example:** $x = 3$ would give $9 \\neq 11$.\n\nSubstitution confirms $x = 4$ works."
+    },
+    "120": {
+      "hint": "Archer tests $5(x - 2) = 5x - 10$ at $x = 3$ — what type of statement?",
+      "help": "Expand: $5x - 10$ on both sides — an **identity** true for all $x$; $x = 3$ is just one check.\n\n**Different example:** $4(x + 1) = 4x + 4$.\n\nOne test supports but does not alone prove all $x$."
+    },
+    "121": {
+      "hint": "Test $x = 3$ in the student's claim $x^2 = 2x$.",
+      "help": "$9 \\neq 6$ → **not** an identity; it is an equation with solutions $x = 0$ and $x = 2$.\n\n**Different example:** factor $x(x - 2) = 0$.\n\nOne counter-value disproves “always true”."
+    },
+    "122": {
+      "hint": "Substitute $x = -2$ into $x^2 + 3x = -2$.",
+      "help": "Left: $4 - 6 = -2$. Right: $-2$ → **yes**, $x = -2$ is a solution.\n\n**Different example:** check by expanding $x^2 + 3x + 2 = 0$.\n\nBoth sides match."
+    },
+    "123": {
+      "hint": "Test $(x + 3)^2 = x^2 + 9$ at $x = 1$.",
+      "help": "Left: $(4)^2 = 16$. Right: $1 + 9 = 10$ → not equal; missing $6x$ term.\n\n**Different example:** $(x + 3)^2 = x^2 + 6x + 9$.\n\nTeacher's version is not an identity."
+    },
+    "124": {
+      "hint": "Does $x = 5$ satisfy $\\dfrac{x}{5} = 1$?",
+      "help": "$5/5 = 1$ → **yes**.\n\n**Different example:** $\\dfrac{x}{2} = 3$ needs $x = 6$.\n\nDivide to test."
+    },
+    "125": {
+      "hint": "Test $x = 2$ in $3x - 4 = x + 1$.",
+      "help": "Left: $6 - 4 = 2$. Right: $2 + 1 = 3$ → $2 \\neq 3$, so **false**.\n\n**Different example:** solving gives $x = 2.5$.\n\n$x = 2$ does not satisfy it."
+    },
+    "126": {
+      "hint": "Test $a = 2$, $b = 3$, $c = -1$ in $a(b + c) = ab + ac$.",
+      "help": "LHS: $2(2) = 4$. RHS: $6 + (-2) = 4$ → **true**.\n\n**Different example:** distributive law with negatives.\n\nIdentity verified numerically."
+    },
+    "127": {
+      "hint": "Does $x = 0$ solve $2x + 5 = 5$?",
+      "help": "$0 + 5 = 5$ → **yes**.\n\n**Different example:** $3x + 5 = 5$ also has $x = 0$.\n\nZero removes the $x$ term."
+    },
+    "128": {
+      "hint": "Substitute $x = 4$ into $x^2 - 5x + 6 = 0$.",
+      "help": "$16 - 20 + 6 = 2 \\neq 0$ → **false** (solutions are $x = 2$ and $x = 3$).\n\n**Different example:** factor $(x - 2)(x - 3) = 0$.\n\nWrong test value."
+    },
+    "129": {
+      "hint": "Is $2x = 3x$ never true? Find a counter-example if one exists.",
+      "help": "At $x = 0$: $0 = 0$ → **true**; the student is wrong.\n\n**Different example:** subtract $2x$ to get $0 = x$ → only $x = 0$.\n\nOne solution exists."
+    },
+    "130": {
+      "hint": "Verify $x = 7$ in $2(x + 1) = x + 9$.",
+      "help": "Left: $2(8) = 16$. Right: $7 + 9 = 16$ → **true**.\n\n**Different example:** expand LHS as $2x + 2$.\n\nBoth sides equal 16."
+    },
+    "131": {
+      "hint": "Is $(x + 1)^2 = x^2 + 2x + 1$ true at $x = -5$?",
+      "help": "Both sides equal 16 → **true** (it is an identity for all $x$).\n\n**Different example:** $(-5 + 1)^2 = (-4)^2 = 16$.\n\nNegative inputs work fine."
+    },
+    "132": {
+      "hint": "Substitute $x = 1$ into $x^3 - x = 0$.",
+      "help": "$1 - 1 = 0$ → **true**.\n\n**Different example:** $x = 0$ and $x = -1$ also work.\n\nFactor $x(x^2 - 1)$."
+    },
+    "133": {
+      "hint": "Shop model $2n + 3 = 2n + 5$ — any solutions?",
+      "help": "**No** — subtract $2n$: $3 = 5$ is impossible.\n\n**Different example:** identical $n$ terms cancel to a contradiction.\n\nNo value of $n$ works."
+    },
+    "134": {
+      "hint": "Check $x = -3$ in $x^2 + 9 = 0$ for real numbers.",
+      "help": "$9 + 9 = 18 \\neq 0$ → **false**; no real $x$ satisfies $x^2 + 9 = 0$.\n\n**Different example:** $x^2 + 1 = 0$ also has no real root.\n\nSum of squares is positive."
+    },
+    "135": {
+      "hint": "Test $x = 6$ in $|x - 2| = 4$.",
+      "help": "$|6 - 2| = |4| = 4$ → **true** ($x = -2$ also works).\n\n**Different example:** distance from 2 is 4.\n\nTwo solutions."
+    },
+    "136": {
+      "hint": "Is $x = 2$ a solution to $(x - 2)(x + 3) = 0$?",
+      "help": "**Yes** — the first factor is zero.\n\n**Different example:** $x = -3$ from the second factor.\n\nZero product property."
+    },
+    "137": {
+      "hint": "Verify $x + y + z = z + y + x$ with $x = 1$, $y = 2$, $z = 3$.",
+      "help": "Both sides $= 6$ → **true** identity.\n\n**Different example:** reordering addition never changes the sum.\n\nCommutative addition."
+    },
+    "138": {
+      "hint": "Test $x = 5$ in $x^2 = 3x + 10$.",
+      "help": "$25 = 15 + 10 = 25$ → **true**.\n\n**Different example:** $x = -2$ also works.\n\nQuadratic check."
+    },
+    "139": {
+      "hint": "A student tests $x = 0$ in $\\dfrac{1}{x} = 2$ — what goes wrong?",
+      "help": "$\\dfrac{1}{0}$ is **undefined** — you cannot divide by zero.\n\n**Different example:** the expression has no meaning at $x = 0$.\n\nDomain restriction, not just false."
+    },
+    "140": {
+      "hint": "Is $x = 4$ a solution to $3x + 1 = 2x + 5$?",
+      "help": "$13 = 13$ → **true**.\n\n**Different example:** subtract $2x$: $x + 1 = 5$ → $x = 4$.\n\nLinear solution."
+    },
+    "141": {
+      "hint": "Does $x = -1$ satisfy $x^2 = -1$ in the reals?",
+      "help": "$1 \\neq -1$ → **no**; no real $x$ makes $x^2 = -1$.\n\n**Different example:** squares are non-negative.\n\nNo real solution."
+    },
+    "142": {
+      "hint": "Test $x = 2$ in $5x - 3 = 2x + 3$.",
+      "help": "$10 - 3 = 7$ and $4 + 3 = 7$ → **true**.\n\n**Different example:** collect terms: $3x = 6$ → $x = 2$.\n\nBoth sides match."
+    },
+    "143": {
+      "hint": "Does $x = 1$ solve $x^2 + x = 2$?",
+      "help": "$1 + 1 = 2$ → **true**.\n\n**Different example:** $x = -2$ also works: $4 - 2 = 2$.\n\nTwo solutions."
+    },
+    "144": {
+      "hint": "Verify $(x + 2)(x - 2) = x^2 - 4$ at $x = 10$.",
+      "help": "Left: $12 \\times 8 = 96$. Right: $100 - 4 = 96$ → **true**.\n\n**Different example:** difference of squares identity.\n\nWorks at any $x$."
+    },
+    "145": {
+      "hint": "Test $x = 3$ in $2^x = 8$.",
+      "help": "$2^3 = 8$ → **true**.\n\n**Different example:** $2^x = 16$ needs $x = 4$.\n\nUse powers of 2."
+    },
+    "146": {
+      "hint": "Is $x = 0$ a solution to $x^2 = 0$?",
+      "help": "**Yes** — $0^2 = 0$.\n\n**Different example:** $x^2 = 0$ has a repeated root at zero.\n\nSingle solution."
+    },
+    "147": {
+      "hint": "Check $x = -2$ in $3x + 7 = 1$.",
+      "help": "$-6 + 7 = 1$ → **true**.\n\n**Different example:** $3x = -6$ → $x = -2$.\n\nNegative solution."
+    },
+    "148": {
+      "hint": "Test $2(a + b) = 2a + 2b$ with $a = 0.5$, $b = 1.5$.",
+      "help": "LHS: $2(2) = 4$. RHS: $1 + 3 = 4$ → **true**.\n\n**Different example:** distributive with decimals.\n\nIdentity holds."
+    },
+    "149": {
+      "hint": "Does $x = 9$ solve $\\sqrt{x} = 3$?",
+      "help": "$\\sqrt{9} = 3$ → **true**.\n\n**Different example:** $\\sqrt{x} = 4$ needs $x = 16$.\n\nPrincipal square root."
+    },
+    "150": {
+      "hint": "Test $x = 4$ in $x(x - 1) = 12$.",
+      "help": "$4 \\times 3 = 12$ → **true**.\n\n**Different example:** $x = -3$ also works: $(-3)(-4) = 12$.\n\nProduct check."
+    },
+    "151": {
+      "hint": "Is $2x + 1 = 2x + 2$ consistent?",
+      "help": "**No** — subtract $2x$: $1 = 2$ impossible; **no solutions**.\n\n**Different example:** $3x + 4 = 3x + 7$ same idea.\n\nInconsistent equation."
+    },
+    "152": {
+      "hint": "Verify $x = 1$ in $(x + 1)^3 = x^3 + 3x^2 + 3x + 1$.",
+      "help": "Both sides $= 8$ → **true** (binomial cube identity).\n\n**Different example:** expand $(1 + 1)^3 = 8$.\n\nIdentity for all $x$."
+    },
+    "153": {
+      "hint": "Test $x = 5$ in $x^2 - 25 = 0$.",
+      "help": "$25 - 25 = 0$ → **true** ($x = -5$ also works).\n\n**Different example:** $(x - 5)(x + 5) = 0$.\n\nDifference of squares."
+    },
+    "154": {
+      "hint": "Check $x = 2$ in $3^x = 9$.",
+      "help": "$3^2 = 9$ → **true**.\n\n**Different example:** $3^x = 27$ needs $x = 3$.\n\nSame base on both sides."
+    },
+    "155": {
+      "hint": "Is $x = -4$ a solution to $x + 4 = 0$?",
+      "help": "$-4 + 4 = 0$ → **true**.\n\n**Different example:** $x + a = 0$ → $x = -a$.\n\nDirect substitution."
+    },
+    "156": {
+      "hint": "Test $x = 1$ in $x^4 = 1$.",
+      "help": "$1^4 = 1$ → **true** ($x = -1$ also works among reals).\n\n**Different example:** even powers of $\\pm 1$ equal 1.\n\nMultiple real roots."
+    },
+    "157": {
+      "hint": "Verify $(-x)^2 = x^2$ for $x = -6$.",
+      "help": "Both sides $= 36$ → **true** identity.\n\n**Different example:** $(-6)^2 = 6^2$.\n\nSquaring removes sign."
+    },
+    "158": {
+      "hint": "Test $x = 8$ in $2x - 5 = x + 2$.",
+      "help": "Left: $11$. Right: $10$ → **false** (solution is $x = 7$).\n\n**Different example:** subtract $x$: $x - 5 = 2$.\n\n$x = 8$ does not work."
+    },
+    "159": {
+      "hint": "Is $x = 3$ a solution to $x^2 = 6$?",
+      "help": "$9 \\neq 6$ → **false**.\n\n**Different example:** $x^2 = 6$ → $x = \\pm\\sqrt{6}$, not 3.\n\nCheck the square."
+    },
+    "160": {
+      "hint": "Check $x = 0$ in $0x + 7 = 7$.",
+      "help": "$7 = 7$ → **true** for any $x$ (the $0x$ term is always 0).\n\n**Different example:** $0x + 5 = 5$ is an identity.\n\nCoefficient zero on $x$."
+    },
+    "161": {
+      "hint": "Test $x = -1$ in $x^3 = -1$.",
+      "help": "$(-1)^3 = -1$ → **true**.\n\n**Different example:** cube preserves sign for $-1$.\n\nSingle real cube root."
+    },
+    "162": {
+      "hint": "Verify $x = 5$ in $(x - 1)(x - 5) = 0$.",
+      "help": "$(4)(0) = 0$ → **true** ($x = 1$ also works).\n\n**Different example:** zero product rule.\n\nEither factor zero."
+    },
+    "163": {
+      "hint": "Is $x = 2$ a solution to $x^2 + 1 = 5$?",
+      "help": "$4 + 1 = 5$ → **true**.\n\n**Different example:** $x^2 = 4$ → $x = \\pm 2$.\n\nSimple quadratic check."
+    },
+    "164": {
+      "hint": "Test $x = 12$ in $\\dfrac{x}{3} = 4$.",
+      "help": "$12/3 = 4$ → **true**.\n\n**Different example:** multiply both sides: $x = 12$.\n\nFraction equation."
+    },
+    "165": {
+      "hint": "Test $x = 2$ and $x = 3$ in $x^2 - 5x + 6 = 0$.",
+      "help": "Both give 0 → **true** for both; roots are $x = 2$ and $x = 3$.\n\n**Different example:** $(x - 2)(x - 3) = 0$.\n\nStatement is **true**."
+    },
+    "166": {
+      "hint": "Expand $3(x + 4) - 2(x - 1)$ — is it $x + 14$?",
+      "help": "$3x + 12 - 2x + 2 = x + 14$ → **identity**.\n\n**Different example:** expand each bracket separately.\n\nAlways equal after simplifying."
+    },
+    "167": {
+      "hint": "Is $x^2 + 1 > 0$ for all real $x$?",
+      "help": "**Always** — minimum value is 1 when $x = 0$.\n\n**Different example:** $x^2 \\geq 0$ so adding 1 stays positive.\n\nStrictly greater than zero."
+    },
+    "168": {
+      "hint": "Find all integer solutions to $x + x = 10$.",
+      "help": "$2x = 10$ → $x = 5$ only.\n\n**Different example:** $x + x = 8$ → $x = 4$.\n\nOne integer solution."
+    },
+    "169": {
+      "hint": "Test $(x + 1)^2 - (x - 1)^2 = 4x$ at $x = 3$.",
+      "help": "Left: $16 - 4 = 12$. Right: $12$ → **true** (and it is an identity).\n\n**Different example:** expand both squares.\n\nAlways simplifies to $4x$."
+    },
+    "170": {
+      "hint": "Is $x = 1$ the only real solution to $x^3 = 1$?",
+      "help": "**Yes** for real numbers — only $x = 1$ works.\n\n**Different example:** $x^3 = 8$ → $x = 2$ only among reals.\n\nComplex roots exist but not in GCSE reals."
+    },
+    "171": {
+      "hint": "For real $x$, does $x^2 = 4$ mean $x = 2$ or $x = -2$?",
+      "help": "**Always** — both $\\pm 2$ satisfy $x^2 = 4$.\n\n**Different example:** do not forget the negative root.\n\nTwo real solutions."
+    },
+    "172": {
+      "hint": "Test $x = 0.5$ in $2x + 1 = 2$.",
+      "help": "$1 + 1 = 2$ → **true**.\n\n**Different example:** $x = \\frac{1}{2}$ solves $2x = 1$.\n\nDecimal input works."
+    },
+    "173": {
+      "hint": "Does $x^2 + y^2 = 0$ force $x = 0$ and $y = 0$ for reals?",
+      "help": "**True** — sum of non-negative terms is zero only if both are zero.\n\n**Different example:** $1^2 + 0^2 > 0$.\n\nEach square must be zero."
+    },
+    "174": {
+      "hint": "Verify $(x + a)^2 = x^2 + 2ax + a^2$ with $a = 5$, $x = 2$.",
+      "help": "LHS: $(7)^2 = 49$. RHS: $4 + 20 + 25 = 49$ → **true**.\n\n**Different example:** general perfect square pattern.\n\nIdentity for all $x$ and $a$."
+    },
+    "175": {
+      "hint": "Do $2x = 10$ and $x = 5$ describe the same solution set?",
+      "help": "**Always** — dividing $2x = 10$ gives $x = 5$.\n\n**Different example:** equivalent forms of one equation.\n\nSame single solution."
+    },
+    "176": {
+      "hint": "Test $x = -5$ in $x^2 + 10x + 25 = 0$.",
+      "help": "$25 - 50 + 25 = 0$ → **true** (perfect square $(x + 5)^2 = 0$).\n\n**Different example:** repeated root at $x = -5$.\n\nDouble root."
+    },
+    "177": {
+      "hint": "Does $x^2 - 1 = 0$ have exactly two real solutions?",
+      "help": "**True** — $x = 1$ and $x = -1$.\n\n**Different example:** $(x - 1)(x + 1) = 0$.\n\nTwo distinct real roots."
+    },
+    "178": {
+      "hint": "Is $x = 1$ a solution to $\\dfrac{x - 1}{x - 1} = 1$ when $x \\neq 1$?",
+      "help": "**No** — at $x = 1$ the fraction is **undefined** (division by zero).\n\n**Different example:** any $x \\neq 1$ gives $1 = 1$.\n\nDomain excludes 1."
+    },
+    "179": {
+      "hint": "Is $(x + y)^2 \\geq 0$ for all real $x$ and $y$?",
+      "help": "**Always** — a square is never negative.\n\n**Different example:** $(0 + 0)^2 = 0$ is the minimum.\n\nNon-negative for all reals."
+    },
+    "180": {
+      "hint": "Test $x = 2$, $y = 3$ in $2x + 3y = 13$.",
+      "help": "$4 + 9 = 13$ → **true**.\n\n**Different example:** two-variable linear equation.\n\nThis pair satisfies the equation."
+    },
+    "181": {
+      "hint": "Does $x^2 = 2x$ have solutions $0$ and $2$?",
+      "help": "**True** — $x(x - 2) = 0$ → $x = 0$ or $x = 2$.\n\n**Different example:** factor out common $x$.\n\nTwo solutions."
+    },
+    "182": {
+      "hint": "Verify $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$ with $x = 4$, $y = 1$.",
+      "help": "LHS: $64 - 1 = 63$. RHS: $3 \\times 21 = 63$ → **true**.\n\n**Different example:** difference of cubes identity.\n\nNumeric check supports the formula."
+    },
+    "183": {
+      "hint": "Does $x + 2 = 2 + x$ fail for some real $x$?",
+      "help": "**Never** — commutative identity holds for **all** real $x$.\n\n**Different example:** $a + b = b + a$ always.\n\nNo failing value exists."
+    },
+    "184": {
+      "hint": "Test $x = 9$ in $\\sqrt{x + 7} = 4$.",
+      "help": "$\\sqrt{16} = 4$ → **true**.\n\n**Different example:** $x + 7 = 16$ after squaring.\n\nSquare root equation."
+    },
+    "185": {
+      "hint": "$x^0 = 1$ for $x \\neq 0$ — useful identity with care?",
+      "help": "**True** when $x \\neq 0$; note $0^0$ is **undefined**.\n\n**Different example:** $5^0 = 1$.\n\nExclude zero base for $x^0$."
+    },
+    "186": {
+      "hint": "Does $x = -2$ satisfy $(x + 2)^2 = 0$?",
+      "help": "$(0)^2 = 0$ → **true**.\n\n**Different example:** repeated root at $x = -2$.\n\nPerfect square equals zero."
+    },
+    "187": {
+      "hint": "Is $|x| = -x$ when $x \\leq 0$?",
+      "help": "**Always** on $x \\leq 0$ — e.g. $|-3| = 3 = -(-3)$.\n\n**Different example:** for $x > 0$, $|x| = x$, not $-x$.\n\nPiecewise definition of absolute value."
+    },
+    "188": {
+      "hint": "Test $x = 1$ in $x^5 = 1$.",
+      "help": "$1^5 = 1$ → **true**.\n\n**Different example:** among reals, $x = 1$ is the only fifth root of 1.\n\nOdd power preserves sign."
+    },
+    "189": {
+      "hint": "Does $x^2 + 2x + 1 = 0$ have a repeated root at $x = -1$?",
+      "help": "**True** — $(x + 1)^2 = 0$.\n\n**Different example:** perfect square trinomial.\n\nDouble root at $x = -1$."
+    },
+    "190": {
+      "hint": "Verify the cubic expansion at $x = 0$ only — is that enough?",
+      "help": "At $x = 0$ both sides $= 6$ — matches, but **one test does not prove** an identity.\n\n**Different example:** expand fully or test a failing value.\n\nSingle point is insufficient."
+    },
+    "191": {
+      "hint": "Is $x^2 \\geq x$ for all $x \\geq 2$?",
+      "help": "**Always** on $x \\geq 2$ — e.g. $x = 2$: $4 \\geq 2$.\n\n**Different example:** fails at $x = 0.5$ where $0.25 < 0.5$.\n\nTrue on this restricted set."
+    },
+    "192": {
+      "hint": "Test $x = 3$ in $2^{x+1} = 16$.",
+      "help": "$2^4 = 16$ → **true**.\n\n**Different example:** $x + 1 = 4$ so $x = 3$.\n\nExponential equation."
+    },
+    "193": {
+      "hint": "If $x = y$ and $y = z$, does $x = z$?",
+      "help": "**True** — transitivity of equality.\n\n**Different example:** if $a = b$ and $b = c$, then $a = c$.\n\nBasic logic of equals."
+    },
+    "194": {
+      "hint": "Is $x = 0.333\\ldots$ a solution to $3x = 1$?",
+      "help": "**True** — $3 \\times \\frac{1}{3} = 1$.\n\n**Different example:** recurring decimal $0.\\overline{3} = \\frac{1}{3}$.\n\nExact fraction satisfies the equation."
+    },
+    "195": {
+      "hint": "Is $(-1)^n = 1$ when $n$ is even?",
+      "help": "**Always** — an even power of $-1$ is 1.\n\n**Different example:** $(-1)^2 = 1$, $(-1)^4 = 1$.\n\nOdd $n$ gives $-1$ instead."
+    },
+    "196": {
+      "hint": "Test $x = 2$, $y = 2$ in $x^2 + y^2 = 8$.",
+      "help": "$4 + 4 = 8$ → **true**.\n\n**Different example:** point on circle $x^2 + y^2 = 8$.\n\nTwo-variable check."
+    },
+    "197": {
+      "hint": "Is $x^2 - 4x + 4 = (x - 2)^2$ an identity?",
+      "help": "**True** — perfect square factorisation always holds.\n\n**Different example:** $x^2 - 6x + 9 = (x - 3)^2$.\n\nExpand to confirm."
+    },
+    "198": {
+      "hint": "Find an $x$ that makes $x + 3 = x + 5$ false.",
+      "help": "**Any** $x$ works — subtract $x$ to get $3 = 5$, which is always false.\n\n**Different example:** no $x$ can make it true.\n\nContradiction for every input."
+    },
+    "199": {
+      "hint": "True at $x = 0$ and $x = 1$ — must it be an identity?",
+      "help": "**Never** guaranteed — e.g. $x(x - 1) = 0$ only at those points.\n\n**Different example:** test $x = 2$ to disprove a false claim.\n\nTwo tests are not enough."
+    },
+    "200": {
+      "hint": "Write one identity, one single-solution equation, one with no solution — test each.",
+      "help": "Example: identity $x + 1 = 1 + x$ (true at $x = 0$); equation $x + 2 = 5$ → $x = 3$; no solution $1 = 2$.\n\n**Different example:** substitute into each to show the three types.\n\nIdentity, one-solution, impossible."
+    }
+  }
+}

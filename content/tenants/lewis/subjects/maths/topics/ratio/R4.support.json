@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Put red first, then blue, with a colon between the counts.",
+      "help": "“2 red for every 3 blue” → **2 : 3**.\n\n**Example:** 4 cats, 1 dog → 4 : 1."
+    },
+    "2": {
+      "hint": "Count the numbers on either side of the colon.",
+      "help": "Two numbers: **4** and **5**.\n\n**Example:** 1 : 2 : 3 has three numbers."
+    },
+    "3": {
+      "hint": "Divide both 2 and 4 by the same number.",
+      "help": "÷2 → **1 : 2**.\n\n**Example:** 6 : 8 → 3 : 4.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "4": {
+      "hint": "Find a common factor of 3 and 6 greater than 1.",
+      "help": "÷3 → **1 : 2**.\n\n**Example:** 9 : 12 → 3 : 4.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "5": {
+      "hint": "Left side doubled from 1 to 2 — multiply the right by 2 as well.",
+      "help": "**2 : 4**.\n\n**Example:** 3 : 5 = 6 : 10.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "6": {
+      "hint": "Left went from 2 to 4 (×2) — do the same to 3.",
+      "help": "**4 : 6** (×2 on both).\n\n**Example:** 5 : 7 = 10 : 14.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "7": {
+      "hint": "Simplify 2 : 4 and 1 : 2 — do they match?",
+      "help": "2 : 4 → **1 : 2** — same as 1 : 2, so **equivalent**.\n\n**Example:** 3 : 6 and 1 : 2 match."
+    },
+    "8": {
+      "hint": "5 cats and 5 dogs — what ratio, then simplify?",
+      "help": "5 : 5 → **1 : 1**.\n\n**Example:** 8 : 8 → 1 : 1.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "9": {
+      "hint": "Divide 6 and 9 by 3.",
+      "help": "**2 : 3**.\n\n**Example:** 15 : 25 → 3 : 5.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "10": {
+      "hint": "10 : 5 — divide both by 5.",
+      "help": "**2 : 1**.\n\n**Example:** 20 : 5 → 4 : 1.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "11": {
+      "hint": "3 : 5 → 9 : ? means ×3 on the first — multiply the second by 3 too.",
+      "help": "**9 : 15**.\n\n**Example:** 2 : 3 = 8 : 12.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "12": {
+      "hint": "Simplify 4 : 6 and 2 : 3 — are they the same?",
+      "help": "4 : 6 → **2 : 3** — yes, **equivalent**.\n\n**Example:** 10 : 15 and 2 : 3 match."
+    },
+    "13": {
+      "hint": "Write 4 : 6, then divide both parts by their HCF.",
+      "help": "**2 : 3**.\n\n**Example:** 10 red, 15 blue → 2 : 3.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "14": {
+      "hint": "Both 15 and 20 divide by 5.",
+      "help": "**3 : 4**.\n\n**Example:** 21 : 28 → 3 : 4.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "15": {
+      "hint": "Find the biggest number that divides 24, 36 and 60.",
+      "help": "÷12 → **2 : 3 : 5**.\n\n**Example:** 6 : 9 : 12 → 2 : 3 : 4.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "16": {
+      "hint": "Multiply both parts by 2 to clear the decimal, then simplify.",
+      "help": "2.5 : 5 → ×2 → 5 : 10 → **1 : 2**.\n\n**Example:** 1.5 : 3 → 1 : 2."
+    },
+    "17": {
+      "hint": "Multiply both fractions by 6 (LCM of denominators) to get whole numbers.",
+      "help": "×6 → **3 : 2**.\n\n**Example:** $\\frac{1}{4}$ : $\\frac{1}{2}$ → 1 : 2."
+    },
+    "18": {
+      "hint": "3 : 4 = 9 : ? — what was the multiplier on 3?",
+      "help": "×3 on first → ×3 on second → **12**.\n\n**Example:** 2 : 5 = 6 : 15."
+    },
+    "19": {
+      "hint": "5 : 2 = ? : 8 — second part ×4, so multiply first by 4.",
+      "help": "**20** : 8.\n\n**Example:** 3 : 4 = 9 : 12.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "20": {
+      "hint": "Divide both parts by 12 to get 1 on the left.",
+      "help": "12 : 18 → ÷12 → **1 : 1.5** or **1 : $\\frac{3}{2}$** — often write **1 : 1.5** or simplify to 2 : 3 first.\n\nDivide by 6: **2 : 3**; for 1 : n divide 18 by 12 → **1 : 1.5**.\n\n**Example:** 8 : 20 → 1 : 2.5."
+    },
+    "21": {
+      "hint": "Divide 3 and 15 so the first number becomes 1.",
+      "help": "÷3 → **1 : 5**.\n\n**Example:** 4 : 20 → 1 : 5.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "22": {
+      "hint": "Middle part is 3 in 2 : 3 : 5 — fraction of total is 3 ÷ (2+3+5).",
+      "help": "Total parts 10 → middle is **$\\frac{3}{10}$** of the total.\n\n**Example:** 1 : 4 : 5 → second is $\\frac{4}{10}$."
+    },
+    "23": {
+      "hint": "Cats first, dogs second — use ratio notation with a colon.",
+      "help": "**3 : 5** (cats : dogs).\n\n**Example:** “2 teachers for every 25 pupils” → 2 : 25."
+    },
+    "24": {
+      "hint": "Divide 8 and 12 by their HCF — does it equal 2 : 3?",
+      "help": "8 : 12 → ÷4 → **2 : 3**. Mia is **correct**.\n\n**Example:** 20 : 30 → 2 : 3."
+    },
+    "25": {
+      "hint": "If both numbers share a factor bigger than 1, can you divide both to simplify?",
+      "help": "**Always** (for whole-number ratios with a common factor > 1) you can simplify.\n\n**Example:** 4 : 10 → 2 : 5."
+    },
+    "26": {
+      "hint": "Does order matter in a ratio — compare 4 : 6 with 6 : 4.",
+      "help": "**False** — swapping changes meaning. 4 : 6 ≠ 6 : 4 unless equal parts.\n\n**Example:** boys : girls ≠ girls : boys."
+    },
+    "27": {
+      "hint": "Multiply 1 and 2.5 by 2 to get whole numbers.",
+      "help": "1 : 2.5 → **2 : 5** with whole numbers. Decimals are OK but whole numbers are clearer.\n\n**Example:** 1.5 : 3 → 1 : 2."
+    },
+    "28": {
+      "hint": "Divide 10 : 15 by 5 — what simpler ratio do you get?",
+      "help": "Both simplify to **2 : 3** — same relationship, different scale.\n\n**Example:** 6 : 9 and 2 : 3."
+    },
+    "29": {
+      "hint": "Ratio 3 : 4 describes parts, not exact counts — could there be 6 and 8?",
+      "help": "**Not** exactly 3 red — could be 3, 6, 9… red if blues scale too. Sam is **wrong**.\n\n**Example:** 2 : 1 could mean 4 and 2."
+    },
+    "30": {
+      "hint": "Swapping a : b to b : a — what happens to which quantity is listed first?",
+      "help": "Order **reverses** — first quantity becomes second. **4 : 7** becomes **7 : 4**.\n\n**Example:** tea : coffee vs coffee : tea."
+    },
+    "31": {
+      "hint": "Write 5 : 3 as 1 : n by dividing both parts by 5.",
+      "help": "**1 : 0.6** or **1 : $\\frac{3}{5}$** — mango is $\\frac{3}{5}$ of orange per 1 part orange.\n\n**Example:** 8 : 2 → 1 : 0.25."
+    },
+    "32": {
+      "hint": "Can 2 and 9 share a common factor greater than 1?",
+      "help": "**No** — already simplest. White is **9 parts per 2 blue**, or **1 : 4.5** white per 1 blue.\n\n**Example:** 3 : 7 cannot simplify."
+    },
+    "33": {
+      "hint": "Divide 40, 100 and 60 by their HCF.",
+      "help": "÷20 → **2 : 5 : 3**.\n\n**Example:** 12 : 18 : 24 → 2 : 3 : 4."
+    },
+    "34": {
+      "hint": "Adults : pupils was 1 : 8 — flip to pupils : adults.",
+      "help": "**8 : 1** (pupils : adults).\n\n**Example:** A : B = 2 : 5 → B : A = 5 : 2."
+    },
+    "35": {
+      "hint": "Simplify 6 : 15, then for every 2 of the first, how much of the second?",
+      "help": "6 : 15 → **2 : 5**. For 2 first → **5** second.\n\n**Example:** 4 : 10 → for 2 first, 5 second."
+    },
+    "36": {
+      "hint": "Divide all three parts of 8 : 4 : 2 by 2.",
+      "help": "**4 : 2 : 1**.\n\n**Example:** 9 : 6 : 3 → 3 : 2 : 1.\n\nWhen you are stuck, reread the question and write one small step before the next."
+    },
+    "37": {
+      "hint": "7 : 3 means difference of 4 parts = 20 — find one part, then both numbers.",
+      "help": "4 parts = 20 → 1 part = 5. Numbers **35** and **15**.\n\n**Example:** 5 : 2, difference 12 → part 4 → 20 and 8."
+    },
+    "38": {
+      "hint": "Match b in both ratios — scale a : b and b : c so the b values match, then join.",
+      "help": "a : b = 2 : 3, b : c = 4 : 5 → make b = 12: **8 : 12 : 15**.\n\n**Example:** 1 : 2 and 2 : 3 → 3 : 6 : 9."
+    },
+    "39": {
+      "hint": "Let the parts be 5k and 8k — after +4 on each, ratio is 3 : 4. Solve for k.",
+      "help": "$(5k+4):(8k+4) = 3:4$ — cross-multiply to find k, then original lengths.\n\n**Example:** use algebra: $4(5k+4)=3(8k+4)$."
+    },
+    "40": {
+      "hint": "3 : x = 12 : 20 — scale 3 to 12 (×4), so scale x the same way from 20.",
+      "help": "×4 on first → **x = 5** (since 20÷4=5). Check: 3 : 5 = 12 : 20.\n\n**Example:** 2 : x = 8 : 12 → x=3."
+    },
+    "41": {
+      "hint": "Add up all three parts of the ratio 2 : 6 : 2.",
+      "help": "The total number of parts is $2 + 6 + 2 = 10$.\n\nThis is how many equal shares the whole amount is split into."
+    },
+    "42": {
+      "hint": "Find the highest common factor of 18 and 21, then divide both by it.",
+      "help": "The highest common factor of 18 and 21 is **3**.\n\n$18 \\div 3 = 6$ and $21 \\div 3 = 7$, so the ratio simplifies to **6 : 7**."
+    },
+    "43": {
+      "hint": "Write red first, then blue, then simplify both parts by the same number.",
+      "help": "Order matters in ratios: red comes before blue.\n\n**Try another:** 6 : 9 simplifies to 2 : 3."
+    },
+    "44": {
+      "hint": "Multiply both parts of the ratio by the same number.",
+      "help": "$3 : 5 = 6 : 10$ because both parts were doubled.\n\n**Try another:** Find what you multiplied the first part by, and do the same to the second."
+    },
+    "45": {
+      "hint": "Write red : blue from the counts, then divide both by their HCF.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "46": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "47": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "48": {
+      "hint": "Add all the numbers in the ratio to count the parts.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "49": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "50": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "51": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "52": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "53": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "54": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "55": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "56": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "57": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "58": {
+      "hint": "Write red : blue from the counts, then divide both by their HCF.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "59": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "60": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "61": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "62": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "63": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "64": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "65": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "66": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "67": {
+      "hint": "Add all the numbers in the ratio to count the parts.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "68": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "69": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "70": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "71": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "72": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "73": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "74": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "75": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "76": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "77": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "78": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "79": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "80": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "81": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "82": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "83": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "84": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "85": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "86": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "87": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "88": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "89": {
+      "hint": "Write red : blue from the counts, then divide both by their HCF.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "90": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "91": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "92": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "93": {
+      "hint": "Add all the numbers in the ratio to count the parts.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "94": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "95": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "96": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "97": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "98": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "99": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "100": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "101": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "102": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "103": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "104": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "105": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "106": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "107": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "108": {
+      "hint": "Write red : blue from the counts, then divide both by their HCF.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "109": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "110": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "111": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "112": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "113": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "114": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "115": {
+      "hint": "Add all the numbers in the ratio to count the parts.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "116": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "117": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "118": {
+      "hint": "Write red : blue from the counts, then divide both by their HCF.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "119": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "120": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "121": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "122": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "123": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "124": {
+      "hint": "Test the idea with a small example ratio before deciding.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "125": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "126": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "127": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "128": {
+      "hint": "Write red : blue from the counts, then divide both by their HCF.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "129": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "130": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "131": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "132": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "133": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "134": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "135": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "136": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "137": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "138": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "139": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "140": {
+      "hint": "Add all the numbers in the ratio to count the parts.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "141": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "142": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "143": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "144": {
+      "hint": "Write red : blue from the counts, then divide both by their HCF.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "145": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "146": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "147": {
+      "hint": "Use equivalent ratios: scale both sides until you can match the given total or difference.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "148": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "149": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "150": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "151": {
+      "hint": "Test the idea with a small example ratio before deciding.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "152": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "153": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "154": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "155": {
+      "hint": "Write red : blue from the counts, then divide both by their HCF.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "156": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "157": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "158": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "159": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "160": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "161": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "162": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "163": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "164": {
+      "hint": "Use equivalent ratios: scale both sides until you can match the given total or difference.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "165": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "166": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "167": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "168": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "169": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "170": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "171": {
+      "hint": "Test the idea with a small example ratio before deciding.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "172": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "173": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "174": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "175": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "176": {
+      "hint": "Use equivalent ratios: scale both sides until you can match the given total or difference.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "177": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "178": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "179": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "180": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "181": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "182": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "183": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "184": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "185": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "186": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "187": {
+      "hint": "Put the first object first in the ratio, matching the order in the sentence.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "188": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "189": {
+      "hint": "Use equivalent ratios: scale both sides until you can match the given total or difference.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "190": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "191": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "192": {
+      "hint": "Divide both parts by the first number so the first becomes 1.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "193": {
+      "hint": "Test the idea with a small example ratio before deciding.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "194": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "195": {
+      "hint": "Find what you multiply the first ratio part by, then multiply the other part the same way.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "196": {
+      "hint": "Make the shared middle term the same in both ratios before joining.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "197": {
+      "hint": "Write the ratio with whole numbers, then simplify by dividing by the highest common factor.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "198": {
+      "hint": "Use equivalent ratios: scale both sides until you can match the given total or difference.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "199": {
+      "hint": "Test the idea with a small example ratio before deciding.",
+      "help": "Read the question carefully and match the method to what is being compared.\n\n**Different example:** 8 : 12 simplifies to **2 : 3** by dividing both parts by 4.\n\nFor three-part ratios, simplify all parts together."
+    },
+    "200": {
+      "hint": "Find the value of 1 part using the soda amount, then multiply by the orange juice's number of parts.",
+      "help": "**Step 1:** Soda is 2 parts = 600 ml, so 1 part = $600 \\div 2 = 300$ ml.\n\n**Step 2:** Orange juice is 3 parts = $3 \\times 300 = 900$ ml."
+    }
+  }
+}

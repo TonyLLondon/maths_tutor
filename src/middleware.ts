@@ -1,4 +1,5 @@
 import { verifySessionToken } from "@/lib/session";
+import { LEGACY_TENANT_SLUGS } from "@/lib/tenants";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
@@ -13,6 +14,18 @@ export async function middleware(request: NextRequest) {
     pathname.match(/\.(svg|png|jpg)$/)
   ) {
     return NextResponse.next();
+  }
+
+  const legacyMatch = pathname.match(/^\/t\/([^/]+)(\/.*)?$/);
+  if (legacyMatch) {
+    const slug = legacyMatch[1];
+    if ((LEGACY_TENANT_SLUGS as readonly string[]).includes(slug)) {
+      const rest = legacyMatch[2] ?? "";
+      return NextResponse.redirect(
+        new URL(`/t/lewis${rest}`, request.url),
+        308,
+      );
+    }
   }
 
   if (PUBLIC_PREFIXES.some((p) => pathname === p || pathname.startsWith(p))) {

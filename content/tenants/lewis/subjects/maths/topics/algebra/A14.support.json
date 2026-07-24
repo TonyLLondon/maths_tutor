@@ -1,0 +1,337 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Time passed equals end minus start — 2 minutes from 0.",
+      "help": "**2 minutes** have passed.\n\nElapsed time on horizontal axis.\n\nAnswer 2 minutes."
+    },
+    "2": {
+      "hint": "Add the two metre distances.",
+      "help": "1 + 1 = **2 metres** total.\n\nDistance adds along journey.\n\n2 m travelled."
+    },
+    "3": {
+      "hint": "Start of journey is time 0.",
+      "help": "At the **start**, distance from home is **0** (if graph starts at origin).\n\nBeginning point.\n\n0 metres at start."
+    },
+    "4": {
+      "hint": "Flat distance means no change in position.",
+      "help": "Distance not changing → **not moving** (stationary).\n\nHorizontal section.\n\nObject still."
+    },
+    "5": {
+      "hint": "Subtract start height from end height on graph.",
+      "help": "3 − 0 = **3 metres** increase.\n\nRise on graph.\n\nIncrease 3 m."
+    },
+    "6": {
+      "hint": "Read the $y$-value at 1 minute.",
+      "help": "Graph shows **2 metres** at 1 minute.\n\nRead vertical at given time.\n\n2 metres."
+    },
+    "7": {
+      "hint": "Read horizontal axis at the point showing 5 m.",
+      "help": "Time is **3 minutes**.\n\nCoordinates $(3,5)$.\n\n3 minutes.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "8": {
+      "hint": "Line going up means distance growing.",
+      "help": "Distance is **increasing**.\n\nUpward slope.\n\nIncreasing.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "9": {
+      "hint": "Flat section on distance-time = no distance change.",
+      "help": "**Stationary** — resting, not moving.\n\nZero speed section.\n\nPerson stopped."
+    },
+    "10": {
+      "hint": "Steeper line = more distance per hour.",
+      "help": "**Faster** speed — greater gradient.\n\nSteep = quick; gentle = slow.\n\nSteeper means faster."
+    },
+    "11": {
+      "hint": "Distance = speed × time: $4 \\times 2$.",
+      "help": "**8 km** in 2 hours at 4 km/h.\n\nMultiply rate by time.\n\n8 km."
+    },
+    "12": {
+      "hint": "Speed = distance ÷ time.",
+      "help": "$60 \\div 2 = **30** km/h.\n\nAverage speed formula.\n\n30 km/h.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "13": {
+      "hint": "Flat depth means fill rate paused or stopped.",
+      "help": "Water **not rising** — tap off or full level reached.\n\nNo depth change.\n\nNot filling (or stable)."
+    },
+    "14": {
+      "hint": "Same flow into narrower space rises faster.",
+      "help": "**Steeper** graph — depth increases quicker in narrow container.\n\nSame rate, less base area.\n\nSteeper line."
+    },
+    "15": {
+      "hint": "20 cm in 5 minutes — divide.",
+      "help": "$20 \\div 5 = **4** cm per minute.\n\nRate = rise ÷ time.\n\n4 cm/min."
+    },
+    "16": {
+      "hint": "Speeding up means changing gradient — curve or steeper segments.",
+      "help": "Speed **increasing** → graph **curves** upward (not one straight line).\n\nAcceleration changes slope.\n\nCurved or changing slope."
+    },
+    "17": {
+      "hint": "Downward slope means distance from start decreasing.",
+      "help": "Moving **back toward start** or decreasing measured distance.\n\nNegative gradient.\n\nReturning / distance falling."
+    },
+    "18": {
+      "hint": "Three phases → three sections on graph.",
+      "help": "**Three** sections: walk, flat rest, walk again.\n\nEach stage its own slope.\n\nThree parts."
+    },
+    "19": {
+      "hint": "Speed = 30 km ÷ 2 h.",
+      "help": "**15 km/h**.\n\nGradient of line.\n\n15 km/h.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "20": {
+      "hint": "3 L/min for 4 minutes from empty.",
+      "help": "$3 \\times 4 = **12** litres.\n\nRate times time.\n\n12 litres.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "21": {
+      "hint": "Flat graph → zero gradient → zero speed.",
+      "help": "**Speed is zero** — not moving.\n\nHorizontal means stationary.\n\nNo movement."
+    },
+    "22": {
+      "hint": "Steeper distance-time line = higher speed.",
+      "help": "**Higher speed** — more distance per unit time.\n\nGradient meaning.\n\nFaster."
+    },
+    "23": {
+      "hint": "Flat means zero speed, not slow walking.",
+      "help": "Priya wrong — **stopped**, not slow.\n\nGradient 0.\n\nStationary, not slow walk."
+    },
+    "24": {
+      "hint": "Steeper line ⇒ larger gradient ⇒ faster (distance-time).",
+      "help": "**Always** true for distance-time graphs.\n\nGradient is speed.\n\nAlways."
+    },
+    "25": {
+      "hint": "Bottle shape changes width — depth rise rate varies.",
+      "help": "Graph **curves** — steep/narrow sections and shallow/wide sections.\n\nNot one straight line.\n\nSam wrong."
+    },
+    "26": {
+      "hint": "Same time 2 h — compare distances 10 vs 20 km.",
+      "help": "**Second graph faster** — 20 km in 2 h beats 10 km.\n\nSteeper to $(2,20)$.\n\nFaster journey."
+    },
+    "27": {
+      "hint": "Imagine travelling away from the start and then turning around. What happens to your distance from the start?",
+      "help": "The statement is **false**. A distance-from-start graph can slope down when the traveller moves back towards the starting point.\n\nFor example, if someone is 5 km from home and returns to 2 km from home, the plotted distance decreases by 3 km.\n\nThe gradient is negative during that return journey because distance from the fixed start is falling."
+    },
+    "28": {
+      "hint": "Steep depth rise = narrow container, not wide.",
+      "help": "Leo backwards — **steep** means **narrow** (depth jumps quickly).\n\nWide middle = shallow slope.\n\nCorrect interpretation."
+    },
+    "29": {
+      "hint": "Still = flat line; steady walk = straight sloped line.",
+      "help": "Standing: **horizontal**. Constant speed walk: **straight slope**.\n\nDifferent gradients.\n\nFlat vs sloped."
+    },
+    "30": {
+      "hint": "Cone filling changes cross-section area with height.",
+      "help": "Depth vs time **curves** — area grows with height in cone point-up.\n\nMo wrong.\n\nCurved graph."
+    },
+    "31": {
+      "hint": "Three legs: out steady, flat stop, back faster steady.",
+      "help": "Sloped up, **flat** 10 min, **steeper** slope back down/home.\n\nThree sections described.\n\nOut, rest, fast return."
+    },
+    "32": {
+      "hint": "Rising fill then falling drain.",
+      "help": "Upward slope while filling, **downward** while draining.\n\nTwo stages.\n\nUp then down."
+    },
+    "33": {
+      "hint": "Add $80\\times1.5$ km plus $60\\times1$ km.",
+      "help": "$120 + 60 = **180** km total.\n\nTwo legs at different speeds.\n\n180 km."
+    },
+    "34": {
+      "hint": "Wide middle → slower depth rise; narrow ends → steep.",
+      "help": "Steep–shallow–steep pattern matching vase profile.\n\nSame flow rate, varying width.\n\nExplain three phases."
+    },
+    "35": {
+      "hint": "Sprint rise, plateau high, rest drop.",
+      "help": "Quick **up**, flat **high**, **down** on rest.\n\nHeart rate sections.\n\nThree described parts."
+    },
+    "36": {
+      "hint": "Gradient $90/3=30$ km/h; curve would mean changing speed.",
+      "help": "Average speed **30 km/h**.\n\nCurve ⇒ speed not constant.\n\nStraight = steady speed."
+    },
+    "37": {
+      "hint": "1 h at 20 km/h plus 1 h at 10 km/h.",
+      "help": "$20 + 10 = **30** km total.\n\nTwo hour segments.\n\n30 km.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "38": {
+      "hint": "Cylinder uniform width → straight depth line; cone varies.",
+      "help": "**Cylinder** straight; **cone** curved.\n\nConstant vs changing cross-section.\n\nCompare shapes."
+    },
+    "39": {
+      "hint": "Speed-time rising then flat → distance-time curves then straight slope.",
+      "help": "Accelerating phase: distance-time **curves**; constant speed: **straight** slope.\n\nLink graphs.\n\nDescribe both stages."
+    },
+    "40": {
+      "hint": "Gradient = rate — distance per time vs depth per time.",
+      "help": "Both use **steepness as rate** — km/h vs cm/min.\n\nSame maths, different labels.\n\nExplain each context."
+    },
+    "41": {
+      "hint": "2 km in 30 min = 2 km in 0.5 h.",
+      "help": "$2 \\div 0.5 = **4** km/h.\n\nConvert minutes to hours.\n\n4 km/h."
+    },
+    "42": {
+      "hint": "Draining decreases volume over time.",
+      "help": "Graph slopes **down**.\n\nVolume falling.\n\nDownward slope.\n\nWrite each step in order so you can use the same method on a similar question later."
+    },
+    "43": {
+      "hint": "Flat on distance–time means distance is not changing.",
+      "help": "A **horizontal** section means **no movement** — speed is zero.\n\nExample: a bus waiting at a stop looks flat on the graph.\n\nDescribe rest, not slow walking."
+    },
+    "44": {
+      "hint": "Multiply 5 litres/min by 3 minutes.",
+      "help": "$5 \\times 3 = **15**$ litres.\n\nExample: 2 min would give 10 litres at the same rate.\n\n15 litres."
+    },
+    "45": {"hint": "A distance–time graph is flat from $t = 0$ to $t = 5$ minutes. Is the object moving during that time?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A distance–time graph is flat from $t = 0$ to $t = 5$ minutes. Is the ..."},
+    "46": {"hint": "A distance–time graph rises steadily from $(0, 0)$ to $(4, 12)$ (km, hours). Find the speed in km/h.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A distance–time graph rises steadily from $(0, 0)$ to $(4, 12)$ (km, h..."},
+    "47": {"hint": "A graph goes from $(0, 0)$ to $(2, 10)$ then stays flat until $t = 5$. How far had the object travelled by $t = 2$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A graph goes from $(0, 0)$ to $(2, 10)$ then stays flat until $t = 5$...."},
+    "48": {"hint": "Two journeys: line A steeper than line B from the origin. Which is faster?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Two journeys: line A steeper than line B from the origin. Which is fas..."},
+    "49": {"hint": "A cyclist's graph is a straight line through $(0, 0)$ and $(3, 18)$ km. Find speed.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A cyclist's graph is a straight line through $(0, 0)$ and $(3, 18)$ km..."},
+    "50": {"hint": "A car is stationary for 10 minutes then travels — how many sections on the graph?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A car is stationary for 10 minutes then travels — how many sections on..."},
+    "51": {"hint": "A distance–time graph slopes downward. What does that mean about distance from the start?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A distance–time graph slopes downward. What does that mean about dista..."},
+    "52": {"hint": "From $(0, 0)$ to $(1, 5)$ to $(1, 5)$ (flat) — describe the second section.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: From $(0, 0)$ to $(1, 5)$ to $(1, 5)$ (flat) — describe the second sec..."},
+    "53": {"hint": "A walker's graph passes $(30, 2)$ where $x$ is minutes and $y$ is km. What distance at 30 minutes?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A walker's graph passes $(30, 2)$ where $x$ is minutes and $y$ is km. ..."},
+    "54": {"hint": "A bus stops at traffic for 3 minutes — describe the graph feature.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A bus stops at traffic for 3 minutes — describe the graph feature...."},
+    "55": {"hint": "Speed 6 m/s for 5 seconds from rest graph through origin — distance at 5 s?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Speed 6 m/s for 5 seconds from rest graph through origin — distance at..."},
+    "56": {"hint": "A graph shows $(0, 0)$, $(2, 8)$, $(2, 8)$, $(5, 20)$. Find speed in the last section (from $t = 2$ to $t = 5$).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A graph shows $(0, 0)$, $(2, 8)$, $(2, 8)$, $(5, 20)$. Find speed in t..."},
+    "57": {"hint": "**True or false?** A flat distance–time graph means speed is zero.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** A flat distance–time graph means speed is zero...."},
+    "58": {"hint": "**True or false?** Steeper means slower on a distance–time graph.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Steeper means slower on a distance–time graph...."},
+    "59": {"hint": "A train covers 120 km in 2 hours at steady speed. Write the distance at 1 hour on a straight graph.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A train covers 120 km in 2 hours at steady speed. Write the distance a..."},
+    "60": {"hint": "A snail moves 12 cm in 4 minutes steadily. Find speed in cm/min.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A snail moves 12 cm in 4 minutes steadily. Find speed in cm/min...."},
+    "61": {"hint": "A tank fills steadily — is the depth–time graph straight or curved for a cylinder?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A tank fills steadily — is the depth–time graph straight or curved for..."},
+    "62": {"hint": "A wide tank and narrow tank fill at the same flow rate. Which depth graph is shallower?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A wide tank and narrow tank fill at the same flow rate. Which depth gr..."},
+    "63": {"hint": "Depth rises from 0 to 30 cm in 10 minutes steadily. Find rate cm/min.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Depth rises from 0 to 30 cm in 10 minutes steadily. Find rate cm/min...."},
+    "64": {"hint": "A bath drains at constant rate — does depth–time graph slope up or down?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A bath drains at constant rate — does depth–time graph slope up or dow..."},
+    "65": {"hint": "A bottle with narrow neck fills — describe the graph near the neck (steeper/shallower).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A bottle with narrow neck fills — describe the graph near the neck (st..."},
+    "66": {"hint": "**True or false?** Steeper depth–time graph means faster rate of change of depth.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Steeper depth–time graph means faster rate of chang..."},
+    "67": {"hint": "A pool depth graph is flat for 5 minutes then rises. What happened?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A pool depth graph is flat for 5 minutes then rises. What happened?..."},
+    "68": {"hint": "Depth 0 at start, 24 cm after 6 minutes linear. Find depth at 9 minutes.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Depth 0 at start, 24 cm after 6 minutes linear. Find depth at 9 minute..."},
+    "69": {"hint": "Two containers same flow: cone (point down) vs cylinder — which depth graph curves?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Two containers same flow: cone (point down) vs cylinder — which depth ..."},
+    "70": {"hint": "A leak drops depth 3 cm/min. Starting 40 cm, find depth after 5 minutes.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A leak drops depth 3 cm/min. Starting 40 cm, find depth after 5 minute..."},
+    "71": {"hint": "**True or false?** Distance–time gradient equals speed for steady motion.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Distance–time gradient equals speed for steady moti..."},
+    "72": {"hint": "**Always, sometimes, or never?** A flat section on distance–time means the object is at rest.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** A flat section on distance–time means..."},
+    "73": {"hint": "Priya says a downward distance–time graph means walking backwards in time. Correct her.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Priya says a downward distance–time graph means walking backwards in t..."},
+    "74": {"hint": "**True or false?** A curved distance–time graph means changing speed.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** A curved distance–time graph means changing speed...."},
+    "75": {"hint": "**Always, sometimes, or never?** Depth–time and distance–time graphs use steepness to show a rate.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** Depth–time and distance–time graphs u..."},
+    "76": {"hint": "**True or false?** A vertical line on a distance–time graph would mean infinite speed (not realistic).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** A vertical line on a distance–time graph would mean..."},
+    "77": {"hint": "Sam says a gentle slope means a slow journey. Agree? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Sam says a gentle slope means a slow journey. Agree? **Yes or no.**..."},
+    "78": {"hint": "**True or false?** You can read speed from the steepness of a straight distance–time section.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** You can read speed from the steepness of a straight..."},
+    "79": {"hint": "**Always, sometimes, or never?** Two objects with parallel distance–time lines have the same speed.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** Two objects with parallel distance–ti..."},
+    "80": {"hint": "**True or false?** Rest appears as horizontal on a distance–time graph.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Rest appears as horizontal on a distance–time graph..."},
+    "81": {"hint": "**True or false?** Filling and draining cannot appear on the same depth–time graph as two stages.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Filling and draining cannot appear on the same dept..."},
+    "82": {"hint": "**Always, sometimes, or never?** A distance–time graph can show negative distance from home if defined that way.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** A distance–time graph can show negati..."},
+    "83": {"hint": "Leo says depth–time steepness means wider container. Explain the mistake briefly.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Leo says depth–time steepness means wider container. Explain the mista..."},
+    "84": {"hint": "**True or false?** On distance–time, time is usually on the horizontal axis.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** On distance–time, time is usually on the horizontal..."},
+    "85": {"hint": "**Always, sometimes, or never?** A straight distance–time line through origin means constant speed from start.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** A straight distance–time line through..."},
+    "86": {"hint": "**True or false?** Slow walking gives a less steep distance–time graph than running (same axes).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Slow walking gives a less steep distance–time graph..."},
+    "87": {"hint": "**True or false?** A step on a distance–time graph means instant jump (not physical for distance).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** A step on a distance–time graph means instant jump ..."},
+    "88": {"hint": "**Always, sometimes, or never?** Depth decreases when draining at constant rate with a straight down sloped graph.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** Depth decreases when draining at cons..."},
+    "89": {"hint": "**True or false?** Reading two points on a straight section gives speed = distance change ÷ time change.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Reading two points on a straight section gives spee..."},
+    "90": {"hint": "**Always, sometimes, or never?** Real journeys always look like one straight line on distance–time.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** Real journeys always look like one st..."},
+    "91": {"hint": "Archer walks 3 km in 45 minutes at steady pace. Find average speed in km/h.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Archer walks 3 km in 45 minutes at steady pace. Find average speed in ..."},
+    "92": {"hint": "A car is at rest 5 min, then drives 20 km in 25 min steadily. Find driving speed.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A car is at rest 5 min, then drives 20 km in 25 min steadily. Find dri..."},
+    "93": {"hint": "A tank depth goes $(0, 0)$, $(10, 25)$, $(10, 25)$, $(20, 40)$ minutes/cm. Find fill rate in first 10 minutes.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A tank depth goes $(0, 0)$, $(10, 25)$, $(10, 25)$, $(20, 40)$ minutes..."},
+    "94": {"hint": "A cyclist rests 10 min then cycles 15 km in 30 min. Describe graph sections.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A cyclist rests 10 min then cycles 15 km in 30 min. Describe graph sec..."},
+    "95": {"hint": "A U-shaped vase fills — describe depth graph shape in words.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A U-shaped vase fills — describe depth graph shape in words...."},
+    "96": {"hint": "A train stops at a station 8 minutes — graph feature?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A train stops at a station 8 minutes — graph feature?..."},
+    "97": {"hint": "Distance graph: 0 to 4 km in 20 min, flat 10 min, 2 km in 10 min. Total distance at end?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Distance graph: 0 to 4 km in 20 min, flat 10 min, 2 km in 10 min. Tota..."},
+    "98": {"hint": "Speed 5 m/s for 12 s from rest (straight graph). Distance?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Speed 5 m/s for 12 s from rest (straight graph). Distance?..."},
+    "99": {"hint": "Depth drains 2 cm/min from 50 cm for 15 min. Final depth?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Depth drains 2 cm/min from 50 cm for 15 min. Final depth?..."},
+    "100": {"hint": "Compare journeys $(0,0)$→$(1,10)$ vs $(0,0)$→$(1,6)$ — which faster?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Compare journeys $(0,0)$→$(1,10)$ vs $(0,0)$→$(1,6)$ — which faster?..."},
+    "101": {"hint": "A phone battery % drops linearly 100 to 40 in 5 hours. Find % at 2 hours.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A phone battery % drops linearly 100 to 40 in 5 hours. Find % at 2 hou..."},
+    "102": {"hint": "A hike: 2 km uphill 1 h, rest 30 min, 2 km down 1 h. Sketch sections count.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A hike: 2 km uphill 1 h, rest 30 min, 2 km down 1 h. Sketch sections c..."},
+    "103": {"hint": "A dam depth increases 0.4 m/h. Starting 1.2 m, depth after 5 h?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A dam depth increases 0.4 m/h. Starting 1.2 m, depth after 5 h?..."},
+    "104": {"hint": "**Stretch:** Piecewise distance: 0–10 min 0 km, 10–30 min to 8 km. Speed in second interval?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Piecewise distance: 0–10 min 0 km, 10–30 min to 8 km. Spe..."},
+    "105": {"hint": "**Stretch:** Depth graph straight for cylinder 0→50 cm in 20 min. Rate?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth graph straight for cylinder 0→50 cm in 20 min. Rate..."},
+    "106": {"hint": "**Stretch:** Two swimmers: A reaches 40 m in 50 s, B in 40 s. Who is faster?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Two swimmers: A reaches 40 m in 50 s, B in 40 s. Who is f..."},
+    "107": {"hint": "**Stretch:** Distance–time kink at $(5, 12)$ then steeper — speed increased or decreased?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Distance–time kink at $(5, 12)$ then steeper — speed incr..."},
+    "108": {"hint": "**Stretch:** Depth constant then falls — two stages named?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth constant then falls — two stages named?..."},
+    "109": {"hint": "**Stretch:** Average speed over 0–60 min if distance 15 km at 60 min and straight line?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Average speed over 0–60 min if distance 15 km at 60 min a..."},
+    "110": {"hint": "**Stretch:** Tank wide then narrow same flow — graph steepness change?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Tank wide then narrow same flow — graph steepness change?..."},
+    "111": {"hint": "**Stretch:** Journey returns home — distance from home graph ends where?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Journey returns home — distance from home graph ends wher..."},
+    "112": {"hint": "**Stretch:** Flat then rising distance graph — motion description?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Flat then rising distance graph — motion description?..."},
+    "113": {"hint": "**Stretch:** Read speed from graph through $(0,0)$ and $(20, 5)$ km/min units?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Read speed from graph through $(0,0)$ and $(20, 5)$ km/mi..."},
+    "114": {"hint": "**Stretch:** Depth 80 cm, drain 5 cm/min 6 min — graph end point?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth 80 cm, drain 5 cm/min 6 min — graph end point?..."},
+    "115": {"hint": "**Stretch:** **True or false?** Same speed gives parallel distance–time lines.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Same speed gives parallel distance–tim..."},
+    "116": {"hint": "**Stretch:** Archer runs 400 m in 80 s steady. Speed m/s?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer runs 400 m in 80 s steady. Speed m/s?..."},
+    "117": {"hint": "**Stretch:** Car 60 km/h for 0.5 h — distance?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Car 60 km/h for 0.5 h — distance?..."},
+    "118": {"hint": "**Stretch:** Walk 2.5 km/h for 2 h — distance?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Walk 2.5 km/h for 2 h — distance?..."},
+    "119": {"hint": "**Stretch:** Depth fills 3 cm/min 12 min — depth change?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth fills 3 cm/min 12 min — depth change?..."},
+    "120": {"hint": "**Stretch:** Rest 20 min on graph — horizontal length meaning?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Rest 20 min on graph — horizontal length meaning?..."},
+    "121": {"hint": "**Stretch:** Speed increases — curved distance graph concave up?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Speed increases — curved distance graph concave up?..."},
+    "122": {"hint": "**Stretch:** Two flat sections — how many rests if distance unchanged?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Two flat sections — how many rests if distance unchanged?..."},
+    "123": {"hint": "**Stretch:** Distance from home decreases — slope sign?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Distance from home decreases — slope sign?..."},
+    "124": {"hint": "**Stretch:** Depth–time slope zero — filling or draining stopped?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth–time slope zero — filling or draining stopped?..."},
+    "125": {"hint": "**Stretch:** Compare depth graphs same flow into tall vs short cylinder.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare depth graphs same flow into tall vs short cylinde..."},
+    "126": {"hint": "**Stretch:** Distance graph not through origin at start 5 km from home — starting point meaning?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Distance graph not through origin at start 5 km from home..."},
+    "127": {"hint": "**Stretch:** Average speed 8 km/h for 15 min — distance?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Average speed 8 km/h for 15 min — distance?..."},
+    "128": {"hint": "**Stretch:** Train slows — graph curve or straight?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Train slows — graph curve or straight?..."},
+    "129": {"hint": "**Stretch:** Bath fill then overflow at constant depth — graph tail?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Bath fill then overflow at constant depth — graph tail?..."},
+    "130": {"hint": "**Stretch:** **Always, sometimes, or never?** Distance–time straight line implies constant speed.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Distance–time straight l..."},
+    "131": {"hint": "**Stretch:** 100 km in 2 h then 50 km in 1 h — same speed both parts?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 100 km in 2 h then 50 km in 1 h — same speed both parts?..."},
+    "132": {"hint": "**Stretch:** Depth graph down 4 cm/min 10 min from 60 cm — final?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth graph down 4 cm/min 10 min from 60 cm — final?..."},
+    "133": {"hint": "**Stretch:** Runner speed 3 m/s 200 s — distance?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Runner speed 3 m/s 200 s — distance?..."},
+    "134": {"hint": "**Stretch:** Car stops — slope on distance–time?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Car stops — slope on distance–time?..."},
+    "135": {"hint": "**Stretch:** Hike pause — slope?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Hike pause — slope?..."},
+    "136": {"hint": "**Stretch:** Container narrow — steeper depth graph?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Container narrow — steeper depth graph?..."},
+    "137": {"hint": "**Stretch:** Same distance in less time — steeper?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Same distance in less time — steeper?..."},
+    "138": {"hint": "**Stretch:** Read distance at $t = 4$ from points $(0,0)$, $(2,6)$, $(4, 12)$ linear?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Read distance at $t = 4$ from points $(0,0)$, $(2,6)$, $(..."},
+    "139": {"hint": "**Stretch:** Depth $(0,5)$, $(10,15)$ linear — rate?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth $(0,5)$, $(10,15)$ linear — rate?..."},
+    "140": {"hint": "**Stretch:** **True or false?** Time on vertical axis is unusual for distance–time.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Time on vertical axis is unusual for d..."},
+    "141": {"hint": "**Stretch:** Journey ends at home — final distance from home?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Journey ends at home — final distance from home?..."},
+    "142": {"hint": "**Stretch:** Two-stage fill: slow then fast — graph shape?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Two-stage fill: slow then fast — graph shape?..."},
+    "143": {"hint": "**Stretch:** Speed 12 km/h 25 min — distance?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Speed 12 km/h 25 min — distance?..."},
+    "144": {"hint": "**Stretch:** Depth leak 1.5 cm/min 8 min from 20 cm?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth leak 1.5 cm/min 8 min from 20 cm?..."},
+    "145": {"hint": "**Stretch:** **True or false?** Gradient units are distance ÷ time on distance–time.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Gradient units are distance ÷ time on ..."},
+    "146": {"hint": "**Stretch:** Archer cycles 18 km in 54 min. km/h?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer cycles 18 km in 54 min. km/h?..."},
+    "147": {"hint": "**Stretch:** Walk 5 km 75 min. km/h?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Walk 5 km 75 min. km/h?..."},
+    "148": {"hint": "**Stretch:** Tank 0 to 45 cm in 15 min — cm/min?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Tank 0 to 45 cm in 15 min — cm/min?..."},
+    "149": {"hint": "**Stretch:** Rest then move — minimum sections?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Rest then move — minimum sections?..."},
+    "150": {"hint": "**Stretch:** Move then rest — graph order?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Move then rest — graph order?..."},
+    "151": {"hint": "**Stretch:** Faster return trip — second slope magnitude?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Faster return trip — second slope magnitude?..."},
+    "152": {"hint": "**Stretch:** Depth fill stops — horizontal?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth fill stops — horizontal?..."},
+    "153": {"hint": "**Stretch:** Distance decreases — walking back?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Distance decreases — walking back?..."},
+    "154": {"hint": "**Stretch:** **Always, sometimes, or never?** Depth and distance graphs can both use steepness language.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Depth and distance graph..."},
+    "155": {"hint": "**Stretch:** Steep distance graph — fast or slow?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Steep distance graph — fast or slow?..."},
+    "156": {"hint": "**Stretch:** Gentle depth rise — fast or slow fill?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Gentle depth rise — fast or slow fill?..."},
+    "157": {"hint": "**Stretch:** 0 km for 5 min then line — describe.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 0 km for 5 min then line — describe...."},
+    "158": {"hint": "**Stretch:** 30 cm depth constant 10 min — describe.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 30 cm depth constant 10 min — describe...."},
+    "159": {"hint": "**Stretch:** Speed doubles — new slope compared?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Speed doubles — new slope compared?..."},
+    "160": {"hint": "**Stretch:** Half speed — slope?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Half speed — slope?..."},
+    "161": {"hint": "**Stretch:** Total distance 24 km in 3 h steady — speed?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Total distance 24 km in 3 h steady — speed?..."},
+    "162": {"hint": "**Stretch:** 9 km in 20 min — km/h?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 9 km in 20 min — km/h?..."},
+    "163": {"hint": "**Stretch:** 400 cm in 8 min drain — cm/min?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 400 cm in 8 min drain — cm/min?..."},
+    "164": {"hint": "**Stretch:** **True or false?** Context graphs always start at origin.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Context graphs always start at origin...."},
+    "165": {"hint": "**Stretch:** Start 10 km from home — intercept meaning?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Start 10 km from home — intercept meaning?..."},
+    "166": {"hint": "**Stretch:** End at 0 km from home — value?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** End at 0 km from home — value?..."},
+    "167": {"hint": "**Stretch:** Two objects same speed — parallel lines?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Two objects same speed — parallel lines?..."},
+    "168": {"hint": "**Stretch:** Object faster — steeper?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Object faster — steeper?..."},
+    "169": {"hint": "**Stretch:** Depth curve for cone filling — straight or curved?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth curve for cone filling — straight or curved?..."},
+    "170": {"hint": "**Stretch:** Cylinder filling — straight depth graph?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Cylinder filling — straight depth graph?..."},
+    "171": {"hint": "**Stretch:** **Always, sometimes, or never?** Rest is horizontal on distance–time.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Rest is horizontal on di..."},
+    "172": {"hint": "**Stretch:** Distance 0 at $t = 0$ — at start?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Distance 0 at $t = 0$ — at start?..."},
+    "173": {"hint": "**Stretch:** Depth 0 at start empty tank?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth 0 at start empty tank?..."},
+    "174": {"hint": "**Stretch:** 15 km/h 2 h — distance?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 15 km/h 2 h — distance?..."},
+    "175": {"hint": "**Stretch:** 6 m/s 10 s — distance?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 6 m/s 10 s — distance?..."},
+    "176": {"hint": "**Stretch:** 2 cm/min 30 min — depth change?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 2 cm/min 30 min — depth change?..."},
+    "177": {"hint": "**Stretch:** **True or false?** Downward depth graph means draining.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Downward depth graph means draining...."},
+    "178": {"hint": "**Stretch:** Upward distance graph means moving away?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Upward distance graph means moving away?..."},
+    "179": {"hint": "**Stretch:** Flat distance — speed zero?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Flat distance — speed zero?..."},
+    "180": {"hint": "**Stretch:** Story to graph: run, rest, walk — section count?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Story to graph: run, rest, walk — section count?..."},
+    "181": {"hint": "**Stretch:** Graph to story: up, flat, down — describe?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Graph to story: up, flat, down — describe?..."},
+    "182": {"hint": "**Stretch:** Compare 10 km in 20 min vs 10 km in 40 min slopes?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare 10 km in 20 min vs 10 km in 40 min slopes?..."},
+    "183": {"hint": "**Stretch:** Pool depth 1.8 m after 45 min linear from 0 — rate m/min?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Pool depth 1.8 m after 45 min linear from 0 — rate m/min?..."},
+    "184": {"hint": "**Stretch:** Bus 12 km in 18 min — km/h?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Bus 12 km in 18 min — km/h?..."},
+    "185": {"hint": "**Stretch:** **True or false?** Reading scales matters on real graphs.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Reading scales matters on real graphs...."},
+    "186": {"hint": "**Stretch:** Archer plots (min, km): (0,0), (15, 3), (30, 3). Speed first 15 min?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer plots (min, km): (0,0), (15, 3), (30, 3). Speed fi..."},
+    "187": {"hint": "**Stretch:** Same data — rest after 15 min?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Same data — rest after 15 min?..."},
+    "188": {"hint": "**Stretch:** Depth (min, cm): (0,10), (5,10), (15,40). Rate after min 5?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth (min, cm): (0,10), (5,10), (15,40). Rate after min ..."},
+    "189": {"hint": "**Stretch:** **Always, sometimes, or never?** Straight distance graph means constant speed.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Straight distance graph ..."},
+    "190": {"hint": "**Stretch:** Total time 2 h, distance 14 km steady — speed?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Total time 2 h, distance 14 km steady — speed?..."},
+    "191": {"hint": "**Stretch:** 25 cm depth lost 5 min at constant rate — cm/min?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 25 cm depth lost 5 min at constant rate — cm/min?..."},
+    "192": {"hint": "**Stretch:** 8 km/h for 15 min — distance?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** 8 km/h for 15 min — distance?..."},
+    "193": {"hint": "**Stretch:** **True or false?** Steepness compares rates on these graphs.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Steepness compares rates on these grap..."},
+    "194": {"hint": "**Stretch:** Narrow tube fill — steeper depth?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Narrow tube fill — steeper depth?..."},
+    "195": {"hint": "**Stretch:** Wide tank same flow — shallower?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Wide tank same flow — shallower?..."},
+    "196": {"hint": "**Stretch:** Return journey distance from home to 0 — final point?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Return journey distance from home to 0 — final point?..."},
+    "197": {"hint": "**Stretch:** Two rests — two horizontal sections?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Two rests — two horizontal sections?..."},
+    "198": {"hint": "**Stretch:** Speed from (0,0) to (45 min, 15 km) — km/h?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Speed from (0,0) to (45 min, 15 km) — km/h?..."},
+    "199": {"hint": "**Stretch:** Depth drain to empty from 60 cm at 4 cm/min — time minutes?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Depth drain to empty from 60 cm at 4 cm/min — time minute..."},
+    "200": {"hint": "**Stretch:** Summarise in one sentence how steepness links to rate on distance–time and depth–time graphs.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Summarise in one sentence how steepness links to rate on ..."}
+  }
+}

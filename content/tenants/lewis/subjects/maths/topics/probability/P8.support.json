@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "When both flips show heads, we often call that outcome \"two heads\".",
+      "help": "Two heads in a row is one **combined outcome** of the experiment.\n\nWe describe it as **two heads** (or HH).\n\nName that result."
+    },
+    "2": {
+      "hint": "List HH, HT, TH, TT — how many?",
+      "help": "Four equally likely outcomes for two fair coins.\n\nAnswer **4**."
+    },
+    "3": {
+      "hint": "Two spins, two colours each time — list RR, RB, BR, BB.",
+      "help": "Four outcomes: **RR, RB, BR, BB**.\n\nFirst letter first spin, second letter second spin."
+    },
+    "4": {
+      "hint": "Heads on coin and 3 on dice can happen on the same turn.",
+      "help": "Yes — one trial can show **heads and 3** together.\n\nThey are **not** mutually exclusive in one round.\n\nAnswer **yes**."
+    },
+    "5": {
+      "hint": "Both events must happen — which word links them?",
+      "help": "**AND** means both parts must happen.\n\nExample: heads **and** rolling a 6."
+    },
+    "6": {
+      "hint": "Either this or that (separate options) — which word?",
+      "help": "**OR** means one or the other (for separate winning outcomes).\n\nUse OR when either outcome wins."
+    },
+    "7": {
+      "hint": "P(certain) = 1 — multiply two certainties?",
+      "help": "1 × 1 = 1 — still **certain**.\n\nBoth parts always happen → combined event always happens.\n\nAnswer **yes**."
+    },
+    "8": {
+      "hint": "Impossible AND anything — can both be true?",
+      "help": "If the first part cannot happen, **both** cannot happen.\n\nAnswer **no**."
+    },
+    "9": {
+      "hint": "Same as two-coin sample space size.",
+      "help": "Two fair coin flips produce four equally likely outcomes: HH, HT, TH, TT.\n\nThe possibility space has **4** members — use that as the denominator when finding probabilities."
+    },
+    "10": {
+      "hint": "One outcome HH out of four.",
+      "help": "Only one outcome, **HH**, gives two heads.\n\nThere are four equally likely outcomes in total.\n\nP(two heads) = $\\frac{1}{4}$."
+    },
+    "11": {
+      "hint": "Independent events: multiply 0.4 × 0.5.",
+      "help": "P(A and B) = $0.4 \\times 0.5 = 0.2$.\n\nUse **AND → multiply** for independent events."
+    },
+    "12": {
+      "hint": "Mutually exclusive OR means add the probabilities.",
+      "help": "**Add** — P(A or B) = P(A) + P(B) when they cannot both happen."
+    },
+    "13": {
+      "hint": "6 dice outcomes × 2 coin outcomes.",
+      "help": "Total outcomes = $6 \\times 2 = 12$.\n\nSample space table has 12 cells."
+    },
+    "14": {
+      "hint": "Table with rows H,T and columns for each coin flip pair — four cells.",
+      "help": "Build a sample space table for two coin flips.\n\nList **HH, HT, TH, TT** — four cells in a 2×2 table.\n\nEach cell is one equally likely outcome."
+    },
+    "15": {
+      "hint": "Count HH in your four-outcome table.",
+      "help": "From your four-outcome table, only **HH** counts as two heads.\n\nThat is 1 favourable outcome out of 4 in the sample space.\n\nP(two heads) = $\\frac{1}{4}$."
+    },
+    "16": {
+      "hint": "Two dice: 6 × 6 ordered pairs.",
+      "help": "When two dice are rolled, list ordered pairs (first dice, second dice).\n\nThere are $6 \\times 6 = 36$ cells in the sample space table for adding scores."
+    },
+    "17": {
+      "hint": "Six ways to total 7 out of 36 cells.",
+      "help": "P(sum 7) = $\\frac{6}{36} = \\frac{1}{6}$.\n\nCount on sample space table."
+    },
+    "18": {
+      "hint": "P(red) × P(red) for two independent spins: 0.5 × 0.5.",
+      "help": "P(red both times) = $0.5 \\times 0.5 = 0.25$.\n\nAND rule with independence."
+    },
+    "19": {
+      "hint": "Multiply 0.3 × 0.4 for independent red draw and green spin.",
+      "help": "The draw and the spin are **independent**, so multiply probabilities.\n\nP(red and green) = $0.3 \\times 0.4 = 0.12$.\n\nBoth must happen — use the AND rule."
+    },
+    "20": {
+      "hint": "Add 0.2 + 0.5 for mutually exclusive or.",
+      "help": "Events A and B cannot happen together, so for **A or B** you **add**.\n\nP(A or B) = $0.2 + 0.5 = 0.7$.\n\nDo not multiply for mutually exclusive OR."
+    },
+    "21": {
+      "hint": "P(6) × P(6) with two fair rolls: one sixth squared.",
+      "help": "Two independent rolls both showing 6: multiply $\\frac{1}{6} \\times \\frac{1}{6}$.\n\nP = $\\frac{1}{36}$.\n\nEach roll must succeed — AND rule."
+    },
+    "22": {
+      "hint": "Three heads: (one half) cubed.",
+      "help": "Three independent heads on fair coins: $\\left(\\frac{1}{2}\\right)^3$.\n\nP = $\\frac{1}{8}$.\n\nMultiply the probability on each flip."
+    },
+    "23": {
+      "hint": "Multiply along the path Heads then Tails: 0.5 × 0.5.",
+      "help": "P(H then T) = $0.5 \\times 0.5 = 0.25$.\n\nMultiply branch probabilities on the path."
+    },
+    "24": {
+      "hint": "Mutually exclusive: add 0.35 and 0.25.",
+      "help": "A and B are mutually exclusive — at most one can happen, so add for **or**.\n\nP(A or B) = $0.35 + 0.25 = 0.6$.\n\nCheck the sum is not above 1."
+    },
+    "25": {
+      "hint": "HT and TH are different outcomes — not just \"one of each\".",
+      "help": "Mia treats HT and TH as one outcome → wrong denominator.\n\nFour outcomes, not three.\n\nExplain equal likelihood needs **four** slots."
+    },
+    "26": {
+      "hint": "Independent AND uses multiply, not add.",
+      "help": "Say **false**.\n\nP(both) = P(A) × P(B), not addition.\n\nExplain AND rule."
+    },
+    "27": {
+      "hint": "Dice 6 and coin head can happen together — so not mutually exclusive OR.",
+      "help": "Adding $\\frac{1}{6} + \\frac{1}{2}$ double-counts (6, H).\n\nNeed sample space or P(A) + P(B) − P(both).\n\nExplain overlap."
+    },
+    "28": {
+      "hint": "If A happens, can B still happen on same trial when exclusive?",
+      "help": "Mutually exclusive → if A happens, B cannot → **not independent**.\n\nAnswer **never** (for same trial).\n\nExplain difference."
+    },
+    "29": {
+      "hint": "Multiply grid uses products; add grid uses sums — different numbers in cells.",
+      "help": "Multiplication table cells are **products** (e.g. 3×4=12), not sums (7).\n\nExplain different cell values."
+    },
+    "30": {
+      "hint": "From one point, all branches cover every possibility — probabilities sum to 1.",
+      "help": "First flip branches H and T must total 1.\n\nSame for second stage from each node.\n\nExplain why branches from one split add to 1."
+    },
+    "31": {
+      "hint": "Event and not event are complements.",
+      "help": "Sloan is **correct**.\n\nExample: P(rain) + P(no rain) = 1.\n\nUse complement idea."
+    },
+    "32": {
+      "hint": "AND = multiply when independent; OR = add when mutually exclusive.",
+      "help": "Explain **multiply** for both happening (independent).\n\nExplain **add** for one or other when they cannot overlap.\n\nWarn when OR is wrong (overlap)."
+    },
+    "33": {
+      "hint": "P(head) × P(number 5 or 6) — dice greater than 4 means 5 or 6.",
+      "help": "P(head) = $\\frac{1}{2}$. P(>4) = $\\frac{2}{6} = \\frac{1}{3}$.\n\nP = $\\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6}$.\n\nOr count cells in 12-outcome table."
+    },
+    "34": {
+      "hint": "Only (1,1) gives 2 and (6,6) gives 12 — two cells out of 36.",
+      "help": "P(sum 2 or 12) = $\\frac{1}{36} + \\frac{1}{36} = \\frac{2}{36} = \\frac{1}{18}$.\n\nMutually exclusive totals — add."
+    },
+    "35": {
+      "hint": "With replacement: P(red) stays three fifths each draw.",
+      "help": "P(red) = $\\frac{3}{5}$ each time.\n\nP(both red) = $\\frac{3}{5} \\times \\frac{3}{5} = \\frac{9}{25}$."
+    },
+    "36": {
+      "hint": "Without replacement: first yellow four tenths, then second yellow from what is left.",
+      "help": "P(Y then Y) = $\\frac{4}{10} \\times \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$.\n\nDescribe tree: $\\frac{4}{10}$ then $\\frac{3}{9}$ on second branch."
+    },
+    "37": {
+      "hint": "Same colour both times: four colours each with (one quarter) squared, added?",
+      "help": "P(same) = $4 \\times \\left(\\frac{1}{4}\\right)^2 = 4 \\times \\frac{1}{16} = \\frac{1}{4}$.\n\nOr 1 − P(different colours)."
+    },
+    "38": {
+      "hint": "Both wins: 0.6×0.7; neither: 0.4×0.3.",
+      "help": "P(win both) = $0.6 \\times 0.7 = 0.42$.\n\nP(win neither) = $0.4 \\times 0.3 = 0.12$."
+    },
+    "39": {
+      "hint": "P(both red) + P(both blue) without replacement — use two branches each colour.",
+      "help": "P(both red) = $\\frac{5}{8} \\times \\frac{4}{7}$.\n\nP(both blue) = $\\frac{3}{8} \\times \\frac{2}{7}$.\n\nAdd the two (mutually exclusive same-colour pairs)."
+    },
+    "40": {
+      "hint": "Count products > 20 on 6×6 multiplication sample space.",
+      "help": "Build product grid; count favourable cells.\n\nDivide by 36.\n\nShow count and fraction."
+    },
+    "41": {
+      "hint": "Find P(both good), then 1 minus that for at least one defective.",
+      "help": "P(both good) = $\\frac{7}{10} \\times \\frac{6}{9}$.\n\nP(at least one defective) = $1 -$ P(both good).\n\nUse complement."
+    },
+    "42": {
+      "hint": "State independent or without replacement, draw table or tree, solve one probability.",
+      "help": "Write your own problem clearly.\n\nShow sample space or tree, label probabilities, compute one combined probability with full working."
+    },
+    "43": {
+      "hint": "List HH, HT, TH, TT and count how many match.",
+      "help": "There are four equally likely outcomes.\n\nExactly one head happens for HT and TH → 2 out of 4 = 1/2.\n\nCount outcomes that fit your question."
+    },
+    "44": {
+      "hint": "List HH, HT, TH, TT and count how many match.",
+      "help": "There are four equally likely outcomes.\n\nExactly one head happens for HT and TH → 2 out of 4 = 1/2.\n\nCount outcomes that fit your question."
+    },
+    "45": {
+      "hint": "With replacement, multiply P(red) by P(blue) using sixths and tenths.",
+      "help": "Draw a tree: first branches $\\frac{6}{10}$ and $\\frac{4}{10}$, then the same split again because of replacement.\n\nThe path red→blue is $\\frac{6}{10} \\times \\frac{4}{10}$.\n\nMultiply along the path — do not add."
+    },
+    "46": {
+      "hint": "Both picks blue: square the probability of blue on one pick.",
+      "help": "With replacement, the second pick matches the first.\n\nP(blue) = $\\frac{4}{10}$ each time.\n\nP(both blue) = $\\frac{4}{10} \\times \\frac{4}{10}$."
+    },
+    "47": {
+      "hint": "Order matters: green first, red second — multiply the two fractions.",
+      "help": "P(green) = $\\frac{7}{10}$, P(red) = $\\frac{3}{10}$ with replacement.\n\nMultiply for **green and red** in that order.\n\nUse the AND rule on the tree path."
+    },
+    "48": {
+      "hint": "No replacement: after a red, only 9 counters remain with 4 blue.",
+      "help": "First branch red = $\\frac{6}{10}$.\n\nSecond branch blue = $\\frac{4}{9}$ because one red left the bag.\n\nMultiply $\\frac{6}{10} \\times \\frac{4}{9}$."
+    },
+    "49": {
+      "hint": "Second red branch uses 5 reds out of 9 counters.",
+      "help": "P(red then red) = $\\frac{6}{10} \\times \\frac{5}{9}$.\n\nLabel both stages on a tree without replacement.\n\nSimplify the product fraction."
+    },
+    "50": {
+      "hint": "Independent wins: multiply 0.6 and 0.5.",
+      "help": "Both games must be won.\n\nP(win both) = $0.6 \\times 0.5$.\n\nThis is the AND rule for independent events."
+    },
+    "51": {
+      "hint": "Lose both: multiply the lose probabilities 0.4 and 0.5.",
+      "help": "P(lose game 1) = $1 - 0.6 = 0.4$.\n\nP(lose game 2) = $1 - 0.5 = 0.5$.\n\nMultiply for lose **and** lose."
+    },
+    "52": {
+      "hint": "Rolling 1 and rolling 6 cannot happen together on one dice.",
+      "help": "These outcomes are **mutually exclusive** on a single roll.\n\nP(1 or 6) = $\\frac{1}{6} + \\frac{1}{6}$.\n\nAdd because they cannot overlap."
+    },
+    "53": {
+      "hint": "Even means 2, 4, or 6; 5 is separate — add the fractions.",
+      "help": "P(even) = $\\frac{3}{6}$, P(5) = $\\frac{1}{6}$.\n\nNo overlap on one roll, so add.\n\nSimplify $\\frac{3}{6} + \\frac{1}{6}$."
+    },
+    "54": {
+      "hint": "Rain and late both happening — multiply the two decimals.",
+      "help": "Independent events use **AND → multiply**.\n\n$0.35 \\times 0.2$ gives P(both).\n\nDo not add here."
+    },
+    "55": {
+      "hint": "For OR with overlap: add, then subtract P(both).",
+      "help": "Use $P(A) + P(B) - P(A \\text{ and } B)$.\n\nYou already found P(both) = $0.07$.\n\nCompute $0.35 + 0.2 - 0.07$."
+    },
+    "56": {
+      "hint": "Count sum-5 and sum-9 cells on a dice table — totals differ.",
+      "help": "Sum 5 and sum 9 cannot happen on the same pair.\n\nCount favourable ordered pairs out of 36.\n\nAdd the two counts before dividing by 36."
+    },
+    "57": {
+      "hint": "Half the coin outcomes pair with half the dice (even).",
+      "help": "P(head) = $\\frac{1}{2}$, P(even) = $\\frac{3}{6}$.\n\nMultiply for head **and** even.\n\nOr count 3 cells out of 12 in a table."
+    },
+    "58": {
+      "hint": "Different colours: red-then-blue path plus blue-then-red path.",
+      "help": "Without replacement, multiply along each ordered path.\n\nAdd P(RB) and P(BR) — the paths cannot both happen.\n\nTwo branches on the tree."
+    },
+    "59": {
+      "hint": "Complement: 1 minus P(both blue with replacement).",
+      "help": "P(at least one red) = $1 - P(\\text{both blue})$.\n\nP(both blue) = $\\left(\\frac{3}{5}\\right)^2$ with replacement.\n\nSubtract from 1."
+    },
+    "60": {
+      "hint": "Yellow first: four tenths; then green from what remains.",
+      "help": "P(Y then G) = $\\frac{4}{10} \\times \\frac{6}{9}$.\n\nDraw the tree without replacement.\n\nMultiply along one path."
+    },
+    "61": {
+      "hint": "Does the second pick still see the same bag after no replacement?",
+      "help": "After a pick without replacement, counts change.\n\nSecond branches use a **smaller** denominator.\n\nAnswer **false** and explain why."
+    },
+    "62": {
+      "hint": "Mention removing a counter and updating fractions on stage two.",
+      "help": "The first pick changes how many counters remain.\n\nTree labels on the second stage must use the new totals.\n\nExplain that denominators shrink."
+    },
+    "63": {
+      "hint": "B not happening has probability 0.6; multiply by P(A).",
+      "help": "P(not B) = $1 - 0.4 = 0.6$.\n\nIndependent: P(A and not B) = $0.5 \\times 0.6$.\n\nMultiply."
+    },
+    "64": {
+      "hint": "Not green each spin means red or blue: probability two thirds.",
+      "help": "P(not green one spin) = $\\frac{2}{3}$.\n\nTwo independent spins: square that probability.\n\nMultiply for **and**."
+    },
+    "65": {
+      "hint": "Heart and diamond are different suits — one card cannot be both.",
+      "help": "P(heart) = $\\frac{13}{52}$, P(diamond) = $\\frac{13}{52}$.\n\nMutually exclusive on one draw → **add**.\n\nSimplify to a single fraction."
+    },
+    "66": {
+      "hint": "3 and 6 are different faces on one roll — add one sixth twice.",
+      "help": "One dice cannot show 3 and 6 together.\n\nP(3 or 6) = $\\frac{1}{6} + \\frac{1}{6}$.\n\nAdd the probabilities."
+    },
+    "67": {
+      "hint": "At least one red: start from 1 minus P(both not red).",
+      "help": "P(not red on spinner 1) = $0.8$, on spinner 2 = $0.5$.\n\nP(both not red) = $0.8 \\times 0.5$.\n\nSubtract from 1."
+    },
+    "68": {
+      "hint": "One red one blue: RB path plus BR path on a small tree.",
+      "help": "Without replacement from 1 red and 2 blue, list both orders.\n\nMultiply along each path, then add.\n\nTwo favourable paths."
+    },
+    "69": {
+      "hint": "Prime faces are 2, 3, 5 — three out of six on the dice.",
+      "help": "P(tail) = $\\frac{1}{2}$, P(prime) = $\\frac{3}{6}$.\n\nMultiply for tail **and** prime.\n\nUse the 12-outcome table if you prefer."
+    },
+    "70": {
+      "hint": "Complement of all heads: 1 minus (one half) cubed.",
+      "help": "P(all heads) = $\\left(\\frac{1}{2}\\right)^3$.\n\nP(at least one tail) = $1 - P(\\text{all heads})$.\n\nUse complement."
+    },
+    "71": {
+      "hint": "Scan the multiplication table for products 12 and 18.",
+      "help": "List ordered pairs giving product 12, then product 18.\n\nAdd the counts — outcomes are different cells.\n\nDivide by 36."
+    },
+    "72": {
+      "hint": "With replacement, P(red) stays four fifths each pick.",
+      "help": "P(red) = $\\frac{4}{5}$ each time.\n\nSquare for red **and** red.\n\nMultiply on the tree."
+    },
+    "73": {
+      "hint": "Second red: three reds left out of four counters.",
+      "help": "P(first red) = $\\frac{4}{5}$.\n\nP(second red) = $\\frac{3}{4}$ without replacement.\n\nMultiply the branch probabilities."
+    },
+    "74": {
+      "hint": "C and D cannot overlap — add 0.12 and 0.33.",
+      "help": "Mutually exclusive OR means **add**.\n\n$0.12 + 0.33$ gives P(C or D).\n\nNo subtraction needed."
+    },
+    "75": {
+      "hint": "Independent AND: multiply 0.8 by 0.25.",
+      "help": "Both events must happen.\n\n$0.8 \\times 0.25$ is P(A and B).\n\nUse multiplication, not addition."
+    },
+    "76": {
+      "hint": "Same chocolate probability each stage — square 0.7.",
+      "help": "Independent picks: P(chocolate both) = $0.7 \\times 0.7$.\n\nFollow one path on the tree.\n\nMultiply."
+    },
+    "77": {
+      "hint": "Does the first pick change what is left for the second?",
+      "help": "Without replacement, the second pick depends on the first.\n\nThey are **not** independent.\n\nAnswer **never** for treating them as independent."
+    },
+    "78": {
+      "hint": "Walk the tree: multiply each branch label on your path.",
+      "help": "A path like Red→Green means first branch × second branch.\n\nThat product is P(that full sequence).\n\nExplain multiplication along the route."
+    },
+    "79": {
+      "hint": "Only TT has zero heads — one outcome out of four.",
+      "help": "List HH, HT, TH, TT.\n\nExactly zero heads is just **TT**.\n\nP = $\\frac{1}{4}$."
+    },
+    "80": {
+      "hint": "Exactly one red: red-then-not-red plus not-red-then-red.",
+      "help": "Use $2 \\times 0.6 \\times 0.4$ for exactly one red in two spins.\n\nTwo separate paths on a tree.\n\nAdd if you split cases."
+    },
+    "81": {
+      "hint": "Both blue without replacement: two tenths then one ninth.",
+      "help": "P(first blue) = $\\frac{2}{10}$.\n\nP(second blue) = $\\frac{1}{9}$.\n\nMultiply for the BB path."
+    },
+    "82": {
+      "hint": "Head or 6 overlaps on (H,6) — subtract P(both).",
+      "help": "P(head) = $\\frac{1}{2}$, P(6) = $\\frac{1}{6}$, P(both) = $\\frac{1}{12}$.\n\nUse $\\frac{1}{2} + \\frac{1}{6} - \\frac{1}{12}$.\n\nDo not simply add the first two."
+    },
+    "83": {
+      "hint": "Four kings and four queens — eight favourable cards.",
+      "help": "P(king) = $\\frac{4}{52}$, P(queen) = $\\frac{4}{52}$.\n\nOne card cannot be both.\n\nAdd, then simplify."
+    },
+    "84": {
+      "hint": "Fail both: multiply 0.1 and 0.2.",
+      "help": "P(fail test 1) = $0.1$, P(fail test 2) = $0.2$.\n\nIndependent → multiply for fail **and** fail.\n\nAND rule."
+    },
+    "85": {
+      "hint": "Same colour: both white or both black with replacement.",
+      "help": "P(both white) = $\\left(\\frac{1}{2}\\right)^2$.\n\nP(both black) same.\n\nAdd the two mutually exclusive paths."
+    },
+    "86": {
+      "hint": "Black then black: seven tenths times six ninths.",
+      "help": "Without replacement: $\\frac{7}{10} \\times \\frac{6}{9}$.\n\nTree second branch uses 9 counters.\n\nMultiply."
+    },
+    "87": {
+      "hint": "Can head and 6 happen together? That breaks simple adding.",
+      "help": "Adding only works for **mutually exclusive** OR.\n\nMany pairs overlap in combined experiments.\n\nSay **false** and mention overlap."
+    },
+    "88": {
+      "hint": "Independent rolls: multiply one sixth by one sixth.",
+      "help": "P(2 on first) = $\\frac{1}{6}$, P(5 on second) = $\\frac{1}{6}$.\n\nMultiply for **and**.\n\nAnswer $\\frac{1}{36}$."
+    },
+    "89": {
+      "hint": "Seven and eleven are different totals — count cells for each.",
+      "help": "P(sum 7) = $\\frac{6}{36}$, P(sum 11) = $\\frac{2}{36}$.\n\nTotals cannot tie on one pair.\n\nAdd the fractions."
+    },
+    "90": {
+      "hint": "Multiply stage-one 0.3 by stage-two 0.5 on the tree path.",
+      "help": "Independent stages → multiply along A then B.\n\n$0.3 \\times 0.5$.\n\nThat is one labelled route."
+    },
+    "91": {
+      "hint": "Apple first: seven tenths; then orange from nine left.",
+      "help": "Without replacement: $\\frac{7}{10} \\times \\frac{3}{9}$.\n\nOrder apple→orange matters.\n\nMultiply branches."
+    },
+    "92": {
+      "hint": "With replacement, square three tenths for both oranges.",
+      "help": "P(orange) = $\\frac{3}{10}$ each pick.\n\nP(both orange) = $\\left(\\frac{3}{10}\\right)^2$.\n\nReplacement keeps branches the same."
+    },
+    "93": {
+      "hint": "Multiply 0.45 by 0.55 for the two independent set results.",
+      "help": "Both specified results must happen.\n\n$0.45 \\times 0.55$.\n\nIndependent AND rule."
+    },
+    "94": {
+      "hint": "Three separate winning sections on one spin — add three tenths.",
+      "help": "Only one section can land face up.\n\nP(2 or 5 or 8) = $\\frac{1}{10} + \\frac{1}{10} + \\frac{1}{10}$.\n\nMutually exclusive OR."
+    },
+    "95": {
+      "hint": "Doubles and sum 7 do not share a pair — add the two probabilities.",
+      "help": "P(double) = $\\frac{6}{36}$, P(sum 7) = $\\frac{6}{36}$.\n\nCheck no overlap, then add.\n\nSimplify."
+    },
+    "96": {
+      "hint": "Contrast one route (multiply) with two separate routes (add).",
+      "help": "Along **one** path, every stage must happen → multiply.\n\nFor **either** path A or path B (exclusive), add path totals.\n\nExplain both rules."
+    },
+    "97": {
+      "hint": "Without replacement still allows two picks — what changes?",
+      "help": "Both picks still occur; only probabilities update.\n\nSay **false** if the statement denies that.\n\nClarify what without replacement means."
+    },
+    "98": {
+      "hint": "With replacement: eight twentieths times twelve twentieths.",
+      "help": "P(red) = $\\frac{8}{20}$, P(blue) = $\\frac{12}{20}$ each time.\n\nMultiply for red→blue.\n\nSimplify the product."
+    },
+    "99": {
+      "hint": "Without replacement: second branch uses 19 counters.",
+      "help": "P(red) = $\\frac{8}{20}$, then P(blue) = $\\frac{12}{19}$.\n\nMultiply on the tree.\n\nDenominator drops by one."
+    },
+    "100": {
+      "hint": "Compute both-red with replacement and without — compare.",
+      "help": "With replacement: $\\left(\\frac{2}{3}\\right)^2$.\n\nWithout: $\\frac{2}{3} \\times \\frac{1}{2}$.\n\nShow the two answers differ."
+    },
+    "101": {
+      "hint": "Head and 4: one half times one sixth.",
+      "help": "Multiply P(head) and P(4).\n\n$\\frac{1}{2} \\times \\frac{1}{6}$.\n\nOne cell in a 12-outcome table."
+    },
+    "102": {
+      "hint": "Win once: win-lose or lose-win on two independent tries.",
+      "help": "Use $2 \\times \\frac{1}{3} \\times \\frac{2}{3}$.\n\nTwo paths on a tree.\n\nExactly one win."
+    },
+    "103": {
+      "hint": "Both yellow: three twelfths times two elevenths.",
+      "help": "Without replacement: $\\frac{3}{12} \\times \\frac{2}{11}$.\n\nMultiply the yellow→yellow path.\n\nSimplify."
+    },
+    "104": {
+      "hint": "At least one blue: 1 minus P(both red with replacement).",
+      "help": "P(both red) = $\\left(\\frac{9}{10}\\right)^2$.\n\nSubtract from 1 for at least one blue.\n\nComplement rule."
+    },
+    "105": {
+      "hint": "M and N exclusive — add 0.4 and 0.35.",
+      "help": "Mutually exclusive OR → add.\n\n$0.4 + 0.35$.\n\nNo overlap term needed."
+    },
+    "106": {
+      "hint": "J or K with overlap: add minus P(J and K).",
+      "help": "P(J and K) = $0.6 \\times 0.5 = 0.3$.\n\n$0.6 + 0.5 - 0.3$.\n\nIndependent OR formula."
+    },
+    "107": {
+      "hint": "HH and TT are separate outcomes — add one quarter plus one quarter.",
+      "help": "P(HH) = $\\frac{1}{4}$, P(TT) = $\\frac{1}{4}$.\n\nCannot get both at once.\n\nAdd."
+    },
+    "108": {
+      "hint": "Square one quarter for two independent red picks.",
+      "help": "P(red each time) = $\\frac{1}{4}$.\n\nP(both red) = $\\left(\\frac{1}{4}\\right)^2$.\n\nMultiply."
+    },
+    "109": {
+      "hint": "Heart then club: three tenths times seven ninths.",
+      "help": "Without replacement from 10 tokens.\n\nMultiply heart→club branch probabilities.\n\nTree shows shrinking totals."
+    },
+    "110": {
+      "hint": "Independent means one does not block the other — can both happen?",
+      "help": "Independent events can occur together.\n\nMutually exclusive means they cannot.\n\nAnswer **never** for always being exclusive."
+    },
+    "111": {
+      "hint": "Odd or greater than 4 — subtract overlap on face 5.",
+      "help": "P(odd) = $\\frac{3}{6}$, P(>4) = $\\frac{2}{6}$, overlap P(5) = $\\frac{1}{6}$.\n\nAdd then subtract overlap.\n\nSimplify."
+    },
+    "112": {
+      "hint": "Independent blue spins: multiply 0.35 by itself.",
+      "help": "P(both blue) = $0.35 \\times 0.35$.\n\nAND on two spinners.\n\nSquare if you prefer."
+    },
+    "113": {
+      "hint": "Neither blue: multiply 0.65 by 0.65.",
+      "help": "P(not blue) = $0.65$ each spinner.\n\nSquare for neither blue.\n\nIndependent AND."
+    },
+    "114": {
+      "hint": "Blue then red without replacement: six tenths times four ninths.",
+      "help": "Path B→R on the tree.\n\n$\\frac{6}{10} \\times \\frac{4}{9}$.\n\nMultiply branches."
+    },
+    "115": {
+      "hint": "Write T on flip 1 and H on flip 2 — multiply half times half.",
+      "help": "Path TH has probability $\\frac{1}{2} \\times \\frac{1}{2}$.\n\nName the path and give $\\frac{1}{4}$.\n\nTree or sample space."
+    },
+    "116": {
+      "hint": "Hit both shots: 0.8 squared.",
+      "help": "Independent hits: $0.8 \\times 0.8$.\n\nBoth must succeed.\n\nMultiply."
+    },
+    "117": {
+      "hint": "When paths cannot both happen, add their path totals.",
+      "help": "Each path probability comes from multiplying branches.\n\nSeparate exclusive paths are combined by **adding**.\n\nContrast with multiplying along one path."
+    },
+    "118": {
+      "hint": "Sections 1 and 2 are two of four equal parts.",
+      "help": "P(1) = $\\frac{1}{4}$, P(2) = $\\frac{1}{4}$.\n\nMutually exclusive on one spin.\n\nAdd to get P(1 or 2)."
+    },
+    "119": {
+      "hint": "With replacement: one fifth times four fifths.",
+      "help": "P(red) = $\\frac{1}{5}$, P(blue) = $\\frac{4}{5}$ each draw.\n\nMultiply red→blue.\n\nTree branches repeat."
+    },
+    "120": {
+      "hint": "Without replacement: after red, all four remaining are blue.",
+      "help": "P(red) = $\\frac{1}{5}$, then P(blue) = $\\frac{4}{4}$.\n\nMultiply.\n\nSecond branch is certain blue after red."
+    },
+    "121": {
+      "hint": "Sums 11 and 12 only — count pairs on the dice table.",
+      "help": "Sum 11 has 2 ordered pairs, sum 12 has 1.\n\nAdd counts, divide by 36.\n\nMutually exclusive totals."
+    },
+    "122": {
+      "hint": "Square 0.02 for two independent months.",
+      "help": "P(both sound) = $0.02 \\times 0.02$.\n\nVery small — multiply decimals.\n\nIndependent AND."
+    },
+    "123": {
+      "hint": "Add one eighth and three eighths.",
+      "help": "Mutually exclusive on one trial.\n\n$\\frac{1}{8} + \\frac{3}{8}$.\n\nSimplify."
+    },
+    "124": {
+      "hint": "White then black path: six tenths times four ninths.",
+      "help": "Without replacement tree.\n\n$\\frac{6}{10} \\times \\frac{4}{9}$.\n\nMultiply along W→B."
+    },
+    "125": {
+      "hint": "OR needs adding (sometimes); AND along a path needs multiply.",
+      "help": "Multiplication finds P(A and B along a route).\n\nIt does **not** give P(A or B).\n\nAnswer **false**."
+    },
+    "126": {
+      "hint": "Tail on both flips: one quarter.",
+      "help": "P(T) = $\\frac{1}{2}$ each flip.\n\n$\\frac{1}{2} \\times \\frac{1}{2}$.\n\nIndependent coin flips."
+    },
+    "127": {
+      "hint": "Blue probability is six eighths — square with replacement.",
+      "help": "P(blue) = $\\frac{6}{8}$ each pick.\n\nSquare for both blue.\n\nSimplify $\\frac{9}{16}$."
+    },
+    "128": {
+      "hint": "Without replacement: six eighths then five sevenths.",
+      "help": "P(B then B) = $\\frac{6}{8} \\times \\frac{5}{7}$.\n\nSecond branch uses 7 counters.\n\nMultiply."
+    },
+    "129": {
+      "hint": "Exactly two heads: three paths HHT, HTH, THH.",
+      "help": "Three of eight equally likely triples.\n\nP = $\\frac{3}{8}$.\n\nList or use combinations idea."
+    },
+    "130": {
+      "hint": "Head with 1 or 2 — two cells in a 12-outcome table.",
+      "help": "Count (H,1) and (H,2).\n\nTwo favourable out of 12.\n\nProbability $\\frac{1}{6}$."
+    },
+    "131": {
+      "hint": "Given first red, five blues among nine counters remain.",
+      "help": "After red, 9 counters with 5 blue.\n\nP(second blue | first red) = $\\frac{5}{9}$.\n\nUse the conditional branch."
+    },
+    "132": {
+      "hint": "Replacement puts the bag back — second red still four tenths.",
+      "help": "With replacement, picks are independent.\n\nP(second red | first red) = P(red) = $\\frac{4}{10}$.\n\nSame branch label."
+    },
+    "133": {
+      "hint": "Without replacement after red: three reds among nine.",
+      "help": "First red leaves 3 red of 9.\n\nP(second red | first red) = $\\frac{3}{9}$.\n\nUpdate the tree."
+    },
+    "134": {
+      "hint": "Neither: multiply complements 0.7 and 0.4.",
+      "help": "P(not A) = $0.7$, P(not B) = $0.4$.\n\nMultiply for neither.\n\nIndependent AND of complements."
+    },
+    "135": {
+      "hint": "Three exclusive colours on one spin — add the three probabilities.",
+      "help": "Only one colour shows.\n\n$0.25 + 0.35 + 0.15$.\n\nMutually exclusive OR."
+    },
+    "136": {
+      "hint": "Win exactly one: 2 × 0.55 × 0.45.",
+      "help": "Two paths: win-lose or lose-win.\n\n$2 \\times 0.55 \\times 0.45$.\n\nIndependent matches."
+    },
+    "137": {
+      "hint": "Putting the counter back restores original counts.",
+      "help": "Replacement means the second pick faces the same mix.\n\nFirst pick does not change odds.\n\nExplain independence."
+    },
+    "138": {
+      "hint": "Head and 1: multiply one half by one sixth.",
+      "help": "Classic coin–dice table cell.\n\n$\\frac{1}{2} \\times \\frac{1}{6}$.\n\nOne outcome of twelve."
+    },
+    "139": {
+      "hint": "Tail and even: half times half.",
+      "help": "P(tail) = $\\frac{1}{2}$, P(even) = $\\frac{3}{6}$.\n\nMultiply.\n\n$\\frac{1}{4}$."
+    },
+    "140": {
+      "hint": "Different colours: 1 minus P(both same) with replacement.",
+      "help": "P(both red) = $\\left(\\frac{1}{2}\\right)^2$, same for blue.\n\nSubtract both same from 1.\n\nOr add RB and BR paths."
+    },
+    "141": {
+      "hint": "Without replacement: RB and BR paths on three-six-five tree.",
+      "help": "P(RB) = $\\frac{3}{6} \\times \\frac{3}{5}$.\n\nDouble for BR order.\n\nAdd two paths."
+    },
+    "142": {
+      "hint": "Sum 2 has one pair; sum 3 has two — add over 36.",
+      "help": "P(sum 2) = $\\frac{1}{36}$, P(sum 3) = $\\frac{2}{36}$.\n\nDifferent totals.\n\nAdd."
+    },
+    "143": {
+      "hint": "Trees work when probabilities change after picks too.",
+      "help": "Without-replacement questions often **need** trees.\n\nSay **false** to trees-only-for-independent.\n\nExplain briefly."
+    },
+    "144": {
+      "hint": "A and C are exclusive — add 0.1 and 0.5.",
+      "help": "On one spin, only one of $A$, $B$, or $C$ can happen.\n\nFor **A or C**, add their probabilities because those paths do not overlap.\n\n$0.1 + 0.5 = 0.6$."
+    },
+    "145": {
+      "hint": "Square 0.85 for two independent successes.",
+      "help": "P(both succeed) = $0.85 \\times 0.85$.\n\nMultiply.\n\nIndependent AND."
+    },
+    "146": {
+      "hint": "Purple then green without replacement: three tenths times seven ninths.",
+      "help": "Path P→G on tree.\n\n$\\frac{3}{10} \\times \\frac{7}{9}$.\n\nMultiply."
+    },
+    "147": {
+      "hint": "Square three tenths with replacement.",
+      "help": "P(purple) = $\\frac{3}{10}$ each time.\n\n$\\left(\\frac{3}{10}\\right)^2$.\n\nReplacement."
+    },
+    "148": {
+      "hint": "Red six or blue one — subtract P(both on one pair).",
+      "help": "P(red 6) = $\\frac{1}{6}$, P(blue 1) = $\\frac{1}{6}$, P(both) = $\\frac{1}{36}$.\n\nAdd subtract formula.\n\n$\\frac{11}{36}$."
+    },
+    "149": {
+      "hint": "At least one 6: 1 minus P(no six on either dice).",
+      "help": "P(not 6) = $\\frac{5}{6}$ each dice.\n\nSquare for neither six.\n\nSubtract from 1."
+    },
+    "150": {
+      "hint": "Exactly one six: two dice paths — first only or second only.",
+      "help": "Use $2 \\times \\frac{1}{6} \\times \\frac{5}{6}$.\n\nOr count 10 cells of 36.\n\nExactly one six."
+    },
+    "151": {
+      "hint": "Multiply three halves for H, T, H in order.",
+      "help": "Independent flips: $\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2}$.\n\nOne specific order.\n\n$\\frac{1}{8}$."
+    },
+    "152": {
+      "hint": "Multiply three shrinking red fractions: eight tenth, seven ninth, six eighth.",
+      "help": "Without replacement three picks.\n\n$\\frac{8}{10} \\times \\frac{7}{9} \\times \\frac{6}{8}$.\n\nCancel before multiplying."
+    },
+    "153": {
+      "hint": "Two reds from four counters: half times one third.",
+      "help": "P(RR) = $\\frac{2}{4} \\times \\frac{1}{3}$.\n\nSmall tree without replacement.\n\n$\\frac{1}{6}$."
+    },
+    "154": {
+      "hint": "Fewer counters remain — mention the new denominator.",
+      "help": "First pick reduces the total count.\n\nSecond branches use the smaller whole.\n\nExplain updating labels."
+    },
+    "155": {
+      "hint": "Divide 0.12 by 0.4 to find P(B).",
+      "help": "P(A and B) = P(A) × P(B).\n\n$0.12 \\div 0.4$ gives P(B).\n\nRearrange AND rule."
+    },
+    "156": {
+      "hint": "Use P(A)+P(B)-P(both)=P(or) to find overlap.",
+      "help": "Plug in 0.5, 0.7, 0.9.\n\nSolve $0.5 + 0.7 - P(\\text{both}) = 0.9$.\n\nOverlap probability."
+    },
+    "157": {
+      "hint": "Three of four coin outcomes have at least one H.",
+      "help": "HH, HT, TH work; TT fails.\n\n$\\frac{3}{4}$.\n\nSample space count."
+    },
+    "158": {
+      "hint": "Square two sevenths with replacement.",
+      "help": "P(both red) = $\\left(\\frac{2}{7}\\right)^2$.\n\n$\\frac{4}{49}$.\n\nMultiply."
+    },
+    "159": {
+      "hint": "Two reds from seven: two sevenths times one sixth.",
+      "help": "Without replacement.\n\n$\\frac{2}{7} \\times \\frac{1}{6}$.\n\n$\\frac{1}{21}$."
+    },
+    "160": {
+      "hint": "Square seven tenths for both blue with replacement.",
+      "help": "P(blue) = $\\frac{7}{10}$.\n\n$\\left(\\frac{7}{10}\\right)^2$.\n\nAmira replaces each time."
+    },
+    "161": {
+      "hint": "At least one red: 1 minus P(both blue without replacement).",
+      "help": "P(both blue) = $\\frac{7}{10} \\times \\frac{6}{9}$.\n\nSubtract from 1.\n\nComplement."
+    },
+    "162": {
+      "hint": "Red on first spinner two fifths; blue on second three fifths.",
+      "help": "Multiply $\\frac{2}{5} \\times \\frac{3}{5}$.\n\nIndependent spinners.\n\nOne cell in combined table."
+    },
+    "163": {
+      "hint": "Neither win: multiply 0.9 and 0.95.",
+      "help": "P(lose A) = $0.9$, P(lose B) = $0.95$.\n\nMultiply for neither wins.\n\nIndependent."
+    },
+    "164": {
+      "hint": "Chocolate and vanilla both: 0.6 times 0.25.",
+      "help": "Both flavours must be picked on their stages, and the stages are independent.\n\nMultiply the probabilities on the tree path.\n\n$0.6 \\times 0.25 = 0.15$."
+    },
+    "165": {
+      "hint": "With replacement, order products use the same two factors.",
+      "help": "P(R) × P(B) equals P(B) × P(R) when branches reset.\n\nSay **true** for with replacement.\n\nExplain factor order."
+    },
+    "166": {
+      "hint": "Product 1 only (1,1); product 36 only (6,6).",
+      "help": "Two cells out of 36.\n\nP = $\\frac{2}{36}$.\n\nMutually exclusive products."
+    },
+    "167": {
+      "hint": "Blue then red without replacement: one tenth times nine ninths.",
+      "help": "P(B) = $\\frac{1}{10}$, then P(R) = $\\frac{9}{9}$.\n\nMultiply.\n\n$\\frac{1}{10}$."
+    },
+    "168": {
+      "hint": "With replacement: one tenth times nine tenths.",
+      "help": "P(B then R) = $\\frac{1}{10} \\times \\frac{9}{10}$.\n\nBranches reset.\n\n$\\frac{9}{100}$."
+    },
+    "169": {
+      "hint": "Odd on dice half the time; multiply by head half.",
+      "help": "P(odd) = $\\frac{1}{2}$, P(head) = $\\frac{1}{2}$.\n\nMultiply.\n\n$\\frac{1}{4}$."
+    },
+    "170": {
+      "hint": "Table cells match tree paths if labels match.",
+      "help": "Both methods list the same equally likely outcomes.\n\nCounting matches multiplying branches.\n\nExplain same fraction."
+    },
+    "171": {
+      "hint": "Independent OR: 0.2+0.2 minus 0.04.",
+      "help": "First find $P(A \\text{ and } B)=0.2 \\times 0.2=0.04$ because the events are independent.\n\nThen $P(A \\text{ or } B)=0.2+0.2-0.04$.\n\nSubtract the overlap so you do not count it twice."
+    },
+    "172": {
+      "hint": "Mutually exclusive with positive probability — can both happen?",
+      "help": "X and Y together impossible.\n\nP(X and Y) = 0.\n\nExclusive means zero overlap."
+    },
+    "173": {
+      "hint": "Five twentieths times fifteen twentieths with replacement.",
+      "help": "P(R then B) = $\\frac{5}{20} \\times \\frac{15}{20}$.\n\nSimplify to $\\frac{3}{16}$.\n\nMultiply."
+    },
+    "174": {
+      "hint": "Red then red without replacement: five twentieths times four nineteenths.",
+      "help": "Second red uses 4 of 19.\n\nMultiply fractions.\n\n$\\frac{1}{19}$."
+    },
+    "175": {
+      "hint": "Zero or one head among three flips — add 1/8 and 3/8.",
+      "help": "P(0 heads) = $\\frac{1}{8}$, P(1 head) = $\\frac{3}{8}$.\n\nAdd exclusive cases.\n\n$\\frac{1}{2}$."
+    },
+    "176": {
+      "hint": "Both fours: one cell (4,4) out of 36.",
+      "help": "P = $\\frac{1}{36}$.\n\nIndependent dice rolls.\n\nMultiply $\\frac{1}{6} \\times \\frac{1}{6}$."
+    },
+    "177": {
+      "hint": "First 4 and second not 4: one sixth times five sixths.",
+      "help": "Multiply $\\frac{1}{6} \\times \\frac{5}{6}$.\n\nSpecific AND on two dice.\n\n$\\frac{5}{36}$."
+    },
+    "178": {
+      "hint": "Exclusive events on one trial — can their probabilities sum above 1?",
+      "help": "They cannot cover more than the whole trial.\n\nSum ≤ 1.\n\nAnswer **never**."
+    },
+    "179": {
+      "hint": "Red or blue on one spin — add 0.2 and 0.3.",
+      "help": "Red, blue, and green are different sections on **one** spin, so red and blue cannot both happen.\n\nUse the mutually exclusive OR rule and add.\n\n$0.2 + 0.3 = 0.5$."
+    },
+    "180": {
+      "hint": "One red one blue with replacement: two orders, multiply each.",
+      "help": "P(RB) + P(BR) with $\\frac{6}{10}$ and $\\frac{4}{10}$ each stage.\n\n$2 \\times \\frac{6}{10} \\times \\frac{4}{10}$.\n\nAdd paths."
+    },
+    "181": {
+      "hint": "Without replacement: RB and BR paths with ninths.",
+      "help": "P(RB) = $\\frac{6}{10} \\times \\frac{4}{9}$.\n\nDouble for BR.\n\n$\\frac{8}{15}$."
+    },
+    "182": {
+      "hint": "Lose both: 0.6 times 0.35.",
+      "help": "P(lose 1) = $0.6$, P(lose 2) = $0.35$.\n\nMultiply.\n\nIndependent."
+    },
+    "183": {
+      "hint": "T then H on fair coins: quarter.",
+      "help": "Path probability $\\frac{1}{2} \\times \\frac{1}{2}$.\n\nTree or list TH.\n\n$\\frac{1}{4}$."
+    },
+    "184": {
+      "hint": "Exclusive events — probability both happen together?",
+      "help": "P(A and B) = 0 when mutually exclusive (unless impossible events).\n\nAnswer 0.\n\nExplain."
+    },
+    "185": {
+      "hint": "After removing one green, count greens and reds left out of nine.",
+      "help": "Describe branches as $\\frac{3}{9}$ and $\\frac{6}{9}$ for the second pick.\n\nTotals updated.\n\nWords plus fractions."
+    },
+    "186": {
+      "hint": "Head and six: classic one-twelfth outcome.",
+      "help": "$\\frac{1}{2} \\times \\frac{1}{6}$.\n\nOne of twelve equally likely outcomes.\n\nMultiply."
+    },
+    "187": {
+      "hint": "Tail or odd — subtract overlap tail with odd dice.",
+      "help": "P(tail) = $\\frac{1}{2}$, P(odd) = $\\frac{1}{2}$, P(tail and odd) = $\\frac{3}{12}$.\n\nAdd subtract.\n\n$\\frac{3}{4}$."
+    },
+    "188": {
+      "hint": "1 minus P(both blue with replacement).",
+      "help": "P(both blue) = $\\left(\\frac{2}{10}\\right)^2$.\n\nSubtract from 1.\n\nComplement."
+    },
+    "189": {
+      "hint": "At least one blue without replacement — complement both red.",
+      "help": "P(both red) = $\\frac{8}{10} \\times \\frac{7}{9}$.\n\n1 minus that.\n\n$\\frac{17}{45}$."
+    },
+    "190": {
+      "hint": "At least one success: 1 minus 0.65 squared.",
+      "help": "P(both fail) = $0.65^2$.\n\nSubtract from 1.\n\nIndependent attempts."
+    },
+    "191": {
+      "hint": "Four reds with replacement: raise six tenths to power 4.",
+      "help": "P(red) = $\\frac{6}{10}$ each pick.\n\n$\\left(\\frac{6}{10}\\right)^4$.\n\nMultiply four branches."
+    },
+    "192": {
+      "hint": "Three picks without replacement — multiply three fractions.",
+      "help": "$\\frac{6}{10} \\times \\frac{5}{9} \\times \\frac{4}{8}$.\n\nAll red path.\n\nSimplify to $\\frac{1}{6}$."
+    },
+    "193": {
+      "hint": "Three exclusive outcomes — add the three probabilities.",
+      "help": "$0.1 + 0.2 + 0.25$.\n\nOne trial, one result.\n\nMutually exclusive OR."
+    },
+    "194": {
+      "hint": "Sum 8 pairs plus doubles minus double (4,4).",
+      "help": "5 ways for sum 8, 6 doubles, overlap one cell.\n\n$\\frac{5+6-1}{36}$.\n\n$\\frac{5}{18}$."
+    },
+    "195": {
+      "hint": "Dry both days: 0.7 squared.",
+      "help": "P(dry) = $1 - 0.3 = 0.7$.\n\nSquare for two independent days.\n\n$0.49$."
+    },
+    "196": {
+      "hint": "All fail three stages: one half cubed of failure.",
+      "help": "Each independent stage fails with probability $0.5$.\n\nAll three must fail, so multiply: $0.5 \\times 0.5 \\times 0.5$.\n\nThat gives $0.125$."
+    },
+    "197": {
+      "hint": "Gold then gold: five twelfths times four elevenths.",
+      "help": "Without replacement.\n\n$\\frac{5}{12} \\times \\frac{4}{11}$.\n\n$\\frac{5}{33}$."
+    },
+    "198": {
+      "hint": "With replacement square five twelfths.",
+      "help": "P(both gold) = $\\left(\\frac{5}{12}\\right)^2$.\n\n$\\frac{25}{144}$.\n\nIndependent picks."
+    },
+    "199": {
+      "hint": "Mention changing counts after each pick on branches.",
+      "help": "Trees show how numerators and denominators update step by step.\n\nTables can get messy for sequential picks.\n\nExplain when trees help."
+    },
+    "200": {
+      "hint": "Add red-blue and blue-red paths; each uses tenths then ninths.",
+      "help": "P(RB) = $\\frac{4}{10} \\times \\frac{6}{9}$, P(BR) = $\\frac{6}{10} \\times \\frac{4}{9}$.\n\nSame product; sum gives $\\frac{8}{15}$.\n\nName both tree paths."
+    }
+  }
+}

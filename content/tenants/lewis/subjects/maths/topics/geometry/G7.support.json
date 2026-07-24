@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "questions": {
+    "1": {
+      "hint": "Sliding right without turning — does the shape rotate?",
+      "help": "A **translation** (slide) moves the shape without **turning** it.\n\nExample: shift a triangle 3 right — same orientation."
+    },
+    "2": {
+      "hint": "A mirror move flips the shape — which word: flip, slide, or grow?",
+      "help": "**Reflection** is a **flip** over a mirror line.\n\nExample: butterfly wings as reflections."
+    },
+    "3": {
+      "hint": "Move without turning — slide or flip?",
+      "help": "**Translation** (slide) moves without rotation or flip.\n\nExample: chess rook move (same direction)."
+    },
+    "4": {
+      "hint": "Quarter turn — only direction changes, not size.",
+      "help": "A **rotation** changes orientation but **not size**. Size unchanged.\n\nExample: spin a square 90° — side lengths same."
+    },
+    "5": {
+      "hint": "Mirror image — same lengths as original?",
+      "help": "Reflection keeps **same size** — **true**.\n\nExample: mirror a 3 cm square → still 3 cm sides."
+    },
+    "6": {
+      "hint": "Scale factor 2 on a square — multiply side length by 2.",
+      "help": "Side **2 cm** × **2** → **4 cm** new side.\n\nExample: enlarge 3 cm square by 2 → 6 cm."
+    },
+    "7": {
+      "hint": "Same size and direction in a new place — what move?",
+      "help": "That is a **translation** (slide).\n\nExample: stamp pattern repeated by sliding."
+    },
+    "8": {
+      "hint": "Enlargement or reflection — which changes size?",
+      "help": "**Enlargement** makes shapes bigger or smaller.\n\nExample: scale factor 3 → bigger."
+    },
+    "9": {
+      "hint": "Slide without turn or flip — name the transformation.",
+      "help": "**Translation**.\n\nExample: vector (2, 1) moves right 2, up 1."
+    },
+    "10": {
+      "hint": "Turn around a fixed point — which transformation?",
+      "help": "**Rotation**.\n\nExample: 90° clockwise about the origin.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "11": {
+      "hint": "Flip over a mirror line — name it.",
+      "help": "**Reflection**.\n\nExample: reflect in the x-axis.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "12": {
+      "hint": "Bigger or smaller from a centre — which transformation?",
+      "help": "**Enlargement** (scale factor from centre).\n\nExample: scale factor 2 from point O."
+    },
+    "13": {
+      "hint": "Which moves preserve size exactly: slide, turn, flip, or stretch?",
+      "help": "**Translation, rotation, and reflection** are **congruent** transforms (same size and shape).\n\nExample: enlargement changes size unless scale 1."
+    },
+    "14": {
+      "hint": "Enlargement scale 1 — same size; otherwise similar not congruent?",
+      "help": "Enlargement gives **similar** shape; only scale factor **±1** is congruent. Statement **true** for general scale.\n\nExample: scale 2 → similar, not congruent."
+    },
+    "15": {
+      "hint": "Vector (3, −2) — right 3, down 2 in words.",
+      "help": "Move **3 units right** and **2 units down**.\n\nExample: (0,0) → (3, −2)."
+    },
+    "16": {
+      "hint": "90° clockwise about origin — turn, not slide.",
+      "help": "That is a **rotation**.\n\nExample: turn shape around origin.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "17": {
+      "hint": "Line y = x — diagonal through origin — name?",
+      "help": "Mirror line **y = x** (line at 45° through origin).\n\nExample: swap x and y coordinates on reflection."
+    },
+    "18": {
+      "hint": "Scale factor 2 — multiply lengths by 2.",
+      "help": "Image is **bigger** than original.\n\nExample: 1 cm side → 2 cm."
+    },
+    "19": {
+      "hint": "Scale factor ½ — multiply lengths by one half.",
+      "help": "Image is **smaller**.\n\nExample: 8 cm → 4 cm.\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "20": {
+      "hint": "Negative scale — image on opposite side of centre, upside down.",
+      "help": "Image appears on the **opposite** side of the centre of enlargement (inverted).\n\nExample: scale −2 flips through centre."
+    },
+    "21": {
+      "hint": "Translation — size and shape unchanged?",
+      "help": "Yes — translation is **congruent** to the original.\n\nExample: slide a triangle — matches original."
+    },
+    "22": {
+      "hint": "Enlargement scale 2 — same shape, scaled?",
+      "help": "Yes — **similar** (equal angles, sides ×2).\n\nExample: all sides doubled."
+    },
+    "23": {
+      "hint": "First slide by (4,1), then flip in x-axis — describe order.",
+      "help": "Step 1: **translate** every point by (4, 1). Step 2: **reflect** in x-axis (y becomes −y).\n\nExample: track one corner through both steps."
+    },
+    "24": {
+      "hint": "Slide, turn, flip keep distances; stretch changes them.",
+      "help": "Translations, rotations, reflections preserve **all lengths** → **congruent**. Enlargement with scale ≠ ±1 changes lengths → **similar** only.\n\nExample: scale 3 → sides triple."
+    },
+    "25": {
+      "hint": "Scale factor 3 — multiply side 2 cm by 3.",
+      "help": "Image side $= 2 \\times 3 = 6$ cm.\n\nExample: 5 cm side → 15 cm."
+    },
+    "26": {
+      "hint": "Reflect twice in same mirror line — where does shape go?",
+      "help": "Two reflections in the **same** line return the shape to **start** — **always**.\n\nExample: flip twice → back."
+    },
+    "27": {
+      "hint": "Area scales by (scale factor)² — for scale 2, multiply area by 4.",
+      "help": "Linear scale **2** → area × **4**. $12 \\times 4 = 48$ cm².\n\nExample: scale 3 → area ×9."
+    },
+    "28": {
+      "hint": "Full turn 360° — same orientation and position?",
+      "help": "360° rotation returns to **original position**. Sam is **wrong**.\n\nExample: spin full circle → same place."
+    },
+    "29": {
+      "hint": "Scale ⅓ — multiply 9 cm by one third.",
+      "help": "Image side $= 9 \\times \\frac{1}{3} = 3$ cm.\n\nExample: scale ¼ on 8 cm → 2 cm."
+    },
+    "30": {
+      "hint": "Centre of rotation is a point; mirror line is a line — different roles.",
+      "help": "**Centre of rotation**: fixed **point** to turn around. **Mirror line**: fixed **line** to flip across.\n\nExample: rotate about (0,0); reflect in x-axis."
+    },
+    "31": {
+      "hint": "5 cm right, 3 cm up — write as column vector.",
+      "help": "Vector **(5, 3)** — right positive x, up positive y.\n\nExample: (2, −1) → 2 right, 1 down."
+    },
+    "32": {
+      "hint": "Model scale 1/20 — real 4 m divided by 20.",
+      "help": "Model length $= 4 \\div 20 = 0.2$ m (20 cm).\n\nExample: 1/10 scale 5 m car → 0.5 m model."
+    },
+    "33": {
+      "hint": "Width 10 cm × scale 2.5.",
+      "help": "Poster width $= 10 \\times 2.5 = 25$ cm.\n\nExample: scale 2 on 7 cm → 14 cm."
+    },
+    "34": {
+      "hint": "Area × (scale factor)² — scale 4 means area ×16.",
+      "help": "$8 \\times 4^2 = 8 \\times 16 = 128$ cm².\n\nExample: scale 2 on area 5 → 20."
+    },
+    "35": {
+      "hint": "Reflect (3,4) in y-axis then translate (2,0) — track point A.",
+      "help": "y-axis reflection: (3,4)→(−3,4). Then add (2,0): **(−1, 4)** for image of A.\n\nExample: do one step at a time."
+    },
+    "36": {
+      "hint": "Rule (x,y)→(y,−x) for 90° clockwise — apply to (2,5).",
+      "help": "Image **(5, −2)**.\n\nExample: (1,3) → (3, −1).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "37": {
+      "hint": "Scale 2 — sides double, angles same — similar not congruent.",
+      "help": "Angles match but sides ×2 → **similar**, not **congruent**.\n\nExample: compare 3 cm side to 6 cm image."
+    },
+    "38": {
+      "hint": "Area ×9 means (scale factor)² = 9 — find k.",
+      "help": "$k^2 = 9$ → **k = 3** (positive scale unless stated).\n\nExample: area ×4 → k=2."
+    },
+    "39": {
+      "hint": "Two reflections can equal a translation — or reflection + translation.",
+      "help": "Two parallel mirror lines → **translation**. One reflection plus slide can match another single transform.\n\nExample: describe your chosen combo."
+    },
+    "40": {
+      "hint": "Ask whether either transformation changes lengths or angles.",
+      "help": "Translations slide a shape and reflections flip it. Both preserve every length and angle, so neither changes its size or shape.\n\nA transformation that preserves size and shape produces a congruent image."
+    },
+    "41": {
+      "hint": "Reflect in x-axis: y becomes negative.",
+      "help": "(3, 1) → **(3, −1)**.\n\nExample: (2,4) → (2, −4).\n\nPicture what is happening, then use the method step by step in your working."
+    },
+    "42": {
+      "hint": "Shift 4 right only — name the transformation.",
+      "help": "**Translation** by vector **(4, 0)**.\n\nExample: slide copy 4 units right."
+    },
+    "43": {
+      "hint": "Think whether size changes: translation, reflection, rotation preserve size.",
+      "help": "**translation**: slide every point the same distance and direction. Size is unchanged for the first three, so **congruent**; enlargement changes size unless factor 1."
+    },
+    "44": {
+      "hint": "Think whether size changes: translation, reflection, rotation preserve size.",
+      "help": "**reflection**: flip across a mirror line. Size is unchanged for the first three, so **congruent**; enlargement changes size unless factor 1."
+    },
+    "45": {
+      "hint": "Moving by a column vector with no turn or flip — which transformation is that?",
+      "help": "A fixed vector slide is a **translation**.\n\nExample: $\\begin{pmatrix}3\\\\2\\end{pmatrix}$ moves every point 3 right and 2 up."
+    },
+    "46": {
+      "hint": "Reflect in the x-axis: keep x the same and change the sign of y.",
+      "help": "$(2, 5) \\to (2, -5)$ under reflection in the **x-axis**.\n\nExample: $(4, -1) \\to (4, 1)$."
+    },
+    "47": {
+      "hint": "Reflect in the y-axis: negate x and keep y.",
+      "help": "$(-3, 4) \\to (3, 4)$ under reflection in the **y-axis**.\n\nExample: $(2, 5) \\to (-2, 5)$."
+    },
+    "48": {
+      "hint": "90° clockwise about the origin: use (x, y) → (y, −x).",
+      "help": "$(1, 2) \\to (2, -1)$ for **90° clockwise** about the origin.\n\nExample: $(3, 1) \\to (1, -3)$."
+    },
+    "49": {
+      "hint": "Does a translation stretch or shrink the shape?",
+      "help": "A **translation** only slides the shape — size stays the same.\n\nAnswer: **false**."
+    },
+    "50": {
+      "hint": "Scale factor 3 multiplies every length by 3 — what happens to a 2 cm side?",
+      "help": "New length $= 3 \\times 2 = 6$ cm.\n\nExample: scale factor 2 on 5 cm → 10 cm."
+    },
+    "51": {
+      "hint": "Scale factor $\\frac{1}{2}$ halves each length — what is half of 10 cm?",
+      "help": "New length $= \\frac{1}{2} \\times 10 = 5$ cm.\n\nExample: $\\frac{1}{4}$ scale on 20 cm → 5 cm."
+    },
+    "52": {
+      "hint": "Which moves keep size exactly the same: translation, enlargement (k≠1), or reflection?",
+      "help": "**Translation** and **reflection** are rigid (congruent). **Enlargement** with $k \\neq 1$ changes size.\n\nPick translation and reflection."
+    },
+    "53": {
+      "hint": "Area scales by the square of the length scale factor — what is 2² times 6 cm²?",
+      "help": "Area factor $= 2^2 = 4$. New area $= 4 \\times 6 = 24$ cm².\n\nExample: scale factor 3 on area 5 cm² → $9 \\times 5 = 45$ cm²."
+    },
+    "54": {
+      "hint": "Similar shapes have the same angles — true or false?",
+      "help": "**Similar** shapes have **equal corresponding angles** — true.\n\nExample: two triangles with 30°, 60°, 90° are similar."
+    },
+    "55": {
+      "hint": "Multiply the original 5 cm length by scale factor 4.",
+      "help": "Image length $= 4 \\times 5 = 20$ cm.\n\nExample: scale factor 2 on 7 cm → 14 cm."
+    },
+    "56": {
+      "hint": "Add the vector $\\begin{pmatrix}2\\\\4\\end{pmatrix}$ to (−1, 3): move 2 right and 4 up.",
+      "help": "$(-1 + 2,\\; 3 + 4) = (1, 7)$.\n\nExample: $(0, 0) + \\begin{pmatrix}3\\\\-1\\end{pmatrix} = (3, -1)$."
+    },
+    "57": {
+      "hint": "Vector $\\begin{pmatrix}0\\\\-5\\end{pmatrix}$ — no horizontal move, 5 down.",
+      "help": "Move **0** right/left and **5 down** (negative y direction).\n\nExample: $\\begin{pmatrix}4\\\\0\\end{pmatrix}$ is 4 right only."
+    },
+    "58": {
+      "hint": "Reflection in y = x swaps coordinates: (x, y) → (y, x).",
+      "help": "$(4, -2) \\to (-2, 4)$ under reflection in **y = x**.\n\nExample: $(1, 5) \\to (5, 1)$."
+    },
+    "59": {
+      "hint": "A full 360° rotation brings a shape back to its starting position — always?",
+      "help": "Rotating **360°** returns the shape to its start — **always** true.\n\nExample: 360° rotation about the centre."
+    },
+    "60": {
+      "hint": "Enlargement scale factor 2 from O — multiply 7 cm by 2.",
+      "help": "Image length $= 2 \\times 7 = 14$ cm.\n\nExample: scale factor 3 on 5 cm → 15 cm."
+    },
+    "61": {
+      "hint": "Model scale $\\frac{1}{50}$: real 12 m = 1200 cm — divide by 50 for model length.",
+      "help": "Model $= 1200 \\div 50 = 24$ cm.\n\nExample: 1:100 scale, real 5 m → 5 cm model."
+    },
+    "62": {
+      "hint": "Enlargement with scale factor 1 — does the image match the original size?",
+      "help": "Scale factor **1** gives the **same size** → congruent image — **true**.\n\nExample: k = 1 leaves lengths unchanged."
+    },
+    "63": {
+      "hint": "Similar with scale factor 3: multiply the smaller matching side 4 cm by 3.",
+      "help": "Larger matching side $= 3 \\times 4 = 12$ cm.\n\nExample: scale factor 2, small side 6 cm → 12 cm."
+    },
+    "64": {
+      "hint": "Two translations one after another — is the result still a single translation?",
+      "help": "Two **translations** combine into **one translation** (add the vectors) — **true**.\n\nExample: slide 3 right then 2 up = one slide."
+    },
+    "65": {
+      "hint": "Reflect (5, 1) in x-axis first, then reflect that image in y-axis.",
+      "help": "x-axis: $(5, 1) \\to (5, -1)$. y-axis: $(5, -1) \\to (-5, -1)$.\n\nExample: $(2, 3) \\to (2, -3) \\to (-2, -3)$."
+    },
+    "66": {
+      "hint": "Does a negative scale factor flip the shape as well as resize it?",
+      "help": "A **negative** scale factor enlarges and **reflects** through the centre — **true**.\n\nExample: k = −2 turns the shape upside down through O."
+    },
+    "67": {
+      "hint": "Area scales by k² — with k = 5, multiply area 9 cm² by 25.",
+      "help": "New area $= 5^2 \\times 9 = 225$ cm².\n\nExample: k = 2 on 10 cm² → 40 cm²."
+    },
+    "68": {
+      "hint": "180° rotation about the origin: (x, y) → (−x, −y).",
+      "help": "$(3, -4) \\to (-3, 4)$ under **180°** rotation about the origin.\n\nExample: $(1, 2) \\to (-1, -2)$."
+    },
+    "69": {
+      "hint": "Only x changes: (x, y) → (x + 3, y) — what transformation?",
+      "help": "Adding 3 to **x** only is a **translation** $\\begin{pmatrix}3\\\\0\\end{pmatrix}$.\n\nExample: $(x, y) \\to (x - 2, y)$ is 2 left."
+    },
+    "70": {
+      "hint": "Scale factor $\\frac{1}{3}$ — divide 15 cm by 3.",
+      "help": "Image length $= 15 \\div 3 = 5$ cm.\n\nExample: $\\frac{1}{2}$ scale on 12 cm → 6 cm."
+    },
+    "71": {
+      "hint": "Similar means same shape — must the sizes match too for congruence?",
+      "help": "**Similar** shapes can differ in size, so they are **not always congruent**.\n\nAnswer: **sometimes** (only when scale factor is 1)."
+    },
+    "72": {
+      "hint": "Reflection in y = −x swaps and negates: (x, y) → (−y, −x).",
+      "help": "$(2, 2) \\to (-2, -2)$ under reflection in **y = −x**.\n\nExample: $(1, 3) \\to (-3, -1)$."
+    },
+    "73": {
+      "hint": "Add vector $\\begin{pmatrix}-4\\\\2\\end{pmatrix}$ to (1, 5): subtract 4 from x, add 2 to y.",
+      "help": "$(1 + (-4),\\; 5 + 2) = (-3, 7)$.\n\nExample: $(0, 0) + \\begin{pmatrix}3\\\\-1\\end{pmatrix} = (3, -1)$."
+    },
+    "74": {
+      "hint": "Scale factor 2.5 multiplies 8 cm by 2.5.",
+      "help": "Image length $= 2.5 \\times 8 = 20$ cm.\n\nExample: k = 3 on 5 cm → 15 cm."
+    },
+    "75": {
+      "hint": "Does a reflection flip the shape over like a mirror — does orientation stay the same?",
+      "help": "**Reflection** reverses **orientation** (left becomes right) — the statement is **false**.\n\nExample: clockwise order of vertices becomes anticlockwise."
+    },
+    "76": {
+      "hint": "Matching sides 3→6 and 4→8 — what do you multiply by?",
+      "help": "Scale factor small → large $= 6 \\div 3 = 2$ (check: $8 \\div 4 = 2$).\n\nExample: 5 cm → 15 cm gives k = 3."
+    },
+    "77": {
+      "hint": "Add the two translation vectors: $\\begin{pmatrix}1\\\\1\\end{pmatrix} + \\begin{pmatrix}2\\\\0\\end{pmatrix}$.",
+      "help": "Combined vector $= \\begin{pmatrix}3\\\\1\\end{pmatrix}$.\n\nExample: $(2, -1) + (0, 4) = (2, 3)$."
+    },
+    "78": {
+      "hint": "90° anticlockwise about O: (x, y) → (−y, x).",
+      "help": "$(4, 0) \\to (0, 4)$ for **90° anticlockwise**.\n\nExample: $(2, 1) \\to (-1, 2)$."
+    },
+    "79": {
+      "hint": "Two reflections can combine into a slide or a turn — always, sometimes, or never?",
+      "help": "Two reflections can give a **translation** or **rotation** depending on the mirror lines — **always** one of those (for rigid moves).\n\nExample: reflect twice in parallel lines → translation."
+    },
+    "80": {
+      "hint": "Face area scales by k² — with k = 4, multiply one face area by 16.",
+      "help": "Cube side 2 cm → face area 4 cm². Area factor $= 4^2 = 16$, so new face area $= 64$ cm².\n\nExample: k = 2 doubles lengths, quadruples areas."
+    },
+    "81": {
+      "hint": "Reflect in the x-axis: keep x, change sign of y.",
+      "help": "Reflection in the **x-axis** flips the **y** coordinate: $(x, y) \\to (x, -y)$. So $(-2, -3) \\to (-2, 3)$.\n\nExample: $(5, 4) \\to (5, -4)$."
+    },
+    "82": {
+      "hint": "Congruent shapes are identical in size and shape — are they also similar?",
+      "help": "**Congruent** shapes have equal angles and proportional sides (ratio 1:1), so they are **similar** — **true**.\n\nExample: two identical triangles are both congruent and similar."
+    },
+    "83": {
+      "hint": "Multiply 20 cm by scale factor $\\frac{2}{5}$.",
+      "help": "Image length $= \\frac{2}{5} \\times 20 = 8$ cm.\n\nExample: $\\frac{1}{4}$ scale on 12 cm → 3 cm."
+    },
+    "84": {
+      "hint": "Describe enlargement centre (0, 0) with k = −2 in words.",
+      "help": "Enlargement **centre origin**, scale factor **−2**: double distances from O and **reflect** through O.\n\nExample: (1, 2) → (−2, −4)."
+    },
+    "85": {
+      "hint": "90° anticlockwise about O on (1, 4): use (x, y) → (−y, x).",
+      "help": "$(1, 4) \\to (-4, 1)$. (270° clockwise equals 90° anticlockwise.)\n\nExample: $(2, 0) \\to (0, 2)$."
+    },
+    "86": {
+      "hint": "Does area always multiply by the square of the length scale factor?",
+      "help": "Under enlargement scale factor **k**, area multiplies by **k²** — **always** true.\n\nExample: k = 3 → area × 9."
+    },
+    "87": {
+      "hint": "Similar rectangles: divide larger width 9 cm by smaller width 6 cm.",
+      "help": "Scale factor $= 9 \\div 6 = 1.5$ (large ÷ small).\n\nExample: widths 4 cm and 10 cm → k = 2.5."
+    },
+    "88": {
+      "hint": "Translate (7, −2) by $\\begin{pmatrix}-3\\\\5\\end{pmatrix}$ — add components.",
+      "help": "$(7 + (-3),\\; -2 + 5) = (4, 3)$.\n\nExample: $(1, 1) + \\begin{pmatrix}2\\\\-4\\end{pmatrix} = (3, -3)$."
+    },
+    "89": {
+      "hint": "Can a mirror line run straight up and down (like x = 3)?",
+      "help": "A **vertical** mirror line (e.g. **x = 3**) is allowed — **true**.\n\nExample: reflection in the y-axis is vertical."
+    },
+    "90": {
+      "hint": "Area scales by k² — with k = 0.5, multiply 32 cm² by 0.25.",
+      "help": "New area $= 0.5^2 \\times 32 = 8$ cm².\n\nExample: k = 2 on 10 cm² → 40 cm²."
+    },
+    "91": {
+      "hint": "Reflect in the y-axis: negate x, keep y.",
+      "help": "$(0, 6) \\to (0, 6)$ — on the y-axis, the point stays fixed.\n\nExample: $(3, 6) \\to (-3, 6)$."
+    },
+    "92": {
+      "hint": "90° clockwise rule (x, y) → (y, −x) — apply to (−3, 2).",
+      "help": "$(-3, 2) \\to (2, 3)$ under **90° clockwise**.\n\nExample: $(1, 4) \\to (4, -1)$."
+    },
+    "93": {
+      "hint": "Can you add translation vectors by adding top numbers and bottom numbers?",
+      "help": "Translation vectors **add** component-wise — **always** true.\n\nExample: $\\begin{pmatrix}2\\\\1\\end{pmatrix} + \\begin{pmatrix}3\\\\4\\end{pmatrix} = \\begin{pmatrix}5\\\\5\\end{pmatrix}$."
+    },
+    "94": {
+      "hint": "Map scale 1 : 25000 — multiply 4 cm by 25000, then convert cm to metres.",
+      "help": "Real distance $= 4 \\times 25000$ cm $= 100000$ cm $= 1000$ m.\n\nExample: 2 cm on a 1:50000 map → 1 km real."
+    },
+    "95": {
+      "hint": "Two congruent tiles that differ only by a slide — which transformation?",
+      "help": "A **slide** with no turn or flip is a **translation**.\n\nExample: shifting a tile 3 squares right."
+    },
+    "96": {
+      "hint": "Does enlargement change the sizes of angles inside the shape?",
+      "help": "**Enlargement** keeps **angles** the same — only lengths change — **false** that angles change.\n\nExample: a square stays square after enlargement."
+    },
+    "97": {
+      "hint": "Multiply 12 cm by scale factor 1.5.",
+      "help": "Image length $= 1.5 \\times 12 = 18$ cm.\n\nExample: k = 2 on 7 cm → 14 cm."
+    },
+    "98": {
+      "hint": "Reflect in vertical line x = 1: new x is same distance on other side of x = 1.",
+      "help": "$(2, -1)$ is 1 right of x = 1, so image is $(0, -1)$.\n\nExample: (4, 3) → (−2, 3) for mirror x = 1."
+    },
+    "99": {
+      "hint": "If lengths scale by k, do perimeters scale by k too?",
+      "help": "**Similar** shapes have perimeters in ratio **k** — **always** true.\n\nExample: scale factor 2 doubles every side, so perimeter doubles."
+    },
+    "100": {
+      "hint": "Triangle area 10 cm² enlarged k = 3 — multiply area by 3².",
+      "help": "New area $= 3^2 \\times 10 = 90$ cm².\n\nExample: k = 2 on 5 cm² → 20 cm²."
+    },
+    "101": {
+      "hint": "Vector from A(2,3) to B(5,7): subtract A from B — top is x difference, bottom is y difference.",
+      "help": "$\\begin{pmatrix}5-2\\\\7-3\\end{pmatrix} = \\begin{pmatrix}3\\\\4\\end{pmatrix}$.\n\nExample: (1, 2) to (4, 0) → $\\begin{pmatrix}3\\\\-2\\end{pmatrix}$."
+    },
+    "102": {
+      "hint": "Does a rotation need both a centre point and an angle of turn?",
+      "help": "A **rotation** is defined by a **centre** and an **angle** — **true**.\n\nExample: 90° clockwise about the origin."
+    },
+    "103": {
+      "hint": "Both triangles have angles 30°, 60°, 90° — same angles but are sizes guaranteed equal?",
+      "help": "Same angles means **similar**; without matching side lengths they need **not** be congruent.\n\nAnswer: **only similar** (unless sides match too)."
+    },
+    "104": {
+      "hint": "Add vector $\\begin{pmatrix}4\\\\4\\end{pmatrix}$ to (−4, 0).",
+      "help": "$(-4 + 4,\\; 0 + 4) = (0, 4)$.\n\nExample: $(2, 3) + \\begin{pmatrix}-1\\\\2\\end{pmatrix} = (1, 5)$."
+    },
+    "105": {
+      "hint": "Reflect in the x-axis twice — does the point return to the start?",
+      "help": "Two reflections in the **same** mirror line return the original point: $(3, 3) \\to (3, -3) \\to (3, 3)$.\n\nExample: flip twice over the same line → back to start."
+    },
+    "106": {
+      "hint": "Enlargement k = −1 from the centre — is it a half-turn with a flip?",
+      "help": "**k = −1** is equivalent to **180° rotation** about the centre (with reflection) — **always**.\n\nExample: (2, 1) → (−2, −1) from O."
+    },
+    "107": {
+      "hint": "Perimeter scales like length — multiply 11 cm by scale factor 2.",
+      "help": "New perimeter $= 2 \\times 11 = 22$ cm.\n\nExample: k = 3 on perimeter 8 cm → 24 cm."
+    },
+    "108": {
+      "hint": "180° rotation about O: (x, y) → (−x, −y).",
+      "help": "A **180°** turn about the origin sends $(x, y) \\to (-x, -y)$. So $(5, 5) \\to (-5, -5)$.\n\nExample: $(3, -2) \\to (-3, 2)$."
+    },
+    "109": {
+      "hint": "To add column vectors, add the top numbers together and the bottom numbers together.",
+      "help": "$\\begin{pmatrix}a\\\\b\\end{pmatrix} + \\begin{pmatrix}c\\\\d\\end{pmatrix} = \\begin{pmatrix}a+c\\\\b+d\\end{pmatrix}$ — **true**.\n\nExample: $\\begin{pmatrix}1\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\4\\end{pmatrix} = \\begin{pmatrix}4\\\\6\\end{pmatrix}$."
+    },
+    "110": {
+      "hint": "Enlargement k = 4 from O: multiply both coordinates of (2, 1) by 4.",
+      "help": "Enlargement **scale factor 4** from the origin multiplies **both** coordinates by 4: $(2, 1) \\to (8, 4)$.\n\nExample: k = 2 on $(3, 5) \\to (6, 10)$."
+    },
+    "111": {
+      "hint": "Similar squares: divide larger side 12 cm by smaller side 3 cm.",
+      "help": "Scale factor $= 12 \\div 3 = 4$.\n\nExample: sides 5 cm and 15 cm → k = 3."
+    },
+    "112": {
+      "hint": "Reflect in x-axis then y-axis — is that the same as a 180° rotation about O?",
+      "help": "Reflection in **x** then **y** equals **180° rotation** about the origin — **always**.\n\nExample: (2, 3) → (2, −3) → (−2, −3)."
+    },
+    "113": {
+      "hint": "Translate (6, −1) by $\\begin{pmatrix}-6\\\\1\\end{pmatrix}$.",
+      "help": "$(6 + (-6),\\; -1 + 1) = (0, 0)$.\n\nExample: $(4, 2) + \\begin{pmatrix}1\\\\-3\\end{pmatrix} = (5, -1)$."
+    },
+    "114": {
+      "hint": "Area 45 cm² with k = 2 — multiply by 2² = 4.",
+      "help": "New area $= 4 \\times 45 = 180$ cm².\n\nExample: k = 3 on 10 cm² → 90 cm²."
+    },
+    "115": {
+      "hint": "Can a scale factor be negative as well as positive?",
+      "help": "**Negative** scale factors are allowed (they enlarge and reflect) — statement is **false** that it must be positive.\n\nExample: k = −2 doubles size and flips through O."
+    },
+    "116": {
+      "hint": "One sentence each: congruent means same size and shape; similar means same shape.",
+      "help": "**Congruent**: identical size and shape. **Similar**: same shape, angles equal, sides in proportion.\n\nExample: two 3-4-5 triangles same size → congruent; different sizes → similar only."
+    },
+    "117": {
+      "hint": "90° clockwise about O: (x, y) → (y, −x) on (1, 2).",
+      "help": "A **90° clockwise** turn about the origin uses $(x, y) \\to (y, -x)$. So $(1, 2) \\to (2, -1)$.\n\nExample: $(0, 5) \\to (5, 0)$."
+    },
+    "118": {
+      "hint": "Scale factor $\\frac{1}{4}$ — divide 40 cm by 4.",
+      "help": "Image length $= 40 \\div 4 = 10$ cm.\n\nExample: $\\frac{1}{3}$ scale on 15 cm → 5 cm."
+    },
+    "119": {
+      "hint": "Does the order of two translations change the final position?",
+      "help": "Two **translations** commute — order does not matter — **always**.\n\nExample: 3 right then 2 up = 2 up then 3 right."
+    },
+    "120": {
+      "hint": "Reflection in y = x swaps coordinates: (2, 0) → (0, 2).",
+      "help": "$(2, 0) \\to (0, 2)$ under **y = x**.\n\nExample: $(-1, 4) \\to (4, -1)$."
+    },
+    "121": {
+      "hint": "Poster enlarged k = 2.5 — multiply photo width 6 cm by 2.5.",
+      "help": "New width $= 2.5 \\times 6 = 15$ cm.\n\nExample: k = 2 on 8 cm photo → 16 cm."
+    },
+    "122": {
+      "hint": "Do similar triangles have equal matching angles?",
+      "help": "**Similar** triangles have **equal corresponding angles** — **true**.\n\nExample: two triangles both 30°, 60°, 90°."
+    },
+    "123": {
+      "hint": "180° rotation about O on (−1, −1): (x, y) → (−x, −y).",
+      "help": "Half a turn about the origin negates **both** coordinates: $(-1, -1) \\to (1, 1)$.\n\nExample: $(2, -3) \\to (-2, 3)$ after a 180° rotation."
+    },
+    "124": {
+      "hint": "Vector $\\begin{pmatrix}3\\\\-3\\end{pmatrix}$ — positive top means right, negative bottom means down.",
+      "help": "Top **+3** → **3 right**; bottom **−3** → **3 down**.\n\nExample: $\\begin{pmatrix}-2\\\\0\\end{pmatrix}$ is 2 left."
+    },
+    "125": {
+      "hint": "Enlargement k = 1 — does anything change?",
+      "help": "**k = 1** leaves the shape unchanged (identity enlargement) — **always**.\n\nExample: same size image as original."
+    },
+    "126": {
+      "hint": "Similar k = 5: smaller area 4 cm² — multiply by 5² for larger area.",
+      "help": "Larger area $= 5^2 \\times 4 = 100$ cm².\n\nExample: k = 2, small area 6 cm² → 24 cm²."
+    },
+    "127": {
+      "hint": "Translate the origin (0, 0) by any vector — where does it go?",
+      "help": "The origin moves to the **vector endpoint**: $\\begin{pmatrix}a\\\\b\\end{pmatrix}$ → point **(a, b)**.\n\nExample: $\\begin{pmatrix}3\\\\-2\\end{pmatrix}$ sends (0,0) to (3, −2)."
+    },
+    "128": {
+      "hint": "Is the line y = 0 the same as the x-axis?",
+      "help": "**y = 0** is every point with height 0 — the **x-axis** — **true**.\n\nExample: (5, 0) lies on y = 0."
+    },
+    "129": {
+      "hint": "Reflect (4, 2) in x-axis first, then translate $\\begin{pmatrix}1\\\\0\\end{pmatrix}$.",
+      "help": "x-axis: $(4, 2) \\to (4, -2)$. Translate: $(4, -2) \\to (5, -2)$.\n\nExample: do each step separately on squared paper."
+    },
+    "130": {
+      "hint": "Scale factor 0.2 — multiply 50 cm by 0.2.",
+      "help": "Image length $= 0.2 \\times 50 = 10$ cm.\n\nExample: k = 0.5 on 20 cm → 10 cm."
+    },
+    "131": {
+      "hint": "Explain why a translation keeps size and shape unchanged.",
+      "help": "A **translation** slides every point the same distance — no stretching or flipping — so shapes stay **congruent**.\n\nExample: moving a triangle 4 right does not change side lengths."
+    },
+    "132": {
+      "hint": "When lengths scale by k, does the perimeter scale by k too?",
+      "help": "Every side length × **k**, so total **perimeter** × **k** — **always**.\n\nExample: k = 2 doubles all sides → perimeter doubles."
+    },
+    "133": {
+      "hint": "90° anticlockwise about O: (0, 3) → (−3, 0).",
+      "help": "Use $(x, y) \\to (-y, x)$: $(0, 3) \\to (-3, 0)$.\n\nExample: $(2, 0) \\to (0, 2)$."
+    },
+    "134": {
+      "hint": "Enlargement k = −2 from O on (1, 1): multiply coords by −2.",
+      "help": "$(1, 1) \\to (-2, -2)$.\n\nExample: k = −2 on (3, −1) → (−6, 2)."
+    },
+    "135": {
+      "hint": "Can similar shapes be the same shape but different sizes?",
+      "help": "**Similar** shapes match in shape but can differ in **size** — **true**.\n\nExample: two rectangles both 1:2 ratio, different lengths."
+    },
+    "136": {
+      "hint": "Map scale 1 : 1000 — multiply 7.5 cm by 1000, then convert to metres.",
+      "help": "Real $= 7.5 \\times 1000$ cm $= 7500$ cm $= 75$ m.\n\nExample: 4 cm on 1:500 map → 20 m."
+    },
+    "137": {
+      "hint": "Reflect (2, −4) in y-axis, then rotate 180° about O.",
+      "help": "y-axis: $(2, -4) \\to (-2, -4)$. 180°: $(-2, -4) \\to (2, 4)$.\n\nExample: apply one transformation at a time."
+    },
+    "138": {
+      "hint": "If two shapes are congruent, must they have the same area?",
+      "help": "**Congruent** shapes match exactly → **equal area** — **always**.\n\nExample: two identical triangles cover the same space."
+    },
+    "139": {
+      "hint": "Area ratio 32 ÷ 18 — square root gives length scale; use it with smaller width 6 cm.",
+      "help": "Area ratio $= 32/18 = 16/9$, so length scale $= 4/3$. Larger width $= 6 \\times 4/3 = 8$ cm.\n\nExample: areas 9 and 36 → side ratio 2."
+    },
+    "140": {
+      "hint": "Combined translation: add the two vectors $\\begin{pmatrix}a\\\\b\\end{pmatrix}$ and $\\begin{pmatrix}c\\\\d\\end{pmatrix}$.",
+      "help": "Single vector $= \\begin{pmatrix}a+c\\\\b+d\\end{pmatrix}$.\n\nExample: $(2,1)$ then $(-1,3)$ equals $(1,4)$ total slide."
+    },
+    "141": {
+      "hint": "Does rotation change the size of a shape?",
+      "help": "**Rotation** is rigid — lengths and angles unchanged — **true** that size is preserved.\n\nExample: turning a square does not stretch it."
+    },
+    "142": {
+      "hint": "Multiply 25 cm by scale factor 1.2.",
+      "help": "Image length $= 1.2 \\times 25 = 30$ cm.\n\nExample: k = 1.5 on 20 cm → 30 cm."
+    },
+    "143": {
+      "hint": "90° clockwise about O on (−2, 5): (x, y) → (y, −x).",
+      "help": "For **90° clockwise** about the origin, swap coordinates and negate the new **y**: $(-2, 5) \\to (5, 2)$.\n\nExample: $(1, 0) \\to (0, -1)$."
+    },
+    "144": {
+      "hint": "Does a negative scale factor include a reflection through the centre?",
+      "help": "**Negative k** enlarges and **reflects** in the centre — **always** includes reflection.\n\nExample: k = −1 maps (2, 3) to (−2, −3)."
+    },
+    "145": {
+      "hint": "Similar triangles: matching sides 7 cm and 21 cm — divide larger by smaller.",
+      "help": "Scale factor $= 21 \\div 7 = 3$.\n\nExample: 4 cm and 12 cm → k = 3."
+    },
+    "146": {
+      "hint": "Reflect (1, −2) in vertical line x = −1 — same distance on other side.",
+      "help": "$(1, -2)$ is 2 right of x = −1 → image $(-3, -2)$.\n\nExample: (0, 4) in x = −2 → (−4, 4)."
+    },
+    "147": {
+      "hint": "Does vector $\\begin{pmatrix}0\\\\0\\end{pmatrix}$ move a point at all?",
+      "help": "Zero vector means **no movement** — **true**.\n\nExample: translate by $\\begin{pmatrix}0\\\\0\\end{pmatrix}$ stays fixed."
+    },
+    "148": {
+      "hint": "Area scale factor 9 means k² = 9 — what is k?",
+      "help": "Length scale $k = \\sqrt{9} = 3$.\n\nExample: area × 4 → length scale 2."
+    },
+    "149": {
+      "hint": "Translate (3, 1) by $\\begin{pmatrix}-3\\\\-1\\end{pmatrix}$.",
+      "help": "$(3 + (-3),\\; 1 + (-1)) = (0, 0)$.\n\nExample: $(5, 2) + \\begin{pmatrix}1\\\\3\\end{pmatrix} = (6, 5)$."
+    },
+    "150": {
+      "hint": "Describe a real enlargement (projector or microscope) and give a scale factor.",
+      "help": "A **projector** enlarges a slide onto a screen — e.g. scale factor **20** (image 20× wider).\n\nExample: microscope might use k = 100 for a tiny cell."
+    },
+    "151": {
+      "hint": "Similar with scale factor 1 — same size and shape. Congruent?",
+      "help": "Scale factor **1** means identical size → **congruent** — **always**.\n\nExample: similar triangles with k = 1 match exactly."
+    },
+    "152": {
+      "hint": "90° clockwise about O on (2, 0): (x, y) → (y, −x).",
+      "help": "Apply $(x, y) \\to (y, -x)$ for a **90° clockwise** rotation: $(2, 0) \\to (0, -2)$.\n\nExample: $(0, 3) \\to (3, 0)$."
+    },
+    "153": {
+      "hint": "Perimeter scales by k — multiply 20 cm by 2.5.",
+      "help": "New perimeter $= 2.5 \\times 20 = 50$ cm.\n\nExample: k = 2 on perimeter 13 cm → 26 cm."
+    },
+    "154": {
+      "hint": "Can a mirror line run diagonally (like y = x)?",
+      "help": "Mirror lines can be **diagonal** (e.g. **y = x**) — **true**.\n\nExample: reflection in y = x swaps coordinates."
+    },
+    "155": {
+      "hint": "Similar perimeters 12 cm and 18 cm — divide larger by smaller for scale.",
+      "help": "Scale factor small → large $= 18 \\div 12 = 1.5$.\n\nExample: perimeters 8 and 20 → k = 2.5."
+    },
+    "156": {
+      "hint": "Map (x, y) → (−x, y) — which axis reflection?",
+      "help": "Negating **x** only is reflection in the **y-axis**.\n\nExample: (5, −3) → (−5, −3)."
+    },
+    "157": {
+      "hint": "Area factor is always the square of the length scale factor k.",
+      "help": "Area × **k²** — **always** under enlargement.\n\nExample: k = 4 → area × 16."
+    },
+    "158": {
+      "hint": "Translate twice by $\\begin{pmatrix}-2\\\\-2\\end{pmatrix}$ — same as one vector $\\begin{pmatrix}-4\\\\-4\\end{pmatrix}$?",
+      "help": "Double the vector: $2 \\times \\begin{pmatrix}-2\\\\-2\\end{pmatrix} = \\begin{pmatrix}-4\\\\-4\\end{pmatrix}$ — **yes**, same as one combined slide.\n\nExample: two equal translations add vectors."
+    },
+    "159": {
+      "hint": "Enlarge (3, 4) by k = 2 from O — multiply both coordinates by 2.",
+      "help": "Multiply **each** coordinate by the scale factor **2**: $(3, 4) \\to (6, 8)$.\n\nExample: k = 3 on $(1, 2) \\to (3, 6)$."
+    },
+    "160": {
+      "hint": "Are translation, rotation, and reflection the congruent (rigid) transformations?",
+      "help": "**Translation**, **rotation**, and **reflection** preserve size → **congruent** images — **true**.\n\nExample: enlargement with k ≠ 1 is not rigid."
+    },
+    "161": {
+      "hint": "Model scale 1 : 500 — real 15 m = 1500 cm; divide by 500 for model cm.",
+      "help": "Model $= 1500 \\div 500 = 3$ cm.\n\nExample: 1:100 scale, real 2 m → 2 cm model."
+    },
+    "162": {
+      "hint": "Reflect (1, 7) in the x-axis — change sign of y.",
+      "help": "The **x-axis** reflection keeps **x** the same and changes the sign of **y**: $(1, 7) \\to (1, -7)$.\n\nExample: $(-2, 5) \\to (-2, -5)$."
+    },
+    "163": {
+      "hint": "Two reflections in parallel mirror lines — do they combine to a translation?",
+      "help": "Reflections in **parallel** lines give a **translation** — **always**.\n\nExample: two vertical mirrors → horizontal slide."
+    },
+    "164": {
+      "hint": "Similar areas 27 and 48 — area ratio 48/27; square root gives length scale k.",
+      "help": "Area ratio $= 48/27 = 16/9$, so **k** $= 4/3$.\n\nExample: areas 25 and 100 → k = 2."
+    },
+    "165": {
+      "hint": "180° rotation about O on (−4, 1): (x, y) → (−x, −y).",
+      "help": "Rotate **180°** about the origin by negating both coordinates: $(-4, 1) \\to (4, -1)$.\n\nExample: $(2, 2) \\to (-2, -2)$."
+    },
+    "166": {
+      "hint": "Enlargement k = −1 about O — is it reflection through the centre?",
+      "help": "**k = −1** maps each point to the opposite point through O — **true** (half-turn reflection).\n\nExample: (3, 2) → (−3, −2)."
+    },
+    "167": {
+      "hint": "Translate (2, 3) by $\\begin{pmatrix}4\\\\-5\\end{pmatrix}$, then reflect in x-axis.",
+      "help": "Translate: $(6, -2)$. x-axis reflect: $(6, 2)$.\n\nExample: do translation before reflection."
+    },
+    "168": {
+      "hint": "If both shapes are triangles and similar, are they both triangles?",
+      "help": "**Similar** shapes keep the same **type** (both triangles) — **always**.\n\nExample: similar pentagons are both pentagons."
+    },
+    "169": {
+      "hint": "Length grows from 9 to 15 — divide 15 by 9 for scale factor.",
+      "help": "Scale factor $= 15 \\div 9 = 5/3$.\n\nExample: 4 cm → 10 cm gives k = 2.5."
+    },
+    "170": {
+      "hint": "Describe a rotation that returns a shape to itself — how many degrees?",
+      "help": "A **360°** rotation about the centre maps the shape onto **itself**.\n\nExample: a square also maps onto itself at 90°, 180°, 270°."
+    },
+    "171": {
+      "hint": "Similarity needs equal angles and sides in proportion — true or false?",
+      "help": "**Similarity** requires matching **angles** and **proportional sides** — **true**.\n\nExample: same angles but sides doubled → similar."
+    },
+    "172": {
+      "hint": "Enlarge (2, 2) by k = 3 from O.",
+      "help": "Scale factor **3** from the origin triples both coordinates: $(2, 2) \\to (6, 6)$.\n\nExample: k = 2 on $(5, -1) \\to (10, -2)$."
+    },
+    "173": {
+      "hint": "Reflect (0, −5) in the y-axis.",
+      "help": "$(0, -5)$ stays on the y-axis → **(0, −5)** unchanged.\n\nExample: $(4, -5) \\to (-4, -5)$."
+    },
+    "174": {
+      "hint": "Does translation flip the shape like a mirror?",
+      "help": "**Translation** does not flip — **orientation** unchanged — **never** changes orientation.\n\nExample: sliding a book does not mirror it."
+    },
+    "175": {
+      "hint": "Map 1 : 25000 — real 1 km = 100000 cm; divide by 25000 for map cm.",
+      "help": "Map length $= 100000 \\div 25000 = 4$ cm.\n\nExample: 1:50000, real 2 km → 4 cm on map."
+    },
+    "176": {
+      "hint": "Similar k = 2: multiply smaller side 5 cm by 2.",
+      "help": "Larger matching side $= 2 \\times 5 = 10$ cm.\n\nExample: k = 3, small side 4 → 12 cm."
+    },
+    "177": {
+      "hint": "Vector $\\begin{pmatrix}5\\\\0\\end{pmatrix}$ — only horizontal movement?",
+      "help": "Bottom entry **0** → no vertical move; top **5** → **5 right** — purely **horizontal**, **true**.\n\nExample: $\\begin{pmatrix}0\\\\4\\end{pmatrix}$ is purely vertical."
+    },
+    "178": {
+      "hint": "90° anticlockwise about O on (4, 1): (x, y) → (−y, x).",
+      "help": "A **90° anticlockwise** turn uses $(x, y) \\to (-y, x)$. So $(4, 1) \\to (-1, 4)$.\n\nExample: $(2, 0) \\to (0, 2)$."
+    },
+    "179": {
+      "hint": "Area 7 cm² enlarged k = 4 — multiply by 4² = 16.",
+      "help": "New area $= 16 \\times 7 = 112$ cm².\n\nExample: k = 3 on 5 cm² → 45 cm²."
+    },
+    "180": {
+      "hint": "Design a two-step transformation puzzle — state if the result is congruent or similar.",
+      "help": "Example: translate then rotate → **congruent**. Translate then enlarge k = 2 → **similar** not congruent.\n\nWrite your steps and classify the outcome."
+    },
+    "181": {
+      "hint": "Reflect twice in the same mirror line — do you get back to the start?",
+      "help": "Same reflection twice returns the **original** — **always**.\n\nExample: flip over x-axis twice → back to start."
+    },
+    "182": {
+      "hint": "Scale factor from 8 cm to 20 cm — divide larger by smaller.",
+      "help": "Scale factor $= 20 \\div 8 = 2.5$.\n\nExample: 6 cm → 18 cm gives k = 3."
+    },
+    "183": {
+      "hint": "Translate (−3, −2) by $\\begin{pmatrix}3\\\\2\\end{pmatrix}$.",
+      "help": "$(-3 + 3,\\; -2 + 2) = (0, 0)$.\n\nExample: $(1, 4) + \\begin{pmatrix}-2\\\\1\\end{pmatrix} = (-1, 5)$."
+    },
+    "184": {
+      "hint": "If two pentagons are similar, are their diagonals in the same ratio as sides?",
+      "help": "**Similar** shapes have all lengths in the same ratio — diagonals too — **true**.\n\nExample: k = 2 doubles sides and diagonals."
+    },
+    "185": {
+      "hint": "270° clockwise equals 90° anticlockwise about O on (1, 0).",
+      "help": "90° anticlockwise: $(1, 0) \\to (0, 1)$.\n\nExample: $(3, 0) \\to (0, 3)$ anticlockwise."
+    },
+    "186": {
+      "hint": "Multiply 16 cm by scale factor $\\frac{3}{4}$.",
+      "help": "Image length $= \\frac{3}{4} \\times 16 = 12$ cm.\n\nExample: $\\frac{2}{5}$ on 30 cm → 12 cm."
+    },
+    "187": {
+      "hint": "Is k = 0 a valid scale factor (everything collapses to the centre)?",
+      "help": "**k = 0** sends all points to the centre — valid mathematically but collapses the shape — **sometimes** used in theory.\n\nExample: (4, 2) → (0, 0) from O."
+    },
+    "188": {
+      "hint": "Explain why area scales by k² when lengths scale by k.",
+      "help": "Area uses **two** dimensions: length × width each × **k**, so area × **k × k = k²**.\n\nExample: square side × 2 → area × 4."
+    },
+    "189": {
+      "hint": "Reflect (2, −2) in y = x → (−2, 2), then add vector $\\begin{pmatrix}1\\\\1\\end{pmatrix}$.",
+      "help": "y = x: $(2, -2) \\to (-2, 2)$. Translate: $(-1, 3)$.\n\nExample: apply reflection then translation in order."
+    },
+    "190": {
+      "hint": "If two circles are congruent, must their radii match?",
+      "help": "**Congruent** circles have the **same radius** — **true**.\n\nExample: radius 5 cm circles are congruent."
+    },
+    "191": {
+      "hint": "Similar rectangles 3×4 and width 6 — scale 2, so length 8.",
+      "help": "Width 3 → 6 means **k = 2**; length $= 4 \\times 2 = 8$.\n\nExample: 2×3 similar to 6×9 has k = 3."
+    },
+    "192": {
+      "hint": "Does a + b = b + a for translation vectors?",
+      "help": "Vector addition is **commutative** — order does not matter — **always**.\n\nExample: $\\begin{pmatrix}1\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\4\\end{pmatrix} = \\begin{pmatrix}4\\\\6\\end{pmatrix}$ either way."
+    },
+    "193": {
+      "hint": "Map 1 : 20000 — 5 mm = 0.5 cm; multiply by 20000, convert to metres.",
+      "help": "Real $= 0.5 \\times 20000$ cm $= 10000$ cm $= 100$ m.\n\nExample: 1 cm on 1:10000 → 100 m."
+    },
+    "194": {
+      "hint": "Enlargement k = −1 about O on (3, 2): multiply coordinates by −1.",
+      "help": "$(3, 2) \\to (-3, -2)$.\n\nExample: k = −1 on (1, −4) → (−1, 4)."
+    },
+    "195": {
+      "hint": "Can you undo a translation with the opposite vector?",
+      "help": "Translate by **−**vector returns to start — **true**.\n\nExample: $\\begin{pmatrix}3\\\\2\\end{pmatrix}$ undone by $\\begin{pmatrix}-3\\\\-2\\end{pmatrix}$."
+    },
+    "196": {
+      "hint": "Write a similarity story (shadow or photo) with a scale factor.",
+      "help": "A **shadow** is similar to the object — e.g. a 2 m fence with a 3 m shadow → scale factor **1.5** for length.\n\nExample: photo scale k = 0.01 of a building."
+    },
+    "197": {
+      "hint": "Compare rotation and reflection in one short paragraph.",
+      "help": "**Rotation** turns a shape about a centre; **reflection** flips it across a mirror line. Both are rigid (congruent); reflection reverses orientation, rotation does not.\n\nExample: spin vs mirror image."
+    },
+    "198": {
+      "hint": "Create example: translate (1, 2) then rotate 90° clockwise about O.",
+      "help": "Translate e.g. $\\begin{pmatrix}2\\\\0\\end{pmatrix}$: $(1,2) \\to (3,2)$. Rotate 90° cw: $(3,2) \\to (2,-3)$.\n\nShow each step on coordinates."
+    },
+    "199": {
+      "hint": "Area 62.5 cm² after k = 2.5 enlargement — divide by 2.5² for original area.",
+      "help": "Original $= 62.5 \\div 2.5^2 = 62.5 \\div 6.25 = 10$ cm².\n\nExample: k = 2, new area 40 → original 10 cm²."
+    },
+    "200": {
+      "hint": "List four transformations with one numeric example each — label congruent or similar.",
+      "help": "**Translation** (3,0): congruent. **Rotation** 90°: congruent. **Reflection** in x-axis: congruent. **Enlargement** k=2: similar (not congruent unless k=1).\n\nGive your own numbers for each."
+    }
+  }
+}

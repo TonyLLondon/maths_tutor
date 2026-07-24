@@ -1,0 +1,1761 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "10",
+      "accept": [
+        "10",
+        "ten"
+      ],
+      "tier": 1,
+      "rating": 531
+    },
+    "3": {
+      "display": "Subtract 4",
+      "accept": [
+        "subtract 4",
+        "take away 4",
+        "-4"
+      ],
+      "tier": 1,
+      "rating": 563
+    },
+    "4": {
+      "display": "Halving",
+      "accept": [
+        "halving",
+        "halve",
+        "divide by 2",
+        "÷2"
+      ],
+      "tier": 1,
+      "rating": 594
+    },
+    "5": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 626
+    },
+    "6": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 657
+    },
+    "7": {
+      "display": "7",
+      "accept": [
+        "7",
+        "seven"
+      ],
+      "tier": 1,
+      "rating": 689
+    },
+    "8": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "10": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 661
+    },
+    "11": {
+      "display": "17",
+      "accept": [
+        "17"
+      ],
+      "tier": 1,
+      "rating": 673
+    },
+    "12": {
+      "display": "(3 + 4) × 5 = 35",
+      "accept": [
+        "(3+4)*5",
+        "(3 + 4) x 5",
+        "(3+4)×5"
+      ],
+      "tier": 1,
+      "rating": 684
+    },
+    "13": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 695
+    },
+    "14": {
+      "display": "81",
+      "accept": [
+        "81"
+      ],
+      "tier": 1,
+      "rating": 707
+    },
+    "15": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 741
+    },
+    "16": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 809
+    },
+    "17": {
+      "display": "17",
+      "accept": [
+        "17"
+      ],
+      "tier": 1,
+      "rating": 866
+    },
+    "18": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 923
+    },
+    "19": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 650
+    },
+    "20": {
+      "display": "28",
+      "accept": [
+        "28"
+      ],
+      "tier": 1,
+      "rating": 817
+    },
+    "21": {
+      "display": "(2 + 3) × 4 − 1 = 19",
+      "accept": [
+        "(2+3)*4-1",
+        "(2 + 3) x 4 - 1",
+        "(2+3)×4−1"
+      ],
+      "tier": 1,
+      "rating": 983
+    },
+    "22": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "23": {
+      "display": "No. 10 − 6 ÷ 2 = 7 but (10 − 6) ÷ 2 = 2",
+      "accept": [
+        "no",
+        "7",
+        "2"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 900
+    },
+    "24": {
+      "display": "Sometimes — e.g. 2 × (3 + 4) = 14 is different from 2 × 3 + 4 = 10, but (2 + 3) + 4 gives the same as 2 + 3 + 4.",
+      "accept": [
+        "sometimes",
+        "different",
+        "same"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1053
+    },
+    "25": {
+      "display": "No — e.g. 0.5² = 0.25, which is smaller than 0.5.",
+      "accept": [
+        "no",
+        "0.5",
+        "0.25",
+        "smaller"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1244
+    },
+    "26": {
+      "display": "Sometimes — they are only equal when the multiplier is 1, e.g. 2 + 3 × 1 = 5 = (2 + 3) × 1.",
+      "accept": [
+        "sometimes",
+        "multiplier is 1",
+        "c = 1"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1454
+    },
+    "27": {
+      "display": "Mistake: she added 4 + 5 first instead of multiplying first. Correct answer: 4 + 5 × 2 = 4 + 10 = 14.",
+      "accept": [
+        "multiply first",
+        "5 × 2",
+        "14"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1550
+    },
+    "28": {
+      "display": "Cost 3 × 8.50 = £25.50; change £30 − £25.50 = £4.50",
+      "accept": [
+        "4.50",
+        "£4.50",
+        "4.5",
+        "450p"
+      ],
+      "tier": 3,
+      "rating": 1646
+    },
+    "29": {
+      "display": "(2 × 6) + (3 × 4) = 12 + 12 = 24 buns",
+      "accept": [
+        "24"
+      ],
+      "tier": 3,
+      "rating": 1672
+    },
+    "30": {
+      "display": "49 m²",
+      "accept": [
+        "49"
+      ],
+      "tier": 3,
+      "rating": 1698
+    },
+    "31": {
+      "display": "15 + 2 × (8 − 5) = 15 + 6 = £21",
+      "accept": [
+        "21",
+        "£21"
+      ],
+      "tier": 3,
+      "rating": 1724
+    },
+    "32": {
+      "display": "45",
+      "accept": [
+        "45"
+      ],
+      "tier": 3,
+      "rating": 1750
+    },
+    "33": {
+      "display": "11",
+      "accept": [
+        "11",
+        "eleven"
+      ],
+      "tier": 2,
+      "rating": 1270
+    },
+    "34": {
+      "display": "14",
+      "accept": [
+        "14",
+        "fourteen"
+      ],
+      "tier": 2,
+      "rating": 1296
+    },
+    "35": {
+      "display": "17",
+      "accept": [
+        "17",
+        "seventeen"
+      ],
+      "tier": 2,
+      "rating": 1374
+    },
+    "36": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 2,
+      "rating": 1322
+    },
+    "37": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 2,
+      "rating": 1348
+    },
+    "38": {
+      "display": "24",
+      "accept": [
+        "24",
+        "twenty-four"
+      ],
+      "tier": 2,
+      "rating": 1400
+    },
+    "39": {
+      "display": "0",
+      "accept": [
+        "0"
+      ],
+      "tier": 3,
+      "rating": 1914
+    },
+    "40": {
+      "display": "(6 + 4) × 2 − 3 = 17",
+      "accept": [
+        "(6+4)*2-3",
+        "(6 + 4) x 2 - 3",
+        "(6+4)×2−3"
+      ],
+      "tier": 3,
+      "rating": 1971
+    },
+    "41": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 3,
+      "rating": 1986
+    },
+    "42": {
+      "display": "−2",
+      "accept": [
+        "-2",
+        "−2"
+      ],
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 2,
+      "rating": 900
+    },
+    "44": {
+      "display": "No. (2 + 3)² = 25 but 2² + 3² = 4 + 9 = 13.",
+      "accept": [
+        "no",
+        "25",
+        "13"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 954
+    },
+    "45": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "46": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 776
+    },
+    "47": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 802
+    },
+    "48": {
+      "display": "19",
+      "accept": [
+        "19"
+      ],
+      "tier": 1,
+      "rating": 828
+    },
+    "49": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 854
+    },
+    "50": {
+      "display": "(8 − 3) × 2 = 10",
+      "accept": [
+        "(8-3)*2",
+        "(8 − 3) x 2",
+        "(8-3)×2"
+      ],
+      "tier": 1,
+      "rating": 880
+    },
+    "51": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 1,
+      "rating": 906
+    },
+    "52": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 932
+    },
+    "53": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 958
+    },
+    "54": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 984
+    },
+    "55": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1010
+    },
+    "56": {
+      "display": "(4 + 6) ÷ 2 = 5",
+      "accept": [
+        "(4+6)/2",
+        "(4 + 6) ÷ 2",
+        "(4+6)÷2"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "57": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 1062
+    },
+    "58": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 1088
+    },
+    "59": {
+      "display": "11",
+      "accept": [
+        "11"
+      ],
+      "tier": 1,
+      "rating": 1114
+    },
+    "60": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 1,
+      "rating": 1140
+    },
+    "61": {
+      "display": "Square root",
+      "accept": [
+        "square root",
+        "square rooting",
+        "sqrt",
+        "√",
+        "taking the square root"
+      ],
+      "tier": 1,
+      "rating": 1166
+    },
+    "62": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1192
+    },
+    "63": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 1218
+    },
+    "64": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 1244
+    },
+    "65": {
+      "display": "35",
+      "accept": [
+        "35"
+      ],
+      "tier": 1,
+      "rating": 718
+    },
+    "66": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 730
+    },
+    "67": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 752
+    },
+    "68": {
+      "display": "5 × (3 + 2) = 25",
+      "accept": [
+        "5*(3+2)",
+        "5 × (3 + 2)",
+        "5x(3+2)"
+      ],
+      "tier": 1,
+      "rating": 764
+    },
+    "69": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 775
+    },
+    "70": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "71": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 798
+    },
+    "72": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 820
+    },
+    "73": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 832
+    },
+    "74": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 843
+    },
+    "75": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 855
+    },
+    "76": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 877
+    },
+    "77": {
+      "display": "(12 − 8) ÷ 4 = 1",
+      "accept": [
+        "(12-8)/4",
+        "(12 − 8) ÷ 4",
+        "(12-8)÷4"
+      ],
+      "tier": 1,
+      "rating": 889
+    },
+    "78": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 900
+    },
+    "79": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 911
+    },
+    "80": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 934
+    },
+    "81": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "82": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 957
+    },
+    "83": {
+      "display": "3 × (4 + 2) = 18",
+      "accept": [
+        "3*(4+2)",
+        "3 × (4 + 2)",
+        "3x(4+2)"
+      ],
+      "tier": 1,
+      "rating": 968
+    },
+    "84": {
+      "display": "−8",
+      "accept": [
+        "-8",
+        "−8"
+      ],
+      "tier": 1,
+      "rating": 980
+    },
+    "85": {
+      "display": "72",
+      "accept": [
+        "72"
+      ],
+      "tier": 1,
+      "rating": 991
+    },
+    "86": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1002
+    },
+    "87": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1014
+    },
+    "88": {
+      "display": "56",
+      "accept": [
+        "56"
+      ],
+      "tier": 1,
+      "rating": 1025
+    },
+    "89": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1036
+    },
+    "90": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1048
+    },
+    "91": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1059
+    },
+    "92": {
+      "display": "19",
+      "accept": [
+        "19"
+      ],
+      "tier": 1,
+      "rating": 1070
+    },
+    "93": {
+      "display": "27",
+      "accept": [
+        "27"
+      ],
+      "tier": 1,
+      "rating": 1082
+    },
+    "94": {
+      "display": "(10 + 6) ÷ 2 = 8",
+      "accept": [
+        "(10+6)/2",
+        "(10 + 6) ÷ 2",
+        "(10+6)÷2"
+      ],
+      "tier": 1,
+      "rating": 1093
+    },
+    "95": {
+      "display": "17",
+      "accept": [
+        "17"
+      ],
+      "tier": 1,
+      "rating": 1105
+    },
+    "96": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1116
+    },
+    "97": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1127
+    },
+    "98": {
+      "display": "3",
+      "accept": [
+        "3"
+      ],
+      "tier": 1,
+      "rating": 1139
+    },
+    "99": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "100": {
+      "display": "Mistake: she added 8 + 12 first. Correct: 8 + 12 ÷ 4 = 8 + 3 = 11.",
+      "accept": [
+        "11",
+        "mistake",
+        "added first",
+        "multiply first"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 919
+    },
+    "101": {
+      "display": "Sometimes — e.g. 2 + 3 × 1 = 5 but (2 + 3) × 1 = 5; try 1 + 2 × 3 = 7 vs (1 + 2) × 3 = 9.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 938
+    },
+    "102": {
+      "display": "No — 5² − 4² = 25 − 16 = 9 but (5 − 4)² = 1² = 1.",
+      "accept": [
+        "no",
+        "not correct",
+        "incorrect"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 957
+    },
+    "103": {
+      "display": "Never — (5) is just 5; brackets around one number do not change its value.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 976
+    },
+    "104": {
+      "display": "No — 20 − 5 × 2 = 10 but (20 − 5) × 2 = 30.",
+      "accept": [
+        "no",
+        "not correct",
+        "incorrect"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 996
+    },
+    "105": {
+      "display": "Sometimes — e.g. 12 ÷ 3 + 2 = 6 but 12 ÷ (3 + 2) = 12 ÷ 5 = 2.4; they are rarely equal.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1015
+    },
+    "106": {
+      "display": "Yes — multiplication is done before addition, so 4 × 5 = 20, then 3 + 20 = 23.",
+      "accept": [
+        "yes",
+        "correct",
+        "right"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1034
+    },
+    "107": {
+      "display": "Sometimes — (2 + 3)² = 25 but 2² + 3² = 13; they match only when 2ab = 0.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1072
+    },
+    "108": {
+      "display": "Work ÷ and × left to right: 6 ÷ 2 = 3, then 3 × 3 = 9. It is not 6 ÷ (2 × 3).",
+      "accept": [
+        "9",
+        "left to right",
+        "not 1"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1091
+    },
+    "109": {
+      "display": "Sometimes — only when both powers and multiplication appear, e.g. 2 × 3² needs the power first.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1110
+    },
+    "110": {
+      "display": "Yes — subtract 3 from 10 to get 7, then subtract 2 to get 5.",
+      "accept": [
+        "yes",
+        "correct",
+        "5"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1129
+    },
+    "111": {
+      "display": "Never — 2 × 3² = 2 × 9 = 18 but (2 × 3)² = 6² = 36.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1149
+    },
+    "112": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 2,
+      "rating": 1168
+    },
+    "113": {
+      "display": "Always — 5 + 0 = 5, so (5 + 0) × 3 = 5 × 3.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1187
+    },
+    "114": {
+      "display": "No — 100 ÷ 10 ÷ 2 = 5 but 100 ÷ (10 ÷ 2) = 100 ÷ 5 = 20.",
+      "accept": [
+        "no",
+        "not correct",
+        "incorrect"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1206
+    },
+    "115": {
+      "display": "Never — e.g. (−3)² = 9, which is positive.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1225
+    },
+    "116": {
+      "display": "In 30 − (2 + 3) × 4 you must add inside brackets then multiply before subtracting; 30 − 2 + 3 is just left-to-right.",
+      "accept": [
+        "brackets",
+        "multiply first",
+        "left to right"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1263
+    },
+    "117": {
+      "display": "Never — 0 × 5 + 3 = 3 but 0 × (5 + 3) = 0.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1282
+    },
+    "118": {
+      "display": "12 ÷ (4 + 2) = 2",
+      "accept": [
+        "12/(4+2)",
+        "12 ÷ (4 + 2)",
+        "12÷(4+2)"
+      ],
+      "tier": 2,
+      "rating": 1301
+    },
+    "119": {
+      "display": "Sometimes — (10 − 4) ÷ 2 = 3 but 10 − 4 ÷ 2 = 10 − 2 = 8.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1321
+    },
+    "120": {
+      "display": "Mistake: she added 3 + 2 before cubing. Correct: 3 + 2³ = 3 + 8 = 11.",
+      "accept": [
+        "11",
+        "mistake",
+        "power first",
+        "2 cubed"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1340
+    },
+    "121": {
+      "display": "Always — for equal-level subtraction, work from left to right: 10 − 3 − 2 = 7 − 2 = 5.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1359
+    },
+    "122": {
+      "display": "No — (8 − 3)² = 25 but 8² − 3² = 64 − 9 = 55.",
+      "accept": [
+        "no",
+        "not correct",
+        "incorrect"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1378
+    },
+    "123": {
+      "display": "Sometimes — e.g. 2 + 3 × 4 = 14 is false but (2 + 3) × 4 = 20 is true.",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1397
+    },
+    "124": {
+      "display": "100",
+      "accept": [
+        "100"
+      ],
+      "tier": 2,
+      "rating": 1416
+    },
+    "125": {
+      "display": "Always — a ÷ b × b = a when b ≠ 0, working ÷ then × left to right.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1435
+    },
+    "126": {
+      "display": "Multiply first: 3 × 4 = 12, then 2 + 12 − 1 = 13. Left-to-right addition gives 18; wrong grouping gives 9.",
+      "accept": [
+        "13",
+        "multiply first",
+        "BIDMAS"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1474
+    },
+    "127": {
+      "display": "Always — BIDMAS gives one fixed order so everyone gets the same result.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1493
+    },
+    "128": {
+      "display": "Error: square before subtracting. 20 − 5² = 20 − 25 = −5, not (20 − 5)² = 225.",
+      "accept": [
+        "-5",
+        "−5",
+        "square first",
+        "mistake"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1512
+    },
+    "129": {
+      "display": "Never — 2(a + b) = 2a + 2b, not 2a + b.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1531
+    },
+    "130": {
+      "display": "50 − 4 × 9 = £14 change",
+      "accept": [
+        "14",
+        "£14"
+      ],
+      "tier": 3,
+      "rating": 1100
+    },
+    "131": {
+      "display": "(3 × 8) + (2 × 5) = 24 + 10 = 34 cupcakes",
+      "accept": [
+        "34"
+      ],
+      "tier": 3,
+      "rating": 1126
+    },
+    "132": {
+      "display": "50 m²",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1152
+    },
+    "133": {
+      "display": "40 + 3 × (9 − 5) = £52",
+      "accept": [
+        "52",
+        "£52"
+      ],
+      "tier": 3,
+      "rating": 1178
+    },
+    "134": {
+      "display": "50 cm",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1204
+    },
+    "135": {
+      "display": "4 rows",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 3,
+      "rating": 1230
+    },
+    "136": {
+      "display": "17°C",
+      "accept": [
+        "17"
+      ],
+      "tier": 3,
+      "rating": 1256
+    },
+    "137": {
+      "display": "10 − 2 × 4.50 = £1 change",
+      "accept": [
+        "1",
+        "£1"
+      ],
+      "tier": 3,
+      "rating": 1282
+    },
+    "138": {
+      "display": "£240",
+      "accept": [
+        "240",
+        "£240"
+      ],
+      "tier": 3,
+      "rating": 1308
+    },
+    "139": {
+      "display": "52%",
+      "accept": [
+        "52",
+        "52%"
+      ],
+      "tier": 3,
+      "rating": 1334
+    },
+    "140": {
+      "display": "60 g",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1360
+    },
+    "141": {
+      "display": "10 + 2 × 7 = 24 points",
+      "accept": [
+        "24"
+      ],
+      "tier": 3,
+      "rating": 1386
+    },
+    "142": {
+      "display": "£28.80",
+      "accept": [
+        "28.80",
+        "28.8",
+        "£28.80"
+      ],
+      "tier": 3,
+      "rating": 1412
+    },
+    "143": {
+      "display": "6 + 1.50 × 4 = £12",
+      "accept": [
+        "12",
+        "£12"
+      ],
+      "tier": 3,
+      "rating": 1438
+    },
+    "144": {
+      "display": "20 books",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1464
+    },
+    "145": {
+      "display": "16 km",
+      "accept": [
+        "16"
+      ],
+      "tier": 3,
+      "rating": 1490
+    },
+    "146": {
+      "display": "5 + 2 × 6 = £17",
+      "accept": [
+        "17",
+        "£17"
+      ],
+      "tier": 3,
+      "rating": 1516
+    },
+    "147": {
+      "display": "12 m",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1542
+    },
+    "148": {
+      "display": "25 cm²",
+      "accept": [
+        "25"
+      ],
+      "tier": 3,
+      "rating": 1568
+    },
+    "149": {
+      "display": "£57",
+      "accept": [
+        "57",
+        "£57"
+      ],
+      "tier": 3,
+      "rating": 1594
+    },
+    "150": {
+      "display": "50 litres",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1620
+    },
+    "151": {
+      "display": "50 cm²",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1400
+    },
+    "152": {
+      "display": "£102",
+      "accept": [
+        "102",
+        "£102"
+      ],
+      "tier": 3,
+      "rating": 1414
+    },
+    "153": {
+      "display": "44 sandwiches",
+      "accept": [
+        "44"
+      ],
+      "tier": 3,
+      "rating": 1429
+    },
+    "154": {
+      "display": "100",
+      "accept": [
+        "100"
+      ],
+      "tier": 3,
+      "rating": 1443
+    },
+    "155": {
+      "display": "£6.50",
+      "accept": [
+        "6.50",
+        "6.5",
+        "£6.50"
+      ],
+      "tier": 3,
+      "rating": 1457
+    },
+    "156": {
+      "display": "32 teams",
+      "accept": [
+        "32"
+      ],
+      "tier": 3,
+      "rating": 1471
+    },
+    "157": {
+      "display": "£9.50",
+      "accept": [
+        "9.50",
+        "9.5",
+        "£9.50"
+      ],
+      "tier": 3,
+      "rating": 1486
+    },
+    "158": {
+      "display": "80",
+      "accept": [
+        "80"
+      ],
+      "tier": 3,
+      "rating": 1500
+    },
+    "159": {
+      "display": "29",
+      "accept": [
+        "29"
+      ],
+      "tier": 3,
+      "rating": 1514
+    },
+    "160": {
+      "display": "109",
+      "accept": [
+        "109"
+      ],
+      "tier": 3,
+      "rating": 1529
+    },
+    "161": {
+      "display": "(2 × 3 + 4) × 5 = 70",
+      "accept": [
+        "(2*3+4)*5",
+        "(2 × 3 + 4) × 5"
+      ],
+      "tier": 3,
+      "rating": 1543
+    },
+    "162": {
+      "display": "85",
+      "accept": [
+        "85"
+      ],
+      "tier": 3,
+      "rating": 1557
+    },
+    "163": {
+      "display": "8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1571
+    },
+    "164": {
+      "display": "(8 + 12) ÷ 4 × 2 = 10",
+      "accept": [
+        "(8+12)/4*2",
+        "(8 + 12) ÷ 4 × 2"
+      ],
+      "tier": 3,
+      "rating": 1586
+    },
+    "165": {
+      "display": "−18",
+      "accept": [
+        "-18",
+        "−18"
+      ],
+      "tier": 3,
+      "rating": 1600
+    },
+    "166": {
+      "display": "37",
+      "accept": [
+        "37"
+      ],
+      "tier": 3,
+      "rating": 1614
+    },
+    "167": {
+      "display": "(10 − 6) ÷ 2 = 2",
+      "accept": [
+        "(10-6)/2",
+        "(10 − 6) ÷ 2"
+      ],
+      "tier": 3,
+      "rating": 1629
+    },
+    "168": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 3,
+      "rating": 1643
+    },
+    "169": {
+      "display": "48",
+      "accept": [
+        "48"
+      ],
+      "tier": 3,
+      "rating": 1657
+    },
+    "170": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 3,
+      "rating": 1671
+    },
+    "171": {
+      "display": "(1 + 2 × 3)² = 49",
+      "accept": [
+        "(1+2*3)^2",
+        "(1 + 2 × 3)²",
+        "(1+2*3)2"
+      ],
+      "tier": 3,
+      "rating": 1686
+    },
+    "172": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 3,
+      "rating": 1700
+    },
+    "173": {
+      "display": "4",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1714
+    },
+    "174": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1729
+    },
+    "175": {
+      "display": "2",
+      "accept": [
+        "2"
+      ],
+      "tier": 3,
+      "rating": 1743
+    },
+    "176": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 3,
+      "rating": 1757
+    },
+    "177": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1771
+    },
+    "178": {
+      "display": "Always — (a + b)² = a² + 2ab + b², so a² + b² = (a + b)² − 2ab.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1786
+    },
+    "179": {
+      "display": "13",
+      "accept": [
+        "13"
+      ],
+      "tier": 3,
+      "rating": 1800
+    },
+    "180": {
+      "display": "80",
+      "accept": [
+        "80"
+      ],
+      "tier": 3,
+      "rating": 1814
+    },
+    "181": {
+      "display": "(16 − 8) ÷ 2² = 2",
+      "accept": [
+        "(16-8)/2^2",
+        "(16 − 8) ÷ 2²"
+      ],
+      "tier": 3,
+      "rating": 1829
+    },
+    "182": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 3,
+      "rating": 1843
+    },
+    "183": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 3,
+      "rating": 1857
+    },
+    "184": {
+      "display": "42",
+      "accept": [
+        "42"
+      ],
+      "tier": 3,
+      "rating": 1871
+    },
+    "185": {
+      "display": "105",
+      "accept": [
+        "105"
+      ],
+      "tier": 3,
+      "rating": 1886
+    },
+    "186": {
+      "display": "(12 − 8) ÷ 2 = 2",
+      "accept": [
+        "(12-8)/2",
+        "(12 − 8) ÷ 2"
+      ],
+      "tier": 3,
+      "rating": 1900
+    },
+    "187": {
+      "display": "73",
+      "accept": [
+        "73"
+      ],
+      "tier": 3,
+      "rating": 1929
+    },
+    "188": {
+      "display": "28",
+      "accept": [
+        "28"
+      ],
+      "tier": 3,
+      "rating": 1943
+    },
+    "189": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 3,
+      "rating": 1957
+    },
+    "190": {
+      "display": "No — work ÷ then × left to right: 6 ÷ 2 × 3 = 3 × 3 = 9.",
+      "accept": [
+        "no",
+        "9",
+        "left to right"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1008
+    },
+    "191": {
+      "display": "Never — (2 + 3) × 4 = 20 but 2 + 3 × 4 = 14.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1063
+    },
+    "192": {
+      "display": "400 seats",
+      "accept": [
+        "400"
+      ],
+      "tier": 3,
+      "rating": 1117
+    },
+    "193": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 3,
+      "rating": 1171
+    },
+    "194": {
+      "display": "(2 × 3 + 4) × 3 = 30",
+      "accept": [
+        "(2*3+4)*3",
+        "(2 × 3 + 4) × 3"
+      ],
+      "tier": 3,
+      "rating": 1225
+    },
+    "195": {
+      "display": "68",
+      "accept": [
+        "68"
+      ],
+      "tier": 3,
+      "rating": 1279
+    },
+    "196": {
+      "display": "Error: square 5 before subtracting. 20 − 5² = −5, not (20 − 5)² = 225.",
+      "accept": [
+        "-5",
+        "−5",
+        "mistake",
+        "square first"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1333
+    },
+    "197": {
+      "display": "23",
+      "accept": [
+        "23"
+      ],
+      "tier": 3,
+      "rating": 1388
+    },
+    "198": {
+      "display": "£28",
+      "accept": [
+        "28",
+        "£28"
+      ],
+      "tier": 3,
+      "rating": 1442
+    },
+    "199": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 3,
+      "rating": 1496
+    },
+    "200": {
+      "display": "(6 + 4) × 2 − 3 = 17",
+      "accept": [
+        "(6+4)*2-3",
+        "(6 + 4) x 2 - 3",
+        "(6+4)×2−3"
+      ],
+      "tier": 3,
+      "rating": 1550
+    }
+  }
+}

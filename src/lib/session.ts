@@ -6,6 +6,8 @@ export type SessionPayload = {
   displayName: string;
   tenant: TenantId;
   exp: number;
+  /** Set when the session is loaded from the account registry (not stored in the cookie). */
+  isParent?: boolean;
 };
 
 /** Fixed signing material — family app, not a deployed secret. */

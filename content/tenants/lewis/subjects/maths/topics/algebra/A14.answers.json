@@ -1,0 +1,2126 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "2 minutes",
+      "accept": [
+        "2",
+        "2 minutes",
+        "2 mins"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "2 metres",
+      "accept": [
+        "2",
+        "2 metres",
+        "2 m"
+      ],
+      "tier": 1,
+      "rating": 540
+    },
+    "3": {
+      "display": "0",
+      "accept": [
+        "0"
+      ],
+      "tier": 1,
+      "rating": 580
+    },
+    "4": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 1,
+      "rating": 620
+    },
+    "5": {
+      "display": "3 metres",
+      "accept": [
+        "3",
+        "3 metres",
+        "3 m"
+      ],
+      "tier": 1,
+      "rating": 660
+    },
+    "6": {
+      "display": "2 metres",
+      "accept": [
+        "2",
+        "2 metres",
+        "2 m"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "7": {
+      "display": "3 minutes",
+      "accept": [
+        "3",
+        "3 minutes",
+        "3 mins"
+      ],
+      "tier": 1,
+      "rating": 700
+    },
+    "8": {
+      "display": "Increasing",
+      "accept": [
+        "increasing"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "9": {
+      "display": "The person or object is not moving (staying at the same distance).",
+      "accept": [
+        "not moving",
+        "stationary",
+        "stopped"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "10": {
+      "display": "A steep line means a faster speed; a gentle line means a slower speed.",
+      "accept": [
+        "faster",
+        "steep",
+        "slower"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 786
+    },
+    "11": {
+      "display": "8 km",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "12": {
+      "display": "30 km/h",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "13": {
+      "display": "The filling has paused — the depth is staying the same.",
+      "accept": [
+        "paused",
+        "not filling",
+        "stopped"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 865
+    },
+    "14": {
+      "display": "Steeper — a narrow container's depth rises faster for the same rate of pouring.",
+      "accept": [
+        "steeper"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 892
+    },
+    "15": {
+      "display": "4 cm per minute",
+      "accept": [
+        "4"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "16": {
+      "display": "It curves (gets steeper as the cyclist speeds up).",
+      "accept": [
+        "curve",
+        "curves"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 945
+    },
+    "17": {
+      "display": "The person or object is moving back towards the starting point.",
+      "accept": [
+        "returning",
+        "coming back",
+        "towards start"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 971
+    },
+    "18": {
+      "display": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "19": {
+      "display": "15 km/h",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "20": {
+      "display": "12 litres",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "21": {
+      "display": "Speed is zero / not moving",
+      "accept": [
+        "zero",
+        "not moving",
+        "stationary"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 760
+    },
+    "22": {
+      "display": "Greater speed",
+      "accept": [
+        "faster",
+        "greater speed"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1050
+    },
+    "23": {
+      "display": "A flat section means the distance is not changing at all, so the person has stopped moving — it does not show a slow walk, which would instead appear as a gentle (not flat) slope.",
+      "accept": [
+        "stopped",
+        "not moving",
+        "gentle slope"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "24": {
+      "display": "Always — for the same amount of time, a steeper line covers more distance, which means a faster speed.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "25": {
+      "display": "Sam is wrong — because the container's width changes (narrow middle, wide top and bottom), the depth rises at different rates in different sections, so the graph would have different steepnesses (and curve), not stay a single straight line.",
+      "accept": [
+        "different rates",
+        "curve",
+        "not straight"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "26": {
+      "display": "The second graph (reaching 20) shows the faster journey — it covers more distance (20 vs 10) in the same time (2), so it has a steeper gradient and a greater speed.",
+      "accept": [
+        "second",
+        "20",
+        "faster",
+        "steeper"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "27": {
+      "display": "False — if the person or object moves back towards the starting point, the distance from the start decreases over time, giving a negative gradient.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "28": {
+      "display": "Leo has it backwards — a steep section means the container is narrow there, since a small cross-section fills up in depth quickly for a given amount of liquid poured in, not wide.",
+      "accept": [
+        "narrow",
+        "backwards"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "29": {
+      "display": "Standing still gives a flat (horizontal) line, since distance does not change. Walking at a constant speed gives a straight line sloping upward at a steady angle, since distance increases steadily with time.",
+      "accept": [
+        "flat",
+        "horizontal",
+        "straight line",
+        "sloping"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "30": {
+      "display": "The graph would curve because the cone's cross-sectional area increases with height. For a steady flow of water, the depth rises quickly near the narrow point but more slowly as the container gets wider, so the rate of depth increase changes over time.",
+      "accept": [
+        "curve",
+        "changes",
+        "narrow",
+        "wider"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "31": {
+      "display": "Section 1: a straight line sloping upward as distance from home increases steadily on the way to the park. Section 2: a flat section while resting at the park. Section 3: a straight line sloping downward back to zero, steeper than section 1 because the return speed is faster.",
+      "accept": [
+        "upward",
+        "flat",
+        "downward",
+        "steeper"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "32": {
+      "display": "The depth-time graph rises while the bath fills, then falls back down towards zero once the plug is pulled and the water drains out.",
+      "accept": [
+        "rises",
+        "falls",
+        "drains"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1680
+    },
+    "33": {
+      "display": "180 km",
+      "accept": [
+        "180"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "34": {
+      "display": "Near the narrow bottom, a small amount of water raises the depth a lot, so the graph starts steep. In the wide middle, more water is needed to raise the depth the same amount, so the graph becomes shallower. Near the narrow top, the depth rises quickly again for the same flow, so the graph steepens once more.",
+      "accept": [
+        "narrow",
+        "wide",
+        "shallower",
+        "steepens"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1650
+    },
+    "35": {
+      "display": "Section 1: a steep upward slope as heart rate rises quickly during the sprint. Section 2: a flat, high section as heart rate stays elevated during steady running. Section 3: a downward slope as heart rate falls during rest.",
+      "accept": [
+        "steep upward",
+        "flat",
+        "downward"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1700
+    },
+    "36": {
+      "display": "Average speed = 90 ÷ 3 = 30 km/h. A curved section would have meant the van's speed was changing (speeding up or slowing down) rather than staying constant.",
+      "accept": [
+        "30",
+        "changing speed"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "37": {
+      "display": "30 km",
+      "accept": [
+        "30"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1860
+    },
+    "38": {
+      "display": "The cylinder gives a straight line, since its cross-sectional area is the same at every height, so depth rises at a constant rate. The cone (wide base, narrowing upward) gives a curved graph, since less volume is needed to raise the depth as the container narrows, so the depth rises faster and faster near the top.",
+      "accept": [
+        "cylinder",
+        "straight",
+        "cone",
+        "curve"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "39": {
+      "display": "During the first 4 seconds (speed increasing), the distance-time graph curves, becoming steeper and steeper as speed builds up. Once speed is constant, the distance-time graph becomes a straight line with a steady gradient equal to 8 m/s.",
+      "accept": [
+        "curves",
+        "steeper",
+        "straight line"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1953
+    },
+    "40": {
+      "display": "In both cases, the gradient (steepness) shows how quickly one quantity changes with time. For a distance-time graph, the gradient is the speed — how fast the position changes. For a depth-time graph, the gradient is the rate at which the liquid's depth rises, which depends on the flow rate and how wide the container is at that height.",
+      "accept": [
+        "gradient",
+        "speed",
+        "rate",
+        "depth"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 3,
+      "rating": 2000
+    },
+    "41": {
+      "display": "4 km/h",
+      "accept": [
+        "4",
+        "4 km/h"
+      ],
+      "tier": 2,
+      "rating": 1420
+    },
+    "42": {
+      "display": "Down",
+      "accept": [
+        "down"
+      ],
+      "tier": 2,
+      "rating": 1500
+    },
+    "43": {
+      "display": "Not moving / at rest — speed is zero on a flat distance–time section.",
+      "accept": [
+        "rest",
+        "not moving",
+        "stationary",
+        "stopped"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 817
+    },
+    "44": {
+      "display": "15 litres",
+      "accept": [
+        "15",
+        "15 litres"
+      ],
+      "tier": 1,
+      "rating": 824
+    },
+    "45": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 821,
+      "contains": true
+    },
+    "46": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 831,
+      "contains": true
+    },
+    "47": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 841,
+      "contains": true
+    },
+    "48": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 851,
+      "contains": true
+    },
+    "49": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 861,
+      "contains": true
+    },
+    "50": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 856,
+      "contains": true
+    },
+    "51": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 866,
+      "contains": true
+    },
+    "52": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 876,
+      "contains": true
+    },
+    "53": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 886,
+      "contains": true
+    },
+    "54": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 896,
+      "contains": true
+    },
+    "55": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 891,
+      "contains": true
+    },
+    "56": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 901,
+      "contains": true
+    },
+    "57": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 911,
+      "contains": true
+    },
+    "58": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 921,
+      "contains": true
+    },
+    "59": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 931,
+      "contains": true
+    },
+    "60": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 926,
+      "contains": true
+    },
+    "61": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 936,
+      "contains": true
+    },
+    "62": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 946,
+      "contains": true
+    },
+    "63": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 956,
+      "contains": true
+    },
+    "64": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 966,
+      "contains": true
+    },
+    "65": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 961,
+      "contains": true
+    },
+    "66": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 971,
+      "contains": true
+    },
+    "67": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 981,
+      "contains": true
+    },
+    "68": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 991,
+      "contains": true
+    },
+    "69": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1001,
+      "contains": true
+    },
+    "70": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 996,
+      "contains": true
+    },
+    "71": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1006,
+      "contains": true
+    },
+    "72": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1016,
+      "contains": true
+    },
+    "73": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1026,
+      "contains": true
+    },
+    "74": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1036,
+      "contains": true
+    },
+    "75": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1031,
+      "contains": true
+    },
+    "76": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1041,
+      "contains": true
+    },
+    "77": {
+      "display": "Yes",
+      "accept": [
+        "yes",
+        "no"
+      ],
+      "tier": 1,
+      "rating": 1051,
+      "contains": true
+    },
+    "78": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1061,
+      "contains": true
+    },
+    "79": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1071,
+      "contains": true
+    },
+    "80": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1066,
+      "contains": true
+    },
+    "81": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1076,
+      "contains": true
+    },
+    "82": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1086,
+      "contains": true
+    },
+    "83": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1096,
+      "contains": true
+    },
+    "84": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1106,
+      "contains": true
+    },
+    "85": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1101,
+      "contains": true
+    },
+    "86": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1111,
+      "contains": true
+    },
+    "87": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1121,
+      "contains": true
+    },
+    "88": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1131,
+      "contains": true
+    },
+    "89": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 1,
+      "rating": 1141,
+      "contains": true
+    },
+    "90": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 1,
+      "rating": 1136,
+      "contains": true
+    },
+    "91": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1100,
+      "contains": true
+    },
+    "92": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1106,
+      "contains": true
+    },
+    "93": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1112,
+      "contains": true
+    },
+    "94": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1118,
+      "contains": true
+    },
+    "95": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1124,
+      "contains": true
+    },
+    "96": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1130,
+      "contains": true
+    },
+    "97": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1136,
+      "contains": true
+    },
+    "98": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1142,
+      "contains": true
+    },
+    "99": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1148,
+      "contains": true
+    },
+    "100": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1154,
+      "contains": true
+    },
+    "101": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 1,
+      "rating": 1160,
+      "contains": true
+    },
+    "102": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1166,
+      "contains": true
+    },
+    "103": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1172,
+      "contains": true
+    },
+    "104": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1178,
+      "contains": true
+    },
+    "105": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1183,
+      "contains": true
+    },
+    "106": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1189,
+      "contains": true
+    },
+    "107": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1195,
+      "contains": true
+    },
+    "108": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1201,
+      "contains": true
+    },
+    "109": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1207,
+      "contains": true
+    },
+    "110": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1213,
+      "contains": true
+    },
+    "111": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1219,
+      "contains": true
+    },
+    "112": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 1,
+      "rating": 1225,
+      "contains": true
+    },
+    "113": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1231,
+      "contains": true
+    },
+    "114": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1237,
+      "contains": true
+    },
+    "115": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1243,
+      "contains": true
+    },
+    "116": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1249,
+      "contains": true
+    },
+    "117": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1255,
+      "contains": true
+    },
+    "118": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1261,
+      "contains": true
+    },
+    "119": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1267,
+      "contains": true
+    },
+    "120": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1273,
+      "contains": true
+    },
+    "121": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1279,
+      "contains": true
+    },
+    "122": {
+      "display": "Use the values in the question — show working.",
+      "accept": [
+        "working",
+        "answer"
+      ],
+      "tier": 2,
+      "rating": 1285,
+      "contains": true
+    },
+    "123": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1291,
+      "contains": true
+    },
+    "124": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1297,
+      "contains": true
+    },
+    "125": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1303,
+      "contains": true
+    },
+    "126": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1309,
+      "contains": true
+    },
+    "127": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1315,
+      "contains": true
+    },
+    "128": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1321,
+      "contains": true
+    },
+    "129": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1327,
+      "contains": true
+    },
+    "130": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1333,
+      "contains": true
+    },
+    "131": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1339,
+      "contains": true
+    },
+    "132": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1344,
+      "contains": true
+    },
+    "133": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1350,
+      "contains": true
+    },
+    "134": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1356,
+      "contains": true
+    },
+    "135": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1362,
+      "contains": true
+    },
+    "136": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1368,
+      "contains": true
+    },
+    "137": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1374,
+      "contains": true
+    },
+    "138": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1380,
+      "contains": true
+    },
+    "139": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1386,
+      "contains": true
+    },
+    "140": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1392,
+      "contains": true
+    },
+    "141": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1398,
+      "contains": true
+    },
+    "142": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1404,
+      "contains": true
+    },
+    "143": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1410,
+      "contains": true
+    },
+    "144": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1416,
+      "contains": true
+    },
+    "145": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1422,
+      "contains": true
+    },
+    "146": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1428,
+      "contains": true
+    },
+    "147": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1434,
+      "contains": true
+    },
+    "148": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1440,
+      "contains": true
+    },
+    "149": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1446,
+      "contains": true
+    },
+    "150": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1452,
+      "contains": true
+    },
+    "151": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1458,
+      "contains": true
+    },
+    "152": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1464,
+      "contains": true
+    },
+    "153": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1470,
+      "contains": true
+    },
+    "154": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 2,
+      "rating": 1476,
+      "contains": true
+    },
+    "155": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1482,
+      "contains": true
+    },
+    "156": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1488,
+      "contains": true
+    },
+    "157": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1494,
+      "contains": true
+    },
+    "158": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1500,
+      "contains": true
+    },
+    "159": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1506,
+      "contains": true
+    },
+    "160": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1511,
+      "contains": true
+    },
+    "161": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1517,
+      "contains": true
+    },
+    "162": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1523,
+      "contains": true
+    },
+    "163": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1529,
+      "contains": true
+    },
+    "164": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 2,
+      "rating": 1535,
+      "contains": true
+    },
+    "165": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1541,
+      "contains": true
+    },
+    "166": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1547,
+      "contains": true
+    },
+    "167": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1553,
+      "contains": true
+    },
+    "168": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1559,
+      "contains": true
+    },
+    "169": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1565,
+      "contains": true
+    },
+    "170": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 2,
+      "rating": 1571,
+      "contains": true
+    },
+    "171": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1577,
+      "contains": true
+    },
+    "172": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1583,
+      "contains": true
+    },
+    "173": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1589,
+      "contains": true
+    },
+    "174": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1595,
+      "contains": true
+    },
+    "175": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1601,
+      "contains": true
+    },
+    "176": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1607,
+      "contains": true
+    },
+    "177": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1613,
+      "contains": true
+    },
+    "178": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1619,
+      "contains": true
+    },
+    "179": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1625,
+      "contains": true
+    },
+    "180": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1631,
+      "contains": true
+    },
+    "181": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1637,
+      "contains": true
+    },
+    "182": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1643,
+      "contains": true
+    },
+    "183": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1649,
+      "contains": true
+    },
+    "184": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1655,
+      "contains": true
+    },
+    "185": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1661,
+      "contains": true
+    },
+    "186": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1667,
+      "contains": true
+    },
+    "187": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1672,
+      "contains": true
+    },
+    "188": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1678,
+      "contains": true
+    },
+    "189": {
+      "display": "Always, sometimes, or never with reason",
+      "accept": [
+        "always",
+        "sometimes",
+        "never"
+      ],
+      "tier": 3,
+      "rating": 1684,
+      "contains": true
+    },
+    "190": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1690,
+      "contains": true
+    },
+    "191": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1696,
+      "contains": true
+    },
+    "192": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1702,
+      "contains": true
+    },
+    "193": {
+      "display": "True or false with brief reason",
+      "accept": [
+        "true",
+        "false"
+      ],
+      "tier": 3,
+      "rating": 1708,
+      "contains": true
+    },
+    "194": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1714,
+      "contains": true
+    },
+    "195": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1720,
+      "contains": true
+    },
+    "196": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1726,
+      "contains": true
+    },
+    "197": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1732,
+      "contains": true
+    },
+    "198": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1738,
+      "contains": true
+    },
+    "199": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1744,
+      "contains": true
+    },
+    "200": {
+      "display": "Explain using the graph or equation idea in the question.",
+      "accept": [
+        "because",
+        "explain",
+        "graph"
+      ],
+      "tier": 3,
+      "rating": 1750,
+      "contains": true
+    }
+  }
+}

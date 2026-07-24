@@ -1,0 +1,1347 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "HH",
+      "accept": [
+        "hh"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "RR, RB, BR, BB",
+      "accept": [
+        "rr rb br bb",
+        "rr, rb, br, bb"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "AND",
+      "accept": [
+        "and"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "OR",
+      "accept": [
+        "or"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "Yes",
+      "accept": [
+        "yes"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "No",
+      "accept": [
+        "no"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "4",
+      "accept": [
+        "4",
+        "four"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "0.25"
+      ],
+      "tier": 1,
+      "rating": 708
+    },
+    "11": {
+      "display": "0.2",
+      "accept": [
+        "0.2",
+        "1/5"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "12": {
+      "display": "add",
+      "accept": [
+        "add",
+        "add them"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "HH, HT, TH, TT",
+      "accept": [
+        "hh",
+        "ht",
+        "th",
+        "tt"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "0.25"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "36",
+      "accept": [
+        "36"
+      ],
+      "tier": 1,
+      "rating": 839
+    },
+    "17": {
+      "display": "1/6",
+      "accept": [
+        "1/6"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "18": {
+      "display": "0.25",
+      "accept": [
+        "0.25",
+        "1/4"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "19": {
+      "display": "0.12",
+      "accept": [
+        "0.12"
+      ],
+      "tier": 1,
+      "rating": 918
+    },
+    "20": {
+      "display": "0.7",
+      "accept": [
+        "0.7"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "21": {
+      "display": "1/36",
+      "accept": [
+        "1/36"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "22": {
+      "display": "1/8",
+      "accept": [
+        "1/8",
+        "0.125"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "23": {
+      "display": "0.25",
+      "accept": [
+        "0.25",
+        "1/4"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "24": {
+      "display": "0.6",
+      "accept": [
+        "0.6"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "25": {
+      "display": "Wrong — those 3 groups are not equally likely; there are actually 4 equally likely outcomes (HH, HT, TH, TT), and 'one of each' combines two of them (HT and TH).",
+      "accept": [
+        "4",
+        "not equally likely"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "26": {
+      "display": "False — for independent events, you multiply the probabilities (the AND rule), you do not add them.",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "27": {
+      "display": "Wrong — rolling a 6 and flipping a head are not mutually exclusive, since both could happen in the same round; the correct rule is $P(A) + P(B) - P(A \\text{ and } B) = \\frac{1}{6} + \\frac{1}{2} - \\frac{1}{12} = \\frac{7}{12}$.",
+      "accept": [
+        "7/12",
+        "not mutually exclusive"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "28": {
+      "display": "Never — if two events are mutually exclusive, knowing one has happened tells you the other definitely has not, so they cannot be independent.",
+      "accept": [
+        "never"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "29": {
+      "display": "The multiplication table would contain products (like 1, 2, 4, ... up to 36) rather than sums (2 up to 12), giving a different, less evenly spread set of possible totals.",
+      "accept": [
+        "products",
+        "different values"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "30": {
+      "display": "Because one of those outcomes must definitely happen at that point (something has to occur), so the probabilities of all the branches from a single point must total exactly 1.",
+      "accept": [
+        "must happen",
+        "total 1"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "31": {
+      "display": "Correct — an event and its complement cover all possibilities, so their probabilities always sum to 1 (e.g. $P(6) = 1/6$ and $P(\\text{not } 6) = 5/6$, which add to 1).",
+      "accept": [
+        "correct",
+        "yes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "32": {
+      "display": "The AND rule (multiply) is used when both independent events must happen together; the OR rule (add) is used when either of two mutually exclusive events could happen.",
+      "accept": [
+        "and multiply",
+        "or add"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "33": {
+      "display": "1/6",
+      "accept": [
+        "1/6"
+      ],
+      "tier": 3,
+      "rating": 1620
+    },
+    "34": {
+      "display": "1/18",
+      "accept": [
+        "1/18"
+      ],
+      "tier": 3,
+      "rating": 1680
+    },
+    "35": {
+      "display": "9/25",
+      "accept": [
+        "9/25",
+        "0.36"
+      ],
+      "tier": 3,
+      "rating": 1740
+    },
+    "36": {
+      "display": "2/15",
+      "accept": [
+        "2/15"
+      ],
+      "tier": 3,
+      "rating": 1737
+    },
+    "37": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "0.25"
+      ],
+      "tier": 3,
+      "rating": 1744
+    },
+    "38": {
+      "display": "Wins both: 0.42; wins neither: 0.12",
+      "accept": [
+        "0.42",
+        "0.12"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "39": {
+      "display": "13/28",
+      "accept": [
+        "13/28"
+      ],
+      "tier": 3,
+      "rating": 1860
+    },
+    "40": {
+      "display": "1/6",
+      "accept": [
+        "1/6"
+      ],
+      "tier": 3,
+      "rating": 1907
+    },
+    "41": {
+      "display": "8/15",
+      "accept": [
+        "8/15"
+      ],
+      "tier": 3,
+      "rating": 1953
+    },
+    "42": {
+      "display": "Your own combined-events problem with a tree diagram or sample space table, and a full correct solution.",
+      "accept": ["tree diagram", "sample space", "probability", "outcomes", "solution"],
+      "contains": true,
+      "containsMin": 2,
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "1/4",
+      "accept": [
+        "1/4"
+      ],
+      "tier": 1,
+      "rating": 750
+    },
+    "44": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "2/4"
+      ],
+      "tier": 1,
+      "rating": 758
+    },
+    "45": {
+      "display": "6/25",
+      "accept": ["6/25", "0.24"],
+      "tier": 2,
+      "rating": 1250
+    },
+    "46": {
+      "display": "4/25",
+      "accept": ["4/25", "0.16"],
+      "tier": 2,
+      "rating": 1255
+    },
+    "47": {
+      "display": "21/100",
+      "accept": ["21/100", "0.21"],
+      "tier": 2,
+      "rating": 1260
+    },
+    "48": {
+      "display": "4/15",
+      "accept": ["4/15"],
+      "tier": 2,
+      "rating": 1264
+    },
+    "49": {
+      "display": "1/3",
+      "accept": ["1/3"],
+      "tier": 2,
+      "rating": 1269
+    },
+    "50": {
+      "display": "0.3",
+      "accept": ["0.3", "3/10"],
+      "tier": 2,
+      "rating": 1274
+    },
+    "51": {
+      "display": "0.2",
+      "accept": ["0.2", "1/5"],
+      "tier": 2,
+      "rating": 1279
+    },
+    "52": {
+      "display": "1/3",
+      "accept": ["1/3"],
+      "tier": 2,
+      "rating": 1283
+    },
+    "53": {
+      "display": "2/3",
+      "accept": ["2/3"],
+      "tier": 2,
+      "rating": 1288
+    },
+    "54": {
+      "display": "0.07",
+      "accept": ["0.07", "7/100"],
+      "tier": 2,
+      "rating": 1293
+    },
+    "55": {
+      "display": "0.48",
+      "accept": ["0.48", "12/25"],
+      "tier": 2,
+      "rating": 1298
+    },
+    "56": {
+      "display": "2/9",
+      "accept": ["2/9"],
+      "tier": 2,
+      "rating": 1302
+    },
+    "57": {
+      "display": "1/4",
+      "accept": ["1/4", "0.25"],
+      "tier": 2,
+      "rating": 1307
+    },
+    "58": {
+      "display": "5/9",
+      "accept": ["5/9"],
+      "tier": 2,
+      "rating": 1312
+    },
+    "59": {
+      "display": "16/25",
+      "accept": ["16/25", "0.64"],
+      "tier": 2,
+      "rating": 1317
+    },
+    "60": {
+      "display": "4/15",
+      "accept": ["4/15"],
+      "tier": 2,
+      "rating": 1321
+    },
+    "61": {
+      "display": "False — without replacement, second-branch probabilities change after the first pick.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1326
+    },
+    "62": {
+      "display": "The first pick removes a counter, so the denominator and numerators on the second branches must be recalculated from what is left in the bag.",
+      "accept": ["left", "remove", "denominator"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1331
+    },
+    "63": {
+      "display": "0.3",
+      "accept": ["0.3", "3/10"],
+      "tier": 2,
+      "rating": 1336
+    },
+    "64": {
+      "display": "4/9",
+      "accept": ["4/9"],
+      "tier": 2,
+      "rating": 1340
+    },
+    "65": {
+      "display": "1/2",
+      "accept": ["1/2", "0.5"],
+      "tier": 2,
+      "rating": 1345
+    },
+    "66": {
+      "display": "1/3",
+      "accept": ["1/3"],
+      "tier": 2,
+      "rating": 1350
+    },
+    "67": {
+      "display": "0.6",
+      "accept": ["0.6", "3/5"],
+      "tier": 2,
+      "rating": 1355
+    },
+    "68": {
+      "display": "2/3",
+      "accept": ["2/3"],
+      "tier": 2,
+      "rating": 1359
+    },
+    "69": {
+      "display": "1/4",
+      "accept": ["1/4", "0.25"],
+      "tier": 2,
+      "rating": 1364
+    },
+    "70": {
+      "display": "7/8",
+      "accept": ["7/8", "0.875"],
+      "tier": 2,
+      "rating": 1369
+    },
+    "71": {
+      "display": "1/6",
+      "accept": ["1/6"],
+      "tier": 2,
+      "rating": 1374
+    },
+    "72": {
+      "display": "16/25",
+      "accept": ["16/25", "0.64"],
+      "tier": 2,
+      "rating": 1378
+    },
+    "73": {
+      "display": "3/5",
+      "accept": ["3/5", "0.6"],
+      "tier": 2,
+      "rating": 1383
+    },
+    "74": {
+      "display": "0.45",
+      "accept": ["0.45", "9/20"],
+      "tier": 2,
+      "rating": 1388
+    },
+    "75": {
+      "display": "0.2",
+      "accept": ["0.2", "1/5"],
+      "tier": 2,
+      "rating": 1393
+    },
+    "76": {
+      "display": "0.49",
+      "accept": ["0.49"],
+      "tier": 2,
+      "rating": 1397
+    },
+    "77": {
+      "display": "Never — the first pick changes what is left, so the second pick is not independent.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1402
+    },
+    "78": {
+      "display": "Multiply the probabilities on each branch along the path (AND rule for successive stages).",
+      "accept": ["multiply", "product"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1407
+    },
+    "79": {
+      "display": "1/4",
+      "accept": ["1/4"],
+      "tier": 2,
+      "rating": 1412
+    },
+    "80": {
+      "display": "0.48",
+      "accept": ["0.48", "12/25"],
+      "tier": 2,
+      "rating": 1416
+    },
+    "81": {
+      "display": "1/45",
+      "accept": ["1/45"],
+      "tier": 2,
+      "rating": 1421
+    },
+    "82": {
+      "display": "7/12",
+      "accept": ["7/12"],
+      "tier": 2,
+      "rating": 1426
+    },
+    "83": {
+      "display": "2/13",
+      "accept": ["2/13"],
+      "tier": 2,
+      "rating": 1431
+    },
+    "84": {
+      "display": "0.02",
+      "accept": ["0.02", "1/50"],
+      "tier": 2,
+      "rating": 1435
+    },
+    "85": {
+      "display": "1/2",
+      "accept": ["1/2", "0.5"],
+      "tier": 2,
+      "rating": 1440
+    },
+    "86": {
+      "display": "7/15",
+      "accept": ["7/15"],
+      "tier": 2,
+      "rating": 1445
+    },
+    "87": {
+      "display": "False — you only add for mutually exclusive OR; overlapping events need subtracting the overlap.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1450
+    },
+    "88": {
+      "display": "1/36",
+      "accept": ["1/36"],
+      "tier": 2,
+      "rating": 1454
+    },
+    "89": {
+      "display": "2/9",
+      "accept": ["2/9"],
+      "tier": 2,
+      "rating": 1459
+    },
+    "90": {
+      "display": "0.15",
+      "accept": ["0.15", "3/20"],
+      "tier": 2,
+      "rating": 1464
+    },
+    "91": {
+      "display": "7/30",
+      "accept": ["7/30"],
+      "tier": 2,
+      "rating": 1469
+    },
+    "92": {
+      "display": "9/100",
+      "accept": ["9/100", "0.09"],
+      "tier": 2,
+      "rating": 1473
+    },
+    "93": {
+      "display": "0.2475",
+      "accept": ["0.2475", "99/400"],
+      "tier": 2,
+      "rating": 1478
+    },
+    "94": {
+      "display": "3/10",
+      "accept": ["3/10", "0.3"],
+      "tier": 2,
+      "rating": 1483
+    },
+    "95": {
+      "display": "1/3",
+      "accept": ["1/3"],
+      "tier": 2,
+      "rating": 1488
+    },
+    "96": {
+      "display": "Multiply along one complete path; add probabilities of separate paths that cannot happen together.",
+      "accept": ["multiply", "add"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1492
+    },
+    "97": {
+      "display": "False — without replacement still allows both picks; it only changes the second probabilities.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1497
+    },
+    "98": {
+      "display": "6/25",
+      "accept": ["6/25", "0.24"],
+      "tier": 2,
+      "rating": 1502
+    },
+    "99": {
+      "display": "24/95",
+      "accept": ["24/95"],
+      "tier": 2,
+      "rating": 1507
+    },
+    "100": {
+      "display": "With replacement P(both red)=4/9; without replacement P(both red)=1/3 — the fractions differ.",
+      "accept": ["4/9", "1/3"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1511
+    },
+    "101": {
+      "display": "1/12",
+      "accept": ["1/12"],
+      "tier": 2,
+      "rating": 1516
+    },
+    "102": {
+      "display": "4/9",
+      "accept": ["4/9"],
+      "tier": 2,
+      "rating": 1521
+    },
+    "103": {
+      "display": "1/22",
+      "accept": ["1/22"],
+      "tier": 2,
+      "rating": 1526
+    },
+    "104": {
+      "display": "19/100",
+      "accept": ["19/100", "0.19"],
+      "tier": 2,
+      "rating": 1530
+    },
+    "105": {
+      "display": "0.75",
+      "accept": ["0.75", "3/4"],
+      "tier": 2,
+      "rating": 1535
+    },
+    "106": {
+      "display": "0.8",
+      "accept": ["0.8", "4/5"],
+      "tier": 2,
+      "rating": 1540
+    },
+    "107": {
+      "display": "1/2",
+      "accept": ["1/2", "0.5"],
+      "tier": 2,
+      "rating": 1545
+    },
+    "108": {
+      "display": "1/16",
+      "accept": ["1/16", "0.0625"],
+      "tier": 2,
+      "rating": 1549
+    },
+    "109": {
+      "display": "7/30",
+      "accept": ["7/30"],
+      "tier": 2,
+      "rating": 1554
+    },
+    "110": {
+      "display": "Never — if one happens, the other can still happen on the same trial when they are not exclusive.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1559
+    },
+    "111": {
+      "display": "2/3",
+      "accept": ["2/3"],
+      "tier": 2,
+      "rating": 1564
+    },
+    "112": {
+      "display": "0.1225",
+      "accept": ["0.1225", "49/400"],
+      "tier": 2,
+      "rating": 1568
+    },
+    "113": {
+      "display": "0.4225",
+      "accept": ["0.4225", "169/400"],
+      "tier": 2,
+      "rating": 1573
+    },
+    "114": {
+      "display": "4/15",
+      "accept": ["4/15"],
+      "tier": 2,
+      "rating": 1578
+    },
+    "115": {
+      "display": "TH with probability 1/4",
+      "accept": ["th", "1/4"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1583
+    },
+    "116": {
+      "display": "0.64",
+      "accept": ["0.64", "16/25"],
+      "tier": 2,
+      "rating": 1587
+    },
+    "117": {
+      "display": "Add when the paths are different mutually exclusive routes; multiply along one route.",
+      "accept": ["add", "multiply"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1592
+    },
+    "118": {
+      "display": "1/2",
+      "accept": ["1/2", "0.5"],
+      "tier": 2,
+      "rating": 1597
+    },
+    "119": {
+      "display": "4/25",
+      "accept": ["4/25"],
+      "tier": 2,
+      "rating": 1602
+    },
+    "120": {
+      "display": "1/5",
+      "accept": ["1/5", "0.2"],
+      "tier": 2,
+      "rating": 1606
+    },
+    "121": {
+      "display": "1/12",
+      "accept": ["1/12"],
+      "tier": 2,
+      "rating": 1611
+    },
+    "122": {
+      "display": "0.0004",
+      "accept": ["0.0004", "1/2500"],
+      "tier": 2,
+      "rating": 1616
+    },
+    "123": {
+      "display": "1/2",
+      "accept": ["1/2", "0.5"],
+      "tier": 2,
+      "rating": 1621
+    },
+    "124": {
+      "display": "4/15",
+      "accept": ["4/15"],
+      "tier": 2,
+      "rating": 1625
+    },
+    "125": {
+      "display": "False — multiplication is for AND along a path, not for OR.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1630
+    },
+    "126": {
+      "display": "1/4",
+      "accept": ["1/4"],
+      "tier": 2,
+      "rating": 1635
+    },
+    "127": {
+      "display": "9/16",
+      "accept": ["9/16"],
+      "tier": 2,
+      "rating": 1640
+    },
+    "128": {
+      "display": "15/28",
+      "accept": ["15/28"],
+      "tier": 2,
+      "rating": 1644
+    },
+    "129": {
+      "display": "3/8",
+      "accept": ["3/8", "0.375"],
+      "tier": 2,
+      "rating": 1649
+    },
+    "130": {
+      "display": "1/6",
+      "accept": ["1/6"],
+      "tier": 2,
+      "rating": 1654
+    },
+    "131": {
+      "display": "5/9",
+      "accept": ["5/9"],
+      "tier": 2,
+      "rating": 1659
+    },
+    "132": {
+      "display": "4/10",
+      "accept": ["4/10", "2/5", "0.4"],
+      "tier": 2,
+      "rating": 1663
+    },
+    "133": {
+      "display": "1/3",
+      "accept": ["1/3"],
+      "tier": 2,
+      "rating": 1668
+    },
+    "134": {
+      "display": "0.28",
+      "accept": ["0.28", "7/25"],
+      "tier": 2,
+      "rating": 1673
+    },
+    "135": {
+      "display": "0.75",
+      "accept": ["0.75", "3/4"],
+      "tier": 2,
+      "rating": 1678
+    },
+    "136": {
+      "display": "0.495",
+      "accept": ["0.495", "99/200"],
+      "tier": 2,
+      "rating": 1682
+    },
+    "137": {
+      "display": "Replacement restores the bag, so the second pick has the same chance as the first and is independent.",
+      "accept": ["replace", "independent"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1687
+    },
+    "138": {
+      "display": "1/12",
+      "accept": ["1/12"],
+      "tier": 2,
+      "rating": 1692
+    },
+    "139": {
+      "display": "1/4",
+      "accept": ["1/4", "0.25"],
+      "tier": 2,
+      "rating": 1697
+    },
+    "140": {
+      "display": "1/2",
+      "accept": ["1/2", "0.5"],
+      "tier": 2,
+      "rating": 1701
+    },
+    "141": {
+      "display": "3/5",
+      "accept": ["3/5", "0.6"],
+      "tier": 2,
+      "rating": 1706
+    },
+    "142": {
+      "display": "1/12",
+      "accept": ["1/12"],
+      "tier": 2,
+      "rating": 1711
+    },
+    "143": {
+      "display": "False — trees are very useful for without-replacement problems too.",
+      "accept": ["false"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1716
+    },
+    "144": {
+      "display": "0.6",
+      "accept": ["0.6", "3/5"],
+      "tier": 2,
+      "rating": 1720
+    },
+    "145": {
+      "display": "0.7225",
+      "accept": ["0.7225"],
+      "tier": 2,
+      "rating": 1725
+    },
+    "146": {
+      "display": "7/30",
+      "accept": ["7/30"],
+      "tier": 2,
+      "rating": 1730
+    },
+    "147": {
+      "display": "9/100",
+      "accept": ["9/100", "0.09"],
+      "tier": 2,
+      "rating": 1735
+    },
+    "148": {
+      "display": "11/36",
+      "accept": ["11/36"],
+      "tier": 2,
+      "rating": 1739
+    },
+    "149": {
+      "display": "11/36",
+      "accept": ["11/36"],
+      "tier": 2,
+      "rating": 1744
+    },
+    "150": {
+      "display": "5/18",
+      "accept": ["5/18"],
+      "tier": 2,
+      "rating": 1749
+    },
+    "151": {
+      "display": "1/8",
+      "accept": ["1/8", "0.125"],
+      "tier": 2,
+      "rating": 1754
+    },
+    "152": {
+      "display": "7/15",
+      "accept": ["7/15"],
+      "tier": 2,
+      "rating": 1758
+    },
+    "153": {
+      "display": "1/6",
+      "accept": ["1/6"],
+      "tier": 2,
+      "rating": 1763
+    },
+    "154": {
+      "display": "One counter has gone, so there are fewer total counters and usually fewer of the colour needed on the second branch.",
+      "accept": ["fewer", "left", "denominator"],
+      "contains": true,
+      "tier": 2,
+      "rating": 1768
+    },
+    "155": {
+      "display": "0.3",
+      "accept": ["0.3", "3/10"],
+      "tier": 2,
+      "rating": 1773
+    },
+    "156": {
+      "display": "0.3",
+      "accept": ["0.3", "3/10"],
+      "tier": 2,
+      "rating": 1777
+    },
+    "157": {
+      "display": "3/4",
+      "accept": ["3/4", "0.75"],
+      "tier": 2,
+      "rating": 1782
+    },
+    "158": {
+      "display": "4/49",
+      "accept": ["4/49"],
+      "tier": 2,
+      "rating": 1787
+    },
+    "159": {
+      "display": "1/21",
+      "accept": ["1/21"],
+      "tier": 2,
+      "rating": 1792
+    },
+    "160": {
+      "display": "49/100",
+      "accept": ["49/100", "0.49"],
+      "tier": 3,
+      "rating": 1796
+    },
+    "161": {
+      "display": "8/15",
+      "accept": ["8/15"],
+      "tier": 3,
+      "rating": 1801
+    },
+    "162": {
+      "display": "6/25",
+      "accept": ["6/25", "0.24"],
+      "tier": 3,
+      "rating": 1806
+    },
+    "163": {
+      "display": "0.855",
+      "accept": ["0.855", "171/200"],
+      "tier": 3,
+      "rating": 1811
+    },
+    "164": {
+      "display": "0.15",
+      "accept": ["0.15", "3/20"],
+      "tier": 3,
+      "rating": 1815
+    },
+    "165": {
+      "display": "True — with replacement each ordered pair has probability P(first colour) × P(second colour), which is the same product either way.",
+      "accept": ["true"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1820
+    },
+    "166": {
+      "display": "1/18",
+      "accept": ["1/18"],
+      "tier": 3,
+      "rating": 1825
+    },
+    "167": {
+      "display": "1/10",
+      "accept": ["1/10", "0.1"],
+      "tier": 3,
+      "rating": 1830
+    },
+    "168": {
+      "display": "9/100",
+      "accept": ["9/100", "0.09"],
+      "tier": 3,
+      "rating": 1834
+    },
+    "169": {
+      "display": "1/4",
+      "accept": ["1/4", "0.25"],
+      "tier": 3,
+      "rating": 1839
+    },
+    "170": {
+      "display": "Both list the same equally likely outcomes; counting the same cells or paths gives the same fraction.",
+      "accept": ["same", "outcomes"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1844
+    },
+    "171": {
+      "display": "0.36",
+      "accept": ["0.36", "9/25"],
+      "tier": 3,
+      "rating": 1849
+    },
+    "172": {
+      "display": "0",
+      "accept": ["0", "zero"],
+      "tier": 3,
+      "rating": 1853
+    },
+    "173": {
+      "display": "3/16",
+      "accept": ["3/16"],
+      "tier": 3,
+      "rating": 1858
+    },
+    "174": {
+      "display": "1/19",
+      "accept": ["1/19"],
+      "tier": 3,
+      "rating": 1863
+    },
+    "175": {
+      "display": "1/2",
+      "accept": ["1/2", "0.5"],
+      "tier": 3,
+      "rating": 1868
+    },
+    "176": {
+      "display": "1/36",
+      "accept": ["1/36"],
+      "tier": 3,
+      "rating": 1872
+    },
+    "177": {
+      "display": "5/36",
+      "accept": ["5/36"],
+      "tier": 3,
+      "rating": 1877
+    },
+    "178": {
+      "display": "Never — mutually exclusive events on one trial cannot have probabilities summing above 1.",
+      "accept": ["never"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1882
+    },
+    "179": {
+      "display": "0.5",
+      "accept": ["0.5", "1/2"],
+      "tier": 3,
+      "rating": 1887
+    },
+    "180": {
+      "display": "12/25",
+      "accept": ["12/25", "0.48"],
+      "tier": 3,
+      "rating": 1891
+    },
+    "181": {
+      "display": "8/15",
+      "accept": ["8/15"],
+      "tier": 3,
+      "rating": 1896
+    },
+    "182": {
+      "display": "0.21",
+      "accept": ["0.21", "21/100"],
+      "tier": 3,
+      "rating": 1901
+    },
+    "183": {
+      "display": "1/4",
+      "accept": ["1/4"],
+      "tier": 3,
+      "rating": 1906
+    },
+    "184": {
+      "display": "0",
+      "accept": ["0", "zero"],
+      "tier": 3,
+      "rating": 1910
+    },
+    "185": {
+      "display": "After one green is removed, there are 3 green and 6 red left out of 9, so second branches use ninths with updated counts.",
+      "accept": ["9", "left", "green"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1915
+    },
+    "186": {
+      "display": "1/12",
+      "accept": ["1/12"],
+      "tier": 3,
+      "rating": 1920
+    },
+    "187": {
+      "display": "3/4",
+      "accept": ["3/4", "0.75"],
+      "tier": 3,
+      "rating": 1925
+    },
+    "188": {
+      "display": "24/25",
+      "accept": ["24/25", "0.96"],
+      "tier": 3,
+      "rating": 1929
+    },
+    "189": {
+      "display": "17/45",
+      "accept": ["17/45"],
+      "tier": 3,
+      "rating": 1934
+    },
+    "190": {
+      "display": "0.5775",
+      "accept": ["0.5775", "231/400"],
+      "tier": 3,
+      "rating": 1939
+    },
+    "191": {
+      "display": "1296/10000",
+      "accept": ["1296/10000", "0.1296", "81/625"],
+      "tier": 3,
+      "rating": 1943
+    },
+    "192": {
+      "display": "1/6",
+      "accept": ["1/6"],
+      "tier": 3,
+      "rating": 1948
+    },
+    "193": {
+      "display": "0.55",
+      "accept": ["0.55", "11/20"],
+      "tier": 3,
+      "rating": 1953
+    },
+    "194": {
+      "display": "5/18",
+      "accept": ["5/18"],
+      "tier": 3,
+      "rating": 1958
+    },
+    "195": {
+      "display": "0.49",
+      "accept": ["0.49", "49/100"],
+      "tier": 3,
+      "rating": 1962
+    },
+    "196": {
+      "display": "0.125",
+      "accept": ["0.125", "1/8"],
+      "tier": 3,
+      "rating": 1967
+    },
+    "197": {
+      "display": "5/33",
+      "accept": ["5/33"],
+      "tier": 3,
+      "rating": 1972
+    },
+    "198": {
+      "display": "25/144",
+      "accept": ["25/144"],
+      "tier": 3,
+      "rating": 1977
+    },
+    "199": {
+      "display": "Trees show how counts shrink after each without-replacement pick, which is harder to see in a flat table.",
+      "accept": ["tree", "without", "replacement"],
+      "contains": true,
+      "tier": 3,
+      "rating": 1981
+    },
+    "200": {
+      "display": "8/15 — paths red then blue and blue then red on the tree.",
+      "accept": ["8/15", "rb", "br"],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}

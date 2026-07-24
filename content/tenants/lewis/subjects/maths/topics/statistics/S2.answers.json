@@ -1,0 +1,1870 @@
+{
+  "version": 1,
+  "answers": {
+    "1": {
+      "display": "8 counters",
+      "accept": [
+        "8"
+      ],
+      "tier": 1,
+      "rating": 500
+    },
+    "2": {
+      "display": "Cats",
+      "accept": [
+        "cats",
+        "cat"
+      ],
+      "tier": 1,
+      "rating": 525
+    },
+    "3": {
+      "display": "7 books",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 551
+    },
+    "4": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 576
+    },
+    "5": {
+      "display": "Tuesday",
+      "accept": [
+        "tuesday"
+      ],
+      "tier": 1,
+      "rating": 602
+    },
+    "6": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "half"
+      ],
+      "tier": 1,
+      "rating": 627
+    },
+    "7": {
+      "display": "7 children",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 653
+    },
+    "8": {
+      "display": "Categories",
+      "accept": [
+        "categories",
+        "category"
+      ],
+      "tier": 1,
+      "rating": 678
+    },
+    "9": {
+      "display": "5",
+      "accept": [
+        "5",
+        "five"
+      ],
+      "tier": 1,
+      "rating": 704
+    },
+    "10": {
+      "display": "Tuesday",
+      "accept": [
+        "Tuesday",
+        "tuesday"
+      ],
+      "tier": 1,
+      "rating": 708
+    },
+    "11": {
+      "display": "8",
+      "accept": [
+        "8",
+        "eight"
+      ],
+      "tier": 1,
+      "rating": 714
+    },
+    "12": {
+      "display": "1/2",
+      "accept": [
+        "1/2",
+        "half",
+        "½"
+      ],
+      "tier": 1,
+      "rating": 720
+    },
+    "13": {
+      "display": "90°",
+      "accept": [
+        "90",
+        "90°"
+      ],
+      "tier": 1,
+      "rating": 760
+    },
+    "14": {
+      "display": "144°",
+      "accept": [
+        "144",
+        "144°"
+      ],
+      "tier": 1,
+      "rating": 786
+    },
+    "15": {
+      "display": "72°",
+      "accept": [
+        "72",
+        "72°"
+      ],
+      "tier": 1,
+      "rating": 813
+    },
+    "16": {
+      "display": "54° (90+144+72+54 = 360)",
+      "accept": [
+        "54",
+        "360"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 839
+    },
+    "17": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 865
+    },
+    "18": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 892
+    },
+    "19": {
+      "display": "140 ≤ h < 150",
+      "accept": [
+        "140",
+        "second interval",
+        "140-150"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 918
+    },
+    "20": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 945
+    },
+    "21": {
+      "display": "23",
+      "accept": [
+        "23"
+      ],
+      "tier": 1,
+      "rating": 971
+    },
+    "22": {
+      "display": "April",
+      "accept": [
+        "april"
+      ],
+      "tier": 1,
+      "rating": 997
+    },
+    "23": {
+      "display": "£100",
+      "accept": [
+        "100",
+        "£100"
+      ],
+      "tier": 1,
+      "rating": 1024
+    },
+    "24": {
+      "display": "1/4",
+      "accept": [
+        "1/4",
+        "0.25",
+        "quarter"
+      ],
+      "tier": 1,
+      "rating": 1050
+    },
+    "25": {
+      "display": "Wrong — the angle is found by dividing the frequency by the total, then multiplying by 360°, i.e. $(\\text{frequency}/\\text{total}) \\times 360°$.",
+      "accept": [
+        "frequency",
+        "total",
+        "360"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1180
+    },
+    "26": {
+      "display": "True — every row total and every column total in a two-way table must sum to the same overall total (the grand total).",
+      "accept": [
+        "true"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1223
+    },
+    "27": {
+      "display": "A vertical line chart uses thin lines (not wide bars) to show frequencies for discrete numerical values, while a bar chart typically uses wider bars, often for categorical data.",
+      "accept": [
+        "lines",
+        "discrete"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1266
+    },
+    "28": {
+      "display": "Always — a time series graph is, by definition, used to show how a quantity changes over time.",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1309
+    },
+    "29": {
+      "display": "True — grouping data into class intervals means you can no longer see each individual value, only which range it falls into (e.g. you know a height is between 140 and 150 cm, but not the exact value).",
+      "accept": [
+        "true",
+        "exact value lost"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1351
+    },
+    "30": {
+      "display": "If intervals overlapped, a value could fit into more than one class, causing confusion or double-counting when building the frequency table.",
+      "accept": [
+        "double count",
+        "ambiguous",
+        "confusion"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1394
+    },
+    "31": {
+      "display": "A bar chart has a numbered vertical axis, so you can read the exact frequency for each bar, whereas a pie chart only shows the proportion of the whole, making exact values harder to read without extra information.",
+      "accept": [
+        "axis",
+        "exact values"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1437
+    },
+    "32": {
+      "display": "Follow the inequality signs exactly — since the interval is written $140 \\leq h < 150$, a value of exactly 140 is included in that interval (because of the $\\leq$), not the one below it.",
+      "accept": [
+        "140",
+        "inequality"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1480
+    },
+    "33": {
+      "display": "Walk 144°, car 90°, bus 108°, bike 18°",
+      "accept": [
+        "144",
+        "90",
+        "108",
+        "18"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1620
+    },
+    "34": {
+      "display": "32 play an instrument; 20 girls in total",
+      "accept": [
+        "32",
+        "20"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1680
+    },
+    "35": {
+      "display": "36 pupils in total; modal class 41–60",
+      "accept": [
+        "36",
+        "41",
+        "41-60",
+        "41–60"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "36": {
+      "display": "An overall increasing trend in sales from £300 to £400, with small dips in a couple of months.",
+      "accept": [
+        "increasing",
+        "upward"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1741
+    },
+    "37": {
+      "display": "Sandwiches 45, hot meal 36, salad 27",
+      "accept": [
+        "45",
+        "36",
+        "27"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1744
+    },
+    "38": {
+      "display": "25 pupils in total; mode is 1 sibling",
+      "accept": [
+        "25",
+        "mode 1",
+        "1 sibling"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1750
+    },
+    "39": {
+      "display": "x = 36°; angles 36°, 72°, 108°, 144°",
+      "accept": [
+        "36",
+        "72",
+        "108",
+        "144"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1860
+    },
+    "40": {
+      "display": "Tea 40, coffee 56, juice 32, water 16",
+      "accept": [
+        "40",
+        "56",
+        "32",
+        "16"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1907
+    },
+    "41": {
+      "display": "Your own grouped frequency table with 2-second class intervals from 12 seconds, frequencies summing to 40, and the correct modal class identified.",
+      "accept": [
+        "2-second",
+        "12",
+        "40",
+        "modal class",
+        "frequency"
+      ],
+      "contains": true,
+      "containsMin": 3,
+      "tier": 3,
+      "rating": 1953
+    },
+    "42": {
+      "display": "An overall upward trend in profits, apart from a dip in year 2; a limitation is that 5 data points are not enough to reliably predict future profits, since trends could change due to unseen factors.",
+      "accept": [
+        "upward",
+        "not enough data",
+        "limitation"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    },
+    "43": {
+      "display": "45°",
+      "accept": [
+        "45",
+        "45°",
+        "45 degrees"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "44": {
+      "display": "48°",
+      "accept": [
+        "48",
+        "48°",
+        "48 degrees"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "45": {
+      "display": "144°",
+      "accept": [
+        "144"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "46": {
+      "display": "72°",
+      "accept": [
+        "72"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "47": {
+      "display": "135°",
+      "accept": [
+        "135"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "48": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "49": {
+      "display": "108°",
+      "accept": [
+        "108"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "50": {
+      "display": "42°",
+      "accept": [
+        "42"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "51": {
+      "display": "120°",
+      "accept": [
+        "120"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "52": {
+      "display": "150°",
+      "accept": [
+        "150"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "53": {
+      "display": "100°",
+      "accept": [
+        "100"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "54": {
+      "display": "60°",
+      "accept": [
+        "60"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "55": {
+      "display": "105°",
+      "accept": [
+        "105"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "56": {
+      "display": "75°",
+      "accept": [
+        "75"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "57": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "58": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "59": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "60": {
+      "display": "5",
+      "accept": [
+        "5"
+      ],
+      "tier": 1,
+      "rating": 1150
+    },
+    "61": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 1151
+    },
+    "62": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1152
+    },
+    "63": {
+      "display": "22",
+      "accept": [
+        "22"
+      ],
+      "tier": 1,
+      "rating": 1153
+    },
+    "64": {
+      "display": "32",
+      "accept": [
+        "32"
+      ],
+      "tier": 1,
+      "rating": 1154
+    },
+    "65": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 1155
+    },
+    "66": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 1156
+    },
+    "67": {
+      "display": "6",
+      "accept": [
+        "6"
+      ],
+      "tier": 1,
+      "rating": 1157
+    },
+    "68": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 1158
+    },
+    "69": {
+      "display": "12",
+      "accept": [
+        "12"
+      ],
+      "tier": 1,
+      "rating": 1159
+    },
+    "70": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 1,
+      "rating": 1160
+    },
+    "71": {
+      "display": "7",
+      "accept": [
+        "7"
+      ],
+      "tier": 1,
+      "rating": 1161
+    },
+    "72": {
+      "display": "9",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1162
+    },
+    "73": {
+      "display": "18",
+      "accept": [
+        "18"
+      ],
+      "tier": 1,
+      "rating": 1163
+    },
+    "74": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 1,
+      "rating": 1164
+    },
+    "75": {
+      "display": "15",
+      "accept": [
+        "15"
+      ],
+      "tier": 1,
+      "rating": 1165
+    },
+    "76": {
+      "display": "28",
+      "accept": [
+        "28"
+      ],
+      "tier": 1,
+      "rating": 1166
+    },
+    "77": {
+      "display": "20 ≤ t < 40",
+      "accept": [
+        "20",
+        "40",
+        "20-40"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1167
+    },
+    "78": {
+      "display": "20 ≤ t < 40",
+      "accept": [
+        "20",
+        "40"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1168
+    },
+    "79": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 1169
+    },
+    "80": {
+      "display": "5 ≤ s < 6",
+      "accept": [
+        "5",
+        "6"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1170
+    },
+    "81": {
+      "display": "40 ≤ m < 50",
+      "accept": [
+        "40",
+        "50"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1171
+    },
+    "82": {
+      "display": "20",
+      "accept": [
+        "20"
+      ],
+      "tier": 1,
+      "rating": 1172
+    },
+    "83": {
+      "display": "0.4 ≤ r < 0.6",
+      "accept": [
+        "0.4",
+        "0.6"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1173
+    },
+    "84": {
+      "display": "2 ≤ d < 4",
+      "accept": [
+        "2",
+        "4"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1174
+    },
+    "85": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 1,
+      "rating": 1175
+    },
+    "86": {
+      "display": "25",
+      "accept": [
+        "25"
+      ],
+      "tier": 1,
+      "rating": 1176
+    },
+    "87": {
+      "display": "2 ≤ h < 4",
+      "accept": [
+        "2",
+        "4"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1177
+    },
+    "88": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 1,
+      "rating": 1178
+    },
+    "89": {
+      "display": "60 ≤ s < 70",
+      "accept": [
+        "60",
+        "70"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1179
+    },
+    "90": {
+      "display": "70 ≤ s < 80",
+      "accept": [
+        "70",
+        "80"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1180
+    },
+    "91": {
+      "display": "Week 4",
+      "accept": [
+        "week 4",
+        "4",
+        "500"
+      ],
+      "contains": true,
+      "tier": 1,
+      "rating": 1181
+    },
+    "92": {
+      "display": "£80",
+      "accept": [
+        "80"
+      ],
+      "tier": 1,
+      "rating": 1182
+    },
+    "93": {
+      "display": "9 cm",
+      "accept": [
+        "9"
+      ],
+      "tier": 1,
+      "rating": 1185
+    },
+    "94": {
+      "display": "February",
+      "accept": [
+        "feb",
+        "february"
+      ],
+      "tier": 1,
+      "rating": 1193
+    },
+    "95": {
+      "display": "355",
+      "accept": [
+        "355"
+      ],
+      "tier": 1,
+      "rating": 1200
+    },
+    "96": {
+      "display": "40",
+      "accept": [
+        "40"
+      ],
+      "tier": 1,
+      "rating": 1208
+    },
+    "97": {
+      "display": "£100",
+      "accept": [
+        "100"
+      ],
+      "tier": 1,
+      "rating": 1215
+    },
+    "98": {
+      "display": "Thursday",
+      "accept": [
+        "thursday",
+        "thu"
+      ],
+      "tier": 1,
+      "rating": 1223
+    },
+    "99": {
+      "display": "442",
+      "accept": [
+        "442"
+      ],
+      "tier": 1,
+      "rating": 1230
+    },
+    "100": {
+      "display": "38",
+      "accept": [
+        "38"
+      ],
+      "tier": 1,
+      "rating": 1238
+    },
+    "101": {
+      "display": "True — half the data gives a 180° sector",
+      "accept": [
+        "true",
+        "180"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1245
+    },
+    "102": {
+      "display": "True — e.g. gender and whether they play sport",
+      "accept": [
+        "true",
+        "two"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1253
+    },
+    "103": {
+      "display": "Widths should match the spread of data; narrow ranges need smaller classes",
+      "accept": [
+        "spread",
+        "width",
+        "data"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1260
+    },
+    "104": {
+      "display": "Always — modal class means highest frequency class",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1268
+    },
+    "105": {
+      "display": "True — time is shown along the horizontal axis",
+      "accept": [
+        "true",
+        "horizontal",
+        "time"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1275
+    },
+    "106": {
+      "display": "Correct — grouped tables hide individual values so the exact median is unknown",
+      "accept": [
+        "correct",
+        "grouped",
+        "exact"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1283
+    },
+    "107": {
+      "display": "True — lines join ordered discrete counts to show trend between values",
+      "accept": [
+        "true",
+        "discrete",
+        "join"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1290
+    },
+    "108": {
+      "display": "Never — a time series or bar chart compares months better than pie charts",
+      "accept": [
+        "never",
+        "time",
+        "bar"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1298
+    },
+    "109": {
+      "display": "Row totals help check entries and find missing values",
+      "accept": [
+        "check",
+        "total",
+        "missing"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1305
+    },
+    "110": {
+      "display": "True — 20 ≤ x < 30 includes 20",
+      "accept": [
+        "true",
+        "20",
+        "second"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1313
+    },
+    "111": {
+      "display": "True — half a symbol represents half the key value",
+      "accept": [
+        "true",
+        "half",
+        "key"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1320
+    },
+    "112": {
+      "display": "Always — each person counted once across categories",
+      "accept": [
+        "always"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1328
+    },
+    "113": {
+      "display": "A truncated axis exaggerates differences between bar heights",
+      "accept": [
+        "axis",
+        "exaggerate",
+        "zero"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1335
+    },
+    "114": {
+      "display": "True — angle = (frequency ÷ total) × 360°",
+      "accept": [
+        "true",
+        "360",
+        "proportional"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1343
+    },
+    "115": {
+      "display": "False — row totals alone do not fix all cell values",
+      "accept": [
+        "false"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1350
+    },
+    "116": {
+      "display": "Always — estimate using smallest lower and largest upper boundaries",
+      "accept": [
+        "always",
+        "boundary"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1358
+    },
+    "117": {
+      "display": "False — unequal time gaps can still be plotted though equal spacing is common",
+      "accept": [
+        "false",
+        "unequal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1365
+    },
+    "118": {
+      "display": "Similar — both show change over time; line graph emphasises continuous trend",
+      "accept": [
+        "time",
+        "change",
+        "line"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1373
+    },
+    "119": {
+      "display": "True — equal angles mean equal fractions of 360°",
+      "accept": [
+        "true",
+        "equal"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1380
+    },
+    "120": {
+      "display": "Sometimes — too many classes can make the table hard to read",
+      "accept": [
+        "sometimes"
+      ],
+      "contains": true,
+      "tier": 2,
+      "rating": 1388
+    },
+    "121": {
+      "display": "Sandwich 126°, hot meal 144°, salad 54°, packed lunch 36°",
+      "accept": [
+        "126",
+        "144",
+        "54",
+        "36"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1395
+    },
+    "122": {
+      "display": "26 do not play sport; 30 girls",
+      "accept": [
+        "26",
+        "30"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1403
+    },
+    "123": {
+      "display": "36 pupils; modal class 70 ≤ p < 80",
+      "accept": [
+        "36",
+        "70",
+        "80"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1410
+    },
+    "124": {
+      "display": "Overall upward trend with a small dip in March",
+      "accept": [
+        "upward",
+        "increasing"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1418
+    },
+    "125": {
+      "display": "32, 24, 24, 16",
+      "accept": [
+        "32",
+        "24",
+        "16"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1425
+    },
+    "126": {
+      "display": "40 rolls; mode 4",
+      "accept": [
+        "40",
+        "4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1433
+    },
+    "127": {
+      "display": "20 vegetarians; 18 boys",
+      "accept": [
+        "20",
+        "18"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1440
+    },
+    "128": {
+      "display": "34 parcels; modal class 2 ≤ m < 4",
+      "accept": [
+        "34",
+        "2",
+        "4"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1448
+    },
+    "129": {
+      "display": "568",
+      "accept": [
+        "568"
+      ],
+      "tier": 3,
+      "rating": 1455
+    },
+    "130": {
+      "display": "60 pupils",
+      "accept": [
+        "60"
+      ],
+      "tier": 3,
+      "rating": 1463
+    },
+    "131": {
+      "display": "9/10",
+      "accept": [
+        "9/10",
+        "0.9",
+        "90%"
+      ],
+      "tier": 3,
+      "rating": 1470
+    },
+    "132": {
+      "display": "10 ≤ t < 15",
+      "accept": [
+        "10",
+        "15"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1478
+    },
+    "133": {
+      "display": "Saturday",
+      "accept": [
+        "sat",
+        "saturday"
+      ],
+      "tier": 3,
+      "rating": 1485
+    },
+    "134": {
+      "display": "Car 162°, cycle 36°",
+      "accept": [
+        "162",
+        "36"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1493
+    },
+    "135": {
+      "display": "24 with glasses; 40 without",
+      "accept": [
+        "24",
+        "40"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1500
+    },
+    "136": {
+      "display": "30 cm (180 − 150)",
+      "accept": [
+        "30",
+        "150",
+        "180"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1508
+    },
+    "137": {
+      "display": "4°C",
+      "accept": [
+        "4"
+      ],
+      "tier": 3,
+      "rating": 1515
+    },
+    "138": {
+      "display": "44, 56, 67, 33",
+      "accept": [
+        "44",
+        "56",
+        "67",
+        "33"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1523
+    },
+    "139": {
+      "display": "1.53 books (46 ÷ 30)",
+      "accept": [
+        "1.53",
+        "46",
+        "30"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1530
+    },
+    "140": {
+      "display": "40%",
+      "accept": [
+        "40",
+        "40%"
+      ],
+      "tier": 3,
+      "rating": 1538
+    },
+    "141": {
+      "display": "99°",
+      "accept": [
+        "99"
+      ],
+      "tier": 3,
+      "rating": 1545
+    },
+    "142": {
+      "display": "16 artists",
+      "accept": [
+        "16"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "143": {
+      "display": "20 ≤ s < 30",
+      "accept": [
+        "20",
+        "30"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1550
+    },
+    "144": {
+      "display": "50",
+      "accept": [
+        "50"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "145": {
+      "display": "16",
+      "accept": [
+        "16"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "146": {
+      "display": "24",
+      "accept": [
+        "24"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "147": {
+      "display": "20 ≤ t < 30",
+      "accept": [
+        "20",
+        "30"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1550
+    },
+    "148": {
+      "display": "July",
+      "accept": [
+        "jul",
+        "july"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "149": {
+      "display": "90°",
+      "accept": [
+        "90"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "150": {
+      "display": "14",
+      "accept": [
+        "14"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "151": {
+      "display": "25 objects",
+      "accept": [
+        "25"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "152": {
+      "display": "200",
+      "accept": [
+        "200"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "153": {
+      "display": "10",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "154": {
+      "display": "18 boys",
+      "accept": [
+        "18"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "155": {
+      "display": "14 ≤ a < 15",
+      "accept": [
+        "14",
+        "15"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1550
+    },
+    "156": {
+      "display": "238",
+      "accept": [
+        "238"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "157": {
+      "display": "30",
+      "accept": [
+        "30"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "158": {
+      "display": "16 dog owners",
+      "accept": [
+        "16"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "159": {
+      "display": "Overlapping intervals would double-count values on the boundary",
+      "accept": [
+        "overlap",
+        "double"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1550
+    },
+    "160": {
+      "display": "10°C",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1550
+    },
+    "161": {
+      "display": "Angles 40°, 60°, 80°, 20°; people 20, 30, 40, 10",
+      "accept": [
+        "40",
+        "60",
+        "80",
+        "20"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1695
+    },
+    "162": {
+      "display": "Cells: 12, 10, 8, 10",
+      "accept": [
+        "12",
+        "10",
+        "8"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1703
+    },
+    "163": {
+      "display": "Mean ≈ 33.8 minutes",
+      "accept": [
+        "33",
+        "34"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1710
+    },
+    "164": {
+      "display": "Upward trend; mean 11 (£1000s)",
+      "accept": [
+        "upward",
+        "11"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1718
+    },
+    "165": {
+      "display": "55, 48, 43, 54 (sum 200)",
+      "accept": [
+        "55",
+        "48",
+        "43",
+        "54"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1725
+    },
+    "166": {
+      "display": "5/9",
+      "accept": [
+        "5/9"
+      ],
+      "tier": 3,
+      "rating": 1733
+    },
+    "167": {
+      "display": "Modal 20 ≤ d < 30; 25 km lies in that class",
+      "accept": [
+        "20",
+        "30",
+        "25"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1740
+    },
+    "168": {
+      "display": "Increase of 8",
+      "accept": [
+        "8"
+      ],
+      "tier": 3,
+      "rating": 1748
+    },
+    "169": {
+      "display": "90 pupils",
+      "accept": [
+        "90"
+      ],
+      "tier": 3,
+      "rating": 1755
+    },
+    "170": {
+      "display": "10 girls do not play",
+      "accept": [
+        "10"
+      ],
+      "tier": 3,
+      "rating": 1763
+    },
+    "171": {
+      "display": "26.7 (or 27 to nearest whole)",
+      "accept": [
+        "26",
+        "27"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1770
+    },
+    "172": {
+      "display": "Growth slows after month 4 as values level at 33",
+      "accept": [
+        "level",
+        "flatten",
+        "33"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1778
+    },
+    "173": {
+      "display": "a = 36°; largest sector 48 people",
+      "accept": [
+        "36",
+        "48"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1785
+    },
+    "174": {
+      "display": "Art is more popular overall (25 vs 35 — maths 35, art 25) — actually maths 25+10=35, art 5+20=25 → maths",
+      "accept": [
+        "maths",
+        "math"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1793
+    },
+    "175": {
+      "display": "Modal class shows a range, not the single most common exact weight",
+      "accept": [
+        "exact",
+        "range",
+        "class"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1800
+    },
+    "176": {
+      "display": "£484",
+      "accept": [
+        "484"
+      ],
+      "tier": 3,
+      "rating": 1808
+    },
+    "177": {
+      "display": "36 people",
+      "accept": [
+        "36"
+      ],
+      "tier": 3,
+      "rating": 1815
+    },
+    "178": {
+      "display": "Year 10: 70%; Year 11: 55% — Year 10 higher",
+      "accept": [
+        "year 10",
+        "70"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1823
+    },
+    "179": {
+      "display": "21",
+      "accept": [
+        "21"
+      ],
+      "tier": 3,
+      "rating": 1830
+    },
+    "180": {
+      "display": "40 is the outlier — far from the nearby pattern",
+      "accept": [
+        "40",
+        "outlier"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1838
+    },
+    "181": {
+      "display": "100 people",
+      "accept": [
+        "100"
+      ],
+      "tier": 3,
+      "rating": 1845
+    },
+    "182": {
+      "display": "120° (240° − 120°)",
+      "accept": [
+        "120"
+      ],
+      "tier": 3,
+      "rating": 1853
+    },
+    "183": {
+      "display": "At least 40%",
+      "accept": [
+        "40"
+      ],
+      "tier": 3,
+      "rating": 1860
+    },
+    "184": {
+      "display": "£320",
+      "accept": [
+        "320"
+      ],
+      "tier": 3,
+      "rating": 1868
+    },
+    "185": {
+      "display": "Angles must sum to 360° — recalculate each sector from frequencies",
+      "accept": [
+        "360",
+        "sum"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1875
+    },
+    "186": {
+      "display": "22/36 = 11/18",
+      "accept": [
+        "11/18",
+        "22"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1883
+    },
+    "187": {
+      "display": "Mean needs midpoints × frequencies, not upper class limits averaged",
+      "accept": [
+        "midpoint",
+        "frequency"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1890
+    },
+    "188": {
+      "display": "13%",
+      "accept": [
+        "13",
+        "12.5"
+      ],
+      "tier": 3,
+      "rating": 1898
+    },
+    "189": {
+      "display": "60°, 96°, 132°, 72°",
+      "accept": [
+        "60",
+        "96",
+        "132",
+        "72"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1905
+    },
+    "190": {
+      "display": "23",
+      "accept": [
+        "23"
+      ],
+      "tier": 3,
+      "rating": 1913
+    },
+    "191": {
+      "display": "Bar: easy exact reads; pie: shows parts of a whole clearly",
+      "accept": [
+        "bar",
+        "pie",
+        "whole"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1920
+    },
+    "192": {
+      "display": "Median is middle value; modal class is just the busiest interval",
+      "accept": [
+        "median",
+        "modal",
+        "middle"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1928
+    },
+    "193": {
+      "display": "Example: ice cream sales peaking each summer; repeating peaks show seasonality",
+      "accept": [
+        "season",
+        "peak",
+        "summer"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1935
+    },
+    "194": {
+      "display": "100° is 28% not 30% — table and chart disagree",
+      "accept": [
+        "28",
+        "30",
+        "100"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1943
+    },
+    "195": {
+      "display": "42 pupils",
+      "accept": [
+        "42"
+      ],
+      "tier": 3,
+      "rating": 1950
+    },
+    "196": {
+      "display": "Wider classes can hold more counts — compare frequency density or widths",
+      "accept": [
+        "width",
+        "density"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1958
+    },
+    "197": {
+      "display": "26.7",
+      "accept": [
+        "26",
+        "27"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1965
+    },
+    "198": {
+      "display": "Line emphasises trend; bars show exact discrete heights clearly",
+      "accept": [
+        "line",
+        "bar",
+        "discrete"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1973
+    },
+    "199": {
+      "display": "Find total; find each angle with (f÷total)×360°; draw sectors accurately",
+      "accept": [
+        "total",
+        "360",
+        "angle"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 1980
+    },
+    "200": {
+      "display": "Pie charts hide small changes; side-by-side bar charts compare shares better",
+      "accept": [
+        "bar",
+        "compare",
+        "change"
+      ],
+      "contains": true,
+      "tier": 3,
+      "rating": 2000
+    }
+  }
+}
