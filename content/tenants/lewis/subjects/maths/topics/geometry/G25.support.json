@@ -3,803 +3,803 @@
   "questions": {
     "1": {
       "hint": "Horizontal part of vector — how many right?",
-      "help": "**3** squares (horizontal component).\n\nExample: top number in vector."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: An arrow shows a move 3 squares right. How many squares is the horizontal move?.\n2. How many right?\n3. 3 squares (horizontal component).\n4. For example, top number in vector."
     },
     "2": {
       "hint": "Vertical part — how many up?",
-      "help": "**2** squares up.\n\nExample: bottom number.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: An arrow shows a move 2 squares up. How many squares is the vertical move?.\n2. How many up?\n3. 2 squares up.\n4. For example, bottom number."
     },
     "3": {
       "hint": "1 right then 2 more right — total horizontal?",
-      "help": "**3** right altogether.\n\nExample: add horizontal moves.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Move 1 right, then 2 more right. How far right have you moved altogether?.\n2. Total horizontal?\n3. 3 right altogether.\n4. For example, add horizontal moves."
     },
     "4": {
       "hint": "4 up then 1 down — net vertical?",
-      "help": "**3** up net.\n\nExample: 4−1.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Move 4 up, then 1 down. How far up are you from the start?.\n2. Net vertical?\n3. 3 up net.\n4. For example, 4−1."
     },
     "5": {
       "hint": "2 + 3?",
-      "help": "**5**.\n\nExample: basic addition.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: What is 2 + 3?.\n2. 2 + 3?\n3. 5.\n4. For example, basic addition."
     },
     "6": {
       "hint": "5 − 2?",
-      "help": "**3**.\n\nExample: subtraction.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: What is 5 − 2?.\n2. 5 − 2?\n3. 3.\n4. For example, subtraction."
     },
     "7": {
       "hint": "No horizontal change — number?",
-      "help": "**0** horizontal component.\n\nExample: vertical-only vector.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: A move has no horizontal change. What number describes its horizontal part?.\n2. No horizontal change — number?\n3. 0 horizontal component.\n4. For example, vertical-only vector."
     },
     "8": {
       "hint": "1 right + 1 right horizontally.",
-      "help": "**2** right total.\n\nExample: combine like moves.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Combine a move of 1 right with another move of 1 right. What is the total horizontal move?.\n2. 1 right + 1 right horizontally.\n3. 2 right total.\n4. For example, combine like moves."
     },
     "9": {
       "hint": "Add top and bottom components separately.",
-      "help": "$\\mathbf{a}+\\mathbf{b}=\\binom{2+1}{3+4}=\\binom{3}{7}$.\n\nExample: vector addition."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{a} = \\binom{2}{3} and \\mathbf{b} = \\binom{1}{4}. Find \\mathbf{a} + \\mathbf{b}..\n2. Add top and bottom components separately.\n3. $\\mathbf{a}+\\mathbf{b}=\\binom{2+1}{3+4}=\\binom{3}{7}$.\n4. For example, vector addition."
     },
     "10": {
       "hint": "Subtract components: (2−1, 3−4).",
-      "help": "$\\mathbf{a}-\\mathbf{b}=\\binom{1}{-1}$.\n\nExample: component-wise subtract."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Using \\mathbf{a} and \\mathbf{b} from Q9, find \\mathbf{a} - \\mathbf{b}..\n2. Subtract components: (2−1, 3−4).\n3. $\\mathbf{a}-\\mathbf{b}=\\binom{1}{-1}$.\n4. For example, component-wise subtract."
     },
     "11": {
       "hint": "Double each part of (4,−1).",
-      "help": "$2\\mathbf{a}=\\binom{8}{-2}$.\n\nExample: scalar multiply.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{a} = \\binom{4}{-1}. Find 2\\mathbf{a}..\n2. Double each part of (4,−1).\n3. $2\\mathbf{a}=\\binom{8}{-2}$.\n4. For example, scalar multiply."
     },
     "12": {
       "hint": "Divide each part of (−3,6) by 3.",
-      "help": "$\\frac13\\mathbf{b}=\\binom{-1}{2}$.\n\nExample: scalar 1/3.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{b} = \\binom{-3}{6}. Find \\frac{1}{3}\\mathbf{b}..\n2. Divide each part of (−3,6) by 3.\n3. $\\frac13\\mathbf{b}=\\binom{-1}{2}$.\n4. For example, scalar 1/3."
     },
     "13": {
       "hint": "(5,2)+(−2,3).",
-      "help": "$\\binom{3}{5}$.\n\nExample: add vectors.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{a} = \\binom{5}{2} and \\mathbf{b} = \\binom{-2}{3}. Find \\mathbf{a} + \\mathbf{b}..\n2. (5,2)+(−2,3).\n3. $\\binom{3}{5}$.\n4. For example, add vectors."
     },
     "14": {
       "hint": "2×(5,2) minus (−2,3).",
-      "help": "$\\binom{10}{4}-\\binom{-2}{3}=\\binom{12}{1}$.\n\nExample: scalar then subtract."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Using \\mathbf{a} and \\mathbf{b} from Q13, find 2\\mathbf{a} - \\mathbf{b}..\n2. 2×(5,2) minus (−2,3).\n3. $\\binom{10}{4}-\\binom{-2}{3}=\\binom{12}{1}$.\n4. For example, scalar then subtract."
     },
     "15": {
       "hint": "Negate both parts of (6,−4).",
-      "help": "$-\\mathbf{c}=\\binom{-6}{4}$.\n\nExample: opposite vector.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{c} = \\binom{6}{-4}. Find -\\mathbf{c}..\n2. Negate both parts of (6,−4).\n3. $-\\mathbf{c}=\\binom{-6}{4}$.\n4. For example, opposite vector."
     },
     "16": {
       "hint": "3×(1,1)+(3,−2).",
-      "help": "$\\binom{3}{3}+\\binom{3}{-2}=\\binom{6}{1}$.\n\nExample: combine."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{a} = \\binom{1}{1} and \\mathbf{b} = \\binom{3}{-2}. Find 3\\mathbf{a} + \\mathbf{b}..\n2. 3×(1,1)+(3,−2).\n3. $\\binom{3}{3}+\\binom{3}{-2}=\\binom{6}{1}$.\n4. For example, combine."
     },
     "17": {
       "hint": "−3×(2,5).",
-      "help": "$\\binom{-6}{-15}$.\n\nExample: flip and stretch.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{a} = \\binom{2}{5}. Find -3\\mathbf{a}..\n2. −3×(2,5).\n3. $\\binom{-6}{-15}$.\n4. For example, flip and stretch."
     },
     "18": {
       "hint": "Same vectors subtract → zero vector.",
-      "help": "$\\binom{0}{0}$ — **no movement** (cancel out).\n\nExample: there and back."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{a} = \\binom{4}{2} and \\mathbf{b} = \\binom{4}{2}. Find \\mathbf{a} - \\mathbf{b}, and explain what this result means..\n2. Same vectors subtract → zero vector.\n3. $\\binom{0}{0}$ — no movement (cancel out).\n4. For example, there and back."
     },
     "19": {
       "hint": "(3,0)+(0,5).",
-      "help": "$\\binom{3}{5}$.\n\nExample: horizontal plus vertical.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{a} = \\binom{3}{0} and \\mathbf{b} = \\binom{0}{5}. Find \\mathbf{a} + \\mathbf{b}..\n2. (3,0)+(0,5).\n3. $\\binom{3}{5}$.\n4. For example, horizontal plus vertical."
     },
     "20": {
       "hint": "p=2q with q=(3,1).",
-      "help": "$\\mathbf{p}=\\binom{6}{2}$.\n\nExample: double each component.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: If \\mathbf{p} = 2\\mathbf{q}, and \\mathbf{q} = \\binom{3}{1}, find \\mathbf{p}..\n2. P=2q with q=(3,1).\n3. $\\mathbf{p}=\\binom{6}{2}$.\n4. For example, double each component."
     },
     "21": {
       "hint": "Add (2,3) and (1,4).",
-      "help": "$\\binom{3}{7}$.\n\nExample: component sum.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Add vectors \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix} and \\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}..\n2. Add (2,3) and (1,4).\n3. $\\binom{3}{7}$.\n4. For example, component sum."
     },
     "22": {
       "hint": "(5,2)−(3,6).",
-      "help": "$\\binom{2}{-4}$.\n\nExample: subtract vectors.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix} - \\begin{pmatrix} 3 \\\\ 6 \\end{pmatrix}..\n2. (5,2)−(3,6).\n3. $\\binom{2}{-4}$.\n4. For example, subtract vectors."
     },
     "23": {
       "hint": "Vectors add component-wise — Mia correct.",
-      "help": "Add **top with top**, **bottom with bottom** — Mia’s method is **correct**.\n\nExample: $\\binom{2}{3}+\\binom{1}{4}$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Mia says \\binom{2}{3} + \\binom{1}{4} = \\binom{3}{7} by adding the top numbers and then adding the bottom numbers separately. Explain why her method is corr….\n2. Mia correct.\n3. Add top with top, bottom with bottom — Mia’s method is correct.\n4. For example, $\\binom{2}{3}+\\binom{1}{4}$."
     },
     "24": {
       "hint": "2a same direction as a, twice length?",
-      "help": "**True** for **same direction** (unless **a** is zero).\n\nExample: parallel stretch."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: **True or false?** 2\\mathbf{a} always points in exactly the same direction as \\mathbf{a}, just twice as long..\n2. 2a same direction as a, twice length?\n3. True for same direction (unless a is zero).\n4. For example, parallel stretch."
     },
     "25": {
       "hint": "−a opposite direction, same length?",
-      "help": "Ravi **correct** — negate both components.\n\nExample: $\\binom{2}{5}$ → $\\binom{-2}{-5}$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Ravi says -\\mathbf{a} has the same length as \\mathbf{a} but points in the opposite direction. Is he correct? Explain using an example..\n2. −a opposite direction, same length?\n3. Ravi correct — negate both components.\n4. For example, $\\binom{2}{5}$ → $\\binom{-2}{-5}$."
     },
     "26": {
       "hint": "a + (−a) cancels?",
-      "help": "**Always** $\\binom{0}{0}$.\n\nExample: opposite vectors.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: **Always, sometimes, or never?** \\mathbf{a} + (-\\mathbf{a}) = \\binom{0}{0}..\n2. A + (−a) cancels?\n3. Always $\\binom{0}{0}$.\n4. For example, opposite vectors."
     },
     "27": {
       "hint": "2a parallel to a — scalar multiple.",
-      "help": "Scalar multiple ⇒ **parallel** (same line direction).\n\nExample: $\\mathbf{b}=k\\mathbf{a}$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Priya says that if two vectors are scalar multiples of each other (like \\mathbf{a} and 2\\mathbf{a}), they must be parallel. Explain why this is true..\n2. Scalar multiple.\n3. Scalar multiple ⇒ parallel (same line direction).\n4. For example, $\\mathbf{b}=k\\mathbf{a}$."
     },
     "28": {
       "hint": "a−b vs b−a — swap signs.",
-      "help": "$\\mathbf{a}-\\mathbf{b}=\\binom{3}{-2}$ but $\\mathbf{b}-\\mathbf{a}=\\binom{-3}{2}$ — **opposites**.\n\nExample: order matters."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Explain the difference between \\mathbf{a} - \\mathbf{b} and \\mathbf{b} - \\mathbf{a}, using an example with \\mathbf{a} = \\binom{4}{1} and \\mathbf{b} = \\….\n2. Swap signs.\n3. $\\mathbf{a}-\\mathbf{b}=\\binom{3}{-2}$ but $\\mathbf{b}-\\mathbf{a}=\\binom{-3}{2}$ — opposites.\n4. For example, order matters."
     },
     "29": {
       "hint": "3a means multiply each component by 3, not add 3.",
-      "help": "Sloan **wrong** — $3\\binom{2}{5}=\\binom{6}{15}$, not $\\binom{5}{8}$.\n\nExample: scalar multiply."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Sloan says 3\\mathbf{a} means adding 3 to both parts of the vector \\mathbf{a}. Explain her mistake, using \\mathbf{a} = \\binom{2}{5}..\n2. 3a means multiply each component by 3, not add 3.\n3. Sloan wrong — $3\\binom{2}{5}=\\binom{6}{15}$, not $\\binom{5}{8}$.\n4. For example, scalar multiply."
     },
     "30": {
       "hint": "AB goes from A to B: OB − OA.",
-      "help": "$\\overrightarrow{AB}=\\mathbf{b}-\\mathbf{a}$.\n\nExample: head minus tail."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Points O, A and B are marked on the grid with \\overrightarrow{OA} = \\mathbf{a} and \\overrightarrow{OB} = \\mathbf{b}. Explain how to find \\overrightarrow….\n2. AB goes from A to B: OB − OA.\n3. $\\overrightarrow{AB}=\\mathbf{b}-\\mathbf{a}$.\n4. For example, head minus tail."
     },
     "31": {
       "hint": "OB−OA with given coordinates.",
-      "help": "$\\overrightarrow{AB}=\\binom{4}{3}$.\n\nExample: (7−3, 5−2).\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\overrightarrow{OA} = \\binom{3}{2} and \\overrightarrow{OB} = \\binom{7}{5}. Find \\overrightarrow{AB} (remember \\overrightarrow{AB} = \\overrightarrow{OB….\n2. OB−OA with given [coordinates](mtlearn:word/coordinates).\n3. $\\overrightarrow{AB}=\\binom{4}{3}$.\n4. For example, (7−3, 5−2)."
     },
     "32": {
       "hint": "Midpoint M of AB — average position from O.",
-      "help": "Simplify $\\mathbf{a}+\\frac12(\\mathbf{b}-\\mathbf{a})=\\frac12(\\mathbf{a}+\\mathbf{b})$.\n\nExample: midpoint vector."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: In triangle OAB, \\overrightarrow{OA} = \\mathbf{a} and \\overrightarrow{OB} = \\mathbf{b}. M is the midpoint of AB. Show that \\overrightarrow{OM} = \\….\n2. Average position from O.\n3. Simplify $\\mathbf{a}+\\frac12(\\mathbf{b}-\\mathbf{a})=\\frac12(\\mathbf{a}+\\mathbf{b})$.\n4. For example, midpoint vector."
     },
     "33": {
       "hint": "Parallelogram OB = OA + OC.",
-      "help": "$\\overrightarrow{OB}=\\mathbf{a}+\\mathbf{c}$.\n\nExample: parallelogram rule."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: OABC is a parallelogram with \\overrightarrow{OA} = \\mathbf{a} and \\overrightarrow{OC} = \\mathbf{c}. Write \\overrightarrow{OB} in terms of \\mathbf{a}….\n2. Parallelogram OB = OA + OC.\n3. $\\overrightarrow{OB}=\\mathbf{a}+\\mathbf{c}$.\n4. For example, parallelogram rule."
     },
     "34": {
       "hint": "Is (6,3) a multiple of (2,1)?",
-      "help": "$\\mathbf{a}=3\\mathbf{b}$ — **parallel** (factor 3).\n\nExample: check ratios 6/2=3/1."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{a} = \\binom{6}{3} and \\mathbf{b} = \\binom{2}{1}. Show that \\mathbf{a} and \\mathbf{b} are parallel, by expressing \\mathbf{a} as a scalar mul….\n2. Is (6,3) a multiple of (2,1)?\n3. $\\mathbf{a}=3\\mathbf{b}$ — parallel (factor 3).\n4. For example, check ratios 6/2=3/1."
     },
     "35": {
       "hint": "P is 1/3 along AB from A.",
-      "help": "$\\overrightarrow{OP}=\\overrightarrow{OA}+\\frac13\\overrightarrow{AB}$ — compute coords.\n\nExample: section ratio 1:2."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Points A and B are shown on the grid. Point P divides the line from A to B so that AP:PB = 1:2. Using vectors, find the position vector of P (f….\n2. P is 1/3 along AB from A.\n3. $\\overrightarrow{OP}=\\overrightarrow{OA}+\\frac13\\overrightarrow{AB}$ — compute coords.\n4. For example, section ratio 1:2."
     },
     "36": {
       "hint": "AC = AB + BC chain.",
-      "help": "$\\overrightarrow{AC}=\\binom{3}{3}$; **head-to-tail** addition.\n\nExample: vector chain."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\overrightarrow{AB} = \\binom{4}{-2} and \\overrightarrow{BC} = \\binom{-1}{5}. Find \\overrightarrow{AC}, and explain why \\overrightarrow{AC} = \\overrigh….\n2. AC = AB + BC chain.\n3. $\\overrightarrow{AC}=\\binom{3}{3}$; head-to-tail addition.\n4. For example, vector chain."
     },
     "37": {
       "hint": "C divides AB 2:1 from A — fraction 2/3 along AB.",
-      "help": "$\\overrightarrow{OC}=\\mathbf{a}+\\frac23(\\mathbf{b}-\\mathbf{a})$.\n\nExample: ratio on segment."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: In triangle OAB, \\overrightarrow{OA} = \\mathbf{a} and \\overrightarrow{OB} = \\mathbf{b}. C is the point on AB such that AC:CB = 2:1. Find \\overri….\n2. Fraction 2/3 along AB.\n3. $\\overrightarrow{OC}=\\mathbf{a}+\\frac23(\\mathbf{b}-\\mathbf{a})$.\n4. For example, ratio on segment."
     },
     "38": {
       "hint": "Parallel ⇒ (2,k) proportional to (6,9).",
-      "help": "$k/2=9/6$ → **k=3**.\n\nExample: cross-multiply ratios.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: \\mathbf{a} = \\binom{2}{k} and \\mathbf{b} = \\binom{6}{9}. Given that \\mathbf{a} and \\mathbf{b} are parallel, find the value of k..\n2. Parallel ⇒ (2,k) proportional to (6,9).\n3. $k/2=9/6$ → k=3.\n4. For example, cross-multiply ratios."
     },
     "39": {
       "hint": "M midpoint of AC and OB in parallelogram.",
-      "help": "Show $\\overrightarrow{OM}=\\frac12(\\mathbf{a}+\\mathbf{c})$ — **M** midpoint of both diagonals.\n\nExample: parallelogram diagonals bisect."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: OABC is a parallelogram with \\overrightarrow{OA} = \\mathbf{a} and \\overrightarrow{OC} = \\mathbf{c}. M is the midpoint of AC (the diagonal). Show, u….\n2. M midpoint of AC and OB in parallelogram.\n3. Show $\\overrightarrow{OM}=\\frac12(\\mathbf{a}+\\mathbf{c})$ — M midpoint of both diagonals.\n4. For example, parallelogram diagonals bisect."
     },
     "40": {
       "hint": "The midpoint's position vector is the average of the two endpoint position vectors.",
-      "help": "To reach the midpoint of points with position vectors $\\mathbf{a}$ and $\\mathbf{b}$, add the vectors and divide by 2.\n\nFor example, endpoints $\\mathbf{p}$ and $\\mathbf{q}$ have midpoint vector $\\frac12(\\mathbf{p}+\\mathbf{q})$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: In triangle OAB, \\overrightarrow{OA}=\\mathbf{a} and \\overrightarrow{OB}=\\mathbf{b}. Point M is the midpoint of AB. Find \\overrightarrow{OM}..\n2. The midpoint's position vector is the average of the two endpoint position vectors.\n3. To reach the midpoint of points with position vectors $\\mathbf{a}$ and $\\mathbf{b}$, add the vectors and divide by 2.\n4. For example, endpoints $\\mathbf{p}$ and $\\mathbf{q}$ have midpoint vector $\\frac12(\\mathbf{p}+\\mathbf{q})$."
     },
     "41": {
       "hint": "(2,1)+(−1,3).",
-      "help": "$\\binom{1}{4}$.\n\nExample: add.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: If \\mathbf{a} = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} and \\mathbf{b} = \\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}, find \\mathbf{a} + \\mathbf{b}..\n2. (2,1)+(−1,3).\n3. $\\binom{1}{4}$.\n4. For example, add."
     },
     "42": {
       "hint": "Parallelogram: OB = OA + OC.",
-      "help": "$\\overrightarrow{OB}=\\mathbf{a}+\\mathbf{c}$.\n\nExample: complete parallelogram."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Parallelogram OABC has \\overrightarrow{OA} = \\mathbf{a} and \\overrightarrow{OC} = \\mathbf{c}. Write \\overrightarrow{OB} in terms of \\mathbf{a} and \\….\n2. Parallelogram: OB = OA + OC.\n3. $\\overrightarrow{OB}=\\mathbf{a}+\\mathbf{c}$.\n4. For example, complete parallelogram."
     },
     "43": {
       "hint": "Add top numbers and add bottom numbers separately.",
-      "help": "$\\begin{pmatrix}1+1\\\\1+1\\end{pmatrix} = \\begin{pmatrix}2\\\\2\\end{pmatrix}$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\1\\end{pmatrix} + \\begin{pmatrix}1\\\\1\\end{pmatrix}..\n2. Add top numbers and add bottom numbers separately.\n3. $\\begin{pmatrix}1+1\\\\1+1\\end{pmatrix} = \\begin{pmatrix}2\\\\2\\end{pmatrix}$."
     },
     "44": {
       "hint": "Add top numbers and add bottom numbers separately.",
-      "help": "$\\begin{pmatrix}1+2\\\\2+1\\end{pmatrix} = \\begin{pmatrix}3\\\\3\\end{pmatrix}$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\2\\end{pmatrix} + \\begin{pmatrix}2\\\\1\\end{pmatrix}..\n2. Add top numbers and add bottom numbers separately.\n3. $\\begin{pmatrix}1+2\\\\2+1\\end{pmatrix} = \\begin{pmatrix}3\\\\3\\end{pmatrix}$."
     },
     "45": {
       "hint": "Add components: (1+3, 2+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Add components: (1+3, 2+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "46": {
       "hint": "Add components: (2+4, 3+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\3\\end{pmatrix} + \\begin{pmatrix}4\\\\2\\end{pmatrix}..\n2. Add components: (2+4, 3+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "47": {
       "hint": "Add components: (3+5, 4+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\4\\end{pmatrix} + \\begin{pmatrix}5\\\\3\\end{pmatrix}..\n2. Add components: (3+5, 4+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "48": {
       "hint": "Add components: (4+6, 5+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\5\\end{pmatrix} + \\begin{pmatrix}6\\\\4\\end{pmatrix}..\n2. Add components: (4+6, 5+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "49": {
       "hint": "Add components: (5+3, 2+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\5\\end{pmatrix}..\n2. Add components: (5+3, 2+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "50": {
       "hint": "Add components: (1+4, 3+6).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\3\\end{pmatrix} + \\begin{pmatrix}4\\\\6\\end{pmatrix}..\n2. Add components: (1+4, 3+6).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "51": {
       "hint": "Add components: (2+5, 4+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\4\\end{pmatrix} + \\begin{pmatrix}5\\\\1\\end{pmatrix}..\n2. Add components: (2+5, 4+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "52": {
       "hint": "Add components: (3+6, 5+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\5\\end{pmatrix} + \\begin{pmatrix}6\\\\2\\end{pmatrix}..\n2. Add components: (3+6, 5+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "53": {
       "hint": "Add components: (4+3, 2+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Add components: (4+3, 2+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "54": {
       "hint": "Add components: (5+4, 3+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\3\\end{pmatrix} + \\begin{pmatrix}4\\\\4\\end{pmatrix}..\n2. Add components: (5+4, 3+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "55": {
       "hint": "Add components: (1+5, 4+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\4\\end{pmatrix} + \\begin{pmatrix}5\\\\5\\end{pmatrix}..\n2. Add components: (1+5, 4+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "56": {
       "hint": "Add components: (2+6, 5+6).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\5\\end{pmatrix} + \\begin{pmatrix}6\\\\6\\end{pmatrix}..\n2. Add components: (2+6, 5+6).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "57": {
       "hint": "Add components: (3+3, 2+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Add components: (3+3, 2+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "58": {
       "hint": "Add components: (4+4, 3+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\3\\end{pmatrix} + \\begin{pmatrix}4\\\\2\\end{pmatrix}..\n2. Add components: (4+4, 3+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "59": {
       "hint": "Add components: (5+5, 4+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\4\\end{pmatrix} + \\begin{pmatrix}5\\\\3\\end{pmatrix}..\n2. Add components: (5+5, 4+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "60": {
       "hint": "Add components: (1+6, 5+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\5\\end{pmatrix} + \\begin{pmatrix}6\\\\4\\end{pmatrix}..\n2. Add components: (1+6, 5+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "61": {
       "hint": "Add components: (2+3, 2+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\5\\end{pmatrix}..\n2. Add components: (2+3, 2+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "62": {
       "hint": "Add components: (3+4, 3+6).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\3\\end{pmatrix} + \\begin{pmatrix}4\\\\6\\end{pmatrix}..\n2. Add components: (3+4, 3+6).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "63": {
       "hint": "Add components: (4+5, 4+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\4\\end{pmatrix} + \\begin{pmatrix}5\\\\1\\end{pmatrix}..\n2. Add components: (4+5, 4+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "64": {
       "hint": "Add components: (5+6, 5+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\5\\end{pmatrix} + \\begin{pmatrix}6\\\\2\\end{pmatrix}..\n2. Add components: (5+6, 5+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "65": {
       "hint": "Add components: (1+3, 2+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Add components: (1+3, 2+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "66": {
       "hint": "Add components: (2+4, 3+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\3\\end{pmatrix} + \\begin{pmatrix}4\\\\4\\end{pmatrix}..\n2. Add components: (2+4, 3+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "67": {
       "hint": "Add components: (3+5, 4+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\4\\end{pmatrix} + \\begin{pmatrix}5\\\\5\\end{pmatrix}..\n2. Add components: (3+5, 4+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "68": {
       "hint": "Add components: (4+6, 5+6).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\5\\end{pmatrix} + \\begin{pmatrix}6\\\\6\\end{pmatrix}..\n2. Add components: (4+6, 5+6).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "69": {
       "hint": "Add components: (5+3, 2+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Add components: (5+3, 2+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "70": {
       "hint": "Add components: (1+4, 3+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\3\\end{pmatrix} + \\begin{pmatrix}4\\\\2\\end{pmatrix}..\n2. Add components: (1+4, 3+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "71": {
       "hint": "Add components: (2+5, 4+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\4\\end{pmatrix} + \\begin{pmatrix}5\\\\3\\end{pmatrix}..\n2. Add components: (2+5, 4+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "72": {
       "hint": "Add components: (3+6, 5+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\5\\end{pmatrix} + \\begin{pmatrix}6\\\\4\\end{pmatrix}..\n2. Add components: (3+6, 5+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "73": {
       "hint": "Add components: (4+3, 2+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\5\\end{pmatrix}..\n2. Add components: (4+3, 2+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "74": {
       "hint": "Add components: (5+4, 3+6).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\3\\end{pmatrix} + \\begin{pmatrix}4\\\\6\\end{pmatrix}..\n2. Add components: (5+4, 3+6).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "75": {
       "hint": "Subtract components: (5−2, 4−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\4\\end{pmatrix} - \\begin{pmatrix}2\\\\1\\end{pmatrix}..\n2. Subtract components: (5−2, 4−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "76": {
       "hint": "Subtract components: (6−3, 5−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}6\\\\5\\end{pmatrix} - \\begin{pmatrix}3\\\\2\\end{pmatrix}..\n2. Subtract components: (6−3, 5−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "77": {
       "hint": "Subtract components: (7−4, 6−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}7\\\\6\\end{pmatrix} - \\begin{pmatrix}4\\\\3\\end{pmatrix}..\n2. Subtract components: (7−4, 6−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "78": {
       "hint": "Subtract components: (8−5, 7−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}8\\\\7\\end{pmatrix} - \\begin{pmatrix}5\\\\1\\end{pmatrix}..\n2. Subtract components: (8−5, 7−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "79": {
       "hint": "Subtract components: (9−2, 8−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}9\\\\8\\end{pmatrix} - \\begin{pmatrix}2\\\\2\\end{pmatrix}..\n2. Subtract components: (9−2, 8−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "80": {
       "hint": "Subtract components: (10−3, 4−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}10\\\\4\\end{pmatrix} - \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Subtract components: (10−3, 4−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "81": {
       "hint": "Subtract components: (5−4, 5−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\5\\end{pmatrix} - \\begin{pmatrix}4\\\\1\\end{pmatrix}..\n2. Subtract components: (5−4, 5−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "82": {
       "hint": "Subtract components: (6−5, 6−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}6\\\\6\\end{pmatrix} - \\begin{pmatrix}5\\\\2\\end{pmatrix}..\n2. Subtract components: (6−5, 6−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "83": {
       "hint": "Subtract components: (7−2, 7−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}7\\\\7\\end{pmatrix} - \\begin{pmatrix}2\\\\3\\end{pmatrix}..\n2. Subtract components: (7−2, 7−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "84": {
       "hint": "Subtract components: (8−3, 8−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}8\\\\8\\end{pmatrix} - \\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Subtract components: (8−3, 8−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "85": {
       "hint": "Subtract components: (9−4, 4−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}9\\\\4\\end{pmatrix} - \\begin{pmatrix}4\\\\2\\end{pmatrix}..\n2. Subtract components: (9−4, 4−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "86": {
       "hint": "Subtract components: (10−5, 5−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}10\\\\5\\end{pmatrix} - \\begin{pmatrix}5\\\\3\\end{pmatrix}..\n2. Subtract components: (10−5, 5−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "87": {
       "hint": "Subtract components: (5−2, 6−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\6\\end{pmatrix} - \\begin{pmatrix}2\\\\1\\end{pmatrix}..\n2. Subtract components: (5−2, 6−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "88": {
       "hint": "Subtract components: (6−3, 7−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}6\\\\7\\end{pmatrix} - \\begin{pmatrix}3\\\\2\\end{pmatrix}..\n2. Subtract components: (6−3, 7−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "89": {
       "hint": "Subtract components: (7−4, 8−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}7\\\\8\\end{pmatrix} - \\begin{pmatrix}4\\\\3\\end{pmatrix}..\n2. Subtract components: (7−4, 8−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "90": {
       "hint": "Subtract components: (8−5, 4−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}8\\\\4\\end{pmatrix} - \\begin{pmatrix}5\\\\1\\end{pmatrix}..\n2. Subtract components: (8−5, 4−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "91": {
       "hint": "Subtract components: (9−2, 5−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}9\\\\5\\end{pmatrix} - \\begin{pmatrix}2\\\\2\\end{pmatrix}..\n2. Subtract components: (9−2, 5−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "92": {
       "hint": "Subtract components: (10−3, 6−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}10\\\\6\\end{pmatrix} - \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Subtract components: (10−3, 6−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "93": {
       "hint": "Subtract components: (5−4, 7−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\7\\end{pmatrix} - \\begin{pmatrix}4\\\\1\\end{pmatrix}..\n2. Subtract components: (5−4, 7−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "94": {
       "hint": "Subtract components: (6−5, 8−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}6\\\\8\\end{pmatrix} - \\begin{pmatrix}5\\\\2\\end{pmatrix}..\n2. Subtract components: (6−5, 8−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "95": {
       "hint": "Subtract components: (7−2, 4−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}7\\\\4\\end{pmatrix} - \\begin{pmatrix}2\\\\3\\end{pmatrix}..\n2. Subtract components: (7−2, 4−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "96": {
       "hint": "Subtract components: (8−3, 5−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}8\\\\5\\end{pmatrix} - \\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Subtract components: (8−3, 5−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "97": {
       "hint": "Subtract components: (9−4, 6−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}9\\\\6\\end{pmatrix} - \\begin{pmatrix}4\\\\2\\end{pmatrix}..\n2. Subtract components: (9−4, 6−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "98": {
       "hint": "Subtract components: (10−5, 7−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}10\\\\7\\end{pmatrix} - \\begin{pmatrix}5\\\\3\\end{pmatrix}..\n2. Subtract components: (10−5, 7−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "99": {
       "hint": "Subtract components: (5−2, 8−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\8\\end{pmatrix} - \\begin{pmatrix}2\\\\1\\end{pmatrix}..\n2. Subtract components: (5−2, 8−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "100": {
       "hint": "Subtract components: (6−3, 4−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}6\\\\4\\end{pmatrix} - \\begin{pmatrix}3\\\\2\\end{pmatrix}..\n2. Subtract components: (6−3, 4−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "101": {
       "hint": "Subtract components: (7−4, 5−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}7\\\\5\\end{pmatrix} - \\begin{pmatrix}4\\\\3\\end{pmatrix}..\n2. Subtract components: (7−4, 5−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "102": {
       "hint": "Subtract components: (8−5, 6−1).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}8\\\\6\\end{pmatrix} - \\begin{pmatrix}5\\\\1\\end{pmatrix}..\n2. Subtract components: (8−5, 6−1).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "103": {
       "hint": "Subtract components: (9−2, 7−2).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}9\\\\7\\end{pmatrix} - \\begin{pmatrix}2\\\\2\\end{pmatrix}..\n2. Subtract components: (9−2, 7−2).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "104": {
       "hint": "Subtract components: (10−3, 8−3).",
-      "help": "Subtract top and bottom components separately.\n\n**Different example:** $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}10\\\\8\\end{pmatrix} - \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Subtract components: (10−3, 8−3).\n3. Subtract top and bottom components separately.\n4. Different example: $\\binom{9}{6}-\\binom{4}{1}=\\binom{5}{5}$.\n5. Work step by step and include units if the question uses them."
     },
     "105": {
       "hint": "Multiply vector (1,-1) by 2 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\begin{pmatrix}1\\\\-1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "106": {
       "hint": "Multiply vector (2,0) by 3 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\begin{pmatrix}2\\\\0\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "107": {
       "hint": "Multiply vector (3,1) by 4 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "108": {
       "hint": "Multiply vector (4,-1) by 5 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 5\\begin{pmatrix}4\\\\-1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "109": {
       "hint": "Multiply vector (1,0) by 6 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 6\\begin{pmatrix}1\\\\0\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "110": {
       "hint": "Multiply vector (2,1) by 2 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\begin{pmatrix}2\\\\1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "111": {
       "hint": "Multiply vector (3,-1) by 3 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\begin{pmatrix}3\\\\-1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "112": {
       "hint": "Multiply vector (4,0) by 4 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\begin{pmatrix}4\\\\0\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "113": {
       "hint": "Multiply vector (1,1) by 5 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 5\\begin{pmatrix}1\\\\1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "114": {
       "hint": "Multiply vector (2,-1) by 6 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 6\\begin{pmatrix}2\\\\-1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "115": {
       "hint": "Multiply vector (3,0) by 2 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\begin{pmatrix}3\\\\0\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "116": {
       "hint": "Multiply vector (4,1) by 3 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\begin{pmatrix}4\\\\1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "117": {
       "hint": "Multiply vector (1,-1) by 4 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\begin{pmatrix}1\\\\-1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "118": {
       "hint": "Multiply vector (2,0) by 5 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 5\\begin{pmatrix}2\\\\0\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "119": {
       "hint": "Multiply vector (3,1) by 6 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 6\\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "120": {
       "hint": "Multiply vector (4,-1) by 2 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\begin{pmatrix}4\\\\-1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "121": {
       "hint": "Multiply vector (1,0) by 3 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\begin{pmatrix}1\\\\0\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "122": {
       "hint": "Multiply vector (2,1) by 4 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\begin{pmatrix}2\\\\1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "123": {
       "hint": "Multiply vector (3,-1) by 5 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 5\\begin{pmatrix}3\\\\-1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "124": {
       "hint": "Multiply vector (4,0) by 6 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 6\\begin{pmatrix}4\\\\0\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "125": {
       "hint": "Multiply vector (1,1) by 2 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\begin{pmatrix}1\\\\1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "126": {
       "hint": "Multiply vector (2,-1) by 3 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\begin{pmatrix}2\\\\-1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "127": {
       "hint": "Multiply vector (3,0) by 4 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\begin{pmatrix}3\\\\0\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "128": {
       "hint": "Multiply vector (4,1) by 5 — both parts.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 5\\begin{pmatrix}4\\\\1\\end{pmatrix}..\n2. Both parts.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "129": {
       "hint": "Q129: compute 2×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q129: compute 2×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "130": {
       "hint": "Q130: compute 3×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q130: compute 3×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "131": {
       "hint": "Q131: compute 4×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q131: compute 4×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "132": {
       "hint": "Q132: compute 2×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q132: compute 2×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "133": {
       "hint": "Q133: compute 3×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q133: compute 3×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "134": {
       "hint": "Q134: compute 4×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q134: compute 4×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "135": {
       "hint": "Q135: compute 2×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q135: compute 2×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "136": {
       "hint": "Q136: compute 3×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q136: compute 3×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "137": {
       "hint": "Q137: compute 4×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q137: compute 4×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "138": {
       "hint": "Q138: compute 2×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q138: compute 2×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "139": {
       "hint": "Q139: compute 3×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q139: compute 3×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "140": {
       "hint": "Q140: compute 4×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q140: compute 4×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "141": {
       "hint": "Q141: compute 2×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q141: compute 2×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "142": {
       "hint": "Q142: compute 3×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 3\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q142: compute 3×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "143": {
       "hint": "Q143: compute 4×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 4\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q143: compute 4×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "144": {
       "hint": "Q144: compute 2×(2,−1), then add (3,4) component-wise.",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find 2\\mathbf{a} + \\mathbf{b} where \\mathbf{a}=\\begin{pmatrix}2\\\\-1\\end{pmatrix} and \\mathbf{b}=\\begin{pmatrix}3\\\\4\\end{pmatrix}..\n2. Q144: compute 2×(2,−1), then add (3,4) component-wise.\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "145": {
       "hint": "Q145: is this true? ....",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: **True or false?** \\begin{pmatrix}2\\\\3\\end{pmatrix}+\\begin{pmatrix}1\\\\4\\end{pmatrix}=\\begin{pmatrix}3\\\\7\\end{pmatrix}..\n2. Q145: is this true? ....\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "146": {
       "hint": "Q146: explain — Explain why you cannot add a vector to a single number.",
-      "help": "Read the stem, choose the correct rule, substitute the numbers carefully.\n\n**Different example:** Sketch and label before calculating.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Explain why you cannot add a vector to a single number..\n2. Explain why you cannot add a vector to a single number.\n3. Read the stem, choose the correct rule, substitute the numbers carefully.\n4. Different example: Sketch and label before calculating.\n5. Work step by step and include units if the question uses them."
     },
     "147": {
       "hint": "Q147: test \"Scalar multiplication changes the direction unless the scalar is negative.\" — always, sometimes, or never?",
-      "help": "Multiply each component by the scalar; then add if needed.\n\n**Different example:** $3\\binom{2}{-1}=\\binom{6}{-3}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: **Always, sometimes, or never?** Scalar multiplication changes the direction unless the scalar is negative..\n2. Always, sometimes, or never?\n3. Multiply each component by the scalar; then add if needed.\n4. Different example: $3\\binom{2}{-1}=\\binom{6}{-3}$.\n5. Work step by step and include units if the question uses them."
     },
     "148": {
       "hint": "Add components: (1+2, 0+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\0\\end{pmatrix} + \\begin{pmatrix}2\\\\2\\end{pmatrix}..\n2. Add components: (1+2, 0+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "149": {
       "hint": "Add components: (2+3, 1+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\1\\end{pmatrix} + \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Add components: (2+3, 1+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "150": {
       "hint": "Add components: (3+0, 2+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\2\\end{pmatrix} + \\begin{pmatrix}0\\\\4\\end{pmatrix}..\n2. Add components: (3+0, 2+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "151": {
       "hint": "Add components: (4+1, 3+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\3\\end{pmatrix} + \\begin{pmatrix}1\\\\5\\end{pmatrix}..\n2. Add components: (4+1, 3+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "152": {
       "hint": "Add components: (5+2, 4+0).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\4\\end{pmatrix} + \\begin{pmatrix}2\\\\0\\end{pmatrix}..\n2. Add components: (5+2, 4+0).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "153": {
       "hint": "Add components: (0+3, 0+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}0\\\\0\\end{pmatrix} + \\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Add components: (0+3, 0+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "154": {
       "hint": "Add components: (1+0, 1+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\1\\end{pmatrix} + \\begin{pmatrix}0\\\\2\\end{pmatrix}..\n2. Add components: (1+0, 1+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "155": {
       "hint": "Add components: (2+1, 2+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\2\\end{pmatrix} + \\begin{pmatrix}1\\\\3\\end{pmatrix}..\n2. Add components: (2+1, 2+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "156": {
       "hint": "Add components: (3+2, 3+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\3\\end{pmatrix} + \\begin{pmatrix}2\\\\4\\end{pmatrix}..\n2. Add components: (3+2, 3+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "157": {
       "hint": "Add components: (4+3, 4+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\4\\end{pmatrix} + \\begin{pmatrix}3\\\\5\\end{pmatrix}..\n2. Add components: (4+3, 4+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "158": {
       "hint": "Add components: (5+0, 0+0).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\0\\end{pmatrix} + \\begin{pmatrix}0\\\\0\\end{pmatrix}..\n2. Add components: (5+0, 0+0).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "159": {
       "hint": "Add components: (0+1, 1+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}0\\\\1\\end{pmatrix} + \\begin{pmatrix}1\\\\1\\end{pmatrix}..\n2. Add components: (0+1, 1+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "160": {
       "hint": "Add components: (1+2, 2+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\2\\end{pmatrix} + \\begin{pmatrix}2\\\\2\\end{pmatrix}..\n2. Add components: (1+2, 2+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "161": {
       "hint": "Add components: (2+3, 3+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\3\\end{pmatrix} + \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Add components: (2+3, 3+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "162": {
       "hint": "Add components: (3+0, 4+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\4\\end{pmatrix} + \\begin{pmatrix}0\\\\4\\end{pmatrix}..\n2. Add components: (3+0, 4+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "163": {
       "hint": "Add components: (4+1, 0+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\0\\end{pmatrix} + \\begin{pmatrix}1\\\\5\\end{pmatrix}..\n2. Add components: (4+1, 0+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "164": {
       "hint": "Add components: (5+2, 1+0).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\1\\end{pmatrix} + \\begin{pmatrix}2\\\\0\\end{pmatrix}..\n2. Add components: (5+2, 1+0).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "165": {
       "hint": "Add components: (0+3, 2+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}0\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Add components: (0+3, 2+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "166": {
       "hint": "Add components: (1+0, 3+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\3\\end{pmatrix} + \\begin{pmatrix}0\\\\2\\end{pmatrix}..\n2. Add components: (1+0, 3+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "167": {
       "hint": "Add components: (2+1, 4+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\4\\end{pmatrix} + \\begin{pmatrix}1\\\\3\\end{pmatrix}..\n2. Add components: (2+1, 4+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "168": {
       "hint": "Add components: (3+2, 0+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\0\\end{pmatrix} + \\begin{pmatrix}2\\\\4\\end{pmatrix}..\n2. Add components: (3+2, 0+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "169": {
       "hint": "Add components: (4+3, 1+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\1\\end{pmatrix} + \\begin{pmatrix}3\\\\5\\end{pmatrix}..\n2. Add components: (4+3, 1+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "170": {
       "hint": "Add components: (5+0, 2+0).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\2\\end{pmatrix} + \\begin{pmatrix}0\\\\0\\end{pmatrix}..\n2. Add components: (5+0, 2+0).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "171": {
       "hint": "Add components: (0+1, 3+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}0\\\\3\\end{pmatrix} + \\begin{pmatrix}1\\\\1\\end{pmatrix}..\n2. Add components: (0+1, 3+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "172": {
       "hint": "Add components: (1+2, 4+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\4\\end{pmatrix} + \\begin{pmatrix}2\\\\2\\end{pmatrix}..\n2. Add components: (1+2, 4+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "173": {
       "hint": "Add components: (2+3, 0+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\0\\end{pmatrix} + \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Add components: (2+3, 0+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "174": {
       "hint": "Add components: (3+0, 1+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\1\\end{pmatrix} + \\begin{pmatrix}0\\\\4\\end{pmatrix}..\n2. Add components: (3+0, 1+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "175": {
       "hint": "Add components: (4+1, 2+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\2\\end{pmatrix} + \\begin{pmatrix}1\\\\5\\end{pmatrix}..\n2. Add components: (4+1, 2+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "176": {
       "hint": "Add components: (5+2, 3+0).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\3\\end{pmatrix} + \\begin{pmatrix}2\\\\0\\end{pmatrix}..\n2. Add components: (5+2, 3+0).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "177": {
       "hint": "Add components: (0+3, 4+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}0\\\\4\\end{pmatrix} + \\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Add components: (0+3, 4+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "178": {
       "hint": "Add components: (1+0, 0+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\0\\end{pmatrix} + \\begin{pmatrix}0\\\\2\\end{pmatrix}..\n2. Add components: (1+0, 0+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "179": {
       "hint": "Add components: (2+1, 1+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\1\\end{pmatrix} + \\begin{pmatrix}1\\\\3\\end{pmatrix}..\n2. Add components: (2+1, 1+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "180": {
       "hint": "Add components: (3+2, 2+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\2\\end{pmatrix} + \\begin{pmatrix}2\\\\4\\end{pmatrix}..\n2. Add components: (3+2, 2+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "181": {
       "hint": "Add components: (4+3, 3+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\3\\end{pmatrix} + \\begin{pmatrix}3\\\\5\\end{pmatrix}..\n2. Add components: (4+3, 3+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "182": {
       "hint": "Add components: (5+0, 4+0).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\4\\end{pmatrix} + \\begin{pmatrix}0\\\\0\\end{pmatrix}..\n2. Add components: (5+0, 4+0).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "183": {
       "hint": "Add components: (0+1, 0+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}0\\\\0\\end{pmatrix} + \\begin{pmatrix}1\\\\1\\end{pmatrix}..\n2. Add components: (0+1, 0+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "184": {
       "hint": "Add components: (1+2, 1+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\1\\end{pmatrix} + \\begin{pmatrix}2\\\\2\\end{pmatrix}..\n2. Add components: (1+2, 1+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "185": {
       "hint": "Add components: (2+3, 2+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Add components: (2+3, 2+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "186": {
       "hint": "Add components: (3+0, 3+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\3\\end{pmatrix} + \\begin{pmatrix}0\\\\4\\end{pmatrix}..\n2. Add components: (3+0, 3+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "187": {
       "hint": "Add components: (4+1, 4+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\4\\end{pmatrix} + \\begin{pmatrix}1\\\\5\\end{pmatrix}..\n2. Add components: (4+1, 4+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "188": {
       "hint": "Add components: (5+2, 0+0).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\0\\end{pmatrix} + \\begin{pmatrix}2\\\\0\\end{pmatrix}..\n2. Add components: (5+2, 0+0).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "189": {
       "hint": "Add components: (0+3, 1+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}0\\\\1\\end{pmatrix} + \\begin{pmatrix}3\\\\1\\end{pmatrix}..\n2. Add components: (0+3, 1+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "190": {
       "hint": "Add components: (1+0, 2+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\2\\end{pmatrix} + \\begin{pmatrix}0\\\\2\\end{pmatrix}..\n2. Add components: (1+0, 2+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "191": {
       "hint": "Add components: (2+1, 3+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\3\\end{pmatrix} + \\begin{pmatrix}1\\\\3\\end{pmatrix}..\n2. Add components: (2+1, 3+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "192": {
       "hint": "Add components: (3+2, 4+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\4\\end{pmatrix} + \\begin{pmatrix}2\\\\4\\end{pmatrix}..\n2. Add components: (3+2, 4+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "193": {
       "hint": "Add components: (4+3, 0+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\0\\end{pmatrix} + \\begin{pmatrix}3\\\\5\\end{pmatrix}..\n2. Add components: (4+3, 0+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "194": {
       "hint": "Add components: (5+0, 1+0).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\1\\end{pmatrix} + \\begin{pmatrix}0\\\\0\\end{pmatrix}..\n2. Add components: (5+0, 1+0).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "195": {
       "hint": "Add components: (0+1, 2+1).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}0\\\\2\\end{pmatrix} + \\begin{pmatrix}1\\\\1\\end{pmatrix}..\n2. Add components: (0+1, 2+1).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "196": {
       "hint": "Add components: (1+2, 3+2).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}1\\\\3\\end{pmatrix} + \\begin{pmatrix}2\\\\2\\end{pmatrix}..\n2. Add components: (1+2, 3+2).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "197": {
       "hint": "Add components: (2+3, 4+3).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}2\\\\4\\end{pmatrix} + \\begin{pmatrix}3\\\\3\\end{pmatrix}..\n2. Add components: (2+3, 4+3).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "198": {
       "hint": "Add components: (3+0, 0+4).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}3\\\\0\\end{pmatrix} + \\begin{pmatrix}0\\\\4\\end{pmatrix}..\n2. Add components: (3+0, 0+4).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "199": {
       "hint": "Add components: (4+1, 1+5).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}4\\\\1\\end{pmatrix} + \\begin{pmatrix}1\\\\5\\end{pmatrix}..\n2. Add components: (4+1, 1+5).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "200": {
       "hint": "Add components: (5+2, 2+0).",
-      "help": "Add matching components to make one column vector.\n\n**Different example:** $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G25)\n\n1. Read what the question asks: Find \\begin{pmatrix}5\\\\2\\end{pmatrix} + \\begin{pmatrix}2\\\\0\\end{pmatrix}..\n2. Add components: (5+2, 2+0).\n3. Add matching components to make one column vector.\n4. Different example: $\\binom{2}{3}+\\binom{5}{1}=\\binom{7}{4}$.\n5. Work step by step and include units if the question uses them."
     }
   }
 }

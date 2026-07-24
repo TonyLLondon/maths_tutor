@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { BarChartAnswer } from "@/components/BarChartAnswer";
 import { MarkdownBody } from "@/components/MarkdownBody";
-import { apiProgressPath, apiQuestionSupportPath, mathsTopicHref } from "@/lib/paths";
+import { apiProgressPath, apiQuestionSupportPath, mathsLearnTopicHref, mathsLearnWordHref, mathsTopicHref } from "@/lib/paths";
 import { friendlySectionHeading, formatPracticeTopicLine } from "@/lib/question-display";
 import type { FigureSpec } from "@/lib/figures";
 import { FigureView } from "@/components/FigureView";
@@ -34,6 +34,7 @@ type Props = {
   questions: ParsedQuestion[];
   answerMeta: Record<string, PracticeClientMeta>;
   figures: Record<string, FigureSpec>;
+  glossaryTerms: string[];
   initialRating: number;
   initialProgress: Record<string, AttemptState>;
 };
@@ -48,6 +49,7 @@ export function QuestionPractice({
   questions,
   answerMeta,
   figures,
+  glossaryTerms,
   initialRating,
   initialProgress,
 }: Props) {
@@ -166,6 +168,10 @@ export function QuestionPractice({
 
       <QuestionAttempt
         key={question.id}
+        tenant={tenant}
+        domain={domain}
+        code={code}
+        glossaryTerms={glossaryTerms}
         question={question}
         meta={meta}
         figure={figures[question.id]}
@@ -205,6 +211,10 @@ export function QuestionPractice({
 }
 
 type AttemptProps = {
+  tenant: string;
+  domain: string;
+  code: string;
+  glossaryTerms: string[];
   question: ParsedQuestion;
   meta: PracticeClientMeta;
   figure: FigureSpec | undefined;
@@ -228,6 +238,10 @@ type AttemptProps = {
 };
 
 function QuestionAttempt({
+  tenant,
+  domain,
+  code,
+  glossaryTerms,
   question,
   meta,
   figure,
@@ -286,6 +300,24 @@ function QuestionAttempt({
 
       {figure ? <FigureView spec={figure} /> : null}
 
+      <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
+        <Link
+          href={mathsLearnTopicHref(tenant, domain, code)}
+          className="rounded-lg border border-violet-200 bg-violet-50 px-3 py-1.5 font-medium text-violet-950 hover:bg-violet-100"
+        >
+          Learn this topic
+        </Link>
+        {glossaryTerms.slice(0, 4).map((slug) => (
+          <Link
+            key={slug}
+            href={mathsLearnWordHref(tenant, slug)}
+            className="rounded-full bg-stone-100 px-2.5 py-1 text-xs font-medium capitalize text-stone-700 ring-1 ring-stone-200"
+          >
+            {slug.replace(/-/g, " ")}
+          </Link>
+        ))}
+      </div>
+
       {support ? (
         <div className="mt-4 flex flex-wrap gap-2">
           <button
@@ -318,6 +350,7 @@ function QuestionAttempt({
           </p>
           <MarkdownBody
             markdown={support.help}
+            tenantId={tenant}
             className="worksheet-markdown text-sm leading-relaxed"
           />
         </div>

@@ -3,335 +3,803 @@
   "questions": {
     "1": {
       "hint": "Multiply 1 by itself.",
-      "help": "$1^2 = 1$.\n\nSquaring means times itself.\n\nAnswer 1.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find 1^2.\n2. $1^2 = 1$.\n3. Squaring means times itself.\n4. Answer 1.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "2": {
       "hint": "$2 \\times 2$.",
-      "help": "$2^2 = 4$.\n\nBasic square.\n\nAnswer 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find 2^2.\n2. $2^2 = 4$.\n3. Basic square.\n4. Answer 4.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "3": {
       "hint": "$3 \\times 3$.",
-      "help": "$3^2 = 9$.\n\nSquare of 3.\n\nAnswer 9.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find 3^2.\n2. $3^2 = 9$.\n3. Square of 3.\n4. Answer 9.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "4": {
       "hint": "$4 \\times 4$.",
-      "help": "$4^2 = 16$.\n\nSquare of 4.\n\nAnswer 16.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find 4^2.\n2. $4^2 = 16$.\n3. Square of 4.\n4. Answer 16.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "5": {
       "hint": "Substitute $x=2$ into $y=x^2$.",
-      "help": "$y = 4$.\n\nSquare the input.\n\n$y=4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2, find y when x = 2.\n2. $y = 4$.\n3. Square the input.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "6": {
       "hint": "$3^2$ for $y=x^2$ at $x=3$.",
-      "help": "$y = 9$.\n\nQuadratic rule at $x=3$.\n\nAnswer 9.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2, find y when x = 3.\n2. $y = 9$.\n3. Quadratic rule at $x=3$.\n4. Answer 9.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "7": {
       "hint": "Add 1 after squaring: $2^2+1$.",
-      "help": "$y = 5$.\n\nShift up by 1.\n\n$y=5$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2 + 1, find y when x = 2.\n2. $y = 5$.\n3. Shift up by 1.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "8": {
       "hint": "Compare $4$ and $9$.",
-      "help": "$3^2=9$ is **greater** than $2^2=4$.\n\nLarger base → larger square here.\n\n$3^2$ wins."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Which is greater: 2^2 or 3^2?\n2. $3^2=9$ is **greater** than $2^2=4$.\n3. Larger base → larger square here.\n4. $3^2$ wins."
     },
     "9": {
       "hint": "Square each $x$ in the table: $(-2)^2$, $(-1)^2$, etc.",
-      "help": "Row: **4, 1, 0, 1, 4**.\n\nNegatives square to positive.\n\nSymmetric table."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Complete the table for y = x^2.\n2. Row: **4, 1, 0, 1, 4**.\n3. Negatives square to positive.\n4. Symmetric table."
     },
     "10": {
       "hint": "Add 1 to each square in Q9 pattern.",
-      "help": "Values **5, 2, 1, 2, 5**.\n\n$y=x^2+1$ shifts up 1.\n\nFill table."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Complete the table for y = x^2 + 1.\n2. Values **5, 2, 1, 2, 5**.\n3. $y=x^2+1$ shifts up 1.\n4. Fill table."
     },
     "11": {
       "hint": "Graph of $y=x^2$ is a smooth U — what shape name?",
-      "help": "**Parabola** (U-shaped quadratic).\n\nNot a straight line.\n\nParabola."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: What shape is the graph of y = x^2 called?\n2. *Parabola** (U-shaped quadratic).\n3. Not a straight line.\n4. Parabola."
     },
     "12": {
       "hint": "Smallest value of a square is at $x=0$.",
-      "help": "Minimum **0** — $0^2=0$.\n\nParabola bottom at origin for $y=x^2$.\n\nLowest $y$ is 0."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: What is the smallest value that y = x^2 can ever take?\n2. Minimum **0** — $0^2=0$.\n3. Parabola bottom at origin for $y=x^2$.\n4. Lowest $y$ is 0."
     },
     "13": {
       "hint": "Turning point of $y=x^2$ is at the bottom.",
-      "help": "Lowest at **$x=0$**.\n\nVertex on $y$-axis for $y=x^2$.\n\n$x=0$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: At what value of x does y = x^2 reach its lowest point?\n2. Lowest at **$x=0$**.\n3. Vertex on $y$-axis for $y=x^2$."
     },
     "14": {
       "hint": "Compute $3^2-4$.",
-      "help": "$y = 5$.\n\nSquare then subtract 4.\n\nAnswer 5.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find y when x = 3 for y = x^2 - 4.\n2. $y = 5$.\n3. Square then subtract 4.\n4. Answer 5.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "15": {
       "hint": "$(-3)^2-4$ — square removes sign.",
-      "help": "$y = 5$ same as $x=3$.\n\nSymmetric about $y$-axis.\n\n$y=5$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find y when x = -3 for y = x^2 - 4.\n2. $y = 5$ same as $x=3$.\n3. Symmetric about $y$-axis.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "16": {
       "hint": "Left and right arms match for $y=x^2$ — called symmetry.",
-      "help": "**Yes**, mirror image — **symmetry** about $y$-axis.\n\n$(-a)^2=a^2$.\n\nSymmetric parabola."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2, is the graph the same shape on the left of the y-axis as on the right? What is this property c…\n2. *Yes**, mirror image — **symmetry** about $y$-axis.\n3. $(-a)^2=a^2$.\n4. Symmetric parabola."
     },
     "17": {
       "hint": "Solve $x^2-9=0$ for $x$.",
-      "help": "$x=3$ or $x=-3$.\n\nWhere graph cuts $x$-axis.\n\nTwo roots.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find the two values of x where y = x^2 - 9 crosses the x-axis (where y = 0).\n2. $x=3$ or $x=-3$.\n3. Where graph cuts $x$-axis.\n4. Two roots.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "18": {
       "hint": "$x^2=4$ gives two $x$ values.",
-      "help": "$x=2$ or $x=-2$.\n\nBoth give $y=0$.\n\nTwo crossings.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find the two values of x where y = x^2 - 4 crosses the x-axis.\n2. $x=2$ or $x=-2$.\n3. Both give $y=0$.\n4. Two crossings.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "19": {
       "hint": "Set $x=0$ in $y=x^2+2$.",
-      "help": "$y$-intercept **2** at $(0,2)$.\n\nConstant +2 shifts graph up.\n\nIntercept 2."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For the graph y = x^2 + 2, what is the y-intercept?\n2. $y$-intercept **2** at $(0,2)$.\n3. Constant +2 shifts graph up.\n4. Intercept 2."
     },
     "20": {
       "hint": "Is $x^2+5$ ever zero for real $x$?",
-      "help": "Minimum $y=5$ — **never** crosses $x$-axis.\n\nAlways above axis.\n\nNo real roots."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Does the graph of y = x^2 + 5 ever cross the x-axis? Explain your answer.\n2. Minimum $y=5$ — **never** crosses $x$-axis.\n3. Always above axis.\n4. No real roots."
     },
     "21": {
       "hint": "Check if $9=3^2$ for point $(3,9)$ on $y=x^2$.",
-      "help": "**Yes** — $(3,9)$ satisfies $y=x^2$.\n\nSubstitute coordinates.\n\nOn parabola."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Does y = x^2 go through the point (3, 9)?\n2. *Yes** — $(3,9)$ satisfies $y=x^2$.\n3. Substitute [coordinates](mtlearn:word/coordinates).\n4. On parabola."
     },
     "22": {
       "hint": "When $x=0$, $y=0^2+1$.",
-      "help": "$y=1$.\n\n$y$-intercept of shifted parabola.\n\nAnswer 1.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: When x = 0, what is y on y = x^2 + 1?\n2. $y$-intercept of shifted parabola.\n3. Answer 1.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "23": {
       "hint": "Quadratics curve — $y=x^2$ is not linear.",
-      "help": "Priya wrong — **parabola**, not straight line.\n\nPowers >1 curve.\n\nExplain U-shape."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Priya says the graph of y = x^2 is a straight line because the equation has an x in it. Explain why Priya i…\n2. Priya wrong — **parabola**, not straight line.\n3. Powers >1 curve.\n4. Explain U-shape."
     },
     "24": {
       "hint": "Minimum of $x^2+c$ with $c>0$ stays above $x$-axis?",
-      "help": "Minimum is $c>0$ — **never** crosses $x$-axis.\n\nAnswer: **never** (for positive $c$)."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Always, sometimes, or never? The graph of y = x^2 + c (where c is a positive number) crosses the x-axis.\n2. Minimum is $c>0$ — **never** crosses $x$-axis.\n3. Answer: **never** (for positive $c$)."
     },
     "25": {
       "hint": "Negative $x$ also squares to 4.",
-      "help": "**$(-2)^2=4$** too — solutions $x=2$ and $x=-2$.\n\nSam missed negative root.\n\nBoth values."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Sam says y = x^2 has only one point where y = 4, because 2^2 = 4. Explain why Sam is missing a solution, an…\n2. *$(-2)^2=4$** too — solutions $x=2$ and $x=-2$.\n3. Sam missed negative root.\n4. Both values."
     },
     "26": {
       "hint": "$y=x^2+3$ is same U shifted up 3 units.",
-      "help": "Identical shape, **3 units higher**.\n\nVertical translation.\n\nHigher parabola."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Two graphs, y = x^2 and y = x^2 + 3, have the same U-shape. Explain how the second graph's position compare…\n2. Identical shape, **3 units higher**.\n3. Vertical translation.\n4. Higher parabola."
     },
     "27": {
       "hint": "Turning point of $y=x^2-5$ at $x=0$.",
-      "help": "**True** — vertex **$(0,-5)$**.\n\nMinimum at $x=0$.\n\nTurning point $(0,-5)$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? The lowest point (turning point) of y = x^2 - 5 is at (0, -5).\n2. *True** — vertex **$(0,-5)$**.\n3. Minimum at $x=0$.\n4. Turning point $(0,-5)$."
     },
     "28": {
       "hint": "Turning point uses $x=0$ in $y=x^2$, not $x=1$.",
-      "help": "Correct vertex **$(0,0)$** for $y=x^2$.\n\nLeo evaluated at wrong $x$.\n\nMinimum at origin."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Leo says the graph of y = x^2 has a turning point at (0, 1) because he substituted x = 1. Explain Leo's mis…\n2. Correct vertex **$(0,0)$** for $y=x^2$.\n3. Leo evaluated at wrong $x$.\n4. Minimum at origin."
     },
     "29": {
       "hint": "$y=x^2$ touches axis once; $y=x^2-4$ cuts twice.",
-      "help": "$y=x^2$: one touch at 0. $y=x^2-4$: **two** crossings at ±2.\n\nShift down creates roots.\n\nCompare counts."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Compare the graphs of y = x^2 and y = x^2 - 4. How many times does each cross the x-axis, and why is there …\n2. $y=x^2$: one touch at 0. $y=x^2-4$: **two** crossings at ±2.\n3. Shift down creates roots.\n4. Compare counts."
     },
     "30": {
       "hint": "At $x=2$, compare $4$ and $-4$ for $x^2$ vs $-x^2$.",
-      "help": "$y=x^2$ gives 4; $y=-x^2$ gives **−4** — **inverted** U.\n\nMo wrong — reflection in $x$-axis.\n\nOpposite shape."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Mo says the graph of y = -x^2 would look exactly like y = x^2. Test both at x = 2 and explain whether Mo is…\n2. $y=x^2$ gives 4; $y=-x^2$ gives **−4** — **inverted** U.\n3. Mo wrong — reflection in $x$-axis.\n4. Opposite shape."
     },
     "31": {
       "hint": "Plug $x=3$ into $h=20-x^2$.",
-      "help": "$h=20-9=**11**$ metres.\n\nModel substitution.\n\nHeight 11 m.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A ball's height in metres after being thrown is modelled by h = 20 - x^2, where x is horizontal distance in…\n2. $h=20-9=**11**$ metres.\n3. Model substitution.\n4. Height 11 m.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "32": {
       "hint": "Solve $20-x^2=0$ for ground level.",
-      "help": "$x^2=20$, $x=\\sqrt{20}\\approx **4.5**$ m (1 d.p.).\n\nPositive distance.\n\nApprox 4.5 m."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Using the model h = 20 - x^2 from question 21, find the horizontal distance when the ball's height is 0 (hi…\n2. $x^2=20$, $x=\\sqrt{20}\\approx **4.5**$ m (1 d.p.).\n3. Positive distance.\n4. Approx 4.5 m."
     },
     "33": {
       "hint": "$P=2^2-6(2)$ with $x=2$.",
-      "help": "$P=4-12=**-8**$ thousand pounds (loss).\n\nSubstitute $x=2$.\n\nProfit −8 (loss)."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A company's profit in thousands of pounds is modelled by P = x^2 - 6x, where x is the number of products so…\n2. $P=4-12=**-8**$ thousand pounds (loss).\n3. Substitute $x=2$.\n4. Profit −8 (loss)."
     },
     "34": {
       "hint": "Factor or solve $x^2-6x=0$.",
-      "help": "$x(x-6)=0$ → $x=0$ or $x=6$.\n\nZero profit at those sales levels.\n\nTwo values."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Using the model from question 23, find the value(s) of x that make the profit zero.\n2. $x(x-6)=0$ → $x=0$ or $x=6$.\n3. Zero profit at those sales levels.\n4. Two values."
     },
     "35": {
       "hint": "$y=4-1^2$ at 1 second; negative $y$ means below water.",
-      "help": "At 1 s: $y=**3**$ m above. Negative $y$ = **below** water surface.\n\nInterpret sign in context.\n\nHeight 3 m."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A diver's height above the water is modelled by y = 4 - x^2, where x is time in seconds after leaving the b…\n2. At 1 s: $y=**3**$ m above. Negative $y$ = **below** water surface.\n3. Interpret sign in context.\n4. Height 3 m."
     },
     "36": {
       "hint": "Area $s^2$ curves upward for $s>0$; side length cannot be negative.",
-      "help": "Graph rises steeply — **parabola** for $s>0$.\n\nNegative $s$ not physical for side length.\n\nDescribe increasing curve."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A square garden bed has area A = s^2, where s is the side length in metres. Sketch (describe in words) how …\n2. Graph rises steeply — **parabola** for $s>0$.\n3. Negative $s$ not physical for side length.\n4. Describe increasing curve."
     },
     "37": {
       "hint": "Try $x=3$ in $y=x^2-6x+9$ — perfect square?",
-      "help": "$(x-3)^2$ → turning point **$(3,0)$**.\n\nCheck $y$ at $x=3$ is 0 minimum.\n\nVertex $(3,0)$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find the coordinates of the turning point of y = x^2 - 6x + 9 by first checking y at x = 3.\n2. $(x-3)^2$ → turning point **$(3,0)$**.\n3. Check $y$ at $x=3$ is 0 minimum.\n4. Vertex $(3,0)$."
     },
     "38": {
       "hint": "At $x=-1$, is $y=0$ for $x^2+2x+1$?",
-      "help": "$(-1)^2+2(-1)+1=0$ — **touches** axis once at $(-1,0)$.\n\nRepeated root.\n\nOne touch point."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Show that y = x^2 + 2x + 1 touches the x-axis at exactly one point by finding y at x = -1.\n2. $(-1)^2+2(-1)+1=0$ — **touches** axis once at $(-1,0)$.\n3. Repeated root.\n4. One touch point."
     },
     "39": {
       "hint": "Compare $2(9)=18$ vs $9$ at $x=3$.",
-      "help": "$2x^2$ gives **18**, $x^2$ gives **9** — twice as high; steeper growth.\n\nCoefficient 2 stretches vertically.\n\n18 vs 9."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Compare y = 2x^2 with y = x^2 at x = 3. Which graph is steeper (grows faster), and by how much at this point?\n2. $2x^2$ gives **18**, $x^2$ gives **9** — twice as high; steeper growth.\n3. Coefficient 2 stretches vertically.\n4. 18 vs 9."
     },
     "40": {
       "hint": "Roots ±4 mean $x^2=16$, so $k=16$.",
-      "help": "$x^2-k=0$ at ±4 → $k=**16**$.\n\nRoots symmetric.\n\n$k=16$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A quadratic graph y = x^2 - k crosses the x-axis at x = 4 and x = -4. Find the value of k.\n2. $x^2-k=0$ at ±4 → $k=**16**$.\n3. Roots symmetric.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "41": {
       "hint": "Plot a few matching positive and negative x-values, then join them with a smooth curve.",
-      "help": "For $y=x^2$, opposite inputs have the same output because $(-x)^2=x^2$. That makes the graph symmetric about the $y$-axis.\n\nIts smallest value occurs when $x=0$, so the turning point is at the origin and the arms rise on both sides.\n\nFor comparison, $y=x^2+3$ has the same U-shape but its turning point is three units higher."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Sketch y = x^2 showing the turning point at (0, 0).\n2. For $y=x^2$, opposite inputs have the same output because $(-x)^2=x^2$. That makes the graph symmetric about the $y$-axis.\n3. Its smallest value occurs when $x=0$, so the turning point is at the origin and the arms rise on both sides.\n4. For comparison, $y=x^2+3$ has the same U-shape but its turning point is three units higher."
     },
     "42": {
       "hint": "Compare the output of $y=x^2+2$ with $y=x^2$ for the same x-value.",
-      "help": "Adding a constant outside the square adds that amount to every y-coordinate, while every x-coordinate stays unchanged. The whole graph therefore moves vertically without changing shape.\n\nFor a different example, changing $y=x^2$ to $y=x^2-4$ moves every point four units down.\n\nUse the sign and size of the constant to state this question's vertical shift."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: The graph y = x^2 + 2 is the graph y = x^2 shifted how many units up?\n2. Adding a constant outside the square adds that amount to every y-[coordinate](mtlearn:word/coordinates), while every x-[coordinate](mtlearn:word/coordinates) stays unchanged. The whole graph therefore moves vertically without changing shape.\n3. For a different example, changing $y=x^2$ to $y=x^2-4$ moves every point four units down.\n4. Use the sign and size of the constant to state this question's vertical shift."
     },
     "43": {
       "hint": "Substitute the given x-coordinate into $y=x^2$, then multiply the number by itself.",
-      "help": "A coordinate lies on $y=x^2$ when its y-value equals the square of its x-value. Substitute the x-coordinate first, then square it.\n\nFor a different example, when $x=5$, $y=5^2=25$, so $(5,25)$ is on the curve.\n\nUse the same method for the x-value in this question."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2, find y when x = 3.\n2. A [coordinate](mtlearn:word/coordinates) lies on $y=x^2$ when its y-value equals the square of its x-value. Substitute the x-[coordinate](mtlearn:word/coordinates) first, then square it.\n3. For a different example, when $x=5$, $y=5^2=25$, so $(5,25)$ is on the curve.\n4. Use the same method for the x-value in this question."
     },
     "44": {
       "hint": "Use $y=x^2$: substitute the x-coordinate and square it to find the matching y-coordinate.",
-      "help": "The rule $y=x^2$ means the output is the input multiplied by itself. This is why positive and negative inputs of the same size produce equal y-values.\n\nFor a different example, $x=6$ gives $y=6\\times6=36$, so the corresponding point is $(6,36)$.\n\nNow apply that substitution process to the value given."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2, find y when x = 4.\n2. The rule $y=x^2$ means the output is the input multiplied by itself. This is why positive and negative inputs of the same size produce equal y-values.\n3. For a different example, $x=6$ gives $y=6\\times6=36$, so the corresponding point is $(6,36)$.\n4. Now apply that substitution process to the value given."
     },
-    "45": {"hint": "For $y = x^2$, find $y$ when $x = -3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = x^2$, find $y$ when $x = -3$...."},
-    "46": {"hint": "For $y = x^2 + 1$, find $y$ when $x = 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = x^2 + 1$, find $y$ when $x = 4$...."},
-    "47": {"hint": "For $y = x^2 - 5$, find $y$ when $x = 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = x^2 - 5$, find $y$ when $x = 2$...."},
-    "48": {"hint": "For $y = 2x^2$, find $y$ when $x = 3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = 2x^2$, find $y$ when $x = 3$...."},
-    "49": {"hint": "For $y = -x^2$, find $y$ when $x = 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = -x^2$, find $y$ when $x = 2$...."},
-    "50": {"hint": "Does $(2, 4)$ lie on $y = x^2$? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Does $(2, 4)$ lie on $y = x^2$? **Yes or no.**..."},
-    "51": {"hint": "Does $(-3, 9)$ lie on $y = x^2$? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Does $(-3, 9)$ lie on $y = x^2$? **Yes or no.**..."},
-    "52": {"hint": "Does $(1, 5)$ lie on $y = x^2 + 1$? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Does $(1, 5)$ lie on $y = x^2 + 1$? **Yes or no.**..."},
-    "53": {"hint": "State the coordinates of the turning point of $y = x^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: State the coordinates of the turning point of $y = x^2$...."},
-    "54": {"hint": "State the coordinates of the turning point of $y = x^2 + 6$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: State the coordinates of the turning point of $y = x^2 + 6$...."},
-    "55": {"hint": "State the coordinates of the turning point of $y = x^2 - 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: State the coordinates of the turning point of $y = x^2 - 4$...."},
-    "56": {"hint": "How many times does $y = x^2$ cross the $x$-axis?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: How many times does $y = x^2$ cross the $x$-axis?..."},
-    "57": {"hint": "How many times does $y = x^2 - 9$ cross the $x$-axis?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: How many times does $y = x^2 - 9$ cross the $x$-axis?..."},
-    "58": {"hint": "Write the $x$-values where $y = x^2 - 9$ crosses the $x$-axis.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write the $x$-values where $y = x^2 - 9$ crosses the $x$-axis...."},
-    "59": {"hint": "For $y = x^2 - 1$, find $y$ when $x = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = x^2 - 1$, find $y$ when $x = 0$...."},
-    "60": {"hint": "For $y = (x - 2)^2$, find $y$ when $x = 5$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = (x - 2)^2$, find $y$ when $x = 5$...."},
-    "61": {"hint": "Which has a higher turning point: $y = x^2 + 3$ or $y = x^2 - 1$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which has a higher turning point: $y = x^2 + 3$ or $y = x^2 - 1$?..."},
-    "62": {"hint": "Complete the table for $y = x^2$: $x = -2$, $y = $ ___", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Complete the table for $y = x^2$: $x = -2$, $y = $ ___..."},
-    "63": {"hint": "Complete the table for $y = x^2$: $x = 3$, $y = $ ___", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Complete the table for $y = x^2$: $x = 3$, $y = $ ___..."},
-    "64": {"hint": "Sketch in words: does $y = -x^2$ open upward or downward?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Sketch in words: does $y = -x^2$ open upward or downward?..."},
-    "65": {"hint": "For $y = x^2 + 2x + 1$, find $y$ when $x = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = x^2 + 2x + 1$, find $y$ when $x = 0$...."},
-    "66": {"hint": "Write the equation of a parabola with turning point $(0, 0)$ opening upward (simplest form).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write the equation of a parabola with turning point $(0, 0)$ opening u..."},
-    "67": {"hint": "Write the equation with turning point $(0, 5)$ opening upward.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write the equation with turning point $(0, 5)$ opening upward...."},
-    "68": {"hint": "For $y = x^2 - 16$, find the positive $x$-intercept.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = x^2 - 16$, find the positive $x$-intercept...."},
-    "69": {"hint": "For $y = x^2 + 4$, how many $x$-intercepts?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = x^2 + 4$, how many $x$-intercepts?..."},
-    "70": {"hint": "Which point is on $y = x^2 - 3$: $(2, 1)$ or $(2, 4)$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which point is on $y = x^2 - 3$: $(2, 1)$ or $(2, 4)$?..."},
-    "71": {"hint": "Find $y$ when $x = -4$ on $y = x^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find $y$ when $x = -4$ on $y = x^2$...."},
-    "72": {"hint": "Find $y$ when $x = 10$ on $y = x^2 + 7$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find $y$ when $x = 10$ on $y = x^2 + 7$...."},
-    "73": {"hint": "Compare $y = x^2$ and $y = x^2 + 100$ — same shape? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Compare $y = x^2$ and $y = x^2 + 100$ — same shape? **Yes or no.**..."},
-    "74": {"hint": "For $y = 3 - x^2$, state the turning point.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = 3 - x^2$, state the turning point...."},
-    "75": {"hint": "Does $y = x^2$ pass through $(-5, 25)$? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Does $y = x^2$ pass through $(-5, 25)$? **Yes or no.**..."},
-    "76": {"hint": "Write the $y$-value at the turning point of $y = x^2 - 12$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write the $y$-value at the turning point of $y = x^2 - 12$...."},
-    "77": {"hint": "For $y = x^2$, is the graph symmetric about the $y$-axis? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = x^2$, is the graph symmetric about the $y$-axis? **Yes or no...."},
-    "78": {"hint": "Find $x$ when $y = 36$ on $y = x^2$ (positive value).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find $x$ when $y = 36$ on $y = x^2$ (positive value)...."},
-    "79": {"hint": "Find $x$ when $y = 0$ on $y = x^2 - 25$ (positive value).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find $x$ when $y = 0$ on $y = x^2 - 25$ (positive value)...."},
-    "80": {"hint": "For $y = -2x^2$, find $y$ when $x = -1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = -2x^2$, find $y$ when $x = -1$...."},
-    "81": {"hint": "**True or false?** Every quadratic $y = x^2 + c$ has turning point $(0, c)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Every quadratic $y = x^2 + c$ has turning point $(0..."},
-    "82": {"hint": "**True or false?** $y = -x^2$ has a maximum turning point.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = -x^2$ has a maximum turning point...."},
-    "83": {"hint": "**Always, sometimes, or never?** $y = x^2$ crosses the $x$-axis twice.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** $y = x^2$ crosses the $x$-axis twice...."},
-    "84": {"hint": "**True or false?** $(3, 9)$ and $(-3, 9)$ always lie on $y = x^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $(3, 9)$ and $(-3, 9)$ always lie on $y = x^2$...."},
-    "85": {"hint": "Priya says $y = x^2 + 1$ and $y = x^2 - 1$ have the same turning point. Correct her.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Priya says $y = x^2 + 1$ and $y = x^2 - 1$ have the same turning point..."},
-    "86": {"hint": "**True or false?** $y = x^2 - 4$ crosses the $x$-axis at $x = 2$ and $x = -2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = x^2 - 4$ crosses the $x$-axis at $x = 2$ and $..."},
-    "87": {"hint": "**Always, sometimes, or never?** A quadratic has exactly one turning point.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** A quadratic has exactly one turning p..."},
-    "88": {"hint": "**True or false?** $y = 2x^2$ is wider than $y = x^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = 2x^2$ is wider than $y = x^2$...."},
-    "89": {"hint": "Leo says $y = x^2 + 9$ touches the $x$-axis. Is he correct?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Leo says $y = x^2 + 9$ touches the $x$-axis. Is he correct?..."},
-    "90": {"hint": "**True or false?** If $c > 0$, then $y = x^2 + c$ never crosses the $x$-axis.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** If $c > 0$, then $y = x^2 + c$ never crosses the $x..."},
-    "91": {"hint": "**Always, sometimes, or never?** $y = -x^2 + 1$ opens downward.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** $y = -x^2 + 1$ opens downward...."},
-    "92": {"hint": "**True or false?** Substituting $x = 0$ always gives the turning point value for $y = x^2 + c$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Substituting $x = 0$ always gives the turning point..."},
-    "93": {"hint": "**True or false?** $y = (x - 3)^2$ has turning point $(3, 0)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = (x - 3)^2$ has turning point $(3, 0)$...."},
-    "94": {"hint": "**Always, sometimes, or never?** $y = x^2$ and $y = x^2 + k$ intersect.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** $y = x^2$ and $y = x^2 + k$ intersect..."},
-    "95": {"hint": "**True or false?** For $y = ax^2$ with $a > 0$, the graph is U-shaped.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** For $y = ax^2$ with $a > 0$, the graph is U-shaped...."},
-    "96": {"hint": "Nina claims $y = x^2 - 1$ and $y = 1 - x^2$ are the same graph. Is she correct?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Nina claims $y = x^2 - 1$ and $y = 1 - x^2$ are the same graph. Is she..."},
-    "97": {"hint": "**True or false?** $y = x^2 + 2x + 1$ equals $(x + 1)^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = x^2 + 2x + 1$ equals $(x + 1)^2$...."},
-    "98": {"hint": "**Always, sometimes, or never?** $y = x^2 + c$ is symmetric about the $y$-axis.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** $y = x^2 + c$ is symmetric about the ..."},
-    "99": {"hint": "**True or false?** If $y = 0$ has no solutions for $y = x^2 + c$, then $c > 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** If $y = 0$ has no solutions for $y = x^2 + c$, then..."},
-    "100": {"hint": "**Always, sometimes, or never?** $y = -x^2$ crosses the $x$-axis twice.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** $y = -x^2$ crosses the $x$-axis twice..."},
-    "101": {"hint": "A ball height is $h = 20t - 5t^2$ (metres, seconds). Find $h$ when $t = 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A ball height is $h = 20t - 5t^2$ (metres, seconds). Find $h$ when $t ..."},
-    "102": {"hint": "Using Q101, find $h$ when $t = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Using Q101, find $h$ when $t = 0$...."},
-    "103": {"hint": "A parabolic arch is modelled by $y = 9 - x^2$ (metres). Find height at $x = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A parabolic arch is modelled by $y = 9 - x^2$ (metres). Find height at..."},
-    "104": {"hint": "Using Q103, find $x$ when height is 0 (positive $x$).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Using Q103, find $x$ when height is 0 (positive $x$)...."},
-    "105": {"hint": "Profit $P = -2x^2 + 80x$ (hundreds £, thousands items). Find $P$ when $x = 10$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Profit $P = -2x^2 + 80x$ (hundreds £, thousands items). Find $P$ when ..."},
-    "106": {"hint": "A garden bed follows $y = x^2$ for design points. Find width from $x = -3$ to $x = 3$ at ground level $y = 9$ — state $y$ at $x = 3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A garden bed follows $y = x^2$ for design points. Find width from $x =..."},
-    "107": {"hint": "Compare turning points of $y = x^2 + 4$ and $y = x^2 - 4$ — which is higher?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Compare turning points of $y = x^2 + 4$ and $y = x^2 - 4$ — which is h..."},
-    "108": {"hint": "A quadratic graph passes through $(0, 1)$, $(1, 2)$, $(2, 5)$. Is it consistent with $y = x^2 + 1$? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A quadratic graph passes through $(0, 1)$, $(1, 2)$, $(2, 5)$. Is it c..."},
-    "109": {"hint": "Find $c$ if $y = x^2 + c$ passes through $(2, 11)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find $c$ if $y = x^2 + c$ passes through $(2, 11)$...."},
-    "110": {"hint": "Find $c$ if $y = x^2 + c$ has $x$-intercepts at $\\pm 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find $c$ if $y = x^2 + c$ has $x$-intercepts at $\\pm 4$...."},
-    "111": {"hint": "A rocket height $y = -x^2 + 8x$ (m, m). Find height at $x = 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A rocket height $y = -x^2 + 8x$ (m, m). Find height at $x = 4$...."},
-    "112": {"hint": "Using Q111, find $x$ when $y = 0$ (other than 0).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Using Q111, find $x$ when $y = 0$ (other than 0)...."},
-    "113": {"hint": "Sketch description: how does $y = x^2 - 9$ move compared with $y = x^2$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Sketch description: how does $y = x^2 - 9$ move compared with $y = x^2..."},
-    "114": {"hint": "For $y = (x + 2)^2 - 1$, find the turning point.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = (x + 2)^2 - 1$, find the turning point...."},
-    "115": {"hint": "Water jet $y = -0.5x^2 + 4x$. Find $y$ at $x = 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Water jet $y = -0.5x^2 + 4x$. Find $y$ at $x = 4$...."},
-    "116": {"hint": "**Stretch:** Solve $x^2 = 49$ for positive $x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Solve $x^2 = 49$ for positive $x$...."},
-    "117": {"hint": "**Stretch:** Find minimum value of $y = x^2 - 6x + 10$ by completing the square $(x - 3)^2 + 1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find minimum value of $y = x^2 - 6x + 10$ by completing t..."},
-    "118": {"hint": "**Stretch:** For $y = x^2 - 4x + 3$, find $x$-intercepts.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** For $y = x^2 - 4x + 3$, find $x$-intercepts...."},
-    "119": {"hint": "**Stretch:** Write the equation with turning point $(2, -1)$ opening upward.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write the equation with turning point $(2, -1)$ opening u..."},
-    "120": {"hint": "**Stretch:** Compare $y = 3x^2$ and $y = x^2$ — which is narrower?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare $y = 3x^2$ and $y = x^2$ — which is narrower?..."},
-    "121": {"hint": "**Stretch:** Find $y$ when $x = -6$ on $y = x^2 + 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $y$ when $x = -6$ on $y = x^2 + 2$...."},
-    "122": {"hint": "**Stretch:** Does $y = -x^2 + 4$ have a maximum or minimum?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Does $y = -x^2 + 4$ have a maximum or minimum?..."},
-    "123": {"hint": "**Stretch:** Find coordinates where $y = x^2 - 5x + 6$ equals 0.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find coordinates where $y = x^2 - 5x + 6$ equals 0...."},
-    "124": {"hint": "**Stretch:** A parabola $y = x^2 + bx + 9$ touches the $x$-axis once. What is $b$ if vertex on axis?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A parabola $y = x^2 + bx + 9$ touches the $x$-axis once. ..."},
-    "125": {"hint": "**Stretch:** For $y = 2x^2 - 8$, find $x$ when $y = 0$ (positive).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** For $y = 2x^2 - 8$, find $x$ when $y = 0$ (positive)...."},
-    "126": {"hint": "**Stretch:** **True or false?** $y = x^2 + 1$ and $y = x^2 - 1$ never meet.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = x^2 + 1$ and $y = x^2 - 1$ never ..."},
-    "127": {"hint": "**Stretch:** Find the range value at turning point of $y = -x^2 + 9$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the range value at turning point of $y = -x^2 + 9$...."},
-    "128": {"hint": "**Stretch:** Archer throws a ball modelled by $y = -x^2 + 6x$. Find maximum height at turning point $x = 3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer throws a ball modelled by $y = -x^2 + 6x$. Find ma..."},
-    "129": {"hint": "**Stretch:** Write three points on $y = x^2 + 3$ with $x = -1, 0, 1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write three points on $y = x^2 + 3$ with $x = -1, 0, 1$...."},
-    "130": {"hint": "**Stretch:** Find $k$ if $(3, k)$ lies on $y = x^2 - 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $k$ if $(3, k)$ lies on $y = x^2 - 2$...."},
-    "131": {"hint": "**Stretch:** For $y = x^2 - 10x + 21$, factorise and give roots.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** For $y = x^2 - 10x + 21$, factorise and give roots...."},
-    "132": {"hint": "**Stretch:** **Always, sometimes, or never?** $y = ax^2 + c$ crosses the $x$-axis when $c < 0$ and $a > 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** $y = ax^2 + c$ crosses t..."},
-    "133": {"hint": "**Stretch:** Compare graphs $y = x^2$ and $y = -x^2 + 2$ — how many intersections?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare graphs $y = x^2$ and $y = -x^2 + 2$ — how many in..."},
-    "134": {"hint": "**Stretch:** Find $y$ at $x = 1$ on $y = 4x^2 - 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $y$ at $x = 1$ on $y = 4x^2 - 4$...."},
-    "135": {"hint": "**Stretch:** A bridge cable $y = 0.2x^2$. Find $y$ at $x = 5$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A bridge cable $y = 0.2x^2$. Find $y$ at $x = 5$...."},
-    "136": {"hint": "**Stretch:** Find turning point of $y = x^2 + 4x + 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find turning point of $y = x^2 + 4x + 4$...."},
-    "137": {"hint": "**Stretch:** For $y = -3x^2 + 12$, find maximum $y$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** For $y = -3x^2 + 12$, find maximum $y$...."},
-    "138": {"hint": "**Stretch:** Write equation of parabola through $(0, 0)$, $(2, 4)$, $(-2, 4)$ simplest form.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write equation of parabola through $(0, 0)$, $(2, 4)$, $(..."},
-    "139": {"hint": "**Stretch:** Find $x$ when $y = 5$ on $y = x^2 + 1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $x$ when $y = 5$ on $y = x^2 + 1$...."},
-    "140": {"hint": "**Stretch:** **True or false?** $y = (x - 1)^2 + 2$ has turning point $(1, 2)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = (x - 1)^2 + 2$ has turning point ..."},
-    "141": {"hint": "**Stretch:** Find difference in $y$ from $x = 0$ to $x = 4$ on $y = x^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find difference in $y$ from $x = 0$ to $x = 4$ on $y = x^..."},
-    "142": {"hint": "**Stretch:** A farmer's fence forms $y = 20 - x^2$. Find $x$ when $y = 11$ (positive).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A farmer's fence forms $y = 20 - x^2$. Find $x$ when $y =..."},
-    "143": {"hint": "**Stretch:** For $y = x^2 - 2x - 3$, find $y$ when $x = -1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** For $y = x^2 - 2x - 3$, find $y$ when $x = -1$...."},
-    "144": {"hint": "**Stretch:** **Always, sometimes, or never?** $y = x^2 + c$ has two $x$-intercepts when $c = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** $y = x^2 + c$ has two $x..."},
-    "145": {"hint": "**Stretch:** Find the axis of symmetry of $y = x^2 - 8x + 7$ (line $x = 4$).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the axis of symmetry of $y = x^2 - 8x + 7$ (line $x ..."},
-    "146": {"hint": "**Stretch:** Compare $y = x^2 + 1$ and $y = 2x + 1$ — how many intersections?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare $y = x^2 + 1$ and $y = 2x + 1$ — how many interse..."},
-    "147": {"hint": "**Stretch:** Find minimum of $y = x^2 - 4x + 7$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find minimum of $y = x^2 - 4x + 7$...."},
-    "148": {"hint": "**Stretch:** Write $y = x^2 + 6x + 5$ in completed square form $(x + 3)^2 - 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write $y = x^2 + 6x + 5$ in completed square form $(x + 3..."},
-    "149": {"hint": "**Stretch:** A ball at $(t, h)$ follows $h = -5t^2 + 20t$. Find $h$ at $t = 1$ and $t = 3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A ball at $(t, h)$ follows $h = -5t^2 + 20t$. Find $h$ at..."},
-    "150": {"hint": "**Stretch:** Find roots of $x^2 - 5x = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find roots of $x^2 - 5x = 0$...."},
-    "151": {"hint": "**Stretch:** **True or false?** $y = -2x^2$ opens downward.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = -2x^2$ opens downward...."},
-    "152": {"hint": "**Stretch:** Find $c$ so $y = x^2 + c$ passes through $(0, -3)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $c$ so $y = x^2 + c$ passes through $(0, -3)$...."},
-    "153": {"hint": "**Stretch:** For $y = x^2 - 1$, state coordinates of $x$-intercepts.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** For $y = x^2 - 1$, state coordinates of $x$-intercepts...."},
-    "154": {"hint": "**Stretch:** A graph $y = x^2 + k$ sits entirely above the $x$-axis. What can you say about $k$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A graph $y = x^2 + k$ sits entirely above the $x$-axis. W..."},
-    "155": {"hint": "**Stretch:** Find $y$ when $x = 5$ on $y = -x^2 + 25$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $y$ when $x = 5$ on $y = -x^2 + 25$...."},
-    "156": {"hint": "**Stretch:** **Always, sometimes, or never?** Turning point of $y = x^2 + bx$ is at $x = 0$ only when $b = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Turning point of $y = x^..."},
-    "157": {"hint": "**Stretch:** Solve $x^2 = 64$ for negative $x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Solve $x^2 = 64$ for negative $x$...."},
-    "158": {"hint": "**Stretch:** Find $y$ at turning point of $y = (x - 5)^2 + 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $y$ at turning point of $y = (x - 5)^2 + 2$...."},
-    "159": {"hint": "**Stretch:** Compare $y = x^2$ and $y = x^2 + x$ — same turning point? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare $y = x^2$ and $y = x^2 + x$ — same turning point?..."},
-    "160": {"hint": "**Stretch:** A parabola crosses $x$-axis at $-1$ and $3$. Write a possible equation in factored form $(x + 1)(x - 3)$ scaled.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A parabola crosses $x$-axis at $-1$ and $3$. Write a poss..."},
-    "161": {"hint": "**Stretch:** Find $y$ when $x = -2$ on $y = 3x^2 + 1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $y$ when $x = -2$ on $y = 3x^2 + 1$...."},
-    "162": {"hint": "**Stretch:** **True or false?** $y = x^2 + 4$ is always at least 4.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = x^2 + 4$ is always at least 4...."},
-    "163": {"hint": "**Stretch:** Find $x$ when $y = 0$ on $y = x^2 - 7x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $x$ when $y = 0$ on $y = x^2 - 7x$...."},
-    "164": {"hint": "**Stretch:** Write the turning point of $y = -x^2 - 6$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write the turning point of $y = -x^2 - 6$...."},
-    "165": {"hint": "**Stretch:** For $y = 2x^2 - 18$, find $x$-intercepts.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** For $y = 2x^2 - 18$, find $x$-intercepts...."},
-    "166": {"hint": "**Stretch:** A profit model $P = -(x - 6)^2 + 10$. State maximum profit.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A profit model $P = -(x - 6)^2 + 10$. State maximum profi..."},
-    "167": {"hint": "**Stretch:** Find $k$ if $y = x^2 + k$ has exactly one $x$-intercept.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $k$ if $y = x^2 + k$ has exactly one $x$-intercept...."},
-    "168": {"hint": "**Stretch:** **True or false?** $y = x^2$ and $y = x^2 - 9$ are translations of each other.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = x^2$ and $y = x^2 - 9$ are transl..."},
-    "169": {"hint": "**Stretch:** Find $y$ when $x = 4$ on $y = x^2 - 3x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $y$ when $x = 4$ on $y = x^2 - 3x$...."},
-    "170": {"hint": "**Stretch:** Solve $(x - 2)^2 = 9$ for $x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Solve $(x - 2)^2 = 9$ for $x$...."},
-    "171": {"hint": "**Stretch:** **Always, sometimes, or never?** $y = ax^2$ passes through origin.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** $y = ax^2$ passes throug..."},
-    "172": {"hint": "**Stretch:** Find minimum value of $y = x^2 + 2x + 5$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find minimum value of $y = x^2 + 2x + 5$...."},
-    "173": {"hint": "**Stretch:** A fountain $y = -0.25x^2 + 4$. Find $y$ at $x = 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A fountain $y = -0.25x^2 + 4$. Find $y$ at $x = 2$...."},
-    "174": {"hint": "**Stretch:** Write coordinates of lowest point on $y = x^2 - 4x + 9$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write coordinates of lowest point on $y = x^2 - 4x + 9$...."},
-    "175": {"hint": "**Stretch:** **True or false?** If $a < 0$, then $y = ax^2 + 1$ has a maximum.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** If $a < 0$, then $y = ax^2 + 1$ has a ..."},
-    "176": {"hint": "**Stretch:** Find $x$ when $y = 21$ on $y = x^2 + 5$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $x$ when $y = 21$ on $y = x^2 + 5$...."},
-    "177": {"hint": "**Stretch:** Compare widths of $y = 4x^2$ and $y = x^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare widths of $y = 4x^2$ and $y = x^2$...."},
-    "178": {"hint": "**Stretch:** Find roots of $x^2 + x - 6 = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find roots of $x^2 + x - 6 = 0$...."},
-    "179": {"hint": "**Stretch:** A quadratic has vertex $(1, -4)$ opening up. Write equation $(x - 1)^2 - 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A quadratic has vertex $(1, -4)$ opening up. Write equati..."},
-    "180": {"hint": "**Stretch:** Find $y$ when $x = 0$ on $y = -3x^2 + 12$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $y$ when $x = 0$ on $y = -3x^2 + 12$...."},
-    "181": {"hint": "**Stretch:** **True or false?** $y = x^2 + b$ always has $y$-intercept $b$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = x^2 + b$ always has $y$-intercept..."},
-    "182": {"hint": "**Stretch:** Find $x$ when $y = 16$ on $y = 2x^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $x$ when $y = 16$ on $y = 2x^2$...."},
-    "183": {"hint": "**Stretch:** Archer models a slide $y = x^2$ for $-2 \\le x \\le 2$. Find difference in height from start to $x = 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer models a slide $y = x^2$ for $-2 \\le x \\le 2$. Fin..."},
-    "184": {"hint": "**Stretch:** Find $c$ if minimum of $y = x^2 - 4x + c$ is 0.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $c$ if minimum of $y = x^2 - 4x + c$ is 0...."},
-    "185": {"hint": "**Stretch:** **Always, sometimes, or never?** $y = x^2 + c$ meets $y = 0$ when $c = -1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** $y = x^2 + c$ meets $y =..."},
-    "186": {"hint": "**Stretch:** Find turning point of $y = -2x^2 + 8x - 5$ (complete square).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find turning point of $y = -2x^2 + 8x - 5$ (complete squa..."},
-    "187": {"hint": "**Stretch:** For $y = x^2 - 6x + 8$, find $y$ at $x = 3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** For $y = x^2 - 6x + 8$, find $y$ at $x = 3$...."},
-    "188": {"hint": "**Stretch:** **True or false?** $(0, c)$ is on $y = x^2 + c$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $(0, c)$ is on $y = x^2 + c$...."},
-    "189": {"hint": "**Stretch:** Find positive $x$ if $y = 7$ on $y = x^2 - 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find positive $x$ if $y = 7$ on $y = x^2 - 2$...."},
-    "190": {"hint": "**Stretch:** A ball height $h = 15 + 8t - t^2$. Find $h$ when $t = 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A ball height $h = 15 + 8t - t^2$. Find $h$ when $t = 4$...."},
-    "191": {"hint": "**Stretch:** Write the equation with roots $0$ and $6$ opening upward through origin and $(6,0)$: $y = x(x - 6)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write the equation with roots $0$ and $6$ opening upward ..."},
-    "192": {"hint": "**Stretch:** Find $y$ when $x = -5$ on $y = x^2 + x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $y$ when $x = -5$ on $y = x^2 + x$...."},
-    "193": {"hint": "**Stretch:** **Always, sometimes, or never?** $y = -x^2 + c$ has a maximum turning point.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** $y = -x^2 + c$ has a max..."},
-    "194": {"hint": "**Stretch:** Find $x$ when $y = -9$ on $y = -x^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $x$ when $y = -9$ on $y = -x^2$...."},
-    "195": {"hint": "**Stretch:** Compare turning points of $y = x^2 + 2$ and $y = -x^2 + 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare turning points of $y = x^2 + 2$ and $y = -x^2 + 2..."},
-    "196": {"hint": "**Stretch:** Find minimum of $y = 2x^2 - 12x + 20$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find minimum of $y = 2x^2 - 12x + 20$...."},
-    "197": {"hint": "**Stretch:** **True or false?** $y = (x + 4)^2$ crosses the $x$-axis at $(-4, 0)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = (x + 4)^2$ crosses the $x$-axis a..."},
-    "198": {"hint": "**Stretch:** Find $k$ if $(-2, k)$ lies on $y = x^2 + 3x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $k$ if $(-2, k)$ lies on $y = x^2 + 3x$...."},
-    "199": {"hint": "**Stretch:** A parabolic path $y = 36 - x^2$. Find $x$ when $y = 27$ (positive).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A parabolic path $y = 36 - x^2$. Find $x$ when $y = 27$ (..."},
-    "200": {"hint": "**Stretch:** Archer says every quadratic looks like $y = x^2$. Give a counterexample equation and describe its shape in one phrase.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer says every quadratic looks like $y = x^2$. Give a ..."}
+    "45": {
+      "hint": "For $y = x^2$, find $y$ when $x = -3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2, find y when x = -3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = x^2$, find $y$ when $x = -3$...."
+    },
+    "46": {
+      "hint": "For $y = x^2 + 1$, find $y$ when $x = 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2 + 1, find y when x = 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = x^2 + 1$, find $y$ when $x = 4$...."
+    },
+    "47": {
+      "hint": "For $y = x^2 - 5$, find $y$ when $x = 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2 - 5, find y when x = 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = x^2 - 5$, find $y$ when $x = 2$...."
+    },
+    "48": {
+      "hint": "For $y = 2x^2$, find $y$ when $x = 3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = 2x^2, find y when x = 3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = 2x^2$, find $y$ when $x = 3$...."
+    },
+    "49": {
+      "hint": "For $y = -x^2$, find $y$ when $x = 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = -x^2, find y when x = 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = -x^2$, find $y$ when $x = 2$...."
+    },
+    "50": {
+      "hint": "Does $(2, 4)$ lie on $y = x^2$? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Does (2, 4) lie on y = x^2? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Does $(2, 4)$ lie on $y = x^2$? **Yes or no.**..."
+    },
+    "51": {
+      "hint": "Does $(-3, 9)$ lie on $y = x^2$? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Does (-3, 9) lie on y = x^2? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Does $(-3, 9)$ lie on $y = x^2$? **Yes or no.**..."
+    },
+    "52": {
+      "hint": "Does $(1, 5)$ lie on $y = x^2 + 1$? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Does (1, 5) lie on y = x^2 + 1? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Does $(1, 5)$ lie on $y = x^2 + 1$? **Yes or no.**..."
+    },
+    "53": {
+      "hint": "State the coordinates of the turning point of $y = x^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: State the coordinates of the turning point of y = x^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: State the [coordinates](mtlearn:word/coordinates) of the turning point of $y = x^2$...."
+    },
+    "54": {
+      "hint": "State the coordinates of the turning point of $y = x^2 + 6$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: State the coordinates of the turning point of y = x^2 + 6.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: State the [coordinates](mtlearn:word/coordinates) of the turning point of $y = x^2 + 6$...."
+    },
+    "55": {
+      "hint": "State the coordinates of the turning point of $y = x^2 - 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: State the coordinates of the turning point of y = x^2 - 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: State the [coordinates](mtlearn:word/coordinates) of the turning point of $y = x^2 - 4$...."
+    },
+    "56": {
+      "hint": "How many times does $y = x^2$ cross the $x$-axis?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: How many times does y = x^2 cross the x-axis?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: How many times does $y = x^2$ cross the $x$-axis?..."
+    },
+    "57": {
+      "hint": "How many times does $y = x^2 - 9$ cross the $x$-axis?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: How many times does y = x^2 - 9 cross the x-axis?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: How many times does $y = x^2 - 9$ cross the $x$-axis?..."
+    },
+    "58": {
+      "hint": "Write the $x$-values where $y = x^2 - 9$ crosses the $x$-axis.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Write the x-values where y = x^2 - 9 crosses the x-axis.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write the $x$-values where $y = x^2 - 9$ crosses the $x$-axis...."
+    },
+    "59": {
+      "hint": "For $y = x^2 - 1$, find $y$ when $x = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2 - 1, find y when x = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = x^2 - 1$, find $y$ when $x = 0$...."
+    },
+    "60": {
+      "hint": "For $y = (x - 2)^2$, find $y$ when $x = 5$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = (x - 2)^2, find y when x = 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = (x - 2)^2$, find $y$ when $x = 5$...."
+    },
+    "61": {
+      "hint": "Which has a higher turning point: $y = x^2 + 3$ or $y = x^2 - 1$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Which has a higher turning point: y = x^2 + 3 or y = x^2 - 1?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which has a higher turning point: $y = x^2 + 3$ or $y = x^2 - 1$?..."
+    },
+    "62": {
+      "hint": "Complete the table for $y = x^2$: $x = -2$, $y = $ ___",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Complete the table for y = x^2: x = -2, y = ___\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Complete the table for $y = x^2$: $x = -2$, $y = $ ___..."
+    },
+    "63": {
+      "hint": "Complete the table for $y = x^2$: $x = 3$, $y = $ ___",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Complete the table for y = x^2: x = 3, y = ___\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Complete the table for $y = x^2$: $x = 3$, $y = $ ___..."
+    },
+    "64": {
+      "hint": "Sketch in words: does $y = -x^2$ open upward or downward?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Sketch in words: does y = -x^2 open upward or downward?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Sketch in words: does $y = -x^2$ open upward or downward?..."
+    },
+    "65": {
+      "hint": "For $y = x^2 + 2x + 1$, find $y$ when $x = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2 + 2x + 1, find y when x = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = x^2 + 2x + 1$, find $y$ when $x = 0$...."
+    },
+    "66": {
+      "hint": "Write the equation of a parabola with turning point $(0, 0)$ opening upward (simplest form).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Write the equation of a parabola with turning point (0, 0) opening upward (simplest form).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write the [equation](mtlearn:word/equation) of a parabola with turning point $(0, 0)$ opening u..."
+    },
+    "67": {
+      "hint": "Write the equation with turning point $(0, 5)$ opening upward.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Write the equation with turning point (0, 5) opening upward.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write the [equation](mtlearn:word/equation) with turning point $(0, 5)$ opening upward...."
+    },
+    "68": {
+      "hint": "For $y = x^2 - 16$, find the positive $x$-intercept.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2 - 16, find the positive x-intercept.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = x^2 - 16$, find the positive $x$-intercept...."
+    },
+    "69": {
+      "hint": "For $y = x^2 + 4$, how many $x$-intercepts?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2 + 4, how many x-intercepts?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = x^2 + 4$, how many $x$-intercepts?..."
+    },
+    "70": {
+      "hint": "Which point is on $y = x^2 - 3$: $(2, 1)$ or $(2, 4)$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Which point is on y = x^2 - 3: (2, 1) or (2, 4)?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which point is on $y = x^2 - 3$: $(2, 1)$ or $(2, 4)$?..."
+    },
+    "71": {
+      "hint": "Find $y$ when $x = -4$ on $y = x^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find y when x = -4 on y = x^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find $y$ when $x = -4$ on $y = x^2$...."
+    },
+    "72": {
+      "hint": "Find $y$ when $x = 10$ on $y = x^2 + 7$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find y when x = 10 on y = x^2 + 7.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find $y$ when $x = 10$ on $y = x^2 + 7$...."
+    },
+    "73": {
+      "hint": "Compare $y = x^2$ and $y = x^2 + 100$ — same shape? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Compare y = x^2 and y = x^2 + 100 — same shape? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Compare $y = x^2$ and $y = x^2 + 100$ — same shape? **Yes or no.**..."
+    },
+    "74": {
+      "hint": "For $y = 3 - x^2$, state the turning point.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = 3 - x^2, state the turning point.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = 3 - x^2$, state the turning point...."
+    },
+    "75": {
+      "hint": "Does $y = x^2$ pass through $(-5, 25)$? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Does y = x^2 pass through (-5, 25)? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Does $y = x^2$ pass through $(-5, 25)$? **Yes or no.**..."
+    },
+    "76": {
+      "hint": "Write the $y$-value at the turning point of $y = x^2 - 12$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Write the y-value at the turning point of y = x^2 - 12.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write the $y$-value at the turning point of $y = x^2 - 12$...."
+    },
+    "77": {
+      "hint": "For $y = x^2$, is the graph symmetric about the $y$-axis? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = x^2, is the graph symmetric about the y-axis? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = x^2$, is the graph symmetric about the $y$-axis? **Yes or no...."
+    },
+    "78": {
+      "hint": "Find $x$ when $y = 36$ on $y = x^2$ (positive value).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find x when y = 36 on y = x^2 (positive value).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find $x$ when $y = 36$ on $y = x^2$ (positive value)...."
+    },
+    "79": {
+      "hint": "Find $x$ when $y = 0$ on $y = x^2 - 25$ (positive value).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find x when y = 0 on y = x^2 - 25 (positive value).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find $x$ when $y = 0$ on $y = x^2 - 25$ (positive value)...."
+    },
+    "80": {
+      "hint": "For $y = -2x^2$, find $y$ when $x = -1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = -2x^2, find y when x = -1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = -2x^2$, find $y$ when $x = -1$...."
+    },
+    "81": {
+      "hint": "**True or false?** Every quadratic $y = x^2 + c$ has turning point $(0, c)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? Every quadratic y = x^2 + c has turning point (0, c).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** Every quadratic $y = x^2 + c$ has turning point $(0..."
+    },
+    "82": {
+      "hint": "**True or false?** $y = -x^2$ has a maximum turning point.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? y = -x^2 has a maximum turning point.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = -x^2$ has a maximum turning point...."
+    },
+    "83": {
+      "hint": "**Always, sometimes, or never?** $y = x^2$ crosses the $x$-axis twice.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Always, sometimes, or never? y = x^2 crosses the x-axis twice.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** $y = x^2$ crosses the $x$-axis twice...."
+    },
+    "84": {
+      "hint": "**True or false?** $(3, 9)$ and $(-3, 9)$ always lie on $y = x^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? (3, 9) and (-3, 9) always lie on y = x^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $(3, 9)$ and $(-3, 9)$ always lie on $y = x^2$...."
+    },
+    "85": {
+      "hint": "Priya says $y = x^2 + 1$ and $y = x^2 - 1$ have the same turning point. Correct her.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Priya says y = x^2 + 1 and y = x^2 - 1 have the same turning point. Correct her.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Priya says $y = x^2 + 1$ and $y = x^2 - 1$ have the same turning point..."
+    },
+    "86": {
+      "hint": "**True or false?** $y = x^2 - 4$ crosses the $x$-axis at $x = 2$ and $x = -2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? y = x^2 - 4 crosses the x-axis at x = 2 and x = -2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = x^2 - 4$ crosses the $x$-axis at $x = 2$ and $..."
+    },
+    "87": {
+      "hint": "**Always, sometimes, or never?** A quadratic has exactly one turning point.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Always, sometimes, or never? A quadratic has exactly one turning point.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** A quadratic has exactly one turning p..."
+    },
+    "88": {
+      "hint": "**True or false?** $y = 2x^2$ is wider than $y = x^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? y = 2x^2 is wider than y = x^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = 2x^2$ is wider than $y = x^2$...."
+    },
+    "89": {
+      "hint": "Leo says $y = x^2 + 9$ touches the $x$-axis. Is he correct?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Leo says y = x^2 + 9 touches the x-axis. Is he correct?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Leo says $y = x^2 + 9$ touches the $x$-axis. Is he correct?..."
+    },
+    "90": {
+      "hint": "**True or false?** If $c > 0$, then $y = x^2 + c$ never crosses the $x$-axis.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? If c > 0, then y = x^2 + c never crosses the x-axis.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** If $c > 0$, then $y = x^2 + c$ never crosses the $x..."
+    },
+    "91": {
+      "hint": "**Always, sometimes, or never?** $y = -x^2 + 1$ opens downward.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Always, sometimes, or never? y = -x^2 + 1 opens downward.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** $y = -x^2 + 1$ opens downward...."
+    },
+    "92": {
+      "hint": "**True or false?** Substituting $x = 0$ always gives the turning point value for $y = x^2 + c$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? Substituting x = 0 always gives the turning point value for y = x^2 + c.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** Substituting $x = 0$ always gives the turning point..."
+    },
+    "93": {
+      "hint": "**True or false?** $y = (x - 3)^2$ has turning point $(3, 0)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? y = (x - 3)^2 has turning point (3, 0).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = (x - 3)^2$ has turning point $(3, 0)$...."
+    },
+    "94": {
+      "hint": "**Always, sometimes, or never?** $y = x^2$ and $y = x^2 + k$ intersect.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Always, sometimes, or never? y = x^2 and y = x^2 + k intersect.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** $y = x^2$ and $y = x^2 + k$ intersect..."
+    },
+    "95": {
+      "hint": "**True or false?** For $y = ax^2$ with $a > 0$, the graph is U-shaped.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? For y = ax^2 with a > 0, the graph is U-shaped.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** For $y = ax^2$ with $a > 0$, the graph is U-shaped...."
+    },
+    "96": {
+      "hint": "Nina claims $y = x^2 - 1$ and $y = 1 - x^2$ are the same graph. Is she correct?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Nina claims y = x^2 - 1 and y = 1 - x^2 are the same graph. Is she correct?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Nina claims $y = x^2 - 1$ and $y = 1 - x^2$ are the same graph. Is she..."
+    },
+    "97": {
+      "hint": "**True or false?** $y = x^2 + 2x + 1$ equals $(x + 1)^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? y = x^2 + 2x + 1 equals (x + 1)^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = x^2 + 2x + 1$ equals $(x + 1)^2$...."
+    },
+    "98": {
+      "hint": "**Always, sometimes, or never?** $y = x^2 + c$ is symmetric about the $y$-axis.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Always, sometimes, or never? y = x^2 + c is symmetric about the y-axis.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** $y = x^2 + c$ is symmetric about the ..."
+    },
+    "99": {
+      "hint": "**True or false?** If $y = 0$ has no solutions for $y = x^2 + c$, then $c > 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: True or false? If y = 0 has no solutions for y = x^2 + c, then c > 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** If $y = 0$ has no solutions for $y = x^2 + c$, then..."
+    },
+    "100": {
+      "hint": "**Always, sometimes, or never?** $y = -x^2$ crosses the $x$-axis twice.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Always, sometimes, or never? y = -x^2 crosses the x-axis twice.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** $y = -x^2$ crosses the $x$-axis twice..."
+    },
+    "101": {
+      "hint": "A ball height is $h = 20t - 5t^2$ (metres, seconds). Find $h$ when $t = 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A ball height is h = 20t - 5t^2 (metres, seconds). Find h when t = 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A ball height is $h = 20t - 5t^2$ (metres, seconds). Find $h$ when $t ..."
+    },
+    "102": {
+      "hint": "Using Q101, find $h$ when $t = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Using Q101, find h when t = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Using Q101, find $h$ when $t = 0$...."
+    },
+    "103": {
+      "hint": "A parabolic arch is modelled by $y = 9 - x^2$ (metres). Find height at $x = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A parabolic arch is modelled by y = 9 - x^2 (metres). Find height at x = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A parabolic arch is modelled by $y = 9 - x^2$ (metres). Find height at..."
+    },
+    "104": {
+      "hint": "Using Q103, find $x$ when height is 0 (positive $x$).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Using Q103, find x when height is 0 (positive x).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Using Q103, find $x$ when height is 0 (positive $x$)...."
+    },
+    "105": {
+      "hint": "Profit $P = -2x^2 + 80x$ (hundreds £, thousands items). Find $P$ when $x = 10$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Profit P = -2x^2 + 80x (hundreds £, thousands items). Find P when x = 10.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Profit $P = -2x^2 + 80x$ (hundreds £, thousands items). Find $P$ when ..."
+    },
+    "106": {
+      "hint": "A garden bed follows $y = x^2$ for design points. Find width from $x = -3$ to $x = 3$ at ground level $y = 9$ — state $y$ at $x = 3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A garden bed follows y = x^2 for design points. Find width from x = -3 to x = 3 at ground level y = 9 — sta…\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A garden bed follows $y = x^2$ for design points. Find width from $x =..."
+    },
+    "107": {
+      "hint": "Compare turning points of $y = x^2 + 4$ and $y = x^2 - 4$ — which is higher?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Compare turning points of y = x^2 + 4 and y = x^2 - 4 — which is higher?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Compare turning points of $y = x^2 + 4$ and $y = x^2 - 4$ — which is h..."
+    },
+    "108": {
+      "hint": "A quadratic graph passes through $(0, 1)$, $(1, 2)$, $(2, 5)$. Is it consistent with $y = x^2 + 1$? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A quadratic graph passes through (0, 1), (1, 2), (2, 5). Is it consistent with y = x^2 + 1? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A quadratic graph passes through $(0, 1)$, $(1, 2)$, $(2, 5)$. Is it c..."
+    },
+    "109": {
+      "hint": "Find $c$ if $y = x^2 + c$ passes through $(2, 11)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find c if y = x^2 + c passes through (2, 11).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find $c$ if $y = x^2 + c$ passes through $(2, 11)$...."
+    },
+    "110": {
+      "hint": "Find $c$ if $y = x^2 + c$ has $x$-intercepts at $\\pm 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Find c if y = x^2 + c has x-intercepts at \\pm 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find $c$ if $y = x^2 + c$ has $x$-intercepts at $\\pm 4$...."
+    },
+    "111": {
+      "hint": "A rocket height $y = -x^2 + 8x$ (m, m). Find height at $x = 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: A rocket height y = -x^2 + 8x (m, m). Find height at x = 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A rocket height $y = -x^2 + 8x$ (m, m). Find height at $x = 4$...."
+    },
+    "112": {
+      "hint": "Using Q111, find $x$ when $y = 0$ (other than 0).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Using Q111, find x when y = 0 (other than 0).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Using Q111, find $x$ when $y = 0$ (other than 0)...."
+    },
+    "113": {
+      "hint": "Sketch description: how does $y = x^2 - 9$ move compared with $y = x^2$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Sketch description: how does y = x^2 - 9 move compared with y = x^2?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Sketch description: how does $y = x^2 - 9$ move compared with $y = x^2..."
+    },
+    "114": {
+      "hint": "For $y = (x + 2)^2 - 1$, find the turning point.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: For y = (x + 2)^2 - 1, find the turning point.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = (x + 2)^2 - 1$, find the turning point...."
+    },
+    "115": {
+      "hint": "Water jet $y = -0.5x^2 + 4x$. Find $y$ at $x = 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Water jet y = -0.5x^2 + 4x. Find y at x = 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Water jet $y = -0.5x^2 + 4x$. Find $y$ at $x = 4$...."
+    },
+    "116": {
+      "hint": "**Stretch:** Solve $x^2 = 49$ for positive $x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Solve x^2 = 49 for positive x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Solve $x^2 = 49$ for positive $x$...."
+    },
+    "117": {
+      "hint": "**Stretch:** Find minimum value of $y = x^2 - 6x + 10$ by completing the square $(x - 3)^2 + 1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find minimum value of y = x^2 - 6x + 10 by completing the square (x - 3)^2 + 1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find minimum value of $y = x^2 - 6x + 10$ by completing t..."
+    },
+    "118": {
+      "hint": "**Stretch:** For $y = x^2 - 4x + 3$, find $x$-intercepts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: For y = x^2 - 4x + 3, find x-intercepts.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** For $y = x^2 - 4x + 3$, find $x$-intercepts...."
+    },
+    "119": {
+      "hint": "**Stretch:** Write the equation with turning point $(2, -1)$ opening upward.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Write the equation with turning point (2, -1) opening upward.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write the [equation](mtlearn:word/equation) with turning point $(2, -1)$ opening u..."
+    },
+    "120": {
+      "hint": "**Stretch:** Compare $y = 3x^2$ and $y = x^2$ — which is narrower?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Compare y = 3x^2 and y = x^2 — which is narrower?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare $y = 3x^2$ and $y = x^2$ — which is narrower?..."
+    },
+    "121": {
+      "hint": "**Stretch:** Find $y$ when $x = -6$ on $y = x^2 + 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find y when x = -6 on y = x^2 + 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $y$ when $x = -6$ on $y = x^2 + 2$...."
+    },
+    "122": {
+      "hint": "**Stretch:** Does $y = -x^2 + 4$ have a maximum or minimum?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Does y = -x^2 + 4 have a maximum or minimum?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Does $y = -x^2 + 4$ have a maximum or minimum?..."
+    },
+    "123": {
+      "hint": "**Stretch:** Find coordinates where $y = x^2 - 5x + 6$ equals 0.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find coordinates where y = x^2 - 5x + 6 equals 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [coordinates](mtlearn:word/coordinates) where $y = x^2 - 5x + 6$ equals 0...."
+    },
+    "124": {
+      "hint": "**Stretch:** A parabola $y = x^2 + bx + 9$ touches the $x$-axis once. What is $b$ if vertex on axis?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A parabola y = x^2 + bx + 9 touches the x-axis once. What is b if vertex on axis?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A parabola $y = x^2 + bx + 9$ touches the $x$-axis once. ..."
+    },
+    "125": {
+      "hint": "**Stretch:** For $y = 2x^2 - 8$, find $x$ when $y = 0$ (positive).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: For y = 2x^2 - 8, find x when y = 0 (positive).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** For $y = 2x^2 - 8$, find $x$ when $y = 0$ (positive)...."
+    },
+    "126": {
+      "hint": "**Stretch:** **True or false?** $y = x^2 + 1$ and $y = x^2 - 1$ never meet.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: True or false? y = x^2 + 1 and y = x^2 - 1 never meet.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = x^2 + 1$ and $y = x^2 - 1$ never ..."
+    },
+    "127": {
+      "hint": "**Stretch:** Find the range value at turning point of $y = -x^2 + 9$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find the range value at turning point of y = -x^2 + 9.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the range value at turning point of $y = -x^2 + 9$...."
+    },
+    "128": {
+      "hint": "**Stretch:** Archer throws a ball modelled by $y = -x^2 + 6x$. Find maximum height at turning point $x = 3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Archer throws a ball modelled by y = -x^2 + 6x. Find maximum height at turning point x = 3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Archer throws a ball modelled by $y = -x^2 + 6x$. Find ma..."
+    },
+    "129": {
+      "hint": "**Stretch:** Write three points on $y = x^2 + 3$ with $x = -1, 0, 1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Write three points on y = x^2 + 3 with x = -1, 0, 1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write three points on $y = x^2 + 3$ with $x = -1, 0, 1$...."
+    },
+    "130": {
+      "hint": "**Stretch:** Find $k$ if $(3, k)$ lies on $y = x^2 - 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find k if (3, k) lies on y = x^2 - 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $k$ if $(3, k)$ lies on $y = x^2 - 2$...."
+    },
+    "131": {
+      "hint": "**Stretch:** For $y = x^2 - 10x + 21$, factorise and give roots.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: For y = x^2 - 10x + 21, factorise and give roots.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** For $y = x^2 - 10x + 21$, factorise and give roots...."
+    },
+    "132": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** $y = ax^2 + c$ crosses the $x$-axis when $c < 0$ and $a > 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? y = ax^2 + c crosses the x-axis when c < 0 and a > 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** $y = ax^2 + c$ crosses t..."
+    },
+    "133": {
+      "hint": "**Stretch:** Compare graphs $y = x^2$ and $y = -x^2 + 2$ — how many intersections?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Compare graphs y = x^2 and y = -x^2 + 2 — how many intersections?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare graphs $y = x^2$ and $y = -x^2 + 2$ — how many in..."
+    },
+    "134": {
+      "hint": "**Stretch:** Find $y$ at $x = 1$ on $y = 4x^2 - 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find y at x = 1 on y = 4x^2 - 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $y$ at $x = 1$ on $y = 4x^2 - 4$...."
+    },
+    "135": {
+      "hint": "**Stretch:** A bridge cable $y = 0.2x^2$. Find $y$ at $x = 5$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A bridge cable y = 0.2x^2. Find y at x = 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A bridge cable $y = 0.2x^2$. Find $y$ at $x = 5$...."
+    },
+    "136": {
+      "hint": "**Stretch:** Find turning point of $y = x^2 + 4x + 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find turning point of y = x^2 + 4x + 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find turning point of $y = x^2 + 4x + 4$...."
+    },
+    "137": {
+      "hint": "**Stretch:** For $y = -3x^2 + 12$, find maximum $y$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: For y = -3x^2 + 12, find maximum y.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** For $y = -3x^2 + 12$, find maximum $y$...."
+    },
+    "138": {
+      "hint": "**Stretch:** Write equation of parabola through $(0, 0)$, $(2, 4)$, $(-2, 4)$ simplest form.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Write equation of parabola through (0, 0), (2, 4), (-2, 4) simplest form.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write [equation](mtlearn:word/equation) of parabola through $(0, 0)$, $(2, 4)$, $(..."
+    },
+    "139": {
+      "hint": "**Stretch:** Find $x$ when $y = 5$ on $y = x^2 + 1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find x when y = 5 on y = x^2 + 1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $x$ when $y = 5$ on $y = x^2 + 1$...."
+    },
+    "140": {
+      "hint": "**Stretch:** **True or false?** $y = (x - 1)^2 + 2$ has turning point $(1, 2)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: True or false? y = (x - 1)^2 + 2 has turning point (1, 2).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = (x - 1)^2 + 2$ has turning point ..."
+    },
+    "141": {
+      "hint": "**Stretch:** Find difference in $y$ from $x = 0$ to $x = 4$ on $y = x^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find difference in y from x = 0 to x = 4 on y = x^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find difference in $y$ from $x = 0$ to $x = 4$ on $y = x^..."
+    },
+    "142": {
+      "hint": "**Stretch:** A farmer's fence forms $y = 20 - x^2$. Find $x$ when $y = 11$ (positive).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A farmer's fence forms y = 20 - x^2. Find x when y = 11 (positive).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A farmer's fence forms $y = 20 - x^2$. Find $x$ when $y =..."
+    },
+    "143": {
+      "hint": "**Stretch:** For $y = x^2 - 2x - 3$, find $y$ when $x = -1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: For y = x^2 - 2x - 3, find y when x = -1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** For $y = x^2 - 2x - 3$, find $y$ when $x = -1$...."
+    },
+    "144": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** $y = x^2 + c$ has two $x$-intercepts when $c = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? y = x^2 + c has two x-intercepts when c = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** $y = x^2 + c$ has two $x..."
+    },
+    "145": {
+      "hint": "**Stretch:** Find the axis of symmetry of $y = x^2 - 8x + 7$ (line $x = 4$).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find the axis of symmetry of y = x^2 - 8x + 7 (line x = 4).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the axis of symmetry of $y = x^2 - 8x + 7$ (line $x ..."
+    },
+    "146": {
+      "hint": "**Stretch:** Compare $y = x^2 + 1$ and $y = 2x + 1$ — how many intersections?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Compare y = x^2 + 1 and y = 2x + 1 — how many intersections?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare $y = x^2 + 1$ and $y = 2x + 1$ — how many interse..."
+    },
+    "147": {
+      "hint": "**Stretch:** Find minimum of $y = x^2 - 4x + 7$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find minimum of y = x^2 - 4x + 7.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find minimum of $y = x^2 - 4x + 7$...."
+    },
+    "148": {
+      "hint": "**Stretch:** Write $y = x^2 + 6x + 5$ in completed square form $(x + 3)^2 - 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Write y = x^2 + 6x + 5 in completed square form (x + 3)^2 - 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write $y = x^2 + 6x + 5$ in completed square form $(x + 3..."
+    },
+    "149": {
+      "hint": "**Stretch:** A ball at $(t, h)$ follows $h = -5t^2 + 20t$. Find $h$ at $t = 1$ and $t = 3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A ball at (t, h) follows h = -5t^2 + 20t. Find h at t = 1 and t = 3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A ball at $(t, h)$ follows $h = -5t^2 + 20t$. Find $h$ at..."
+    },
+    "150": {
+      "hint": "**Stretch:** Find roots of $x^2 - 5x = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find roots of x^2 - 5x = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find roots of $x^2 - 5x = 0$...."
+    },
+    "151": {
+      "hint": "**Stretch:** **True or false?** $y = -2x^2$ opens downward.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: True or false? y = -2x^2 opens downward.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = -2x^2$ opens downward...."
+    },
+    "152": {
+      "hint": "**Stretch:** Find $c$ so $y = x^2 + c$ passes through $(0, -3)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find c so y = x^2 + c passes through (0, -3).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $c$ so $y = x^2 + c$ passes through $(0, -3)$...."
+    },
+    "153": {
+      "hint": "**Stretch:** For $y = x^2 - 1$, state coordinates of $x$-intercepts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: For y = x^2 - 1, state coordinates of x-intercepts.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** For $y = x^2 - 1$, state [coordinates](mtlearn:word/coordinates) of $x$-intercepts...."
+    },
+    "154": {
+      "hint": "**Stretch:** A graph $y = x^2 + k$ sits entirely above the $x$-axis. What can you say about $k$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A graph y = x^2 + k sits entirely above the x-axis. What can you say about k?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A graph $y = x^2 + k$ sits entirely above the $x$-axis. W..."
+    },
+    "155": {
+      "hint": "**Stretch:** Find $y$ when $x = 5$ on $y = -x^2 + 25$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find y when x = 5 on y = -x^2 + 25.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $y$ when $x = 5$ on $y = -x^2 + 25$...."
+    },
+    "156": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Turning point of $y = x^2 + bx$ is at $x = 0$ only when $b = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Turning point of y = x^2 + bx is at x = 0 only when b = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** Turning point of $y = x^..."
+    },
+    "157": {
+      "hint": "**Stretch:** Solve $x^2 = 64$ for negative $x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Solve x^2 = 64 for negative x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Solve $x^2 = 64$ for negative $x$...."
+    },
+    "158": {
+      "hint": "**Stretch:** Find $y$ at turning point of $y = (x - 5)^2 + 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find y at turning point of y = (x - 5)^2 + 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $y$ at turning point of $y = (x - 5)^2 + 2$...."
+    },
+    "159": {
+      "hint": "**Stretch:** Compare $y = x^2$ and $y = x^2 + x$ — same turning point? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Compare y = x^2 and y = x^2 + x — same turning point? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare $y = x^2$ and $y = x^2 + x$ — same turning point?..."
+    },
+    "160": {
+      "hint": "**Stretch:** A parabola crosses $x$-axis at $-1$ and $3$. Write a possible equation in factored form $(x + 1)(x - 3)$ scaled.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A parabola crosses x-axis at -1 and 3. Write a possible equation in factored form (x + 1)(x - 3) s…\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A parabola crosses $x$-axis at $-1$ and $3$. Write a poss..."
+    },
+    "161": {
+      "hint": "**Stretch:** Find $y$ when $x = -2$ on $y = 3x^2 + 1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find y when x = -2 on y = 3x^2 + 1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $y$ when $x = -2$ on $y = 3x^2 + 1$...."
+    },
+    "162": {
+      "hint": "**Stretch:** **True or false?** $y = x^2 + 4$ is always at least 4.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: True or false? y = x^2 + 4 is always at least 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = x^2 + 4$ is always at least 4...."
+    },
+    "163": {
+      "hint": "**Stretch:** Find $x$ when $y = 0$ on $y = x^2 - 7x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find x when y = 0 on y = x^2 - 7x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $x$ when $y = 0$ on $y = x^2 - 7x$...."
+    },
+    "164": {
+      "hint": "**Stretch:** Write the turning point of $y = -x^2 - 6$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Write the turning point of y = -x^2 - 6.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write the turning point of $y = -x^2 - 6$...."
+    },
+    "165": {
+      "hint": "**Stretch:** For $y = 2x^2 - 18$, find $x$-intercepts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: For y = 2x^2 - 18, find x-intercepts.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** For $y = 2x^2 - 18$, find $x$-intercepts...."
+    },
+    "166": {
+      "hint": "**Stretch:** A profit model $P = -(x - 6)^2 + 10$. State maximum profit.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A profit model P = -(x - 6)^2 + 10. State maximum profit.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A profit model $P = -(x - 6)^2 + 10$. State maximum profi..."
+    },
+    "167": {
+      "hint": "**Stretch:** Find $k$ if $y = x^2 + k$ has exactly one $x$-intercept.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find k if y = x^2 + k has exactly one x-intercept.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $k$ if $y = x^2 + k$ has exactly one $x$-intercept...."
+    },
+    "168": {
+      "hint": "**Stretch:** **True or false?** $y = x^2$ and $y = x^2 - 9$ are translations of each other.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: True or false? y = x^2 and y = x^2 - 9 are translations of each other.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = x^2$ and $y = x^2 - 9$ are transl..."
+    },
+    "169": {
+      "hint": "**Stretch:** Find $y$ when $x = 4$ on $y = x^2 - 3x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find y when x = 4 on y = x^2 - 3x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $y$ when $x = 4$ on $y = x^2 - 3x$...."
+    },
+    "170": {
+      "hint": "**Stretch:** Solve $(x - 2)^2 = 9$ for $x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Solve (x - 2)^2 = 9 for x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Solve $(x - 2)^2 = 9$ for $x$...."
+    },
+    "171": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** $y = ax^2$ passes through origin.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? y = ax^2 passes through origin.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** $y = ax^2$ passes throug..."
+    },
+    "172": {
+      "hint": "**Stretch:** Find minimum value of $y = x^2 + 2x + 5$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find minimum value of y = x^2 + 2x + 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find minimum value of $y = x^2 + 2x + 5$...."
+    },
+    "173": {
+      "hint": "**Stretch:** A fountain $y = -0.25x^2 + 4$. Find $y$ at $x = 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A fountain y = -0.25x^2 + 4. Find y at x = 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A fountain $y = -0.25x^2 + 4$. Find $y$ at $x = 2$...."
+    },
+    "174": {
+      "hint": "**Stretch:** Write coordinates of lowest point on $y = x^2 - 4x + 9$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Write coordinates of lowest point on y = x^2 - 4x + 9.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write [coordinates](mtlearn:word/coordinates) of lowest point on $y = x^2 - 4x + 9$...."
+    },
+    "175": {
+      "hint": "**Stretch:** **True or false?** If $a < 0$, then $y = ax^2 + 1$ has a maximum.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: True or false? If a < 0, then y = ax^2 + 1 has a maximum.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** If $a < 0$, then $y = ax^2 + 1$ has a ..."
+    },
+    "176": {
+      "hint": "**Stretch:** Find $x$ when $y = 21$ on $y = x^2 + 5$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find x when y = 21 on y = x^2 + 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $x$ when $y = 21$ on $y = x^2 + 5$...."
+    },
+    "177": {
+      "hint": "**Stretch:** Compare widths of $y = 4x^2$ and $y = x^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Compare widths of y = 4x^2 and y = x^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare widths of $y = 4x^2$ and $y = x^2$...."
+    },
+    "178": {
+      "hint": "**Stretch:** Find roots of $x^2 + x - 6 = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find roots of x^2 + x - 6 = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find roots of $x^2 + x - 6 = 0$...."
+    },
+    "179": {
+      "hint": "**Stretch:** A quadratic has vertex $(1, -4)$ opening up. Write equation $(x - 1)^2 - 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A quadratic has vertex (1, -4) opening up. Write equation (x - 1)^2 - 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A quadratic has vertex $(1, -4)$ opening up. Write equati..."
+    },
+    "180": {
+      "hint": "**Stretch:** Find $y$ when $x = 0$ on $y = -3x^2 + 12$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find y when x = 0 on y = -3x^2 + 12.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $y$ when $x = 0$ on $y = -3x^2 + 12$...."
+    },
+    "181": {
+      "hint": "**Stretch:** **True or false?** $y = x^2 + b$ always has $y$-intercept $b$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: True or false? y = x^2 + b always has y-intercept b.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = x^2 + b$ always has $y$-intercept..."
+    },
+    "182": {
+      "hint": "**Stretch:** Find $x$ when $y = 16$ on $y = 2x^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find x when y = 16 on y = 2x^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $x$ when $y = 16$ on $y = 2x^2$...."
+    },
+    "183": {
+      "hint": "**Stretch:** Archer models a slide $y = x^2$ for $-2 \\le x \\le 2$. Find difference in height from start to $x = 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Archer models a slide y = x^2 for -2 \\le x \\le 2. Find difference in height from start to x = 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Archer models a slide $y = x^2$ for $-2 \\le x \\le 2$. Fin..."
+    },
+    "184": {
+      "hint": "**Stretch:** Find $c$ if minimum of $y = x^2 - 4x + c$ is 0.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find c if minimum of y = x^2 - 4x + c is 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $c$ if minimum of $y = x^2 - 4x + c$ is 0...."
+    },
+    "185": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** $y = x^2 + c$ meets $y = 0$ when $c = -1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? y = x^2 + c meets y = 0 when c = -1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** $y = x^2 + c$ meets $y =..."
+    },
+    "186": {
+      "hint": "**Stretch:** Find turning point of $y = -2x^2 + 8x - 5$ (complete square).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find turning point of y = -2x^2 + 8x - 5 (complete square).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find turning point of $y = -2x^2 + 8x - 5$ (complete squa..."
+    },
+    "187": {
+      "hint": "**Stretch:** For $y = x^2 - 6x + 8$, find $y$ at $x = 3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: For y = x^2 - 6x + 8, find y at x = 3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** For $y = x^2 - 6x + 8$, find $y$ at $x = 3$...."
+    },
+    "188": {
+      "hint": "**Stretch:** **True or false?** $(0, c)$ is on $y = x^2 + c$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: True or false? (0, c) is on y = x^2 + c.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $(0, c)$ is on $y = x^2 + c$...."
+    },
+    "189": {
+      "hint": "**Stretch:** Find positive $x$ if $y = 7$ on $y = x^2 - 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find positive x if y = 7 on y = x^2 - 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find positive $x$ if $y = 7$ on $y = x^2 - 2$...."
+    },
+    "190": {
+      "hint": "**Stretch:** A ball height $h = 15 + 8t - t^2$. Find $h$ when $t = 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A ball height h = 15 + 8t - t^2. Find h when t = 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A ball height $h = 15 + 8t - t^2$. Find $h$ when $t = 4$...."
+    },
+    "191": {
+      "hint": "**Stretch:** Write the equation with roots $0$ and $6$ opening upward through origin and $(6,0)$: $y = x(x - 6)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Write the equation with roots 0 and 6 opening upward through origin and (6,0): y = x(x - 6).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write the [equation](mtlearn:word/equation) with roots $0$ and $6$ opening upward ..."
+    },
+    "192": {
+      "hint": "**Stretch:** Find $y$ when $x = -5$ on $y = x^2 + x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find y when x = -5 on y = x^2 + x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $y$ when $x = -5$ on $y = x^2 + x$...."
+    },
+    "193": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** $y = -x^2 + c$ has a maximum turning point.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? y = -x^2 + c has a maximum turning point.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** $y = -x^2 + c$ has a max..."
+    },
+    "194": {
+      "hint": "**Stretch:** Find $x$ when $y = -9$ on $y = -x^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find x when y = -9 on y = -x^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $x$ when $y = -9$ on $y = -x^2$...."
+    },
+    "195": {
+      "hint": "**Stretch:** Compare turning points of $y = x^2 + 2$ and $y = -x^2 + 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Compare turning points of y = x^2 + 2 and y = -x^2 + 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare turning points of $y = x^2 + 2$ and $y = -x^2 + 2..."
+    },
+    "196": {
+      "hint": "**Stretch:** Find minimum of $y = 2x^2 - 12x + 20$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find minimum of y = 2x^2 - 12x + 20.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find minimum of $y = 2x^2 - 12x + 20$...."
+    },
+    "197": {
+      "hint": "**Stretch:** **True or false?** $y = (x + 4)^2$ crosses the $x$-axis at $(-4, 0)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: True or false? y = (x + 4)^2 crosses the x-axis at (-4, 0).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = (x + 4)^2$ crosses the $x$-axis a..."
+    },
+    "198": {
+      "hint": "**Stretch:** Find $k$ if $(-2, k)$ lies on $y = x^2 + 3x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Find k if (-2, k) lies on y = x^2 + 3x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $k$ if $(-2, k)$ lies on $y = x^2 + 3x$...."
+    },
+    "199": {
+      "hint": "**Stretch:** A parabolic path $y = 36 - x^2$. Find $x$ when $y = 27$ (positive).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: A parabolic path y = 36 - x^2. Find x when y = 27 (positive).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A parabolic path $y = 36 - x^2$. Find $x$ when $y = 27$ (..."
+    },
+    "200": {
+      "hint": "**Stretch:** Archer says every quadratic looks like $y = x^2$. Give a counterexample equation and describe its shape in one phrase.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A11)\n\n1. Focus on what this question asks: Stretch: Archer says every quadratic looks like y = x^2. Give a counterexample equation and describe its sh…\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Archer says every quadratic looks like $y = x^2$. Give a ..."
+    }
   }
 }

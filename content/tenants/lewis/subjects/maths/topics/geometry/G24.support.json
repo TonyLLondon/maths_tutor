@@ -3,803 +3,803 @@
   "questions": {
     "1": {
       "hint": "Horizontal move in squares — count right.",
-      "help": "**2** squares right.\n\nExample: translation x-component.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Start on a square and move 2 squares right. How many horizontal squares did you move?.\n2. Count right.\n3. 2 squares right.\n4. For example, translation x-component."
     },
     "2": {
       "hint": "Vertical move up — count squares.",
-      "help": "**3** squares up.\n\nExample: y-component.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Start on a square and move 3 squares up. How many vertical squares did you move?.\n2. Count squares.\n3. 3 squares up.\n4. For example, y-component."
     },
     "3": {
       "hint": "Opposite of right?",
-      "help": "**Left**.\n\nExample: negative x direction.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Which direction is opposite to right?.\n2. Opposite of right?\n3. Left.\n4. For example, negative x direction."
     },
     "4": {
       "hint": "Opposite of up?",
-      "help": "**Down**.\n\nExample: negative y.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Which direction is opposite to up?.\n2. Opposite of up?\n3. Down.\n4. For example, negative y."
     },
     "5": {
       "hint": "0 + 2 right?",
-      "help": "Finish at **(2, 0)**.\n\nExample: add to x.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Start at (0, 0) and move 2 right. Where do you finish?.\n2. 0 + 2 right?\n3. Finish at (2, 0).\n4. For example, add to x."
     },
     "6": {
       "hint": "2 up from origin.",
-      "help": "**(0, 2)**.\n\nExample: y increases.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Start at (0, 0) and move 3 up. Where do you finish?.\n2. 2 up from origin.\n3. (0, 2).\n4. For example, y increases."
     },
     "7": {
       "hint": "(1,1) plus 2 right.",
-      "help": "**(3, 1)**.\n\nExample: x+2.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Start at (1, 1) and move 2 right. Where do you finish?.\n2. (1,1) plus 2 right.\n3. (3, 1).\n4. For example, x+2."
     },
     "8": {
       "hint": "4 left only — vertical change?",
-      "help": "**0** vertical movement.\n\nExample: y unchanged.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape moves 4 left and does not move up or down. What is its vertical movement?.\n2. Vertical change?\n3. 0 vertical movement.\n4. For example, y unchanged."
     },
     "9": {
       "hint": "Column vector: top right, bottom up.",
-      "help": "**$\\binom{3}{2}$**.\n\nExample: (x move, y move).\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Write the column vector that describes a movement of 3 right and 2 up..\n2. Column vector: top right, bottom up.\n3. $\\binom{3}{2}$.\n4. For example, (x move, y move)."
     },
     "10": {
       "hint": "4 left = −4, 1 up = +1.",
-      "help": "**$\\binom{-4}{1}$**.\n\nExample: signs for direction.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Write the column vector that describes a movement of 4 left and 1 up..\n2. 4 left = −4, 1 up = +1.\n3. $\\binom{-4}{1}$.\n4. For example, signs for direction."
     },
     "11": {
       "hint": "5 right, 3 down.",
-      "help": "**$\\binom{5}{-3}$**.\n\nExample: down negative y.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Write the column vector that describes a movement of 5 right and 3 down..\n2. 5 right, 3 down.\n3. $\\binom{5}{-3}$.\n4. For example, down negative y."
     },
     "12": {
       "hint": "Add vector (4,1) to (2,3).",
-      "help": "Image **(6, 4)**.\n\nExample: add components.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is at (2, 3). It is translated by the vector \\binom{4}{1}. Find the [coordinates](mtlearn:word/coordinates) of the image point..\n2. Add vector (4,1) to (2,3).\n3. Image (6, 4).\n4. For example, add components."
     },
     "13": {
       "hint": "Add (−3,5) to (0,0).",
-      "help": "**(−3, 5)**.\n\nExample: from origin.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point B is at (0, 0). It is translated by the vector \\binom{-3}{5}. Find the [coordinates](mtlearn:word/coordinates) of the image point..\n2. Add (−3,5) to (0,0).\n3. (−3, 5).\n4. For example, from origin."
     },
     "14": {
       "hint": "(6,−2)+(−2,−4).",
-      "help": "**(4, −6)**.\n\nExample: add x and y separately.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point C is at (6, -2). It is translated by the vector \\binom{-2}{-4}. Find the [coordinates](mtlearn:word/coordinates) of the image point..\n2. (6,−2)+(−2,−4).\n3. (4, −6).\n4. For example, add x and y separately."
     },
     "15": {
       "hint": "(−1,−1)+(5,2).",
-      "help": "**(4, 1)**.\n\nExample: translation sum.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point D is at (-1, -1). It is translated by the vector \\binom{5}{2}. Find the [coordinates](mtlearn:word/coordinates) of the image point..\n2. (−1,−1)+(5,2).\n3. (4, 1).\n4. For example, translation sum."
     },
     "16": {
       "hint": "Vector = image minus original: (5−1, 6−2).",
-      "help": "**$\\binom{4}{4}$**.\n\nExample: displacement.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is at (1, 2) and its image after translation is (5, 6). Find the column vector of the translation..\n2. Vector = image minus original: (5−1, 6−2).\n3. $\\binom{4}{4}$.\n4. For example, displacement."
     },
     "17": {
       "hint": "y changes 7→2, x unchanged.",
-      "help": "**$\\binom{0}{-5}$**.\n\nExample: vertical only.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point B is at (3, 7) and its image after translation is (3, 2). Find the column vector of the translation..\n2. Y changes 7→2, x unchanged.\n3. $\\binom{0}{-5}$.\n4. For example, vertical only."
     },
     "18": {
       "hint": "From (−4,2) to (0,0).",
-      "help": "**$\\binom{4}{-2}$**.\n\nExample: subtract coordinates.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point C is at (-4, 2) and its image after translation is (0, 0). Find the column vector of the translation..\n2. From (−4,2) to (0,0).\n3. $\\binom{4}{-2}$.\n4. For example, subtract [coordinates](mtlearn:word/coordinates)."
     },
     "19": {
       "hint": "Slide without turn — name?",
-      "help": "**Translation**.\n\nExample: congruent move.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: What single word describes a transformation that slides a shape without turning or flipping it?.\n2. Slide without turn — name?\n3. Translation.\n4. For example, congruent move."
     },
     "20": {
       "hint": "Zero vector — no movement.",
-      "help": "Shape **stays in same place**.\n\nExample: identity translation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: If a shape is translated by \\binom{0}{0}, what happens to the shape?.\n2. No movement.\n3. Shape stays in same place.\n4. For example, identity translation."
     },
     "21": {
       "hint": "3 right 2 up as vector.",
-      "help": "**$\\binom{3}{2}$**.\n\nExample: column vector.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Write the vector for a translation 3 right and 2 up..\n2. 3 right 2 up as vector.\n3. $\\binom{3}{2}$.\n4. For example, column vector."
     },
     "22": {
       "hint": "4 left 1 down.",
-      "help": "**$\\binom{-4}{-1}$**.\n\nExample: both negative.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Write the vector for 4 left and 1 down..\n2. 4 left 1 down.\n3. $\\binom{-4}{-1}$.\n4. For example, both negative."
     },
     "23": {
       "hint": "Top number is x (horizontal), not y.",
-      "help": "Mia swapped — **$\\binom{2}{3}$** is **2 right, 3 up**, not 2 up 3 right.\n\nExample: read vector order."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Mia says that translating a shape by \\binom{2}{3} makes it move 2 up and 3 right. Explain her mistake..\n2. Top number is x (horizontal), not y.\n3. Mia swapped — $\\binom{2}{3}$ is 2 right, 3 up, not 2 up 3 right.\n4. For example, read vector order."
     },
     "24": {
       "hint": "Translation preserves size and shape?",
-      "help": "**True** — images are **congruent**.\n\nExample: slide copy.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: **True or false?** Translation always produces an image that is congruent to the original shape..\n2. Translation preserves size and shape?\n3. True — images are congruent.\n4. For example, slide copy."
     },
     "25": {
       "hint": "(4,5)+(−6,2) check.",
-      "help": "Correct image **(−2, 7)** not (2,7).\n\nExample: 4−6=−2.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Ravi translates point (4, 5) by \\binom{-6}{2} and gets (2, 7). Check his working and correct it if needed..\n2. (4,5)+(−6,2) check.\n3. Correct image (−2, 7) not (2,7).\n4. For example, 4−6=−2."
     },
     "26": {
       "hint": "Translation changes size or orientation?",
-      "help": "**Never** — only position.\n\nExample: same shape.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: **Always, sometimes, or never?** Translating a shape changes its size or orientation..\n2. Translation changes size or orientation?\n3. Never — only position.\n4. For example, same shape."
     },
     "27": {
       "hint": "(3,−3) vs (−3,3) — different directions.",
-      "help": "Priya **wrong** — opposite signs give **different** moves.\n\nExample: compare components."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Priya says the vector \\binom{3}{-3} describes the same movement as \\binom{-3}{3}. Explain why she is wrong..\n2. Different directions.\n3. Priya wrong — opposite signs give different moves.\n4. For example, compare components."
     },
     "28": {
       "hint": "Vector from A to B: subtract A from B.",
-      "help": "$\\binom{7-2}{4-1}=\\binom{5}{3}$.\n\nExample: displacement formula."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Explain how you would find the column vector describing the translation from point A(2, 1) to point B(7, 4)..\n2. Vector from A to B: subtract A from B.\n3. $\\binom{7-2}{4-1}=\\binom{5}{3}$.\n4. For example, displacement formula."
     },
     "29": {
       "hint": "y-component 0 — only horizontal shift.",
-      "help": "Every point moves **5 right**, **y unchanged**.\n\nExample: x+5."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Sloan translates a shape by \\binom{5}{0}. Describe what happens to the shape's position, and explain why the y-[coordinates](mtlearn:word/coordinates) of every point stay the same..\n2. Only horizontal shift.\n3. Every point moves 5 right, y unchanged.\n4. For example, x+5."
     },
     "30": {
       "hint": "Add translation vectors component-wise.",
-      "help": "Leo **correct**: $\\binom{2}{1}+\\binom{2}{1}=\\binom{4}{2}$.\n\nExample: combine moves."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Leo says that translating a shape twice by the same vector \\binom{2}{1} is the same as translating it once by \\binom{4}{2}. Is he correct? Explain..\n2. Add translation vectors component-wise.\n3. Leo correct: $\\binom{2}{1}+\\binom{2}{1}=\\binom{4}{2}$.\n4. For example, combine moves."
     },
     "31": {
       "hint": "Add (2,−3) to each vertex.",
-      "help": "Vertices **(3,−2), (5,−2), (3,1)**.\n\nExample: translate all corners."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Triangle A has vertices shown on the grid. It is translated by the vector \\binom{2}{-3}. Find the [coordinates](mtlearn:word/coordinates) of the translated triangle's vertices..\n2. Add (2,−3) to each vertex.\n3. Vertices (3,−2), (5,−2), (3,1).\n4. For example, translate all corners."
     },
     "32": {
       "hint": "(4,2)+(−1,3).",
-      "help": "Combined **$\\binom{3}{5}$**.\n\nExample: sum vectors.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{4}{2} and then by \\binom{-1}{3}. Find the single column vector that describes the overall (combined) translation..\n2. (4,2)+(−1,3).\n3. Combined $\\binom{3}{5}$.\n4. For example, sum vectors."
     },
     "33": {
       "hint": "(5,5)+(−2,4)+(3,−6).",
-      "help": "Final **(6, 3)**.\n\nExample: step by step.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A point starts at (5, 5), is translated by \\binom{-2}{4}, and then translated again by \\binom{3}{-6}. Find the final [coordinates](mtlearn:word/coordinates) of the point..\n2. (5,5)+(−2,4)+(3,−6).\n3. Final (6, 3).\n4. For example, step by step."
     },
     "34": {
       "hint": "Sum three vectors from (0,0).",
-      "help": "Final **(4, 1)** after adding components.\n\nExample: robot path."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A robot on a grid starts at (0, 0). It follows three translations in order: \\binom{3}{2}, \\binom{-1}{4}, \\binom{2}{-5}. Find the robot's final position..\n2. Sum three vectors from (0,0).\n3. Final (4, 1) after adding components.\n4. For example, robot path."
     },
     "35": {
       "hint": "Translate all vertices by (−3,−1) — size angles?",
-      "help": "New coords by subtract/add vector; **size and angles unchanged** — congruent.\n\nExample: translation properties."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A quadrilateral has vertices shown on the grid. Find the [coordinates](mtlearn:word/coordinates) after translation by \\binom{-3}{-1}, then describe whether the shape's size and angles….\n2. Size angles?\n3. New coords by subtract/add vector; size and angles unchanged — congruent.\n4. For example, translation properties."
     },
     "36": {
       "hint": "Q = P + vector, P=(−1,5).",
-      "help": "Q **(5, 3)**.\n\nExample: add vector to P.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: The vector from point P to point Q is \\binom{6}{-2}. If P is at (-1, 5), find the [coordinates](mtlearn:word/coordinates) of Q..\n2. Q = P + vector, P=(−1,5).\n3. Q (5, 3).\n4. For example, add vector to P."
     },
     "37": {
       "hint": "B−A vector; reverse is A−B.",
-      "help": "Translation **$\\binom{-4}{8}$**; back **$\\binom{4}{-8}$**.\n\nExample: opposite displacement."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A(3, -2) is translated to point B(-1, 6). Find the column vector of this translation, then find the vector that would translate B back to A..\n2. B−A vector; reverse is A−B.\n3. Translation $\\binom{-4}{8}$; back $\\binom{4}{-8}$.\n4. For example, opposite displacement."
     },
     "38": {
       "hint": "(2,−3)+ (a,b)=(6,1).",
-      "help": "**a=4, b=4**.\n\nExample: solve component equations.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by vector \\binom{a}{b} so that the point (2, -3) maps to (6, 1). Find the values of a and b..\n2. (2,−3)+ (a,b)=(6,1).\n3. A=4, b=4.\n4. For example, solve component equations."
     },
     "39": {
       "hint": "(x,2)+(3,y)=(7,−1).",
-      "help": "**x=4, y=−3**.\n\nExample: match top and bottom.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape undergoes two translations, \\binom{x}{2} then \\binom{3}{y}, and the overall effect is the same as a single translation of \\binom{7}{-1}. Find t….\n2. (x,2)+(3,y)=(7,−1).\n3. X=4, y=−3.\n4. For example, match top and bottom."
     },
     "40": {
       "hint": "Add the vector components to the point; negate both components for the return vector.",
-      "help": "For translation $\\binom{a}{b}$, add $a$ to the x-coordinate and $b$ to the y-coordinate. The reverse vector is $\\binom{-a}{-b}$.\n\nFor example, $(1,2)+\\binom{3}{-1}=(4,1)$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Translate (2,-1) by \\binom{-5}{4}. Give the image point and the vector that returns it to (2,-1)..\n2. Add the vector components to the point; negate both components for the return vector.\n3. For translation $\\binom{a}{b}$, add $a$ to the x-coordinate and $b$ to the y-coordinate. The reverse vector is $\\binom{-a}{-b}$.\n4. For example, $(1,2)+\\binom{3}{-1}=(4,1)$."
     },
     "41": {
       "hint": "(2,5)+(3,−1).",
-      "help": "Image **(5, 4)**.\n\nExample: add.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (2, 5) is translated by \\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}. Find the image..\n2. (2,5)+(3,−1).\n3. Image (5, 4).\n4. For example, add."
     },
     "42": {
       "hint": "5 left = −5, 3 up = +3.",
-      "help": "**$\\binom{-5}{3}$**.\n\nExample: direction signs.\n\nPicture what is happening, then use the method step by step in your working."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape moves 5 units left and 3 units up. Write the translation vector..\n2. 5 left = −5, 3 up = +3.\n3. $\\binom{-5}{3}$.\n4. For example, direction signs."
     },
     "43": {
       "hint": "Right 5, down 3 — write as a column vector.",
-      "help": "Translation vector $\\begin{pmatrix}-5\\\\-3\\end{pmatrix}$.\n\nWork step by step and check units."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that moves the origin to (-5, -3)..\n2. Write as a column vector.\n3. Translation vector $\\begin{pmatrix}-5\\\\-3\\end{pmatrix}$.\n4. Work step by step and check units."
     },
     "44": {
       "hint": "Right 5, down 2 — write as a column vector.",
-      "help": "Translation vector $\\begin{pmatrix}-5\\\\-2\\end{pmatrix}$.\n\nWork step by step and check units."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that moves the origin to (-5, -2)..\n2. Write as a column vector.\n3. Translation vector $\\begin{pmatrix}-5\\\\-2\\end{pmatrix}$.\n4. Work step by step and check units."
     },
     "45": {
       "hint": "Add vector $\\binom{2}{3}$ to point (1, 2) — add x to x, y to y.",
-      "help": "**(1, 2) + (2, 3) = (3, 5)**. Add **top numbers** for $x$, **bottom** for $y$.\n\nExample: $(0,0)+\\binom{1}{2}=(1,2)$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (1, 2) is translated by \\binom{2}{3}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Add x to x, y to y.\n3. (1, 2) + (2, 3) = (3, 5). Add top numbers for $x$, bottom for $y$.\n4. For example, $(0,0)+\\binom{1}{2}=(1,2)$."
     },
     "46": {
       "hint": "Translate (3, 4) by $\\binom{-1}{4}$.",
-      "help": "$x$: **3 + (−1) = 2**. $y$: **4 + 4 = 8**. Image **(2, 8)**.\n\nExample: negative top moves left."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (3, 4) is translated by \\binom{-1}{4}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Translate (3, 4) by $\\binom{-1}{4}$.\n3. $x$: 3 + (−1) = 2. $y$: 4 + 4 = 8. Image (2, 8).\n4. For example, negative top moves left."
     },
     "47": {
       "hint": "Origin (0, 0) plus $\\binom{5}{-2}$.",
-      "help": "**(0 + 5, 0 + (−2)) = (5, −2)**.\n\nExample: from the origin, the image is just the vector coordinates."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (0, 0) is translated by \\binom{5}{-2}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Origin (0, 0) plus $\\binom{5}{-2}$.\n3. (0 + 5, 0 + (−2)) = (5, −2).\n4. For example, from the origin, the image is just the vector coordinates."
     },
     "48": {
       "hint": "Point (−2, 5) translated by $\\binom{-3}{-3}$.",
-      "help": "**−2 + (−3) = −5**, **5 + (−3) = 2** → **(−5, 2)**.\n\nExample: subtract on both parts when vector is negative."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (-2, 5) is translated by \\binom{-3}{-3}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Point (−2, 5) translated by $\\binom{-3}{-3}$.\n3. −2 + (−3) = −5, 5 + (−3) = 2 → (−5, 2).\n4. For example, subtract on both parts when vector is negative."
     },
     "49": {
       "hint": "(6, −1) plus $\\binom{0}{6}$ — only y changes.",
-      "help": "$x$ stays **6**; **−1 + 6 = 5** → **(6, 5)**.\n\nExample: a zero on top means no horizontal shift."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (6, -1) is translated by \\binom{0}{6}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Only y changes.\n3. $x$ stays 6; −1 + 6 = 5 → (6, 5).\n4. For example, a zero on top means no horizontal shift."
     },
     "50": {
       "hint": "(−4, −3) plus $\\binom{4}{0}$ — horizontal shift only.",
-      "help": "**−4 + 4 = 0**, $y$ stays **−3** → **(0, −3)**.\n\nExample: zero on bottom means no vertical shift."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (-4, -3) is translated by \\binom{4}{0}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Horizontal shift only.\n3. −4 + 4 = 0, $y$ stays −3 → (0, −3).\n4. For example, zero on bottom means no vertical shift."
     },
     "51": {
       "hint": "Same as Q45: (1, 2) plus $\\binom{2}{3}$.",
-      "help": "Add components: **(1+2, 2+3) = (3, 5)**.\n\nExample: repeat the same vector addition steps."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (1, 2) is translated by \\binom{2}{3}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Same as Q45: (1, 2) plus $\\binom{2}{3}$.\n3. Add components: (1+2, 2+3) = (3, 5).\n4. For example, repeat the same vector addition steps."
     },
     "52": {
       "hint": "Same as Q46: (3, 4) plus $\\binom{-1}{4}$.",
-      "help": "**(3−1, 4+4) = (2, 8)**.\n\nExample: check signs on each part of the vector."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (3, 4) is translated by \\binom{-1}{4}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Same as Q46: (3, 4) plus $\\binom{-1}{4}$.\n3. (3−1, 4+4) = (2, 8).\n4. For example, check signs on each part of the vector."
     },
     "53": {
       "hint": "Same as Q47: (0, 0) plus $\\binom{5}{-2}$.",
-      "help": "Image **(5, −2)**.\n\nExample: translating the origin gives the vector’s coordinates."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (0, 0) is translated by \\binom{5}{-2}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Same as Q47: (0, 0) plus $\\binom{5}{-2}$.\n3. Image (5, −2).\n4. For example, translating the origin gives the vector’s coordinates."
     },
     "54": {
       "hint": "Same as Q48: (−2, 5) plus $\\binom{-3}{-3}$.",
-      "help": "**(−5, 2)** after adding each component.\n\nExample: draw a grid and count squares."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (-2, 5) is translated by \\binom{-3}{-3}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Same as Q48: (−2, 5) plus $\\binom{-3}{-3}$.\n3. (−5, 2) after adding each component.\n4. For example, draw a grid and count squares."
     },
     "55": {
       "hint": "Same as Q49: (6, −1) plus $\\binom{0}{6}$.",
-      "help": "**(6, 5)** — move **6 up**, no sideways change.\n\nExample: vertical vector changes $y$ only."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (6, -1) is translated by \\binom{0}{6}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Same as Q49: (6, −1) plus $\\binom{0}{6}$.\n3. (6, 5) — move 6 up, no sideways change.\n4. For example, vertical vector changes $y$ only."
     },
     "56": {
       "hint": "Same as Q50: (−4, −3) plus $\\binom{4}{0}$.",
-      "help": "**(0, −3)** — move **4 right**.\n\nExample: horizontal vector changes $x$ only."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (-4, -3) is translated by \\binom{4}{0}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Same as Q50: (−4, −3) plus $\\binom{4}{0}$.\n3. (0, −3) — move 4 right.\n4. For example, horizontal vector changes $x$ only."
     },
     "57": {
       "hint": "(1, 2) plus $\\binom{2}{3}$ again — practice addition.",
-      "help": "Image **(3, 5)**.\n\nExample: $x$ adds to $x$, $y$ adds to $y$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (1, 2) is translated by \\binom{2}{3}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Practice addition.\n3. Image (3, 5).\n4. For example, $x$ adds to $x$, $y$ adds to $y$."
     },
     "58": {
       "hint": "(3, 4) plus $\\binom{-1}{4}$.",
-      "help": "Add the vector: **3 + (−1) = 2** and **4 + 4 = 8**, so the image is **(2, 8)**.\n\nExample: left 1 and up 4 from (3, 4)."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (3, 4) is translated by \\binom{-1}{4}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (3, 4) plus $\\binom{-1}{4}$.\n3. Add the vector: 3 + (−1) = 2 and 4 + 4 = 8, so the image is (2, 8).\n4. For example, left 1 and up 4 from (3, 4)."
     },
     "59": {
       "hint": "(0, 0) plus $\\binom{5}{-2}$.",
-      "help": "From the origin: **(0 + 5, 0 + (−2)) = (5, −2)** — five units right and two down.\n\nExample: negative $y$ moves down."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (0, 0) is translated by \\binom{5}{-2}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (0, 0) plus $\\binom{5}{-2}$.\n3. From the origin: (0 + 5, 0 + (−2)) = (5, −2) — five units right and two down.\n4. For example, negative $y$ moves down."
     },
     "60": {
       "hint": "(−2, 5) plus $\\binom{-3}{-3}$.",
-      "help": "Image **(−5, 2)**.\n\nExample: both negative parts shift left and down."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (-2, 5) is translated by \\binom{-3}{-3}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (−2, 5) plus $\\binom{-3}{-3}$.\n3. Image (−5, 2).\n4. For example, both negative parts shift left and down."
     },
     "61": {
       "hint": "(6, −1) plus $\\binom{0}{6}$.",
-      "help": "No horizontal change (**0** on top), so **x** stays **6**. **−1 + 6 = 5** → image **(6, 5)**.\n\nExample: pure vertical translation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (6, -1) is translated by \\binom{0}{6}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (6, −1) plus $\\binom{0}{6}$.\n3. No horizontal change (0 on top), so x stays 6. −1 + 6 = 5 → image (6, 5).\n4. For example, pure vertical translation."
     },
     "62": {
       "hint": "(−4, −3) plus $\\binom{4}{0}$.",
-      "help": "**−4 + 4 = 0** and **y** stays **−3** (zero on bottom) → image **(0, −3)**.\n\nExample: pure horizontal translation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (-4, -3) is translated by \\binom{4}{0}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (−4, −3) plus $\\binom{4}{0}$.\n3. −4 + 4 = 0 and y stays −3 (zero on bottom) → image (0, −3).\n4. For example, pure horizontal translation."
     },
     "63": {
       "hint": "(1, 2) plus $\\binom{2}{3}$ — image coordinates?",
-      "help": "**(3, 5)**.\n\nExample: use column vector addition on coordinates."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (1, 2) is translated by \\binom{2}{3}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. Image coordinates?\n3. (3, 5).\n4. For example, use column vector addition on coordinates."
     },
     "64": {
       "hint": "(3, 4) plus $\\binom{-1}{4}$.",
-      "help": "Add components: **(3 + (−1), 4 + 4) = (2, 8)**. Check each coordinate separately.\n\nExample: add vector to point position."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (3, 4) is translated by \\binom{-1}{4}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (3, 4) plus $\\binom{-1}{4}$.\n3. Add components: (3 + (−1), 4 + 4) = (2, 8). Check each coordinate separately.\n4. For example, add vector to point position."
     },
     "65": {
       "hint": "(0, 0) plus $\\binom{5}{-2}$.",
-      "help": "**(5, −2)**.\n\nExample: translation as addition of displacements."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (0, 0) is translated by \\binom{5}{-2}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (0, 0) plus $\\binom{5}{-2}$.\n3. (5, −2).\n4. For example, translation as addition of displacements."
     },
     "66": {
       "hint": "(−2, 5) plus $\\binom{-3}{-3}$.",
-      "help": "**−2 + (−3) = −5** and **5 + (−3) = 2** → image **(−5, 2)**.\n\nExample: sketch the shift on squared paper."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (-2, 5) is translated by \\binom{-3}{-3}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (−2, 5) plus $\\binom{-3}{-3}$.\n3. −2 + (−3) = −5 and 5 + (−3) = 2 → image (−5, 2).\n4. For example, sketch the shift on squared paper."
     },
     "67": {
       "hint": "(6, −1) plus $\\binom{0}{6}$.",
-      "help": "**x** stays **6** (zero on top). **−1 + 6 = 5** → image **(6, 5)**.\n\nExample: zero horizontal component."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (6, -1) is translated by \\binom{0}{6}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (6, −1) plus $\\binom{0}{6}$.\n3. X stays 6 (zero on top). −1 + 6 = 5 → image (6, 5).\n4. For example, zero horizontal component."
     },
     "68": {
       "hint": "(−4, −3) plus $\\binom{4}{0}$.",
-      "help": "**−4 + 4 = 0**, **y** unchanged at **−3** → image **(0, −3)**.\n\nExample: zero vertical component."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point (-4, -3) is translated by \\binom{4}{0}. Find the image [coordinates](mtlearn:word/coordinates)..\n2. (−4, −3) plus $\\binom{4}{0}$.\n3. −4 + 4 = 0, y unchanged at −3 → image (0, −3).\n4. For example, zero vertical component."
     },
     "69": {
       "hint": "Translation (1,2)→(4,4): vector (3, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (1, 2) and its image B is (4, 4). Find the translation vector..\n2. Translation (1,2)→(4,4): vector (3, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "70": {
       "hint": "Translation (3,4)→(7,7): vector (4, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (3, 4) and its image B is (7, 7). Find the translation vector..\n2. Translation (3,4)→(7,7): vector (4, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "71": {
       "hint": "Translation (0,0)→(5,4): vector (5, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (0, 0) and its image B is (5, 4). Find the translation vector..\n2. Translation (0,0)→(5,4): vector (5, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "72": {
       "hint": "Translation (-2,5)→(4,7): vector (6, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (-2, 5) and its image B is (4, 7). Find the translation vector..\n2. Translation (-2,5)→(4,7): vector (6, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "73": {
       "hint": "Translation (6,-1)→(9,2): vector (3, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A and its image B are shown on the grid. Find the translation vector..\n2. Translation (6,-1)→(9,2): vector (3, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "74": {
       "hint": "Translation (-4,-3)→(0,1): vector (4, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (-4, -3) and its image B is (0, 1). Find the translation vector..\n2. Translation (-4,-3)→(0,1): vector (4, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "75": {
       "hint": "Translation (1,2)→(6,4): vector (5, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (1, 2) and its image B is (6, 4). Find the translation vector..\n2. Translation (1,2)→(6,4): vector (5, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "76": {
       "hint": "Translation (3,4)→(9,7): vector (6, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (3, 4) and its image B is (9, 7). Find the translation vector..\n2. Translation (3,4)→(9,7): vector (6, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "77": {
       "hint": "Translation (0,0)→(3,4): vector (3, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (0, 0) and its image B is (3, 4). Find the translation vector..\n2. Translation (0,0)→(3,4): vector (3, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "78": {
       "hint": "Translation (-2,5)→(2,7): vector (4, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (-2, 5) and its image B is (2, 7). Find the translation vector..\n2. Translation (-2,5)→(2,7): vector (4, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "79": {
       "hint": "Translation (6,-1)→(11,2): vector (5, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (6, -1) and its image B is (11, 2). Find the translation vector..\n2. Translation (6,-1)→(11,2): vector (5, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "80": {
       "hint": "Translation (-4,-3)→(2,1): vector (6, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (-4, -3) and its image B is (2, 1). Find the translation vector..\n2. Translation (-4,-3)→(2,1): vector (6, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "81": {
       "hint": "Translation (1,2)→(4,4): vector (3, 2). (Q81)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (1, 2) and its image B is (4, 4). Find the translation vector..\n2. Translation (1,2)→(4,4): vector (3, 2). (Q81)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "82": {
       "hint": "Translation (3,4)→(7,7): vector (4, 3). (Q82)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (3, 4) and its image B is (7, 7). Find the translation vector..\n2. Translation (3,4)→(7,7): vector (4, 3). (Q82)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "83": {
       "hint": "Translation (0,0)→(5,4): vector (5, 4). (Q83)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (0, 0) and its image B is (5, 4). Find the translation vector..\n2. Translation (0,0)→(5,4): vector (5, 4). (Q83)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "84": {
       "hint": "Translation (-2,5)→(4,7): vector (6, 2). (Q84)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (-2, 5) and its image B is (4, 7). Find the translation vector..\n2. Translation (-2,5)→(4,7): vector (6, 2). (Q84)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "85": {
       "hint": "Translation (6,-1)→(9,2): vector (3, 3). (Q85)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (6, -1) and its image B is (9, 2). Find the translation vector..\n2. Translation (6,-1)→(9,2): vector (3, 3). (Q85)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "86": {
       "hint": "Translation (-4,-3)→(0,1): vector (4, 4). (Q86)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (-4, -3) and its image B is (0, 1). Find the translation vector..\n2. Translation (-4,-3)→(0,1): vector (4, 4). (Q86)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "87": {
       "hint": "Translation (1,2)→(6,4): vector (5, 2). (Q87)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (1, 2) and its image B is (6, 4). Find the translation vector..\n2. Translation (1,2)→(6,4): vector (5, 2). (Q87)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "88": {
       "hint": "Translation (3,4)→(9,7): vector (6, 3). (Q88)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Point A is (3, 4) and its image B is (9, 7). Find the translation vector..\n2. Translation (3,4)→(9,7): vector (6, 3). (Q88)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "89": {
       "hint": "Add the two vectors: (2+-1, -1+3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{2}{-1} then by \\binom{-1}{3}. Find the single equivalent vector..\n2. Add the two vectors: (2+-1, -1+3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "90": {
       "hint": "Add the two vectors: (3+-1, 0+4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{3}{0} then by \\binom{-1}{4}. Find the single equivalent vector..\n2. Add the two vectors: (3+-1, 0+4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "91": {
       "hint": "Add the two vectors: (4+-1, -1+3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{4}{-1} then by \\binom{-1}{3}. Find the single equivalent vector..\n2. Add the two vectors: (4+-1, -1+3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "92": {
       "hint": "Add the two vectors: (2+-1, 0+4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{2}{0} then by \\binom{-1}{4}. Find the single equivalent vector..\n2. Add the two vectors: (2+-1, 0+4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "93": {
       "hint": "Add the two vectors: (3+-1, -1+3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{3}{-1} then by \\binom{-1}{3}. Find the single equivalent vector..\n2. Add the two vectors: (3+-1, -1+3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "94": {
       "hint": "Add the two vectors: (4+-1, 0+4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{4}{0} then by \\binom{-1}{4}. Find the single equivalent vector..\n2. Add the two vectors: (4+-1, 0+4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "95": {
       "hint": "Add the two vectors: (2+-1, -1+3). (Q95)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{2}{-1} then by \\binom{-1}{3}. Find the single equivalent vector..\n2. Add the two vectors: (2+-1, -1+3). (Q95)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "96": {
       "hint": "Add the two vectors: (3+-1, 0+4). (Q96)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{3}{0} then by \\binom{-1}{4}. Find the single equivalent vector..\n2. Add the two vectors: (3+-1, 0+4). (Q96)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "97": {
       "hint": "Add the two vectors: (4+-1, -1+3). (Q97)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{4}{-1} then by \\binom{-1}{3}. Find the single equivalent vector..\n2. Add the two vectors: (4+-1, -1+3). (Q97)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "98": {
       "hint": "Add the two vectors: (2+-1, 0+4). (Q98)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{2}{0} then by \\binom{-1}{4}. Find the single equivalent vector..\n2. Add the two vectors: (2+-1, 0+4). (Q98)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "99": {
       "hint": "Add the two vectors: (3+-1, -1+3). (Q99)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{3}{-1} then by \\binom{-1}{3}. Find the single equivalent vector..\n2. Add the two vectors: (3+-1, -1+3). (Q99)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "100": {
       "hint": "Add the two vectors: (4+-1, 0+4). (Q100)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{4}{0} then by \\binom{-1}{4}. Find the single equivalent vector..\n2. Add the two vectors: (4+-1, 0+4). (Q100)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "101": {
       "hint": "Add the two vectors: (2+-1, -1+3). (Q101)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{2}{-1} then by \\binom{-1}{3}. Find the single equivalent vector..\n2. Add the two vectors: (2+-1, -1+3). (Q101)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "102": {
       "hint": "Add the two vectors: (3+-1, 0+4). (Q102)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{3}{0} then by \\binom{-1}{4}. Find the single equivalent vector..\n2. Add the two vectors: (3+-1, 0+4). (Q102)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "103": {
       "hint": "Add the two vectors: (4+-1, -1+3). (Q103)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{4}{-1} then by \\binom{-1}{3}. Find the single equivalent vector..\n2. Add the two vectors: (4+-1, -1+3). (Q103)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "104": {
       "hint": "Add the two vectors: (2+-1, 0+4). (Q104)",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: A shape is translated by \\binom{2}{0} then by \\binom{-1}{4}. Find the single equivalent vector..\n2. Add the two vectors: (2+-1, 0+4). (Q104)\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "105": {
       "hint": "6 right, 2 down → vector (6, −2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Write the vector for 6 right and 2 down..\n2. 6 right, 2 down → vector (6, −2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "106": {
       "hint": "3 left, 4 up → vector (−3, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Write the vector for 3 left and 4 up..\n2. 3 left, 4 up → vector (−3, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "107": {
       "hint": "5 up only → vector (0, 5).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Write the vector for 5 up..\n2. 5 up only → vector (0, 5).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "108": {
       "hint": "7 left only → vector (−7, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Write the vector for 7 left..\n2. 7 left only → vector (−7, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "109": {
       "hint": "Q109: is this true? Translation changes the size of a shape.",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: **True or false?** Translation changes the size of a shape..\n2. Q109: is this true? Translation changes the size of a shape.\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "110": {
       "hint": "Q110: test \"Translation vectors add top number first (horizontal).\" — always, sometimes, or never?",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: **Always, sometimes, or never?** Translation vectors add top number first (horizontal)..\n2. Always, sometimes, or never?\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "111": {
       "hint": "Q111: explain — Explain how to undo a translation.",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Explain how to undo a translation..\n2. Explain how to undo a translation.\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "112": {
       "hint": "From (0,0) to (-4,4) — the vector is (-4, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-4, 4)..\n2. The vector is (-4, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "113": {
       "hint": "From (0,0) to (-3,-3) — the vector is (-3, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-3, -3)..\n2. The vector is (-3, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "114": {
       "hint": "From (0,0) to (-2,-1) — the vector is (-2, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-2, -1)..\n2. The vector is (-2, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "115": {
       "hint": "From (0,0) to (-1,1) — the vector is (-1, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-1, 1)..\n2. The vector is (-1, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "116": {
       "hint": "From (0,0) to (0,3) — the vector is (0, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (0, 3)..\n2. The vector is (0, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "117": {
       "hint": "From (0,0) to (1,-4) — the vector is (1, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (1, -4)..\n2. The vector is (1, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "118": {
       "hint": "From (0,0) to (2,-2) — the vector is (2, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (2, -2)..\n2. The vector is (2, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "119": {
       "hint": "From (0,0) to (3,0) — the vector is (3, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (3, 0)..\n2. The vector is (3, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "120": {
       "hint": "From (0,0) to (4,2) — the vector is (4, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (4, 2)..\n2. The vector is (4, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "121": {
       "hint": "From (0,0) to (5,4) — the vector is (5, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (5, 4)..\n2. The vector is (5, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "122": {
       "hint": "From (0,0) to (-5,-3) — the vector is (-5, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-5, -3)..\n2. The vector is (-5, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "123": {
       "hint": "From (0,0) to (-4,-1) — the vector is (-4, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-4, -1)..\n2. The vector is (-4, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "124": {
       "hint": "From (0,0) to (-3,1) — the vector is (-3, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-3, 1)..\n2. The vector is (-3, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "125": {
       "hint": "From (0,0) to (-2,3) — the vector is (-2, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-2, 3)..\n2. The vector is (-2, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "126": {
       "hint": "From (0,0) to (-1,-4) — the vector is (-1, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-1, -4)..\n2. The vector is (-1, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "127": {
       "hint": "From (0,0) to (0,-2) — the vector is (0, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (0, -2)..\n2. The vector is (0, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "128": {
       "hint": "From (0,0) to (1,0) — the vector is (1, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (1, 0)..\n2. The vector is (1, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "129": {
       "hint": "From (0,0) to (2,2) — the vector is (2, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (2, 2)..\n2. The vector is (2, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "130": {
       "hint": "From (0,0) to (3,4) — the vector is (3, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (3, 4)..\n2. The vector is (3, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "131": {
       "hint": "From (0,0) to (4,-3) — the vector is (4, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (4, -3)..\n2. The vector is (4, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "132": {
       "hint": "From (0,0) to (5,-1) — the vector is (5, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (5, -1)..\n2. The vector is (5, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "133": {
       "hint": "From (0,0) to (-5,1) — the vector is (-5, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-5, 1)..\n2. The vector is (-5, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "134": {
       "hint": "From (0,0) to (-4,3) — the vector is (-4, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-4, 3)..\n2. The vector is (-4, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "135": {
       "hint": "From (0,0) to (-3,-4) — the vector is (-3, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-3, -4)..\n2. The vector is (-3, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "136": {
       "hint": "From (0,0) to (-2,-2) — the vector is (-2, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-2, -2)..\n2. The vector is (-2, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "137": {
       "hint": "From (0,0) to (-1,0) — the vector is (-1, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-1, 0)..\n2. The vector is (-1, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "138": {
       "hint": "From (0,0) to (0,2) — the vector is (0, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (0, 2)..\n2. The vector is (0, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "139": {
       "hint": "From (0,0) to (1,4) — the vector is (1, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (1, 4)..\n2. The vector is (1, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "140": {
       "hint": "From (0,0) to (2,-3) — the vector is (2, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (2, -3)..\n2. The vector is (2, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "141": {
       "hint": "From (0,0) to (3,-1) — the vector is (3, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (3, -1)..\n2. The vector is (3, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "142": {
       "hint": "From (0,0) to (4,1) — the vector is (4, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (4, 1)..\n2. The vector is (4, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "143": {
       "hint": "From (0,0) to (5,3) — the vector is (5, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (5, 3)..\n2. The vector is (5, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "144": {
       "hint": "From (0,0) to (-5,-4) — the vector is (-5, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-5, -4)..\n2. The vector is (-5, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "145": {
       "hint": "From (0,0) to (-4,-2) — the vector is (-4, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-4, -2)..\n2. The vector is (-4, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "146": {
       "hint": "From (0,0) to (-3,0) — the vector is (-3, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-3, 0)..\n2. The vector is (-3, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "147": {
       "hint": "From (0,0) to (-2,2) — the vector is (-2, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-2, 2)..\n2. The vector is (-2, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "148": {
       "hint": "From (0,0) to (-1,4) — the vector is (-1, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-1, 4)..\n2. The vector is (-1, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "149": {
       "hint": "From (0,0) to (0,-3) — the vector is (0, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (0, -3)..\n2. The vector is (0, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "150": {
       "hint": "From (0,0) to (1,-1) — the vector is (1, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (1, -1)..\n2. The vector is (1, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "151": {
       "hint": "From (0,0) to (2,1) — the vector is (2, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (2, 1)..\n2. The vector is (2, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "152": {
       "hint": "From (0,0) to (3,3) — the vector is (3, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (3, 3)..\n2. The vector is (3, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "153": {
       "hint": "From (0,0) to (4,-4) — the vector is (4, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (4, -4)..\n2. The vector is (4, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "154": {
       "hint": "From (0,0) to (5,-2) — the vector is (5, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (5, -2)..\n2. The vector is (5, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "155": {
       "hint": "From (0,0) to (-5,0) — the vector is (-5, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-5, 0)..\n2. The vector is (-5, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "156": {
       "hint": "From (0,0) to (-4,2) — the vector is (-4, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-4, 2)..\n2. The vector is (-4, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "157": {
       "hint": "From (0,0) to (-3,4) — the vector is (-3, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-3, 4)..\n2. The vector is (-3, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "158": {
       "hint": "From (0,0) to (-2,-3) — the vector is (-2, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-2, -3)..\n2. The vector is (-2, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "159": {
       "hint": "From (0,0) to (-1,-1) — the vector is (-1, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-1, -1)..\n2. The vector is (-1, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "160": {
       "hint": "From (0,0) to (0,1) — the vector is (0, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (0, 1)..\n2. The vector is (0, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "161": {
       "hint": "From (0,0) to (1,3) — the vector is (1, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (1, 3)..\n2. The vector is (1, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "162": {
       "hint": "From (0,0) to (2,-4) — the vector is (2, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (2, -4)..\n2. The vector is (2, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "163": {
       "hint": "From (0,0) to (3,-2) — the vector is (3, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (3, -2)..\n2. The vector is (3, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "164": {
       "hint": "From (0,0) to (4,0) — the vector is (4, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (4, 0)..\n2. The vector is (4, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "165": {
       "hint": "From (0,0) to (5,2) — the vector is (5, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (5, 2)..\n2. The vector is (5, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "166": {
       "hint": "From (0,0) to (-5,4) — the vector is (-5, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-5, 4)..\n2. The vector is (-5, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "167": {
       "hint": "From (0,0) to (-4,-3) — the vector is (-4, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-4, -3)..\n2. The vector is (-4, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "168": {
       "hint": "From (0,0) to (-3,-1) — the vector is (-3, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-3, -1)..\n2. The vector is (-3, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "169": {
       "hint": "From (0,0) to (-2,1) — the vector is (-2, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-2, 1)..\n2. The vector is (-2, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "170": {
       "hint": "From (0,0) to (-1,3) — the vector is (-1, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-1, 3)..\n2. The vector is (-1, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "171": {
       "hint": "From (0,0) to (0,-4) — the vector is (0, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (0, -4)..\n2. The vector is (0, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "172": {
       "hint": "From (0,0) to (1,-2) — the vector is (1, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (1, -2)..\n2. The vector is (1, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "173": {
       "hint": "From (0,0) to (2,0) — the vector is (2, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (2, 0)..\n2. The vector is (2, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "174": {
       "hint": "From (0,0) to (3,2) — the vector is (3, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (3, 2)..\n2. The vector is (3, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "175": {
       "hint": "From (0,0) to (4,4) — the vector is (4, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (4, 4)..\n2. The vector is (4, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "176": {
       "hint": "From (0,0) to (5,-3) — the vector is (5, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (5, -3)..\n2. The vector is (5, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "177": {
       "hint": "From (0,0) to (-5,-1) — the vector is (-5, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-5, -1)..\n2. The vector is (-5, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "178": {
       "hint": "From (0,0) to (-4,1) — the vector is (-4, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-4, 1)..\n2. The vector is (-4, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "179": {
       "hint": "From (0,0) to (-3,3) — the vector is (-3, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-3, 3)..\n2. The vector is (-3, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "180": {
       "hint": "From (0,0) to (-2,-4) — the vector is (-2, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-2, -4)..\n2. The vector is (-2, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "181": {
       "hint": "From (0,0) to (-1,-2) — the vector is (-1, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-1, -2)..\n2. The vector is (-1, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "182": {
       "hint": "From (0,0) to (0,0) — the vector is (0, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (0, 0)..\n2. The vector is (0, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "183": {
       "hint": "From (0,0) to (1,2) — the vector is (1, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (1, 2)..\n2. The vector is (1, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "184": {
       "hint": "From (0,0) to (2,4) — the vector is (2, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (2, 4)..\n2. The vector is (2, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "185": {
       "hint": "From (0,0) to (3,-3) — the vector is (3, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (3, -3)..\n2. The vector is (3, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "186": {
       "hint": "From (0,0) to (4,-1) — the vector is (4, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (4, -1)..\n2. The vector is (4, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "187": {
       "hint": "From (0,0) to (5,1) — the vector is (5, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (5, 1)..\n2. The vector is (5, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "188": {
       "hint": "From (0,0) to (-5,3) — the vector is (-5, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-5, 3)..\n2. The vector is (-5, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "189": {
       "hint": "From (0,0) to (-4,-4) — the vector is (-4, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-4, -4)..\n2. The vector is (-4, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "190": {
       "hint": "From (0,0) to (-3,-2) — the vector is (-3, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-3, -2)..\n2. The vector is (-3, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "191": {
       "hint": "From (0,0) to (-2,0) — the vector is (-2, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-2, 0)..\n2. The vector is (-2, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "192": {
       "hint": "From (0,0) to (-1,2) — the vector is (-1, 2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-1, 2)..\n2. The vector is (-1, 2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "193": {
       "hint": "From (0,0) to (0,4) — the vector is (0, 4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (0, 4)..\n2. The vector is (0, 4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "194": {
       "hint": "From (0,0) to (1,-3) — the vector is (1, -3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (1, -3)..\n2. The vector is (1, -3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "195": {
       "hint": "From (0,0) to (2,-1) — the vector is (2, -1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (2, -1)..\n2. The vector is (2, -1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "196": {
       "hint": "From (0,0) to (3,1) — the vector is (3, 1).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (3, 1)..\n2. The vector is (3, 1).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "197": {
       "hint": "From (0,0) to (4,3) — the vector is (4, 3).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (4, 3)..\n2. The vector is (4, 3).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "198": {
       "hint": "From (0,0) to (5,-4) — the vector is (5, -4).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (5, -4)..\n2. The vector is (5, -4).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "199": {
       "hint": "From (0,0) to (-5,-2) — the vector is (-5, -2).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-5, -2)..\n2. The vector is (-5, -2).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     },
     "200": {
       "hint": "From (0,0) to (-4,0) — the vector is (-4, 0).",
-      "help": "Translation vector = change in x and y (image − start).\n\n**Different example:** $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n\nWork step by step and include units if the question uses them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:geometry/G24)\n\n1. Read what the question asks: Describe the translation that maps the origin to (-4, 0)..\n2. The vector is (-4, 0).\n3. Translation vector = change in x and y (image − start).\n4. Different example: $(2,5)$ to $(6,9)$ → $\\binom{4}{4}$.\n5. Work step by step and include units if the question uses them."
     }
   }
 }

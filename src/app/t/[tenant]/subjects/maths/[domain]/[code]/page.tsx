@@ -7,9 +7,11 @@ import { isParentAccount } from "@/lib/accounts";
 import { getTopicProgressState } from "@/lib/progress";
 import { formatLevel } from "@/lib/practice-rating";
 import {
+  mathsLearnTopicHref,
   mathsPracticeHref,
   mathsTopicHref,
 } from "@/lib/paths";
+import { getTopicLearnGuide } from "@/lib/learn";
 import { primaryTopicLabel } from "@/lib/topic-labels";
 import { isGcseDomain } from "@/lib/subjects";
 import { isTenantId } from "@/lib/tenants";
@@ -45,6 +47,8 @@ export default async function MathsTopicPage({ params }: Props) {
     ? await primaryTopicLabel(tenant, topicMeta)
     : doc.frontmatter.title;
 
+  const learnGuide = await getTopicLearnGuide(tenant, domain, code);
+
   return (
     <>
       <ServerTenantNav
@@ -66,13 +70,21 @@ export default async function MathsTopicPage({ params }: Props) {
 
         <FamilyTopicPanel insights={familyInsights} />
 
-        <div className="mt-6">
+        <div className="mt-6 flex flex-wrap gap-3">
           <Link
             href={mathsPracticeHref(tenant, domain, code)}
             className="rounded-lg bg-stone-900 px-5 py-2.5 text-sm font-medium text-white"
           >
             Go
           </Link>
+          {learnGuide ? (
+            <Link
+              href={mathsLearnTopicHref(tenant, domain, code)}
+              className="rounded-lg border border-violet-300 bg-violet-50 px-5 py-2.5 text-sm font-medium text-violet-950"
+            >
+              Learn this topic
+            </Link>
+          ) : null}
         </div>
 
         {!answerKey ? (

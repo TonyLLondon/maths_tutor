@@ -3,335 +3,803 @@
   "questions": {
     "1": {
       "hint": "Add 2 and 2.",
-      "help": "2 + 2 = **4**.\n\nWarm-up arithmetic.\n\nAnswer 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Find 2 + 2.\n2. 2 + 2 = **4**.\n3. Warm-up arithmetic.\n4. Answer 4.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "2": {
       "hint": "$2 \\times 2$.",
-      "help": "$2^2 = 4$.\n\nSquare of 2.\n\nAnswer 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Find 2^2.\n2. $2^2 = 4$.\n3. Square of 2.\n4. Answer 4.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "3": {
       "hint": "$2 \\times 2 \\times 2$.",
-      "help": "$2^3 = 8$.\n\nCube of 2.\n\nAnswer 8.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Find 2^3.\n2. $2^3 = 8$.\n3. Cube of 2.\n4. Answer 8.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "4": {
       "hint": "$y=x$ at $x=3$.",
-      "help": "$y=3$.\n\nLinear substitution.\n\nAnswer 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: For y = x, find y when x = 3.\n2. Linear substitution.\n3. Answer 3.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "5": {
       "hint": "Square 3 for $y=x^2$.",
-      "help": "$y=9$.\n\nQuadratic value.\n\n$y=9$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: For y = x^2, find y when x = 3.\n2. Quadratic value.\n3. Write each step in order so you can use the same method on a similar question later."
     },
     "6": {
       "hint": "Cube 2 for $y=x^3$.",
-      "help": "$y=8$.\n\nCubic growth.\n\nAnswer 8.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: For y = x^3, find y when x = 2.\n2. Cubic growth.\n3. Answer 8.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "7": {
       "hint": "Straight line graphs come from linear rules.",
-      "help": "**Linear** family — $y=mx+c$ graphs as straight lines.\n\nNo powers on $x$ beyond 1.\n\nLinear."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which graph family makes a straight line: linear or quadratic?\n2. *Linear** family — $y=mx+c$ graphs as straight lines.\n3. No powers on $x$ beyond 1."
     },
     "8": {
       "hint": "U-shapes come from squaring $x$.",
-      "help": "**Quadratic** — $y=x^2$ parabola.\n\nPower 2 curves.\n\nQuadratic."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which graph family makes a U-shape: linear or quadratic?\n2. *Quadratic** — $y=x^2$ parabola.\n3. Power 2 curves.\n4. Quadratic."
     },
     "9": {
       "hint": "$y=2x+1$ is degree 1 — shape?",
-      "help": "**Straight line**.\n\nLinear graph.\n\nLine.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: What shape is the graph of y = 2x + 1?\n2. *Straight line**.\n3. Linear graph.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "10": {
       "hint": "$x^2$ term → parabola.",
-      "help": "**Parabola** (U-shape).\n\nQuadratic family.\n\nU-shape.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: What shape is the graph of y = x^2 - 3?\n2. *Parabola** (U-shape).\n3. Quadratic family.\n4. U-shape.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "11": {
       "hint": "Cubic graphs can bend more than quadratics.",
-      "help": "**Cubic curve** — not a simple U.\n\n$x^3$ family.\n\nCubic.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: What shape is the graph of y = x^3?\n2. *Cubic curve** — not a simple U.\n3. $x^3$ family.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "12": {
       "hint": "$y=k/x$ is reciprocal — hyperbola shape.",
-      "help": "**Reciprocal** hyperbola — two branches.\n\nNever touches axes.\n\nReciprocal."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: What shape is the graph of y = \\dfrac{4}{x}?\n2. *Reciprocal** hyperbola — two branches.\n3. Never touches axes.\n4. Reciprocal."
     },
     "13": {
       "hint": "Cube each $x$: $(-2)^3$, $(-1)^3$, …",
-      "help": "Row: **−8, −1, 0, 1, 8**.\n\nCubic preserves sign.\n\nFill table."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Complete the table for y = x^3.\n2. Row: **−8, −1, 0, 1, 8**.\n3. Cubic preserves sign.\n4. Fill table."
     },
     "14": {
       "hint": "Divide 6 by each $x$.",
-      "help": "**6, 3, 2, 1** for $x=1,2,3,6$.\n\nReciprocal table.\n\nComplete row."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Complete the table for y = \\dfrac{6}{x}.\n2. *6, 3, 2, 1** for $x=1,2,3,6$.\n3. Reciprocal table.\n4. Complete row."
     },
     "15": {
       "hint": "Which family is always a straight line?",
-      "help": "**Linear** only.\n\nOthers curve.\n\nLinear.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family of graph is always a straight line: linear, quadratic, cubic, or reciprocal?\n2. *Linear** only.\n3. Others curve.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "16": {
       "hint": "U-shape family?",
-      "help": "**Quadratic**.\n\n$x^2$ graphs.\n\nQuadratic.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family of graph is a U-shape: linear, quadratic, cubic, or reciprocal?\n2. *Quadratic**.\n3. $x^2$ graphs.\n4. Quadratic.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "17": {
       "hint": "Can $k/x$ be 0 when $k \\ne 0$?",
-      "help": "**No** — division never gives 0 for nonzero numerator.\n\nGraph never hits $y=0$.\n\nNever zero."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Can y = \\dfrac{k}{x} (for k \\ne 0) ever equal 0? Explain.\n2. *No** — division never gives 0 for nonzero numerator.\n3. Graph never hits $y=0$.\n4. Never zero."
     },
     "18": {
       "hint": "Negative $x$ cubed gives negative $y$.",
-      "help": "**Yes** — e.g. $(-2)^3=-8$.\n\nCubic goes below axis.\n\nNegative $y$ possible."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Does the graph of y = x^3 pass through negative y-values for negative x?\n2. *Yes** — e.g. $(-2)^3=-8$.\n3. Cubic goes below axis.\n4. Negative $y$ possible."
     },
     "19": {
       "hint": "Match power: $5x$ linear, $x^2$ quad, $x^3+1$ cubic, $2/x$ reciprocal.",
-      "help": "Linear: $y=5x$. Quadratic: $y=x^2$. Cubic: $y=x^3+1$. Reciprocal: $y=2/x$.\n\nHighest power decides.\n\nFour matches."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Match each equation to its family: y = 5x, y = x^2, y = x^3 + 1, y = \\dfrac{2}{x}.\n2. Linear: $y=5x$. Quadratic: $y=x^2$. Cubic: $y=x^3+1$. Reciprocal: $y=2/x$.\n3. Highest power decides.\n4. Four matches."
     },
     "20": {
       "hint": "Turning points: parabola one; cubic can turn once.",
-      "help": "$y=x^2$: **1** turning point. $y=x^3$: **0** classic inflection (direction change once overall).\n\nCompare curvature.\n\nState counts."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: How many times does the graph of y = x^2 change direction (turning points)? How many times does y = x^3 cha…\n2. $y=x^2$: **1** turning point. $y=x^3$: **0** classic inflection (direction change once overall).\n3. Compare curvature.\n4. State counts."
     },
     "21": {
       "hint": "$1/x$ form is reciprocal family.",
-      "help": "**Reciprocal**.\n\nInverse proportion shape.\n\nReciprocal.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which graph family does y = 1/x belong to?\n2. *Reciprocal**.\n3. Inverse proportion shape.\n4. Reciprocal.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "22": {
       "hint": "$2^x$ is exponential — not on Foundation list here but not linear/quadratic/cubic/reciprocal in simple power form.",
-      "help": "**Exponential** growth — different from polynomial families listed.\n\nNot linear/quadratic/cubic/reciprocal.\n\nExponential family."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which graph family does y = 2^x belong to?\n2. *Exponential** growth — different from polynomial families listed.\n3. Not linear/quadratic/cubic/reciprocal.\n4. Exponential family."
     },
     "23": {
       "hint": "Compare $x^2$ U vs $x^3$ S-like through origin.",
-      "help": "Different powers → **different shapes** — quad symmetric U; cubic through origin with inflection.\n\nExplain visually."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Priya says y = x^2 and y = x^3 must look the same because both have \"x to a power\". Explain why their graph…\n2. Different powers → **different shapes** — quad symmetric U; cubic through origin with inflection.\n3. Explain visually."
     },
     "24": {
       "hint": "Plug $x=0$ into $y=x^3$.",
-      "help": "**Always** passes $(0,0)$ for $y=x^3$.\n\nAnswer: always.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Always, sometimes, or never? A cubic graph like y = x^3 passes through the origin, (0, 0).\n2. *Always** passes $(0,0)$ for $y=x^3$.\n3. Answer: always.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "25": {
       "hint": "Division by zero at $x=0$ for $4/x$.",
-      "help": "Sam wrong — **undefined** at $x=0$; graph has gap.\n\nCannot plot at 0.\n\nExplain asymptote."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Sam says the graph of y = \\dfrac{4}{x} can be plotted at x = 0. Explain why Sam is wrong.\n2. Sam wrong — **undefined** at $x=0$; graph has gap.\n3. Cannot plot at 0.\n4. Explain asymptote."
     },
     "26": {
       "hint": "$-x^2$ reflects $x^2$ in $x$-axis.",
-      "help": "Same width, **upside-down** U vs normal U.\n\nSign flip.\n\nInverted parabola."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Two graphs, y = x^2 and y = -x^2, are both quadratics. Describe how their shapes compare.\n2. Same width, **upside-down** U vs normal U.\n3. Sign flip.\n4. Inverted parabola."
     },
     "27": {
       "hint": "Compare large $x$: $x^3$ vs $x^2$.",
-      "help": "**True** — cubes grow faster for large $|x|$.\n\nExample $x=10$: 1000 vs 100.\n\nTrue."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? As x gets very large in y = x^3, y grows much faster than it does for y = x^2.\n2. *True** — cubes grow faster for large $|x|$.\n3. Example $x=10$: 1000 vs 100."
     },
     "28": {
       "hint": "Set $x=0$ in each equation.",
-      "help": "Both have $y$-intercept **3** at $(0,3)$.\n\nSame crossing height.\n\nLeo correct on intercept."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Leo says y = 2x + 3 and y = x^2 + 3 both cross the y-axis at the same point. Check this by finding the y-in…\n2. Both have $y$-intercept **3** at $(0,3)$.\n3. Same crossing height.\n4. Leo correct on intercept."
     },
     "29": {
       "hint": "$3x$ straight vs $3/x$ curved branches.",
-      "help": "Similar numbers but **totally different graphs** — line through origin vs hyperbola.\n\nSame coefficient, different operation.\n\nContrast shapes."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Compare the graph of y = 3x (linear) with y = \\dfrac{3}{x} (reciprocal). How are their equations similar, a…\n2. Similar numbers but **totally different graphs** — line through origin vs hyperbola.\n3. Same coefficient, different operation.\n4. Contrast shapes."
     },
     "30": {
       "hint": "Highest power is 3 — cubic, not quadratic.",
-      "help": "**Cubic** — $x^3$ dominates; not quadratic despite $x^2$ term.\n\nUse highest power.\n\nCubic family."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Mo says every graph with an x^2 term must be a quadratic. Is y = x^3 + x^2 a quadratic? Explain, using the …\n2. *Cubic** — $x^3$ dominates; not quadratic despite $x^2$ term.\n3. Use highest power.\n4. Cubic family."
     },
     "31": {
       "hint": "Slow then steep rise suggests cubic growth.",
-      "help": "**Cubic** models accelerating increase.\n\nLinear too steady; quadratic middle.\n\nChoose cubic."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: A scientist plots data and notices the points curve upward slowly at first, then very steeply, matching a c…\n2. *Cubic** models accelerating increase.\n3. Linear too steady; quadratic middle.\n4. Choose cubic."
     },
     "32": {
       "hint": "$y=200/x$ at $x=10$; large $x$ makes $y$ small.",
-      "help": "At 10: $y=**20**$. As $x$ huge, $y$ → 0.\n\nInverse relationship.\n\nShow both parts."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: A shop finds that as the price of an item, x, increases, the number sold, y, decreases according to y = \\df…\n2. At 10: $y=**20**$. As $x$ huge, $y$ → 0.\n3. Inverse relationship.\n4. Show both parts."
     },
     "33": {
       "hint": "$y$ never 0; $x$ never 0 for $10/x$.",
-      "help": "Cannot divide to 0; $x=0$ undefined.\n\nAsymptotes to axes.\n\nNever touches axes."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Explain why a reciprocal graph like y = \\dfrac{10}{x} can never touch the x-axis or the y-axis.\n2. Cannot divide to 0; $x=0$ undefined.\n3. Asymptotes to axes.\n4. Never touches axes."
     },
     "34": {
       "hint": "Ball goes up then down — needs curve with peak.",
-      "help": "**Linear** only rises or falls — cannot model full throw.\n\nQuadratic fits arc.\n\nExplain parabola need."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: A ball's height over time follows a quadratic pattern (rises, then falls). Explain why a linear equation wo…\n2. *Linear** only rises or falls — cannot model full throw.\n3. Quadratic fits arc.\n4. Explain parabola need."
     },
     "35": {
       "hint": "Large $x$ on $y=x^3$ climbs very fast.",
-      "help": "Steep end of cubic — costs **accelerate** for big orders.\n\nSmall $x$ gentler slope.\n\nUse shape explanation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: A company's costs follow y = x^3 for very large orders, x. Explain, using the shape of the graph, why costs…\n2. Steep end of cubic — costs **accelerate** for big orders.\n3. Small $x$ gentler slope.\n4. Use shape explanation."
     },
     "36": {
       "hint": "Cubic $x^3-5$ keeps increasing unlike line turning back.",
-      "help": "**$y=x^3-5$** — cubic keeps trending (with one inflection), not like a line that only slopes one way without curve.\n\nIdentify $4x-1$ as line always increasing.\n\nLinear $y=4x-1$ always increases steadily."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Given the equations y = 4x - 1, y = x^2 + 2, and y = x^3 - 5, identify which one has a graph that is always…\n2. *$y=x^3-5$** — cubic keeps trending (with one inflection), not like a line that only slopes one way without curve.\n3. Identify $4x-1$ as line always increasing.\n4. Linear $y=4x-1$ always increases steadily."
     },
     "37": {
       "hint": "Square negatives vs cube negatives at $x=-2,-1,0,1,2$.",
-      "help": "$x^2$ outputs **non-negative** only; $x^3$ gives **negative and positive**.\n\nSign behaviour differs.\n\nShow table."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Explain, using values of x = -2, -1, 0, 1, 2, why y = x^2 produces only non-negative outputs but y = x^3 pr…\n2. $x^2$ outputs **non-negative** only; $x^3$ gives **negative and positive**.\n3. Sign behaviour differs.\n4. Show table."
     },
     "38": {
       "hint": "Near $x=0^+$ for $1/x$, and large $x$.",
-      "help": "Near 0 from right: $y$ **shoots up**. Large $x$: $y$ **near 0**.\n\nReciprocal behaviour.\n\nDescribe both limits."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Sketch (describe in words) how y = \\dfrac{1}{x} behaves as x gets close to 0 from the positive side, and as…\n2. Near 0 from right: $y$ **shoots up**. Large $x$: $y$ **near 0**.\n3. Reciprocal behaviour.\n4. Describe both limits."
     },
     "39": {
       "hint": "Test $x^3-x$ at $-1,0,1$.",
-      "help": "Zeros at **−1, 0, 1** — **three** $x$-axis crossings possible.\n\nStudent claim false.\n\nCounterexample."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: A student says all cubic graphs cross the x-axis exactly once. Test this idea by considering y = x^3 - x, f…\n2. Zeros at **−1, 0, 1** — **three** $x$-axis crossings possible.\n3. Student claim false.\n4. Counterexample."
     },
     "40": {
       "hint": "Look at highest power or $1/x$ structure.",
-      "help": "Degree 1 → linear; 2 → quadratic; 3 → cubic; $x$ in denominator → reciprocal.\n\nRead equation structure.\n\nClassification rules."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Explain how you could tell, just from an equation, whether its graph belongs to the linear, quadratic, cubi…\n2. Degree 1 → linear; 2 → quadratic; 3 → cubic; $x$ in denominator → reciprocal.\n3. Read [equation](mtlearn:word/equation) structure.\n4. Classification rules."
     },
     "41": {
       "hint": "$x^3$ is cubic power.",
-      "help": "**Cubic** — power 3 on $x$.\n\nNot quadratic.\n\nCubic.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Match: y = x^3 — cubic or quadratic?\n2. *Cubic** — power 3 on $x$.\n3. Not quadratic.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "42": {
       "hint": "Negative $x$: $x^2$ positive, $x^3$ negative.",
-      "help": "For negative $x$, **square positive**, **cube negative**.\n\nSymmetry vs sign.\n\nKey difference."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Describe one difference between y = x^2 and y = x^3 for negative x.\n2. For negative $x$, **square positive**, **cube negative**.\n3. Symmetry vs sign.\n4. Key difference."
     },
     "43": {
       "hint": "Look at the power of x — is it 1, 2, 3, or in a fraction?",
-      "help": "$y = mx + c$ with $x$ to power 1 is **linear** — a straight line.\n\nQuadratic has $x^2$, cubic has $x^3$, reciprocal has $x$ in the denominator."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which graph family is y = 2x + 1? (linear / quadratic / cubic / reciprocal)\n2. $y = mx + c$ with $x$ to power 1 is **linear** — a straight line.\n3. Quadratic has $x^2$, cubic has $x^3$, reciprocal has $x$ in the denominator."
     },
     "44": {
       "hint": "Look at the power of x — is it 1, 2, 3, or in a fraction?",
-      "help": "$y = mx + c$ with $x$ to power 1 is **linear** — a straight line.\n\nQuadratic has $x^2$, cubic has $x^3$, reciprocal has $x$ in the denominator."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which graph family is y = 3x + 1? (linear / quadratic / cubic / reciprocal)\n2. $y = mx + c$ with $x$ to power 1 is **linear** — a straight line.\n3. Quadratic has $x^2$, cubic has $x^3$, reciprocal has $x$ in the denominator."
     },
-    "45": {"hint": "Which family: $y = 7x - 2$? (linear / quadratic / cubic / reciprocal)", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = 7x - 2$? (linear / quadratic / cubic / reciprocal)..."},
-    "46": {"hint": "Which family: $y = x^2 + 5$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = x^2 + 5$?..."},
-    "47": {"hint": "Which family: $y = x^3 - x$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = x^3 - x$?..."},
-    "48": {"hint": "Which family: $y = \\dfrac{12}{x}$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = \\dfrac{12}{x}$?..."},
-    "49": {"hint": "Which family: $y = -3x + 1$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = -3x + 1$?..."},
-    "50": {"hint": "Which family: $y = 2x^2$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = 2x^2$?..."},
-    "51": {"hint": "State the family of $y = 5$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: State the family of $y = 5$...."},
-    "52": {"hint": "State the family of $x = -4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: State the family of $x = -4$...."},
-    "53": {"hint": "Does a linear graph have a constant gradient? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Does a linear graph have a constant gradient? **Yes or no.**..."},
-    "54": {"hint": "Does a quadratic graph always have one turning point? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Does a quadratic graph always have one turning point? **Yes or no.**..."},
-    "55": {"hint": "Does $y = x^3$ pass through the origin? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Does $y = x^3$ pass through the origin? **Yes or no.**..."},
-    "56": {"hint": "Can $y = \\dfrac{5}{x}$ be defined at $x = 0$? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Can $y = \\dfrac{5}{x}$ be defined at $x = 0$? **Yes or no.**..."},
-    "57": {"hint": "Complete: $y = x^3$ when $x = 2$, $y = $ ___", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Complete: $y = x^3$ when $x = 2$, $y = $ ___..."},
-    "58": {"hint": "Complete: $y = \\dfrac{8}{x}$ when $x = 2$, $y = $ ___", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Complete: $y = \\dfrac{8}{x}$ when $x = 2$, $y = $ ___..."},
-    "59": {"hint": "Which family makes a U-shape (when $a > 0$ in $y = ax^2 + c$)?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family makes a U-shape (when $a > 0$ in $y = ax^2 + c$)?..."},
-    "60": {"hint": "Which family can have both positive and negative $y$ values for negative $x$ in $y = x^3$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family can have both positive and negative $y$ values for negati..."},
-    "61": {"hint": "Match: $y = -x^2$ — opening up or down?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Match: $y = -x^2$ — opening up or down?..."},
-    "62": {"hint": "Match: $y = x^3$ — always increasing for all $x$? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Match: $y = x^3$ — always increasing for all $x$? **Yes or no.**..."},
-    "63": {"hint": "Which family: $y = 0.5x + 9$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = 0.5x + 9$?..."},
-    "64": {"hint": "Which family: $y = x^2 - x$ (highest power decides)?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = x^2 - x$ (highest power decides)?..."},
-    "65": {"hint": "**True or false?** $y = \\dfrac{1}{x}$ graphs have two separate branches.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = \\dfrac{1}{x}$ graphs have two separate branche..."},
-    "66": {"hint": "Identify family: $y = 4x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Identify family: $y = 4x$...."},
-    "67": {"hint": "Identify family: $y = x^2 + 1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Identify family: $y = x^2 + 1$...."},
-    "68": {"hint": "Identify family: $y = x^3 + 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Identify family: $y = x^3 + 2$...."},
-    "69": {"hint": "Identify family: $y = \\dfrac{-6}{x}$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Identify family: $y = \\dfrac{-6}{x}$...."},
-    "70": {"hint": "Which has a vertical asymptote idea at $x = 0$: reciprocal or linear?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which has a vertical asymptote idea at $x = 0$: reciprocal or linear?..."},
-    "71": {"hint": "Which has a turning point: $y = 2x + 3$ or $y = 2x^2 + 3$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which has a turning point: $y = 2x + 3$ or $y = 2x^2 + 3$?..."},
-    "72": {"hint": "For $y = ax^2$, state the family and whether it passes through $(0, 0)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = ax^2$, state the family and whether it passes through $(0, 0)..."},
-    "73": {"hint": "For $y = ax^3$, does the graph always pass through the origin?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = ax^3$, does the graph always pass through the origin?..."},
-    "74": {"hint": "Compare $y = x^2$ and $y = x^3$ for $x = -2$ — which gives negative $y$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Compare $y = x^2$ and $y = x^3$ for $x = -2$ — which gives negative $y..."},
-    "75": {"hint": "**True or false?** $y = k/x$ belongs to the reciprocal family for $k \\ne 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = k/x$ belongs to the reciprocal family for $k \\..."},
-    "76": {"hint": "Write one equation in each family: linear, quadratic, cubic, reciprocal.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write one equation in each family: linear, quadratic, cubic, reciproca..."},
-    "77": {"hint": "Which family: $y = 3 - 2x$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = 3 - 2x$?..."},
-    "78": {"hint": "Which family: $y = (x - 1)^2$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = (x - 1)^2$?..."},
-    "79": {"hint": "Which family: $y = x^3 + x^2$ (highest power)?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = x^3 + x^2$ (highest power)?..."},
-    "80": {"hint": "Which family: $y = \\dfrac{10}{x + 1}$ — still reciprocal type? **Yes or no** (reciprocal form in $x$).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which family: $y = \\dfrac{10}{x + 1}$ — still reciprocal type? **Yes o..."},
-    "81": {"hint": "**Always, sometimes, or never?** A cubic graph passes through the origin.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** A cubic graph passes through the orig..."},
-    "82": {"hint": "**True or false?** Linear and quadratic graphs can both have $y$-intercepts.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Linear and quadratic graphs can both have $y$-inter..."},
-    "83": {"hint": "Priya says $y = x^4 + 2$ is quadratic because it has a power. Correct her using highest power rule.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Priya says $y = x^4 + 2$ is quadratic because it has a power. Correct ..."},
-    "84": {"hint": "**True or false?** Reciprocal graphs never cross the axes.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Reciprocal graphs never cross the axes...."},
-    "85": {"hint": "**Always, sometimes, or never?** $y = mx + c$ and $y = ax^2 + c$ are the same family.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** $y = mx + c$ and $y = ax^2 + c$ are t..."},
-    "86": {"hint": "**True or false?** $y = -x^2$ is a quadratic family member.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = -x^2$ is a quadratic family member...."},
-    "87": {"hint": "**True or false?** $y = 1/x$ and $y = 2/x$ have the same graph shape, scaled.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = 1/x$ and $y = 2/x$ have the same graph shape, ..."},
-    "88": {"hint": "**Always, sometimes, or never?** A straight line is a linear graph.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** A straight line is a linear graph...."},
-    "89": {"hint": "**True or false?** $y = x^3$ increases faster than $y = x^2$ for large positive $x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = x^3$ increases faster than $y = x^2$ for large..."},
-    "90": {"hint": "Mo says $y = 5/x$ looks like a straight line if you zoom in. Do you agree? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Mo says $y = 5/x$ looks like a straight line if you zoom in. Do you ag..."},
-    "91": {"hint": "**True or false?** Horizontal lines $y = k$ are linear.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Horizontal lines $y = k$ are linear...."},
-    "92": {"hint": "**Always, sometimes, or never?** Quadratic graphs are symmetric.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** Quadratic graphs are symmetric...."},
-    "93": {"hint": "**True or false?** $y = x^2 + x^3$ is a cubic family graph.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = x^2 + x^3$ is a cubic family graph...."},
-    "94": {"hint": "**True or false?** Reciprocal graphs have equations with $x$ in the denominator.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Reciprocal graphs have equations with $x$ in the de..."},
-    "95": {"hint": "**Always, sometimes, or never?** $y = ax^2$ and $y = ax^2 + 1$ are both quadratics.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** $y = ax^2$ and $y = ax^2 + 1$ are bot..."},
-    "96": {"hint": "**True or false?** A table that curves could be quadratic or cubic.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** A table that curves could be quadratic or cubic...."},
-    "97": {"hint": "**True or false?** $y = 0$ is a linear graph (horizontal line).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = 0$ is a linear graph (horizontal line)...."},
-    "98": {"hint": "**Always, sometimes, or never?** Linear graphs have constant first differences in tables.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** Linear graphs have constant first dif..."},
-    "99": {"hint": "**True or false?** $y = x^3$ can take negative and positive values.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = x^3$ can take negative and positive values...."},
-    "100": {"hint": "**Always, sometimes, or never?** Reciprocal and linear graphs intersect at most twice in simple cases.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** Reciprocal and linear graphs intersec..."},
-    "101": {"hint": "A scientist picks a cubic model for rapid growth. Write a sample equation.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A scientist picks a cubic model for rapid growth. Write a sample equat..."},
-    "102": {"hint": "A hyperbola-style graph fits $y = 100/x$. Find $y$ when $x = 5$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A hyperbola-style graph fits $y = 100/x$. Find $y$ when $x = 5$...."},
-    "103": {"hint": "A parabolic arch uses $y = x^2 + 2$. Find $y$ when $x = 3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A parabolic arch uses $y = x^2 + 2$. Find $y$ when $x = 3$...."},
-    "104": {"hint": "A straight cost line $y = 3x + 10$. Find $y$ when $x = 6$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A straight cost line $y = 3x + 10$. Find $y$ when $x = 6$...."},
-    "105": {"hint": "Match data: straight line pattern → which family?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Match data: straight line pattern → which family?..."},
-    "106": {"hint": "Match data: single turning point U-shape → which family?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Match data: single turning point U-shape → which family?..."},
-    "107": {"hint": "Match data: S-shaped through origin → which family?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Match data: S-shaped through origin → which family?..."},
-    "108": {"hint": "Match data: falls sharply near $x = 0$ without touching → which family?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Match data: falls sharply near $x = 0$ without touching → which family..."},
-    "109": {"hint": "**Stretch:** Sort: $y = 2x$, $y = x^2$, $y = x^3$, $y = 4/x$ into four families.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Sort: $y = 2x$, $y = x^2$, $y = x^3$, $y = 4/x$ into four..."},
-    "110": {"hint": "**Stretch:** Which family could model area of square side $x$: $y = x^2$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Which family could model area of square side $x$: $y = x^..."},
-    "111": {"hint": "**Stretch:** Which family could model $y = k/x$ inverse proportion?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Which family could model $y = k/x$ inverse proportion?..."},
-    "112": {"hint": "**Stretch:** Write a cubic that passes through $(0, 0)$, $(1, 1)$, $(2, 8)$ — check $y = x^3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write a cubic that passes through $(0, 0)$, $(1, 1)$, $(2..."},
-    "113": {"hint": "**Stretch:** Explain one difference between quadratic and cubic for large $x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Explain one difference between quadratic and cubic for la..."},
-    "114": {"hint": "**Stretch:** Give an equation for a quadratic with turning point $(0, 4)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Give an equation for a quadratic with turning point $(0, ..."},
-    "115": {"hint": "**Stretch:** Give an equation for a linear graph through $(0, -2)$ with gradient 5.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Give an equation for a linear graph through $(0, -2)$ wit..."},
-    "116": {"hint": "**Stretch:** **True or false?** $y = 1/x^2$ is still a reciprocal-type rational graph.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = 1/x^2$ is still a reciprocal-type..."},
-    "117": {"hint": "**Stretch:** Identify family of $y = -5x + 20$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Identify family of $y = -5x + 20$...."},
-    "118": {"hint": "**Stretch:** Identify family of $y = 3x^2 - 12x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Identify family of $y = 3x^2 - 12x$...."},
-    "119": {"hint": "**Stretch:** Identify family of $y = x^3 - 8$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Identify family of $y = x^3 - 8$...."},
-    "120": {"hint": "**Stretch:** Identify family of $y = \\dfrac{15}{x}$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Identify family of $y = \\dfrac{15}{x}$...."},
-    "121": {"hint": "**Stretch:** Which graph family always passes through $(0, c)$ for $y = mx + c$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Which graph family always passes through $(0, c)$ for $y ..."},
-    "122": {"hint": "**Stretch:** Which family can model a ball's height over time (parabolic arc)?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Which family can model a ball's height over time (parabol..."},
-    "123": {"hint": "**Stretch:** Which family models fixed speed distance over time?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Which family models fixed speed distance over time?..."},
-    "124": {"hint": "**Stretch:** **Always, sometimes, or never?** Cubic graphs have at least one real $x$-value with $y = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Cubic graphs have at lea..."},
-    "125": {"hint": "**Stretch:** Compare $y = x^2$ and $y = -x^2$ — same family? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare $y = x^2$ and $y = -x^2$ — same family? **Yes or ..."},
-    "126": {"hint": "**Stretch:** Write reciprocal with $y = 6$ when $x = 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write reciprocal with $y = 6$ when $x = 2$...."},
-    "127": {"hint": "**Stretch:** Write linear with gradient 2 through $(0, 1)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write linear with gradient 2 through $(0, 1)$...."},
-    "128": {"hint": "**Stretch:** Write quadratic with turning point $(0, 0)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write quadratic with turning point $(0, 0)$...."},
-    "129": {"hint": "**Stretch:** Write cubic through origin with $y = 8$ when $x = 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write cubic through origin with $y = 8$ when $x = 2$...."},
-    "130": {"hint": "**Stretch:** **True or false?** $y = ax + b$ and $y = ax^2 + b$ share the same $y$-intercept when $x = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = ax + b$ and $y = ax^2 + b$ share ..."},
-    "131": {"hint": "**Stretch:** Name the family with equation $x = 7$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Name the family with equation $x = 7$...."},
-    "132": {"hint": "**Stretch:** Name the family with equation $y = -2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Name the family with equation $y = -2$...."},
-    "133": {"hint": "**Stretch:** **True or false?** All quadratics are translations/reflections of $y = x^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** All quadratics are translations/reflec..."},
-    "134": {"hint": "**Stretch:** Pick the odd one out: $y = x^2$, $y = x + 2$, $y = 2/x$, $y = x^3$ — which is linear?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Pick the odd one out: $y = x^2$, $y = x + 2$, $y = 2/x$, ..."},
-    "135": {"hint": "**Stretch:** Pick the odd one out for reciprocal: $y = 1/x$, $y = 2x$, $y = 3/x$, $y = -5/x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Pick the odd one out for reciprocal: $y = 1/x$, $y = 2x$,..."},
-    "136": {"hint": "**Stretch:** Describe in words the shape of $y = x^3$ for $x \\ge 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Describe in words the shape of $y = x^3$ for $x \\ge 0$...."},
-    "137": {"hint": "**Stretch:** Describe in words the shape of $y = 1/x$ for $x > 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Describe in words the shape of $y = 1/x$ for $x > 0$...."},
-    "138": {"hint": "**Stretch:** **Always, sometimes, or never?** Linear graphs appear as straight lines on a grid.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Linear graphs appear as ..."},
-    "139": {"hint": "**Stretch:** **True or false?** $y = x^2 + x$ is linear because of the $x$ term.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = x^2 + x$ is linear because of the..."},
-    "140": {"hint": "**Stretch:** Identify highest power in $y = 5x^3 - x^2 + 7$ and state family.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Identify highest power in $y = 5x^3 - x^2 + 7$ and state ..."},
-    "141": {"hint": "**Stretch:** Identify highest power in $y = 9 - 4x$ and state family.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Identify highest power in $y = 9 - 4x$ and state family...."},
-    "142": {"hint": "**Stretch:** **True or false?** Reciprocal graphs can have points with negative $x$ and negative $y$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Reciprocal graphs can have points with..."},
-    "143": {"hint": "**Stretch:** Write a linear equation with negative gradient.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write a linear equation with negative gradient...."},
-    "144": {"hint": "**Stretch:** Write a quadratic opening downward.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write a quadratic opening downward...."},
-    "145": {"hint": "**Stretch:** Write a cubic with positive leading coefficient.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write a cubic with positive leading coefficient...."},
-    "146": {"hint": "**Stretch:** Write a reciprocal with positive $k$ in $y = k/x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write a reciprocal with positive $k$ in $y = k/x$...."},
-    "147": {"hint": "**Stretch:** **Always, sometimes, or never?** $y = mx$ is linear through the origin.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** $y = mx$ is linear throu..."},
-    "148": {"hint": "**Stretch:** Compare families for $y = 2^x$ — is it on this GCSE family list? Answer **not listed** (exponential).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare families for $y = 2^x$ — is it on this GCSE famil..."},
-    "149": {"hint": "**Stretch:** A student plots $y = x^2$ and $y = x^3$ on the same axes. Which is steeper near $x = 2$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A student plots $y = x^2$ and $y = x^3$ on the same axes...."},
-    "150": {"hint": "**Stretch:** **True or false?** $y = 0/x$ is undefined as a reciprocal at $x = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = 0/x$ is undefined as a reciprocal..."},
-    "151": {"hint": "**Stretch:** Match story: price fixed per item plus delivery fee → family?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Match story: price fixed per item plus delivery fee → fam..."},
-    "152": {"hint": "**Stretch:** Match story: area of circle not required — area of square side $x$ → family?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Match story: area of circle not required — area of square..."},
-    "153": {"hint": "**Stretch:** Match story: people sharing a fixed cake equally with group size $x$ → inverse idea → family?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Match story: people sharing a fixed cake equally with gro..."},
-    "154": {"hint": "**Stretch:** **Always, sometimes, or never?** Two linear graphs can be identical.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Two linear graphs can be..."},
-    "155": {"hint": "**Stretch:** **True or false?** $y = x^2 - 4x + 4$ is quadratic.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = x^2 - 4x + 4$ is quadratic...."},
-    "156": {"hint": "**Stretch:** **True or false?** $y = 3/x + 2$ is still reciprocal family (shifted).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = 3/x + 2$ is still reciprocal fami..."},
-    "157": {"hint": "**Stretch:** Identify family: $y = |x|$ — **not** one of the four core; answer **other**.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Identify family: $y = |x|$ — **not** one of the four core..."},
-    "158": {"hint": "**Stretch:** Sort graphs by family count: how many of linear/quadratic/cubic/reciprocal appear in $y = x^2 + 3x + 1/x$? **Not a single family** — write **mixed/not one family**.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Sort graphs by family count: how many of linear/quadratic..."},
-    "159": {"hint": "**Stretch:** Write cubic with $y = -8$ when $x = -2$ on $y = x^3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write cubic with $y = -8$ when $x = -2$ on $y = x^3$...."},
-    "160": {"hint": "**Stretch:** Write quadratic with $y = 0$ at $x = 3$ only (touch) $(x - 3)^2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write quadratic with $y = 0$ at $x = 3$ only (touch) $(x ..."},
-    "161": {"hint": "**Stretch:** **True or false?** Horizontal lines have equations $y = k$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Horizontal lines have equations $y = k..."},
-    "162": {"hint": "**Stretch:** **True or false?** Vertical lines belong to the linear family in a broad sense ($x = k$).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Vertical lines belong to the linear fa..."},
-    "163": {"hint": "**Stretch:** Give coordinates on $y = 1/x$ with $y = 0.25$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Give coordinates on $y = 1/x$ with $y = 0.25$...."},
-    "164": {"hint": "**Stretch:** Give coordinates on $y = 2x + 4$ with $x = 5$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Give coordinates on $y = 2x + 4$ with $x = 5$...."},
-    "165": {"hint": "**Stretch:** **Always, sometimes, or never?** Reciprocal graphs avoid $x = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Reciprocal graphs avoid ..."},
-    "166": {"hint": "**Stretch:** **True or false?** $y = ax^2 + bx + c$ is always quadratic even if $a = 0$ (then linear special case).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = ax^2 + bx + c$ is always quadrati..."},
-    "167": {"hint": "**Stretch:** Archer sorts graphs into folders. Where does $y = -x^2 + 1$ go?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer sorts graphs into folders. Where does $y = -x^2 + ..."},
-    "168": {"hint": "**Stretch:** Where does $y = x^3 + 1$ go?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Where does $y = x^3 + 1$ go?..."},
-    "169": {"hint": "**Stretch:** Where does $y = 6/x$ go?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Where does $y = 6/x$ go?..."},
-    "170": {"hint": "**Stretch:** Where does $y = 12 - 3x$ go?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Where does $y = 12 - 3x$ go?..."},
-    "171": {"hint": "**Stretch:** **True or false?** Cubic graphs can fall for some $x$ values.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Cubic graphs can fall for some $x$ val..."},
-    "172": {"hint": "**Stretch:** **True or false?** Linear graphs cannot curve.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Linear graphs cannot curve...."},
-    "173": {"hint": "**Stretch:** Write a table of three points on $y = x^2$ (choose $x$ values).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write a table of three points on $y = x^2$ (choose $x$ va..."},
-    "174": {"hint": "**Stretch:** Write a table of three points on $y = 2x + 1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write a table of three points on $y = 2x + 1$...."},
-    "175": {"hint": "**Stretch:** **Always, sometimes, or never?** Quadratic and linear graphs intersect.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Quadratic and linear gra..."},
-    "176": {"hint": "**Stretch:** **True or false?** $y = k/x$ has rotational symmetry idea in quadrants.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = k/x$ has rotational symmetry idea..."},
-    "177": {"hint": "**Stretch:** Compare $y = x^2$ and $y = x^2 + 1000$ — same family and shape?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare $y = x^2$ and $y = x^2 + 1000$ — same family and ..."},
-    "178": {"hint": "**Stretch:** **True or false?** $y = x^3 - x$ is cubic.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = x^3 - x$ is cubic...."},
-    "179": {"hint": "**Stretch:** Name the family best for modelling constant speed.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Name the family best for modelling constant speed...."},
-    "180": {"hint": "**Stretch:** Name the family best for modelling a parabolic water jet.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Name the family best for modelling a parabolic water jet...."},
-    "181": {"hint": "**Stretch:** **Always, sometimes, or never?** Reciprocal graphs appear in two quadrants for $y = 1/x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Reciprocal graphs appear..."},
-    "182": {"hint": "**Stretch:** Write linear with $x$-intercept 5 and $y$-intercept 0.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write linear with $x$-intercept 5 and $y$-intercept 0...."},
-    "183": {"hint": "**Stretch:** Write quadratic with $x$-intercepts $\\pm 2$ on $y = x^2 - 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write quadratic with $x$-intercepts $\\pm 2$ on $y = x^2 -..."},
-    "184": {"hint": "**Stretch:** **True or false?** $y = 0$ is horizontal linear.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = 0$ is horizontal linear...."},
-    "185": {"hint": "**Stretch:** Pick family for $y = \\dfrac{x^2 + 1}{x}$ — **not single family** / rational beyond scope.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Pick family for $y = \\dfrac{x^2 + 1}{x}$ — **not single f..."},
-    "186": {"hint": "**Stretch:** **True or false?** $y = x^2$ and $y = x^3$ both pass through $(1, 1)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = x^2$ and $y = x^3$ both pass thro..."},
-    "187": {"hint": "**Stretch:** Write reciprocal through $(2, 5)$: $y = 10/x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write reciprocal through $(2, 5)$: $y = 10/x$...."},
-    "188": {"hint": "**Stretch:** Write linear through $(0, 3)$ and $(2, 7)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write linear through $(0, 3)$ and $(2, 7)$...."},
-    "189": {"hint": "**Stretch:** **Always, sometimes, or never?** Cubic term dominates for large $|x|$ in $y = x^3 + x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Cubic term dominates for..."},
-    "190": {"hint": "**Stretch:** **True or false?** Graph families help pick a model before plotting.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Graph families help pick a model befor..."},
-    "191": {"hint": "**Stretch:** A data set is U-shaped. Quadratic or cubic?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A data set is U-shaped. Quadratic or cubic?..."},
-    "192": {"hint": "**Stretch:** A data set rises quickly then levels — not linear; suggest quadratic or cubic?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A data set rises quickly then levels — not linear; sugges..."},
-    "193": {"hint": "**Stretch:** **True or false?** $y = -3x + 2$ is linear with negative gradient.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = -3x + 2$ is linear with negative ..."},
-    "194": {"hint": "**Stretch:** **True or false?** $y = x^2 + 2x + 1$ is quadratic.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y = x^2 + 2x + 1$ is quadratic...."},
-    "195": {"hint": "**Stretch:** Write one sentence linking family name to graph shape for quadratics.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write one sentence linking family name to graph shape for..."},
-    "196": {"hint": "**Stretch:** Write one sentence linking family name to graph shape for reciprocals.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write one sentence linking family name to graph shape for..."},
-    "197": {"hint": "**Stretch:** **Always, sometimes, or never?** $y = ax + b$ graphs are straight lines when plotted.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** $y = ax + b$ graphs are ..."},
-    "198": {"hint": "**Stretch:** Sort: which family can have no turning point? (linear / quadratic / cubic / reciprocal)", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Sort: which family can have no turning point? (linear / q..."},
-    "199": {"hint": "**Stretch:** Archer says cubics always cross the $x$-axis three times. Counterexample sketch idea in words for $y = x^3 + 1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer says cubics always cross the $x$-axis three times...."},
-    "200": {"hint": "**Stretch:** Choose a family for each: (a) fixed cost per month $y = 15$, (b) area $y = x^2$, (c) sharing $y = 24/x$, (d) growth $y = x^3$ — name all four families.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Choose a family for each: (a) fixed cost per month $y = 1..."}
+    "45": {
+      "hint": "Which family: $y = 7x - 2$? (linear / quadratic / cubic / reciprocal)",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = 7x - 2? (linear / quadratic / cubic / reciprocal)\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = 7x - 2$? (linear / quadratic / cubic / reciprocal)..."
+    },
+    "46": {
+      "hint": "Which family: $y = x^2 + 5$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = x^2 + 5?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = x^2 + 5$?..."
+    },
+    "47": {
+      "hint": "Which family: $y = x^3 - x$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = x^3 - x?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = x^3 - x$?..."
+    },
+    "48": {
+      "hint": "Which family: $y = \\dfrac{12}{x}$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = \\dfrac{12}{x}?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = \\dfrac{12}{x}$?..."
+    },
+    "49": {
+      "hint": "Which family: $y = -3x + 1$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = -3x + 1?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = -3x + 1$?..."
+    },
+    "50": {
+      "hint": "Which family: $y = 2x^2$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = 2x^2?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = 2x^2$?..."
+    },
+    "51": {
+      "hint": "State the family of $y = 5$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: State the family of y = 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: State the family of $y = 5$...."
+    },
+    "52": {
+      "hint": "State the family of $x = -4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: State the family of x = -4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: State the family of $x = -4$...."
+    },
+    "53": {
+      "hint": "Does a linear graph have a constant gradient? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Does a linear graph have a constant gradient? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Does a linear graph have a constant gradient? **Yes or no.**..."
+    },
+    "54": {
+      "hint": "Does a quadratic graph always have one turning point? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Does a quadratic graph always have one turning point? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Does a quadratic graph always have one turning point? **Yes or no.**..."
+    },
+    "55": {
+      "hint": "Does $y = x^3$ pass through the origin? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Does y = x^3 pass through the origin? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Does $y = x^3$ pass through the origin? **Yes or no.**..."
+    },
+    "56": {
+      "hint": "Can $y = \\dfrac{5}{x}$ be defined at $x = 0$? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Can y = \\dfrac{5}{x} be defined at x = 0? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Can $y = \\dfrac{5}{x}$ be defined at $x = 0$? **Yes or no.**..."
+    },
+    "57": {
+      "hint": "Complete: $y = x^3$ when $x = 2$, $y = $ ___",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Complete: y = x^3 when x = 2, y = ___\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Complete: $y = x^3$ when $x = 2$, $y = $ ___..."
+    },
+    "58": {
+      "hint": "Complete: $y = \\dfrac{8}{x}$ when $x = 2$, $y = $ ___",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Complete: y = \\dfrac{8}{x} when x = 2, y = ___\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Complete: $y = \\dfrac{8}{x}$ when $x = 2$, $y = $ ___..."
+    },
+    "59": {
+      "hint": "Which family makes a U-shape (when $a > 0$ in $y = ax^2 + c$)?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family makes a U-shape (when a > 0 in y = ax^2 + c)?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family makes a U-shape (when $a > 0$ in $y = ax^2 + c$)?..."
+    },
+    "60": {
+      "hint": "Which family can have both positive and negative $y$ values for negative $x$ in $y = x^3$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family can have both positive and negative y values for negative x in y = x^3?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family can have both positive and negative $y$ values for negati..."
+    },
+    "61": {
+      "hint": "Match: $y = -x^2$ — opening up or down?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Match: y = -x^2 — opening up or down?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Match: $y = -x^2$ — opening up or down?..."
+    },
+    "62": {
+      "hint": "Match: $y = x^3$ — always increasing for all $x$? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Match: y = x^3 — always increasing for all x? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Match: $y = x^3$ — always increasing for all $x$? **Yes or no.**..."
+    },
+    "63": {
+      "hint": "Which family: $y = 0.5x + 9$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = 0.5x + 9?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = 0.5x + 9$?..."
+    },
+    "64": {
+      "hint": "Which family: $y = x^2 - x$ (highest power decides)?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = x^2 - x (highest power decides)?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = x^2 - x$ (highest power decides)?..."
+    },
+    "65": {
+      "hint": "**True or false?** $y = \\dfrac{1}{x}$ graphs have two separate branches.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? y = \\dfrac{1}{x} graphs have two separate branches.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = \\dfrac{1}{x}$ graphs have two separate branche..."
+    },
+    "66": {
+      "hint": "Identify family: $y = 4x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Identify family: y = 4x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Identify family: $y = 4x$...."
+    },
+    "67": {
+      "hint": "Identify family: $y = x^2 + 1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Identify family: y = x^2 + 1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Identify family: $y = x^2 + 1$...."
+    },
+    "68": {
+      "hint": "Identify family: $y = x^3 + 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Identify family: y = x^3 + 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Identify family: $y = x^3 + 2$...."
+    },
+    "69": {
+      "hint": "Identify family: $y = \\dfrac{-6}{x}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Identify family: y = \\dfrac{-6}{x}.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Identify family: $y = \\dfrac{-6}{x}$...."
+    },
+    "70": {
+      "hint": "Which has a vertical asymptote idea at $x = 0$: reciprocal or linear?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which has a vertical asymptote idea at x = 0: reciprocal or linear?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which has a vertical asymptote idea at $x = 0$: reciprocal or linear?..."
+    },
+    "71": {
+      "hint": "Which has a turning point: $y = 2x + 3$ or $y = 2x^2 + 3$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which has a turning point: y = 2x + 3 or y = 2x^2 + 3?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which has a turning point: $y = 2x + 3$ or $y = 2x^2 + 3$?..."
+    },
+    "72": {
+      "hint": "For $y = ax^2$, state the family and whether it passes through $(0, 0)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: For y = ax^2, state the family and whether it passes through (0, 0).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = ax^2$, state the family and whether it passes through $(0, 0)..."
+    },
+    "73": {
+      "hint": "For $y = ax^3$, does the graph always pass through the origin?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: For y = ax^3, does the graph always pass through the origin?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = ax^3$, does the graph always pass through the origin?..."
+    },
+    "74": {
+      "hint": "Compare $y = x^2$ and $y = x^3$ for $x = -2$ — which gives negative $y$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Compare y = x^2 and y = x^3 for x = -2 — which gives negative y?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Compare $y = x^2$ and $y = x^3$ for $x = -2$ — which gives negative $y..."
+    },
+    "75": {
+      "hint": "**True or false?** $y = k/x$ belongs to the reciprocal family for $k \\ne 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? y = k/x belongs to the reciprocal family for k \\ne 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = k/x$ belongs to the reciprocal family for $k \\..."
+    },
+    "76": {
+      "hint": "Write one equation in each family: linear, quadratic, cubic, reciprocal.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Write one equation in each family: linear, quadratic, cubic, reciprocal.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write one [equation](mtlearn:word/equation) in each family: linear, quadratic, cubic, reciproca..."
+    },
+    "77": {
+      "hint": "Which family: $y = 3 - 2x$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = 3 - 2x?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = 3 - 2x$?..."
+    },
+    "78": {
+      "hint": "Which family: $y = (x - 1)^2$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = (x - 1)^2?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = (x - 1)^2$?..."
+    },
+    "79": {
+      "hint": "Which family: $y = x^3 + x^2$ (highest power)?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = x^3 + x^2 (highest power)?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = x^3 + x^2$ (highest power)?..."
+    },
+    "80": {
+      "hint": "Which family: $y = \\dfrac{10}{x + 1}$ — still reciprocal type? **Yes or no** (reciprocal form in $x$).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Which family: y = \\dfrac{10}{x + 1} — still reciprocal type? Yes or no (reciprocal form in x).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which family: $y = \\dfrac{10}{x + 1}$ — still reciprocal type? **Yes o..."
+    },
+    "81": {
+      "hint": "**Always, sometimes, or never?** A cubic graph passes through the origin.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Always, sometimes, or never? A cubic graph passes through the origin.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** A cubic graph passes through the orig..."
+    },
+    "82": {
+      "hint": "**True or false?** Linear and quadratic graphs can both have $y$-intercepts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? Linear and quadratic graphs can both have y-intercepts.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** Linear and quadratic graphs can both have $y$-inter..."
+    },
+    "83": {
+      "hint": "Priya says $y = x^4 + 2$ is quadratic because it has a power. Correct her using highest power rule.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Priya says y = x^4 + 2 is quadratic because it has a power. Correct her using highest power rule.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Priya says $y = x^4 + 2$ is quadratic because it has a power. Correct ..."
+    },
+    "84": {
+      "hint": "**True or false?** Reciprocal graphs never cross the axes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? Reciprocal graphs never cross the axes.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** Reciprocal graphs never cross the axes...."
+    },
+    "85": {
+      "hint": "**Always, sometimes, or never?** $y = mx + c$ and $y = ax^2 + c$ are the same family.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Always, sometimes, or never? y = mx + c and y = ax^2 + c are the same family.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** $y = mx + c$ and $y = ax^2 + c$ are t..."
+    },
+    "86": {
+      "hint": "**True or false?** $y = -x^2$ is a quadratic family member.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? y = -x^2 is a quadratic family member.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = -x^2$ is a quadratic family member...."
+    },
+    "87": {
+      "hint": "**True or false?** $y = 1/x$ and $y = 2/x$ have the same graph shape, scaled.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? y = 1/x and y = 2/x have the same graph shape, scaled.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = 1/x$ and $y = 2/x$ have the same graph shape, ..."
+    },
+    "88": {
+      "hint": "**Always, sometimes, or never?** A straight line is a linear graph.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Always, sometimes, or never? A straight line is a linear graph.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** A straight line is a linear graph...."
+    },
+    "89": {
+      "hint": "**True or false?** $y = x^3$ increases faster than $y = x^2$ for large positive $x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? y = x^3 increases faster than y = x^2 for large positive x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = x^3$ increases faster than $y = x^2$ for large..."
+    },
+    "90": {
+      "hint": "Mo says $y = 5/x$ looks like a straight line if you zoom in. Do you agree? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Mo says y = 5/x looks like a straight line if you zoom in. Do you agree? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Mo says $y = 5/x$ looks like a straight line if you zoom in. Do you ag..."
+    },
+    "91": {
+      "hint": "**True or false?** Horizontal lines $y = k$ are linear.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? Horizontal lines y = k are linear.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** Horizontal lines $y = k$ are linear...."
+    },
+    "92": {
+      "hint": "**Always, sometimes, or never?** Quadratic graphs are symmetric.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Always, sometimes, or never? Quadratic graphs are symmetric.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** Quadratic graphs are symmetric...."
+    },
+    "93": {
+      "hint": "**True or false?** $y = x^2 + x^3$ is a cubic family graph.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? y = x^2 + x^3 is a cubic family graph.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = x^2 + x^3$ is a cubic family graph...."
+    },
+    "94": {
+      "hint": "**True or false?** Reciprocal graphs have equations with $x$ in the denominator.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? Reciprocal graphs have equations with x in the denominator.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** Reciprocal graphs have [equations](mtlearn:word/equation) with $x$ in the de..."
+    },
+    "95": {
+      "hint": "**Always, sometimes, or never?** $y = ax^2$ and $y = ax^2 + 1$ are both quadratics.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Always, sometimes, or never? y = ax^2 and y = ax^2 + 1 are both quadratics.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** $y = ax^2$ and $y = ax^2 + 1$ are bot..."
+    },
+    "96": {
+      "hint": "**True or false?** A table that curves could be quadratic or cubic.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? A table that curves could be quadratic or cubic.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** A table that curves could be quadratic or cubic...."
+    },
+    "97": {
+      "hint": "**True or false?** $y = 0$ is a linear graph (horizontal line).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? y = 0 is a linear graph (horizontal line).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = 0$ is a linear graph (horizontal line)...."
+    },
+    "98": {
+      "hint": "**Always, sometimes, or never?** Linear graphs have constant first differences in tables.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Always, sometimes, or never? Linear graphs have constant first differences in tables.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** Linear graphs have constant first dif..."
+    },
+    "99": {
+      "hint": "**True or false?** $y = x^3$ can take negative and positive values.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: True or false? y = x^3 can take negative and positive values.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = x^3$ can take negative and positive values...."
+    },
+    "100": {
+      "hint": "**Always, sometimes, or never?** Reciprocal and linear graphs intersect at most twice in simple cases.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Always, sometimes, or never? Reciprocal and linear graphs intersect at most twice in simple cases.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** Reciprocal and linear graphs intersec..."
+    },
+    "101": {
+      "hint": "A scientist picks a cubic model for rapid growth. Write a sample equation.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: A scientist picks a cubic model for rapid growth. Write a sample equation.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A scientist picks a cubic model for rapid growth. Write a sample equat..."
+    },
+    "102": {
+      "hint": "A hyperbola-style graph fits $y = 100/x$. Find $y$ when $x = 5$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: A hyperbola-style graph fits y = 100/x. Find y when x = 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A hyperbola-style graph fits $y = 100/x$. Find $y$ when $x = 5$...."
+    },
+    "103": {
+      "hint": "A parabolic arch uses $y = x^2 + 2$. Find $y$ when $x = 3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: A parabolic arch uses y = x^2 + 2. Find y when x = 3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A parabolic arch uses $y = x^2 + 2$. Find $y$ when $x = 3$...."
+    },
+    "104": {
+      "hint": "A straight cost line $y = 3x + 10$. Find $y$ when $x = 6$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: A straight cost line y = 3x + 10. Find y when x = 6.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A straight cost line $y = 3x + 10$. Find $y$ when $x = 6$...."
+    },
+    "105": {
+      "hint": "Match data: straight line pattern → which family?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Match data: straight line pattern → which family?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Match data: straight line pattern → which family?..."
+    },
+    "106": {
+      "hint": "Match data: single turning point U-shape → which family?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Match data: single turning point U-shape → which family?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Match data: single turning point U-shape → which family?..."
+    },
+    "107": {
+      "hint": "Match data: S-shaped through origin → which family?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Match data: S-shaped through origin → which family?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Match data: S-shaped through origin → which family?..."
+    },
+    "108": {
+      "hint": "Match data: falls sharply near $x = 0$ without touching → which family?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Match data: falls sharply near x = 0 without touching → which family?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Match data: falls sharply near $x = 0$ without touching → which family..."
+    },
+    "109": {
+      "hint": "**Stretch:** Sort: $y = 2x$, $y = x^2$, $y = x^3$, $y = 4/x$ into four families.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Sort: y = 2x, y = x^2, y = x^3, y = 4/x into four families.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Sort: $y = 2x$, $y = x^2$, $y = x^3$, $y = 4/x$ into four..."
+    },
+    "110": {
+      "hint": "**Stretch:** Which family could model area of square side $x$: $y = x^2$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Which family could model area of square side x: y = x^2?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Which family could model area of square side $x$: $y = x^..."
+    },
+    "111": {
+      "hint": "**Stretch:** Which family could model $y = k/x$ inverse proportion?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Which family could model y = k/x inverse proportion?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Which family could model $y = k/x$ inverse proportion?..."
+    },
+    "112": {
+      "hint": "**Stretch:** Write a cubic that passes through $(0, 0)$, $(1, 1)$, $(2, 8)$ — check $y = x^3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write a cubic that passes through (0, 0), (1, 1), (2, 8) — check y = x^3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write a cubic that passes through $(0, 0)$, $(1, 1)$, $(2..."
+    },
+    "113": {
+      "hint": "**Stretch:** Explain one difference between quadratic and cubic for large $x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Explain one difference between quadratic and cubic for large x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Explain one difference between quadratic and cubic for la..."
+    },
+    "114": {
+      "hint": "**Stretch:** Give an equation for a quadratic with turning point $(0, 4)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Give an equation for a quadratic with turning point (0, 4).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Give an [equation](mtlearn:word/equation) for a quadratic with turning point $(0, ..."
+    },
+    "115": {
+      "hint": "**Stretch:** Give an equation for a linear graph through $(0, -2)$ with gradient 5.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Give an equation for a linear graph through (0, -2) with gradient 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Give an [equation](mtlearn:word/equation) for a linear graph through $(0, -2)$ wit..."
+    },
+    "116": {
+      "hint": "**Stretch:** **True or false?** $y = 1/x^2$ is still a reciprocal-type rational graph.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = 1/x^2 is still a reciprocal-type rational graph.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = 1/x^2$ is still a reciprocal-type..."
+    },
+    "117": {
+      "hint": "**Stretch:** Identify family of $y = -5x + 20$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Identify family of y = -5x + 20.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Identify family of $y = -5x + 20$...."
+    },
+    "118": {
+      "hint": "**Stretch:** Identify family of $y = 3x^2 - 12x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Identify family of y = 3x^2 - 12x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Identify family of $y = 3x^2 - 12x$...."
+    },
+    "119": {
+      "hint": "**Stretch:** Identify family of $y = x^3 - 8$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Identify family of y = x^3 - 8.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Identify family of $y = x^3 - 8$...."
+    },
+    "120": {
+      "hint": "**Stretch:** Identify family of $y = \\dfrac{15}{x}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Identify family of y = \\dfrac{15}{x}.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Identify family of $y = \\dfrac{15}{x}$...."
+    },
+    "121": {
+      "hint": "**Stretch:** Which graph family always passes through $(0, c)$ for $y = mx + c$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Which graph family always passes through (0, c) for y = mx + c?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Which graph family always passes through $(0, c)$ for $y ..."
+    },
+    "122": {
+      "hint": "**Stretch:** Which family can model a ball's height over time (parabolic arc)?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Which family can model a ball's height over time (parabolic arc)?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Which family can model a ball's height over time (parabol..."
+    },
+    "123": {
+      "hint": "**Stretch:** Which family models fixed speed distance over time?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Which family models fixed speed distance over time?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Which family models fixed speed distance over time?..."
+    },
+    "124": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Cubic graphs have at least one real $x$-value with $y = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Cubic graphs have at least one real x-value with y = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** Cubic graphs have at lea..."
+    },
+    "125": {
+      "hint": "**Stretch:** Compare $y = x^2$ and $y = -x^2$ — same family? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Compare y = x^2 and y = -x^2 — same family? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare $y = x^2$ and $y = -x^2$ — same family? **Yes or ..."
+    },
+    "126": {
+      "hint": "**Stretch:** Write reciprocal with $y = 6$ when $x = 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write reciprocal with y = 6 when x = 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write reciprocal with $y = 6$ when $x = 2$...."
+    },
+    "127": {
+      "hint": "**Stretch:** Write linear with gradient 2 through $(0, 1)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write linear with gradient 2 through (0, 1).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write linear with gradient 2 through $(0, 1)$...."
+    },
+    "128": {
+      "hint": "**Stretch:** Write quadratic with turning point $(0, 0)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write quadratic with turning point (0, 0).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write quadratic with turning point $(0, 0)$...."
+    },
+    "129": {
+      "hint": "**Stretch:** Write cubic through origin with $y = 8$ when $x = 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write cubic through origin with y = 8 when x = 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write cubic through origin with $y = 8$ when $x = 2$...."
+    },
+    "130": {
+      "hint": "**Stretch:** **True or false?** $y = ax + b$ and $y = ax^2 + b$ share the same $y$-intercept when $x = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = ax + b and y = ax^2 + b share the same y-intercept when x = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = ax + b$ and $y = ax^2 + b$ share ..."
+    },
+    "131": {
+      "hint": "**Stretch:** Name the family with equation $x = 7$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Name the family with equation x = 7.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Name the family with [equation](mtlearn:word/equation) $x = 7$...."
+    },
+    "132": {
+      "hint": "**Stretch:** Name the family with equation $y = -2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Name the family with equation y = -2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Name the family with [equation](mtlearn:word/equation) $y = -2$...."
+    },
+    "133": {
+      "hint": "**Stretch:** **True or false?** All quadratics are translations/reflections of $y = x^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? All quadratics are translations/reflections of y = x^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** All quadratics are translations/reflec..."
+    },
+    "134": {
+      "hint": "**Stretch:** Pick the odd one out: $y = x^2$, $y = x + 2$, $y = 2/x$, $y = x^3$ — which is linear?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Pick the odd one out: y = x^2, y = x + 2, y = 2/x, y = x^3 — which is linear?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Pick the odd one out: $y = x^2$, $y = x + 2$, $y = 2/x$, ..."
+    },
+    "135": {
+      "hint": "**Stretch:** Pick the odd one out for reciprocal: $y = 1/x$, $y = 2x$, $y = 3/x$, $y = -5/x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Pick the odd one out for reciprocal: y = 1/x, y = 2x, y = 3/x, y = -5/x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Pick the odd one out for reciprocal: $y = 1/x$, $y = 2x$,..."
+    },
+    "136": {
+      "hint": "**Stretch:** Describe in words the shape of $y = x^3$ for $x \\ge 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Describe in words the shape of y = x^3 for x \\ge 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Describe in words the shape of $y = x^3$ for $x \\ge 0$...."
+    },
+    "137": {
+      "hint": "**Stretch:** Describe in words the shape of $y = 1/x$ for $x > 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Describe in words the shape of y = 1/x for x > 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Describe in words the shape of $y = 1/x$ for $x > 0$...."
+    },
+    "138": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Linear graphs appear as straight lines on a grid.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Linear graphs appear as straight lines on a grid.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** Linear graphs appear as ..."
+    },
+    "139": {
+      "hint": "**Stretch:** **True or false?** $y = x^2 + x$ is linear because of the $x$ term.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = x^2 + x is linear because of the x term.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = x^2 + x$ is linear because of the..."
+    },
+    "140": {
+      "hint": "**Stretch:** Identify highest power in $y = 5x^3 - x^2 + 7$ and state family.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Identify highest power in y = 5x^3 - x^2 + 7 and state family.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Identify highest power in $y = 5x^3 - x^2 + 7$ and state ..."
+    },
+    "141": {
+      "hint": "**Stretch:** Identify highest power in $y = 9 - 4x$ and state family.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Identify highest power in y = 9 - 4x and state family.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Identify highest power in $y = 9 - 4x$ and state family...."
+    },
+    "142": {
+      "hint": "**Stretch:** **True or false?** Reciprocal graphs can have points with negative $x$ and negative $y$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? Reciprocal graphs can have points with negative x and negative y.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** Reciprocal graphs can have points with..."
+    },
+    "143": {
+      "hint": "**Stretch:** Write a linear equation with negative gradient.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write a linear equation with negative gradient.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write a linear [equation](mtlearn:word/equation) with negative gradient...."
+    },
+    "144": {
+      "hint": "**Stretch:** Write a quadratic opening downward.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write a quadratic opening downward.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write a quadratic opening downward...."
+    },
+    "145": {
+      "hint": "**Stretch:** Write a cubic with positive leading coefficient.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write a cubic with positive leading coefficient.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write a cubic with positive leading coefficient...."
+    },
+    "146": {
+      "hint": "**Stretch:** Write a reciprocal with positive $k$ in $y = k/x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write a reciprocal with positive k in y = k/x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write a reciprocal with positive $k$ in $y = k/x$...."
+    },
+    "147": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** $y = mx$ is linear through the origin.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? y = mx is linear through the origin.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** $y = mx$ is linear throu..."
+    },
+    "148": {
+      "hint": "**Stretch:** Compare families for $y = 2^x$ — is it on this GCSE family list? Answer **not listed** (exponential).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Compare families for y = 2^x — is it on this GCSE family list? Answer not listed (exponential).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare families for $y = 2^x$ — is it on this GCSE famil..."
+    },
+    "149": {
+      "hint": "**Stretch:** A student plots $y = x^2$ and $y = x^3$ on the same axes. Which is steeper near $x = 2$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: A student plots y = x^2 and y = x^3 on the same axes. Which is steeper near x = 2?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A student plots $y = x^2$ and $y = x^3$ on the same axes...."
+    },
+    "150": {
+      "hint": "**Stretch:** **True or false?** $y = 0/x$ is undefined as a reciprocal at $x = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = 0/x is undefined as a reciprocal at x = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = 0/x$ is undefined as a reciprocal..."
+    },
+    "151": {
+      "hint": "**Stretch:** Match story: price fixed per item plus delivery fee → family?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Match story: price fixed per item plus delivery fee → family?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Match story: price fixed per item plus delivery fee → fam..."
+    },
+    "152": {
+      "hint": "**Stretch:** Match story: area of circle not required — area of square side $x$ → family?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Match story: area of circle not required — area of square side x → family?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Match story: area of circle not required — area of square..."
+    },
+    "153": {
+      "hint": "**Stretch:** Match story: people sharing a fixed cake equally with group size $x$ → inverse idea → family?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Match story: people sharing a fixed cake equally with group size x → inverse idea → family?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Match story: people sharing a fixed cake equally with gro..."
+    },
+    "154": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Two linear graphs can be identical.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Two linear graphs can be identical.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** Two linear graphs can be..."
+    },
+    "155": {
+      "hint": "**Stretch:** **True or false?** $y = x^2 - 4x + 4$ is quadratic.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = x^2 - 4x + 4 is quadratic.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = x^2 - 4x + 4$ is quadratic...."
+    },
+    "156": {
+      "hint": "**Stretch:** **True or false?** $y = 3/x + 2$ is still reciprocal family (shifted).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = 3/x + 2 is still reciprocal family (shifted).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = 3/x + 2$ is still reciprocal fami..."
+    },
+    "157": {
+      "hint": "**Stretch:** Identify family: $y = |x|$ — **not** one of the four core; answer **other**.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Identify family: y = |x| — not one of the four core; answer other.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Identify family: $y = |x|$ — **not** one of the four core..."
+    },
+    "158": {
+      "hint": "**Stretch:** Sort graphs by family count: how many of linear/quadratic/cubic/reciprocal appear in $y = x^2 + 3x + 1/x$? **Not a single family** — write **mixed/not one family**.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Sort graphs by family count: how many of linear/quadratic/cubic/reciprocal appear in y = x^2 + 3x …\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Sort graphs by family count: how many of linear/quadratic..."
+    },
+    "159": {
+      "hint": "**Stretch:** Write cubic with $y = -8$ when $x = -2$ on $y = x^3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write cubic with y = -8 when x = -2 on y = x^3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write cubic with $y = -8$ when $x = -2$ on $y = x^3$...."
+    },
+    "160": {
+      "hint": "**Stretch:** Write quadratic with $y = 0$ at $x = 3$ only (touch) $(x - 3)^2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write quadratic with y = 0 at x = 3 only (touch) (x - 3)^2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write quadratic with $y = 0$ at $x = 3$ only (touch) $(x ..."
+    },
+    "161": {
+      "hint": "**Stretch:** **True or false?** Horizontal lines have equations $y = k$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? Horizontal lines have equations y = k.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** Horizontal lines have [equations](mtlearn:word/equation) $y = k..."
+    },
+    "162": {
+      "hint": "**Stretch:** **True or false?** Vertical lines belong to the linear family in a broad sense ($x = k$).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? Vertical lines belong to the linear family in a broad sense (x = k).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** Vertical lines belong to the linear fa..."
+    },
+    "163": {
+      "hint": "**Stretch:** Give coordinates on $y = 1/x$ with $y = 0.25$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Give coordinates on y = 1/x with y = 0.25.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Give [coordinates](mtlearn:word/coordinates) on $y = 1/x$ with $y = 0.25$...."
+    },
+    "164": {
+      "hint": "**Stretch:** Give coordinates on $y = 2x + 4$ with $x = 5$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Give coordinates on y = 2x + 4 with x = 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Give [coordinates](mtlearn:word/coordinates) on $y = 2x + 4$ with $x = 5$...."
+    },
+    "165": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Reciprocal graphs avoid $x = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Reciprocal graphs avoid x = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** Reciprocal graphs avoid ..."
+    },
+    "166": {
+      "hint": "**Stretch:** **True or false?** $y = ax^2 + bx + c$ is always quadratic even if $a = 0$ (then linear special case).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = ax^2 + bx + c is always quadratic even if a = 0 (then linear special case).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = ax^2 + bx + c$ is always quadrati..."
+    },
+    "167": {
+      "hint": "**Stretch:** Archer sorts graphs into folders. Where does $y = -x^2 + 1$ go?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Archer sorts graphs into folders. Where does y = -x^2 + 1 go?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Archer sorts graphs into folders. Where does $y = -x^2 + ..."
+    },
+    "168": {
+      "hint": "**Stretch:** Where does $y = x^3 + 1$ go?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Where does y = x^3 + 1 go?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Where does $y = x^3 + 1$ go?..."
+    },
+    "169": {
+      "hint": "**Stretch:** Where does $y = 6/x$ go?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Where does y = 6/x go?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Where does $y = 6/x$ go?..."
+    },
+    "170": {
+      "hint": "**Stretch:** Where does $y = 12 - 3x$ go?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Where does y = 12 - 3x go?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Where does $y = 12 - 3x$ go?..."
+    },
+    "171": {
+      "hint": "**Stretch:** **True or false?** Cubic graphs can fall for some $x$ values.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? Cubic graphs can fall for some x values.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** Cubic graphs can fall for some $x$ val..."
+    },
+    "172": {
+      "hint": "**Stretch:** **True or false?** Linear graphs cannot curve.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? Linear graphs cannot curve.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** Linear graphs cannot curve...."
+    },
+    "173": {
+      "hint": "**Stretch:** Write a table of three points on $y = x^2$ (choose $x$ values).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write a table of three points on y = x^2 (choose x values).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write a table of three points on $y = x^2$ (choose $x$ va..."
+    },
+    "174": {
+      "hint": "**Stretch:** Write a table of three points on $y = 2x + 1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write a table of three points on y = 2x + 1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write a table of three points on $y = 2x + 1$...."
+    },
+    "175": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Quadratic and linear graphs intersect.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Quadratic and linear graphs intersect.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** Quadratic and linear gra..."
+    },
+    "176": {
+      "hint": "**Stretch:** **True or false?** $y = k/x$ has rotational symmetry idea in quadrants.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = k/x has rotational symmetry idea in quadrants.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = k/x$ has rotational symmetry idea..."
+    },
+    "177": {
+      "hint": "**Stretch:** Compare $y = x^2$ and $y = x^2 + 1000$ — same family and shape?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Compare y = x^2 and y = x^2 + 1000 — same family and shape?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare $y = x^2$ and $y = x^2 + 1000$ — same family and ..."
+    },
+    "178": {
+      "hint": "**Stretch:** **True or false?** $y = x^3 - x$ is cubic.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = x^3 - x is cubic.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = x^3 - x$ is cubic...."
+    },
+    "179": {
+      "hint": "**Stretch:** Name the family best for modelling constant speed.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Name the family best for modelling constant speed.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Name the family best for modelling constant speed...."
+    },
+    "180": {
+      "hint": "**Stretch:** Name the family best for modelling a parabolic water jet.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Name the family best for modelling a parabolic water jet.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Name the family best for modelling a parabolic water jet...."
+    },
+    "181": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Reciprocal graphs appear in two quadrants for $y = 1/x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Reciprocal graphs appear in two quadrants for y = 1/x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** Reciprocal graphs appear..."
+    },
+    "182": {
+      "hint": "**Stretch:** Write linear with $x$-intercept 5 and $y$-intercept 0.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write linear with x-intercept 5 and y-intercept 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write linear with $x$-intercept 5 and $y$-intercept 0...."
+    },
+    "183": {
+      "hint": "**Stretch:** Write quadratic with $x$-intercepts $\\pm 2$ on $y = x^2 - 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write quadratic with x-intercepts \\pm 2 on y = x^2 - 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write quadratic with $x$-intercepts $\\pm 2$ on $y = x^2 -..."
+    },
+    "184": {
+      "hint": "**Stretch:** **True or false?** $y = 0$ is horizontal linear.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = 0 is horizontal linear.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = 0$ is horizontal linear...."
+    },
+    "185": {
+      "hint": "**Stretch:** Pick family for $y = \\dfrac{x^2 + 1}{x}$ — **not single family** / rational beyond scope.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Pick family for y = \\dfrac{x^2 + 1}{x} — not single family / rational beyond scope.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Pick family for $y = \\dfrac{x^2 + 1}{x}$ — **not single f..."
+    },
+    "186": {
+      "hint": "**Stretch:** **True or false?** $y = x^2$ and $y = x^3$ both pass through $(1, 1)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = x^2 and y = x^3 both pass through (1, 1).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = x^2$ and $y = x^3$ both pass thro..."
+    },
+    "187": {
+      "hint": "**Stretch:** Write reciprocal through $(2, 5)$: $y = 10/x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write reciprocal through (2, 5): y = 10/x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write reciprocal through $(2, 5)$: $y = 10/x$...."
+    },
+    "188": {
+      "hint": "**Stretch:** Write linear through $(0, 3)$ and $(2, 7)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write linear through (0, 3) and (2, 7).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write linear through $(0, 3)$ and $(2, 7)$...."
+    },
+    "189": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Cubic term dominates for large $|x|$ in $y = x^3 + x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Cubic term dominates for large |x| in y = x^3 + x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** Cubic term dominates for..."
+    },
+    "190": {
+      "hint": "**Stretch:** **True or false?** Graph families help pick a model before plotting.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? Graph families help pick a model before plotting.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** Graph families help pick a model befor..."
+    },
+    "191": {
+      "hint": "**Stretch:** A data set is U-shaped. Quadratic or cubic?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: A data set is U-shaped. Quadratic or cubic?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A data set is U-shaped. Quadratic or cubic?..."
+    },
+    "192": {
+      "hint": "**Stretch:** A data set rises quickly then levels — not linear; suggest quadratic or cubic?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: A data set rises quickly then levels — not linear; suggest quadratic or cubic?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A data set rises quickly then levels — not linear; sugges..."
+    },
+    "193": {
+      "hint": "**Stretch:** **True or false?** $y = -3x + 2$ is linear with negative gradient.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = -3x + 2 is linear with negative gradient.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = -3x + 2$ is linear with negative ..."
+    },
+    "194": {
+      "hint": "**Stretch:** **True or false?** $y = x^2 + 2x + 1$ is quadratic.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: True or false? y = x^2 + 2x + 1 is quadratic.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y = x^2 + 2x + 1$ is quadratic...."
+    },
+    "195": {
+      "hint": "**Stretch:** Write one sentence linking family name to graph shape for quadratics.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write one sentence linking family name to graph shape for quadratics.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write one sentence linking family name to graph shape for..."
+    },
+    "196": {
+      "hint": "**Stretch:** Write one sentence linking family name to graph shape for reciprocals.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Write one sentence linking family name to graph shape for reciprocals.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write one sentence linking family name to graph shape for..."
+    },
+    "197": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** $y = ax + b$ graphs are straight lines when plotted.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? y = ax + b graphs are straight lines when plotted.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** $y = ax + b$ graphs are ..."
+    },
+    "198": {
+      "hint": "**Stretch:** Sort: which family can have no turning point? (linear / quadratic / cubic / reciprocal)",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Sort: which family can have no turning point? (linear / quadratic / cubic / reciprocal)\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Sort: which family can have no turning point? (linear / q..."
+    },
+    "199": {
+      "hint": "**Stretch:** Archer says cubics always cross the $x$-axis three times. Counterexample sketch idea in words for $y = x^3 + 1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Archer says cubics always cross the x-axis three times. Counterexample sketch idea in words for y …\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Archer says cubics always cross the $x$-axis three times...."
+    },
+    "200": {
+      "hint": "**Stretch:** Choose a family for each: (a) fixed cost per month $y = 15$, (b) area $y = x^2$, (c) sharing $y = 24/x$, (d) growth $y = x^3$ — name all four families.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A12)\n\n1. Focus on what this question asks: Stretch: Choose a family for each: (a) fixed cost per month y = 15, (b) area y = x^2, (c) sharing y = 24/x,…\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Choose a family for each: (a) fixed cost per month $y = 1..."
+    }
   }
 }

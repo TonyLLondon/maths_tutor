@@ -1,205 +1,805 @@
 {
   "version": 1,
   "questions": {
-    "1": { "hint": "How many centimetres fit in one metre? Use the fact that 1 m = 100 cm.", "help": "Metres and centimetres measure **length**. There are **100 cm in 1 m**.\n\nSo 1 metre equals **100 centimetres**.\n\n**Try another:** 2 m = $2 \\times 100 = 200$ cm." },
-    "2": { "hint": "Millimetres are smaller than centimetres. How many mm in 1 cm?", "help": "There are **10 millimetres in 1 centimetre**.\n\nThink of mm as tiny marks on a ruler between each cm.\n\n**Example:** 5 cm = $5 \\times 10 = 50$ mm." },
-    "3": { "hint": "Kilograms are bigger units than grams. How many g make 1 kg?", "help": "**1 kilogram = 1000 grams**.\n\nWhen the unit gets bigger, the number gets smaller: 1 kg is the same as 1000 g.\n\n**Example:** 2 kg = 2000 g." },
-    "4": { "hint": "Litres and millilitres measure capacity. How many ml in 1 l?", "help": "**1 litre = 1000 millilitres**.\n\nA small medicine spoon might be 5 ml; a bottle might be 500 ml (= 0.5 l).\n\n**Example:** 3 l = 3000 ml." },
-    "5": { "hint": "£1 is made of pence. How many pence equal one pound?", "help": "**£1 = 100 pence**.\n\nTo change pounds to pence, multiply by 100.\n\n**Example:** £2 = 200 p." },
-    "6": { "hint": "Kilometres are long distances. Each km is how many metres?", "help": "**1 km = 1000 m**.\n\nMultiply km by 1000 to get metres.\n\n**Example:** 3 km = 3000 m." },
-    "7": { "hint": "Each hour has the same number of minutes. What is it?", "help": "**1 hour = 60 minutes**.\n\nTo change hours to minutes, multiply by 60.\n\n**Example:** 2 hours = 120 minutes." },
-    "8": { "hint": "Seconds are smaller than minutes. How many seconds in one minute?", "help": "**1 minute = 60 seconds**.\n\n**Example:** 2 minutes = 120 seconds." },
-    "9": { "hint": "Change both measurements to the same unit, then compare.", "help": "**0.5 m** means half a metre = $0.5 \\times 100 = 50$ cm.\n\nSo **50 cm** and **0.5 m** are the **same length**.\n\n**Tip:** Convert to cm or m before comparing." },
-    "10": { "hint": "Multiply the number of metres by 100 to get centimetres.", "help": "$3\\text{ m} = 3 \\times 100 = 300$ **cm**.\n\nMetres → cm: **multiply by 100**.\n\n**Example:** 1.5 m = 150 cm." },
-    "11": { "hint": "To change grams to kilograms, divide by 1000.", "help": "$2000\\text{ g} = 2000 \\div 1000 = 2$ **kg**.\n\nGrams → kg: **divide by 1000**.\n\n**Example:** 500 g = 0.5 kg." },
-    "12": { "hint": "Divide the number of pence by 100 to get pounds.", "help": "$120\\text{ p} = 120 \\div 100 = £1.20$.\n\nPence → pounds: **divide by 100**.\n\n**Example:** 250 p = £2.50." },
-    "13": { "hint": "Each kilometre is 1000 metres. Multiply 4 by 1000.", "help": "$4\\text{ km} = 4 \\times 1000 = 4000$ **m**.\n\nKm → m: multiply by **1000**.\n\n**Example:** 0.5 km = 500 m." },
-    "14": { "hint": "Divide metres by 1000 to change to kilometres.", "help": "$2500\\text{ m} = 2500 \\div 1000 = 2.5$ **km**.\n\n**Example:** 800 m = 0.8 km." },
-    "15": { "hint": "Centimetres are smaller than metres. Divide by 100.", "help": "$80\\text{ cm} = 80 \\div 100 = 0.8$ **m**.\n\nCm → m: **divide by 100**.\n\n**Example:** 250 cm = 2.5 m." },
-    "16": { "hint": "Multiply metres by 100 to get centimetres.", "help": "$1.6\\text{ m} = 1.6 \\times 100 = 160$ **cm**.\n\n**Example:** 0.25 m = 25 cm." },
-    "17": { "hint": "Divide grams by 1000 to get kilograms.", "help": "$3500\\text{ g} = 3500 \\div 1000 = 3.5$ **kg**.\n\n**Example:** 750 g = 0.75 kg." },
-    "18": { "hint": "Multiply kilograms by 1000 to get grams.", "help": "$0.75\\text{ kg} = 0.75 \\times 1000 = 750$ **g**.\n\n**Example:** 1.2 kg = 1200 g." },
-    "19": { "hint": "Divide millilitres by 1000 to get litres.", "help": "$2000\\text{ ml} = 2000 \\div 1000 = 2$ **l**.\n\n**Example:** 500 ml = 0.5 l." },
-    "20": { "hint": "Multiply litres by 1000 to get millilitres.", "help": "$1.5\\text{ l} = 1.5 \\times 1000 = 1500$ **ml**.\n\n**Example:** 0.25 l = 250 ml." },
-    "21": { "hint": "Divide millimetres by 10 to get centimetres.", "help": "$45\\text{ mm} = 45 \\div 10 = 4.5$ **cm**.\n\nMm → cm: **divide by 10**.\n\n**Example:** 30 mm = 3 cm." },
-    "22": { "hint": "Multiply centimetres by 10 to get millimetres.", "help": "$12\\text{ cm} = 12 \\times 10 = 120$ **mm**.\n\n**Example:** 7 cm = 70 mm." },
-    "23": { "hint": "Divide minutes by 60 to get hours.", "help": "$90\\text{ minutes} = 90 \\div 60 = 1.5$ **hours**.\n\n**Example:** 120 min = 2 h." },
-    "24": { "hint": "Multiply hours by 60 to get minutes.", "help": "$1.25\\text{ hours} = 1.25 \\times 60 = 75$ **minutes**.\n\n**Example:** 0.5 h = 30 min." },
-    "25": { "hint": "Divide seconds by 60 to get minutes.", "help": "$240\\text{ s} = 240 \\div 60 = 4$ **minutes**.\n\n**Example:** 120 s = 2 min." },
-    "26": { "hint": "Multiply pounds by 100 to get pence.", "help": "$£4.20 = 4.20 \\times 100 = 420$ **p**.\n\n**Example:** £0.50 = 50 p." },
-    "27": { "hint": "Divide pence by 100 to write pounds.", "help": "$375\\text{ p} = 375 \\div 100 = £3.75$.\n\n**Example:** 199 p = £1.99." },
-    "28": { "hint": "Change 2 km to metres, then compare with 1800 m.", "help": "$2\\text{ km} = 2000$ m. Since $2000 > 1800$, **2 km is longer**.\n\nAlways use the **same unit** before comparing." },
-    "29": { "hint": "Change 0.7 kg to grams, then compare with 750 g.", "help": "$0.7\\text{ kg} = 700$ g. **750 g** is heavier than 700 g.\n\n**Example:** Compare 1.1 kg and 1050 g — they are equal." },
-    "30": { "hint": "Change 1.5 l to millilitres and compare with 1400 ml.", "help": "$1.5\\text{ l} = 1500$ ml. **1500 ml** holds more than 1400 ml.\n\n**Example:** 2 l = 2000 ml." },
-    "31": { "hint": "Multiply the length in metres by 100.", "help": "$2.3\\text{ m} = 2.3 \\times 100 = 230$ **cm**.\n\nUse this when a question asks for cm but gives metres." },
-    "32": { "hint": "Multiply kilograms by 1000 to change to grams.", "help": "$2\\text{ kg} = 2 \\times 1000 = 2000$ **g**.\n\n**Example:** 0.5 kg = 500 g." },
-    "33": { "hint": "Divide millilitres by 1000 to get litres.", "help": "$750\\text{ ml} = 750 \\div 1000 = 0.75$ **l**.\n\n**Example:** 250 ml = 0.25 l." },
-    "34": { "hint": "Multiply km by 1000.", "help": "$0.6\\text{ km} = 0.6 \\times 1000 = 600$ **m**.\n\n**Example:** 0.02 km = 20 m." },
-    "35": { "hint": "Divide cm by 100 to get metres.", "help": "$450\\text{ cm} = 450 \\div 100 = 4.5$ **m**.\n\n**Example:** 100 cm = 1 m." },
-    "36": { "hint": "There are 1000 mm in 1 m. Divide mm by 1000.", "help": "$5000\\text{ mm} = 5000 \\div 1000 = 5$ **m**.\n\nOr: mm → cm (÷10), then cm → m (÷100)." },
-    "37": { "hint": "Multiply centimetres by 10 for millimetres.", "help": "$18\\text{ cm} = 18 \\times 10 = 180$ **mm**.\n\n**Example:** 2.5 cm = 25 mm." },
-    "38": { "hint": "Multiply metres by 100 for centimetres.", "help": "$1.2\\text{ m} = 1.2 \\times 100 = 120$ **cm**.\n\n**Example:** 0.8 m = 80 cm." },
-    "39": { "hint": "Each day has 24 hours. Multiply days by 24.", "help": "$2\\text{ days} = 2 \\times 24 = 48$ **hours**.\n\n**Example:** 3 days = 72 hours." },
-    "40": { "hint": "0.05 km means 5 hundredths of a km. Multiply by 1000.", "help": "$0.05\\text{ km} = 0.05 \\times 1000 = 50$ **m**.\n\n**Example:** 0.1 km = 100 m." },
-    "41": { "hint": "Recall how many centimetres are defined in one metre.", "help": "By definition, **1 m = 100 cm** exactly.\n\nSo the statement is **true**.\n\n**Example:** A door 2 m tall is 200 cm tall." },
-    "42": { "hint": "Use the standard conversion between litres and millilitres.", "help": "**1 litre is exactly 1000 millilitres** in the metric system.\n\nSo it is **always** true.\n\n**Example:** 2.5 l = 2500 ml exactly." },
-    "43": { "hint": "Convert 3.2 km to metres and compare with 320 m.", "help": "$3.2\\text{ km} = 3.2 \\times 1000 = 3200$ m.\n\n3200 m is **not** 320 m, so Mia is **wrong**.\n\n**Check:** km → m always multiplies by 1000." },
-    "44": { "hint": "Think how many metres are in one kilometre.", "help": "One **kilometre** is **1000 metres**.\n\nSo to change km → m you **multiply by 1000** (you take more of the smaller unit).\n\n**Example:** 5 km = 5000 m." },
-    "45": { "hint": "Change both masses to grams before comparing.", "help": "$1.2\\text{ kg} = 1200$ g. Compare 1200 g with 1150 g.\n\n1200 > 1150, so 1.2 kg is **heavier** — the statement is **false**.\n\n**Tip:** Same units first." },
-    "46": { "hint": "Metres and centimetres: divide or multiply by 100?", "help": "To change **cm → m**, **divide by 100**.\n\n$600\\text{ cm} = 6$ m, not 60 m.\n\nPriya divided by 10, so she is **incorrect**." },
-    "47": { "hint": "Try 1 hour and also a fraction of an hour like 0.5 h.", "help": "For **whole hours**, minutes = hours × 60, so minutes are **bigger numbers**.\n\n**Example:** 2 h = 120 min (120 > 2).\n\nFor very small decimal hours the minute count can be less than 1 hour's number, but GCSE time conversions usually use positive whole or decimal hours — **always** bigger for typical school values." },
-    "48": { "hint": "Read km/h as kilometres for each hour.", "help": "**km/h** means **kilometres per hour**: how many kilometres you travel in **one hour** at that steady speed.\n\n**Example:** 60 km/h → about 60 km each hour." },
-    "49": { "hint": "Change 75 p to pounds and compare with £7.50.", "help": "$75\\text{ p} = £0.75$, not £7.50.\n\nLeo moved the decimal the wrong way.\n\n**Remember:** 100 p = £1." },
-    "50": { "hint": "Area units square the length factor: 1 m = 100 cm, so what about m²?", "help": "If 1 m = 100 cm, then **1 m² = 100 × 100 = 10 000 cm²**.\n\nSo **100 cm² is much smaller** than 1 m² — the statement is **false**.\n\n**Do not** use the same factor as for length." },
-    "51": { "hint": "Find the cost of 3 pens at 85 p each, then change pence to pounds.", "help": "$3 \\times 85 = 255$ p.\n\n$255 \\div 100 = £2.55$.\n\n**Example:** 4 items at 50 p → 200 p = £2." },
-    "52": { "hint": "Convert the 1 hour to minutes, then add the extra 45 minutes.", "help": "1 hour = 60 min.\n\n$60 + 45 = 105$ **minutes** total.\n\n**Example:** 2 h 30 min = 150 min." },
-    "53": { "hint": "Multiply kilometres by 1000 to get metres.", "help": "$5.5\\text{ km} = 5.5 \\times 1000 = 5500$ **m**.\n\n**Example:** 0.8 km = 800 m." },
-    "54": { "hint": "Add the masses in grams, then divide by 1000 for kg.", "help": "$400 + 250 = 650$ g.\n\n$650 \\div 1000 = 0.65$ **kg**.\n\n**Example:** 1200 g = 1.2 kg." },
-    "55": { "hint": "Multiply litres by 1000 to get millilitres.", "help": "$28\\text{ l} = 28 \\times 1000 = 28\\,000$ **ml**.\n\n**Example:** 3 l = 3000 ml." },
-    "56": { "hint": "Convert 2 hours to minutes, then add 10 minutes.", "help": "$2 \\times 60 + 10 = 130$ **minutes**.\n\n**Example:** 1 h 5 min = 65 min." },
-    "57": { "hint": "Change the rope length to cm, then divide by 30 cm.", "help": "$4.2\\text{ m} = 420$ cm.\n\n$420 \\div 30 = 14$ **pieces**.\n\n**Example:** 2 m rope, 25 cm pieces → 200 ÷ 25 = 8." },
-    "58": { "hint": "Multiply 65 p by 8, then convert to pounds.", "help": "$8 \\times 65 = 520$ p = **£5.20**.\n\n**Example:** 10 × 45 p = 450 p = £4.50." },
-    "59": { "hint": "Speed = distance ÷ time. Divide 90 km by 2 hours.", "help": "**Speed** = distance ÷ time.\n\n$90 \\div 2 = 45$ **km/h**.\n\n**Example:** 120 km in 3 h → 40 km/h." },
-    "60": { "hint": "Compare capacities: change both to ml or both to litres.", "help": "Drink A: 600 ml. Drink B: 1.5 l = **1500 ml**.\n\n**Drink B** holds more liquid.\n\n**Tip:** Price is extra — read what the question asks." },
-    "61": { "hint": "Multiply km by 1000 to change to metres.", "help": "$6.5\\text{ km} = 6500$ **m**.\n\n**Example:** 12 km = 12 000 m." },
-    "62": { "hint": "Divide metres by 1000 for kilometres.", "help": "$8400\\text{ m} = 8.4$ **km**.\n\n**Example:** 500 m = 0.5 km.\n\nAlways include the correct unit in your answer." },
-    "63": { "hint": "Divide centimetres by 100.", "help": "$125\\text{ cm} = 1.25$ **m**.\n\n**Example:** 50 cm = 0.5 m.\n\nAlways include the correct unit in your answer." },
-    "64": { "hint": "Multiply metres by 100.", "help": "$3.75\\text{ m} = 375$ **cm**.\n\n**Example:** 2 m = 200 cm.\n\nAlways include the correct unit in your answer." },
-    "65": { "hint": "Grams to kg: divide by 1000.", "help": "$5200\\text{ g} = 5.2$ **kg**.\n\n**Example:** 2500 g = 2.5 kg." },
-    "66": { "hint": "Kg to grams: multiply by 1000.", "help": "$2.4\\text{ kg} = 2400$ **g**.\n\n**Example:** 0.3 kg = 300 g.\n\nAlways include the correct unit in your answer." },
-    "67": { "hint": "Ml to litres: divide by 1000.", "help": "$4500\\text{ ml} = 4.5$ **l**.\n\n**Example:** 750 ml = 0.75 l." },
-    "68": { "hint": "Litres to ml: multiply by 1000.", "help": "$0.8\\text{ l} = 800$ **ml**.\n\n**Example:** 1.2 l = 1200 ml.\n\nAlways include the correct unit in your answer." },
-    "69": { "hint": "Mm to cm: divide by 10.", "help": "$35\\text{ mm} = 3.5$ **cm**.\n\n**Example:** 100 mm = 10 cm.\n\nAlways include the correct unit in your answer." },
-    "70": { "hint": "Cm to mm: multiply by 10.", "help": "$9\\text{ cm} = 90$ **mm**.\n\n**Example:** 12 cm = 120 mm.\n\nAlways include the correct unit in your answer." },
-    "71": { "hint": "Minutes to hours: divide by 60.", "help": "$150\\text{ min} = 2.5$ **hours**.\n\n**Example:** 90 min = 1.5 h." },
-    "72": { "hint": "Hours to minutes: multiply by 60.", "help": "$2.75\\text{ h} = 2.75 \\times 60 = 165$ **min**.\n\n**Example:** 1.5 h = 90 min." },
-    "73": { "hint": "Seconds to minutes: divide by 60.", "help": "$300\\text{ s} = 5$ **minutes**.\n\n**Example:** 180 s = 3 min." },
-    "74": { "hint": "Pounds to pence: multiply by 100.", "help": "$£7.05 = 705$ **p**.\n\n**Example:** £3 = 300 p.\n\nAlways include the correct unit (p or £) in your answer." },
-    "75": { "hint": "Pence to pounds: divide by 100.", "help": "$890\\text{ p} = £8.90$.\n\n**Example:** 505 p = £5.05.\n\nAlways include the correct unit in your answer." },
-    "76": { "hint": "Change 4500 mm to metres and compare with 4.2 m.", "help": "$4500\\text{ mm} = 4.5$ m. **4.2 m** is shorter than 4.5 m.\n\n**Example:** 3000 mm = 3 m." },
-    "77": { "hint": "Change 2.05 kg to grams.", "help": "$2.05\\text{ kg} = 2050$ g, which is **heavier** than 2040 g.\n\n**Example:** 1 kg vs 999 g → 1 kg wins." },
-    "78": { "hint": "3 l equals how many ml?", "help": "$3\\text{ l} = 3000$ ml > 2950 ml, so **3 l** holds more.\n\n**Example:** 1 l vs 950 ml." },
-    "79": { "hint": "Multiply metres by 100 for cm.", "help": "$8.5\\text{ m} = 850$ **cm**.\n\n**Example:** 3 m = 300 cm.\n\nAlways include the correct unit in your answer." },
-    "80": { "hint": "Divide grams by 1000 for kg.", "help": "$5\\text{ g} = 0.005$ **kg**.\n\n**Example:** 50 g = 0.05 kg.\n\nAlways include the correct unit in your answer." },
-    "81": { "hint": "Divide ml by 1000 for litres.", "help": "$12\\text{ ml} = 0.012$ **l**.\n\n**Example:** 500 ml = 0.5 l.\n\nAlways include the correct unit in your answer." },
-    "82": { "hint": "0.125 km × 1000.", "help": "$0.125\\text{ km} = 125$ **m**.\n\n**Example:** 0.5 km = 500 m." },
-    "83": { "hint": "275 cm ÷ 100.", "help": "$275\\text{ cm} = 2.75$ **m**.\n\n**Example:** 400 cm = 4 m.\n\nAlways include the correct unit in your answer." },
-    "84": { "hint": "7200 mm ÷ 1000.", "help": "$7200\\text{ mm} = 7.2$ **m**.\n\n**Example:** 1000 mm = 1 m.\n\nAlways include the correct unit in your answer." },
-    "85": { "hint": "24 cm × 10 for mm.", "help": "$24\\text{ cm} = 240$ **mm**.\n\n**Example:** 15 cm = 150 mm.\n\nAlways include the correct unit in your answer." },
-    "86": { "hint": "Divide metres by 1000 for km.", "help": "$25\\text{ m} = 0.025$ **km**.\n\n**Example:** 1000 m = 1 km.\n\nAlways include the correct unit in your answer." },
-    "87": { "hint": "3 hours × 60 minutes.", "help": "$3 \\times 60 = 180$ **minutes**.\n\n**Example:** 2 h = 120 min." },
-    "88": { "hint": "0.002 km × 1000.", "help": "$0.002\\text{ km} = 2$ **m**.\n\n**Example:** 0.001 km = 1 m.\n\nAlways include the correct unit in your answer." },
-    "89": { "hint": "10 × 55 p, then change to pounds.", "help": "$10 \\times 55 = 550$ p = **£5.50**.\n\n**Example:** 20 × 30 p = 600 p = £6." },
-    "90": { "hint": "Divide minutes by 60 to write hours as a decimal.", "help": "$50\\text{ min} = 50 \\div 60 \\approx 0.833$ **hours** (or $\\frac{5}{6}$ h).\n\n**Example:** 30 min = 0.5 h." },
-    "91": { "hint": "12 km in metres — multiply by 1000.", "help": "$12\\text{ km} = 12\\,000$ **m**.\n\n**Example:** 1 km = 1000 m." },
-    "92": { "hint": "15 000 m ÷ 1000.", "help": "$15\\,000\\text{ m} = 15$ **km**.\n\n**Example:** 2500 m = 2.5 km." },
-    "93": { "hint": "0.9 m to cm — multiply by 100.", "help": "$0.9\\text{ m} = 90$ **cm**.\n\n**Example:** 1.1 m = 110 cm.\n\nAlways include the correct unit in your answer." },
-    "94": { "hint": "640 cm ÷ 100.", "help": "$640\\text{ cm} = 6.4$ **m**.\n\n**Example:** 155 cm = 1.55 m.\n\nAlways include the correct unit in your answer." },
-    "95": { "hint": "1.05 kg × 1000.", "help": "$1.05\\text{ kg} = 1050$ **g**.\n\n**Example:** 2.02 kg = 2020 g." },
-    "96": { "hint": "850 g ÷ 1000.", "help": "$850\\text{ g} = 0.85$ **kg**.\n\n**Example:** 1250 g = 1.25 kg." },
-    "97": { "hint": "3.2 l × 1000.", "help": "$3.2\\text{ l} = 3200$ **ml**.\n\n**Example:** 0.7 l = 700 ml.\n\nAlways include the correct unit in your answer." },
-    "98": { "hint": "1750 ml ÷ 1000.", "help": "$1750\\text{ ml} = 1.75$ **l**.\n\n**Example:** 4000 ml = 4 l.\n\nAlways include the correct unit in your answer." },
-    "99": { "hint": "120 mm ÷ 10.", "help": "$120\\text{ mm} = 12$ **cm**.\n\n**Example:** 55 mm = 5.5 cm.\n\nAlways include the correct unit in your answer." },
-    "100": { "hint": "6.5 cm × 10.", "help": "$6.5\\text{ cm} = 65$ **mm**.\n\n**Example:** 0.8 cm = 8 mm.\n\nAlways include the correct unit in your answer." },
-    "101": { "hint": "105 minutes ÷ 60.", "help": "$105\\text{ min} = 1.75$ **hours**.\n\n**Example:** 150 min = 2.5 h." },
-    "102": { "hint": "0.5 h × 60.", "help": "$0.5\\text{ h} = 30$ **minutes**.\n\n**Example:** 0.25 h = 15 min." },
-    "103": { "hint": "480 s ÷ 60.", "help": "$480\\text{ s} = 8$ **minutes**.\n\n**Example:** 600 s = 10 min." },
-    "104": { "hint": "£12.99 × 100 for pence.", "help": "$£12.99 = 1299$ **p**.\n\n**Example:** £0.99 = 99 p.\n\nAlways include the correct unit in your answer." },
-    "105": { "hint": "1050 p ÷ 100.", "help": "$1050\\text{ p} = £10.50$.\n\n**Example:** 240 p = £2.40.\n\nAlways include the correct unit in your answer." },
-    "106": { "hint": "0.45 km × 1000.", "help": "$0.45\\text{ km} = 450$ **m**.\n\n**Example:** 1.2 km = 1200 m." },
-    "107": { "hint": "3.6 kg × 1000.", "help": "$3.6\\text{ kg} = 3600$ **g**.\n\n**Example:** 0.25 kg = 250 g." },
-    "108": { "hint": "1.7 l × 1000.", "help": "$1.7\\text{ l} = 1700$ **ml**.\n\n**Example:** 2.5 l = 2500 ml." },
-    "109": { "hint": "0.85 km in metres?", "help": "$0.85\\text{ km} = 850$ m — **same** as 850 m.\n\n**Example:** 1 km = 1000 m." },
-    "110": { "hint": "0.99 kg in grams?", "help": "$0.99\\text{ kg} = 990$ g — **equal** to 990 g.\n\n**Example:** 1 kg = 1000 g." },
-    "111": { "hint": "12.4 km to metres.", "help": "$12.4\\text{ km} = 12\\,400$ **m**.\n\n**Example:** 0.1 km = 100 m." },
-    "112": { "hint": "650 mg is 0.65 g — write in grams.", "help": "**650 mg = 0.65 g** (milli- means thousandth).\n\n**Example:** 1000 mg = 1 g." },
-    "113": { "hint": "8 l × 1000.", "help": "$8\\text{ l} = 8000$ **ml**.\n\n**Example:** 0.5 l = 500 ml.\n\nAlways include the correct unit in your answer." },
-    "114": { "hint": "4 h × 60 plus 30 min.", "help": "$4 \\times 60 + 30 = 270$ **minutes**.\n\n**Example:** 1 h 15 min = 75 min." },
-    "115": { "hint": "195 min = how many hours and leftover minutes?", "help": "$195 \\div 60 = 3$ h with **15 min** left → **3 h 15 min**.\n\n**Example:** 125 min = 2 h 5 min." },
-    "116": { "hint": "15 × 30 p, then pounds.", "help": "$15 \\times 30 = 450$ p = **£4.50**.\n\n**Example:** 8 × 25 p = 200 p = £2." },
-    "117": { "hint": "Divide total minutes by kilometres.", "help": "$25\\text{ min} \\div 5\\text{ km} = 5$ **min per km**.\n\n**Example:** 40 min for 8 km → 5 min/km." },
-    "118": { "hint": "Speed uses distance and what other quantity?", "help": "**Speed = distance ÷ time**.\n\nUnits like km/h tell you distance per hour.\n\n**Example:** 100 km in 2 h → 50 km/h." },
-    "119": { "hint": "Divide total cost by kilograms.", "help": "$£4.50 \\div 3 = £1.50$ **per kg**.\n\n**Example:** £6 for 2 kg → £3/kg." },
-    "120": { "hint": "Distance = speed × time.", "help": "$15\\text{ km/h} \\times 2\\text{ h} = 30$ **km**.\n\n**Example:** 8 km/h for 0.5 h → 4 km." },
-    "121": { "hint": "To go from metres to cm, do you multiply or divide by 100?", "help": "Metres → cm: **multiply by 100**.\n\nSo dividing by 100 is **false** for m → cm.\n\n**Example:** 2 m = 200 cm." },
-    "122": { "hint": "Same length in mm vs cm — which number is bigger?", "help": "Millimetres are **smaller units**, so you need **more** of them for the same length.\n\nSo the mm number is **always bigger** than the cm number for the same length." },
-    "123": { "hint": "£ to pence: multiply by 100, not 10.", "help": "$£2 = 200$ p, not 20 p.\n\nSam should **multiply by 100**.\n\n**Example:** £5 = 500 p." },
-    "124": { "hint": "Why compare price for 1 kg instead of pack size?", "help": "Different packs weigh different amounts. **Price per kg** (or per litre) lets you compare **fairly** for the same amount.\n\n**Example:** 500 g for £2 vs 1 kg for £3 — use £/kg." },
-    "125": { "hint": "0.5 hours × 60 minutes.", "help": "$0.5 \\times 60 = 30$ **minutes**.\n\nSo the statement is **true**.\n\n**Example:** 0.25 h = 15 min." },
-    "126": { "hint": "Change 2.5 l to ml.", "help": "$2.5\\text{ l} = 2500$ ml — **same** as 2500 ml.\n\n**Example:** 1 l = 1000 ml." },
-    "127": { "hint": "Grams to kg divides by 1000.", "help": "Changing **g → kg** makes the number **smaller** (divide by 1000).\n\n**Example:** 2000 g = 2 kg." },
-    "128": { "hint": "Per hour links distance and time.", "help": "**Miles per hour** or **km/h** compare **distance** to **time** — how far per one hour.\n\n**Example:** 40 km in 1 h → 40 km/h." },
-    "129": { "hint": "10 mm × 10 mm gives area in mm².", "help": "Area = $10 \\times 10 = 100$ **mm²**.\n\n**1 cm² = 100 mm²**, so the statement is **true**.\n\n**Example:** 1 cm square = 100 mm squares." },
-    "130": { "hint": "Density compares mass to volume.", "help": "**Density** tells how much **mass** is in each bit of **volume**.\n\nPriya's idea is a good plain-English description — say **yes** and mention mass and volume." },
-    "131": { "hint": "Find minutes from 09:15 to 11:40.", "help": "From 09:15 to 11:15 is 2 h; plus 25 min → **2 h 25 min** (145 min).\n\n**Example:** 10:00 to 10:45 → 45 min." },
-    "132": { "hint": "Change 0.8 km to m, then perimeter = 2 × (length + width).", "help": "$0.8\\text{ km} = 800$ m. Width 500 m.\n\n$P = 2(800+500) = 2600$ **m**.\n\n**Example:** 100 m by 50 m → P = 300 m." },
-    "133": { "hint": "Add costs, subtract from £20.", "help": "$4.35+6.20+2.85 = 13.40$. Change $= 20 - 13.40 = **£6.60**.\n\n**Example:** Pay £10 for £7.25 → £2.75 change." },
-    "134": { "hint": "2 hours in minutes, then ml per minute × minutes.", "help": "2 h = 120 min. $40 \\times 120 = 4800$ ml = **4.8 l**.\n\n**Example:** 10 ml/min for 5 min → 50 ml." },
-    "135": { "hint": "Speed = 240 ÷ 4; then distance = speed × 5.5.", "help": "Speed $= 240 \\div 4 = 60$ **km/h**.\n\nDistance $= 60 \\times 5.5 = 330$ **km**.\n\n**Example:** 50 km/h for 3 h → 150 km." },
-    "136": { "hint": "£2.40 ÷ 80 tea bags, in pence.", "help": "$240\\text{ p} \\div 80 = 3$ **p per bag**.\n\n**Example:** £1 for 50 → 2 p each." },
-    "137": { "hint": "Mass per metre: change 80 cm to m first.", "help": "80 cm = 0.8 m. $1.2 \\div 0.8 = 1.5$ **kg/m**.\n\n**Example:** 2 kg in 1 m → 2 kg/m." },
-    "138": { "hint": "3 h 15 min → seconds: hours×3600 + minutes×60.", "help": "3 h = 10 800 s; 15 min = 900 s. Total **11 700 s**.\n\n**Example:** 1 min = 60 s." },
-    "139": { "hint": "Price ÷ litres for each tin; compare £ per l.", "help": "2.5 l: $18 \\div 2.5 = £7.20$/l. 750 ml = 0.75 l: $6 \\div 0.75 = £8$/l.\n\n**2.5 l tin** is better value.\n\n**Example:** Always use the same unit (litres)." },
-    "140": { "hint": "500 ml over 2 hours — find ml per minute.", "help": "2 h = 120 min. $500 \\div 120 \\approx 4.2$ **ml/min**.\n\n**Example:** 600 ml in 1 h → 10 ml/min." },
-    "141": { "hint": "0.48 × 1000.", "help": "$0.48\\text{ km} = 480$ **m**.\n\n**Example:** 0.3 km = 300 m.\n\nAlways include the correct unit in your answer." },
-    "142": { "hint": "967 cm ÷ 100.", "help": "$967\\text{ cm} = 9.67$ **m**.\n\n**Example:** 250 cm = 2.5 m.\n\nAlways include the correct unit in your answer." },
-    "143": { "hint": "2.08 m → cm then mm, or m × 1000.", "help": "$2.08\\text{ m} = 208$ cm = **2080 mm**.\n\n**Example:** 1 m = 1000 mm." },
-    "144": { "hint": "0.045 kg × 1000.", "help": "$0.045\\text{ kg} = 45$ **g**.\n\n**Example:** 0.002 kg = 2 g.\n\nAlways include the correct unit in your answer." },
-    "145": { "hint": "3060 g ÷ 1000.", "help": "$3060\\text{ g} = 3.06$ **kg**.\n\n**Example:** 4500 g = 4.5 kg." },
-    "146": { "hint": "0.35 l × 1000.", "help": "$0.35\\text{ l} = 350$ **ml**.\n\n**Example:** 1.05 l = 1050 ml." },
-    "147": { "hint": "5600 ml ÷ 1000.", "help": "$5600\\text{ ml} = 5.6$ **l**.\n\n**Example:** 900 ml = 0.9 l.\n\nAlways include the correct unit in your answer." },
-    "148": { "hint": "7.2 × 60.", "help": "$7.2\\text{ h} = 432$ **minutes**.\n\n**Example:** 1.5 h = 90 min." },
-    "149": { "hint": "1380 s ÷ 60.", "help": "$1380\\text{ s} = 23$ **minutes**.\n\n**Example:** 300 s = 5 min." },
-    "150": { "hint": "£0.85 in pence.", "help": "$£0.85 = 85$ **p**.\n\n**Example:** £0.07 = 7 p.\n\nAlways include the correct unit in your answer." },
-    "151": { "hint": "Marathon km × 1000.", "help": "$42.195\\text{ km} = 42\\,195$ **m**.\n\n**Example:** 10 km = 10 000 m." },
-    "152": { "hint": "12.5 kg × 1000.", "help": "$12.5\\text{ kg} = 12\\,500$ **g**.\n\n**Example:** 0.4 kg = 400 g." },
-    "153": { "hint": "1 kl = 1000 l.", "help": "$0.045\\text{ kl} = 45$ **l**.\n\n**Example:** 0.002 kl = 2 l.\n\nAlways include the correct unit in your answer." },
-    "154": { "hint": "2.3 l in ml?", "help": "$2.3\\text{ l} = 2300$ ml — **equal** to 2300 ml.\n\n**Example:** 1 l = 1000 ml." },
-    "155": { "hint": "£18.50 × 6 months.", "help": "$18.50 \\times 6 = **£111**$.\n\n**Example:** £10 × 12 = £120 per year." },
-    "156": { "hint": "126 km ÷ 1.5 h.", "help": "$126 \\div 1.5 = 84$ **km/h**.\n\n**Example:** 60 km in 1 h → 60 km/h." },
-    "157": { "hint": "Density = mass ÷ what?", "help": "**Density = mass ÷ volume**.\n\n**Example:** 10 g in 5 cm³ → 2 g/cm³." },
-    "158": { "hint": "600 g ÷ 300 cm³.", "help": "$600 \\div 300 = 2$ **g/cm³**.\n\n**Example:** 400 g, 200 cm³ → 2 g/cm³." },
-    "159": { "hint": "5 × 24 hours.", "help": "$5 \\times 24 = 120$ **hours**.\n\n**Example:** 1 day = 24 h.\n\nAlways include the correct unit in your answer." },
-    "160": { "hint": "72 ÷ 24.", "help": "$72 \\div 24 = 3$ **days**.\n\n**Example:** 48 h = 2 days.\n\nAlways include the correct unit in your answer." },
-    "161": { "hint": "0.25 kg × 1000.", "help": "$0.25\\text{ kg} = 250$ **g**.\n\n**Example:** 0.5 kg = 500 g.\n\nAlways include the correct unit in your answer." },
-    "162": { "hint": "4 mm ÷ 1000 for metres.", "help": "$4\\text{ mm} = 0.004$ **m**.\n\n**Example:** 1000 mm = 1 m.\n\nAlways include the correct unit in your answer." },
-    "163": { "hint": "1.5 l ÷ 0.25 l per glass.", "help": "$1.5 \\div 0.25 = 6$ **glasses**.\n\n**Example:** 2 l ÷ 0.5 l → 4 glasses." },
-    "164": { "hint": "At 1 km/h, how far in one hour?", "help": "**1 km/h** means **1 km** each **hour** — **true**.\n\n**Example:** 5 km/h → 5 km per hour." },
-    "165": { "hint": "30 minutes is half an hour — double the km for 1 hour.", "help": "45 km in 0.5 h → **90 km/h**.\n\n**Example:** 20 km in 20 min → 60 km/h." },
-    "166": { "hint": "1 m² = 100² cm².", "help": "$2.5\\text{ m²} = 2.5 \\times 10\\,000 = 25\\,000$ **cm²**.\n\n**Example:** 1 m² = 10 000 cm²." },
-    "167": { "hint": "Compare 100 cm² with 1 m² using 10 000.", "help": "**1 m² = 10 000 cm²**, not 100 cm² — so **never** equal.\n\n**Example:** 100 cm² is tiny compared with 1 m²." },
-    "168": { "hint": "Find £ per kg for each pack.", "help": "500 g: $2 \\div 0.5 = £4$/kg. 750 g: $2.70 \\div 0.75 = £3.60$/kg.\n\n**750 g pack** is better value.\n\n**Example:** Compare using kg." },
-    "169": { "hint": "200 l ÷ 8 l per minute.", "help": "$200 \\div 8 = 25$ **minutes**.\n\n**Example:** 100 l at 5 l/min → 20 min." },
-    "170": { "hint": "3.5 km/h → metres in one hour, then ÷ 60.", "help": "3.5 km/h = 3500 m/h. $3500 \\div 60 \\approx 58.3$ **m/min**.\n\n**Example:** 60 km/h = 1000 m/min." },
-    "171": { "hint": "1 h 30 min = 1.5 h; divide 90 km by 1.5.", "help": "$90 \\div 1.5 = 60$ **km/h**.\n\n**Example:** 120 km in 2 h → 60 km/h.\n\nAlways include units in your answer." },
-    "172": { "hint": "4 m = 400 cm; add 35 cm.", "help": "$400 + 35 = 435$ **cm**.\n\n**Example:** 2 m 10 cm = 210 cm.\n\nAlways include the correct unit in your answer." },
-    "173": { "hint": "3 kg = 3000 g; add 250 g.", "help": "$3000 + 250 = 3250$ **g**.\n\n**Example:** 1 kg 500 g = 1500 g." },
-    "174": { "hint": "2 l = 2000 ml; add 400 ml.", "help": "$2000 + 400 = 2400$ **ml**.\n\n**Example:** 1 l 250 ml = 1250 ml." },
-    "175": { "hint": "£9.50 × 7.5 hours.", "help": "$9.50 \\times 7.5 = **£71.25**$.\n\n**Example:** £10 × 6 h = £60." },
-    "176": { "hint": "12 cm ÷ 4 min.", "help": "$12 \\div 4 = 3$ **cm/min**.\n\n**Example:** 20 m in 5 min → 4 m/min." },
-    "177": { "hint": "25 kg ÷ 0.02 m³.", "help": "$25 \\div 0.02 = 1250$ **kg/m³**.\n\n**Example:** 10 kg, 0.01 m³ → 1000 kg/m³." },
-    "178": { "hint": "1.8 km → m → mm.", "help": "$1.8\\text{ km} = 1800$ m = **1 800 000 mm**.\n\n**Example:** 1 km = 1 000 000 mm." },
-    "179": { "hint": "1 h 20 min to minutes, then × 60 for seconds.", "help": "80 min; $80 \\times 60 = 4800$ **s**.\n\n**Example:** 2 min = 120 s." },
-    "180": { "hint": "If side doubles, area scales by 2×2.", "help": "Doubling **length** makes **area 4 times** bigger (2 × 2).\n\nStatement is **false**.\n\n**Example:** 2×2 square → 4×4 square, area 4→16." },
-    "181": { "hint": "8.5 × £1.85 per 1000 l.", "help": "8.5 kl = 8500 l → 8.5 × £1.85 ≈ **£15.73**.\n\n**Example:** 1000 l at £2 → £2." },
-    "182": { "hint": "10 km in 50 min — find km per hour.", "help": "50 min = $\\frac{5}{6}$ h. $10 \\div \\frac{5}{6} = 12$ **km/h**.\n\n**Example:** 5 km in 1 h → 5 km/h." },
-    "183": { "hint": "Volume = l×w×h; 1000 cm³ = 1 l.", "help": "$50×40×30 = 60\\,000$ cm³ = **60 l**.\n\n**Example:** 1000 cm³ = 1 l." },
-    "184": { "hint": "19 g/cm³ × 5 cm³.", "help": "$19 \\times 5 = 95$ **g**.\n\n**Example:** 2 g/cm³, 10 cm³ → 20 g." },
-    "185": { "hint": "36 l for 480 km — litres per 100 km.", "help": "$36 \\div 480 \\times 100 = 7.5$ **l per 100 km**.\n\n**Example:** 8 l per 100 km is common car figure." },
-    "186": { "hint": "0.75 h → min → s.", "help": "0.75 h = 45 min = **2700 s**.\n\n**Example:** 0.5 h = 1800 s.\n\nAlways include the correct unit in your answer." },
-    "187": { "hint": "Cost ÷ length in metres for each cable.", "help": "2.4 m: $3.60/2.4 = £1.50$/m. 180 cm = 1.8 m: $2.70/1.8 = £1.50$/m — **same**.\n\n**Example:** Compare £/m." },
-    "188": { "hint": "3 l in 45 min — ml per minute.", "help": "3 l = 3000 ml. $3000 \\div 45 \\approx 66.7$ **ml/min**.\n\n**Example:** 1 l in 10 min → 100 ml/min." },
-    "189": { "hint": "40 000 m² ÷ 10 000.", "help": "$40\\,000 \\div 10\\,000 = 4$ **hectares**.\n\n**Example:** 1 ha = 10 000 m²." },
-    "190": { "hint": "Remember m/s to km/h uses 3.6.", "help": "**Always:** multiply m/s by **3.6** to get km/h.\n\n**Example:** 10 m/s = 36 km/h." },
-    "191": { "hint": "Volume = 20×10×5; then cm³ to litres.", "help": "Volume **1000 cm³** = **1 l**.\n\n**Example:** 2000 cm³ = 2 l." },
-    "192": { "hint": "25 min as a fraction of an hour × 120 km/h.", "help": "25 min = $\\frac{25}{60}$ h. $120 \\times \\frac{25}{60} = 50$ **km**.\n\n**Example:** 60 km/h for 30 min → 30 km." },
-    "193": { "hint": "2.7 kg = 2700 g; divide by 3000 cm³.", "help": "$2700 \\div 3000 = 0.9$ **g/cm³**.\n\n**Example:** Same mass and volume units first." },
-    "194": { "hint": "0.8 m³ needs 0.8×350 kg cement; divide by 25.", "help": "Cement $= 0.8 \\times 350 = 280$ kg. $280 \\div 25 = 11.2$ → **12 bags** (round up).\n\n**Example:** Always round up for whole bags." },
-    "195": { "hint": "Area conversion squares the ×100 factor.", "help": "Length: cm→m **÷100**. Area: cm²→m² **÷10 000**.\n\nUsing ÷100 for area is **false**.\n\n**Example:** 100 cm² ≠ 1 m²." },
-    "196": { "hint": "3.6 km → cm, then mm (×10).", "help": "$3.6\\text{ km} = 360\\,000$ cm = **3 600 000 mm**.\n\n**Example:** Chain conversions step by step." },
-    "197": { "hint": "0.25 km = 250 m; area = length × width.", "help": "$250 \\times 80 = 20\\,000$ **m²**.\n\n**Example:** 100 m by 50 m → 5000 m²." },
-    "198": { "hint": "20 min × 60 s; then × 4.5 l per second.", "help": "$4.5 \\times 20 \\times 60 = 5400$ **l**.\n\n**Example:** 2 l/s for 10 s → 20 l." },
-    "199": { "hint": "Change 15 m/s to km/h using ×3.6.", "help": "$15 \\times 3.6 = 54$ km/h. **60 km/h** is faster than 54 km/h.\n\n**Example:** Compare in the same units." },
-    "200": { "hint": "Find the distance in metres first (speed × time in seconds), then convert metres to km.", "help": "**Step 1:** Change 45 minutes to seconds: $45 \\times 60 = 2700$ s.\n\n**Step 2:** Distance = speed × time = $20 \\times 2700 = 54\\,000$ m.\n\n**Step 3:** Convert to km: $54\\,000 \\div 1000 = 54$ km." }
+    "1": {
+      "hint": "How many centimetres fit in one metre? Use the fact that 1 m = 100 cm.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Metres and centimetres measure **length**. There are **100 cm in 1 m**.\n2. So 1 metre equals **100 centimetres**."
+    },
+    "2": {
+      "hint": "Millimetres are smaller than centimetres. How many mm in 1 cm?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. There are **10 millimetres in 1 centimetre**.\n2. Think of mm as tiny marks on a ruler between each cm."
+    },
+    "3": {
+      "hint": "Kilograms are bigger units than grams. How many g make 1 kg?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **1 kilogram = 1000 grams**.\n2. When the unit gets bigger, the number gets smaller: 1 kg is the same as 1000 g."
+    },
+    "4": {
+      "hint": "Litres and millilitres measure capacity. How many ml in 1 l?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **1 litre = 1000 millilitres**.\n2. A small medicine spoon might be 5 ml; a bottle might be 500 ml (= 0.5 l)."
+    },
+    "5": {
+      "hint": "£1 is made of pence. How many pence equal one pound?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **£1 = 100 pence**.\n2. To change pounds to pence, multiply by 100."
+    },
+    "6": {
+      "hint": "Kilometres are long distances. Each km is how many metres?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **1 km = 1000 m**.\n2. Multiply km by 1000 to get metres."
+    },
+    "7": {
+      "hint": "Each hour has the same number of minutes. What is it?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **1 hour = 60 minutes**.\n2. To change hours to minutes, multiply by 60."
+    },
+    "8": {
+      "hint": "Seconds are smaller than minutes. How many seconds in one minute?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **1 minute = 60 seconds**.\n2. **Example:** 2 minutes = 120 seconds."
+    },
+    "9": {
+      "hint": "Change both measurements to the same unit, then compare.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **0.5 m** means half a metre = $0.5 \\times 100 = 50$ cm.\n2. So **50 cm** and **0.5 m** are the **same length**."
+    },
+    "10": {
+      "hint": "Multiply the number of metres by 100 to get centimetres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3\\text{ m} = 3 \\times 100 = 300$ **cm**.\n2. Metres → cm: **multiply by 100**."
+    },
+    "11": {
+      "hint": "To change grams to kilograms, divide by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2000\\text{ g} = 2000 \\div 1000 = 2$ **kg**.\n2. Grams → kg: **divide by 1000**."
+    },
+    "12": {
+      "hint": "Divide the number of pence by 100 to get pounds.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $120\\text{ p} = 120 \\div 100 = £1.20$.\n2. Pence → pounds: **divide by 100**."
+    },
+    "13": {
+      "hint": "Each kilometre is 1000 metres. Multiply 4 by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $4\\text{ km} = 4 \\times 1000 = 4000$ **m**.\n2. Km → m: multiply by **1000**."
+    },
+    "14": {
+      "hint": "Divide metres by 1000 to change to kilometres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2500\\text{ m} = 2500 \\div 1000 = 2.5$ **km**.\n2. **Example:** 800 m = 0.8 km."
+    },
+    "15": {
+      "hint": "Centimetres are smaller than metres. Divide by 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $80\\text{ cm} = 80 \\div 100 = 0.8$ **m**.\n2. Cm → m: **divide by 100**."
+    },
+    "16": {
+      "hint": "Multiply metres by 100 to get centimetres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.6\\text{ m} = 1.6 \\times 100 = 160$ **cm**.\n2. **Example:** 0.25 m = 25 cm."
+    },
+    "17": {
+      "hint": "Divide grams by 1000 to get kilograms.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3500\\text{ g} = 3500 \\div 1000 = 3.5$ **kg**.\n2. **Example:** 750 g = 0.75 kg."
+    },
+    "18": {
+      "hint": "Multiply kilograms by 1000 to get grams.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.75\\text{ kg} = 0.75 \\times 1000 = 750$ **g**.\n2. **Example:** 1.2 kg = 1200 g."
+    },
+    "19": {
+      "hint": "Divide millilitres by 1000 to get litres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2000\\text{ ml} = 2000 \\div 1000 = 2$ **l**.\n2. **Example:** 500 ml = 0.5 l."
+    },
+    "20": {
+      "hint": "Multiply litres by 1000 to get millilitres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.5\\text{ l} = 1.5 \\times 1000 = 1500$ **ml**.\n2. **Example:** 0.25 l = 250 ml."
+    },
+    "21": {
+      "hint": "Divide millimetres by 10 to get centimetres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $45\\text{ mm} = 45 \\div 10 = 4.5$ **cm**.\n2. Mm → cm: **divide by 10**."
+    },
+    "22": {
+      "hint": "Multiply centimetres by 10 to get millimetres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $12\\text{ cm} = 12 \\times 10 = 120$ **mm**.\n2. **Example:** 7 cm = 70 mm."
+    },
+    "23": {
+      "hint": "Divide minutes by 60 to get hours.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $90\\text{ minutes} = 90 \\div 60 = 1.5$ **hours**.\n2. **Example:** 120 min = 2 h."
+    },
+    "24": {
+      "hint": "Multiply hours by 60 to get minutes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.25\\text{ hours} = 1.25 \\times 60 = 75$ **minutes**.\n2. **Example:** 0.5 h = 30 min."
+    },
+    "25": {
+      "hint": "Divide seconds by 60 to get minutes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $240\\text{ s} = 240 \\div 60 = 4$ **minutes**.\n2. **Example:** 120 s = 2 min."
+    },
+    "26": {
+      "hint": "Multiply pounds by 100 to get pence.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $£4.20 = 4.20 \\times 100 = 420$ **p**.\n2. **Example:** £0.50 = 50 p."
+    },
+    "27": {
+      "hint": "Divide pence by 100 to write pounds.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $375\\text{ p} = 375 \\div 100 = £3.75$.\n2. **Example:** 199 p = £1.99."
+    },
+    "28": {
+      "hint": "Change 2 km to metres, then compare with 1800 m.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2\\text{ km} = 2000$ m. Since $2000 > 1800$, **2 km is longer**.\n2. Always use the **same unit** before comparing."
+    },
+    "29": {
+      "hint": "Change 0.7 kg to grams, then compare with 750 g.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.7\\text{ kg} = 700$ g.\n2. **750 g** is heavier than 700 g.\n3. **Example:** Compare 1.1 kg and 1050 g — they are equal."
+    },
+    "30": {
+      "hint": "Change 1.5 l to millilitres and compare with 1400 ml.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.5\\text{ l} = 1500$ ml.\n2. **1500 ml** holds more than 1400 ml.\n3. **Example:** 2 l = 2000 ml."
+    },
+    "31": {
+      "hint": "Multiply the length in metres by 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2.3\\text{ m} = 2.3 \\times 100 = 230$ **cm**.\n2. Use this when a question asks for cm but gives metres."
+    },
+    "32": {
+      "hint": "Multiply kilograms by 1000 to change to grams.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2\\text{ kg} = 2 \\times 1000 = 2000$ **g**.\n2. **Example:** 0.5 kg = 500 g."
+    },
+    "33": {
+      "hint": "Divide millilitres by 1000 to get litres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $750\\text{ ml} = 750 \\div 1000 = 0.75$ **l**.\n2. **Example:** 250 ml = 0.25 l."
+    },
+    "34": {
+      "hint": "Multiply km by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.6\\text{ km} = 0.6 \\times 1000 = 600$ **m**.\n2. **Example:** 0.02 km = 20 m."
+    },
+    "35": {
+      "hint": "Divide cm by 100 to get metres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $450\\text{ cm} = 450 \\div 100 = 4.5$ **m**.\n2. **Example:** 100 cm = 1 m."
+    },
+    "36": {
+      "hint": "There are 1000 mm in 1 m. Divide mm by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $5000\\text{ mm} = 5000 \\div 1000 = 5$ **m**.\n2. Or: mm → cm (÷10), then cm → m (÷100)."
+    },
+    "37": {
+      "hint": "Multiply centimetres by 10 for millimetres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $18\\text{ cm} = 18 \\times 10 = 180$ **mm**.\n2. **Example:** 2.5 cm = 25 mm."
+    },
+    "38": {
+      "hint": "Multiply metres by 100 for centimetres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.2\\text{ m} = 1.2 \\times 100 = 120$ **cm**.\n2. **Example:** 0.8 m = 80 cm."
+    },
+    "39": {
+      "hint": "Each day has 24 hours. Multiply days by 24.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2\\text{ days} = 2 \\times 24 = 48$ **hours**.\n2. **Example:** 3 days = 72 hours."
+    },
+    "40": {
+      "hint": "0.05 km means 5 hundredths of a km. Multiply by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.05\\text{ km} = 0.05 \\times 1000 = 50$ **m**.\n2. **Example:** 0.1 km = 100 m."
+    },
+    "41": {
+      "hint": "Recall how many centimetres are defined in one metre.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. By definition, **1 m = 100 cm** exactly.\n2. So the statement is **true**."
+    },
+    "42": {
+      "hint": "Use the standard conversion between litres and millilitres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **1 litre is exactly 1000 millilitres** in the metric system.\n2. So it is **always** true."
+    },
+    "43": {
+      "hint": "Convert 3.2 km to metres and compare with 320 m.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3.2\\text{ km} = 3.2 \\times 1000 = 3200$ m.\n2. 3200 m is **not** 320 m, so Mia is **wrong**."
+    },
+    "44": {
+      "hint": "Think how many metres are in one kilometre.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. One **kilometre** is **1000 metres**.\n2. So to change km → m you **multiply by 1000** (you take more of the smaller unit)."
+    },
+    "45": {
+      "hint": "Change both masses to grams before comparing.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.2\\text{ kg} = 1200$ g. Compare 1200 g with 1150 g.\n2. 1200 > 1150, so 1.2 kg is **heavier** — the statement is **false**."
+    },
+    "46": {
+      "hint": "Metres and centimetres: divide or multiply by 100?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. To change **cm → m**, **divide by 100**.\n2. $600\\text{ cm} = 6$ m, not 60 m.\n3. Priya divided by 10, so she is **incorrect**."
+    },
+    "47": {
+      "hint": "Try 1 hour and also a fraction of an hour like 0.5 h.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. For **whole hours**, minutes = hours × 60, so minutes are **bigger numbers**.\n2. For very small [decimal](mtlearn:word/decimal) hours the minute count can be less than 1 hour's number, but GCSE time conversions usually use positive whole or decimal hours — **always** bigger for typical school values."
+    },
+    "48": {
+      "hint": "Read km/h as kilometres for each hour.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **km/h** means **kilometres per hour**: how many kilometres you travel in **one hour** at that steady speed.\n2. **Example:** 60 km/h → about 60 km each hour."
+    },
+    "49": {
+      "hint": "Change 75 p to pounds and compare with £7.50.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $75\\text{ p} = £0.75$, not £7.50.\n2. Leo moved the [decimal](mtlearn:word/decimal) the wrong way."
+    },
+    "50": {
+      "hint": "Area units square the length factor: 1 m = 100 cm, so what about m²?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. If 1 m = 100 cm, then **1 m² = 100 × 100 = 10 000 cm²**.\n2. So **100 cm² is much smaller** than 1 m² — the statement is **false**."
+    },
+    "51": {
+      "hint": "Find the cost of 3 pens at 85 p each, then change pence to pounds.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3 \\times 85 = 255$ p.\n2. $255 \\div 100 = £2.55$."
+    },
+    "52": {
+      "hint": "Convert the 1 hour to minutes, then add the extra 45 minutes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 1 hour = 60 min.\n2. $60 + 45 = 105$ **minutes** total."
+    },
+    "53": {
+      "hint": "Multiply kilometres by 1000 to get metres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $5.5\\text{ km} = 5.5 \\times 1000 = 5500$ **m**.\n2. **Example:** 0.8 km = 800 m."
+    },
+    "54": {
+      "hint": "Add the masses in grams, then divide by 1000 for kg.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $400 + 250 = 650$ g.\n2. $650 \\div 1000 = 0.65$ **kg**."
+    },
+    "55": {
+      "hint": "Multiply litres by 1000 to get millilitres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $28\\text{ l} = 28 \\times 1000 = 28\\,000$ **ml**.\n2. **Example:** 3 l = 3000 ml."
+    },
+    "56": {
+      "hint": "Convert 2 hours to minutes, then add 10 minutes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2 \\times 60 + 10 = 130$ **minutes**.\n2. **Example:** 1 h 5 min = 65 min."
+    },
+    "57": {
+      "hint": "Change the rope length to cm, then divide by 30 cm.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $4.2\\text{ m} = 420$ cm.\n2. $420 \\div 30 = 14$ **pieces**."
+    },
+    "58": {
+      "hint": "Multiply 65 p by 8, then convert to pounds.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $8 \\times 65 = 520$ p = **£5.20**.\n2. **Example:** 10 × 45 p = 450 p = £4.50."
+    },
+    "59": {
+      "hint": "Speed = distance ÷ time. Divide 90 km by 2 hours.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **Speed** = distance ÷ time.\n2. $90 \\div 2 = 45$ **km/h**."
+    },
+    "60": {
+      "hint": "Compare capacities: change both to ml or both to litres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Drink A: 600 ml. Drink B: 1.5 l = **1500 ml**.\n2. **Drink B** holds more liquid."
+    },
+    "61": {
+      "hint": "Multiply km by 1000 to change to metres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $6.5\\text{ km} = 6500$ **m**.\n2. **Example:** 12 km = 12 000 m."
+    },
+    "62": {
+      "hint": "Divide metres by 1000 for kilometres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $8400\\text{ m} = 8.4$ **km**.\n2. Always include the correct unit in your answer."
+    },
+    "63": {
+      "hint": "Divide centimetres by 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $125\\text{ cm} = 1.25$ **m**.\n2. Always include the correct unit in your answer."
+    },
+    "64": {
+      "hint": "Multiply metres by 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3.75\\text{ m} = 375$ **cm**.\n2. Always include the correct unit in your answer."
+    },
+    "65": {
+      "hint": "Grams to kg: divide by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $5200\\text{ g} = 5.2$ **kg**.\n2. **Example:** 2500 g = 2.5 kg."
+    },
+    "66": {
+      "hint": "Kg to grams: multiply by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2.4\\text{ kg} = 2400$ **g**.\n2. Always include the correct unit in your answer."
+    },
+    "67": {
+      "hint": "Ml to litres: divide by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $4500\\text{ ml} = 4.5$ **l**.\n2. **Example:** 750 ml = 0.75 l."
+    },
+    "68": {
+      "hint": "Litres to ml: multiply by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.8\\text{ l} = 800$ **ml**.\n2. Always include the correct unit in your answer."
+    },
+    "69": {
+      "hint": "Mm to cm: divide by 10.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $35\\text{ mm} = 3.5$ **cm**.\n2. Always include the correct unit in your answer."
+    },
+    "70": {
+      "hint": "Cm to mm: multiply by 10.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $9\\text{ cm} = 90$ **mm**.\n2. Always include the correct unit in your answer."
+    },
+    "71": {
+      "hint": "Minutes to hours: divide by 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $150\\text{ min} = 2.5$ **hours**.\n2. **Example:** 90 min = 1.5 h."
+    },
+    "72": {
+      "hint": "Hours to minutes: multiply by 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2.75\\text{ h} = 2.75 \\times 60 = 165$ **min**.\n2. **Example:** 1.5 h = 90 min."
+    },
+    "73": {
+      "hint": "Seconds to minutes: divide by 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $300\\text{ s} = 5$ **minutes**.\n2. **Example:** 180 s = 3 min."
+    },
+    "74": {
+      "hint": "Pounds to pence: multiply by 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $£7.05 = 705$ **p**.\n2. Always include the correct unit (p or £) in your answer."
+    },
+    "75": {
+      "hint": "Pence to pounds: divide by 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $890\\text{ p} = £8.90$.\n2. Always include the correct unit in your answer."
+    },
+    "76": {
+      "hint": "Change 4500 mm to metres and compare with 4.2 m.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $4500\\text{ mm} = 4.5$ m.\n2. **4.2 m** is shorter than 4.5 m.\n3. **Example:** 3000 mm = 3 m."
+    },
+    "77": {
+      "hint": "Change 2.05 kg to grams.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2.05\\text{ kg} = 2050$ g, which is **heavier** than 2040 g.\n2. **Example:** 1 kg vs 999 g → 1 kg wins."
+    },
+    "78": {
+      "hint": "3 l equals how many ml?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3\\text{ l} = 3000$ ml > 2950 ml, so **3 l** holds more.\n2. **Example:** 1 l vs 950 ml."
+    },
+    "79": {
+      "hint": "Multiply metres by 100 for cm.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $8.5\\text{ m} = 850$ **cm**.\n2. Always include the correct unit in your answer."
+    },
+    "80": {
+      "hint": "Divide grams by 1000 for kg.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $5\\text{ g} = 0.005$ **kg**.\n2. Always include the correct unit in your answer."
+    },
+    "81": {
+      "hint": "Divide ml by 1000 for litres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $12\\text{ ml} = 0.012$ **l**.\n2. Always include the correct unit in your answer."
+    },
+    "82": {
+      "hint": "0.125 km × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.125\\text{ km} = 125$ **m**.\n2. **Example:** 0.5 km = 500 m."
+    },
+    "83": {
+      "hint": "275 cm ÷ 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $275\\text{ cm} = 2.75$ **m**.\n2. Always include the correct unit in your answer."
+    },
+    "84": {
+      "hint": "7200 mm ÷ 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $7200\\text{ mm} = 7.2$ **m**.\n2. Always include the correct unit in your answer."
+    },
+    "85": {
+      "hint": "24 cm × 10 for mm.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $24\\text{ cm} = 240$ **mm**.\n2. Always include the correct unit in your answer."
+    },
+    "86": {
+      "hint": "Divide metres by 1000 for km.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $25\\text{ m} = 0.025$ **km**.\n2. Always include the correct unit in your answer."
+    },
+    "87": {
+      "hint": "3 hours × 60 minutes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3 \\times 60 = 180$ **minutes**.\n2. **Example:** 2 h = 120 min."
+    },
+    "88": {
+      "hint": "0.002 km × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.002\\text{ km} = 2$ **m**.\n2. Always include the correct unit in your answer."
+    },
+    "89": {
+      "hint": "10 × 55 p, then change to pounds.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $10 \\times 55 = 550$ p = **£5.50**.\n2. **Example:** 20 × 30 p = 600 p = £6."
+    },
+    "90": {
+      "hint": "Divide minutes by 60 to write hours as a decimal.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $50\\text{ min} = 50 \\div 60 \\approx 0.833$ **hours** (or $\\frac{5}{6}$ h).\n2. **Example:** 30 min = 0.5 h."
+    },
+    "91": {
+      "hint": "12 km in metres — multiply by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $12\\text{ km} = 12\\,000$ **m**.\n2. **Example:** 1 km = 1000 m."
+    },
+    "92": {
+      "hint": "15 000 m ÷ 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $15\\,000\\text{ m} = 15$ **km**.\n2. **Example:** 2500 m = 2.5 km."
+    },
+    "93": {
+      "hint": "0.9 m to cm — multiply by 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.9\\text{ m} = 90$ **cm**.\n2. Always include the correct unit in your answer."
+    },
+    "94": {
+      "hint": "640 cm ÷ 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $640\\text{ cm} = 6.4$ **m**.\n2. Always include the correct unit in your answer."
+    },
+    "95": {
+      "hint": "1.05 kg × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.05\\text{ kg} = 1050$ **g**.\n2. **Example:** 2.02 kg = 2020 g."
+    },
+    "96": {
+      "hint": "850 g ÷ 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $850\\text{ g} = 0.85$ **kg**.\n2. **Example:** 1250 g = 1.25 kg."
+    },
+    "97": {
+      "hint": "3.2 l × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3.2\\text{ l} = 3200$ **ml**.\n2. Always include the correct unit in your answer."
+    },
+    "98": {
+      "hint": "1750 ml ÷ 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1750\\text{ ml} = 1.75$ **l**.\n2. Always include the correct unit in your answer."
+    },
+    "99": {
+      "hint": "120 mm ÷ 10.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $120\\text{ mm} = 12$ **cm**.\n2. Always include the correct unit in your answer."
+    },
+    "100": {
+      "hint": "6.5 cm × 10.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $6.5\\text{ cm} = 65$ **mm**.\n2. Always include the correct unit in your answer."
+    },
+    "101": {
+      "hint": "105 minutes ÷ 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $105\\text{ min} = 1.75$ **hours**.\n2. **Example:** 150 min = 2.5 h."
+    },
+    "102": {
+      "hint": "0.5 h × 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.5\\text{ h} = 30$ **minutes**.\n2. **Example:** 0.25 h = 15 min."
+    },
+    "103": {
+      "hint": "480 s ÷ 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $480\\text{ s} = 8$ **minutes**.\n2. **Example:** 600 s = 10 min."
+    },
+    "104": {
+      "hint": "£12.99 × 100 for pence.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $£12.99 = 1299$ **p**.\n2. Always include the correct unit in your answer."
+    },
+    "105": {
+      "hint": "1050 p ÷ 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1050\\text{ p} = £10.50$.\n2. Always include the correct unit in your answer."
+    },
+    "106": {
+      "hint": "0.45 km × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.45\\text{ km} = 450$ **m**.\n2. **Example:** 1.2 km = 1200 m."
+    },
+    "107": {
+      "hint": "3.6 kg × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3.6\\text{ kg} = 3600$ **g**.\n2. **Example:** 0.25 kg = 250 g."
+    },
+    "108": {
+      "hint": "1.7 l × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.7\\text{ l} = 1700$ **ml**.\n2. **Example:** 2.5 l = 2500 ml."
+    },
+    "109": {
+      "hint": "0.85 km in metres?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.85\\text{ km} = 850$ m — **same** as 850 m.\n2. **Example:** 1 km = 1000 m."
+    },
+    "110": {
+      "hint": "0.99 kg in grams?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.99\\text{ kg} = 990$ g — **equal** to 990 g.\n2. **Example:** 1 kg = 1000 g."
+    },
+    "111": {
+      "hint": "12.4 km to metres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $12.4\\text{ km} = 12\\,400$ **m**.\n2. **Example:** 0.1 km = 100 m."
+    },
+    "112": {
+      "hint": "650 mg is 0.65 g — write in grams.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **650 mg = 0.65 g** (milli- means thousandth).\n2. **Example:** 1000 mg = 1 g."
+    },
+    "113": {
+      "hint": "8 l × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $8\\text{ l} = 8000$ **ml**.\n2. Always include the correct unit in your answer."
+    },
+    "114": {
+      "hint": "4 h × 60 plus 30 min.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $4 \\times 60 + 30 = 270$ **minutes**.\n2. **Example:** 1 h 15 min = 75 min."
+    },
+    "115": {
+      "hint": "195 min = how many hours and leftover minutes?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $195 \\div 60 = 3$ h with **15 min** left → **3 h 15 min**.\n2. **Example:** 125 min = 2 h 5 min."
+    },
+    "116": {
+      "hint": "15 × 30 p, then pounds.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $15 \\times 30 = 450$ p = **£4.50**.\n2. **Example:** 8 × 25 p = 200 p = £2."
+    },
+    "117": {
+      "hint": "Divide total minutes by kilometres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $25\\text{ min} \\div 5\\text{ km} = 5$ **min per km**.\n2. **Example:** 40 min for 8 km → 5 min/km."
+    },
+    "118": {
+      "hint": "Speed uses distance and what other quantity?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **Speed = distance ÷ time**.\n2. Units like km/h tell you distance per hour."
+    },
+    "119": {
+      "hint": "Divide total cost by kilograms.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $£4.50 \\div 3 = £1.50$ **per kg**.\n2. **Example:** £6 for 2 kg → £3/kg."
+    },
+    "120": {
+      "hint": "Distance = speed × time.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $15\\text{ km/h} \\times 2\\text{ h} = 30$ **km**.\n2. **Example:** 8 km/h for 0.5 h → 4 km."
+    },
+    "121": {
+      "hint": "To go from metres to cm, do you multiply or divide by 100?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Metres → cm: **multiply by 100**.\n2. So dividing by 100 is **false** for m → cm."
+    },
+    "122": {
+      "hint": "Same length in mm vs cm — which number is bigger?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Millimetres are **smaller units**, so you need **more** of them for the same length.\n2. So the mm number is **always bigger** than the cm number for the same length."
+    },
+    "123": {
+      "hint": "£ to pence: multiply by 100, not 10.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $£2 = 200$ p, not 20 p.\n2. Sam should **multiply by 100**."
+    },
+    "124": {
+      "hint": "Why compare price for 1 kg instead of pack size?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Different packs weigh different amounts.\n2. **Price per kg** (or per litre) lets you compare **fairly** for the same amount.\n3. **Example:** 500 g for £2 vs 1 kg for £3 — use £/kg."
+    },
+    "125": {
+      "hint": "0.5 hours × 60 minutes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.5 \\times 60 = 30$ **minutes**.\n2. So the statement is **true**."
+    },
+    "126": {
+      "hint": "Change 2.5 l to ml.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2.5\\text{ l} = 2500$ ml — **same** as 2500 ml.\n2. **Example:** 1 l = 1000 ml."
+    },
+    "127": {
+      "hint": "Grams to kg divides by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Changing **g → kg** makes the number **smaller** (divide by 1000).\n2. **Example:** 2000 g = 2 kg."
+    },
+    "128": {
+      "hint": "Per hour links distance and time.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **Miles per hour** or **km/h** compare **distance** to **time** — how far per one hour.\n2. **Example:** 40 km in 1 h → 40 km/h."
+    },
+    "129": {
+      "hint": "10 mm × 10 mm gives area in mm².",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Area = $10 \\times 10 = 100$ **mm²**.\n2. **1 cm² = 100 mm²**, so the statement is **true**."
+    },
+    "130": {
+      "hint": "Density compares mass to volume.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **Density** tells how much **mass** is in each bit of **volume**.\n2. Priya's idea is a good plain-English description — say **yes** and mention mass and volume."
+    },
+    "131": {
+      "hint": "Find minutes from 09:15 to 11:40.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. From 09:15 to 11:15 is 2 h; plus 25 min → **2 h 25 min** (145 min).\n2. **Example:** 10:00 to 10:45 → 45 min."
+    },
+    "132": {
+      "hint": "Change 0.8 km to m, then perimeter = 2 × (length + width).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.8\\text{ km} = 800$ m. Width 500 m.\n2. $P = 2(800+500) = 2600$ **m**."
+    },
+    "133": {
+      "hint": "Add costs, subtract from £20.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $4.35+6.20+2.85 = 13.40$.\n2. Change $= 20 - 13.40 = **£6.60**.\n3. **Example:** Pay £10 for £7.25 → £2.75 change."
+    },
+    "134": {
+      "hint": "2 hours in minutes, then ml per minute × minutes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 2 h = 120 min.\n2. $40 \\times 120 = 4800$ ml = **4.8 l**.\n3. **Example:** 10 ml/min for 5 min → 50 ml."
+    },
+    "135": {
+      "hint": "Speed = 240 ÷ 4; then distance = speed × 5.5.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Speed $= 240 \\div 4 = 60$ **km/h**.\n2. Distance $= 60 \\times 5.5 = 330$ **km**."
+    },
+    "136": {
+      "hint": "£2.40 ÷ 80 tea bags, in pence.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $240\\text{ p} \\div 80 = 3$ **p per bag**.\n2. **Example:** £1 for 50 → 2 p each."
+    },
+    "137": {
+      "hint": "Mass per metre: change 80 cm to m first.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 80 cm = 0.8 m.\n2. $1.2 \\div 0.8 = 1.5$ **kg/m**.\n3. **Example:** 2 kg in 1 m → 2 kg/m."
+    },
+    "138": {
+      "hint": "3 h 15 min → seconds: hours×3600 + minutes×60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 3 h = 10 800 s; 15 min = 900 s.\n2. Total **11 700 s**.\n3. **Example:** 1 min = 60 s."
+    },
+    "139": {
+      "hint": "Price ÷ litres for each tin; compare £ per l.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 2.5 l: $18 \\div 2.5 = £7.20$/l. 750 ml = 0.75 l: $6 \\div 0.75 = £8$/l.\n2. **2.5 l tin** is better value."
+    },
+    "140": {
+      "hint": "500 ml over 2 hours — find ml per minute.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 2 h = 120 min.\n2. $500 \\div 120 \\approx 4.2$ **ml/min**.\n3. **Example:** 600 ml in 1 h → 10 ml/min."
+    },
+    "141": {
+      "hint": "0.48 × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.48\\text{ km} = 480$ **m**.\n2. Always include the correct unit in your answer."
+    },
+    "142": {
+      "hint": "967 cm ÷ 100.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $967\\text{ cm} = 9.67$ **m**.\n2. Always include the correct unit in your answer."
+    },
+    "143": {
+      "hint": "2.08 m → cm then mm, or m × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2.08\\text{ m} = 208$ cm = **2080 mm**.\n2. **Example:** 1 m = 1000 mm."
+    },
+    "144": {
+      "hint": "0.045 kg × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.045\\text{ kg} = 45$ **g**.\n2. Always include the correct unit in your answer."
+    },
+    "145": {
+      "hint": "3060 g ÷ 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3060\\text{ g} = 3.06$ **kg**.\n2. **Example:** 4500 g = 4.5 kg."
+    },
+    "146": {
+      "hint": "0.35 l × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.35\\text{ l} = 350$ **ml**.\n2. **Example:** 1.05 l = 1050 ml."
+    },
+    "147": {
+      "hint": "5600 ml ÷ 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $5600\\text{ ml} = 5.6$ **l**.\n2. Always include the correct unit in your answer."
+    },
+    "148": {
+      "hint": "7.2 × 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $7.2\\text{ h} = 432$ **minutes**.\n2. **Example:** 1.5 h = 90 min."
+    },
+    "149": {
+      "hint": "1380 s ÷ 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1380\\text{ s} = 23$ **minutes**.\n2. **Example:** 300 s = 5 min."
+    },
+    "150": {
+      "hint": "£0.85 in pence.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $£0.85 = 85$ **p**.\n2. Always include the correct unit in your answer."
+    },
+    "151": {
+      "hint": "Marathon km × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $42.195\\text{ km} = 42\\,195$ **m**.\n2. **Example:** 10 km = 10 000 m."
+    },
+    "152": {
+      "hint": "12.5 kg × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $12.5\\text{ kg} = 12\\,500$ **g**.\n2. **Example:** 0.4 kg = 400 g."
+    },
+    "153": {
+      "hint": "1 kl = 1000 l.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.045\\text{ kl} = 45$ **l**.\n2. Always include the correct unit in your answer."
+    },
+    "154": {
+      "hint": "2.3 l in ml?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2.3\\text{ l} = 2300$ ml — **equal** to 2300 ml.\n2. **Example:** 1 l = 1000 ml."
+    },
+    "155": {
+      "hint": "£18.50 × 6 months.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $18.50 \\times 6 = **£111**$.\n2. **Example:** £10 × 12 = £120 per year."
+    },
+    "156": {
+      "hint": "126 km ÷ 1.5 h.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $126 \\div 1.5 = 84$ **km/h**.\n2. **Example:** 60 km in 1 h → 60 km/h."
+    },
+    "157": {
+      "hint": "Density = mass ÷ what?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **Density = mass ÷ volume**.\n2. **Example:** 10 g in 5 cm³ → 2 g/cm³."
+    },
+    "158": {
+      "hint": "600 g ÷ 300 cm³.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $600 \\div 300 = 2$ **g/cm³**.\n2. **Example:** 400 g, 200 cm³ → 2 g/cm³."
+    },
+    "159": {
+      "hint": "5 × 24 hours.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $5 \\times 24 = 120$ **hours**.\n2. Always include the correct unit in your answer."
+    },
+    "160": {
+      "hint": "72 ÷ 24.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $72 \\div 24 = 3$ **days**.\n2. Always include the correct unit in your answer."
+    },
+    "161": {
+      "hint": "0.25 kg × 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $0.25\\text{ kg} = 250$ **g**.\n2. Always include the correct unit in your answer."
+    },
+    "162": {
+      "hint": "4 mm ÷ 1000 for metres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $4\\text{ mm} = 0.004$ **m**.\n2. Always include the correct unit in your answer."
+    },
+    "163": {
+      "hint": "1.5 l ÷ 0.25 l per glass.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.5 \\div 0.25 = 6$ **glasses**.\n2. **Example:** 2 l ÷ 0.5 l → 4 glasses."
+    },
+    "164": {
+      "hint": "At 1 km/h, how far in one hour?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **1 km/h** means **1 km** each **hour** — **true**.\n2. **Example:** 5 km/h → 5 km per hour."
+    },
+    "165": {
+      "hint": "30 minutes is half an hour — double the km for 1 hour.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 45 km in 0.5 h → **90 km/h**.\n2. **Example:** 20 km in 20 min → 60 km/h."
+    },
+    "166": {
+      "hint": "1 m² = 100² cm².",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2.5\\text{ m²} = 2.5 \\times 10\\,000 = 25\\,000$ **cm²**.\n2. **Example:** 1 m² = 10 000 cm²."
+    },
+    "167": {
+      "hint": "Compare 100 cm² with 1 m² using 10 000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **1 m² = 10 000 cm²**, not 100 cm² — so **never** equal.\n2. **Example:** 100 cm² is tiny compared with 1 m²."
+    },
+    "168": {
+      "hint": "Find £ per kg for each pack.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 500 g: $2 \\div 0.5 = £4$/kg. 750 g: $2.70 \\div 0.75 = £3.60$/kg.\n2. **750 g pack** is better value."
+    },
+    "169": {
+      "hint": "200 l ÷ 8 l per minute.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $200 \\div 8 = 25$ **minutes**.\n2. **Example:** 100 l at 5 l/min → 20 min."
+    },
+    "170": {
+      "hint": "3.5 km/h → metres in one hour, then ÷ 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 3.5 km/h = 3500 m/h.\n2. $3500 \\div 60 \\approx 58.3$ **m/min**.\n3. **Example:** 60 km/h = 1000 m/min."
+    },
+    "171": {
+      "hint": "1 h 30 min = 1.5 h; divide 90 km by 1.5.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $90 \\div 1.5 = 60$ **km/h**.\n2. Always include units in your answer."
+    },
+    "172": {
+      "hint": "4 m = 400 cm; add 35 cm.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $400 + 35 = 435$ **cm**.\n2. Always include the correct unit in your answer."
+    },
+    "173": {
+      "hint": "3 kg = 3000 g; add 250 g.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3000 + 250 = 3250$ **g**.\n2. **Example:** 1 kg 500 g = 1500 g."
+    },
+    "174": {
+      "hint": "2 l = 2000 ml; add 400 ml.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2000 + 400 = 2400$ **ml**.\n2. **Example:** 1 l 250 ml = 1250 ml."
+    },
+    "175": {
+      "hint": "£9.50 × 7.5 hours.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $9.50 \\times 7.5 = **£71.25**$.\n2. **Example:** £10 × 6 h = £60."
+    },
+    "176": {
+      "hint": "12 cm ÷ 4 min.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $12 \\div 4 = 3$ **cm/min**.\n2. **Example:** 20 m in 5 min → 4 m/min."
+    },
+    "177": {
+      "hint": "25 kg ÷ 0.02 m³.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $25 \\div 0.02 = 1250$ **kg/m³**.\n2. **Example:** 10 kg, 0.01 m³ → 1000 kg/m³."
+    },
+    "178": {
+      "hint": "1.8 km → m → mm.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $1.8\\text{ km} = 1800$ m = **1 800 000 mm**.\n2. **Example:** 1 km = 1 000 000 mm."
+    },
+    "179": {
+      "hint": "1 h 20 min to minutes, then × 60 for seconds.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 80 min; $80 \\times 60 = 4800$ **s**.\n2. **Example:** 2 min = 120 s."
+    },
+    "180": {
+      "hint": "If side doubles, area scales by 2×2.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Doubling **length** makes **area 4 times** bigger (2 × 2).\n2. Statement is **false**."
+    },
+    "181": {
+      "hint": "8.5 × £1.85 per 1000 l.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 8.5 kl = 8500 l → 8.5 × £1.85 ≈ **£15.73**.\n2. **Example:** 1000 l at £2 → £2."
+    },
+    "182": {
+      "hint": "10 km in 50 min — find km per hour.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 50 min = $\\frac{5}{6}$ h.\n2. $10 \\div \\frac{5}{6} = 12$ **km/h**.\n3. **Example:** 5 km in 1 h → 5 km/h."
+    },
+    "183": {
+      "hint": "Volume = l×w×h; 1000 cm³ = 1 l.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $50×40×30 = 60\\,000$ cm³ = **60 l**.\n2. **Example:** 1000 cm³ = 1 l."
+    },
+    "184": {
+      "hint": "19 g/cm³ × 5 cm³.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $19 \\times 5 = 95$ **g**.\n2. **Example:** 2 g/cm³, 10 cm³ → 20 g."
+    },
+    "185": {
+      "hint": "36 l for 480 km — litres per 100 km.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $36 \\div 480 \\times 100 = 7.5$ **l per 100 km**.\n2. **Example:** 8 l per 100 km is common car figure."
+    },
+    "186": {
+      "hint": "0.75 h → min → s.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 0.75 h = 45 min = **2700 s**.\n2. Always include the correct unit in your answer."
+    },
+    "187": {
+      "hint": "Cost ÷ length in metres for each cable.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 2.4 m: $3.60/2.4 = £1.50$/m.\n2. 180 cm = 1.8 m: $2.70/1.8 = £1.50$/m — **same**.\n3. **Example:** Compare £/m."
+    },
+    "188": {
+      "hint": "3 l in 45 min — ml per minute.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 3 l = 3000 ml.\n2. $3000 \\div 45 \\approx 66.7$ **ml/min**.\n3. **Example:** 1 l in 10 min → 100 ml/min."
+    },
+    "189": {
+      "hint": "40 000 m² ÷ 10 000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $40\\,000 \\div 10\\,000 = 4$ **hectares**.\n2. **Example:** 1 ha = 10 000 m²."
+    },
+    "190": {
+      "hint": "Remember m/s to km/h uses 3.6.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. **Always:** multiply m/s by **3.6** to get km/h.\n2. **Example:** 10 m/s = 36 km/h."
+    },
+    "191": {
+      "hint": "Volume = 20×10×5; then cm³ to litres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Volume **1000 cm³** = **1 l**.\n2. **Example:** 2000 cm³ = 2 l."
+    },
+    "192": {
+      "hint": "25 min as a fraction of an hour × 120 km/h.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. 25 min = $\\frac{25}{60}$ h.\n2. $120 \\times \\frac{25}{60} = 50$ **km**.\n3. **Example:** 60 km/h for 30 min → 30 km."
+    },
+    "193": {
+      "hint": "2.7 kg = 2700 g; divide by 3000 cm³.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $2700 \\div 3000 = 0.9$ **g/cm³**.\n2. **Example:** Same mass and volume units first."
+    },
+    "194": {
+      "hint": "0.8 m³ needs 0.8×350 kg cement; divide by 25.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Cement $= 0.8 \\times 350 = 280$ kg.\n2. $280 \\div 25 = 11.2$ → **12 bags** (round up).\n3. **Example:** Always round up for whole bags."
+    },
+    "195": {
+      "hint": "Area conversion squares the ×100 factor.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Length: cm→m **÷100**. Area: cm²→m² **÷10 000**.\n2. Using ÷100 for area is **false**."
+    },
+    "196": {
+      "hint": "3.6 km → cm, then mm (×10).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $3.6\\text{ km} = 360\\,000$ cm = **3 600 000 mm**.\n2. **Example:** Chain conversions step by step."
+    },
+    "197": {
+      "hint": "0.25 km = 250 m; area = length × width.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $250 \\times 80 = 20\\,000$ **m²**.\n2. **Example:** 100 m by 50 m → 5000 m²."
+    },
+    "198": {
+      "hint": "20 min × 60 s; then × 4.5 l per second.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $4.5 \\times 20 \\times 60 = 5400$ **l**.\n2. **Example:** 2 l/s for 10 s → 20 l."
+    },
+    "199": {
+      "hint": "Change 15 m/s to km/h using ×3.6.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. $15 \\times 3.6 = 54$ km/h.\n2. **60 km/h** is faster than 54 km/h.\n3. **Example:** Compare in the same units."
+    },
+    "200": {
+      "hint": "Find the distance in metres first (speed × time in seconds), then convert metres to km.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:ratio/R1)\n\n1. Change 45 minutes to seconds: $45 \\times 60 = 2700$ s.\n2. Distance = speed × time = $20 \\times 2700 = 54\\,000$ m.\n3. Convert to km: $54\\,000 \\div 1000 = 54$ km."
+    }
   }
 }

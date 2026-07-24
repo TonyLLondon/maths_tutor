@@ -33,6 +33,7 @@ Kids use this app to **learn maths**, not to operate infrastructure.
   - Practice grading: sibling `{CODE}.answers.json`
   - Hint + help: sibling `{CODE}.support.json` (`hint` one line, `help` markdown mini-lesson per question id)
   - Optional read-only diagrams: sibling `{CODE}.figures.json` (`version: 1`, `figures` map question id → spec — see `_backlog/agents/FIGURES-BRIEF.md`)
+  - Optional learn links: sibling `{CODE}.learn.json` (`glossaryTerms` slugs); topic guides under `subjects/maths/learn/` — see `_backlog/agents/LEARN-BRIEF.md` and `LEARN-INTEGRATION-BRIEF.md`
   - Optional **Start here** list: `starter-topics.json` (`domain`, `code`, child-friendly `label`)
 - Accounts (all tenants): `content/accounts.json`
 - After worksheet or answer edits, run `npm run content:validate` (defaults to tenant `lewis`; override with `CONTENT_TENANT`).

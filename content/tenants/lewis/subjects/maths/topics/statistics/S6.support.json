@@ -3,804 +3,803 @@
   "questions": {
     "1": {
       "hint": "When height goes up, shoe size usually moves the same way—both increase.",
-      "help": "These two measures often **increase together** as you grow.\n\nAnswer **yes**—when one goes up, the other usually goes up too.\n\nThat pattern is called **positive** correlation in later questions."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. These two measures often **increase together** as you grow.\n2. Answer **yes**—when one goes up, the other usually goes up too.\n3. That pattern is called **positive** correlation in later questions."
     },
     "2": {
       "hint": "More rain usually means less park time—one up, the other down.",
-      "help": "When rain **increases**, park time often **decreases**.\n\nAnswer **yes** for “usually goes down.”\n\nThat is **negative** correlation: one variable rises while the other falls."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. When rain **increases**, park time often **decreases**.\n2. Answer **yes** for “usually goes down.”\n3. That is **negative** correlation: one variable rises while the other falls."
     },
     "3": {
       "hint": "Dots rising left to right mean both variables increase together.",
-      "help": "Fill in **positive**.\n\nPoints sloping **up** to the right show **positive correlation**—as $x$ increases, $y$ tends to increase.\n\nFalling dots would be **negative**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Fill in **positive**.\n2. Points sloping **up** to the right show **positive correlation**—as $x$ increases, $y$ tends to increase.\n3. Falling dots would be **negative**."
     },
     "4": {
       "hint": "The trend line’s name ends with “fit”.",
-      "help": "A **line of best fit** shows the overall trend through scattered points.\n\nIt is not always through every dot—it balances points above and below.\n\nYou draw it to help **predict** and **describe** the relationship."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. A **line of best fit** shows the overall trend through scattered points.\n2. It is not always through every dot—it balances points above and below.\n3. You draw it to help **predict** and **describe** the relationship."
     },
     "5": {
       "hint": "A lonely dot far from the main cloud has a special name.",
-      "help": "An **outlier** is a point **far from** the main pattern.\n\nIt might be a mistake or a special case.\n\nOutliers affect how you draw a line of best fit."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. An **outlier** is a point **far from** the main pattern.\n2. It might be a mistake or a special case.\n3. Outliers affect how you draw a line of best fit."
     },
     "6": {
       "hint": "No clear pattern means no strong link between the variables.",
-      "help": "If dots are scattered with **no trend**, there is **no correlation** (or very weak correlation).\n\nAnswer **no**—you would not say there is a clear correlation.\n\nA line of best fit would be nearly flat or useless for prediction."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. If dots are scattered with **no trend**, there is **no correlation** (or very weak correlation).\n2. Answer **no**—you would not say there is a clear correlation.\n3. A line of best fit would be nearly flat or useless for prediction."
     },
     "7": {
       "hint": "Gradient = change in y ÷ change in x from (0,0) to (2,4).",
-      "help": "From $(0,0)$ to $(2,4)$: $y$ increases by 4 when $x$ increases by 2.\n\nGradient = $4 \\div 2 = 2$. So when $x$ increases by **1**, $y$ increases by **2**.\n\nThat is the slope of the line."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. From $(0,0)$ to $(2,4)$: $y$ increases by 4 when $x$ increases by 2.\n2. Gradient = $4 \\div 2 = 2$. So when $x$ increases by **1**, $y$ increases by **2**.\n3. That is the slope of the line."
     },
     "8": {
       "hint": "The line goes from (0,10) to (10,20)—find y at the middle x = 5.",
-      "help": "The line rises **10** in $y$ when $x$ goes from 0 to 10—steady increase.\n\nAt **$x = 5$** (halfway), $y$ is halfway between 10 and 20 → **15**.\n\nYou can use gradient or “halfway along” reasoning."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. The line rises **10** in $y$ when $x$ goes from 0 to 10—steady increase.\n2. At **$x = 5$** (halfway), $y$ is halfway between 10 and 20 → **15**.\n3. You can use gradient or “halfway along” reasoning."
     },
     "9": {
       "hint": "Top-left to bottom-right is the opposite of rising left to right.",
-      "help": "Points falling as you move right show **negative** correlation.\n\nNot positive—$y$ tends to **decrease** as $x$ increases."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Points falling as you move right show **negative** correlation.\n2. Not positive—$y$ tends to **decrease** as $x$ increases."
     },
     "10": {
       "hint": "Gradient = (8 − 0) ÷ (4 − 0) for the line through (0,0) and (4,8).",
-      "help": "Gradient = $\\frac{8-0}{4-0} = 2$.\n\nThe line goes up 2 units in $y$ for each 1 unit in $x$.\n\nSame gradient idea as question 7 with different points."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $\\frac{8-0}{4-0} = 2$.\n2. The line goes up 2 units in $y$ for each 1 unit in $x$.\n3. Same gradient idea as question 7 with different points."
     },
     "11": {
       "hint": "From (0,5) to (10,15), y increases by 10 over 10 in x—find y when x = 5.",
-      "help": "At $x = 0$, $y = 5$. Gradient 1: at $x = 5$, $y = 5 + 5 = 10$.\n\nRead from the line or use equal steps."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. At $x = 0$, $y = 5$. Gradient 1: at $x = 5$, $y = 5 + 5 = 10$.\n2. Read from the line or use equal steps."
     },
     "12": {
       "hint": "Correlation shows a link—it does not by itself prove one thing causes the other.",
-      "help": "**False.** Strong correlation does **not always** mean one variable **causes** the other.\n\nBoth might be driven by something else (e.g. season, age).\n\nAlways be careful with “cause” language."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False.** Strong correlation does **not always** [mean](mtlearn:word/mean) one variable **causes** the other.\n2. Both might be driven by something else (e.g. season, age).\n3. Always be careful with “cause” language."
     },
     "13": {
       "hint": "Rising bottom-left to top-right—name that type of correlation.",
-      "help": "**Positive correlation**—as one variable increases, the other tends to increase.\n\nThe cloud of points slopes **upward** to the right."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Positive correlation**—as one variable increases, the other tends to increase.\n2. The cloud of points slopes **upward** to the right."
     },
     "14": {
       "hint": "Falling from top-left to bottom-right—positive or negative?",
-      "help": "**Negative correlation**—$y$ tends to fall as $x$ rises.\n\nImagine outdoor temperature vs coats sold: warmer → fewer coats."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Negative correlation**—$y$ tends to fall as $x$ rises.\n2. Imagine outdoor temperature vs coats sold: warmer → fewer coats."
     },
     "15": {
       "hint": "No clear slope up or down—what do we call that?",
-      "help": "**No correlation** (or zero correlation)—points look like a random cloud.\n\nThere is no clear linear trend to describe."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No correlation** (or zero correlation)—points look like a random cloud.\n2. There is no clear linear trend to describe."
     },
     "16": {
       "hint": "It is the straight trend line through the scatter—two words, second is “fit”.",
-      "help": "**Line of best fit**—drawn so points are roughly balanced above and below.\n\nIt summarises the trend for predictions and descriptions."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Line of best fit**—drawn so points are roughly balanced above and below.\n2. It summarises the trend for predictions and descriptions."
     },
     "17": {
       "hint": "Positive correlation on revision vs score—what does that suggest?",
-      "help": "More revision tends to go with **higher** test scores (not a guarantee for every pupil).\n\nIt **suggests** a link: pupils who revise more often score higher on average.\n\nIt does not prove revision alone caused every mark."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. More revision tends to go with **higher** test scores (not a guarantee for every pupil).\n2. It **suggests** a link: pupils who revise more often score higher on average.\n3. It does not prove revision alone caused every mark."
     },
     "18": {
       "hint": "Negative correlation: warmer weather, fewer hot drinks sold.",
-      "help": "As **temperature rises**, **hot chocolate sales** tend to **fall**.\n\nThat matches **negative** correlation—one up, the other down.\n\nSeason and preference both play a role in real life."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. As **temperature rises**, **hot chocolate sales** tend to **fall**.\n2. That matches **negative** correlation—one up, the other down.\n3. Season and preference both play a role in real life."
     },
     "19": {
       "hint": "Gradient = change in y divided by change in x between the two given points.",
-      "help": "From $(0,10)$ to $(10,30)$: gradient = $\\frac{30-10}{10-0} = 2$.\n\nEach extra unit of $x$ adds 2 to $y$ on this line."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. From $(0,10)$ to $(10,30)$: gradient = $\\frac{30-10}{10-0} = 2$.\n2. Each extra unit of $x$ adds 2 to $y$ on this line."
     },
     "20": {
       "hint": "Use the line from Q19—when x = 5, add half the total rise from x = 0 to 10.",
-      "help": "At $x=0$, $y=10$. Gradient 2 → at $x=5$, $y = 10 + 2\\times5 = **20**$.\n\nOr halfway between 10 and 30 on the segment from 0 to 10."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. At $x=0$, $y=10$. Gradient 2 → at $x=5$, $y = 10 + 2\\times5 = **20**$.\n2. Or halfway between 10 and 30 on the segment from 0 to 10."
     },
     "21": {
       "hint": "One dot far from the rest—outlier is the key word.",
-      "help": "That distant point is an **outlier**.\n\nIt may not follow the same rule as the main group."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. That distant point is an **outlier**.\n2. It may not follow the same rule as the main group."
     },
     "22": {
       "hint": "Draw the line to follow the main trend—not to chase one odd point.",
-      "help": "Usually **do not** let one outlier **pull** the line of best fit.\n\nDraw the line through the **main pattern**; mention the outlier separately.\n\nDo not delete it unless you know it is wrong."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Usually **do not** let one outlier **pull** the line of best fit.\n2. Draw the line through the **main pattern**; mention the outlier separately.\n3. Do not delete it unless you know it is wrong."
     },
     "23": {
       "hint": "Estimating inside the data you plotted is safer than guessing far outside.",
-      "help": "**Interpolation** = estimating **within** the range of $x$ values you actually plotted.\n\nExample: data from 1–10 hours revision, estimate at 6 hours.\n\nUsually **more reliable** than guessing far outside the data."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Interpolation** = estimating **within** the range of $x$ values you actually plotted.\n2. Example: data from 1–10 hours revision, estimate at 6 hours.\n3. Usually **more reliable** than guessing far outside the data."
     },
     "24": {
       "hint": "Guessing beyond your plotted x-values is extrapolation—often less reliable.",
-      "help": "**Extrapolation** = estimating **outside** the range of your data (beyond smallest or largest $x$).\n\nThe trend might not continue—real life can change.\n\nTreat far extrapolation as **uncertain**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Extrapolation** = estimating **outside** the range of your data (beyond smallest or largest $x$).\n2. The trend might not continue—real life can change.\n3. Treat far extrapolation as **uncertain**."
     },
     "25": {
       "hint": "Strong means points stay close to a straight trend line.",
-      "help": "**Strong** correlation means points cluster **tightly** around a line—little scatter.\n\n**Weak** correlation means lots of spread even if there is a slight trend.\n\n“Close to a straight line” is Mia’s good idea."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Strong** correlation means points cluster **tightly** around a line—little scatter.\n2. **Weak** correlation means lots of spread even if there is a slight trend.\n3. “Close to a straight line” is Mia’s good idea."
     },
     "26": {
       "hint": "Two things moving together does not prove one causes the other.",
-      "help": "**False.** Correlation is **not** always causation.\n\nIce cream and sunglasses both rise in summer—sunshine drives both, not ice cream causing sunglasses."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False.** Correlation is **not** always causation.\n2. Ice cream and sunglasses both rise in summer—sunshine drives both, not ice cream causing sunglasses."
     },
     "27": {
       "hint": "Far outside the data, the trend may not hold—interpolation is usually safer.",
-      "help": "Ravi is **wrong**. **Extrapolation** far beyond your data is **less reliable** than **interpolation** inside the range.\n\nPatterns often bend or break outside what you measured."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Ravi is **wrong**. **Extrapolation** far beyond your data is **less reliable** than **interpolation** inside the range.\n2. Patterns often bend or break outside what you measured."
     },
     "28": {
       "hint": "Even a flat cloud can have a horizontal line drawn through it.",
-      "help": "You **can** always draw **a** line of best fit, even when there is **no correlation**—often it is nearly flat.\n\nThe line does not prove a strong relationship; it just shows **no clear trend**.\n\nAnswer **Always** for being able to draw one; explain that it may not be useful."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. You **can** always draw **a** line of best fit, even when there is **no correlation**—often it is nearly flat.\n2. The line does not prove a strong relationship; it just shows **no clear trend**.\n3. Answer **Always** for being able to draw one; explain that it may not be useful."
     },
     "29": {
       "hint": "Hot weather might drive both ice cream sales and beach visits—think of a hidden cause.",
-      "help": "Priya’s **causal** claim is **flawed**. **Correlation ≠ causation**.\n\n**Warmer weather** (or summer) could increase **both** ice cream sales and people swimming— a **hidden cause**.\n\nLook for third factors before blaming one variable."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Priya’s **causal** claim is **flawed**. **Correlation ≠ causation**.\n2. **Warmer weather** (or summer) could increase **both** ice cream sales and people swimming— a **hidden cause**.\n3. Look for third factors before blaming one variable."
     },
     "30": {
       "hint": "Ignore outlier for the trend line, but keep it in the data unless it is a mistake.",
-      "help": "For the **line of best fit**, **ignore** the outlier’s pull so the line matches the main cloud.\n\n**Do not delete** the point without reason—it might be real (injury, special plant).\n\nReport it and explain your choice."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. For the **line of best fit**, **ignore** the outlier’s pull so the line matches the main cloud.\n2. **Do not delete** the point without reason—it might be real (injury, special plant).\n3. Report it and explain your choice."
     },
     "31": {
       "hint": "The line balances all points—it does not have to go through two dots exactly.",
-      "help": "Sloan is **wrong**. A line of best fit is chosen for **overall balance**—roughly equal points above and below.\n\nIt often **does not** pass through any plotted point exactly.\n\nLeast-squares idea: best overall, not through two dots."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Sloan is **wrong**. A line of best fit is chosen for **overall balance**—roughly equal points above and below.\n2. It often **does not** pass through any plotted point exactly.\n3. Least-squares idea: best overall, not through two dots."
     },
     "32": {
       "hint": "Give one real situation for positive, one for negative, and one with no link.",
-      "help": "**Positive:** study time vs score (both up together).\n\n**Negative:** speed vs fuel left (faster → less fuel per mile sometimes).\n\n**No correlation:** shoe size vs favourite colour—no sensible linear link.\n\nUse your own examples if they fit the same patterns."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Positive:** study time vs score (both up together).\n2. **Negative:** speed vs fuel left (faster → less fuel per mile sometimes).\n3. **No correlation:** shoe size vs favourite colour—no sensible linear link.\n4. Use your own examples if they fit the same patterns."
     },
     "33": {
       "hint": "Gradient = (6 − 18) ÷ (8 − 2) for value vs age; negative means value drops as age rises.",
-      "help": "Gradient = $\\frac{6-18}{8-2} = \\frac{-12}{6} = -2$ (£1000s per year in this scale).\n\n**Negative** gradient: as the car **ages**, **value decreases** (about 2 units on the graph per year along this line)."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $\\frac{6-18}{8-2} = \\frac{-12}{6} = -2$ (£1000s per year in this scale).\n2. **Negative** gradient: as the car **ages**, **value decreases** (about 2 units on the graph per year along this line)."
     },
     "34": {
       "hint": "Use the line from Q33—read off value at age 5 between the two given ages.",
-      "help": "Age 5 lies **between** 2 and 8 on the line. Use the equation or linear steps from $(2,18)$ and $(8,6)$.\n\nAt age 5, value is **about 12** (£1000s) on that line—interpolation within the data range."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Age 5 lies **between** 2 and 8 on the line. Use the equation or linear steps from $(2,18)$ and $(8,6)$.\n2. At age 5, value is **about 12** (£1000s) on that line—interpolation within the data range."
     },
     "35": {
       "hint": "From (0,40) to (10,90), find y when x = 6 using gradient 5.",
-      "help": "Gradient = $(90-40)/10 = 5$. At $x=6$: $y = 40 + 5\\times6 = 70$.\n\nThat estimates exam score for 6 hours study **within** the 0–10 hour range."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $(90-40)/10 = 5$. At $x=6$: $y = 40 + 5\\times6 = 70$.\n2. That estimates exam score for 6 hours study **within** the 0–10 hour range."
     },
     "36": {
       "hint": "Negative correlation: higher speed often means lower miles per gallon.",
-      "help": "Write one sentence: as **speed increases**, **fuel efficiency** tends to **fall** above that speed—drivers who want to **save fuel** might avoid very high speeds.\n\nLink the **negative** correlation to a practical choice."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Write one sentence: as **speed increases**, **fuel efficiency** tends to **fall** above that speed—drivers who want to **save fuel** might avoid very high speeds.\n2. Link the **negative** correlation to a practical choice."
     },
     "37": {
       "hint": "45°C is far above 10–30°C where you have data—that is extrapolation.",
-      "help": "Data only span **10°C to 30°C**. Guessing at **45°C** is **extrapolation** far outside.\n\nSales might not keep rising—people behave differently in extreme heat, shops may differ.\n\n**Unreliable** for that reason."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Data only span **10°C to 30°C**. Guessing at **45°C** is **extrapolation** far outside.\n2. Sales might not keep rising—people behave differently in extreme heat, shops may differ.\n3. **Unreliable** for that reason."
     },
     "38": {
       "hint": "Mention the outlier separately; draw the line through the main positive trend.",
-      "help": "Describe **positive correlation** for most plants (taller → more leaves).\n\nTreat the odd **tall plant with few leaves** as an **outlier**—note it in words but draw the line of best fit through the **main** points.\n\nDo not let one point flatten or twist the trend."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Describe **positive correlation** for most plants (taller → more leaves).\n2. Treat the odd **tall plant with few leaves** as an **outlier**—note it in words but draw the line of best fit through the **main** points.\n3. Do not let one point flatten or twist the trend."
     },
     "39": {
       "hint": "Gradient = (45 − 5) ÷ (9 − 1); use y = mx + c with point (1, 5).",
-      "help": "Gradient $m = 40/8 = 5$. Using $(1,5)$: $5 = 5\\times1 + c$ → $c = 0$. Equation **$y = 5x$**.\n\nCheck with $(9,45)$: $5\\times9 = 45$ ✓"
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient $m = 40/8 = 5$. Using $(1,5)$: $5 = 5\\times1 + c$ → $c = 0$. Equation **$y = 5x$**.\n2. Check with $(9,45)$: $5\\times9 = 45$ ✓"
     },
     "40": {
       "hint": "Substitute x = 6 into y = 5x—is 6 between 1 and 9 in your data?",
-      "help": "$y = 5\\times6 = 30$.\n\n$x=6$ lies **between** 1 and 9 → **interpolation** (inside the plotted $x$ range)."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 5\\times6 = 30$.\n2. $x=6$ lies **between** 1 and 9 → **interpolation** (inside the plotted $x$ range)."
     },
     "41": {
       "hint": "Pick two variables that rise together without one causing the other—not ice cream.",
-      "help": "Example: **number of birds heard** and **daylight hours** both rise in spring—**sunlight/season** drives both, not birds causing daylight.\n\nAnother: **fireworks sales** and **coat sales** in autumn—different causes, not direct causation.\n\nStrong correlation can be **misleading** for cause."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Example: **number of birds heard** and **daylight hours** both rise in spring—**sunlight/season** drives both, not birds causing daylight.\n2. Another: **fireworks sales** and **coat sales** in autumn—different causes, not direct causation.\n3. Strong correlation can be **misleading** for cause."
     },
     "42": {
       "hint": "Name two variable pairs you expect to go up together and two where one up means other down.",
-      "help": "**Positive:** height vs arm span; practice time vs skill score.\n\n**Negative:** time spent on phone before bed vs sleep hours; price vs number of buyers (sometimes).\n\nExplain **why** you expect each pattern in plain language—growth, practice, tiredness, cost."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Positive:** height vs arm span; practice time vs skill score.\n2. **Negative:** time spent on phone before bed vs sleep hours; price vs number of buyers (sometimes).\n3. Explain **why** you expect each pattern in plain language—growth, practice, tiredness, cost."
     },
     "43": {
       "hint": "Rising → positive; falling → negative; scattered → none.",
-      "help": "Spotting correlation\n\n**Positive**: as $x$ increases, $y$ tends to increase.\n\n**Negative**: as $x$ increases, $y$ tends to decrease.\n\n**None**: no clear pattern — dots scattered."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Spotting correlation\n2. **Positive**: as $x$ increases, $y$ tends to increase.\n3. **Negative**: as $x$ increases, $y$ tends to decrease.\n4. **None**: no clear pattern — dots scattered."
     },
     "44": {
       "hint": "Rising → positive; falling → negative; scattered → none.",
-      "help": "Spotting correlation\n\n**Positive**: as $x$ increases, $y$ tends to increase.\n\n**Negative**: as $x$ increases, $y$ tends to decrease.\n\n**None**: no clear pattern — dots scattered."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Spotting correlation\n2. **Positive**: as $x$ increases, $y$ tends to increase.\n3. **Negative**: as $x$ increases, $y$ tends to decrease.\n4. **None**: no clear pattern — dots scattered."
     },
     "45": {
       "hint": "Sleep goes up and alertness rises on the graph—same direction means positive or negative?",
-      "help": "When both variables **increase together**, the scatter slopes **upward** to the right.\n\nThat pattern is **positive correlation**.\n\nExample for practice: hours of reading vs pages finished also rises left to right → positive."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. When both variables **increase together**, the scatter slopes **upward** to the right.\n2. That pattern is **positive correlation**.\n3. Example for practice: hours of reading vs pages finished also rises left to right → positive."
     },
     "46": {
       "hint": "More screen time pairs with fewer steps—the cloud falls as you move right.",
-      "help": "**Negative correlation**: as $x$ increases, $y$ tends to **decrease**.\n\nScreen time vs steps often falls from top-left toward bottom-right.\n\nTry naming **negative** whenever the trend line would slope down."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Negative correlation**: as $x$ increases, $y$ tends to **decrease**.\n2. Screen time vs steps often falls from top-left toward bottom-right.\n3. Try naming **negative** whenever the trend line would slope down."
     },
     "47": {
       "hint": "Goals vs weekday looks like a random cloud—no up or down drift.",
-      "help": "With **no clear trend**, we say **no correlation** (or none).\n\nThe dots do not form a rising or falling band.\n\nA flat, messy cloud is different from a clear positive or negative slope."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. With **no clear trend**, we say **no correlation** (or none).\n2. The dots do not form a rising or falling band.\n3. A flat, messy cloud is different from a clear positive or negative slope."
     },
     "48": {
       "hint": "Heavier dogs often have longer tails—both increase gently.",
-      "help": "Mass and tail length moving **up together** → **positive** correlation.\n\nIt does not mean mass **causes** tail length in every breed—just that the graph trends upward.\n\nName **positive** for an upward cloud."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Mass and tail length moving **up together** → **positive** correlation.\n2. It does not [mean](mtlearn:word/mean) mass **causes** tail length in every breed—just that the graph trends upward.\n3. Name **positive** for an upward cloud."
     },
     "49": {
       "hint": "Points hugging a rising line mean little scatter—strong or weak?",
-      "help": "**Strong** correlation: points stay **close** to the trend line.\n\n**Weak**: you still see a direction, but dots are **spread out**.\n\nRevision vs score **very close** to a line → **strong**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Strong** correlation: points stay **close** to the trend line.\n2. **Weak**: you still see a direction, but dots are **spread out**.\n3. Revision vs score **very close** to a line → **strong**."
     },
     "50": {
       "hint": "You see a slight downward drift but lots of spread—strength?",
-      "help": "A **weak** correlation still has a **tendency** (here, downward) but **wide scatter**.\n\nSport hours vs heart rate might vary a lot person to person.\n\nChoose **weak** when the pattern is fuzzy."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. A **weak** correlation still has a **tendency** (here, downward) but **wide scatter**.\n2. Sport hours vs heart rate might vary a lot person to person.\n3. Choose **weak** when the pattern is fuzzy."
     },
     "51": {
       "hint": "Bigger engines using more fuel—both increase together.",
-      "help": "When both variables rise together, correlation is **positive**.\n\nWrite **positive** for this engine-size vs fuel graph.\n\nNegative would mean fuel **drops** as engines get bigger."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. When both variables rise together, correlation is **positive**.\n2. Write **positive** for this engine-size vs fuel graph.\n3. Negative would [mean](mtlearn:word/mean) fuel **drops** as engines get bigger."
     },
     "52": {
       "hint": "Stronger wind, fewer umbrella sales—one up, other down.",
-      "help": "That opposite movement is **negative** correlation.\n\nWind speed ↑ tends to mean umbrella sales ↓ on the graph.\n\nAnswer **negative**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. That opposite movement is **negative** correlation.\n2. Wind speed ↑ tends to [mean](mtlearn:word/mean) umbrella sales ↓ on the graph.\n3. Answer **negative**."
     },
     "53": {
       "hint": "House number does not predict pets—no trend in the cloud.",
-      "help": "**No correlation**: knowing the house number tells you **little** about pets.\n\nDots look scattered with **no slope**.\n\nWrite **no correlation** or **none**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No correlation**: knowing the house number tells you **little** about pets.\n2. Dots look scattered with **no slope**.\n3. Write **no correlation** or **none**."
     },
     "54": {
       "hint": "Weak links still have points far from the line—true or false?",
-      "help": "**True.** **Weak** correlation means points are **spread far** from a trend line even if there is a slight direction.\n\n**Strong** means tight around the line.\n\nWeak ≠ no pattern at all."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **True.** **Weak** correlation means points are **spread far** from a trend line even if there is a slight direction.\n2. **Strong** means tight around the line.\n3. Weak ≠ no pattern at all."
     },
     "55": {
       "hint": "Negative correlation from winter months toward summer—bills usually…?",
-      "help": "From cold months toward warmer ones, **heating bills tend to decrease**.\n\nNegative correlation: as month number increases (into summer), $y$ (bill) **falls**.\n\nWrite **decrease**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. From cold months toward warmer ones, **heating bills tend to decrease**.\n2. Negative correlation: as month number increases (into summer), $y$ (bill) **falls**.\n3. Write **decrease**."
     },
     "56": {
       "hint": "Correlation alone is not proof of cause—yes or no to “proven cause”?",
-      "help": "Answer **no**. **Positive correlation** suggests a link, but **does not prove** practice **causes** marks.\n\nOther factors: talent, teaching, health.\n\nScientists need more evidence for causation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Answer **no**. **Positive correlation** suggests a link, but **does not prove** practice **causes** marks.\n2. Other factors: talent, teaching, health.\n3. Scientists need more evidence for causation."
     },
     "57": {
       "hint": "When $x$ up makes $y$ tend down, name the correlation type.",
-      "help": "That is **negative correlation**.\n\nFill in **negative** (or **negative correlation** if the question asks for type).\n\nPositive would mean both tend to rise together."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. That is **negative correlation**.\n2. Fill in **negative** (or **negative correlation** if the question asks for type).\n3. Positive would [mean](mtlearn:word/mean) both tend to rise together."
     },
     "58": {
       "hint": "Little information about $y$ from $x$ means what kind of correlation?",
-      "help": "Best answer: **no correlation** / **none**.\n\nThe variables are **not linearly linked** in a clear way.\n\nDo not confuse with **weak**—weak still has some trend."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Best answer: **no correlation** / **none**.\n2. The variables are **not linearly linked** in a clear way.\n3. Do not confuse with **weak**—weak still has some trend."
     },
     "59": {
       "hint": "More sunshine, more ice cream—sales tend to…?",
-      "help": "With **positive** correlation, as sunshine increases, sales **increase** on average.\n\nOne word: **increase**.\n\nIndividual days can still be exceptions."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. With **positive** correlation, as sunshine increases, sales **increase** on average.\n2. One word: **increase**.\n3. Individual days can still be exceptions."
     },
     "60": {
       "hint": "Deeper water, less light—light tends to…?",
-      "help": "**Negative** correlation: depth ↑ → light ↓.\n\nWrite **decrease** for what light **tends** to do.\n\nThink “deeper = darker.”"
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Negative** correlation: depth ↑ → light ↓.\n2. Write **decrease** for what light **tends** to do.\n3. Think “deeper = darker.”"
     },
     "61": {
       "hint": "Balance the line—about the same above as below.",
-      "help": "A line of best fit should have **roughly equal** points **above** and **below**.\n\nAnswer **equal** or **roughly equal**.\n\nThat balance shows a fair **overall trend**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. A line of best fit should have **roughly equal** points **above** and **below**.\n2. Answer **equal** or **roughly equal**.\n3. That balance shows a fair **overall trend**."
     },
     "62": {
       "hint": "Gradient = (16 − 8) ÷ (4 − 0).",
-      "help": "Gradient = $\\frac{16-8}{4-0} = 2$.\n\nEach +1 in $x$ adds 2 to $y$ on this segment.\n\nUse **change in $y$ ÷ change in $x$**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $\\frac{16-8}{4-0} = 2$.\n2. Each +1 in $x$ adds 2 to $y$ on this segment.\n3. Use **change in $y$ ÷ change in $x$**."
     },
     "63": {
       "hint": "From (0,0) to (5,15)—rise over run.",
-      "help": "Gradient = $15/5 = 3$.\n\nThe line goes up **3** in $y$ per **1** in $x$.\n\nAnswer **3**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $15/5 = 3$.\n2. The line goes up **3** in $y$ per **1** in $x$.\n3. Answer **3**."
     },
     "64": {
       "hint": "Use (2,10) and (6,22): Δy ÷ Δx.",
-      "help": "Gradient = $\\frac{22-10}{6-2} = \\frac{12}{4} = 3$.\n\nSame method as other gradient questions—different numbers."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $\\frac{22-10}{6-2} = \\frac{12}{4} = 3$.\n2. Same method as other gradient questions—different numbers."
     },
     "65": {
       "hint": "Halfway in $x$ from 0 to 10—halfway in $y$ from 20 to 40.",
-      "help": "At $x=5$ (half of 0→10), $y$ is halfway between 20 and 40 → **30**.\n\nOr gradient 2: $20 + 2\\times5 = 30$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. At $x=5$ (half of 0→10), $y$ is halfway between 20 and 40 → **30**.\n2. Or gradient 2: $20 + 2\\times5 = 30$."
     },
     "66": {
       "hint": "Gradient 2 from (0,12) to (8,28)—find $y$ at $x=4$.",
-      "help": "Gradient = $(28-12)/8 = 2$. At $x=4$: $12 + 2\\times4 = **20**$.\n\nStep along the line, do not guess off the scale."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $(28-12)/8 = 2$. At $x=4$: $12 + 2\\times4 = **20**$.\n2. Step along the line, do not guess off the scale."
     },
     "67": {
       "hint": "Gradient = (19−7)/(5−1); plug in $x=3$.",
-      "help": "Gradient 3. From $(1,7)$: at $x=3$, $y = 7 + 2\\times3 = **13**$.\n\nOr midpoint reasoning between the two given points."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient 3. From $(1,7)$: at $x=3$, $y = 7 + 2\\times3 = **13**$.\n2. Or midpoint reasoning between the two given points."
     },
     "68": {
       "hint": "Gradient (90−50)/20 = 2; start 50 at $x=10$? At 0, 50—add 2×10.",
-      "help": "Gradient 2. At $x=10$: $50 + 2\\times10 = **70**$.\n\nCheck: from 0 to 20, $y$ rises 40 → average +2 per unit."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient 2. At $x=10$: $50 + 2\\times10 = **70**$.\n2. Check: from 0 to 20, $y$ rises 40 → average +2 per unit."
     },
     "69": {
       "hint": "Substitute $x=2$ into $y=3x+5$.",
-      "help": "$y = 3\\times2 + 5 = **11**$.\n\nMultiply first, then add the constant.\n\nUse the equation exactly as given."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 3\\times2 + 5 = **11**$.\n2. Multiply first, then add the constant.\n3. Use the equation exactly as given."
     },
     "70": {
       "hint": "$y=4x+1$ at $x=7$.",
-      "help": "$y = 4\\times7 + 1 = **29**$.\n\nSame substitution pattern as other equation questions."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 4\\times7 + 1 = **29**$.\n2. Same substitution pattern as other equation questions."
     },
     "71": {
       "hint": "Coefficient of $x$ is −2—each +1 in $x$ changes $y$ by that amount.",
-      "help": "When $x$ increases by **1**, $y$ changes by **−2** (goes **down 2**).\n\nAnswer **−2**.\n\nThe **+1** in $x$ is the step size the question names."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. When $x$ increases by **1**, $y$ changes by **−2** (goes **down 2**).\n2. Answer **−2**.\n3. The **+1** in $x$ is the step size the question names."
     },
     "72": {
       "hint": "(27−15) ÷ 6 for gradient.",
-      "help": "Gradient = $12/6 = **2**$.\n\nUse the two points on the line of best fit."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $12/6 = **2**$.\n2. Use the two points on the line of best fit."
     },
     "73": {
       "hint": "Use gradient 2 from Q72; start at $y=15$ when $x=0$.",
-      "help": "At $x=3$: $15 + 2\\times3 = **21**$.\n\nThis **estimates** on the trend line from Q72."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. At $x=3$: $15 + 2\\times3 = **21**$.\n2. This **estimates** on the trend line from Q72."
     },
     "74": {
       "hint": "Δy = 20, Δx = 20 between the two points.",
-      "help": "Gradient = $\\frac{25-5}{30-10} = 1$.\n\nAnswer **1**—gentle slope."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $\\frac{25-5}{30-10} = 1$.\n2. Answer **1**—gentle slope."
     },
     "75": {
       "hint": "Compute $1.5\\times8 + 10$.",
-      "help": "$1.5\\times8 = 12$; $12+10=**22**$.\n\nYou may use **3/2** instead of **1.5** if you prefer fractions."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $1.5\\times8 = 12$; $12+10=**22**$.\n2. You may use **3/2** instead of **1.5** if you prefer fractions."
     },
     "76": {
       "hint": "$y=5x-2$ with $x=4$.",
-      "help": "$y = 5\\times4 - 2 = **18**$.\n\nMultiply, then subtract 2.\n\nOn any line $y=mx+c$, substitute the given $x$, then simplify step by step."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 5\\times4 - 2 = **18**$.\n2. Multiply, then subtract 2.\n3. On any line $y=mx+c$, substitute the given $x$, then simplify step by step."
     },
     "77": {
       "hint": "Can a line slope downward and still be a line of best fit?",
-      "help": "**False.** Lines of best fit can have **negative** gradient.\n\nOnly the **steepness/sign** depends on the data—not always positive."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False.** Lines of best fit can have **negative** gradient.\n2. Only the **steepness/sign** depends on the data—not always positive."
     },
     "78": {
       "hint": "Does the trend line have to go through (0,0)?",
-      "help": "**False.** Many real lines have **non-zero** $y$-intercept.\n\nExample: plant height vs age rarely starts at zero in every survey.\n\nThe line follows the **data cloud**, not a rule about the origin."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False.** Many real lines have **non-zero** $y$-intercept.\n2. Example: plant height vs age rarely starts at zero in every survey.\n3. The line follows the **data cloud**, not a rule about the origin."
     },
     "79": {
       "hint": "A flat best-fit line on a random cloud suggests what correlation?",
-      "help": "**No correlation** (none)—$y$ does not tend to rise or fall as $x$ changes.\n\nHorizontal line ≈ **no linear trend**.\n\nPoints may still scatter vertically."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No correlation** (none)—$y$ does not tend to rise or fall as $x$ changes.\n2. Horizontal line ≈ **no linear trend**.\n3. Points may still scatter vertically."
     },
     "80": {
       "hint": "Upward line + tight points → strong ___ correlation.",
-      "help": "Tight cluster around an **upward** line → **strong positive** correlation.\n\nFill in **positive**.\n\n**Strong** refers to closeness; **positive** refers to direction."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Tight cluster around an **upward** line → **strong positive** correlation.\n2. Fill in **positive**.\n3. **Strong** refers to closeness; **positive** refers to direction."
     },
     "81": {
       "hint": "Age 15 lies between 12 and 18—inside the data?",
-      "help": "Estimating **inside** the collected ages is **interpolation**.\n\nSafer than guessing ages you never measured.\n\nAnswer **interpolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Estimating **inside** the collected ages is **interpolation**.\n2. Safer than guessing ages you never measured.\n3. Answer **interpolation**."
     },
     "82": {
       "hint": "Age 25 is above 18—outside the recorded ages.",
-      "help": "**Extrapolation**—beyond the largest age you collected.\n\nLess reliable because teenagers’ spending may not match adults.\n\nAnswer **extrapolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Extrapolation**—beyond the largest age you collected.\n2. Less reliable because teenagers’ spending may not match adults.\n3. Answer **extrapolation**."
     },
     "83": {
       "hint": "Week 5 is between weeks 1 and 8.",
-      "help": "**Interpolation** within the measured weeks.\n\nYou are not guessing past week 8.\n\nName **interpolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Interpolation** within the measured weeks.\n2. You are not guessing past week 8.\n3. Name **interpolation**."
     },
     "84": {
       "hint": "Week 12 is past week 8—outside the data.",
-      "help": "**Extrapolation**—outside the measured range.\n\nGrowth might slow or speed up later.\n\nAnswer **extrapolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Extrapolation**—outside the measured range.\n2. Growth might slow or speed up later.\n3. Answer **extrapolation**."
     },
     "85": {
       "hint": "20°C sits between 5°C and 25°C in the data.",
-      "help": "**Interpolation**—inside the temperature range you plotted.\n\nUsually **more reliable** than far outside.\n\nAnswer **interpolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Interpolation**—inside the temperature range you plotted.\n2. Usually **more reliable** than far outside.\n3. Answer **interpolation**."
     },
     "86": {
       "hint": "−5°C is below your lowest 5°C measurement.",
-      "help": "**Extrapolation** below the data.\n\nShop may be closed; behaviour at freezing differs.\n\nAnswer **extrapolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Extrapolation** below the data.\n2. Shop may be closed; behaviour at freezing differs.\n3. Answer **extrapolation**."
     },
     "87": {
       "hint": "11 is between 0 and 20 for $x$.",
-      "help": "**Interpolation** within $0\\leq x\\leq20$.\n\nUse the line inside the band you trust.\n\nAnswer **interpolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Interpolation** within $0\\leq x\\leq20$.\n2. Use the line inside the band you trust.\n3. Answer **interpolation**."
     },
     "88": {
       "hint": "22 is greater than 20—outside the top of the data.",
-      "help": "**Extrapolation** past $x=20$.\n\nTrend might bend—treat cautiously.\n\nAnswer **extrapolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Extrapolation** past $x=20$.\n2. Trend might bend—treat cautiously.\n3. Answer **extrapolation**."
     },
     "89": {
       "hint": "Estimating at $x=0$ when all data have $x\\geq3$ is outside the range.",
-      "help": "That is **extrapolation** / **outside the data**.\n\nYou have **no measured points** near zero.\n\nExplain it is **less reliable**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. That is **extrapolation** / **outside the data**.\n2. You have **no measured points** near zero.\n3. Explain it is **less reliable**."
     },
     "90": {
       "hint": "Negative gradient: as age rises, value tends to…?",
-      "help": "Value **decreases** as age increases on a line with **negative** gradient.\n\nWrite **decrease**.\n\nMatches cars losing value over time."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Value **decreases** as age increases on a line with **negative** gradient.\n2. Write **decrease**.\n3. Matches cars losing value over time."
     },
     "91": {
       "hint": "Gradient (65−40)/5 = 5; at 3 hours from 0, add 3×5 to 40.",
-      "help": "At $x=3$: $40 + 5\\times3 = **55**$.\n\nInterpolation within 0–5 hours if that was the study range."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. At $x=3$: $40 + 5\\times3 = **55**$.\n2. Interpolation within 0–5 hours if that was the study range."
     },
     "92": {
       "hint": "Gradient (44−20)/(12−4)=3; find $y$ at $x=8$.",
-      "help": "From $(4,20)$, add $4\\times3$ → **32** at $x=8$.\n\nOr note 8 is halfway from 4 to 12 in $x$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. From $(4,20)$, add $4\\times3$ → **32** at $x=8$.\n2. Or note 8 is halfway from 4 to 12 in $x$."
     },
     "93": {
       "hint": "Gradient (280−200)/4 = 20; at $x=2$ add 40 to 200.",
-      "help": "$y = 200 + 20\\times2 = **240**$.\n\nLinear step along the given segment."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 200 + 20\\times2 = **240**$.\n2. Linear step along the given segment."
     },
     "94": {
       "hint": "$y=10x+5$ at $x=6$.",
-      "help": "$y = 10\\times6 + 5 = **65**$.\n\nSubstitute carefully.\n\nThis is the same substitution idea as using a line of best fit equation to **estimate** $y$ at a chosen $x$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 10\\times6 + 5 = **65**$.\n2. Substitute carefully.\n3. This is the same substitution idea as using a line of best fit equation to **estimate** $y$ at a chosen $x$."
     },
     "95": {
       "hint": "4 is less than the smallest $x=5$ in the data.",
-      "help": "**Extrapolation**—below the recorded minimum.\n\nAnswer **extrapolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Extrapolation**—below the recorded minimum.\n2. Answer **extrapolation**."
     },
     "96": {
       "hint": "10 is between 5 and 15.",
-      "help": "**Interpolation** inside the $x$ range.\n\nAnswer **interpolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Interpolation** inside the $x$ range.\n2. Answer **interpolation**."
     },
     "97": {
       "hint": "Far beyond the data, the pattern might not stay the same.",
-      "help": "Give a reason like **trend may change** or **relationship may not continue**.\n\nReal life can **bend** outside what you measured.\n\nExtrapolation assumes the same rule—often wrong far out."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Give a reason like **trend may change** or **relationship may not continue**.\n2. Real life can **bend** outside what you measured.\n3. Extrapolation assumes the same rule—often wrong far out."
     },
     "98": {
       "hint": "The segment ends at $x=10$—is 10 the upper end here?",
-      "help": "Yes—**$x=10$** is the **upper endpoint** of the given line segment from 0 to 10.\n\nAnswer **yes**.\n\nEstimates at 10 sit on the boundary of the data described."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Yes—**$x=10$** is the **upper endpoint** of the given line segment from 0 to 10.\n2. Answer **yes**.\n3. Estimates at 10 sit on the boundary of the data described."
     },
     "99": {
       "hint": "Gradient 5 from (0,100) to (10,150); at $x=2$.",
-      "help": "$y = 100 + 5\\times2 = **120**$.\n\nInside the 0–10 range → interpolation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 100 + 5\\times2 = **120**$.\n2. Inside the 0–10 range → interpolation."
     },
     "100": {
       "hint": "Saturday was not in Mon–Fri data—mostly outside the range.",
-      "help": "Predicting **Saturday** from **Mon–Fri** points is **extrapolation** (outside weekdays collected).\n\nWeekend behaviour may differ.\n\nAnswer **extrapolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Predicting **Saturday** from **Mon–Fri** points is **extrapolation** (outside weekdays collected).\n2. Weekend behaviour may differ.\n3. Answer **extrapolation**."
     },
     "101": {
       "hint": "Outliers can be real unusual cases—not always typos.",
-      "help": "**False.** An outlier might be **correct** but **unusual** (e.g. elite athlete, broken sensor **or** valid extreme).\n\nInvestigate before deleting.\n\nDo not assume **always wrong**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False.** An outlier might be **correct** but **unusual** (e.g. elite athlete, broken sensor **or** valid extreme).\n2. Investigate before deleting.\n3. Do not assume **always wrong**."
     },
     "102": {
       "hint": "Linked scores do not by themselves prove homework caused them.",
-      "help": "Mention **correlation is not causation**.\n\nOther factors: prior ability, sleep, teaching.\n\nHomework may **relate** to scores without being the **only cause**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Mention **correlation is not causation**.\n2. Other factors: prior ability, sleep, teaching.\n3. Homework may **relate** to scores without being the **only cause**."
     },
     "103": {
       "hint": "If you ignore a point, the line moves—how often does that matter?",
-      "help": "**Always** (when an outlier exists)—including vs ignoring it **changes** the line.\n\nThat is why we **ignore outliers** for the trend but **record** them."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Always** (when an outlier exists)—including vs ignoring it **changes** the line.\n2. That is why we **ignore outliers** for the trend but **record** them."
     },
     "104": {
       "hint": "Correlation is about tendency, not every single point obeying a rule.",
-      "help": "Jo is **misleading**. **Negative correlation** means $y$ **tends** to fall as $x$ rises—not that **every** point is lower than the last.\n\nIndividual dots vary."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Jo is **misleading**. **Negative correlation** means $y$ **tends** to fall as $x$ rises—not that **every** point is lower than the last.\n2. Individual dots vary."
     },
     "105": {
       "hint": "You can plot any two variables—even if unrelated.",
-      "help": "**True.** A scatter graph is just a plot—**no correlation** still produces a cloud.\n\nThe graph helps you **see** there is no trend."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **True.** A [scatter graph](mtlearn:word/scatter-graph) is just a plot—**no correlation** still produces a cloud.\n2. The graph helps you **see** there is no trend."
     },
     "106": {
       "hint": "Use the word **trend** in your sentence about the line.",
-      "help": "Sample idea: “The line of best fit shows the **overall trend** of how $y$ changes with $x$.”\n\nIt summarises the **middle** of the cloud.\n\nMust mention **trend**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Sample idea: “The line of best fit shows the **overall trend** of how $y$ changes with $x$.”\n2. It summarises the **middle** of the cloud.\n3. Must mention **trend**."
     },
     "107": {
       "hint": "Keep data honest; don’t let one dot steer the line.",
-      "help": "Scientists **keep** outliers in the dataset for transparency but **exclude** their pull when fitting the **trend line**.\n\nMention **record** + **do not pull the line**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Scientists **keep** outliers in the dataset for transparency but **exclude** their pull when fitting the **trend line**.\n2. Mention **record** + **do not pull the line**."
     },
     "108": {
       "hint": "The line gives an estimate—not a perfect promise.",
-      "help": "**False.** Interpolation is **more reliable** than far extrapolation but still an **estimate**.\n\nPoints scatter around the line.\n\nReal values may differ."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False.** Interpolation is **more reliable** than far extrapolation but still an **estimate**.\n2. Points scatter around the line.\n3. Real values may differ."
     },
     "109": {
       "hint": "More engines at bigger fires—think hidden cause.",
-      "help": "Answer **no** for engines **causing** fires.\n\n**Correlation ≠ causation**—**fire size** (third factor) drives both engines and damage.\n\nName **third factor** or **causation** issue."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Answer **no** for engines **causing** fires.\n2. **Correlation ≠ causation**—**fire size** (third factor) drives both engines and damage.\n3. Name **third factor** or **causation** issue."
     },
     "110": {
       "hint": "Flat line means no upward or downward linear trend.",
-      "help": "**True** for **no linear correlation**—gradient **0** means $y$ does not tend to change as $x$ changes.\n\nPoints may still scatter vertically.\n\nDifferent from **curved** patterns."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **True** for **no linear correlation**—gradient **0** means $y$ does not tend to change as $x$ changes.\n2. Points may still scatter vertically.\n3. Different from **curved** patterns."
     },
     "111": {
       "hint": "Compare how tight dots sit around the rising line.",
-      "help": "**Strong positive**: **close** to line, little scatter.\n\n**Weak positive**: still rises overall but **wide** scatter.\n\nUse the word **scatter** in your explanation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Strong positive**: **close** to line, little scatter.\n2. **Weak positive**: still rises overall but **wide** scatter.\n3. Use the word **scatter** in your explanation."
     },
     "112": {
       "hint": "Steepness is not the same as strength of correlation.",
-      "help": "**False.** **Strength** = how **tight** points are to a line.\n\n**Gradient** = steepness.\n\nYou can have a **steep weak** correlation if scatter is huge."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False.** **Strength** = how **tight** points are to a line.\n2. **Gradient** = steepness.\n3. You can have a **steep weak** correlation if scatter is huge."
     },
     "113": {
       "hint": "Tighter cloud → stronger correlation—pick A or B.",
-      "help": "Graph **A** (tight to line) → **stronger** correlation.\n\nGraph B’s wide scatter → **weaker** even if both slope up.\n\nAnswer **A**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Graph **A** (tight to line) → **stronger** correlation.\n2. Graph B’s wide scatter → **weaker** even if both slope up.\n3. Answer **A**."
     },
     "114": {
       "hint": "Interpolation works within the data you already span.",
-      "help": "**False** that you **must extend** beyond data first.\n\nInterpolation uses the line **within** min–max $x$.\n\nExtension is optional for drawing, not required for interpolation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False** that you **must extend** beyond data first.\n2. Interpolation uses the line **within** min–max $x$.\n3. Extension is optional for drawing, not required for interpolation."
     },
     "115": {
       "hint": "A line can cross below zero even when the real quantity cannot.",
-      "help": "Extrapolation may predict **negative** height or value.\n\nContext (height ≥ 0) makes that **impossible**—shows extrapolation **risk**.\n\nMention **context** or **impossible**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Extrapolation may predict **negative** height or value.\n2. Context (height ≥ 0) makes that **impossible**—shows extrapolation **risk**.\n3. Mention **context** or **impossible**."
     },
     "116": {
       "hint": "One huge $y$ pulls the mean more than the median.",
-      "help": "**Always** for a clear outlier in $y$—**mean** shifts more than **median**.\n\nOutliers affect **average** noticeably.\n\nAnswer **always** with that idea."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Always** for a clear outlier in $y$—**[mean](mtlearn:word/mean)** shifts more than **median**.\n2. Outliers affect **average** noticeably.\n3. Answer **always** with that idea."
     },
     "117": {
       "hint": "Coats and cold weather move together—coats don’t cause cold.",
-      "help": "Explain **temperature** drives coat sales; **correlation ≠ causation**.\n\nColder days → more coats, not coats **making** weather cold.\n\nLink to **causation vs correlation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Explain **temperature** drives coat sales; **correlation ≠ causation**.\n2. Colder days → more coats, not coats **making** weather cold.\n3. Link to **causation vs correlation**."
     },
     "118": {
       "hint": "Planners sometimes extrapolate—but it’s risky.",
-      "help": "**False** to say **never used**.\n\nIt **is** used with caution when trends may **break**.\n\nSay **false** + **risky**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False** to say **never used**.\n2. It **is** used with caution when trends may **break**.\n3. Say **false** + **risky**."
     },
     "119": {
       "hint": "Segments vs one trend line through the whole cloud.",
-      "help": "Joining dots **zigzags** point-to-point.\n\n**Line of best fit** shows **one overall trend** for **all** points.\n\nBetter for **prediction** across the cloud."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Joining dots **zigzags** point-to-point.\n2. **Line of best fit** shows **one overall trend** for **all** points.\n3. Better for **prediction** across the cloud."
     },
     "120": {
       "hint": "Pie charts and scatter strength measure different things.",
-      "help": "**False.** Pie **angles** show **category share**; scatter **strength** is about **closeness to a line**.\n\nCompletely different graphs.\n\nAnswer **false**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False.** Pie **angles** show **category share**; scatter **strength** is about **closeness to a line**.\n2. Completely different graphs.\n3. Answer **false**."
     },
     "121": {
       "hint": "Gradient (8−14)/(7−1); negative means value drops as age rises.",
-      "help": "Gradient = $\\frac{8-14}{6} = **-1**$.\n\n**Value decreases** as age increases.\n\nInclude **−1** and **decrease** idea."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = $\\frac{8-14}{6} = **-1**$.\n2. **Value decreases** as age increases.\n3. Include **−1** and **decrease** idea."
     },
     "122": {
       "hint": "Use line from Q121; age 4 is between 1 and 7.",
-      "help": "From $(1,14)$ with gradient −1: at age **4**, value ≈ **11** (£1000s on graph).\n\nInterpolation between given ages.\n\nAnswer **11**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. From $(1,14)$ with gradient −1: at age **4**, value ≈ **11** (£1000s on graph).\n2. Interpolation between given ages.\n3. Answer **11**."
     },
     "123": {
       "hint": "Gradient 24/8=3 km per hour; at 5 hours?",
-      "help": "$5\\times3 = **15**$ km.\n\nLine through origin: distance scales with hours."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $5\\times3 = **15**$ km.\n2. Line through origin: distance scales with hours."
     },
     "124": {
       "hint": "Gradient (60−20)/10=4; at 20°C from 15°C baseline.",
-      "help": "At **20°C**: **40** ice creams on this line.\n\nHalfway in temperature from 15 to 25."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. At **20°C**: **40** ice creams on this line.\n2. Halfway in temperature from 15 to 25."
     },
     "125": {
       "hint": "(80−20)/(40−20) for gradient.",
-      "help": "Gradient = **3** m per mph step on this scale.\n\nStopping distance grows quickly with speed here."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = **3** m per mph step on this scale.\n2. Stopping distance grows quickly with speed here."
     },
     "126": {
       "hint": "30 mph is halfway from 20 to 40—halfway distance?",
-      "help": "Halfway from 20 m to 80 m → **50** m.\n\nOr gradient 3 from 20 mph: +30 → **50**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Halfway from 20 m to 80 m → **50** m.\n2. Or gradient 3 from 20 mph: +30 → **50**."
     },
     "127": {
       "hint": "Gradient 10; at $x=6$ from 50 at 0.",
-      "help": "$50 + 10\\times6 = **110**$ (graph units for sales).\n\nStart at the $y$-value when $x=0$, then add gradient $\\times$ how far $x$ moved.\n\nThat reads an **estimate** from the trend line."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $50 + 10\\times6 = **110**$ (graph units for sales).\n2. Start at the $y$-value when $x=0$, then add gradient $\\times$ how far $x$ moved.\n3. That reads an **estimate** from the trend line."
     },
     "128": {
       "hint": "Linear between (150,50) and (180,68)—find 165 cm.",
-      "help": "165 is halfway in height → mass halfway between 50 and 68 → **59** kg.\n\nOr gradient **0.6** kg per cm."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. 165 is halfway in height → mass halfway between 50 and 68 → **59** kg.\n2. Or gradient **0.6** kg per cm."
     },
     "129": {
       "hint": "$y=4x+60$ with $x=8$ books.",
-      "help": "$4\\times8 + 60 = **92**$.\n\nSubstitute into the given equation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $4\\times8 + 60 = **92**$.\n2. Substitute into the given equation."
     },
     "130": {
       "hint": "Gradient (400−100)/10; bills rise with pet age.",
-      "help": "Gradient **30** (£ per year on this scale).\n\nMeaning: bills **tend to increase** as pets age.\n\nState **30** and **increase**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient **30** (£ per year on this scale).\n2. Meaning: bills **tend to increase** as pets age.\n3. State **30** and **increase**."
     },
     "131": {
       "hint": "Gradient −0.5 sleep per screen hour; at 4 hours.",
-      "help": "Start 10 h sleep at 0 screen → at 4 h screen: $10 - 0.5\\times4 = **8**$ h sleep.\n\nNegative correlation story."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Start 10 h sleep at 0 screen → at 4 h screen: $10 - 0.5\\times4 = **8**$ h sleep.\n2. Negative correlation story."
     },
     "132": {
       "hint": "Gradient (100−20)/(500−100)=0.2; at 300 pupils.",
-      "help": "$20 + 0.2\\times(300-100) = **60**$ computers.\n\nOr proportional steps from (100,20)."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $20 + 0.2\\times(300-100) = **60**$ computers.\n2. Or proportional steps from (100,20)."
     },
     "133": {
       "hint": "Weak means dots spread—rain doesn’t tightly fix yield.",
-      "help": "Say points are **widely spread**—rainfall **weakly** predicts yield.\n\nUse **weak** / **scatter** language.\n\nFarmers need more than rain alone."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Say points are **widely spread**—rainfall **weakly** predicts yield.\n2. Use **weak** / **scatter** language.\n3. Farmers need more than rain alone."
     },
     "134": {
       "hint": "More miles → less fuel left on a negative trend.",
-      "help": "Driver should expect **less fuel remaining** after **more** miles.\n\n**Strong negative** link.\n\nPlan stops accordingly."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Driver should expect **less fuel remaining** after **more** miles.\n2. **Strong negative** link.\n3. Plan stops accordingly."
     },
     "135": {
       "hint": "Far from trend—don’t let it bend the line; name the point type.",
-      "help": "Answer **no**—it is an **outlier**.\n\nDraw the line through the **main** cloud.\n\nMention **outlier**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Answer **no**—it is an **outlier**.\n2. Draw the line through the **main** cloud.\n3. Mention **outlier**."
     },
     "136": {
       "hint": "$y=-5x+100$ at $x=8$.",
-      "help": "$y = -40 + 100 = **60**$.\n\nValue drops as age increases on this line."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = -40 + 100 = **60**$.\n2. Value drops as age increases on this line."
     },
     "137": {
       "hint": "Gradient (30−12)/(9−3)=3; use point (3,12) for $c$.",
-      "help": "$y = 3x + 3$ because $12 = 9 + c$ → $c=3$.\n\nCheck at $x=9$: $27+3=30$ ✓"
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 3x + 3$ because $12 = 9 + c$ → $c=3$.\n2. Check at $x=9$: $27+3=30$ ✓"
     },
     "138": {
       "hint": "Plug $x=6$ into your Q137 equation.",
-      "help": "$y = 3\\times6 + 3 = **21**$.\n\nUses the line from Q137.\n\nAfter finding $y=mx+c$, substitution gives quick estimates along the **line of best fit**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 3\\times6 + 3 = **21**$.\n2. Uses the line from Q137.\n3. After finding $y=mx+c$, substitution gives quick estimates along the **line of best fit**."
     },
     "139": {
       "hint": "8 is inside 3–9; 12 is outside—which estimate is safer?",
-      "help": "**$x=8$** is **more reliable**—**interpolation** within 3–9.\n\n**$x=12$** is extrapolation.\n\nAnswer **x = 8** (or **8**)."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **$x=8$** is **more reliable**—**interpolation** within 3–9.\n2. **$x=12$** is extrapolation.\n3. Answer **x = 8** (or **8**)."
     },
     "140": {
       "hint": "One crazy click day shouldn’t define the whole trend.",
-      "help": "**No**—treat as **outlier** for the **line of best fit**.\n\nNote the day separately.\n\nDo not let it **steer** the trend."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No**—treat as **outlier** for the **line of best fit**.\n2. Note the day separately.\n3. Do not let it **steer** the trend."
     },
     "141": {
       "hint": "Lonely dot far from the cloud—special name?",
-      "help": "Name it an **outlier**.\n\nIt does not match the **main pattern**.\n\nInvestigate why before deleting."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Name it an **outlier**.\n2. It does not match the **main pattern**.\n3. Investigate why before deleting."
     },
     "142": {
       "hint": "Should the odd point tug the trend line?",
-      "help": "**No**—outliers should **not pull** the line of best fit.\n\nFollow the **main** cloud.\n\nAnswer **no**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No**—outliers should **not pull** the line of best fit.\n2. Follow the **main** cloud.\n3. Answer **no**."
     },
     "143": {
       "hint": "Off-trend body measure—treat separately when fitting the line?",
-      "help": "**Yes**—treat as **outlier** for the **line** while keeping the person in the data.\n\nAnswer **yes** for outlier treatment."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Yes**—treat as **outlier** for the **line** while keeping the person in the data.\n2. Answer **yes** for outlier treatment."
     },
     "144": {
       "hint": "Finish: an outlier is ___ the main pattern.",
-      "help": "Say **far from** or **outside** the **main pattern**.\n\nOne sentence definition.\n\nNot just “big”—**far from trend**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Say **far from** or **outside** the **main pattern**.\n2. One sentence definition.\n3. Not just “big”—**far from trend**."
     },
     "145": {
       "hint": "High score with low study might be real—delete without checking?",
-      "help": "**Yes** prior knowledge possible.\n\n**No**—do **not delete** without checking (**no** for delete).\n\nKeep data; explain outlier."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Yes** prior knowledge possible.\n2. **No**—do **not delete** without checking (**no** for delete).\n3. Keep data; explain outlier."
     },
     "146": {
       "hint": "Outliers stay in the table for honesty—always delete?",
-      "help": "**False.** Report outliers; only remove if you know error.\n\nThey may be **valid** extremes.\n\nAnswer **false**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **False.** Report outliers; only remove if you know error.\n2. They may be **valid** extremes.\n3. Answer **false**."
     },
     "147": {
       "hint": "Negative price vs sales—price up, sales tend to…?",
-      "help": "Sales **decrease** as price **rises**.\n\nWrite **decrease**.\n\nClassic **negative** correlation wording."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Sales **decrease** as price **rises**.\n2. Write **decrease**.\n3. Classic **negative** correlation wording."
     },
     "148": {
       "hint": "Can draw a line on any cloud—is it useful with no link?",
-      "help": "**Yes** you **can** draw a line.\n\n**No** it is **not useful** for prediction with **no correlation**.\n\nBoth answers required."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Yes** you **can** draw a line.\n2. **No** it is **not useful** for prediction with **no correlation**.\n3. Both answers required."
     },
     "149": {
       "hint": "Arm span and height grow together for most people.",
-      "help": "**Yes**—**expected positive** correlation for humans.\n\nNot perfect for every person but sensible trend.\n\nAnswer **yes**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Yes**—**expected positive** correlation for humans.\n2. Not perfect for every person but sensible trend.\n3. Answer **yes**."
     },
     "150": {
       "hint": "No link means no cause between shoe size and reading.",
-      "help": "**No**—without correlation, do not claim **cause**.\n\nShoe size does not **cause** reading age.\n\nAnswer **no**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No**—without correlation, do not claim **cause**.\n2. Shoe size does not **cause** reading age.\n3. Answer **no**."
     },
     "151": {
       "hint": "Staining and disease both linked to smoking—hidden cause?",
-      "help": "**No** staining does not **cause** disease.\n\n**Smoking** drives both.\n\nName **smoking** as hidden cause."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No** staining does not **cause** disease.\n2. **Smoking** drives both.\n3. Name **smoking** as hidden cause."
     },
     "152": {
       "hint": "Curved pattern may need a curve, not a straight LOBF.",
-      "help": "**No**—a **straight** line may **not** fit a **curved** cloud well.\n\nStraight LOBF is for **roughly linear** trends.\n\nAnswer **no**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No**—a **straight** line may **not** fit a **curved** cloud well.\n2. Straight LOBF is for **roughly linear** trends.\n3. Answer **no**."
     },
     "153": {
       "hint": "Special event day—mention it in your report?",
-      "help": "**Yes**—note the **school event** explaining high sales on a cold day.\n\nContext helps readers understand **outliers**.\n\nAnswer **yes**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Yes**—note the **school event** explaining high sales on a cold day.\n2. Context helps readers understand **outliers**.\n3. Answer **yes**."
     },
     "154": {
       "hint": "Positive trend ≠ every person gets rich from school.",
-      "help": "**No**—education **does not guarantee** high income for **everyone**.\n\nCorrelation shows **tendency**, not a promise.\n\nAnswer **no**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No**—education **does not guarantee** high income for **everyone**.\n2. Correlation shows **tendency**, not a promise.\n3. Answer **no**."
     },
     "155": {
       "hint": "(18−2)/8 for gradient.",
-      "help": "Gradient = **2**.\n\nSame rise-over-run method: $\\frac{\\Delta y}{\\Delta x}$ between two points on the line.\n\nGradient tells how much $y$ changes per unit increase in $x$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = **2**.\n2. Same rise-over-run method: $\\frac{\\Delta y}{\\Delta x}$ between two points on the line.\n3. Gradient tells how much $y$ changes per unit increase in $x$."
     },
     "156": {
       "hint": "(19−7)/6.",
-      "help": "Gradient = **2**.\n\nCheck subtraction order: $(y_2-y_1)/(x_2-x_1)$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = **2**.\n2. Check subtraction order: $(y_2-y_1)/(x_2-x_1)$."
     },
     "157": {
       "hint": "From (0,10) to (10,30) at $x=5$.",
-      "help": "Midpoint → **20**.\n\nGradient 2 from 10 at zero.\n\nHalfway in $x$ often means halfway in $y$ when the line is straight."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Midpoint → **20**.\n2. Gradient 2 from 10 at zero.\n3. Halfway in $x$ often means halfway in $y$ when the line is straight."
     },
     "158": {
       "hint": "Gradient 2 from (0,6) to (9,24) at $x=3$.",
-      "help": "$6 + 2\\times3 = **12**$.\n\nStep along the line from the known intercept.\n\nEstimating on the line is **interpolation** when $x=3$ lies between 0 and 9."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $6 + 2\\times3 = **12**$.\n2. Step along the line from the known intercept.\n3. Estimating on the line is **interpolation** when $x=3$ lies between 0 and 9."
     },
     "159": {
       "hint": "$6\\times5+4$.",
-      "help": "$30+4=**34**$.\n\nMultiply before adding.\n\nOrder of operations keeps equation estimates consistent with calculator steps."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $30+4=**34**$.\n2. Multiply before adding.\n3. Order of operations keeps equation estimates consistent with calculator steps."
     },
     "160": {
       "hint": "$-12+40$ for $y=-x+40$.",
-      "help": "$y = 40 - 12 = **28**$.\n\nWatch the negative sign on $x$.\n\nNegative gradient lines still use the same substitution—only the slope is negative."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y = 40 - 12 = **28**$.\n2. Watch the negative sign on $x$.\n3. Negative gradient lines still use the same substitution—only the slope is negative."
     },
     "161": {
       "hint": "Calories rise with distance—direction of correlation?",
-      "help": "Rising trend → **positive correlation**.\n\nName **positive**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Rising trend → **positive correlation**.\n2. Name **positive**."
     },
     "162": {
       "hint": "More TV, less homework finished—falling trend.",
-      "help": "**Negative correlation**.\n\nOne up, other down on average.\n\nThe scatter falls from left to right—name **negative** correlation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Negative correlation**.\n2. One up, other down on average.\n3. The scatter falls from left to right—name **negative** correlation."
     },
     "163": {
       "hint": "Lucky numbers vs shoe size—random cloud.",
-      "help": "**No correlation**.\n\nNo sensible linear link.\n\nDots scattered with no up/down drift mean **none**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No correlation**.\n2. No sensible linear link.\n3. Dots scattered with no up/down drift [mean](mtlearn:word/mean) **none**."
     },
     "164": {
       "hint": "12 is between 8 and 16.",
-      "help": "**Interpolation** inside the data range.\n\nAnswer **interpolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Interpolation** inside the data range.\n2. Answer **interpolation**."
     },
     "165": {
       "hint": "20 is above 16—outside top of data.",
-      "help": "**Extrapolation** beyond $x=16$.\n\nAnswer **extrapolation**.\n\nGuessing outside the measured $x$ range is usually **less reliable** than inside."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Extrapolation** beyond $x=16$.\n2. Answer **extrapolation**.\n3. Guessing outside the measured $x$ range is usually **less reliable** than inside."
     },
     "166": {
       "hint": "Strong linear relationship means points hug the line—true?",
-      "help": "**True** for **linear** scatter—correlation strength relates to **closeness** to a line.\n\nNot about pie charts.\n\nAnswer **true**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **True** for **linear** scatter—correlation strength relates to **closeness** to a line.\n2. Not about pie charts.\n3. Answer **true**."
     },
     "167": {
       "hint": "Pick two things that rise together because of weather or season.",
-      "help": "Example: **sunscreen** and **paddling pool** sales rise in **summer** due to **hot weather**—not one causing the other directly.\n\nYour example needs a **third factor**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Example: **sunscreen** and **paddling pool** sales rise in **summer** due to **hot weather**—not one causing the other directly.\n2. Your example needs a **third factor**."
     },
     "168": {
       "hint": "(35−15)/10.",
-      "help": "Gradient = **2**.\n\nStandard formula $\\frac{y_2-y_1}{x_2-x_1}$.\n\nUse two clear points on the line of best fit."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = **2**.\n2. Standard formula $\\frac{y_2-y_1}{x_2-x_1}$.\n3. Use two clear points on the line of best fit."
     },
     "169": {
       "hint": "$x=10$ is midpoint of 5 and 15 on the line from Q168.",
-      "help": "Mid-$y$ between 15 and 35 → **25**.\n\nUses Q168’s line.\n\nMidpoint along a straight segment gives the average of the two $y$ values."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Mid-$y$ between 15 and 35 → **25**.\n2. Uses Q168’s line.\n3. Midpoint along a straight segment gives the average of the two $y$ values."
     },
     "170": {
       "hint": "Weak negative ≠ rule for every person.",
-      "help": "**No**—some exercisers may still have **higher** resting heart rates.\n\n**Weak** = tendency only.\n\nAnswer **no**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No**—some exercisers may still have **higher** resting heart rates.\n2. **Weak** = tendency only.\n3. Answer **no**."
     },
     "171": {
       "hint": "Gradient (18−3)/(8−2); find $c$ using (2,3).",
-      "help": "$m=2.5$. $3=5+c$ → $c=-2$. **$y=2.5x-2$**.\n\nEquivalent: **$\\frac{5}{2}x - 2$**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $m=2.5$. $3=5+c$ → $c=-2$. **$y=2.5x-2$**.\n2. Equivalent: **$\\frac{5}{2}x - 2$**."
     },
     "172": {
       "hint": "$x=5$ between 2 and 8; substitute into Q171.",
-      "help": "$y=2.5\\times5-2=**10.5**$.\n\n**Interpolation** because 5 is inside 2–8.\n\nState both value and **interpolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y=2.5\\times5-2=**10.5**$.\n2. **Interpolation** because 5 is inside 2–8.\n3. State both value and **interpolation**."
     },
     "173": {
       "hint": "Give two different reasons far estimates fail.",
-      "help": "Reasons: **trend may change**; **relationship may not hold** outside measured range; **new factors** appear.\n\nNeed **two** distinct reasons."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Reasons: **trend may change**; **relationship may not hold** outside measured range; **new factors** appear.\n2. Need **two** distinct reasons."
     },
     "174": {
       "hint": "Name two other things that could affect both screen time and anxiety.",
-      "help": "Any two reasonable factors: **sleep**, **school stress**, **exercise**, **family events**.\n\nBoth variables can respond to **shared** pressures—not direct causation from screens alone."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Any two reasonable factors: **sleep**, **school stress**, **exercise**, **family events**.\n2. Both variables can respond to **shared** pressures—not direct causation from screens alone."
     },
     "175": {
       "hint": "Steep but scattered—can correlation still be weak?",
-      "help": "**Yes** because **wide scatter** around the line makes correlation **weak** even if slope is steep.\n\nMention **wide scatter**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Yes** because **wide scatter** around the line makes correlation **weak** even if slope is steep.\n2. Mention **wide scatter**."
     },
     "176": {
       "hint": "Illness on exam day could explain low score despite study.",
-      "help": "**Yes**—outlier might have a **real explanation**.\n\nDo not delete without checking.\n\nAnswer **yes**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Yes**—outlier might have a **real explanation**.\n2. Do not delete without checking.\n3. Answer **yes**."
     },
     "177": {
       "hint": "7 is inside 4–10; 13 is outside.",
-      "help": "**Interpolation at $x=7$** is **more reliable** than extrapolation at 13.\n\nCompare **within** vs **outside** range."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Interpolation at $x=7$** is **more reliable** than extrapolation at 13.\n2. Compare **within** vs **outside** range."
     },
     "178": {
       "hint": "60 is between 40 and 80 on the age axis given.",
-      "help": "**Interpolation** for $x=60$ within **40–80**.\n\nAnswer **interpolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Interpolation** for $x=60$ within **40–80**.\n2. Answer **interpolation**."
     },
     "179": {
       "hint": "90 is above 80—outside the stated range.",
-      "help": "**Extrapolation** beyond 80.\n\nAnswer **extrapolation**.\n\nAge or time far outside your study group may behave differently."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Extrapolation** beyond 80.\n2. Answer **extrapolation**.\n3. Age or time far outside your study group may behave differently."
     },
     "180": {
       "hint": "Line through (140,140) and (180,180) is $y=x$; at 170?",
-      "help": "On **$y=x$**, height 170 cm → arm span **170** cm.\n\nMidpoint reasoning works here."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. On **$y=x$**, height 170 cm → arm span **170** cm.\n2. Midpoint reasoning works here."
     },
     "181": {
       "hint": "(40−25)/5.",
-      "help": "Gradient = **3**.\n\nQuick subtraction on $\\Delta y$ and $\\Delta x$.\n\nEach extra unit of $x$ adds 3 to $y$ on this line."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = **3**.\n2. Quick subtraction on $\\Delta y$ and $\\Delta x$.\n3. Each extra unit of $x$ adds 3 to $y$ on this line."
     },
     "182": {
       "hint": "$3\\times9-7$.",
-      "help": "$27-7=**20**$.\n\nCheck arithmetic.\n\nSubstitute into $y=3x-7$ the same way you read any line-of-best-fit equation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $27-7=**20**$.\n2. Check arithmetic.\n3. Substitute into $y=3x-7$ the same way you read any line-of-best-fit equation."
     },
     "183": {
       "hint": "More absences, lower grades on average—one careful sentence.",
-      "help": "Write that **more absences tend to link with lower grades**, but it is **not guaranteed** for every pupil.\n\nParent-friendly **interpretation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Write that **more absences tend to link with lower grades**, but it is **not guaranteed** for every pupil.\n2. Parent-friendly **interpretation**."
     },
     "184": {
       "hint": "No correlation → no cause story between handedness and maths.",
-      "help": "**No**—do not claim one **causes** the other.\n\nAnswer **no**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No**—do not claim one **causes** the other.\n2. Answer **no**."
     },
     "185": {
       "hint": "6 above, 4 below—perfect balance? adjust line?",
-      "help": "**No** not perfect balance.\n\n**Yes**—**adjust slightly** so points are more balanced above/below.\n\nLine of best fit is about **fair balance**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No** not perfect balance.\n2. **Yes**—**adjust slightly** so points are more balanced above/below.\n3. Line of best fit is about **fair balance**."
     },
     "186": {
       "hint": "$x=0$ below data starting at 1—reliable?",
-      "help": "**No**—extrapolation to 0 is **unlikely reliable** when data start at 1.\n\nAnswer **no**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **No**—extrapolation to 0 is **unlikely reliable** when data start at 1.\n2. Answer **no**."
     },
     "187": {
       "hint": "Which line follows the main cloud—outlier in or out?",
-      "help": "**Ignored** outlier gives a line closer to the **main trend**.\n\nAnswer **ignored**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Ignored** outlier gives a line closer to the **main trend**.\n2. Answer **ignored**."
     },
     "188": {
       "hint": "Correlation is overall—single points can break the ‘rule’?",
-      "help": "**Yes**—individual points can sit **off** the tendency.\n\nCorrelation describes **overall** pattern.\n\nAnswer **yes**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Yes**—individual points can sit **off** the tendency.\n2. Correlation describes **overall** pattern.\n3. Answer **yes**."
     },
     "189": {
       "hint": "$12\\times7+100$.",
-      "help": "$84+100=**184**$ cost units.\n\nSubstitute $x=7$.\n\nThe $+100$ is the fixed part; $12x$ grows with units bought."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $84+100=**184**$ cost units.\n2. Substitute $x=7$.\n3. The $+100$ is the fixed part; $12x$ grows with units bought."
     },
     "190": {
       "hint": "Gradient 3 from origin; at $x=4$.",
-      "help": "$3\\times4=**12**$.\n\nLine through $(0,0)$ and $(7,21)$ has equation $y=3x$.\n\nThrough-origin lines make quick mental estimates easy."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $3\\times4=**12**$.\n2. Line through $(0,0)$ and $(7,21)$ has equation $y=3x$.\n3. Through-origin lines make quick mental estimates easy."
     },
     "191": {
       "hint": "Summer heat might boost both sunscreen and pools.",
-      "help": "Shared cause: **hot weather** / **summer** / **sunshine**.\n\nBoth sales rise together without one product **causing** the other.\n\nName the **shared cause**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Shared cause: **hot weather** / **summer** / **sunshine**.\n2. Both sales rise together without one product **causing** the other.\n3. Name the **shared cause**."
     },
     "192": {
       "hint": "Weak positive still suggests trying revision—guaranteed?",
-      "help": "**Yes** worth trying—**tendency** helps on average.\n\nNot a **guarantee** for every score.\n\nAnswer **yes** with **tendency** idea."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. **Yes** worth trying—**tendency** helps on average.\n2. Not a **guarantee** for every score.\n3. Answer **yes** with **tendency** idea."
     },
     "193": {
       "hint": "(48−8)/10 for gradient.",
-      "help": "Gradient = **4**.\n\nFrom $(1,8)$ to $(11,48)$.\n\nDivide total rise by total run across the whole segment."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Gradient = **4**.\n2. From $(1,8)$ to $(11,48)$.\n3. Divide total rise by total run across the whole segment."
     },
     "194": {
       "hint": "Gradient 4 from (1,8) at $x=6$.",
-      "help": "$8 + 4\\times5 = **28**$ (five steps from 1 to 6).\n\nOr $4\\times6+4=28$ with $y=4x+4$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $8 + 4\\times5 = **28**$ (five steps from 1 to 6).\n2. Or $4\\times6+4=28$ with $y=4x+4$."
     },
     "195": {
       "hint": "Gradient (42−12)/15; intercept at $x=0$ is 12.",
-      "help": "$m=2$. Through $(0,12)$ → **$y=2x+12$**.\n\nCheck at $x=15$: $30+12=42$ ✓"
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $m=2$. Through $(0,12)$ → **$y=2x+12$**.\n2. Check at $x=15$: $30+12=42$ ✓"
     },
     "196": {
       "hint": "$x=9$ inside 0–15; compute $y$.",
-      "help": "$y=2\\times9+12=**30**$.\n\n**Interpolation** within 0–15.\n\nState **30** and **interpolation**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y=2\\times9+12=**30**$.\n2. **Interpolation** within 0–15.\n3. State **30** and **interpolation**."
     },
     "197": {
       "hint": "Police don’t cause crime—cities hire more where crime is high.",
-      "help": "Sentence 1: **Correlation ≠ causation**.\n\nSentence 2: **More crime may lead to hiring more police**, not police **causing** crime.\n\nTwo sentences required."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. Sentence 1: **Correlation ≠ causation**.\n2. Sentence 2: **More crime may lead to hiring more police**, not police **causing** crime.\n3. Two sentences required."
     },
     "198": {
       "hint": "Use all three words: outlier, interpolation, strong positive; ages 10–15 vs 25.",
-      "help": "At **14**, **interpolation** on **strong positive** age–height trend.\n\nAt **25**, **extrapolation**—unreliable; mention checking **outliers** at young ages.\n\nTwo sentences using all three terms."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. At **14**, **interpolation** on **strong positive** age–height trend.\n2. At **25**, **extrapolation**—unreliable; mention checking **outliers** at young ages.\n3. Two sentences using all three terms."
     },
     "199": {
       "hint": "Gradient (37−5)/(10−2)=4; $c$ from (2,5).",
-      "help": "$y=4x-3$ because $5=8+c$ → $c=-3$.\n\nVerify at $x=10$: $40-3=37$ ✓"
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y=4x-3$ because $5=8+c$ → $c=-3$.\n2. Verify at $x=10$: $40-3=37$ ✓"
     },
     "200": {
       "hint": "$x=11$ beyond 2–10 data—extrapolation; compute $y$ from Q199.",
-      "help": "$y=4\\times11-3=**41**$.\n\n**Extrapolation**—**not reliable** / **unlikely** because outside 2–10.\n\nInclude **41**, **extrapolation**, and **unreliable**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:statistics/S6)\n\n1. $y=4\\times11-3=**41**$.\n2. **Extrapolation**—**not reliable** / **unlikely** because outside 2–10.\n3. Include **41**, **extrapolation**, and **unreliable**."
     }
-
   }
 }

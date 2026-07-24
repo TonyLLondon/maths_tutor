@@ -3,335 +3,803 @@
   "questions": {
     "1": {
       "hint": "On a fair coin, about half the flips are heads — is 5 closer to half of 10 than 10 is?",
-      "help": "A **fair** coin gives about **half** heads and half tails over many flips.\n\nIn 10 flips you **expect** about 5 heads, not all 10.\n\nChoose the number that is about half of 10."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. A **[fair](mtlearn:word/fair)** coin gives about **half** heads and half tails over many flips.\n2. In 10 flips you **expect** about 5 heads, not all 10.\n3. Choose the number that is about half of 10."
     },
     "2": {
       "hint": "Half of 6 flips would be tails on a fair coin — what is half of 6?",
-      "help": "Expected tails ≈ $\\frac{1}{2} \\times 6 = 3$.\n\n\"About\" means it might not be exactly 3, but 3 is the sensible expectation.\n\nMultiply the number of trials by P(tails) = $\\frac{1}{2}$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected tails ≈ $\\frac{1}{2} \\times 6 = 3$.\n2. \"About\" means it might not be exactly 3, but 3 is the sensible expectation.\n3. Multiply the number of trials by P(tails) = $\\frac{1}{2}$."
     },
     "3": {
       "hint": "Red is half the spinner — what is half of 8 spins?",
-      "help": "Two equal parts → P(red) = $\\frac{1}{2}$.\n\nExpected reds = $\\frac{1}{2} \\times 8 = 4$.\n\nUse probability × number of trials."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Two equal parts → P(red) = $\\frac{1}{2}$.\n2. Expected reds = $\\frac{1}{2} \\times 8 = 4$.\n3. Use [probability](mtlearn:word/probability) × number of trials."
     },
     "4": {
       "hint": "Equal red and blue means P(blue) is one half — find half of 10.",
-      "help": "Pick and **replace** means each pick is the same as the first.\n\nP(blue) = $\\frac{1}{2}$, so expected blue in 10 picks = $0.5 \\times 10 = 5$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Pick and **replace** means each pick is the same as the first.\n2. P(blue) = $\\frac{1}{2}$, so expected blue in 10 picks = $0.5 \\times 10 = 5$."
     },
     "5": {
       "hint": "One face out of six is a 1 — what is one sixth of 6 rolls?",
-      "help": "P(rolling 1) = $\\frac{1}{6}$ on a fair dice.\n\nExpected number of 1s = $\\frac{1}{6} \\times 6 = 1$.\n\nMultiply trials by probability."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(rolling 1) = $\\frac{1}{6}$ on a [fair](mtlearn:word/fair) dice.\n2. Expected number of 1s = $\\frac{1}{6} \\times 6 = 1$.\n3. Multiply trials by [probability](mtlearn:word/probability)."
     },
     "6": {
       "hint": "Four equal colours — each has probability one quarter. What is one quarter of 8?",
-      "help": "P(one colour) = $\\frac{1}{4}$ when sections are equal.\n\nExpected = $\\frac{1}{4} \\times 8 = 2$.\n\nApply to whichever colour you chose."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(one colour) = $\\frac{1}{4}$ when sections are equal.\n2. Expected = $\\frac{1}{4} \\times 8 = 2$.\n3. Apply to whichever colour you chose."
     },
     "7": {
       "hint": "If something never happens, how many times do you expect it in 20 tries?",
-      "help": "**Impossible** means probability **0**.\n\nExpected count = $0 \\times 20 = 0$.\n\nZero chance means zero expected occurrences."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. **Impossible** means [probability](mtlearn:word/probability) **0**.\n2. Expected count = $0 \\times 20 = 0$.\n3. Zero chance means zero expected occurrences."
     },
     "8": {
       "hint": "If something always happens, how many times in 12 tries?",
-      "help": "**Certain** means probability **1**.\n\nExpected = $1 \\times 12 = 12$.\n\nEvery trial succeeds."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. **Certain** means [probability](mtlearn:word/probability) **1**.\n2. Expected = $1 \\times 12 = 12$.\n3. Every trial succeeds."
     },
     "9": {
       "hint": "About half of 40 flips should be heads on a fair coin.",
-      "help": "Expected heads = $\\frac{1}{2} \\times 40 = 20$.\n\nReal results vary, but 20 is the theoretical expectation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected heads = $\\frac{1}{2} \\times 40 = 20$.\n2. Real results vary, but 20 is the theoretical expectation."
     },
     "10": {
       "hint": "Multiply the probability one quarter by 20 spins.",
-      "help": "Expected wins = $\\frac{1}{4} \\times 20 = 5$.\n\nFormula: **expected = probability × number of trials**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected wins = $\\frac{1}{4} \\times 20 = 5$.\n2. Formula: **expected = [probability](mtlearn:word/probability) × number of trials**."
     },
     "11": {
       "hint": "What fraction of the bag is red? Multiply that by 20 picks.",
-      "help": "1 red out of 4 counters → P(red) = $\\frac{1}{4}$.\n\nExpected red picks = $\\frac{1}{4} \\times 20 = 5$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 1 red out of 4 counters → P(red) = $\\frac{1}{4}$.\n2. Expected red picks = $\\frac{1}{4} \\times 20 = 5$."
     },
     "12": {
       "hint": "One sixth of 30 rolls should be sixes on a fair dice.",
-      "help": "P(6) = $\\frac{1}{6}$.\n\nExpected sixes = $\\frac{1}{6} \\times 30 = 5$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(6) = $\\frac{1}{6}$.\n2. Expected sixes = $\\frac{1}{6} \\times 30 = 5$."
     },
     "13": {
       "hint": "Use P(heads) = one half times 20 flips.",
-      "help": "Expected heads = $0.5 \\times 20 = 10$.\n\nWrite the multiplication: probability × trials."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected heads = $0.5 \\times 20 = 10$.\n2. Write the multiplication: [probability](mtlearn:word/probability) × trials."
     },
     "14": {
       "hint": "One sixth of 60 rolls — multiply $\\frac{1}{6}$ by 60.",
-      "help": "Expected sixes = $\\frac{1}{6} \\times 60 = 10$.\n\nShow working: $\\frac{60}{6} = 10$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected sixes = $\\frac{1}{6} \\times 60 = 10$.\n2. Show working: $\\frac{60}{6} = 10$."
     },
     "15": {
       "hint": "Blue is one of four equal sections — what is one quarter of 40?",
-      "help": "P(blue) = $\\frac{1}{4}$.\n\nExpected = $\\frac{1}{4} \\times 40 = 10$ blues in 40 spins."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(blue) = $\\frac{1}{4}$.\n2. Expected = $\\frac{1}{4} \\times 40 = 10$ blues in 40 spins."
     },
     "16": {
       "hint": "What fraction of the bag is red? Multiply by 100 picks.",
-      "help": "3 red out of 10 → P(red) = $\\frac{3}{10}$.\n\nExpected = $\\frac{3}{10} \\times 100 = 30$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 3 red out of 10 → P(red) = $\\frac{3}{10}$.\n2. Expected = $\\frac{3}{10} \\times 100 = 30$."
     },
     "17": {
       "hint": "Multiply one fifth by 45 spins.",
-      "help": "Expected wins = $\\frac{1}{5} \\times 45 = 9$.\n\n$45 \\div 5 = 9$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected wins = $\\frac{1}{5} \\times 45 = 9$.\n2. $45 \\div 5 = 9$."
     },
     "18": {
       "hint": "Even numbers are 2, 4, 6 — that is three out of six faces. What fraction of 120 rolls?",
-      "help": "P(even) = $\\frac{3}{6} = \\frac{1}{2}$.\n\nExpected evens = $\\frac{1}{2} \\times 120 = 60$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(even) = $\\frac{3}{6} = \\frac{1}{2}$.\n2. Expected evens = $\\frac{1}{2} \\times 120 = 60$."
     },
     "19": {
       "hint": "Multiply 0.3 by 200 flips.",
-      "help": "Expected heads = $0.3 \\times 200 = 60$.\n\nDecimal probability × number of trials."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected heads = $0.3 \\times 200 = 60$.\n2. Decimal [probability](mtlearn:word/probability) × number of trials."
     },
     "20": {
       "hint": "One in 25 wins — how many winners in 500 tickets?",
-      "help": "P(win) = $\\frac{1}{25}$.\n\nExpected winners = $\\frac{1}{25} \\times 500 = 20$.\n\nOr think: 500 ÷ 25 = 20."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(win) = $\\frac{1}{25}$.\n2. Expected winners = $\\frac{1}{25} \\times 500 = 20$.\n3. Or think: 500 ÷ 25 = 20."
     },
     "21": {
       "hint": "Which numbers on 1–8 are greater than 6? What fraction of 32 spins is that?",
-      "help": "Greater than 6 means 7 and 8 → 2 out of 8 sections.\n\nP = $\\frac{2}{8} = \\frac{1}{4}$.\n\nExpected = $\\frac{1}{4} \\times 32 = 8$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Greater than 6 means 7 and 8 → 2 out of 8 sections.\n2. P = $\\frac{2}{8} = \\frac{1}{4}$.\n3. Expected = $\\frac{1}{4} \\times 32 = 8$."
     },
     "22": {
       "hint": "Multiply 0.2 by 30 days.",
-      "help": "Expected rainy days = $0.2 \\times 30 = 6$.\n\nAbout 20% of 30 days."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected rainy days = $0.2 \\times 30 = 6$.\n2. About 20% of 30 days."
     },
     "23": {
       "hint": "Green pens are 5 out of 20 — what fraction times 80 picks?",
-      "help": "P(green) = $\\frac{5}{20} = \\frac{1}{4}$.\n\nExpected = $\\frac{1}{4} \\times 80 = 20$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(green) = $\\frac{5}{20} = \\frac{1}{4}$.\n2. Expected = $\\frac{1}{4} \\times 80 = 20$."
     },
     "24": {
       "hint": "Multiples of 5 on a 10-sided dice are 5 and 10 — two out of ten faces.",
-      "help": "P(multiple of 5) = $\\frac{2}{10} = \\frac{1}{5}$.\n\nExpected = $\\frac{1}{5} \\times 50 = 10$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(multiple of 5) = $\\frac{2}{10} = \\frac{1}{5}$.\n2. Expected = $\\frac{1}{5} \\times 50 = 10$."
     },
     "25": {
       "hint": "Expected 5 sixes is a long-run average — can real results differ from that?",
-      "help": "With 30 rolls, getting only 2 sixes can happen by **luck** on a fair dice.\n\nExpected value is not a guarantee for one small experiment.\n\nExplain that short runs often differ from the theoretical expectation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. With 30 rolls, getting only 2 sixes can happen by **luck** on a [fair](mtlearn:word/fair) dice.\n2. Expected value is not a guarantee for one small experiment.\n3. Explain that short runs often differ from the theoretical expectation."
     },
     "26": {
       "hint": "Is the expected number always exactly what you get in one experiment?",
-      "help": "Expected outcome is an **average** over many repeats.\n\nYou might get 9, 10, or 11 heads from 20 flips — not always exactly 10.\n\nSloan is **wrong** because actual results **vary**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected outcome is an **average** over many repeats.\n2. You might get 9, 10, or 11 heads from 20 flips — not always exactly 10.\n3. Sloan is **wrong** because actual results **vary**."
     },
     "27": {
       "hint": "Try expected = probability × trials when the answer is not a whole number.",
-      "help": "Example: P = $\\frac{1}{3}$, 10 trials → expected = $3\\frac{1}{3}$, not a whole number.\n\nSo the statement is **sometimes** false.\n\nGive an example where expected is **not** a whole number."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Example: P = $\\frac{1}{3}$, 10 trials → expected = $3\\frac{1}{3}$, not a whole number.\n2. So the statement is **sometimes** false.\n3. Give an example where expected is **not** a whole number."
     },
     "28": {
       "hint": "If red is expected 15 times out of 60, what fraction is that?",
-      "help": "$\\frac{15}{60} = \\frac{1}{4}$, so P(red) = $\\frac{1}{4}$.\n\nPriya is **correct** — expected frequency ÷ total trials = probability."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. $\\frac{15}{60} = \\frac{1}{4}$, so P(red) = $\\frac{1}{4}$.\n2. Priya is **correct** — expected [frequency](mtlearn:word/frequency) ÷ total trials = [probability](mtlearn:word/probability)."
     },
     "29": {
       "hint": "Can 8 heads in 10 flips happen by chance on a fair coin?",
-      "help": "Unusual results **can** happen in small samples.\n\nYou need **many** flips to decide if a coin is biased.\n\nExplain that 10 flips is too few to prove bias."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Unusual results **can** happen in small samples.\n2. You need **many** flips to decide if a coin is biased.\n3. Explain that 10 flips is too few to prove bias."
     },
     "30": {
       "hint": "As you repeat more and more, do results usually get closer to the expected proportion?",
-      "help": "This is the **law of large numbers** idea at your level: more trials → results closer to expected **on average**.\n\nSay **true** and explain that one short run can be far off, but long runs settle nearer the theory."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. This is the **law of large numbers** idea at your level: more trials → results closer to expected **on average**.\n2. Say **true** and explain that one short run can be far off, but long runs settle nearer the theory."
     },
     "31": {
       "hint": "What would you expect for sixes in 600 rolls of a fair dice? Compare to 90.",
-      "help": "Expected sixes = $\\frac{1}{6} \\times 600 = 100$.\n\n90 is close to 100 — reasonable for a fair dice.\n\nUse expected 100 to judge whether 90 is close."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected sixes = $\\frac{1}{6} \\times 600 = 100$.\n2. 90 is close to 100 — reasonable for a [fair](mtlearn:word/fair) dice.\n3. Use expected 100 to judge whether 90 is close."
     },
     "32": {
       "hint": "Each pupil has probability one quarter of picking 3 — find one quarter of 480.",
-      "help": "P(pick 3) = $\\frac{1}{4}$.\n\nExpected = $\\frac{1}{4} \\times 480 = 120$ pupils."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(pick 3) = $\\frac{1}{4}$.\n2. Expected = $\\frac{1}{4} \\times 480 = 120$ pupils."
     },
     "33": {
       "hint": "Multiply 2% (or 0.02) by 3000 bulbs.",
-      "help": "Expected faulty = $0.02 \\times 3000 = 60$.\n\nOr $\\frac{2}{100} \\times 3000 = 60$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected faulty = $0.02 \\times 3000 = 60$.\n2. Or $\\frac{2}{100} \\times 3000 = 60$."
     },
     "34": {
       "hint": "Find how many green counters from ratio 1:2:3 with 12 total, then P(green) × 240.",
-      "help": "Ratio parts 1+2+3 = 6; scale to 12 → green = 6 counters.\n\nP(green) = $\\frac{6}{12} = \\frac{1}{2}$.\n\nExpected green picks = $\\frac{1}{2} \\times 240 = 120$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Ratio parts 1+2+3 = 6; scale to 12 → green = 6 counters.\n2. P(green) = $\\frac{6}{12} = \\frac{1}{2}$.\n3. Expected green picks = $\\frac{1}{2} \\times 240 = 120$."
     },
     "35": {
       "hint": "Multiply 0.4 by 31 days, then round to the nearest whole day.",
-      "help": "Expected = $0.4 \\times 31 = 12.4$ days.\n\nRound to nearest whole: **12** rainy days.\n\nShow the multiplication before rounding."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $0.4 \\times 31 = 12.4$ days.\n2. Round to nearest whole: **12** rainy days.\n3. Show the multiplication before rounding."
     },
     "36": {
       "hint": "Use P(total 7) = six thirty-sixths, then multiply by 180 pairs of rolls.",
-      "help": "Expected totals of 7 = $\\frac{6}{36} \\times 180 = \\frac{1}{6} \\times 180 = 30$.\n\nMultiply probability by number of experiments."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected totals of 7 = $\\frac{6}{36} \\times 180 = \\frac{1}{6} \\times 180 = 30$.\n2. Multiply [probability](mtlearn:word/probability) by number of experiments."
     },
     "37": {
       "hint": "Find P(win one raffle) from 3 tickets out of 60, then multiply by 20 raffles.",
-      "help": "P(win one raffle) = $\\frac{3}{60} = \\frac{1}{20}$.\n\nExpected prizes in 20 raffles = $20 \\times \\frac{1}{20} = 1$.\n\nOr expected per raffle × 20."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(win one raffle) = $\\frac{3}{60} = \\frac{1}{20}$.\n2. Expected prizes in 20 raffles = $20 \\times \\frac{1}{20} = 1$.\n3. Or expected per raffle × 20."
     },
     "38": {
       "hint": "Multiply one fiftieth by 4000 games.",
-      "help": "Expected jackpots = $\\frac{1}{50} \\times 4000 = 80$.\n\n$4000 \\div 50 = 80$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected jackpots = $\\frac{1}{50} \\times 4000 = 80$.\n2. $4000 \\div 50 = 80$."
     },
     "39": {
       "hint": "Pick a probability so that probability × 100 = 25.",
-      "help": "Need P × 100 = 25, so P = $\\frac{25}{100} = \\frac{1}{4}$.\n\nExample: a spinner with P(win) = $\\frac{1}{4}$, spun 100 times, expects 25 wins.\n\nState P and explain the multiplication."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Need P × 100 = 25, so P = $\\frac{25}{100} = \\frac{1}{4}$.\n2. Example: a spinner with P(win) = $\\frac{1}{4}$, spun 100 times, expects 25 wins.\n3. State P and explain the multiplication."
     },
     "40": {
       "hint": "Expected heads = p × 500 = 350 — solve for p.",
-      "help": "$p = \\frac{350}{500} = 0.7$.\n\nDivide expected successes by number of trials to find p.\n\nCheck: $0.7 \\times 500 = 350$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. $p = \\frac{350}{500} = 0.7$.\n2. Divide expected successes by number of trials to find p.\n3. Check: $0.7 \\times 500 = 350$."
     },
     "41": {
       "hint": "Why plan with expected values if each fair might turn out differently?",
-      "help": "Expected numbers help you order enough prizes, food, or tickets **on average**.\n\nActual results vary, but planning with expectations avoids big mistakes.\n\nGive a fair example: expected winners at a raffle stall."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected numbers help you order enough prizes, food, or tickets **on average**.\n2. Actual results vary, but planning with expectations avoids big mistakes.\n3. Give a [fair](mtlearn:word/fair) example: expected winners at a raffle stall."
     },
     "42": {
       "hint": "Expected prizes = probability × 10 tickets — can that be a decimal?",
-      "help": "P(win) = $\\frac{10}{250} = \\frac{1}{25}$.\n\nExpected prizes = $\\frac{1}{25} \\times 10 = 0.4$.\n\nExplain: 0.4 is the **long-run average**; each single raffle you win 0 or 1 prize, but expectation can be a decimal."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(win) = $\\frac{10}{250} = \\frac{1}{25}$.\n2. Expected prizes = $\\frac{1}{25} \\times 10 = 0.4$.\n3. Explain: 0.4 is the **long-run average**; each single raffle you win 0 or 1 prize, but expectation can be a decimal."
     },
     "43": {
       "hint": "On a fair coin, what fraction of flips should be heads?",
-      "help": "Expected number = (probability) × (number of trials).\n\nFor a fair coin, P(heads) = 1/2, so expected heads = 1/2 × number of flips.\n\nMultiply 1/2 by 10."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected number = ([probability](mtlearn:word/probability)) × (number of trials).\n2. For a [fair](mtlearn:word/fair) coin, P(heads) = 1/2, so expected heads = 1/2 × number of flips.\n3. Multiply 1/2 by 10."
     },
     "44": {
       "hint": "On a fair coin, what fraction of flips should be heads?",
-      "help": "Expected number = (probability) × (number of trials).\n\nFor a fair coin, P(heads) = 1/2, so expected heads = 1/2 × number of flips.\n\nMultiply 1/2 by 12."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected number = ([probability](mtlearn:word/probability)) × (number of trials).\n2. For a [fair](mtlearn:word/fair) coin, P(heads) = 1/2, so expected heads = 1/2 × number of flips.\n3. Multiply 1/2 by 12."
     },
-    "45": {"hint": "What fraction of the five sections are red?", "help": "When sections are equal, P(red) = $\\frac{\\text{red sections}}{\\text{total sections}}$.\n\nHere that is $\\frac{2}{5}$.\n\nExpected reds = $\\frac{2}{5} \\times 50$. Try the same idea if a spinner had 3 red out of 10 sections and was spun 100 times."},
-    "46": {"hint": "How many faces on a dice are odd?", "help": "Odd faces are 1, 3, and 5 — three out of six.\n\nP(odd) = $\\frac{3}{6} = \\frac{1}{2}$.\n\nExpected odd rolls = $\\frac{1}{2} \\times 90$."},
-    "47": {"hint": "Multiply the germination probability by 200 seeds.", "help": "Expected germinations = $0.85 \\times 200$.\n\nIf 85% sprout, about 85 out of every 100 should sprout on average.\n\nUse a calculator if needed."},
-    "48": {"hint": "Turn 40% into a decimal and multiply by 25.", "help": "40% means $0.4$ as a probability.\n\nExpected goals = $0.4 \\times 25$.\n\nIf a player had 60% success over 20 shots, you would expect $0.6 \\times 20 = 12$ goals."},
-    "49": {"hint": "Find P(yellow) from 2 yellow and 6 purple counters.", "help": "Total counters = 8, so P(yellow) = $\\frac{2}{8} = \\frac{1}{4}$.\n\nExpected yellow = $\\frac{1}{4} \\times 64$.\n\nPick-and-replace keeps the same probabilities each time."},
-    "50": {"hint": "Multiply 120 trials by the given probability for total 11.", "help": "Expected count = $120 \\times \\frac{2}{36}$.\n\nSimplify $\\frac{2}{36}$ before multiplying if you like.\n\nThe answer may not be a whole number — expectations can be decimals."},
-    "51": {"hint": "One section wins out of six equal sections.", "help": "P(win) = $\\frac{1}{6}$.\n\nExpected wins = $\\frac{1}{6} \\times 42$.\n\nOn a different spinner with 2 wins in 8 sections, P(win) = $\\frac{2}{8}$."},
-    "52": {"hint": "What is 15% of 240 pupils?", "help": "15% = $0.15$.\n\nExpected walkers = $0.15 \\times 240$.\n\nYou can also find $\\frac{15}{100} \\times 240$."},
-    "53": {"hint": "Multiply the two independent probabilities, then by 360.", "help": "P(heads) = $\\frac{1}{2}$ and P(six) = $\\frac{1}{6}$, so P(both) = $\\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$.\n\nExpected = $\\frac{1}{12} \\times 360$."},
-    "54": {"hint": "Three of eight sections are small prize — what fraction is that?", "help": "P(small prize) = $\\frac{3}{8}$.\n\nExpected = $\\frac{3}{8} \\times 56$.\n\nReal prizes won may differ; this is the long-run average."},
-    "55": {"hint": "Convert 3% to a decimal and multiply by 1500.", "help": "3% = $0.03$.\n\nExpected defects = $0.03 \\times 1500$.\n\nActual defect counts vary from batch to batch."},
-    "56": {"hint": "Find your chance with one ticket, then multiply by 4 tickets.", "help": "P(one ticket wins) = $\\frac{8}{400}$.\n\nExpected prizes = $4 \\times \\frac{8}{400}$.\n\nExpectation can be less than 1 prize even when you hold several tickets."},
-    "57": {"hint": "Use the given P(6) and multiply by 75 rolls.", "help": "Expected sixes = $\\frac{1}{3} \\times 75$.\n\nThis dice is biased — the probability is not $\\frac{1}{6}$.\n\nShow the multiplication clearly."},
-    "58": {"hint": "Hearts are one quarter of the deck — multiply by 96 draws.", "help": "P(heart) = $\\frac{1}{4}$ with replacement.\n\nExpected hearts = $\\frac{1}{4} \\times 96$.\n\nEach draw is independent when you replace the card."},
-    "59": {"hint": "Multiply 0.35 by 200 spins.", "help": "Expected greens = $0.35 \\times 200$.\n\nYou might not see exactly that many greens in one experiment of 200 spins."},
-    "60": {"hint": "Set $\\frac{1}{6} \\times n = 18$ and solve for $n$.", "help": "Expected sixes = $\\frac{n}{6}$.\n\nSo $n = 18 \\times 6$.\n\nYou are working backwards from expectation to number of trials."},
-    "61": {"hint": "Multiply 0.12 by 250 days.", "help": "Expected rainy days = $0.12 \\times 250$.\n\nWeather varies; this is an average over many years."},
-    "62": {"hint": "What fraction of the 20 counters are red?", "help": "P(red) = $\\frac{5}{20} = \\frac{1}{4}$.\n\nExpected red picks = $\\frac{1}{4} \\times 80$."},
-    "63": {"hint": "Bonus sections are 3 out of 12 equal parts.", "help": "P(bonus) = $\\frac{3}{12} = \\frac{1}{4}$.\n\nExpected bonuses = $\\frac{1}{4} \\times 88$."},
-    "64": {"hint": "Prime faces 2, 3, 5 are three of the six faces.", "help": "P(prime) = $\\frac{3}{6} = \\frac{1}{2}$.\n\nExpected primes = $\\frac{1}{2} \\times 72$.\n\n1 is not prime."},
-    "65": {"hint": "8% means multiply 0.08 by 375 views.", "help": "Expected clicks = $0.08 \\times 375$.\n\nActual clicks on one day can be higher or lower."},
-    "66": {"hint": "Use P(total 8) = $\\frac{5}{36}$ with 180 rolls.", "help": "Expected totals of 8 = $180 \\times \\frac{5}{36}$.\n\nCheck your arithmetic after multiplying."},
-    "67": {"hint": "Red is 2 parts out of 2 + 5 in the ratio.", "help": "P(red) = $\\frac{2}{7}$.\n\nExpected red = $\\frac{2}{7} \\times 140$."},
-    "68": {"hint": "Half the flips are heads on a fair coin — set up an equation.", "help": "Expected heads = $\\frac{1}{2} \\times n = 3$.\n\nSo $n = 6$ flips.\n\nSmall expected values often come from few trials."},
-    "69": {"hint": "One winner per 80 entries means P(win) = $\\frac{1}{80}$ for each entry.", "help": "Expected winners among 400 entries = $\\frac{400}{80}$.\n\nThink: how many groups of 80 are in 400?"},
-    "70": {"hint": "If P(lose) = 0.6, what is P(win)?", "help": "Win and lose are the only outcomes, so P(win) = $1 - 0.6 = 0.4$.\n\nExpected wins = $0.4 \\times 150$."},
-    "71": {"hint": "Scores less than 3 are 1 and 2 — how many faces?", "help": "Two faces out of six give scores 1 or 2.\n\nP(less than 3) = $\\frac{2}{6}$.\n\nExpected = $\\frac{2}{6} \\times 150$.\n\nSimplify the fraction before you multiply if that helps."},
-    "72": {"hint": "Multiply 0.92 by 250 saplings.", "help": "Expected survivors = $0.92 \\times 250$.\n\nSome saplings may still fail in real life."},
-    "73": {"hint": "Expected wins = $\\frac{1}{8} \\times 40$ cards.", "help": "P(win) = $\\frac{1}{8}$.\n\nYou might win 3 or 6 times instead — expectation is an average."},
-    "74": {"hint": "Green is 1 counter out of 5 in the bag.", "help": "P(green) = $\\frac{1}{5}$.\n\nExpected = $\\frac{1}{5} \\times 100$."},
-    "75": {"hint": "Use P(double) = $\\frac{6}{36}$ with 240 pairs of rolls.", "help": "Expected doubles = $240 \\times \\frac{6}{36}$.\n\nSimplify $\\frac{6}{36}$ to $\\frac{1}{6}$ first if helpful."},
-    "76": {"hint": "Find 22% of 550 drinks.", "help": "Expected decaf = $0.22 \\times 550$.\n\nRound only if the question asks you to."},
-    "77": {"hint": "Multiples of 3 on a dice are 3 and 6.", "help": "P(multiple of 3) = $\\frac{2}{6}$.\n\nExpected = $\\frac{2}{6} \\times 84$."},
-    "78": {"hint": "Multiply your 15 tickets by $\\frac{10}{500}$.", "help": "P(win with one ticket) = $\\frac{10}{500}$.\n\nExpected prizes = $15 \\times \\frac{10}{500}$."},
-    "79": {"hint": "Multiply 0.45 by 400 flips.", "help": "Expected heads = $0.45 \\times 400$.\n\nBiased coins still vary on small numbers of flips."},
-    "80": {"hint": "Gold is one of seven equal sections.", "help": "P(gold) = $\\frac{1}{7}$.\n\nExpected = $\\frac{1}{7} \\times 63$."},
-    "81": {"hint": "1.5% is 0.015 as a decimal.", "help": "Expected faults = $0.015 \\times 2000$.\n\nQuality control uses expectations to plan repairs."},
-    "82": {"hint": "Totals greater than 10 happen with probability $\\frac{3}{36}$.", "help": "Expected = $360 \\times \\frac{3}{36}$.\n\nList outcomes 11 and 12 if you want to check the probability."},
-    "83": {"hint": "Ace probability is $\\frac{4}{52}$ — simplify if you can.", "help": "Expected aces = $260 \\times \\frac{4}{52}$.\n\nReplacing the card keeps P(ace) the same each pick."},
-    "84": {"hint": "75% scored means multiply 0.75 by 16.", "help": "Expected goals = $0.75 \\times 16$.\n\nOne shootout might not match the average."},
-    "85": {"hint": "Faces 1 and 2 are two out of six.", "help": "P(1 or 2) = $\\frac{2}{6}$.\n\nExpected = $\\frac{2}{6} \\times 54$."},
-    "86": {"hint": "Set $\\frac{3}{8} \\times n = 45$ and solve.", "help": "Expected reds = $\\frac{3}{8}n$.\n\nMultiply both sides by $\\frac{8}{3}$ to find $n$."},
-    "87": {"hint": "18% late means 0.18 × 500 days.", "help": "Expected late days = $0.18 \\times 500$.\n\nActual lateness will jump around year to year."},
-    "88": {"hint": "Jackpot chance is 1 in 200 — divide 10 000 by 200.", "help": "Expected jackpots = $\\frac{10000}{200}$.\n\nMost players will not hit a jackpot even when many play."},
-    "89": {"hint": "Can luck give zero wins even when some wins are expected?", "help": "Expected 5 wins is a long-run average over many sets of 20 plays.\n\nIn **one** set of 20, zero wins can happen without cheating.\n\nMention **variation** or **randomness** in your answer."},
-    "90": {"hint": "Does expected mean guaranteed for one batch of 100?", "help": "Expected 50 heads comes from $100 \\times \\frac{1}{2}$.\n\nReal flips vary — say **false** and explain **average** vs **exact**."},
-    "91": {"hint": "Think of one coin-flip experiment — did you always get exactly half heads?", "help": "Actual counts are whole numbers that jump around.\n\nAnswer **sometimes** they match, **sometimes** not.\n\nGive a quick example."},
-    "92": {"hint": "Compare 58 to the expected 60 from 3% of 2000.", "help": "Expected = $0.03 \\times 2000 = 60$.\n\n58 is close — small gaps are normal.\n\nSay **yes** if you think it is reasonably close."},
-    "93": {"hint": "Is expectation about one raffle or many raffles?", "help": "Each raffle you win 0, 1, 2, … whole prizes.\n\nExpected value is the **average** over many similar raffles.\n\nDecimals describe averages, not single prizes."},
-    "94": {"hint": "Divide expected blues by total spins.", "help": "P(blue) = $\\frac{12}{48} = \\frac{1}{4}$.\n\nExpected count ÷ trials = probability."},
-    "95": {"hint": "Is 100 rolls enough to prove bias?", "help": "Expected sixes = $\\frac{100}{6} \\approx 16.7$.\n\n3 sixes is low but can happen by chance.\n\nSay **no** — need more data."},
-    "96": {"hint": "What happens to relative frequency when trials increase?", "help": "With more trials, results usually track expected proportions more closely **on average**.\n\nOne sentence linking **more trials** to **fairer comparison**."},
-    "97": {"hint": "Can you flip half a head?", "help": "7.5 is the **average** over many sets of 15 flips.\n\nOne experiment gives a whole number of heads.\n\nAnswer **no** for exactly 7.5 in one go."},
-    "98": {"hint": "Do both classes have the same chance of red each spin?", "help": "Same spinner → same P(red).\n\nDifferent **random** results in 40 spins are normal.\n\nExpectation describes an average, not a fixed count."},
-    "99": {"hint": "Multiply 0.24 by 250 for the expected count.", "help": "Expected = $0.24 \\times 250 = 60$.\n\nActual 60 matches expectation here — say whether that is close."},
-    "100": {"hint": "Find 30% of 520, then compare 145 to that.", "help": "Expected pasta = $0.3 \\times 520 = 156$.\n\n145 is a bit below 156 but not wildly off.\n\nPlan using 156; variation explains 145."},
-    "101": {"hint": "Can expected value be a number you never actually roll?", "help": "Fair dice expected score is 3.5 but you never roll 3.5.\n\nExpected value is a **mean**, not always the most common outcome.\n\nExplain why Leo mixes up average and mode."},
-    "102": {"hint": "Can one weird run happen on a fair spinner?", "help": "Unusual results can appear once by **chance**.\n\nAnswer **false** — one run does not always break the model.\n\nMore trials help you decide."},
-    "103": {"hint": "Expected passes = 0.8 × 25 — compare to 17.", "help": "Expected = 20 passes.\n\n17 is below 20 but possible with only 25 pupils.\n\nMention **small sample** or **variation**."},
-    "104": {"hint": "Can probability × trials exceed trials when P ≤ 1?", "help": "Expected = P × trials and P is at most 1.\n\nSo expectation never exceeds the number of trials.\n\nAnswer **never**."},
-    "105": {"hint": "If trials double and P stays fixed, what happens to expectation?", "help": "Expected successes also **double**.\n\nExample: P = 0.2 → 4 in 20 trials, 8 in 40.\n\nShow one numeric example."},
-    "106": {"hint": "What does 0.5 wins mean when you can only win 0 or 1?", "help": "0.5 is an **average** over many short games.\n\nEach game still gives 0 or 1 win.\n\nLink decimal expectation to long-run mean."},
-    "107": {"hint": "How many flips were used to get 2/3?", "help": "Only 12 flips — relative frequency can swing a lot.\n\nExplain that **few trials** give unreliable estimates of P = 1/2."},
-    "108": {"hint": "Think of a fair dice — is 3.5 the most common roll?", "help": "Expected score 3.5 is not even a possible roll.\n\nAnswer **false** and give this or another counter-example."},
-    "109": {"hint": "Expected sixes in 300 rolls on a fair dice?", "help": "Expected = 50 sixes.\n\n44 is a bit low but not shocking.\n\n**Unlucky** does not replace a maths explanation — use **variation**."},
-    "110": {"hint": "Why keep a safety buffer above the average?", "help": "Shops can sell **more** than average on busy days.\n\nOrdering a little extra reduces running out.\n\nLink to **variation** above expectation."},
-    "111": {"hint": "Does 4.2 force you to get 4 or 5?", "help": "4.2 is only an average.\n\nYou could get 3, 4, 5, or other whole numbers.\n\nAnswer **never** for a strict must-be rule."},
-    "112": {"hint": "Which word sounds like a promise — expect or guarantee?", "help": "**Expect** ≈ long-run average.\n\n**Guarantee** wrongly sounds certain.\n\nContrast the two words clearly."},
-    "113": {"hint": "How far is 0.501 from 0.5 after 1000 flips?", "help": "0.501 is very close to 0.5.\n\nThat supports a fair coin **over many flips**.\n\nOne short run could still look different."},
-    "114": {"hint": "Which expectation is closer to 0 or 1 in a single trial?", "help": "0.4 prizes is often 0 or 1 in one raffle — far from 0.4.\n\n4 prizes might land near 3–5 sometimes.\n\nSmall expectations vary more in one go."},
-    "115": {"hint": "What is 0 × trials?", "help": "Impossible events have P = 0.\n\nExpected count = $0 \\times \\text{trials} = 0$ always.\n\nSay **true** and state P = 0."},
-    "116": {"hint": "List possible red counts from 10 spins.", "help": "Each spin 0 or 1 red → totals 0 to 10 are possible.\n\n2.5 is only the mean.\n\nExplain **whole-number** outcomes vs decimal expectation."},
-    "117": {"hint": "Can one wait be shorter than the average?", "help": "Averages include some very short and very long waits.\n\nOne wait can be 0 minutes.\n\nSeparate **one trip** from **long-run average**."},
-    "118": {"hint": "More equal sections — does one colour's share shrink?", "help": "More sections sharing the spinner lowers each colour's probability if trials stay fixed.\n\nExpected count = P × spins drops when P drops.\n\nAnswer **always** for this setup."},
-    "119": {"hint": "Find 4% of one year, then multiply by 3 years.", "help": "One year: $0.04 \\times 365$ breakdown days.\n\nThree years: multiply that by 3.\n\nRound sensibly if asked."},
-    "120": {"hint": "Find white counters from ratio 3:5:7 with total 60.", "help": "White is 5 parts of 15 → 20 white counters in the bag.\n\nP(white) = $\\frac{20}{60} = \\frac{1}{3}$.\n\nExpected white picks = $\\frac{1}{3} \\times 300$."},
-    "121": {"hint": "Each spinner: expected wins = $\\frac{1}{4} \\times 80$ — add both.", "help": "One spinner expects 20 wins.\n\nTwo spinners expect 40 wins total.\n\nAdd expectations when trials are separate."},
-    "122": {"hint": "Multiply 0.35 by 420 customers.", "help": "Expected deals = $0.35 \\times 420$.\n\nBusy weeks may sell more or fewer deals."},
-    "123": {"hint": "How many faces on a 12-sided dice are factors of 12?", "help": "Factors listed: 1, 2, 3, 4, 6, 12 — six outcomes.\n\nP = $\\frac{6}{12} = \\frac{1}{2}$.\n\nExpected = $\\frac{1}{2} \\times 240$."},
-    "124": {"hint": "Expected per raffle = 2/100 — multiply by 5 raffles.", "help": "Each raffle: P(win) = $\\frac{2}{100}$.\n\nTotal expected = $5 \\times \\frac{2}{100}$.\n\nIndependent raffles add expectations."},
-    "125": {"hint": "8% repair rate on 1250 laptops.", "help": "Expected repairs = $0.08 \\times 1250$.\n\nSome years may be better or worse."},
-    "126": {"hint": "Multiply 144 by $\\frac{11}{36}$.", "help": "P(at least one six) = $\\frac{11}{36}$ is given.\n\nExpected = $144 \\times \\frac{11}{36}$."},
-    "127": {"hint": "Club tickets × (prizes ÷ total tickets).", "help": "Expected = $20 \\times \\frac{12}{800}$.\n\nDecimal answers are fine for expectation."},
-    "128": {"hint": "Blue has the highest probability — multiply by 400.", "help": "Expected blues = $0.5 \\times 400$.\n\nUse the stated P(blue) only."},
-    "129": {"hint": "Each digit 0–9 is equally likely.", "help": "P(7) = $\\frac{1}{10}$.\n\nExpected sevens = $\\frac{1}{10} \\times 600$."},
-    "130": {"hint": "90% sprout — multiply 0.9 by 350 beans.", "help": "Expected sprouts = $0.9 \\times 350$.\n\nWeather can change real sprouting rates."},
-    "131": {"hint": "Multiply 0.15 by 40 matches.", "help": "Expected matches = $0.15 \\times 40$.\n\nGoals vary match to match."},
-    "132": {"hint": "White is 1 of 10 counters.", "help": "P(white) = $\\frac{1}{10}$.\n\nExpected = $\\frac{1}{10} \\times 150$."},
-    "133": {"hint": "Exactly one head: HT or TH — probability $\\frac{1}{2}$.", "help": "P(exactly one head) = $\\frac{1}{2}$ for two fair coins.\n\nExpected = $\\frac{1}{2} \\times 200$."},
-    "134": {"hint": "12% win rate over 500 plays.", "help": "Expected £5 wins = $0.12 \\times 500$.\n\nMost plays win nothing — expectation is an average."},
-    "135": {"hint": "Multiply 0.07 by 920 flights.", "help": "Expected delays = $0.07 \\times 920$.\n\nOne stormy week can spike delays."},
-    "136": {"hint": "Numbers greater than 7 are 8, 9, 10 — three faces.", "help": "On a 1–10 spinner, three sections beat 7.\n\nP = $\\frac{3}{10}$.\n\nExpected = $\\frac{3}{10} \\times 150$.\n\nReal spins may differ; this is the long-run average."},
-    "137": {"hint": "Set $\\frac{n}{6} = 28$ for fair dice sixes.", "help": "Solve $n = 28 \\times 6$.\n\nWorking backwards from expected sixes is common in stretch questions."},
-    "138": {"hint": "Token chance is $\\frac{2}{15}$ of 450 spins.", "help": "Expected tokens = $450 \\times \\frac{2}{15}$.\n\nSimplify the fraction before multiplying."},
-    "139": {"hint": "18% read fully — multiply by 2500.", "help": "Expected full reads = $0.18 \\times 2500$.\n\nMany people skim instead."},
-    "140": {"hint": "All three tails: P = $\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2}$.", "help": "P(all tails) = $\\frac{1}{8}$.\n\nExpected = $\\frac{1}{8} \\times 160$."},
-    "141": {"hint": "2.5% defective means 0.025 × 4800.", "help": "Expected defects = $0.025 \\times 4800$.\n\nInspectors still see random batches."},
-    "142": {"hint": "Multiply 25 tickets by $\\frac{15}{600}$.", "help": "Expected prizes = $25 \\times \\frac{15}{600}$.\n\nSimplify the fraction first."},
-    "143": {"hint": "Use $\\frac{4}{36}$ with 270 rolls.", "help": "Expected totals of 5 = $270 \\times \\frac{4}{36}$.\n\nYou can simplify $\\frac{4}{36}$ to $\\frac{1}{9}$ first.\n\nShow the multiplication in your working."},
-    "144": {"hint": "65% pass — multiply 0.65 by 380.", "help": "Expected passes = $0.65 \\times 380$.\n\nSome cohorts beat or miss the average."},
-    "145": {"hint": "Green is 2 sections out of 10.", "help": "P(green) = $\\frac{2}{10}$.\n\nExpected greens = $\\frac{2}{10} \\times 110$."},
-    "146": {"hint": "Double six has P = $\\frac{1}{36}$.", "help": "Only one outcome gives double six on two fair dice.\n\nExpected double sixes = $720 \\times \\frac{1}{36}$.\n\nThat simplifies to $720 \\div 36$."},
-    "147": {"hint": "Friday is one of five weekdays.", "help": "P(Friday) = $\\frac{1}{5}$.\n\nExpected Fridays = $\\frac{1}{5} \\times 260$."},
-    "148": {"hint": "4% crash rate over 1750 sessions.", "help": "Expected crashes = $0.04 \\times 1750$.\n\nUpdates can change crash rates later."},
-    "149": {"hint": "Apple sweets are 3 out of 10.", "help": "P(apple) = $\\frac{3}{10}$.\n\nExpected = $\\frac{3}{10} \\times 90$."},
-    "150": {"hint": "Find expected reds on each spinner and add.", "help": "Each spinner: $0.3 \\times 50 = 15$ reds.\n\nTotal expected = $15 + 15 = 30$.\n\nIndependent experiments add expectations."},
-    "151": {"hint": "Two thirds of 45 questions correct on average.", "help": "Expected correct = $\\frac{2}{3} \\times 45$.\n\nOne pupil may beat or miss that average."},
-    "152": {"hint": "Faces 1 and 6 are two out of six.", "help": "P(1 or 6) = $\\frac{2}{6}$.\n\nExpected = $\\frac{2}{6} \\times 105$."},
-    "153": {"hint": "Each pupil chooses A with probability 0.35 independently.", "help": "Expected choosing A = $0.35 \\times 720$.\n\nNot exactly 35% every year."},
-    "154": {"hint": "11% late over 180 days.", "help": "Expected late = $0.11 \\times 180$.\n\nRound to a whole day if sensible."},
-    "155": {"hint": "Expected = tickets bought × prizes ÷ tickets sold.", "help": "Expected = $14 \\times \\frac{7}{350}$.\n\nSimplify $\\frac{7}{350}$ before multiplying."},
-    "156": {"hint": "Total 9 has P = $\\frac{4}{36}$ on two dice.", "help": "Expected totals of 9 = $225 \\times \\frac{4}{36}$.\n\nSimplify the probability fraction if you can.\n\nOne run of 225 pairs may not give exactly that many nines."},
-    "157": {"hint": "12% of 650 customers use a voucher.", "help": "12% as a decimal is $0.12$.\n\nExpected voucher uses = $0.12 \\times 650$.\n\nBusy sales days can push the actual count above or below that."},
-    "158": {"hint": "Rain both days: multiply Saturday and Sunday probabilities.", "help": "P(both) = $0.2 \\times 0.2 = 0.04$.\n\nExpected over 100 weekends = $0.04 \\times 100$."},
-    "159": {"hint": "Stars are 3 of 8 equal sections.", "help": "P(star) = $\\frac{3}{8}$.\n\nExpected = $\\frac{3}{8} \\times 200$."},
-    "160": {"hint": "1.8% means 0.018 as a decimal.", "help": "Expected faults = $0.018 \\times 5000$.\n\nPercent means out of 100, so 1.8% = $\\frac{1.8}{100}$.\n\nInspectors still see random variation batch to batch."},
-    "161": {"hint": "Set $0.55 \\times n = 88$.", "help": "Divide 88 by 0.55 to find flips.\n\nCheck by multiplying back."},
-    "162": {"hint": "Queens are 4 out of 52 cards.", "help": "Expected queens = $520 \\times \\frac{4}{52}$.\n\nSimplify $\\frac{4}{52}$ to $\\frac{1}{13}$."},
-    "163": {"hint": "Set $0.4 \\times n = 36$.", "help": "Solve $n = 36 \\div 0.4$.\n\nYou are finding spins from expected blues."},
-    "164": {"hint": "All three same: P = $\\frac{6}{216}$.", "help": "Expected = $120 \\times \\frac{6}{216}$.\n\nAnswer may be a recurring decimal."},
-    "165": {"hint": "Each ticket wins with probability $\\frac{1}{40}$.", "help": "Expected winners = $880 \\times \\frac{1}{40}$.\n\nOr divide 880 by 40."},
-    "166": {"hint": "62% in means multiply 0.62 by 250 serves.", "help": "Expected serves in = $0.62 \\times 250$.\n\nPressure points change one match."},
-    "167": {"hint": "Blue is 2 parts of 1+1+2 in the ratio.", "help": "P(blue) = $\\frac{2}{4} = \\frac{1}{2}$.\n\nExpected blue = $\\frac{1}{2} \\times 200$."},
-    "168": {"hint": "Two heads on two coins: P = $\\frac{1}{4}$.", "help": "HH is one of four equally likely outcomes for two fair coins.\n\nExpected two heads = $380 \\times \\frac{1}{4}$.\n\nExactly 95 is the average, not a guarantee."},
-    "169": {"hint": "Pick P so that P × 60 = 18.", "help": "Need P = $\\frac{18}{60} = \\frac{3}{10}$.\n\nDescribe any experiment with that success probability.\n\nExplain the multiplication check."},
-    "170": {"hint": "Divide expected heads by number of flips.", "help": "P(heads) = $\\frac{156}{240}$.\n\nSimplify the fraction to a decimal or percent."},
-    "171": {"hint": "Does doubling trials halve the luck gap automatically?", "help": "Expected count doubles when trials double.\n\nOne run's gap from expectation still depends on **randomness**.\n\nContrast **formula** with **single experiment**."},
-    "172": {"hint": "Expected evens minus expected fives equals $n/2 - n/6$.", "help": "Set $\\frac{n}{2} - \\frac{n}{6} = 12$.\n\nCombine fractions: $\\frac{n}{3} = 12$.\n\nSolve for $n$."},
-    "173": {"hint": "Multiply 30 tickets by $\\frac{20}{400}$.", "help": "Expected = $30 \\times \\frac{20}{400} = 1.5$.\n\nExplain decimal as long-run average of 0 or 1 prizes."},
-    "174": {"hint": "Each spin is win or lose — do probabilities add to 1?", "help": "Expected wins + expected losses = number of spins.\n\nSay **true** and link to P(win) + P(lose) = 1."},
-    "175": {"hint": "Set $0.07 \\times n = 21$.", "help": "Divide 21 by 0.07 to find the number of plays.\n\nCheck: $0.07 \\times 300 = 21$.\n\nYou are solving for trials from a target expected count."},
-    "176": {"hint": "Compute $0.4 \\times 100$ and $0.2 \\times 200$.", "help": "Both equal 40 expected reds.\n\nSame expected count, different setups.\n\nState the difference in expected reds (zero here)."},
-    "177": {"hint": "Each child plays 3 games — multiply children × games × P(win).", "help": "Per child expected wins = $3 \\times 0.1 = 0.3$.\n\nTotal = $200 \\times 0.3 = 60$.\n\nOr $600$ plays × 0.1."},
-    "178": {"hint": "Expected total score ÷ number of rolls.", "help": "Mean score per roll = $\\frac{1680}{400} = 4.2$.\n\nThis is the expected value of one roll."},
-    "179": {"hint": "When do planners need whole numbers?", "help": "Round when ordering seats, meals, or chairs.\n\nKeep decimals in working, then round for supply.\n\nGive one planning example."},
-    "180": {"hint": "Which has larger expectation, 50 or 500 trials at P = 0.5?", "help": "Expected successes: 25 vs 250.\n\nShorter run (50) usually looks farther from 50% in one go.\n\nLink **more trials** to **typical closeness** to expectation."},
-    "181": {"hint": "Expected reds from bag = $\\frac{6}{10} \\times 150$ — compare to 90.", "help": "Compute $\\frac{6}{10} \\times 150 = 90$.\n\nMatches the stated expectation — bag is consistent."},
-    "182": {"hint": "For odd flips, are expected heads and tails equal?", "help": "Fair coin: expected heads = expected tails always.\n\nActual heads and tails in one odd run need not be equal.\n\nAnswer **sometimes** for actual equals expected."},
-    "183": {"hint": "Set $0.09 \\times n = 27$.", "help": "Solve $n = 27 \\div 0.09$.\n\nInterpret as number of days observed."},
-    "184": {"hint": "Total 2 has P = $\\frac{1}{36}$ on two dice.", "help": "Expected = $200 \\times \\frac{1}{36}$.\n\nDifferent from total 12 probability in the note — read the question."},
-    "185": {"hint": "Why not trust 8 spins to judge fairness?", "help": "Relative frequency from **few** trials swings widely.\n\nFair spinners can look biased briefly.\n\nMention **more spins** for fair tests."},
-    "186": {"hint": "Divide expected jackpots by 1200 plays.", "help": "P(jackpot) = $\\frac{3.6}{1200} = 0.003$.\n\nShow division clearly."},
-    "187": {"hint": "Can you still win once if expected wins are below 1?", "help": "Expected 0.5 wins means average over many tries.\n\nOne try can still win.\n\nAnswer **false** if the claim says you cannot win."},
-    "188": {"hint": "Expected borrowers = 40% of 275 — compare to 120 books.", "help": "Expected = $0.4 \\times 275 = 110$.\n\n120 is slightly above — reasonable buffer.\n\nUse expectation in your explanation."},
-    "189": {"hint": "Set $\\frac{n}{6} = 45$ for sixes on a fair dice.", "help": "Expected sixes = $\\frac{n}{6}$, so multiply 45 by 6 to find $n$.\n\nCheck by computing $\\frac{n}{6}$ again.\n\nFair dice use P(6) = $\\frac{1}{6}$."},
-    "190": {"hint": "76% next-day means 0.76 × 350 orders.", "help": "Expected = $0.76 \\times 350$.\n\nStorms can delay more deliveries."},
-    "191": {"hint": "Shaded is 4 of 9 equal sections.", "help": "P(shaded) = $\\frac{4}{9}$.\n\nExpected = $\\frac{4}{9} \\times 135$."},
-    "192": {"hint": "Same expectation, different random results — how?", "help": "Both pupils predict the same **average**.\n\nEach single experiment varies.\n\nOne sentence on **shared model**, **different data**."},
-    "193": {"hint": "28% coupon use on 625 issued.", "help": "28% = $0.28$ as a probability.\n\nExpected uses = $0.28 \\times 625$.\n\nMarketing campaigns can change the real redemption rate later."},
-    "194": {"hint": "Total 6: multiply 540 by $\\frac{5}{36}$.", "help": "Expected = $540 \\times \\frac{5}{36}$.\n\nSimplify before multiplying if you can."},
-    "195": {"hint": "If P rises but trials stay fixed, what happens to expectation?", "help": "Expected = P × trials increases when P increases.\n\nSay **true** with that reason."},
-    "196": {"hint": "Set $n \\times \\frac{5}{250} = 0.4$.", "help": "Solve for $n$ using prizes and tickets.\n\nCheck by plugging back."},
-    "197": {"hint": "P(tails) = 1/2; P(even on dice) = 1/2 — multiply.", "help": "P(tails and even) = $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$.\n\nExpected = $\\frac{1}{4} \\times 240$."},
-    "198": {"hint": "Why plan drills using average success rate?", "help": "Expectation estimates how often a skill works **over many tries**.\n\nEach try still succeeds or fails.\n\nCoaches plan reps using averages."},
-    "199": {"hint": "Set $0.32 \\times n = 64$.", "help": "Divide 64 by 0.32 to find shots.\n\nSports stats use this backwards step often."},
-    "200": {"hint": "Gift sections are 7 out of 20 equal parts.", "help": "P(gift) = $\\frac{7}{20}$.\n\nExpected gifts = $\\frac{7}{20} \\times 500$.\n\nShow fraction multiplication before answering."}
+    "45": {
+      "hint": "What fraction of the five sections are red?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. When sections are equal, P(red) = $\\frac{\\text{red sections}}{\\text{total sections}}$.\n2. Here that is $\\frac{2}{5}$.\n3. Expected reds = $\\frac{2}{5} \\times 50$. Try the same idea if a spinner had 3 red out of 10 sections and was spun 100 times."
+    },
+    "46": {
+      "hint": "How many faces on a dice are odd?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Odd faces are 1, 3, and 5 — three out of six.\n2. P(odd) = $\\frac{3}{6} = \\frac{1}{2}$.\n3. Expected odd rolls = $\\frac{1}{2} \\times 90$."
+    },
+    "47": {
+      "hint": "Multiply the germination probability by 200 seeds.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected germinations = $0.85 \\times 200$.\n2. If 85% sprout, about 85 out of every 100 should sprout on average.\n3. Use a calculator if needed."
+    },
+    "48": {
+      "hint": "Turn 40% into a decimal and multiply by 25.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 40% means $0.4$ as a [probability](mtlearn:word/probability).\n2. Expected goals = $0.4 \\times 25$.\n3. If a player had 60% success over 20 shots, you would expect $0.6 \\times 20 = 12$ goals."
+    },
+    "49": {
+      "hint": "Find P(yellow) from 2 yellow and 6 purple counters.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Total counters = 8, so P(yellow) = $\\frac{2}{8} = \\frac{1}{4}$.\n2. Expected yellow = $\\frac{1}{4} \\times 64$.\n3. Pick-and-replace keeps the same probabilities each time."
+    },
+    "50": {
+      "hint": "Multiply 120 trials by the given probability for total 11.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected count = $120 \\times \\frac{2}{36}$.\n2. Simplify $\\frac{2}{36}$ before multiplying if you like.\n3. The answer may not be a whole number — expectations can be decimals."
+    },
+    "51": {
+      "hint": "One section wins out of six equal sections.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(win) = $\\frac{1}{6}$.\n2. Expected wins = $\\frac{1}{6} \\times 42$.\n3. On a different spinner with 2 wins in 8 sections, P(win) = $\\frac{2}{8}$."
+    },
+    "52": {
+      "hint": "What is 15% of 240 pupils?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 15% = $0.15$.\n2. Expected walkers = $0.15 \\times 240$.\n3. You can also find $\\frac{15}{100} \\times 240$."
+    },
+    "53": {
+      "hint": "Multiply the two independent probabilities, then by 360.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(heads) = $\\frac{1}{2}$ and P(six) = $\\frac{1}{6}$, so P(both) = $\\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$.\n2. Expected = $\\frac{1}{12} \\times 360$."
+    },
+    "54": {
+      "hint": "Three of eight sections are small prize — what fraction is that?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(small prize) = $\\frac{3}{8}$.\n2. Expected = $\\frac{3}{8} \\times 56$.\n3. Real prizes won may differ; this is the long-run average."
+    },
+    "55": {
+      "hint": "Convert 3% to a decimal and multiply by 1500.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 3% = $0.03$.\n2. Expected defects = $0.03 \\times 1500$.\n3. Actual defect counts vary from batch to batch."
+    },
+    "56": {
+      "hint": "Find your chance with one ticket, then multiply by 4 tickets.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(one ticket wins) = $\\frac{8}{400}$.\n2. Expected prizes = $4 \\times \\frac{8}{400}$.\n3. Expectation can be less than 1 prize even when you hold several tickets."
+    },
+    "57": {
+      "hint": "Use the given P(6) and multiply by 75 rolls.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected sixes = $\\frac{1}{3} \\times 75$.\n2. This dice is biased — the [probability](mtlearn:word/probability) is not $\\frac{1}{6}$.\n3. Show the multiplication clearly."
+    },
+    "58": {
+      "hint": "Hearts are one quarter of the deck — multiply by 96 draws.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(heart) = $\\frac{1}{4}$ with replacement.\n2. Expected hearts = $\\frac{1}{4} \\times 96$.\n3. Each draw is independent when you replace the card."
+    },
+    "59": {
+      "hint": "Multiply 0.35 by 200 spins.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected greens = $0.35 \\times 200$.\n2. You might not see exactly that many greens in one experiment of 200 spins."
+    },
+    "60": {
+      "hint": "Set $\\frac{1}{6} \\times n = 18$ and solve for $n$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected sixes = $\\frac{n}{6}$.\n2. So $n = 18 \\times 6$.\n3. You are working backwards from expectation to number of trials."
+    },
+    "61": {
+      "hint": "Multiply 0.12 by 250 days.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected rainy days = $0.12 \\times 250$.\n2. Weather varies; this is an average over many years."
+    },
+    "62": {
+      "hint": "What fraction of the 20 counters are red?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(red) = $\\frac{5}{20} = \\frac{1}{4}$.\n2. Expected red picks = $\\frac{1}{4} \\times 80$."
+    },
+    "63": {
+      "hint": "Bonus sections are 3 out of 12 equal parts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(bonus) = $\\frac{3}{12} = \\frac{1}{4}$.\n2. Expected bonuses = $\\frac{1}{4} \\times 88$."
+    },
+    "64": {
+      "hint": "Prime faces 2, 3, 5 are three of the six faces.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(prime) = $\\frac{3}{6} = \\frac{1}{2}$.\n2. Expected primes = $\\frac{1}{2} \\times 72$.\n3. 1 is not prime."
+    },
+    "65": {
+      "hint": "8% means multiply 0.08 by 375 views.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected clicks = $0.08 \\times 375$.\n2. Actual clicks on one day can be higher or lower."
+    },
+    "66": {
+      "hint": "Use P(total 8) = $\\frac{5}{36}$ with 180 rolls.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected totals of 8 = $180 \\times \\frac{5}{36}$.\n2. Check your arithmetic after multiplying."
+    },
+    "67": {
+      "hint": "Red is 2 parts out of 2 + 5 in the ratio.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(red) = $\\frac{2}{7}$.\n2. Expected red = $\\frac{2}{7} \\times 140$."
+    },
+    "68": {
+      "hint": "Half the flips are heads on a fair coin — set up an equation.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected heads = $\\frac{1}{2} \\times n = 3$.\n2. So $n = 6$ flips.\n3. Small expected values often come from few trials."
+    },
+    "69": {
+      "hint": "One winner per 80 entries means P(win) = $\\frac{1}{80}$ for each entry.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected winners among 400 entries = $\\frac{400}{80}$.\n2. Think: how many groups of 80 are in 400?"
+    },
+    "70": {
+      "hint": "If P(lose) = 0.6, what is P(win)?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Win and lose are the only outcomes, so P(win) = $1 - 0.6 = 0.4$.\n2. Expected wins = $0.4 \\times 150$."
+    },
+    "71": {
+      "hint": "Scores less than 3 are 1 and 2 — how many faces?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Two faces out of six give scores 1 or 2.\n2. P(less than 3) = $\\frac{2}{6}$.\n3. Expected = $\\frac{2}{6} \\times 150$.\n4. Simplify the fraction before you multiply if that helps."
+    },
+    "72": {
+      "hint": "Multiply 0.92 by 250 saplings.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected survivors = $0.92 \\times 250$.\n2. Some saplings may still fail in real life."
+    },
+    "73": {
+      "hint": "Expected wins = $\\frac{1}{8} \\times 40$ cards.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(win) = $\\frac{1}{8}$.\n2. You might win 3 or 6 times instead — expectation is an average."
+    },
+    "74": {
+      "hint": "Green is 1 counter out of 5 in the bag.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(green) = $\\frac{1}{5}$.\n2. Expected = $\\frac{1}{5} \\times 100$."
+    },
+    "75": {
+      "hint": "Use P(double) = $\\frac{6}{36}$ with 240 pairs of rolls.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected doubles = $240 \\times \\frac{6}{36}$.\n2. Simplify $\\frac{6}{36}$ to $\\frac{1}{6}$ first if helpful."
+    },
+    "76": {
+      "hint": "Find 22% of 550 drinks.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected decaf = $0.22 \\times 550$.\n2. Round only if the question asks you to."
+    },
+    "77": {
+      "hint": "Multiples of 3 on a dice are 3 and 6.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(multiple of 3) = $\\frac{2}{6}$.\n2. Expected = $\\frac{2}{6} \\times 84$."
+    },
+    "78": {
+      "hint": "Multiply your 15 tickets by $\\frac{10}{500}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(win with one ticket) = $\\frac{10}{500}$.\n2. Expected prizes = $15 \\times \\frac{10}{500}$."
+    },
+    "79": {
+      "hint": "Multiply 0.45 by 400 flips.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected heads = $0.45 \\times 400$.\n2. Biased coins still vary on small numbers of flips."
+    },
+    "80": {
+      "hint": "Gold is one of seven equal sections.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(gold) = $\\frac{1}{7}$.\n2. Expected = $\\frac{1}{7} \\times 63$."
+    },
+    "81": {
+      "hint": "1.5% is 0.015 as a decimal.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected faults = $0.015 \\times 2000$.\n2. Quality control uses expectations to plan repairs."
+    },
+    "82": {
+      "hint": "Totals greater than 10 happen with probability $\\frac{3}{36}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $360 \\times \\frac{3}{36}$.\n2. List outcomes 11 and 12 if you want to check the [probability](mtlearn:word/probability)."
+    },
+    "83": {
+      "hint": "Ace probability is $\\frac{4}{52}$ — simplify if you can.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected aces = $260 \\times \\frac{4}{52}$.\n2. Replacing the card keeps P(ace) the same each pick."
+    },
+    "84": {
+      "hint": "75% scored means multiply 0.75 by 16.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected goals = $0.75 \\times 16$.\n2. One shootout might not match the average."
+    },
+    "85": {
+      "hint": "Faces 1 and 2 are two out of six.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(1 or 2) = $\\frac{2}{6}$.\n2. Expected = $\\frac{2}{6} \\times 54$."
+    },
+    "86": {
+      "hint": "Set $\\frac{3}{8} \\times n = 45$ and solve.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected reds = $\\frac{3}{8}n$.\n2. Multiply both sides by $\\frac{8}{3}$ to find $n$."
+    },
+    "87": {
+      "hint": "18% late means 0.18 × 500 days.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected late days = $0.18 \\times 500$.\n2. Actual lateness will jump around year to year."
+    },
+    "88": {
+      "hint": "Jackpot chance is 1 in 200 — divide 10 000 by 200.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected jackpots = $\\frac{10000}{200}$.\n2. Most players will not hit a jackpot even when many play."
+    },
+    "89": {
+      "hint": "Can luck give zero wins even when some wins are expected?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected 5 wins is a long-run average over many sets of 20 plays.\n2. In **one** set of 20, zero wins can happen without cheating.\n3. Mention **variation** or **randomness** in your answer."
+    },
+    "90": {
+      "hint": "Does expected mean guaranteed for one batch of 100?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected 50 heads comes from $100 \\times \\frac{1}{2}$.\n2. Real flips vary — say **false** and explain **average** vs **exact**."
+    },
+    "91": {
+      "hint": "Think of one coin-flip experiment — did you always get exactly half heads?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Actual counts are whole numbers that jump around.\n2. Answer **sometimes** they match, **sometimes** not.\n3. Give a quick example."
+    },
+    "92": {
+      "hint": "Compare 58 to the expected 60 from 3% of 2000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $0.03 \\times 2000 = 60$.\n2. 58 is close — small gaps are normal.\n3. Say **yes** if you think it is reasonably close."
+    },
+    "93": {
+      "hint": "Is expectation about one raffle or many raffles?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Each raffle you win 0, 1, 2, … whole prizes.\n2. Expected value is the **average** over many similar raffles.\n3. Decimals describe averages, not single prizes."
+    },
+    "94": {
+      "hint": "Divide expected blues by total spins.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(blue) = $\\frac{12}{48} = \\frac{1}{4}$.\n2. Expected count ÷ trials = [probability](mtlearn:word/probability)."
+    },
+    "95": {
+      "hint": "Is 100 rolls enough to prove bias?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected sixes = $\\frac{100}{6} \\approx 16.7$.\n2. 3 sixes is low but can happen by chance.\n3. Say **no** — need more data."
+    },
+    "96": {
+      "hint": "What happens to relative frequency when trials increase?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. With more trials, results usually track expected proportions more closely **on average**.\n2. One sentence linking **more trials** to **fairer comparison**."
+    },
+    "97": {
+      "hint": "Can you flip half a head?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 7.5 is the **average** over many sets of 15 flips.\n2. One experiment gives a whole number of heads.\n3. Answer **no** for exactly 7.5 in one go."
+    },
+    "98": {
+      "hint": "Do both classes have the same chance of red each spin?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Same spinner → same P(red).\n2. Different **random** results in 40 spins are normal.\n3. Expectation describes an average, not a fixed count."
+    },
+    "99": {
+      "hint": "Multiply 0.24 by 250 for the expected count.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $0.24 \\times 250 = 60$.\n2. Actual 60 matches expectation here — say whether that is close."
+    },
+    "100": {
+      "hint": "Find 30% of 520, then compare 145 to that.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected pasta = $0.3 \\times 520 = 156$.\n2. 145 is a bit below 156 but not wildly off.\n3. Plan using 156; variation explains 145."
+    },
+    "101": {
+      "hint": "Can expected value be a number you never actually roll?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. [Fair](mtlearn:word/fair) dice expected score is 3.5 but you never roll 3.5.\n2. Expected value is a **mean**, not always the most common outcome.\n3. Explain why Leo mixes up average and mode."
+    },
+    "102": {
+      "hint": "Can one weird run happen on a fair spinner?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Unusual results can appear once by **chance**.\n2. Answer **false** — one run does not always break the model.\n3. More trials help you decide."
+    },
+    "103": {
+      "hint": "Expected passes = 0.8 × 25 — compare to 17.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = 20 passes.\n2. 17 is below 20 but possible with only 25 pupils.\n3. Mention **small sample** or **variation**."
+    },
+    "104": {
+      "hint": "Can probability × trials exceed trials when P ≤ 1?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = P × trials and P is at most 1.\n2. So expectation never exceeds the number of trials.\n3. Answer **never**."
+    },
+    "105": {
+      "hint": "If trials double and P stays fixed, what happens to expectation?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected successes also **double**.\n2. Example: P = 0.2 → 4 in 20 trials, 8 in 40.\n3. Show one numeric example."
+    },
+    "106": {
+      "hint": "What does 0.5 wins mean when you can only win 0 or 1?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 0.5 is an **average** over many short games.\n2. Each game still gives 0 or 1 win.\n3. Link decimal expectation to long-run mean."
+    },
+    "107": {
+      "hint": "How many flips were used to get 2/3?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Only 12 flips — relative [frequency](mtlearn:word/frequency) can swing a lot.\n2. Explain that **few trials** give unreliable estimates of P = 1/2."
+    },
+    "108": {
+      "hint": "Think of a fair dice — is 3.5 the most common roll?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected score 3.5 is not even a possible roll.\n2. Answer **false** and give this or another counter-example."
+    },
+    "109": {
+      "hint": "Expected sixes in 300 rolls on a fair dice?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = 50 sixes.\n2. 44 is a bit low but not shocking.\n3. **Unlucky** does not replace a maths explanation — use **variation**."
+    },
+    "110": {
+      "hint": "Why keep a safety buffer above the average?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Shops can sell **more** than average on busy days.\n2. Ordering a little extra reduces running out.\n3. Link to **variation** above expectation."
+    },
+    "111": {
+      "hint": "Does 4.2 force you to get 4 or 5?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 4.2 is only an average.\n2. You could get 3, 4, 5, or other whole numbers.\n3. Answer **never** for a strict must-be rule."
+    },
+    "112": {
+      "hint": "Which word sounds like a promise — expect or guarantee?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. **Expect** ≈ long-run average.\n2. **Guarantee** wrongly sounds certain.\n3. Contrast the two words clearly."
+    },
+    "113": {
+      "hint": "How far is 0.501 from 0.5 after 1000 flips?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 0.501 is very close to 0.5.\n2. That supports a [fair](mtlearn:word/fair) coin **over many flips**.\n3. One short run could still look different."
+    },
+    "114": {
+      "hint": "Which expectation is closer to 0 or 1 in a single trial?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 0.4 prizes is often 0 or 1 in one raffle — far from 0.4.\n2. 4 prizes might land near 3–5 sometimes.\n3. Small expectations vary more in one go."
+    },
+    "115": {
+      "hint": "What is 0 × trials?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Impossible events have P = 0.\n2. Expected count = $0 \\times \\text{trials} = 0$ always.\n3. Say **true** and state P = 0."
+    },
+    "116": {
+      "hint": "List possible red counts from 10 spins.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Each spin 0 or 1 red → totals 0 to 10 are possible.\n2. 2.5 is only the mean.\n3. Explain **whole-number** outcomes vs decimal expectation."
+    },
+    "117": {
+      "hint": "Can one wait be shorter than the average?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Averages include some very short and very long waits.\n2. One wait can be 0 minutes.\n3. Separate **one trip** from **long-run average**."
+    },
+    "118": {
+      "hint": "More equal sections — does one colour's share shrink?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. More sections sharing the spinner lowers each colour's [probability](mtlearn:word/probability) if trials stay fixed.\n2. Expected count = P × spins drops when P drops.\n3. Answer **always** for this setup."
+    },
+    "119": {
+      "hint": "Find 4% of one year, then multiply by 3 years.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. One year: $0.04 \\times 365$ breakdown days.\n2. Three years: multiply that by 3.\n3. Round sensibly if asked."
+    },
+    "120": {
+      "hint": "Find white counters from ratio 3:5:7 with total 60.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. White is 5 parts of 15 → 20 white counters in the bag.\n2. P(white) = $\\frac{20}{60} = \\frac{1}{3}$.\n3. Expected white picks = $\\frac{1}{3} \\times 300$."
+    },
+    "121": {
+      "hint": "Each spinner: expected wins = $\\frac{1}{4} \\times 80$ — add both.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. One spinner expects 20 wins.\n2. Two spinners expect 40 wins total.\n3. Add expectations when trials are separate."
+    },
+    "122": {
+      "hint": "Multiply 0.35 by 420 customers.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected deals = $0.35 \\times 420$.\n2. Busy weeks may sell more or fewer deals."
+    },
+    "123": {
+      "hint": "How many faces on a 12-sided dice are factors of 12?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Factors listed: 1, 2, 3, 4, 6, 12 — six outcomes.\n2. P = $\\frac{6}{12} = \\frac{1}{2}$.\n3. Expected = $\\frac{1}{2} \\times 240$."
+    },
+    "124": {
+      "hint": "Expected per raffle = 2/100 — multiply by 5 raffles.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Each raffle: P(win) = $\\frac{2}{100}$.\n2. Total expected = $5 \\times \\frac{2}{100}$.\n3. Independent raffles add expectations."
+    },
+    "125": {
+      "hint": "8% repair rate on 1250 laptops.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected repairs = $0.08 \\times 1250$.\n2. Some years may be better or worse."
+    },
+    "126": {
+      "hint": "Multiply 144 by $\\frac{11}{36}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(at least one six) = $\\frac{11}{36}$ is given.\n2. Expected = $144 \\times \\frac{11}{36}$."
+    },
+    "127": {
+      "hint": "Club tickets × (prizes ÷ total tickets).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $20 \\times \\frac{12}{800}$.\n2. Decimal answers are fine for expectation."
+    },
+    "128": {
+      "hint": "Blue has the highest probability — multiply by 400.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected blues = $0.5 \\times 400$.\n2. Use the stated P(blue) only."
+    },
+    "129": {
+      "hint": "Each digit 0–9 is equally likely.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(7) = $\\frac{1}{10}$.\n2. Expected sevens = $\\frac{1}{10} \\times 600$."
+    },
+    "130": {
+      "hint": "90% sprout — multiply 0.9 by 350 beans.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected sprouts = $0.9 \\times 350$.\n2. Weather can change real sprouting rates."
+    },
+    "131": {
+      "hint": "Multiply 0.15 by 40 matches.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected matches = $0.15 \\times 40$.\n2. Goals vary match to match."
+    },
+    "132": {
+      "hint": "White is 1 of 10 counters.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(white) = $\\frac{1}{10}$.\n2. Expected = $\\frac{1}{10} \\times 150$."
+    },
+    "133": {
+      "hint": "Exactly one head: HT or TH — probability $\\frac{1}{2}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(exactly one head) = $\\frac{1}{2}$ for two [fair](mtlearn:word/fair) coins.\n2. Expected = $\\frac{1}{2} \\times 200$."
+    },
+    "134": {
+      "hint": "12% win rate over 500 plays.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected £5 wins = $0.12 \\times 500$.\n2. Most plays win nothing — expectation is an average."
+    },
+    "135": {
+      "hint": "Multiply 0.07 by 920 flights.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected delays = $0.07 \\times 920$.\n2. One stormy week can spike delays."
+    },
+    "136": {
+      "hint": "Numbers greater than 7 are 8, 9, 10 — three faces.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. On a 1–10 spinner, three sections beat 7.\n2. P = $\\frac{3}{10}$.\n3. Expected = $\\frac{3}{10} \\times 150$.\n4. Real spins may differ; this is the long-run average."
+    },
+    "137": {
+      "hint": "Set $\\frac{n}{6} = 28$ for fair dice sixes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Solve $n = 28 \\times 6$.\n2. Working backwards from expected sixes is common in stretch questions."
+    },
+    "138": {
+      "hint": "Token chance is $\\frac{2}{15}$ of 450 spins.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected tokens = $450 \\times \\frac{2}{15}$.\n2. Simplify the fraction before multiplying."
+    },
+    "139": {
+      "hint": "18% read fully — multiply by 2500.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected full reads = $0.18 \\times 2500$.\n2. Many people skim instead."
+    },
+    "140": {
+      "hint": "All three tails: P = $\\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(all tails) = $\\frac{1}{8}$.\n2. Expected = $\\frac{1}{8} \\times 160$."
+    },
+    "141": {
+      "hint": "2.5% defective means 0.025 × 4800.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected defects = $0.025 \\times 4800$.\n2. Inspectors still see random batches."
+    },
+    "142": {
+      "hint": "Multiply 25 tickets by $\\frac{15}{600}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected prizes = $25 \\times \\frac{15}{600}$.\n2. Simplify the fraction first."
+    },
+    "143": {
+      "hint": "Use $\\frac{4}{36}$ with 270 rolls.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected totals of 5 = $270 \\times \\frac{4}{36}$.\n2. You can simplify $\\frac{4}{36}$ to $\\frac{1}{9}$ first.\n3. Show the multiplication in your working."
+    },
+    "144": {
+      "hint": "65% pass — multiply 0.65 by 380.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected passes = $0.65 \\times 380$.\n2. Some cohorts beat or miss the average."
+    },
+    "145": {
+      "hint": "Green is 2 sections out of 10.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(green) = $\\frac{2}{10}$.\n2. Expected greens = $\\frac{2}{10} \\times 110$."
+    },
+    "146": {
+      "hint": "Double six has P = $\\frac{1}{36}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Only one outcome gives double six on two [fair](mtlearn:word/fair) dice.\n2. Expected double sixes = $720 \\times \\frac{1}{36}$.\n3. That simplifies to $720 \\div 36$."
+    },
+    "147": {
+      "hint": "Friday is one of five weekdays.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(Friday) = $\\frac{1}{5}$.\n2. Expected Fridays = $\\frac{1}{5} \\times 260$."
+    },
+    "148": {
+      "hint": "4% crash rate over 1750 sessions.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected crashes = $0.04 \\times 1750$.\n2. Updates can change crash rates later."
+    },
+    "149": {
+      "hint": "Apple sweets are 3 out of 10.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(apple) = $\\frac{3}{10}$.\n2. Expected = $\\frac{3}{10} \\times 90$."
+    },
+    "150": {
+      "hint": "Find expected reds on each spinner and add.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Each spinner: $0.3 \\times 50 = 15$ reds.\n2. Total expected = $15 + 15 = 30$.\n3. Independent experiments add expectations."
+    },
+    "151": {
+      "hint": "Two thirds of 45 questions correct on average.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected correct = $\\frac{2}{3} \\times 45$.\n2. One pupil may beat or miss that average."
+    },
+    "152": {
+      "hint": "Faces 1 and 6 are two out of six.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(1 or 6) = $\\frac{2}{6}$.\n2. Expected = $\\frac{2}{6} \\times 105$."
+    },
+    "153": {
+      "hint": "Each pupil chooses A with probability 0.35 independently.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected choosing A = $0.35 \\times 720$.\n2. Not exactly 35% every year."
+    },
+    "154": {
+      "hint": "11% late over 180 days.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected late = $0.11 \\times 180$.\n2. Round to a whole day if sensible."
+    },
+    "155": {
+      "hint": "Expected = tickets bought × prizes ÷ tickets sold.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $14 \\times \\frac{7}{350}$.\n2. Simplify $\\frac{7}{350}$ before multiplying."
+    },
+    "156": {
+      "hint": "Total 9 has P = $\\frac{4}{36}$ on two dice.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected totals of 9 = $225 \\times \\frac{4}{36}$.\n2. Simplify the [probability](mtlearn:word/probability) fraction if you can.\n3. One run of 225 pairs may not give exactly that many nines."
+    },
+    "157": {
+      "hint": "12% of 650 customers use a voucher.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 12% as a decimal is $0.12$.\n2. Expected voucher uses = $0.12 \\times 650$.\n3. Busy sales days can push the actual count above or below that."
+    },
+    "158": {
+      "hint": "Rain both days: multiply Saturday and Sunday probabilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(both) = $0.2 \\times 0.2 = 0.04$.\n2. Expected over 100 weekends = $0.04 \\times 100$."
+    },
+    "159": {
+      "hint": "Stars are 3 of 8 equal sections.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(star) = $\\frac{3}{8}$.\n2. Expected = $\\frac{3}{8} \\times 200$."
+    },
+    "160": {
+      "hint": "1.8% means 0.018 as a decimal.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected faults = $0.018 \\times 5000$.\n2. Percent means out of 100, so 1.8% = $\\frac{1.8}{100}$.\n3. Inspectors still see random variation batch to batch."
+    },
+    "161": {
+      "hint": "Set $0.55 \\times n = 88$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Divide 88 by 0.55 to find flips.\n2. Check by multiplying back."
+    },
+    "162": {
+      "hint": "Queens are 4 out of 52 cards.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected queens = $520 \\times \\frac{4}{52}$.\n2. Simplify $\\frac{4}{52}$ to $\\frac{1}{13}$."
+    },
+    "163": {
+      "hint": "Set $0.4 \\times n = 36$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Solve $n = 36 \\div 0.4$.\n2. You are finding spins from expected blues."
+    },
+    "164": {
+      "hint": "All three same: P = $\\frac{6}{216}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $120 \\times \\frac{6}{216}$.\n2. Answer may be a recurring decimal."
+    },
+    "165": {
+      "hint": "Each ticket wins with probability $\\frac{1}{40}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected winners = $880 \\times \\frac{1}{40}$.\n2. Or divide 880 by 40."
+    },
+    "166": {
+      "hint": "62% in means multiply 0.62 by 250 serves.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected serves in = $0.62 \\times 250$.\n2. Pressure points change one match."
+    },
+    "167": {
+      "hint": "Blue is 2 parts of 1+1+2 in the ratio.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(blue) = $\\frac{2}{4} = \\frac{1}{2}$.\n2. Expected blue = $\\frac{1}{2} \\times 200$."
+    },
+    "168": {
+      "hint": "Two heads on two coins: P = $\\frac{1}{4}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. HH is one of four equally likely outcomes for two [fair](mtlearn:word/fair) coins.\n2. Expected two heads = $380 \\times \\frac{1}{4}$.\n3. Exactly 95 is the average, not a guarantee."
+    },
+    "169": {
+      "hint": "Pick P so that P × 60 = 18.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Need P = $\\frac{18}{60} = \\frac{3}{10}$.\n2. Describe any experiment with that success [probability](mtlearn:word/probability).\n3. Explain the multiplication check."
+    },
+    "170": {
+      "hint": "Divide expected heads by number of flips.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(heads) = $\\frac{156}{240}$.\n2. Simplify the fraction to a decimal or percent."
+    },
+    "171": {
+      "hint": "Does doubling trials halve the luck gap automatically?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected count doubles when trials double.\n2. One run's gap from expectation still depends on **randomness**.\n3. Contrast **formula** with **single experiment**."
+    },
+    "172": {
+      "hint": "Expected evens minus expected fives equals $n/2 - n/6$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Set $\\frac{n}{2} - \\frac{n}{6} = 12$.\n2. Combine fractions: $\\frac{n}{3} = 12$.\n3. Solve for $n$."
+    },
+    "173": {
+      "hint": "Multiply 30 tickets by $\\frac{20}{400}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $30 \\times \\frac{20}{400} = 1.5$.\n2. Explain decimal as long-run average of 0 or 1 prizes."
+    },
+    "174": {
+      "hint": "Each spin is win or lose — do probabilities add to 1?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected wins + expected losses = number of spins.\n2. Say **true** and link to P(win) + P(lose) = 1."
+    },
+    "175": {
+      "hint": "Set $0.07 \\times n = 21$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Divide 21 by 0.07 to find the number of plays.\n2. Check: $0.07 \\times 300 = 21$.\n3. You are solving for trials from a target expected count."
+    },
+    "176": {
+      "hint": "Compute $0.4 \\times 100$ and $0.2 \\times 200$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Both equal 40 expected reds.\n2. Same expected count, different setups.\n3. State the difference in expected reds (zero here)."
+    },
+    "177": {
+      "hint": "Each child plays 3 games — multiply children × games × P(win).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Per child expected wins = $3 \\times 0.1 = 0.3$.\n2. Total = $200 \\times 0.3 = 60$.\n3. Or $600$ plays × 0.1."
+    },
+    "178": {
+      "hint": "Expected total score ÷ number of rolls.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Mean score per roll = $\\frac{1680}{400} = 4.2$.\n2. This is the expected value of one roll."
+    },
+    "179": {
+      "hint": "When do planners need whole numbers?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Round when ordering seats, meals, or chairs.\n2. Keep decimals in working, then round for supply.\n3. Give one planning example."
+    },
+    "180": {
+      "hint": "Which has larger expectation, 50 or 500 trials at P = 0.5?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected successes: 25 vs 250.\n2. Shorter run (50) usually looks farther from 50% in one go.\n3. Link **more trials** to **typical closeness** to expectation."
+    },
+    "181": {
+      "hint": "Expected reds from bag = $\\frac{6}{10} \\times 150$ — compare to 90.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Compute $\\frac{6}{10} \\times 150 = 90$.\n2. Matches the stated expectation — bag is consistent."
+    },
+    "182": {
+      "hint": "For odd flips, are expected heads and tails equal?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. [Fair](mtlearn:word/fair) coin: expected heads = expected tails always.\n2. Actual heads and tails in one odd run need not be equal.\n3. Answer **sometimes** for actual equals expected."
+    },
+    "183": {
+      "hint": "Set $0.09 \\times n = 27$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Solve $n = 27 \\div 0.09$.\n2. Interpret as number of days observed."
+    },
+    "184": {
+      "hint": "Total 2 has P = $\\frac{1}{36}$ on two dice.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $200 \\times \\frac{1}{36}$.\n2. Different from total 12 [probability](mtlearn:word/probability) in the note — read the question."
+    },
+    "185": {
+      "hint": "Why not trust 8 spins to judge fairness?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Relative [frequency](mtlearn:word/frequency) from **few** trials swings widely.\n2. [Fair](mtlearn:word/fair) spinners can look biased briefly.\n3. Mention **more spins** for fair tests."
+    },
+    "186": {
+      "hint": "Divide expected jackpots by 1200 plays.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(jackpot) = $\\frac{3.6}{1200} = 0.003$.\n2. Show division clearly."
+    },
+    "187": {
+      "hint": "Can you still win once if expected wins are below 1?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected 0.5 wins means average over many tries.\n2. One try can still win.\n3. Answer **false** if the claim says you cannot win."
+    },
+    "188": {
+      "hint": "Expected borrowers = 40% of 275 — compare to 120 books.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $0.4 \\times 275 = 110$.\n2. 120 is slightly above — reasonable buffer.\n3. Use expectation in your explanation."
+    },
+    "189": {
+      "hint": "Set $\\frac{n}{6} = 45$ for sixes on a fair dice.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected sixes = $\\frac{n}{6}$, so multiply 45 by 6 to find $n$.\n2. Check by computing $\\frac{n}{6}$ again.\n3. [Fair](mtlearn:word/fair) dice use P(6) = $\\frac{1}{6}$."
+    },
+    "190": {
+      "hint": "76% next-day means 0.76 × 350 orders.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $0.76 \\times 350$.\n2. Storms can delay more deliveries."
+    },
+    "191": {
+      "hint": "Shaded is 4 of 9 equal sections.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(shaded) = $\\frac{4}{9}$.\n2. Expected = $\\frac{4}{9} \\times 135$."
+    },
+    "192": {
+      "hint": "Same expectation, different random results — how?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Both pupils predict the same **average**.\n2. Each single experiment varies.\n3. One sentence on **shared model**, **different data**."
+    },
+    "193": {
+      "hint": "28% coupon use on 625 issued.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. 28% = $0.28$ as a [probability](mtlearn:word/probability).\n2. Expected uses = $0.28 \\times 625$.\n3. Marketing campaigns can change the real redemption rate later."
+    },
+    "194": {
+      "hint": "Total 6: multiply 540 by $\\frac{5}{36}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = $540 \\times \\frac{5}{36}$.\n2. Simplify before multiplying if you can."
+    },
+    "195": {
+      "hint": "If P rises but trials stay fixed, what happens to expectation?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expected = P × trials increases when P increases.\n2. Say **true** with that reason."
+    },
+    "196": {
+      "hint": "Set $n \\times \\frac{5}{250} = 0.4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Solve for $n$ using prizes and tickets.\n2. Check by plugging back."
+    },
+    "197": {
+      "hint": "P(tails) = 1/2; P(even on dice) = 1/2 — multiply.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(tails and even) = $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$.\n2. Expected = $\\frac{1}{4} \\times 240$."
+    },
+    "198": {
+      "hint": "Why plan drills using average success rate?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Expectation estimates how often a skill works **over many tries**.\n2. Each try still succeeds or fails.\n3. Coaches plan reps using averages."
+    },
+    "199": {
+      "hint": "Set $0.32 \\times n = 64$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. Divide 64 by 0.32 to find shots.\n2. Sports stats use this backwards step often."
+    },
+    "200": {
+      "hint": "Gift sections are 7 out of 20 equal parts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P2)\n\n1. P(gift) = $\\frac{7}{20}$.\n2. Expected gifts = $\\frac{7}{20} \\times 500$.\n3. Show fraction multiplication before answering."
+    }
   }
 }

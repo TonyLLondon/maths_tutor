@@ -54,6 +54,14 @@ export default async function MathsHomePage({ params }: Props) {
         <p className="mt-2 text-stone-600">
           Pick an area, then choose a topic. Or start with a shortcut below.
         </p>
+        <p className="mt-3">
+          <Link
+            href={`/t/${tenant}/subjects/maths/learn`}
+            className="text-sm font-medium text-violet-800 underline decoration-violet-300 underline-offset-2"
+          >
+            Guides and maths words
+          </Link>
+        </p>
 
         {starter.length > 0 ? (
           <section className="mt-10">

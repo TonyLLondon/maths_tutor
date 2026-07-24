@@ -22,7 +22,15 @@ const TOPICS = path.join(
   CONTENT_TENANT,
   "subjects/maths/topics",
 );
+const LEARN = path.join(
+  ROOT,
+  "content/tenants",
+  CONTENT_TENANT,
+  "subjects/maths/learn",
+);
 const SPINE = path.join(ROOT, "src/lib/topics/spine.json");
+
+const FORBIDDEN_HELP_PHRASE = "Picture what is happening";
 
 type Spine = { topics: { code: string; domain: string }[] };
 
@@ -58,6 +66,43 @@ function main() {
       errors.push(`missing support ${t.domain}/${t.code}.support.json`);
       continue;
     }
+    const learnGuidePath = path.join(
+      LEARN,
+      "topics",
+      t.domain,
+      `${t.code}.md`,
+    );
+    if (!fs.existsSync(learnGuidePath)) {
+      errors.push(`missing learn guide ${t.domain}/${t.code} (learn/topics/...)`);
+    }
+    const learnMetaPath = path.join(TOPICS, t.domain, `${t.code}.learn.json`);
+    if (fs.existsSync(learnMetaPath)) {
+      const meta = JSON.parse(fs.readFileSync(learnMetaPath, "utf8")) as {
+        version?: unknown;
+        glossaryTerms?: unknown;
+      };
+      if (meta.version !== 1) {
+        errors.push(`${t.domain}/${t.code}.learn.json: version must be 1`);
+      }
+      if (meta.glossaryTerms != null) {
+        if (!Array.isArray(meta.glossaryTerms)) {
+          errors.push(`${t.domain}/${t.code}.learn.json: glossaryTerms must be array`);
+        } else {
+          for (const slug of meta.glossaryTerms) {
+            if (typeof slug !== "string" || !/^[a-z0-9-]+$/.test(slug)) {
+              errors.push(`${t.domain}/${t.code}.learn.json: invalid slug ${slug}`);
+            } else if (
+              !fs.existsSync(path.join(LEARN, "glossary", `${slug}.md`))
+            ) {
+              errors.push(
+                `${t.domain}/${t.code}.learn.json: unknown glossary slug ${slug}`,
+              );
+            }
+          }
+        }
+      }
+    }
+    const topicLearnLink = `mtlearn:${t.domain}/${t.code}`;
     const support = JSON.parse(fs.readFileSync(supportPath, "utf8")) as {
       questions: Record<string, { hint?: string; help?: string }>;
     };
@@ -95,6 +140,22 @@ function main() {
         errors.push(
           `${t.domain}/${t.code} Q${id}: help article too short (min 60 chars)`,
         );
+      } else {
+        if (!sup.help.includes(topicLearnLink)) {
+          errors.push(
+            `${t.domain}/${t.code} Q${id}: help must link topic guide (${topicLearnLink})`,
+          );
+        }
+        if (sup.help.includes(FORBIDDEN_HELP_PHRASE)) {
+          errors.push(
+            `${t.domain}/${t.code} Q${id}: help uses forbidden filler phrase`,
+          );
+        }
+        if (sup.help.trim().length > 1400) {
+          errors.push(
+            `${t.domain}/${t.code} Q${id}: help too long (${sup.help.trim().length} chars, max 1400)`,
+          );
+        }
       }
     }
     for (const id of aSet) {
@@ -106,6 +167,9 @@ function main() {
       if (!qSet.has(id)) {
         errors.push(`${t.domain}/${t.code}: orphan support id ${id}`);
       }
+    }
+    if (!fs.existsSync(learnMetaPath)) {
+      errors.push(`missing ${t.domain}/${t.code}.learn.json (glossaryTerms for practice links)`);
     }
     const figuresPath = path.join(TOPICS, t.domain, `${t.code}.figures.json`);
     if (fs.existsSync(figuresPath)) {

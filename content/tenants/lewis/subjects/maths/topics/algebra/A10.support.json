@@ -3,335 +3,803 @@
   "questions": {
     "1": {
       "hint": "From $(0,0)$ to $(1,1)$, how much does $y$ increase?",
-      "help": "$y$ goes up **1** when $x$ goes 0 to 1.\n\nRise on the line.\n\nIncrease of 1."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: The points (0, 0) and (1, 1) make a line. How much does y go up?\n2. $y$ goes up **1** when $x$ goes 0 to 1.\n3. Rise on the line.\n4. Increase of 1."
     },
     "2": {
       "hint": "Compare $y$ at $x=0$ and $x=1$ for the second line.",
-      "help": "$y$ increases by **2** from 0 to 2.\n\nSteeper line.\n\nUp 2.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: The points (0, 0) and (1, 2) make a line. How much does y go up?\n2. $y$ increases by **2** from 0 to 2.\n3. Steeper line.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "3": {
       "hint": "$y=x$ with $x=2$.",
-      "help": "$y=2$.\n\nSame both coordinates.\n\nAnswer 2.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = x, find y when x = 2.\n2. Same both [coordinates](mtlearn:word/coordinates).\n3. Answer 2.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "4": {
       "hint": "Double $x=2$ in $y=2x$.",
-      "help": "$y=4$.\n\nMultiply by 2.\n\n$y=4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = 2x, find y when x = 2.\n2. Multiply by 2.\n3. Write each step in order so you can use the same method on a similar question later."
     },
     "5": {
       "hint": "Set $x=0$ in $y=x+1$.",
-      "help": "$y=1$.\n\n$y$-intercept when $x=0$.\n\nAnswer 1.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: In y = x + 1, find y when x = 0.\n2. $y$-intercept when $x=0$.\n3. Answer 1.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "6": {
       "hint": "Plug $x=0$ into $y=x+3$.",
-      "help": "$y=3$.\n\nWhere line crosses $y$-axis.\n\n$y=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: In y = x + 3, find y when x = 0.\n2. Where line crosses $y$-axis.\n3. Write each step in order so you can use the same method on a similar question later."
     },
     "7": {
       "hint": "Gradient is rise ÷ run: 2 up for 1 right.",
-      "help": "Gradient **2**.\n\nUp 2 per square right.\n\n$m=2$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A line goes up 2 squares for every 1 square right. What is its gradient?\n2. [Gradient](mtlearn:word/gradient) **2**.\n3. Up 2 per square right.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "8": {
       "hint": "Where the line crosses $y$-axis at $x=0$, $y$ is the intercept.",
-      "help": "**4** — starts at $(0,4)$.\n\n$c$ in $y=mx+c$.\n\nIntercept 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A line starts at y = 4 when x = 0. What is its y-intercept?\n2. *4** — starts at $(0,4)$.\n3. $c$ in $y=mx+c$.\n4. Intercept 4.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "9": {
       "hint": "Gradient = $(3-0)/(1-0)$.",
-      "help": "Gradient **3**.\n\nChange in $y$ over change in $x$.\n\n$m=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the gradient of the line joining (0, 0) and (1, 3).\n2. [Gradient](mtlearn:word/gradient) **3**.\n3. Change in $y$ over change in $x$.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "10": {
       "hint": "Use $(0,2)$ and $(1,5)$.",
-      "help": "$(5-2)/(1-0)=**3**$.\n\nSame method as Q9.\n\nGradient 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the gradient of the line joining (0, 2) and (1, 5).\n2. $(5-2)/(1-0)=**3**$.\n3. Same method as Q9.\n4. [Gradient](mtlearn:word/gradient) 3.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "11": {
       "hint": "Run is 2 from $x=0$ to $x=2$.",
-      "help": "$(8-0)/(2-0)=**4**$.\n\nDivide rise by run 2.\n\nGradient 4.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the gradient of the line joining (0, 0) and (2, 8).\n2. $(8-0)/(2-0)=**4**$.\n3. Divide rise by run 2.\n4. [Gradient](mtlearn:word/gradient) 4.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "12": {
       "hint": "Points $(1,2)$ and $(3,8)$ — run is 2.",
-      "help": "$(8-2)/(3-1)=**3**$.\n\nRise 6, run 2.\n\nGradient 3.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the gradient of the line joining (1, 2) and (3, 8).\n2. $(8-2)/(3-1)=**3**$.\n3. Rise 6, run 2.\n4. [Gradient](mtlearn:word/gradient) 3.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "13": {
       "hint": "In $y=3x+2$, the number multiplying $x$ is the gradient.",
-      "help": "Gradient **3**.\n\nCoefficient of $x$.\n\n$m=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = 3x + 2, what is the gradient?\n2. [Gradient](mtlearn:word/gradient) **3**.\n3. Coefficient of $x$.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "14": {
       "hint": "Constant term at the end is the $y$-intercept.",
-      "help": "**2** — crosses at $(0,2)$.\n\n+$2$ in equation.\n\nIntercept 2."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = 3x + 2, what is the y-intercept?\n2. *2** — crosses at $(0,2)$.\n3. +$2$ in [equation](mtlearn:word/equation).\n4. Intercept 2."
     },
     "15": {
       "hint": "Rewrite $5-2x$ as $-2x+5$ — gradient is the $x$ coefficient.",
-      "help": "Gradient **−2**.\n\nNegative slope downward.\n\n$m=-2$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = 5 - 2x, what is the gradient?\n2. [Gradient](mtlearn:word/gradient) **−2**.\n3. Negative slope downward.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "16": {
       "hint": "The standalone number in $y=5-2x$ is intercept.",
-      "help": "**5** at $(0,5)$.\n\nConstant term 5.\n\n$y$-intercept 5.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = 5 - 2x, what is the y-intercept?\n2. *5** at $(0,5)$.\n3. Constant term 5.\n4. $y$-intercept 5.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "17": {
       "hint": "Write $y = mx + c$ with $m=4$, $c=1$.",
-      "help": "Equation **$y = 4x + 1$**.\n\nGradient then intercept.\n\n$y=4x+1$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Write the equation of a line with gradient 4 and y-intercept 1.\n2. [Equation](mtlearn:word/equation) **$y = 4x + 1$**.\n3. [Gradient](mtlearn:word/gradient) then intercept.\n4. $y=4x+1$."
     },
     "18": {
       "hint": "$m=-2$, $c=6$.",
-      "help": "**$y = -2x + 6$**.\n\nNegative gradient formula.\n\nWrite full equation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Write the equation of a line with gradient -2 and y-intercept 6.\n2. *$y = -2x + 6$**.\n3. Negative [gradient](mtlearn:word/gradient) formula.\n4. Write full [equation](mtlearn:word/equation)."
     },
     "19": {
       "hint": "Use $y = 2x + 5$ at $x=3$.",
-      "help": "$y = 2(3)+5 = **11**$.\n\nSubstitute into line equation.\n\n$y=11$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A line has gradient 2 and passes through (0, 5). Find y when x = 3.\n2. $y = 2(3)+5 = **11**$.\n3. Substitute into line [equation](mtlearn:word/equation)."
     },
     "20": {
       "hint": "$y = -x + 4$ at $x=3$.",
-      "help": "$y = -3+4 = **1**$.\n\nGradient −1 means down one per right one.\n\n$y=1$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A line has gradient -1 and passes through (0, 4). Find y when x = 3.\n2. $y = -3+4 = **1**$.\n3. [Gradient](mtlearn:word/gradient) −1 means down one per right one."
     },
     "21": {
       "hint": "Coefficient of $x$ in $y=3x+2$.",
-      "help": "Gradient **3**.\n\nSame as Q13.\n\n$m=3$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: What is the gradient of y = 3x + 2?\n2. [Gradient](mtlearn:word/gradient) **3**.\n3. Same as Q13.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "22": {
       "hint": "Constant in $y=-x+5$.",
-      "help": "**5** — intercept.\n\n+$5$ when $x=0$.\n\nIntercept 5.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: What is the y-intercept of y = -x + 5?\n2. *5** — intercept.\n3. +$5$ when $x=0$.\n4. Intercept 5.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "23": {
       "hint": "Compute $(7-1)/(2-0)$ and confirm Priya's fraction.",
-      "help": "$\\dfrac{6}{2}=**3**$ — Priya correct.\n\nShow subtraction and division.\n\nGradient 3."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Priya finds the gradient of the line through (0, 1) and (2, 7) by calculating \\dfrac{7-1}{2-0}. Show her ca…\n2. $\\dfrac{6}{2}=**3**$ — Priya correct.\n3. Show subtraction and division.\n4. [Gradient](mtlearn:word/gradient) 3."
     },
     "24": {
       "hint": "Positive gradient means line goes up left to right.",
-      "help": "**Always** true for positive $m$.\n\nUpward slope.\n\nAnswer: always."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Always, sometimes, or never? A line with a positive gradient slopes upward from left to right.\n2. *Always** true for positive $m$.\n3. Upward slope.\n4. Answer: always."
     },
     "25": {
       "hint": "In $y=4-3x$, gradient is the coefficient of $x$, not 4.",
-      "help": "Rewrite $y=-3x+4$. Gradient **−3**, not 4.\n\n4 is intercept.\n\nCorrect $m=-3$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Sam says the gradient of y = 4 - 3x is 4, because 4 is the first number in the equation. Explain Sam's mist…\n2. Rewrite $y=-3x+4$. [Gradient](mtlearn:word/gradient) **−3**, not 4.\n3. 4 is intercept.\n4. Correct $m=-3$."
     },
     "26": {
       "hint": "Same gradient means same steepness — lines parallel.",
-      "help": "**Parallel** — never meet, offset vertically.\n\nSame $m$, different $c$.\n\nExplain parallel."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Two lines, y = 2x + 3 and y = 2x - 1, have the same gradient. Explain what this tells you about how the two…\n2. *Parallel** — never meet, offset vertically.\n3. Same $m$, different $c$.\n4. Explain parallel."
     },
     "27": {
       "hint": "Compare $|m|$ for steepness — sign is direction.",
-      "help": "Steepness uses **size** of gradient; $-5$ is steeper than $2$ in magnitude.\n\nStatement false if ignoring sign — clarify with examples.\n\nDiscuss positive vs negative."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? A steeper line always has a bigger gradient number, ignoring whether it is positive or negat…\n2. Steepness uses **size** of [gradient](mtlearn:word/gradient); $-5$ is steeper than $2$ in magnitude.\n3. Statement false if ignoring sign — clarify with examples.\n4. Discuss positive vs negative."
     },
     "28": {
       "hint": "Same $y$ means zero rise — horizontal line.",
-      "help": "A horizontal line has no vertical change, so its rise is 0 while its run is non-zero.\n\nGradient is $\\dfrac{\\text{rise}}{\\text{run}}$, so $\\dfrac{0}{\\text{run}}=0$.\n\nFor example, from $(1,4)$ to $(6,4)$ the gradient is $(4-4)/(6-1)=0/5=0$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Leo calculates the gradient between (1, 5) and (4, 5) and gets an error message on his calculator because h…\n2. A horizontal line has no vertical change, so its rise is 0 while its run is non-zero.\n3. [Gradient](mtlearn:word/gradient) is $\\dfrac{\\text{rise}}{\\text{run}}$, so $\\dfrac{0}{\\text{run}}=0$.\n4. For example, from $(1,4)$ to $(6,4)$ the [gradient](mtlearn:word/gradient) is $(4-4)/(6-1)=0/5=0$."
     },
     "29": {
       "hint": "Compare coefficients of $x$: 5 vs 1.",
-      "help": "**$y=5x+1$** steeper — gradient 5 beats 1.\n\nLarger $|m|$ steeper.\n\n5x line steeper."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Compare the lines y = 5x + 1 and y = x + 1. Which is steeper? Explain using the gradients.\n2. *$y=5x+1$** steeper — [gradient](mtlearn:word/gradient) 5 beats 1.\n3. Larger $|m|$ steeper.\n4. 5x line steeper."
     },
     "30": {
       "hint": "Keep the minus sign on 4 in $y=-4x+2$.",
-      "help": "Gradient **−4**, not +4.\n\nMo missed negative.\n\n$m=-4$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Mo says a line with equation y = -4x + 2 has a gradient of 4. Explain Mo's mistake and give the correct gra…\n2. [Gradient](mtlearn:word/gradient) **−4**, not +4.\n3. Mo missed negative.\n4. Write each step in order so you can use the same method on a similar question later."
     },
     "31": {
       "hint": "Write $y=2x+3$, substitute 6 miles.",
-      "help": "Equation **$y=2x+3$**. Fare $2(6)+3=**£15**$.\n\n£2 per mile + £3 fee.\n\n£15 for 6 miles."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A taxi fare line has gradient 2 (£ per mile) and y-intercept 3 (£ fixed fee). Write the equation of the lin…\n2. [Equation](mtlearn:word/equation) **$y=2x+3$**. Fare $2(6)+3=**£15**$.\n3. £2 per mile + £3 fee.\n4. £15 for 6 miles."
     },
     "32": {
       "hint": "$y=5x+20$; find at $x=10$ months.",
-      "help": "Balance $5(10)+20=**£70**$.\n\n£5 per month + £20 start.\n\n£70 after 10 months."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A savings account graph has gradient 5 (£ per month) and starts at £20. Write the equation, then find the b…\n2. Balance $5(10)+20=**£70**$.\n3. £5 per month + £20 start.\n4. £70 after 10 months."
     },
     "33": {
       "hint": "Starts at 0 distance, speed 15 km/h: $d=15t$.",
-      "help": "**$d=15t$** (km after $t$ hours).\n\nThrough origin, gradient 15.\n\nEquation $d=15t$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A cycling distance-time graph has gradient 15 (km per hour). Write the equation for distance d after t hour…\n2. *$d=15t$** (km after $t$ hours).\n3. Through origin, [gradient](mtlearn:word/gradient) 15.\n4. [Equation](mtlearn:word/equation) $d=15t$."
     },
     "34": {
       "hint": "$C=15+0.1u$; plug $u=200$.",
-      "help": "Cost $15+20=**£35**$.\n\nStanding charge + per unit.\n\n£35 for 200 units."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A gas bill graph has gradient 0.1 (£ per unit used) and a standing charge of £15. Write the equation for th…\n2. Cost $15+20=**£35**$.\n3. Standing charge + per unit.\n4. £35 for 200 units."
     },
     "35": {
       "hint": "Compare 0.05 vs 0.1 — bigger gradient costs more per text.",
-      "help": "Second plan gradient **0.1** > **0.05** — plan 2 gets expensive faster per text.\n\nSteeper cost line.\n\nCompare rates."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Two phone plans have equations y = 10 + 0.05x and y = 5 + 0.1x, where x is the number of texts. Compare the…\n2. Second plan [gradient](mtlearn:word/gradient) **0.1** > **0.05** — plan 2 gets expensive faster per text.\n3. Steeper cost line.\n4. Compare rates."
     },
     "36": {
       "hint": "$m=25$ is daily rate; $c=40$ is start fee.",
-      "help": "Gradient **25** = £ per day; intercept **40** = initial charge.\n\nCustomer pays £40 then £25 each day.\n\nExplain both."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A hire-car company charges according to y = 40 + 25d, where d is the number of days. State the gradient and…\n2. [Gradient](mtlearn:word/gradient) **25** = £ per day; intercept **40** = initial charge.\n3. Customer pays £40 then £25 each day.\n4. Explain both."
     },
     "37": {
       "hint": "Gradient $(11-1)/(3-(-2))$.",
-      "help": "$10/5=**2**$.\n\nWatch subtracting negatives.\n\nGradient 2.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the gradient of the line joining (-2, 1) and (3, 11).\n2. $10/5=**2**$.\n3. Watch subtracting negatives.\n4. [Gradient](mtlearn:word/gradient) 2.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "38": {
       "hint": "Same $m=3$, through $(0,4)$: $y=3x+4$.",
-      "help": "**$y=3x+4$**.\n\nParallel to $y=3x-5$.\n\nWrite equation.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A line passes through (0, 4) and has the same gradient as y = 3x - 5. Write the equation of this new line.\n2. *$y=3x+4$**.\n3. Parallel to $y=3x-5$.\n4. Write [equation](mtlearn:word/equation).\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "39": {
       "hint": "Line through $(2,7)$ with $m=3$ and with $m=-1$.",
-      "help": "$y-7=3(x-2)$ → $y=3x+1$. Other: $y=-x+9$ (examples).\n\nUse point-gradient form.\n\nTwo equations."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Two lines cross at (2, 7). One has gradient 3, the other has gradient -1. Find the equation of each line.\n2. $y-7=3(x-2)$ → $y=3x+1$. Other: $y=-x+9$ (examples).\n3. Use point-[gradient](mtlearn:word/gradient) form.\n4. Two [equations](mtlearn:word/equation)."
     },
     "40": {
       "hint": "Use $(4,20)$ and $(0,4)$ to find $m$.",
-      "help": "$m=(20-4)/4=**4**$. Equation **$y=4x+4$**.\n\nIntercept 4 confirmed.\n\n$m=4$, $y=4x+4$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A line has gradient m and passes through (0, c) and also through (4, 20), where c = 4. Find the gradient m,…\n2. $m=(20-4)/4=**4**$. [Equation](mtlearn:word/equation) **$y=4x+4$**.\n3. Intercept 4 confirmed.\n4. $m=4$, $y=4x+4$."
     },
     "41": {
       "hint": "$m=2$, $c=3$.",
-      "help": "**$y=2x+3$**.\n\nStandard form.\n\nWrite equation.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Write the equation of a line with gradient 2 and y-intercept 3.\n2. *$y=2x+3$**.\n3. Standard form.\n4. Write [equation](mtlearn:word/equation).\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "42": {
       "hint": "Gradient 4, through $(0,1)$.",
-      "help": "**$y=4x+1$**.\n\nIntercept 1.\n\n$y=4x+1$.\n\nWrite each step in order so you can use the same method on a similar question later."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A line has gradient 4 and passes through (0, 1). Write its equation.\n2. *$y=4x+1$**.\n3. Intercept 1.\n4. $y=4x+1$.\n5. Write each step in order so you can use the same method on a similar question later."
     },
     "43": {
       "hint": "Substitute the x-value into the equation.",
-      "help": "Linear equations $y = mx + c$ give a straight line.\n\nMultiply $x$ by the gradient, add the intercept.\n\nPlotting several points draws the graph."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = 1x + 2, find y when x = 0.\n2. Linear [equations](mtlearn:word/equation) $y = mx + c$ give a straight line.\n3. Multiply $x$ by the [gradient](mtlearn:word/gradient), add the intercept.\n4. Plotting several points draws the graph."
     },
     "44": {
       "hint": "Substitute the x-value into the equation.",
-      "help": "Linear equations $y = mx + c$ give a straight line.\n\nMultiply $x$ by the gradient, add the intercept.\n\nPlotting several points draws the graph."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = 2x + 3, find y when x = 1.\n2. Linear [equations](mtlearn:word/equation) $y = mx + c$ give a straight line.\n3. Multiply $x$ by the [gradient](mtlearn:word/gradient), add the intercept.\n4. Plotting several points draws the graph."
     },
-    "45": {"hint": "Find the gradient of the line through $(0, 2)$ and $(3, 8)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find the gradient of the line through $(0, 2)$ and $(3, 8)$...."},
-    "46": {"hint": "Find the gradient of the line through $(1, -1)$ and $(5, 7)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find the gradient of the line through $(1, -1)$ and $(5, 7)$...."},
-    "47": {"hint": "State the $y$-intercept of $y = 3x + 5$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: State the $y$-intercept of $y = 3x + 5$...."},
-    "48": {"hint": "State the gradient of $y = -2x + 9$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: State the gradient of $y = -2x + 9$...."},
-    "49": {"hint": "Write the equation of the line with gradient 4 and $y$-intercept $-1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write the equation of the line with gradient 4 and $y$-intercept $-1$...."},
-    "50": {"hint": "Write the equation of the line with gradient $-3$ and $y$-intercept 2.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write the equation of the line with gradient $-3$ and $y$-intercept 2...."},
-    "51": {"hint": "For $y = 5x - 7$, find the $x$-intercept.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = 5x - 7$, find the $x$-intercept...."},
-    "52": {"hint": "For $y = 0.5x + 4$, find the $y$-intercept.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: For $y = 0.5x + 4$, find the $y$-intercept...."},
-    "53": {"hint": "Which line is steeper: $y = 6x + 1$ or $y = 2x + 1$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which line is steeper: $y = 6x + 1$ or $y = 2x + 1$?..."},
-    "54": {"hint": "Which line starts higher on the $y$-axis: $y = x + 8$ or $y = 3x + 1$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which line starts higher on the $y$-axis: $y = x + 8$ or $y = 3x + 1$?..."},
-    "55": {"hint": "Find gradient from $(-2, 5)$ to $(4, -7)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find gradient from $(-2, 5)$ to $(4, -7)$...."},
-    "56": {"hint": "Line $L$ passes through $(0, 0)$ and $(5, 20)$. Write its equation.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Line $L$ passes through $(0, 0)$ and $(5, 20)$. Write its equation...."},
-    "57": {"hint": "Line $M$ has gradient $-1$ and passes through $(2, 5)$. Write its equation.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Line $M$ has gradient $-1$ and passes through $(2, 5)$. Write its equa..."},
-    "58": {"hint": "Find where $y = 2x + 6$ meets the $x$-axis.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find where $y = 2x + 6$ meets the $x$-axis...."},
-    "59": {"hint": "Find where $y = -4x + 12$ meets the $y$-axis.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find where $y = -4x + 12$ meets the $y$-axis...."},
-    "60": {"hint": "Rewrite $y = 8 - 3x$ in the form $y = mx + c$ and state $m$ and $c$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Rewrite $y = 8 - 3x$ in the form $y = mx + c$ and state $m$ and $c$...."},
-    "61": {"hint": "A roof line rises 3 cm for every 10 cm across. What is the gradient as a decimal?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A roof line rises 3 cm for every 10 cm across. What is the gradient as..."},
-    "62": {"hint": "A road climbs 120 m over 2 km (horizontal). Find gradient as a fraction in simplest form (rise/run in same units: 120 m over 2000 m).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A road climbs 120 m over 2 km (horizontal). Find gradient as a fractio..."},
-    "63": {"hint": "Does $(2, 11)$ lie on $y = 4x + 3$? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Does $(2, 11)$ lie on $y = 4x + 3$? **Yes or no.**..."},
-    "64": {"hint": "Find $k$ if $(k, 0)$ lies on $y = 2x - 10$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find $k$ if $(k, 0)$ lies on $y = 2x - 10$...."},
-    "65": {"hint": "Find $k$ if $(3, k)$ lies on $y = -x + 9$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find $k$ if $(3, k)$ lies on $y = -x + 9$...."},
-    "66": {"hint": "Write the equation parallel to $y = 5x + 2$ through $(0, -4)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write the equation parallel to $y = 5x + 2$ through $(0, -4)$...."},
-    "67": {"hint": "Write the equation parallel to $y = -x + 7$ through $(0, 3)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write the equation parallel to $y = -x + 7$ through $(0, 3)$...."},
-    "68": {"hint": "Are $y = 3x + 1$ and $y = 3x - 9$ parallel? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Are $y = 3x + 1$ and $y = 3x - 9$ parallel? **Yes or no.**..."},
-    "69": {"hint": "Find the gradient of a line parallel to $y = 7 - 2x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find the gradient of a line parallel to $y = 7 - 2x$...."},
-    "70": {"hint": "Line $A: y = 2x + 5$. Line $B: y = 2x - 1$. Find the vertical shift between them.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Line $A: y = 2x + 5$. Line $B: y = 2x - 1$. Find the vertical shift be..."},
-    "71": {"hint": "Convert $3y = 9x + 12$ to $y = mx + c$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Convert $3y = 9x + 12$ to $y = mx + c$...."},
-    "72": {"hint": "Find the equation through $(0, -6)$ with gradient $\\dfrac{3}{4}$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find the equation through $(0, -6)$ with gradient $\\dfrac{3}{4}$...."},
-    "73": {"hint": "Find the equation through $(4, 1)$ and $(8, 9)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find the equation through $(4, 1)$ and $(8, 9)$...."},
-    "74": {"hint": "State gradient and intercept of $y = 12 - 0.25x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: State gradient and intercept of $y = 12 - 0.25x$...."},
-    "75": {"hint": "Which has negative gradient: $y = 4x + 2$ or $y = 5 - x$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Which has negative gradient: $y = 4x + 2$ or $y = 5 - x$?..."},
-    "76": {"hint": "Find the midpoint of $(0, 4)$ and $(6, 10)$ and its gradient to $(0, 4)$ if the line is straight.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find the midpoint of $(0, 4)$ and $(6, 10)$ and its gradient to $(0, 4..."},
-    "77": {"hint": "A line has $x$-intercept 5 and $y$-intercept 10. Find the gradient.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A line has $x$-intercept 5 and $y$-intercept 10. Find the gradient...."},
-    "78": {"hint": "Find the equation with gradient 0 through $(-3, 4)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find the equation with gradient 0 through $(-3, 4)$...."},
-    "79": {"hint": "Find the equation of the vertical line through $(-2, 7)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find the equation of the vertical line through $(-2, 7)$...."},
-    "80": {"hint": "**True or false?** Gradient measures change in $y$ divided by change in $x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Gradient measures change in $y$ divided by change i..."},
-    "81": {"hint": "**Always, sometimes, or never?** A line with gradient 0 is horizontal.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** A line with gradient 0 is horizontal...."},
-    "82": {"hint": "**True or false?** The $y$-intercept is always where $x = 0$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** The $y$-intercept is always where $x = 0$...."},
-    "83": {"hint": "Leo says gradient 5 is less steep than gradient 2. Explain the mistake.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Leo says gradient 5 is less steep than gradient 2. Explain the mistake..."},
-    "84": {"hint": "**True or false?** $y = -3x + 4$ crosses the $y$-axis below the origin.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = -3x + 4$ crosses the $y$-axis below the origin..."},
-    "85": {"hint": "**Always, sometimes, or never?** Lines with the same $y$-intercept are parallel.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** Lines with the same $y$-intercept are..."},
-    "86": {"hint": "**True or false?** If gradient is negative, the line falls as $x$ increases.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** If gradient is negative, the line falls as $x$ incr..."},
-    "87": {"hint": "Nina writes gradient between $(2, 3)$ and $(2, 9)$ as $\\dfrac{6}{0}$. What should she conclude?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Nina writes gradient between $(2, 3)$ and $(2, 9)$ as $\\dfrac{6}{0}$. ..."},
-    "88": {"hint": "**True or false?** $y = mx + c$ and $y = mx - c$ have the same gradient.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = mx + c$ and $y = mx - c$ have the same gradien..."},
-    "89": {"hint": "**Always, sometimes, or never?** A line can have both intercepts at $(0, 0)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** A line can have both intercepts at $(..."},
-    "90": {"hint": "**True or false?** Doubling the gradient doubles the steepness for positive gradients.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Doubling the gradient doubles the steepness for pos..."},
-    "91": {"hint": "**True or false?** Parallel lines have equal gradients.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Parallel lines have equal gradients...."},
-    "92": {"hint": "**Always, sometimes, or never?** The $x$-intercept of $y = 2x + 4$ is negative.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** The $x$-intercept of $y = 2x + 4$ is ..."},
-    "93": {"hint": "Priya says $y = 3$ has gradient 3. Correct her.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Priya says $y = 3$ has gradient 3. Correct her...."},
-    "94": {"hint": "**True or false?** $y = x + c$ always has gradient 1.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = x + c$ always has gradient 1...."},
-    "95": {"hint": "**Always, sometimes, or never?** A vertical line has gradient 0.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** A vertical line has gradient 0...."},
-    "96": {"hint": "**True or false?** If $(0, b)$ is on a line, then $b$ is the $y$-intercept.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** If $(0, b)$ is on a line, then $b$ is the $y$-inter..."},
-    "97": {"hint": "**True or false?** $y = -2x - 5$ is steeper than $y = -x - 5$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** $y = -2x - 5$ is steeper than $y = -x - 5$...."},
-    "98": {"hint": "**Always, sometimes, or never?** Two points fix exactly one straight line.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** Two points fix exactly one straight l..."},
-    "99": {"hint": "**True or false?** Gradient $-\\dfrac{1}{2}$ means down 1 for every 2 right.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **True or false?** Gradient $-\\dfrac{1}{2}$ means down 1 for every 2 r..."},
-    "100": {"hint": "**Always, sometimes, or never?** $y = mx + c$ passes through $(0, c)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Always, sometimes, or never?** $y = mx + c$ passes through $(0, c)$...."},
-    "101": {"hint": "Taxi: £2 hire + £1.80 per km. Write $C = $ ___ in terms of km $d$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Taxi: £2 hire + £1.80 per km. Write $C = $ ___ in terms of km $d$...."},
-    "102": {"hint": "Using Q101, cost for 15 km?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Using Q101, cost for 15 km?..."},
-    "103": {"hint": "Savings start £80 and grow £15 per week. Write amount after $w$ weeks.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Savings start £80 and grow £15 per week. Write amount after $w$ weeks...."},
-    "104": {"hint": "Using Q103, amount after 12 weeks?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Using Q103, amount after 12 weeks?..."},
-    "105": {"hint": "A candle 40 cm long burns 2.5 cm/hour. Write height $h$ after $t$ hours.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A candle 40 cm long burns 2.5 cm/hour. Write height $h$ after $t$ hour..."},
-    "106": {"hint": "Using Q105, when is height 15 cm?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Using Q105, when is height 15 cm?..."},
-    "107": {"hint": "Phone battery: 100% at start, drops 8% per hour. Write percentage $P$ after $h$ hours (linear model).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Phone battery: 100% at start, drops 8% per hour. Write percentage $P$ ..."},
-    "108": {"hint": "Using Q107, when does model hit 20%?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Using Q107, when does model hit 20%?..."},
-    "109": {"hint": "Line through $(0, 50)$ and $(10, 200)$ models water level (litres vs minutes). Find gradient meaning.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Line through $(0, 50)$ and $(10, 200)$ models water level (litres vs m..."},
-    "110": {"hint": "Find equation for Q109.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find equation for Q109...."},
-    "111": {"hint": "Two plans: $y = 10 + 0.5x$ vs $y = 25 + 0.2x$ (cost vs minutes). After how many minutes is second cheaper?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Two plans: $y = 10 + 0.5x$ vs $y = 25 + 0.2x$ (cost vs minutes). After..."},
-    "112": {"hint": "Find intersection of $y = 3x + 2$ and $y = -x + 10$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find intersection of $y = 3x + 2$ and $y = -x + 10$...."},
-    "113": {"hint": "Find intersection of $y = 5x - 1$ and $y = 5x + 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find intersection of $y = 5x - 1$ and $y = 5x + 4$...."},
-    "114": {"hint": "Roof gradient 0.3 means what rise for 20 cm across?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Roof gradient 0.3 means what rise for 20 cm across?..."},
-    "115": {"hint": "A line loses 500 litres from a tank per hour; start 8000 L. Write volume $V$ after $h$ hours.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A line loses 500 litres from a tank per hour; start 8000 L. Write volu..."},
-    "116": {"hint": "Using Q115, when is volume 5000 L?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Using Q115, when is volume 5000 L?..."},
-    "117": {"hint": "Find equation through $(2, 1)$ parallel to $y = -4x + 9$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find equation through $(2, 1)$ parallel to $y = -4x + 9$...."},
-    "118": {"hint": "Find equation through $(-1, 6)$ with gradient $\\dfrac{1}{3}$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find equation through $(-1, 6)$ with gradient $\\dfrac{1}{3}$...."},
-    "119": {"hint": "Archer’s line of best fit is $y = 1.2x + 3.5$. Predict $y$ when $x = 10$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Archer’s line of best fit is $y = 1.2x + 3.5$. Predict $y$ when $x = 1..."},
-    "120": {"hint": "Find gradient between $(-3, 0)$ and $(5, 16)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find gradient between $(-3, 0)$ and $(5, 16)$...."},
-    "121": {"hint": "Write equation with $x$-intercept 6 and $y$-intercept 3.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Write equation with $x$-intercept 6 and $y$-intercept 3...."},
-    "122": {"hint": "Compare gradients of $y = 7x$ and $y = -7x$ — which is steeper by magnitude?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Compare gradients of $y = 7x$ and $y = -7x$ — which is steeper by magn..."},
-    "123": {"hint": "Find $c$ if gradient 2 line through $(4, c)$ and $(6, 10)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find $c$ if gradient 2 line through $(4, c)$ and $(6, 10)$...."},
-    "124": {"hint": "A bridge arch is modelled by $y = -0.1x^2 + 2x$ near the top only — state why gradient ideas still apply locally on a straight section (one sentence).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: A bridge arch is modelled by $y = -0.1x^2 + 2x$ near the top only — st..."},
-    "125": {"hint": "Find where $y = 0.75x - 3$ crosses axes.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Find where $y = 0.75x - 3$ crosses axes...."},
-    "126": {"hint": "Line through origin with gradient 2.5: write equation and find $y$ when $x = 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: Line through origin with gradient 2.5: write equation and find $y$ whe..."},
-    "127": {"hint": "**Stretch:** Find equation through $(1, 2)$ and $(4, -7)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation through $(1, 2)$ and $(4, -7)$...."},
-    "128": {"hint": "**Stretch:** Lines $y = 2x + k$ and $y = -x + 10$ meet at $(3, 7)$. Find $k$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Lines $y = 2x + k$ and $y = -x + 10$ meet at $(3, 7)$. Fi..."},
-    "129": {"hint": "**Stretch:** Find the gradient between $(a, 2a)$ and $(a + 2, 2a + 6)$ in terms of $a$ (should not depend on $a$).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the gradient between $(a, 2a)$ and $(a + 2, 2a + 6)$..."},
-    "130": {"hint": "**Stretch:** A line has gradient $-2$ and $x$-intercept 4. Write equation.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A line has gradient $-2$ and $x$-intercept 4. Write equat..."},
-    "131": {"hint": "**Stretch:** Find the point on $y = 3x - 8$ with $y = 13$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the point on $y = 3x - 8$ with $y = 13$...."},
-    "132": {"hint": "**Stretch:** Find the point on $y = -5x + 20$ with $x = 3$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the point on $y = -5x + 20$ with $x = 3$...."},
-    "133": {"hint": "**Stretch:** Write the equation of the line through $(5, 5)$ perpendicular to $y = \\dfrac{1}{2}x$ (gradient $-2$).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write the equation of the line through $(5, 5)$ perpendic..."},
-    "134": {"hint": "**Stretch:** Find where $y = 4x + 1$ and $y = -2x + 19$ meet.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find where $y = 4x + 1$ and $y = -2x + 19$ meet...."},
-    "135": {"hint": "**Stretch:** A line is parallel to $y = x - 4$ and passes through $(6, 1)$. Write equation.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A line is parallel to $y = x - 4$ and passes through $(6,..."},
-    "136": {"hint": "**Stretch:** Show gradient of $y = mx + c$ is $m$ by using points $(0, c)$ and $(1, m + c)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Show gradient of $y = mx + c$ is $m$ by using points $(0,..."},
-    "137": {"hint": "**Stretch:** Find $m$ if line through $(2, 5)$ and $(m, 11)$ has gradient 3.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $m$ if line through $(2, 5)$ and $(m, 11)$ has gradi..."},
-    "138": {"hint": "**Stretch:** Water depth $d = 4t + 7$. Find gradient and meaning.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Water depth $d = 4t + 7$. Find gradient and meaning...."},
-    "139": {"hint": "**Stretch:** Find equation with gradient $-0.4$ through $(5, 2)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation with gradient $-0.4$ through $(5, 2)$...."},
-    "140": {"hint": "**Stretch:** Two lines: $y = 6x + b$ and $y = 2x + 10$ have same $y$-intercept. Find $b$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Two lines: $y = 6x + b$ and $y = 2x + 10$ have same $y$-i..."},
-    "141": {"hint": "**Stretch:** Find the $x$-value where $y = 2x + 1$ equals $y = x + 9$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the $x$-value where $y = 2x + 1$ equals $y = x + 9$...."},
-    "142": {"hint": "**Stretch:** A line passes through $(0, -8)$ with gradient $\\dfrac{5}{2}$. Where does it cross the $x$-axis?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A line passes through $(0, -8)$ with gradient $\\dfrac{5}{..."},
-    "143": {"hint": "**Stretch:** Compare $y = -3x + 12$ and $y = -3x - 2$ — same steepness? **Yes or no.**", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare $y = -3x + 12$ and $y = -3x - 2$ — same steepness..."},
-    "144": {"hint": "**Stretch:** Find equation through $(-4, 0)$ and $(0, 6)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation through $(-4, 0)$ and $(0, 6)$...."},
-    "145": {"hint": "**Stretch:** If gradient is 0, describe the graph in words.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** If gradient is 0, describe the graph in words...."},
-    "146": {"hint": "**Stretch:** Find gradient of $y = 18 - 6x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find gradient of $y = 18 - 6x$...."},
-    "147": {"hint": "**Stretch:** Line $y = kx + 3$ passes through $(2, 11)$. Find $k$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Line $y = kx + 3$ passes through $(2, 11)$. Find $k$...."},
-    "148": {"hint": "**Stretch:** Find the distance moved along $x$ from $x$-intercept to $x = 10$ on $y = 2x - 10$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the distance moved along $x$ from $x$-intercept to $..."},
-    "149": {"hint": "**Stretch:** **Always, sometimes, or never?** A line with gradient $m > 0$ has positive $y$-intercept.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** A line with gradient $m ..."},
-    "150": {"hint": "**Stretch:** Write two different equations with gradient 5 but different intercepts.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write two different equations with gradient 5 but differe..."},
-    "151": {"hint": "**Stretch:** Find intersection of $y = \\dfrac{2}{3}x + 1$ and $y = -\\dfrac{1}{3}x + 7$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find intersection of $y = \\dfrac{2}{3}x + 1$ and $y = -\\d..."},
-    "152": {"hint": "**Stretch:** A savings line goes from $(0, 200)$ to $(8, 360)$. Find weekly gradient.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A savings line goes from $(0, 200)$ to $(8, 360)$. Find w..."},
-    "153": {"hint": "**Stretch:** Find equation through $(1, 4)$ with gradient equal to the gradient of $y = 8 - 2x$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation through $(1, 4)$ with gradient equal to the..."},
-    "154": {"hint": "**Stretch:** Solve $3x + 2 = 2x + 9$ — link to intersection of which two lines?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Solve $3x + 2 = 2x + 9$ — link to intersection of which t..."},
-    "155": {"hint": "**Stretch:** Find the $y$-coordinate where $x = -2$ on the line through $(0, 7)$ and $(4, 15)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the $y$-coordinate where $x = -2$ on the line throug..."},
-    "156": {"hint": "**Stretch:** A line has gradient $-1$ and passes through midpoint of $(0, 0)$ and $(6, 8)$. Write its equation.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A line has gradient $-1$ and passes through midpoint of $..."},
-    "157": {"hint": "**Stretch:** Find $x$ when $y = 0$ on $y = 1.4x - 7$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $x$ when $y = 0$ on $y = 1.4x - 7$...."},
-    "158": {"hint": "**Stretch:** **True or false?** Larger $|m|$ means steeper line.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Larger $|m|$ means steeper line...."},
-    "159": {"hint": "**Stretch:** Find equation of horizontal line through $(12, -5)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation of horizontal line through $(12, -5)$...."},
-    "160": {"hint": "**Stretch:** Find equation of vertical line through $(12, -5)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation of vertical line through $(12, -5)$...."},
-    "161": {"hint": "**Stretch:** Line $y = mx + 2$ is parallel to $y = 4x - 1$. Find $m$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Line $y = mx + 2$ is parallel to $y = 4x - 1$. Find $m$...."},
-    "162": {"hint": "**Stretch:** Find the gradient between $(2, -3)$ and $(2, 5)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the gradient between $(2, -3)$ and $(2, 5)$...."},
-    "163": {"hint": "**Stretch:** A hot drink cools $y = 90 - 5t$ °C after $t$ minutes. Find gradient and $t$ when $y = 40$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A hot drink cools $y = 90 - 5t$ °C after $t$ minutes. Fin..."},
-    "164": {"hint": "**Stretch:** Find where $y = 7x - 21$ meets the $x$-axis.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find where $y = 7x - 21$ meets the $x$-axis...."},
-    "165": {"hint": "**Stretch:** Write the equation with gradient $\\dfrac{1}{5}$ and intercept $-2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write the equation with gradient $\\dfrac{1}{5}$ and inter..."},
-    "166": {"hint": "**Stretch:** Find the intersection of $y = 0$ and $y = 3x + 6$ (use $y = 0$ as the $x$-axis idea).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the intersection of $y = 0$ and $y = 3x + 6$ (use $y..."},
-    "167": {"hint": "**Stretch:** Archer plots points on $y = 2x + c$ through $(3, 10)$. Find $c$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer plots points on $y = 2x + c$ through $(3, 10)$. Fi..."},
-    "168": {"hint": "**Stretch:** Find gradient of line perpendicular to $y = 4x$ (gradient $-\\dfrac{1}{4}$).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find gradient of line perpendicular to $y = 4x$ (gradient..."},
-    "169": {"hint": "**Stretch:** Two parallel lines $y = x + 1$ and $y = x + 9$. How far apart vertically at $x = 0$?", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Two parallel lines $y = x + 1$ and $y = x + 9$. How far a..."},
-    "170": {"hint": "**Stretch:** Find equation through $(5, -1)$ and $(5, 8)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation through $(5, -1)$ and $(5, 8)$...."},
-    "171": {"hint": "**Stretch:** Find equation through $(-2, 3)$ and $(4, 3)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation through $(-2, 3)$ and $(4, 3)$...."},
-    "172": {"hint": "**Stretch:** A line has $y = 2$ when $x = 0$ and $y = 6$ when $x = 4$. Write equation.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A line has $y = 2$ when $x = 0$ and $y = 6$ when $x = 4$...."},
-    "173": {"hint": "**Stretch:** Find $x$ if point $(x, 14)$ lies on $y = 2x + 4$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $x$ if point $(x, 14)$ lies on $y = 2x + 4$...."},
-    "174": {"hint": "**Stretch:** Find the gradient of $y = c - mx$ (in terms of $m$).", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the gradient of $y = c - mx$ (in terms of $m$)...."},
-    "175": {"hint": "**Stretch:** **Always, sometimes, or never?** Lines with gradients $2$ and $-2$ are equally steep.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Lines with gradients $2$..."},
-    "176": {"hint": "**Stretch:** Find where $y = 5x + 2$ meets $y = -3x + 18$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find where $y = 5x + 2$ meets $y = -3x + 18$...."},
-    "177": {"hint": "**Stretch:** A bike hire fee is £12 plus £4 per hour: write equation and gradient.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A bike hire fee is £12 plus £4 per hour: write equation a..."},
-    "178": {"hint": "**Stretch:** Find the $y$-intercept of the line through $(2, 9)$ and $(6, 17)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the $y$-intercept of the line through $(2, 9)$ and $..."},
-    "179": {"hint": "**Stretch:** Show $(0, c)$ and $(1, c + m)$ lie on $y = mx + c$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Show $(0, c)$ and $(1, c + m)$ lie on $y = mx + c$...."},
-    "180": {"hint": "**Stretch:** Find equation with gradient $-3$ through $(1, -2)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation with gradient $-3$ through $(1, -2)$...."},
-    "181": {"hint": "**Stretch:** Line $y = ax + 6$ passes through $(4, 14)$. Find $a$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Line $y = ax + 6$ passes through $(4, 14)$. Find $a$...."},
-    "182": {"hint": "**Stretch:** Find the $x$-intercept of $y = 0.6x - 15$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the $x$-intercept of $y = 0.6x - 15$...."},
-    "183": {"hint": "**Stretch:** **True or false?** $y$-intercept can be negative.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** $y$-intercept can be negative...."},
-    "184": {"hint": "**Stretch:** Find gradient between $(-5, -1)$ and $(1, 11)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find gradient between $(-5, -1)$ and $(1, 11)$...."},
-    "185": {"hint": "**Stretch:** Write the steeper of $y = -8x + 1$ and $y = -2x + 1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Write the steeper of $y = -8x + 1$ and $y = -2x + 1$...."},
-    "186": {"hint": "**Stretch:** Find intersection of $y = x$ and $y = 3x - 8$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find intersection of $y = x$ and $y = 3x - 8$...."},
-    "187": {"hint": "**Stretch:** A line model $P = 12n - 30$ (profit vs items). Find gradient and break-even $n$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A line model $P = 12n - 30$ (profit vs items). Find gradi..."},
-    "188": {"hint": "**Stretch:** Find equation through $(0, 0)$ with gradient $-\\dfrac{3}{2}$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation through $(0, 0)$ with gradient $-\\dfrac{3}{..."},
-    "189": {"hint": "**Stretch:** Find the point on $y = 5x - 3$ where $x = -2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the point on $y = 5x - 3$ where $x = -2$...."},
-    "190": {"hint": "**Stretch:** Compare intercepts of $y = 2x + 7$ and $y = 2x - 7$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Compare intercepts of $y = 2x + 7$ and $y = 2x - 7$...."},
-    "191": {"hint": "**Stretch:** Find $b$ if $(b, 4)$ and $(b + 2, 10)$ lie on a line with gradient 3.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $b$ if $(b, 4)$ and $(b + 2, 10)$ lie on a line with..."},
-    "192": {"hint": "**Stretch:** **Always, sometimes, or never?** Gradient between two points is unchanged if you swap the points.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **Always, sometimes, or never?** Gradient between two poi..."},
-    "193": {"hint": "**Stretch:** Find equation of line with $x$-intercept $-3$ and gradient 2.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find equation of line with $x$-intercept $-3$ and gradien..."},
-    "194": {"hint": "**Stretch:** Find where $y = 4x + 5$ meets $y = 4x - 2$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find where $y = 4x + 5$ meets $y = 4x - 2$...."},
-    "195": {"hint": "**Stretch:** A ramp rises 0.8 m over 4 m. State gradient.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** A ramp rises 0.8 m over 4 m. State gradient...."},
-    "196": {"hint": "**Stretch:** Find the equation through $(7, 2)$ parallel to $y = -0.5x + 1$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the equation through $(7, 2)$ parallel to $y = -0.5x..."},
-    "197": {"hint": "**Stretch:** Find $y$ when $x = 5$ on line with gradient 2 through $(1, 3)$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find $y$ when $x = 5$ on line with gradient 2 through $(1..."},
-    "198": {"hint": "**Stretch:** **True or false?** Every non-vertical line can be written $y = mx + c$.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** **True or false?** Every non-vertical line can be written..."},
-    "199": {"hint": "**Stretch:** Find the midpoint of $(2, 6)$ and $(10, 14)$ and gradient from $(2, 6)$ to midpoint.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Find the midpoint of $(2, 6)$ and $(10, 14)$ and gradient..."},
-    "200": {"hint": "**Stretch:** Archer models a path by $y = 1.5x + 20$ (height vs horizontal metres). Find height at $x = 12$ and gradient meaning.", "help": "Think about what the graph or formula tells you.\n\nUse a **different** example with new numbers to practise the same idea.\n\nThen answer: **Stretch:** Archer models a path by $y = 1.5x + 20$ (height vs horizo..."}
+    "45": {
+      "hint": "Find the gradient of the line through $(0, 2)$ and $(3, 8)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the gradient of the line through (0, 2) and (3, 8).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find the [gradient](mtlearn:word/gradient) of the line through $(0, 2)$ and $(3, 8)$...."
+    },
+    "46": {
+      "hint": "Find the gradient of the line through $(1, -1)$ and $(5, 7)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the gradient of the line through (1, -1) and (5, 7).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find the [gradient](mtlearn:word/gradient) of the line through $(1, -1)$ and $(5, 7)$...."
+    },
+    "47": {
+      "hint": "State the $y$-intercept of $y = 3x + 5$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: State the y-intercept of y = 3x + 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: State the $y$-intercept of $y = 3x + 5$...."
+    },
+    "48": {
+      "hint": "State the gradient of $y = -2x + 9$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: State the gradient of y = -2x + 9.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: State the [gradient](mtlearn:word/gradient) of $y = -2x + 9$...."
+    },
+    "49": {
+      "hint": "Write the equation of the line with gradient 4 and $y$-intercept $-1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Write the equation of the line with gradient 4 and y-intercept -1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write the [equation](mtlearn:word/equation) of the line with [gradient](mtlearn:word/gradient) 4 and $y$-intercept $-1$...."
+    },
+    "50": {
+      "hint": "Write the equation of the line with gradient $-3$ and $y$-intercept 2.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Write the equation of the line with gradient -3 and y-intercept 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write the [equation](mtlearn:word/equation) of the line with [gradient](mtlearn:word/gradient) $-3$ and $y$-intercept 2...."
+    },
+    "51": {
+      "hint": "For $y = 5x - 7$, find the $x$-intercept.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = 5x - 7, find the x-intercept.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = 5x - 7$, find the $x$-intercept...."
+    },
+    "52": {
+      "hint": "For $y = 0.5x + 4$, find the $y$-intercept.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: For y = 0.5x + 4, find the y-intercept.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: For $y = 0.5x + 4$, find the $y$-intercept...."
+    },
+    "53": {
+      "hint": "Which line is steeper: $y = 6x + 1$ or $y = 2x + 1$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Which line is steeper: y = 6x + 1 or y = 2x + 1?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which line is steeper: $y = 6x + 1$ or $y = 2x + 1$?..."
+    },
+    "54": {
+      "hint": "Which line starts higher on the $y$-axis: $y = x + 8$ or $y = 3x + 1$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Which line starts higher on the y-axis: y = x + 8 or y = 3x + 1?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which line starts higher on the $y$-axis: $y = x + 8$ or $y = 3x + 1$?..."
+    },
+    "55": {
+      "hint": "Find gradient from $(-2, 5)$ to $(4, -7)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find gradient from (-2, 5) to (4, -7).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find [gradient](mtlearn:word/gradient) from $(-2, 5)$ to $(4, -7)$...."
+    },
+    "56": {
+      "hint": "Line $L$ passes through $(0, 0)$ and $(5, 20)$. Write its equation.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Line L passes through (0, 0) and (5, 20). Write its equation.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Line $L$ passes through $(0, 0)$ and $(5, 20)$. Write its [equation](mtlearn:word/equation)...."
+    },
+    "57": {
+      "hint": "Line $M$ has gradient $-1$ and passes through $(2, 5)$. Write its equation.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Line M has gradient -1 and passes through (2, 5). Write its equation.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Line $M$ has [gradient](mtlearn:word/gradient) $-1$ and passes through $(2, 5)$. Write its equa..."
+    },
+    "58": {
+      "hint": "Find where $y = 2x + 6$ meets the $x$-axis.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find where y = 2x + 6 meets the x-axis.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find where $y = 2x + 6$ meets the $x$-axis...."
+    },
+    "59": {
+      "hint": "Find where $y = -4x + 12$ meets the $y$-axis.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find where y = -4x + 12 meets the y-axis.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find where $y = -4x + 12$ meets the $y$-axis...."
+    },
+    "60": {
+      "hint": "Rewrite $y = 8 - 3x$ in the form $y = mx + c$ and state $m$ and $c$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Rewrite y = 8 - 3x in the form y = mx + c and state m and c.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Rewrite $y = 8 - 3x$ in the form $y = mx + c$ and state $m$ and $c$...."
+    },
+    "61": {
+      "hint": "A roof line rises 3 cm for every 10 cm across. What is the gradient as a decimal?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A roof line rises 3 cm for every 10 cm across. What is the gradient as a decimal?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A roof line rises 3 cm for every 10 cm across. What is the [gradient](mtlearn:word/gradient) as..."
+    },
+    "62": {
+      "hint": "A road climbs 120 m over 2 km (horizontal). Find gradient as a fraction in simplest form (rise/run in same units: 120 m over 2000 m).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A road climbs 120 m over 2 km (horizontal). Find gradient as a fraction in simplest form (rise/run in same …\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A road climbs 120 m over 2 km (horizontal). Find [gradient](mtlearn:word/gradient) as a fractio..."
+    },
+    "63": {
+      "hint": "Does $(2, 11)$ lie on $y = 4x + 3$? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Does (2, 11) lie on y = 4x + 3? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Does $(2, 11)$ lie on $y = 4x + 3$? **Yes or no.**..."
+    },
+    "64": {
+      "hint": "Find $k$ if $(k, 0)$ lies on $y = 2x - 10$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find k if (k, 0) lies on y = 2x - 10.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find $k$ if $(k, 0)$ lies on $y = 2x - 10$...."
+    },
+    "65": {
+      "hint": "Find $k$ if $(3, k)$ lies on $y = -x + 9$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find k if (3, k) lies on y = -x + 9.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find $k$ if $(3, k)$ lies on $y = -x + 9$...."
+    },
+    "66": {
+      "hint": "Write the equation parallel to $y = 5x + 2$ through $(0, -4)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Write the equation parallel to y = 5x + 2 through (0, -4).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write the [equation](mtlearn:word/equation) parallel to $y = 5x + 2$ through $(0, -4)$...."
+    },
+    "67": {
+      "hint": "Write the equation parallel to $y = -x + 7$ through $(0, 3)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Write the equation parallel to y = -x + 7 through (0, 3).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write the [equation](mtlearn:word/equation) parallel to $y = -x + 7$ through $(0, 3)$...."
+    },
+    "68": {
+      "hint": "Are $y = 3x + 1$ and $y = 3x - 9$ parallel? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Are y = 3x + 1 and y = 3x - 9 parallel? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Are $y = 3x + 1$ and $y = 3x - 9$ parallel? **Yes or no.**..."
+    },
+    "69": {
+      "hint": "Find the gradient of a line parallel to $y = 7 - 2x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the gradient of a line parallel to y = 7 - 2x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find the [gradient](mtlearn:word/gradient) of a line parallel to $y = 7 - 2x$...."
+    },
+    "70": {
+      "hint": "Line $A: y = 2x + 5$. Line $B: y = 2x - 1$. Find the vertical shift between them.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Line A: y = 2x + 5. Line B: y = 2x - 1. Find the vertical shift between them.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Line $A: y = 2x + 5$. Line $B: y = 2x - 1$. Find the vertical shift be..."
+    },
+    "71": {
+      "hint": "Convert $3y = 9x + 12$ to $y = mx + c$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Convert 3y = 9x + 12 to y = mx + c.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Convert $3y = 9x + 12$ to $y = mx + c$...."
+    },
+    "72": {
+      "hint": "Find the equation through $(0, -6)$ with gradient $\\dfrac{3}{4}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the equation through (0, -6) with gradient \\dfrac{3}{4}.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find the [equation](mtlearn:word/equation) through $(0, -6)$ with [gradient](mtlearn:word/gradient) $\\dfrac{3}{4}$...."
+    },
+    "73": {
+      "hint": "Find the equation through $(4, 1)$ and $(8, 9)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the equation through (4, 1) and (8, 9).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find the [equation](mtlearn:word/equation) through $(4, 1)$ and $(8, 9)$...."
+    },
+    "74": {
+      "hint": "State gradient and intercept of $y = 12 - 0.25x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: State gradient and intercept of y = 12 - 0.25x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: State [gradient](mtlearn:word/gradient) and intercept of $y = 12 - 0.25x$...."
+    },
+    "75": {
+      "hint": "Which has negative gradient: $y = 4x + 2$ or $y = 5 - x$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Which has negative gradient: y = 4x + 2 or y = 5 - x?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Which has negative [gradient](mtlearn:word/gradient): $y = 4x + 2$ or $y = 5 - x$?..."
+    },
+    "76": {
+      "hint": "Find the midpoint of $(0, 4)$ and $(6, 10)$ and its gradient to $(0, 4)$ if the line is straight.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the midpoint of (0, 4) and (6, 10) and its gradient to (0, 4) if the line is straight.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find the midpoint of $(0, 4)$ and $(6, 10)$ and its [gradient](mtlearn:word/gradient) to $(0, 4..."
+    },
+    "77": {
+      "hint": "A line has $x$-intercept 5 and $y$-intercept 10. Find the gradient.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A line has x-intercept 5 and y-intercept 10. Find the gradient.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A line has $x$-intercept 5 and $y$-intercept 10. Find the [gradient](mtlearn:word/gradient)...."
+    },
+    "78": {
+      "hint": "Find the equation with gradient 0 through $(-3, 4)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the equation with gradient 0 through (-3, 4).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find the [equation](mtlearn:word/equation) with [gradient](mtlearn:word/gradient) 0 through $(-3, 4)$...."
+    },
+    "79": {
+      "hint": "Find the equation of the vertical line through $(-2, 7)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find the equation of the vertical line through (-2, 7).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find the [equation](mtlearn:word/equation) of the vertical line through $(-2, 7)$...."
+    },
+    "80": {
+      "hint": "**True or false?** Gradient measures change in $y$ divided by change in $x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? Gradient measures change in y divided by change in x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** [Gradient](mtlearn:word/gradient) measures change in $y$ divided by change i..."
+    },
+    "81": {
+      "hint": "**Always, sometimes, or never?** A line with gradient 0 is horizontal.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Always, sometimes, or never? A line with gradient 0 is horizontal.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** A line with [gradient](mtlearn:word/gradient) 0 is horizontal...."
+    },
+    "82": {
+      "hint": "**True or false?** The $y$-intercept is always where $x = 0$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? The y-intercept is always where x = 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** The $y$-intercept is always where $x = 0$...."
+    },
+    "83": {
+      "hint": "Leo says gradient 5 is less steep than gradient 2. Explain the mistake.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Leo says gradient 5 is less steep than gradient 2. Explain the mistake.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Leo says [gradient](mtlearn:word/gradient) 5 is less steep than [gradient](mtlearn:word/gradient) 2. Explain the mistake..."
+    },
+    "84": {
+      "hint": "**True or false?** $y = -3x + 4$ crosses the $y$-axis below the origin.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? y = -3x + 4 crosses the y-axis below the origin.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = -3x + 4$ crosses the $y$-axis below the origin..."
+    },
+    "85": {
+      "hint": "**Always, sometimes, or never?** Lines with the same $y$-intercept are parallel.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Always, sometimes, or never? Lines with the same y-intercept are parallel.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** Lines with the same $y$-intercept are..."
+    },
+    "86": {
+      "hint": "**True or false?** If gradient is negative, the line falls as $x$ increases.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? If gradient is negative, the line falls as x increases.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** If [gradient](mtlearn:word/gradient) is negative, the line falls as $x$ incr..."
+    },
+    "87": {
+      "hint": "Nina writes gradient between $(2, 3)$ and $(2, 9)$ as $\\dfrac{6}{0}$. What should she conclude?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Nina writes gradient between (2, 3) and (2, 9) as \\dfrac{6}{0}. What should she conclude?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Nina writes [gradient](mtlearn:word/gradient) between $(2, 3)$ and $(2, 9)$ as $\\dfrac{6}{0}$. ..."
+    },
+    "88": {
+      "hint": "**True or false?** $y = mx + c$ and $y = mx - c$ have the same gradient.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? y = mx + c and y = mx - c have the same gradient.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = mx + c$ and $y = mx - c$ have the same gradien..."
+    },
+    "89": {
+      "hint": "**Always, sometimes, or never?** A line can have both intercepts at $(0, 0)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Always, sometimes, or never? A line can have both intercepts at (0, 0).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** A line can have both intercepts at $(..."
+    },
+    "90": {
+      "hint": "**True or false?** Doubling the gradient doubles the steepness for positive gradients.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? Doubling the gradient doubles the steepness for positive gradients.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** Doubling the [gradient](mtlearn:word/gradient) doubles the steepness for pos..."
+    },
+    "91": {
+      "hint": "**True or false?** Parallel lines have equal gradients.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? Parallel lines have equal gradients.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** Parallel lines have equal [gradients](mtlearn:word/gradient)...."
+    },
+    "92": {
+      "hint": "**Always, sometimes, or never?** The $x$-intercept of $y = 2x + 4$ is negative.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Always, sometimes, or never? The x-intercept of y = 2x + 4 is negative.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** The $x$-intercept of $y = 2x + 4$ is ..."
+    },
+    "93": {
+      "hint": "Priya says $y = 3$ has gradient 3. Correct her.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Priya says y = 3 has gradient 3. Correct her.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Priya says $y = 3$ has [gradient](mtlearn:word/gradient) 3. Correct her...."
+    },
+    "94": {
+      "hint": "**True or false?** $y = x + c$ always has gradient 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? y = x + c always has gradient 1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = x + c$ always has [gradient](mtlearn:word/gradient) 1...."
+    },
+    "95": {
+      "hint": "**Always, sometimes, or never?** A vertical line has gradient 0.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Always, sometimes, or never? A vertical line has gradient 0.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** A vertical line has [gradient](mtlearn:word/gradient) 0...."
+    },
+    "96": {
+      "hint": "**True or false?** If $(0, b)$ is on a line, then $b$ is the $y$-intercept.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? If (0, b) is on a line, then b is the y-intercept.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** If $(0, b)$ is on a line, then $b$ is the $y$-inter..."
+    },
+    "97": {
+      "hint": "**True or false?** $y = -2x - 5$ is steeper than $y = -x - 5$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? y = -2x - 5 is steeper than y = -x - 5.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** $y = -2x - 5$ is steeper than $y = -x - 5$...."
+    },
+    "98": {
+      "hint": "**Always, sometimes, or never?** Two points fix exactly one straight line.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Always, sometimes, or never? Two points fix exactly one straight line.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** Two points fix exactly one straight l..."
+    },
+    "99": {
+      "hint": "**True or false?** Gradient $-\\dfrac{1}{2}$ means down 1 for every 2 right.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: True or false? Gradient -\\dfrac{1}{2} means down 1 for every 2 right.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **True or false?** [Gradient](mtlearn:word/gradient) $-\\dfrac{1}{2}$ means down 1 for every 2 r..."
+    },
+    "100": {
+      "hint": "**Always, sometimes, or never?** $y = mx + c$ passes through $(0, c)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Always, sometimes, or never? y = mx + c passes through (0, c).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Always, sometimes, or never?** $y = mx + c$ passes through $(0, c)$...."
+    },
+    "101": {
+      "hint": "Taxi: £2 hire + £1.80 per km. Write $C = $ ___ in terms of km $d$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Taxi: £2 hire + £1.80 per km. Write C = ___ in terms of km d.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Taxi: £2 hire + £1.80 per km. Write $C = $ ___ in terms of km $d$...."
+    },
+    "102": {
+      "hint": "Using Q101, cost for 15 km?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Using Q101, cost for 15 km?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Using Q101, cost for 15 km?..."
+    },
+    "103": {
+      "hint": "Savings start £80 and grow £15 per week. Write amount after $w$ weeks.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Savings start £80 and grow £15 per week. Write amount after w weeks.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Savings start £80 and grow £15 per week. Write amount after $w$ weeks...."
+    },
+    "104": {
+      "hint": "Using Q103, amount after 12 weeks?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Using Q103, amount after 12 weeks?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Using Q103, amount after 12 weeks?..."
+    },
+    "105": {
+      "hint": "A candle 40 cm long burns 2.5 cm/hour. Write height $h$ after $t$ hours.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A candle 40 cm long burns 2.5 cm/hour. Write height h after t hours.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A candle 40 cm long burns 2.5 cm/hour. Write height $h$ after $t$ hour..."
+    },
+    "106": {
+      "hint": "Using Q105, when is height 15 cm?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Using Q105, when is height 15 cm?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Using Q105, when is height 15 cm?..."
+    },
+    "107": {
+      "hint": "Phone battery: 100% at start, drops 8% per hour. Write percentage $P$ after $h$ hours (linear model).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Phone battery: 100% at start, drops 8% per hour. Write percentage P after h hours (linear model).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Phone battery: 100% at start, drops 8% per hour. Write percentage $P$ ..."
+    },
+    "108": {
+      "hint": "Using Q107, when does model hit 20%?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Using Q107, when does model hit 20%?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Using Q107, when does model hit 20%?..."
+    },
+    "109": {
+      "hint": "Line through $(0, 50)$ and $(10, 200)$ models water level (litres vs minutes). Find gradient meaning.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Line through (0, 50) and (10, 200) models water level (litres vs minutes). Find gradient meaning.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Line through $(0, 50)$ and $(10, 200)$ models water level (litres vs m..."
+    },
+    "110": {
+      "hint": "Find equation for Q109.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find equation for Q109.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find [equation](mtlearn:word/equation) for Q109...."
+    },
+    "111": {
+      "hint": "Two plans: $y = 10 + 0.5x$ vs $y = 25 + 0.2x$ (cost vs minutes). After how many minutes is second cheaper?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Two plans: y = 10 + 0.5x vs y = 25 + 0.2x (cost vs minutes). After how many minutes is second cheaper?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Two plans: $y = 10 + 0.5x$ vs $y = 25 + 0.2x$ (cost vs minutes). After..."
+    },
+    "112": {
+      "hint": "Find intersection of $y = 3x + 2$ and $y = -x + 10$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find intersection of y = 3x + 2 and y = -x + 10.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find intersection of $y = 3x + 2$ and $y = -x + 10$...."
+    },
+    "113": {
+      "hint": "Find intersection of $y = 5x - 1$ and $y = 5x + 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find intersection of y = 5x - 1 and y = 5x + 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find intersection of $y = 5x - 1$ and $y = 5x + 4$...."
+    },
+    "114": {
+      "hint": "Roof gradient 0.3 means what rise for 20 cm across?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Roof gradient 0.3 means what rise for 20 cm across?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Roof [gradient](mtlearn:word/gradient) 0.3 means what rise for 20 cm across?..."
+    },
+    "115": {
+      "hint": "A line loses 500 litres from a tank per hour; start 8000 L. Write volume $V$ after $h$ hours.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A line loses 500 litres from a tank per hour; start 8000 L. Write volume V after h hours.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A line loses 500 litres from a tank per hour; start 8000 L. Write volu..."
+    },
+    "116": {
+      "hint": "Using Q115, when is volume 5000 L?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Using Q115, when is volume 5000 L?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Using Q115, when is volume 5000 L?..."
+    },
+    "117": {
+      "hint": "Find equation through $(2, 1)$ parallel to $y = -4x + 9$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find equation through (2, 1) parallel to y = -4x + 9.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find [equation](mtlearn:word/equation) through $(2, 1)$ parallel to $y = -4x + 9$...."
+    },
+    "118": {
+      "hint": "Find equation through $(-1, 6)$ with gradient $\\dfrac{1}{3}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find equation through (-1, 6) with gradient \\dfrac{1}{3}.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find [equation](mtlearn:word/equation) through $(-1, 6)$ with [gradient](mtlearn:word/gradient) $\\dfrac{1}{3}$...."
+    },
+    "119": {
+      "hint": "Archer’s line of best fit is $y = 1.2x + 3.5$. Predict $y$ when $x = 10$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Archer’s line of best fit is y = 1.2x + 3.5. Predict y when x = 10.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Archer’s line of best fit is $y = 1.2x + 3.5$. Predict $y$ when $x = 1..."
+    },
+    "120": {
+      "hint": "Find gradient between $(-3, 0)$ and $(5, 16)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find gradient between (-3, 0) and (5, 16).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find [gradient](mtlearn:word/gradient) between $(-3, 0)$ and $(5, 16)$...."
+    },
+    "121": {
+      "hint": "Write equation with $x$-intercept 6 and $y$-intercept 3.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Write equation with x-intercept 6 and y-intercept 3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Write [equation](mtlearn:word/equation) with $x$-intercept 6 and $y$-intercept 3...."
+    },
+    "122": {
+      "hint": "Compare gradients of $y = 7x$ and $y = -7x$ — which is steeper by magnitude?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Compare gradients of y = 7x and y = -7x — which is steeper by magnitude?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Compare [gradients](mtlearn:word/gradient) of $y = 7x$ and $y = -7x$ — which is steeper by magn..."
+    },
+    "123": {
+      "hint": "Find $c$ if gradient 2 line through $(4, c)$ and $(6, 10)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find c if gradient 2 line through (4, c) and (6, 10).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find $c$ if [gradient](mtlearn:word/gradient) 2 line through $(4, c)$ and $(6, 10)$...."
+    },
+    "124": {
+      "hint": "A bridge arch is modelled by $y = -0.1x^2 + 2x$ near the top only — state why gradient ideas still apply locally on a straight section (one sentence).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: A bridge arch is modelled by y = -0.1x^2 + 2x near the top only — state why gradient ideas still apply loca…\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: A bridge arch is modelled by $y = -0.1x^2 + 2x$ near the top only — st..."
+    },
+    "125": {
+      "hint": "Find where $y = 0.75x - 3$ crosses axes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Find where y = 0.75x - 3 crosses axes.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Find where $y = 0.75x - 3$ crosses axes...."
+    },
+    "126": {
+      "hint": "Line through origin with gradient 2.5: write equation and find $y$ when $x = 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Line through origin with gradient 2.5: write equation and find y when x = 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: Line through origin with [gradient](mtlearn:word/gradient) 2.5: write [equation](mtlearn:word/equation) and find $y$ whe..."
+    },
+    "127": {
+      "hint": "**Stretch:** Find equation through $(1, 2)$ and $(4, -7)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation through (1, 2) and (4, -7).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) through $(1, 2)$ and $(4, -7)$...."
+    },
+    "128": {
+      "hint": "**Stretch:** Lines $y = 2x + k$ and $y = -x + 10$ meet at $(3, 7)$. Find $k$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Lines y = 2x + k and y = -x + 10 meet at (3, 7). Find k.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Lines $y = 2x + k$ and $y = -x + 10$ meet at $(3, 7)$. Fi..."
+    },
+    "129": {
+      "hint": "**Stretch:** Find the gradient between $(a, 2a)$ and $(a + 2, 2a + 6)$ in terms of $a$ (should not depend on $a$).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the gradient between (a, 2a) and (a + 2, 2a + 6) in terms of a (should not depend on a).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the [gradient](mtlearn:word/gradient) between $(a, 2a)$ and $(a + 2, 2a + 6)$..."
+    },
+    "130": {
+      "hint": "**Stretch:** A line has gradient $-2$ and $x$-intercept 4. Write equation.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A line has gradient -2 and x-intercept 4. Write equation.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A line has [gradient](mtlearn:word/gradient) $-2$ and $x$-intercept 4. Write equat..."
+    },
+    "131": {
+      "hint": "**Stretch:** Find the point on $y = 3x - 8$ with $y = 13$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the point on y = 3x - 8 with y = 13.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the point on $y = 3x - 8$ with $y = 13$...."
+    },
+    "132": {
+      "hint": "**Stretch:** Find the point on $y = -5x + 20$ with $x = 3$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the point on y = -5x + 20 with x = 3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the point on $y = -5x + 20$ with $x = 3$...."
+    },
+    "133": {
+      "hint": "**Stretch:** Write the equation of the line through $(5, 5)$ perpendicular to $y = \\dfrac{1}{2}x$ (gradient $-2$).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Write the equation of the line through (5, 5) perpendicular to y = \\dfrac{1}{2}x (gradient -2).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write the [equation](mtlearn:word/equation) of the line through $(5, 5)$ perpendic..."
+    },
+    "134": {
+      "hint": "**Stretch:** Find where $y = 4x + 1$ and $y = -2x + 19$ meet.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find where y = 4x + 1 and y = -2x + 19 meet.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find where $y = 4x + 1$ and $y = -2x + 19$ meet...."
+    },
+    "135": {
+      "hint": "**Stretch:** A line is parallel to $y = x - 4$ and passes through $(6, 1)$. Write equation.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A line is parallel to y = x - 4 and passes through (6, 1). Write equation.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A line is parallel to $y = x - 4$ and passes through $(6,..."
+    },
+    "136": {
+      "hint": "**Stretch:** Show gradient of $y = mx + c$ is $m$ by using points $(0, c)$ and $(1, m + c)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Show gradient of y = mx + c is m by using points (0, c) and (1, m + c).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Show [gradient](mtlearn:word/gradient) of $y = mx + c$ is $m$ by using points $(0,..."
+    },
+    "137": {
+      "hint": "**Stretch:** Find $m$ if line through $(2, 5)$ and $(m, 11)$ has gradient 3.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find m if line through (2, 5) and (m, 11) has gradient 3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $m$ if line through $(2, 5)$ and $(m, 11)$ has gradi..."
+    },
+    "138": {
+      "hint": "**Stretch:** Water depth $d = 4t + 7$. Find gradient and meaning.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Water depth d = 4t + 7. Find gradient and meaning.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Water depth $d = 4t + 7$. Find [gradient](mtlearn:word/gradient) and meaning...."
+    },
+    "139": {
+      "hint": "**Stretch:** Find equation with gradient $-0.4$ through $(5, 2)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation with gradient -0.4 through (5, 2).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) with [gradient](mtlearn:word/gradient) $-0.4$ through $(5, 2)$...."
+    },
+    "140": {
+      "hint": "**Stretch:** Two lines: $y = 6x + b$ and $y = 2x + 10$ have same $y$-intercept. Find $b$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Two lines: y = 6x + b and y = 2x + 10 have same y-intercept. Find b.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Two lines: $y = 6x + b$ and $y = 2x + 10$ have same $y$-i..."
+    },
+    "141": {
+      "hint": "**Stretch:** Find the $x$-value where $y = 2x + 1$ equals $y = x + 9$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the x-value where y = 2x + 1 equals y = x + 9.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the $x$-value where $y = 2x + 1$ equals $y = x + 9$...."
+    },
+    "142": {
+      "hint": "**Stretch:** A line passes through $(0, -8)$ with gradient $\\dfrac{5}{2}$. Where does it cross the $x$-axis?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A line passes through (0, -8) with gradient \\dfrac{5}{2}. Where does it cross the x-axis?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A line passes through $(0, -8)$ with [gradient](mtlearn:word/gradient) $\\dfrac{5}{..."
+    },
+    "143": {
+      "hint": "**Stretch:** Compare $y = -3x + 12$ and $y = -3x - 2$ — same steepness? **Yes or no.**",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Compare y = -3x + 12 and y = -3x - 2 — same steepness? Yes or no.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare $y = -3x + 12$ and $y = -3x - 2$ — same steepness..."
+    },
+    "144": {
+      "hint": "**Stretch:** Find equation through $(-4, 0)$ and $(0, 6)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation through (-4, 0) and (0, 6).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) through $(-4, 0)$ and $(0, 6)$...."
+    },
+    "145": {
+      "hint": "**Stretch:** If gradient is 0, describe the graph in words.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: If gradient is 0, describe the graph in words.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** If [gradient](mtlearn:word/gradient) is 0, describe the graph in words...."
+    },
+    "146": {
+      "hint": "**Stretch:** Find gradient of $y = 18 - 6x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find gradient of y = 18 - 6x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [gradient](mtlearn:word/gradient) of $y = 18 - 6x$...."
+    },
+    "147": {
+      "hint": "**Stretch:** Line $y = kx + 3$ passes through $(2, 11)$. Find $k$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Line y = kx + 3 passes through (2, 11). Find k.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Line $y = kx + 3$ passes through $(2, 11)$. Find $k$...."
+    },
+    "148": {
+      "hint": "**Stretch:** Find the distance moved along $x$ from $x$-intercept to $x = 10$ on $y = 2x - 10$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the distance moved along x from x-intercept to x = 10 on y = 2x - 10.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the distance moved along $x$ from $x$-intercept to $..."
+    },
+    "149": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** A line with gradient $m > 0$ has positive $y$-intercept.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? A line with gradient m > 0 has positive y-intercept.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** A line with [gradient](mtlearn:word/gradient) $m ..."
+    },
+    "150": {
+      "hint": "**Stretch:** Write two different equations with gradient 5 but different intercepts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Write two different equations with gradient 5 but different intercepts.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write two different [equations](mtlearn:word/equation) with [gradient](mtlearn:word/gradient) 5 but differe..."
+    },
+    "151": {
+      "hint": "**Stretch:** Find intersection of $y = \\dfrac{2}{3}x + 1$ and $y = -\\dfrac{1}{3}x + 7$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find intersection of y = \\dfrac{2}{3}x + 1 and y = -\\dfrac{1}{3}x + 7.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find intersection of $y = \\dfrac{2}{3}x + 1$ and $y = -\\d..."
+    },
+    "152": {
+      "hint": "**Stretch:** A savings line goes from $(0, 200)$ to $(8, 360)$. Find weekly gradient.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A savings line goes from (0, 200) to (8, 360). Find weekly gradient.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A savings line goes from $(0, 200)$ to $(8, 360)$. Find w..."
+    },
+    "153": {
+      "hint": "**Stretch:** Find equation through $(1, 4)$ with gradient equal to the gradient of $y = 8 - 2x$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation through (1, 4) with gradient equal to the gradient of y = 8 - 2x.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) through $(1, 4)$ with [gradient](mtlearn:word/gradient) equal to the..."
+    },
+    "154": {
+      "hint": "**Stretch:** Solve $3x + 2 = 2x + 9$ — link to intersection of which two lines?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Solve 3x + 2 = 2x + 9 — link to intersection of which two lines?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Solve $3x + 2 = 2x + 9$ — link to intersection of which t..."
+    },
+    "155": {
+      "hint": "**Stretch:** Find the $y$-coordinate where $x = -2$ on the line through $(0, 7)$ and $(4, 15)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the y-coordinate where x = -2 on the line through (0, 7) and (4, 15).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the $y$-[coordinate](mtlearn:word/coordinates) where $x = -2$ on the line throug..."
+    },
+    "156": {
+      "hint": "**Stretch:** A line has gradient $-1$ and passes through midpoint of $(0, 0)$ and $(6, 8)$. Write its equation.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A line has gradient -1 and passes through midpoint of (0, 0) and (6, 8). Write its equation.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A line has [gradient](mtlearn:word/gradient) $-1$ and passes through midpoint of $..."
+    },
+    "157": {
+      "hint": "**Stretch:** Find $x$ when $y = 0$ on $y = 1.4x - 7$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find x when y = 0 on y = 1.4x - 7.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $x$ when $y = 0$ on $y = 1.4x - 7$...."
+    },
+    "158": {
+      "hint": "**Stretch:** **True or false?** Larger $|m|$ means steeper line.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: True or false? Larger |m| means steeper line.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** Larger $|m|$ means steeper line...."
+    },
+    "159": {
+      "hint": "**Stretch:** Find equation of horizontal line through $(12, -5)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation of horizontal line through (12, -5).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) of horizontal line through $(12, -5)$...."
+    },
+    "160": {
+      "hint": "**Stretch:** Find equation of vertical line through $(12, -5)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation of vertical line through (12, -5).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) of vertical line through $(12, -5)$...."
+    },
+    "161": {
+      "hint": "**Stretch:** Line $y = mx + 2$ is parallel to $y = 4x - 1$. Find $m$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Line y = mx + 2 is parallel to y = 4x - 1. Find m.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Line $y = mx + 2$ is parallel to $y = 4x - 1$. Find $m$...."
+    },
+    "162": {
+      "hint": "**Stretch:** Find the gradient between $(2, -3)$ and $(2, 5)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the gradient between (2, -3) and (2, 5).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the [gradient](mtlearn:word/gradient) between $(2, -3)$ and $(2, 5)$...."
+    },
+    "163": {
+      "hint": "**Stretch:** A hot drink cools $y = 90 - 5t$ °C after $t$ minutes. Find gradient and $t$ when $y = 40$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A hot drink cools y = 90 - 5t °C after t minutes. Find gradient and t when y = 40.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A hot drink cools $y = 90 - 5t$ °C after $t$ minutes. Fin..."
+    },
+    "164": {
+      "hint": "**Stretch:** Find where $y = 7x - 21$ meets the $x$-axis.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find where y = 7x - 21 meets the x-axis.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find where $y = 7x - 21$ meets the $x$-axis...."
+    },
+    "165": {
+      "hint": "**Stretch:** Write the equation with gradient $\\dfrac{1}{5}$ and intercept $-2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Write the equation with gradient \\dfrac{1}{5} and intercept -2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write the [equation](mtlearn:word/equation) with [gradient](mtlearn:word/gradient) $\\dfrac{1}{5}$ and inter..."
+    },
+    "166": {
+      "hint": "**Stretch:** Find the intersection of $y = 0$ and $y = 3x + 6$ (use $y = 0$ as the $x$-axis idea).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the intersection of y = 0 and y = 3x + 6 (use y = 0 as the x-axis idea).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the intersection of $y = 0$ and $y = 3x + 6$ (use $y..."
+    },
+    "167": {
+      "hint": "**Stretch:** Archer plots points on $y = 2x + c$ through $(3, 10)$. Find $c$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Archer plots points on y = 2x + c through (3, 10). Find c.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Archer plots points on $y = 2x + c$ through $(3, 10)$. Fi..."
+    },
+    "168": {
+      "hint": "**Stretch:** Find gradient of line perpendicular to $y = 4x$ (gradient $-\\dfrac{1}{4}$).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find gradient of line perpendicular to y = 4x (gradient -\\dfrac{1}{4}).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [gradient](mtlearn:word/gradient) of line perpendicular to $y = 4x$ ([gradient](mtlearn:word/gradient)..."
+    },
+    "169": {
+      "hint": "**Stretch:** Two parallel lines $y = x + 1$ and $y = x + 9$. How far apart vertically at $x = 0$?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Two parallel lines y = x + 1 and y = x + 9. How far apart vertically at x = 0?\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Two parallel lines $y = x + 1$ and $y = x + 9$. How far a..."
+    },
+    "170": {
+      "hint": "**Stretch:** Find equation through $(5, -1)$ and $(5, 8)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation through (5, -1) and (5, 8).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) through $(5, -1)$ and $(5, 8)$...."
+    },
+    "171": {
+      "hint": "**Stretch:** Find equation through $(-2, 3)$ and $(4, 3)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation through (-2, 3) and (4, 3).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) through $(-2, 3)$ and $(4, 3)$...."
+    },
+    "172": {
+      "hint": "**Stretch:** A line has $y = 2$ when $x = 0$ and $y = 6$ when $x = 4$. Write equation.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A line has y = 2 when x = 0 and y = 6 when x = 4. Write equation.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A line has $y = 2$ when $x = 0$ and $y = 6$ when $x = 4$...."
+    },
+    "173": {
+      "hint": "**Stretch:** Find $x$ if point $(x, 14)$ lies on $y = 2x + 4$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find x if point (x, 14) lies on y = 2x + 4.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $x$ if point $(x, 14)$ lies on $y = 2x + 4$...."
+    },
+    "174": {
+      "hint": "**Stretch:** Find the gradient of $y = c - mx$ (in terms of $m$).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the gradient of y = c - mx (in terms of m).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the [gradient](mtlearn:word/gradient) of $y = c - mx$ (in terms of $m$)...."
+    },
+    "175": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Lines with gradients $2$ and $-2$ are equally steep.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Lines with gradients 2 and -2 are equally steep.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** Lines with [gradients](mtlearn:word/gradient) $2$..."
+    },
+    "176": {
+      "hint": "**Stretch:** Find where $y = 5x + 2$ meets $y = -3x + 18$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find where y = 5x + 2 meets y = -3x + 18.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find where $y = 5x + 2$ meets $y = -3x + 18$...."
+    },
+    "177": {
+      "hint": "**Stretch:** A bike hire fee is £12 plus £4 per hour: write equation and gradient.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A bike hire fee is £12 plus £4 per hour: write equation and gradient.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A bike hire fee is £12 plus £4 per hour: write [equation](mtlearn:word/equation) a..."
+    },
+    "178": {
+      "hint": "**Stretch:** Find the $y$-intercept of the line through $(2, 9)$ and $(6, 17)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the y-intercept of the line through (2, 9) and (6, 17).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the $y$-intercept of the line through $(2, 9)$ and $..."
+    },
+    "179": {
+      "hint": "**Stretch:** Show $(0, c)$ and $(1, c + m)$ lie on $y = mx + c$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Show (0, c) and (1, c + m) lie on y = mx + c.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Show $(0, c)$ and $(1, c + m)$ lie on $y = mx + c$...."
+    },
+    "180": {
+      "hint": "**Stretch:** Find equation with gradient $-3$ through $(1, -2)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation with gradient -3 through (1, -2).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) with [gradient](mtlearn:word/gradient) $-3$ through $(1, -2)$...."
+    },
+    "181": {
+      "hint": "**Stretch:** Line $y = ax + 6$ passes through $(4, 14)$. Find $a$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Line y = ax + 6 passes through (4, 14). Find a.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Line $y = ax + 6$ passes through $(4, 14)$. Find $a$...."
+    },
+    "182": {
+      "hint": "**Stretch:** Find the $x$-intercept of $y = 0.6x - 15$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the x-intercept of y = 0.6x - 15.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the $x$-intercept of $y = 0.6x - 15$...."
+    },
+    "183": {
+      "hint": "**Stretch:** **True or false?** $y$-intercept can be negative.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: True or false? y-intercept can be negative.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** $y$-intercept can be negative...."
+    },
+    "184": {
+      "hint": "**Stretch:** Find gradient between $(-5, -1)$ and $(1, 11)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find gradient between (-5, -1) and (1, 11).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [gradient](mtlearn:word/gradient) between $(-5, -1)$ and $(1, 11)$...."
+    },
+    "185": {
+      "hint": "**Stretch:** Write the steeper of $y = -8x + 1$ and $y = -2x + 1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Write the steeper of y = -8x + 1 and y = -2x + 1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Write the steeper of $y = -8x + 1$ and $y = -2x + 1$...."
+    },
+    "186": {
+      "hint": "**Stretch:** Find intersection of $y = x$ and $y = 3x - 8$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find intersection of y = x and y = 3x - 8.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find intersection of $y = x$ and $y = 3x - 8$...."
+    },
+    "187": {
+      "hint": "**Stretch:** A line model $P = 12n - 30$ (profit vs items). Find gradient and break-even $n$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A line model P = 12n - 30 (profit vs items). Find gradient and break-even n.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A line model $P = 12n - 30$ (profit vs items). Find gradi..."
+    },
+    "188": {
+      "hint": "**Stretch:** Find equation through $(0, 0)$ with gradient $-\\dfrac{3}{2}$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation through (0, 0) with gradient -\\dfrac{3}{2}.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) through $(0, 0)$ with [gradient](mtlearn:word/gradient) $-\\dfrac{3}{..."
+    },
+    "189": {
+      "hint": "**Stretch:** Find the point on $y = 5x - 3$ where $x = -2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the point on y = 5x - 3 where x = -2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the point on $y = 5x - 3$ where $x = -2$...."
+    },
+    "190": {
+      "hint": "**Stretch:** Compare intercepts of $y = 2x + 7$ and $y = 2x - 7$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Compare intercepts of y = 2x + 7 and y = 2x - 7.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Compare intercepts of $y = 2x + 7$ and $y = 2x - 7$...."
+    },
+    "191": {
+      "hint": "**Stretch:** Find $b$ if $(b, 4)$ and $(b + 2, 10)$ lie on a line with gradient 3.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find b if (b, 4) and (b + 2, 10) lie on a line with gradient 3.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $b$ if $(b, 4)$ and $(b + 2, 10)$ lie on a line with..."
+    },
+    "192": {
+      "hint": "**Stretch:** **Always, sometimes, or never?** Gradient between two points is unchanged if you swap the points.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Always, sometimes, or never? Gradient between two points is unchanged if you swap the points.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **Always, sometimes, or never?** [Gradient](mtlearn:word/gradient) between two poi..."
+    },
+    "193": {
+      "hint": "**Stretch:** Find equation of line with $x$-intercept $-3$ and gradient 2.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find equation of line with x-intercept -3 and gradient 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find [equation](mtlearn:word/equation) of line with $x$-intercept $-3$ and gradien..."
+    },
+    "194": {
+      "hint": "**Stretch:** Find where $y = 4x + 5$ meets $y = 4x - 2$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find where y = 4x + 5 meets y = 4x - 2.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find where $y = 4x + 5$ meets $y = 4x - 2$...."
+    },
+    "195": {
+      "hint": "**Stretch:** A ramp rises 0.8 m over 4 m. State gradient.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: A ramp rises 0.8 m over 4 m. State gradient.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** A ramp rises 0.8 m over 4 m. State [gradient](mtlearn:word/gradient)...."
+    },
+    "196": {
+      "hint": "**Stretch:** Find the equation through $(7, 2)$ parallel to $y = -0.5x + 1$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the equation through (7, 2) parallel to y = -0.5x + 1.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the [equation](mtlearn:word/equation) through $(7, 2)$ parallel to $y = -0.5x..."
+    },
+    "197": {
+      "hint": "**Stretch:** Find $y$ when $x = 5$ on line with gradient 2 through $(1, 3)$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find y when x = 5 on line with gradient 2 through (1, 3).\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find $y$ when $x = 5$ on line with [gradient](mtlearn:word/gradient) 2 through $(1..."
+    },
+    "198": {
+      "hint": "**Stretch:** **True or false?** Every non-vertical line can be written $y = mx + c$.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: True or false? Every non-vertical line can be written y = mx + c.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** **True or false?** Every non-vertical line can be written..."
+    },
+    "199": {
+      "hint": "**Stretch:** Find the midpoint of $(2, 6)$ and $(10, 14)$ and gradient from $(2, 6)$ to midpoint.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Find the midpoint of (2, 6) and (10, 14) and gradient from (2, 6) to midpoint.\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Find the midpoint of $(2, 6)$ and $(10, 14)$ and [gradient](mtlearn:word/gradient)..."
+    },
+    "200": {
+      "hint": "**Stretch:** Archer models a path by $y = 1.5x + 20$ (height vs horizontal metres). Find height at $x = 12$ and gradient meaning.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:algebra/A10)\n\n1. Focus on what this question asks: Stretch: Archer models a path by y = 1.5x + 20 (height vs horizontal metres). Find height at x = 12 and gra…\n2. Think about what the graph or formula tells you.\n3. Use a **different** example with new numbers to practise the same idea.\n4. Then answer: **Stretch:** Archer models a path by $y = 1.5x + 20$ (height vs horizo..."
+    }
   }
 }

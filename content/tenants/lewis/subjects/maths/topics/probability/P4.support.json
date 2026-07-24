@@ -3,335 +3,803 @@
   "questions": {
     "1": {
       "hint": "Can one coin flip show both heads and tails at the same time?",
-      "help": "**Mutually exclusive** means both cannot happen on the **same** trial.\n\nOne flip shows **either** heads **or** tails, not both.\n\nAnswer **no** — they cannot land on both together."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. **Mutually exclusive** means both cannot happen on the **same** trial.\n2. One flip shows **either** heads **or** tails, not both.\n3. Answer **no** — they cannot land on both together."
     },
     "2": {
       "hint": "List dice results 1–6 — is every number either odd or even?",
-      "help": "**Exhaustive** means the outcomes **cover everything** that can happen.\n\nEvery roll is odd (1,3,5) or even (2,4,6).\n\nAnswer **yes** — no other result is possible."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. **Exhaustive** means the outcomes **cover everything** that can happen.\n2. Every roll is odd (1,3,5) or even (2,4,6).\n3. Answer **yes** — no other result is possible."
     },
     "3": {
       "hint": "Rain and no rain are the only two weather options — if P(rain) = 1, what is left?",
-      "help": "P(rain) + P(not rain) = 1.\n\nIf rain is certain (1), not rain is **0**.\n\nNo rain has probability **0**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(rain) + P(not rain) = 1.\n2. If rain is certain (1), not rain is **0**.\n3. No rain has [probability](mtlearn:word/probability) **0**."
     },
     "4": {
       "hint": "Only red and blue exist — if red is impossible, what must you pick?",
-      "help": "If P(red) = 0, every counter must be the other colour.\n\nYou must pick **blue**.\n\nThe bag has only those two colours."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. If P(red) = 0, every counter must be the other colour.\n2. You must pick **blue**.\n3. The bag has only those two colours."
     },
     "5": {
       "hint": "One dice shows one number — can it show 2 and 5 on the same roll?",
-      "help": "One roll → one face.\n\nYou cannot roll 2 and 5 together.\n\nAnswer **no**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. One roll → one face.\n2. You cannot roll 2 and 5 together.\n3. Answer **no**."
     },
     "6": {
       "hint": "Name the two results of a single coin flip.",
-      "help": "The two outcomes that cover a coin flip are **heads** and **tails**.\n\nTogether they are exhaustive for one flip."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. The two outcomes that cover a coin flip are **heads** and **tails**.\n2. Together they are exhaustive for one flip."
     },
     "7": {
       "hint": "Can the spinner land anywhere other than red, blue, or green?",
-      "help": "If those three are the **only** labels, every spin is one of them.\n\nThey are **exhaustive** — nothing else can happen.\n\nAnswer **yes**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. If those three are the **only** labels, every spin is one of them.\n2. They are **exhaustive** — nothing else can happen.\n3. Answer **yes**."
     },
     "8": {
       "hint": "An event and \"not that event\" together use all possibilities — they add to what number?",
-      "help": "P(event) + P(not event) = **1**.\n\nEverything either happens or it does not.\n\nFill in **1**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(event) + P(not event) = **1**.\n2. Everything either happens or it does not.\n3. Fill in **1**."
     },
     "9": {
       "hint": "Not rain is the complement of rain — subtract 0.3 from 1.",
-      "help": "Rain and not rain are **complements** — together they use all the weather possibilities.\n\nP(not rain) = 1 − 0.3 = **0.7**.\n\nWhenever an event and its opposite cover everything, their probabilities add to 1."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Rain and not rain are **complements** — together they use all the weather possibilities.\n2. P(not rain) = 1 − 0.3 = **0.7**.\n3. Whenever an event and its opposite cover everything, their probabilities add to 1."
     },
     "10": {
       "hint": "Every dice roll is odd or even — what do those two probabilities add to?",
-      "help": "Odd and even cover all six faces and cannot both occur on one roll.\n\nP(even) + P(odd) = **1**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Odd and even cover all six faces and cannot both occur on one roll.\n2. P(even) + P(odd) = **1**."
     },
     "11": {
       "hint": "P(not A) = 1 − P(A).",
-      "help": "**Not A** means everything that is not in event A. It is the complement of A.\n\nP(not A) = 1 − P(A) = 1 − 0.7 = **0.3**.\n\nSubtract from 1 whenever you need the opposite probability."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. **Not A** means everything that is not in event A. It is the complement of A.\n2. P(not A) = 1 − P(A) = 1 − 0.7 = **0.3**.\n3. Subtract from 1 whenever you need the opposite [probability](mtlearn:word/probability)."
     },
     "12": {
       "hint": "Mutually exclusive means they cannot happen together on one trial.",
-      "help": "If both happened, they would not be mutually exclusive.\n\nAnswer **no** — both cannot happen on the same trial."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. If both happened, they would not be mutually exclusive.\n2. Answer **no** — both cannot happen on the same trial."
     },
     "13": {
       "hint": "For mutually exclusive events, add the probabilities for A or B.",
-      "help": "P(A or B) = P(A) + P(B) = 0.3 + 0.4 = **0.7**.\n\nOnly add when both cannot happen together."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B) = P(A) + P(B) = 0.3 + 0.4 = **0.7**.\n2. Only add when both cannot happen together."
     },
     "14": {
       "hint": "Red, blue, and green use up all counters — subtract known probabilities from 1.",
-      "help": "P(green) = 1 − 0.2 − 0.5 = **0.3**.\n\nThree colours are exhaustive."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(green) = 1 − 0.2 − 0.5 = **0.3**.\n2. Three colours are exhaustive."
     },
     "15": {
       "hint": "No rain is the complement of rain: 1 − 0.35.",
-      "help": "If P(rain) = 0.35, the rest of the probability must be dry weather.\n\nP(no rain) = 1 − 0.35 = **0.65**.\n\nComplement pairs always sum to 1."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. If P(rain) = 0.35, the rest of the [probability](mtlearn:word/probability) must be dry weather.\n2. P(no rain) = 1 − 0.35 = **0.65**.\n3. Complement pairs always sum to 1."
     },
     "16": {
       "hint": "Find a common denominator for one quarter and one third, then subtract from 1.",
-      "help": "P(yellow) = 1 − $\\frac{1}{4} − \\frac{1}{3} = 1 − \\frac{3}{12} − \\frac{4}{12} = \\frac{5}{12}$.\n\nThree section colours are exhaustive."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(yellow) = 1 − $\\frac{1}{4} − \\frac{1}{3} = 1 − \\frac{3}{12} − \\frac{4}{12} = \\frac{5}{12}$.\n2. Three section colours are exhaustive."
     },
     "17": {
       "hint": "Can one roll be both even and odd at the same time?",
-      "help": "Even and odd on one dice roll **cannot** both happen.\n\nThey are **mutually exclusive**.\n\nWrite one clear sentence."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Even and odd on one dice roll **cannot** both happen.\n2. They are **mutually exclusive**.\n3. Write one clear sentence."
     },
     "18": {
       "hint": "List the two separate outcomes for one flip.",
-      "help": "Mutually exclusive outcomes for one coin flip: **heads**, **tails**.\n\nOnly those two."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Mutually exclusive outcomes for one coin flip: **heads**, **tails**.\n2. Only those two."
     },
     "19": {
       "hint": "Complement: 1 − 0.6.",
-      "help": "When P(A) = 0.6, the remaining probability belongs to **not A**.\n\nP(not A) = 1 − 0.6 = **0.4**.\n\nCheck: 0.6 + 0.4 = 1."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. When P(A) = 0.6, the remaining [probability](mtlearn:word/probability) belongs to **not A**.\n2. P(not A) = 1 − 0.6 = **0.4**.\n3. Check: 0.6 + 0.4 = 1."
     },
     "20": {
       "hint": "Is rolling a 6 also rolling an even number? Can both descriptions apply to one roll?",
-      "help": "Rolling **6** means you **did** roll an even number.\n\nBoth can happen on the **same** roll, so they are **not** mutually exclusive.\n\nExplain with that overlap."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Rolling **6** means you **did** roll an even number.\n2. Both can happen on the **same** roll, so they are **not** mutually exclusive.\n3. Explain with that overlap."
     },
     "21": {
       "hint": "X, Y, Z cover everything — add their probabilities and solve for Z.",
-      "help": "P(Z) = 1 − 0.2 − 0.5 = **0.3**.\n\nExhaustive mutually exclusive events sum to 1."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(Z) = 1 − 0.2 − 0.5 = **0.3**.\n2. Exhaustive mutually exclusive events sum to 1."
     },
     "22": {
       "hint": "Pass and fail are complements for one attempt.",
-      "help": "On one attempt you either pass or fail — those two outcomes are complements.\n\nP(fail) = 1 − P(pass) = 1 − $\\frac{7}{10} = \\frac{3}{10}$.\n\nShow the subtraction clearly."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. On one attempt you either pass or fail — those two outcomes are complements.\n2. P(fail) = 1 − P(pass) = 1 − $\\frac{7}{10} = \\frac{3}{10}$.\n3. Show the subtraction clearly."
     },
     "23": {
       "hint": "Only red and blue — blue is what's left after red's share.",
-      "help": "Only red and blue counters exist, so P(red) + P(blue) = 1.\n\nP(blue) = 1 − $\\frac{3}{8} = \\frac{5}{8}$.\n\nThe bag cannot contain any other colour."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Only red and blue counters exist, so P(red) + P(blue) = 1.\n2. P(blue) = 1 − $\\frac{3}{8} = \\frac{5}{8}$.\n3. The bag cannot contain any other colour."
     },
     "24": {
       "hint": "Can a card be both a King and a Heart? Think of the King of Hearts.",
-      "help": "The **King of Hearts** is both a King and a Heart.\n\nSo the events **overlap** — **not** mutually exclusive.\n\nGive that example."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. The **King of Hearts** is both a King and a Heart.\n2. So the events **overlap** — **not** mutually exclusive.\n3. Give that example."
     },
     "25": {
       "hint": "Try one coin flip: heads and tails — can they be both exclusive and cover everything?",
-      "help": "Archer is **wrong**.\n\nExample: heads and tails on one flip are **mutually exclusive** and **exhaustive**.\n\nGive that counter-example."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Archer is **wrong**.\n2. Example: heads and tails on one flip are **mutually exclusive** and **exhaustive**.\n3. Give that counter-example."
     },
     "26": {
       "hint": "If A and B cannot both happen, what is P(A and B)?",
-      "help": "Mutually exclusive → no overlap → P(A and B) = **0**.\n\nSay **true** and explain."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Mutually exclusive → no overlap → P(A and B) = **0**.\n2. Say **true** and explain."
     },
     "27": {
       "hint": "List outcomes for \"greater than 3\" and \"less than 5\" — do they cover all rolls without overlap?",
-      "help": "Greater than 3: 4,5,6. Less than 5: 1,2,3,4.\n\nThey **overlap** on 4, so not mutually exclusive.\n\nThey also miss nothing together? Actually 1–6 all in union — but overlap means Sloan is **wrong**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Greater than 3: 4,5,6. Less than 5: 1,2,3,4.\n2. They **overlap** on 4, so not mutually exclusive.\n3. They also miss nothing together? Actually 1–6 all in union — but overlap means Sloan is **wrong**."
     },
     "28": {
       "hint": "Add 0.4 + 0.35 + 0.3 — is the total allowed for probabilities?",
-      "help": "Sum = 1.05, which is **more than 1**.\n\nProbabilities for exhaustive weather types must add to **1**.\n\nPriya spots an **impossible** total."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Sum = 1.05, which is **more than 1**.\n2. Probabilities for exhaustive weather types must add to **1**.\n3. Priya spots an **impossible** total."
     },
     "29": {
       "hint": "Exclusive = cannot both happen; exhaustive = one of them must happen.",
-      "help": "Example exclusive: roll 1 and roll 6 on same dice (no).\n\nExample exhaustive: heads or tails on a coin (yes, one must happen).\n\nDefine both words with examples."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Example exclusive: roll 1 and roll 6 on same dice (no).\n2. Example exhaustive: heads or tails on a coin (yes, one must happen).\n3. Define both words with examples."
     },
     "30": {
       "hint": "Can a single roll be both even and a multiple of 3? Think about 6.",
-      "help": "Rolling **6** is even **and** a multiple of 3.\n\nMia is **wrong** — the events **overlap**.\n\nUse 6 in your explanation."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Rolling **6** is even **and** a multiple of 3.\n2. Mia is **wrong** — the events **overlap**.\n3. Use 6 in your explanation."
     },
     "31": {
       "hint": "If A and B cannot happen together, can P(A) + P(B) ever be bigger than 1?",
-      "help": "Mutually exclusive → P(A) + P(B) = P(A or B) ≤ 1.\n\nAnswer **always** — sum is at most 1.\n\nExplain why."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Mutually exclusive → P(A) + P(B) = P(A or B) ≤ 1.\n2. Answer **always** — sum is at most 1.\n3. Explain why."
     },
     "32": {
       "hint": "Find P(white) from 1 − 0.45 − 0.3, then multiply by 60 chocolates.",
-      "help": "P(white) = 1 − 0.45 − 0.3 = **0.25**.\n\nWhite chocolates ≈ $0.25 \\times 60 = 15$.\n\nShow probability then count."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(white) = 1 − 0.45 − 0.3 = **0.25**.\n2. White chocolates ≈ $0.25 \\times 60 = 15$.\n3. Show [probability](mtlearn:word/probability) then count."
     },
     "33": {
       "hint": "German is what's left after French and Spanish fractions of the class.",
-      "help": "P(German) = 1 − $\\frac{2}{5} − \\frac{3}{10} = 1 − \\frac{4}{10} − \\frac{3}{10} = \\frac{3}{10}$.\n\nExactly one language → exhaustive."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(German) = 1 − $\\frac{2}{5} − \\frac{3}{10} = 1 − \\frac{4}{10} − \\frac{3}{10} = \\frac{3}{10}$.\n2. Exactly one language → exhaustive."
     },
     "34": {
       "hint": "Add Gold, Silver, Bronze probabilities and subtract from 1.",
-      "help": "Gold, Silver, Bronze, and nothing are **exhaustive** — exactly one happens per contestant.\n\nAdd the three prize probabilities, then subtract from 1.\n\nP(nothing) = 1 − 0.05 − 0.15 − 0.2 = **0.6**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Gold, Silver, Bronze, and nothing are **exhaustive** — exactly one happens per contestant.\n2. Add the three prize probabilities, then subtract from 1.\n3. P(nothing) = 1 − 0.05 − 0.15 − 0.2 = **0.6**."
     },
     "35": {
       "hint": "Winter choices = 120 minus spring, summer, autumn counts.",
-      "help": "Winter count = 120 − 30 − 42 − 18 = **30**.\n\nP(winter) = $\\frac{30}{120} = \\frac{1}{4}$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Winter count = 120 − 30 − 42 − 18 = **30**.\n2. P(winter) = $\\frac{30}{120} = \\frac{1}{4}$."
     },
     "36": {
       "hint": "Find P(yellow), then P(red or yellow) = P(red) + P(yellow).",
-      "help": "P(yellow) = 1 − 0.2 − 0.2 − 0.3 = **0.3**.\n\nP(red or yellow) = 0.2 + 0.3 = **0.5** (mutually exclusive)."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(yellow) = 1 − 0.2 − 0.2 − 0.3 = **0.3**.\n2. P(red or yellow) = 0.2 + 0.3 = **0.5** (mutually exclusive)."
     },
     "37": {
       "hint": "P(Fail) = 1 minus sum of A–D; C or better means A, B, or C.",
-      "help": "P(Fail) = 1 − 0.1 − 0.25 − 0.35 − 0.2 = **0.1**.\n\nP(C or better) = 0.1 + 0.25 + 0.35 = **0.7**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(Fail) = 1 − 0.1 − 0.25 − 0.35 − 0.2 = **0.1**.\n2. P(C or better) = 0.1 + 0.25 + 0.35 = **0.7**."
     },
     "38": {
       "hint": "P(none) = 1 − big − small; expected none = P(none) × 500.",
-      "help": "P(none) = 1 − $\\frac{1}{50} − \\frac{9}{50} = \\frac{40}{50} = \\frac{4}{5}$.\n\nExpected no prize = $\\frac{4}{5} \\times 500 = 400$."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(none) = 1 − $\\frac{1}{50} − \\frac{9}{50} = \\frac{40}{50} = \\frac{4}{5}$.\n2. Expected no prize = $\\frac{4}{5} \\times 500 = 400$."
     },
     "39": {
       "hint": "Use pass/fail or rain/no rain — event and not event add to 1 and cannot both happen.",
-      "help": "P(A) + P(not A) = 1 because **not A** is everything else — together they cover all outcomes and do not overlap.\n\nLink to mutually exclusive **complements**."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A) + P(not A) = 1 because **not A** is everything else — together they cover all outcomes and do not overlap.\n2. Link to mutually exclusive **complements**."
     },
     "40": {
       "hint": "P(red or blue) = P(red) + P(blue) when red and blue cannot both be picked at once.",
-      "help": "P(red) = 0.7 − 0.25 = **0.45**.\n\nP(green) = 1 − 0.45 − 0.25 = **0.3**.\n\nUse P(red or blue) = P(red) + P(blue)."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(red) = 0.7 − 0.25 = **0.45**.\n2. P(green) = 1 − 0.45 − 0.25 = **0.3**.\n3. Use P(red or blue) = P(red) + P(blue)."
     },
     "41": {
       "hint": "Pick four different probabilities that add to exactly 1.",
-      "help": "Example: 0.1, 0.2, 0.3, 0.4 on four sections.\n\nCheck sum = 1.\n\nSketch spinner and label each probability."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Example: 0.1, 0.2, 0.3, 0.4 on four sections.\n2. Check sum = 1.\n3. Sketch spinner and label each [probability](mtlearn:word/probability)."
     },
     "42": {
       "hint": "Can it rain while the sun is still shining a bit?",
-      "help": "Real weather can be **rain and sunshine** together (sun shower).\n\nSo \"raining\" and \"sunny\" are not always mutually exclusive in life, even if textbook problems simplify to one label."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Real weather can be **rain and sunshine** together (sun shower).\n2. So \"raining\" and \"sunny\" are not always mutually exclusive in life, even if textbook problems simplify to one label."
     },
     "43": {
       "hint": "Complementary probabilities add to 1.",
-      "help": "If A and not A are the only possibilities, P(A) + P(not A) = 1.\n\nSo P(not A) = 1 − P(A).\n\nExample: if P(rain) = 0.3, then P(no rain) = 0.7."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. If A and not A are the only possibilities, P(A) + P(not A) = 1.\n2. So P(not A) = 1 − P(A).\n3. Example: if P(rain) = 0.3, then P(no rain) = 0.7."
     },
     "44": {
       "hint": "Complementary probabilities add to 1.",
-      "help": "If A and not A are the only possibilities, P(A) + P(not A) = 1.\n\nSo P(not A) = 1 − P(A).\n\nExample: if P(rain) = 0.3, then P(no rain) = 0.7."
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. If A and not A are the only possibilities, P(A) + P(not A) = 1.\n2. So P(not A) = 1 − P(A).\n3. Example: if P(rain) = 0.3, then P(no rain) = 0.7."
     },
-    "45": {"hint": "Bus and walk are the only options — subtract 0.76 from 1.", "help": "Two **complementary** options use all pupils.\n\nP(walks) = 1 − 0.76 = **0.24**.\n\nTry the same idea when only two opposite outcomes exist."},
-    "46": {"hint": "Flowering and not flowering split the season completely.", "help": "Either the plant flowers or it does not — no third result.\n\nP(does not flower) = 1 − 0.41 = **0.59**.\n\nComplements always sum to 1."},
-    "47": {"hint": "If our team does not score first, who must?", "help": "Exactly one team scores first.\n\nP(opponents first) = 1 − $\\frac{3}{7} = \\frac{4}{7}$.\n\nSubtract from 1 for the other exhaustive outcome."},
-    "48": {"hint": "Correct and incorrect are opposites on one question.", "help": "P(incorrect) = 1 − 0.65 = **0.35**.\n\nOne attempt → one of the two labels."},
-    "49": {"hint": "Still works is the opposite of running out of ink.", "help": "P(still works) = 1 − 0.08 = **0.92**.\n\nUse complements when only two outcomes are listed."},
-    "50": {"hint": "Purple and orange are the only spinner colours — find what's left.", "help": "P(orange) = 1 − $\\frac{5}{12} = \\frac{7}{12}$.\n\nTwo exhaustive colours must add to 1."},
-    "51": {"hint": "Not fully charged is everything except fully charged.", "help": "P(not fully charged) = 1 − 0.88 = **0.12**.\n\nSubtract from 1 for the complement."},
-    "52": {"hint": "Invalid tickets are all tickets that are not valid.", "help": "P(invalid) = 1 − 0.93 = **0.07**.\n\nValid and invalid split all tickets."},
-    "53": {"hint": "Dry weather is the complement of rain here.", "help": "P(dry) = 1 − 0.22 = **0.78**.\n\nRain and dry cover the picnic hour."},
-    "54": {"hint": "Every letter is vowel or consonant — find the rest after vowels.", "help": "P(consonant) = 1 − 0.4 = **0.6**.\n\nTwo exhaustive types sum to 1."},
-    "55": {"hint": "Not winning that prize is the complement of winning it.", "help": "P(not winning) = 1 − $\\frac{1}{8} = \\frac{7}{8}$.\n\nOne play → win or not win that prize."},
-    "56": {"hint": "Blue socks are whatever share is left after red.", "help": "Only red and blue exist.\n\nP(blue) = 1 − 0.55 = **0.45**.\n\nTwo colours → subtract from 1."},
-    "57": {"hint": "Not early covers late and on-time together.", "help": "P(not early) = 1 − 0.12 = **0.88**.\n\nEarly and not early are exhaustive here."},
-    "58": {"hint": "Not Year 7 is everyone else in the school.", "help": "P(not Year 7) = 1 − $\\frac{2}{9} = \\frac{7}{9}$.\n\nYear group labels are complementary."},
-    "59": {"hint": "Mutually exclusive means add P(A) and P(B) for A or B.", "help": "P(A or B) = 0.25 + 0.33 = **0.58**.\n\nNo overlap → add probabilities."},
-    "60": {"hint": "Rolling 1 and rolling 2 cannot both happen — add their probabilities.", "help": "On a fair dice, P(1) = P(2) = $\\frac{1}{6}$.\n\nP(1 or 2) = $\\frac{1}{6} + \\frac{1}{6} = \\frac{1}{3}$.\n\nUse addition for mutually exclusive outcomes."},
-    "61": {"hint": "At most one pet means cat and dog cannot both apply — add.", "help": "P(cat or dog) = 0.38 + 0.44 = **0.82**.\n\nHouseholds with no pet are the remaining 0.18."},
-    "62": {"hint": "Add the two fractions when A and B cannot overlap.", "help": "P(A or B) = $\\frac{1}{5} + \\frac{2}{5} = \\frac{3}{5}$.\n\nMutually exclusive → sum the probabilities."},
-    "63": {"hint": "Tea and coffee are separate choices — add their probabilities.", "help": "P(tea or coffee) = 0.36 + 0.41 = **0.77**.\n\nSome customers may choose neither drink."},
-    "64": {"hint": "Add 0.15 and 0.22 because both cannot happen together.", "help": "P(A or B) = 0.15 + 0.22 = **0.37**.\n\nUse P(A or B) = P(A) + P(B) when mutually exclusive."},
-    "65": {"hint": "Heads and tails cover every flip — what do they add to?", "help": "P(heads) = P(tails) = $\\frac{1}{2}$.\n\nP(heads or tails) = $\\frac{1}{2} + \\frac{1}{2} = 1$.\n\nExhaustive mutually exclusive pair."},
-    "66": {"hint": "Odd and even split all six dice faces.", "help": "P(odd) = P(even) = $\\frac{1}{2}$ on a fair dice.\n\nP(odd or even) = **1**.\n\nTogether they are exhaustive."},
-    "67": {"hint": "Add all three probabilities when none can happen together.", "help": "P(A or B or C) = 0.19 + 0.28 + 0.13 = **0.6**.\n\nThree mutually exclusive events → sum."},
-    "68": {"hint": "Only A or B can happen — add their probabilities.", "help": "P(A or B) = 0.62 + 0.38 = **1**.\n\nTwo exhaustive sections cover every spin."},
-    "69": {"hint": "Gold and silver medals are different outcomes on one athlete.", "help": "P(gold or silver) = 0.04 + 0.11 = **0.15**.\n\nAdd when at most one medal is won."},
-    "70": {"hint": "Convert two fifths to tenths, then add to three tenths.", "help": "P(banana) = $\\frac{2}{5} = \\frac{4}{10}$.\n\nP(apple or banana) = $\\frac{3}{10} + \\frac{4}{10} = \\frac{7}{10}$.\n\nOne fruit chosen → add."},
-    "71": {"hint": "Small probabilities still add when events cannot overlap.", "help": "P(X or Y) = 0.07 + 0.09 = **0.16**.\n\nMutually exclusive → sum."},
-    "72": {"hint": "Morning and afternoon bookings cover every slot.", "help": "P(morning or afternoon) = 0.44 + 0.56 = **1**.\n\nExhaustive pair of time slots."},
-    "73": {"hint": "Three sweet colours must sum to 1 — subtract the two you know.", "help": "P(pink) = 1 − 0.35 − 0.40 = **0.25**.\n\nExhaustive list → subtract from 1."},
-    "74": {"hint": "Walk, cycle, and car are the only travel modes.", "help": "P(car) = 1 − 0.28 − 0.34 = **0.38**.\n\nThree exhaustive options sum to 1."},
-    "75": {"hint": "Rock, paper, and scissors are the only signs — use a common denominator.", "help": "P(scissors) = 1 − $\\frac{1}{4} − \\frac{1}{3} = 1 − \\frac{3}{12} − \\frac{4}{12} = \\frac{5}{12}$.\n\nThree exhaustive outcomes."},
-    "76": {"hint": "Add vanilla, chocolate, and strawberry, then subtract from 1.", "help": "P(mint) = 1 − 0.18 − 0.27 − 0.31 = **0.24**.\n\nFour flavours cover every scoop."},
-    "77": {"hint": "A, B, C, and D together use all possibilities.", "help": "P(D) = 1 − 0.12 − 0.23 − 0.41 = **0.24**.\n\nFind the missing probability in an exhaustive set."},
-    "78": {"hint": "Grades A–D are the only results — subtract the three given.", "help": "P(D) = 1 − 0.08 − 0.22 − 0.45 = **0.25**.\n\nExhaustive grades sum to 1."},
-    "79": {"hint": "Sunny, cloudy, and rainy are the only weather labels.", "help": "P(rainy) = 1 − 0.52 − 0.31 = **0.17**.\n\nThree exhaustive weather types."},
-    "80": {"hint": "Big, small, or nothing — add the win probabilities and subtract from 1.", "help": "P(nothing) = 1 − 0.02 − 0.08 = **0.9**.\n\nExactly one result per ticket."},
-    "81": {"hint": "Five colours on the spinner — add the four known probabilities.", "help": "P(purple) = 1 − 0.15 − 0.15 − 0.25 − 0.20 = **0.25**.\n\nCheck your subtractions step by step."},
-    "82": {"hint": "French and Spanish fractions leave the rest for German.", "help": "P(German) = 1 − $\\frac{2}{7} − \\frac{3}{7} = \\frac{2}{7}$.\n\nExactly one language → exhaustive."},
-    "83": {"hint": "Milk and dark probabilities leave the white share.", "help": "P(white) = 1 − 0.48 − 0.32 = **0.2**.\n\nThree bar types cover all bars."},
-    "84": {"hint": "Short and medium heights are given — find tall.", "help": "P(tall) = 1 − 0.19 − 0.54 = **0.27**.\n\nThree exclusive height groups."},
-    "85": {"hint": "If only fiction and non-fiction exist, what probability is left?", "help": "P(neither) = 1 − 0.61 − 0.29 = **0.1**.\n\nSome pupils may fit neither reading category."},
-    "86": {"hint": "Only one team wins — subtract the three win probabilities from 1.", "help": "P(D wins) = 1 − 0.15 − 0.25 − 0.30 = **0.3**.\n\nFour teams → four mutually exclusive winners."},
-    "87": {"hint": "Add the three sport counts and subtract from 80.", "help": "Tennis = 80 − 32 − 18 − 14 = **16**.\n\nP(tennis) = $\\frac{16}{80} = \\frac{1}{5}$.\n\nCount first, then divide by total."},
-    "88": {"hint": "Green tickets = total minus red minus blue.", "help": "Green = 150 − 45 − 60 = **45**.\n\nP(green) = $\\frac{45}{150} = 0.3$.\n\nOne colour per ticket."},
-    "89": {"hint": "Subtract pizza, pasta, and curry from 200.", "help": "Salad = 200 − 70 − 55 − 40 = **35**.\n\nP(salad) = $\\frac{35}{200} = 0.175$.\n\nConvert count to probability."},
-    "90": {"hint": "Add red, blue, and yellow beads, then subtract from 96.", "help": "White = 96 − 24 − 36 − 20 = **16**.\n\nP(white) = $\\frac{16}{96} = \\frac{1}{6}$.\n\nSimplify the fraction."},
-    "91": {"hint": "How many pupils cycle if 12 walk and 9 take the bus?", "help": "Cyclists = 30 − 12 − 9 = **9**.\n\nP(cycle) = $\\frac{9}{30} = 0.3$.\n\nDivide by class size."},
-    "92": {"hint": "Abstainers = total voters minus yes minus no.", "help": "Abstain = 240 − 108 − 87 = **45**.\n\nP(abstain) = $\\frac{45}{240} = \\frac{3}{16}$.\n\nSimplify the fraction."},
-    "93": {"hint": "Spades are whatever cards remain after the other suits.", "help": "Spades = 50 − 20 − 15 − 10 = **5**.\n\nP(spades) = $\\frac{5}{50} = 0.1$.\n\nOne suit per card."},
-    "94": {"hint": "Yellow apples fill the gap after green and red counts.", "help": "Yellow = 120 − 48 − 42 = **30**.\n\nP(yellow) = $\\frac{30}{120} = \\frac{1}{4}$.\n\nCheck the total is 120."},
-    "95": {"hint": "Add art, music, and drama numbers, then subtract from 64.", "help": "PE = 64 − 20 − 24 − 12 = **8**.\n\nP(PE) = $\\frac{8}{64} = \\frac{1}{8}$.\n\nEach pupil does one activity."},
-    "96": {"hint": "Comics are the books left after the other genres.", "help": "Comics = 180 − 72 − 63 − 27 = **18**.\n\nP(comics) = $\\frac{18}{180} = 0.1$.\n\nDivide by 180."},
-    "97": {"hint": "Striped marbles = 75 minus the other colour counts.", "help": "Striped = 75 − 15 − 25 − 20 = **15**.\n\nP(striped) = $\\frac{15}{75} = \\frac{1}{5}$.\n\nSimplify."},
-    "98": {"hint": "Mobile pay customers = 110 minus cash minus card.", "help": "Mobile = 110 − 44 − 51 = **15**.\n\nP(mobile) = $\\frac{15}{110} = \\frac{3}{22}$.\n\nReduce the fraction."},
-    "99": {"hint": "Elm seedlings are what is left after oak, birch, and maple.", "help": "Elm = 400 − 160 − 120 − 90 = **30**.\n\nP(elm) = $\\frac{30}{400} = \\frac{3}{40}$.\n\nCheck the sum of counts."},
-    "100": {"hint": "Skipped replies = 250 minus agree, disagree, and neutral.", "help": "Skipped = 250 − 100 − 75 − 45 = **30**.\n\nP(skipped) = $\\frac{30}{250} = \\frac{3}{25}$.\n\nOne category per person."},
-    "101": {"hint": "Does anyone appear in both the football and basketball groups?", "help": "Six pupils play **both** sports.\n\nMutually exclusive means **no overlap**.\n\nAnswer **no** and mention the overlap."},
-    "102": {"hint": "Can one pupil be in the maths-only region and science-only region together?", "help": "**Only maths** and **only science** are separate regions.\n\nOne pupil sits in one region → **yes**, mutually exclusive."},
-    "103": {"hint": "Which dice number is both 2 and prime?", "help": "Rolling **2** counts as rolling a **prime**.\n\nSame roll → **not** mutually exclusive.\n\nUse 2 in your explanation."},
-    "104": {"hint": "Use total = French + German − both to find the overlap.", "help": "Both = 22 + 19 − 30 = **11**.\n\nOverlap ≠ 0 → **not** mutually exclusive."},
-    "105": {"hint": "Try two dice events that cover 1–6 but share some numbers.", "help": "**Exhaustive** = union covers everything.\n\n**Mutually exclusive** = no shared outcomes.\n\nGive overlapping dice events → **false**."},
-    "106": {"hint": "Mutually exclusive means the overlap region must be empty.", "help": "Non-empty overlap → both can happen → **not** mutually exclusive.\n\nExplain that overlap forbids exclusivity."},
-    "107": {"hint": "Think of a red card that is also a face card.", "help": "Red **face** cards exist.\n\nEvents overlap → **not** mutually exclusive."},
-    "108": {"hint": "Add readers of each, then subtract those counted twice (both).", "help": "At least one = 40 + 35 − 15 = **60**.\n\nP = $\\frac{60}{100} = 0.6$.\n\nInclusion–exclusion for overlapping sets."},
-    "109": {"hint": "Exactly one means magazine-only plus newspaper-only.", "help": "Magazine only = 40 − 15 = 25.\n\nNewspaper only = 35 − 15 = 20.\n\nTotal exactly one = 45 → P = **0.45**."},
-    "110": {"hint": "Art or drama = art + drama − both.", "help": "Art or drama = 20 + 18 − 5 = **33**.\n\nP = $\\frac{33}{45}$.\n\nSubtract the overlap once."},
-    "111": {"hint": "Neither = total pupils minus those in art or drama.", "help": "Neither = 45 − 33 = **12**.\n\nP = $\\frac{12}{45} = \\frac{4}{15}$.\n\nOutside both circles."},
-    "112": {"hint": "Can one person wear both a hat and glasses?", "help": "Many people wear **both**.\n\nOverlap exists → **not** mutually exclusive."},
-    "113": {"hint": "Shared area on the diagram means one spin could count twice.", "help": "Overlapping regions → both colours possible on one spin → **not** mutually exclusive."},
-    "114": {"hint": "One chip, one colour — do the counts sum to 80?", "help": "30 + 25 + 25 = 80 → **exhaustive**.\n\nOne colour per chip → **mutually exclusive**.\n\nAnswer **yes** with brief reason."},
-    "115": {"hint": "What happens to outcomes in both A and B if you only add?", "help": "Overlap would be **double-counted** when adding.\n\nMutually exclusive → no overlap → addition works.\n\nWrite why overlap breaks the rule."},
-    "116": {"hint": "P(A and B) = 0 means add P(A) and P(B).", "help": "When **A and B cannot happen together**, P(A or B) = P(A) + P(B).\n\nHere P(A or B) = 0.3 + 0.4 = **0.7**.\n\nZero overlap means you just add the two probabilities."},
-    "117": {"hint": "Exhaustive mutually exclusive pair with equal halves.", "help": "P(A or B) = 0.5 + 0.5 = **1**.\n\nTogether they cover everything."},
-    "118": {"hint": "Add the three probabilities — do you get 1?", "help": "0.2 + 0.35 + 0.45 = **1** → **exhaustive**.\n\nMutually exclusive and sum 1 → full partition."},
-    "119": {"hint": "Can two mutually exclusive probabilities sum to more than 1?", "help": "0.6 + 0.5 = 1.1 > 1 → **impossible** for mutually exclusive events.\n\nAnswer **no**."},
-    "120": {"hint": "If A and B only add to 0.75, is anything else possible?", "help": "0.4 + 0.35 = 0.75 < 1 → **not exhaustive** alone.\n\nOther outcomes must exist."},
-    "121": {"hint": "Add 0.3 + 0.4 + 0.25 — compare with 1.", "help": "Sum = **0.95** ≠ 1.\n\nExhaustive mutually exclusive set must total **1**.\n\nState the error."},
-    "122": {"hint": "Add all three probabilities given.", "help": "0.55 + 0.50 + 0.10 = **1.15** > 1.\n\nProbabilities cannot exceed 1 in total."},
-    "123": {"hint": "One weather label per day — add the three probabilities.", "help": "0.4 + 0.35 + 0.4 = **1.15**.\n\nImpossible total → forecaster error."},
-    "124": {"hint": "Win, lose, and draw should sum to 1 for one match.", "help": "For one football match, win + lose + draw should cover **all** possibilities and sum to **1**.\n\n0.7 + 0.4 + 0.1 = **1.2**, which is impossible.\n\nSpot the error: probabilities cannot add to more than 1."},
-    "125": {"hint": "Multiply 0.26 by 4.", "help": "4 × 0.26 = **1.04** > 1.\n\nFour exhaustive outcomes must sum to **1**."},
-    "126": {"hint": "Complements must add to exactly 1.", "help": "0.33 + 0.66 = **0.99**.\n\nComplement pair should sum to **1** — rounding or error."},
-    "127": {"hint": "Add seven tenths and one quarter.", "help": "$\\frac{7}{10} + \\frac{1}{4} = \\frac{9}{10}$ < 1.\n\nMissing **fail** probability or wrong numbers."},
-    "128": {"hint": "Six times 0.2 equals what?", "help": "6 × 0.2 = **1.2**.\n\nAll six face probabilities must sum to **1** on any dice model."},
-    "129": {"hint": "Find P(walk) = 1 − bus − tram, then multiply by 200.", "help": "P(walk) = 1 − 0.45 − 0.32 = **0.23**.\n\nWalkers ≈ $0.23 \\times 200 = 46$.\n\nProbability then expected count."},
-    "130": {"hint": "Add history and geography fractions; other is what's left.", "help": "P(history or geography) = $\\frac{3}{8} + \\frac{1}{4} = \\frac{5}{8}$.\n\nP(other) = 1 − $\\frac{5}{8} = \\frac{3}{8}$.\n\nCommon denominator 8."},
-    "131": {"hint": "Win + draw + loss = 1.", "help": "P(loss) = 1 − 0.35 − 0.28 = **0.37**.\n\nThree exhaustive results."},
-    "132": {"hint": "P(B) = P(A or B) − P(A) when mutually exclusive.", "help": "P(B) = 0.85 − 0.52 = **0.33**.\n\nSubtract the known part from the or-probability."},
-    "133": {"hint": "Blue is the rest of red-or-blue after red's share.", "help": "P(blue) = 0.71 − 0.29 = **0.42**.\n\nMutually exclusive colours."},
-    "134": {"hint": "Bronze is what's left after gold, silver, and nothing.", "help": "P(bronze) = 1 − 0.55 − 0.05 − 0.15 = **0.25**.\n\nFour exhaustive ticket outcomes."},
-    "135": {"hint": "Chess or coding = chess + coding − both.", "help": "53 out of 90 → P = $\\frac{53}{90}$.\n\nUse 28 + 34 − 9.\n\nOverlap counted once."},
-    "136": {"hint": "Complement: P(A) = 1 − P(not A).", "help": "P(A) = 1 − 0.37 = **0.63**.\n\nEvent and not event split all outcomes."},
-    "137": {"hint": "Add the two fractions — same denominator helps.", "help": "P(A or B) = $\\frac{2}{9} + \\frac{5}{9} = \\frac{7}{9}$.\n\nMutually exclusive → add."},
-    "138": {"hint": "Not red means blue or green on this spinner.", "help": "P(not red) = 1 − 0.22 = **0.78**.\n\nComplement of landing on red."},
-    "139": {"hint": "C gets whatever probability remains after A and B.", "help": "P(C) = 1 − 0.15 − 0.20 = **0.65**.\n\nThree mutually exclusive exhaustive events."},
-    "140": {"hint": "Juice lovers = 120 minus tea minus coffee.", "help": "Juice = 120 − 48 − 42 = **30**.\n\nP(juice) = $\\frac{30}{120} = \\frac{1}{4}$.\n\nExclusive preferences."},
-    "141": {"hint": "Does adding always work when events overlap?", "help": "With overlap, P(A or B) < P(A) + P(B).\n\nAddition rule needs **mutually exclusive** events.\n\nArcher is **wrong**."},
-    "142": {"hint": "If every outcome is listed once, what must probabilities total?", "help": "Exhaustive mutually exclusive list uses each outcome **once**.\n\nProbabilities **always** sum to **1**.\n\nAnswer **always**."},
-    "143": {"hint": "Expected none = P(no prize) × number of tickets.", "help": "P(no prize) = 1 − 0.12 = 0.88.\n\nExpected = $0.88 \\times 500 = 440$.\n\nMultiply probability by trials."},
-    "144": {"hint": "Not chocolate means vanilla or strawberry here.", "help": "P(not chocolate) = 1 − 0.4 = **0.6**.\n\nOne scoop → complement of chocolate."},
-    "145": {"hint": "No overlap — add P(A) and P(B).", "help": "P(A or B) = 0.3 + 0.45 = **0.75**.\n\nDisjoint Venn regions → sum."},
-    "146": {"hint": "Dry is the fourth weather label — subtract the other three from 1.", "help": "P(dry) = 1 − 0.18 − 0.07 − 0.02 = **0.73**.\n\nFour exhaustive weather types."},
-    "147": {"hint": "Do left-handed and right-handed counts cover all 36 pupils with no overlap?", "help": "14 + 22 = 36 and one hand label each → **yes** in this model.\n\nMutually exclusive and exhaustive **here**."},
-    "148": {"hint": "Check each probability is between 0 and 1 and they sum to 1.", "help": "0.25 + 0.35 + 0.40 = **1**.\n\nAll values valid → **yes**, valid model."},
-    "149": {"hint": "Subtract P(A) from P(A or B).", "help": "If **A and B are mutually exclusive**, P(A or B) = P(A) + P(B).\n\nRearrange: P(B) = P(A or B) − P(A) = 0.71 − 0.38 = **0.33**.\n\nCheck that A and B cannot both occur on the same trial."},
-    "150": {"hint": "Find each middle sibling probability, then P(not youngest).", "help": "Middle each = $(1 − 0.15 − 0.25)/2 = 0.30$.\n\nP(not youngest) = 1 − 0.25 = **0.75**.\n\nComplement of youngest."},
-    "151": {"hint": "Yellow spins = 200 minus the other colour totals.", "help": "Yellow = 200 − 50 − 65 − 55 = **30**.\n\nRelative frequency = $\\frac{30}{200} = 0.15$.\n\nData → estimated probability."},
-    "152": {"hint": "Three mutually exclusive faces on a fair dice — add three sixths.", "help": "P(1 or 2 or 3) = $\\frac{1}{6} + \\frac{1}{6} + \\frac{1}{6} = \\frac{1}{2}$.\n\nOne roll → one face."},
-    "153": {"hint": "Use cats + dogs + neither + both = 80.", "help": "Both = 35 + 40 + 15 − 80 = **10**.\n\nInclusion–exclusion for survey counts."},
-    "154": {"hint": "How are A and not A related?", "help": "**Complementary** events: mutually exclusive and exhaustive.\n\nP(A) + P(not A) = 1.\n\nDescribe in your words."},
-    "155": {"hint": "Compare P(A or B) with P(A) + P(B) when overlap exists.", "help": "Overlap counted once in P(A or B) but twice in the sum.\n\nSo P(A or B) ≤ P(A) + P(B) → **true**."},
-    "156": {"hint": "Add three eighths and one quarter, then subtract from 1.", "help": "P(C) = 1 − $\\frac{3}{8} − \\frac{1}{4} = 1 − \\frac{5}{8} = \\frac{3}{8}$.\n\nThree exhaustive outcomes."},
-    "157": {"hint": "Omnivore count = 250 minus the three diet groups.", "help": "Omnivore = 250 − 40 − 55 − 35 = **120**.\n\nP = $\\frac{120}{250} = \\frac{12}{25}$.\n\nOne diet label each."},
-    "158": {"hint": "Add the three prize fractions, then subtract from 1.", "help": "P(none) = 1 − $\\frac{1}{20} − \\frac{3}{20} − \\frac{1}{5} = 1 − \\frac{8}{20} = \\frac{3}{5}$.\n\nConvert $\\frac{1}{5}$ to $\\frac{4}{20}$."},
-    "159": {"hint": "Find two dice events whose union is 1–6 but share a number.", "help": "Example: **greater than 2** and **less than 5** on a dice.\n\nUnion is all rolls but **4** and **3** overlap.\n\nExhaustive but not mutually exclusive."},
-    "160": {"hint": "C is whatever is left after A and B.", "help": "P(C) = 1 − 0.4 − 0.35 = **0.25**.\n\nThree mutually exclusive exhaustive events."},
-    "161": {"hint": "Add the three sport numbers and subtract from 150.", "help": "None = 150 − 60 − 45 − 30 = **15**.\n\nAt most one sport listed."},
-    "162": {"hint": "Not blue means red or green on this spinner.", "help": "**Not blue** means the spinner lands on red or green only.\n\nUse the complement rule: P(not blue) = 1 − P(blue) = 1 − 0.3 = **0.7**.\n\nComplements always add to 1 for an exhaustive pair."},
-    "163": {"hint": "U is the vowel left after A, E, I, O probabilities.", "help": "P(U) = 1 − 0.2 − 0.25 − 0.15 − 0.18 = **0.22**.\n\nFive exhaustive vowel outcomes."},
-    "164": {"hint": "Add fly, drive, and train probabilities.", "help": "0.91 + 0.06 + 0.02 = **0.99** ≠ 1.\n\nMissing 0.01 of probability — data error."},
-    "165": {"hint": "Cyclists = 48 minus bus minus walk.", "help": "Cycle = 48 − 18 − 20 = **10**.\n\nP(cycle) = $\\frac{10}{48} = \\frac{5}{24}$.\n\nSimplify the fraction."},
-    "166": {"hint": "D completes the exhaustive set of four outcomes.", "help": "P(D) = 1 − 0.17 − 0.22 − 0.31 = **0.3**.\n\nFour mutually exclusive labels."},
-    "167": {"hint": "Compute P(C) = 1 − 0.35 − 0.42 and compare with 46/200.", "help": "P(C) = **0.23** and $0.23 \\times 200 = 46$.\n\nMatches **yes**.\n\nShow both steps."},
-    "168": {"hint": "What is 0.5 + 0.5?", "help": "Two events each above 0.5 would sum above **1**.\n\nImpossible for mutually exclusive events → **never**."},
-    "169": {"hint": "Divide each count by 1000.", "help": "P(A) = 0.32, P(B) = 0.41, P(C) = 0.27.\n\nRelative frequencies estimate probabilities."},
-    "170": {"hint": "Set x + 2x + 0.1 = 1 and solve.", "help": "Let P(draw) = x. Then P(win) = 2x and P(lose) = 0.1.\n\nExhaustive outcomes sum to 1: x + 2x + 0.1 = 1 → 3x = 0.9 → x = **0.3**.\n\nSo P(draw) = 0.3, P(win) = 0.6, P(lose) = 0.1."},
-    "171": {"hint": "Spades = 72 minus the other suit counts.", "help": "Spades = 72 − 18 − 20 − 16 = **18**.\n\nP = $\\frac{18}{72} = \\frac{1}{4}$.\n\nOne suit per card."},
-    "172": {"hint": "P(B) = 0.9 − 0.55 for mutually exclusive events.", "help": "When A and B **cannot happen together**, P(A or B) = P(A) + P(B).\n\nYou are told P(A or B) = 0.9 and P(A) = 0.55, so P(B) = 0.9 − 0.55 = **0.35**.\n\nSubtract the smaller probability from the or-probability."},
-    "173": {"hint": "One of four options is correct on a guess.", "help": "P(not correct) = 1 − $\\frac{1}{4} = \\frac{3}{4}$.\n\nComplement of guessing right."},
-    "174": {"hint": "Mail orders = 300 minus the other channel counts.", "help": "Mail = 300 − 120 − 105 − 45 = **30**.\n\nP = $\\frac{30}{300} = 0.1$.\n\nOne channel per customer."},
-    "175": {"hint": "List dice numbers that are odd or prime — is every roll covered?", "help": "**1** is not prime; **4** is even non-prime.\n\nNot all rolls fit → **not exhaustive**.\n\nExplain with examples."},
-    "176": {"hint": "White fraction = 1 − milk − dark; multiply by 200.", "help": "P(white) = 1 − 0.52 − 0.31 = 0.17.\n\nWhite bars ≈ $0.17 \\times 200 = 34$.\n\nProbability to count."},
-    "177": {"hint": "Third outcome needs at least 1 − 0.44 − 0.39.", "help": "Minimum P(C) = 1 − 0.44 − 0.39 = **0.17**.\n\nExhaustive three-way split."},
-    "178": {"hint": "Jazz or rock = jazz + rock − both.", "help": "39 out of 55 → P = $\\frac{39}{55}$.\n\nUse 22 + 25 − 8.\n\nOverlap once."},
-    "179": {"hint": "D grade probability = 1 minus A, B, C.", "help": "P(D) = 1 − 0.12 − 0.28 − 0.35 = **0.25**.\n\nFour exhaustive grades."},
-    "180": {"hint": "Add the four given probabilities.", "help": "0.08 + 0.12 + 0.25 + 0.55 = **1**.\n\nValid exhaustive set → **true**."},
-    "181": {"hint": "Cyclists = 400 minus walk, bus, and car.", "help": "Cycle = 400 − 160 − 140 − 72 = **28**.\n\nP = $\\frac{28}{400} = 0.07$.\n\nOne transport mode each."},
-    "182": {"hint": "Add one sixth and one third with a common denominator.", "help": "P(A or B) = $\\frac{1}{6} + \\frac{1}{3} = \\frac{1}{6} + \\frac{2}{6} = \\frac{1}{2}$.\n\nMutually exclusive."},
-    "183": {"hint": "Concession tickets = 90 minus adult minus child.", "help": "Concession = 90 − 54 − 27 = **9**.\n\nP = $\\frac{9}{90} = 0.1$.\n\nOne ticket type each."},
-    "184": {"hint": "Snow probability = rain-or-snow minus rain.", "help": "P(snow) = 0.31 − 0.22 = **0.09**.\n\nMutually exclusive weather types."},
-    "185": {"hint": "Exactly one = biology-only plus chemistry-only.", "help": "Bio only = 110 − 40 = 70.\n\nChem only = 95 − 40 = 55.\n\nTotal 125 → P = $\\frac{125}{250} = 0.5$."},
-    "186": {"hint": "Do 0.26 and 0.74 add to 1?", "help": "0.26 + 0.74 = **1** → complementary exhaustive pair.\n\nExplain **yes**."},
-    "187": {"hint": "X or Z means add P(X) and P(Z) — no Y overlap.", "help": "**X, Y, and Z** are mutually exclusive labels on one pick.\n\nFor **X or Z**, add only those two probabilities: 0.18 + 0.55 = **0.73**.\n\nYou do not include Y because the event is not \"Y\"."},
-    "188": {"hint": "Check 60 + 70 + 20 + 30 = 180, then divide both by 180.", "help": "Counts sum to **180**.\n\nP(both) = $\\frac{20}{180} = \\frac{1}{9}$.\n\nVerify total first."},
-    "189": {"hint": "Paid downloads are the complement of free.", "help": "P(paid) = 1 − 0.88 = **0.12**.\n\nFree or paid covers all downloads."},
-    "190": {"hint": "Do complements multiply to 0 or add to 1?", "help": "Complements **add** to 1, not multiply to 0.\n\nExample: 0.3 and 0.7 → product 0.21.\n\nAnswer **false**."},
-    "191": {"hint": "Flowering or fruiting = flower + fruit − both.", "help": "260 out of 320 → P = $\\frac{260}{320} = \\frac{13}{16}$.\n\nUse 200 + 150 − 90."},
-    "192": {"hint": "P(6) = 1 minus the sum of P(1) through P(5).", "help": "Sum of first five = 0.75.\n\nP(6) = **0.25**.\n\nSix faces exhaustive."},
-    "193": {"hint": "Spoiled ballots = 500 minus yes minus no.", "help": "Spoiled = 500 − 220 − 180 = **100**.\n\nP = $\\frac{100}{500} = 0.2$.\n\nOne outcome per ballot."},
-    "194": {"hint": "B is everything that is not A when they are exhaustive.", "help": "If **A and B are the only two outcomes** and they cannot happen together, they are complementary.\n\nP(B) = 1 − P(A) = 1 − 0.63 = **0.37**.\n\nComplementary pairs always sum to 1."},
-    "195": {"hint": "How many results can one lottery ticket have?", "help": "One ticket → **one** outcome.\n\nWin and lose cannot both happen and cover all cases.\n\nMutually exclusive and exhaustive."},
-    "196": {"hint": "Add favourable outcomes for A and B, divide by 64.", "help": "A or B = 20 + 24 = 44 outcomes.\n\nP = $\\frac{44}{64} = \\frac{11}{16}$.\n\nMutually exclusive → add counts."},
-    "197": {"hint": "Add cat and dog probabilities — what's left?", "help": "P(no pet) = 1 − 0.42 − 0.38 = **0.2**.\n\nOne pet or none at most."},
-    "198": {"hint": "Winter fans = 400 minus the other season counts.", "help": "Winter = 400 − 90 − 130 − 80 = **100**.\n\nP = $\\frac{100}{400} = 0.25$.\n\nOne favourite season each."},
-    "199": {"hint": "D is the fourth outcome — subtract A, B, C from 1.", "help": "P(D) = 1 − 0.11 − 0.14 − 0.22 = **0.53**.\n\nFour exhaustive mutually exclusive outcomes."},
-    "200": {"hint": "Minibus share = 1 − coach − train; one pupil, one transport.", "help": "P(minibus) = 1 − 0.48 − 0.31 = **0.21**.\n\nThree labels are **mutually exclusive** (one mode) and **exhaustive** (no other mode).\n\nState both ideas clearly."}
+    "45": {
+      "hint": "Bus and walk are the only options — subtract 0.76 from 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Two **complementary** options use all pupils.\n2. P(walks) = 1 − 0.76 = **0.24**.\n3. Try the same idea when only two opposite outcomes exist."
+    },
+    "46": {
+      "hint": "Flowering and not flowering split the season completely.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Either the plant flowers or it does not — no third result.\n2. P(does not flower) = 1 − 0.41 = **0.59**.\n3. Complements always sum to 1."
+    },
+    "47": {
+      "hint": "If our team does not score first, who must?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Exactly one team scores first.\n2. P(opponents first) = 1 − $\\frac{3}{7} = \\frac{4}{7}$.\n3. Subtract from 1 for the other exhaustive [outcome](mtlearn:word/outcome)."
+    },
+    "48": {
+      "hint": "Correct and incorrect are opposites on one question.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(incorrect) = 1 − 0.65 = **0.35**.\n2. One attempt → one of the two labels."
+    },
+    "49": {
+      "hint": "Still works is the opposite of running out of ink.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(still works) = 1 − 0.08 = **0.92**.\n2. Use complements when only two outcomes are listed."
+    },
+    "50": {
+      "hint": "Purple and orange are the only spinner colours — find what's left.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(orange) = 1 − $\\frac{5}{12} = \\frac{7}{12}$.\n2. Two exhaustive colours must add to 1."
+    },
+    "51": {
+      "hint": "Not fully charged is everything except fully charged.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(not fully charged) = 1 − 0.88 = **0.12**.\n2. Subtract from 1 for the complement."
+    },
+    "52": {
+      "hint": "Invalid tickets are all tickets that are not valid.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(invalid) = 1 − 0.93 = **0.07**.\n2. Valid and invalid split all tickets."
+    },
+    "53": {
+      "hint": "Dry weather is the complement of rain here.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(dry) = 1 − 0.22 = **0.78**.\n2. Rain and dry cover the picnic hour."
+    },
+    "54": {
+      "hint": "Every letter is vowel or consonant — find the rest after vowels.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(consonant) = 1 − 0.4 = **0.6**.\n2. Two exhaustive types sum to 1."
+    },
+    "55": {
+      "hint": "Not winning that prize is the complement of winning it.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(not winning) = 1 − $\\frac{1}{8} = \\frac{7}{8}$.\n2. One play → win or not win that prize."
+    },
+    "56": {
+      "hint": "Blue socks are whatever share is left after red.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Only red and blue exist.\n2. P(blue) = 1 − 0.55 = **0.45**.\n3. Two colours → subtract from 1."
+    },
+    "57": {
+      "hint": "Not early covers late and on-time together.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(not early) = 1 − 0.12 = **0.88**.\n2. Early and not early are exhaustive here."
+    },
+    "58": {
+      "hint": "Not Year 7 is everyone else in the school.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(not Year 7) = 1 − $\\frac{2}{9} = \\frac{7}{9}$.\n2. Year group labels are complementary."
+    },
+    "59": {
+      "hint": "Mutually exclusive means add P(A) and P(B) for A or B.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B) = 0.25 + 0.33 = **0.58**.\n2. No overlap → add probabilities."
+    },
+    "60": {
+      "hint": "Rolling 1 and rolling 2 cannot both happen — add their probabilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. On a [fair](mtlearn:word/fair) dice, P(1) = P(2) = $\\frac{1}{6}$.\n2. P(1 or 2) = $\\frac{1}{6} + \\frac{1}{6} = \\frac{1}{3}$.\n3. Use addition for mutually exclusive outcomes."
+    },
+    "61": {
+      "hint": "At most one pet means cat and dog cannot both apply — add.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(cat or dog) = 0.38 + 0.44 = **0.82**.\n2. Households with no pet are the remaining 0.18."
+    },
+    "62": {
+      "hint": "Add the two fractions when A and B cannot overlap.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B) = $\\frac{1}{5} + \\frac{2}{5} = \\frac{3}{5}$.\n2. Mutually exclusive → sum the probabilities."
+    },
+    "63": {
+      "hint": "Tea and coffee are separate choices — add their probabilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(tea or coffee) = 0.36 + 0.41 = **0.77**.\n2. Some customers may choose neither drink."
+    },
+    "64": {
+      "hint": "Add 0.15 and 0.22 because both cannot happen together.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B) = 0.15 + 0.22 = **0.37**.\n2. Use P(A or B) = P(A) + P(B) when mutually exclusive."
+    },
+    "65": {
+      "hint": "Heads and tails cover every flip — what do they add to?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(heads) = P(tails) = $\\frac{1}{2}$.\n2. P(heads or tails) = $\\frac{1}{2} + \\frac{1}{2} = 1$.\n3. Exhaustive mutually exclusive pair."
+    },
+    "66": {
+      "hint": "Odd and even split all six dice faces.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(odd) = P(even) = $\\frac{1}{2}$ on a [fair](mtlearn:word/fair) dice.\n2. P(odd or even) = **1**.\n3. Together they are exhaustive."
+    },
+    "67": {
+      "hint": "Add all three probabilities when none can happen together.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B or C) = 0.19 + 0.28 + 0.13 = **0.6**.\n2. Three mutually exclusive events → sum."
+    },
+    "68": {
+      "hint": "Only A or B can happen — add their probabilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B) = 0.62 + 0.38 = **1**.\n2. Two exhaustive sections cover every spin."
+    },
+    "69": {
+      "hint": "Gold and silver medals are different outcomes on one athlete.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(gold or silver) = 0.04 + 0.11 = **0.15**.\n2. Add when at most one medal is won."
+    },
+    "70": {
+      "hint": "Convert two fifths to tenths, then add to three tenths.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(banana) = $\\frac{2}{5} = \\frac{4}{10}$.\n2. P(apple or banana) = $\\frac{3}{10} + \\frac{4}{10} = \\frac{7}{10}$.\n3. One fruit chosen → add."
+    },
+    "71": {
+      "hint": "Small probabilities still add when events cannot overlap.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(X or Y) = 0.07 + 0.09 = **0.16**.\n2. Mutually exclusive → sum."
+    },
+    "72": {
+      "hint": "Morning and afternoon bookings cover every slot.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(morning or afternoon) = 0.44 + 0.56 = **1**.\n2. Exhaustive pair of time slots."
+    },
+    "73": {
+      "hint": "Three sweet colours must sum to 1 — subtract the two you know.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(pink) = 1 − 0.35 − 0.40 = **0.25**.\n2. Exhaustive list → subtract from 1."
+    },
+    "74": {
+      "hint": "Walk, cycle, and car are the only travel modes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(car) = 1 − 0.28 − 0.34 = **0.38**.\n2. Three exhaustive options sum to 1."
+    },
+    "75": {
+      "hint": "Rock, paper, and scissors are the only signs — use a common denominator.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(scissors) = 1 − $\\frac{1}{4} − \\frac{1}{3} = 1 − \\frac{3}{12} − \\frac{4}{12} = \\frac{5}{12}$.\n2. Three exhaustive outcomes."
+    },
+    "76": {
+      "hint": "Add vanilla, chocolate, and strawberry, then subtract from 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(mint) = 1 − 0.18 − 0.27 − 0.31 = **0.24**.\n2. Four flavours cover every scoop."
+    },
+    "77": {
+      "hint": "A, B, C, and D together use all possibilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(D) = 1 − 0.12 − 0.23 − 0.41 = **0.24**.\n2. Find the missing [probability](mtlearn:word/probability) in an exhaustive set."
+    },
+    "78": {
+      "hint": "Grades A–D are the only results — subtract the three given.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(D) = 1 − 0.08 − 0.22 − 0.45 = **0.25**.\n2. Exhaustive grades sum to 1."
+    },
+    "79": {
+      "hint": "Sunny, cloudy, and rainy are the only weather labels.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(rainy) = 1 − 0.52 − 0.31 = **0.17**.\n2. Three exhaustive weather types."
+    },
+    "80": {
+      "hint": "Big, small, or nothing — add the win probabilities and subtract from 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(nothing) = 1 − 0.02 − 0.08 = **0.9**.\n2. Exactly one result per ticket."
+    },
+    "81": {
+      "hint": "Five colours on the spinner — add the four known probabilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(purple) = 1 − 0.15 − 0.15 − 0.25 − 0.20 = **0.25**.\n2. Check your subtractions step by step."
+    },
+    "82": {
+      "hint": "French and Spanish fractions leave the rest for German.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(German) = 1 − $\\frac{2}{7} − \\frac{3}{7} = \\frac{2}{7}$.\n2. Exactly one language → exhaustive."
+    },
+    "83": {
+      "hint": "Milk and dark probabilities leave the white share.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(white) = 1 − 0.48 − 0.32 = **0.2**.\n2. Three bar types cover all bars."
+    },
+    "84": {
+      "hint": "Short and medium heights are given — find tall.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(tall) = 1 − 0.19 − 0.54 = **0.27**.\n2. Three exclusive height groups."
+    },
+    "85": {
+      "hint": "If only fiction and non-fiction exist, what probability is left?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(neither) = 1 − 0.61 − 0.29 = **0.1**.\n2. Some pupils may fit neither reading category."
+    },
+    "86": {
+      "hint": "Only one team wins — subtract the three win probabilities from 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(D wins) = 1 − 0.15 − 0.25 − 0.30 = **0.3**.\n2. Four teams → four mutually exclusive winners."
+    },
+    "87": {
+      "hint": "Add the three sport counts and subtract from 80.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Tennis = 80 − 32 − 18 − 14 = **16**.\n2. P(tennis) = $\\frac{16}{80} = \\frac{1}{5}$.\n3. Count first, then divide by total."
+    },
+    "88": {
+      "hint": "Green tickets = total minus red minus blue.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Green = 150 − 45 − 60 = **45**.\n2. P(green) = $\\frac{45}{150} = 0.3$.\n3. One colour per ticket."
+    },
+    "89": {
+      "hint": "Subtract pizza, pasta, and curry from 200.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Salad = 200 − 70 − 55 − 40 = **35**.\n2. P(salad) = $\\frac{35}{200} = 0.175$.\n3. Convert count to [probability](mtlearn:word/probability)."
+    },
+    "90": {
+      "hint": "Add red, blue, and yellow beads, then subtract from 96.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. White = 96 − 24 − 36 − 20 = **16**.\n2. P(white) = $\\frac{16}{96} = \\frac{1}{6}$.\n3. Simplify the fraction."
+    },
+    "91": {
+      "hint": "How many pupils cycle if 12 walk and 9 take the bus?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Cyclists = 30 − 12 − 9 = **9**.\n2. P(cycle) = $\\frac{9}{30} = 0.3$.\n3. Divide by class size."
+    },
+    "92": {
+      "hint": "Abstainers = total voters minus yes minus no.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Abstain = 240 − 108 − 87 = **45**.\n2. P(abstain) = $\\frac{45}{240} = \\frac{3}{16}$.\n3. Simplify the fraction."
+    },
+    "93": {
+      "hint": "Spades are whatever cards remain after the other suits.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Spades = 50 − 20 − 15 − 10 = **5**.\n2. P(spades) = $\\frac{5}{50} = 0.1$.\n3. One suit per card."
+    },
+    "94": {
+      "hint": "Yellow apples fill the gap after green and red counts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Yellow = 120 − 48 − 42 = **30**.\n2. P(yellow) = $\\frac{30}{120} = \\frac{1}{4}$.\n3. Check the total is 120."
+    },
+    "95": {
+      "hint": "Add art, music, and drama numbers, then subtract from 64.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. PE = 64 − 20 − 24 − 12 = **8**.\n2. P(PE) = $\\frac{8}{64} = \\frac{1}{8}$.\n3. Each pupil does one activity."
+    },
+    "96": {
+      "hint": "Comics are the books left after the other genres.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Comics = 180 − 72 − 63 − 27 = **18**.\n2. P(comics) = $\\frac{18}{180} = 0.1$.\n3. Divide by 180."
+    },
+    "97": {
+      "hint": "Striped marbles = 75 minus the other colour counts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Striped = 75 − 15 − 25 − 20 = **15**.\n2. P(striped) = $\\frac{15}{75} = \\frac{1}{5}$.\n3. Simplify."
+    },
+    "98": {
+      "hint": "Mobile pay customers = 110 minus cash minus card.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Mobile = 110 − 44 − 51 = **15**.\n2. P(mobile) = $\\frac{15}{110} = \\frac{3}{22}$.\n3. Reduce the fraction."
+    },
+    "99": {
+      "hint": "Elm seedlings are what is left after oak, birch, and maple.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Elm = 400 − 160 − 120 − 90 = **30**.\n2. P(elm) = $\\frac{30}{400} = \\frac{3}{40}$.\n3. Check the sum of counts."
+    },
+    "100": {
+      "hint": "Skipped replies = 250 minus agree, disagree, and neutral.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Skipped = 250 − 100 − 75 − 45 = **30**.\n2. P(skipped) = $\\frac{30}{250} = \\frac{3}{25}$.\n3. One category per person."
+    },
+    "101": {
+      "hint": "Does anyone appear in both the football and basketball groups?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Six pupils play **both** sports.\n2. Mutually exclusive means **no overlap**.\n3. Answer **no** and mention the overlap."
+    },
+    "102": {
+      "hint": "Can one pupil be in the maths-only region and science-only region together?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. **Only maths** and **only science** are separate regions.\n2. One pupil sits in one region → **yes**, mutually exclusive."
+    },
+    "103": {
+      "hint": "Which dice number is both 2 and prime?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Rolling **2** counts as rolling a **prime**.\n2. Same roll → **not** mutually exclusive.\n3. Use 2 in your explanation."
+    },
+    "104": {
+      "hint": "Use total = French + German − both to find the overlap.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Both = 22 + 19 − 30 = **11**.\n2. Overlap ≠ 0 → **not** mutually exclusive."
+    },
+    "105": {
+      "hint": "Try two dice events that cover 1–6 but share some numbers.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. **Exhaustive** = union covers everything.\n2. **Mutually exclusive** = no shared outcomes.\n3. Give overlapping dice events → **false**."
+    },
+    "106": {
+      "hint": "Mutually exclusive means the overlap region must be empty.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Non-empty overlap → both can happen → **not** mutually exclusive.\n2. Explain that overlap forbids exclusivity."
+    },
+    "107": {
+      "hint": "Think of a red card that is also a face card.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Red **face** cards exist.\n2. Events overlap → **not** mutually exclusive."
+    },
+    "108": {
+      "hint": "Add readers of each, then subtract those counted twice (both).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. At least one = 40 + 35 − 15 = **60**.\n2. P = $\\frac{60}{100} = 0.6$.\n3. Inclusion–exclusion for overlapping sets."
+    },
+    "109": {
+      "hint": "Exactly one means magazine-only plus newspaper-only.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Magazine only = 40 − 15 = 25.\n2. Newspaper only = 35 − 15 = 20.\n3. Total exactly one = 45 → P = **0.45**."
+    },
+    "110": {
+      "hint": "Art or drama = art + drama − both.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Art or drama = 20 + 18 − 5 = **33**.\n2. P = $\\frac{33}{45}$.\n3. Subtract the overlap once."
+    },
+    "111": {
+      "hint": "Neither = total pupils minus those in art or drama.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Neither = 45 − 33 = **12**.\n2. P = $\\frac{12}{45} = \\frac{4}{15}$.\n3. Outside both circles."
+    },
+    "112": {
+      "hint": "Can one person wear both a hat and glasses?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Many people wear **both**.\n2. Overlap exists → **not** mutually exclusive."
+    },
+    "113": {
+      "hint": "Shared area on the diagram means one spin could count twice.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Overlapping regions → both colours possible on one spin → **not** mutually exclusive.\n2. Use the numbers in the question to finish your answer."
+    },
+    "114": {
+      "hint": "One chip, one colour — do the counts sum to 80?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 30 + 25 + 25 = 80 → **exhaustive**.\n2. One colour per chip → **mutually exclusive**.\n3. Answer **yes** with brief reason."
+    },
+    "115": {
+      "hint": "What happens to outcomes in both A and B if you only add?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Overlap would be **double-counted** when adding.\n2. Mutually exclusive → no overlap → addition works.\n3. Write why overlap breaks the rule."
+    },
+    "116": {
+      "hint": "P(A and B) = 0 means add P(A) and P(B).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. When **A and B cannot happen together**, P(A or B) = P(A) + P(B).\n2. Here P(A or B) = 0.3 + 0.4 = **0.7**.\n3. Zero overlap means you just add the two probabilities."
+    },
+    "117": {
+      "hint": "Exhaustive mutually exclusive pair with equal halves.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B) = 0.5 + 0.5 = **1**.\n2. Together they cover everything."
+    },
+    "118": {
+      "hint": "Add the three probabilities — do you get 1?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.2 + 0.35 + 0.45 = **1** → **exhaustive**.\n2. Mutually exclusive and sum 1 → full partition."
+    },
+    "119": {
+      "hint": "Can two mutually exclusive probabilities sum to more than 1?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.6 + 0.5 = 1.1 > 1 → **impossible** for mutually exclusive events.\n2. Answer **no**."
+    },
+    "120": {
+      "hint": "If A and B only add to 0.75, is anything else possible?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.4 + 0.35 = 0.75 < 1 → **not exhaustive** alone.\n2. Other outcomes must exist."
+    },
+    "121": {
+      "hint": "Add 0.3 + 0.4 + 0.25 — compare with 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Sum = **0.95** ≠ 1.\n2. Exhaustive mutually exclusive set must total **1**.\n3. State the error."
+    },
+    "122": {
+      "hint": "Add all three probabilities given.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.55 + 0.50 + 0.10 = **1.15** > 1.\n2. Probabilities cannot exceed 1 in total."
+    },
+    "123": {
+      "hint": "One weather label per day — add the three probabilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.4 + 0.35 + 0.4 = **1.15**.\n2. Impossible total → forecaster error."
+    },
+    "124": {
+      "hint": "Win, lose, and draw should sum to 1 for one match.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. For one football match, win + lose + draw should cover **all** possibilities and sum to **1**.\n2. 0.7 + 0.4 + 0.1 = **1.2**, which is impossible.\n3. Spot the error: probabilities cannot add to more than 1."
+    },
+    "125": {
+      "hint": "Multiply 0.26 by 4.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 4 × 0.26 = **1.04** > 1.\n2. Four exhaustive outcomes must sum to **1**."
+    },
+    "126": {
+      "hint": "Complements must add to exactly 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.33 + 0.66 = **0.99**.\n2. Complement pair should sum to **1** — rounding or error."
+    },
+    "127": {
+      "hint": "Add seven tenths and one quarter.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. $\\frac{7}{10} + \\frac{1}{4} = \\frac{9}{10}$ < 1.\n2. Missing **fail** [probability](mtlearn:word/probability) or wrong numbers."
+    },
+    "128": {
+      "hint": "Six times 0.2 equals what?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 6 × 0.2 = **1.2**.\n2. All six face probabilities must sum to **1** on any dice model."
+    },
+    "129": {
+      "hint": "Find P(walk) = 1 − bus − tram, then multiply by 200.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(walk) = 1 − 0.45 − 0.32 = **0.23**.\n2. Walkers ≈ $0.23 \\times 200 = 46$.\n3. [Probability](mtlearn:word/probability) then expected count."
+    },
+    "130": {
+      "hint": "Add history and geography fractions; other is what's left.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(history or geography) = $\\frac{3}{8} + \\frac{1}{4} = \\frac{5}{8}$.\n2. P(other) = 1 − $\\frac{5}{8} = \\frac{3}{8}$.\n3. Common denominator 8."
+    },
+    "131": {
+      "hint": "Win + draw + loss = 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(loss) = 1 − 0.35 − 0.28 = **0.37**.\n2. Three exhaustive results."
+    },
+    "132": {
+      "hint": "P(B) = P(A or B) − P(A) when mutually exclusive.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(B) = 0.85 − 0.52 = **0.33**.\n2. Subtract the known part from the or-[probability](mtlearn:word/probability)."
+    },
+    "133": {
+      "hint": "Blue is the rest of red-or-blue after red's share.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(blue) = 0.71 − 0.29 = **0.42**.\n2. Mutually exclusive colours."
+    },
+    "134": {
+      "hint": "Bronze is what's left after gold, silver, and nothing.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(bronze) = 1 − 0.55 − 0.05 − 0.15 = **0.25**.\n2. Four exhaustive ticket outcomes."
+    },
+    "135": {
+      "hint": "Chess or coding = chess + coding − both.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 53 out of 90 → P = $\\frac{53}{90}$.\n2. Use 28 + 34 − 9.\n3. Overlap counted once."
+    },
+    "136": {
+      "hint": "Complement: P(A) = 1 − P(not A).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A) = 1 − 0.37 = **0.63**.\n2. Event and not event split all outcomes."
+    },
+    "137": {
+      "hint": "Add the two fractions — same denominator helps.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B) = $\\frac{2}{9} + \\frac{5}{9} = \\frac{7}{9}$.\n2. Mutually exclusive → add."
+    },
+    "138": {
+      "hint": "Not red means blue or green on this spinner.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(not red) = 1 − 0.22 = **0.78**.\n2. Complement of landing on red."
+    },
+    "139": {
+      "hint": "C gets whatever probability remains after A and B.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(C) = 1 − 0.15 − 0.20 = **0.65**.\n2. Three mutually exclusive exhaustive events."
+    },
+    "140": {
+      "hint": "Juice lovers = 120 minus tea minus coffee.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Juice = 120 − 48 − 42 = **30**.\n2. P(juice) = $\\frac{30}{120} = \\frac{1}{4}$.\n3. Exclusive preferences."
+    },
+    "141": {
+      "hint": "Does adding always work when events overlap?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. With overlap, P(A or B) < P(A) + P(B).\n2. Addition rule needs **mutually exclusive** events.\n3. Archer is **wrong**."
+    },
+    "142": {
+      "hint": "If every outcome is listed once, what must probabilities total?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Exhaustive mutually exclusive list uses each [outcome](mtlearn:word/outcome) **once**.\n2. Probabilities **always** sum to **1**.\n3. Answer **always**."
+    },
+    "143": {
+      "hint": "Expected none = P(no prize) × number of tickets.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(no prize) = 1 − 0.12 = 0.88.\n2. Expected = $0.88 \\times 500 = 440$.\n3. Multiply [probability](mtlearn:word/probability) by trials."
+    },
+    "144": {
+      "hint": "Not chocolate means vanilla or strawberry here.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(not chocolate) = 1 − 0.4 = **0.6**.\n2. One scoop → complement of chocolate."
+    },
+    "145": {
+      "hint": "No overlap — add P(A) and P(B).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B) = 0.3 + 0.45 = **0.75**.\n2. Disjoint Venn regions → sum."
+    },
+    "146": {
+      "hint": "Dry is the fourth weather label — subtract the other three from 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(dry) = 1 − 0.18 − 0.07 − 0.02 = **0.73**.\n2. Four exhaustive weather types."
+    },
+    "147": {
+      "hint": "Do left-handed and right-handed counts cover all 36 pupils with no overlap?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 14 + 22 = 36 and one hand label each → **yes** in this model.\n2. Mutually exclusive and exhaustive **here**."
+    },
+    "148": {
+      "hint": "Check each probability is between 0 and 1 and they sum to 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.25 + 0.35 + 0.40 = **1**.\n2. All values valid → **yes**, valid model."
+    },
+    "149": {
+      "hint": "Subtract P(A) from P(A or B).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. If **A and B are mutually exclusive**, P(A or B) = P(A) + P(B).\n2. Rearrange: P(B) = P(A or B) − P(A) = 0.71 − 0.38 = **0.33**.\n3. Check that A and B cannot both occur on the same trial."
+    },
+    "150": {
+      "hint": "Find each middle sibling probability, then P(not youngest).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Middle each = $(1 − 0.15 − 0.25)/2 = 0.30$.\n2. P(not youngest) = 1 − 0.25 = **0.75**.\n3. Complement of youngest."
+    },
+    "151": {
+      "hint": "Yellow spins = 200 minus the other colour totals.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Yellow = 200 − 50 − 65 − 55 = **30**.\n2. Relative frequency = $\\frac{30}{200} = 0.15$.\n3. Data → estimated [probability](mtlearn:word/probability)."
+    },
+    "152": {
+      "hint": "Three mutually exclusive faces on a fair dice — add three sixths.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(1 or 2 or 3) = $\\frac{1}{6} + \\frac{1}{6} + \\frac{1}{6} = \\frac{1}{2}$.\n2. One roll → one face."
+    },
+    "153": {
+      "hint": "Use cats + dogs + neither + both = 80.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Both = 35 + 40 + 15 − 80 = **10**.\n2. Inclusion–exclusion for survey counts."
+    },
+    "154": {
+      "hint": "How are A and not A related?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. **Complementary** events: mutually exclusive and exhaustive.\n2. P(A) + P(not A) = 1.\n3. Describe in your words."
+    },
+    "155": {
+      "hint": "Compare P(A or B) with P(A) + P(B) when overlap exists.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Overlap counted once in P(A or B) but twice in the sum.\n2. So P(A or B) ≤ P(A) + P(B) → **true**."
+    },
+    "156": {
+      "hint": "Add three eighths and one quarter, then subtract from 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(C) = 1 − $\\frac{3}{8} − \\frac{1}{4} = 1 − \\frac{5}{8} = \\frac{3}{8}$.\n2. Three exhaustive outcomes."
+    },
+    "157": {
+      "hint": "Omnivore count = 250 minus the three diet groups.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Omnivore = 250 − 40 − 55 − 35 = **120**.\n2. P = $\\frac{120}{250} = \\frac{12}{25}$.\n3. One diet label each."
+    },
+    "158": {
+      "hint": "Add the three prize fractions, then subtract from 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(none) = 1 − $\\frac{1}{20} − \\frac{3}{20} − \\frac{1}{5} = 1 − \\frac{8}{20} = \\frac{3}{5}$.\n2. Convert $\\frac{1}{5}$ to $\\frac{4}{20}$."
+    },
+    "159": {
+      "hint": "Find two dice events whose union is 1–6 but share a number.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Example: **greater than 2** and **less than 5** on a dice.\n2. Union is all rolls but **4** and **3** overlap.\n3. Exhaustive but not mutually exclusive."
+    },
+    "160": {
+      "hint": "C is whatever is left after A and B.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(C) = 1 − 0.4 − 0.35 = **0.25**.\n2. Three mutually exclusive exhaustive events."
+    },
+    "161": {
+      "hint": "Add the three sport numbers and subtract from 150.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. None = 150 − 60 − 45 − 30 = **15**.\n2. At most one sport listed."
+    },
+    "162": {
+      "hint": "Not blue means red or green on this spinner.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. **Not blue** means the spinner lands on red or green only.\n2. Use the complement rule: P(not blue) = 1 − P(blue) = 1 − 0.3 = **0.7**.\n3. Complements always add to 1 for an exhaustive pair."
+    },
+    "163": {
+      "hint": "U is the vowel left after A, E, I, O probabilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(U) = 1 − 0.2 − 0.25 − 0.15 − 0.18 = **0.22**.\n2. Five exhaustive vowel outcomes."
+    },
+    "164": {
+      "hint": "Add fly, drive, and train probabilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.91 + 0.06 + 0.02 = **0.99** ≠ 1.\n2. Missing 0.01 of [probability](mtlearn:word/probability) — data error."
+    },
+    "165": {
+      "hint": "Cyclists = 48 minus bus minus walk.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Cycle = 48 − 18 − 20 = **10**.\n2. P(cycle) = $\\frac{10}{48} = \\frac{5}{24}$.\n3. Simplify the fraction."
+    },
+    "166": {
+      "hint": "D completes the exhaustive set of four outcomes.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(D) = 1 − 0.17 − 0.22 − 0.31 = **0.3**.\n2. Four mutually exclusive labels."
+    },
+    "167": {
+      "hint": "Compute P(C) = 1 − 0.35 − 0.42 and compare with 46/200.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(C) = **0.23** and $0.23 \\times 200 = 46$.\n2. Matches **yes**.\n3. Show both steps."
+    },
+    "168": {
+      "hint": "What is 0.5 + 0.5?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Two events each above 0.5 would sum above **1**.\n2. Impossible for mutually exclusive events → **never**."
+    },
+    "169": {
+      "hint": "Divide each count by 1000.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A) = 0.32, P(B) = 0.41, P(C) = 0.27.\n2. Relative frequencies estimate probabilities."
+    },
+    "170": {
+      "hint": "Set x + 2x + 0.1 = 1 and solve.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Let P(draw) = x. Then P(win) = 2x and P(lose) = 0.1.\n2. Exhaustive outcomes sum to 1: x + 2x + 0.1 = 1 → 3x = 0.9 → x = **0.3**.\n3. So P(draw) = 0.3, P(win) = 0.6, P(lose) = 0.1."
+    },
+    "171": {
+      "hint": "Spades = 72 minus the other suit counts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Spades = 72 − 18 − 20 − 16 = **18**.\n2. P = $\\frac{18}{72} = \\frac{1}{4}$.\n3. One suit per card."
+    },
+    "172": {
+      "hint": "P(B) = 0.9 − 0.55 for mutually exclusive events.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. When A and B **cannot happen together**, P(A or B) = P(A) + P(B).\n2. You are told P(A or B) = 0.9 and P(A) = 0.55, so P(B) = 0.9 − 0.55 = **0.35**.\n3. Subtract the smaller [probability](mtlearn:word/probability) from the or-probability."
+    },
+    "173": {
+      "hint": "One of four options is correct on a guess.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(not correct) = 1 − $\\frac{1}{4} = \\frac{3}{4}$.\n2. Complement of guessing right."
+    },
+    "174": {
+      "hint": "Mail orders = 300 minus the other channel counts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Mail = 300 − 120 − 105 − 45 = **30**.\n2. P = $\\frac{30}{300} = 0.1$.\n3. One channel per customer."
+    },
+    "175": {
+      "hint": "List dice numbers that are odd or prime — is every roll covered?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. **1** is not prime; **4** is even non-prime.\n2. Not all rolls fit → **not exhaustive**.\n3. Explain with examples."
+    },
+    "176": {
+      "hint": "White fraction = 1 − milk − dark; multiply by 200.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(white) = 1 − 0.52 − 0.31 = 0.17.\n2. White bars ≈ $0.17 \\times 200 = 34$.\n3. [Probability](mtlearn:word/probability) to count."
+    },
+    "177": {
+      "hint": "Third outcome needs at least 1 − 0.44 − 0.39.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Minimum P(C) = 1 − 0.44 − 0.39 = **0.17**.\n2. Exhaustive three-way split."
+    },
+    "178": {
+      "hint": "Jazz or rock = jazz + rock − both.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 39 out of 55 → P = $\\frac{39}{55}$.\n2. Use 22 + 25 − 8.\n3. Overlap once."
+    },
+    "179": {
+      "hint": "D grade probability = 1 minus A, B, C.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(D) = 1 − 0.12 − 0.28 − 0.35 = **0.25**.\n2. Four exhaustive grades."
+    },
+    "180": {
+      "hint": "Add the four given probabilities.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.08 + 0.12 + 0.25 + 0.55 = **1**.\n2. Valid exhaustive set → **true**."
+    },
+    "181": {
+      "hint": "Cyclists = 400 minus walk, bus, and car.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Cycle = 400 − 160 − 140 − 72 = **28**.\n2. P = $\\frac{28}{400} = 0.07$.\n3. One transport mode each."
+    },
+    "182": {
+      "hint": "Add one sixth and one third with a common denominator.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(A or B) = $\\frac{1}{6} + \\frac{1}{3} = \\frac{1}{6} + \\frac{2}{6} = \\frac{1}{2}$.\n2. Mutually exclusive."
+    },
+    "183": {
+      "hint": "Concession tickets = 90 minus adult minus child.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Concession = 90 − 54 − 27 = **9**.\n2. P = $\\frac{9}{90} = 0.1$.\n3. One ticket type each."
+    },
+    "184": {
+      "hint": "Snow probability = rain-or-snow minus rain.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(snow) = 0.31 − 0.22 = **0.09**.\n2. Mutually exclusive weather types."
+    },
+    "185": {
+      "hint": "Exactly one = biology-only plus chemistry-only.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Bio only = 110 − 40 = 70.\n2. Chem only = 95 − 40 = 55.\n3. Total 125 → P = $\\frac{125}{250} = 0.5$."
+    },
+    "186": {
+      "hint": "Do 0.26 and 0.74 add to 1?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 0.26 + 0.74 = **1** → complementary exhaustive pair.\n2. Explain **yes**."
+    },
+    "187": {
+      "hint": "X or Z means add P(X) and P(Z) — no Y overlap.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. **X, Y, and Z** are mutually exclusive labels on one pick.\n2. For **X or Z**, add only those two probabilities: 0.18 + 0.55 = **0.73**.\n3. You do not include Y because the event is not \"Y\"."
+    },
+    "188": {
+      "hint": "Check 60 + 70 + 20 + 30 = 180, then divide both by 180.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Counts sum to **180**.\n2. P(both) = $\\frac{20}{180} = \\frac{1}{9}$.\n3. Verify total first."
+    },
+    "189": {
+      "hint": "Paid downloads are the complement of free.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(paid) = 1 − 0.88 = **0.12**.\n2. Free or paid covers all downloads."
+    },
+    "190": {
+      "hint": "Do complements multiply to 0 or add to 1?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Complements **add** to 1, not multiply to 0.\n2. Example: 0.3 and 0.7 → product 0.21.\n3. Answer **false**."
+    },
+    "191": {
+      "hint": "Flowering or fruiting = flower + fruit − both.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. 260 out of 320 → P = $\\frac{260}{320} = \\frac{13}{16}$.\n2. Use 200 + 150 − 90."
+    },
+    "192": {
+      "hint": "P(6) = 1 minus the sum of P(1) through P(5).",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Sum of first five = 0.75.\n2. P(6) = **0.25**.\n3. Six faces exhaustive."
+    },
+    "193": {
+      "hint": "Spoiled ballots = 500 minus yes minus no.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Spoiled = 500 − 220 − 180 = **100**.\n2. P = $\\frac{100}{500} = 0.2$.\n3. One [outcome](mtlearn:word/outcome) per ballot."
+    },
+    "194": {
+      "hint": "B is everything that is not A when they are exhaustive.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. If **A and B are the only two outcomes** and they cannot happen together, they are complementary.\n2. P(B) = 1 − P(A) = 1 − 0.63 = **0.37**.\n3. Complementary pairs always sum to 1."
+    },
+    "195": {
+      "hint": "How many results can one lottery ticket have?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. One ticket → **one** [outcome](mtlearn:word/outcome).\n2. Win and lose cannot both happen and cover all cases.\n3. Mutually exclusive and exhaustive."
+    },
+    "196": {
+      "hint": "Add favourable outcomes for A and B, divide by 64.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. A or B = 20 + 24 = 44 outcomes.\n2. P = $\\frac{44}{64} = \\frac{11}{16}$.\n3. Mutually exclusive → add counts."
+    },
+    "197": {
+      "hint": "Add cat and dog probabilities — what's left?",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(no pet) = 1 − 0.42 − 0.38 = **0.2**.\n2. One pet or none at most."
+    },
+    "198": {
+      "hint": "Winter fans = 400 minus the other season counts.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. Winter = 400 − 90 − 130 − 80 = **100**.\n2. P = $\\frac{100}{400} = 0.25$.\n3. One favourite season each."
+    },
+    "199": {
+      "hint": "D is the fourth outcome — subtract A, B, C from 1.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(D) = 1 − 0.11 − 0.14 − 0.22 = **0.53**.\n2. Four exhaustive mutually exclusive outcomes."
+    },
+    "200": {
+      "hint": "Minibus share = 1 − coach − train; one pupil, one transport.",
+      "help": "**Topic guide:** [Learn this topic](mtlearn:probability/P4)\n\n1. P(minibus) = 1 − 0.48 − 0.31 = **0.21**.\n2. Three labels are **mutually exclusive** (one mode) and **exhaustive** (no other mode).\n3. State both ideas clearly."
+    }
   }
 }
